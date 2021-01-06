@@ -58,7 +58,8 @@ li p {
 }
 
 a {
-  color: inherit;
+  color: #007bff;
+  text-decoration: none;
   transition: color linear .15s;
 }
 
