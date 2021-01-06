@@ -32,7 +32,6 @@
   header p {
     color: #aaa;
     text-transform: uppercase;
-    font-family: Myrica, sans-serif;
     font-weight: 600;
   }
 </style>
