@@ -95,6 +95,12 @@ hr {
   background-color: #ccc;
 }
 
+br {
+  content: "";
+  display: block;
+  margin: 0.28125em 0;
+}
+
 code {
   font-family: consolas, menlo, inconsolata, monospace;
   font-size: calc(1em - 2px);
