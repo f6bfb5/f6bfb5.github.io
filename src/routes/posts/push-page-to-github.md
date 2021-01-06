@@ -35,6 +35,61 @@ layout: blog
 3. 建立 `gh-pages` branch: `git checkout -b gh-pages`
 4. push，完成
 
-### 其它
-
 當同時存在子資料夾與獨立專案的同名專案時，會以獨立專案的分支內容為主
+
+## 非原生網頁專案
+
+如果我們的網頁是透過如 vue-cli、Svelte 這類打包工具或編譯器產生，直接把原始碼丟上去是無法顯示的，這時我們可以透過 `gh-pages` 套件或是 GitHub Actions 來把產生出來的網頁推送上去
+
+### gh-pages 套件
+
+1. `npm i gh-pages --save-dev`
+1. 編輯 `package.json`，新增：
+
+```json
+{
+  // ...
+  "scripts": {
+    "predeploy": "[使用建置服務] build",
+    "deploy": "gh-pages -d dist"
+    ...
+  }
+  ...
+}
+```
+
+### GitHub Action 自動部署 build 資料夾到 gh-pages 分支
+
+- [Deploy to GitHub Pages · Actions · GitHub Marketplace](https://github.com/marketplace/actions/deploy-to-github-pages)
+
+1. 在專案資料夾根目錄底下新增一個 `.github` 資料夾
+2. 在裡頭新增一個 `workflows` 資料夾
+3. 在裡頭新增一個 `deploy-to-github-pages.yaml` 檔案
+4. 貼上以下截取自上方連結的內容
+5. 將檔案 push 到 GitHub 後，就可透過 GitHub Actions 把 build 完畢的檔案自動 branch 到 `gh-pages` 分支
+
+```yml
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          persist-credentials: false
+
+      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+        run: |
+          npm install
+          npm run build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: build # The folder the action should deploy.
+          CLEAN: true # Automatically remove deleted files from the deploy branch
+```
