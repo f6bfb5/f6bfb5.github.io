@@ -37,7 +37,10 @@
     <h2>{year}</h2>
     <ul>
       {#each posts.filter((p) => new Date(p.printDate).getFullYear() == year) as post}
-        <li><a rel="prefetch" href={post.slug}>{post.title}</a></li>
+        <li>
+          <a rel="prefetch" href={post.slug}>{post.title}</a>
+          <span>{post.printDate}</span>
+        </li>
       {/each}
     </ul>
   {/each}
