@@ -1,5 +1,9 @@
 <script>
   import Header from "../components/Header.svelte";
+  import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte";
+  import { stores } from "@sapper/app";
+
+  let ga_measurement_id = "G-T0DL367F24";
 
   export let segment;
 </script>
@@ -37,6 +41,7 @@
 </style>
 
 <div class="layout">
+  <GoogleAnalytics {stores} id={ga_measurement_id} />
   <Header {segment} />
 
   <main>
