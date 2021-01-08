@@ -3,7 +3,7 @@
   import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte";
   import { stores } from "@sapper/app";
 
-  let ga_measurement_id = "G-T0DL367F24";
+  let ga_measurement_id = "UA-114661136-2";
 
   export let segment;
 </script>
