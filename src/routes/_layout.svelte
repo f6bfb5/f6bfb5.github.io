@@ -2,8 +2,10 @@
   import Header from "../components/Header.svelte";
   import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte";
   import { stores } from "@sapper/app";
+  import GoogleAdsense from "../components/GoogleAdsense.svelte";
 
   let ga_measurement_id = "UA-114661136-2";
+  let ga_client_id = "ca-pub-9613661448556355";
 
   export let segment;
 </script>
@@ -42,6 +44,7 @@
 
 <div class="layout">
   <GoogleAnalytics {stores} id={ga_measurement_id} />
+  <GoogleAdsense id={ga_client_id} />
   <Header {segment} />
 
   <main>
