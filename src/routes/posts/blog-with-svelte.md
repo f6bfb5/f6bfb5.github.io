@@ -217,7 +217,7 @@ page.subscribe(({ path, params, query }) => {
 - [How to render your sitemap.xml file in your Svelte/Sapper blog - DEV Community](https://dev.to/zechtyounes/how-to-render-your-sitemap-xml-file-in-your-svelte-sapper-blog-2joh)
 - [How to create a Sapper / Svelte Sitemap - DEV Community](https://dev.to/kevinconti/how-to-create-a-sapper-svelte-sitemap-3490)
 
-1. 在 `src/routes/` 底下建立一個 `rss.js`：
+1. 在 `src/routes/` 底下建立一個 `rss.xml.js`：
 
 ```javascript
 import posts from "./_posts.js";
