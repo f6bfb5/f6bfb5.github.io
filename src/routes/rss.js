@@ -26,12 +26,13 @@ function toRFC3339(date) {
     timezoneOffset(date.getTimezoneOffset());
 }
 
-function renderXmlRssFeed(posts) {
-  return `<?xml version="2.0" encoding="utf-8" ?>
+const renderXmlRssFeed = (posts) =>
+  `<?xml version="1.0" encoding="utf-8" ?>
   <rss version="2.0">
     <channel>
       <title>f6bfb5's blog</title>
       <link href="${siteUrl}"/>
+      <description>newest post feed</description>
       <lastBuildDate>${toRFC3339(new Date())}</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
@@ -47,7 +48,6 @@ function renderXmlRssFeed(posts) {
       `).join('\n')}
     </channel>
   </rss>`
-}
 
 export async function get(req, res) {
   res.writeHead(200, {

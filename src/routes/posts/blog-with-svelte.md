@@ -254,12 +254,13 @@ function toRFC3339(date) {
   );
 }
 
-function renderXmlRssFeed(posts) {
-  return `<?xml version="2.0" encoding="utf-8" ?>
+const renderXmlRssFeed = (posts) =>
+  `<?xml version="1.0" encoding="utf-8" ?>
   <rss version="2.0">
     <channel>
       <title>Title Here</title>
       <link href="${siteUrl}"/>
+      <description>Description Here</description>
       <lastBuildDate>${toRFC3339(new Date())}</lastBuildDate>
       <managingEditor>example@example.com</managingEditor>
 
@@ -279,7 +280,6 @@ function renderXmlRssFeed(posts) {
         .join("\n")}
     </channel>
   </rss>`;
-}
 
 export async function get(req, res) {
   res.writeHead(200, {
@@ -291,3 +291,5 @@ export async function get(req, res) {
   res.end(feed);
 }
 ```
+
+2. 在網頁內加上 RSS 連結：`<a class={segment === 'rss' ? 'selected' : ''} href="rss">rss</a>`
