@@ -49,5 +49,5 @@
 <nav>
   <a class={segment === undefined ? 'selected' : ''} href=".">blog</a>
   <a class={segment === 'about' ? 'selected' : ''} href="about">about</a>
-  <a class={segment === 'rss' ? 'selected' : ''} href="rss">rss</a>
+  <a class={segment === 'rss' ? 'selected' : ''} href="rss.xml">rss</a>
 </nav>
