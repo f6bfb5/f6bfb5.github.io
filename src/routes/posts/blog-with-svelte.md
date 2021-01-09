@@ -167,3 +167,127 @@ jobs:
           FOLDER: __sapper__/export # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch
 ```
+
+### Google Analytics
+
+- [Google Analytics](https://analytics.google.com/analytics/web/)
+- [sapper-google-analytics - npm](https://www.npmjs.com/package/sapper-google-analytics)
+
+1. 申請 GA 帳戶，點擊左下角的 `Admin` 開啟控制面板
+2. 點擊 `Create Property` 建立資源，輸入名稱與選擇時區
+3. 點擊下方的 `Show advanced options`，啟用 `Create a Universal Analytics property` 選項
+4. 建立完成資源後，點擊 `Tracking Info` 底下的 `Tracking Code`，複製裡頭的 `Tracking ID`
+5. `npm i sapper-google-analytics`
+6. 編輯 `src/routes/_layout.svelte` 加上
+
+```html
+<script>
+  import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte";
+  import { stores } from "@sapper/app";
+
+  let ga_measurement_id = "UA-SOMETHING"; // 剛才複製的 Tracking ID
+</script>
+
+<GoogleAnalytics {stores} id="{ga_measurement_id}" />
+```
+
+完成後可以到 `Tracking Info` 裡的 `Tracking Code` 點選 `Send test traffic` 測試是否新增成功
+
+### Google AdSense
+
+（待）
+
+- [svelte - How do I call AdSense Auto Ads on route change for SPA (single page app)? - Stack Overflow](https://stackoverflow.com/questions/60722757/how-do-i-call-adsense-auto-ads-on-route-change-for-spa-single-page-app)
+- [Hooks · Issue #30 · sveltejs/sapper](https://github.com/sveltejs/sapper/issues/30)
+
+```javascript
+import { stores } from "@sapper/app";
+const { page, preloading, session } = stores();
+
+page.subscribe(({ path, params, query }) => {
+  // do amazing things
+});
+```
+
+### RSS
+
+- [Easy RSS Feed & Sitemap ✅](https://sapper-goals.netlify.app/goals/easy-rss-and-sitemap/)
+- [2019/06/29 - migrating to Sapper part 3 - RSS feed](https://lacourt.dev/2019/06/29)
+- [RSS/Atom and Site Map for Svelte/Sapper Blog - Part 3](https://cleverdev.codes/blog/rss-atom-and-site-map-for-svelte-sapper-blog-part-3/)
+- [How to render your sitemap.xml file in your Svelte/Sapper blog - DEV Community](https://dev.to/zechtyounes/how-to-render-your-sitemap-xml-file-in-your-svelte-sapper-blog-2joh)
+- [How to create a Sapper / Svelte Sitemap - DEV Community](https://dev.to/kevinconti/how-to-create-a-sapper-svelte-sitemap-3490)
+
+1. 在 `src/routes/` 底下建立一個 `rss.js`：
+
+```javascript
+import posts from "./_posts.js";
+let siteUrl = "";
+
+function toRFC3339(date) {
+  function pad(n) {
+    return n < 10 ? "0" + n : n;
+  }
+
+  function timezoneOffset(offset) {
+    var sign;
+    if (offset === 0) {
+      return "Z";
+    }
+    sign = offset > 0 ? "_" : "+";
+    offset = Math.abs(offset);
+    return sign + pad(Math.floor(offset / 60)) + ":" + pad(offset % 60);
+  }
+
+  return (
+    date.getFullYear() +
+    "-" +
+    pad(date.getMonth() + 1) +
+    "-" +
+    pad(date.getDate()) +
+    "T" +
+    pad(date.getHours()) +
+    ":" +
+    pad(date.getMinutes()) +
+    ":" +
+    pad(date.getSeconds()) +
+    timezoneOffset(date.getTimezoneOffset())
+  );
+}
+
+function renderXmlRssFeed(posts) {
+  return `<?xml version="2.0" encoding="utf-8" ?>
+  <rss version="2.0">
+    <channel>
+      <title>Title Here</title>
+      <link href="${siteUrl}"/>
+      <lastBuildDate>${toRFC3339(new Date())}</lastBuildDate>
+      <managingEditor>example@example.com</managingEditor>
+
+      ${posts
+        .map(
+          (post) => `
+        <item>
+          <title>${post.title}</title>
+          <link>${siteUrl}/blog/${post.slug}</link>
+          <pubDate>${toRFC3339(new Date(post.date))}</pubDate>
+          <description>
+              ${post.excerpt}
+          </description>
+        </item>
+      `
+        )
+        .join("\n")}
+    </channel>
+  </rss>`;
+}
+
+export async function get(req, res) {
+  res.writeHead(200, {
+    "Cache-Control": `max-age=0, s-max-age=${600}`, // 10 minutes
+    "Content-Type": "application/rss+xml",
+  });
+
+  const feed = renderXmlRssFeed(posts);
+  res.end(feed);
+}
+```
