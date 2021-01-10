@@ -4,10 +4,40 @@
       <title>f6bfb5's blog</title>
       <link href="https://f6bfb5.github.io"/>
       <description>newest post feed</description>
-      <lastBuildDate>2021-01-10T04:36:33Z</lastBuildDate>
+      <lastBuildDate>2021-01-10T23:04:19Z</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
+        <item>
+          <title>JavaScript 筆記 - D3.js</title>
+          <link>https://f6bfb5.github.io/blog/js-d3</link>
+          <pubDate>2021-01-11T00:07:30Z</pubDate>
+          <description>
+              
+          </description>
+        </item>
+      
+
+        <item>
+          <title>JavaScript 筆記 - 如何改寫</title>
+          <link>https://f6bfb5.github.io/blog/js-modern-feature-vs-bad-code</link>
+          <pubDate>2021-01-11T00:07:30Z</pubDate>
+          <description>
+              
+          </description>
+        </item>
+      
+
+        <item>
+          <title>JavaScript 筆記 - 資料型別轉換與資料處理</title>
+          <link>https://f6bfb5.github.io/blog/js-type-convert</link>
+          <pubDate>2021-01-11T00:07:30Z</pubDate>
+          <description>
+              
+          </description>
+        </item>
+      
+
         <item>
           <title>ACG 相關書籍</title>
           <link>https://f6bfb5.github.io/blog/ACG-books</link>
