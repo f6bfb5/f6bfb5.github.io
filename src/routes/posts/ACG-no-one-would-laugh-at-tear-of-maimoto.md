@@ -29,6 +29,8 @@ date: 2021-01-07T05:13:49.000Z
 
 不難想像明明不是討厭而不做，而是喜歡卻無法做，這樣的狀況有多椎心。
 
+<iframe width="560" height="315" title="君の涙を誰が笑えるだろうか" src="https://www.youtube.com/embed/vBqnIZFqEwg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 於是在終於來臨的大型活動，世界盃橄欖球賽，他在忙碌的時程中擠出了聲援日本代表的轉播節目時段，也親自到了活動現場。
 
 與蘇格蘭之戰，經過平手之後，日本成功進入了史上首次的決賽。在這歷史性的瞬間，在節目裡一同聲援的舞元啟介，與超過 8000 人的觀眾都止不住喜悅的淚水。

@@ -234,4 +234,4 @@ layout: blog
 - `example.com` 或 `example.net`、`example.org`、`example.edu` 都是根據 RFC 2606 第 3 部份保留的二級域名，無法被任何單位註冊使用，因此適合在開發測試時使用。
 - 其它的保留域名 (TLD) 還有 `.text`、`.example`、`.invalid`、`.localhost`
   - [予約済みドメイン (.example, .localhost, .test) について | blog.jxck.io](https://blog.jxck.io/entries/2017-09-27/example-local-test-domains.html)
-- 可以使用 [js.new](js.new) 或 [vue.new](vue.new)、[ts.new](ts.new) 網域快速開啟沙盒
+- 可以使用 [js.new](https://js.new) 或 [vue.new](https://vue.new)、[ts.new](https://ts.new) 網域快速開啟沙盒

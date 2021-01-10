@@ -67,3 +67,7 @@ layout: blog
 >
 > 本企畫為，回歸至這個原點上，在原有的「巨大機器人動畫」的魅力裡，
 > 重新挖掘並發現其全新的獨特之處。
+
+## 相關文章
+
+- [The End of Evangelion 中的恐嚇信](http://orgsun.blogspot.com/2011/05/end-of-evangelion.html)
