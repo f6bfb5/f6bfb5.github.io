@@ -18,42 +18,281 @@ layout: blog
 
 ## Cheatsheet
 
-| 名稱                                                                                                             | 說明 | 付費 |
-| ---------------------------------------------------------------------------------------------------------------- | ---- | ---- |
-| [Hyperpolyglot](http://hyperpolyglot.org/)                                                                       |      |      |
-| [Rico's cheatsheets](https://devhints.io/)                                                                       |      |      |
-| [tldr](https://tldr.sh/)                                                                                         |      |      |
-| [Learn X in Y minutes](https://learnxinyminutes.com/)                                                            |      |      |
-| [The-Documentation-Compendium](https://github.com/kylelobo/The-Documentation-Compendium)                         |      |      |
-| [Can I use](https://caniuse.com/)                                                                                |      |      |
-| [browserhacks](http://browserhacks.com/)                                                                         |      |      |
-| [YOU MIGHT NOT NEED JQUERY](http://youmightnotneedjquery.com/)                                                   |      |      |
-| [moving from jQuery to vanilla JavaScript](https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/) |      |      |
-| [1loc \| Favorite JavaScript single line of code](https://1loc.dev/)                                             |      |      |
-| [Build Your Own X](https://build-your-own-x.now.sh/)                                                             |      |      |
-| [Animista CSS Animations on demand](https://animista.net/)                                                       |      |      |
+| 名稱                                                                                                             | 說明                         | 付費 |
+| ---------------------------------------------------------------------------------------------------------------- | ---------------------------- | ---- |
+| [Hyperpolyglot](http://hyperpolyglot.org/)                                                                       |                              |      |
+| [Rico's cheatsheets](https://devhints.io/)                                                                       |                              |      |
+| [tldr](https://tldr.sh/)                                                                                         |                              |      |
+| [Learn X in Y minutes](https://learnxinyminutes.com/)                                                            |                              |      |
+| [The-Documentation-Compendium](https://github.com/kylelobo/The-Documentation-Compendium)                         |                              |      |
+| [Can I use](https://caniuse.com/)                                                                                |                              |      |
+| [browserhacks](http://browserhacks.com/)                                                                         |                              |      |
+| [YOU MIGHT NOT NEED JQUERY](http://youmightnotneedjquery.com/)                                                   |                              |      |
+| [moving from jQuery to vanilla JavaScript](https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/) |                              |      |
+| [1loc \| Favorite JavaScript single line of code](https://1loc.dev/)                                             |                              |      |
+| [Build Your Own X](https://build-your-own-x.now.sh/)                                                             |                              |      |
+| [Animista CSS Animations on demand](https://animista.net/)                                                       |                              |      |
+| [CSS Layout](https://csslayout.io/)                                                                              | 介紹 91 種常見排版元件的寫法 | FREE |
+| [Free Frontend](https://freefrontend.com/)                                                                       | 介紹各種內容元件的寫法       | FREE |
+
+<summary>
+
+## 查詢關鍵字
+
+搜尋各種效果相關資源時可用的關鍵字
+
+</summary>
+<details>
+
+### JS
+
+| 中文       | 英文             |
+| ---------- | ---------------- |
+| 箱燈效果   | lightbox         |
+| 頁籤       | tab              |
+| 幻燈片     | carousel         |
+| 對話框     | dialogs, modal   |
+| 跑馬燈     | marquee          |
+| 畫廊       | gallery          |
+| 提示框     | tooltips         |
+| 折疊選單   | accordion        |
+| 表單驗證   | form validation  |
+| 日曆       | datepicker       |
+| 滾動視差   | parallax         |
+| 滾動條     | scrollbars       |
+| 圖表       | chart            |
+| 瀑布流     | masonry          |
+| 滾動       | scroll           |
+| 導覽選單   | navigation, menu |
+| 文字特效   | text effect      |
+| 下拉選單   | dropdown         |
+| 進度條     | progress bar     |
+| 編輯器     | editor           |
+| 影片播放器 | video            |
+| 倒數計時   | counter          |
+| 放大鏡     | zoom             |
+| 自動完成   | autocomplete     |
+
+### CSS
+
+| 中文     | 英文         |
+| -------- | ------------ |
+| 滑動     | hover        |
+| 格線系統 | grid         |
+| 選單     | menu         |
+| 表格     | table        |
+| 按鈕     | button       |
+| 漸變     | transition   |
+| 動畫     | animation    |
+| 文字排板 | typography   |
+| 分頁     | pagination   |
+| 卡片     | card         |
+| 星等評價 | star ratings |
+| 網頁字體 | web font     |
+| 程式碼   | code         |
+
+### Layout
+
+| 中文       | 英文            |
+| ---------- | --------------- |
+| 版型       | theme, template |
+| 框架       | framework       |
+| 響應式設計 | responsive      |
+| 圖示       | icon            |
+| 時間軸     | timeline        |
+| 麵包屑     | breadcrumb      |
+| 標籤       | tag             |
+| 速記表     | cheatsheet      |
+| 元件、組件 | component       |
+| 輔助       | utility         |
+
+</details>
+
+<summary>
+
+## CSS 函式庫、框架
+
+- [あなたの CSS 力の助けになってくれる素晴らしい Web サイト 12 選 - Qiita](https://qiita.com/rana_kualu/items/5528b34d409b599bf599?utm_campaign=ab79178ee4-Qiita_newsletter_422_08_05_2020&utm_term=0_e44feaa081-ab79178ee4-34565689)
+
+</summary>
+<details>
+
+### Library
+
+| 名稱                                                   | 說明                  | 付費 |
+| ------------------------------------------------------ | --------------------- | ---- |
+| [css-doodle](https://css-doodle.com/)                  | 繪製隨機 pattern 圖形 | FREE |
+| [Animate.css](https://daneden.github.io/animate.css/)  |                       |      |
+| [Magic Animations](https://github.com/miniMAC/magic)   |                       |      |
+| [DynCSS](https://github.com/vzaccaria/DynCSS)          |                       |      |
+| [CSShake](https://github.com/elrumordelaluz/csshake)   |                       |      |
+| [Hover.css](https://github.com/IanLunn/Hover)          |                       |      |
+| [plyr](https://github.com/sampotts/plyr)               |                       |      |
+| [SocialButtons](https://github.com/t4t5/SocialButtons) |                       |      |
+| [slick.js](https://github.com/kenwheeler/slick)        |                       |      |
+| [Susy](https://oddbird.net/susy/)                      |                       |      |
+| [Loaders.css](https://connoratherton.com/loaders)      |                       |      |
+| [loading.io](https://loading.io/)                      |                       |      |
+
+### Framework / UI Library
+
+| 名稱                                                 | 說明                                             | 付費         |
+| ---------------------------------------------------- | ------------------------------------------------ | ------------ |
+| [Tailwindcss](https://tailwindcss.com/)              | Utility-First functional CSS framework           | FREE         |
+| [Material Design Lite](https://getmdl.io/index.html) | 由 Google 釋出符合 Material Design 的 UI library | FREE         |
+| [Materalize](https://materializecss.com/)            | 參照 Material Design 準則設計的 CSS framework    |              |
+| [Semantic UI](https://semantic-ui.com/)              |                                                  |              |
+| [Bootstrap](https://getbootstrap.com/)               | 目前世界人氣最高的 CSS framework                 | 有企業版主題 |
+| [Foundation](https://foundation.zurb.com/)           | 與 Bootstrap 並列知名的 CSS framework            |              |
+| [Bulma](https://bulma.io/)                           | 以免 JavaScript 相依為特徵                       |              |
+| [Pure CSS](https://purecss.io/)                      | 以輕量性為賣點的經典 CSS framework               |              |
+| [Tachyons](https://tachyons.io/)                     | functional CSS framework                         |              |
+| [Primer](https://primer.style/)                      | 由 GitHub 所釋出自家使用的 framework             |              |
+| [Rin](https://sanographix.github.io/rin/)            |                                                  |              |
+
+</details>
+
+<summary>
+
+## JavaScript 函式庫、框架
+
+</summary>
+<details>
+
+### 資料處理
+
+| 名稱                                                          | 說明 | 付費 |
+| ------------------------------------------------------------- | ---- | ---- |
+| [lodash](https://lodash.com/)                                 |      |      |
+| [moment.js](https://momentjs.com/)                            |      |      |
+| [Chart.js](https://www.chartjs.org/)                          |      |      |
+| [sheetjs](https://sheetjs.com/)                               |      |      |
+| [jExcel](https://github.com/paulhodel/jexcel)                 |      |      |
+| [newsdev/archieml-js](https://github.com/newsdev/archieml-js) |      |      |
+| [cheerio](https://github.com/cheeriojs/cheerio)               |      |      |
+| [delay](https://www.npmjs.com/package/delay)                  |      |      |
+
+### 圖型繪製
+
+| 名稱                                                               | 說明 | 付費 |
+| ------------------------------------------------------------------ | ---- | ---- |
+| [chroma.js](https://github.com/gka/chroma.js)                      |      |      |
+| [chromatic-sass](https://github.com/bugsnag/chromatic-sass)        |      |      |
+| [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii)    |      |      |
+| [dxm-text-animation](https://github.com/sujoyu/dxm-text-animation) |      |      |
+| [HIGHCHARTS](https://www.highcharts.com/)                          |      |      |
+
+### 動態效果
+
+| 名稱                                                                    | 說明 | 付費 |
+| ----------------------------------------------------------------------- | ---- | ---- |
+| [Three.js](https://threejs.org/docs/)                                   |      |      |
+| [anime.js](https://animejs.com/)                                        |      |      |
+| [mojs](https://github.com/mojs/mojs)                                    |      |      |
+| [velocity](https://github.com/julianshapiro/velocity)                   |      |      |
+| [GSAP 生態系](https://greensock.com/get-started-js)                     |      |      |
+| [TimelineMax](https://greensock.com/timelinemax)                        |      |      |
+| [Easeing](https://greensock.com/ease-visualizer)                        |      |      |
+| [CreateJS](https://createjs.com/)                                       |      |      |
+| [Pixi.JS](https://pixijs.io/pixi-filters/tools/demo/)                   |      |      |
+| [Wow.js](https://wowjs.uk/docs.html)                                    |      |      |
+| [Bouncs.js](https://github.com/tictail/bounce.js)                       |      |      |
+| [favico.js](https://github.com/ejci/favico.js)                          |      |      |
+| [Ani.js](https://github.com/anijs/anijs)                                |      |      |
+| [Slideout.js](https://github.com/Mango/slideout)                        |      |      |
+| [timesheet.js](https://github.com/sbstjn/timesheet.js)                  |      |      |
+| [popmotion](https://github.com/popmotion/popmotion)                     |      |      |
+| [vivus.js](https://github.com/maxwellito/vivus)                         |      |      |
+| [scrollreveal](https://github.com/jlmakes/scrollreveal)                 |      |      |
+| [kute.js](https://github.com/thednp/kute.js/)                           |      |      |
+| [typed.js](https://github.com/mattboldt/typed.js)                       |      |      |
+| [matter.js](http://brm.io/matter-js/)                                   |      |      |
+| [p5.js](https://p5js.org/)                                              |      |      |
+| [phaser](https://github.com/photonstorm/phaser)                         |      |      |
+| [Textillate.js](https://textillate.js.org/)                             |      |      |
+| [Bounce.js](http://bouncejs.com/)                                       |      |      |
+| [Dynamics.js](http://dynamicsjs.com/)                                   |      |      |
+| [particles.js](https://vincentgarreau.com/particles.js/)                |      |      |
+| [Move.js](https://visionmedia.github.io/move.js/)                       |      |      |
+| [jquery-hoverIntent](https://briancherne.github.io/jquery-hoverIntent/) |      |      |
+| [jQuery.countdown](https://github.com/hilios/jQuery.countdown)          |      |      |
+| [jquery.transit](https://github.com/rstacruz/jquery.transit)            |      |      |
+
+### 其它
+
+- [intro.js](https://introjs.com/)
+- [Darkmode.js](https://darkmodejs.learn.uno/)
+- [dat.gui](https://github.com/dataarts/dat.gui)
+- [scene.js](https://daybrush.com/scenejs/)
+
+### [quicksettings](https://github.com/bit101/quicksettings)
+
+`<script src="https://cdn.jsdelivr.net/npm/quicksettings@latest/quicksettings.min.js"></script>`
+
+```javascript
+const cat = new Cat();
+const settings = QuickSettings.create(window.innerWidth - 200);
+
+// input:text
+settings.addTest("Name", (v) => {
+  cat.setName(v);
+});
+// checkbox
+settings.addBoolean("Sleep", cat.isSleep, (v) => {
+  cat.setSleep(v);
+});
+// button
+settings.addButton("meow", () => {
+  cat.meow();
+});
+```
+
+### 前端框架
+
+| 名稱                                         | 說明                       | 付費 |
+| -------------------------------------------- | -------------------------- | ---- |
+| [alpine](https://github.com/alpinejs/alpine) | JavaScript 版本的 Tailwind |      |
+
+### 後端框架
+
+| 名稱                              | 說明                                       | 付費 |
+| --------------------------------- | ------------------------------------------ | ---- |
+| [Koa](https://koajs.com/)         | 較為精簡的 back-end framework              |      |
+| [NestJS](https://nestjs.com/)     | 設計靈感基於 Angular 的 back-end framework |      |
+| [AdonisJs](https://adonisjs.com/) | MVC back-end framework                     |      |
+
+### 全端框架
+
+| 名稱                                                                | 說明                            | 付費 |
+| ------------------------------------------------------------------- | ------------------------------- | ---- |
+| [Meteor](https://www.meteor.com/)                                   | Full-stack JavaScript framework |      |
+| [frourio](https://qiita.com/m_mitsuhide/items/00b139bb565dddf8006a) |                                 |      |
+
+</details>
 
 ## 設計用工具
 
-| 名稱                                                                                           | 說明                  | 付費 |
-| ---------------------------------------------------------------------------------------------- | --------------------- | ---- |
-| [Lunacy](https://icons8.com/lunacy)                                                            |                       |      |
-| [UICloud](http://ui-cloud.com/)                                                                | UI 素材資源的搜尋引擎 |      |
-| [Adobe Kuler](https://color.adobe.com/zh/create/color-wheel/)                                  | Adobe 的取色工具      |      |
-| [0to255](https://www.0to255.com/)                                                              | 色彩                  |      |
-| [HUE/360](http://hue360.herokuapp.com/)                                                        | 色彩                  |      |
-| [Color Hunt](https://colorhunt.co/)                                                            | 色彩                  |      |
-| [Happy Hues](https://www.happyhues.co/)                                                        | 色彩                  |      |
-| [Material Design Colors](https://www.materialui.co/colors)                                     | 色彩                  |      |
-| [Web Colour Data](http://webcolourdata.com/)                                                   | 色彩                  |      |
-| [CCHIMERA PALETTE CREATOR](http://saint11.org/tools/cchimera/index.html)                       | 色彩                  |      |
-| [Random Material Palette Generator - THREEBÙ](https://www.threebu.it/random-material-palette/) | 色彩                  |      |
-| [Fresh Background Gradients \| WebGradients.com 💎](https://webgradients.com/)                 | 色彩                  |      |
-| [カラーチャート/配色パターン - TAG index](https://www.tagindex.com/color/color_pattern.html)   | 色彩                  |      |
-| [SASS 變數色卡](https://codepen.io/frank890417/full/MpKebd)                                    | 色彩                  |      |
-| [reference for HTML Symbols](https://www.toptal.com/designers/htmlarrows/)                     | HTML 符號             |      |
-| [InVision](https://www.invisionapp.com/)                                                       | 設計流程溝通工具      |      |
-| [Zeplin—Collaboration and handoff for product teams](https://zeplin.io/)                       | 設計流程溝通工具      |      |
+| 名稱                                                                                         | 說明                  | 付費 |
+| -------------------------------------------------------------------------------------------- | --------------------- | ---- |
+| [Lunacy](https://icons8.com/lunacy)                                                          | Windows 版的 Sketch   |      |
+| [Zeplin](https://zeplin.io/)                                                                 | 設計流程溝通工具      |      |
+| [InVision](https://www.invisionapp.com/)                                                     | 設計流程溝通工具      |      |
+| [UICloud](http://ui-cloud.com/)                                                              | UI 素材資源的搜尋引擎 |      |
+| [ Responsively App](https://responsively.app/)                                               |                       |      |
+| [Adobe Kuler](https://color.adobe.com/zh/create/color-wheel/)                                | Adobe 的取色工具      |      |
+| [0to255](https://www.0to255.com/)                                                            | 色彩                  |      |
+| [HUE/360](http://hue360.herokuapp.com/)                                                      | 色彩                  |      |
+| [Color Hunt](https://colorhunt.co/)                                                          | 色彩                  |      |
+| [Happy Hues](https://www.happyhues.co/)                                                      | 色彩                  |      |
+| [Material Design Colors](https://www.materialui.co/colors)                                   | 色彩                  |      |
+| [Web Colour Data](http://webcolourdata.com/)                                                 | 色彩                  |      |
+| [CCHIMERA PALETTE CREATOR](http://saint11.org/tools/cchimera/index.html)                     | 色彩                  |      |
+| [Random Material Palette Generator](https://www.threebu.it/random-material-palette/)         | 色彩                  |      |
+| [Coolors](https://coolors.co/)                                                               |                       |      |
+| [WebGradients.com](https://webgradients.com/)                                                | 色彩                  |      |
+| [カラーチャート/配色パターン - TAG index](https://www.tagindex.com/color/color_pattern.html) | 色彩                  |      |
+| [SASS 變數色卡](https://codepen.io/frank890417/full/MpKebd)                                  | 色彩                  |      |
+| [reference for HTML Symbols](https://www.toptal.com/designers/htmlarrows/)                   | HTML 符號             |      |
 
 ## 素材
 
@@ -66,6 +305,16 @@ layout: blog
 | [progress-bar.dev](https://github.com/fredericojordan/progress-bar) | `![](progress-bar.dev/28/?title=progress)`                       |      |
 | [squarespace](https://www.squarespace.com/logo#)                    | 自動產生 LOGO                                                    |      |
 | [logaster](https://www.logaster.com/)                               | 自動產生 LOGO                                                    |      |
+
+### 圖示
+
+| 名稱                                    | 說明                 | 付費             |
+| --------------------------------------- | -------------------- | ---------------- |
+| [FontAwesome](https://fontawesome.com/) | 純 CSS 的向量圖示庫  | 有免費版與付費版 |
+| [CSS Icons](https://css.gg/)            | 開源 icons           | FREE             |
+| [Icônes](https://icones.netlify.app/)   | 各家 icon 資源總整理 |                  |
+| [iconmonstr](https://iconmonstr.com/)   |                      |                  |
+| [flaticon](https://www.flaticon.com/)   |                      |                  |
 
 ### 圖庫
 
@@ -91,6 +340,7 @@ layout: blog
 | [Glaze](https://www.glazestock.com/)                     | 插畫       |      |
 | [ManyPixels](https://www.manypixels.co/)                 | 插畫       |      |
 | [LOGASTER](https://www.777logos.com/)                    | 插畫       |      |
+| [いらすとや](https://www.irasutoya.com/)                 | 插畫       |      |
 | [Unsplash](https://unsplash.com/)                        | 照片       |      |
 | [KissCC0](https://www.kisscc0.com/)                      | 照片       |      |
 | [Burst](https://burst.shopify.com/)                      | 照片       |      |
@@ -101,7 +351,6 @@ layout: blog
 | [Photock](https://www.photock.jp/)                       | 照片       |      |
 | [ぱくたそ](https://www.pakutaso.com/)                    | 照片       |      |
 | [O-DAN（オーダン）](https://o-dan.net/ja/)               | 照片       |      |
-| [いらすとや](https://www.irasutoya.com/)                 | 插畫       |      |
 
 ### 音效
 
@@ -184,25 +433,20 @@ layout: blog
 
 ## 終端
 
-| 名稱                                                                                                            | 說明 | 付費 |
-| --------------------------------------------------------------------------------------------------------------- | ---- | ---- |
-| [アニメーションで学ぶ tmux 入門 ～精選 10 機能～](https://qiita.com/KoyanagiHitoshi/items/318d4b8ef3b4e5b87390) |      |      |
-| [Tmuxiator](https://github.com/tmuxinator/tmuxinator)                                                           |      |      |
-
-## Software
-
-| 名稱                                                              | 說明                                                                                                                                                                                                                                                                                                                                                      | 付費 |
-| ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| [Node.js](https://nodejs.org/en/download/)                        |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [Postman](https://www.postman.com/downloads/)                     |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [Insomnia](https://insomnia.rest/)                                |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [get-pip](https://bootstrap.pypa.io/get-pip.py)                   |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [cmder](http://cmder.net/)                                        | 結合多項軟體，包含 msysgit 與最重要的 ConEmu 和 [Clink](http://mridgers.github.io/clink/)， msysgit 提供 Git 相關工具與多項 Unix/Linux 環境下常用的指令列工具，例如 `less`、`ls`、`tar`、`unzip`、`md5sum`、`grep`、`sed`...etc.，`Clink` 將 GUN Readline 函式庫整合進原生的 Windows 命令提示字元視窗，擁有指令自動完成、查詢歷史指令、基礎行內編輯等功能 |      |
-| [ReactOS](https://www.reactos.org/)                               |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [tonymacx86](https://www.tonymacx86.com/)                         |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [IDEOne](https://ideone.com/Co5SQv)                               |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [LuaForWindows](https://code.google.com/archive/p/luaforwindows/) |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [mingw-w64](http://mingw-w64.org/doku.php/download/mingw-builds)  |                                                                                                                                                                                                                                                                                                                                                           |      |
+| 名稱                                                                                                            | 說明                                                                                                                                                                                                                                                                                                                                                      | 付費 |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| [アニメーションで学ぶ tmux 入門 ～精選 10 機能～](https://qiita.com/KoyanagiHitoshi/items/318d4b8ef3b4e5b87390) |                                                                                                                                                                                                                                                                                                                                                           |      |
+| [Tmuxiator](https://github.com/tmuxinator/tmuxinator)                                                           |                                                                                                                                                                                                                                                                                                                                                           |      |
+| [Node.js](https://nodejs.org/en/download/)                                                                      |                                                                                                                                                                                                                                                                                                                                                           |      |
+| [Postman](https://www.postman.com/downloads/)                                                                   |                                                                                                                                                                                                                                                                                                                                                           |      |
+| [Insomnia](https://insomnia.rest/)                                                                              |                                                                                                                                                                                                                                                                                                                                                           |      |
+| [get-pip](https://bootstrap.pypa.io/get-pip.py)                                                                 |                                                                                                                                                                                                                                                                                                                                                           |      |
+| [cmder](http://cmder.net/)                                                                                      | 結合多項軟體，包含 msysgit 與最重要的 ConEmu 和 [Clink](http://mridgers.github.io/clink/)， msysgit 提供 Git 相關工具與多項 Unix/Linux 環境下常用的指令列工具，例如 `less`、`ls`、`tar`、`unzip`、`md5sum`、`grep`、`sed`...etc.，`Clink` 將 GUN Readline 函式庫整合進原生的 Windows 命令提示字元視窗，擁有指令自動完成、查詢歷史指令、基礎行內編輯等功能 |      |
+| [ReactOS](https://www.reactos.org/)                                                                             |                                                                                                                                                                                                                                                                                                                                                           |      |
+| [tonymacx86](https://www.tonymacx86.com/)                                                                       |                                                                                                                                                                                                                                                                                                                                                           |      |
+| [IDEOne](https://ideone.com/Co5SQv)                                                                             |                                                                                                                                                                                                                                                                                                                                                           |      |
+| [LuaForWindows](https://code.google.com/archive/p/luaforwindows/)                                               |                                                                                                                                                                                                                                                                                                                                                           |      |
+| [mingw-w64](http://mingw-w64.org/doku.php/download/mingw-builds)                                                |                                                                                                                                                                                                                                                                                                                                                           |      |
 
 ## B2E
 

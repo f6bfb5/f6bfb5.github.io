@@ -11,6 +11,8 @@ layout: blog
 
 HTML（HyperText Markup Language）是撰寫網頁結構用的標記語言，「標記語言」的意思是，它是直接將特定寫法轉換成對應架構，HTML 便是將許多不同標籤（ex. `<tag> ... </tag>`）轉換成瀏覽器上的內容架構和元素。
 
+- [HTML Standard 日本語訳](https://momdo.github.io/html/)
+
 ## HTML 的四大基本結構
 
 一份基礎的 HTML 文件大概長得像是：
@@ -290,7 +292,7 @@ HTML（HyperText Markup Language）是撰寫網頁結構用的標記語言，「
 - [Day30 - SVG 完整教學 30+1 天 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10161004)
 - [設計師對 SVG 應該有的觀念](https://intersection.tw/%E8%A8%AD%E8%A8%88%E5%B8%AB%E5%B0%8D-svg-%E6%87%89%E8%A9%B2%E6%9C%89%E7%9A%84%E8%A7%80%E5%BF%B5-38ba64b48b32)
 - [SVG Path Builder](https://codepen.io/anthonydugois/pen/mewdyZ)
-- [Get Waves – Create SVG waves for your next design](https://getwaves.io/)
+- [Get Waves - Create SVG waves for your next design](https://getwaves.io/)
 
 ##### 1. 基本介紹
 
@@ -407,5 +409,5 @@ SVG 有提供幾種基本形狀供使用：
 ### Aria 標籤
 
 - [前端的基礎修養：aria-label - Just lepture](https://lepture.com/zh/2015/fe-aria-label)
-- [ARIA 標籤和關係  |  Web  |  Google Developers](https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships?hl=zh-tw)
+- [ARIA 標籤和關係](https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships?hl=zh-tw)
 - [實作無障礙網頁功能：麵包屑 Breadcrumb - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10222429)

@@ -11,7 +11,7 @@ layout: blog
 - [Webpack 筆記整理 (一)](https://medium.com/@cos214159/webpack-%E7%AD%86%E8%A8%98%E6%95%B4%E7%90%86-%E4%B8%80-7fc63bcf1ecb)
 - [Webpack をシンプルに理解しよう](https://qiita.com/yusuke_ten/items/a40ec089c55599ce1b3e)
 
-## 什麼時候不要使用 npm install
+## 什麼時候不能使用 npm install
 
 - [あなたが npm install をしてはいけない時](https://qiita.com/jigengineer/items/2b15797b850179cb8be0)
 
