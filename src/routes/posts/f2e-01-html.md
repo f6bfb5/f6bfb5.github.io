@@ -182,34 +182,58 @@ HTML（HyperText Markup Language）是撰寫網頁結構用的標記語言，「
 #### Input 輸入
 
 - `<input>` 元素用來配置表單內的輸入欄位
-- 可以使用 `type` 屬性來配置各種不同類型的輸入欄位。
+
+##### type
+
+- 可以使用 `type` 屬性來配置各種不同類型的輸入欄位
 - `type` 可用 3 種類型分類： 1. 按鈕、2. 輸入欄位、3. 其它
-  <br>├ 1. 按鈕：
-  <br>│ `submit`：傳送表單
-  <br>│ `rest`：重設表單
-  <br>│ `button`：通用按鈕
-  <br>│ `image`：圖片式傳送按鈕
-  <br>├ 2. 輸入欄位：
-  <br>│ `text`：單行文字
-  <br>│ `search`：搜尋關鍵字
-  <br>│ `tel`：電話
-  <br>│ `url`：網址
-  <br>│ `email`：電子信箱
-  <br>│ `password`：密碼
-  <br>│ `datetime`：UTC 日期時間
-  <br>│ `datetime-local`：本地日期時間
-  <br>│ `date`：日期
-  <br>│ `month`：月份
-  <br>│ `week`：星期
-  <br>│ `time`：時間
-  <br>│ `number`：數值
-  <br>│ `range`：範圍
-  <br>│ `color`：顏色
-  <br>├ 3. 其它：
-  <br>│ `checkbox`：複選方塊
-  <br>│ `radio`：單選按鈕
-  <br>│ `file`：檔案選擇
-  <br>└ `hidden`：隱藏欄位
+
+###### 1. 按鈕：
+
+- `submit`：傳送表單
+- `rest`：重設表單
+- `button`：通用按鈕
+- `image`：圖片式傳送按鈕
+
+###### 2. 輸入欄位：
+
+- `text`：單行文字
+- `search`：搜尋關鍵字
+- `tel`：電話
+- `url`：網址
+- `email`：電子信箱
+- `password`：密碼
+- `datetime`：UTC 日期時間
+- `datetime-local`：本地日期時間
+- `date`：日期
+- `month`：月份
+- `week`：星期
+- `time`：時間
+- `number`：數值
+- `range`：範圍
+- `color`：顏色
+
+3. 其它：
+
+- `checkbox`：複選方塊
+- `radio`：單選按鈕
+- `file`：檔案選擇
+- `hidden`：隱藏欄位
+
+##### inputmode
+
+- 可以使用 `inputmode` 屬性指定行動裝置上虛擬鍵盤的配置模式
+- `none`：不顯示鍵盤
+- `text`：預設鍵盤，視使用者語系決定
+- `url`：網址，將底下替換為 `.`、`/`、`.com`
+- `email`：電子信箱，將底下替換為 `space`、`@`、`.`
+- `numeric`：整數，不包含任何數值符號
+- `search`：搜尋功能，會將 `回傳／傳送` 鍵替換為 `搜尋`，並可能有加上相關符號
+- `tel`：電話號碼，除了 `0-9` 之外還有 `*` 和 `#`
+- `deciaml`：小數，會再有 `.` 或 `,` 這類可以標記小數的符號
+
+##### 其餘 input 屬性
+
 - `name`：欄位識別用的名稱，建議與 `id` 一同使用。
 - `value`：欄位預設值，`checkbox` 與 `radio` 類型的欄位此屬性不可為空。
 - `maxlength`：指定欄位寬度，若為文字類型欄位則此數值為文字字數寬度，其於則為像素寬度。

@@ -46,34 +46,34 @@ layout: blog
 - `.scn`: 場景切換。
 - `.cam`: 鏡頭效果。
 
-### 匯入檔案
+### 匯入影片檔案
 
 - [L-SMASH Works File Reader (lwinput.aui)](http://pop.4-bit.jp/?page_id=7929)
-  可讀取許多泛用格式的影片檔案。
-  解說：[L-SMASH Works とは？導入方法と使い方](http://aviutl.info/l-smash-works/)
+  <br>可讀取許多泛用格式的影片檔案。
+  <br>解說：[L-SMASH Works とは？導入方法と使い方](http://aviutl.info/l-smash-works/)
 - [PSDToolKit](https://oov.github.io/aviutl_psdtoolkit/index.html)
-  可讀取 PSD 與字幕檔案。
+  <br>可讀取 PSD 與字幕檔案，搭載許多便利功能插件。
 
 ### 輸出檔案
 
 - [拡張 x264 出力(GUI) ex (x264guiEx)](https://rigaya34589.blog.fc2.com/)
-  解說：[【AviUtl】x264guiEx の導入方法と使い方(2/3)【MP4 出力】](http://aviutl.info/x264guiex-intro/)
+  <br>解說：[【AviUtl】x264guiEx の導入方法と使い方(2/3)【MP4 出力】](http://aviutl.info/x264guiex-intro/)
 - [ffmpeg / avconv 出力(ffmpegOut.auo)](http://rigaya34589.blog135.fc2.com/)
-  解說：[【AviUtl】FFmpegOUT で WebM･ASF･TS 形式の動画をエンコードする方法【出力プラグイン】](http://aviutl.info/ffmpegout/)
+  <br>解說：[【AviUtl】FFmpegOUT で WebM･ASF･TS 形式の動画をエンコードする方法【出力プラグイン】](http://aviutl.info/ffmpegout/)
 - [WMV 出力](http://www.geocities.jp/aji_0/)
-  解說：[【AviUtl】WMV 形式で動画をエンコードする方法【出力プラグイン】](http://aviutl.info/wmv-puraguinn/)
+  <br>解說：[【AviUtl】WMV 形式で動画をエンコードする方法【出力プラグイン】](http://aviutl.info/wmv-puraguinn/)
 - [PNG 出力](http://auls.client.jp/)
 - [動画コーデックの種類と違い(H.264･VP9･MPEG･Xvid･DivX･WMV 等)【比較】](http://aviutl.info/ko-dekku-tigai/)
-  codec 比較。
+  <br>codec 比較。
 
 ### 畫面濾鏡
 
 - [NL-Means Light](http://nilposoft.info/aviutl-plugin/)
-  除噪。
+  <br>除噪。
 - [SharpenResize](http://nilposoft.info/aviutl-plugin/)
-  能夠將縮放後的影片畫面處理得更加乾淨銳利，並可套用特定遮罩及除噪。
+  <br>能夠將縮放後的影片畫面處理得更加乾淨銳利，並可套用特定遮罩及除噪。
 - [WarpSharpMT](http://www40.atwiki.jp/aviutl41991/pages/37.html)
-  解說：[【AviUtl】輪郭補正で動画の画質を向上させる方法【シャープ系フィルタプラグイン】](http://aviutl.info/sharp/)
+  <br>解說：[【AviUtl】輪郭補正で動画の画質を向上させる方法【シャープ系フィルタプラグイン】](http://aviutl.info/sharp/)
 - [【AviUtl ＋ x264guiEx】ニコニコ新仕様用 自己流エンコード設定【（く）対応】](http://ch.nicovideo.jp/suisyou_P/blomaga/ar1137037)
 - [輪郭補正で動画の画質を向上させる方法](http://aviutl.info/sharp/)
 
@@ -94,7 +94,7 @@ layout: blog
 - [AviUtl Script 開発無料カウンター](http://niconicotetu.web.fc2.com/download_page.html)
 - [VHS 風](https://twitter.com/sdkd500/status/1042352681241591810?s=21)
 - [【AviUtl】おすすめの便利プラグインまとめ【2018】](http://aviutl.info/plugins/#i-18)
-  推薦插件懶人包。
+  <br>推薦插件懶人包。
 
 ### TA-Normal
 
@@ -115,7 +115,7 @@ layout: blog
 
 1. X 距離: `obj.ox` or `obj.ox*2`
 2. X 距離: `-obj.ox`
-   トラッキング
+   <br>トラッキング
 3. Y 距離: `obj.oy`
 4. X 距離: `obj.ox` + Y 距離: `obj.oy`
 5. X 距離: `-obj.ox` + Y 距離: `-obj.oy`
@@ -130,7 +130,7 @@ layout: blog
 14. X 距離: `obj.index%2 * 200` + Y 距離 `(1+obj.index)%2 * 200`
 15. Y 距離: `0 * math.sin(math.pi/2*obj.index)`
 16. Y 距離: `0 * math.sin(math.pi/2*obj.index)`
-    \+ X 距離 `200 * math.cos(math.pi/2*obj.index)`
+    <br>\+ X 距離 `200 * math.cos(math.pi/2*obj.index)`
 17. Y 距離: `rand(-300, 300, obj.index, 0)`
 18. Y 距離: `(obj.index==5 and 200) or 0`
 19. Y 距離: `(obj.index<5 and 300) or -200`
@@ -139,27 +139,20 @@ layout: blog
 
 - [DelayDraw2 - AviUtl](https://scrapbox.io/aviutl/DelayDraw2)
 
-### Shortkey
+### 常用快捷鍵
 
-`Ctrl + N`: 建立新專案
-
-`S`: 切割選擇物件
-
-`R`: 新增中間點
-
-`E`: 新增效果
-
-`T`: 更改選擇物件時間長度
-
-`TAB`: 切換至當前幀的物件
-
-`W`: 切換至下個物件
-
-`Q`: 切換至前個物件
-
-`G`: 切換格線系統顯示
-
-`Ctrl+V`: 顯示幀外區域
+| 按鍵       | 功能                 |
+| ---------- | -------------------- |
+| `Ctrl + N` | 建立新專案           |
+| `S`        | 切割選擇物件         |
+| `R`        | 新增中間點           |
+| `E`        | 新增效果             |
+| `T`        | 更改選擇物件時間長度 |
+| `TAB`      | 切換至當前幀的物件   |
+| `W`        | 切換至下個物件       |
+| `Q`        | 切換至前個物件       |
+| `G`        | 切換格線系統顯示     |
+| `Ctrl+V`   | 顯示幀外區域         |
 
 ### [個別オブジェクト指定制御スクリプト](https://www.nicovideo.jp/watch/sm33005753)
 
@@ -216,54 +209,7 @@ Pattern:
 
 - [cossy ｜ note](https://note.com/cossy)
 
-## 其他工具
-
-- [Open Broadcaster Software](https://obsproject.com/ja/download)
-  現代首選的免費直播軟體，用來錄影也非常方便。
-- [Avidemux](http://avidemux.sourceforge.net/download.html)
-  若覺得 AviUtl 的前置作業仍然太過繁複，只想上簡單的字幕，
-  或只想幫影片做簡單的剪接可以選擇這個工具。
-- [Audcaity](https://www.audacityteam.org/)
-  好用的免費聲音剪輯後製軟體，後製影片發現聲音太小
-  或是聲音大小不一時，常會使用 Compressor 來解決。
-
-```
-去除噪音：
-a. 選取噪音的區間
-b. 效果→Noice Reduction，點選取得噪音設定檔
-c. 任意點選視窗內的其他位置解除選取狀態，
-    再次點開效果→Noice Reduction之後，
-    將Sensitivity設定在4.0左右後點選OK便可。
-
-校平器：
-a. 效果→校平器
-在不會破音的程度下增加音量大小，請依照自己的主觀程度進行調整。
-
-壓縮器：
-a. 效果→壓縮器
-    會將波形較大的聲音下壓，並將較小的聲音放大，
-    讓整體的聲音盡可能保持在差不多的大小。
-    因此即使不進行效平器的效果套用也是可以的。
-    點選後出現的圖表橫軸為現在的音量，縱軸為套用壓縮器後的音量。
-
-```
-
-- [Audacity で実況音声を聴きやすくする技術](http://ch.nicovideo.jp/acrisol/blomaga/ar821397)
-- [コンプレッサー](http://taira-komori.jpn.org/06compressor.html)
-- [ノーマライズとは](http://soundengine.jp/wordpress/tips/glossary/403/)
-- [Subtitle Edit](http://www.nikse.dk/subtitleedit/)
-  編輯字幕用軟體，個人常用與 PSDToolKit 製作影片。
-
-```
-常用快捷鍵一覽：
-F8：播放/暫停影片
-F9：增加新字幕
-F11：設定字幕開始位置
-F12：設定字幕結束位置
-F5：播放被選取的字幕
-Alt+↑/↓：選取上/下一句字幕
-
-```
+## 網路資源筆記
 
 ### [MOTION PERIODIC TABLE](http://foxcodex.html.xdomain.jp/)
 

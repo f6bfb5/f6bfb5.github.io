@@ -11,27 +11,20 @@ layout: blog
 
 ## 系統
 
-| 名稱                                                                                                               | 說明                             | 付費 |
-| ------------------------------------------------------------------------------------------------------------------ | -------------------------------- | ---- |
-| [wox](http://www.wox.one/)                                                                                         | 快速執行程式                     |      |
-| [Divvy](https://mizage.com/divvy/)                                                                                 | 切割視窗位置                     |      |
-| [Rufus](https://rufus.ie/)                                                                                         | 簡易建立可開機 USB 裝置          |      |
-| [TreeSize](https://www.jam-software.com/treesize_free/)                                                            | 分析硬碟檔案分佈                 |      |
-| [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)                                      | 對弱點目標具作用的搜尋字串資料庫 |      |
-| [SysinternalsSuite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)                    | 微軟發佈的疑難排解工具套件       |      |
-| [Auslogics Disk Defrag](https://www.auslogics.com/en/software/disk-defrag/)                                        |                                  |      |
-| [4gb_patch](https://ntcore.com/?page_id=371)                                                                       |                                  |      |
-| [SoftEther VPN Client](https://www.vpngate.net/cn/howto_softether.aspx)                                            |                                  |      |
-| [Debug Monitor Tool](<https://docs.microsoft.com/ja-jp/previous-versions/bb896647(v=msdn.10)?redirectedfrom=MSDN>) |                                  |      |
-| [Ctrl2cap](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap)                                       | 切換 Caps Lock 鍵成 Contorl 鍵   |      |
-| [Radare2](https://www.giantbranch.cn/2018/02/02/%E7%AE%80%E5%8D%95%E5%AE%9E%E8%B7%B5Radare2/)                      |                                  |      |
-
-### 驅動
-
-| 名稱                                                                                                               | 說明 | 付費 |
-| ------------------------------------------------------------------------------------------------------------------ | ---- | ---- |
-| [ASUS Xonar Essence STX Audio](https://www.asus.com/tw/Sound/Xonar_Essence_STX/HelpDesk_Download/)                 |      |      |
-| [PS3 Eye Universal Driver](https://github.com/psmoveservice/PSMoveService/wiki/PSEye-Software-Setup-%28Windows%29) |      |      |
+| 名稱                                                                                                               | 說明                             | 付費     |
+| ------------------------------------------------------------------------------------------------------------------ | -------------------------------- | -------- |
+| [wox](http://www.wox.one/)                                                                                         | 快速執行程式                     | FREE     |
+| [Divvy](https://mizage.com/divvy/)                                                                                 | 切割視窗位置                     | 有付費版 |
+| [Rufus](https://rufus.ie/)                                                                                         | 簡易建立可開機 USB 裝置          | FREE     |
+| [TreeSize](https://www.jam-software.com/treesize_free/)                                                            | 分析硬碟檔案空間佔用分佈         | FREE     |
+| [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)                                      | 對弱點目標具作用的搜尋字串資料庫 | FREE     |
+| [SysinternalsSuite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)                    | 微軟發佈的疑難排解工具套件       | FREE     |
+| [Auslogics Disk Defrag](https://www.auslogics.com/en/software/disk-defrag/)                                        | 硬碟重組                         | 有付費版 |
+| [4gb_patch](https://ntcore.com/?page_id=371)                                                                       |                                  |          |
+| [SoftEther VPN Client](https://www.vpngate.net/cn/howto_softether.aspx)                                            |                                  |          |
+| [Debug Monitor Tool](<https://docs.microsoft.com/ja-jp/previous-versions/bb896647(v=msdn.10)?redirectedfrom=MSDN>) |                                  |          |
+| [Ctrl2cap](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap)                                       | 切換 Caps Lock 鍵成 Contorl 鍵   | FREE     |
+| [Radare2](https://www.giantbranch.cn/2018/02/02/%E7%AE%80%E5%8D%95%E5%AE%9E%E8%B7%B5Radare2/)                      |                                  |          |
 
 ## 編輯
 
@@ -39,39 +32,60 @@ layout: blog
 
 | 名稱                                                                                     | 說明                                          | 付費 |
 | ---------------------------------------------------------------------------------------- | --------------------------------------------- | ---- |
-| [EDGE](http://takabosoft.com/win)                                                        | 點陣繪圖軟體，支援至全彩色                    |      |
-| [GraphicsGale](https://graphicsgale.com/us/)                                             | 點陣繪圖軟體，支援至 256 色，製作動畫較為方便 |      |
-| [Tegaki](https://www.kannagi.net/TEGAKI/)                                                | 可與推特聯動的速發塗鴉軟體                    |      |
-| [PHJCI](https://bach.ccu.edu.tw/Site/nu13754/Media/dir_52aecfed62c6f/dir_52aecfef57e4c/) | 繪製 PTT 用的 ASCII 圖像工具                  |      |
+| [EDGE](http://takabosoft.com/win)                                                        | 點陣繪圖軟體，支援至全彩色                    | FREE |
+| [GraphicsGale](https://graphicsgale.com/us/)                                             | 點陣繪圖軟體，支援至 256 色，製作動畫較為方便 | FREE |
+| [Tegaki](https://www.kannagi.net/TEGAKI/)                                                | 可與推特聯動的速發塗鴉軟體                    | FREE |
+| [PHJCI](https://bach.ccu.edu.tw/Site/nu13754/Media/dir_52aecfed62c6f/dir_52aecfef57e4c/) | 繪製 PTT 用的 ASCII 圖像工具                  | FREE |
 
-### 後製
+### 圖片處理
 
-| 名稱                                                      | 說明               | 付費 |
-| --------------------------------------------------------- | ------------------ | ---- |
-| [GIMP](https://www.gimp.org/downloads/)                   |                    |      |
-| [Affinity Photo](https://affinity.serif.com/en-gb/photo/) |                    |      |
-| [PhotoSift](https://www.rlvision.com/photosift/about.php) |                    |      |
-| Ralpha                                                    | 批次化處理圖片工具 |      |
-| [ウゴツール](https://mclover.hateblo.jp/UgoTool)          |                    |      |
+| 名稱                                                                          | 說明                   | 付費 |
+| ----------------------------------------------------------------------------- | ---------------------- | ---- |
+| [GIMP](https://www.gimp.org/downloads/)                                       | 免費開源的圖片處理軟體 | FREE |
+| [Affinity Photo](https://affinity.serif.com/en-gb/photo/)                     | PhotoShop 的類似軟體   | ＄   |
+| [PhotoSift](https://www.rlvision.com/photosift/about.php)                     | 使用鍵盤快速分類圖片   | FREE |
+| [Ralpha Image Resizer](https://www.vector.co.jp/soft/winnt/art/se487522.html) | 批次化處理圖片         | FREE |
+| [ウゴツール](https://mclover.hateblo.jp/UgoTool)                              | 產生類似動態塗鴉的效果 | FREE |
 
-### 影片
+### 影音
 
-| 名稱                                                                        | 說明 | 付費 |
-| --------------------------------------------------------------------------- | ---- | ---- |
-| [GANTAI](https://fairway.ne.jp/gantai/)                                     |      |
-| [AnimeEffects](http://animeeffects.org/ja/)                                 |      |
-| [Avidemux](http://avidemux.sourceforge.net/)                                |      |
-| [Delir](https://delir.studio/)                                              |      |
-| [LosslessCut](https://github.com/mifi/lossless-cut/releases)                |      |
-| [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) |      |
-| [Audacity](https://sourceforge.net/projects/audacity/)                      |      |
-| [Mkvtoolnix](https://mkvtoolnix.download/)                                  |      |
-| [AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)                       |      |
-| [Premiere Pro](https://www.adobe.com/jp/products/premiere.html)             |      |
+| 名稱                                                                        | 說明                                  | 付費     |
+| --------------------------------------------------------------------------- | ------------------------------------- | -------- |
+| [AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)                       | 日本愛用的免費影片編輯軟體            | FREE     |
+| [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) | 以顏色校正功能聞名的影片剪輯軟體      | 有付費版 |
+| [Shotcut](https://shotcut.org/)                                             | 開源免費跨平台的影片剪輯軟體          | FREE     |
+| [Avidemux](http://avidemux.sourceforge.net/)                                | 簡易功能的開源影片編輯軟體            | FREE     |
+| [LosslessCut](https://github.com/mifi/lossless-cut/releases)                | 無失真的影片剪輯軟體                  | FREE     |
+| [Delir](https://delir.studio/)                                              | 開源的影片特效後製軟體                | FREE     |
+| [NATRON](https://natrongithub.github.io/)                                   | 注重於 Motion Graphics 的影片特效軟體 | FREE     |
+| [Cavalry](https://cavalry.scenegroup.co/)                                   | 類似 AfterEffects 的 影片特效軟體     | 有付費版 |
+| [AnimeEffects](http://animeeffects.org/ja/)                                 | 可以處理圖片自由變型的後製軟體        | FREE     |
+| [GANTAI](https://fairway.ne.jp/gantai/)                                     | 快速加上馬賽克                        | FREE     |
+| [Audacity](https://sourceforge.net/projects/audacity/)                      | 開源的聲音編輯軟體                    | FREE     |
+| [Mkvtoolnix](https://mkvtoolnix.download/)                                  | 處理 Mastroska 檔案用的工具           | FREE     |
+| [SubtitleEdit](https://www.nikse.dk/subtitleedit)                           | 影片字幕編輯軟體                      | FREE     |
+| [YTSubConverter](https://github.com/arcusmaximus/YTSubConverter)            | 將字幕軟體特效轉為 Youtube 相容的形式 |          |
 
-- [SubtitleEdit](https://www.nikse.dk/subtitleedit)
-- [YTSubConverter](https://github.com/arcusmaximus/YTSubConverter)
 - [【字幕進階】使用.ytt 格式製作 Youtube 炫炮字幕（新增 1.3.4 版新功能教學！）](https://forum.gamer.com.tw/C.php?bsn=60608&snA=310&tnum=4)
+- [Audacity で実況音声を聴きやすくする技術](http://ch.nicovideo.jp/acrisol/blomaga/ar821397)
+
+#### SubtitleEdit 常用快捷
+
+| 按鍵    | 功能              |
+| ------- | ----------------- |
+| F8      | 播放/暫停影片     |
+| F9      | 增加新字幕        |
+| F11     | 設定字幕開始位置  |
+| F12     | 設定字幕結束位置  |
+| F5      | 播放被選取的字幕  |
+| Alt+↑/↓ | 選取上/下一句字幕 |
+
+### 手繪動畫
+
+| 名稱                                                                     | 說明                         | 付費     |
+| ------------------------------------------------------------------------ | ---------------------------- | -------- |
+| [OpenToonz](https://opentoonz.github.io/index.html)                      | 吉卜力愛用的開源動畫製作軟體 | FREE     |
+| [OPTPiX SpriteStudio](https://www.webtech.co.jp/spritestudio/index.html) | 製作 Live2D 動畫專用的工具   | 有付費版 |
 
 ### 3DCG
 

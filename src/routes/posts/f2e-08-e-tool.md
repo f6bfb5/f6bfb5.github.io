@@ -312,7 +312,7 @@ settings.addButton("meow", () => {
 | --------------------------------------- | -------------------- | ---------------- |
 | [FontAwesome](https://fontawesome.com/) | 純 CSS 的向量圖示庫  | 有免費版與付費版 |
 | [CSS Icons](https://css.gg/)            | 開源 icons           | FREE             |
-| [Icônes](https://icones.netlify.app/)   | 各家 icon 資源總整理 |                  |
+| [Icones](https://icones.netlify.app/)   | 各家 icon 資源總整理 |                  |
 | [iconmonstr](https://iconmonstr.com/)   |                      |                  |
 | [flaticon](https://www.flaticon.com/)   |                      |                  |
 
@@ -383,6 +383,7 @@ settings.addButton("meow", () => {
 - [ProductionCrate](https://www.productioncrate.com/)
 - [coverr](http://www.coverr.co/)
 - [PEXELSVIDEOS](https://videos.pexels.com/)
+- [えふすと f-stock](https://f-stock.net/)
 - [キャターズアイフリー素材チャンネル・CG](https://www.youtube.com/user/CATTeRZEYE/videos)
 - [ニコニ･コモンズ](http://commons.nicovideo.jp/)
 - [#13 : 動画素材 ① ｜ cossy ｜ note](https://note.com/cossy/n/nac2b21f003dc)
@@ -450,14 +451,16 @@ settings.addButton("meow", () => {
 
 ## B2E
 
-| 名稱                                                                      | 說明                              | 付費 |
-| ------------------------------------------------------------------------- | --------------------------------- | ---- |
-| [DBeaver](https://dbeaver.io/)                                            | 跨平台 SQL 客戶端和資料庫管理工具 | FREE |
-| [drawSQL](https://drawsql.app/)                                           | SQL 可視化                        |      |
-| [ngrok](https://ngrok.com/)                                               | 開放內網                          |      |
-| [localtunnel](https://github.com/localtunnel/localtunnel)                 | 開放內網                          |      |
-| [API 實作(一)：規劃 RESTful API 要注意什麼](https://noob.tw/restful-api/) |                                   |      |
-| [SSL Labs](https://www.ssllabs.com/)                                      | 安全性檢查                        |      |
+| 名稱                                                      | 說明                              | 付費 |
+| --------------------------------------------------------- | --------------------------------- | ---- |
+| [DBeaver](https://dbeaver.io/)                            | 跨平台 SQL 客戶端和資料庫管理工具 | FREE |
+| [drawSQL](https://drawsql.app/)                           | SQL 可視化                        |      |
+| [ngrok](https://ngrok.com/)                               | 開放內網                          |      |
+| [localtunnel](https://github.com/localtunnel/localtunnel) | 開放內網                          |      |
+| [SSL Labs](https://www.ssllabs.com/)                      | 安全性檢查                        |      |
+
+- [API 實作(一)：規劃 RESTful API 要注意什麼](https://noob.tw/restful-api/)
+- [API 設計時必須注意的 HTTP header 底線問題](https://blog.niclin.tw/2020/03/31/avoid-http-header-use-underscore/)
 
 ## SEO
 
