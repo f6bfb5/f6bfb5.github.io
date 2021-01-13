@@ -59,7 +59,7 @@ export default () => ({
     const html = marked(content);
     const readingStats = readingTime(content);
     const printReadingTime = readingStats.text;
-    const printDate = formatDate(new Date(date), 'MMMM D, YYYY');
+    const printDate = formatDate(new Date(date), 'MMMM d, yyyy');
 
     const exportFromModule = JSON.stringify({
       title: title || slug,
