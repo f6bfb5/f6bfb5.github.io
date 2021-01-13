@@ -52,6 +52,8 @@ export default () => ({
       const splittedContent = rawContent.split(EXCERPT_SEPARATOR);
       excerpt = splittedContent[0];
       content = splittedContent[1];
+    } else {
+      excerpt = data.summary;
     }
 
     const html = marked(content);
