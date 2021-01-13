@@ -3,15 +3,6 @@ title: Blog with Svelte
 date: 1970-01-02T00:00:00.000Z
 ---
 
-#### Anchor links using remark-slug
-
-- [前言](#前言)
-- [安裝 Svelte](#安裝-svelte)
-- [What's inside it?](#whats-inside-it)
-- [How does it work?](#how-does-it-work)
-
----
-
 ## 前言
 
 之前陸續試了幾個能搭配 Markdown 產生網頁的 library，像是 [Hexo](https://hexo.io/zh-tw/) 或 [Gridsome](https://gridsome.org/)，但對於內容幾乎只是給自己看的雜記的我來說，用起來總覺得有種殺雞用牛刀的感覺，趁著之前也有些許關注的 Svelte 在 2020 年興起熱潮，換了 [Sapper 的 blog template](https://github.com/Charca/sapper-blog-template) 來試試使用效果如何。
@@ -89,6 +80,7 @@ if (rawContent.indexOf(EXCERPT_SEPARATOR) !== -1) {
 -        emitCss: true,
 -      }),
 -      resolve(),
+
 +      svelte({
 +        emitCss: true,
 +        compilerOptions: {
@@ -109,6 +101,7 @@ if (rawContent.indexOf(EXCERPT_SEPARATOR) !== -1) {
 -         dev,
 -       }),
 -       resolve(),
+
 +       svelte({
 +         compilerOptions: {
 +           generate: 'ssr',
@@ -131,6 +124,7 @@ if (rawContent.indexOf(EXCERPT_SEPARATOR) !== -1) {
 -   (warning.code === 'CIRCULAR_DEPENDENCY' &&
 -     warning.message.includes('/@sapper/')) ||
 -   onwarn(warning)
+
 + const onwarn = (warning, onwarn) =>
 + 	(warning.code === 'MISSING_EXPORT' && /'preload'/.test(warning.message)) ||
 + 	(warning.code === 'CIRCULAR_DEPENDENCY' && /[/\\]@sapper[/\\]/.test(warning.message)) ||
@@ -301,6 +295,89 @@ export async function get(req, res) {
 - [Easy RSS Feed & Sitemap ✅](https://sapper-goals.netlify.app/goals/easy-rss-and-sitemap/)
 - [2019/06/29 - migrating to Sapper part 3 - RSS feed](https://lacourt.dev/2019/06/29)
 - [RSS/Atom and Site Map for Svelte/Sapper Blog - Part 3](https://cleverdev.codes/blog/rss-atom-and-site-map-for-svelte-sapper-blog-part-3/)
+
+### Sitemap
+
+1. 在 `src/routes/` 底下建立一個 `sitemap.xml.js`：
+   <br>（檔案內的 `siteUrl` 等內容請自行修改）
+
+```javascript
+import posts from "./_posts.js";
+let siteUrl = "";
+
+const fs = require("fs");
+const pages = [""];
+
+fs.readdirSync("./src/routes").forEach((file) => {
+  file = file.split(".")[0];
+  if (
+    file.charAt(0) !== "_" &&
+    file !== "sitemap" &&
+    file !== "index" &&
+    file !== "[slug]"
+  ) {
+    pages.push(file);
+  }
+});
+
+const render = (pages, posts) => `<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  ${pages
+    .map(
+      (page) => `
+    <url><loc>${siteUrl}/${page}</loc><priority>0.85</priority></url>
+  `
+    )
+    .join("\n")}
+  ${posts
+    .map(
+      (post) => `
+    <url>
+      <loc>${siteUrl}/blog/${post.slug}</loc>
+      <priority>0.69</priority>
+    </url>
+  `
+    )
+    .join("\n")}
+</urlset>
+`;
+
+export function get(req, res, next) {
+  res.setHeader("Cache-Control", `max-age=0, s-max-age=${600}`); // 10 minutes
+  res.setHeader("Content-Type", "application/rss+xml");
+
+  const sitemap = render(pages, posts);
+  res.end(sitemap);
+}
+```
+
+2. 為了 export 時 `sitemap.xml` 也要被渲染
+   <br>修改 `index.svelte` 裡的 `preload` function
+
+```diff
+- <script context="module">
+-   export function preload({ params, query }) {
+-     return this.fetch(`index.json`)
+-       .then((r) => r.json())
+-       .then((posts) => {
+-         return { posts };
+-       });
+-   }
+- </script>
+
++ <script context="module">
++   export async function preload({ params, query }) {
++     const posts = await this.fetch(`index.json`)
++       .then((r) => r.json())
++       .then((posts) => {
++         return posts;
++       });
++     const sitemap = await this.fetch("sitemap.xml");
++     return { posts, sitemap };
++   }
++ </script>
+```
+
 - [How to render your sitemap.xml file in your Svelte/Sapper blog - DEV Community](https://dev.to/zechtyounes/how-to-render-your-sitemap-xml-file-in-your-svelte-sapper-blog-2joh)
 - [How to create a Sapper / Svelte Sitemap - DEV Community](https://dev.to/kevinconti/how-to-create-a-sapper-svelte-sitemap-3490)
 
