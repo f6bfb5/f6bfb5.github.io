@@ -8,6 +8,7 @@ import glob from 'rollup-plugin-glob'
 import config from 'sapper/config/rollup.js'
 import markdown from './src/utils/markdown.js'
 import pkg from './package.json'
+import { mdsvex } from "mdsvex";
 
 const mode = process.env.NODE_ENV
 const dev = mode === 'development'
@@ -31,6 +32,8 @@ export default {
         dev,
         hydratable: true,
         emitCss: true,
+        extensions: [".svelte", ".svx"],
+        preprocess: mdsvex()
       }),
       resolve(),
       commonjs(),
