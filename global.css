@@ -1,10 +1,12 @@
+@import url('http://fontlibrary.org/face/gnu-unifont');
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  font-family: 'UnifontMedium', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   font-size: 16px;
   color: #36393b;
@@ -49,7 +51,7 @@ li:first-child {
 }
 
 li + li {
-  margin: 0.25em 0;
+  margin: 0.5em 0;
 }
 
 li p {
