@@ -32,7 +32,7 @@ const renderXmlRssFeed = (posts) =>
     <channel>
       <title>f6bfb5's blog</title>
       <link href="${siteUrl}"/>
-      <description>newest post feed</description>
+      <description>This is f6bfb5's blog.</description>
       <lastBuildDate>${toRFC3339(new Date())}</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
