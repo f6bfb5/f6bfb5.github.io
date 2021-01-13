@@ -4,10 +4,20 @@
       <title>f6bfb5's blog</title>
       <link href="https://f6bfb5.github.io"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>2021-01-13T18:25:57Z</lastBuildDate>
+      <lastBuildDate>2021-01-13T18:51:11Z</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
+        <item>
+          <title>實作「使用 Discord 登入」</title>
+          <link>https://f6bfb5.github.io/blog/login-by-discord</link>
+          <pubDate>2021-01-14T00:24:23Z</pubDate>
+          <description>
+              undefined
+          </description>
+        </item>
+      
+
         <item>
           <title>JavaScript 筆記 - D3.js</title>
           <link>https://f6bfb5.github.io/blog/js-d3</link>
