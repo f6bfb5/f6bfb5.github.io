@@ -1,6 +1,6 @@
 ---
 title: "【譯/歌詞】One and Only"
-date: 2021-01-13T13:21:19.000Z
+date: 2018-09-07T13:21:19.000Z
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/_pBuR-q1Vmc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
