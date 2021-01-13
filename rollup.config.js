@@ -15,9 +15,9 @@ const dev = mode === 'development'
 const legacy = !!process.env.SAPPER_LEGACY_BUILD
 
 const onwarn = (warning, onwarn) =>
-  (warning.code === 'CIRCULAR_DEPENDENCY' &&
-    warning.message.includes('/@sapper/')) ||
-  onwarn(warning)
+	(warning.code === 'MISSING_EXPORT' && /'preload'/.test(warning.message)) ||
+	(warning.code === 'CIRCULAR_DEPENDENCY' && /[/\\]@sapper[/\\]/.test(warning.message)) ||
+	onwarn(warning);
 
 export default {
   client: {
@@ -29,13 +29,15 @@ export default {
         'process.env.NODE_ENV': JSON.stringify(mode),
       }),
       svelte({
-        dev,
-        hydratable: true,
-        emitCss: true,
         extensions: [".svelte", ".svx"],
-        preprocess: mdsvex()
+        preprocess: mdsvex(),
+        emitCss: true,
+        compilerOptions: {
+          hydratable: true,
+          customElement: false
+        },
       }),
-      resolve(),
+      resolve({ browser: true }),
       commonjs(),
       markdown(),
       glob(),
@@ -63,8 +65,7 @@ export default {
           ],
         }),
 
-      !dev &&
-        terser({
+      terser({
           module: true,
         }),
     ],
@@ -81,8 +82,10 @@ export default {
         'process.env.NODE_ENV': JSON.stringify(mode),
       }),
       svelte({
-        generate: 'ssr',
-        dev,
+        compilerOptions: {
+          generate: 'ssr',
+          hydratable: true,
+        },
       }),
       resolve(),
       commonjs(),
