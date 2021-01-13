@@ -176,3 +176,7 @@ K-Punk。馬克·費雪，出生於對抗文化的時代，成長於新自由主
 - [Simon Reynolds "Mark Fisher's K-punk blogs were required reading for a generation", 'The Guardian'](https://www.theguardian.com/commentisfree/2017/jan/18/mark-fisher-k-punk-blogs-did-48-politics)
 - [Mark Fisher "Why mental health is a political issue", 'The Guardian'](https://www.theguardian.com/commentisfree/2012/jul/16/mental-health-political-issue)（文內引用部份之翻譯為原執筆者經手）
 - [Mal d'archive「人工知能はロシア宇宙主義の夢を見るか？　――新反動主義のもうひとつの潮流」](http://toshinoukyouko.hatenablog.com/entry/2018/09/15/211236)
+
+## 相關文章
+
+- [マーク・フィッシャー「資本主義リアリズム「この道しかない」のか？」訳:セバスチャンブロイ,河南瑠莉　堀之内出版 - マラカスがもし喋ったら](https://hommasusumu.hatenablog.com/entry/2019/03/04/000000)

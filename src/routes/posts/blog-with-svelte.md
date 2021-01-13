@@ -22,6 +22,9 @@ npm install # or yarn!
 npm run dev
 ```
 
+- `npx` 是 npm 在 v5.2.0 之後內建的指令，提供暫時性執行某個 npm 套件的功能
+- `degit` 是一套能供使用者直接取用現存 project 樣板的套件
+
 ### What's inside it?
 
 #### [Svelte](https://svelte.dev/)
