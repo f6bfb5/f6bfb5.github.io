@@ -125,6 +125,8 @@ date: 2020-03-03 05:22:58
   《白箱》的官方專門用語解說。
 - [◆ アニメ用語、絵コンテ用語、映像用語、井上ジェットのカメラワーク大辞典 ◆](http://www.inouejet.com/camera/)
   井上ジェット撰寫的運鏡、動畫用語解說。
+- [絵コンテ用語解説](http://www.mars.dti.ne.jp/~yato/eva/cont.htm)
+- [M.S.C animetion studio HP](http://msc-jp.biz/material/material_html/terms_A.html)
 - [作画用語解説](https://www18.atwiki.jp/sakuga/pages/28.html)
   作画@Wiki，內容涵概制作專門用語、粉絲討論中的黑話到人名暱稱解說。
 - [作畫の工程－アニメーターの基礎知識](http://animator276.com/%E3%82%A2%E3%83%8B%E3%83%A1%E5%88%B6%E4%BD%9C/%E4%BD%9C%E7%94%BB%E5%B7%A5%E7%A8%8B)

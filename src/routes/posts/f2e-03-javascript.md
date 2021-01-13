@@ -11,6 +11,8 @@ layout: blog
 - [現代の JavaScript チュートリアル](https://ja.javascript.info/)
 - [JavaScript 竹白記事本](https://hackmd.io/@chupai/rkBjZjh7H/)
 - [邁向 JavaScript 勇者之路](https://ithelp.ithome.com.tw/users/20083608/ironman/1354)
+- [語言技術：ECMAScript Essence](https://openhome.cc/Gossip/ECMAScript/index.html)
+- [從 ES6 開始的 JavaScript 學習生活](https://eyesofkids.gitbooks.io/javascript-start-from-es6/content/)
 
 ## 現代 JS 的常見基礎技術
 

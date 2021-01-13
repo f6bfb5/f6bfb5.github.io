@@ -14,11 +14,304 @@ date: 1970-01-02T00:00:00.000Z
 
 ## 前言
 
-之前陸續試了幾個能搭配 Markdown 產生網頁的 library，像是 Hexo 或 Gridsome，但對於內容幾乎只是給自己看的雜記的我來說，用起來總覺得有種殺雞用牛刀的感覺，趁著之前也有些許關注的 Svelte 在今年興起熱潮，換了 Sapper 的 blog template 來試試使用效果如何。
+之前陸續試了幾個能搭配 Markdown 產生網頁的 library，像是 [Hexo](https://hexo.io/zh-tw/) 或 [Gridsome](https://gridsome.org/)，但對於內容幾乎只是給自己看的雜記的我來說，用起來總覺得有種殺雞用牛刀的感覺，趁著之前也有些許關注的 Svelte 在 2020 年興起熱潮，換了 [Sapper 的 blog template](https://github.com/Charca/sapper-blog-template) 來試試使用效果如何。
 
-（追記：原本是先看到 Routify 的 blog template 覺得很不錯，但 Routify 似乎因為需要用到檔案路徑做 SPA，沒辦法 host 在 GitHub Pages 上，參考：[淺談新手在學習 SPA 時的常見問題：以 Router 為例 - Huli](https://blog.huli.tw/2019/09/18/spa-common-problem-about-router/)，最後改用了 Sapper）
+（追記：原本是先看到 [Routify 的 blog template](https://github.com/roxiness/routify-starter) 覺得很不錯，但 Routify 似乎因為需要用到檔案路徑做 SPA，沒辦法 host 在 GitHub Pages 上，最後改用了 Sapper。參考：[淺談新手在學習 SPA 時的常見問題：以 Router 為例 - Huli](https://blog.huli.tw/2019/09/18/spa-common-problem-about-router/)）
+
+---
+
+## Sapper Blog Template
+
+### 安裝
+
+```bash
+npx degit Charca/sapper-blog-template your-blog-name
+cd your-blog-name
+npm install # or yarn!
+npm run dev
+```
+
+### What's inside it?
+
+#### [Svelte](https://svelte.dev/)
+
+一套秉持「Write less code」的精神，為了建構 UI 而生的 JavaScript 編譯器，不採用 Virtual DOM diff，而是用原生 JS 直接修改 DOM，擁有相對優秀的執行速度與檔案大小表現。
+
+#### [Sapper](https://sapper.svelte.dev/)
+
+Sapper 是套定位類似於 React 的 Next.js、Vue 的 Nuxt.js 的 framework 工具，基於 Svelte 之上處理與補足了例如 SSR、SPA、SSG 這類製作應用的需求
+
+### How does it work?
+
+template 中的 blog 相關檔案位於 `src/routes/blog`，主要功能由以下三個檔案實作：
+
+- `_posts.js`：讀取和 parse markdown 檔案的 module
+- `[slug].svelte`：文章頁面的 template
+- `index.svelte`：文章列表的 template
+
+文章則放置於 `src/routes/blog/posts` 資料夾中，文章檔案名稱會 parse 成為網頁路徑，撰寫於文章開頭到 `＜!-- more --＞` 之間的內容會成為預覽部份，標題和日期記載在檔案內的 yaml 區域內
+
+由於個人沒有使用閱讀更多註記的功能，再改寫了 `src/utils/markdown.js` 裡判斷什麼東西要丟到社群預覽的部份（其實也就加了一行程式碼）：
+
+```javascript
+// gray-matter 用於轉換匯入檔案以 --- 隔開的區塊部份成為 object
+const matter = require("gray-matter");
+// ...
+// 首個區塊為 yaml 資訊區，其餘部份為文章內容
+const { data, content: rawContent } = matter(md);
+// ...
+// 原本只有判斷「閱讀更多」是否存在，以及取得位於其上方的內容
+if (rawContent.indexOf(EXCERPT_SEPARATOR) !== -1) {
+  const splittedContent = rawContent.split(EXCERPT_SEPARATOR);
+  excerpt = splittedContent[0];
+  content = splittedContent[1];
+} else {
+  // 加入不存在時，取得 yaml 裡 summary 標籤的內容
+  excerpt = data.summary;
+}
+// ...
+```
+
+### 更新之後
+
+如果你升級了相依套件，可能會跳出與 `rollup-plugin-svelte` 相關的編譯錯誤，網頁也會出現錯誤，這是因為相關記述方式有修改的關係：
+
+- [sveltejs/rollup-plugin-svelte](https://github.com/sveltejs/rollup-plugin-svelte)
+
+```diff
+  client: {
+    // ...
+    plugins: [
+      // ...
+-       svelte({
+-        dev,
+-        hydratable: true,
+-        emitCss: true,
+-      }),
+-      resolve(),
++      svelte({
++        emitCss: true,
++        compilerOptions: {
++          hydratable: true,
++        },
++      }),
++      resolve({ browser: true }),
+    ]
+    // ...
+  }
+
+  server: {
+    // ...
+    plugins: [
+      // ...
+-       svelte({
+-         generate: 'ssr',
+-         dev,
+-       }),
+-       resolve(),
++       svelte({
++         compilerOptions: {
++           generate: 'ssr',
++         },
++       }),
++       resolve({ browser: true }),
+    ]
+    // ...
+  }
+```
+
+#### Circular Dependencies
+
+運行時會出現的 circular dependecies 警告可以透過修改 `rollup.config.js` 裡的偵測部份解決
+
+- [Silence preload export warnings related to TypeScript support](https://github.com/sveltejs/sapper-template/pull/246/files)
+
+```diff
+- const onwarn = (warning, onwarn) =>
+-   (warning.code === 'CIRCULAR_DEPENDENCY' &&
+-     warning.message.includes('/@sapper/')) ||
+-   onwarn(warning)
++ const onwarn = (warning, onwarn) =>
++ 	(warning.code === 'MISSING_EXPORT' && /'preload'/.test(warning.message)) ||
++ 	(warning.code === 'CIRCULAR_DEPENDENCY' && /[/\\]@sapper[/\\]/.test(warning.message)) ||
++ 	onwarn(warning);
+```
+
+### Deploy
+
+這次我參考了[Deploy to GitHub Pages · Actions · GitHub Marketplace](https://github.com/marketplace/actions/deploy-to-github-pages)，讓 GitHub Actions 在 push 原始碼上去之後跑 build 和 deploy 到 `gh-pages` branch，再將 `github.io` 的顯示來源改成 `gh-pages` branch
+
+與過往經驗比較不同的是，`npm run build` 生產出來的網頁仍然和 Routify 一樣需要後端伺服器，要改用 `npm run export` 讓 Sapper 自己爬一遍整個網站，產生出來的靜態頁面才能 host 到 GitHub Pages 上
+
+1. 在專案資料夾根目錄底下新增一個 `.github` 資料夾
+2. 在裡頭新增一個 `workflows` 資料夾
+3. 在裡頭新增一個 `deploy-to-github-pages.yaml` 檔案
+4. 貼上以下截取與修改自上方連結的內容
+5. 檔案 push 到 GitHub 後，就會透過 GitHub Actions
+   <br>把 build 完畢的檔案自動 branch 到 `gh-pages` 分支
+
+```yml
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          persist-credentials: false
+
+      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+        run: |
+          npm install
+          npm run export
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: __sapper__/export # The folder the action should deploy.
+          CLEAN: true # Automatically remove deleted files from the deploy branch
+```
+
+### Google Analytics
+
+- [Google Analytics](https://analytics.google.com/analytics/web/)
+- [sapper-google-analytics - npm](https://www.npmjs.com/package/sapper-google-analytics)
+
+1. 申請 GA 帳戶，點擊左下角的 `Admin` 開啟控制面板
+2. 點擊 `Create Property` 建立資源，輸入名稱與選擇時區
+3. 點擊下方的 `Show advanced options`，啟用 `Create a Universal Analytics property` 選項
+4. 建立完成資源後，點擊 `Tracking Info` 底下的 `Tracking Code`，複製裡頭的 `Tracking ID`
+5. `npm i sapper-google-analytics`
+6. 編輯 `src/routes/_layout.svelte` 加上
+
+```html
+<script>
+  import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte";
+  import { stores } from "@sapper/app";
+
+  let ga_measurement_id = "UA-SOMETHING"; // 剛才複製的 Tracking ID
+</script>
+
+<GoogleAnalytics {stores} id="{ga_measurement_id}" />
+```
+
+完成後可以到 `Tracking Info` 裡的 `Tracking Code`
+<br>點選 `Send test traffic` 測試是否新增成功
+
+### Google AdSense
+
+（待）
+
+- [svelte - How do I call AdSense Auto Ads on route change for SPA (single page app)? - Stack Overflow](https://stackoverflow.com/questions/60722757/how-do-i-call-adsense-auto-ads-on-route-change-for-spa-single-page-app)
+- [Hooks · Issue #30 · sveltejs/sapper](https://github.com/sveltejs/sapper/issues/30)
+
+```javascript
+import { stores } from "@sapper/app";
+const { page, preloading, session } = stores();
+
+page.subscribe(({ path, params, query }) => {
+  // do amazing things
+});
+```
+
+### RSS
+
+1. 在 `src/routes/` 底下建立一個 `rss.xml.js`：
+   <br>（檔案內的 `title`、`description` 等內容請自行修改）
+
+```javascript
+import posts from "./_posts.js";
+let siteUrl = "";
+
+function toRFC3339(date) {
+  function pad(n) {
+    return n < 10 ? "0" + n : n;
+  }
+
+  function timezoneOffset(offset) {
+    var sign;
+    if (offset === 0) {
+      return "Z";
+    }
+    sign = offset > 0 ? "_" : "+";
+    offset = Math.abs(offset);
+    return sign + pad(Math.floor(offset / 60)) + ":" + pad(offset % 60);
+  }
+
+  return (
+    date.getFullYear() +
+    "-" +
+    pad(date.getMonth() + 1) +
+    "-" +
+    pad(date.getDate()) +
+    "T" +
+    pad(date.getHours()) +
+    ":" +
+    pad(date.getMinutes()) +
+    ":" +
+    pad(date.getSeconds()) +
+    timezoneOffset(date.getTimezoneOffset())
+  );
+}
+
+const renderXmlRssFeed = (posts) =>
+  `<?xml version="1.0" encoding="utf-8" ?>
+  <rss version="2.0">
+    <channel>
+      <title>Title Here</title>
+      <link href="${siteUrl}"/>
+      <description>Description Here</description>
+      <lastBuildDate>${toRFC3339(new Date())}</lastBuildDate>
+      <managingEditor>example@example.com</managingEditor>
+
+      ${posts
+        .map(
+          (post) => `
+        <item>
+          <title>${post.title}</title>
+          <link>${siteUrl}/blog/${post.slug}</link>
+          <pubDate>${toRFC3339(new Date(post.date))}</pubDate>
+          <description>
+              ${post.excerpt}
+          </description>
+        </item>
+      `
+        )
+        .join("\n")}
+    </channel>
+  </rss>`;
+
+export async function get(req, res) {
+  res.writeHead(200, {
+    "Cache-Control": `max-age=0, s-max-age=${600}`, // 10 minutes
+    "Content-Type": "application/rss+xml",
+  });
+
+  const feed = renderXmlRssFeed(posts);
+  res.end(feed);
+}
+```
+
+2. 在 Navbar 加上 RSS 連結：`<a class={segment === 'rss' ? 'selected' : ''} href="rss.xml">rss</a>`
+
+- [Easy RSS Feed & Sitemap ✅](https://sapper-goals.netlify.app/goals/easy-rss-and-sitemap/)
+- [2019/06/29 - migrating to Sapper part 3 - RSS feed](https://lacourt.dev/2019/06/29)
+- [RSS/Atom and Site Map for Svelte/Sapper Blog - Part 3](https://cleverdev.codes/blog/rss-atom-and-site-map-for-svelte-sapper-blog-part-3/)
+- [How to render your sitemap.xml file in your Svelte/Sapper blog - DEV Community](https://dev.to/zechtyounes/how-to-render-your-sitemap-xml-file-in-your-svelte-sapper-blog-2joh)
+- [How to create a Sapper / Svelte Sitemap - DEV Community](https://dev.to/kevinconti/how-to-create-a-sapper-svelte-sitemap-3490)
+
+---
+
+<summary>
 
 ## Routify Blog Template
+
+</summary>
+<details>
 
 ### 安裝
 
@@ -103,193 +396,4 @@ $: metatags["twitter:description"] = $page.meta.frontmatter
 
 （待）
 
-## Sapper Blog Template
-
-### 安裝
-
-```bash
-npx degit Charca/sapper-blog-template your-blog-name
-cd your-blog-name
-npm install # or yarn!
-npm run dev
-```
-
-### What's inside it?
-
-#### Sapper
-
-Sapper 是套定位類似於 React 的 Next.js、Vue 的 Nuxt.js 的 framework 工具，基於 Svelte 之上處理與補足了例如 SSR、SPA、SSG 這類製作應用的需求
-
-### How does it work?
-
-template 中的 blog 相關檔案位於 `src/routes/blog`，主要功能由以下三個檔案實作：
-
-- `_posts.js`：讀取和 parse markdown 檔案的 module
-- `[slug].svelte`：文章頁面的 template
-- `index.svelte`：文章列表的 template
-
-文章則放置於 `src/routes/blog/posts` 資料夾中，文章檔案名稱會 parse 成為網頁路徑，撰寫於文章開頭到 `<!-- mode -->` 之間的內容會成為預覽部份，標題和日期記載在檔案內的 yaml 區域內
-
-### Deploy
-
-這次我參考了[Deploy to GitHub Pages · Actions · GitHub Marketplace](https://github.com/marketplace/actions/deploy-to-github-pages)，讓 GitHub Actions 在 push 原始碼上去之後跑 build 和 deploy 到 `gh-pages` branch，再把 `github.io` 的顯示來源也改成 `gh-pages` branch
-
-比較不同的是 `npm run build` 生產出來的網頁仍然和 Routify 一樣需要後端伺服器，需要改以 `npm run export` 讓 Sapper 自己爬一遍整個網站產生靜態頁面，才能 host 到 GitHub Pages 上
-
-1. 在專案資料夾根目錄底下新增一個 `.github` 資料夾
-2. 在裡頭新增一個 `workflows` 資料夾
-3. 在裡頭新增一個 `deploy-to-github-pages.yaml` 檔案
-4. 貼上以下截取自上方連結的內容
-5. 將檔案 push 到 GitHub 後，就可透過 GitHub Actions 把 build 完畢的檔案自動 branch 到 `gh-pages` 分支
-
-```yml
-name: Build and Deploy
-on: [push]
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v2.3.1 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
-        with:
-          persist-credentials: false
-
-      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
-        run: |
-          npm install
-          npm run export
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.7.1
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: __sapper__/export # The folder the action should deploy.
-          CLEAN: true # Automatically remove deleted files from the deploy branch
-```
-
-### Google Analytics
-
-- [Google Analytics](https://analytics.google.com/analytics/web/)
-- [sapper-google-analytics - npm](https://www.npmjs.com/package/sapper-google-analytics)
-
-1. 申請 GA 帳戶，點擊左下角的 `Admin` 開啟控制面板
-2. 點擊 `Create Property` 建立資源，輸入名稱與選擇時區
-3. 點擊下方的 `Show advanced options`，啟用 `Create a Universal Analytics property` 選項
-4. 建立完成資源後，點擊 `Tracking Info` 底下的 `Tracking Code`，複製裡頭的 `Tracking ID`
-5. `npm i sapper-google-analytics`
-6. 編輯 `src/routes/_layout.svelte` 加上
-
-```html
-<script>
-  import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte";
-  import { stores } from "@sapper/app";
-
-  let ga_measurement_id = "UA-SOMETHING"; // 剛才複製的 Tracking ID
-</script>
-
-<GoogleAnalytics {stores} id="{ga_measurement_id}" />
-```
-
-完成後可以到 `Tracking Info` 裡的 `Tracking Code` 點選 `Send test traffic` 測試是否新增成功
-
-### Google AdSense
-
-（待）
-
-- [svelte - How do I call AdSense Auto Ads on route change for SPA (single page app)? - Stack Overflow](https://stackoverflow.com/questions/60722757/how-do-i-call-adsense-auto-ads-on-route-change-for-spa-single-page-app)
-- [Hooks · Issue #30 · sveltejs/sapper](https://github.com/sveltejs/sapper/issues/30)
-
-```javascript
-import { stores } from "@sapper/app";
-const { page, preloading, session } = stores();
-
-page.subscribe(({ path, params, query }) => {
-  // do amazing things
-});
-```
-
-### RSS
-
-- [Easy RSS Feed & Sitemap ✅](https://sapper-goals.netlify.app/goals/easy-rss-and-sitemap/)
-- [2019/06/29 - migrating to Sapper part 3 - RSS feed](https://lacourt.dev/2019/06/29)
-- [RSS/Atom and Site Map for Svelte/Sapper Blog - Part 3](https://cleverdev.codes/blog/rss-atom-and-site-map-for-svelte-sapper-blog-part-3/)
-- [How to render your sitemap.xml file in your Svelte/Sapper blog - DEV Community](https://dev.to/zechtyounes/how-to-render-your-sitemap-xml-file-in-your-svelte-sapper-blog-2joh)
-- [How to create a Sapper / Svelte Sitemap - DEV Community](https://dev.to/kevinconti/how-to-create-a-sapper-svelte-sitemap-3490)
-
-1. 在 `src/routes/` 底下建立一個 `rss.xml.js`：
-
-```javascript
-import posts from "./_posts.js";
-let siteUrl = "";
-
-function toRFC3339(date) {
-  function pad(n) {
-    return n < 10 ? "0" + n : n;
-  }
-
-  function timezoneOffset(offset) {
-    var sign;
-    if (offset === 0) {
-      return "Z";
-    }
-    sign = offset > 0 ? "_" : "+";
-    offset = Math.abs(offset);
-    return sign + pad(Math.floor(offset / 60)) + ":" + pad(offset % 60);
-  }
-
-  return (
-    date.getFullYear() +
-    "-" +
-    pad(date.getMonth() + 1) +
-    "-" +
-    pad(date.getDate()) +
-    "T" +
-    pad(date.getHours()) +
-    ":" +
-    pad(date.getMinutes()) +
-    ":" +
-    pad(date.getSeconds()) +
-    timezoneOffset(date.getTimezoneOffset())
-  );
-}
-
-const renderXmlRssFeed = (posts) =>
-  `<?xml version="1.0" encoding="utf-8" ?>
-  <rss version="2.0">
-    <channel>
-      <title>Title Here</title>
-      <link href="${siteUrl}"/>
-      <description>Description Here</description>
-      <lastBuildDate>${toRFC3339(new Date())}</lastBuildDate>
-      <managingEditor>example@example.com</managingEditor>
-
-      ${posts
-        .map(
-          (post) => `
-        <item>
-          <title>${post.title}</title>
-          <link>${siteUrl}/blog/${post.slug}</link>
-          <pubDate>${toRFC3339(new Date(post.date))}</pubDate>
-          <description>
-              ${post.excerpt}
-          </description>
-        </item>
-      `
-        )
-        .join("\n")}
-    </channel>
-  </rss>`;
-
-export async function get(req, res) {
-  res.writeHead(200, {
-    "Cache-Control": `max-age=0, s-max-age=${600}`, // 10 minutes
-    "Content-Type": "application/rss+xml",
-  });
-
-  const feed = renderXmlRssFeed(posts);
-  res.end(feed);
-}
-```
-
-2. 在網頁內加上 RSS 連結：`<a class={segment === 'rss' ? 'selected' : ''} href="rss">rss</a>`
+</details>
