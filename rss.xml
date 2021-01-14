@@ -4,7 +4,7 @@
       <title>f6bfb5's blog</title>
       <link href="https://f6bfb5.github.io"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>2021-01-13T21:30:19Z</lastBuildDate>
+      <lastBuildDate>2021-01-14T04:31:06Z</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -259,7 +259,7 @@
       
 
         <item>
-          <title>Vue Cheatsheet</title>
+          <title>Vue - Cheatsheet</title>
           <link>https://f6bfb5.github.io/blog/vue-cheatsheet</link>
           <pubDate>2020-08-22T19:37:32Z</pubDate>
           <description>
@@ -400,7 +400,7 @@
 
         <item>
           <title>React 筆記</title>
-          <link>https://f6bfb5.github.io/blog/react</link>
+          <link>https://f6bfb5.github.io/blog/react-note</link>
           <pubDate>2020-06-10T14:58:30Z</pubDate>
           <description>
               null
@@ -549,6 +549,56 @@
       
 
         <item>
+          <title>Vue - Vite</title>
+          <link>https://f6bfb5.github.io/blog/vue-vite</link>
+          <pubDate>2019-12-07T06:47:15Z</pubDate>
+          <description>
+              null
+          </description>
+        </item>
+      
+
+        <item>
+          <title>Vue - fontawesome</title>
+          <link>https://f6bfb5.github.io/blog/vue-fontawesome</link>
+          <pubDate>2019-12-07T06:46:15Z</pubDate>
+          <description>
+              null
+          </description>
+        </item>
+      
+
+        <item>
+          <title>Vue - Router</title>
+          <link>https://f6bfb5.github.io/blog/vue-router</link>
+          <pubDate>2019-12-07T06:45:15Z</pubDate>
+          <description>
+              null
+          </description>
+        </item>
+      
+
+        <item>
+          <title>Vue - Vuex</title>
+          <link>https://f6bfb5.github.io/blog/vue-nuxt</link>
+          <pubDate>2019-12-07T06:44:15Z</pubDate>
+          <description>
+              null
+          </description>
+        </item>
+      
+
+        <item>
+          <title>Vue - Vuex</title>
+          <link>https://f6bfb5.github.io/blog/vue-vuex</link>
+          <pubDate>2019-12-07T06:43:15Z</pubDate>
+          <description>
+              null
+          </description>
+        </item>
+      
+
+        <item>
           <title>Vue 筆記</title>
           <link>https://f6bfb5.github.io/blog/vue-note</link>
           <pubDate>2019-12-07T06:42:15Z</pubDate>
@@ -569,7 +619,7 @@
       
 
         <item>
-          <title>Vue 靜態網頁產生器 Gridsome</title>
+          <title>Vue - 靜態網頁產生器 Gridsome</title>
           <link>https://f6bfb5.github.io/blog/vue-gridsome</link>
           <pubDate>2019-12-06T10:48:03Z</pubDate>
           <description>

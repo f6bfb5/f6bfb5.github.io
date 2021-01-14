@@ -251,7 +251,7 @@
   
 
     <url>
-      <loc>https://f6bfb5.github.io/blog/react</loc>
+      <loc>https://f6bfb5.github.io/blog/react-note</loc>
       <priority>0.69</priority>
     </url>
   
@@ -336,6 +336,36 @@
 
     <url>
       <loc>https://f6bfb5.github.io/blog/lyrics-the-pillows-funny-bunny</loc>
+      <priority>0.69</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/blog/vue-vite</loc>
+      <priority>0.69</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/blog/vue-fontawesome</loc>
+      <priority>0.69</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/blog/vue-router</loc>
+      <priority>0.69</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/blog/vue-nuxt</loc>
+      <priority>0.69</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/blog/vue-vuex</loc>
       <priority>0.69</priority>
     </url>
   
