@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：https://animenodanmen.blogspot.com/2009/07/blog-post_31.html
+文章來源：[重さの表現、軽さの表現（金田伊功さんの仕事を考える）](https://animenodanmen.blogspot.com/2009/07/blog-post_31.html)
 
 ---
 

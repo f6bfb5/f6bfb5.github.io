@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：https://note.com/nejimura89/n/nf9d565d18ddf
+文章來源：[【劇場版 SHIROBAKO】のオープニングがアニメ業界の移り変わりを示してくれている。](https://note.com/nejimura89/n/nf9d565d18ddf)
 
 ---
 

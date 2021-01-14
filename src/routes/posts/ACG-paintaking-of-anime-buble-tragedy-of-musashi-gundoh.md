@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：https://ameblo.jp/ambt5334/entry-12229276743.html
+文章來源：[アニメバブルの代償　『MUSASHI 　 GUN 道』の悲劇　制作スタッフ確保の課題](https://ameblo.jp/ambt5334/entry-12229276743.html)
 
 ---
 

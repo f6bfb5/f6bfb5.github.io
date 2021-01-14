@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源： http://www.t3.rim.or.jp/~miukun/robot.htm
+文章來源： [ロボットアニメの歴史](http://www.t3.rim.or.jp/~miukun/robot.htm)
 
 ---
 

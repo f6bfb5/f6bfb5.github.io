@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：https://animenodanmen.blogspot.com/2015/05/blog-post.html
+文章來源：[大人の知性とアニメ](https://animenodanmen.blogspot.com/2015/05/blog-post.html)
 
 ---
 

@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：http://d.hatena.ne.jp/LASism/20060814
+文章來源：[RE-TAKE についてちょっと考えた](http://d.hatena.ne.jp/LASism/20060814)
 
 ---
 

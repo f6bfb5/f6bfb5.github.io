@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：https://www.itmedia.co.jp/business/articles/2006/25/news013.html
+文章來源：[アニメ版『ジョジョ』の総作画監督が指摘「Netflix で制作費が増えても、現場のアニメーターには還元されない」](https://www.itmedia.co.jp/business/articles/2006/25/news013.html)
 
 有本書回覆了對於世界上受人注目的一大內容產業，日本的動畫業界裡蔓延的低薪和長時間勞動的，苛刻工作環境實際狀況的疑問，那就是玄光社出版的『[アニメーターの仕事がわかる本](https://www.amazon.co.jp/dp/4768312799?tag=itmedia-business-22&linkCode=ogi&th=1&psc=1)』（這本書帶你看懂動畫師的工作）。而這本書的獨特之處，就在於其中一位著者，是位正在動畫業界第一線活躍的現役動畫師。
 

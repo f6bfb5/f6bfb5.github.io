@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：https://p-shirokuma.hatenadiary.com/entry/20110415/p1
+文章來源：[大震災以後、オタクコンテンツは本当に激変するの？](https://p-shirokuma.hatenadiary.com/entry/20110415/p1)
 
 ---
 

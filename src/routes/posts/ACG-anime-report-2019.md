@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：https://aja.gr.jp/jigyou/chousa/sangyo_toukei
+文章來源：[産業統計の調査・発表](https://aja.gr.jp/jigyou/chousa/sangyo_toukei)
 
 ---
 

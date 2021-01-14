@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：https://note.com/takahirobessho/n/n2b4a3f29a804
+文章來源：[「天気の子」はセカイ系の物語でもあり、世界の物語でもある（もはや存在しない「世界」に向けて）](https://note.com/takahirobessho/n/n2b4a3f29a804)
 
 ---
 

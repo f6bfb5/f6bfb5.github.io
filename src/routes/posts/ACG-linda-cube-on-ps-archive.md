@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：http://www.alfasystem.net/a_m/diary.cgi?date=20080911
+文章來源：[リンダキューブアゲイン配信開始](http://www.alfasystem.net/a_m/diary.cgi?date=20080911)
 
 ---
 

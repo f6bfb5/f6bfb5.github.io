@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：https://rev.hatenablog.com/entry/2020/01/29/104700
+文章來源：[著作権係争事例](https://rev.hatenablog.com/entry/2020/01/29/104700)
 
 ---
 

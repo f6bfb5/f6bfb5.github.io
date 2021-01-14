@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：http://thuir.thu.edu.tw/bitstream/310901/20835/1/14-4.pdf
+文章來源：[ゼロ年代の日本文学を台湾人学生に教える際直面する諸問題とその展望](http://thuir.thu.edu.tw/bitstream/310901/20835/1/14-4.pdf)
 
 ---
 

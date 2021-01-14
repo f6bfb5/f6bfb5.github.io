@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源： https://togetter.com/li/1059183
+文章來源： [とある作画オタクによる訴え](https://togetter.com/li/1059183)
 
 ---
 

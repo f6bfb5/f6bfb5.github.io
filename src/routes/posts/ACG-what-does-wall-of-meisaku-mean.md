@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：http://blog.livedoor.jp/kashikou/archives/51976215.html
+文章來源：[中国で「名作之壁」と呼ばれる「IS」](http://blog.livedoor.jp/kashikou/archives/51976215.html)
 
 ---
 

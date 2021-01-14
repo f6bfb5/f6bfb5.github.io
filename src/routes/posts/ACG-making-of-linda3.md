@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：http://www.alfasystem.net/a_m/column/sub.4.0.htm
+文章來源：[桝田省治の製作ノート ～Making of Linda3～](http://www.alfasystem.net/a_m/column/sub.4.0.htm)
 
 ---
 

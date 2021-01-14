@@ -7,9 +7,7 @@ summary:
 layout: blog
 ---
 
-- [Quick start](https://docsify.js.org/#/quickstart)
-
-Docsify 是一套以 Vue 為基底撰寫，即時解析 markdown 檔案產生網頁頁面的靜態網站產生器，特徵是初始化完畢後，只需要 `index.html` 和 markdown 檔案即可運作，不需進行 build。
+[Docsify](https://docsify.js.org/#/) 是一套以 Vue 為基底撰寫，即時解析 markdown 檔案產生網頁頁面的靜態網站產生器，特徵是初始化完畢後，只需要 `index.html` 和 markdown 檔案即可運作，不需進行 build。
 
 ## 安裝
 
@@ -74,3 +72,7 @@ Docsify 以資料夾進行分層，並藉此決定路徑：
 ## Deploy
 
 如前面說的，Docsify 只需要 `index.html` 和 markdown 檔案即可運作，deploy 亦只需要處理這兩者即可，詳細步驟可以參照官方文件 [Deploy](https://docsify.js.org/#/deploy)。
+
+## 參考文章
+
+- [Quick start](https://docsify.js.org/#/quickstart)

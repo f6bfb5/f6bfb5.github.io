@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：https://www.excite.co.jp/news/article/E1416444712461/
+文章來源：[あの頃のぼくらの聖典が Kindle で復刊「スキゾ・エヴァンゲリオン」「パラノ・エヴァンゲリオン」](https://www.excite.co.jp/news/article/E1416444712461/)
 
 ---
 

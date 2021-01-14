@@ -7,7 +7,7 @@ summary:
 layout: blog
 ---
 
-文章來源：https://anirepo.exblog.jp/15979776/
+文章來源：[声優＋アニメーター＋アニメ経営者らによる、現場制作条件改善を訴えた、幻の銀座アニメデモのビラ見つかる](https://anirepo.exblog.jp/15979776/)
 
 ---
 
