@@ -4,7 +4,7 @@
       <title>f6bfb5's blog</title>
       <link href="https://f6bfb5.github.io"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>2021-01-14T06:15:28Z</lastBuildDate>
+      <lastBuildDate>2021-01-14T08:37:39Z</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -119,11 +119,11 @@
       
 
         <item>
-          <title>Twitch API</title>
+          <title>Twitch API Authentication</title>
           <link>https://f6bfb5.github.io/blog/twitch-api</link>
           <pubDate>2020-11-08T23:50:09Z</pubDate>
           <description>
-              null
+              前陣子剛好有機會，寫了個用到 Twitch OAuth 登入認證的網站，順手記錄用到的內容
           </description>
         </item>
       
@@ -134,16 +134,6 @@
           <pubDate>2020-11-08T22:06:33Z</pubDate>
           <description>
               這份清單主要用以展示一系列高於平均水準的日本動畫作品，與倡導作品裡精良的部份。選擇這些作品的原因會有原創性、影響力、議論性或它被認為是部經典作品，某種類型中的代表性作品，亦或是在敘事、角色刻畫、藝術實驗性上極為出色。
-          </description>
-        </item>
-      
-
-        <item>
-          <title>Markdown to Google Slides</title>
-          <link>https://f6bfb5.github.io/blog/md2gslides</link>
-          <pubDate>2020-10-17T05:36:09Z</pubDate>
-          <description>
-              null
           </description>
         </item>
       
@@ -283,23 +273,23 @@
           <link>https://f6bfb5.github.io/blog/svelte-note</link>
           <pubDate>2020-08-12T22:05:02Z</pubDate>
           <description>
-              null
+              Svelte 是套秉持「Write less code」的精神，為了建構 UI 而生的編譯器，不同於 Vue 和 React 這類框架在瀏覽器上執行處理，而是先在編譯階段就完成建構，因此擁有相對優秀的執行速度與檔案大小表現。
           </description>
         </item>
       
 
         <item>
-          <title>將 Google Sheet 做為資料庫使用</title>
+          <title>使用 Google Sheet 做為資料庫使用</title>
           <link>https://f6bfb5.github.io/blog/google-sheet-as-database</link>
           <pubDate>2020-07-23T00:40:12Z</pubDate>
           <description>
-              null
+              Google 所提供的 Sheet API 可以直接將 Sheet 內容轉換成 JSON 格式輸出，亦可接受從外部傳進資料，修改 Sheet 裡的內容，並且都有提供 CORS 支援，可以免於處理跨域的困擾。
           </description>
         </item>
       
 
         <item>
-          <title>從 Markdown 檔案產生投影片</title>
+          <title>使用 Marp，從 Markdown 檔案產生投影片</title>
           <link>https://f6bfb5.github.io/blog/generate-presentation-from-markdown</link>
           <pubDate>2020-07-11T20:13:35Z</pubDate>
           <description>
@@ -499,9 +489,9 @@
       
 
         <item>
-          <title>[編程] Python</title>
+          <title>Python</title>
           <link>https://f6bfb5.github.io/blog/python</link>
-          <pubDate>2020-02-12T13:23:37Z</pubDate>
+          <pubDate>2020-02-12T05:23:37Z</pubDate>
           <description>
               undefined
           </description>
@@ -729,7 +719,7 @@
       
 
         <item>
-          <title>Regular Expression</title>
+          <title>正規表達式 Regular Expression</title>
           <link>https://f6bfb5.github.io/blog/regular-expression</link>
           <pubDate>2019-09-17T20:08:26Z</pubDate>
           <description>
@@ -813,7 +803,7 @@
           <link>https://f6bfb5.github.io/blog/mpv</link>
           <pubDate>2019-07-19T15:18:13Z</pubDate>
           <description>
-              null
+              mpv 是一套免費開源跨平台的播放器，免安裝的特性對於不想在電腦裡安裝太多東西的使用者來說相當方便，下載後直接開啟就能播放影片。
           </description>
         </item>
       
