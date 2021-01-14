@@ -131,6 +131,7 @@ blockquote {
 }
 
 blockquote p {
+  font-size: 1em;
   padding-bottom: 6px;
 }
 
