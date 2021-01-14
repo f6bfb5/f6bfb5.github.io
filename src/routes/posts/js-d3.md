@@ -249,6 +249,121 @@ table
 
 ## 力模擬圖
 
+## 繪製台灣地圖
+
+1. 到政府資料開放平台下載[台灣地圖](https://data.gov.tw/dataset/7442)的 shp 檔案
+   <br>其它還有更詳細的[鄉鎮市區地圖](https://data.gov.tw/dataset/7441)及[村里地圖](https://data.gov.tw/dataset/7440)
+   > ESRI Shapefile（shp），或簡稱 shapefile，是美國環境系統研究所公司（ESRI）開發的空間資料開放格式。
+
+### 轉換格式
+
+#### mapshaper
+
+1. 使用線上網站工具 [mapshaper](https://mapshaper.org/) 拖曳進 `.dbf`、`.prj`、`.shp`、`.shx` 這四種類型的檔案
+2. 點擊右上角的「Simplify」，勾選「prevent shape removal」後點擊「Apply」
+3. 調整簡化比例到可接受的比例，幾乎到 1% 前後都還在相當詳細的範圍內
+4. 點擊右上角的「Export」，d3 可用的格式為 `GeoJSON` 和 `TopoJSON`
+   <br>但 TopoJSON 仍需要使用[套件](https://github.com/topojson/topojson)轉換資料型別才可使用
+   > GeoJSON 是一種基於 JSON 的地理空間數據交換格式，它定義了幾種類型 JSON 對象以及它們組合在一起的方法，以表示有關地理要素、屬性和它們的空間範圍的數據。
+   > ToopJSON 是由 D3 的作者基於 GeoJSON 推出的延伸格式，縮減了 GeoJSON 的冗餘內容，更加壓縮檔案大小
+
+#### shapefile
+
+```bash
+# 1. 安裝轉換用的套件 shapefile
+npm install -g shapefile
+# 2. 使用 Big5 編碼轉換
+shp2json COUNTY_MOI_1090820.shp -o COUNTY_MOI_1090820.json --encoding big5
+```
+
+### 繪製地圖
+
+- `d3.geoMercator`：以麥卡托投影法繪製地圖
+- `center`：地圖中心點座標
+- `scale`：地圖縮放倍率
+- `d3.geoPath`：轉換投影資料成為 path 路徑
+- `turf`：如果繪製出來是一塊黑色方塊，需要使用 turf.js 轉換 winding order
+  <br>（不太確定精確意思，應該是投影橢圓時有分為依照順時鐘或逆時鐘判斷哪一面是外側
+  <br> 而轉換工具可能不會準確做到這件事，畫出來是內側圖型時就會變成一塊黑，
+  <br> 需要再做一次外圈順序轉換才能正常顯示）
+
+```html
+<script>
+  import { onMount } from "svelte";
+
+  let d3Ready = false;
+  let turfReady = false;
+  let mounted = false;
+
+  onMount(function () {
+    mounted = true;
+    if (d3Ready && turfReady) {
+      // 讀取地圖資料後呼叫繪圖 function
+      d3.json("COUNTY_MOI_1090820.json").then((data) => draw(data));
+      // 亦可使用 fetch
+      // fetch("COUNTY_MOI_1090820.json")
+      //   .then((res) => res.json())
+      //   .then((data) => draw(data));
+    }
+  });
+
+  function d3Loaded() {
+    d3Ready = true;
+    if (mounted && turfReady) {
+      d3.json("COUNTY_MOI_1090820.json").then((data) => draw(data));
+    }
+  }
+
+  function turfLoaded() {
+    d3Ready = true;
+    if (d3Ready && mounted) {
+      d3.json("COUNTY_MOI_1090820.json").then((data) => draw(data));
+    }
+  }
+
+  function draw(mapData) {
+    const map = d3.select(".map").attr("width", 960).attr("height", 500);
+    // 設定投影中心點與縮放倍率
+    const projection = d3.geoMercator().center([121, 24]).scale(6000);
+
+    // 轉換投影資料為路徑
+    const path = d3.geoPath().projection(projection);
+    const fixedFeatures = mapData.features.map((feature) =>
+      turf.rewind(feature, { reverse: true })
+    );
+
+    // 繪製地圖
+    map
+      .selectAll("path")
+      .data(fixedFeatures)
+      .enter()
+      .append("path")
+      .attr("d", path)
+      .attr("stroke", "black")
+      .attr("stroke-width", "0.7")
+      .attr("fill", "steelblue");
+  }
+</script>
+
+<svelte:head>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/6.2.0/turf.min.js"
+    on:load="{turfLoaded}"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.3.1/d3.min.js"
+    on:load="{d3Loaded}"
+  ></script>
+</svelte:head>
+
+<svg class="map" />
+```
+
+- [How to use external Javascript libraries (e.g. Stripe.js) in SvelteJS - Niels van der Molen](https://www.nielsvandermolen.com/external-javascript-sveltejs/)
+- [javascript - D3.js Drawing geojson incorrectly - Stack Overflow](https://stackoverflow.com/questions/49311001/d3-js-drawing-geojson-incorrectly)
+
+## 參考文章
+
 - [D3.js v4/5 使い方 徹底攻略 - データビジュアライゼーション・ラボ](https://wizardace.com/)
 - [The D3 Graph Gallery - Simple charts made with d3.js](https://www.d3-graph-gallery.com/)
 - [Learn D3.js step by step](http://d3indepth.com/)

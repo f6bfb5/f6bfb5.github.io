@@ -1554,14 +1554,10 @@ nextTick(() => {
 
 ## 應用
 
-- [Vue 前端工程師與 Laravel 後端工程師的權責分配問題](https://kantai235.github.io/FrontendWorkWithBackend/)
-- [【Vue.js×Firebase】3 日で位置共有 WEB サービスを作った話【個人開発】](https://qiita.com/ok-bokujou/items/a0c3c5233749e6e32abc)
-- [Nuxt で毎日やりたいことを習慣づける Web アプリ「コツコツ忍者」を作った 🏃‍♀️【個人開発】](https://qiita.com/G4RDSjp/items/12a48f8c3e146e3545b2)
-
 ### 動畫 (`transition` 標籤)
 
 - 將想加入動畫效果的元素放進 `<transition>` 與 `</transition>` 標籤之間
-  若是想同時渲染整個列表，例如使用 `v-for` 的時候，可使用 `<transition-group>` 與 `</transition-group>`
+- 若是想同時渲染整個列表，例如使用 `v-for` 的時候，可使用 `<transition-group>` 與 `</transition-group>`
 
 ```javascript
 <transition-group name="list" tag="p">
@@ -1595,7 +1591,7 @@ nextTick(() => {
 </transition>
 ```
 
-### axios
+### [axios](https://github.com/axios/axios)
 
 1. `npm i axios vue-axios json-server`
 2. 在 `src/` 裡新增 `service` 資料夾，並在裡頭新增 `api.js`
@@ -1730,12 +1726,6 @@ module.exports = {
 };
 ```
 
-### [連結 Google Charts](https://codepen.io/i_ryo/pen/eqpMNQ)
-
-### [讀取 JSON 資料 (axios)](https://codepen.io/i_ryo/pen/jRJoQp)
-
-### [使用 `localStorage` 儲存資料](https://codepen.io/i_ryo/pen/NQbLPR)
-
 ### [multi-page mode](https://medium.com/@nchuuu/%E5%88%A9%E7%94%A8vue-cli-%E9%80%B2%E8%A1%8C%E5%A4%9A%E9%A0%81%E6%89%93%E5%8C%85-633b39bb157)
 
 `vue.config.js`
@@ -1763,296 +1753,50 @@ module.exports = {
 
 ## 延伸框架
 
-### Vuex
-
-- [Vuex 起手式 - HackMD](https://hackmd.io/@chupai/BJA4FwcJL)
-- [Vuex 學習筆記 :: 2018 iT 邦幫忙鐵人賽](https://ithelp.ithome.com.tw/users/20107601/ironman/1454)
-- [Vuex](https://vuex.vuejs.org/) 參考 Flux design pattern 與 Redux 狀態管理模式
-- 將 `單向資料流 Flux 設計模式` 實作進 Vue 框架中，取 `flux` 中的 `x` 得名
-- 使用單一狀態樹統一管理應用程式的所有狀態，並儲存狀態（`state`）於 `store`
-
-#### `Actions`:
-
-1. 定義 App 的所有行為
-   前端組件觸發事件時會 `dispatch` 給 `Actions`
-   `Actions` 不會直接修改 `State`，而是提交（commit） `mutation`
-   讓對應的 `mutation handler` 去更改 `State`
-2. 亦可非同步與 Backend API 溝通
-
-#### `Mutations`:
-
-1. 從 `commit` 接收 `Actions` 傳遞的資料與行為，透過計算處理後更改 `State`
-2. 每個 `Mutation` 都有一個字串型態的 `type`（事件類型）和 `handler`（回調函數）。
-3. `handler`（回調函數）是實際更改狀態的地方，首個傳入參數便為 `State`
-4. 只有 `commit mutation` 才可更改 `State` 中的狀態，不可直接調用 `mutation handler`
-
-#### `State`:
-
-1. 使用一個物件型態記錄 App 所有狀態
-2. 由 `Mutation` 更改狀態
-3. 建議將所有 App 狀態存入 `Store` 中，但 Vuex 仍可讓組件保有局部狀態
-
-#### 單向資料流
-
-所有的動作從 `action` 出發，將結果存進 store 中，改變 `state`，
-`state` 改變後，`view` 會連同改變，
-而這一連串的行為是 `不可逆` 的，因此稱為單向資料流。
-
-#### 安裝
-
-1. npm: `npm instasll vuex --save`
-2. CDN: `https://unpkg.com/vuex`
-
-#### 設置
-
-`main.js`:
-
-```js
-import Vuex from "vuex";
-Vue.use(Vuex);
-```
-
-- [vuex をまだ理解していない全人類に捧ぐ vuex を利用したコードの図解 - Qiita](https://qiita.com/fruitriin/items/42b0ebc5f8a524a0ae17)
-
-### Nuxt
-
-- Vue 2
-- [Vue-router](https://router.vuejs.org/)
-- [Vuex](https://vuex.vuejs.org/)
-- Vue Server Renderer
-- vue-meta
-- [Learn Next.js – A free video course on React and Next.js.](https://masteringnextjs.com/)
-- [Nuxt.js を使うときに、SPA・SSR・静的化のどれがいいか迷ったら - Qiita](https://qiita.com/nishinoshake/items/f42e2f03663b00b5886d)
-- [Nuxt.js でバックもフロントもこれ一本 - Qiita](https://qiita.com/kawaMk4/items/298f95f751540b96d39b)
-- [大幅にリニューアルされた Next.js のチュートリアルをどこよりも早く全編和訳しました - Qiita](https://qiita.com/thesugar/items/01896c1faa8241e6b1bc)
-- [Web アプリ無料運営のススメ：Firebase と Nuxt(Vue)なら最強！ - Qiita](https://qiita.com/y_kawase/items/fb9f747d88af151f981a)
-
-#### 安裝
-
-```bash
-npm install --save nuxt
-npx create-nuxt-app nuxt_app
-```
-
-- `nux`: 同捆於 `npm` 中能夠快速執行 `npm` package 的指令
-
-### Vue Router
-
-- `vue-router` 提供能在前端模擬路由的功能，在切換頁面時就不需要向後端發出請求
-
-#### 安裝
-
-1. 於 `vue-cli` 建置專案時選用 Vue Router
-2. `vue add router`
-3. `npm i vue-router`
-   └ 接著在 `router.js` 中啟用 `Vue.use(VueRouter)`
-
-#### 路由配置
-
-1. 進入點與路由頁面可以在 `router.js` 中設定
-2. `<router-view></router-view>`：顯示路由組件
-   └ `<router-view name="name"></router-view>`
-3. `<router-link></router-link>`：配置路由連結
-   └ `<router-link to="path">Link</router-link>`
-
-- `vue-router` 有三種路由模式
-  ├ hash 模式（預設）
-  ├ history 模式
-  ├ abstract 模式
-  └ 可以從管理路由的 `router.js` 中指定
-
-`router.js`
-
-```javascript
-import 組件 from '@/components/組件'
-
-export default new VueRouter({
-  mode: 'history',
-  routes: [
-    {
-      name: '組件名稱',
-      path: '路徑位置',
-      component: import 的組件
-    },
-  ]
-})
-```
-
-`App.vue`
-
-```vue
-<script>
-  import 組件 from '@/components/組件'
-
-  export default {
-    components: {
-      組件
-    }
-  }
-</script>
-
-<template>
-  <div>
-    <nav>
-      <router-link to="/組件">Link<router-link/>
-    </nav>
-    <router-view/>
-  </div>
-</template>
-```
-
-#### 取得路由參數
-
-1. params：取得於路由設置中自訂的參數
-
-`router.js`
-
-```javascript
-{
-  // 冒帽後方字串為自訂參數名稱
-  // 問號代表此參數可為空
-  path: '/Products/:id?',
-  component: Products
-}
-```
-
-- 於網址傳入參數後：`http://localhost:8080/#/Products/1`
-- 可於 Vue 中取得參數：`this.$route.params.id`
-
-2. query：取得於網址問號之後的字串
-
-`router.js`
-
-```javascript
-{
-  // 無需特定設置
-  path: '/Products',
-  component: Products
-}
-```
-
-- 於網址傳入參數後：`http://localhost:8080/#/Products?id=1&page=2`
-- 可於 Vue 中取得整個字串：`this.$route.query`
-
-- [Vue Router. 路由基礎 | by Leo Lin | Medium](https://medium.com/@linwei5316/vue-router-4c2aad1cc352)
-- [Router 基本入門 Day 9 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10214449)
-
-### [electron-vue](https://github.com/SimulatedGREG/electron-vue)
-
-- UI 框架
-- `v-app`、`v-content`、`v-container`
-- `v-layout`、`v-flex`、`v-btn`
-- `v-app-bar`、`v-app-bar-nav-icon`、`v-toolbar-title`、`v-menu`、`v-list`、`v-list-item`
-- `v-footer`
-- `v-breadcrumbs`、`v-carousel`、`v-card`、`v-expansion-panels`、`v-calendar`
-
-### [VuePress](https://vuepress.vuejs.org/zh/guide/#features)
-
-- [ドキュメントサイトのテンプレート VuePress がよかった – Cntlog](https://blog.cntlog.net/archives/3778)
-
-### [CarvueJS](https://carvuejs.github.io/home)
-
-### Vite
-
-- [antfu/vitesse: 🏕 Opinionated Vite Starter Template](https://github.com/antfu/vitesse)
+| 名稱                                                          | 說明 |
+| ------------------------------------------------------------- | ---- |
+| [electron-vue](https://github.com/SimulatedGREG/electron-vue) |      |
+| [VuePress](https://vuepress.vuejs.org/zh/guide/#features)     |      |
+| [CarvueJS](https://carvuejs.github.io/home)                   |      |
+| [Vite](https://github.com/antfu/vitesse)                      |      |
 
 ## UI Framework
 
-### [Vuetify](https://vuetifyjs.com/)
-
-- [Vuetify 2.0 の注目機能と Nuxt.js での試し方 - Qiita](https://qiita.com/reireias/items/3688ff593185a79d521b)
-
-### [bootstrap-vue](https://bootstrap-vue.js.org/)
+| 名稱                                           | 說明 |
+| ---------------------------------------------- | ---- |
+| [Vuetify](https://vuetifyjs.com/)              |      |
+| [bootstrap-vue](https://bootstrap-vue.js.org/) |      |
+| [element-ui](http://element.eleme.io/#/en-US)  |      |
+| [vue-material](https://vuematerial.io/)        |      |
 
 - [BootstrapVue：環境建置 (引入全部元件/部分元件) | Titangene Blog](https://titangene.github.io/article/bootstrap-vue-env-import-components.html)
 
-### [element-ui](http://element.eleme.io/#/en-US)
-
-### [vue-material](https://vuematerial.io/)
-
 ## Library
 
-- [vue-chartjs](https://vue-chartjs.org/)
-- [vue-fa](https://cweili.github.io/vue-fa/)
-- [vue-validate](https://baianat.github.io/vee-validate/)
-- [eslint-plugin-vue](https://eslint.vuejs.org/)
-- [vue-lazyload](https://github.com/hilongjw/vue-lazyload)
-- [axios](https://github.com/axios/axios)
-- [vue-style-loader](https://github.com/vuejs/vue-style-loader#readme)
-- [vuedraggable](https://github.com/SortableJS/Vue.Draggable)
-- [vue-socket.io](https://github.com/MetinSeylan/Vue-Socket.io)
-- [vue-multiselect](https://vue-multiselect.js.org/)
-- [vuejs-datepicker](https://codesandbox.io/s/mpklq49wp)
-- [vue-md-editor](https://github.com/anguer/vue-editor)
-- [vue-typer](https://github.com/cngu/vue-typer)
-- [vue-rate-it](https://craigh411.github.io/vue-rate-it/)
-- [vue-good-table](https://xaksis.github.io/vue-good-table/)
-- [body-scroll-lock](https://github.com/willmcpo/body-scroll-lock#readme)
-- [vuesocial](https://www.growthbunker.dev/vuesocial/)
-- [vuetable-2](https://github.com/ratiw/vuetable-2)
-- [vue-apexcharts](https://apexcharts.com/vue-chart-demos/)
-- [vue-google-charts](https://github.com/devstark-com/vue-google-charts)
-- [vue-moment](https://github.com/brockpetrie/vue-moment)
-- [vue-crud](https://vue-crud.github.io/)
-- [vue-fullpage](https://github.com/alvarotrigo/vue-fullpage.js)
-- [Vue.js Framework Components - Vuesax](https://lusaxweb.github.io/vuesax/)
-- [Vuexy - Vuejs, React, HTML & Laravel Admin Dashboard Template by PIXINVENT](https://themeforest.net/item/vuexy-vuejs-html-laravel-admin-dashboard-template/23328599)
-- [VueUse](https://qiita.com/mascii/items/558c7d5d5bf82eaa59a6)
-
-### vue-fontawesome
-
-#### 安裝
-
-- `npm i -D @fortawesome/{vue-fontawesome,fontawesome-svg-core,free-brands-svg-icons}`
-- 免費圖示：
-  ├ `@fortawesome/free-solid-svg-icons`
-  ├ `@fortawesome/free-regular-svg-icons`
-  └ `@fortawesome/free-brands-svg-icons`
-- 付費圖示：
-  ├ `@fortawesome/pro-solid-svg-icons`
-  ├ `@fortawesome/pro-regular-svg-icons`
-  ├ `@fortawesome/pro-light-svg-icons`
-  └ `@fortawesome/pro-duotone-svg-icons`
-
-#### 設定付費資訊
-
-```bash
-# A. 全體設定
-npm config set "@fortawesome:registry" https://npm.fontawesome.com/ && \
-npm config set "//npm.fontawesome.com/:_authToken" TOKEN
-
-# B. 在 project 主資料夾或與 package.json 相同位置的資料夾裡建立 .npmrc 檔案設定
-@fortawesome:registry=https://npm.fontawesome.com/
-//npm.fontawesome.com/:_authToken=TOKEN
-```
-
-#### 導入
-
-`main.js`
-
-```javascript
-import { library } from "@fortawesome/fontawesome-svg-core";
-
-// 圖示名稱至 fontawesome 網站 https://fontawesome.com/icons?d=gallery 上搜尋
-// 依欲使用的風格選擇
-// free-solid-svg-icons 為填滿圖示，通常以 fas 為標頭
-import { 欲使用的圖示名稱 as 圖示變數 } from "@fortawesome/free-solid-svg-icons";
-import { faStar as fasStar } from "@fortawesome/free-solid-svg-icons";
-
-// free-regular-svg-icons 為一般圖示，通常以 far 為標頭
-import { 欲使用的圖示名稱 as 圖示變數 } from "@fortawesome/free-regular-svg-icons";
-import { faStar as farStar } from "@fortawesome/free-regular-svg-icons";
-
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-
-// 加入至 project 中
-library.add(欲使用的圖示名稱);
-
-Vue.component("font-awesome-icon", FontAwesomeIcon);
-```
-
-#### 使用
-
-組件的名稱於上方的 `Vue.component` 裡設定，如文內的範例是 `font-awesome-icon`；在欲使用的頁面裡加入：
-`<font-awesome-icon :icon="['圖示標頭', '圖示名稱']" />`
-ex: `<font-awesome-icon :icon="['fab', 'font-awesome']" />`
+| 名稱                                                                                             | 說明 |
+| ------------------------------------------------------------------------------------------------ | ---- |
+| [vue-chartjs](https://vue-chartjs.org/)                                                          |      |
+| [vue-fa](https://cweili.github.io/vue-fa/)                                                       |      |
+| [vue-validate](https://baianat.github.io/vee-validate/)                                          |      |
+| [eslint-plugin-vue](https://eslint.vuejs.org/)                                                   |      |
+| [vue-lazyload](https://github.com/hilongjw/vue-lazyload)                                         |      |
+| [vue-style-loader](https://github.com/vuejs/vue-style-loader#readme)                             |      |
+| [vuedraggable](https://github.com/SortableJS/Vue.Draggable)                                      |      |
+| [vue-socket.io](https://github.com/MetinSeylan/Vue-Socket.io)                                    |      |
+| [vue-multiselect](https://vue-multiselect.js.org/)                                               |      |
+| [vuejs-datepicker](https://codesandbox.io/s/mpklq49wp)                                           |      |
+| [vue-md-editor](https://github.com/anguer/vue-editor)                                            |      |
+| [vue-typer](https://github.com/cngu/vue-typer)                                                   |      |
+| [vue-rate-it](https://craigh411.github.io/vue-rate-it/)                                          |      |
+| [vue-good-table](https://xaksis.github.io/vue-good-table/)                                       |      |
+| [body-scroll-lock](https://github.com/willmcpo/body-scroll-lock#readme)                          |      |
+| [vuesocial](https://www.growthbunker.dev/vuesocial/)                                             |      |
+| [vuetable-2](https://github.com/ratiw/vuetable-2)                                                |      |
+| [vue-apexcharts](https://apexcharts.com/vue-chart-demos/)                                        |      |
+| [vue-google-charts](https://github.com/devstark-com/vue-google-charts)                           |      |
+| [vue-moment](https://github.com/brockpetrie/vue-moment)                                          |      |
+| [vue-crud](https://vue-crud.github.io/)                                                          |      |
+| [vue-fullpage](https://github.com/alvarotrigo/vue-fullpage.js)                                   |      |
+| [Vuesax](https://lusaxweb.github.io/vuesax/)                                                     |      |
+| [Vuexy](https://themeforest.net/item/vuexy-vuejs-html-laravel-admin-dashboard-template/23328599) |      |
+| [VueUse](https://qiita.com/mascii/items/558c7d5d5bf82eaa59a6)                                    |      |
