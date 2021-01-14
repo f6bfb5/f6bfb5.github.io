@@ -1,5 +1,5 @@
 ---
-title: "Regular Expression"
+title: "正規表達式 Regular Expression"
 date: 2019-09-17T20:08:26.000Z
 published: 2019-09-17T20:08:26.000Z
 author: f6bfb5
@@ -7,14 +7,11 @@ summary:
 layout: blog
 ---
 
-## 相關工具
+## 基礎介紹
 
-| 名稱                                                              | 說明                   |
-| ----------------------------------------------------------------- | ---------------------- |
-| [Regex101](https://regex101.com/)                                 | 驗證內容是否符合表達式 |
-| [Regulex](<https://jex.im/regulex/#!flags=&re=%5E(a%7Cb)*%3F%24>) | 圖象化表達式內容       |
-| [iHateRegex](https://ihateregex.io/)                              | 表達式 snippet         |
-| [Regex Crossword](https://regexcrossword.com/)                    | 正規表達式字謎遊戲     |
+正規表達式（Regular Expression，常簡寫為 RegEx）是表達一串文字是否符合特定規則的搜尋用模型（pattern），常見頭尾以斜線 `/` 包住，字尾加上額外的搜尋條件
+
+例如可以使用 `/^09\d{2}-?\d{3}-?\d{3}$/` 這段表達台灣手機號碼的正規表達式，來判斷某串數字是否吻合相應規則
 
 ### 指定字元
 
@@ -61,6 +58,16 @@ layout: blog
 
 除此之外，`[\$.|?*+( )` 這些特殊字元都需要在前面加上 `\` ，避開它原有的特殊意義，如：`\$`、`\*`。
 
+### Modifiers
+
+在 JavaScript 中，使用 RegEx 可以於第二個斜線後再加上 modifier，指定進一步的吻合條件，例如：`var patt = /w3schools/i`
+
+| 記述 | 內容               |
+| ---- | ------------------ |
+| g    | 搜尋所有對應內容   |
+| i    | 搜尋大小寫完全一致 |
+| m    | 搜尋多行內容       |
+
 ### 常用範例
 
 - 西元生日: `/^[1-9]\d{3}-\d{2}-\d{2}$/`
@@ -71,6 +78,15 @@ layout: blog
 ## 在 VSCode 上使用正規表達式快速處理文字
 
 在 VSCode 的搜尋功能內使用正規表達式符號時，
-需啟用正規表達式搜尋功能 (快捷鍵為 `Alt+R` )，
-不需在前後加上 `\\`，
-可以用 `Alt + Enter` 一次選取所有符合規則的字元。
+<br>需啟用正規表達式搜尋功能 (快捷鍵為 `Alt+R` )，
+<br>但不需在前後加上 `//`，
+<br>可以用 `Alt + Enter` 一次選取所有符合規則的字元。
+
+## 相關工具
+
+| 名稱                                                              | 說明                   |
+| ----------------------------------------------------------------- | ---------------------- |
+| [Regex101](https://regex101.com/)                                 | 驗證內容是否符合表達式 |
+| [Regulex](<https://jex.im/regulex/#!flags=&re=%5E(a%7Cb)*%3F%24>) | 圖象化表達式內容       |
+| [iHateRegex](https://ihateregex.io/)                              | 表達式 snippet         |
+| [Regex Crossword](https://regexcrossword.com/)                    | 正規表達式字謎遊戲     |

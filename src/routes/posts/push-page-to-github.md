@@ -44,7 +44,7 @@ layout: blog
 ### gh-pages 套件
 
 1. `npm i gh-pages --save-dev`
-1. 編輯 `package.json`，新增：
+2. 編輯 `package.json`，新增：
 
 ```json
 {

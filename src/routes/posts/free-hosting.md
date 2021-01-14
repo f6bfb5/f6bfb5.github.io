@@ -7,14 +7,6 @@ summary:
 layout: blog
 ---
 
-#### Anchor links using remark-slug
-
-- [Heroku](#heroku)
-- [Netlify](#netlify)
-- [Vercel](#vercel)
-- [Firebase](#firebase)
-- [Amazon AWS](#amazon-aws)
-
 ## [Heroku](https://www.heroku.com/)
 
 ### 環境建置

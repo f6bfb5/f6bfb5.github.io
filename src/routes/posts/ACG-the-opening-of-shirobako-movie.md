@@ -39,7 +39,7 @@ layout: blog
 
 相較動畫版電台播放的歌曲是快速而正向的，劇場版的則是沉著並且「真沒辦法唉呀唉呀」，雖然不完全負面卻是有些消沉的歌曲。
 
-<iframe width="560" height="315" title="shirobako movie opening" src="https://www.youtube.com/embed/YtGSzDeTdBM?start=335" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="720" height="480" title="shirobako movie opening" src="https://www.youtube.com/embed/YtGSzDeTdBM?start=335" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 這便是在**暗示著，電視動畫版裡接下來要發生的，是激動的動畫業界故事，劇場版裡則是武藏野動畫的經營不善的演出手法**。
 

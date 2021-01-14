@@ -1,13 +1,7 @@
 ---
-title: "[編程] Python"
-path: /cse-python
-date: 2020-02-12 13:23:37
+title: "Python"
+date: 2020-02-12T05:23:37.000Z
 published: false
-tags: ["CSE"]
-series: false
-cover_image: "cover2.png"
-canonical_url: false
-description: ""
 ---
 
 ## 為什麼 Python 的 main 函式要寫成 `if __name__ == '__main__':` ？

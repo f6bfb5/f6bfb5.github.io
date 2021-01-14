@@ -28,7 +28,7 @@ date: 2021-01-14T00:24:23.000Z
 ## 將「Code」轉換成「Token」
 
 1. 傳送 POST 請求到 Discord API
-   > `curl -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "client_id=`CLIENT ID`&client_secret=`CLIENT SECRET`&grant_type=authorization_code&code=`CODE`&redirect_uri=`REDIRECT URL（要與認證 URL 相同）`" https://discordapp.com/api/oauth2/token`
+   > `curl -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "client_id=`CLIENT ID`&client_secret=`CLIENT SECRET`&grant_type=authorization_code&code=`CODE`&redirect_uri=`REDIRECT URL(要與認證 URL 相同)`" https://discordapp.com/api/oauth2/token`
 2. 若成功就可取得 Access Token
    > `{"access_token": `ACCESS TOKEN`, "expires_in": 604800, "refresh_token": `REFRESH TOKEN`, "scope": `SCOPE`, "token_type": "Bearer"}`
 
@@ -39,8 +39,8 @@ date: 2021-01-14T00:24:23.000Z
 
 1. 傳送 POST 請求到 Discord API
    <br>`curl -H "Authorization: Bearer `ACCESS TOKEN`" https://discordapp.com/api/users/@me`
-2. 若成功就可取得 Access Token
-   > `{"id": `Discord ID`, "username": `使用者名稱`, "avatar": `大頭貼 ID`, "discriminator": `使用者編號(在名稱的#後面的數字)`, "public_flags": 0, "flags": 0, "email": `信箱`, "verified": true, "locale": `使用語言`, "mfa_enabled": false}`
+2. 若成功就可取得相關資料
+   > `{"id": `Discord ID`, "username": `使用者名稱`, "avatar": `大頭貼 ID`, "discriminator": `使用者編號(在名稱#後面的數字)`, "public_flags": 0, "flags": 0, "email": `信箱`, "verified": true, "locale": `使用語言`, "mfa_enabled": false}`
 
 - 頭像可以使用 `https://cdn.discordapp.com/avatars/`Discord ID`/`大頭貼 ID 取得
 

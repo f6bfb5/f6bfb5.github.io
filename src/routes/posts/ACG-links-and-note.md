@@ -26,6 +26,15 @@ date: 2021-01-10T04:29:12.000Z
 
 - [会社情報：社長が訊く リンク集](https://www.nintendo.co.jp/corporate/links/)：任天堂前社長岩田聰訪問各個作品團隊的脈絡與背景的專欄企劃
 
+## 統計資料
+
+- [JACC® Search - Japan Content Catalog -](https://japancontentcatalog.jp/)：查詢作品的相關權利持有者
+- [各種調査報告｜一般社団法人日本映像ソフト協会](http://www.jva-net.or.jp/report/)：加盟 JAV 的各家片商銷售數量統計
+- [調査報告書 | 活動報告 | ACCS](https://www2.accsjp.or.jp/research/)：檔案分享軟體使用狀況 crwaling 調查統計
+- [日本におけるアニメ視聴の概況 | eb-i](https://www.f-ism.net/ebi/mreport/r00000000047/)
+
+---
+
 ## 關於製作委員會
 
 - 指由多家企業一同出資贊助，減少影音公司製作娛樂作品需要承擔的風險，並且各家贊助公司可以利用自家的專業，拓展該品牌的獲利模式
@@ -61,14 +70,9 @@ date: 2021-01-10T04:29:12.000Z
 - [アニメの「製作委員会」](http://garakuta-do.game.coocan.jp/seisakuiinkai.html)
 - [OVA の歴史](http://ohkami.sakura.ne.jp/meta-ovalist.htm)
 
+---
+
 ## 關於業界問題
 
 - [宮崎駿・高畑勲を生んだ東映動画 60 年代問題史！忘れ去られた東映動画問題史](http://www1.odn.ne.jp/~ccu48870/wasurera.htm)
 - [アニメ声優のストライキとデモ行進を伝える 1991 年の記事から](https://anirepo.exblog.jp/15999720/)
-
-## 統計資料
-
-- [JACC® Search - Japan Content Catalog -](https://japancontentcatalog.jp/)：查詢作品的相關權利持有者
-- [各種調査報告｜一般社団法人日本映像ソフト協会](http://www.jva-net.or.jp/report/)：加盟 JAV 的各家片商銷售數量統計
-- [調査報告書 | 活動報告 | ACCS](https://www2.accsjp.or.jp/research/)：檔案分享軟體使用狀況 crwaling 調查統計
-- [日本におけるアニメ視聴の概況 | eb-i](https://www.f-ism.net/ebi/mreport/r00000000047/)

@@ -9,7 +9,6 @@ layout: blog
 
 ## Example
 
-https://codepen.io/f6bfb5/pen/PoqNWZa
 https://codepen.io/0x010C/pen/QWwPGWm
 
 ```
