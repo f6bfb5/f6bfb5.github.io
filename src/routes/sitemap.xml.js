@@ -12,11 +12,15 @@ fs.readdirSync("./src/routes").forEach(file => {
 });
 
 const render = (pages, posts) => `<?xml version="1.0" encoding="UTF-8" ?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   ${pages
     .map(
       page => `
-    <url><loc>${siteUrl}/${page}</loc><priority>0.85</priority></url>
+    <url>
+      <loc>${siteUrl}/${page}</loc>
+      <lastmod>${JSON.stringify(new Date()).slice(1, -1)}</lastmod>
+      <priority>1.00</priority>
+    </url>
   `
     )
     .join("\n")}
@@ -25,7 +29,8 @@ const render = (pages, posts) => `<?xml version="1.0" encoding="UTF-8" ?>
       post => `
     <url>
       <loc>${siteUrl}/blog/${post.slug}</loc>
-      <priority>0.69</priority>
+      <lastmod>${JSON.stringify(new Date(post.printDate)).slice(1, -1)}</lastmod>
+      <priority>0.80</priority>
     </url>
   `
     )
