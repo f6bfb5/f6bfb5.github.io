@@ -26,11 +26,25 @@
   });
 </script>
 
-<style>
-</style>
-
 <svelte:head>
-  <title>Blog</title>
+  <title>f6bfb5's Blog</title>
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="f6bfb5's blog" />
+  <meta name="Description" content="雨天決行" />
+  <meta property="og:description" content="雨天決行" />
+
+  <meta property="og:image" content="https://i.imgur.com/hQnfcyo.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <meta name="twitter:title" value="f6bfb5's blog" />
+  <meta name="twitter:description" content="雨天決行" />
+
+  <meta
+    name="google-site-verification"
+    content="C2koaxPTcaB21Oif-Z4U_lyVAKw4H7hb-pM5OiGcSWQ"
+  />
 </svelte:head>
 
 <div class="container">
@@ -47,3 +61,6 @@
     </ul>
   {/each}
 </div>
+
+<style>
+</style>
