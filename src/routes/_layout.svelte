@@ -3,12 +3,34 @@
   import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte";
   import { stores } from "@sapper/app";
   import GoogleAdsense from "../components/GoogleAdsense.svelte";
+  import { Favicon } from "../components/Favicon.svelte";
 
   let ga_measurement_id = "UA-114661136-2";
   let ga_client_id = "ca-pub-9613661448556355";
 
   export let segment;
 </script>
+
+<div class="layout">
+  <GoogleAnalytics {stores} id={ga_measurement_id} />
+  <GoogleAdsense id={ga_client_id} />
+  <Favicon />
+  <Header {segment} />
+
+  <main>
+    <slot />
+  </main>
+
+  <footer>
+    <span>
+      <a
+        href="https://creativecommons.org/licenses/by-sa/4.0/"
+        target="_blank"
+        rel="noreferrer noopener nofollow">CC BY-SA 4.0.</a
+      >
+    </span>
+  </footer>
+</div>
 
 <style>
   .layout {
@@ -41,22 +63,3 @@
     border-top: 1px solid #e6e6e6;
   }
 </style>
-
-<div class="layout">
-  <GoogleAnalytics {stores} id={ga_measurement_id} />
-  <GoogleAdsense id={ga_client_id} />
-  <Header {segment} />
-
-  <main>
-    <slot />
-  </main>
-
-  <footer>
-    <span>
-      <a
-        href="https://creativecommons.org/licenses/by-sa/4.0/"
-        target="_blank"
-        rel="noreferrer noopener nofollow">CC BY-SA 4.0.</a>
-    </span>
-  </footer>
-</div>
