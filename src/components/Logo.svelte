@@ -1,3 +1,10 @@
+<a href="/">
+  <img
+    alt="Buddha of Kamakura"
+    src="noun_great_buddha_of_kamakura_3572172.svg"
+  />
+</a>
+
 <style>
   img {
     display: block;
@@ -5,5 +12,3 @@
     width: 50px;
   }
 </style>
-
-<a href="/"> <img alt="Sapper" src="logo-192.png" /> </a>
