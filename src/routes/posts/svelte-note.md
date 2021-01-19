@@ -82,21 +82,24 @@ const app = new App({
 
 ## Reactivity
 
-- Reactivity 意指指派值時會觸發此行為，類似 Vue 的 `computed`
-- svelte 提供了 reactivit 宣告：`$:`
-  ├ component 的狀態改變時，會自動更新 `$:` 後面的內容到 DOM 上
+- 「Reactivity」意指指派值時會觸發的相關行為，類似 Vue 的 `computed`
+- svelte 以 `$:` 宣告 reactivity 內容
+  ├ component 的狀態改變時，會自動更新 `$:` 後面的行為內容到 DOM 上
   │ ex. `$: doubled = count * 2;`
-  │ 這時 `$:` 後面便不需再加上 `let` 之類的變數宣告
-  ├ `$:` 之後亦可使用如 `console.log()` 之類的函式監看數值變化
+  │ 以 `$:` 宣告的變數不需再加上 `let` 之類的宣告
+  ├ `$:` 裡的行為亦可使用如 `console.log()` 之類的函式監看數值變化
   │ 但 reactivity 只會於賦值時觸發
   │ 如 Array 的 `push` 和 `splice` 並不會觸發更新
   │ 因此 `push` 要改寫成 `numbers = [...numbers, numbers.length + 1];`
-  └ 並且賦值變數必須為所更新的變數，例如二段式的
+  └ 並且賦值變數（等號左邊的變數）必須為 `$:` 宣告的更新變數
   ```js
+  $: obj;
+  // 若是二段式的賦值，並不會觸發更新
   const foo = obj.foo;
   foo.bar = "baz";
+  // 除非在最後加上 obj=obj
+  obj = obj;
   ```
-  並不會有任何效果，除非在最後再加上 `obj=obj`
 
 ### Reactivity 搭配非同步處理
 
@@ -308,51 +311,141 @@ onMount(() => {
 ## Store 和 Context
 
 - 統一保存資料管理狀態
-- Store 用於資料經常變動並且可能會跨元件使用時
-  └ 有 3 個 API，可於元件外宣告，分別為 `readable`、`writable`、`derived`
-- `writable`：可以使用 `update` 或 `set` 從外部修改 store 的值
-  ├ `import { writable } from 'svelte/store'`
-  │ `const countdown = writable(10);`
-  │ `countdown.update(currentValue => { return 9 });`
-  └ `countodnw.set(9);`
-- `readable`：只能從內部修改 store 的值
-  ├ `import { readable } from 'svelte/store'`
-  └
+- Store 用於資料經常變動，並且需要跨元件使用時
+- Svelte 提供了 3 個 function，設定資料的可存取範圍，分別為 `readable()`、`writable()`、`derived()`
+- 將想存於 store 的值以此 function 宣告即可，例如 `const count = writable(0);`
+- 以及 1 個 `subscribe()` 方法，用以處理元件的生命週期問題
+
+### `writable()`
+
+- 可以使用 `update()` 或 `set()` 從外部修改 store 的值
+- `import { writable } from 'svelte/store'`
+
+```javascript
+const countdown = writable(10);
+countdown.update((currentValue) => {
+  return 9;
+});
+countodnw.set(9);
+```
+
+### `subscribe()`
+
+- 所有的 svelte store 都有個 `subscribe` 方法
+- 當值更新時會進行通知，以及處理元件的生命週期問題
+- 呼叫後會回傳一個 unsubscribe 函數，可以搭配生命週期的 `onDestroy` 使用，避免 memory leak 問題（※）
+
+※：Svelte 的教學裡對這部份沒有太多著墨，相關概念應該是來自於 RxJS，需要這樣做的原因是，假如主應用中 `元件 A` 需要存取 store（等同於 RxJS 中的 `subscribe`？），當使用者切換到另一個頁面，原本的 `元件 A` 會銷毀並切換為 `元件 B`，但 `元件 A` 的資料取用行為還存在（instance 依然存在），就會造成 memory leak 與無法預期的行為，因此需要 `unsubscribe`
+
+- [angular - Angular/RxJs When should I unsubscribe from \`Subscription\` - Solve Old Bugs](https://oldbug.net/q/2ZThe/Angular-RxJs-When-should-I-unsubscribe-from-Subscription)
+- [\[Angular\] RxJs unsubscribe 的時機](https://yuugou727.github.io/blog/2019/06/22/when-to-unsubscribe/)
+- [Why It's Important to Unsubscribe from RxJS Subscription](https://netbasal.com/why-its-important-to-unsubscribe-from-rxjs-subscription-a7a6455d6a02)
+- [ueler/angular-rxjs-unsubscribe](https://github.com/ueler/angular-rxjs-unsubscribe)
+
+`store.js`
+
+```javascript
+import { writable } from "svelte/store";
+
+export const count = writable(0);
+```
+
+`Incrementer.svelte`
+
+```html
+<script>
+  import { count } from "./stores.js";
+
+  function increment() {
+    count.update((n) => n + 1);
+  }
+</script>
+
+<button on:click="{count.increment}">+</button>
+```
+
+`App.svelte`
+
+```html
+<script>
+  import { onDestroy } from "svelte";
+  import { count } from "./stores.js";
+  import Incrementer from "./Incrementer.svelte"; // 對 store 進行存取操作的 component
+
+  let count_value;
+
+  const unsubscribe = count.subscribe((value) => {
+    count_value = value;
+  });
+
+  onDestroy(unsubscribe);
+</script>
+
+<h1>The count is {count_value}</h1>
+<Incrementer />
+```
+
+#### Auto-subscription
+
+- 也可以在變數前方加上 `$` ，就會自動 subscribe 此 store，同時處理 unsubscribe 邏輯
+- `<span>{$countdonw}</span>`
+
+```html
+<script>
+  import { count } from "./stores.js";
+  import Incrementer from "./Incrementer.svelte";
+
+  let count_value;
+
+  const unsubscribe = count.subscribe((value) => {
+    count_value = value;
+  });
+</script>
+
+<h1>The count is {$count}</h1>
+<Incrementer />
+```
+
+### `readable()`
+
+- 只能從內部元件使用 `set()` 修改，外部元件只能取得資料的 store
+- 例如滑鼠的所在位置，或是使用者的地理座標
+- 第一個參數為預設值，第二個參數為修改資料的 function
+- `import { readable } from 'svelte/store'`
+
   ```javascript
   chatSub = readable([], (set) => {
     let chatList = [];
     set([]...chatList, chat]);
   })
   ```
-- `derived`：接收 1 至多個 store 並且加工
-  └ `import { derived } from 'svelte/store'`;
-- 所有的 svelte store 都有個 `subscribe` 方法
-  ├ 當 store 的值有變動行進行通知
-  │ 在呼叫後會回傳一個 unsubscribe 函數
-  ├ 在變數前方加上 `$` 可以自動 subscribe store
-  │ 並同時處理 unsubscribe 邏輯
-  └ `<span>{$countdonw}</span>`
 
-  ```html
-  <script>
-    import { derived } from "svelte/store";
-    const list = readable(["Do homework", "sleep", "programming"]);
-    const ids = writable([1, 2]);
+### `derived()`
 
-    const selectedList = derived([list, ids], ([list, ids], set) => {
-      set(list.filter((val, i) => ids.inclueds(i)));
-    });
-  </script>
+- 接收 1 至多個 store 並且進行加工
+- `import { derived } from 'svelte/store'`;
 
-  {$selectedList}
-  ```
+```html
+<script>
+  import { derived } from "svelte/store";
+  const list = readable(["Do homework", "sleep", "programming"]);
+  const ids = writable([1, 2]);
 
-- `get` 則是取得 store 內的值
+  const selectedList = derived([list, ids], ([list, ids], set) => {
+    set(list.filter((val, i) => ids.inclueds(i)));
+  });
+</script>
+
+{$selectedList}
+```
+
+### Context
+
 - Context 用於資料幾乎不會變動或跨元件溝通時
-  ├ 沒有 reactive 效果（ex. subscribe, unsubscribe）
-  │ 需要在 svelte 元件中使用才有效果
-  ├ 只會作用在 svelte 的元件樹中
-  └ svelte 會去尋找距離元件最近的 context
+- 沒有 reactive 效果（ex. subscribe, unsubscribe）
+- 需要在 svelte 元件中使用才有效果
+- 只作用在 svelte 的元件樹中
+- svelte 會去尋找距離元件最近的 context
 
   `App.svelte`
 

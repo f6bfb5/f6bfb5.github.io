@@ -17,6 +17,7 @@ date: 2021-01-10T04:58:55.000Z
 - 2002 - \[富野由悠季\] [映像の原則](https://www.amazon.co.jp/%E6%98%A0%E5%83%8F%E3%81%AE%E5%8E%9F%E5%89%87-%E6%94%B9%E8%A8%82%E7%89%88-%E3%82%AD%E3%83%8D%E3%83%9E%E6%97%AC%E5%A0%B1%E3%83%A0%E3%83%83%E3%82%AF-%E5%AF%8C%E9%87%8E%E7%94%B1%E6%82%A0%E5%AD%A3/dp/4873767369)
 - 2002 - \[今敏\] [千年女優之道](https://www.books.com.tw/products/0010834619)
 - 2007 - \[東浩紀\] [遊戲性寫實主義的誕生：動物化的後現代 2](https://www.books.com.tw/products/0010687643)
+- 2007 - \[星山博之\] [星山博之のアニメシナリオ教室](https://www.amazon.co.jp/%E6%98%9F%E5%B1%B1%E5%8D%9A%E4%B9%8B%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E6%95%99%E5%AE%A4-%E6%98%9F%E5%B1%B1-%E5%8D%9A%E4%B9%8B/dp/4844134353)
 - 2008 - \[宇野常寛\] [零零年代的想像力](https://www.amazon.co.jp/%E3%82%BC%E3%83%AD%E5%B9%B4%E4%BB%A3%E3%81%AE%E6%83%B3%E5%83%8F%E5%8A%9B-%E5%AE%87%E9%87%8E-%E5%B8%B8%E5%AF%9B/dp/4152089415)
   <br>├ [宇野常寬《00 年代的想像力》導讀](http://www.gamebase.com.tw/forum/50040/topic/91234095/1#91234095)
   <br>└ [宇野常寬《零零年代的想像力》翻譯計劃](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22105NCHU5625016%22.&searchmode=basic)

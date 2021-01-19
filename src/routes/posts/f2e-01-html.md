@@ -7,6 +7,36 @@ summary:
 layout: blog
 ---
 
+<summary>
+
+###### TOC
+
+</summary>
+<details>
+
+- [What is HTML？](#what-is-html)
+- [HTML 的四大基本結構](#html-的四大基本結構)
+  - [1. `<!DOCTYPE html>`](#1-doctype-html)
+  - [2. `<html>`](#2-html)
+  - [3. `<head>`](#3-head)
+    - [3-1. metadata tag](#3-1-metadata-tag)
+  - [4. `<body>`](#4-body)
+    - [4-1. `<tagName attributeName="attributeValue">Content</tagName>`](#4-1-tagname-attributenameattributevaluecontenttagname)
+    - [4-2. 常見標籤](#4-2-常見標籤)
+    - [Table 表格](#table-表格)
+    - [Form 表單](#form-表單)
+    - [Input 輸入](#input-輸入)
+    - [其它元素](#其它元素)
+    - [SVG](#svg)
+- [語意化撰寫](#語意化撰寫)
+  - [標籤](#標籤)
+  - [應該避開的寫法](#應該避開的寫法)
+  - [Aria 標籤](#aria-標籤)
+
+---
+
+</details>
+
 ## What is HTML？
 
 HTML（HyperText Markup Language）是撰寫網頁結構用的標記語言，「標記語言」的意思是，它是直接將特定寫法轉換成對應架構，HTML 便是將許多不同標籤（ex. `<tag> ... </tag>`）轉換成瀏覽器上的內容架構和元素。

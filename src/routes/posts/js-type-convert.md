@@ -6,6 +6,7 @@ date: 2021-01-11T00:07:30.000Z
 ## 強制轉換資料型別
 
 ```javascript
+// Convery Data Type
 Math.max(1, 2, 3); // 3;
 Math.min(1, 2, 3); // 1;
 Math.max(1, 2, 3) > Math.min(1, 2, 3); // true;
@@ -54,15 +55,32 @@ true === 1; // false;
 // convert to boolean
 const obj = { hoge: "hoge" };
 !!obj.hoge; // true
+```
 
-// deep copy
+## 複製內容
+
+```javascript
+// Shallow Copy
+// only copy first depth data
+const shallowCopy = { ...obj };
+
+// Deep Copy
+// use JSON.parse/stringify
 const deepCopy = JSON.parse(JSON.stringify(obj));
+// or use loadsh
+const deepCopy = _.cloneDeep(obj);
+```
 
-// check left-hand is null or undefined
+## 檢查 Nullish
+
+```javascript
+// Nullish Coalescing
+// check whether left-hand is null or undefined
 const hoge = null ?? "default"; // "default"
 const fuga = false ?? "default"; // false
 
-// check obj ref is nullish
+// Optional Chaining
+// check whether obj ref is nullish
 obj = {
   fuga: "fuga",
 };
@@ -71,10 +89,6 @@ obj?.hoge; // undefined
 obj && obj.hoge; // equal to this statement
 obj?.fuga; // "fuga"
 obj?.fuga?.hoge; // undefined
-
-// delete array
-const array = ["a", "b", "c"];
-array.length = 0; // array = []
 ```
 
 - [\[JavaScript\]初心者が初見で必ず thinking 顔になるもの特集 - Qiita](https://qiita.com/kozzzz/items/b4cd57ead41fc6355afd)
@@ -99,9 +113,30 @@ array.length = 0; // array = []
 ### 快速產生陣列內容
 
 - [alternative range()](https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp)
-- 數值: `[...Array(5).keys()];` => `[0, 1, 2, 3, 4]`
-- 文字: `String.fromCharCode(...[...Array('D'.charCodeAt(0) - 'A'.charCodeAt(0) + 1).keys()].map(i => i + 'A'.charCodeAt(0)));` ⇒ `"ABCD"`
-- 組合: `for (const x of Array(5).keys()) console.log(x, String.fromCharCode('A'.charCodeAt(0) + x));` ⇒ `0,"A" 1,"B" 2,"C" 3,"D" 4,"E"`
+
+```javascript
+// 數值
+[...Array(5).keys()]; // => [0, 1, 2, 3, 4]
+
+// 文字
+String.fromCharCode(
+  ...[...Array("D".charCodeAt(0) - "A".charCodeAt(0) + 1).keys()].map(
+    (i) => i + "A".charCodeAt(0)
+  )
+); // ⇒ "ABCD"
+
+// 組合
+for (const x of Array(5).keys())
+  console.log(x, String.fromCharCode("A".charCodeAt(0) + x)); // ⇒ 0,"A" 1,"B" 2,"C" 3,"D" 4,"E"
+```
+
+### 刪除 Array
+
+```javascript
+// delete array
+const array = ["a", "b", "c"];
+array.length = 0; // array = []
+```
 
 ### slice() vs splice() vs split()
 

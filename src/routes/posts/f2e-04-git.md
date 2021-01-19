@@ -7,6 +7,43 @@ summary:
 layout: blog
 ---
 
+<summary>
+
+###### TOC
+
+</summary>
+<details>
+
+- [平台服務](#平台服務)
+- [指令速見表](#指令速見表)
+- [Git 簡介](#git-簡介)
+- [工具安裝](#工具安裝)
+  - [VSCode 插件](#vscode-插件)
+- [指令](#指令)
+  - [初始](#初始)
+  - [設定](#設定)
+  - [提交](#提交)
+  - [狀態](#狀態)
+  - [分支](#分支)
+  - [合併](#合併)
+  - [撤銷](#撤銷)
+- [不想版控的項目](#不想版控的項目)
+- [Pull Request（PR）](#pull-requestpr)
+- [使用 SSH 登入](#使用-ssh-登入)
+- [Branch Model](#branch-model)
+  - [git-flow](#git-flow)
+  - [GitHub Flow](#github-flow)
+- [commit message](#commit-message)
+  - [七條規則](#七條規則)
+  - [template](#template)
+  - [工具](#工具)
+  - [文章](#文章)
+- [參考文章](#參考文章)
+
+---
+
+</details>
+
 ## 平台服務
 
 - [GitHub](https://github.com/)

@@ -9,6 +9,27 @@ layout: blog
 
 整理網路上的前端相關資源。
 
+<summary>
+
+###### TOC
+
+</summary>
+<details>
+
+- [入門](#入門)
+  - [練習資源](#練習資源)
+  - [互動遊戲](#互動遊戲)
+  - [如何撰寫技術文章](#如何撰寫技術文章)
+- [設計](#設計)
+  - [Product Requirements Docs ( PRD )](#product-requirements-docs--prd-)
+  - [如何做出有趣的網頁](#如何做出有趣的網頁)
+  - [靈感](#靈感)
+- [Note](#note)
+
+---
+
+</details>
+
 - [【短期】Qiita の読んでおかなければいけない記事 100 選【毎日自動更新】- Qiita](https://qiita.com/j5c8k6m8/items/a59b7cc09ba81fd8a62f)
 - [【長期】Qiita の読んでおかなければいけない記事 100 選【毎日自動更新】- Qiita](https://qiita.com/j5c8k6m8/items/942c158db873f4a0eb12)
 
@@ -22,6 +43,7 @@ layout: blog
 - [前端資源懶人包](https://docs.google.com/document/d/13nK_XY9u5uIleTpSCw88lMupzgCSwXd6j6je44eLhMQ/edit)
 - [Web Fundamentals](https://developers.google.com/web/fundamentals/)
 - [すべての新米フロントエンドエンジニアに読んでほしい 50 の資料](https://qiita.com/suzu-4/items/ea5d802cb0ad16682ae2)
+- [フロントエンドに関わる人のスキルとして触れておきたい・知っておきたいこと - Qiita](https://qiita.com/mmomm/items/f1b3eeb0e64d6f172c39)
 - [最短で Web 業界で給与を得るための最小知識 2020](https://qiita.com/mazgi/items/30d77099445288af0bda)
 - [新人 Web プログラマの学習が捗るリンク集 - Qiita](https://qiita.com/tgsmsk/items/5bc9a2a5fd2d4cb155c2)
 

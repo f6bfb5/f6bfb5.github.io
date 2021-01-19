@@ -292,9 +292,12 @@ settings.addButton("meow", () => {
 | [CCHIMERA PALETTE CREATOR](http://saint11.org/tools/cchimera/index.html)                     | 色彩                  |      |
 | [Random Material Palette Generator](https://www.threebu.it/random-material-palette/)         | 色彩                  |      |
 | [Coolors](https://coolors.co/)                                                               |                       |      |
+| [Sass Color Generator](http://scg.ar-ch.org/)                                                | 調整 SASS 顏色變數    |      |
+| [CSS Gradient](https://cssgradient.io/)                                                      | 產生漸層色            | FREE |
 | [WebGradients.com](https://webgradients.com/)                                                | 色彩                  |      |
 | [カラーチャート/配色パターン - TAG index](https://www.tagindex.com/color/color_pattern.html) | 色彩                  |      |
 | [SASS 變數色卡](https://codepen.io/frank890417/full/MpKebd)                                  | 色彩                  |      |
+| [Interactive CSS Grid Generator](https://grid.layoutit.com/)                                 | 視覺化 grid 效果      |      |
 | [reference for HTML Symbols](https://www.toptal.com/designers/htmlarrows/)                   | HTML 符號             |      |
 
 ## 素材
@@ -311,13 +314,19 @@ settings.addButton("meow", () => {
 
 ### 圖示
 
-| 名稱                                    | 說明                 | 付費             |
-| --------------------------------------- | -------------------- | ---------------- |
-| [FontAwesome](https://fontawesome.com/) | 純 CSS 的向量圖示庫  | 有免費版與付費版 |
-| [CSS Icons](https://css.gg/)            | 開源 icons           | FREE             |
-| [Icones](https://icones.netlify.app/)   | 各家 icon 資源總整理 |                  |
-| [iconmonstr](https://iconmonstr.com/)   |                      |                  |
-| [flaticon](https://www.flaticon.com/)   |                      |                  |
+| 名稱                                                                | 說明                         | 付費             |
+| ------------------------------------------------------------------- | ---------------------------- | ---------------- |
+| [FontAwesome](https://fontawesome.com/)                             | 純 CSS 的向量圖示庫          | 有免費版與付費版 |
+| [Fontello](https://fontello.com/)                                   | 可依要求單獨挑選的圖示庫     |                  |
+| [CSS Icons](https://css.gg/)                                        | 開源 icons                   | FREE             |
+| [Icones](https://icones.netlify.app/)                               | 各家 icon 資源總整理         |                  |
+| [iconmonstr](https://iconmonstr.com/)                               | 向量圖示庫                   |                  |
+| [flaticon](https://www.flaticon.com/)                               | 向量圖示庫                   |                  |
+| [Icograms Designer](https://icograms.com/)                          | 可自由設計的 3D 圖示產生工具 | FREE             |
+| [Patternify](http://www.patternify.com/)                            | 轉換 pattern 圖示成 Base64   | FREE             |
+| [Seamless Pattern Maker](https://patternico.com/)                   | 製作無接縫 pattern 圖示      |                  |
+| [Favicon ジェネレーター](https://favicon-generator.mintsu-dev.com/) | 轉換 Favicon                 | FREE             |
+| [Favicon Generator](https://realfavicongenerator.net/)              | 支援跨裝置的 Favicon         |                  |
 
 ### 圖庫
 
@@ -424,32 +433,39 @@ settings.addButton("meow", () => {
 
 ### 轉換
 
-| 名稱                                                             | 說明                         | 付費 |
-| ---------------------------------------------------------------- | ---------------------------- | ---- |
-| [Unicode code converter](https://r12a.github.io/app-conversion/) | Unicode 轉各種編碼           |      |
-| [HTML to JADE/PUG](https://html2jade.org/)                       | HTML 轉 JADE/PUG             |      |
-| [Productivity is key](https://caferati.me/demo/cssfier)          | 將 HTML 轉換成 SCSS 結構     |      |
-| [transform](https://transform.tools/)                            | 多種網頁常見資料格式互轉     |      |
-| [PX-EM](https://www.webdesignrankings.com/resources/px-em/)      | 計算子母元素 px 值轉為 em    |      |
-| [extractCSS](http://extractcss.com/)                             | 取出 HTML 內的 CSS           |      |
-| [CSSShrink](http://cssshrink.com/)                               | 壓縮 CSS                     |      |
-| [gifski](https://gif.ski/)                                       | 號稱品質最強的 GIF converter |      |
+| 名稱                                                             | 說明                           | 付費 |
+| ---------------------------------------------------------------- | ------------------------------ | ---- |
+| [Autoprefixer CSS online](http://autoprefixer.github.io/)        | 自動加上對應的 CSS 屬性 prefix |      |
+| [Unicode code converter](https://r12a.github.io/app-conversion/) | Unicode 轉各種編碼             |      |
+| [HTML to JADE/PUG](https://html2jade.org/)                       | HTML 轉 JADE/PUG               |      |
+| [Productivity is key](https://caferati.me/demo/cssfier)          | 將 HTML 轉換成 SCSS 結構       |      |
+| [transform](https://transform.tools/)                            | 多種網頁常見資料格式互轉       |      |
+| [PX-EM](https://www.webdesignrankings.com/resources/px-em/)      | 計算子母元素 px 值轉為 em      |      |
+| [extractCSS](http://extractcss.com/)                             | 取出 HTML 內的 CSS             |      |
+| [CSSShrink](http://cssshrink.com/)                               | 壓縮 CSS                       |      |
+| [gifski](https://gif.ski/)                                       | 號稱品質最強的 GIF converter   |      |
 
 ## 終端
 
-| 名稱                                                              | 說明                                                                                                                                                                                                                                                                                                                                                      | 付費 |
-| ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| [Tmuxiator](https://github.com/tmuxinator/tmuxinator)             |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [Node.js](https://nodejs.org/en/download/)                        |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [Postman](https://www.postman.com/downloads/)                     |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [Insomnia](https://insomnia.rest/)                                |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [get-pip](https://bootstrap.pypa.io/get-pip.py)                   |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [cmder](http://cmder.net/)                                        | 結合多項軟體，包含 msysgit 與最重要的 ConEmu 和 [Clink](http://mridgers.github.io/clink/)， msysgit 提供 Git 相關工具與多項 Unix/Linux 環境下常用的指令列工具，例如 `less`、`ls`、`tar`、`unzip`、`md5sum`、`grep`、`sed`...etc.，`Clink` 將 GUN Readline 函式庫整合進原生的 Windows 命令提示字元視窗，擁有指令自動完成、查詢歷史指令、基礎行內編輯等功能 |      |
-| [ReactOS](https://www.reactos.org/)                               |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [tonymacx86](https://www.tonymacx86.com/)                         |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [IDEOne](https://ideone.com/Co5SQv)                               |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [LuaForWindows](https://code.google.com/archive/p/luaforwindows/) |                                                                                                                                                                                                                                                                                                                                                           |      |
-| [mingw-w64](http://mingw-w64.org/doku.php/download/mingw-builds)  |                                                                                                                                                                                                                                                                                                                                                           |      |
+| 名稱                                                              | 說明 | 付費 |
+| ----------------------------------------------------------------- | ---- | ---- |
+| [Tmuxiator](https://github.com/tmuxinator/tmuxinator)             |      |      |
+| [Node.js](https://nodejs.org/en/download/)                        |      |      |
+| [Postman](https://www.postman.com/downloads/)                     |      |      |
+| [Insomnia](https://insomnia.rest/)                                |      |      |
+| [get-pip](https://bootstrap.pypa.io/get-pip.py)                   |      |      |
+| [cmder](http://cmder.net/)                                        |      |      |
+| [ReactOS](https://www.reactos.org/)                               |      |      |
+| [tonymacx86](https://www.tonymacx86.com/)                         |      |      |
+| [IDEOne](https://ideone.com/Co5SQv)                               |      |      |
+| [LuaForWindows](https://code.google.com/archive/p/luaforwindows/) |      |      |
+| [mingw-w64](http://mingw-w64.org/doku.php/download/mingw-builds)  |      |      |
+
+### cmder
+
+結合多項軟體，包含 msysgit 與最重要的 ConEmu 和 [Clink](http://mridgers.github.io/clink/)
+<br>msysgit 提供 Git 相關工具與多項 Unix/Linux 環境下常用的指令列工具，例如 `less`、`ls`、`tar`、`unzip`、`md5sum`、`grep`、`sed`...etc.
+<br>Clink 將 GUN Readline 函式庫整合進原生的 Windows 命令提示字元視窗，擁有指令自動完成、查詢歷史指令、基礎行內編輯等功能
 
 ## B2E
 

@@ -7,158 +7,282 @@ summary:
 layout: blog
 ---
 
-## 現代 CSS 常見的基礎技術
+<summary>
 
-- [現代開発者のための CSS 基礎技術 - Qiita](https://qiita.com/arowM/items/e1af320e2755461649a0#%E7%8F%BE%E4%BB%A3%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E3%81%8B%E3%81%9F%E3%81%AE%E5%9F%BA%E7%A4%8E)
+###### TOC
 
-1.  套用的對象差異：單頁網頁／網頁應用程式
-2.  支援的瀏覽器差異
-3.  將文章構造與表現手法分離
-4.  不使用行內樣式
-5.  不使用表現手法命名 class
-6.  使用 psuedo-class, wai-aria, custom data attribute 處理不同狀態下的樣式
-7.  使用 modern reset, vender prefix 處理瀏覽器差異
-8.  使用 transition, animation 處理動畫
+</summary>
+<details>
 
-## a. 層級
+- [1. 顯示與定位](#1-顯示與定位)
+  - [display](#display)
+    - [1. `block`](#1-block)
+    - [2. `inline`](#2-inline)
+    - [3. `inline-block`](#3-inline-block)
+    - [4. `table`](#4-table)
+    - [5. `float`](#5-float)
+    - [6. Flexbox](#6-flexbox)
+    - [7. Grid](#7-grid)
+    - [8. 其它 display 屬性](#8-其它-display-屬性)
+  - [overflow](#overflow)
+  - [position](#position)
+  - [vertical-align](#vertical-align)
+- [2. 尺寸](#2-尺寸)
+  - [避免邊界重疊（Margin Collapsing）](#避免邊界重疊margin-collapsing)
+  - [單位](#單位)
+- [3. 背景、色彩](#3-背景色彩)
+  - [背景](#背景)
+  - [色彩](#色彩)
+  - [邊框](#邊框)
+- [4. 文字](#4-文字)
+- [5. 選取器](#5-選取器)
+  - [選取器類別](#選取器類別)
+  - [選取器運算子](#選取器運算子)
+- [6. 動畫](#6-動畫)
+  - [animation 動畫](#animation-動畫)
+  - [@keyframes](#keyframes)
+  - [transition 轉場](#transition-轉場)
+  - [transform](#transform)
+- [7. 媒體查詢](#7-媒體查詢)
+- [8. 權重](#8-權重)
+- [9. Reset](#9-reset)
+- [10. Sass](#10-sass)
+- [11. 版型檢查](#11-版型檢查)
+  - [網頁兼容性](#網頁兼容性)
+  - [可讀性](#可讀性)
+  - [擴充性](#擴充性)
+  - [重用性](#重用性)
+  - [維護性](#維護性)
+  - [[移动开发之设计稿转换页面单位尺寸](https://blog.csdn.net/ww0908/article/details/72730267)](#移动开发之设计稿转换页面单位尺寸httpsblogcsdnnetww0908articledetails72730267)
+- [12. CSS 命名與設計模式](#12-css-命名與設計模式)
+  - [OOCSS（模組化 CSS，Object Oriented CSS）](#oocss模組化-cssobject-oriented-css)
+  - [[SMACSS](http://smacss.com/)（Scalable & Modular Architecture for CSS）](#smacsshttpsmacsscomscalable--modular-architecture-for-css)
+  - [BEM（Block-Element-Modifier）](#bemblock-element-modifier)
+  - [FLOCSS](#flocss)
+  - [PRECSS](#precss)
+  - [Atomic CSS 樣式原子化](#atomic-css-樣式原子化)
+- [13. 現代 CSS 常見的基礎技術](#13-現代-css-常見的基礎技術)
+  - [層級](#層級)
+- [參考文章](#參考文章-1)
 
-1.  基本層：一般就是 reset.css 或 normalize.css
-2.  框架層：處理網頁整體框架的 css
-    <br>└ 左右欄、全屏、上下左右區塊，有什麼東西都沒差
-3.  元件層：處理單個 UI 元件的 css
-    <br>└ 一個小按鈕，在哪裏都沒差
-4.  狀態層：處理單個 UI 元件的狀態
-    <br>└ 錯誤的樣子，按鈕也會出現錯誤的樣子，箱子也會。.
-5.  模板層：只處理模板的 css，專屬於這個設計的 css
-    <br>└ 一個小按鈕，在某個模板，我的按鈕比較不一樣
+---
 
-## b. 權重
-
-相同權重但是後寫的 css，可以覆蓋先寫的 css
-當兩個選擇器同時作用在一個元素，權重高的優先生效
-
-### 基本權重
-
-`!important` \> `inline style` \> `id` \> `class`／`psuedo-class`（偽類）／`attribute`（屬性選擇器） \> `Element` \> `*`
-
-- 最左邊的權重最高，最右邊的權重最低
-- `Element`：所有的 Element 的權重都是 `0-0-0-1`
-- `class`：每一個 class 的權重都是 `0-0-1-0`
-- `psuedo-class`：和 attribute 權重相同
-- `id`：每一個 id 的權重都是 `0-1-0-0`
-- `inline style attribute`，寫在 html 行內的 style。
-  <br>inline style attribute 的權重為 `1-0-0-0`
-- `!important`：可以蓋過所有的權重
-
-## 0. Reset
-
-1.  [reset.css](https://meyerweb.com/eric/tools/css/reset/)
-    <br>└ 將 margin 和 padding 全設為 0，並自行修改設定
-2.  [normalize.css](http://necolas.github.io/normalize.css/)
-    <br>└ 軟性統一瀏覽器規範、修正 Bug，提高可用性
-3.  [sanitize.css](https://csstools.github.io/sanitize.css/)
-4.  [ress.css](https://github.com/filipelinhares/ress)
-    <br>└`link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'`
-5.  [A Modern CSS Reset](https://hankchizljaw.com/wrote/a-modern-css-reset/)
-
-有兩種好的 debug 框線做法：
-
-1.  用 `outline`（用法和 `border` 一模一樣）
-2.  用 `box-shadow`
+</details>
 
 ## 1. 顯示與定位
 
+CSS 將每個內容元素的外觀架構區分為 `Margin`、`Border`、`Padding`、`Content`，並藉此實作出精準的版面配置、元素排列效果，也就是所謂的 Box Model（盒模型）
+
+- `Margin` 是容器外部（例如與其它容器之間）的留空距離，此空間是透明的
+- `Border` 是將內容與 Padding 包圍住的外框
+- `Padding` 是從容器到內容部份的留空距離，此空間是透明的
+- `Content` 是容器內如文字、圖片等元素的內容部份
+
+![](https://i.imgur.com/WG75USi.jpg)
+
+![](https://i.imgur.com/UQ5tRfs.png)
+
+關於詳細的內距與邊框數值計算準則，過往的瀏覽器使用 `border-box`，元素所設定的長寬（`height`、`width`）會為最終顯示結果，而內距、邊框都會向內計算
+
+之後 W3C（World Wide Web Consortium，全球資訊網協會）制定了新的標準盒模型 `content-box`，並為目前的瀏覽器預設值，元素中的長寬和內距、邊框、外距皆獨立計算
+
+而盒模型可以透過 `box-sizing` 屬性指定，目前多半還是使用 `border-box`
+
+- [CSS Layouts](http://frontendlabepam.github.io/FL5/css-layouts/css-layouts.html#1)
 - [段組みの CSS。](https://lopan.jp/css-layout2/)
 
 ### display
 
+`display` 屬性可以指定元素具有何種排版特性
+
 #### 1. `block`
 
-帶有面積，可設定寬高
+- 設定一元素為 `block-level`
+- 佔滿整個容器寬度
+- 可設定寬高
 
 #### 2. `inline`
 
-設定寬高無效，可設定 padding 的左右值，上下值無效、無法被撐開
+- 設定一元素為 `inline-level`
+- 寬高設定無效
+- 可設定 padding 的左右值，上下值無效、無法被撐開
 
 #### 3. `inline-block`
 
-同時擁有兩種 display 的特性，可設定寬高，也可與其他元素並排
-<br>│ 使用 `inline-block` 排板時，標籤如 `a` 或 `li` 之間會有空白字元，
-<br>└ 需於父元素中設定字元大小為 0，再設定子元素的標籤文字大小。
+- 同時擁有兩種 display 的特性，具有 `block` 的屬性，但不佔滿整個容器
+- 可設定寬高，也可與其他元素並排
+- 使用 `inline-block` 排板時，標籤如 `a` 或 `li` 之間會有空白字元，
+- 需於父元素中設定字元大小為 0，再設定子元素的標籤文字大小。
 
-#### 4. flex
+#### 4. `table`
 
-- [圖解：CSS Flex 屬性一點也不難](https://wcc723.github.io/css/2017/07/21/css-flex/)
-  <br>├ `justify-`：主軸
-  <br>├ `align-`：次軸
-  <br>├ `-items`：單行元素
-  <br>└ `-content`：多行元素
-- `order`：各個元素的預設值為 0
-  <br>設定其中一個元素為 1 就會移到最右邊（其它為 0）
-  <br>設定為 -1 則會移到最左邊
+（待）
+
+#### 5. `float`
+
+- `float` 值會將該元素帶離原本的 normal flow，改為置於其容器的左方或右方
+- 而文字或行內元素會循其區域換行，即常見的文繞圖／多欄編排效果
+- 若一元素包含有 float 的子元素，其高度會變為 0（parent element collapsed）
+  <br>之後的兄弟元素會因此覆蓋於其上方，造成跑版問題，需搭配 clearfix 處理
+
+```css
+/* 
+  1. overflow: hidden 
+  設定於父元素
+*/
+.parent {
+  overflow: hidden;
+}
+
+/* 
+  2-1. clear: both 
+  設定於鄰於父元素的兄弟元素
+*/
+.nextNonFloated_Element {
+  clear: both;
+}
+
+/* 
+  2-2. clear: both 
+  設定於父元素的虛擬元素上
+*/
+.parent:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+```
+
+#### 6. Flexbox
+
+- 於 CSS3 新增的新排版模型
+- 宣告底下的元素為 Flexbox 排版方式
+  <br>會以母元素（容器，container）的中心處為基準
+  <br>將定位點切為主軸（main axis，預設為橫排／`row`）
+  <br>和次軸（cross axis，預設為直排／`column`）
+
+![flexbox axis](https://i.imgur.com/S7QmP6M.png)
+
+##### 容器屬性
+
+- 於母元素／容器上，可以指定想要套用的子元素範圍，以及對齊的形式
+
+###### `justify-content`
+
+- 設定**所有子元素**於主軸（預設為橫排／X 軸）上要如何對齊
+- CSS 裡還有 `justify-items` 和 `justify-self` 這兩個屬性，但在 Flexbox 裡沒有效果
+- 5 種常用的對齊形式為：
+  <br>├ `flex-start`：對齊於軸線起點處
+  <br>├ `flex-end`：對齊於軸線終點處
+  <br>├ `center`：對齊於軸線中間
+  <br>├ `space-between`：平均分配內容空間，但開頭元素會貼齊於起點、結尾元素會貼齊於終點
+  <br>└ `space-around`：平均分配內容空間，間距亦為平均分配
+
+![flexbox justify-content](https://i.imgur.com/HZEA8ce.png)
+
+###### `align-items`
+
+- 設定**單行裡的元素**於次軸（預設為直排／Y 軸）上要如何對齊
+- 5 種常用的對齊形式為：
+  <br>├ `flex-start`：對齊於軸線起點處
+  <br>├ `flex-end`：對齊於軸線終點處
+  <br>├ `center`：對齊於軸線中間
+  <br>├ `stretch`：撐滿整個軸線
+  <br>└ `baseline`：對齊於內容基線
+
+![flexbox align-items](https://i.imgur.com/exBQCBM.png)
+
+###### `align-content`
+
+- 設定**多行元素**於次軸上要如何對齊
+  <br>└ `align-content` **只在多行內容才有效果**，控制的是**所有行**的對齊方式
+- 6 種常用的對齊形式為：
+  <br>├ `flex-start`：對齊於軸線起點處
+  <br>├ `flex-end`：對齊於軸線終點處
+  <br>├ `center`：對齊於軸線中間
+  <br>├ `space-between`：平均分配內容空間，但開頭行會貼齊於起點、結尾行會貼齊於終點
+  <br>└ `space-around`：平均分配內容空間，間距亦為平均分配
+  <br>└ `stretch`：撐滿整個軸線
+
+![flexbox align-content](https://i.imgur.com/SY0Cqju.png)
+
+###### 容器設定
+
+- `flex-direction`：設定容器主軸
+  <br>├ `row`：橫排
+  <br>├ `row-reverse`：橫排、反轉順序
+  <br>├ `column`：直排
+  <br>└ `column-reverse`：直排、反轉順序
+
+![flexbox flex-direction](https://i.imgur.com/BhhRsSp.png)
+
+- `flex-wrap`：設定容器內容是否於寬度超過時換行
+  <br>├ `nowrap`：不換行
+  <br>├ `wrap`：換行
+  <br>└ `wrap-reverse`：換行時反轉順序
+
+![flexbox flex-wrap](https://i.imgur.com/ndWssPi.png)
+
+- `flex-direction`、`flex-wrap` 可簡寫於 `flex-flow` 屬性內
+
+##### 內容屬性
+
+- `flex-grow`：分配剩餘空間，預設值為 `0`
 - `flex-basis`：控制主軸長度（主軸為衡=寬度 width，主軸為縱=高度 height）
   <br>權重比 width 和 height 大
-- `flex-grow`：分配剩餘空間，預設值為 0
-- `flex-shrink`：收縮比，預設值為 1
+- `flex-shrink`：收縮比，預設值為 `1`
   <br>`( 子項目寬*收縮比/總比值 ) * 超出值 = 扣除值`
   <br>若設為 0 則由 basis 與 grow 進行計算
-- `align-content` 針對多行，`align-items` 針對單行，`align-self` 針對單一元素
-- `flex-flow`
-- `flex-direction`:
-  <br>├ row
-  <br>├ row-reverse
-  <br>├ column
-  <br>└ column-reverse
-- `flex-wrap`:
-  <br>├ nowrap
-  <br>├ wrap
-  <br>└ wrap-reverse
+- `flex-grow`、`flex-basis`、`flex-shrink` 可簡寫於 `flex` 屬性內
+- `order`：設定元素所處順序，各個元素的預設值為 0
+  <br>設定其中一個元素為 1 就會移到最右邊（其它為 0）
+  <br>設定為 -1 則會移到最左邊
+- `align-self` 內容屬性可再獨立設定於次軸上的對齊位置，設定此屬性後母容器的 `align-items` 則會無效
 
-#### 5. grid
+#### 7. Grid
 
-- [GRID: A simple visual cheatsheet for CSS Grid Layout](https://grid.malven.co/)
-- [CSS Grid 屬性介紹](https://wcc723.github.io/css/2017/03/22/css-grid-layout/)
-- [鐵人賽：網頁設計常用格線系統 ( 上 )](https://wcc723.github.io/design/2018/10/18/grid-system/)
-- [鐵人賽：網頁設計常用格線系統 ( 下 )](https://wcc723.github.io/design/2018/10/19/grid-system-2/)
-- [關於 Grid Layout 的使用姿勢](https://blog.hinablue.me/css-grid-layout/)
-- [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- [CSS Grid | 剛學會怎麼用 Grid，那就來畫個 TV 檢驗圖練練手吧！- 手寫筆記 - Medium](https://medium.com/%E6%89%8B%E5%AF%AB%E7%AD%86%E8%A8%98/using-css-grid-to-draw-test-card-7ed24d3559ab)
-- [CSS | 所以我說那個版能不能好切一點？- Grid 基本用法 - Enjoy life enjoy coding - Medium](https://medium.com/enjoy-life-enjoy-coding/css-%E6%89%80%E4%BB%A5%E6%88%91%E8%AA%AA%E9%82%A3%E5%80%8B%E7%89%88%E8%83%BD%E4%B8%8D%E8%83%BD%E5%A5%BD%E5%88%87%E4%B8%80%E9%BB%9E-grid-%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95-cd763091cf70)
-- [\[CSS\] 關於 Grid Layout 的使用姿勢](https://blog.hinablue.me/css-grid-layout/)
-
-##### grid 介紹
-
-- grid 並非用與取代 flexbox，而是補足 flexbox 的不足
-- 需先使用 `display: grid` 定義主容器顯示類型
-- 再使用 grid template 定義版型結構
+- 以二維的方式定位的模型
+- grid 並非用於取代 flexbox，而是補足 flexbox 的不足
+- 需先使用 `display: grid` 定義主容器顯示類型，再使用 `grid-template` 定義版型結構
 - [CSS Grid Generator | LayoutIt!](https://grid.layoutit.com/)
 
-##### 長寬
+##### 宣告長寬
 
-- `grid-template-columns`：宣告每行 （橫列）寬度，劃分 Y 軸線
-- `grid-template-rows`：宣告每列（直列）高度，劃分 X 軸線
-- 寬高可使用空行區隔來指定每行／列內的各空間寬度
-- 可使用 `repeat ( 4,2rem )` 一次建立 4 行 2rem 寬度的空間
-  <br>`repeat ( )` 內還可使用 `auto-fill` 填滿所有空間或 `auto-fit` 填滿至指定空間
+- `grid-template-columns`：宣告每行 （橫列）的寬度，劃分出 Y 軸線
+- `grid-template-rows`：宣告每列（直列）的高度，劃分出 X 軸線
+- 寬高可使用空行區隔，用以指定每行／列內的各空間寬度
+- 亦可使用 `repeat(4, 2rem)` 一次建立 4 行 2rem 寬度的空間
+  <br>`repeat()` 內還可使用 `auto-fill` 填滿所有空間，或 `auto-fit` 填滿至指定空間
+- 也可以使用 `grid-auto-columns`、`grid-auto-rows` 快速指定版型
+  <br>ex：`grid-auto-columns: 60px;`
+
+###### 長寬單位
+
 - `fr` 是總數比例單位，例如 `grid-template-columns: 1fr 1fr 2fr;` 是宣告每欄寬度為 1/4、1/4、2/4
-- `max-content` 取得容器最大尺寸的空間當成填充條件
-  <br>`min-content` 取得容器最小尺寸的空間當成填充條件
+- `max-content` 取得容器最大尺寸的空間，當成填充條件
+  <br>`min-content` 取得容器最小尺寸的空間，當成填充條件
   <br>`minmax ( min, max )` 以最小尺寸 `min` 定義，最大尺寸需小於或等於 `max`
 - `auto` 自動設定空間尺寸，上述寬高指定也可以混用
   <br>ex：`grid-template-columns: 1fr min-content minmax ( 100px, max-content ) ;`
-- 也可以使用 `grid-auto-columns`, `grid-auto-rows` 快速指定版型
-  <br>ex：`grid-auto-columns: 60px;`
 
-##### 分配
+##### 分配元素
 
 - `grid-auto-flow`：宣告 Grid 的排列方式
   <br>├ 預設為 `row` 先欄後列
   <br>└ 還有 `column` 先列後欄、 `dense` 自動填滿
-- `grid-template-areas`:
-  <br>`"header header header header header"`
-  <br>`"side main main main main"`
-  <br>`"side footer footer footer footer";`
-  <br>定義主容器裡各區塊的位置與名稱，可使用 `.` 略過某區塊不指定
+- `grid-template-areas`：定義主容器裡各區塊的位置與名稱，可使用 `.` 略過某區塊不指定
+
+```css
+.example {
+  grid-template-areas:
+    "header header header header header"
+    "side main main main main"
+    "side footer footer footer footer";
+}
+```
+
 - `grid-area`：指定區塊名稱，並配置至對應位置
 - `grid-area` 的區塊必須是連接在一起的，即不可一個區塊名稱分散於兩側位置，並且只能是矩形
 - `grid-gap`：區域之間的距離，可省略前面的前綴 `grid-`
@@ -172,23 +296,59 @@ layout: blog
 - `grid-row: <起始 row-num> / <結束 row-num>`：宣告區塊定位自己位置
 - `justify-self`，`align-self`：同 `flexbox` 用法
 
-#### 6. 其它 display 屬性
+##### 其它 grid 參考資料
 
-- `inherit`
-- `initial`
-- `unset`
-- `z-index`
-- `float`
-  <br>├ 需搭配 clear 清除
-  <br>└ 可製作文繞圖 / 多欄編排效果
-- [\[CSS\] 浮動 (float) 與清除浮動 (clear)](https://medium.com/%E9%A6%AC%E6%A0%BC%E8%95%BE%E7%89%B9%E7%9A%84%E5%86%92%E9%9A%AA%E8%80%85%E6%97%A5%E8%AA%8C/css-%E6%B5%AE%E5%8B%95%E8%88%87%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8B%95-34d3f49ef817)
-- [23 種 CSS 垂直置中技巧](http://csscoke.com/2018/08/21/css-vertical-align/)
+- [GRID: A simple visual cheatsheet for CSS Grid Layout](https://grid.malven.co/)
+- [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [關於 Grid Layout 的使用姿勢](https://blog.hinablue.me/css-grid-layout/)
+- [CSS Grid | 剛學會怎麼用 Grid，那就來畫個 TV 檢驗圖練練手吧！- 手寫筆記 - Medium](https://medium.com/%E6%89%8B%E5%AF%AB%E7%AD%86%E8%A8%98/using-css-grid-to-draw-test-card-7ed24d3559ab)
+- [CSS | 所以我說那個版能不能好切一點？- Grid 基本用法 - Enjoy life enjoy coding - Medium](https://medium.com/enjoy-life-enjoy-coding/css-%E6%89%80%E4%BB%A5%E6%88%91%E8%AA%AA%E9%82%A3%E5%80%8B%E7%89%88%E8%83%BD%E4%B8%8D%E8%83%BD%E5%A5%BD%E5%88%87%E4%B8%80%E9%BB%9E-grid-%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95-cd763091cf70)
+
+#### 8. 其它 display 屬性
+
+- `none`：清除此元素
+  <br>└ 此屬性值常與 `visibility: hidden` 相提並論
+
+設定為 `display: none` 的元素在 DOM 和 CSSOM trees 結合後的 Render Tree 中不會產生對應的盒模型，故不佔有任何排版空間，但仍然存在於 DOM Tree 上，可以進行相關操作
+
+而 `visibility: hidden` 的元素仍然會保留其 box，因此雖然內容不可視，仍會佔有空間
+
+- `inherit`：繼承父元素的 display 屬性值
+- `initial`：該元素的預設屬性值
+- `unset`：等同於 `inherit` 和 `initial` 的組合值
+  <br>├ 若該屬性預設為繼承，此值等同 `inherit`
+  <br>└ 若該屬性預設為不可繼承，此值等同 `initial`
+
+### overflow
+
+`overflow` 可以決定當內容超過容器尺寸時如何呈現，可設定為：
+
+- `visible`：內容全部可見、會全部渲染至超出容器、可能與其它內容重疊
+- `hidden`：隱藏超出容器部份的內容
+- `auto`：替超出容器部份的方向加上捲動軸
+- `scroll`：無論內容是否超出容器，加上捲動軸
 
 ### position
 
-- [連續 30 天的超實務網頁設計的垂直置中教學](https://ithelp.ithome.com.tw/users/20112550/ironman/2092)
+#### 1. `static`
 
-#### 1. `fixed`
+- 預設定位，依照 document flow 決定
+
+#### 2. `relative`
+
+- 相對，保留原始空間，自初始座標進行偏移
+- 有定位的物件的 `z-index` 會優先於沒有定位的元素
+- 如果兩個都有定位，位於原始碼後方的元素會蓋過前方的元素
+
+#### 3. `absolute`
+
+- 絕對，類似於 `fixed`，獨自獨立一層
+- 當一個物件設定為絕對定位，會去父層尋找非 `static` 的元素定錨
+- 首個有定位的父層元素，會成為元素絕對定位位置的座標依據
+  <br>└ 如果沒有，預設會定位在**瀏覽器視窗上** （注意，不是 `body` 也不是 `html`）
+- 不同於 `fixed`，預設只會定位一次，拉動捲軸會跟著捲軸跑，不會固定在視窗上
+
+#### 4. `fixed`
 
 浮動，以瀏覽器視窗為定位，固定於視窗範圍內
 <br>├ 將 `top`、`left`、`right`、`left` 都設為 0，
@@ -196,30 +356,30 @@ layout: blog
 <br>├ `fixed`、`absolute`、`float` 與 `flex` 底下的元素皆預設為不會自動抓取空間寬度，
 <br>└ 因此設定寬度後會取得所在空間寬度並與空間等寬。
 
-#### 2. `relative`
+#### 5. `sticky`
 
-相對，保留原始空間，與原始位置做偏移，
-<br>有定位的物件的 `z-index` 會優先於沒有定位的物件，
-<br>如果兩個都有定位，原始碼後方的物件會蓋住前方的，`z-index` 預設都是 0。
+邊界，（待）
 
-#### 3. `absolute`
+#### 6. `z-index`
 
-絕對，類似於 `fixed`，獨自獨立一層。
-<br>當一個物件設定為絕對定位，會去父層尋找是否 `relative`、`absolute` 或是 `fiexd` 定位設定，
-<br>上方首個有定位的父層會成為物件絕對定位位置的依據，
-<br>如果沒有，預設會定位在**瀏覽器視窗上** （注意，不是 `body` 也不是 `html`），
-<br>但不同於 `fixed`，預設只會定位一次，拉動捲軸會跟著捲軸跑，不會固定在視窗上。
+- `z-index` 非 `display` 的值，而是另一個獨立的屬性
+- 用於決定非 `static` 的元素圖層關係，預設值為 `0`
+- `z-index` 值越高的元素會位於圖層的越前方
 
-#### 4. `static`：無定位
+![z-index](https://i.imgur.com/LBE29Hq.png)
 
-#### 5. `sticky`：邊界
+#### 如何運用 display 與 position 做出置中效果
+
+- [23 種 CSS 垂直置中技巧](http://csscoke.com/2018/08/21/css-vertical-align/)
+- [連續 30 天的超實務網頁設計的垂直置中教學](https://ithelp.ithome.com.tw/users/20112550/ironman/2092)
 
 ### vertical-align
+
+（待）
 
 ## 2. 尺寸
 
 - [フロントエンドのプロ直伝！CSS 余白設定の三原則 ( ＋線の引き方 )](https://qiita.com/yama-t/items/da7740769cfc0f8446a0)
-- [CSS 失控的 Margin top | 卡斯伯 Blog - 前端，沒有極限](https://wcc723.github.io/css/2016/06/08/css-margin-collapsing/)
 - [\[30 道難解的 CSS 排版\] 第 1 道：認識對齊 I](https://ithelp.ithome.com.tw/articles/10213624?sc=hot)
 
 1.  `height`：高度
@@ -229,6 +389,66 @@ layout: blog
 
 - `padding` 和 `margin` 的值設為 `auto` 時，其值等同 `母元素的長寬度 - 當前元素的長寬度`
 
+### 避免邊界重疊（Margin Collapsing）
+
+當兩個 block 都有設定上下的 margin，並且這兩個 margin 相鄰時，最終計算結果會只留下較大邊的 margin，造成 margin collapsing
+
+#### 「相鄰」可以再細分為三種情況
+
+1. 於同一層內相鄰時，設定 margin 造成的上下 margin 相鄰
+2. 父元素與第一個子元素或最後一個子元素，設定 margin 造成的上下 margin 相鄰
+3. 兩個元素之間存在空元素時，此兩個元素設定 margin 造成的上下 margin 相鄰
+
+- Codepen：[Margin Collapsing](https://codepen.io/f6bfb5/pen/NWRoRNB)
+
+```html
+<!-- 兩個元素的 margin 會重疊，實際上只剩下 16px 的 margin -->
+<section>
+  <!-- 同一層內相鄰 -->
+  <div class="block mb-16">margin-bottom: 16px</div>
+  <div class="block mt-16">margin-top: 16px</div>
+  <!-- 父元素與子元素 -->
+  <div class="block mb-16 mt-16">
+    <div class="block mt-16">parent and child both margin-top: 16px</div>
+    <div class="block mb-16">parent and child both margin-bottom: 16px</div>
+  </div>
+  <!-- 中間存在空元素 -->
+  <div class="block mb-16">margin-bottom: 16px</div>
+  <div></div>
+  <div class="block mt-16">margin-top: 16px</div>
+</section>
+
+<style>
+  .mt-16 {
+    margin-top: 16px;
+  }
+
+  .mb-16 {
+    margin-bottom: 16px;
+  }
+</style>
+```
+
+#### 如何解決 margin collapsing
+
+通用解：可以改為使用 `padding`，或是設定父元素（發生於兄弟身上時則指其共通的父元素，於父子身上時則指該父元素）為 block 以外的 model
+
+第 2 種情況可以替父元素設置 `overflow: hidden`、`padding`、`border` 或 `float`（但需要設定其寬度與另外加上 `clearfix` 元素）來解決
+
+#### 不會發生 margin collapsing 的情況
+
+- 水平相鄰的元素（左右 margin）
+- root 元素
+- 兩個 block 由 `padding`、`border` 或 inline box、clearance 隔開
+- `float` 元素的兄弟、父子
+- `position: absolute;` 元素的兄弟、父子
+
+#### 參考資料
+
+- [Css 系列 - 如何避免邊界重疊 ( Margin Collapsing )](https://github.com/marshal604/blog/issues/6)
+- [Day23 CSS：Collapsing margins](https://ithelp.ithome.com.tw/articles/10225741)
+- [話說 Margin-collapse 是什麼呢？](https://ithelp.ithome.com.tw/articles/10219975)
+
 ### 單位
 
 - [一次搞懂 CSS 字體單位：px、em、rem 和 %](https://www.oxxostudio.tw/articles/201809/css-font-size.html)
@@ -237,7 +457,7 @@ layout: blog
 - 速算：`100%` = `1em` = `1rem` = `16px` = `12pt`
 - 螢幕內容列印時的單位轉換：`Pixel` → `inch` → `dot`
 - 螢幕內容顯示時的單位轉換：相對單位 → `px` → （ppi） → `inch` → 絕對單位
-  （`1inch` = `2.54cm` = `25.4mm` = `72pt` = `6pc`）
+  <br>（`1inch` = `2.54cm` = `25.4mm` = `72pt` = `6pc`）
 
 1.  `px`（pixel，像素）：絕對值
     <br>├ 於同一顯示器下時，不會因為瀏覽器視窗長寬改變，或是網頁內容更換而使得像素的尺寸改變
@@ -315,19 +535,19 @@ HSL 色彩寫法為 `HSL (色相角度不加單位 0~360, 色彩飽和度 0~100%
 
 #### 色彩調和
 
-- 單色系公式 Monochromatic
+- 單色系公式（Monochromatic）
   <br>使用飽和度與明度創造變畫，一定能創造出和諧的配色組合
-- 類似色系 Analogous
+- 類似色系（Analogous）
   <br>運用色相環上鄰近的顏色配對
   <br>例如紅橘或冷色調的藍綠
-- 補色系 Complementary
+- 補色系（Complementary）
   <br>色相環上位於相對面位置的兩個顏色，例如藍橘或經典的紅綠，
   <br>避免過於單調可以加入明暗或濃淡的變化
-- 補色分割法 Split Complementary
+- 補色分割法（Split Complementary）
   <br>使用互補色左右兩邊的顏色來做搭配，提供同程度的對比但更多的顏色組合
-- 三等色法 Triadic
+- 三等色法（Triadic）
   <br>色相環上正三角型的三個顏色，組合通常非常顯眼，特別適用三原色或二次顏色時，需小心使用
-- 矩形配色法 Tetradic
+- 矩形配色法（Tetradic）
   <br>互用兩組補色做配對，有一為主色時能達到最好效果
 
 #### 易看的色彩
@@ -345,15 +565,44 @@ HSL 色彩寫法為 `HSL (色相角度不加單位 0~360, 色彩飽和度 0~100%
 
 ### 邊框
 
+#### `border`
+
+- 邊框線
 - `border: border-width border-style color;`
   <br>├ 無強制順序需求
   <br>├ border-width: `<length>`, `thin`, `medium`, `thick`
   <br>├ border-style: `solid`, `none`, `hidden`, `dashed`, `dotted`, `double`, `groove`, `ridge`, `inset`, `outset`
   <br>└ color: `rgb()`, `rgba()`, `hsl()`, `hsla()`, `<hex-color>`, `<named-color>`, `currentcolor`
+- 可以搭配 `border-radius` 做出圓角框線效果
+
+<div class="ml-2rem w-fit p-8 bd bdrs">圓角框線效果</div>
+
+<style>
+.ml-2rem {
+  margin-left: 2rem;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.p-8 {
+  padding: 8px; 
+}
+
+.bd {
+  border: 1px solid black; 
+}
+
+.bdrs {
+  border-radius: 16px; 
+}
+</style>
+
 - `border` 本身具有空間，在使用時須注意計算
-  <br>├ 用於動畫時，可以使用如設定初始顏色為透明色，或是設定為 `hidden` 解決空間問題
-  <br>├ 因為四邊 `border` 會彼此交疊，此特性可用於無長寬的虛擬元素上，製作三角形圖示：
-  <br>├ [CSS だけで三角・矢印を作る方法 | webclips](https://design.webclips.jp/css-arrow/)
+  <br>├ 用於動畫時，可以設定為 `hidden`，或是設定初始顏色為透明色解決空間問題
+  <br>└ 因為四邊 `border` 會彼此交疊，此特性可用於無長寬的虛擬元素來製作圖形
+- [CSS だけで三角・矢印を作る方法 | webclips](https://design.webclips.jp/css-arrow/)
 
   ```css
   .message-box::after {
@@ -363,9 +612,11 @@ HSL 色彩寫法為 `HSL (色相角度不加單位 0~360, 色彩飽和度 0~100%
   }
   ```
 
-  ├ 並搭配做出對話框效果：
+- 對話框效果：
 
-  ```css
+<div class="bubble01">對話框效果範例 1</div>
+
+<style>
   .bubble01 {
     position: relative;
     display: inline-block;
@@ -373,6 +624,7 @@ HSL 色彩寫法為 `HSL (色相角度不加單位 0~360, 色彩飽和度 0~100%
     text-align: center;
     color: #fff;
     padding: 25px;
+    margin-left: 2rem;
     background-color: #f39800;
     border-radius: 5px;
   }
@@ -383,45 +635,110 @@ HSL 色彩寫法為 `HSL (色相角度不加單位 0~360, 色彩飽和度 0~100%
     z-index: 1;
     border-style: solid;
     border-color: #f39800 transparent;
-    /* 只有上、右、左有邊框（空間），左右邊框為透明色
-    因此最後會變為尖端朝下的小三角形 */
     border-width: 10px 10px 0 10px;
     bottom: -10px;
     left: 50%;
     margin-left: -10px;
   }
-  ```
+</style>
 
-  ```css
-  .bubble {
-    position: relative;
-    display: inline-block;
-    width: 200px;
-    text-align: center;
-    color: #fff;
-    padding: 25px;
-    background-color: #f39800;
-    border-radius: 5px;
-  }
+```css
+.bubble01 {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  padding: 25px;
+  background-color: #f39800;
+  border-radius: 5px;
+}
+.bubble01:before {
+  content: "";
+  position: absolute;
+  display: block;
+  z-index: 1;
+  border-style: solid;
+  border-color: #f39800 transparent;
+  /* 只有上、右、左有邊框（空間），左右邊框為透明色
+  因此最後會變為尖端朝下的小三角形 */
+  border-width: 10px 10px 0 10px;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -10px;
+}
+```
 
-  .bubble:before {
-    content: "";
-    position: absolute;
-    display: block;
-    z-index: 1;
-    border-style: solid;
-    border-color: #f39800 transparent;
-    /* 只有上、右有邊框（空間），左、下無邊框，右邊框為透明色
-    因此最後會變為直角在左上的等邊三角形 */
-    border-width: 20px 20px 0 0;
-    bottom: -20px;
-    left: 50%;
-    margin-left: -10px;
-  }
-  ```
+<div class="bubble02">對話框效果範例 2</div>
 
+<style>
+.bubble02 {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  padding: 25px;
+  margin-left: 2rem;
+  background-color: #f39800;
+  border-radius: 5px;
+}
+
+.bubble02:before {
+  content: "";
+  position: absolute;
+  display: block;
+  z-index: 1;
+  border-style: solid;
+  border-color: #f39800 transparent;
+  border-width: 20px 20px 0 0;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -10px;
+}
+</style>
+
+```css
+.bubble02 {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  padding: 25px;
+  background-color: #f39800;
+  border-radius: 5px;
+}
+
+.bubble02:before {
+  content: "";
+  position: absolute;
+  display: block;
+  z-index: 1;
+  border-style: solid;
+  border-color: #f39800 transparent;
+  /* 只有上、右有邊框（空間），左、下無邊框，右邊框為透明色
+  因此最後會變為直角在左上的等邊三角形 */
+  border-width: 20px 20px 0 0;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -10px;
+}
+```
+
+#### `outline`
+
+- 外框線
+- `outline: outline-width outline-style color;`
+  <br>└ 無強制順序需求
+- `outline` 不佔有空間
+- 只有矩形外觀，無法改變視覺效果
+
+#### `box-shadow`
+
+- 陰影
 - `box-shadow: horizonalOffset verticalOffset blurRadius optionalSpreadRadius color`
-- `box-shadow` 則不具有空間
+- `box-shadow` 也不佔有空間
 
 ## 4. 文字
 
@@ -580,6 +897,32 @@ HSL 色彩寫法為 `HSL (色相角度不加單位 0~360, 色彩飽和度 0~100%
   <br>├ `A B`
   <br>└ 例：`div span` 會選擇所有 `<div>` 內的 `<span>` 元素
 
+### 選取器的權重
+
+選取器具有權重，瀏覽器會依其決定要顯示的樣式
+<br>相同權重但是後寫的 css，會覆蓋先寫的 css
+<br>當一個元素同時有兩個選擇器，權重高的優先生效
+
+### 基本權重
+
+基本權重由高至低為：
+
+- `!important`
+- `inline style`
+- `id`
+- `class`／`psuedo-class`（偽類）／`attribute`（屬性選擇器）
+- `Element`
+- `*`
+
+| 元素                                                   | 權重                                |
+| ------------------------------------------------------ | ----------------------------------- |
+| `Element`                                              | 所有的 Element 的權重都是 `0-0-0-1` |
+| `class`                                                | 每一個 class 的權重都是 `0-0-1-0`   |
+| `psuedo-class`                                         | 和 attribute 權重相同               |
+| `id`                                                   | 每一個 id 的權重都是 `0-1-0-0`      |
+| `inline style attribute`<br>（寫在 html 行內的 style） | 權重為 `1-0-0-0`                    |
+| `!important`                                           | 可以蓋過所有的權重                  |
+
 ## 6. 動畫
 
 ### animation 動畫
@@ -595,14 +938,14 @@ CSS 的動畫共有 8 個 properties，而其中名稱與總播放時間為必�
    <br>├ 簡單且重覆性高的動態效果（如選單），時間過長（如 600ms = 0.6s）會令人有冗長的感覺
    <br>└ 設定在 250ms = 0.25s 前後較能讓人感受到動態，同時不會有等待的感覺
 3. `animation-timing-function`：動畫的速度曲線，預設值為 ease（起始結束減速，中途加速）
-   <br>├ 此曲線為由貝茲曲線（Cubic Bezier）所構成的函數圖型，CSS 有數個預先定義好的值
-   <br>├ 如 linear（線性）、ease（起始結束減速，中途加速）、ease-in（漸入）、ease-out（漸出）、ease-in-out（漸入漸出）
+   <br>├ 為由貝茲曲線（Cubic Bezier）所構成的函數圖型，CSS 有數個預先定義好的值
+   <br>├ 如 `linear`（線性）、`ease`（起始結束減速，中途加速）、`ease-in`（漸入）、`ease-out`（漸出）、`ease-in-out`（漸入漸出）...etc.
    <br>├ 亦可自行定義貝茲曲線的數值：`cubic-bezier(n1, n2, n3, n4)`，其值需為介於 0 至 1 之間的小數或整數
    <br>├ 實際效果可以參照 [Easing 函數](https://easings.net/) 或是 [cubic-bezier(.17,.67,.83,.67)](https://cubic-bezier.com/#.17,.67,.83,.67)
    <br>└ 除了貝茲曲線圖型外，亦可使用 [`steps()`](http://ghmagical.com/article/0gU2Wefas7hn) 做出跳躍的效果
 4. `animation-delay`：動畫開始的時間點，預設值為 0
    <br>└ 可設為負值，負值意味動畫立即開始，並且提早結束
-5. `animation-iteration-count`：動畫播放次數，預設值為 1，可設為 n（正整數）或 infinite
+5. `animation-iteration-count`：動畫播放次數，預設值為 `1`，可設為 `n（正整數）`或 `infinite`
 6. `animation-direction`：動畫播放順序，預設值為 normal（正向播放）
    <br>├ `normal`
    <br>├ `reverse`
@@ -619,6 +962,12 @@ CSS 的動畫共有 8 個 properties，而其中名稱與總播放時間為必�
 
 並且可簡寫成 `animation: 動畫名稱 播放時長 開始時間點 速度曲線 次數 順序 開始前結束後狀態 播放狀態(播放或是暫停)`
 <br>如：`animation: rotation 2s ease 0s 1 alternate none running;`
+
+#### easing 強弱
+
+Easing 還再分有 8 種強弱關建字：`Sine`、`Quad`、`Cubic`、`Quart`、`Quint`、`Expo`、`Circ`、`Back`，其中前 6 種裡 `Sine` 為變化最緩慢，之後到 `Expo` 變化最劇烈，最後 2 種的 `Circ` 的餘韻比 `Expo` 再長一點，`Back` 則是會再反彈
+
+- [【CSS アニメーション】transition のイージングに ease-in や ease-out を適当に設定するのはやめましょう - Qiita](https://qiita.com/s-kato/items/d5d1ceee9e2a28e02e6e)
 
 ### @keyframes
 
@@ -700,20 +1049,61 @@ div:hover {
   <br>├ `skewY(Y軸傾斜角度)`
   <br>├ 由於計算方式的關係，`skew` 的順序不同會出現不同結果
   <br>├ 範例：使用 `skew()` 做出斜邊效果
+  <br>└ 想得出相同結果，建議改用 `matrix()`
 
-  ```html
-  <div class="emphasis-skew-border">
+<div class="emphasis-skew-border">
     Content here
-    <br />content here <br />content here
-  </div>
-  ```
+    <br/>content here
+    <br/>content here
+</div>
 
-  ```css
+<style>
   .emphasis-skew-border {
     position: relative;
     width: 160px;
     padding: 10px 20px;
     font-size: 20px;
+    z-index: 0;
+
+    color: #2e8def;
+    background: #333333;
+    border-bottom: 3px solid #2e8def;
+  }
+
+  .emphasis-skew-border:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    background: #333333;
+    border-bottom: 3px solid #2e8def;
+    border-right: 20px solid #2e8def;
+
+    transform-origin: bottom left;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+  }
+</style>
+
+```html
+<div class="emphasis-skew-border">
+  Content here
+  <br />content here <br />content here
+</div>
+
+<style>
+  .emphasis-skew-border {
+    position: relative;
+    width: 160px;
+    padding: 10px 20px;
+    font-size: 20px;
+    z-index: 0;
 
     color: #2e8def;
     background: #333333;
@@ -738,14 +1128,13 @@ div:hover {
     -webkit-transform: skew(-30deg, 0deg);
     transform: skew(-30deg, 0deg);
   }
-  ```
-
-  └ 想得出相同結果，建議改用 `matrix()`
+</style>
+```
 
 - `matrix`：結合上述四種變形的記述方式，亦是這幾種變形的實際實作方式
   <br>├ 使用 6 個參數的矩陣，進行轉換計算（即矩陣乘法），`Matrix = translate * rotate * scale * skew`
   <br>├ `matrix(a, b, c, d, e, f)`
-  <br>├ 從數學上的記述是這樣的：
+  <br>├ 數學上的對應記述為：
   ```
   a c e       x     a*x + c*y + e
   b d f   *   y  =  b*x + d*y + f
@@ -769,7 +1158,7 @@ div:hover {
   <br>├ `matrix3d(a1, b1, c1, d1, a2, b2, c2, d2, a3, b3, c3, d3, a4, b4, c4, d4)`
   <br>├ `a1 b1 c1 d1 a2 b2 c2 d2 a3 b3 c3 d3` 標記線性轉換
   <br>├ `a4 b4 c4 d4` 標記套用轉換
-  <br>├ 數學上的記述為
+  <br>├ 數學上的對應記述為：
   ```
     a1 b1 c1 d1       x       a1*x + b1*y + c1*z + d1
     a2 b2 c2 d2   *   y   =   a2*x + b2*y + c2*z + d2
@@ -778,7 +1167,7 @@ div:hover {
   ```
 - `transform-origin`：設定變形的錨定基準點
   <br>├ `transform-origin: X軸位置 Y軸位置`
-  <br>└ 初始 2D 為 `50% 50%`，3D 為 `50% 50% 0`
+  <br>└ 2D 預設值為 `50% 50%`，3D 為 `50% 50% 0`
 - `transform-style`：設定變形空間
   <br>├ `flat`：2D 空間，此為預設值
   <br>├ `preserve-3d`：3D 空間，想使用 3D 變形需設定此參數
@@ -788,7 +1177,8 @@ div:hover {
 - `perspective-origin`：指定 `perspective` 透視點，預設值為元素中心
   <br>├ `perspective-origin: X軸位置 Y軸位置`
   <br>└ 可使用具單位的值，或 `left`、`center`、`right`、`top`、`center`、`bottom` 等位置單詞
-- `transform: perspective()`：效果和 `perspective` 相同，但此設定是套用至所有已變形的 3D 空間子元素
+- `transform: perspective()`：效果和 `perspective` 相同
+  <br>├ 但此設定會套用至所有已變形的 3D 空間子元素
   <br>└ 而 `respective` 是設定該元素的視覺深度
 - `backface-visibility`：由於 HTML 元素有前後堆疊關係，即使在前方的元素變形（ex. `rotateY(180deg)`）仍然會蓋過後方的元素
   <br>└ 將此屬性設為 `hidden` 能讓位居前方的元素轉為背向時隱藏，預設為 `visible`
@@ -799,13 +1189,51 @@ div:hover {
 - 可以使用既有的 SVG 網址，或是內建的圖形 function 指定形狀
 - `clip-path: <clip-source> | [ <basic-shape> || <geometry-box> ] | none`
   <br>├ `clip-source`：SVG 圖形的 URL
-  <br>├ `basic-shape`：基礎圖形 function，有 `circle`、`ellipse`、`polygon`、`inset`...等圖形可使用
+  <br>├ `basic-shape`：基礎圖形 function
+  <br>│ 有 `circle`、`ellipse`、`polygon`、`inset` 等圖形可使用
   <br>│ 各個 function parameter 等詳細內容請參照 [CSS Shapes 規範](https://www.w3.org/TR/css-shapes-1/#typedef-basic-shape) 或 [CSS Shape Functions](https://oreillymedia.github.io/Using_SVG/guide/css-shapes.html)
   <br>├ `geometry-box`：搭配 `basic-shape` 使用的設定參數，提供圖形參照用的盒模型設定
   <br>└ 例如使用 `margin-box`, `border-box`, `padding-box`, `content-box`...etc. 決定參照點
-- 範例：`polygon(point, point, point, point)`
+- 範例：`polygon(point1x point1y, point2x point2y, point3x point3y, point4x point4y)`
   <br>├ 此例將第一個點的 `y` 向下平移了 `calc(var(--clip-padding) * 2`
-  <br>└ 剩餘三點則為原本的角落端點，因此整個形狀為一個單斜邊四邊形
+  <br>└ 剩餘三點則為原本的角落端點，因此最終形狀為一個單斜邊四邊形
+
+<div class="clip-path"></div>
+
+<style>
+:root {
+    --width: 100vw;
+    --full-width: 100vw;
+    --magic-number: 0.09719;
+    --skew-padding: calc(var(--width) * var(--magic-number));
+    --clip-padding: calc(var(--full-width) * var(--magic-number));
+}
+
+.clip-path {
+  position: relative;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.05) 50%,
+      0,
+      transparent 100%
+    ), linear-gradient(-135deg, #0cc, #066);
+  background-size: 0.5em 0.5em, 100% 100%;
+  padding: calc(
+      (var(--clip-padding) * 2) - (var(--clip-padding) - var(--skew-padding))
+    ) 0 4em;
+  clip-path: polygon(
+    0% calc(var(--clip-padding) * 2),
+    100% 0%,
+    100% 100%,
+    0% 100%
+  );
+  -webkit-clip-path: polygon(
+    0% calc(var(--clip-padding) * 2),
+    100% 0%,
+    100% 100%,
+    0% 100%
+  );
+}
+</style>
 
 ```css
 /* 
@@ -852,11 +1280,12 @@ div:hover {
 ```
 
 以手機頁面呈現為優先設計，先在手機頁面中將圖片設定為 100%，
-平板或桌機尺寸再用 `display: flex` 或其他方式做排版。
-如果先寫桌機版再用複寫的設定到手機版，對手機耗電量大，效能比較不好，
-所以都建議先從手機尺寸設計版面。
+<br>平板或桌機尺寸再用 `display: flex` 或其他方式做排版。
 
-- 常用裝置參數
+如果先寫桌機版再用複寫的設定到手機版，對手機耗電量大，效能比較不好，
+<br>所以都建議先從手機尺寸設計版面。
+
+- 常用相關關鍵字
   <br>├ all
   <br>├ screen
   <br>├ print
@@ -910,7 +1339,23 @@ div:hover {
 </video>
 ```
 
-## 8. Sass
+## 8. Reset
+
+1.  [reset.css](https://meyerweb.com/eric/tools/css/reset/)
+    <br>└ 將 margin 和 padding 全設為 0，並自行修改設定
+2.  [normalize.css](http://necolas.github.io/normalize.css/)
+    <br>└ 軟性統一瀏覽器規範、修正 Bug，提高可用性
+3.  [sanitize.css](https://csstools.github.io/sanitize.css/)
+4.  [ress.css](https://github.com/filipelinhares/ress)
+    <br>└`link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'`
+5.  [A Modern CSS Reset](https://hankchizljaw.com/wrote/a-modern-css-reset/)
+
+有兩種好的 debug 框線做法：
+
+1.  用 `outline`（用法和 `border` 一模一樣）
+2.  用 `box-shadow`
+
+## 9. Sass
 
 - syntactically awesome style sheets
 - CSS 預處理器，擴充了如下的各種寫法
@@ -996,7 +1441,7 @@ sass/
 6.  在 `./package.json` 加上 `{ "scripts": { "watch": "...", "build": "npm run clean && npm run sass && npm run autoprefix", "clean": "...", "sass": "...", "autoprefix": "post css --use autoprefixer --map false --output css/style.css css/style.css" }, "browserslist": [ "..." ]}`
     <br>└ `npm run build` 就會以 clean -> sass -> autoprefixer 的順序執行
 
-## 9. 版型檢查
+## 10. 版型檢查
 
 - [CSS 筆記、建議與指導方針總整理](https://github.com/doggy8088/CSS-Guidelines)
 - [cssreference.io](https://cssreference.io/)
@@ -1027,7 +1472,7 @@ sass/
 
 ### 可讀性
 
-1.  class（`-`） 或（`_`） 自訂規則，注重大小駝峰寫法
+1.  class（`-`）或（`_`）自訂規則，注重大小駝峰寫法
 2.  縮排與註解規則
 
 ### 擴充性
@@ -1050,11 +1495,11 @@ sass/
 1.  設計稿的單位是 `px`，一般是 750px。
 2.  `px`、`rem` 混用，`rem` 的 html `font-size` 用 16px。
 3.  750px 的設計圖以 375 px 量長寬，
-    例如設計圖裡有一元素寬度是 100px，
-    那麼可得到寬度是 `(100px / 2) / 16px` = 3.125rem。
+    <br>例如設計圖裡有一元素寬度是 100px，
+    <br>那麼可得到寬度是 `(100px / 2) / 16px` = 3.125rem。
 4.  根據裝置寬度不同，設定不同的 html 的 `font-size`。
 
-## 10. CSS 命名與設計模式
+## 11. CSS 命名與設計模式
 
 - [1 段上の CSS 設計・コーディングの概念図 ( HCDC モデル図 )](https://qiita.com/croco_works/items/3f0f7407db5f263d2562)
 - [HCDC による分析と考察／CSS 設計のモデル図が出来るまで](https://qiita.com/croco_works/items/9a0698097fba2312b9ad)
@@ -1364,6 +1809,31 @@ Element 只允許一層巢狀。也就是說，規範上是不可命名為 `card
 
 - [Atomic Design を分かったつもりになる | DeNA DESIGN BLOG](https://design.dena.com/design/atomic-design-%E3%82%92%E5%88%86%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%A4%E3%82%82%E3%82%8A%E3%81%AB%E3%81%AA%E3%82%8B/)
 - [フロントエンドのコンポーネント設計に立ち向かう - Qiita](https://qiita.com/seya/items/8814e905693f00cdade2)
+
+## 12. 現代 CSS 常見的基礎技術
+
+- [現代開発者のための CSS 基礎技術 - Qiita](https://qiita.com/arowM/items/e1af320e2755461649a0#%E7%8F%BE%E4%BB%A3%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E3%81%8B%E3%81%9F%E3%81%AE%E5%9F%BA%E7%A4%8E)
+
+1.  套用的對象差異：單頁網頁／網頁應用程式
+2.  支援的瀏覽器差異
+3.  分離文章構造與表現手法
+4.  不使用行內樣式
+5.  不使用表現手法命名 class
+6.  使用 psuedo-class, wai-aria, custom data attribute 處理不同狀態下的樣式
+7.  使用 modern reset, vender prefix 處理瀏覽器差異
+8.  使用 transition, animation 處理動畫
+
+### 層級
+
+1.  基本層：一般就是 reset.css 或 normalize.css
+2.  框架層：處理網頁整體框架的 css
+    <br>└ 左右欄、全屏、上下左右區塊，有什麼東西都沒差
+3.  元件層：處理單個 UI 元件的 css
+    <br>└ 一個小按鈕，在哪裏都沒差
+4.  狀態層：處理單個 UI 元件的狀態
+    <br>└ 錯誤的樣子，按鈕也會出現錯誤的樣子，箱子也會。.
+5.  模板層：只處理模板的 css，專屬於這個設計的 css
+    <br>└ 一個小按鈕，在某個模板，我的按鈕比較不一樣
 
 ## 參考文章
 
