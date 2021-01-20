@@ -19,29 +19,29 @@ layout: blog
 ### 專案檔
 
 - `.aup`: Aviutl 內建的 project 檔案，最多可存放達 50 場景的整體作業狀態。
-  在延伸編輯插件的視窗裡，右鍵點選`產生新 project (新規プロジェクトの作成)`，
-  以及 Aviutl 本體視窗的`檔案 (ファイル)` → `儲存正在編輯的 project (編集プロジェクトの保存)` 所操作的都是這個格式的檔案。
+  <br>在延伸編輯插件的視窗裡，右鍵點選 `產生新 project (新規プロジェクトの作成)`，
+  <br>以及 Aviutl 本體視窗的 `檔案 (ファイル)` → `儲存正在編輯的 project (編集プロジェクトの保存)` 所操作的都是這個格式的檔案。
 - `.exa`: `延伸編輯插件(拡張編集プラグイン)` 的設定參照檔案，
-  例如替文字加上外框與影子後輸出成 `.exa` 參照檔案 (エイリアスを作成)，
-  就可直接在加入新文字時選用參照設定，
-  或是直接將 `.exa` 檔案拖進延伸編輯插件的視窗裡。
-  通常儲存於 aviutl 資料夾底下的 `plugins` 資料夾的任意子資料夾。
+  <br>例如替文字加上外框與影子後輸出成 `.exa` 參照檔案 (エイリアスを作成)，
+  <br>就可直接在加入新文字時選用參照設定，
+  <br>或是直接將 `.exa` 檔案拖進延伸編輯插件的視窗裡。
+  <br>通常儲存於 aviutl 資料夾底下的 `plugins` 資料夾的任意子資料夾。
 - `.exo`: 延伸編輯插件(拡張編集プラグイン)自有的 project 檔案，
-  存放單一場景內的作業狀態，
-  在延伸編輯插件的時間線上點選右鍵選擇`檔案 (ファイル)` → `輸出 object 檔案 (オブジェクトファイルのエクスポート)` 即輸出成此類型檔案。
-  通常作為 object 輸入用，例如由 93 所製作[炫光特效 object](http://seguimi.blog.fc2.com/blog-entry-632.html)，
-  通常儲存於 aviutl 資料夾底下的 `plugins` 資料夾裡。
+  <br>存放單一場景內的作業狀態，
+  <br>在延伸編輯插件的時間線上點選右鍵選擇 `檔案 (ファイル)` → `輸出 object 檔案 (オブジェクトファイルのエクスポート)` 即輸出成此類型檔案。
+  <br>通常作為 object 輸入用，例如由 93 所製作[炫光特效 object](http://seguimi.blog.fc2.com/blog-entry-632.html)，
+  <br.通常儲存於 aviutl 資料夾底下的 `plugins` 資料夾裡。
 
 ### 腳本檔
 
 - 腳本檔案通常須存放在 aviutl 資料夾底下的 `scripts` 資料夾內才可使用，
-  並且建議以作者或是效果去命名資料夾，區分為數眾多的檔案。
+  <br>並且建議以作者或是效果去命名資料夾，區分為數眾多的檔案。
 - `.anm`: 動畫效果。有些腳本製作者會在腳本名稱後方標註用途，
-  如 `@ANM1`、`@ANM2` 為汎用動畫效果，
-  `@TA` 為使用於文字物件的動畫效果，
-  `@音声` 為會與影片內的聲音聯動變化的動畫效果，
-  `@加減速` 為調整加速與減數＂強弱＂用的動畫效果，
-  `@連番` 為讀取連續圖片用的動畫效果。
+  <br>如 `@ANM1`、`@ANM2` 為汎用動畫效果，
+  <br>`@TA` 為使用於文字物件的動畫效果，
+  <br>`@音声` 為會與影片內的聲音聯動變化的動畫效果，
+  <br>`@加減速` 為調整加速與減數＂強弱＂用的動畫效果，
+  <br>`@連番` 為讀取連續圖片用的動畫效果。
 - `.obj`: 自訂物件。
 - `.scn`: 場景切換。
 - `.cam`: 鏡頭效果。
@@ -91,27 +91,44 @@ layout: blog
 - [さつきさんのページ](https://dic.nicovideo.jp/u/2787743#script)
 - [AviUtl プラグイン フィルタ by うえぽん](http://auf.jpn.xxxxxxxx.jp/)
 - [AviUtl 物置 - JPN takeshima](http://takeshima.halfmoon.jp/room/aviutl.html)
+- [Nagomiku 自作スクリプト](https://scrapbox.io/nanikani-shugo/Nagomiku%E8%87%AA%E4%BD%9C%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)
 - [AviUtl Script 開発無料カウンター](http://niconicotetu.web.fc2.com/download_page.html)
 - [VHS 風](https://twitter.com/sdkd500/status/1042352681241591810?s=21)
 - [【AviUtl】おすすめの便利プラグインまとめ【2018】](http://aviutl.info/plugins/#i-18)
   <br>推薦插件懶人包。
 
+## 腳本筆記
+
 ### TA-Normal
 
-- [TA-Track を使ったテキストの演出 – FLAPPER](https://seguimiii.com/aviutl-tech/tatrack)
+<summary>
+
+- [TA-Track を使ったテキストの演出 - FLAPPER](https://seguimiii.com/aviutl-tech/tatrack)
 - 由 93 所製作的文字動畫腳本
+
+</summary>
+<details>
+
 - 需勾選文字`個別物件化`
 - `in/out`: -100 至 0 登場，0 至 100 退場
 - `ズレ`: 首文字至末文字出現變化的時間差，`0` 則一同變化
 - `order`: `0` 順時鐘，`1` 逆時鐘，`2` 中間為起點，`3` 隨機，`{0,0}` 分別設定 `in` 與`out`
 - `seed`: `order` 設為 3 時所使用的亂數，同樣可使用 {0,0} 分別設定
 
+</details>
+
 ### TA 標準登場
+
+<summary>
+
+- 由 さつき 所製作的文字動畫腳本
+
+</summary>
+<details>
 
 - [さつき/TA | OCR & Aviutl Wiki | Fandom](https://ocraviutl.fandom.com/ja/wiki/%E3%81%95%E3%81%A4%E3%81%8D/TA)
 - [TA 標準登場を使った小技 - ニコニコ動画](https://www.nicovideo.jp/watch/sm26208050)
 - [TA 標準登場を使った小技 補足 と その他使用したエフェクトなど](http://ch.nicovideo.jp/m93/blomaga/ar782185)
-- 由 さつき 所製作的文字動畫腳本
 
 1. X 距離: `obj.ox` or `obj.ox*2`
 2. X 距離: `-obj.ox`
@@ -134,6 +151,8 @@ layout: blog
 17. Y 距離: `rand(-300, 300, obj.index, 0)`
 18. Y 距離: `(obj.index==5 and 200) or 0`
 19. Y 距離: `(obj.index<5 and 300) or -200`
+
+</details>
 
 ### DelayDraw2
 
@@ -231,7 +250,6 @@ Pattern:
 18 族：碎形類
 
 重要、使用頻率高的要素會盡量置於周期上方。
-
 ```
 
 ### [【#03】【Aviutl】コツとか講座的な動画](https://www.youtube.com/watch?v=L0iPNN0a9q4)

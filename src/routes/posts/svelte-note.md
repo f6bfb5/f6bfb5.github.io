@@ -36,8 +36,8 @@ npm install
 
 - svelte 與其它框架相同，使用獨有的 `.svelte` 副檔名撰寫
 - 每個檔案為獨立的 component，包含 Javascript、CSS 和 HTML
-  │ JS 和 CSS 分別寫在 `<script></script>`、`<style></style>`
-  └ HTML 則直接撰寫於下方
+  <br>│ 和 HTML 一樣，JS 和 CSS 分別寫在 `<script></script>`、`<style></style>`
+  <br>└ HTML 元素直接撰寫於下方
 
 ```html
 <script>
@@ -52,14 +52,14 @@ npm install
 ```
 
 - 變數可直接於 `<script>` 中常規宣告，並使用 `{}` 代入／顯示變數
-  └ 於屬性的雙括號中亦可使用：`<p class="primary-{bar}">Some text</p>`
+  <br>└ 於屬性的雙括號中亦可使用：`<p class="primary-{bar}">Some text</p>`
 - 與屬性同名的變數
-  │ 如 `<img src={src} alt="A man dances.">`
-  └ 可省略成 `<img {src} alt="A man dances.">`
+  <br>│ 如 `<img src={src} alt="A man dances.">`
+  <br>└ 可省略成 `<img {src} alt="A man dances.">`
 - 匯入 component 亦同樣於 `<script>` 中直接引入即可使用
-  └ `import Nested from './Nested.svelte';`
+  <br>└ `import Nested from './Nested.svelte';`
 - CSS 樣式作用域僅該 component
-  └ svelte 會自動用 hash 命名，因此不用擔心命名衝突
+  <br>└ svelte 會自動用 hash 命名，因此不用擔心命名衝突
 
 ```js
 import App from "./App.svelte";
@@ -76,22 +76,22 @@ const app = new App({
 ```
 
 - svelte 可使用 `@html` 從 JS 中傳入 HTML 內容進行渲染
-  ├ ex. `<p>{@html string}</p>`
-  │ 但 svelte 並沒有進行任何過濾處理，會有 XSS 攻擊的風險
-  └ 需確保此內容來自可信任的來源
+  <br>├ ex. `<p>{@html string}</p>`
+  <br>│ 但 svelte 並沒有進行任何過濾處理，會有 XSS 攻擊的風險
+  <br>└ 需確保此內容來自可信任的來源
 
 ## Reactivity
 
 - 「Reactivity」意指指派值時會觸發的相關行為，類似 Vue 的 `computed`
 - svelte 以 `$:` 宣告 reactivity 內容
-  ├ component 的狀態改變時，會自動更新 `$:` 後面的行為內容到 DOM 上
-  │ ex. `$: doubled = count * 2;`
-  │ 以 `$:` 宣告的變數不需再加上 `let` 之類的宣告
-  ├ `$:` 裡的行為亦可使用如 `console.log()` 之類的函式監看數值變化
-  │ 但 reactivity 只會於賦值時觸發
-  │ 如 Array 的 `push` 和 `splice` 並不會觸發更新
-  │ 因此 `push` 要改寫成 `numbers = [...numbers, numbers.length + 1];`
-  └ 並且賦值變數（等號左邊的變數）必須為 `$:` 宣告的更新變數
+  <br>├ component 的狀態改變時，會自動更新 `$:` 後面的行為內容到 DOM 上
+  <br>│ ex. `$: doubled = count * 2;`
+  <br>│ 以 `$:` 宣告的變數不需再加上 `let` 之類的宣告
+  <br>├ `$:` 裡的行為亦可使用如 `console.log()` 之類的函式監看數值變化
+  <br>│ 但 reactivity 只會於賦值時觸發
+  <br>│ 如 Array 的 `push` 和 `splice` 並不會觸發更新
+  <br>│ 因此 `push` 要改寫成 `numbers = [...numbers, numbers.length + 1];`
+  <br>└ 並且賦值變數（等號左邊的變數）必須為 `$:` 宣告的更新變數
   ```js
   $: obj;
   // 若是二段式的賦值，並不會觸發更新
@@ -152,20 +152,20 @@ const download_count = derived(
 ## Props（屬性傳遞）
 
 - 想使用 props 傳入值時，需於 component 中的變數前加上 `export`
-  │ ex. `export let answer;`
-  ├ 此為 svelte 用法，與 Javascript 中的 `export` 用法不同
-  └ 亦可於宣告時指定預設值`export let answer = 'a mystery';`
+  <br>│ ex. `export let answer;`
+  <br>├ 此為 svelte 用法，與 Javascript 中的 `export` 用法不同
+  <br>└ 亦可於宣告時指定預設值`export let answer = 'a mystery';`
 - 就可將值傳入 component 中：`<Nested answer={answer}>`
 - 亦可使用 `{...pkg}` 將物件傳進 component 的 props 內
-  └ ex. `<Info {...pkg}/>`
+  <br>└ ex. `<Info {...pkg}/>`
 
 ## 邏輯判斷
 
 ### 分歧
 
 - svelte 提供了各種區塊語法，分歧區塊可依條件決定是否要 render 內容
-  │ 各區塊皆以 `#` 開頭，以 `/` 結尾，以 `:` 連接
-  └ `{#if condition}` 開頭，`{/if}` 結尾
+  <br>│ 各區塊皆以 `#` 開頭，以 `/` 結尾，以 `:` 連接
+  <br>└ `{#if condition}` 開頭，`{/if}` 結尾
 
 ```
 {#if x > 10}
@@ -180,10 +180,10 @@ const download_count = derived(
 ### 遞迴
 
 - 遞迴區塊可以遞迴陣列或 array-like 型態的資料
-  │ `{#each 變數 as 區域變數, index}` 開頭，`{/each}` 結尾
-  └ 其中可使用如 `{區域變數.值}` 顯示內容
+  <br>│ `{#each 變數 as 區域變數, index}` 開頭，`{/each}` 結尾
+  <br>└ 其中可使用如 `{區域變數.值}` 顯示內容
 - 也可先解構內容後再顯示
-  └ `{#each 變數 as { 值1, 值2 }} ... {/each}`
+  <br>└ `{#each 變數 as { 值1, 值2 }} ... {/each}`
 - 替 item 加上 key：`{#each things as thing (thing.id)}`
 
 ### 非同步處理
@@ -206,16 +206,16 @@ const download_count = derived(
 ## 事件綁定
 
 - bind event：`<div on:mousemove={handleMousemove}></div>`
-  └ 也可使用 inline 寫法：`<div on:click={() => console.log("clicked");}></div>`
+  <br>└ 也可使用 inline 寫法：`<div on:click={() => console.log("clicked");}></div>`
 - svelte 也實作了自動註冊和銷毀事件的處理，省去撰寫的麻煩
 - bind event 亦可使用修飾子，以 `|` 加在 even 的後方：
-  ├ `<div on:click|preventDefault={handleClick}>`
-  │ `preventDefault`
-  │ `stopPropagation`
-  │ `passive`
-  │ `capture`
-  │ `once`
-  └ `self`
+  <br>├ `<div on:click|preventDefault={handleClick}>`
+  <br>│ `preventDefault`
+  <br>│ `stopPropagation`
+  <br>│ `passive`
+  <br>│ `capture`
+  <br>│ `once`
+  <br>└ `self`
 
 ### Event dispatcher
 
@@ -256,16 +256,17 @@ const download_count = derived(
 ## 資料綁定
 
 - bind data (`v-model`)：
-  ├ `<input bind:value={name}>`
-  │ 將值同步更新回變數，或將值反應到 `input` 上
-  ├ 也可以用來套用 DOM 屬性
-  │ 例如 `<input type="checkbox" bind:checked={isChecked} />`
-  └ 或是 `<input type="radio" bind:group={selected} vale={1} />`
+  <br>├ `<input bind:value={name}>`
+  <br>│ 將值同步更新回變數，或將值反應到 `input` 上
+  <br>├ 也可以用來套用 DOM 屬性
+  <br>│ 例如 `<input type="checkbox" bind:checked={isChecked} />`
+  <br>└ 或是 `<input type="radio" bind:group={selected} vale={1} />`
 - bind DOM 元素
-  └ `<input type="text" bind:this="{inputNode}" />`
-- bind class：當變數為 true 時才綁定該 class
-  ├ `class:active={active}`
-  └ 當 class 與變數同名時，可以省略掉後方的括弧：`class:active`
+  <br>└ `<input type="text" bind:this="{inputNode}" />`
+- bind class：當陳述為 true 時才綁定該 class
+  <br>├ `class:active={active}`
+  <br>│ 當 class 與變數同名時，可以省略掉後方的括弧：`class:active`
+  <br>└ 亦可於括號中撰寫陳述式，例如：`class:active={status == 'playing'}`
 
   ```html
   <script>
@@ -292,12 +293,12 @@ const download_count = derived(
 - 元件更新：`beforeUpdate` -> `afterUpdate`
 - 元件銷毀：`onDestroy`
 - `onMount`：在 Svelte 元件掛載時呼叫
-  │ 但 SSR 則不會
-  └ 回傳函式則會在 unmount／銷毀時呼叫
+  <br>│ SSR 模式不會呼叫
+  <br>└ 回傳函式則會在 unmount／銷毀時呼叫
 - `beforeUpdate`：狀態更新後、元件更新前執行
-  ├ 會在 `onMount` 之前執行
-  │ 因此如 `bind` 之類於 `onMount` 階段執行的處理就會報錯
-  └ 以及這時狀態資料可能會更新，但還沒反應到 DOM 上
+  <br>├ 會在 `onMount` 之前執行
+  <br>│ 因此如 `bind` 之類於 `onMount` 階段執行的處理就會報錯
+  <br>└ 以及這時狀態資料可能會更新，但還沒反應到 DOM 上
 - `afterUpdate`：狀態更新後、元件更新後執行
 - `onDestroy`：元件銷毀時執行
 
@@ -478,12 +479,12 @@ export const count = writable(0);
 ## motion 機制
 
 - `Tween`：定義兩個數值之間的變化
-  ├ 可以定義 duration 與 easing
-  │ 介面和 writable store 相同
-  │ 具有 `subscribe`、`set`、`update` 等方法
-  ├ `import { tweened } from 'svelte/motion';`
-  │ `const value = tweened(10, { duration: 3000 });`
-  └ `{$value}`
+  <br>├ 可以定義 duration 與 easing
+  <br>│ 介面和 writable store 相同
+  <br>│ 具有 `subscribe`、`set`、`update` 等方法
+  <br>├ `import { tweened } from 'svelte/motion';`
+  <br>│ `const value = tweened(10, { duration: 3000 });`
+  <br>└ `{$value}`
 
   ```html
   <script>
@@ -550,10 +551,10 @@ export const count = writable(0);
 - svelte 採用將獨自的語法計算轉換成原生 css 動畫，因此較不會有效能問題
 - 亦可搭配 svelte 的其它語法
 - 有兩個通用參數
-  ├ `delay`：延遲多久開始 transition
-  └ `duration`：transition 持續多久
+  <br>├ `delay`：延遲多久開始 transition
+  <br>└ `duration`：transition 持續多久
 - 以及各個動畫獨有的參數可以設定
-  └ `<h1 in:fade out:fly={{ x: 0, y: 50 }}>I'm Transition!</h1>`
+  <br>└ `<h1 in:fade out:fly={{ x: 0, y: 50 }}>I'm Transition!</h1>`
 
   ```html
   <script>
@@ -612,8 +613,8 @@ export const count = writable(0);
   ```
 
 - svelte 還有 `animate` 可供當列表遇到重新整理時執行
-  ├ `animate` 中有提供 FLIP（First, Last, Invert, Play）
-  │ 會先計算兩者之間的距離後才執行動畫
+  <br>├ `animate` 中有提供 FLIP（First, Last, Invert, Play）
+  <br>│ 會先計算兩者之間的距離後才執行動畫
 
 ## 樣板語法（Slot）
 

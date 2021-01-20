@@ -35,15 +35,15 @@ layout: blog
 
 動畫版的車內收音機聊的是，現在的動畫業界多麼豐饒，播放的動畫越來越多，觀眾的觀看速度已經跟不上，劇場版的車內收音機的話題，一轉成了光碟賣不出去，業界正走向夕陽。
 
-以及在動畫版內有請了來賓來，劇場版則是連電台也沒有錢能夠請來賓。
+以及在動畫版內有邀請來賓，劇場版是連電台也沒錢能請來賓了。
 
-相較動畫版電台播放的歌曲是快速而正向的，劇場版的則是沉著並且「真沒辦法唉呀唉呀」，雖然不完全負面卻是有些消沉的歌曲。
+歌曲部份，相較動畫版電台播放的曲風是快速而正向的，劇場版的曲風則是沉著並且「真沒辦法唉呀唉呀」，雖然不完全負面卻顯得有些消沉。
 
-<iframe width="720" height="480" title="shirobako movie opening" src="https://www.youtube.com/embed/YtGSzDeTdBM?start=335" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" title="shirobako movie opening" src="https://www.youtube.com/embed/YtGSzDeTdBM?start=335" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 這便是在**暗示著，電視動畫版裡接下來要發生的，是激動的動畫業界故事，劇場版裡則是武藏野動畫的經營不善的演出手法**。
 
-而這其實同時也是不單指作品內的故事發展，也**暗指動畫業界裡「某件事」的演出**。
+而這其實同時也是不單指作品內的故事發展，也是**暗指動畫業界裡「某件事」的演出**。
 
 ## 2014→2020 不斷變化的動畫業界
 
