@@ -3,7 +3,7 @@ title: "【譯】我們當年的聖經在 Kindle 上復刻了 《新世紀福音
 date: 2020-07-04T19:52:26.000Z
 published: 2020-07-04T19:52:26.000Z
 author: f6bfb5
-summary:
+summary: "這兩本書是整理了 1996 年時於《Quick Japan》上所刊載的訪談內容，在 1997 年時出版的。正好是在《死與新生》（1997 年 3 月）、《Air/真心為你》（1997 年 7 月） 上映之前。"
 layout: blog
 ---
 
