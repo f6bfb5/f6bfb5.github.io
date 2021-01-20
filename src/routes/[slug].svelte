@@ -17,25 +17,6 @@
   export let post;
 </script>
 
-<style>
-  header {
-    margin: 0 auto;
-    max-width: 45em;
-    width: 100%;
-    text-align: left;
-  }
-
-  header h1 {
-    margin: 0;
-  }
-
-  header p {
-    color: #aaa;
-    text-transform: uppercase;
-    font-weight: 600;
-  }
-</style>
-
 <svelte:head>
   <title>{post.title}</title>
   <!--  Include canonical links to your blog -->
@@ -70,10 +51,11 @@
   <meta
     name="twitter:data1"
     value={new Date(post.printDate).toLocaleDateString(undefined, {
-      year: 'numeric',
-      month: 'short',
-      day: 'numeric',
-    })} />
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+    })}
+  />
 </svelte:head>
 
 <header>
@@ -85,3 +67,22 @@
     {@html post.html}
   </article>
 </div>
+
+<style>
+  header {
+    margin: 0 auto;
+    max-width: 45em;
+    width: 100%;
+    text-align: left;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+  header p {
+    color: #aaa;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+</style>

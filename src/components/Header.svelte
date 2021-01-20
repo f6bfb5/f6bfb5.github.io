@@ -5,6 +5,11 @@
   export let segment;
 </script>
 
+<header>
+  <Nav {segment} />
+  <Logo />
+</header>
+
 <style>
   header {
     display: flex;
@@ -14,8 +19,3 @@
     width: 100%;
   }
 </style>
-
-<header>
-  <Nav {segment} />
-  <Logo />
-</header>

@@ -2,12 +2,18 @@
   export let segment;
 </script>
 
+<nav>
+  <a class={segment === undefined ? "selected" : ""} href=".">blog</a>
+  <a class={segment === "about" ? "selected" : ""} href="about">about</a>
+  <a class={segment === "rss" ? "selected" : ""} href="rss.xml">rss</a>
+</nav>
+
 <style>
   nav {
-    align-items: flex-start;
     display: flex;
     flex: 1;
     justify-content: flex-start;
+    align-items: flex-start;
     text-transform: uppercase;
   }
 
@@ -45,9 +51,3 @@
     background: #fd6378;
   }
 </style>
-
-<nav>
-  <a class={segment === undefined ? 'selected' : ''} href=".">blog</a>
-  <a class={segment === 'about' ? 'selected' : ''} href="about">about</a>
-  <a class={segment === 'rss' ? 'selected' : ''} href="rss.xml">rss</a>
-</nav>
