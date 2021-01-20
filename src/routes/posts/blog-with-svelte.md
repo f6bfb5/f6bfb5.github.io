@@ -302,7 +302,7 @@ export async function get(req, res) {
 ### Sitemap
 
 1. 在 `src/routes/` 底下建立一個 `sitemap.xml.js`：
-   <br>（檔案內的 `siteUrl` 等內容請自行修改）
+   <br>（檔案內的 `siteUrl` 等會因人而異的內容請自行修改）
 
 ```javascript
 import posts from "./_posts.js";
@@ -324,11 +324,15 @@ fs.readdirSync("./src/routes").forEach((file) => {
 });
 
 const render = (pages, posts) => `<?xml version="1.0" encoding="UTF-8" ?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   ${pages
     .map(
       (page) => `
-    <url><loc>${siteUrl}/${page}</loc><priority>0.85</priority></url>
+    <url>
+      <loc>${siteUrl}/${page}</loc>
+      <lastmod>${JSON.stringify(new Date()).slice(1, -1)}</lastmod>
+      <priority>1.00</priority>
+    </url>
   `
     )
     .join("\n")}
@@ -337,7 +341,11 @@ const render = (pages, posts) => `<?xml version="1.0" encoding="UTF-8" ?>
       (post) => `
     <url>
       <loc>${siteUrl}/blog/${post.slug}</loc>
-      <priority>0.69</priority>
+      <lastmod>${JSON.stringify(new Date(post.printDate)).slice(
+        1,
+        -1
+      )}</lastmod>
+      <priority>0.80</priority>
     </url>
   `
     )
@@ -383,6 +391,31 @@ export function get(req, res, next) {
 
 - [How to render your sitemap.xml file in your Svelte/Sapper blog - DEV Community](https://dev.to/zechtyounes/how-to-render-your-sitemap-xml-file-in-your-svelte-sapper-blog-2joh)
 - [How to create a Sapper / Svelte Sitemap - DEV Community](https://dev.to/kevinconti/how-to-create-a-sapper-svelte-sitemap-3490)
+
+### 響應式 iframe
+
+當想在文章裡面放入 Youtube 嵌入影片時，還需要另外修改 `iframe` 部份的 CSS 實作響應式效果，避免在視窗大小改變或在手機上瀏覽時，造成版面跑掉
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OGWO3u8zgTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+`global.css`
+
+```css
+:root {
+  --margin: 2rem;
+}
+
+iframe {
+  width: calc(100vw - (var(--margin) * 2));
+  height: calc((100vw - (var(--margin) * 2)) / 1.7778);
+}
+```
+
+- [Responsive iframe without a parent container - DEV Community](https://dev.to/bitdweller/responsive-iframe-without-a-parent-container-367k)
+
+### 頁面切換動態效果
+
+- [Simple page transitions in Svelte | Apostrof: web development studio](https://www.apostrof.co/blog/svelte-simple-page-transitions/)
 
 ---
 
