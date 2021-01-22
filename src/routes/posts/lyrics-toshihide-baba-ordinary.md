@@ -5,13 +5,13 @@ date: 2020-06-15T11:31:11.000Z
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/QtkK2VWyq6g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-最近我之所以不再變身
+最近我不再變身
 <br>是因為街上的電話亭都消失了
 <br>也因為長大以後 我已經穿不下變身腰帶了
 
 重型機車的電池也掛點了
 <br>好像也就放在了老家的倉庫裡
-<br>白色圍巾也在好久以前就弄丟了
+<br>白色圍巾也在好久以前弄丟了
 
 住在平凡的街角裡的平凡男人 為了守護今天的幸福
 
@@ -77,8 +77,8 @@ Good Morning, oh I love you
 <br>昨天能夠走著沒有跌倒 或許並不是偶然呢
 
 名為理所當然的淚水 名為理所當然的汗水
-<br>取名做理所當然的笑容 取名做理所當然的笑容
-<br>取名做理所當然的心擎 名為理所當然的心
+<br>取名做理所當然的笑容 取名做理所當然的憤怒
+<br>取名做理所當然的心情 名為理所當然的心
 <br>今天也在轉動著地球的 或許就是平凡的我們吧
 
 昨天守護地球的 或許就是你呢
