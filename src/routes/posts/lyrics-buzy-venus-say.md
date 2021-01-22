@@ -1,5 +1,5 @@
 ---
-title: "【譯/歌詞】Venus Say…"
+title: "【譯/歌詞】Buzy - Venus Say…"
 date: 2018-12-25T12:43:22.000Z
 ---
 

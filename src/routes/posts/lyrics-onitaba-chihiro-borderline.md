@@ -1,5 +1,5 @@
 ---
-title: "【譯/歌詞】BORDERLINE"
+title: "【譯/歌詞】鬼束ちひろ - BORDERLINE"
 date: 2018-12-14T12:14:23.000Z
 ---
 

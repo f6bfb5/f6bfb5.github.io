@@ -39,6 +39,9 @@ layout: blog
 - [成為 Web 開發人員的路線圖](https://github.com/goodjack/developer-roadmap-chinese)
 - [前端工程師養成手冊](https://idoc.hexschool.com/tobef2e/chapter1.html)
 - [邁向前端工程師之路！](https://quip.com/D59vAxcgG8Qc)
+
+### 學習資源
+
 - [【保存版】Web フロントエンド基礎力 ( 初心者向け )](https://qiita.com/teradonburi/items/43c52d7cffc318e9b1e9)
 - [前端資源懶人包](https://docs.google.com/document/d/13nK_XY9u5uIleTpSCw88lMupzgCSwXd6j6je44eLhMQ/edit)
 - [Web Fundamentals](https://developers.google.com/web/fundamentals/)
@@ -47,28 +50,42 @@ layout: blog
 - [最短で Web 業界で給与を得るための最小知識 2020](https://qiita.com/mazgi/items/30d77099445288af0bda)
 - [新人 Web プログラマの学習が捗るリンク集 - Qiita](https://qiita.com/tgsmsk/items/5bc9a2a5fd2d4cb155c2)
 
+###
+
+- [生産的になろう（Aaron Swartz のブログから）](https://emptypage.jp/translations/aaron/productivity.html)
+- [How To Ask Questions The Smart Way 提問的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)
+- [\[心得\] 「怎麼樣算(好)問題？」](https://www.ptt.cc/bbs/Soft_Job/M.1574711044.A.1E1.html)
+- [降低遺忘的法門：讓訊息成為長期記憶的六個方法 - The News Lens 關鍵評論網](https://www.thenewslens.com/article/104150)
+- [怎樣練習一萬小時 - INSIDE](https://www.inside.com.tw/article/3803-10000-hours)
+- [《程式英文》 English for Programmers](https://github.com/EngTW/English-for-Programmers)
+- [Count, Number, Quantity; 如何命名「數量」變數？](https://docs.google.com/presentation/d/e/2PACX-1vSkoG-T0K6zT-DQB54GcpS5DRIRHQiIvfo2vN4_Ga5Z66ft6ogTMHBy8Z0U3mwpGDKQPjaXTeECx5xZ/pub?slide=id.g8bcfeab365_0_1655)
+
 ### 練習資源
 
-| 名稱                                                                                                                               | 內容 |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| [從新手到中手：前端工程加強班](https://github.com/aszx87410/frontend-intermediate-course)                                          |      |
-| [Lidemy 程式導師實驗計畫第二期](https://github.com/Lidemy/mentor-program-2nd)                                                      |      |
-| [Lidemy 程式導師實驗計畫第三期](https://github.com/Lidemy/mentor-program-3rd)                                                      |      |
-| [Lidemy 程式導師實驗計畫第四期](https://github.com/Lidemy/mentor-program-4th)                                                      |      |
-| [六角大漢堡](https://chupai.github.io/Hex-Restaurant/)                                                                             |      |
-| [六角西餐廳](https://chupainotebook.blogspot.com/2019/05/blog-post.html)                                                           |      |
-| [甜點電商](https://chupainotebook.blogspot.com/2019/05/blog-post_24.html)                                                          |      |
-| [The F2E - 前端修練精神時光屋](https://www.hexschool.com/2018/05/09/2018-05-09-the_f2e/)                                           |      |
-| [支線任務 - 颱風防災平台](https://www.facebook.com/groups/173311386703334/permalink/201194263915046/)                              |      |
-| [CSS 切版、JS 開發練功題目](https://www.facebook.com/groups/110635703123103/)                                                      |      |
-| [トップデベロッパーになるために作成したいアプリ 8 選](https://qiita.com/baby-degu/items/f905c8ee972cf46ce11b)                      |      |
-| [2020 年に Web フロントエンドを勉強する人が作るべきたったひとつのアプリ](https://qiita.com/Dragon-taro/items/03f322dee15b19c33613) |      |
-| [2020 年のフロントエンドマスターになりたければこの 9 プロジェクトを作れ](https://qiita.com/rana_kualu/items/915345b8f3f870cfe2aa)  |      |
-| [2020 年にフロントエンド開発者が作りたい 9 つのプロジェクト - Qiita](https://qiita.com/baby-degu/items/df70cccf686ad9fe4940)       |      |
-| [JavaScript 30](https://github.com/wesbos/JavaScript30)                                                                            |      |
-| [竹白記事本 Javascript30 紀錄](https://hackmd.io/@chupai/BkXngSU-B/)                                                               |      |
-| [JS30 學習筆記連結目錄](https://pjchender.blogspot.com/2017/06/js30.html)                                                          |      |
-| [100 Days CSS Challenge](https://100dayscss.com/)                                                                                  |      |
+| 名稱                                                                                                  | 內容                                                     |
+| ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| [從新手到中手：前端工程加強班](https://github.com/aszx87410/frontend-intermediate-course)             |                                                          |
+| [Lidemy 程式導師實驗計畫第二期](https://github.com/Lidemy/mentor-program-2nd)                         |                                                          |
+| [Lidemy 程式導師實驗計畫第三期](https://github.com/Lidemy/mentor-program-3rd)                         |                                                          |
+| [Lidemy 程式導師實驗計畫第四期](https://github.com/Lidemy/mentor-program-4th)                         |                                                          |
+| [六角大漢堡](https://chupai.github.io/Hex-Restaurant/)                                                |                                                          |
+| [六角西餐廳](https://chupainotebook.blogspot.com/2019/05/blog-post.html)                              |                                                          |
+| [甜點電商](https://chupainotebook.blogspot.com/2019/05/blog-post_24.html)                             |                                                          |
+| [The F2E - 前端修練精神時光屋](https://www.hexschool.com/2018/05/09/2018-05-09-the_f2e/)              |                                                          |
+| [支線任務 - 颱風防災平台](https://www.facebook.com/groups/173311386703334/permalink/201194263915046/) |                                                          |
+| [CSS 切版、JS 開發練功題目](https://www.facebook.com/groups/110635703123103/)                         |                                                          |
+| [JavaScript 30](https://github.com/wesbos/JavaScript30)                                               |                                                          |
+| [竹白記事本 Javascript30 紀錄](https://hackmd.io/@chupai/BkXngSU-B/)                                  |                                                          |
+| [JS30 學習筆記連結目錄](https://pjchender.blogspot.com/2017/06/js30.html)                             |                                                          |
+| [100 Days CSS Challenge](https://100dayscss.com/)                                                     |                                                          |
+| [DevChallenges](https://devchallenges.io/challenges)                                                  |                                                          |
+| [Codewars](https://www.codewars.com/)                                                                 | 類似 LeetCode 的刷題網站，但任何人皆可出題、整體更為輕鬆 |
+| [Blind Curated 75](https://leetcode.com/list/xoqag3yj/)                                               | LeetCode 精選 75 題                                      |
+
+- [トップデベロッパーになるために作成したいアプリ 8 選](https://qiita.com/baby-degu/items/f905c8ee972cf46ce11b)
+- [2020 年に Web フロントエンドを勉強する人が作るべきたったひとつのアプリ](https://qiita.com/Dragon-taro/items/03f322dee15b19c33613)
+- [2020 年のフロントエンドマスターになりたければこの 9 プロジェクトを作れ](https://qiita.com/rana_kualu/items/915345b8f3f870cfe2aa)
+- [2020 年にフロントエンド開発者が作りたい 9 つのプロジェクト - Qiita](https://qiita.com/baby-degu/items/df70cccf686ad9fe4940)
 
 ### 互動遊戲
 
@@ -246,6 +263,8 @@ layout: blog
 | [A Single Div](https://a.singlediv.com/)                                   | 由 Lynn Fisher 製作只用一個 DIV 與 CSS 繪製圖像的展示網站 |
 | [臆病な魔女 Yui540](https://yui540.graphics/#/)                            | 由 Yui540 製作的展示網站                                  |
 | [夜空ノ贈リ物 - Github](https://github.com/yui540/Yozora_No_Okurimono)     | 由 Yui540 撰寫的解說文章                                  |
+| [Web デザインリンク集](https://gendaidesign.com/)                          |                                                           |
+| [SANKOU!](https://sankoudesign.com/)                                       |                                                           |
 
 - [Use These 'Dummy Numbers' When Prototyping With Data | ideo.com](https://www.ideo.com/blog/use-these-dummy-numbers-when-prototyping-with-data)
 - [你都去哪裡找網站動態特效設計靈感？(網站設計篇) | 版塊設計 Block Studio](https://blockstudio.tw/blog/webdesign-inspiration-for-blockstudio/)
@@ -255,5 +274,5 @@ layout: blog
 
 - `example.com` 或 `example.net`、`example.org`、`example.edu` 都是根據 RFC 2606 第 3 部份保留的二級域名，無法被任何單位註冊使用，因此適合在開發測試時使用。
 - 其它的保留域名 (TLD) 還有 `.text`、`.example`、`.invalid`、`.localhost`
-  - [予約済みドメイン (.example, .localhost, .test) について | blog.jxck.io](https://blog.jxck.io/entries/2017-09-27/example-local-test-domains.html)
+  - [予約済みドメイン (.example, .localhost, .test) について](https://blog.jxck.io/entries/2017-09-27/example-local-test-domains.html)
 - 可以使用 [js.new](https://js.new) 或 [vue.new](https://vue.new)、[ts.new](https://ts.new) 網域快速開啟沙盒

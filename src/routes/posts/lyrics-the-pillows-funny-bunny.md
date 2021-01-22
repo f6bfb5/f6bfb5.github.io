@@ -1,5 +1,5 @@
 ---
-title: "【譯/歌詞】Funny Bunny"
+title: "【譯/歌詞】The Pillows - Funny Bunny"
 date: 2019-12-26T11:43:00.000Z
 ---
 

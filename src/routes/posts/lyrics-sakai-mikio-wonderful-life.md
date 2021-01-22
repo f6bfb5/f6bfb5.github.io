@@ -1,5 +1,5 @@
 ---
-title: "【譯/歌詞】Wonderful Life"
+title: "【譯/歌詞】酒井ミキオ - Wonderful Life"
 date: 2018-12-25T12:42:06.000Z
 ---
 

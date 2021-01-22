@@ -91,17 +91,20 @@ HTML（HyperText Markup Language）是撰寫網頁結構用的標記語言，「
 - [你可以這樣用 HTML 的 Meta 標籤](https://poychang.github.io/how-to-use-html-head/)
 - 提供網頁資訊給瀏覽器、搜尋引擎
 - 通常用於指定頁面描述、關鍵字、作者…等等資訊
-- 控制使用者的瀏覽器 viewport（可見區域）
+- 常用的 meta name 的屬性值：
+
+| name         | content 說明                                                      |
+| ------------ | ----------------------------------------------------------------- |
+| author       | 記錄網頁的作者名稱                                                |
+| description  | 網頁的簡短描述，內容不能太長，需於 200 個字元（100 個中文字）以內 |
+| generator    | 記錄網頁編輯器名稱                                                |
+| keywords     | 放置網頁關鍵字，但此屬性目前已幾乎無作用                          |
+| distribution | 記錄網頁的發佈地區                                                |
+
+- 也可以控制使用者的瀏覽器 viewport（可見區域）
   <br>└ `meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"`
 - 網頁編碼
   <br>└ `meta charset="UTF-8"`
-- 常用的 meta name 的屬性值
-  <br>├ `meta name="author" content="作者姓名"`：記錄網頁的作者名稱
-  <br>├ `meta name="description" content="網頁簡短描述"`：網頁的簡短描述
-  <br>│ 內容不能太長，需於 200 個字元（100 個中文字）以內
-  <br>├ `meta name="generator" content="編輯器名稱"`：記錄網頁編輯器名稱
-  <br>├ `meta name="keywords" content="網頁關鍵字"`：放置網頁關鍵字
-  <br>└ `meta name="distribution" content="網頁發佈地區"`：記錄網頁的發佈地區
 - 早期 HTML4.01 的寫法
   <br>├`meta http-equiv="屬性值" content="內容"`
   <br>├ 此屬性值有三種常見的纇型：
@@ -109,6 +112,34 @@ HTML（HyperText Markup Language）是撰寫網頁結構用的標記語言，「
   <br>│ `default-style` 指定要使用的樣式表
   <br>│ `refresh` 網頁自動刷新的間隔時間
   <br>└ 各屬性值都必須搭配一個 content
+
+#### SEO
+
+目前常聽到的 SEO（Search Engine Optimization，搜尋引擎最佳化）也與 metadata tag 有關，我們在 Google 上看到的搜尋結果標題就是 `<title>` 裡的文字，標題底下的簡短說明是 `<meta name="description" content="網頁簡短描述">` 部份的文字，而在社群網站流行的當代，2010 年時 Facebook 又再制定了一套 Open Graph Protocol 標準，決定相關內容在社群網站要如何呈現，於 `meta` tag 裡改用 `property` 屬性指定：`<meta property="og:type" content="article" />`。
+
+- [網站管理員 - Sharing](https://developers.facebook.com/docs/sharing/webmasters/)
+- [最佳作法 - Sharing](https://developers.facebook.com/docs/sharing/best-practices)
+
+| property         | content 說明                                                                        |
+| ---------------- | ----------------------------------------------------------------------------------- |
+| `og:title`       | 網頁內容的標題，不包含網站名稱等任何品牌內容                                        |
+| `og:url`         | 網頁內容的網址，此網址應為標準網址（canonical URL）                                 |
+| `og:description` | 內容的簡短說明，通常為 2 到 4 個句子                                                |
+| `og:image`       | 用戶將內容分享至 SNS 時顯示的圖像網址，建議為 `1.91:1` 比例、最小 `1200x630` 解析度 |
+| `og:type`        | 內容的媒體類型，每個網址都應該是單一物件，預設為 `website`                          |
+| `og:locale`      | 資源的地區設定，預設為 `en_US`，原生內容以非英文撰寫時才需設定                      |
+
+與 SEO 相關的，還有可以使用 `robots.txt` 告訴爬蟲遵循什麼規則抓取網頁，以及 `sitemap.xml` 告訴爬蟲整個網域裡存在的網頁。
+
+```
+User-agent: *
+Disallow:
+Allow:
+sitemap: <sitemap.xml>
+```
+
+- [Robots.txt 規範](https://developers.google.com/search/reference/robots_txt?hl=zh-tw)
+- [建立並提交 Sitemap](https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap)
 
 ### 4. `<body>`
 

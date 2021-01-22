@@ -62,63 +62,69 @@ Puppter 是由 Google Chrome 官方團隊所推出的無界面 (Headless) Chrome
 
 ### 安裝
 
-`yarn add puppeteer`
-`npm i puppeteer`
+```bash
+npm i puppeteer
+# or use yarn
+yarn add puppeteer
+```
 
 ### 使用
+
+#### 基礎操作
 
 ```js
 const puppeteer = require('puppeteer')
 const url = ''
 
 (async() => {
+  // 啟動 puppeteer
   const browser = await.puppeteer.launch()
+  // 開啟新分頁
   const page = await browser.newPage()
+  // 前往頁面
   await page.goto(url)
 
   // action here...
 
+  // 截圖整個頁面
+  await page.screenshot({path: 'screenshot.png'})
+
+  // 只截特定元素
+  const element = await page.$('h1')
+  await element.screenshot({path: 'screenshot_h1.png'})
+
+  // 執行 javascript
+  await page.evaluate(() => {
+    const h1 = document.querySelector("h1")
+    h1.textContent = "hoge"
+  });
+
+  // 點擊元素
+  await page.click('.button_element')
+  // or
+  let button_element = await page.$(".button_element")
+  await button_element.click()
+
+  // 等待元素出現
+  await page.waitForNavigation({waitUntil: 'domcontentloaded'})
+  await page.waitFor('.lazy')
+  await page.waitFor(5000)
+
+  // 取得 DOM 樹
+  const bodyHandle = await page.$('body')
+  const html = await.page.evaluate(body => body.innerHTML.bodyHandle)
+  console.log(html);
+
+  // 關閉 puppeteer
   await browser.close()
 })
 ```
 
-#### 可進行操作
+#### 使用 cookie 登入
 
-截圖: `await page.screenshot({path: 'screenshot.png'})`
-
-只截取特定部份:
-
-```js
-const element = await page.$('h1')
-await element.screenshot({path: 'screenshot_h1.png})
-```
-
-執行 JS:
-
-```js
-await page.evaluate(() => {
-  const h1 = document.querySelector("h1");
-  h1.textContent = "hoge";
-});
-```
-
-點擊: `await page.click('.button_element')`
-
-```js
-let button_element = await page.$(".button_element");
-await button_element.click();
-```
-
-等待: `await page.waitForNavigation({waitUntil: 'domcontentloaded'})`
-`await page.waitFor('.lazy')`
-`await page.waitFor(5000)`
-
-取得 DOM 樹:
-
-```js
-const bodyHandle = await page.$('body')
-const html = await.page.evaluate(body => body.innerHTML.bodyHandle)
-console.log(html);
+```javascript
+const cookies = JSON.parse(fs.readFileSync("./cookies.json", "utf-8"));
+await page.setCookie(...cookies);
 ```
 
 ### 參考

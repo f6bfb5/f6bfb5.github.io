@@ -1,5 +1,5 @@
 ---
-title: "【譯/歌詞】Life Goes On"
+title: "【譯/歌詞】有阪美香 - Life Goes On"
 date: 2018-12-24T12:08:14.000Z
 ---
 

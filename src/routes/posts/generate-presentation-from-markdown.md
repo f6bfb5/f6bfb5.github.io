@@ -1,5 +1,5 @@
 ---
-title: "使用 Marp，從 Markdown 檔案產生投影片"
+title: "Marp 從 Markdown 檔案產生投影片"
 date: 2020-07-11T20:13:35.000Z
 published: 2020-07-11T20:13:35.000Z
 author: f6bfb5

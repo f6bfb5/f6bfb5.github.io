@@ -1,5 +1,5 @@
 ---
-title: "使用 Google Sheet 做為資料庫使用"
+title: "使用 Google Sheet 做為資料庫"
 date: 2020-07-23T00:40:12.000Z
 published: 2020-07-23T00:40:12.000Z
 author: f6bfb5

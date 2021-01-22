@@ -1,5 +1,5 @@
 ---
-title: "【譯/歌詞】Kingdom"
+title: "【譯/歌詞】平沢進 - Kingdom"
 date: 2017-10-04T12:05:07.000Z
 ---
 

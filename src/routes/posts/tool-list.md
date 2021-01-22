@@ -114,12 +114,14 @@ layout: blog
 
 ### 文件
 
-| 名稱                                        | 說明                                | 付費 |
-| ------------------------------------------- | ----------------------------------- | ---- |
-| [Notepad++](https://notepad-plus-plus.org/) |                                     |      |
-| [Typora](https://www.typora.io/)            | Markdown 編輯器                     |      |
-| [XMind](https://jp.xmind.net/download/)     |                                     |      |
-| [HxD](https://mh-nexus.de/en/hxd/)          | Freeware Hex Editor and Disk Editor |      |
+| 名稱                                              | 說明                                               | 付費 |
+| ------------------------------------------------- | -------------------------------------------------- | ---- |
+| [Notepad++](https://notepad-plus-plus.org/)       |                                                    |      |
+| [Typora](https://www.typora.io/)                  | Markdown 編輯器                                    |      |
+| [Obsidian](https://obsidian.md/)                  | 可以運用內部連結做成卡片盒形式的 Markdown 筆記軟體 |      |
+| [XMind](https://jp.xmind.net/download/)           |                                                    |      |
+| [HxD](https://mh-nexus.de/en/hxd/)                | Freeware Hex Editor and Disk Editor                |      |
+| [Text2MindMap](https://tobloef.com/text2mindmap/) | 文字版心智圖                                       | FREE |
 
 ### 檔案
 
@@ -221,6 +223,7 @@ layout: blog
 | 名稱                                                                                                     | 說明 | 付費 |
 | -------------------------------------------------------------------------------------------------------- | ---- | ---- |
 | [PassMark Software - Video Card (GPU) Benchmark Charts](https://www.videocardbenchmark.net/gpu_list.php) |      |      |
+| [DisplaySpecifications](https://www.displayspecifications.com/en)                                        |      |      |
 | [Best TVs & Monitors for Gaming: Input Lag Database](https://displaylag.com/display-database/)           |      |      |
 | [Reviews and Ratings - RTINGS.com](https://www.rtings.com/)                                              |      |      |
 | [TV Reviews 2018 \- Best 4K HDR LED, OLED & QLED TVs](https://www.hdtvtest.co.uk/)                       |      |      |

@@ -1,5 +1,5 @@
 ---
-title: "【譯/歌詞】The Everlasting"
+title: "【譯/歌詞】JAM Project - The Everlasting"
 date: 2018-12-24T12:22:48.000Z
 ---
 

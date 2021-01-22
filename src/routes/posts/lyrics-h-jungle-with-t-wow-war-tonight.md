@@ -1,5 +1,5 @@
 ---
-title: "【譯/歌詞】WOW WAR TONIGHT 〜時には起こせよムーヴメント"
+title: "【譯/歌詞】H Jungle with T - WOW WAR TONIGHT 〜時には起こせよムーヴメント"
 date: 2018-06-24T11:17:09.000Z
 ---
 

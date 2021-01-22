@@ -275,30 +275,51 @@ settings.addButton("meow", () => {
 
 ## 設計用工具
 
-| 名稱                                                                                         | 說明                  | 付費 |
-| -------------------------------------------------------------------------------------------- | --------------------- | ---- |
-| [Lunacy](https://icons8.com/lunacy)                                                          | Windows 版的 Sketch   |      |
-| [Zeplin](https://zeplin.io/)                                                                 | 設計流程溝通工具      |      |
-| [InVision](https://www.invisionapp.com/)                                                     | 設計流程溝通工具      |      |
-| [UICloud](http://ui-cloud.com/)                                                              | UI 素材資源的搜尋引擎 |      |
-| [ Responsively App](https://responsively.app/)                                               |                       |      |
-| [Adobe Kuler](https://color.adobe.com/zh/create/color-wheel/)                                | Adobe 的取色工具      |      |
-| [0to255](https://www.0to255.com/)                                                            | 色彩                  |      |
-| [HUE/360](http://hue360.herokuapp.com/)                                                      | 色彩                  |      |
-| [Color Hunt](https://colorhunt.co/)                                                          | 色彩                  |      |
-| [Happy Hues](https://www.happyhues.co/)                                                      | 色彩                  |      |
-| [Material Design Colors](https://www.materialui.co/colors)                                   | 色彩                  |      |
-| [Web Colour Data](http://webcolourdata.com/)                                                 | 色彩                  |      |
-| [CCHIMERA PALETTE CREATOR](http://saint11.org/tools/cchimera/index.html)                     | 色彩                  |      |
-| [Random Material Palette Generator](https://www.threebu.it/random-material-palette/)         | 色彩                  |      |
-| [Coolors](https://coolors.co/)                                                               |                       |      |
-| [Sass Color Generator](http://scg.ar-ch.org/)                                                | 調整 SASS 顏色變數    |      |
-| [CSS Gradient](https://cssgradient.io/)                                                      | 產生漸層色            | FREE |
-| [WebGradients.com](https://webgradients.com/)                                                | 色彩                  |      |
-| [カラーチャート/配色パターン - TAG index](https://www.tagindex.com/color/color_pattern.html) | 色彩                  |      |
-| [SASS 變數色卡](https://codepen.io/frank890417/full/MpKebd)                                  | 色彩                  |      |
-| [Interactive CSS Grid Generator](https://grid.layoutit.com/)                                 | 視覺化 grid 效果      |      |
-| [reference for HTML Symbols](https://www.toptal.com/designers/htmlarrows/)                   | HTML 符號             |      |
+### 設計流程
+
+| 名稱                                                                       | 說明                                | 付費 |
+| -------------------------------------------------------------------------- | ----------------------------------- | ---- |
+| [Lunacy](https://icons8.com/lunacy)                                        | Windows 版的 Sketch                 |      |
+| [Zeplin](https://zeplin.io/)                                               | 設計流程溝通工具                    |      |
+| [InVision](https://www.invisionapp.com/)                                   | 設計流程溝通工具                    |      |
+| [Quip](https://quip.com/)                                                  | 類似 Google Docs 的團隊文件協作平台 |      |
+| [UICloud](http://ui-cloud.com/)                                            | UI 素材資源的搜尋引擎               |      |
+| [Responsively App](https://responsively.app/)                              | 可以同時檢查各種解析度顯示的瀏覽器  | FREE |
+| [Interactive CSS Grid Generator](https://grid.layoutit.com/)               | 視覺化 grid 效果                    |      |
+| [Modularscale](https://www.modularscale.com/?1&em&1.618)                   | 檢視字級視覺效果                    |      |
+| [reference for HTML Symbols](https://www.toptal.com/designers/htmlarrows/) | HTML 符號                           |      |
+
+### 色彩網站
+
+| 名稱                                                                                         | 說明               | 付費 |
+| -------------------------------------------------------------------------------------------- | ------------------ | ---- |
+| [Adobe Kuler](https://color.adobe.com/zh/create/color-wheel/)                                | Adobe 的取色工具   |      |
+| [0to255](https://www.0to255.com/)                                                            | 色彩               |      |
+| [HUE/360](http://hue360.herokuapp.com/)                                                      | 色彩               |      |
+| [Color Hunt](https://colorhunt.co/)                                                          | 色彩               |      |
+| [Happy Hues](https://www.happyhues.co/)                                                      | 色彩               |      |
+| [Material Design Colors](https://www.materialui.co/colors)                                   | 色彩               |      |
+| [Web Colour Data](http://webcolourdata.com/)                                                 | 色彩               |      |
+| [CCHIMERA PALETTE CREATOR](http://saint11.org/tools/cchimera/index.html)                     | 色彩               |      |
+| [Random Material Palette Generator](https://www.threebu.it/random-material-palette/)         | 色彩               |      |
+| [Coolors](https://coolors.co/)                                                               | 色彩               |      |
+| [Sass Color Generator](http://scg.ar-ch.org/)                                                | 調整 SASS 顏色變數 |      |
+| [CSS Gradient](https://cssgradient.io/)                                                      | 產生漸層色         | FREE |
+| [WebGradients.com](https://webgradients.com/)                                                | 色彩               |      |
+| [カラーチャート/配色パターン - TAG index](https://www.tagindex.com/color/color_pattern.html) | 色彩               |      |
+| [SASS 變數色卡](https://codepen.io/frank890417/full/MpKebd)                                  | 色彩               |      |
+
+###
+
+| 名稱                                                                     | 說明                      | 付費 |
+| ------------------------------------------------------------------------ | ------------------------- | ---- |
+| [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/) | 線上編輯 mermaid 圖表工具 |      |
+| [JavaScript Obfuscator Tool](https://obfuscator.io/)                     |                           |      |
+| [TYPEDOC](http://typedoc.org/)                                           |                           |      |
+| [Carbon](https://carbon.now.sh/)                                         | 產生程式碼片段圖片        | FREE |
+| [codic](https://codic.jp/)                                               | 依照敘述自動產生命名      | FREE |
+| [CSS Vocabulary](http://apps.workflower.fi/vocabs/css/en)                | CSS 詞彙查詢              | FREE |
+| [JavaScript Event KeyCodes](https://keycode.info/)                       | 查詢按鍵對應 JS Keycode   | FREE |
 
 ## 素材
 
@@ -325,6 +346,7 @@ settings.addButton("meow", () => {
 | [Icograms Designer](https://icograms.com/)                          | 可自由設計的 3D 圖示產生工具 | FREE             |
 | [Patternify](http://www.patternify.com/)                            | 轉換 pattern 圖示成 Base64   | FREE             |
 | [Seamless Pattern Maker](https://patternico.com/)                   | 製作無接縫 pattern 圖示      |                  |
+| [Simple Repeat](https://simple-repeat.com/)                         | 提供重覆 pattern 圖示        | FREE             |
 | [Favicon ジェネレーター](https://favicon-generator.mintsu-dev.com/) | 轉換 Favicon                 | FREE             |
 | [Favicon Generator](https://realfavicongenerator.net/)              | 支援跨裝置的 Favicon         |                  |
 
@@ -433,17 +455,18 @@ settings.addButton("meow", () => {
 
 ### 轉換
 
-| 名稱                                                             | 說明                           | 付費 |
-| ---------------------------------------------------------------- | ------------------------------ | ---- |
-| [Autoprefixer CSS online](http://autoprefixer.github.io/)        | 自動加上對應的 CSS 屬性 prefix |      |
-| [Unicode code converter](https://r12a.github.io/app-conversion/) | Unicode 轉各種編碼             |      |
-| [HTML to JADE/PUG](https://html2jade.org/)                       | HTML 轉 JADE/PUG               |      |
-| [Productivity is key](https://caferati.me/demo/cssfier)          | 將 HTML 轉換成 SCSS 結構       |      |
-| [transform](https://transform.tools/)                            | 多種網頁常見資料格式互轉       |      |
-| [PX-EM](https://www.webdesignrankings.com/resources/px-em/)      | 計算子母元素 px 值轉為 em      |      |
-| [extractCSS](http://extractcss.com/)                             | 取出 HTML 內的 CSS             |      |
-| [CSSShrink](http://cssshrink.com/)                               | 壓縮 CSS                       |      |
-| [gifski](https://gif.ski/)                                       | 號稱品質最強的 GIF converter   |      |
+| 名稱                                                             | 說明                            | 付費 |
+| ---------------------------------------------------------------- | ------------------------------- | ---- |
+| [Autoprefixer CSS online](http://autoprefixer.github.io/)        | 自動加上對應的 CSS 屬性 prefix  |      |
+| [Unicode code converter](https://r12a.github.io/app-conversion/) | Unicode 轉各種編碼              |      |
+| [HTML to JADE/PUG](https://html2jade.org/)                       | HTML 轉 JADE/PUG                |      |
+| [Productivity is key](https://caferati.me/demo/cssfier)          | 將 HTML 轉換成 SCSS 結構        |      |
+| [transform](https://transform.tools/)                            | 多種網頁常見資料格式互轉        |      |
+| [PX-EM](https://www.webdesignrankings.com/resources/px-em/)      | 計算子母元素 px 值轉為 em       |      |
+| [extractCSS](http://extractcss.com/)                             | 取出 HTML 內的 CSS              |      |
+| [CSSShrink](http://cssshrink.com/)                               | 壓縮 CSS                        |      |
+| [gifski](https://gif.ski/)                                       | 號稱品質最強的 GIF converter    |      |
+| [pkg](https://github.com/vercel/pkg)                             | 轉換 Node.js project 成為執行檔 |      |
 
 ## 終端
 
@@ -477,6 +500,7 @@ settings.addButton("meow", () => {
 | [localtunnel](https://github.com/localtunnel/localtunnel) | 開放內網                          |      |
 | [SSL Labs](https://www.ssllabs.com/)                      | 安全性檢查                        |      |
 
+- [常見與不常見的 HTTP Status Code](https://noob.tw/http-status-code/)
 - [API 實作(一)：規劃 RESTful API 要注意什麼](https://noob.tw/restful-api/)
 - [API 設計時必須注意的 HTTP header 底線問題](https://blog.niclin.tw/2020/03/31/avoid-http-header-use-underscore/)
 

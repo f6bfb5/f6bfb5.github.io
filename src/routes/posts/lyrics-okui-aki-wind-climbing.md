@@ -1,5 +1,5 @@
 ---
-title: "【譯/歌詞】Wind Climbing ～風にあそばれて～"
+title: "【譯/歌詞】奥井亜紀 - Wind Climbing ～風にあそばれて～"
 date: 2014-06-23T13:14:32.000Z
 ---
 

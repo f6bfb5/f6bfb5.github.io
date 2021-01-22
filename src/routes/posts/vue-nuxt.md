@@ -1,29 +1,32 @@
 ---
-title: "Vue - Vuex"
+title: "Vue - Nuxt"
 date: 2019-12-07T06:44:15.000Z
 author: f6bfb5
 summary:
 layout: blog
 ---
 
-## Nuxt
+## What is Nuxt.js？
 
-- Vue 2
-- [Vue-router](https://router.vuejs.org/)
-- [Vuex](https://vuex.vuejs.org/)
-- Vue Server Renderer
-- vue-meta
+Nuxt.js 是再以 Vue 為基礎所建構的框架，補足了 Vue.js 需要處理的 Server-Side Rendering 問題。
+
+Nuxt.js 大概而言整合了這些套件：
+
+- Vue 本體
+- [Vue Router](https://router.vuejs.org/)：管理 Vue app 的路由
+- [Vuex](https://vuex.vuejs.org/)：實作單向資料流 flux 設計模式
+- [Vue Server Renderer](https://www.npmjs.com/package/vue-server-renderer)：處理 Server-Side Rendering 的 package
+- [Vue-Meta](https://vue-meta.nuxtjs.org/)：管理 Vue app 的 metadata
+
 - [Learn Next.js - A free video course on React and Next.js.](https://masteringnextjs.com/)
-- [Nuxt.js を使うときに、SPA・SSR・静的化のどれがいいか迷ったら - Qiita](https://qiita.com/nishinoshake/items/f42e2f03663b00b5886d)
-- [Nuxt.js でバックもフロントもこれ一本 - Qiita](https://qiita.com/kawaMk4/items/298f95f751540b96d39b)
-- [大幅にリニューアルされた Next.js のチュートリアルをどこよりも早く全編和訳しました - Qiita](https://qiita.com/thesugar/items/01896c1faa8241e6b1bc)
-- [Web アプリ無料運営のススメ：Firebase と Nuxt(Vue)なら最強！ - Qiita](https://qiita.com/y_kawase/items/fb9f747d88af151f981a)
 
 ### 安裝
 
 ```bash
+
+
 npm install --save nuxt
 npx create-nuxt-app nuxt_app
 ```
 
-- `nux`: 同捆於 `npm` 中能夠快速執行 `npm` package 的指令
+### Deploy 形式

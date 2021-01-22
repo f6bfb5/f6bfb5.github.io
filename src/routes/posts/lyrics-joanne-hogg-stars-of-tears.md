@@ -1,5 +1,5 @@
 ---
-title: "【譯/歌詞】STARS OF TEARS"
+title: "【譯/歌詞】Joanne Hogg - STARS OF TEARS"
 date: 2019-07-19T12:33:15.000Z
 ---
 

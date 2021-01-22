@@ -1,5 +1,5 @@
 ---
-title: "【譯/歌詞】One and Only"
+title: "【譯/歌詞】鈴木結女 - One and Only"
 date: 2018-09-07T13:21:19.000Z
 ---
 

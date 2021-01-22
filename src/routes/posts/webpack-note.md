@@ -1,5 +1,5 @@
 ---
-title: "Webpack 筆記"
+title: "套件管理工具筆記"
 date: 2019-07-21T13:37:47.000Z
 published: 2019-07-21T13:37:47.000Z
 author: f6bfb5
@@ -10,6 +10,7 @@ layout: blog
 - [\[譯 + 補充\] Webpack 2 學習筆記 | DEVLOG of andyyou](https://andyyou.github.io/2017/02/17/webpack-2-beginner-guide/)
 - [Webpack 筆記整理 (一)](https://medium.com/@cos214159/webpack-%E7%AD%86%E8%A8%98%E6%95%B4%E7%90%86-%E4%B8%80-7fc63bcf1ecb)
 - [Webpack をシンプルに理解しよう](https://qiita.com/yusuke_ten/items/a40ec089c55599ce1b3e)
+- [webpack 新手教學之淺談模組化與 snowpack](https://blog.techbridge.cc/2020/01/22/webpack-%E6%96%B0%E6%89%8B%E6%95%99%E5%AD%B8%E4%B9%8B%E6%B7%BA%E8%AB%87%E6%A8%A1%E7%B5%84%E5%8C%96%E8%88%87-snowpack/)
 
 ## 什麼時候不能使用 npm install
 
@@ -20,3 +21,4 @@ layout: blog
 - `xxx` 套件的最新版本為 `1.0.0` 時，`package.json` 的 `dependencies` 會以範圍格式記載 `"xxx": "^1.0.0"`，亦即適用以 1 開頭的最新版本檔案，然而若是已經推播最新版本 `yyy` 含有漏洞亦或問題，直接使用 `npm install` 會難以重現開發環境
 - 雖然 `package-lock.json` 存有該次建構時的確切版本，但 `npm install` 會覆寫 `package-lock.json` 裡的版本紀錄，若是需要以建構環境時的套件版本為主，需改用 `npm ci`，便會以 `package-lock.json` 為主要參照來源。
 - 想更新 `package-lock.json` 時則直接使用 `npm install` 或 `npm update`。
+- [Composer 與 NPM 指令 install 與 update 的差異｜ SoarLin's blog](https://soarlin.github.io/2017/04/21/Composer-NPM-install-update/)

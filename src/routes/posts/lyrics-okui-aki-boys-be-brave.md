@@ -1,5 +1,5 @@
 ---
-title: "【譯/歌詞】BOYS BE BRAVE ～少年よ勇気を持て～"
+title: "【譯/歌詞】奥井亜紀 - BOYS BE BRAVE ～少年よ勇気を持て～"
 date: 2016-05-23T13:43:01.000Z
 ---
 

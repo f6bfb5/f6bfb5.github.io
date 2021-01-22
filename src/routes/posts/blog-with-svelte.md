@@ -416,6 +416,11 @@ iframe {
 ### 頁面切換動態效果
 
 - [Simple page transitions in Svelte | Apostrof: web development studio](https://www.apostrof.co/blog/svelte-simple-page-transitions/)
+- [Svelte Smooth page transitions - DEV Community](https://dev.to/giorgosk/smooth-page-transitions-in-layout-svelte-with-sveltekit-or-sapper-4mm1)
+
+### Dark Mode
+
+（待）
 
 ---
 
