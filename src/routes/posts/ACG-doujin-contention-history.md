@@ -34,7 +34,7 @@ layout: blog
 
 ### 1999 年 1 月 《寶可夢》同人誌事件
 
-被逮捕的作者沒有申請律師，最後待滿了總計 22 天（48 小時+10 天+10 天）的拘留期。
+被逮捕的作者沒有申請律師，最後待滿了總計 22 天（48 小時＋10 天＋10 天）的拘留期。
 
 - [ポケモン同人誌著作権問題関連](http://www.st.rim.or.jp/~nmisaki/topics/pokemon.html)
 - [ポケモン同人作家逮捕事件がもたらしたもの](http://my.reset.jp/~yuhto-ishikawa/fujoshi/pokemon.html)

@@ -7,22 +7,11 @@ summary:
 layout: blog
 ---
 
-- 文章來源：[前端必知的 Emmet 实用操作，大致了解了下 Emmet 这个神器](http://www.fly63.com/article/detial/128)
+## What is Emmet？
 
-## 簡介
+在撰寫網頁的時候，我們常會需要輸入許多重覆的 HTML 與 CSS 內容，例如 HTML 的標籤閉合、CSS 的屬性設定，因此 Vadim Makeev 在 2008 年時推出了一套編輯器的外掛程式，可以使用特定的簡寫語法，快速產生對應的完整內容。
 
-作為一個前端，你肯知道在前端開發的過程中，一大部分的工作是寫 HTML、CSS 代碼。
-
-特別是手動編寫 HTML 代碼的時候，效率會特別低下，因為需要敲打很多尖括號，而且很多標籤都需要閉合標籤等。
-
-於是，就有了 Emmet（前身為 Zen Coding）。(當然這是以前的情況，現在作為一個合格的現代編輯器多多少少都集成了代碼自動提示，自動補全等功能)。
-
-它作為一款強大的插件支持了許多編輯器與 IDE，什麼 vscode，sublime，atom，webstorm 等等都支持你可以直接在你的編輯器插件中搜索安裝，一些已自帶集成
-
-我們先來看看官網的示例：
-`#page>div.logo+ul#nav>li*5>a{Item $}`
-
-在我們用了 emmet 後 一個 tap 就會生成下面這一大段。酷不酷炫，炫不炫酷
+例如 `#page>div.logo+ul#nav>li*5>a{Item $}` 這一串簡寫語法，按下 `Tab` 透過 Emmet 轉換後就會變為：
 
 ```html
 <div id="page">
@@ -37,193 +26,59 @@ layout: blog
 </div>
 ```
 
-## 速見表
-
-- [cheat sheet](https://docs.emmet.io/cheat-sheet/)
-- 子元素: `>`
-- 相鄰元素: `+`
-- 上級元素: `^`
-- 產生複數元素: `*`
-- 包裝區域元素: `()`
-- ID: `#`
-- CLASS: `.`
-- 元素屬性: `[]`
-- 遞增: `$`
-- 自訂遞增遞減: `@`
-- 元素內容: `{}`
-- 假文: `lorem`
+就能替我們省下非常多輸入所消耗掉的時間，大幅提高生產效率。
 
 ## Emmet 語法
 
-## 標籤
+更詳細的語法與產生內容可以參考 [cheat sheet](https://docs.emmet.io/cheat-sheet/)。
 
-- `div` ⟹ `<div></div>`
-- `foo` ⟹ `<foo></foo>`
+### HTML
 
-### 後代： `>`
+| 語法     | 內容                          | 範例                                |
+| -------- | ----------------------------- | ----------------------------------- |
+| HTML Tag | 閉合標籤                      | `div`                               |
+| `>`      | 後代元素                      | `div>ul>li`                         |
+| `+`      | 兄弟元素                      | `div+p+bq`                          |
+| `^`      | 上級元素                      | `div+div>p>span+em^bq`              |
+| `()`     | 元素分組                      | `div>(header>ul>li*2>a)+footer>p`   |
+| `*`      | 複數元素                      | `ul>li*5`                           |
+| `$`      | 元素迭代                      | `ul>li.item$*5`                     |
+| `@`      | 搭配 `$` 使用，指定迭代初始值 | `ul>li.item$@-*5`                   |
+| `{}`     | 文字內容                      | `p>{Click }+a{here}+{ to continue}` |
+| `#`      | 設定 id                       | `#header`                           |
+| `.`      | 設定 class                    | `.title`                            |
+| `[]`     | 設定屬性                      | `p[title="Hello world"]`            |
+| `lorem`  | 產生假文                      |                                     |
 
-- `div>ul>li` ⟹
+## CSS
 
-```html
-<div>
-  <ul>
-    <li></li>
-  </ul>
-</div>
-```
+CSS 由於屬性繁多，以下只列出比較常見的語法
 
-### 兄弟：`+`
-
-- `div+p+bq` ⟹
-
-```html
-<div></div>
-<p></p>
-<blockquote></blockquote>
-```
-
-### 上級：`^`
-
-- `div+div>p>span+em^bq` ⟹
-
-```html
-<div></div>
-<div>
-  <p><span></span><em></em></p>
-  <blockquote></blockquote>
-</div>
-```
-
-### 乘法：`*`
-
-- `ul>li*5` ⟹
-
-```html
-<ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ul>
-```
-
-### 分組：`()`
-
-- `div>(header>ul>li*2>a)+footer>p` ⟹
-
-```html
-<div>
-  <header>
-    <ul>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-    </ul>
-  </header>
-  <footer>
-    <p></p>
-  </footer>
-</div>
-```
-
-### ID 和 CLASS
-
-- `div#header+div.page+div#footer.class1.class2.class3` ⟹
-
-```html
-<div id="header"></div>
-<div class="page">
-  <div>
-    <div id="footer" class="class1 class2 class3"></div>
-    自定義屬性 td[title="Hello world!" colspan=3] ⟹
-
-    <td title="Hello world!" colspan="3"></td>
-  </div>
-</div>
-```
-
-### 自增符號：`$`
-
-- `ul>li.item$*5` ⟹
-
-```html
-<ul>
-  <li class="item1"></li>
-  <li class="item2"></li>
-  <li class="item3"></li>
-  <li class="item4"></li>
-  <li class="item5"></li>
-</ul>
-```
-
-### 改變自增基數和方向：`@`
-
-- `ul>li.item$@-*5` ⟹
-
-```html
-<ul>
-  <li class="item5"></li>
-  <li class="item4"></li>
-  <li class="item3"></li>
-  <li class="item2"></li>
-  <li class="item1"></li>
-</ul>
-```
-
-- `ul>li.item$@3*5` ⟹
-
-```html
-<ul>
-  <li class="item3"></li>
-  <li class="item4"></li>
-  <li class="item5"></li>
-  <li class="item6"></li>
-  <li class="item7"></li>
-</ul>
-```
-
-### 文本：`{}`
-
-- `a[#]{Click me}` ⟹
-
-```html
-<a href="#">Click me</a>
-```
-
-### Lorem Ipsum(亂數假文)：`lorem`
-
-- `lorem` ⟹
-
-```html
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique impedit
-quaeiure
-```
-
-## Emmet 的 css 支持
-
-### css 屬性
-
-`m` ⟹ `margin:`
-`fz` ⟹ `font-size:`
+| 語法  | 內容                      |
+| ----- | ------------------------- |
+| `m`   | `margin:`                 |
+| `p`   | `padding:`                |
+| `fz`  | `font-size:`              |
+| `poa` | `position absolute;`      |
+| `df`  | `display: flex;`          |
+| `jcc` | `justify-content: center` |
+| `aic` | `align-items: center`     |
 
 ### 屬性值
 
-`m10` ⟹ `margin: 10px;`
-`mt10` ⟹ `margin-top: 10px;`
+也可以在簡寫語法後面加上值，轉換後就會代入此值：`m10` ⟹ `margin: 10px;`、`mt10` ⟹ `margin-top: 10px;`
 
-### 多個屬性值
-
-對於有多個屬性值的 CSS 屬性，在編寫時只需在屬性值之間添加-：
-
-`m4-6` ⟹ `margin: 4px 6px;`
+如果想要同時替屬性設定多個值時，只需要在屬性之間加上 `-` 即可：`m4-6` ⟹ `margin: 4px 6px;`
 
 ### 單位
 
-Emmet 默認單位為`px`，其他單位如下
+Emmet 預設單位為 `px`，想使用其他單位需於值的後方再加上簡寫，例如：`w100p` ⟹ `width: 100%`、`m10p30e5x` ⟹ `margin: 10% 30em 5ex`
 
-`p` → `%`
-`e` → `em`
-`r`→ `rem`
-`x` → `ex`
-`w100p` ⟹ `width: 100%`
-`m10p30e5x` ⟹ `margin: 10% 30em 5ex`
+簡寫與單位對照如下
+
+| 簡寫 | 產生單位 |
+| ---- | -------- |
+| `p`  | `%`      |
+| `e`  | `em`     |
+| `r`  | `rem`    |
+| `x`  | `ex`     |

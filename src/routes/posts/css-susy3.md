@@ -1,5 +1,5 @@
 ---
-title: "CSS Susy 3"
+title: "CSS - Susy 3 快速計算排版欄寬與間隔的 library"
 date: 2019-11-09T00:32:49.000Z
 published: 2019-11-09T00:32:49.000Z
 author: f6bfb5
@@ -7,167 +7,67 @@ summary:
 layout: blog
 ---
 
-Susy 3 是一套用於快速計算網格分割尺寸用的工具。
+## What is Susy 3？
 
-### 安裝
+Susy 是一套 Sass 的響應式版面引擎，在還沒有 flexbox 和 grid 的時候，Susy 提供了一系列的 Sass function ，可以搭配變數快速計算出網格分割的尺寸、處理斷點變版，讓工程師不再需要苦於自行處理數值，到了 Susy 3 之後，則簡化成了可以與 flexbox 和 float 搭配使用的功能性 library。
 
-1. npm
+Susy 3 提供了無前綴詞彙的 `sass/susy` 與附前綴詞彙的 `sass/susy-prefix` 兩種版本可以使用。以計算內容總寬度的 `span()` function 為例，附前綴詞彙版本需要改為使用 `susy-span()`。
 
-- [Offical Document](https://www.oddbird.net/susy/docs/)
+官方提供了[一系列的匯入方式](https://www.oddbird.net/susy/docs/)，除了直接自 CSS 檔案引用路徑之外，也可以使用 Eyeglass、Webpack、Gulp、Grunt 等打包工具匯入。
 
-`npm install susy`
+## 設定容器欄位
 
-有 `無前綴詞彙` 與 `附前綴詞彙` 的兩種版本可以使用。
+Susy 3 以變數設定容器要切分成幾份欄位，並將客製化的分割方式儲存於 `$susy` 變數裡，此變數有四個預設屬性：
 
-```
-// 無前綴版
-@import '<path-to>/susy/sass/susy';
+1. `columns`：各欄寬度，類似 grid 的 `grid-template-columns`
+2. `gutters`：各欄之間的間隔，類似 grid 的 `grid-column-gap`
+3. `spread`：設定跨欄內容的間隔模式
+4. `container-spread`：設定容器外圍的間隔模式
 
-// 附前綴版
-@import '<path-to>/susy/sass/susy-prefix';
-```
-
-除錯用網格背景上色
-
-```
-// 無前綴版
-@import '<path-to>/susy/sass/plugins/svg-grid';
-
-// 附前綴版
-@import '<path-to>/susy/sass/plugins/svg-grid/prefix';
-
-.container {
-  background: susy-svg-grid() no-repeat scroll;
-}
-```
-
-2. webpack
-
-- [CSS – SUSY3 – 安裝教學(1)，透過 webpack 從頭開始建立架構](http://jsnwork.kiiuo.com/archives/2803/css-susy3-%e5%ae%89%e8%a3%9d%e6%95%99%e5%ad%b81%ef%bc%8c%e9%80%8f%e9%81%8e-webpack-%e5%be%9e%e9%a0%ad%e9%96%8b%e5%a7%8b%e5%bb%ba%e7%ab%8b%e6%9e%b6%e6%a7%8b/)
-
-3. Codepen
-
-將預處理器改為 SCSS ，在 CSS 來源裡引入這兩個 pen：
-Susy 3 - Codepen
-https://codepen.io/mirisuzanne/pen/awdMoa
-Susy 3 SVG Image Plugin - Codepen
-https://codepen.io/mirisuzanne/pen/QgyoWp
-
-### 設定變數
-
-[Welcome to Susy3!](https://www.oddbird.net/2017/06/28/susy3/)
-
-#### 1. `$columns` 格線佈局的水平空間
-
-對應至 CSS 網格系統的 `$grid-template-columns`，設定切分成幾份欄位。
-
-```css=
-// 對稱的 layouts
-$grid-template-columns: repeat(12, 120px);
-$columns: susy-repeat(12, 120px);
-
-// 不對稱的混合 layouts
-$grid-template-columns: 120px repeat(4, 1fr) 30em;
-$columns: 120px susy-repeat(4) 30em;
-```
-
-CSS 網格系統在流動欄位上使用 `fr` 單位， Susy 裡則使用無單位數字，即 `susy-repeat(4)` 會創造一個 4 格的流動網格，等同於設定為 `1 1 1 1`。
-
-例如：
-
-```css=
-// 經典的 12 格網格 (兩者結果相同)
-$columns: susy-repeat(12, 5em);
-$columns: 5em 5em 5em 5em 5em 5em 5em 5em 5em 5em 5em 5em;
-
-// 聖杯狀網格
-$columns: 12em 1 200px;
-
-// 中間區域增加更多欄位的聖杯狀網格
-$columns: 12em susy-repeat(4) 200px;
-$columns: 12em 1 1 1 1 200px;
-
-//輪替重覆的欄位
-$columns: susy-repeat(3, 8em, 200px);
-```
-
-Susy 不會直接修改 DOM，而是使用 `calc()` 替不相容與流動式的網格產生內容。
-
-#### 2. `$gutters` 格線間隔
-
-對應至 CSS 網格系統的 `grid-column-gap`，設定欄位之間的間隔大小。
-
-```css=
-// 流動式間隔
-$gutters: 0.25;
-
-// 固定間隔
-$gutters: 10px;
-```
-
-#### 3. `'spread'` 與 `'container-spread'`
-
-[Understanding Spread in Susy3](https://www.oddbird.net/2017/06/13/susy-spread/)
-
-`spread` 有三個值，用以調整元素與 container 欄位的間隔設定，通常情況下只會用到前兩種，分別是 `narrow` 、 `wide` 、 `wider`，預設值為 `narrow`。
-
-1. `narrow` : 欄位的兩端無間隔
-2. `wide` : 每個欄位左右皆會有間隔
-3. `wider` : 欄位的兩端會多一份間隔
-
-使用前需將 `box-sizing` 設定為 `border-box`
-
-`* { box-sizing: border-box; }`
-
-#### 4. 全域設定
-
-全域設定的 4 個設定變數儲存於 `$susy` 變數裡，可以從此進行修改，以下為預設值。
-
-```css=
+```scss
 $susy: (
   "columns": susy-repeat(4),
   "gutters": 0.25,
   "spread": "narrow",
-  "container-spread": "narrow"
+  "container-spread": "narrow",
 );
 ```
 
-### 使用
+除了附單位的值之外，也可以使用無單位數字來設定響應式的欄位寬度——類似於 CSS 變數單位中的 `fr`，或是使用 `susy-repeat($count, $value)` 函式設定連續欄寬——類似於 CSS 原生的 `repeat()`。
 
-[CSS – SUSY3 – 使用方法(2)](https://jsnwork.kiiuo.com/archives/2805/css-susy3-%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/)
+間隔模式有 `narrow`（預設值）、`wide`、`wider` 三種值可以設定，但使用前需將 `box-sizing` 設定為 `border-box`。這部份單看文字或許比較難以理解，可以參考 [Understanding 'Spread' in Susy3](https://www.oddbird.net/2017/06/13/susy-spread/) 一文。
 
-#### 1.`span()`
+1. `narrow`：欄位的兩端無間隔
+2. `wide`：每個欄位左右皆會有間隔
+3. `wider`：欄位的兩端會多一份間隔
 
-設定元素的佔欄位數。
+也可以使用 `susy-settings()` 函式覆寫所有設定，或是使用 `susy-get()` 修改單獨設定。
 
-```css=
-[col="4"] {
-  width: span(4);
+## 設定元素佔比
+
+Susy 3 裡有 3 個 function 可以取得相關數值，分別是 `span()`、`gutter()`、`slice()`，以及使用兩個關鍵字 `at` 選取位置，`of` 選取欄數，將對應的 function 指定至 CSS 屬性上，即可簡化許多計算
+
+1. `span()`：取得欄寬，例如 `span(6 of 12)` 會取得 12 欄中 6 欄的寬度，並同時處理減去間隔的計算
+2. `gutter()`：取得間隔寬，例如 `gutter(of 6)` 取得 6 欄中單欄的間隔寬
+3. `slice()`：取得欄的子集，適合用於格線不對稱時，例如 `susy-slice(3 at 3 of (1 2 3 5 8))` 是從 `(1 2 3 5 8)` 寬度的格線裡，自第 3 欄開始，選取 3 欄，最後得到結果會為 `3 5 8`
+
+```scss
+.floats {
+  float: left;
+  width: span(3 of 6); // 48.27586%;
+  margin-left: gutter(of 6); // 3.44828%;
 }
 ```
 
-#### 2. `gutter()`
+## 斷點設計
 
-設定元素是否佔用間隔。
+如果想在不同的斷點改變排板，我們會需要在不同的 media query 裡都重新設定一次全域變數，造成反覆撰寫的問題，Susy 官方再提供了[兩個 mixin](https://www.oddbird.net/2017/09/25/susy-use/)，可以傳入斷點變數，簡化設定修改
 
-```css=
-[col="4"] {
-  width: span(4) + gutter();
-}
-```
+### 1. `susy-use`
 
-#### 3. 斷點設計 `susy-use` 與 `susy-at` mixin
+從 media query 裡獨立斷點變數。
 
-[Change grid settings based on responsive breakpoints in Susy 3 #658](https://github.com/oddbird/susy/issues/658)
-[media queries & grid settings](https://www.oddbird.net/2017/09/25/susy-use/)
-
-如果想藉由不同的斷點改變排板，需要在不同的 media query 裡重新設定一次全域變數，因此我們可以透過另外新增兩個 mixin 傳入斷點變數設定來簡化修改：
-
-1. `susy-use`
-
-將斷點變數從 media query 裡獨立出來。
-
-```css=
+```scss
 @mixin susy-use($config) {
   $config: susy-compile($config);
 
@@ -182,8 +82,8 @@ $susy: (
 
 範例：
 
-```css=
-// 不同斷點裡的欄位與間隔設定
+```scss
+// 變數儲存不同斷點的欄位與間隔設定
 $medium: (
   "columns": susy-repeat(8),
   "gutters": 1em,
@@ -191,17 +91,17 @@ $medium: (
 
 @media (min-width: 30em) {
   @include susy-use($medium) {
-    // 此區塊的內容會套用 $medium 的設定。
+    // 使用 susy-use mixin 與變數套用斷點設定
   }
 }
 ```
 
-2. `susy-at`
+### 2. `susy-at`
 
 可以直接在 media query 之外的變數裡設定斷點大小。
 ※使用此 mixin 亦需引入 `susy-use`！
 
-```css=
+```scss
 @mixin susy-at($config) {
   $config: susy-compile($config);
 
@@ -224,23 +124,22 @@ $medium: (
 
 範例：
 
-```css=
-// 不同斷點的斷點大小、欄位與間隔設定
+```scss
+// 變數儲存不同斷點的斷點大小、欄位與間隔設定
 $medium: (
   "min-width": 30em,
   "columns": susy-repeat(8),
-  "gutters": 1em
+  "gutters": 1em,
 );
 
 @include susy-at($medium) {
-  // 此區塊會建立新斷點
-  // 此區塊的內容會套用 $medium 的設定。
+  // 使用 susy-at mixin 與變數建立新斷點
 }
 ```
 
-3. `gallery`
+### 3. `gallery`
 
-```css
+```scss
 // https://github.com/oddbird/susy/issues/648
 @mixin gallery($span, $config: ()) {
   $grid: susy-compile($span, $config);
@@ -275,13 +174,3 @@ $medium: (
   }
 }
 ```
-
-### 範例
-
-[Susy3: Pushing, Pulling, and Padding](https://codepen.io/mirisuzanne/pen/BZjMXK?editors=0100)
-[Grid: Susy 3](https://codepen.io/marco3w/pen/KJEKNM?editors=0100)
-https://codepen.io/f6bfb5/pen/voObgB
-https://sass-lang.com/documentation/interpolation
-
-[なぜ 960px がグリッドにするときに良いのか計算してみた](https://qiita.com/terrierscript/items/fe6cc48ab98ffd6c55e2)
-[Grid Calculator](http://gridcalculator.dk/)

@@ -1,5 +1,5 @@
 ---
-title: "Free Hosting Platform"
+title: "各家 Free Hosting Platform 比較"
 date: 2020-01-19T12:37:01.000Z
 published: 2020-01-19T12:37:01.000Z
 author: f6bfb5

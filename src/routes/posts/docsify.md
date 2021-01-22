@@ -1,5 +1,5 @@
 ---
-title: "從 Markdown 即時轉譯成網頁樣板 docsify"
+title: "docsify - 從 Markdown 即時轉譯成網頁樣板"
 date: 2020-10-14T03:51:04.000Z
 published: 2020-10-14T03:51:04.000Z
 author: f6bfb5
@@ -56,7 +56,7 @@ Docsify 以資料夾進行分層，並藉此決定路徑：
 └── yarn.lock
 ```
 
-並且可透過 `_sidebar.md` 或 `_navbar.md` 加入側邊欄與下拉選單，指引用檔案的內容以清單格式撰寫：
+並且可透過 `_sidebar.md` 或 `_navbar.md` 加入側邊欄與下拉選單，這些指引功能檔案的內容以清單格式撰寫：
 
 ```markdown
 - [需求規格](/spec/ "需求規格")
@@ -73,6 +73,6 @@ Docsify 以資料夾進行分層，並藉此決定路徑：
 
 如前面說的，Docsify 只需要 `index.html` 和 markdown 檔案即可運作，deploy 亦只需要處理這兩者即可，詳細步驟可以參照官方文件 [Deploy](https://docsify.js.org/#/deploy)。
 
-## 參考文章
+## 參考資料
 
-- [Quick start](https://docsify.js.org/#/quickstart)
+- [Docsify - Quick start](https://docsify.js.org/#/quickstart)

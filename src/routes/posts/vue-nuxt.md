@@ -1,5 +1,5 @@
 ---
-title: "Vue - Nuxt"
+title: "Vue 筆記 - Nuxt"
 date: 2019-12-07T06:44:15.000Z
 author: f6bfb5
 summary:
@@ -23,10 +23,6 @@ Nuxt.js 大概而言整合了這些套件：
 ### 安裝
 
 ```bash
-
-
 npm install --save nuxt
 npx create-nuxt-app nuxt_app
 ```
-
-### Deploy 形式
