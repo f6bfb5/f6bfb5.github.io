@@ -6,7 +6,6 @@ date: 2021-01-24T08:16:06.000Z
 - [Resources:End of Evangelion Screenplays (Episode 26')](https://wiki.evageeks.org/Resources:End_of_Evangelion_Screenplays_%28Episode_26%27%29)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cwBs3VsNfdY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CnF5TYbqSew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 16 後半
 
@@ -150,6 +149,8 @@ date: 2021-01-24T08:16:06.000Z
 <br>明日香「真的是很煩。還會一直在我上班的時候打電話來」
 <br>明日香「可是他沒打電話來的時候，又會覺得很不爽，超級不爽」
 <br>零（有些冷淡地）「你這就只是任性吧」
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CnF5TYbqSew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 日常的風景。處在山的稜線裡的高樓街道。
 <br>（CG 合成／不顯眼地帶進來）
