@@ -152,7 +152,7 @@ date: 2021-01-24T08:16:06.000Z
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CnF5TYbqSew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-日常的風景。處在山的稜線裡的高樓街道。
+日常的風景。於山際稜線另一端的高樓街道。
 <br>（CG 合成／不顯眼地帶進來）
 <br>走在街上的明日香。（等著紅綠燈？）
 
