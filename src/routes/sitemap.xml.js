@@ -28,7 +28,7 @@ const render = (pages, posts) => `<?xml version="1.0" encoding="UTF-8" ?>
     .map(
       post => `
     <url>
-      <loc>${siteUrl}/blog/${post.slug}</loc>
+      <loc>${siteUrl}/${post.slug}</loc>
       <lastmod>${JSON.stringify(new Date(post.printDate)).slice(1, -1)}</lastmod>
       <priority>0.80</priority>
     </url>
