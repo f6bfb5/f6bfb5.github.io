@@ -15,6 +15,8 @@
 
 <script>
   export let post;
+
+  import BackToTop from "../components/BackToTop.svelte";
 </script>
 
 <svelte:head>
@@ -66,6 +68,7 @@
   <article class="content">
     {@html post.html}
   </article>
+  <BackToTop />
 </div>
 
 <style>
