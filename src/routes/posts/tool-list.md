@@ -49,22 +49,24 @@ layout: blog
 
 ### 影音
 
-| 名稱                                                                        | 說明                                  | 付費     |
-| --------------------------------------------------------------------------- | ------------------------------------- | -------- |
-| [AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)                       | 日本愛用的免費影片編輯軟體            | FREE     |
-| [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) | 以顏色校正功能聞名的影片剪輯軟體      | 有付費版 |
-| [Shotcut](https://shotcut.org/)                                             | 開源免費跨平台的影片剪輯軟體          | FREE     |
-| [Avidemux](http://avidemux.sourceforge.net/)                                | 簡易功能的開源影片編輯軟體            | FREE     |
-| [LosslessCut](https://github.com/mifi/lossless-cut/releases)                | 無失真的影片剪輯軟體                  | FREE     |
-| [Delir](https://delir.studio/)                                              | 開源的影片特效後製軟體                | FREE     |
-| [NATRON](https://natrongithub.github.io/)                                   | 注重於 Motion Graphics 的影片特效軟體 | FREE     |
-| [Cavalry](https://cavalry.scenegroup.co/)                                   | 類似 AfterEffects 的 影片特效軟體     | 有付費版 |
-| [AnimeEffects](http://animeeffects.org/ja/)                                 | 可以處理圖片自由變型的後製軟體        | FREE     |
-| [GANTAI](https://fairway.ne.jp/gantai/)                                     | 快速加上馬賽克                        | FREE     |
-| [Audacity](https://sourceforge.net/projects/audacity/)                      | 開源的聲音編輯軟體                    | FREE     |
-| [Mkvtoolnix](https://mkvtoolnix.download/)                                  | 處理 Mastroska 檔案用的工具           | FREE     |
-| [SubtitleEdit](https://www.nikse.dk/subtitleedit)                           | 影片字幕編輯軟體                      | FREE     |
-| [YTSubConverter](https://github.com/arcusmaximus/YTSubConverter)            | 將字幕軟體特效轉為 Youtube 相容的形式 |          |
+| 名稱                                                                        | 說明                                   | 付費     |
+| --------------------------------------------------------------------------- | -------------------------------------- | -------- |
+| [AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)                       | 日本愛用的免費影片編輯軟體             | FREE     |
+| [NicoVisualEffects](http://nive.jp/)                                        | 以 AE 的替代品為目標開發的免費 MG 軟體 | FREE     |
+| [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) | 以顏色校正功能聞名的影片剪輯軟體       | 有付費版 |
+| [Shotcut](https://shotcut.org/)                                             | 開源免費跨平台的影片剪輯軟體           | FREE     |
+| [Avidemux](http://avidemux.sourceforge.net/)                                | 簡易功能的開源影片編輯軟體             | FREE     |
+| [LosslessCut](https://github.com/mifi/lossless-cut/releases)                | 無失真的影片剪輯軟體                   | FREE     |
+| [Delir](https://delir.studio/)                                              | 開源的影片特效後製軟體                 | FREE     |
+| [NATRON](https://natrongithub.github.io/)                                   | 注重於 Motion Graphics 的影片特效軟體  | FREE     |
+| [Cavalry](https://cavalry.scenegroup.co/)                                   | 類似 AfterEffects 的 影片特效軟體      | 有付費版 |
+| [AnimeEffects](http://animeeffects.org/ja/)                                 | 可以處理圖片自由變型的後製軟體         | FREE     |
+| [GANTAI](https://fairway.ne.jp/gantai/)                                     | 快速加上馬賽克                         | FREE     |
+| [Audacity](https://sourceforge.net/projects/audacity/)                      | 開源的聲音編輯軟體                     | FREE     |
+| [Mkvtoolnix](https://mkvtoolnix.download/)                                  | 處理 Mastroska 檔案用的工具            | FREE     |
+| [SubtitleEdit](https://www.nikse.dk/subtitleedit)                           | 影片字幕編輯軟體                       | FREE     |
+| [YTSubConverter](https://github.com/arcusmaximus/YTSubConverter)            | 將字幕軟體特效轉為 Youtube 相容的形式  |          |
+| [pyTranscriber](https://github.com/raryelcostasouza/pyTranscriber)          | 自動產生字幕軟體                       | FREE     |
 
 - [【字幕進階】使用.ytt 格式製作 Youtube 炫炮字幕（新增 1.3.4 版新功能教學！）](https://forum.gamer.com.tw/C.php?bsn=60608&snA=310&tnum=4)
 - [Audacity で実況音声を聴きやすくする技術](http://ch.nicovideo.jp/acrisol/blomaga/ar821397)

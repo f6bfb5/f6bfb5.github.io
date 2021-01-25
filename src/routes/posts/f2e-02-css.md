@@ -481,6 +481,16 @@ CSS 將每個內容元素的外觀架構區分為 `Margin`、`Border`、`Padding
 
 - [了解 CSS min()/max()/clamp()数学函数 « 张鑫旭-鑫空间-鑫生活](https://www.zhangxinxu.com/wordpress/2020/04/css-min-max-clamp/)
 
+#### 關於 `%` 參照基準的一些小細節
+
+- [What does 100% mean in CSS?](https://wattenberger.com/blog/css-percents)
+
+我們會很直覺地認為，當一個元素使用 `%` 指定 `height` 或 `width` 時，參考的基準點就是母元素的對應屬性（換句話說，`height: 50%` 就是母元素高度的一半，而 `width: 25%` 是母元素寬度的四分之一），但當我們用在 `margin-top`（和 `margin-bottom`）時，會發現 `margin` 與 `padding` 參照的都是**母元素的寬度**，而不會依據方向決定取用高度或寬度。
+
+以及 `transform` 裡的 `translate` 使用 `%` 時，會參照的是**元素自身的寬度或高度**，例如 `transform: translate(0%, 100%)` 會向下移動等同元素自身高度的距離。
+
+總合這些特性可以得知，當我們想要垂直至中一個元素，並且不想要因為其大小改變而跑版時，我們會設置 `top: 50%; left: 50%;`（元素以左上角為錨點，移動母元素一半的長寬＝母元素的中心處），再使用 `transform: translate(-50%, -50%)`（往回移動元素自身一半的長寬，補回因為基準點在左上而需要的距離差）來達成。
+
 ## 3. 背景、色彩
 
 ### 背景
@@ -1367,6 +1377,42 @@ div:hover {
   <br>├ `@include`
   <br>├ `@extend`
   <br>└ `@content`
+
+※目前變數也可以直接寫在原生 CSS 裡，並且除了常見的數值單位或純數值之外，也可以儲存關鍵字、字串或圖片網址，以至於用於 `box-shadow` 或 `color` 這種具有一系列屬性的值，並且可以套用進各種 CSS function，但變數無法用來儲存動畫，仍然需要搭配如 Houdini 裡的 [CSS Properties and Values API](https://drafts.css-houdini.org/css-properties-values-api/) 來實作
+
+```scss
+:root {
+  --min: 1rem;
+  --max: 4rem;
+  --clamped-font-size: clamp(var(--min), 2.5vw, var(--max));
+
+  --bullets: circle;
+  --casing: uppercase;
+
+  /* image from an external URL (PNG in this case) */
+  --image-from-somewhere: url(https://codersblock.com/assets/images/logo.png);
+
+  /* image from embedded data (SVG in this case) */
+  --image-embedded: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+p {
+  font-size: var(--clamped-font-size);
+}
+
+ul {
+  list-style-type: var(--bullets);
+  text-transform: var(--casing);
+}
+
+.a {
+  background-image: var(--image-from-somewhere);
+}
+
+.b::after {
+  content: var(--image-embedded);
+}
+```
 
 ### [7+1 Sass 設計模式](https://sass-guidelin.es/#the-7-1-pattern)
 
