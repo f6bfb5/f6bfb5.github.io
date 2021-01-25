@@ -2,7 +2,7 @@
   export let showOnPx = 150;
   let hidden = true;
   let innerWidth;
-  $: right = innerWidth > 720 ? innerWidth / 2 - 360 + "px" : "20px";
+  $: right = innerWidth > 720 ? innerWidth / 2 - 360 + 32 + "px" : "2em";
 
   function goTop() {
     document.body.scrollIntoView();
@@ -33,9 +33,9 @@
 
 <style>
   .back-to-top {
-    padding: 4px;
+    /* padding: 4px; */
     position: fixed;
-    bottom: 20px;
+    bottom: 2em;
     z-index: 99;
     opacity: 1;
     transition: opacity 0.5s, visibility 0.5s;
