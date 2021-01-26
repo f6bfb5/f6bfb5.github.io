@@ -77,6 +77,10 @@ p {
   line-height: 1.6875em;
 }
 
+p + p {
+  margin: 1.5em 0;
+}
+
 p a {
   text-decoration: none;
   box-shadow: inset 0 -0.12em 0 #fd6378;
