@@ -1891,3 +1891,4 @@ Element 只允許一層巢狀。也就是說，規範上是不可命名為 `card
 - [CSS 黑魔法小技巧](https://github.com/jawil/blog/issues/29)
 - [30 seconds of CSS](https://30-seconds.github.io/30-seconds-of-css/)
 - [CSS Debugging Tips and Tricks](https://css-tricks.com/debugging-tips-tricks)
+- [前端切版資源整理 - Dean 的前端 & 設計部落格](https://deanocean.github.io/2020/12/03/2020-12-03-%E5%89%8D%E7%AB%AF%E5%88%87%E7%89%88%E8%B3%87%E6%BA%90%E6%95%B4%E7%90%86/)

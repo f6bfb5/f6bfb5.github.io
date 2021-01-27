@@ -252,19 +252,20 @@ layout: blog
 
 ### 靈感
 
-| 名稱                                                                       | 內容                                                      |
-| -------------------------------------------------------------------------- | --------------------------------------------------------- |
-| [Pinterest](https://www.pinterest.com/)                                    | 以圖像內容為主的社群網站                                  |
-| [dribbble](https://dribbble.com/)                                          | 以設計面向為主的社群網站                                  |
-| [awwward](http://www.awwwards.com/)                                        | 網頁設計領域的競賽平台                                    |
-| [Muzli](https://muz.li/)                                                   | 切換 Chrome 新分頁成為設計相關主題用的插件                |
-| [Chrome Experiments](https://experiments.withgoogle.com/collection/chrome) | 為了推廣 Chrome 用的展示網站                              |
-| [Web Graphics Experiments](https://experiments.p5aholic.me/)               | 由 KEITA YAMADA 製作的展示網站                            |
-| [A Single Div](https://a.singlediv.com/)                                   | 由 Lynn Fisher 製作只用一個 DIV 與 CSS 繪製圖像的展示網站 |
-| [臆病な魔女 Yui540](https://yui540.graphics/#/)                            | 由 Yui540 製作的展示網站                                  |
-| [夜空ノ贈リ物 - Github](https://github.com/yui540/Yozora_No_Okurimono)     | 由 Yui540 撰寫的解說文章                                  |
-| [Web デザインリンク集](https://gendaidesign.com/)                          |                                                           |
-| [SANKOU!](https://sankoudesign.com/)                                       |                                                           |
+| 名稱                                                                                | 內容                                                      |
+| ----------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| [Pinterest](https://www.pinterest.com/)                                             | 以圖像內容為主的社群網站                                  |
+| [dribbble](https://dribbble.com/)                                                   | 以設計面向為主的社群網站                                  |
+| [awwward](http://www.awwwards.com/)                                                 | 網頁設計領域的競賽平台                                    |
+| [Muzli](https://muz.li/)                                                            | 切換 Chrome 新分頁成為設計相關主題用的插件                |
+| [Chrome Experiments](https://experiments.withgoogle.com/collection/chrome)          | 為了推廣 Chrome 用的展示網站                              |
+| [Web Graphics Experiments](https://experiments.p5aholic.me/)                        | 由 KEITA YAMADA 製作的展示網站                            |
+| [A Single Div](https://a.singlediv.com/)                                            | 由 Lynn Fisher 製作只用一個 DIV 與 CSS 繪製圖像的展示網站 |
+| [臆病な魔女 Yui540](https://yui540.graphics/#/)                                     | 由 Yui540 製作的展示網站                                  |
+| [夜空ノ贈リ物 - Github](https://github.com/yui540/Yozora_No_Okurimono)              | 由 Yui540 撰寫的解說文章                                  |
+| [Web デザインリンク集](https://gendaidesign.com/)                                   |                                                           |
+| [SANKOU!](https://sankoudesign.com/)                                                |                                                           |
+| [37 CSS Accordions](https://freefrontend.com/css-accordions/#horizontal-accordions) | 37 種 CSS 實作內容折疊與展開範例                          |
 
 - [Use These 'Dummy Numbers' When Prototyping With Data | ideo.com](https://www.ideo.com/blog/use-these-dummy-numbers-when-prototyping-with-data)
 - [你都去哪裡找網站動態特效設計靈感？(網站設計篇) | 版塊設計 Block Studio](https://blockstudio.tw/blog/webdesign-inspiration-for-blockstudio/)
