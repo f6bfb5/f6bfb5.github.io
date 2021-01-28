@@ -29,7 +29,7 @@ layout: blog
 
 ![pic 4](https://i.imgur.com/ONaDVgZ.png)
 
-我十分喜歡 Pause And Select 在他們的 [Understanding Disaster 系列影片](https://www.youtube.com/watch?v=dCKZQphDyLY)中對於本作的評點：「本作所表現出來的東西是，正是在這樣的嚴峻狀態裡才顯得重要的，一種對於人生的肯定，裡頭有著對於活在失去意義的社會中的世代的理解、一份簡單卻赤裸的訊息 — — 與他人的連繫是痛苦而困難、會悽慘地受傷的東西，但也是有其價值的東西」，可說十分貼切。
+我十分喜歡 Pause And Select 在他們的 [Understanding Disaster 系列影片](https://www.youtube.com/watch?v=dCKZQphDyLY)中的評點：「本作所表現出來的東西是，正是在這樣的嚴峻狀態裡才顯得重要的，一種對於人生的肯定，裡頭有著對於活在失去意義的社會中的世代的理解、一份簡單卻赤裸的訊息 — — 與他人的連繫是痛苦而困難、會悽慘地受傷的東西，但也是有其價值的東西」，可說十分貼切。
 
 ![pic 5](https://i.imgur.com/U0Kj4Aw.png)
 
