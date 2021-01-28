@@ -21,7 +21,7 @@ layout: blog
 
 ## 溝通的故事
 
-所以《EVA》到底在講什麼？問題的答案其實在許多相關資料中都有提及，很可惜的，這些資料卻鮮少出現在人們的眼前，只有各種坊間傳言與戲謔嘲諷甚囂塵上，或如上述截圖「很隱諱地被承認」。我們可以從庵野提出的初期企畫案（1993 年）中寫的「**現在整個社會裡人們正在逐漸失去溝通，家庭和組織（學校）內的人際關係面臨崩壞。我們想讓觀眾透過主角的眼睛，去思考究竟該如何與家人、朋友、大人、社會溝通。**」
+所以《EVA》到底在講什麼？問題的答案其實在許多相關資料中都有提及，很可惜的，這些資料卻鮮少出現在人們的眼前，只有各種坊間傳言與戲謔嘲諷甚囂塵上，以至如上述截圖的「被承認」。我們可以從庵野提出的初期企畫案（1993 年）中寫的「**現在整個社會裡人們正在逐漸失去溝通，家庭和組織（學校）內的人際關係面臨崩壞。我們想讓觀眾透過主角的眼睛，去思考究竟該如何與家人、朋友、大人、社會溝通。**」
 
 ![pic 3](https://i.imgur.com/y5CoIj6.png)
 
@@ -70,5 +70,5 @@ layout: blog
 
 ## 相關資料
 
-- [The End of Evangelion 中的恐嚇信](http://orgsun.blogspot.com/2011/05/end-of-evangelion.html)
 - [The Curse of Evangelion - YouTube](https://www.youtube.com/watch?v=rHIvs0Q-uKI)
+- [The End of Evangelion 中的恐嚇信](http://orgsun.blogspot.com/2011/05/end-of-evangelion.html)
