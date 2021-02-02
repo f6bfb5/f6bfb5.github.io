@@ -17,6 +17,7 @@
   export let post;
 
   import BackToTop from "../components/BackToTop.svelte";
+  import About from "./about.svelte";
 </script>
 
 <svelte:head>
@@ -62,7 +63,9 @@
 
 <header>
   <h1>{post.title}</h1>
-  <p>{post.printDate}</p>
+  <p>
+    {post.printDate} <small>{post.printReadingTime}</small>
+  </p>
 </header>
 <div class="container">
   <article class="content">
@@ -87,5 +90,9 @@
     color: #aaa;
     text-transform: uppercase;
     font-weight: 600;
+  }
+
+  p small {
+    margin-left: 1em;
   }
 </style>
