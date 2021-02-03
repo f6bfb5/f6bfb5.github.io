@@ -47,6 +47,7 @@ export default () => ({
     const slug = fileName.split('.')[0];
     let content = rawContent;
     let excerpt = '';
+    let tags = [];
 
     if (rawContent.indexOf(EXCERPT_SEPARATOR) !== -1) {
       const splittedContent = rawContent.split(EXCERPT_SEPARATOR);
@@ -61,6 +62,8 @@ export default () => ({
     const printReadingTime = readingStats.text;
     const printDate = formatDate(new Date(date), 'MMMM d, yyyy');
 
+    if (data.tags) tags = data.tags.split(",");
+
     const exportFromModule = JSON.stringify({
       title: title || slug,
       slug,
@@ -69,6 +72,7 @@ export default () => ({
       excerpt,
       printDate,
       printReadingTime,
+      tags,
     });
 
     return {

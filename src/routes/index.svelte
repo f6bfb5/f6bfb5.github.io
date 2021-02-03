@@ -54,6 +54,11 @@
     <ul>
       {#each posts.filter((p) => new Date(p.printDate).getFullYear() == year) as post}
         <li>
+          {#if post.tags}
+            {#each post.tags as tag}
+              <small class="tag">{tag}</small>
+            {/each}
+          {/if}
           <a rel="prefetch" href={post.slug}>{post.title}</a>
           <span>{post.printDate}</span>
         </li>
@@ -63,4 +68,12 @@
 </div>
 
 <style>
+  .tag {
+    padding: 0px 4px;
+    border: 1px solid black;
+  }
+  .tag + .tag {
+    margin-left: 0.5em;
+    padding-left: 1px;
+  }
 </style>
