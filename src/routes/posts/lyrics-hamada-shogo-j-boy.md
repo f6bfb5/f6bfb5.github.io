@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】浜田省吾 - J-BOY"
 date: 2018-11-13T12:26:16.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/zpn0_Oq1heI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

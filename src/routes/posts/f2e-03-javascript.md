@@ -1,9 +1,10 @@
 ---
-title: "前端筆記 (3) Javascript"
+title: "前端筆記 (3) JavaScript"
 date: 2019-07-18T07:10:16.000Z
 published: 2019-07-18T07:10:16.000Z
 author: f6bfb5
 summary:
+tags: F2E, JavaScript
 layout: blog
 ---
 
@@ -138,35 +139,56 @@ class Student{}
 
 ## 型別
 
-程式語言裡常見的型別有動態型別與靜態型別，靜態型別語言的變數於編譯時已經確定其型別， JavaScript 所屬的動態型別則是於執行階段變數賦值後才會擁有型別。
+程式語言裡常見的型別有「動態型別」與「靜態型別」，「靜態型別」語言的變數，於**編譯時**已經確定其型別，
+<br>JavaScript 所屬的動態型別，則是於**執行階段變數賦值後**才會擁有型別。
 
 Javascript 內建有七大型別：
 
-- `Null`（`null`）：值為空或不存在
-- `Undefined`（`undefined`）：值未被定義、初始值
-- `Boolean`（`true`、`false`）：布林值
-- `Number`（整數 `1` 或浮點數 `3.14`）：
-  <br>能儲存根據 IEE 754-2008 標準所定義的
-  <br>範圍於 `(2^53 -1)` 到 `2^53 -1` 之間的數字
-  <br>另外還有三個符號值： `+Infinity` 、 `-Infinity` 、 `NaN` （Not a Number）
-  <br>可以透過 `Number.MAX_VALUE` 或 `Number.MIN_VALUE` 兩個常數
-  <br>以及在 ES6 新增的 `Number.isSafeInteger()` 、 `Number.MAX_SAFE_INTEGER` 、 `Number.MIN_SAFE_INTEGER` 來檢查數字是否位於標準範圍之內
-- `String`(`Hello World`)：文字，以單括號 `'` 或雙括號 `"` 包覆起來的字元
-- `Object`：資料或函式的組合＝ Property
-  <br>可由 `{鍵 (Key) : 值 (Value)}` 或 `new Object()` 宣告
-  <br>可以透過 `.Key` 或 `['Key']` 存取或操作 `Object` 裡的 property，刪除則需使用 `delete`
-  <br>除了上述其中三種原始資料型別（ `Boolean` 、 `Number` 、 `String` ）也是 `Object` 之外
-  <br>一些特殊的資料型別例如 `Array` 、 `Date` 、 `Function` 、 `RegExp` 也都屬於 `Object`
-- `Symbol`（於 ES6 新增）：此類型的值唯一且不可修改
-  <br>通常用於做為 Object 的 Key 使用
+### `Null`（`null`）
 
-以及
+值為空或不存在
 
-- `BigInt` （於 Chrome 67 新增）： BigInt 則可儲存超過 `Number` 範圍的值
-  <br>於數值後面加上 `n` 或使用 `BigInt()` 函式轉型即可
-  <br>例如 `const bigInt = 123456789012345678901234567890n;`
-  <br>`Number` 常見的運算子操作都可同樣套用於 `BigInt` 上
-  <br>但 `BigInt` 類型的值不可與 `Number` 類型的值進行操作，會造成 `TypeError` 錯誤
+### `Undefined`（`undefined`）
+
+值未被定義、初始值
+
+### `Boolean`（`true`、`false`）
+
+布林值
+
+### `Number`（整數 `1` 或浮點數 `3.14`）
+
+能儲存根據 IEE 754-2008 標準所定義的
+<br>範圍於 `(2^53 -1)` 到 `2^53 -1` 之間的數字
+<br>另外還有三個符號值： `+Infinity` 、 `-Infinity` 、 `NaN` （Not a Number）
+<br>可以透過 `Number.MAX_VALUE` 或 `Number.MIN_VALUE` 兩個常數
+<br>以及在 ES6 新增的 `Number.isSafeInteger()` 、 `Number.MAX_SAFE_INTEGER` 、 `Number.MIN_SAFE_INTEGER`
+<br>來檢查數字是否位於標準範圍之內
+
+### `String`（`Hello World`）
+
+文字，以單括號 `'` 或雙括號 `"` 包覆起來的字元
+
+### `Object`
+
+資料或函式的組合＝ Property
+<br>可由 `{鍵 (Key) : 值 (Value)}` 或 `new Object()` 宣告
+<br>可以透過 `.Key` 或 `['Key']` 存取或操作 `Object` 裡的 property，刪除則需使用 `delete`
+<br>除了上述其中三種原始資料型別（ `Boolean` 、 `Number` 、 `String` ）也是 `Object` 之外
+<br>一些特殊的資料型別例如 `Array` 、 `Date` 、 `Function` 、 `RegExp` 也都屬於 `Object`
+
+### `Symbol`（於 ES6 新增）
+
+此類型的值唯一且不可修改
+<br>通常用於做為 Object 的 Key 使用
+
+以及 `BigInt` （於 Chrome 67 新增）
+
+BigInt 則可儲存超過 `Number` 範圍的值
+<br>於數值後面加上 `n` 或使用 `BigInt()` 函式轉型即可
+<br>例如 `const bigInt = 123456789012345678901234567890n;`
+<br>`Number` 常見的運算子操作都可同樣套用於 `BigInt` 上
+<br>但 `BigInt` 類型的值不可與 `Number` 類型的值進行操作，會造成 `TypeError` 錯誤
 
 ### `typeof` 運算子
 
@@ -214,13 +236,52 @@ if (!a && typeof a === "object") {
 
 ## 非同步處理
 
-- [【初心者向け】JavaScript の非同期処理を理解する　 callback、Promise そして async/await へ - Qiita](https://qiita.com/G-awa/items/652107a9abf7ff6d0d06)
-- [JavaScript Promise：簡介](https://developers.google.com/web/fundamentals/primers/promises?hl=zh-tw)
-- [別這樣使用 Promise](https://medium.com/frochu/%E5%88%A5%E9%80%99%E6%A8%A3%E4%BD%BF%E7%94%A8promise-d4f5a731adb4)
+由於 JavaScript 是單執行緒（single-threaded）的同步（synchronous）程式語言，在執行程式時都是以最後結果中由上至下的順序去操作，並且一次只能處理一件事，如果我們中途需要做一個不影響整體後續操作，但會需要非常久時間的事情，JavaScript 就會直接卡死在這邊好一段時間（造成阻塞／blocking 問題），因此有由瀏覽器設計非同步（asynchronous）的相關處理替我們解決這個問題。
+
+上面提到 JavaScript 是單執行緒，非常概略性地來說，JavaScript 處理非同步的方式是，有一個 `call stack` 存放**正在執行的工作**，一個 `task queue`（亦稱 `job queue`、`event queue` 或 `callback queue`）存放**需要等待的非同步工作**，以及瀏覽器所提供 `Web APIs` 專門用於處理 stack 中的非同步工作，例如常見的 `setTimeout` 或是與 API 索取資料等等。
+
+`Web APIs` 會將其移動到 `task queue` 裡之後，繼續執行下一個工作，當 `call stack` 裡的工作都執行完畢後，才會開始將 `task queue` 裡的工作移上來繼續處理，而這個「監看 call stack 是否為空／執行完畢，若是，則丟 callback queue 的工作進去」的行為稱為 `event loop`。
+
+```mermaid
+flowchart TD
+    subgraph CallStack=執行中
+    CST0[非同步工作]-.->CST1
+    CST1[同步工作]-.->CST2
+    CST2[同步工作]
+    end
+
+    subgraph WebAPIs
+    WA0[setTimeout]
+    WA1[AJAX]
+    WA2[Events]
+    end
+
+    subgraph TaskQueue=待執行
+    TQT0[非同步工作]
+    TQT1[非同步工作]-.->TQT0
+    TQT2[非同步工作]-.->TQT1
+    end
+
+    CallStack=執行中--處理非同步工作-->WebAPIs
+    WebAPIs--處理完後會丟到 Task Queue 去-->TaskQueue=待執行
+    TQT0 --當 Call Stack 工作全部結束後才丟上去--> CallStack=執行中
+```
+
+而關於 `event loop` 的詳細講解，最多人推薦的就是由 Phillip Robert 在 JSConf 上解說的這支影片了。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8aGhZQkoFbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- [JavaScript 中的同步與非同步（上）：先成為 callback 大師吧！](https://blog.techbridge.cc/2019/10/05/javascript-async-sync-and-callback/)
+- [無痛理解 JS | 非同步怎麼運作？｜專欄文章｜五倍紅寶石](https://5xruby.tw/posts/how-js-synchronous-works/)
+- [\[筆記\] 理解 JavaScript 中的事件循環、堆疊、佇列和併發模式（Learn event loop, stack, queue, and concurrency mode of JavaScript in depth） ~ PJCHENder&lt;br>那些沒告訴你的小細節](https://pjchender.blogspot.com/2017/08/javascript-learn-event-loop-stack-queue.html)
 
 ### Callback
 
-```js
+上面很概略地只講了 `Web APIs` 會負責處理，而 `callback` 是裡頭一種最常見的概念，當我們有需要接在非同步處理後面做的事情，例如 `setTimeout` 只有等待時間的部份是非同步、AJAX 只有取得資料的部份是非同步，當時間到了、資料取得了之後，接下來的行為仍然是同步的，就要再寫在一個 function 裡，包在非同步的行為裡面，直到相關的非同步行為結束後，再接著執行這個 function 的行為，這種 function 就稱為 `callback function`。
+
+```javascript
+// callback function 會包在非同步行為裡
+// 當非同步部份處理完後才開始執行
 function addAsync(num1, num2, callback) {
   return $.getJSON(
     "https://example.com",
@@ -231,24 +292,39 @@ function addAsync(num1, num2, callback) {
     callback
   );
 }
-
 addAsync(1, 2, (success) => {
   const result = success;
 });
 ```
 
-- 多次呼叫會造成語法內嵌，出現 callback hell
+但當我們有需要一連串相關的非同步處理，多次呼叫 callback function 會造成語法內嵌，使得程式碼難以閱讀和維護，也就是所謂的 callback hell：
+
+```javascript
+var floppy = require("floppy");
+
+// 不斷層疊的 callback function 導致難以閱讀和理解
+floppy.load("disk", function (data) {
+  floppy.load("disk", function (data) {
+    floppy.load("disk", function (data) {
+      floppy.load("disk", function (data) {
+        floppy.load("disk", function (data) {
+          floppy.load("disk", function (data) {
+            floppy.load("disk", function (data) {
+              floppy.load("disk", function (data) {
+                // do something...
+              });
+            });
+          });
+        });
+      });
+    });
+  });
+});
+```
 
 ### Promises
 
-- `Promise` 有三種狀態：
-  <br>├ 1. `pending`: 等待
-  <br>├ 2. `resolved`: 成功
-  <br>└ 3. `rejected`: 失敗
-- `new Promise(function (resolve, reject) {})`
-- Promise 執行成功後需在內部 function 呼叫 (撰寫) `resolve(成功結果)`，失敗則呼叫 `reject(失敗結果)`
-- 可以在 `Promise` 後方接上 `.then` 或 `.catch` 執行對應行為，`.then` 的參數為從 `resolve(成功結果)` 傳來的結果，`.catch` 的參數則是從 `reject(失敗結果)` 傳來。
-- 可解決 callback hell 問題
+為了解決 callback hell 的問題，ES2015 實作了 `Promise API` 提供不同的非同步處理方式，我們可以使用 `.then` 將原本不斷層疊的連續行為，改寫成段落串接式的寫法，雖然關係上仍然是接連處理，在撰寫和閱讀上有了大幅的差異。
 
 ```js
 function promiseFn(num, time = 500) {
@@ -266,6 +342,55 @@ promiseFn(1)
   })
   .then((res) => {
     console.log(res);
+  });
+```
+
+`Promise` 會帶入 `resolve` 和 `reject` 兩個 callback function：
+
+```javascript
+new Promise(function (resolve, reject) {
+  // asynchronous action here
+  if (success) {
+    // resolve 回傳成功時的值
+    resolve(success_value));
+  }
+  // reject 回傳失敗時的值
+  reject(fail_value);
+});
+```
+
+`Promise` 有四種狀態：
+
+1. `pending`（擱置）：初始狀態，操作未開始執行
+2. `fulfilled`（實現）：操作成功完成
+3. `rejected`（拒絕）：操作失敗
+4. `settled`（解決）：操作已結束
+
+當同步操作完成後，`resolve` 會觸發 fulfilled，執行 `.then` 之後的行為，失敗時則會由 `reject` 觸發 rejected，執行 `.catch` 之後的行為，而這兩個 callback function 也是回傳 promise。
+
+`Promise` 也可以直接呼叫 `resolve` 接受某個值或操作，例如必定會如預期的行為，或是來自不同 Promise API 的 promise，亦可呼作 `reject` 用於偵錯或保持一致性時，拒絕某個值或操作。
+
+```javascript
+Promise.resolve(foo()).then(bar()).then(lastStep);
+```
+
+另外還有兩個方法 `.race` 和 `.all` 可以使用，這兩者都是傳入一個陣列，`.race` 是傳入陣列中任何一個 promise 物件解決之後，就會往下執行；`.all` 則是要傳入陣列中的所有 promise 物件都解決才會往下執行。
+
+- [Javascript Promise example 簡易實作模擬 | Ian Chu](https://iamian.cc/promise/)
+
+```javascript
+const p1 = Promise.resolve(3);
+const p2 = 1337;
+const p3 = new Promise((resolve, reject) => {
+  setTimeout(() => resolve("foo"), 1000);
+});
+
+Promise.all([p1, p2, p3])
+  .then((value) => {
+    console.log(value); // [3, 1337, "foo"]
+  })
+  .catch((err) => {
+    console.log(err.message);
   });
 ```
 
@@ -323,6 +448,12 @@ addAsync(1, 2)
 
 ## AJAX
 
+在講到非同步處理時，會有兩個經常出現的相關詞彙——「REST」和「AJAX」，這兩個名詞其實都是技術概念的總稱。
+
+REST（Representational State Transfer）是一種網路架構的設計概念，定義交換資訊時需要的具體狀態，例如統一介面、所有資源都具有唯一的 URI、可以透過超連結彼此連接、不具有狀態，每次的互動都在一次裡完結，RESTful API 就是符合這種設計思想的 API。
+
+AJAX（Asynchronous JavaScript and XML）則是泛指如何透過 JS 取得或傳遞延伸的資料（即 XML，Extensible Mark Language），並反應到網頁上的技術概念，後續提及的 `XMLHttpRequest` 物件、jQuery 裡的 `.ajax` function、Fetch 和 axios 都是種 AJAX 技術。
+
 - [Native な JavaScript で Fetch API を利用し Ajax を行う](https://qiita.com/doriven/items/503fdc6de9bc0e725334)
 - [Javascript の Ajax についての基本まとめ - Qiita](https://qiita.com/katsunory/items/9bf9ee49ee5c08bf2b3d)
 - [透過 curl、Python、Postman 來 Request API \- 🐴 的學習筆記](https://jzchangmark.wordpress.com/2016/06/12/%E9%80%8F%E9%81%8E-curl%E3%80%81python%E3%80%81postman-%E4%BE%86-request-api/)
@@ -331,7 +462,7 @@ addAsync(1, 2)
 
 ### 1. XMLHttpRequest
 
-- js 原生
+- 於 2006 年正式列入 W3C 標準中
 - 難以閱讀與撰寫
 
 ```javascript
@@ -351,11 +482,10 @@ request.onload = reqOnload;
 request.onerror = reqError;
 ```
 
-### 2. jQeury
+### 2. jQuery.ajax()
 
 - 基於 XHR 開發，然而 XHR 架構不清晰，並已有替代方案
 - jQuery 整體項目太大，效益低落
-- [什麼是 jQuery？前端框架盛行還需要 JavaScript 函式庫嗎？｜ ALPHA Camp Blog](https://tw.alphacamp.co/blog/jquery-javascript-library-overview)
 
 ```javascript
 var result = $(".result");
@@ -373,13 +503,13 @@ $.ajax({
 
 - 自 ES6 起提供的方式
 - 概念相近 jQuery 的 `$.ajax`
-- 使用 ES6 的 Promise 進行回傳，回傳`ReadableStream`物件
+- 使用 ES6 的 Promise 進行回傳，回傳 `ReadableStream` 物件
 - 需搭配 then 與 catch 進行處理
 - 會將 400，500 都當做請求成功，需要另外做處理
 - 預設不帶 cookie
 - 不支援 timeout handle
 - 不支援監測請求的進度
-- 較早的瀏覽器並不支援 (IE11 以下不支援)
+- 較早的瀏覽器並不支援（IE11 以下不支援）
 
 ```javascript
 const result = document.querySelector(".result");

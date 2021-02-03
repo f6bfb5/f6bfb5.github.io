@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】古川本舗 - Alice"
 date: 2011-01-13T13:55:30.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/MwouxFPLxBk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

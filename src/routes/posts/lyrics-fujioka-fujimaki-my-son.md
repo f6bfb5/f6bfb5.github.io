@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】藤岡藤巻 - 息子よ"
 date: 2017-04-06T12:18:10.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/_XRJ8CYm3_8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

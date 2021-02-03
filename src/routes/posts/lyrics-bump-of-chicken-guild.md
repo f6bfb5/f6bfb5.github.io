@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】BUMP OF CHICKEN - ギルド"
 date: 2018-12-24T12:26:07.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/wwVlJfJgWJI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

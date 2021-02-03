@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】サンボマスター - 人はそれを情熱と呼ぶ"
 date: 2010-09-02T13:07:13.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/C34pr9PnLAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

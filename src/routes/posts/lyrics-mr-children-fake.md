@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】Mr.Children - フェイク"
 date: 2011-01-13T12:01:25.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/n7H4p0ArZUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

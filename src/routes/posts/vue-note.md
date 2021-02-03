@@ -4,6 +4,7 @@ date: 2019-12-07T06:42:15.000Z
 published: 2019-12-07T06:42:15.000Z
 author: f6bfb5
 summary:
+tags: F2E, JavaScript
 layout: blog
 ---
 
@@ -20,6 +21,7 @@ layout: blog
 - [Vue.js の v-model を正しく使う - Qiita](https://qiita.com/simezi9/items/c27d69f17d2d08722b3a)
 - [【Vue.js】v-model 解体新書 - Qiita](https://qiita.com/al_tarte/items/0ff49219cd1b25411b7a)
 - [Vue でフォームのコンポーネント化に立ち向かう - Qiita](https://qiita.com/daiend/items/b179bbeae588429107ae)
+- [\[フロントエンド\] うわっ…Component の凝集度、低すぎ？ - Qiita](https://qiita.com/aki202/items/b279fa8097dde82e2730)
 - [無料で Vue.js + express で作った API を Azure Static Web Apps でホストしてみよう - Qiita](https://qiita.com/okazuki/items/54c91343d2b231f4e004)
 - [\[掘竅\] 為什麼畫面沒有隨資料更新 - Vue 響應式原理（Reactivity） ~ PJCHEN der 那些沒告訴你的小細節](https://pjchender.blogspot.com/2017/05/vue-vue-reactivity.html)
 

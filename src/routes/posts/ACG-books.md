@@ -1,6 +1,7 @@
 ---
 title: "ACG 相關書籍"
 date: 2021-01-10T04:58:55.000Z
+tags: ACG
 ---
 
 ## 1990
@@ -8,7 +9,10 @@ date: 2021-01-10T04:58:55.000Z
 - 1996 - \[宮崎駿\] [出發點 1979－1996](https://www.books.com.tw/products/0010322959)
 - 1997 - \[庵野秀明\] [偏執．新世紀福音戰士](https://www.amazon.co.jp/%E5%BA%B5%E9%87%8E%E7%A7%80%E6%98%8E-%E3%82%B9%E3%82%AD%E3%82%BE%E3%83%BB%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B2%E3%83%AA%E3%82%AA%E3%83%B3-800%E6%9C%AC-%E5%A4%A7%E6%B3%89-%E5%AE%9F%E6%88%90/dp/4872333152)、\[庵野秀明\] [分裂．新世紀福音戰士](https://www.amazon.co.jp/%E5%BA%B5%E9%87%8E%E7%A7%80%E6%98%8E-%E3%83%91%E3%83%A9%E3%83%8E%E3%83%BB%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B2%E3%83%AA%E3%82%AA%E3%83%B3-800%E6%9C%AC-10-%E5%81%A5%E5%A4%AA%E9%83%8E/dp/4872333160)
   <br>└ [「庵野秀明スキゾ・パラノエヴァンゲリオン」 - Togetter](https://togetter.com/li/740727)
+- 1997 - \[夏目房之介\] [マンガはなぜ面白いのか―その表現と文法](https://www.amazon.co.jp/%E3%83%9E%E3%83%B3%E3%82%AC%E3%81%AF%E3%81%AA%E3%81%9C%E9%9D%A2%E7%99%BD%E3%81%84%E3%81%AE%E3%81%8B%E2%80%95%E3%81%9D%E3%81%AE%E8%A1%A8%E7%8F%BE%E3%81%A8%E6%96%87%E6%B3%95-NHK%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC-66-%E5%A4%8F%E7%9B%AE-%E6%88%BF%E4%B9%8B%E4%BB%8B/dp/4140840668)
 - 1998 - \[宮台真司\] [終わりなき日常を生きろ ── オウム完全克服マニュアル](https://www.amazon.co.jp/dp/B0794MQD8B/?coliid=I1KHXYOOXMWYMW&colid=2UVGXM7KR6OLP&psc=0&ref_=lv_ov_lig_dp_it)
+- 1999 - \[李衣雲\] [私と漫畫の同居物語](https://www.silkbook.com/book_detail.asp?goods_ser=bk0009007)
+- 1999 - \[任正華\] [我要畫漫畫](https://www.sanmin.com.tw/product/index/001454034)
 
 ## 2000
 
@@ -16,6 +20,8 @@ date: 2021-01-10T04:58:55.000Z
 - 2001 - \[傻呼嚕同盟\] [動漫 2001](https://www.taaze.tw/goods/11100412613.html)
 - 2002 - \[富野由悠季\] [映像の原則](https://www.amazon.co.jp/%E6%98%A0%E5%83%8F%E3%81%AE%E5%8E%9F%E5%89%87-%E6%94%B9%E8%A8%82%E7%89%88-%E3%82%AD%E3%83%8D%E3%83%9E%E6%97%AC%E5%A0%B1%E3%83%A0%E3%83%83%E3%82%AF-%E5%AF%8C%E9%87%8E%E7%94%B1%E6%82%A0%E5%AD%A3/dp/4873767369)
 - 2002 - \[今敏\] [千年女優之道](https://www.books.com.tw/products/0010834619)
+- 2004 - \[大塚英志\] [「おたく」の精神史　一九八〇年代論](https://www.amazon.co.jp/%E3%80%8C%E3%81%8A%E3%81%9F%E3%81%8F%E3%80%8D%E3%81%AE%E7%B2%BE%E7%A5%9E%E5%8F%B2-%E4%B8%80%E4%B9%9D%E5%85%AB%E3%80%87%E5%B9%B4%E4%BB%A3%E8%AB%96-%E5%A4%A7%E5%A1%9A-%E8%8B%B1%E5%BF%97/dp/4061497030)
+- 2006 - \[陳仲偉\] [台灣漫畫文化史：從文化史的角度看台灣漫畫的興衰](https://www.books.com.tw/products/0010494545)
 - 2007 - \[東浩紀\] [遊戲性寫實主義的誕生：動物化的後現代 2](https://www.books.com.tw/products/0010687643)
 - 2007 - \[星山博之\] [星山博之のアニメシナリオ教室](https://www.amazon.co.jp/%E6%98%9F%E5%B1%B1%E5%8D%9A%E4%B9%8B%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E6%95%99%E5%AE%A4-%E6%98%9F%E5%B1%B1-%E5%8D%9A%E4%B9%8B/dp/4844134353)
 - 2008 - \[宇野常寛\] [零零年代的想像力](https://www.amazon.co.jp/%E3%82%BC%E3%83%AD%E5%B9%B4%E4%BB%A3%E3%81%AE%E6%83%B3%E5%83%8F%E5%8A%9B-%E5%AE%87%E9%87%8E-%E5%B8%B8%E5%AF%9B/dp/4152089415)
@@ -265,24 +271,33 @@ date: 2021-01-10T04:58:55.000Z
 ## 2010
 
 - 2010 - \[濱野智史\] [當神話開始思考：網路社會的文化論](https://www.books.com.tw/products/0010502625)
+- 2010 - \[アニメ 6 人の会\] [アニメーションの本―動く絵を描く基礎知識と作画の実際](https://www.amazon.co.jp/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E6%9C%AC%E2%80%95%E5%8B%95%E3%81%8F%E7%B5%B5%E3%82%92%E6%8F%8F%E3%81%8F%E5%9F%BA%E7%A4%8E%E7%9F%A5%E8%AD%98%E3%81%A8%E4%BD%9C%E7%94%BB%E3%81%AE%E5%AE%9F%E9%9A%9B-%E3%82%A2%E3%83%8B%E3%83%A16%E4%BA%BA%E3%81%AE%E4%BC%9A/dp/4772604618)
+- 2010 - \[京都アニメーション\] [京都アニメーション版 作画の手引き](https://www.amazon.co.jp/%E4%BA%AC%E9%83%BD%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E7%89%88-%E4%BD%9C%E7%94%BB%E3%81%AE%E6%89%8B%E5%BC%95%E3%81%8D/dp/B00H89GNC0/)
+- 2010 - \[京都アニメーション\] [京都アニメーション版　仕上げ・撮影の手引き](https://www.amazon.co.jp/%E4%BA%AC%E9%83%BD%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E7%89%88-%E4%BB%95%E4%B8%8A%E3%81%92%E3%83%BB%E6%92%AE%E5%BD%B1%E3%81%AE%E6%89%8B%E5%BC%95%E3%81%8D-%E4%BA%AC%E9%83%BD%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/dp/B00JXLSY8C)
 - 2011 - \[趙永佳\] [日本．趣味．想像 ─ 八十後御宅筆記](https://www.cp1897.com.hk/product_info.php?BookId=9789881522054)
 - 2012 - \[Marc Steinberg\] [Anime's Media Mix: Franchising Toys and Characters in Japan](https://www.amazon.co.jp/dp/B0080NQ6N4/?coliid=I3PXUGTXPC44CE&colid=2UVGXM7KR6OLP&psc=0&ref_=lv_ov_lig_dp_it)
+- 2014 - [另眼看御宅：跨媒體傳播下的日本文化剪影](https://www.books.com.tw/products/0010620148)
 - 2014 - [西尾維新対談集 本題](https://www.amazon.co.jp/%E8%A5%BF%E5%B0%BE%E7%B6%AD%E6%96%B0%E5%AF%BE%E8%AB%87%E9%9B%86-%E6%9C%AC%E9%A1%8C-%E8%A5%BF%E5%B0%BE-%E7%B6%AD%E6%96%B0/dp/4062191075)
 - 2015 - \[Ian Condry\] [動畫之魂：創意合作的日本動畫產業](https://www.books.com.tw/products/0010693406)
 - 2015 - [動漫社會學：別說得好像還有救](https://www.books.com.tw/products/0010685843)
+- 2015 - \[余曜成\] [動漫透視鏡](https://www.books.com.tw/products/0010664635)
 - 2016 - [動漫社會學：本本的誕生](https://www.books.com.tw/products/0010726836)
 - 2016 - [メディア・コンテンツ論](https://www.amazon.co.jp/dp/4779509726/?coliid=I2JGCTRJ4CVXXB&colid=2UVGXM7KR6OLP&psc=1&ref_=lv_ov_lig_dp_it)
 - 2017 - \[Marc Steinberg\] [Media Theory in Japan](https://www.amazon.co.jp/dp/B06XCVZ7WX/?coliid=I30IWKBH1Y0Q4T&colid=2UVGXM7KR6OLP&psc=0&ref_=lv_ov_lig_dp_it)
 - 2017 - \[稀見理都\] [成人漫畫表現史](https://mangasickxox.waca.store/product/detail/300809)
 - 2017 - \[押井守\] [暢所欲言！押井守漫談吉卜力祕辛](https://www.books.com.tw/products/0010806416)
 - 2017 - \[坂上秋成、武内崇\] [Type-moon 的軌跡](https://www.amazon.co.jp/TYPE-MOON%E3%81%AE%E8%BB%8C%E8%B7%A1-%E6%98%9F%E6%B5%B7%E7%A4%BE%E6%96%B0%E6%9B%B8-%E5%9D%82%E4%B8%8A-%E7%A7%8B%E6%88%90/dp/4065105579)
+- 2017 - \[Scott McCloud\] [漫畫原來要這樣看](https://www.books.com.tw/products/0010740504)
+- 2017 - \[Scott McCloud\] [漫畫原來要這樣畫](https://www.books.com.tw/products/0010771628)
 - 2018 - \[王佩廸\] [動漫社會學：台漫不死](https://www.books.com.tw/products/0010786991)
 - 2018 - \[Patrick W. Galbraith\] [萌的宣言：圈內人看漫畫、動畫與遊戲的世界](https://www.books.com.tw/products/0010777170)
+- 2018 - \[周文鵬\] [讀圖漫記：漫畫文學的工具與臺灣軌跡](https://www.books.com.tw/products/0010776248)
 - 2018 - \[宇野常寛\] [若い読者のためのサブカルチャー論講義録](https://www.amazon.co.jp/dp/4022514299/?coliid=I18RDD4YC0EPKS&colid=2UVGXM7KR6OLP&psc=1&ref_=lv_ov_lig_dp_it)
 - 2018 - \[大澤真幸\] [サブカルの想像力は資本主義を超えるか](https://www.amazon.co.jp/dp/4041056721/?coliid=I3VTR1S347QAT8&colid=2UVGXM7KR6OLP&psc=1&ref_=lv_ov_lig_dp_it)
 - 2018 - \[Thomas Lamarre\] [The Anime Ecology: A Genealogy of Television, Animation, and Game Media](https://www.amazon.co.jp/dp/B07B8YZLT7/?coliid=I3EFKO85VAP4B1&colid=2UVGXM7KR6OLP&psc=0&ref_=lv_ov_lig_dp_it)
 - 2018 - \[福原慶匡\] [アニメプロデューサーになろう! アニメ「製作(ビジネス)」の仕組み](https://www.amazon.co.jp/gp/product/406511439X/ref=ox_sc_act_title_1?smid=AN1VRQENFRJN5&psc=1)
 - 2019 - \[山森宙史\] [「コミックス」のメディア史 モノとしての戦後マンガとその行方](https://www.amazon.co.jp/dp/4787234609/?coliid=I17XI8FESF95Q1&colid=2UVGXM7KR6OLP&psc=1&ref_=lv_ov_lig_dp_it)
+- 2018 - \[Scott McCloud\] [漫畫原來還可以這樣看：藝術形式再進化](https://www.books.com.tw/products/0010789433)
 - 2019 - [巨大ロボットの社会学: 戦後日本が生んだ想像力のゆくえ](https://www.amazon.co.jp/%E5%B7%A8%E5%A4%A7%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%81%AE%E7%A4%BE%E4%BC%9A%E5%AD%A6-%E6%88%A6%E5%BE%8C%E6%97%A5%E6%9C%AC%E3%81%8C%E7%94%9F%E3%82%93%E3%81%A0%E6%83%B3%E5%83%8F%E5%8A%9B%E3%81%AE%E3%82%86%E3%81%8F%E3%81%88-%E6%B1%A0%E7%94%B0-%E5%A4%AA%E8%87%A3/dp/4589040417)
   <br>└ [重磅一頁書／《巨大機器人的社會學》：日本戰後誕生的機甲浪漫譚](https://global.udn.com/global_vision/story/8664/4462186)
 - 2019 - \[横田正夫\] [アニメーションの心理学](https://www.amazon.co.jp/dp/4414311233/?coliid=I1E9SWOBJKBCRA&colid=2UVGXM7KR6OLP&psc=1&ref_=lv_ov_lig_dp_it)

@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】酒井ミキオ - Wonderful Life"
 date: 2018-12-25T12:42:06.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/HHPn9whQ2P4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

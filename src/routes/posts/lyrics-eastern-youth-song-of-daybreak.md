@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】Eastern Youth - 夜明けの歌"
 date: 2017-06-29T12:08:06.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/XphRhS_e8UI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

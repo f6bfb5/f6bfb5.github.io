@@ -3,7 +3,8 @@ title: "CSS - Tailwind CSS 把樣式都寫在 HTML class 上"
 date: 2019-12-06T13:19:59.000Z
 published: 2019-12-06T13:19:59.000Z
 author: f6bfb5
-summary:
+summary: "Tailwind CSS 是一套 Utility-First（以功能性為主）的 CSS 框架，改為把各種 CSS 會用到的屬性簡化為對應的 class，例如 p-8 是 padding: 2rem;、rounded-xl 是 border-radius: 0.75rem;、md:flex 是 @media (min-width: 768px) { display: flex; }，把樣式都直接寫在了 HTML 的 class 上。"
+tags: F2E, CSS
 layout: blog
 ---
 

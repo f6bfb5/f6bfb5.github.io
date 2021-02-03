@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】PC-6601が歌うタイニーゼビウス"
 date: 2008-10-21T13:48:55.000Z
+tags: Lyrics
 ---
 
 讓 Date Recorder 奔馳著

@@ -7,7 +7,7 @@ date: 1970-01-02T00:00:00.000Z
 
 之前陸續試了幾個能搭配 Markdown 產生網頁的 library，像是 [Hexo](https://hexo.io/zh-tw/) 或 [Gridsome](https://gridsome.org/)，但對於內容幾乎只是給自己看的雜記的我來說，用起來總覺得有種殺雞用牛刀的感覺，趁著之前也有些許關注的 Svelte 在 2020 年興起熱潮，換了 [Sapper 的 blog template](https://github.com/Charca/sapper-blog-template) 來試試使用效果如何。
 
-（追記：原本是先看到 [Routify 的 blog template](https://github.com/roxiness/routify-starter) 覺得很不錯，但 Routify 似乎因為需要用到檔案路徑做 SPA，沒辦法 host 在 GitHub Pages 上，最後改用了 Sapper。參考：[淺談新手在學習 SPA 時的常見問題：以 Router 為例 - Huli](https://blog.huli.tw/2019/09/18/spa-common-problem-about-router/)）
+（追記：原本是先看到 [Routify 的 blog template](https://github.com/roxiness/routify-starter) 覺得很不錯，但 Routify 似乎因為需要用到檔案路徑做 SPA，沒辦法 host 在 GitHub Pages 上，最後改用了以 [Sapper](https://sapper.svelte.dev/docs) 建構的 blog template。參考：[淺談新手在學習 SPA 時的常見問題：以 Router 為例 - Huli](https://blog.huli.tw/2019/09/18/spa-common-problem-about-router/)）
 
 ---
 

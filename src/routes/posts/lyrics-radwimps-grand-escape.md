@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】RADWIMPS - グランドエスケープ Feat.三浦透子"
 date: 2020-06-20T11:11:57.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/POmIhkRZayE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

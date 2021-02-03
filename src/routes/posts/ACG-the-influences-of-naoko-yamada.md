@@ -3,13 +3,14 @@ title: "【譯】RC 動畫評論 山田尚子的起源"
 date: 2019-01-19T06:46:33.000Z
 published: 2019-01-19T06:46:33.000Z
 author: f6bfb5
-summary:
+summary: "每個作家都有所受到影響的源頭，山田尚子也不例外，有些根源對人們來說可能會覺得意外，但其影響是可見的。"
+tags: ACG
 layout: blog
 ---
 
 <iframe width="720" height="480" title="the influences of naoko yamada" src="https://www.youtube.com/embed/K_c1gQw6S6Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-歡迎收看 RC 動畫。山田尚子的名號如今也已廣為人知。她是位在演出上擁有相當高評價的京都動畫監督，以粉色調的影像美和優異的音樂感性聞名，也有人認為她是現役監督裡最優秀的人。我同意，但我認為仍有許多人並不清楚她的創作文脈，每個作家都有所受到影響的源頭，山田尚子也不例外，有些根源對人們來說可能會覺得意外， 但其影響是可見的，就讓我們來看看成為其根源的這五位導演吧。
+歡迎收看 RC 動畫。山田尚子的名號如今也已廣為人知。她是位在演出上擁有相當高評價的京都動畫監督，以粉色調的影像美和優異的音樂感性聞名，也有人認為她是現役監督裡最優秀的人。我同意，但我認為仍有許多人並不清楚她的創作文脈，每個作家都有所受到影響的源頭，山田尚子也不例外，有些根源對人們來說可能會覺得意外，但其影響是可見的，就讓我們來看看成為其根源的這五位導演吧。
 
 首先是…
 

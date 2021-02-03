@@ -4,6 +4,7 @@ date: 2020-08-12T22:05:02.000Z
 published: 2020-08-12T22:05:02.000Z
 author: f6bfb5
 summary: "Svelte 是套秉持「Write less code」的精神，為了建構 UI 而生的編譯器，不同於 Vue 和 React 這類框架在瀏覽器上執行處理，而是先在編譯階段就完成建構，因此擁有相對優秀的執行速度與檔案大小表現。"
+tags: F2E, JavaScript
 layout: blog
 ---
 

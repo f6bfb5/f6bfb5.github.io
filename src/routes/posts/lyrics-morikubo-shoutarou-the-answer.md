@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】森久保祥太郎 - The Answer"
 date: 2013-05-24T13:47:16.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/OvI6Tlx7Yhg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

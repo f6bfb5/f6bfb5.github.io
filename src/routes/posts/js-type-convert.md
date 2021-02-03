@@ -1,6 +1,7 @@
 ---
 title: "JavaScript 筆記 - 資料型別轉換與資料處理"
 date: 2021-01-11T00:07:30.000Z
+tags: F2E, JavaScript
 ---
 
 ## 強制轉換資料型別

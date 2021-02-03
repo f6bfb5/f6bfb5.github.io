@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】The High-Lows - 日曜日よりの使者"
 date: 2019-08-27T11:21:10.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/9GzQI_GOMoU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

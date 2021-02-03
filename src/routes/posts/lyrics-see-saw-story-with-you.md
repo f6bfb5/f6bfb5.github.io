@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】See-Saw - 君がいた物語"
 date: 2019-10-14T13:13:14.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/_KG3VM-Ud5k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

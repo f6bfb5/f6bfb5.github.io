@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】齊藤和義 - 空に星が綺麗"
 date: 2019-08-27T11:36:56.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/V3nguLRCIA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

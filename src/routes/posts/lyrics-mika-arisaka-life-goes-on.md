@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】有阪美香 - Life Goes On"
 date: 2018-12-24T12:08:14.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/aKiyVqmDxAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

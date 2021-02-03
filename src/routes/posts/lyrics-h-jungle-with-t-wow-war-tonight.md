@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】H Jungle with T - WOW WAR TONIGHT 〜時には起こせよムーヴメント"
 date: 2018-06-24T11:17:09.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/m4hmlvvnSeM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

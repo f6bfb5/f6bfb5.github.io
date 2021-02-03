@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】奥井亜紀 - BOYS BE BRAVE ～少年よ勇気を持て～"
 date: 2016-05-23T13:43:01.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/kNi9SbzjZYQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,6 +1,7 @@
 ---
 title: "【譯/歌詞】玉木マリ(水瀬いのり)、小淵沢報瀬(花澤香菜)、三宅日向(井口裕香)、白石結月(早見沙織) - ここから、ここから"
 date: 2018-12-24T12:10:33.000Z
+tags: Lyrics
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/HUguGpt7JMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

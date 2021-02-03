@@ -1,6 +1,7 @@
 ---
 title: "JavaScript 筆記 - 如何改寫"
 date: 2021-01-11T00:07:30.000Z
+tags: F2E, JavaScript
 ---
 
 ### **Good Javascript with modern feature** vs **Bad Code**

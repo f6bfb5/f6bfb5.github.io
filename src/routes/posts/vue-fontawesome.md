@@ -3,6 +3,7 @@ title: "Vue 筆記 - fontawesome"
 date: 2019-12-07T06:46:15.000Z
 author: f6bfb5
 summary:
+tags: F2E, JavaScript
 layout: blog
 ---
 
