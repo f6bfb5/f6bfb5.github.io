@@ -126,6 +126,10 @@ CSS 將每個內容元素的外觀架構區分為 `Margin`、`Border`、`Padding
 - 若一元素包含有 float 的子元素，其高度會變為 0（parent element collapsed）
   <br>之後的兄弟元素會因此覆蓋於其上方，造成跑版問題，需搭配 clearfix 處理
 
+1. 無後續的兄弟元素時，設定在父元素上
+2. 有後續的兄弟元素時，設定在兄弟元素上
+3. 有後續的兄弟元素，亦可設定在父元素的虛擬元素上
+
 ```css
 /* 
   1. overflow: hidden 

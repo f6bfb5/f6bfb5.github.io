@@ -1,6 +1,6 @@
 ---
 title: Blog with Svelte
-date: 1970-01-02T00:00:00.000Z
+date: 2100-01-02T00:00:00.000Z
 ---
 
 ## 前言

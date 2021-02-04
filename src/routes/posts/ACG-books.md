@@ -4,6 +4,10 @@ date: 2021-01-10T04:58:55.000Z
 tags: ACG
 ---
 
+## 1980
+
+- 1987 - \[鳥海尽三\] [アニメ・シナリオ入門](https://www.amazon.co.jp/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BB%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%85%A5%E9%96%80-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%89%B5%E4%BD%9C%E7%A0%94%E7%A9%B6%E5%8F%A2%E6%9B%B8-%E9%B3%A5%E6%B5%B7-%E5%B0%BD%E4%B8%89/dp/4871002152/ref=sr_1_1?dchild=1&qid=1612336957&s=books&sr=1-1)
+
 ## 1990
 
 - 1996 - \[宮崎駿\] [出發點 1979－1996](https://www.books.com.tw/products/0010322959)
@@ -294,10 +298,11 @@ tags: ACG
 - 2018 - \[周文鵬\] [讀圖漫記：漫畫文學的工具與臺灣軌跡](https://www.books.com.tw/products/0010776248)
 - 2018 - \[宇野常寛\] [若い読者のためのサブカルチャー論講義録](https://www.amazon.co.jp/dp/4022514299/?coliid=I18RDD4YC0EPKS&colid=2UVGXM7KR6OLP&psc=1&ref_=lv_ov_lig_dp_it)
 - 2018 - \[大澤真幸\] [サブカルの想像力は資本主義を超えるか](https://www.amazon.co.jp/dp/4041056721/?coliid=I3VTR1S347QAT8&colid=2UVGXM7KR6OLP&psc=1&ref_=lv_ov_lig_dp_it)
+- 2018 - \[安彦良和\] [革命とサブカル](https://www.amazon.co.jp/%E9%9D%A9%E5%91%BD%E3%81%A8%E3%82%B5%E3%83%96%E3%82%AB%E3%83%AB-%E5%AE%89%E5%BD%A6-%E8%89%AF%E5%92%8C/dp/4865651306)
 - 2018 - \[Thomas Lamarre\] [The Anime Ecology: A Genealogy of Television, Animation, and Game Media](https://www.amazon.co.jp/dp/B07B8YZLT7/?coliid=I3EFKO85VAP4B1&colid=2UVGXM7KR6OLP&psc=0&ref_=lv_ov_lig_dp_it)
 - 2018 - \[福原慶匡\] [アニメプロデューサーになろう! アニメ「製作(ビジネス)」の仕組み](https://www.amazon.co.jp/gp/product/406511439X/ref=ox_sc_act_title_1?smid=AN1VRQENFRJN5&psc=1)
-- 2019 - \[山森宙史\] [「コミックス」のメディア史 モノとしての戦後マンガとその行方](https://www.amazon.co.jp/dp/4787234609/?coliid=I17XI8FESF95Q1&colid=2UVGXM7KR6OLP&psc=1&ref_=lv_ov_lig_dp_it)
 - 2018 - \[Scott McCloud\] [漫畫原來還可以這樣看：藝術形式再進化](https://www.books.com.tw/products/0010789433)
+- 2019 - \[山森宙史\] [「コミックス」のメディア史 モノとしての戦後マンガとその行方](https://www.amazon.co.jp/dp/4787234609/?coliid=I17XI8FESF95Q1&colid=2UVGXM7KR6OLP&psc=1&ref_=lv_ov_lig_dp_it)
 - 2019 - [巨大ロボットの社会学: 戦後日本が生んだ想像力のゆくえ](https://www.amazon.co.jp/%E5%B7%A8%E5%A4%A7%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%81%AE%E7%A4%BE%E4%BC%9A%E5%AD%A6-%E6%88%A6%E5%BE%8C%E6%97%A5%E6%9C%AC%E3%81%8C%E7%94%9F%E3%82%93%E3%81%A0%E6%83%B3%E5%83%8F%E5%8A%9B%E3%81%AE%E3%82%86%E3%81%8F%E3%81%88-%E6%B1%A0%E7%94%B0-%E5%A4%AA%E8%87%A3/dp/4589040417)
   <br>└ [重磅一頁書／《巨大機器人的社會學》：日本戰後誕生的機甲浪漫譚](https://global.udn.com/global_vision/story/8664/4462186)
 - 2019 - \[横田正夫\] [アニメーションの心理学](https://www.amazon.co.jp/dp/4414311233/?coliid=I1E9SWOBJKBCRA&colid=2UVGXM7KR6OLP&psc=1&ref_=lv_ov_lig_dp_it)

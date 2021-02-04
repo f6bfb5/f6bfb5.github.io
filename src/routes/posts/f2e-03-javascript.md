@@ -400,7 +400,7 @@ Promise.all([p1, p2, p3])
 - 欲使一 function 回傳 Promise，需於該 function 前加上 `async`
 - 使用 Promise 或 function 回傳的 Promise 時需使用 `await`
   <br>└ 如 `let phone = await willGetNewPhone` 或 `let message = await showOff(phone)`
-- 可於函式內使用 `try {} catch (error) {}` 攔截例外
+- 可於函式內使用 `try {} catch (error) {}` 攔截未預期行為或錯誤訊息
 
 ```javascript
 async function getData() {
