@@ -63,6 +63,7 @@ export default () => ({
     const printDate = formatDate(new Date(date), 'MMMM d, yyyy');
 
     if (data.tags) tags = data.tags.split(",");
+    tags = tags.map(tag => tag.trim());
 
     const exportFromModule = JSON.stringify({
       title: title || slug,

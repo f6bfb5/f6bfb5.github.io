@@ -14,16 +14,41 @@
   export let posts;
 
   const years = [];
+  const tags = [];
+  let selection = [];
+
   posts.forEach((post, index) => {
-    let currentYear = new Date(post.printDate).getFullYear();
-    if (index == 0) {
-      years.push(currentYear);
-    } else {
-      if (currentYear != new Date(posts[index - 1].printDate).getFullYear()) {
-        years.push(currentYear);
-      }
-    }
+    let postYear = new Date(post.printDate).getFullYear();
+    years.includes(postYear) ? "" : years.push(postYear);
+    post.tags.forEach((tag) => {
+      tags.includes(tag) ? "" : tags.push(tag);
+    });
   });
+  tags.push("Other");
+
+  function checkAll() {
+    let checkboxes = document.getElementsByName("filterCheckbox");
+    let state = checkboxes[0].checked;
+
+    selection = state ? tags : [];
+    for (let i = 0; i < checkboxes.length; i++) {
+      checkboxes[i].checked = state;
+    }
+  }
+
+  function arrayContainsAny(array1, array2) {
+    if (array2.length == 0) return true;
+
+    if (array1.length == 0) {
+      return array2.includes("Other") ? true : false;
+    }
+
+    let result = false;
+    for (let i = 0; i < array2.length; i++) {
+      if (array1.includes(array2[i])) result = true;
+    }
+    return result;
+  }
 </script>
 
 <svelte:head>
@@ -49,10 +74,32 @@
 
 <div class="container">
   <h1>Articles</h1>
+  <input
+    class="tag-checkbox"
+    type="checkbox"
+    name="filterCheckbox"
+    id="All"
+    value="All"
+    on:click={checkAll}
+  />
+  <label class="tag tag-button" for="All">All</label>
+  {#each tags as tag}
+    <input
+      class="tag-checkbox"
+      type="checkbox"
+      name="filterCheckbox"
+      id={tag}
+      value={tag}
+      bind:group={selection}
+    />
+    <label class="tag tag-button" for={tag}>{tag}</label>
+  {/each}
   {#each years as year}
     <h2>{year}</h2>
     <ul>
-      {#each posts.filter((p) => new Date(p.printDate).getFullYear() == year) as post}
+      {#each posts
+        .filter((p) => new Date(p.printDate).getFullYear() == year)
+        .filter((p) => arrayContainsAny(p.tags, selection)) as post}
         <li>
           {#if post.tags}
             {#each post.tags as tag}
@@ -74,6 +121,45 @@
   }
   .tag + .tag {
     margin-left: 0.5em;
-    padding-left: 1px;
+  }
+  .tag-button {
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .tag-button:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background: #000;
+    transition: all 0.3s ease;
+  }
+  .tag-button:hover {
+    color: #fff;
+  }
+  .tag-button:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .tag-button:active {
+    top: 2px;
+  }
+  .tag-checkbox {
+    display: none;
+  }
+  .tag-checkbox:checked + .tag-button {
+    color: #fff;
+  }
+  .tag-checkbox:checked + .tag-button:after {
+    left: 0;
+    width: 100%;
   }
 </style>
