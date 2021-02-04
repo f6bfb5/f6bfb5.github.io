@@ -3,32 +3,46 @@
   
     <url>
       <loc>https://f6bfb5.github.io/</loc>
-      <lastmod>2021-02-04T18:37:31.078Z</lastmod>
+      <lastmod>2021-02-04T19:11:08.245Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/about</loc>
-      <lastmod>2021-02-04T18:37:31.078Z</lastmod>
+      <lastmod>2021-02-04T19:11:08.245Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/posts</loc>
-      <lastmod>2021-02-04T18:37:31.078Z</lastmod>
+      <lastmod>2021-02-04T19:11:08.245Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/rss</loc>
-      <lastmod>2021-02-04T18:37:31.078Z</lastmod>
+      <lastmod>2021-02-04T19:11:08.245Z</lastmod>
       <priority>1.00</priority>
     </url>
   
   
+    <url>
+      <loc>https://f6bfb5.github.io/blog-with-svelte</loc>
+      <lastmod>2100-01-02T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/blog-with-hexo</loc>
+      <lastmod>2100-01-01T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
     <url>
       <loc>https://f6bfb5.github.io/ACG-danmaku-and-comment-are-totally-different</loc>
       <lastmod>2021-01-26T00:00:00.000Z</lastmod>
@@ -956,20 +970,6 @@
     <url>
       <loc>https://f6bfb5.github.io/lyrics-tiny-xevious-sang-by-pc-6601</loc>
       <lastmod>2008-10-21T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/blog-with-svelte</loc>
-      <lastmod>1970-01-02T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/blog-with-hexo</loc>
-      <lastmod>1970-01-01T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   

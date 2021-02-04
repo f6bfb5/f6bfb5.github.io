@@ -4,10 +4,30 @@
       <title>f6bfb5's blog</title>
       <link href="https://f6bfb5.github.io"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>2021-02-04T18:37:31Z</lastBuildDate>
+      <lastBuildDate>2021-02-04T19:11:08Z</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
+        <item>
+          <title>Blog with Svelte</title>
+          <link>https://f6bfb5.github.io/blog/blog-with-svelte</link>
+          <pubDate>2100-01-02T00:00:00Z</pubDate>
+          <description>
+              undefined
+          </description>
+        </item>
+      
+
+        <item>
+          <title>Blog with Hexo</title>
+          <link>https://f6bfb5.github.io/blog/blog-with-hexo</link>
+          <pubDate>2100-01-01T00:00:00Z</pubDate>
+          <description>
+              undefined
+          </description>
+        </item>
+      
+
         <item>
           <title>當「留言」變成「彈幕」、「音 MAD」變成「鬼畜」</title>
           <link>https://f6bfb5.github.io/blog/ACG-danmaku-and-comment-are-totally-different</link>
@@ -1332,26 +1352,6 @@
           <title>【譯/歌詞】PC-6601が歌うタイニーゼビウス</title>
           <link>https://f6bfb5.github.io/blog/lyrics-tiny-xevious-sang-by-pc-6601</link>
           <pubDate>2008-10-21T13:48:55Z</pubDate>
-          <description>
-              undefined
-          </description>
-        </item>
-      
-
-        <item>
-          <title>Blog with Svelte</title>
-          <link>https://f6bfb5.github.io/blog/blog-with-svelte</link>
-          <pubDate>1970-01-02T00:00:00Z</pubDate>
-          <description>
-              undefined
-          </description>
-        </item>
-      
-
-        <item>
-          <title>Blog with Hexo</title>
-          <link>https://f6bfb5.github.io/blog/blog-with-hexo</link>
-          <pubDate>1970-01-01T00:00:00Z</pubDate>
           <description>
               undefined
           </description>
