@@ -48,16 +48,16 @@ ol, ul {
 }
 
 li:first-child {
-  margin-bottom: 0.25em;
+  padding-bottom: 0.25em;
 }
 
 li + li {
-  margin: 0.5em 0;
+  padding: 0.5em 0;
 }
 
 li p {
-  margin-bottom: 0.5rem;
-  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 a {
