@@ -11,6 +11,9 @@
 </script>
 
 <script>
+  import { slide } from "svelte/transition";
+  import { quintOut } from "svelte/easing";
+
   export let posts;
 
   const years = [];
@@ -99,8 +102,8 @@
     <ul>
       {#each posts
         .filter((p) => new Date(p.printDate).getFullYear() == year)
-        .filter((p) => arrayContainsAny(p.tags, selection)) as post}
-        <li>
+        .filter((p) => arrayContainsAny(p.tags, selection)) as post (post.slug)}
+        <li transition:slide={{ easing: quintOut }}>
           {#if post.tags}
             {#each post.tags as tag}
               <small class="tag">{tag}</small>
@@ -115,6 +118,12 @@
 </div>
 
 <style>
+  ul {
+    margin: 0;
+    padding: 0 1rem;
+    list-style: none;
+  }
+
   .tag {
     padding: 0px 4px;
     border: 1px solid black;
