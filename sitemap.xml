@@ -3,28 +3,28 @@
   
     <url>
       <loc>https://f6bfb5.github.io/</loc>
-      <lastmod>2021-02-05T15:22:29.930Z</lastmod>
+      <lastmod>2021-02-14T20:10:26.286Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/about</loc>
-      <lastmod>2021-02-05T15:22:29.930Z</lastmod>
+      <lastmod>2021-02-14T20:10:26.286Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/posts</loc>
-      <lastmod>2021-02-05T15:22:29.930Z</lastmod>
+      <lastmod>2021-02-14T20:10:26.286Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/rss</loc>
-      <lastmod>2021-02-05T15:22:29.930Z</lastmod>
+      <lastmod>2021-02-14T20:10:26.286Z</lastmod>
       <priority>1.00</priority>
     </url>
   
@@ -44,6 +44,13 @@
   
 
     <url>
+      <loc>https://f6bfb5.github.io/ACG-char-counterattack-fans-interview</loc>
+      <lastmod>2021-02-11T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
       <loc>https://f6bfb5.github.io/ACG-danmaku-and-comment-are-totally-different</loc>
       <lastmod>2021-01-26T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
@@ -51,7 +58,7 @@
   
 
     <url>
-      <loc>https://f6bfb5.github.io/ACG-end-ofevangelion-alternative-live-sequence-plot</loc>
+      <loc>https://f6bfb5.github.io/ACG-end-of-evangelion-alternative-live-sequence-plot</loc>
       <lastmod>2021-01-24T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
