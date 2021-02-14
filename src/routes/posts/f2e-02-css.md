@@ -404,8 +404,6 @@ CSS 將每個內容元素的外觀架構區分為 `Margin`、`Border`、`Padding
 2. 父元素與第一個子元素或最後一個子元素，設定 margin 造成的上下 margin 相鄰
 3. 兩個元素之間存在空元素時，此兩個元素設定 margin 造成的上下 margin 相鄰
 
-- Codepen：[Margin Collapsing](https://codepen.io/f6bfb5/pen/NWRoRNB)
-
 ```html
 <!-- 兩個元素的 margin 會重疊，實際上只剩下 16px 的 margin -->
 <section>
@@ -433,6 +431,8 @@ CSS 將每個內容元素的外觀架構區分為 `Margin`、`Border`、`Padding
   }
 </style>
 ```
+
+- Codepen：[Margin Collapsing](https://codepen.io/f6bfb5/pen/NWRoRNB)
 
 #### 如何解決 margin collapsing
 
@@ -510,6 +510,13 @@ CSS 將每個內容元素的外觀架構區分為 `Margin`、`Border`、`Padding
     <br>├ `linear-gradient(顏色漸變方向角, 色碼 1, 色碼 2);`
     <br>└ `radial-gradient(ellipse 或 circle, 顏色 1, 顏色 2) ;`
 4.  [`background-position`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-position)
+
+#### 疊加效果
+
+1. `filter`
+1. `backdrop-filter`
+1. `mix-blend-mode`
+1. `background-blend-mode`
 
 ### 色彩
 

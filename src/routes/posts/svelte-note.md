@@ -10,7 +10,7 @@ layout: blog
 
 ## What is Svelte？
 
-- Svelte 是套秉持「Write less code」的精神，為了建構 UI 而生的**編譯器**
+- Svelte 是套秉持「Write less code」的精神，為了建構 UI 而生的 **JavaScript 編譯器**
 - 不同於 Vue 和 React 這類框架是在瀏覽器上執行處理，Svelte 是先在編譯階段就完成建構
 - Svelte 不採用 Virtual DOM diff，而是用原生 JS 直接修改 DOM
 - 擁有相對優秀的執行速度與檔案大小表現
@@ -25,9 +25,13 @@ layout: blog
 ### 下載樣板
 
 ```bash
+# download template
 npx degit sveltejs/template svelte-app
+# install dependencies
 cd svelte-app
 npm install
+# start rollup
+npm run dev
 ```
 
 - `npx` 是 npm 在 v5.2.0 之後內建的指令，提供暫時性執行某個 npm 套件的功能
@@ -37,7 +41,7 @@ npm install
 
 - svelte 與其它框架相同，使用獨有的 `.svelte` 副檔名撰寫
 - 每個檔案為獨立的 component，包含 Javascript、CSS 和 HTML
-  <br>│ 和 HTML 一樣，JS 和 CSS 分別寫在 `<script></script>`、`<style></style>`
+  <br>│ 和 HTML 一樣，JS 和 CSS 分別寫在 `<script></script>`、`<style></style>` 標籤裡
   <br>└ HTML 元素直接撰寫於下方
 
 ```html
@@ -288,7 +292,7 @@ const download_count = derived(
   </button>
   ```
 
-## 生命週期
+## [生命週期](https://svelte.dev/docs#svelte)
 
 - 初始化：`beforeUpdate` -> `onMount` -> `afterUpdate`
 - 元件更新：`beforeUpdate` -> `afterUpdate`
@@ -310,7 +314,7 @@ onMount(() => {
 });
 ```
 
-## Store 和 Context
+## [Store](https://svelte.dev/docs#svelte_store)
 
 - 統一保存資料管理狀態
 - Store 用於資料經常變動，並且需要跨元件使用時
@@ -441,7 +445,7 @@ export const count = writable(0);
 {$selectedList}
 ```
 
-### Context
+## [Context](https://svelte.dev/docs#setContext)
 
 - Context 用於資料幾乎不會變動或跨元件溝通時
 - 沒有 reactive 效果（ex. subscribe, unsubscribe）
@@ -449,113 +453,178 @@ export const count = writable(0);
 - 只作用在 svelte 的元件樹中
 - svelte 會去尋找距離元件最近的 context
 
-  `App.svelte`
+`App.svelte`
+
+```html
+<script>
+  import Profile from "./Profile.svelte";
+  import { setContext } from "svelte";
+  const user = setContext("user", {
+    name: "Kalan",
+    age: 25,
+  });
+</script>
+
+<Profile />
+```
+
+`Profile.svelte`
+
+```html
+<script>
+  import { getContext } from "svelte";
+  const user = setContext("user");
+</script>
+
+<h2>{user.name}</h2>
+
+<p>{user.age}</p>
+```
+
+## [motion 機制](https://svelte.dev/docs#svelte_motion)
+
+svelte 提供了「motion」機制處理數值動態的呈現
+
+### Tweened
+
+例如以下這個例子
+
+```html
+<script>
+  import { writable } from "svelte/store";
+
+  const progress = writable(0);
+</script>
+
+<style>
+  progress {
+    display: block;
+    width: 100%;
+  }
+</style>
+
+<progress value="{$progress}"></progress>
+
+<button on:click="{() => progress.set(0)}">0%</button>
+
+<button on:click="{() => progress.set(0.25)}">25%</button>
+
+<button on:click="{() => progress.set(0.5)}">50%</button>
+
+<button on:click="{() => progress.set(0.75)}">75%</button>
+
+<button on:click="{() => progress.set(1)}">100%</button>
+```
+
+修改進度條的數值後，進度條會馬上跳到指定的進度
+<br>如果改為使用 motion 裡的 `Tweened` 取代 `writable`
+
+```html
+<script>
+  import { tweened } from "svelte/motion";
+  import { cubicOut } from "svelte/easing";
+
+  const progress = tweened(0, {
+    duration: 400,
+    easing: cubicOut,
+  });
+</script>
+...
+```
+
+進度條的值變更後，就會有中間進行變化的過程了
+
+- `Tweened` 可以使用 `duration` 與 `easing` 定義兩個數值之間的變化
+- 介面和 writable store 相同，具有 `subscribe`、`set`、`update` 等方法
+- 使用簡記：
 
   ```html
   <script>
-    import Profile from "./Profile.svelte";
-    import { setContext } from "svelte";
-    const user = setContext("user", {
-      name: "Kalan",
-      age: 25,
-    });
-  </script>
-
-  <Profile />
-  ```
-
-  `Profile.svelte`
-
-  ```html
-  <script>
-    import { getContext } from "svelte";
-    const user = setContext("user");
-  </script>
-
-  <h2>{user.name}</h2>
-
-  <p>{user.age}</p>
-  ```
-
-## motion 機制
-
-- `Tween`：定義兩個數值之間的變化
-  <br>├ 可以定義 duration 與 easing
-  <br>│ 介面和 writable store 相同
-  <br>│ 具有 `subscribe`、`set`、`update` 等方法
-  <br>├ `import { tweened } from 'svelte/motion';`
-  <br>│ `const value = tweened(10, { duration: 3000 });`
-  <br>└ `{$value}`
-
-  ```html
-  <script>
-    import { onMount } from "svelte";
     import { tweened } from "svelte/motion";
-    let name = "world";
-    let year = tweened(1990, { duration: 1500 });
-    onMount(() => {
-      setTimeout(() => year.set(2020), 2000);
+    const value = tweened(10, { duration: 3000 });
+  </script>
+
+  {$value}
+  ```
+
+```html
+<script>
+  import { onMount } from "svelte";
+  import { tweened } from "svelte/motion";
+  let name = "world";
+  let year = tweened(1990, { duration: 1500 });
+  onMount(() => {
+    setTimeout(() => year.set(2020), 2000);
+  });
+</script>
+{Math.floor($year)}
+<h1>Hello {name}!</h1>
+```
+
+### Spring
+
+motion 還有 `Spring` 可以使用 `stiffness`（剛性）和 `damping`（摩擦係數）
+<br>替動畫加上輕重緩急，讓物件動態變得更生動
+
+例如以下是一個圖片會追隨滑鼠移動的範例，將 `writable` 改為 `spring` 之後，晃動滑鼠後圖片的移動會變為具有彈簧般的來回變化。
+
+```html
+<script>
+  import { spring } from "svelte/motion";
+  let positionX, positionY;
+  let image;
+  let imageURL = "";
+
+  let position = spring(
+    {
+      x: 0,
+      y: 0,
+    },
+    {
+      stiffness: 0.1,
+      damping: 0.5,
+    }
+  );
+
+  function handleMousemove(e) {
+    position.set({
+      x: e.clientX - image.width / 2,
+      y: e.clientY - image.height / 2,
     });
-  </script>
-  {Math.floor($year)}
-  <h1>Hello {name}!</h1>
-  ```
+  }
+</script>
 
-  - `Spring`：讓物件動畫變得更生動
-    ├ stiffness 剛性、damping 摩擦係數
+<style>
+  img {
+    position: aboslute;
+    width: 350px;
+    cursor: move;
+  }
+</style>
 
-  ```html
-  <script>
-    import { spring } from "svelte/motion";
-    let positionX, positionY;
-    let image;
-    let imageURL = "";
+<img
+  bind:this="{image}"
+  on:mousemove="{handleMousemove}"
+  src="{imageURL}"
+  style="{`transform: translate(${$position.x}px, ${$position.y}px);`}"
+/>
+```
 
-    let position = spring(
-      {
-        x: 0,
-        y: 0,
-      },
-      {
-        stiffness: 0.1,
-        damping: 0.5,
-      }
-    );
+## [transition 機制](https://svelte.dev/docs#svelte_transition)
 
-    function handleMousemove(e) {
-      position.set({
-        x: e.clientX - image.width / 2,
-        y: e.clientY - image.height / 2,
-      });
-    }
-  </script>
+- svelte 內建有 `fade`、`blur`、`fly`、`slide`、`scale`、`draw`、`crossfade` 等轉場／動態效果函式
+- 使用 `<transition:>` 套用至元素上，亦可使用 `<in: out:>` 單獨指定開始或結束的轉場
+- transition 採用將獨自的語法計算轉換成原生 css 動畫，因此較不會有效能問題
+- 亦可搭配 svelte 的其它語法運用
+- `draw` 與其它 function 較為不同，是專門用於 SVG 圖形的
 
-  <style>
-    img {
-      position: aboslute;
-      width: 350px;
-      cursor: move;
-    }
-  </style>
+### transition 設定
 
-  <img
-    bind:this="{image}"
-    on:mousemove="{handleMousemove}"
-    src="{imageURL}"
-    style="{`transform: translate(${$position.x}px, ${$position.y}px);`}"
-  />
-  ```
-
-## transition 機制
-
-- svelte 內建有 `fade`、`blur`、`fly`、`slide`、`scale`、`draw`、`crossfade` 等轉場函式
-- svelte 採用將獨自的語法計算轉換成原生 css 動畫，因此較不會有效能問題
-- 亦可搭配 svelte 的其它語法
-- 有兩個通用參數
+- 這些轉場函式有兩個通用參數：
   <br>├ `delay`：延遲多久開始 transition
   <br>└ `duration`：transition 持續多久
-- 以及各個動畫獨有的參數可以設定
-  <br>└ `<h1 in:fade out:fly={{ x: 0, y: 50 }}>I'm Transition!</h1>`
+- 各個動畫亦有獨自參數可以設定
+  <br>└ ex. `<h1 in:fade out:fly={{ x: 0, y: 50 }}>I'm Transition!</h1>`
 
   ```html
   <script>
@@ -568,54 +637,85 @@ export const count = writable(0);
   {/if}
   ```
 
-- easing function：緩動函數，替移動加上緩急，讓動靜看起來更真實且活潑
+### easing function 緩動函數
 
-  ```html
+替移動加上緩急，讓動靜看起來更真實且活潑
+
+```html
+<script>
+  import { fade, fly } from "svelte/transition";
+  import { elasticOut } from 'svelte/easing';
+  let condition = false;
+
+  setTimeout(() => condition = true, 250);
+  setTimeout(() => condition = false, 2250);
+</script>
+
+{#if condition}
+<div in:fade out:fly={{ x: 0, y: 100, easing: ealsticOut }}>
+  I'm Transition!
+</div>
+{/if}
+```
+
+### 自訂轉場函式
+
+```html
   <script>
-    import { fade, fly } from "svelte/transition";
-    import { elasticOut } from 'svelte/easing';
-    let condition = false;
+    let condition = false
+    function rotate(node, params) {
+      console.loog(params);
+      const duration = 1000;
 
-    setTimeout(() => condition = true, 250);
-    setTimeout(() => condition = false, 2250);
+      return {
+        duration,
+        easing: cubicOut,
+        css: t => `
+          transform: rotate(${params.range * t}deg);
+        `
+      }
+    }
+
+    setTimeout(() => condition = true, 10)
   </script>
 
   {#if condition}
-  <div in:fade out:fly={{ x: 0, y: 100, easing: ealsticOut }}>
-    I'm Transition!
-  </div>
+    <h1 transition:rotate={{ range: 180 }}>I'm Transition</h1>
   {/if}
-  ```
+```
 
-- 也可以自訂轉場函式
+### 套用動畫效果到「未轉場」的元素上
 
-  ```html
-    <script>
-      let condition = false
-      function rotate(node, params) {
-        console.loog(params);
-        const duration = 1000;
+svelte 還有 [animate](https://svelte.dev/docs#svelte_animate) 中所提供的 FLIP（First, Last, Invert, Play）function
+<br>會計算元素的舊位置與新位置之間的距離後，套用到動畫效果上
+<br>例如一個列表的資料有所改變，`flip` 會讓「沒有轉場」的元素也套用動畫效果
 
-        return {
-          duration,
-          easing: cubicOut,
-          css: t => `
-            transform: rotate(${params.range * t}deg);
-          `
-        }
-      }
+```html
+<script>
+  import { quintOut } from "svelte/easing";
+  import { crossfade } from "svelte/transition";
+  // 引入 animate 的 FLIP
+  import { flip } from "svelte/animate";
 
-      setTimeout(() => condition = true, 10)
-    </script>
+  const [send, receive] = crossfade({
+    duration: (d) => Math.sqrt(d * 200),
 
-    {#if condition}
-      <h1 transition:rotate={{ range: 180 }}>I'm Transition</h1>
-    {/if}
-  ```
+    fallback(node, params) {
+      const style = getComputedStyle(node);
+      const transform = style.transform === "none" ? "" : style.transform;
 
-- svelte 還有 `animate` 可供當列表遇到重新整理時執行
-  <br>├ `animate` 中有提供 FLIP（First, Last, Invert, Play）
-  <br>│ 會先計算兩者之間的距離後才執行動畫
+      return {
+        duration: 600,
+        easing: quintOut,
+        css: (t) => `
+          transform: ${transform} scale(${t});
+          opacity: ${t}
+        `,
+      };
+    },
+  });
+</script>
+```
 
 ## 樣板語法（Slot）
 

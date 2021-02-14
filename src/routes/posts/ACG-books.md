@@ -4,12 +4,19 @@ date: 2021-01-10T04:58:55.000Z
 tags: ACG
 ---
 
-## 1980
+## 1980-
 
+- 1978 - \[山口且訓、渡辺泰\] 日本アニメーション映画史
+- 1981 - \[富野喜幸\] だから僕は…―「ガンダム」への道
+- 1983 - \[高畑勲\] 「ホルス」の映像表現
 - 1987 - \[鳥海尽三\] [アニメ・シナリオ入門](https://www.amazon.co.jp/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BB%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%85%A5%E9%96%80-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%89%B5%E4%BD%9C%E7%A0%94%E7%A9%B6%E5%8F%A2%E6%9B%B8-%E9%B3%A5%E6%B5%B7-%E5%B0%BD%E4%B8%89/dp/4871002152/ref=sr_1_1?dchild=1&qid=1612336957&s=books&sr=1-1)
+- 1988 - \[アニメージュ編集部\] TV アニメ 25 年史
+- 1989 - \[アニメージュ編集部\] 劇場アニメ 70 年史
+- 1989 - \[山本瑛一\] 虫プロ興亡記―安仁明太の青春
 
 ## 1990
 
+- 1994 - \[押井守\] 「イノセンス」methods 押井守演出ノート
 - 1996 - \[宮崎駿\] [出發點 1979－1996](https://www.books.com.tw/products/0010322959)
 - 1997 - \[庵野秀明\] [偏執．新世紀福音戰士](https://www.amazon.co.jp/%E5%BA%B5%E9%87%8E%E7%A7%80%E6%98%8E-%E3%82%B9%E3%82%AD%E3%82%BE%E3%83%BB%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B2%E3%83%AA%E3%82%AA%E3%83%B3-800%E6%9C%AC-%E5%A4%A7%E6%B3%89-%E5%AE%9F%E6%88%90/dp/4872333152)、\[庵野秀明\] [分裂．新世紀福音戰士](https://www.amazon.co.jp/%E5%BA%B5%E9%87%8E%E7%A7%80%E6%98%8E-%E3%83%91%E3%83%A9%E3%83%8E%E3%83%BB%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B2%E3%83%AA%E3%82%AA%E3%83%B3-800%E6%9C%AC-10-%E5%81%A5%E5%A4%AA%E9%83%8E/dp/4872333160)
   <br>└ [「庵野秀明スキゾ・パラノエヴァンゲリオン」 - Togetter](https://togetter.com/li/740727)
@@ -280,6 +287,7 @@ tags: ACG
 - 2010 - \[京都アニメーション\] [京都アニメーション版　仕上げ・撮影の手引き](https://www.amazon.co.jp/%E4%BA%AC%E9%83%BD%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E7%89%88-%E4%BB%95%E4%B8%8A%E3%81%92%E3%83%BB%E6%92%AE%E5%BD%B1%E3%81%AE%E6%89%8B%E5%BC%95%E3%81%8D-%E4%BA%AC%E9%83%BD%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/dp/B00JXLSY8C)
 - 2011 - \[趙永佳\] [日本．趣味．想像 ─ 八十後御宅筆記](https://www.cp1897.com.hk/product_info.php?BookId=9789881522054)
 - 2012 - \[Marc Steinberg\] [Anime's Media Mix: Franchising Toys and Characters in Japan](https://www.amazon.co.jp/dp/B0080NQ6N4/?coliid=I3PXUGTXPC44CE&colid=2UVGXM7KR6OLP&psc=0&ref_=lv_ov_lig_dp_it)
+- 2013 - \[大塚康生\] 作画汗まみれ
 - 2014 - [另眼看御宅：跨媒體傳播下的日本文化剪影](https://www.books.com.tw/products/0010620148)
 - 2014 - [西尾維新対談集 本題](https://www.amazon.co.jp/%E8%A5%BF%E5%B0%BE%E7%B6%AD%E6%96%B0%E5%AF%BE%E8%AB%87%E9%9B%86-%E6%9C%AC%E9%A1%8C-%E8%A5%BF%E5%B0%BE-%E7%B6%AD%E6%96%B0/dp/4062191075)
 - 2015 - \[Ian Condry\] [動畫之魂：創意合作的日本動畫產業](https://www.books.com.tw/products/0010693406)

@@ -51,7 +51,7 @@ layout: blog
 - [最短で Web 業界で給与を得るための最小知識 2020](https://qiita.com/mazgi/items/30d77099445288af0bda)
 - [新人 Web プログラマの学習が捗るリンク集 - Qiita](https://qiita.com/tgsmsk/items/5bc9a2a5fd2d4cb155c2)
 
-###
+### 文章
 
 - [生産的になろう（Aaron Swartz のブログから）](https://emptypage.jp/translations/aaron/productivity.html)
 - [How To Ask Questions The Smart Way 提問的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)
@@ -60,6 +60,7 @@ layout: blog
 - [怎樣練習一萬小時 - INSIDE](https://www.inside.com.tw/article/3803-10000-hours)
 - [《程式英文》 English for Programmers](https://github.com/EngTW/English-for-Programmers)
 - [Count, Number, Quantity; 如何命名「數量」變數？](https://docs.google.com/presentation/d/e/2PACX-1vSkoG-T0K6zT-DQB54GcpS5DRIRHQiIvfo2vN4_Ga5Z66ft6ogTMHBy8Z0U3mwpGDKQPjaXTeECx5xZ/pub?slide=id.g8bcfeab365_0_1655)
+- [技術的なハマりパターンを分類・オサレに命名し、パターン毎に解決策(エンジニアのググり方・質問の仕方)を明示してみた - Qiita](https://qiita.com/y_tom/items/1b54d4e1a9a5f3fab402)
 
 ### 練習資源
 
@@ -82,6 +83,7 @@ layout: blog
 | [DevChallenges](https://devchallenges.io/challenges)                                                  |                                                          |
 | [Codewars](https://www.codewars.com/)                                                                 | 類似 LeetCode 的刷題網站，但任何人皆可出題、整體更為輕鬆 |
 | [Blind Curated 75](https://leetcode.com/list/xoqag3yj/)                                               | LeetCode 精選 75 題                                      |
+| [Frontend Mentor](https://www.frontendmentor.io/solutions)                                            |                                                          |
 
 - [トップデベロッパーになるために作成したいアプリ 8 選](https://qiita.com/baby-degu/items/f905c8ee972cf46ce11b)
 - [2020 年に Web フロントエンドを勉強する人が作るべきたったひとつのアプリ](https://qiita.com/Dragon-taro/items/03f322dee15b19c33613)
