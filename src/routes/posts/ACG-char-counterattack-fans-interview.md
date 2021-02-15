@@ -539,7 +539,7 @@ tags: ACG
 ## 相關文章
 
 - [WEB アニメスタイル ｜ アニメ様 365 日 第 455 回　「逆襲のシャア友の会」（前編）](http://www.style.fm/as/05_column/365/365_455.shtml)
-- [1988 年『機動戦士ガンダム 逆襲のシャア』編 - コラム](http://rittorsha.jp/column/2020/01/1988_2.html)
+- [【連載エッセイ】押井守の映画 50 年 50 本 1988 年『機動戦士ガンダム 逆襲のシャア』編 - コラム](http://rittorsha.jp/column/2020/01/1988_2.html)
 - [【情報】押井守談『逆襲的夏亞』 @鋼彈 哈啦板 - 巴哈姆特](https://forum.gamer.com.tw/C.php?bsn=109&snA=57960)
 - [筆記：時間的演出（一） - 嗶哩嗶哩](https://www.bilibili.com/read/cv4248484/)
 - [富野由悠季與庵野秀明 富野由悠季和動畫人系列（一） - Anitama - 講道理的動漫媒體](http://www.anitama.cn/article/8bb7c04a17792c02)
