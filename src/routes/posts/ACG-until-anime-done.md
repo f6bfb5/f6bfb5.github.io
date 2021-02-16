@@ -1,7 +1,7 @@
 ---
 title: "直到一部動畫完成"
 date: 2020-03-03 05:22:58
-tags: ACG
+tags: ACG, Anime
 ---
 
 ## Anime Central 日本動畫的作畫講座（2013）

@@ -2,7 +2,7 @@
 title: "【譯】關於渚薰的一切——幾原邦彥訪談"
 date: 2021-01-15T20:29:13.000Z
 summary: "70 年代那時候還在搞安保鬥爭，鬥爭結束之後，世間瀰漫著一種「唉，這世界果然無法革命哪」的氛圍，所以我原本認為自己在 20 歲之前就會死去，而 20 歲之後的人生都是附贈品——我和庵野講了這段故事。"
-tags: ACG, Evangelion
+tags: ACG, Anime, Evangelion
 ---
 
 文章來源：[\[Japanese\] All About Kaworu - Ikuhara Kunihiko Interview | Evangelion Resources](https://evaresources.wordpress.com/staff/ikuhara-kunihiko/japanese-ikuhara-kunihiko/)

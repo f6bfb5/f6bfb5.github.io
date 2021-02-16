@@ -3,7 +3,7 @@ title: "【譯】動畫與成人的知性"
 date: 2020-07-05T21:36:18.000Z
 author: f6bfb5
 summary:
-tags: ACG
+tags: ACG, Anime
 layout: blog
 ---
 

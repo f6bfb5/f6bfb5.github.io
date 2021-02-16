@@ -1,7 +1,7 @@
 ---
 title: "【譯】逆襲的夏亞影友會 富野訪談部份"
 date: 2021-02-11T17:31:55.000Z
-tags: ACG
+tags: ACG, Anime
 ---
 
 文章來源：[逆襲のシャア友の会 富野インタビュー - シャア専用ブログ@アクシズ](https://char-blog.hatenadiary.org/entry/20110626/1309097046)

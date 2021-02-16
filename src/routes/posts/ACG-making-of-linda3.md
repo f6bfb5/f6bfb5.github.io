@@ -4,7 +4,7 @@ date: 2020-09-09T22:06:33.000Z
 published: 2020-09-09T22:06:33.000Z
 author: f6bfb5
 summary:
-tags: ACG
+tags: ACG, Game
 layout: blog
 ---
 

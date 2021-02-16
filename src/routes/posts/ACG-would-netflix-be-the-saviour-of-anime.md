@@ -4,7 +4,7 @@ date: 2019-12-27T19:18:57.000Z
 published: 2019-12-27T19:18:57.000Z
 author: f6bfb5
 summary: "這次我們將透過福原製作人的視點一探究竟，以網飛（Netflix）為首的「外資資金」、中國製的動畫現況，以及製作委員會所抱有的問題。"
-tags: ACG
+tags: ACG, Anime
 layout: blog
 ---
 

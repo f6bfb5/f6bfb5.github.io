@@ -4,7 +4,7 @@ date: 2020-08-27T21:37:25.000Z
 published: 2020-08-27T21:37:25.000Z
 author: f6bfb5
 summary: "在這篇文章裡，我們向西村輝實問道，關於以 Netflix 為首，進年開始進軍日本動畫業界的，海外資本的產業狀況。"
-tags: ACG
+tags: ACG, Anime
 layout: blog
 ---
 

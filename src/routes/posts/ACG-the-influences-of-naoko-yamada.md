@@ -4,7 +4,7 @@ date: 2019-01-19T06:46:33.000Z
 published: 2019-01-19T06:46:33.000Z
 author: f6bfb5
 summary: "每個作家都有所受到影響的源頭，山田尚子也不例外，有些根源對人們來說可能會覺得意外，但其影響是可見的。"
-tags: ACG
+tags: ACG, Anime
 layout: blog
 ---
 

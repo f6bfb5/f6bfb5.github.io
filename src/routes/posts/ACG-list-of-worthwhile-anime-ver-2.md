@@ -3,7 +3,7 @@ title: "【譯】值得一看的動畫作品清單 Version 2"
 date: 2020-11-08T22:06:33.000Z
 summary: "這份清單主要用以展示一系列高於平均水準的日本動畫作品，與倡導作品裡精良的部份。選擇這些作品的原因會有原創性、影響力、議論性或它被認為是部經典作品，某種類型中的代表性作品，亦或是在敘事、角色刻畫、藝術實驗性上極為出色。"
 image: "https://i.imgur.com/fTb36e0.jpg"
-tags: ACG
+tags: ACG, Anime
 ---
 
 [![](https://i.imgur.com/fTb36e0.jpg)](https://i.imgur.com/fTb36e0.jpg)

@@ -4,7 +4,7 @@ date: 2020-09-06T21:42:04.000Z
 published: 2020-09-06T21:42:04.000Z
 author: f6bfb5
 summary: "或說，在暴風圈中心的人們是怎麼想的。"
-tags: ACG, Evangelion
+tags: ACG, Anime, Evangelion
 layout: blog
 ---
 

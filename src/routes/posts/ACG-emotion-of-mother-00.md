@@ -4,7 +4,7 @@ date: 2020-11-15T22:23:20.000Z
 published: 2020-11-15T22:23:20.000Z
 author: f6bfb5
 summary: "在距離最近的地方，傾聽這款不可思議的遊戲的故事。"
-tags: ACG
+tags: ACG, Game
 layout: blog
 ---
 

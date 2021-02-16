@@ -4,7 +4,7 @@ date: 2019-02-13T07:16:58.000Z
 published: 2019-02-13T07:16:58.000Z
 author: f6bfb5
 summary: "我想，這可以說是進行二次創作的人，所會擁有的，願望、希望、祈禱一類的東西吧。"
-tags: ACG
+tags: ACG, Anime, Evangelion
 layout: blog
 ---
 

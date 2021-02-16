@@ -1,7 +1,7 @@
 ---
 title: "【譯】《真心為你》新腳本（第 6 稿改，社內檢討用）真人影片部份"
 date: 2021-01-24T08:16:06.000Z
-tags: ACG, Evangelion
+tags: ACG, Anime, Evangelion
 ---
 
 - [Resources:End of Evangelion Screenplays (Episode 26')](https://wiki.evageeks.org/Resources:End_of_Evangelion_Screenplays_%28Episode_26%27%29)

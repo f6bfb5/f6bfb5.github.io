@@ -4,7 +4,7 @@ date: 2019-01-19T06:30:08.000Z
 published: 2019-01-19T06:30:08.000Z
 author: f6bfb5
 summary: "原文出自月刊《Animage》1995 年 9 月號的宮崎駿採訪。"
-tags: ACG
+tags: ACG, Anime
 layout: blog
 ---
 

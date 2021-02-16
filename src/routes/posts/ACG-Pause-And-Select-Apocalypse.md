@@ -4,7 +4,7 @@ date: 2019-01-29T07:02:26.000Z
 published: 2019-01-29T07:02:26.000Z
 author: f6bfb5
 summary:
-tags: ACG
+tags: ACG, Anime, Comic
 layout: blog
 ---
 

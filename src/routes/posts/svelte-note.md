@@ -613,10 +613,11 @@ motion 還有 `Spring` 可以使用 `stiffness`（剛性）和 `damping`（摩�
 ## [transition 機制](https://svelte.dev/docs#svelte_transition)
 
 - svelte 內建有 `fade`、`blur`、`fly`、`slide`、`scale`、`draw`、`crossfade` 等轉場／動態效果函式
-- 使用 `<transition:>` 套用至元素上，亦可使用 `<in: out:>` 單獨指定開始或結束的轉場
+- 使用 `<transition:轉場名稱>` 套用至元素上
+- 亦可使用 `<in:轉場名稱 out:轉場名稱>` 單獨指定開始和結束要套用的轉場效果
 - transition 採用將獨自的語法計算轉換成原生 css 動畫，因此較不會有效能問題
 - 亦可搭配 svelte 的其它語法運用
-- `draw` 與其它 function 較為不同，是專門用於 SVG 圖形的
+- `draw` 與其它 function 較為不同，專門用於 SVG 圖形
 
 ### transition 設定
 
@@ -715,6 +716,13 @@ svelte 還有 [animate](https://svelte.dev/docs#svelte_animate) 中所提供的 
     },
   });
 </script>
+
+<!-- 使用 animate:flip 加上效果 -->
+<label
+  in:receive="{{key: todo.id}}"
+  out:send="{{key: todo.id}}"
+  animate:flip
+></label>
 ```
 
 ## 樣板語法（Slot）

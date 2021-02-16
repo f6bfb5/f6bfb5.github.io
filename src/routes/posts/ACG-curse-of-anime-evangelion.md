@@ -4,7 +4,7 @@ date: 2020-09-16T22:11:17.000Z
 published: 2020-09-16T22:11:17.000Z
 author: f6bfb5
 summary: "這全都是我們這些廠商和動畫製作公司的錯，是《EVA》的功過裡「過」的部份。我們並沒有「功」，若要說有，那也只是作品本身的評價而已。"
-tags: ACG, Evangelion
+tags: ACG, Anime, Evangelion
 layout: blog
 ---
 
