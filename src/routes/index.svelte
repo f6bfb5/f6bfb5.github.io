@@ -12,22 +12,40 @@
 
 <script>
   import { slide } from "svelte/transition";
-  import { quintOut } from "svelte/easing";
+
+  const hide = (node, { duration, delay }) => {
+    return {
+      duration: duration + delay,
+      css: (t) => `opacity: 0`,
+    };
+  };
 
   export let posts;
 
-  const years = [];
-  const tags = [];
+  const years = getAllPostsYears(posts);
+  const tags = getAllPostsTags(posts);
+  tags.push("Other");
+
   let selection = [];
 
-  posts.forEach((post, index) => {
-    let postYear = new Date(post.printDate).getFullYear();
-    years.includes(postYear) ? "" : years.push(postYear);
-    post.tags.forEach((tag) => {
-      tags.includes(tag) ? "" : tags.push(tag);
+  function getAllPostsYears(posts) {
+    let years = [];
+    posts.forEach((post, index) => {
+      let postYear = new Date(post.printDate).getFullYear();
+      years.includes(postYear) ? "" : years.push(postYear);
     });
-  });
-  tags.push("Other");
+    return years;
+  }
+
+  function getAllPostsTags(posts) {
+    let tags = [];
+    posts.forEach((post, index) => {
+      post.tags.forEach((tag) => {
+        tags.includes(tag) ? "" : tags.push(tag);
+      });
+    });
+    return tags;
+  }
 
   function checkAll() {
     let checkboxes = document.getElementsByName("filterCheckbox");
@@ -98,19 +116,27 @@
     <label class="tag tag-button" for={tag}>{tag}</label>
   {/each}
   {#each years as year}
-    <h2>{year}</h2>
+    {#if getAllPostsYears(posts.filter((p) =>
+        arrayContainsAny(p.tags, selection)
+      )).includes(year)}
+      <h2 in:slide={{ duration: 400 }} out:slide={{ duration: 200 }}>
+        <span transition:hide={{ duration: 400 }}>{year}</span>
+      </h2>
+    {/if}
     <ul>
       {#each posts
         .filter((p) => new Date(p.printDate).getFullYear() == year)
         .filter((p) => arrayContainsAny(p.tags, selection)) as post (post.slug)}
-        <li transition:slide={{ easing: quintOut }}>
-          {#if post.tags}
-            {#each post.tags as tag}
-              <small class="tag">{tag}</small>
-            {/each}
-          {/if}
-          <a rel="prefetch" href={post.slug}>{post.title}</a>
-          <span>{post.printDate}</span>
+        <li in:slide={{ duration: 400 }} out:slide={{ duration: 200 }}>
+          <div transition:hide={{ duration: 400 }}>
+            {#if post.tags}
+              {#each post.tags as tag}
+                <span class="tag">{tag}</span>
+              {/each}
+            {/if}
+            <a rel="prefetch" href={post.slug}>{post.title}</a>
+            <span>{post.printDate}</span>
+          </div>
         </li>
       {/each}
     </ul>
@@ -127,6 +153,7 @@
   .tag {
     padding: 0px 4px;
     border: 1px solid black;
+    font-size: 0.8em;
   }
   .tag + .tag {
     margin-left: 0.5em;
