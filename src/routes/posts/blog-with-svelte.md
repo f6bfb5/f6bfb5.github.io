@@ -366,7 +366,7 @@ export function get(req, res, next) {
    <br>修改 `index.svelte` 裡的 `preload` function
 
 ```diff
-- <script context="module">
+<script context="module">
 -   export function preload({ params, query }) {
 -     return this.fetch(`index.json`)
 -       .then((r) => r.json())
@@ -374,9 +374,9 @@ export function get(req, res, next) {
 -         return { posts };
 -       });
 -   }
-- </script>
+</script>
 
-+ <script context="module">
+<script context="module">
 +   export async function preload({ params, query }) {
 +     const posts = await this.fetch(`index.json`)
 +       .then((r) => r.json())
@@ -384,9 +384,9 @@ export function get(req, res, next) {
 +         return posts;
 +       });
 +     const sitemap = await this.fetch("sitemap.xml");
-+     return { posts, sitemap };
++     return { posts };
 +   }
-+ </script>
+</script>
 ```
 
 - [How to render your sitemap.xml file in your Svelte/Sapper blog - DEV Community](https://dev.to/zechtyounes/how-to-render-your-sitemap-xml-file-in-your-svelte-sapper-blog-2joh)
