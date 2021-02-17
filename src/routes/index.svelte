@@ -6,19 +6,13 @@
         return posts;
       });
     const sitemap = await this.fetch("sitemap.xml");
-    return { posts, sitemap };
+    // return { posts, sitemap };
+    return { posts };
   }
 </script>
 
 <script>
   import { slide } from "svelte/transition";
-
-  const hide = (node, { duration, delay }) => {
-    return {
-      duration: duration + delay,
-      css: (t) => `opacity: 0`,
-    };
-  };
 
   export let posts;
 
@@ -120,7 +114,7 @@
         arrayContainsAny(p.tags, selection)
       )).includes(year)}
       <h2 in:slide={{ duration: 400 }} out:slide={{ duration: 200 }}>
-        <span transition:hide={{ duration: 400 }}>{year}</span>
+        {year}
       </h2>
     {/if}
     <ul>
@@ -128,15 +122,13 @@
         .filter((p) => new Date(p.printDate).getFullYear() == year)
         .filter((p) => arrayContainsAny(p.tags, selection)) as post (post.slug)}
         <li in:slide={{ duration: 400 }} out:slide={{ duration: 200 }}>
-          <div transition:hide={{ duration: 400 }}>
-            {#if post.tags}
-              {#each post.tags as tag}
-                <span class="tag">{tag}</span>
-              {/each}
-            {/if}
-            <a rel="prefetch" href={post.slug}>{post.title}</a>
-            <span>{post.printDate}</span>
-          </div>
+          {#if post.tags}
+            {#each post.tags as tag}
+              <span class="tag">{tag}</span>
+            {/each}
+          {/if}
+          <a rel="prefetch" href={post.slug}>{post.title}</a>
+          <span>{post.printDate}</span>
         </li>
       {/each}
     </ul>
