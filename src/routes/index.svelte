@@ -122,12 +122,12 @@
         .filter((p) => new Date(p.printDate).getFullYear() == year)
         .filter((p) => arrayContainsAny(p.tags, selection)) as post (post.slug)}
         <li in:slide={{ duration: 400 }} out:slide={{ duration: 200 }}>
+          <a rel="prefetch" href={post.slug}>{post.title}</a>
           {#if post.tags}
             {#each post.tags as tag}
               <span class="tag">{tag}</span>
             {/each}
           {/if}
-          <a rel="prefetch" href={post.slug}>{post.title}</a>
           <span>{post.printDate}</span>
         </li>
       {/each}
@@ -139,7 +139,18 @@
   ul {
     margin: 0;
     padding: 0 1rem;
-    list-style: none;
+    /* list-style: none; */
+    list-style-position: inside;
+  }
+  li,
+  li * {
+    vertical-align: middle;
+  }
+  li::marker {
+    content: "＠ ";
+  }
+  li a {
+    font-weight: 600;
   }
 
   .tag {
