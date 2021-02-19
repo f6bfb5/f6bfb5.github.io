@@ -513,10 +513,10 @@ CSS 將每個內容元素的外觀架構區分為 `Margin`、`Border`、`Padding
 
 #### 疊加效果
 
-1. `filter`
-1. `backdrop-filter`
-1. `mix-blend-mode`
-1. `background-blend-mode`
+1. `filter`：設定套用於此元素的濾鏡效果
+2. `backdrop-filter`：設定套用於此元素背後的所有元素的濾鏡效果
+3. `mix-blend-mode`：設定此元素如何與此元素的背景和直屬父元素的內容混合
+4. `background-blend-mode`：設定此元素的背景圖片和背影顏色如何混合
 
 ### 色彩
 

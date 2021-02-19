@@ -136,10 +136,10 @@ function handleClick() {
 
 window.addEventListener('load', function() {
    document.getElementById("js-discord-button").addEventListener("click", handleClick);
-   // 1. get code
+   // 1. get code from url params
    const urlParams = new URLSearchParams(window.location.search);
    if(urlParams.has("code")) { 
-     // 2. get token
+     // 2. post code to get token
      const clientSecret = "3c-TeN5NxElL4la8E6h5BlT4zDHigser";
      const apiUrl = 'https://discordapp.com/api/oauth2/token'
      const data = {
@@ -172,6 +172,7 @@ window.addEventListener('load', function() {
         document.getElementById("js-discord-status").innerText = "token got";
         return response.json()
      })
+     // 3. get user data
      .then(function(data) {
         let accessToken = data.access_token;
         const userApiUrl = 'https://discordapp.com/api/users/@me';
@@ -192,7 +193,7 @@ window.addEventListener('load', function() {
      .catch(function(error) {
         document.getElementById("js-discord-status").innerText = error;
      })
-
+     // 4. display user data
      resultData.then(function(r) {
         if(r != undefined){
           document.getElementById("js-discord-card").style.display="block";
@@ -200,8 +201,6 @@ window.addEventListener('load', function() {
           document.getElementById("js-discord-card--username").innerText=`${r.username}#${r.discriminator}`
         }
      })
-   
-     // 3. get user data
    } else {
       document.getElementById("js-discord-status").innerText = "Not logged in";
    }
