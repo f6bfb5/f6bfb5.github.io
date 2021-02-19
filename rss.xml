@@ -4,7 +4,7 @@
       <title>f6bfb5's blog</title>
       <link href="https://f6bfb5.github.io"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>2021-02-18T10:15:38Z</lastBuildDate>
+      <lastBuildDate>2021-02-19T07:25:46Z</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -944,6 +944,16 @@
           <pubDate>2019-04-16T14:25:36Z</pubDate>
           <description>
               由於人腦會擅自補足畫面中間缺乏的資訊，讓觀眾能感受到畫面營造出迅速、柔軟、強硬、沉重的各種不同表現感。補幀軟體會抹煞這種創作者意圖表現的畫面節奏效果，而讓整部作品看起來如出一轍，平凡無趣，也會破壞原本的畫面作畫。
+          </description>
+        </item>
+      
+
+        <item>
+          <title>洛克人 1 的呼叫 Ending 漏洞機制解說</title>
+          <link>https://f6bfb5.github.io/blog/ACG-rockman-1-tas-glitch</link>
+          <pubDate>2019-02-19T13:59:42Z</pubDate>
+          <description>
+              undefined
           </description>
         </item>
       
