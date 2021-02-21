@@ -17,7 +17,6 @@
   export let post;
 
   import BackToTop from "../components/BackToTop.svelte";
-  import About from "./about.svelte";
 </script>
 
 <svelte:head>

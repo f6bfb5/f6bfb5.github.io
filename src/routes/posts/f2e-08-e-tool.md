@@ -19,97 +19,36 @@ layout: blog
 
 ## Cheatsheet
 
-| 名稱                                                                                                             | 說明                         | 付費 |
-| ---------------------------------------------------------------------------------------------------------------- | ---------------------------- | ---- |
-| [Hyperpolyglot](http://hyperpolyglot.org/)                                                                       |                              |      |
-| [Rico's cheatsheets](https://devhints.io/)                                                                       |                              |      |
-| [tldr](https://tldr.sh/)                                                                                         |                              |      |
-| [Learn X in Y minutes](https://learnxinyminutes.com/)                                                            |                              |      |
-| [The-Documentation-Compendium](https://github.com/kylelobo/The-Documentation-Compendium)                         |                              |      |
-| [Can I use](https://caniuse.com/)                                                                                |                              |      |
-| [browserhacks](http://browserhacks.com/)                                                                         |                              |      |
-| [YOU MIGHT NOT NEED JQUERY](http://youmightnotneedjquery.com/)                                                   |                              |      |
-| [moving from jQuery to vanilla JavaScript](https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/) |                              |      |
-| [1loc \| Favorite JavaScript single line of code](https://1loc.dev/)                                             |                              |      |
-| [Build Your Own X](https://build-your-own-x.now.sh/)                                                             |                              |      |
-| [Animista CSS Animations on demand](https://animista.net/)                                                       |                              |      |
-| [CSS Layout](https://csslayout.io/)                                                                              | 介紹 91 種常見排版元件的寫法 | FREE |
-| [Free Frontend](https://freefrontend.com/)                                                                       | 介紹各種內容元件的寫法       | FREE |
+| 名稱                                                                                     | 說明                             | 付費 |
+| ---------------------------------------------------------------------------------------- | -------------------------------- | ---- |
+| [tldr](https://tldr.sh/)                                                                 | 精簡版的 Linux 指令說明（man）   | FREE |
+| [Hyperpolyglot](http://hyperpolyglot.org/)                                               | 各種程式語言的基礎撰寫整理與比較 | FREE |
+| [Learn X in Y minutes](https://learnxinyminutes.com/)                                    | 快速學習與複習各種程式語言       | FREE |
+| [The-Documentation-Compendium](https://github.com/kylelobo/The-Documentation-Compendium) | 整理各種 README 的樣本何撰寫技巧 | FREE |
+| [Build Your Own X](https://build-your-own-x.now.sh/)                                     |                                  | FREE |
 
-<summary>
+### 前端
 
-## 查詢關鍵字
-
-搜尋各種效果相關資源時可用的關鍵字
-
-</summary>
-<details>
-
-### JS
-
-| 中文       | 英文             |
-| ---------- | ---------------- |
-| 箱燈效果   | lightbox         |
-| 頁籤       | tab              |
-| 幻燈片     | carousel         |
-| 對話框     | dialogs, modal   |
-| 跑馬燈     | marquee          |
-| 畫廊       | gallery          |
-| 提示框     | tooltips         |
-| 折疊選單   | accordion        |
-| 表單驗證   | form validation  |
-| 日曆       | datepicker       |
-| 滾動視差   | parallax         |
-| 滾動條     | scrollbars       |
-| 圖表       | chart            |
-| 瀑布流     | masonry          |
-| 滾動       | scroll           |
-| 導覽選單   | navigation, menu |
-| 文字特效   | text effect      |
-| 下拉選單   | dropdown         |
-| 進度條     | progress bar     |
-| 編輯器     | editor           |
-| 影片播放器 | video            |
-| 倒數計時   | counter          |
-| 放大鏡     | zoom             |
-| 自動完成   | autocomplete     |
-
-### CSS
-
-| 中文     | 英文         |
-| -------- | ------------ |
-| 滑動     | hover        |
-| 格線系統 | grid         |
-| 選單     | menu         |
-| 表格     | table        |
-| 按鈕     | button       |
-| 漸變     | transition   |
-| 動畫     | animation    |
-| 文字排板 | typography   |
-| 分頁     | pagination   |
-| 卡片     | card         |
-| 星等評價 | star ratings |
-| 網頁字體 | web font     |
-| 程式碼   | code         |
-
-### Layout
-
-| 中文       | 英文            |
-| ---------- | --------------- |
-| 版型       | theme, template |
-| 框架       | framework       |
-| 響應式設計 | responsive      |
-| 圖示       | icon            |
-| 時間軸     | timeline        |
-| 麵包屑     | breadcrumb      |
-| 標籤       | tag             |
-| 速記表     | cheatsheet      |
-| 元件、組件 | component       |
-| 輔助       | utility         |
-
-</details>
-
-<summary>
+| 名稱                                                                                                             | 說明                                               | 付費 |
+| ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ---- |
+| [Rico's cheatsheets](https://devhints.io/)                                                                       | 各種前端相關語言的基礎撰寫整理                     | FREE |
+| [Can I use](https://caniuse.com/)                                                                                | 查詢前端功能在各個瀏覽器的支援度                   | FREE |
+| [YOU MIGHT NOT NEED JQUERY](http://youmightnotneedjquery.com/)                                                   | 整理如何用原生 JavaScript 替代 jQuery              | FREE |
+| [moving from jQuery to vanilla JavaScript](https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/) | 整理如何用原生 JavaScript 替代 jQuery              | FREE |
+| [1loc \| Favorite JavaScript single line of code](https://1loc.dev/)                                             |                                                    |      |
+| [browserhacks](http://browserhacks.com/)                                                                         |                                                    |      |
+| [Animista CSS Animations on demand](https://animista.net/)                                                       |                                                    |      |
+| [CSS Layout](https://csslayout.io/)                                                                              | 介紹 91 種常見排版元件的寫法                       | FREE |
+| [Free Frontend](https://freefrontend.com/)                                                                       | 介紹各種內容元件的寫法                             | FREE |
+| [BundlePhobia](https://bundlephobia.com/)                                                                        | 查詢 npm package 的佔用大小                        | FREE |
+| [Create App](https://createapp.dev/)                                                                             | 自動產生 webpack、Parcel 等工具的 config 檔案      | FREE |
+| [WebPageTest](https://www.webpagetest.org/)                                                                      | 檢測網頁讀取速度                                   | FREE |
+| [EStimator.dev](https://estimator.dev/)                                                                          | 計算網頁轉換成現代 JavaScript 後可加快多少讀取速度 | FREE |
+| [Keyframes.app](https://keyframes.app/animate/)                                                                  | 以圖像介面編輯 CSS 動畫關鍵影格                    | FREE |
+| [Easing Functions Cheat Sheet](https://easings.net/en#)                                                          | 查看各種 Easing function 的效果                    | FREE |
+| [Responsive Image Breakpoints Generator](https://responsivebreakpoints.com/)                                     | 自動產生各種圖片大小                               | FREE |
+| [Squoosh](https://squoosh.app/)                                                                                  | 提供圖片壓縮功能                                   | FREE |
+| [RemoteJS](https://remotejs.com/)                                                                                | 可以 debug 執行在不同裝置上的網頁                  | FREE |
 
 ## CSS 函式庫、框架
 
@@ -319,7 +258,7 @@ settings.addButton("meow", () => {
 
 - [激發靈感的 50 套網頁配色方案，連色票都附上囉！](https://www.mydesy.com/web-page-2)
 
-###
+### 內容編輯
 
 | 名稱                                                                     | 說明                      | 付費 |
 | ------------------------------------------------------------------------ | ------------------------- | ---- |
@@ -537,20 +476,98 @@ settings.addButton("meow", () => {
 
 ## Chrome 插件
 
-| 名稱                                                                                                                                                       | 說明 | 付費 |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | ---- |
-| [2020 年向け 開発者向けブラウザ拡張機能９選](https://qiita.com/baby-degu/items/6bbe49b2429b4cfade34)                                                       |      |      |
-| [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=zh-TW)                                               |      |      |
-| [CSSViewer](https://chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce)                                                          |      |      |
-| [Dimensions](https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj?hl=zh-TW)                                               |      |      |
-| [Icon Search](https://chrome.google.com/webstore/detail/icon-search/bkijbakibakefmcoobcnfdkfhhbmgiek)                                                      |      |      |
-| [JavaScript Tracker](https://chrome.google.com/webstore/detail/javascript-tracker/pdkjocgjcabjddpnefbdkdeadfancbgh)                                        |      |      |
-| [JSONView](https://chrome.google.com/webstore/detail/jsonview/gmegofmjomhknnokphhckolhcffdaihd)                                                            |      |      |
-| [Page Ruler Redux](https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal)                                            |      |      |
-| [Pesticide for Chrome](https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh)                                    |      |      |
-| [Pretty Beautiful Javascript](https://chrome.google.com/webstore/detail/pretty-beautiful-javascri/piekbefgpgdecckjcpffhnacjflfoddg)                        |      |      |
-| [Viewport Resizer - Responsive Testing Tool](https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm) |      |      |
-| [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)                                               |      |      |
-| [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg)                                                        |      |      |
-| [Web Developer Checklist](https://chrome.google.com/webstore/detail/web-developer-checklist/iahamcpedabephpcgkeikbclmaljebjp)                              |      |      |
-| [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm)                                                            |      |      |
+| 名稱                                                                                                                                                       | 說明                     | 付費 |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ---- |
+| [2020 年向け 開発者向けブラウザ拡張機能９選](https://qiita.com/baby-degu/items/6bbe49b2429b4cfade34)                                                       |                          |      |
+| [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=zh-TW)                                               |                          |      |
+| [CSSViewer](https://chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce)                                                          |                          |      |
+| [Dimensions](https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj?hl=zh-TW)                                               |                          |      |
+| [Icon Search](https://chrome.google.com/webstore/detail/icon-search/bkijbakibakefmcoobcnfdkfhhbmgiek)                                                      |                          |      |
+| [JavaScript Tracker](https://chrome.google.com/webstore/detail/javascript-tracker/pdkjocgjcabjddpnefbdkdeadfancbgh)                                        |                          |      |
+| [JSONView](https://chrome.google.com/webstore/detail/jsonview/gmegofmjomhknnokphhckolhcffdaihd)                                                            |                          |      |
+| [Page Ruler Redux](https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal)                                            |                          |      |
+| [Pesticide for Chrome](https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh)                                    |                          |      |
+| [Pretty Beautiful Javascript](https://chrome.google.com/webstore/detail/pretty-beautiful-javascri/piekbefgpgdecckjcpffhnacjflfoddg)                        |                          |      |
+| [Viewport Resizer - Responsive Testing Tool](https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm) |                          |      |
+| [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)                                               |                          |      |
+| [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg)                                                        |                          |      |
+| [Web Developer Checklist](https://chrome.google.com/webstore/detail/web-developer-checklist/iahamcpedabephpcgkeikbclmaljebjp)                              |                          |      |
+| [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm)                                                            | 顯示選取文字的字型       | FREE |
+| [VisBug](https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc)                                                                | 可以快速操作網頁上的元素 | FREE |
+| [Accessibility Insights for Web - Chrome Web Store](https://chrome.google.com/webstore/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni)  | 檢查網頁的 accessibility | FREE |
+| [META SEO inspector - Chrome Web Store](https://chrome.google.com/webstore/detail/meta-seo-inspector/ibkclpciafdglkjkcibmohobjkcfkaef)                     | 查看目前網頁的 SEO tag   | FREE |
+
+<summary>
+
+## 查詢關鍵字
+
+搜尋各種效果相關資源時可用的關鍵字：
+
+</summary>
+<details>
+
+### JS
+
+| 中文       | 英文             |
+| ---------- | ---------------- |
+| 箱燈效果   | lightbox         |
+| 頁籤       | tab              |
+| 幻燈片     | carousel         |
+| 對話框     | dialogs, modal   |
+| 跑馬燈     | marquee          |
+| 畫廊       | gallery          |
+| 提示框     | tooltips         |
+| 折疊選單   | accordion        |
+| 表單驗證   | form validation  |
+| 日曆       | datepicker       |
+| 滾動視差   | parallax         |
+| 滾動條     | scrollbars       |
+| 圖表       | chart            |
+| 瀑布流     | masonry          |
+| 滾動       | scroll           |
+| 導覽選單   | navigation, menu |
+| 文字特效   | text effect      |
+| 下拉選單   | dropdown         |
+| 進度條     | progress bar     |
+| 編輯器     | editor           |
+| 影片播放器 | video            |
+| 倒數計時   | counter          |
+| 放大鏡     | zoom             |
+| 自動完成   | autocomplete     |
+
+### CSS
+
+| 中文     | 英文         |
+| -------- | ------------ |
+| 滑動     | hover        |
+| 格線系統 | grid         |
+| 選單     | menu         |
+| 表格     | table        |
+| 按鈕     | button       |
+| 漸變     | transition   |
+| 動畫     | animation    |
+| 文字排板 | typography   |
+| 分頁     | pagination   |
+| 卡片     | card         |
+| 星等評價 | star ratings |
+| 網頁字體 | web font     |
+| 程式碼   | code         |
+
+### Layout
+
+| 中文       | 英文            |
+| ---------- | --------------- |
+| 版型       | theme, template |
+| 框架       | framework       |
+| 響應式設計 | responsive      |
+| 圖示       | icon            |
+| 時間軸     | timeline        |
+| 麵包屑     | breadcrumb      |
+| 標籤       | tag             |
+| 速記表     | cheatsheet      |
+| 元件、組件 | component       |
+| 輔助       | utility         |
+
+</details>
+
+<summary>

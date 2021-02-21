@@ -6,7 +6,6 @@
         return posts;
       });
     const sitemap = await this.fetch("sitemap.xml");
-    // return { posts, sitemap };
     return { posts };
   }
 </script>
