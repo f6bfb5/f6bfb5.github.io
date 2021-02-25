@@ -82,6 +82,8 @@ export default {
         'process.env.NODE_ENV': JSON.stringify(mode),
       }),
       svelte({
+        extensions: [".svelte", ".svx"],
+        preprocess: mdsvex(),
         compilerOptions: {
           generate: 'ssr',
           hydratable: true,
