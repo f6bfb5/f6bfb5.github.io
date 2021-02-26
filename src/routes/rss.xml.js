@@ -31,7 +31,8 @@ const renderXmlRssFeed = (posts) =>
   <rss version="2.0">
     <channel>
       <title>f6bfb5's blog</title>
-      <link href="${siteUrl}"/>
+      <link>${siteUrl}</link>
+      <atom:link href="${siteUrl}" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
       <lastBuildDate>${toRFC3339(new Date())}</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
