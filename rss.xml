@@ -2,9 +2,10 @@
   <rss version="2.0">
     <channel>
       <title>f6bfb5's blog</title>
-      <link href="https://f6bfb5.github.io"/>
+      <link>https://f6bfb5.github.io</link>
+      <atom:link href="https://f6bfb5.github.io" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>2021-02-26T00:24:26Z</lastBuildDate>
+      <lastBuildDate>2021-02-26T02:45:51Z</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
