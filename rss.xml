@@ -5,7 +5,7 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>2021-02-26T02:45:51Z</lastBuildDate>
+      <lastBuildDate>2021-03-12T10:25:24Z</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -23,6 +23,26 @@
           <title>Blog with Hexo</title>
           <link>https://f6bfb5.github.io/blog/blog-with-hexo</link>
           <pubDate>2100-01-01T00:00:00Z</pubDate>
+          <description>
+              undefined
+          </description>
+        </item>
+      
+
+        <item>
+          <title>【譯】《新世紀福音戰士》的詛咒</title>
+          <link>https://f6bfb5.github.io/blog/ACG-the-curse-of-evangelion</link>
+          <pubDate>2021-03-12T17:23:25Z</pubDate>
+          <description>
+              undefined
+          </description>
+        </item>
+      
+
+        <item>
+          <title>【譯】我是「憎惡創作者」。前陣子遊郭篇炎上給大家添麻煩了。但日本人也有錯呀…</title>
+          <link>https://f6bfb5.github.io/blog/creator-of-abomination</link>
+          <pubDate>2021-03-07T09:33:10Z</pubDate>
           <description>
               undefined
           </description>
