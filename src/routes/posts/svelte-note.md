@@ -393,7 +393,7 @@ export const count = writable(0);
 
 #### Auto-subscription
 
-- 也可以在變數前方加上 `$` ，就會自動 subscribe 此 store，同時處理 unsubscribe 邏輯
+- 也可以在變數名稱前方加上 `$`，Svelte 就會自動 subscribe 此 store，同時處理 unsubscribe 邏輯
 - `<span>{$countdonw}</span>`
 
 ```html
