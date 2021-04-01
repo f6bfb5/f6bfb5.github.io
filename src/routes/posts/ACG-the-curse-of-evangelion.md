@@ -3,7 +3,7 @@ title: "【譯】《新世紀福音戰士》的詛咒"
 date: 2021-03-12T17:23:25.000Z
 ---
 
-<iframe id="video" title="The Curse of Evangelion" src="https://www.youtube.com/embed/RDHSl6ZYZCg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video" title="The Curse of Evangelion" src="https://www.youtube.com/embed/rHIvs0Q-uKI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <svelte:head>
   <script src="../youtube.external.subtitle.min.js"></script>
   <script src="../subtitles.parser.js"></script>
