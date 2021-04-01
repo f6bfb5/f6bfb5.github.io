@@ -402,6 +402,145 @@ settings.addButton("meow", () => {
 | [Heisenberg Ipsum](http://heisenbergipsum.com/)                             |      |      |
 | [MoreText.js 一用就愛上的中文假文生產器](http://more.handlino.com/)         |      |      |
 
+### 字體
+
+#### 等寬
+
+| 名稱                                                                                     | 範例 |
+| ---------------------------------------------------------------------------------------- | ---- |
+| [Myrica](https://myrica.estable.jp/)                                                     |      |
+| [Input Fonts](https://input.djr.com/)                                                    |      |
+| [FireflySung]([Index of /apt/firefly-font](http://www.study-area.org/apt/firefly-font/)) |      |
+| [FiraCode](https://github.com/tonsky/FiraCode)                                           |      |
+
+#### 點陣
+
+| 名稱                                                               | 範例 |
+| ------------------------------------------------------------------ | ---- |
+| [Silver](https://poppyworks.itch.io/silver)                        |      |
+| [Zpix (最像素)](https://github.com/SolidZORO/zpix-pixel-font)      |      |
+| [美咲フォント](https://littlelimit.net/misaki.htm)                 |      |
+| [k8x12](https://littlelimit.net/k8x12.htm)                         |      |
+| [k12x8](https://littlelimit.net/k12x8.htm)                         |      |
+| [GNU Unifont](https://fontlibrary.org/en/font/gnu-unifont)         |      |
+| [Osaka](http://ifs.nog.cc/osakattf.hp.infoseek.co.jp/)             |      |
+| [精品點陣體 7×7](https://fontspeech.blogspot.com/2020/08/77.html)  |      |
+| [自家製ドットフォントシリーズ](http://jikasei.me/font/jf-dotfont/) |      |
+| [PixelMPlus](http://itouhiro.hatenablog.com/entry/20130602/font)   |      |
+| [じゃっきーふぉんと](https://nonty.net/font/freefont/jackey-font/) |      |
+| [ワープロ明朝](https://github.com/irori/wapuro-mincho)             |      |
+
+#### 黑體
+
+| 名稱                                                                  | 範例 |
+| --------------------------------------------------------------------- | ---- |
+| [Mgen+](http://jikasei.me/font/mgenplus/)                             |      |
+| [源樣黑體](https://github.com/ButTaiwan/genyog-font)                  |      |
+| [源石黑體](https://github.com/ButTaiwan/genseki-font)                 |      |
+| [源暎ラテゴ/ラテミン](https://okoneya.jp/font/genei-latin.html)       |      |
+| [源暎 Nu ゴシック](https://okoneya.jp/font/genei-nu-gothic.html)      |      |
+| [ロゴたいぷゴシック](http://www.fontna.com/blog/1226/)                |      |
+| [コーポレート・ロゴ](https://logotype.jp/corporate-logo-font-dl.html) |      |
+| [デラゴシック](https://github.com/syakuzen/DelaGothic)                |      |
+| [超極細ゴシック](http://font.websozai.jp/index.html)                  |      |
+| [鉄瓶ゴシック](http://fontna.com/freefont/?p=12)                      |      |
+| [やさしさゴシック手書き](http://fontna.com/freefont/?p=40)            |      |
+| [マキナス](https://moji-waku.com/makinas/)                            |      |
+| [マメロン](https://moji-waku.com/mamelon/)                            |      |
+| [GLT-ごぬんね](https://booth.pm/ja/items/687528)                      |      |
+| [GN-キルゴ](http://getsuren.com/killgoU.html)                         |      |
+| [機械彫刻用標準書体フォント](http://font.kim/)                        |      |
+
+#### 圓體
+
+[jf open 粉圓](https://github.com/justfont/open-huninn-font)
+[源泉圓體](https://github.com/ButTaiwan/gensen-font)
+
+#### 明體／宋體
+
+| 名稱                                                                           | 範例 |
+| ------------------------------------------------------------------------------ | ---- |
+| [源樣明體](https://github.com/ButTaiwan/genyo-font)                            |      |
+| [源雲明體](https://github.com/ButTaiwan/genwan-font)                           |      |
+| [花園明朝](http://fonts.jp/hanazono/)                                          |      |
+| [装甲明朝](https://www.flopdesign.com/freefont/soukou.html)                    |      |
+| [焚火フォント](https://fontgraphic.jp/takibifont)                              |      |
+| [Oradano 明朝](http://www.asahi-net.or.jp/~sd5a-ucd/freefonts/Oradano-Mincho/) |      |
+| [叛逆明朝](https://www.fontspace.com/hangyaku-font-f31195)                     |      |
+| [令東齊伋體](https://github.com/LingDong-/qiji-font)                           |      |
+
+#### 綜藝／POP 風字體
+
+| 名稱                                                                                | 範例 |
+| ----------------------------------------------------------------------------------- | ---- |
+| [チェックポイントフォント](http://marusexijaxs.web.fc2.com/quizfont.html#quizfont2) |      |
+| [たぬき油性マジック](https://tanukifont.com/tanuki-permanent-marker/)               |      |
+| [たぬゴ](https://tanukifont.com/tanugo/)                                            |      |
+| [851 マカポップ](https://pm85122.onamae.jp/851mkpop.html)                           |      |
+| [ラノベ POP](http://www.fontna.com/blog/1706/)                                      |      |
+| [にしき的フォント](https://umihotaru.work/)                                         |      |
+| [あははもじもじフォント](https://www.flopdesign.com/font7/ahahamojimoji-font.html)  |      |
+| [りいポップ角](http://aoirii.babyblue.jp/font/riipopkk/index.html)                  |      |
+| [プイッコ](https://aratakana.booth.pm/items/2094461)                                |      |
+| [日協 Sans](https://www.fontspace.com/nikkyou-sans-font-f31053)                     |      |
+| [しねきゃぷしょん](https://www.vector.co.jp/soft/data/writing/se314690.html)        |      |
+| [桜鯰フォント](https://twitter.com/ounen774/status/95830677177643009)               |      |
+| [怨霊](http://www.ankokukoubou.com/font/onryou.htm)                                 |      |
+| [新蒂字體](https://www.sentyfont.com/download.htm)                                  |      |
+| [WD-XL 滑油字](https://github.com/NightFurySL2001/WD-XL-font)                       |      |
+
+#### 手寫風字體
+
+| 名稱                                                                         | 範例 |
+| ---------------------------------------------------------------------------- | ---- |
+| [瀬戸フォント](https://nonty.net/font/freefont/setofont/)                    |      |
+| [あくあフォント](https://www.vector.co.jp/soft/data/writing/se244261.html)   |      |
+| [みかちゃん](http://mikachan.osdn.jp/dl.html)                                |      |
+| [ふい字](https://studio-kikoro.appspot.com/blog/20151208_font.html)          |      |
+| [851 チカラヨワク](https://pm85122.onamae.jp/851ch-yw.html)                  |      |
+| [851 チカラヅヨク](https://pm85122.onamae.jp/851ch-dz.html)                  |      |
+| [851 手書き雑フォント](https://pm85122.onamae.jp/851fontpage.html)           |      |
+| [アームド・レモン](https://www.vector.co.jp/soft/data/writing/se334877.html) |      |
+| [ホリディ MDJP05](http://mksd.jp/holiday05.html)                             |      |
+| [殴り書きクレヨン](http://font.sumomo.ne.jp/font_2.html)                     |      |
+| [仕事メモ書き](http://font.sumomo.ne.jp/shigoto.html)                        |      |
+| [遊びメモ書き](http://font.sumomo.ne.jp/asobi.html)                          |      |
+| [KF ひま字](https://www.kfstudio.net/font/kfhimaji/)                         |      |
+| [Y.Oz Vox](http://yozvox.web.fc2.com/82788144826E829A81408275828F8298.html)  |      |
+| [清松手寫體](https://github.com/jasonhandwriting/JasonHandwriting)           |      |
+
+#### 純英數字體
+
+| 名稱                                                      | 範例 |
+| --------------------------------------------------------- | ---- |
+| [x0y0pxFreeFont](http://www17.plala.or.jp/xxxxxxx/00ff/)  |      |
+| [Futi Block Font](https://booth.pm/ja/items/2128837)      |      |
+| [アナログテレビフォント](https://booth.pm/ja/items/15234) |      |
+
+#### 平假、片假字體
+
+[アンニャントロマン](http://inatsuka.com/extra/toroman/)
+[コブラフォント](https://ch.nicovideo.jp/ebayan-blog/blomaga/ar1720729)
+
+#### 不可商用 or 需聯絡
+
+[大甘書道体](http://fontlab.web.fc2.com/sweetheavycalligraphy.html)
+[中森工芸 筆文字](https://booth.pm/ja/items/1166197)
+[えるまー](https://www.vector.co.jp/download/file/data/writing/fh453621.html)
+[みきゆ FONT](http://sozaiya405.chu.jp/405/font.htm)
+[S2G メモ](http://s2g.jp/font/index.htm)
+[しょかきうたげ](https://shokaki.hatenablog.jp/entry/2019/08/06/172131)
+[ainezunouzu フォント](https://web.archive.org/web/20190104214816/http://www.geocities.jp/o030b/ainezunouzu/font/font20121018.html)
+[三丁目フォント](https://web.archive.org/web/20190330044820/http://www.geocities.jp/bokurano_yume/)
+[ラムダシステム日本語書体](https://www.lambda.co.jp/contents/font_japanese.html)
+[SH G30](http://smart-pda.net/isourou/other/e830w/Chapter-0402.html)
+Sword Kanji Font(不明)
+
+#### 參考資料
+
+[フォントの館](https://www.ne.jp/asahi/krk/kct/font/index.htm)
+[FREE JAPANESE FONTS](https://www.freejapanesefont.com/)
+
 ### 轉換
 
 | 名稱                                                             | 說明                            | 付費 |

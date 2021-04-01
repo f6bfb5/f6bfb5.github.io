@@ -66,9 +66,9 @@ if (rawContent.indexOf(EXCERPT_SEPARATOR) !== -1) {
 // ...
 ```
 
-### 更新之後
+### 更新版本
 
-如果你升級了相依套件，可能會跳出與 `rollup-plugin-svelte` 相關的編譯錯誤，網頁也會出現錯誤，這是因為相關記述方式有修改的關係：
+如果你用 `npm run update` 升級了相依套件，可能會跳出與 `rollup-plugin-svelte` 相關的編譯錯誤，網頁也會出現錯誤，這是因為相關記述方式有修改的關係：
 
 - [sveltejs/rollup-plugin-svelte](https://github.com/sveltejs/rollup-plugin-svelte)
 
@@ -394,7 +394,7 @@ export function get(req, res, next) {
 
 ### 響應式 iframe
 
-當想在文章裡面放入 Youtube 嵌入影片時，還需要另外修改 `iframe` 部份的 CSS 實作響應式效果，避免在視窗大小改變或在手機上瀏覽時，造成版面跑掉
+如果想在文章裡放入 Youtube 嵌入影片，還需要另外修改 `iframe` 部份的 CSS 實作響應式效果，避免在視窗大小改變或在手機上瀏覽時，造成版面跑掉
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OGWO3u8zgTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -412,6 +412,12 @@ iframe {
 ```
 
 - [Responsive iframe without a parent container - DEV Community](https://dev.to/bitdweller/responsive-iframe-without-a-parent-container-367k)
+
+### 留言
+
+（待）
+
+有數套如 [Commento](https://github.com/adtac/commento)、[Remark42](https://remark42.com/demo/)、[Isso](https://posativ.org/isso/) 的 self-hosted 留言版，可以搭配 Heroku 使用 [commento-heroku](https://github.com/fidiego/commento-heroku) 架設
 
 ### 頁面切換動態效果
 

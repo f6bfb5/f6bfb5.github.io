@@ -216,7 +216,7 @@ layout: blog
 | [ニコ生の録画方法 まとめ](https://ch.nicovideo.jp/nico-lab/blomaga/ar8759)                   |      |      |
 | [FlickrDownloader]                                                                           |      |      |
 
-## 遊戲
+## 遊戲相關
 
 ### 螢幕資料參考
 
@@ -249,24 +249,22 @@ layout: blog
 | [GS Mode Selector](https://www21.atwiki.jp/improper_code/sp/pages/85.html)          |      |      |
 | [HD_Project](https://www21.atwiki.jp/improper_code/sp/pages/69.html)                |      |      |
 
-### 視窗化
+### 視窗化工具
 
-| 名稱                                                                                             | 說明 | 付費 |
-| ------------------------------------------------------------------------------------------------ | ---- | ---- |
-| [dxwnd](https://www.majorgeeks.com/files/details/dxwnd.html)                                     |      |      |
-| [WindowedBorderlessGaming](https://westechsolutions.net/sites/WindowedBorderlessGaming/download) |      |      |
-| 3DAnalyzer                                                                                       |      |      |
-| D3DWindower                                                                                      |      |      |
+| 名稱                                                                                             | 說明                                                     | 付費 |
+| ------------------------------------------------------------------------------------------------ | -------------------------------------------------------- | ---- |
+| [WindowedBorderlessGaming](https://westechsolutions.net/sites/WindowedBorderlessGaming/download) | 無邊界啟動遊戲                                           |      |
+| [dxwnd](https://www.majorgeeks.com/files/details/dxwnd.html)                                     | 遊戲視窗化工具                                           |      |
+| [D3DWindower](https://ux.getuploader.com/Honihoni_Republic/download/21)                                                                                      | 遊戲視窗化工具                                           |      |
+| [3D-Analyzer](http://www.3dfxzone.it/dir/tools/3d_analyze/index.php)                             | 透過模擬改善顯示卡效能與視覺效果，亦可用於調整遊戲解析度 |      |
 
-### 解密
+### 資料解密
 
-| 名稱                              | 說明 | 付費 |
-| --------------------------------- | ---- | ---- |
-| [Ghidra](https://ghidra-sre.org/) |      |      |
-| ARCtool                           |      |      |
-| DDDATool                          |      |      |
-| tilemolester                      |      |      |
-| tim2view                          |      |      |
+| 名稱                              | 說明             | 付費 |
+| --------------------------------- | ---------------- | ---- |
+| [Ghidra](https://ghidra-sre.org/) | 逆向工程         |      |
+| tilemolester                      | 遊戲素材編輯工具 |      |
+| tim2view                          | tim 檔編輯工具   |      |
 
 ## 資安
 

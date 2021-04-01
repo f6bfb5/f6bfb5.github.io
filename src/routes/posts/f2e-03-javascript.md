@@ -60,10 +60,17 @@ layout: blog
 
 </details>
 
+## ECMAScript
+
+- ECMAScript 的規格於 ECMA 的 TC39 裡制定
+  - [ECMA TC39](https://www.ecma-international.org/technical-committees/tc39/)
+  - [GitHub organization](https://github.com/tc39)
+- [Node.js ES2015/ES6, ES2016 and ES2017 support](https://node.green/)
+
+## JavaScript
+
 - [JavaScript Primer](https://jsprimer.net/#javascript-primer)
 - [現代の JavaScript チュートリアル](https://ja.javascript.info/)
-- [JavaScript 竹白記事本](https://hackmd.io/@chupai/rkBjZjh7H/)
-- [邁向 JavaScript 勇者之路](https://ithelp.ithome.com.tw/users/20083608/ironman/1354)
 - [語言技術：ECMAScript Essence](https://openhome.cc/Gossip/ECMAScript/index.html)
 - [從 ES6 開始的 JavaScript 學習生活](https://eyesofkids.gitbooks.io/javascript-start-from-es6/content/)
 
@@ -1015,6 +1022,7 @@ function square(number) {
 ### TypeScript
 
 - [TypeScript 新手指南](https://willh.gitbook.io/typescript-tutorial/)
+- [仕事ですぐに使える TypeScript](https://future-architect.github.io/typescript-guide/)
 
 ### API Mocking
 
@@ -1036,3 +1044,4 @@ function square(number) {
 - [JS 原力覺醒 — Event Queue & Event Loop 、Event Table](https://medium.com/walkout/js-%E5%8E%9F%E5%8A%9B%E8%A6%BA%E9%86%92-day13-event-queue-event-loop-event-table-374fbbef3e40)
 - [覺得 JavaScript function 很有趣的我是不是很奇怪 - Huli](https://blog.huli.tw/2020/04/18/javascript-function-is-awesome/)
 - [深入現代前端開發](https://f2e.kalan.dev/)
+- [JavaScript Promise の本](https://azu.github.io/promises-book/)

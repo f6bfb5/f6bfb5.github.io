@@ -10,13 +10,54 @@ layout: blog
 
 ## part1[DEATH NOTE]
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kvvUiXc6m7U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video-1" title="Pause and Select Understanding the Disaster 1" width="560" height="315" src="https://www.youtube.com/embed/kvvUiXc6m7U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<svelte:head>
+  <script src="../youtube.external.subtitle.min.js"></script>
+  <script src="../subtitles.parser.js"></script>
+</svelte:head>
+
+<script>
+  window.onload = function() {
+    var loadSRT = function(url, callback) {
+      var httpRequest = new XMLHttpRequest();
+      httpRequest.onreadystatechange = function() {
+        if (httpRequest.readyState === XMLHttpRequest.DONE) {
+          var subtitles = parser.fromSrt(httpRequest.responseText, true);
+          for (var i in subtitles) {
+            subtitles[i] = {
+              start : subtitles[i].startTime / 1000,
+              end   : subtitles[i].endTime / 1000,
+              text  : subtitles[i].text
+            };
+          }
+          callback(subtitles);
+        }
+      };
+      httpRequest.open('GET', url, true);
+      httpRequest.send(null);
+    };
+    loadSRT('../ACG-the-curse-of-evangelion.srt', function(subtitles) {
+      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.  getElementById('video-1'), subtitles);
+    });
+    loadSRT('../ACG-the-curse-of-evangelion.srt', function(subtitles) {
+      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.  getElementById('video-2'), subtitles);
+    });
+    loadSRT('../ACG-the-curse-of-evangelion.srt', function(subtitles) {
+      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.  getElementById('video-3'), subtitles);
+    });
+    loadSRT('../ACG-the-curse-of-evangelion.srt', function(subtitles) {
+      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.  getElementById('video-4'), subtitles);
+    });
+  }
+</script>
+
+註：中文字幕使用外掛方式載入，如果未載入成功，請重新整理頁面。
 
 - 日文翻譯：https://nico.ms/sm33744630
 
-嘿，這真是有趣。我們來聊聊小畑健和大場つぐみ這對搭檔創造的名作，《死亡筆記本》動畫版所省略的，原作漫畫的第 108 話吧。在這話裡世界的復原與奇樂留下的影響形成對比，犯罪和墮落再次興起，世界恢復至原有的秩序，畫面之後帶到奇樂信徒們悲傷行進的隊列，進行祈願奇樂復活的儀式，若要我們直接先給出這段內容的主題，其重點在於「不變的世界」。
+嘿，這真是有趣。我們來聊聊小畑健和大場つぐみ這對搭檔創造的名作，《死亡筆記本》動畫版所省略的，原作漫畫的第 108 話吧。在這話裡，即使仍能窺見奇樂留下的影響，世界各處的犯罪和墮落再次興起、蔓延，一切「恢復」至原有的秩序，最後幾頁，畫面帶到奇樂信徒們悲傷行進的隊列，進行祈願奇樂復活的儀式，這種「不變的世界」與奇樂所留下影響的對比，正是重點所在。
 
-《死亡筆記本》的故事講述的是，擁有殺人筆記本的主角夜神月，如何透過筆記本達成殺人技倆等等，內容相當有趣，但在這次影片裡我們不會提及；試圖把持死亡筆記本成為新世界的神的夜神月，以及自稱為「L」 的名偵探出現，之後進到奇樂和 L 的鬥智過程故事。
+《死亡筆記本》的故事講述的是，擁有殺人筆記本的主角，夜神月為中心的推理懸疑劇，作品的醍醐味在於，如何透過筆記本達成殺人技倆、會受到的制約等等，但在這次影片裡我們不會提及；主角月試圖殺害犯罪者，創造公正的新世界，君臨為新世界的王，自稱為「L」的名偵探與國際警察挺身而出，展開和奇樂的鬥智過程。
 
 漫畫和動畫在結局上的差異有個有趣的點，裡頭其實有個共通的普世概念， 「終末信仰／啟示文學（Apocalypticism）」，透過混合各式各樣的末世概念，《死亡筆記本》絕妙地刻畫出日本社會的病理。這麼一說也許會有人覺得怪異，講到啟示錄，人們聯想到的會是更偏向物理層面上的破壞，以動畫的知名例子來說就是《AKIRA》裡的新東京廢墟，《AKIRA》裡的「啟示錄」是表現於物理層面上的。而在《死亡筆記本》裡，尤其在故事初期，社會秩序是正常運作著的，即使在政治層面上服從於奇樂，也沒有導致秩序崩壞，月也還是會去學校，有著朋友和工作，因此這裡所說的「啟示錄」指的並不是破壞，而是更接近於這個詞彙語源的用法。
 
@@ -39,7 +80,7 @@ layout: blog
 
 ## Part2[AKIRA]
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L5XeDQ6sb2g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video-2" title="Pause and Select Understanding the Disaster 2" width="560" height="315" src="https://www.youtube.com/embed/L5XeDQ6sb2g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - 日文翻譯：https://nico.ms/sm33748001
 
@@ -94,7 +135,7 @@ Christopher Bolton 說道：「阿基拉是在戰後成長時，被埋藏起來�
 
 ## Part3[EVA]
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dCKZQphDyLY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video-3" title="Pause and Select Understanding the Disaster 3" width="560" height="315" src="https://www.youtube.com/embed/dCKZQphDyLY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - 日文翻譯：https://nico.ms/sm33751637
 
@@ -162,7 +203,7 @@ Christopher Bolton 說道：「阿基拉是在戰後成長時，被埋藏起來�
 
 ## Part Final[橫濱購物紀行]
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/npLVlJTH_mk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video-4" title="Pause and Select Understanding the Disaster 4" width="560" height="315" src="https://www.youtube.com/embed/npLVlJTH_mk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - 日文翻譯：http://www.nicovideo.jp/watch/sm30478904
 
