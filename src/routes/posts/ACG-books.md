@@ -30,8 +30,10 @@ tags: ACG
 - 2001 - \[東浩紀\] [動物化的後現代：御宅族如何影響日本社會](http://www.books.com.tw/products/0010550849)
 - 2001 - \[傻呼嚕同盟\] [動漫 2001](https://www.taaze.tw/goods/11100412613.html)
 - 2002 - \[富野由悠季\] [映像の原則](https://www.amazon.co.jp/%E6%98%A0%E5%83%8F%E3%81%AE%E5%8E%9F%E5%89%87-%E6%94%B9%E8%A8%82%E7%89%88-%E3%82%AD%E3%83%8D%E3%83%9E%E6%97%AC%E5%A0%B1%E3%83%A0%E3%83%83%E3%82%AF-%E5%AF%8C%E9%87%8E%E7%94%B1%E6%82%A0%E5%AD%A3/dp/4873767369)
+  <br>└ [影像的原則：初學者到專業人士的分鏡](https://www.books.com.tw/products/0010653673)
 - 2002 - \[今敏\] [千年女優之道](https://www.books.com.tw/products/0010834619)
 - 2004 - \[大塚英志\] [「おたく」の精神史　一九八〇年代論](https://www.amazon.co.jp/%E3%80%8C%E3%81%8A%E3%81%9F%E3%81%8F%E3%80%8D%E3%81%AE%E7%B2%BE%E7%A5%9E%E5%8F%B2-%E4%B8%80%E4%B9%9D%E5%85%AB%E3%80%87%E5%B9%B4%E4%BB%A3%E8%AB%96-%E5%A4%A7%E5%A1%9A-%E8%8B%B1%E5%BF%97/dp/4061497030)
+- 2005 - \[秋田孝宏\] [「コマ」から「フィルム」へ : マンガとマンガ映画](https://www.amazon.co.jp/%E3%80%8C%E3%82%B3%E3%83%9E%E3%80%8D%E3%81%8B%E3%82%89%E3%80%8C%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0%E3%80%8D%E3%81%B8-%E3%83%9E%E3%83%B3%E3%82%AC%E3%81%A8%E3%83%9E%E3%83%B3%E3%82%AC%E6%98%A0%E7%94%BB-%E7%A7%8B%E7%94%B0-%E5%AD%9D%E5%AE%8F/dp/4757101325)
 - 2006 - \[陳仲偉\] [台灣漫畫文化史：從文化史的角度看台灣漫畫的興衰](https://www.books.com.tw/products/0010494545)
 - 2007 - \[東浩紀\] [遊戲性寫實主義的誕生：動物化的後現代 2](https://www.books.com.tw/products/0010687643)
 - 2007 - \[星山博之\] [星山博之のアニメシナリオ教室](https://www.amazon.co.jp/%E6%98%9F%E5%B1%B1%E5%8D%9A%E4%B9%8B%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E6%95%99%E5%AE%A4-%E6%98%9F%E5%B1%B1-%E5%8D%9A%E4%B9%8B/dp/4844134353)
@@ -40,6 +42,7 @@ tags: ACG
   <br>└ [宇野常寬《零零年代的想像力》翻譯計劃](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22105NCHU5625016%22.&searchmode=basic)
 - 2008 - \[岡田斗司夫\] [阿宅，你已經死了！](https://www.books.com.tw/products/0010445911)
 - 2008 - \[宮崎駿\] [折返點 1997－2008](https://www.books.com.tw/products/0010486951)
+- 2009 - \[神村幸子\] [アニメーションの基礎知識大百科](https://www.amazon.co.jp/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E5%9F%BA%E7%A4%8E%E7%9F%A5%E8%AD%98%E5%A4%A7%E7%99%BE%E7%A7%91-%E5%A2%97%E8%A3%9C%E6%94%B9%E8%A8%82%E7%89%88-%E7%A5%9E%E6%9D%91-%E5%B9%B8%E5%AD%90/dp/4766133315)
 
 <summary>
 
@@ -288,11 +291,17 @@ tags: ACG
 - 2011 - \[趙永佳\] [日本．趣味．想像 ─ 八十後御宅筆記](https://www.cp1897.com.hk/product_info.php?BookId=9789881522054)
 - 2012 - \[Marc Steinberg\] [Anime's Media Mix: Franchising Toys and Characters in Japan](https://www.amazon.co.jp/dp/B0080NQ6N4/?coliid=I3PXUGTXPC44CE&colid=2UVGXM7KR6OLP&psc=0&ref_=lv_ov_lig_dp_it)
 - 2013 - \[大塚康生\] 作画汗まみれ
+- 2013 - \[鈴木敏夫\] [風に吹かれて](https://www.amazon.co.jp/%E9%A2%A8%E3%81%AB%E5%90%B9%E3%81%8B%E3%82%8C%E3%81%A6-%E9%88%B4%E6%9C%A8-%E6%95%8F%E5%A4%AB/dp/4120045293)
+  <br>└ [順風而起](https://www.books.com.tw/products/0010639181)
 - 2014 - [另眼看御宅：跨媒體傳播下的日本文化剪影](https://www.books.com.tw/products/0010620148)
 - 2014 - [西尾維新対談集 本題](https://www.amazon.co.jp/%E8%A5%BF%E5%B0%BE%E7%B6%AD%E6%96%B0%E5%AF%BE%E8%AB%87%E9%9B%86-%E6%9C%AC%E9%A1%8C-%E8%A5%BF%E5%B0%BE-%E7%B6%AD%E6%96%B0/dp/4062191075)
 - 2015 - \[Ian Condry\] [動畫之魂：創意合作的日本動畫產業](https://www.books.com.tw/products/0010693406)
 - 2015 - [動漫社會學：別說得好像還有救](https://www.books.com.tw/products/0010685843)
 - 2015 - \[余曜成\] [動漫透視鏡](https://www.books.com.tw/products/0010664635)
+- 2015 - \[日経エンタテインメント!編集部\](https://www.amazon.co.jp/%E7%B4%B0%E7%94%B0%E5%AE%88%E3%81%A8%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA%E5%9C%B0%E5%9B%B3%E3%81%AE%E4%BB%95%E4%BA%8B-%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA%E5%9C%B0%E5%9B%B3/dp/4822278417)
+  <br>└ [沒有人到過的地方：細田守的動畫世界](https://www.books.com.tw/products/0010745367)
+- 2015 - \[川上量生\] [コンテンツの秘密ぼくがジブリで考えたこと](https://www.amazon.co.jp/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%81%AE%E7%A7%98%E5%AF%86-%E3%81%BC%E3%81%8F%E3%81%8C%E3%82%B8%E3%83%96%E3%83%AA%E3%81%A7%E8%80%83%E3%81%88%E3%81%9F%E3%81%93%E3%81%A8-%EF%BC%AE%EF%BC%A8%EF%BC%AB%E5%87%BA%E7%89%88%E6%96%B0%E6%9B%B8-%E5%B7%9D%E4%B8%8A-%E9%87%8F%E7%94%9F-ebook/dp/B00VVKIBF4)
+  <br>└ [我在吉卜力思考的事：內容力，想像力、感受力、創造力，宮崎駿動畫打動人心的祕密！](https://www.books.com.tw/products/0010779600)
 - 2016 - [動漫社會學：本本的誕生](https://www.books.com.tw/products/0010726836)
 - 2016 - [メディア・コンテンツ論](https://www.amazon.co.jp/dp/4779509726/?coliid=I2JGCTRJ4CVXXB&colid=2UVGXM7KR6OLP&psc=1&ref_=lv_ov_lig_dp_it)
 - 2017 - \[Marc Steinberg\] [Media Theory in Japan](https://www.amazon.co.jp/dp/B06XCVZ7WX/?coliid=I30IWKBH1Y0Q4T&colid=2UVGXM7KR6OLP&psc=0&ref_=lv_ov_lig_dp_it)

@@ -214,7 +214,7 @@ settings.addButton("meow", () => {
 
 </details>
 
-## 設計用工具
+## 設計輔助
 
 ### 設計流程
 
@@ -230,7 +230,7 @@ settings.addButton("meow", () => {
 | [Modularscale](https://www.modularscale.com/?1&em&1.618)                   | 檢視字級視覺效果                    |      |
 | [reference for HTML Symbols](https://www.toptal.com/designers/htmlarrows/) | HTML 符號                           |      |
 
-### 色彩網站
+### 色彩工具
 
 | 名稱                                                                                         | 說明                                        | 付費 |
 | -------------------------------------------------------------------------------------------- | ------------------------------------------- | ---- |
@@ -248,7 +248,7 @@ settings.addButton("meow", () => {
 | [Color Tool - Material Design](https://material.io/resources/color/)                         | 由 Google 開發的 UI 配色參考工具網站        |      |
 | [Paletton - The Color Scheme Designer](https://paletton.com/)                                | 提供自由選取主色明暗程度的色票組            |      |
 | [BrandColors](http://brandcolors.net/)                                                       | 各大知名品牌使用的顏色整理                  |      |
-| [Colorable](https://colorable.jxnblk.com/)                                                   | 提供評比兩個顏色的對比舒適度                |      |
+| [Colorable](https://colorable.jxnblk.com/)                                                   | 提供兩個顏色的對比舒適度評比                |      |
 | [Color Leap](https://colorleap.app/home)                                                     | 各個時代的代表色整理                        |      |
 | [Sass Color Generator](http://scg.ar-ch.org/)                                                | 調整 SASS 顏色變數                          |      |
 | [CSS Gradient](https://cssgradient.io/)                                                      | 產生漸層色                                  | FREE |
@@ -287,7 +287,7 @@ settings.addButton("meow", () => {
 | 名稱                                                                | 說明                         | 付費             |
 | ------------------------------------------------------------------- | ---------------------------- | ---------------- |
 | [FontAwesome](https://fontawesome.com/)                             | 純 CSS 的向量圖示庫          | 有免費版與付費版 |
-| [Fontello](https://fontello.com/)                                   | 可依要求單獨挑選的圖示庫     |                  |
+| [Fontello](https://fontello.com/)                                   | 可依需求單獨挑選的圖示庫     |                  |
 | [CSS Icons](https://css.gg/)                                        | 開源 icons                   | FREE             |
 | [Icones](https://icones.netlify.app/)                               | 各家 icon 資源總整理         |                  |
 | [iconmonstr](https://iconmonstr.com/)                               | 向量圖示庫                   |                  |
