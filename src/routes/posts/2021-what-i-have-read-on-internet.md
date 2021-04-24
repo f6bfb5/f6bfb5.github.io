@@ -188,6 +188,9 @@ date: 2021-12-31T06:00:00.000Z
 > 「エヴァって庵野がディレクションしたものだけが絶対的な本質って認識が強いからなあ。パチンコになっても擦り減らないし、スパロボでハッピーエンド作っても大して救われた気にならない。」
 
 - [やらおんとはちま起稿の無断転載に対して弁護士と法的措置を取ったまとめ｜グダちん｜ note](https://note.com/nuryouguda/n/n8a6385b8ae74)
+- [「映画を早送りで観る人たち」の出現が示す、恐ろしい未来（稲田 豊史） | 現代ビジネス | 講談社（1/6）](https://gendai.ismedia.jp/articles/-/81647)
+- [映画を倍速で見ることのなにがわるいのか｜ obakeweb ｜ note](https://note.com/obakeweb/n/n156d95779074)
+- [映像作品の倍速視聴は何を取りこぼすのか、銭さんへのリプライ - 昆虫亀](https://morinorihide.hatenablog.com/entry/2021/03/30/011218)
 
 ## 4 月
 
@@ -198,3 +201,14 @@ date: 2021-12-31T06:00:00.000Z
 - [40 代の分厚い独身層が 20 代よりエンタメに金を使うので市場がそっちになびくという話、クラークの「幼年期の終わり」の終盤で次世代の精神生命体化により生物としては存続不可能になった人類が残りの資源を使って派手に暮らしながら緩慢に滅びていくのを"最後の日々の貴族たち"と呼ぶくだりを思い出す / Twitter](https://twitter.com/masa_nautilidae/status/1378956732500647936?s=21)
 - [ここがヘンだよ農業チート - 「中世ヨーロッパでは播いた量の 3 倍しか収穫がなかった」](https://ncode.syosetu.com/n0132dz/1/)
 - [なつかしいなぁ 正直 0 年代の 2ch ではネトウヨしてた その前にもアングラ系サ..](https://anond.hatelabo.jp/20201113200214)
+- [エヴァンゲリオン公式がネタバレを解禁したというのに胡乱な客は幻覚の話ばかりしている - Togetter](https://togetter.com/li/1689542)
+- [『ドラゴンクエスト 3』ファミコン版なんでもあり RTA が加熱。『ファイナルファンタジー』『ドクターマリオ』『星のカービィ 夢の泉の物語』を使った新チャート | AUTOMATON](https://automaton-media.com/articles/newsjp/20210406-157070/)
+- [「一つの時代が終わった気がする」ドン・キホーテ秋葉原店の AKB48 の広告が原神の広告に張り替えられていた - Togetter](https://togetter.com/li/1693753)
+- [「承認」から「責任」へ ──『シン・エヴァンゲリオン劇場版:||』における他者の問題 | UNLEASH](https://unleashmag.com/2021/04/09/evangelion-final/)
+- [私は明日海賊にはなれないが、小学生を襲うことはできる。"社会的責任"を茶化すのはマズいぜという話｜四谷三丁目｜ note](https://note.com/yo_tsu_ya_3/n/neda17138f9f7)
+- [今の大学生は物事に詳しい「オタク」に憧れているが回り道を嫌うので「最短距離でオタクになれる方法」を探しているらしい - Togetter](https://togetter.com/li/1695793)
+- [「マクロス」と「ロボテック」の日米合意は、なぜ歴史的なのか｜数土 直志(すど・ただし)｜ note](https://note.com/sudotadashi/n/nb36f20365fab)
+- [JRA がウマ娘を無視し、その一方で積み上げてきたクソコラボの歴史を知らずにクソコメつけてるブクマカに俺の怒りが有頂天 - Junchangchang の日記](https://junchangchang.hatenablog.com/entry/2021/04/12/124916)
+- [マンガの売り上げが 2020 年、過去最高になったことはもっと取り上げるべきニュースだ(篠田博之) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/shinodahiroyuki/20210417-00233227/)
+- [中研院追蹤二十年建立的動態家庭資料庫解密：臺灣的家庭觀念其實比中國還傳統？ | 故事 StoryStudio](https://storystudio.tw/article/gushi/domestic-division-of-labor/)
+- [女神転生やペルソナシリーズで、プレイヤーが人を殺す描写はどう変わったのか｜ surumeikaman ｜ note](https://note.com/surumeikaman/n/n199028ea55be)
