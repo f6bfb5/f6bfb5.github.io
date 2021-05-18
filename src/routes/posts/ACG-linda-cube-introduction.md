@@ -78,10 +78,10 @@ layout: blog
 
 現在《Again》雖然收錄在 Game Archives 裡，但這其中的經過非常的複雜。
 
-在 2007 年 9 月 27 日首次發布線上版本，由於權利相關問題，過了數小時後便中止發布。
+在 2007 年 9 月 27 日首次發布線上版本，由於權利相關問題，過了數小時後便中止串流。
 
 幾經波折後，終於在約 1 年後的 2008 年 9 月 10 日成功再次發布。
 
-對於這中間幾經波折的部份有興趣的人，請一定要去看看 Alpha System Mars 的部落格「[Linda Cube Again 收錄開始](http://www.alfasystem.net/a_m/diary.cgi?date=20080911)」。
+對於這中間幾經波折的部份有興趣的人，請一定要去看看 Alpha System Mars 的部落格「[Linda Cube Again 開始串流](http://www.alfasystem.net/a_m/diary.cgi?date=20080911)」。
 
-對於 Archive 發布有興趣的人而言，會是段相當有意思的故事。
+對於 Archive 串流有興趣的人而言，會是段相當有意思的故事。
