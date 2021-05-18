@@ -235,12 +235,12 @@ CSS 將每個內容元素的外觀架構區分為 `Margin`、`Border`、`Padding
 ##### 內容屬性
 
 - `flex-grow`：分配剩餘空間，預設值為 `0`
-- `flex-basis`：控制主軸長度（主軸為衡=寬度 width，主軸為縱=高度 height）
-  <br>權重比 width 和 height 大
 - `flex-shrink`：收縮比，預設值為 `1`
   <br>`( 子項目寬*收縮比/總比值 ) * 超出值 = 扣除值`
   <br>若設為 0 則由 basis 與 grow 進行計算
-- `flex-grow`、`flex-basis`、`flex-shrink` 可簡寫於 `flex` 屬性內
+- `flex-basis`：控制主軸長度（主軸為衡=寬度 width，主軸為縱=高度 height）
+  <br>權重比 width 和 height 大
+- `flex-grow`、`flex-shrink`、`flex-basis` 可簡寫於 `flex` 屬性內
 - `order`：設定元素所處順序，各個元素的預設值為 0
   <br>設定其中一個元素為 1 就會移到最右邊（其它為 0）
   <br>設定為 -1 則會移到最左邊

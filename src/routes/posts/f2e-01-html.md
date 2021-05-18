@@ -40,7 +40,9 @@ layout: blog
 
 ## What is HTML？
 
-HTML（HyperText Markup Language）是撰寫網頁結構用的標記語言，「標記語言」的意思是，它是直接將特定寫法轉換成對應架構，HTML 便是將許多不同標籤（ex. `<tag> ... </tag>`）轉換成瀏覽器上的內容架構和元素。
+HTML（HyperText Markup Language）是撰寫網頁結構用的標記語言，「標記語言」的意思是，它是直接將「特定寫法」轉換成「對應架構」，以 HTML 來說，就是將許多不同標籤（ex. `<tag> ... </tag>`）轉換成瀏覽器上的內容架構和元素。
+
+而一個最基本的標籤裡會有「名稱」與「屬性」，註記為 `<tagName attributeName="attributeValue">Content</tagName>`，名稱宣告這是什麼標籤，屬性宣告標籤性質，於第 4 點會再詳細解釋。
 
 - [HTML Standard 日本語訳](https://momdo.github.io/html/)
 
@@ -75,16 +77,23 @@ HTML（HyperText Markup Language）是撰寫網頁結構用的標記語言，「
 
 ### 2. `<html>`
 
-- 文件正文開始的標記
+- 標記文件正文開始
 - HTML 文件檔案的 ROOT（根元素）
 - 其他元素都會是此元素的後代
 - 可使用 `lang=代碼縮寫` 屬性標註此網頁所使用的語言（IETF 語言標籤）
-- 繁體中文的網頁通常使用 `<html lang="zh-TW">` 或是 `<html lang="zh-Hant">`
+- 繁體中文的網頁通常使用 `lang="zh-TW"` 或是 `lang="zh-Hant"`
 
 ### 3. `<head>`
 
 - 規範與網頁相關資訊（metadata）的區域
-- 可設置如 `<meta>` , `<base>` , `<title>` , `<style>` , `<link>` , `<script>` 等元素
+- 可設置
+  - `<meta>`：設定相關 metadata
+  - `<base>`：網頁相對路徑
+  - `<title>`：此網頁標題
+  - `<style>`：撰寫樣式
+  - `<link>`：引用樣式檔案
+  - `<script>`：引用 JavaScript 檔案或撰寫 JavaScript
+  - `<noscript>`：JavaScript 未執行時的替代顯示內容
 
 #### 3-1. metadata tag
 
@@ -130,7 +139,7 @@ HTML（HyperText Markup Language）是撰寫網頁結構用的標記語言，「
 | `og:type`        | 內容的媒體類型，每個網址都應該是單一物件，預設為 `website`                          |
 | `og:locale`      | 資源的地區設定，預設為 `en_US`，原生內容以非英文撰寫時才需設定                      |
 
-與 SEO 相關的，還有可以使用 `robots.txt` 告訴爬蟲遵循什麼規則抓取網頁，以及 `sitemap.xml` 告訴爬蟲整個網域裡存在的網頁。
+與 SEO 相關的，在 HTML 檔案之外還可以使用 `robots.txt` 告訴爬蟲遵循什麼規則抓取網頁，以及 `sitemap.xml` 告訴爬蟲整個網域裡存在的網頁。
 
 ```
 User-agent: *
@@ -155,7 +164,8 @@ sitemap: <sitemap.xml>
 - `class`
   <br>└ 通常是可以重複使用的 css 用命名
 - `id`
-  <br>├ 一個元素僅可有一個 id，通常用於 JS 中抓取該元素的辨識方式
+  <br>├ 一個元素僅可有一個 id
+  <br>├ 通常用於 JS 中抓取該元素的辨識方式
   <br>└ 建議留給程式開發／網頁規劃使用
 
 #### 4-2. 常見標籤
