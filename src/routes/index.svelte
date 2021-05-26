@@ -112,7 +112,7 @@
     {#if getAllPostsYears(posts.filter((p) =>
         arrayContainsAny(p.tags, selection)
       )).includes(year)}
-      <h2 in:slide={{ duration: 400 }} out:slide={{ duration: 200 }}>
+      <h2>
         {year}
       </h2>
     {/if}
@@ -120,7 +120,7 @@
       {#each posts
         .filter((p) => new Date(p.printDate).getFullYear() == year)
         .filter((p) => arrayContainsAny(p.tags, selection)) as post (post.slug)}
-        <li in:slide={{ duration: 400 }} out:slide={{ duration: 200 }}>
+        <li>
           <a rel="prefetch" href={post.slug}>{post.title}</a>
           {#if post.tags}
             {#each post.tags as tag}
