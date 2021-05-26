@@ -74,6 +74,8 @@ layout: blog
 
 CSS 將每個內容元素的外觀架構區分為 `Margin`、`Border`、`Padding`、`Content`，並藉此實作出精準的版面配置、元素排列效果，也就是所謂的 Box Model（盒模型）
 
+### Box Model
+
 - `Margin` 是容器外部（例如與其它容器之間）的留空距離，此空間是透明的
 - `Border` 是將內容與 Padding 包圍住的外框
 - `Padding` 是從容器到內容部份的留空距離，此空間是透明的
