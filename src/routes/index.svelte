@@ -139,15 +139,8 @@
     /* list-style: none; */
     list-style-position: inside;
   }
-  li,
-  li * {
-    vertical-align: middle;
-  }
   li::marker {
     content: "＠ ";
-  }
-  li a {
-    font-weight: 600;
   }
 
   .tag {
