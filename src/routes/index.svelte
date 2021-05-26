@@ -11,8 +11,6 @@
 </script>
 
 <script>
-  import { slide } from "svelte/transition";
-
   export let posts;
 
   const years = getAllPostsYears(posts);
