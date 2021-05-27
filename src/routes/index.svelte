@@ -86,26 +86,28 @@
 
 <div class="container">
   <h1>Articles</h1>
-  <input
-    class="tag-checkbox"
-    type="checkbox"
-    name="filterCheckbox"
-    id="All"
-    value="All"
-    on:click={checkAll}
-  />
-  <label class="tag tag-button" for="All">All</label>
-  {#each tags as tag}
+  <div class="tag-group">
     <input
       class="tag-checkbox"
       type="checkbox"
       name="filterCheckbox"
-      id={tag}
-      value={tag}
-      bind:group={selection}
+      id="All"
+      value="All"
+      on:click={checkAll}
     />
-    <label class="tag tag-button" for={tag}>{tag}</label>
-  {/each}
+    <label class="tag tag-button" for="All">All</label>
+    {#each tags as tag}
+      <input
+        class="tag-checkbox"
+        type="checkbox"
+        name="filterCheckbox"
+        id={tag}
+        value={tag}
+        bind:group={selection}
+      />
+      <label class="tag tag-button" for={tag}>{tag}</label>
+    {/each}
+  </div>
   {#each years as year}
     {#if getAllPostsYears(posts.filter((p) =>
         arrayContainsAny(p.tags, selection)
@@ -133,6 +135,7 @@
 </div>
 
 <style>
+  /* articles list */
   ul {
     margin: 0;
     padding: 0 1rem;
@@ -143,6 +146,7 @@
     content: "＠ ";
   }
 
+  /* tag list & tag button */
   .tag {
     padding: 0px 4px;
     border: 1px solid black;
@@ -154,8 +158,8 @@
   .tag-button {
     position: relative;
     display: inline-block;
-    background: #fff;
     color: #000;
+    background: #fff;
     z-index: 1;
     cursor: pointer;
     transition: all 0.3s ease;
