@@ -1,2 +1,3 @@
 .back-to-top.svelte-cjsxo8{position:fixed;bottom:2em;z-index:99;opacity:1;transition:opacity 0.5s, visibility 0.5s;color:white;background-color:black;user-select:none}.back-to-top.hidden.svelte-cjsxo8{opacity:0;visibility:hidden}
+@media all and (min-width: 1024px){.toc-dropdown.svelte-1txm98z.svelte-1txm98z{position:fixed;top:250px;left:calc((100vw - 720px) / 2 - 200px);max-width:150px}.toc--title.svelte-1txm98z.svelte-1txm98z{font-size:12px}.toc.svelte-1txm98z ul li.svelte-1txm98z{padding:0}}
 header.svelte-73z1by.svelte-73z1by{margin:0 auto;max-width:45em;width:100%;text-align:left}header.svelte-73z1by h1.svelte-73z1by{margin:0}header.svelte-73z1by p.svelte-73z1by{color:#aaa;text-transform:uppercase;font-weight:600}p.svelte-73z1by small.svelte-73z1by{margin-left:1em}
