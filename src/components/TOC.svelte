@@ -36,18 +36,33 @@
 </div>
 
 <style>
-  @media all and (min-width: 1024px) {
+  @media all and (min-width: 1150px) {
+    * {
+      /* outline: 1px solid black; */
+    }
     .toc-dropdown {
       position: fixed;
       top: 250px;
       left: calc((100vw - 720px) / 2 - 200px);
       max-width: 150px;
+      max-height: calc(100vh - 300px);
+      overflow-y: scroll;
     }
     .toc--title {
       font-size: 12px;
     }
+    .toc ul {
+      list-style-position: inside;
+      padding: 0;
+    }
     .toc ul li {
       padding: 0;
+    }
+    .toc ul li::marker {
+      content: "# ";
+    }
+    .toc ul li + li {
+      margin-top: 8px;
     }
   }
 </style>
