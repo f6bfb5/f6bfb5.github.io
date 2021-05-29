@@ -17,6 +17,7 @@
   export let post;
 
   import BackToTop from "../components/BackToTop.svelte";
+  import TOC from "../components/TOC.svelte";
 </script>
 
 <svelte:head>
@@ -69,6 +70,7 @@
 <div class="container">
   <article class="content">
     {@html post.html}
+    <TOC title={post.title} html={post.html} />
   </article>
   <BackToTop />
 </div>
