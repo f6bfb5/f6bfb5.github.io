@@ -86,6 +86,7 @@
 
 <div class="container">
   <h1>Articles</h1>
+  <!-- TAG FILTER -->
   <div class="tag-group">
     <input
       class="tag-checkbox"
@@ -108,10 +109,9 @@
       <label class="tag tag-button" for={tag}>{tag}</label>
     {/each}
   </div>
+  <!-- ARTICLES -->
   {#each years as year}
-    {#if getAllPostsYears(posts.filter((p) =>
-        arrayContainsAny(p.tags, selection)
-      )).includes(year)}
+    {#if getAllPostsYears(posts.filter( (p) => arrayContainsAny(p.tags, selection) )).includes(year)}
       <h2>
         {year}
       </h2>
@@ -146,6 +146,9 @@
     content: "＠ ";
   }
 
+  .tag-group {
+    padding: 0 16px;
+  }
   /* tag list & tag button */
   .tag {
     padding: 0px 4px;
