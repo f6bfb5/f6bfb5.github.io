@@ -36,8 +36,11 @@ npm run dev
 
 - `npx` 是 npm 在 v5.2.0 之後內建的指令，提供暫時性執行某個 npm 套件的功能
 - `degit` 是一套能供使用者直接取用現存 project 樣板的套件
+- 也可用 `npm i -g degit` 安裝後直接呼叫 `degit`
 
-## 基礎語法
+## 撰寫 Svelte
+
+### 基礎語法
 
 - svelte 與其它框架相同，使用獨有的 `.svelte` 副檔名撰寫
 - 每個檔案為獨立的 component，包含 Javascript、CSS 和 HTML
@@ -85,7 +88,7 @@ const app = new App({
   <br>│ 但 svelte 並沒有進行任何過濾處理，會有 XSS 攻擊的風險
   <br>└ 需確保此內容來自可信任的來源
 
-## Reactivity
+### Reactivity
 
 - 「Reactivity」意指指派值時會觸發的相關行為，類似 Vue 的 `computed`
 - svelte 以 `$:` 宣告 reactivity 內容
@@ -106,11 +109,11 @@ const app = new App({
   obj = obj;
   ```
 
-### Reactivity 搭配非同步處理
+#### Reactivity 搭配非同步處理
 
 - [Async reactive declarations · Issue #2118 · sveltejs/svelte](https://github.com/sveltejs/svelte/issues/2118)
 
-#### Reactive Statements
+##### Reactive Statements
 
 ```svelte
 <script>
@@ -125,7 +128,7 @@ $: fetch('https://api.npmjs.org/downloads/point/last-week/' + package_name)
 
 ```
 
-#### Derived Stores
+##### Derived Stores
 
 ```svelte
 <script>
@@ -154,7 +157,7 @@ const download_count = derived(
 
 ```
 
-## Props（屬性傳遞）
+### Props（屬性傳遞）
 
 - 想使用 props 傳入值時，需於 component 中的變數前加上 `export`
   <br>│ ex. `export let answer;`
@@ -164,9 +167,9 @@ const download_count = derived(
 - 亦可使用 `{...pkg}` 將物件傳進 component 的 props 內
   <br>└ ex. `<Info {...pkg}/>`
 
-## 邏輯判斷
+### 邏輯判斷
 
-### 分歧
+#### 分歧
 
 - svelte 提供了各種區塊語法，分歧區塊可依條件決定是否要 render 內容
   <br>│ 各區塊皆以 `#` 開頭，以 `/` 結尾，以 `:` 連接
@@ -182,7 +185,7 @@ const download_count = derived(
 {/if}
 ```
 
-### 遞迴
+#### 遞迴
 
 - 遞迴區塊可以遞迴陣列或 array-like 型態的資料
   <br>│ `{#each 變數 as 區域變數, index}` 開頭，`{/each}` 結尾
@@ -191,7 +194,7 @@ const download_count = derived(
   <br>└ `{#each 變數 as { 值1, 值2 }} ... {/each}`
 - 替 item 加上 key：`{#each things as thing (thing.id)}`
 
-### 非同步處理
+#### 非同步處理
 
 ```
 <script>
@@ -208,7 +211,7 @@ const download_count = derived(
 {/await}
 ```
 
-## 事件綁定
+### 事件綁定
 
 - bind event：`<div on:mousemove={handleMousemove}></div>`
   <br>└ 也可使用 inline 寫法：`<div on:click={() => console.log("clicked");}></div>`
@@ -222,7 +225,7 @@ const download_count = derived(
   <br>│ `once`
   <br>└ `self`
 
-### Event dispatcher
+#### Event dispatcher
 
 - svelte 亦提供了客製化事件的功能
 
@@ -258,7 +261,7 @@ const download_count = derived(
 {/if}
 ```
 
-## 資料綁定
+### 資料綁定
 
 - bind data (`v-model`)：
   <br>├ `<input bind:value={name}>`
@@ -292,7 +295,7 @@ const download_count = derived(
   </button>
   ```
 
-## [生命週期](https://svelte.dev/docs#svelte)
+### [生命週期](https://svelte.dev/docs#svelte)
 
 - 初始化：`beforeUpdate` -> `onMount` -> `afterUpdate`
 - 元件更新：`beforeUpdate` -> `afterUpdate`
@@ -314,7 +317,7 @@ onMount(() => {
 });
 ```
 
-## [Store](https://svelte.dev/docs#svelte_store)
+### [Store](https://svelte.dev/docs#svelte_store)
 
 - 統一保存資料管理狀態
 - Store 用於資料經常變動，並且需要跨元件使用時
@@ -322,7 +325,7 @@ onMount(() => {
 - 將想存於 store 的值以此 function 宣告即可，例如 `const count = writable(0);`
 - 以及 1 個 `subscribe()` 方法，用以處理元件的生命週期問題
 
-### `writable()`
+#### `writable()`
 
 - 可以使用 `update()` 或 `set()` 從外部修改 store 的值
 - `import { writable } from 'svelte/store'`
@@ -335,7 +338,7 @@ countdown.update((currentValue) => {
 countodnw.set(9);
 ```
 
-### `subscribe()`
+#### `subscribe()`
 
 - 所有的 svelte store 都有個 `subscribe` 方法
 - 當值更新時會進行通知，以及處理元件的生命週期問題
@@ -391,7 +394,7 @@ export const count = writable(0);
 <Incrementer />
 ```
 
-#### Auto-subscription
+##### Auto-subscription
 
 - 也可以在變數名稱前方加上 `$`，Svelte 就會自動 subscribe 此 store，同時處理 unsubscribe 邏輯
 - `<span>{$countdonw}</span>`
@@ -412,7 +415,7 @@ export const count = writable(0);
 <Incrementer />
 ```
 
-### `readable()`
+#### `readable()`
 
 - 只能從內部元件使用 `set()` 修改，外部元件只能取得資料的 store
 - 例如滑鼠的所在位置，或是使用者的地理座標
@@ -426,7 +429,7 @@ export const count = writable(0);
   })
   ```
 
-### `derived()`
+#### `derived()`
 
 - 接收 1 至多個 store 並且進行加工
 - `import { derived } from 'svelte/store'`;
@@ -445,7 +448,7 @@ export const count = writable(0);
 {$selectedList}
 ```
 
-## [Context](https://svelte.dev/docs#setContext)
+### [Context](https://svelte.dev/docs#setContext)
 
 - Context 用於資料幾乎不會變動或跨元件溝通時
 - 沒有 reactive 效果（ex. subscribe, unsubscribe）
@@ -481,11 +484,11 @@ export const count = writable(0);
 <p>{user.age}</p>
 ```
 
-## [motion 機制](https://svelte.dev/docs#svelte_motion)
+### [motion 機制](https://svelte.dev/docs#svelte_motion)
 
 svelte 提供了「motion」機制處理數值動態的呈現
 
-### Tweened
+#### Tweened
 
 例如以下這個例子
 
@@ -561,7 +564,7 @@ svelte 提供了「motion」機制處理數值動態的呈現
 <h1>Hello {name}!</h1>
 ```
 
-### Spring
+#### Spring
 
 motion 還有 `Spring` 可以使用 `stiffness`（剛性）和 `damping`（摩擦係數）
 <br>替動畫加上輕重緩急，讓物件動態變得更生動
@@ -610,7 +613,7 @@ motion 還有 `Spring` 可以使用 `stiffness`（剛性）和 `damping`（摩�
 />
 ```
 
-## [transition 機制](https://svelte.dev/docs#svelte_transition)
+### [transition 機制](https://svelte.dev/docs#svelte_transition)
 
 - svelte 內建有 `fade`、`blur`、`fly`、`slide`、`scale`、`draw`、`crossfade` 等轉場／動態效果函式
 - 使用 `<transition:轉場名稱>` 套用至元素上
@@ -619,7 +622,7 @@ motion 還有 `Spring` 可以使用 `stiffness`（剛性）和 `damping`（摩�
 - 亦可搭配 svelte 的其它語法運用
 - `draw` 與其它 function 較為不同，專門用於 SVG 圖形
 
-### transition 設定
+#### transition 設定
 
 - 這些轉場函式有兩個通用參數：
   <br>├ `delay`：延遲多久開始 transition
@@ -638,7 +641,7 @@ motion 還有 `Spring` 可以使用 `stiffness`（剛性）和 `damping`（摩�
   {/if}
   ```
 
-### easing function 緩動函數
+#### easing function 緩動函數
 
 替移動加上緩急，讓動靜看起來更真實且活潑
 
@@ -659,7 +662,7 @@ motion 還有 `Spring` 可以使用 `stiffness`（剛性）和 `damping`（摩�
 {/if}
 ```
 
-### 自訂轉場函式
+#### 自訂轉場函式
 
 ```html
   <script>
@@ -685,7 +688,7 @@ motion 還有 `Spring` 可以使用 `stiffness`（剛性）和 `damping`（摩�
   {/if}
 ```
 
-### 套用動畫效果到「未轉場」的元素上
+#### 套用動畫效果到「未轉場」的元素上
 
 svelte 還有 [animate](https://svelte.dev/docs#svelte_animate) 中所提供的 FLIP（First, Last, Invert, Play）function
 <br>會計算元素的舊位置與新位置之間的距離後，套用到動畫效果上
@@ -725,7 +728,7 @@ svelte 還有 [animate](https://svelte.dev/docs#svelte_animate) 中所提供的 
 ></label>
 ```
 
-## 樣板語法（Slot）
+### 樣板語法（Slot）
 
 - 可以將客製化元件／內容放進子元件中
 
@@ -814,7 +817,7 @@ svelte 還有 [animate](https://svelte.dev/docs#svelte_animate) 中所提供的 
 </Card>
 ```
 
-## 內建 Element
+### 內建 Element
 
 - svelte 會在正確的時間點幫忙處理自訂與銷毀監聽器，省去需要的麻煩
 - 可以幫忙處理 SSR 的問題
@@ -849,7 +852,7 @@ svelte 還有 [animate](https://svelte.dev/docs#svelte_animate) 中所提供的 
 />
 ```
 
-### Server-Side Rendering
+#### Server-Side Rendering
 
 `server.js`
 
@@ -902,15 +905,95 @@ export default app;
   ]
 ```
 
-## SvelteKit
+## Svelte 生態系
 
-- [What's the deal with SvelteKit?](https://svelte.dev/blog/whats-the-deal-with-sveltekit)
+### SASS support
 
-## Sapper
+若想使用 SASS 語法撰寫 CSS，需於樣板安裝好後，再安裝 SASS 相依套件
+
+```shell
+npm install svelte-preprocess node-sass
+```
+
+安裝完成後，開啟 `rollup.config.js`
+
+```javascript
+// 於 import 區加入
+import preprocess from 'svelte-preprocess`;
+
+/* ... */
+
+// 於 plugin 區加入 preprocess
+exprot default {
+  /* ... */
+  plugins: [
+    svelte({
+      /* ... */
+      preprocess: preprocess()
+    }),
+  ],
+  /* ... */
+}
+```
+
+這時我們修改 `App.svelte` 裡的樣式部分，於 `<style>` 裡加上 `lang='scss'`：
+
+```html
+<script>
+  export let name;
+</script>
+
+<main>
+  <h1>Hello {name}!</h1>
+  <p>
+    Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
+    how to build Svelte apps.
+  </p>
+</main>
+
+<style lang="scss">
+  $primary-color: #ff3e00;
+
+  main {
+    text-align: center;
+    padding: 1em;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    color: $primary-color;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 100;
+  }
+
+  @media (min-width: 640px) {
+    main {
+      max-width: none;
+    }
+  }
+</style>
+```
+
+執行 `npm run dev`，確認是否成功生效。
+
+若想讓 VSCode 上也支援相關顯示，需要再於根目錄新增或編輯檔案 `svelte.config.js`：
+
+```javascript
+// svelte.config.js
+const preprocess = require("svelte-preprocess");
+
+module.exports = {
+  preprocess: preprocess(),
+};
+```
+
+### Sapper
 
 - svelte 的網頁框架，類似於 Vue 的 Nuxt.js
 
-### 安裝
+#### 安裝
 
 ```bash
 # for Rollup
@@ -920,12 +1003,12 @@ npx degit "sveltejs/sapper-template#rollup" my-app
 npx degit "sveltejs/sapper-template#webpack" my-app
 ```
 
-## [Smelte](https://smeltejs.com/?ref=madewithsvelte.com)
+### [Smelte](https://smeltejs.com/?ref=madewithsvelte.com)
 
 - svelte 的 CSS 框架，類似於 Vue 的 Vuetify
 - [Sapper で Smelte を利用する - Qiita](https://qiita.com/azukisiromochi/items/969fc9808c931cfadf22)
 
-### 安裝
+#### 安裝
 
 ```bash
 npx degit matyunya/smelte-sapper-template my-app
@@ -933,7 +1016,7 @@ cd my-app
 npm run dev
 ```
 
-## [Routify](https://routify.dev/)
+### [Routify](https://routify.dev/)
 
 ## 參考文章
 
