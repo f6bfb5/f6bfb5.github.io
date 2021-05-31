@@ -5,7 +5,7 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>2021-05-30T09:57:48Z</lastBuildDate>
+      <lastBuildDate>2021-05-31T22:04:47Z</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -871,7 +871,7 @@
 
         <item>
           <title>前端筆記 (8) Toolbox</title>
-          <link>https://f6bfb5.github.io/blog/f2e-08-e-tool</link>
+          <link>https://f6bfb5.github.io/blog/f2e-08-tools</link>
           <pubDate>2019-07-18T07:17:11Z</pubDate>
           <description>
               null
@@ -881,7 +881,7 @@
 
         <item>
           <title>前端筆記 (7) 網頁測試</title>
-          <link>https://f6bfb5.github.io/blog/f2e-07-unittest</link>
+          <link>https://f6bfb5.github.io/blog/f2e-07-unit-test</link>
           <pubDate>2019-07-18T07:16:11Z</pubDate>
           <description>
               null
