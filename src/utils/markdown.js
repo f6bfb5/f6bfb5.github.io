@@ -49,12 +49,12 @@ export default () => ({
     let excerpt = '';
     let tags = [];
 
-    if (rawContent.indexOf(EXCERPT_SEPARATOR) !== -1) {
+    if (rawContent.indexOf(EXCERPT_SEPARATOR) === -1) {
+      excerpt = data.summary;
+    } else {
       const splittedContent = rawContent.split(EXCERPT_SEPARATOR);
       excerpt = splittedContent[0];
       content = splittedContent[1];
-    } else {
-      excerpt = data.summary;
     }
 
     const html = marked(content);
