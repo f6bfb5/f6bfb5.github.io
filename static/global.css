@@ -8,37 +8,10 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo,ＭＳ\ Ｐゴシック, MS PGothic, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 16px;
-  color: #36393b;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0.5em 0 0.25em 0;
-}
-
-h1 {
-  font-size: 2em;
-}
-
-h2 {
-  font-size: 1.8em;
-}
-
-h3 {
-  font-size: 1.5em;
-}
-
-h4 {
-  font-size: 1.4em;
-}
-
-h5 {
-  font-size: 1.3em;
-}
-
-h6 {
-  font-size: 1.2em;
 }
 
 ol, ul {
@@ -70,14 +43,8 @@ a:hover {
   color: #fd6378;
 }
 
-p {
-  font-size: 1.125em;
-  /* line-height: 1.5em; */
-  line-height: 1.6875em;
-}
-
 p + p {
-  margin: 1.5em 0;
+  margin: 1.25em 0;
 }
 
 p a {
@@ -110,14 +77,9 @@ br {
 }
 
 code {
-  font-family: consolas, menlo, inconsolata, monospace;
-  font-size: calc(1em - 2px);
-  color: #555;
   background-color: #f0f0f0;
   padding: 0em 0.2em;
   border-radius: 2px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 pre {
@@ -136,20 +98,12 @@ blockquote {
 }
 
 blockquote p {
-  font-size: 1em;
   padding-bottom: 6px;
-}
-
-blockquote footer {
-  font-size: 1.1rem;
-  text-align: right;
 }
 
 figure {
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
   -webkit-margin-start: 0;
   -webkit-margin-end: 0;
@@ -158,7 +112,6 @@ figure {
 
 table {
   border-collapse: collapse;
-  font-size: 1.125em;
   margin: 1em 0;
 }
 
@@ -186,10 +139,6 @@ iframe {
   margin: 0 auto;
   max-width: 45em;
   width: 100%;
-}
-
-.content h1 {
-  font-size: 2em;
 }
 
 /* custom scrollbar */
