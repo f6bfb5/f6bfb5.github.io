@@ -145,6 +145,9 @@
   li::marker {
     content: "＠ ";
   }
+  li + li {
+    padding: 0.25em 0;
+  }
 
   .tag-group {
     padding: 0 16px;
