@@ -1,5 +1,6 @@
 <script>
   import Header from "../components/Header.svelte";
+  import Footer from "../components/Footer.svelte";
   import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte";
   import { stores } from "@sapper/app";
   import GoogleAdsense from "../components/GoogleAdsense.svelte";
@@ -21,15 +22,7 @@
     <slot />
   </main>
 
-  <footer>
-    <span>
-      <a
-        href="https://creativecommons.org/licenses/by-sa/4.0/"
-        target="_blank"
-        rel="noreferrer noopener nofollow">CC BY-SA 4.0.</a
-      >
-    </span>
-  </footer>
+  <Footer />
 </div>
 
 <style>
@@ -51,15 +44,5 @@
     width: 100%;
     box-sizing: border-box;
     background-color: white;
-  }
-
-  footer {
-    margin: 1em auto;
-    padding: 1em 2em;
-    max-width: 720px;
-    width: 100%;
-    font-size: 1em;
-    color: #aaa;
-    border-top: 1px solid #e6e6e6;
   }
 </style>
