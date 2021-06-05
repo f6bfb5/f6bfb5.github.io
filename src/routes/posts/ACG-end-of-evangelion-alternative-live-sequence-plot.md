@@ -6,7 +6,7 @@ tags: ACG, Anime, Evangelion
 
 - [Resources:End of Evangelion Screenplays (Episode 26')](https://wiki.evageeks.org/Resources:End_of_Evangelion_Screenplays_%28Episode_26%27%29)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cwBs3VsNfdY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://ext.nicovideo.jp/thumb/sm38517151" scrolling="no" style="width:312px; height:176px; border:solid 1px #ccc;" frameborder="0"><a href="https://www.nicovideo.jp/watch/sm38517151">劇場版＃26実写パート（特別ラッシュ編集版）</a></iframe>
 
 ## 16 後半
 
@@ -72,7 +72,7 @@ tags: ACG, Anime, Evangelion
 美里「看吧，進入準備了」
 
 電話響起。
-<br>美里從暖桌裡懶散地爬出，厭惡地接起電話。
+<br>美里從暖桌裡懶散地拿出電話，厭惡地接起。
 <br>（這段用連續攝影拍攝）
 
 美里（似乎很疲勞地）「喂，律子」
@@ -90,7 +90,7 @@ tags: ACG, Anime, Evangelion
 <br>美里「對，然後前陣子就開始同居了。明明還這麼年輕」
 <br>律子「就是因為他們還年輕啊」
 <br>美里「男人在追求著能撒嬌的母親，女人則沉醉於這種優越感。那種只是因為寂寞才在一起的情侶，不會長久的。大概馬上就會大吵了吧」
-<br>律子「根據你的經驗得出的推論嗎？」
+<br>律子「這是根據你的經驗得出的推論嗎？」
 <br>美里「是常理，為什麼媽媽不會放手小孩？因為媽媽需要小孩。媽媽沒有小孩就無法存在。一模一樣，真蠢」
 
 ### ○ 第２新東京市・全景（使用 Matte・CG 合成）
@@ -119,13 +119,13 @@ tags: ACG, Anime, Evangelion
 複印機的聲音響得煩人。
 <br>穿著制服站立著的兩位女性。複印機的光線規律地照到兩人臉上。
 
-零（沒有望向明日香）「不然分手吧？這樣輕鬆多了」
+零（沒有望向明日香）「不然分手吧？這樣會輕鬆很多哦」
 <br>明日香（沒有望向零）「這樣嗎，好像也不錯」（在公司裡是努力地使用標準語）
 <br>零「雖然是很廉價的處理方式」
-<br>零「但一直保持曖昧的態度，老是想討好他，會吃苦的哦」
+<br>零「但一直保持曖昧的態度，老是想討好他，你會吃苦的」
 <br>零「想太多的男人，很難搞的」
 <br>零「不曉得他會做出什麼事」
-<br>零「明明就還是個臭小鬼」
+<br>零「明明就只是個臭小鬼」
 <br>明日香「前輩，你遇到什麼事了嗎？」
 
 之後，場景四處移動，改為口白劇，只使用對白串起時間軸。
@@ -134,16 +134,16 @@ tags: ACG, Anime, Evangelion
 零「那也好吧，能滿足性欲又有浪漫感」
 <br>明日香「也不是那樣。只有一開始會穿比較性感的內衣。現在的都是穿到像鬆垮的橡皮筋了。在一起也只有隨波逐流於日常的感覺」
 <br>明日香「一點都不浪漫啊」
-<br>零「戀愛果然還是掛斷電話之後才會有感覺呢」
+<br>零「果然還是掛斷電話之後才會有戀愛的感覺呢」
 <br>明日香「是這樣嗎？」
-<br>零「在做的時候，就像重合身體才是目的，沒有暖心的感覺。然後對彼此就更加貪婪」
-<br>明日香「每次都是拉開距離之後，就會開始懷疑，我是真的喜歡他嗎？」
+<br>零「在做的時候，就像身體相疊才是目的，沒有暖心的感覺。然後對彼此就更加貪婪」
+<br>明日香「每次都是拉開距離之後，就會開始懷疑，我真的喜歡他嗎？」
 
 明日香「然後就會想，還是我只是在勉強自己喜歡他？」
 <br>明日香「都持續不久啊。我每一段的期間都很短。」
 <br>零「你只是冷淡卻很容易同情人吧。就像是養狗一樣」
 <br>零「然後是那種很容易讓男人誤會的類型」
-<br>明日香「他每次都會說因為我是笨蛋來逃避啊」
+<br>明日香「他每次都會用『因為我是笨蛋』來逃避啊」
 <br>零「他就是認為自己說自己是笨蛋，就能得到原諒了」
 <br>明日香「以為我每次都會同情他」
 <br>零「當然啦，他在害怕沒有找個藉口，之後就會受傷」
@@ -151,7 +151,7 @@ tags: ACG, Anime, Evangelion
 <br>明日香「可是他沒打電話來的時候，又會覺得很不爽，超級不爽」
 <br>零（有些冷淡地）「你這就只是任性吧」
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CnF5TYbqSew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/Jl8zF4QvfOE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 日常的風景。於山際稜線另一端的高樓街道。
 <br>（CG 合成／不顯眼地帶進來）
@@ -197,5 +197,3 @@ tags: ACG, Anime, Evangelion
 
 在真人影像的人群裡，美里、零和明日香盯著攝影機鏡頭。
 <br>（慢慢地 T.U・高速／36K、或是 72K 左右？也可以考慮<ruby>拔幀<rp>(</rp><rt>コマ落とし</rt><rp></rp></ruby>）
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Jl8zF4QvfOE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

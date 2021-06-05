@@ -9,7 +9,6 @@ layout: blog
 ---
 
 - [[學習筆記] Chrome Dev Tools 開發者工具實用功能整理](https://pjchender.blogspot.com/2017/06/chrome-dev-tools.html)
-
 - 在 console 視窗中點右鍵，勾選 `Log XMLHTTPRequest`，可以看到該網站所發出的 AJAX request。
 - 在 console 中輸入 `document.designMode = 'on'`， 點選網頁文字會直接出現游標，可以直接編輯網頁內容。
 

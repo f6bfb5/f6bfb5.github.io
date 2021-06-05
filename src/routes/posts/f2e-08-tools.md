@@ -453,8 +453,10 @@ settings.addButton("meow", () => {
 
 #### 圓體
 
-[jf open 粉圓](https://github.com/justfont/open-huninn-font)
-[源泉圓體](https://github.com/ButTaiwan/gensen-font)
+| 名稱                                                         | 範例 |
+| ------------------------------------------------------------ | ---- |
+| [jf open 粉圓](https://github.com/justfont/open-huninn-font) |      |
+| [源泉圓體](https://github.com/ButTaiwan/gensen-font)         |      |
 
 #### 明體／宋體
 
@@ -519,27 +521,31 @@ settings.addButton("meow", () => {
 
 #### 平假、片假字體
 
-[アンニャントロマン](http://inatsuka.com/extra/toroman/)
-[コブラフォント](https://ch.nicovideo.jp/ebayan-blog/blomaga/ar1720729)
+| 名稱                                                                    | 範例 |
+| ----------------------------------------------------------------------- | ---- |
+| [アンニャントロマン](http://inatsuka.com/extra/toroman/)                |      |
+| [コブラフォント](https://ch.nicovideo.jp/ebayan-blog/blomaga/ar1720729) |      |
 
 #### 不可商用 or 需聯絡
 
-[大甘書道体](http://fontlab.web.fc2.com/sweetheavycalligraphy.html)
-[中森工芸 筆文字](https://booth.pm/ja/items/1166197)
-[えるまー](https://www.vector.co.jp/download/file/data/writing/fh453621.html)
-[みきゆ FONT](http://sozaiya405.chu.jp/405/font.htm)
-[S2G メモ](http://s2g.jp/font/index.htm)
-[しょかきうたげ](https://shokaki.hatenablog.jp/entry/2019/08/06/172131)
-[ainezunouzu フォント](https://web.archive.org/web/20190104214816/http://www.geocities.jp/o030b/ainezunouzu/font/font20121018.html)
-[三丁目フォント](https://web.archive.org/web/20190330044820/http://www.geocities.jp/bokurano_yume/)
-[ラムダシステム日本語書体](https://www.lambda.co.jp/contents/font_japanese.html)
-[SH G30](http://smart-pda.net/isourou/other/e830w/Chapter-0402.html)
-Sword Kanji Font(不明)
+| 名稱                                                                                                                                | 範例 |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| [大甘書道体](http://fontlab.web.fc2.com/sweetheavycalligraphy.html)                                                                 |      |
+| [中森工芸 筆文字](https://booth.pm/ja/items/1166197)                                                                                |      |
+| [えるまー](https://www.vector.co.jp/download/file/data/writing/fh453621.html)                                                       |      |
+| [みきゆ FONT](http://sozaiya405.chu.jp/405/font.htm)                                                                                |      |
+| [S2G メモ](http://s2g.jp/font/index.htm)                                                                                            |      |
+| [しょかきうたげ](https://shokaki.hatenablog.jp/entry/2019/08/06/172131)                                                             |      |
+| [ainezunouzu フォント](https://web.archive.org/web/20190104214816/http://www.geocities.jp/o030b/ainezunouzu/font/font20121018.html) |      |
+| [三丁目フォント](https://web.archive.org/web/20190330044820/http://www.geocities.jp/bokurano_yume/)                                 |      |
+| [ラムダシステム日本語書体](https://www.lambda.co.jp/contents/font_japanese.html)                                                    |      |
+| [SH G30](http://smart-pda.net/isourou/other/e830w/Chapter-0402.html)                                                                |      |
+| Sword Kanji Font(不明)                                                                                                              |      |
 
 #### 參考資料
 
-[フォントの館](https://www.ne.jp/asahi/krk/kct/font/index.htm)
-[FREE JAPANESE FONTS](https://www.freejapanesefont.com/)
+- [フォントの館](https://www.ne.jp/asahi/krk/kct/font/index.htm)
+- [FREE JAPANESE FONTS](https://www.freejapanesefont.com/)
 
 ### 轉換
 
@@ -572,11 +578,12 @@ Sword Kanji Font(不明)
 | [LuaForWindows](https://code.google.com/archive/p/luaforwindows/) |      |      |
 | [mingw-w64](http://mingw-w64.org/doku.php/download/mingw-builds)  |      |      |
 
-### cmder
+### >cmder
 
 結合多項軟體，包含 msysgit 與最重要的 ConEmu 和 [Clink](http://mridgers.github.io/clink/)
-<br>msysgit 提供 Git 相關工具與多項 Unix/Linux 環境下常用的指令列工具，例如 `less`、`ls`、`tar`、`unzip`、`md5sum`、`grep`、`sed`...etc.
-<br>Clink 將 GUN Readline 函式庫整合進原生的 Windows 命令提示字元視窗，擁有指令自動完成、查詢歷史指令、基礎行內編輯等功能
+
+- msysgit：提供 Git 相關工具與多項 Unix/Linux 環境下常用的指令列工具，例如 `less`、`ls`、`tar`、`unzip`、`md5sum`、`grep`、`sed`...etc.
+- Clink：將 GUN Readline 函式庫整合進原生的 Windows 命令提示字元視窗，擁有指令自動完成、查詢歷史指令、基礎行內編輯等功能
 
 ## B2E
 
