@@ -37,9 +37,6 @@
 
 <style>
   @media all and (min-width: 1150px) {
-    * {
-      /* outline: 1px solid black; */
-    }
     .toc-dropdown {
       position: fixed;
       top: 250px;
