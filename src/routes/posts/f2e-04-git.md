@@ -8,54 +8,6 @@ tags: F2E, Git
 layout: blog
 ---
 
-<summary>
-
-###### TOC
-
-</summary>
-<details>
-
-- [平台服務](#平台服務)
-- [指令速見表](#指令速見表)
-- [Git 簡介](#git-簡介)
-- [工具安裝](#工具安裝)
-  - [VSCode 插件](#vscode-插件)
-- [指令](#指令)
-  - [初始](#初始)
-  - [設定](#設定)
-  - [提交](#提交)
-  - [狀態](#狀態)
-  - [分支](#分支)
-  - [合併](#合併)
-  - [撤銷](#撤銷)
-- [不想版控的項目](#不想版控的項目)
-- [Pull Request（PR）](#pull-requestpr)
-- [使用 SSH 登入](#使用-ssh-登入)
-- [Branch Model](#branch-model)
-  - [git-flow](#git-flow)
-  - [GitHub Flow](#github-flow)
-- [commit message](#commit-message)
-  - [七條規則](#七條規則)
-  - [template](#template)
-  - [工具](#工具)
-  - [文章](#文章)
-- [參考文章](#參考文章)
-
----
-
-</details>
-
-## 平台服務
-
-- [GitHub](https://github.com/)
-- [GitLab](https://gitlab.com/)
-- [Heroku](https://dashboard.heroku.com/apps)
-
-## 指令速見表
-
-- [Git でよく使われるコマンドにイラストによる説明を加えて 1 枚のチートシートにまとめてみた](https://qiita.com/kozzy/items/b42ba59a8bac190a16ab)
-- [Git Cheatsheet Cht](http://scars377.github.io/git-cheatsheet-cht/)
-
 ## Git 簡介
 
 - Git 是由 Linus Torvalds 為了管理 Linux 原始碼所寫的分散式版控系統
@@ -72,6 +24,10 @@ layout: blog
 3. `Modified`: 修改後
 4. `Deleted`: 刪除後
 
+## What is GitHub？
+
+與 Git 一同很常聽到的，還有 GitHub 與 GitLab，這兩者則是提供 Git 服務的網路平台，除了可將程式碼儲存於上頭外，也有獨自額外的輔助功能，例如 Pull Request（後述）或是 GitHub Actions 等等。
+
 ## 工具安裝
 
 - [Git Client](git-scm.com/downloads)
@@ -86,6 +42,17 @@ layout: blog
 - [Github Pull Request](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 - [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
 - [Git Project Manager](https://marketplace.visualstudio.com/items?itemName=felipecaputo.git-project-manager)
+
+### 平台服務
+
+- [GitHub](https://github.com/)
+- [GitLab](https://gitlab.com/)
+- [Heroku](https://dashboard.heroku.com/apps)
+
+### 指令速見表
+
+- [Git でよく使われるコマンドにイラストによる説明を加えて 1 枚のチートシートにまとめてみた](https://qiita.com/kozzy/items/b42ba59a8bac190a16ab)
+- [Git Cheatsheet Cht](http://scars377.github.io/git-cheatsheet-cht/)
 
 ## 指令
 
