@@ -20,12 +20,16 @@ ol, ul {
   -webkit-padding-end: 5%;
 }
 
-li:first-child {
+/* li:first-child {
   padding-bottom: 0.25em;
 }
 
 li + li {
   padding: 0.5em 0;
+} */
+
+li:last-child {
+  padding-bottom: 0.25em;
 }
 
 li p {
