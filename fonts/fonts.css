@@ -1,0 +1,65 @@
+body {
+  font-family: 'Chiron Sans HK Pro WS', -apple-system, BlinkMacSystemFont, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo,ＭＳ\ Ｐゴシック, MS PGothic, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 16px;
+  color: #36393b;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.content h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-size: 1.3em;
+}
+
+h6 {
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 1.125em;
+  /* line-height: 1.5em; */
+  line-height: 1.6875em;
+}
+
+code {
+  font-family: consolas, menlo, inconsolata, monospace;
+  font-size: calc(1em - 2px);
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+blockquote p {
+  font-size: 1em;
+}
+
+blockquote footer {
+  font-size: 1.1rem;
+  text-align: right;
+}
+
+figure {
+  font-size: 100%;
+  font: inherit;
+}
+
+table {
+  font-size: 1.125em;
+}
