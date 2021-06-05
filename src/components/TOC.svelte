@@ -15,7 +15,6 @@
         text: q.innerText,
       });
     });
-    console.log(TOC);
     TOC = TOC;
   });
 </script>
