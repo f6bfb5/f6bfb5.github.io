@@ -35,7 +35,7 @@
   .back-to-top {
     /* padding: 4px; */
     position: fixed;
-    bottom: 2em;
+    bottom: 4em;
     z-index: 99;
     opacity: 1;
     transition: opacity 0.5s, visibility 0.5s;
