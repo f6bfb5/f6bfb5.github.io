@@ -11,7 +11,9 @@
 
     parsedDocument.querySelectorAll("h2").forEach((q) => {
       TOC.push({
-        href: window.location.origin + window.location.pathname + "#" + q.id,
+        // href: window.location.origin + window.location.pathname + "#" + q.id,
+        // href: isNaN(parseInt(q.id[0])) ? "#" + q.id : "#\\3" + q.id,
+        href: q.id,
         text: q.innerText,
       });
     });
@@ -25,7 +27,15 @@
       <div class="toc--title">{title}</div>
       <ul>
         {#each TOC as t}
-          <li><a href={t.href} title={t.text}>{t.text}</a></li>
+          <li>
+            <a
+              onclick="document.getElementById('{t.href}')
+              .scrollIntoView(&lbrace; behavior: 'smooth' &rbrace;);"
+              title={t.text}
+            >
+              {t.text}
+            </a>
+          </li>
         {/each}
         <ul />
       </ul>
@@ -59,6 +69,9 @@
     }
     .toc ul li + li {
       margin-top: 8px;
+    }
+    a {
+      cursor: pointer;
     }
   }
 </style>
