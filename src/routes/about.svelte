@@ -4,7 +4,18 @@
 
 <div class="container">
   <h1>About</h1>
-  <img src="https://i.imgur.com/0hqnDr5.jpg" alt="cat" class="about-hero-img" loading="lazy" />
+  <figure class="about-hero-img">
+    <img
+      src="https://i.imgur.com/pA9yPzD.jpg"
+      alt="television-man"
+      loading="lazy"
+    />
+    <figcaption>
+      <a href="https://unsplash.com/photos/KssYQvWXCv0" targer="blank">
+        Yondon Batbileg(@prike) - Unsplash
+      </a>
+    </figcaption>
+  </figure>
   <p class="about-hero-p">
     「願意聽別人說話的人並不多。每個人都只想說話，而說的話又不是什麼有內容的話。我也是其中之一。」
   </p>
