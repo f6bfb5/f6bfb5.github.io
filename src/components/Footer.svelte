@@ -5,7 +5,7 @@
     rel="noreferrer noopener nofollow">CC BY-SA 4.0.</a
   >
   <div class="right">
-    Made with <span class="heart">♥</span>,
+    Made with <span class="heart">❤️</span>,
     <a
       href="https://github.com/Charca/sapper-blog-template"
       target="_blank"
