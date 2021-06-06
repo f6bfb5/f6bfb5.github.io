@@ -21,11 +21,11 @@ layout: blog
 
 ![pic 1](https://i.imgur.com/ogBf1za.jpg)
 
-> Atari 《Asteroids》
+<p style="font-size: 1em; text-align:center; color: #36393b;">Atari 《Asteroids》</p>
 
 ![pic 2](https://i.imgur.com/T8FsjOF.png)
 
-> Acornsoft 《Meteors》
+<p style="font-size: 1em; text-align:center; color: #36393b;">Acornsoft 《Meteors》</p>
 
 本案應為世界上首次將電子遊戲做為影音作品受著作權保護的相關案例，雖然列舉出了二十二項相同之處與九項不同之處，法庭認為由於使用 BASIC 語言撰寫、表現手法之限制，兩者遊戲的大量相似之處是「不可避免」的，因而即使採用了相同的符號與標記，搭配上不同的移動方式與聲光表現後，仍可視為不同的表達方式，故判決為沒有侵犯著作權。
 
@@ -37,7 +37,7 @@ layout: blog
 
 ![pic 3](https://i.imgur.com/j3CjdbC.png)
 
-> 左圖為任天堂《Donkey Kong》，右圖為 Falcon 《Crazy Kong》
+<p style="font-size: 1em; text-align:center; color: #36393b;">左圖為任天堂《Donkey Kong》，右圖為 Falcon 《Crazy Kong》</p>
 
 法庭認為被告遊戲的角色外觀、角色職能、角色表現皆與原告遊戲相同，判決被告遊戲侵犯了原告遊戲的著作權。
 
@@ -45,7 +45,7 @@ layout: blog
 
 ![pic 4](https://i.imgur.com/1cO1gIU.jpg)
 
-> 左圖為 Atari 《Pac-Man》，右圖為飛利浦《K.C. Munchkin》
+<p style="font-size: 1em; text-align:center; color: #36393b;">左圖為 Atari 《Pac-Man》，右圖為飛利浦《K.C. Munchkin》</p>
 
 進入與離開出入口的設定仍在可預見的設計範圍內，被告遊戲的控制角色吃下藥劑後有 5 秒鐘可以追趕幽靈的設定，以及變身後的表情變化都與原告遊戲相似，於表達上具有相似性，因此法庭判定 K.C. Munchkin 侵範了 Pac-Man 於藝術表現上的著作權。
 
@@ -53,7 +53,7 @@ layout: blog
 
 ![pic 5](https://i.imgur.com/Tkun5Id.jpg)
 
-> 左圖為 Capcom 《Street Fighter》，右圖為 Data East 《Fighter's History》
+<p style="font-size: 1em; text-align:center; color: #36393b;">左圖為 Capcom 《Street Fighter》，右圖為 Data East 《Fighter's History》</p>
 
 由於原告遊戲表現為低原創性、容易想見的設定，戰鬥動作亦不符合藝術性的表現，僅有魔術動作符合此一標準，但被告遊戲中並無此動作，故此案判決為無侵害著作權。
 
@@ -70,11 +70,11 @@ layout: blog
 
 ![pic 6](https://i.imgur.com/O7FjBbq.jpg)
 
-> Softnyx 《Gunbound》
+<p style="font-size: 1em; text-align:center; color: #36393b;">Softnyx 《Gunbound》</p>
 
 ![pic 7](https://i.imgur.com/Ua5da1g.jpg)
 
-> CCR 《瘋狂坦克 2 》
+<p style="font-size: 1em; text-align:center; color: #36393b;">CCR 《瘋狂坦克 2 》</p>
 
 在韓國，著作權法的保護對象是，於學問或藝術上由精神的努力得來的思想、感情，透過語言、文字、聲音、色彩轉化成具體的外部表現的「創性作的表現」。著作物則依表現的形式分為語文著作物、音樂著作物、演劇著作物、美術著作物、建築著作物、照片著作物、影像著作物、圖像著作物、電腦程式著作物這九大類。裡頭並沒有遊戲著作物這種分類，但遊戲也能做為文學、藝術，亦或是從屬於藝術的範圍，做為表現思想和感情的著作物受到著作權法的保護。
 
