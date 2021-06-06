@@ -5,7 +5,7 @@
   $: right = innerWidth > 720 ? innerWidth / 2 - 360 + 32 + "px" : "2em";
 
   function goTop() {
-    document.body.scrollIntoView();
+    document.body.scrollIntoView({ behavior: "smooth" });
   }
 
   function scrollContainer() {
