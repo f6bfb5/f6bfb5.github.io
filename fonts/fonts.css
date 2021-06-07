@@ -42,6 +42,7 @@ code {
   font-family: consolas, menlo, inconsolata, monospace;
   font-size: calc(1em - 2px);
   color: #555;
+  word-break: break-all;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
