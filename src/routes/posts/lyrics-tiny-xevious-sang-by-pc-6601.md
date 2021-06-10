@@ -4,6 +4,8 @@ date: 2008-10-21T13:48:55.000Z
 tags: Lyrics
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PXwiZSiQPGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 讓 Date Recorder 奔馳著
 
 胸中興奮不已 等待著讀取
