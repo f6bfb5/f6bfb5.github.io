@@ -28,6 +28,7 @@
       <ul>
         {#each TOC as t}
           <li>
+            <!-- svelte-ignore a11y-missing-attribute -->
             <a
               onclick="document.getElementById('{t.href}')
               .scrollIntoView(&lbrace; behavior: 'smooth' &rbrace;);"
@@ -45,8 +46,12 @@
 </div>
 
 <style>
+  .toc-dropdown {
+    display: none;
+  }
   @media all and (min-width: 1150px) {
     .toc-dropdown {
+      display: block;
       position: fixed;
       top: 250px;
       left: calc((100vw - 720px) / 2 - 200px);
