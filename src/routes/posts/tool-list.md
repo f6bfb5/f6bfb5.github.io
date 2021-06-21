@@ -7,6 +7,8 @@ summary: ""
 layout: blog
 ---
 
+各種電腦工具軟體整理。
+
 ## 系統
 
 | 名稱                                                                                                               | 說明                             | 付費     |
@@ -24,7 +26,117 @@ layout: blog
 | [Ctrl2cap](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap)                                       | 切換 Caps Lock 鍵成 Contorl 鍵   | FREE     |
 | [Radare2](https://www.giantbranch.cn/2018/02/02/%E7%AE%80%E5%8D%95%E5%AE%9E%E8%B7%B5Radare2/)                      |                                  |          |
 
-## 編輯
+- [AdapterWatch - monitor your network adapter](https://www.nirsoft.net/utils/awatch.html)
+  監測網路卡使用狀況
+- [CurrPorts: Monitoring TCP/IP network connections on Windows](https://www.nirsoft.net/utils/cports.html)
+  應用程式使用的網路 port
+- [NTFSLinksView - View NTFS symbolic links and junction points](https://www.nirsoft.net/utils/ntfs_links_view.html)
+  顯示所有的 symbolic link
+- [ShellExView - Shell Extension Manager For Windows](https://www.nirsoft.net/utils/shexview.html)
+  管理 shell
+- CrystalDiskInfo
+- CrystalDiskMark
+- [HWMONITOR | Softwares | CPUID](https://www.cpuid.com/softwares/hwmonitor.html#version-history)
+- Debug Monitor Tool
+- [commeon](http://air.fem.jp/commeon/)
+  可顯示流動式留言的播放器
+- [commenomi](http://air.fem.jp/commenomi/)
+  可顯示流動式留言的透明視窗
+
+### 解壓縮
+
+| 名稱                                           | 說明 | 付費 |
+| ---------------------------------------------- | ---- | ---- |
+| [7-Zip](https://www.developershome.com/7-zip/) |      |      |
+| [Bandizip](https://tw.bandisoft.com/bandizip/) |      |      |
+
+### 語系切換
+
+| 名稱                                                                 | 說明                         | 付費 |
+| -------------------------------------------------------------------- | ---------------------------- | ---- |
+| [繁化姬](https://github.com/James1201/Fanhuaji-GUI-Release/releases) | 搭配詞語本地化的繁簡轉換工具 |      |
+| [Locale Emulator](https://pooi.moe/Locale-Emulator/)                 | 切換程式執行環境語系         |      |
+| [NTLEA](https://archive.codeplex.com/?p=ntlea)                       | 切換程式執行環境語系         |      |
+
+### 網路
+
+| 名稱                                                                             | 說明                                                | 付費 |
+| -------------------------------------------------------------------------------- | --------------------------------------------------- | ---- |
+| [WinSCP](https://winscp.net/eng/download.php)                                    | open source SFTP client                             |      |
+| [Putty](https://www.putty.org/)                                                  | SSH and telnet client                               |      |
+| [MobaXterm](https://mobaxterm.mobatek.net/)                                      | eabbed SSH client                                   |      |
+| [TCPView](https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview)       | show detailed listings of all TCP and UDP endpoints |      |
+| [xlight](https://www.xlightftpd.com/)                                            | Windows FTP and SFTP Server                         |      |
+| [HFS](https://www.rejetto.com/hfs/)                                              | HTTP File Server                                    |      |
+| [AnyDesk](https://anydesk.com/zhs)                                               |                                                     |      |
+| [VNCViewer](https://www.realvnc.com/en/connect/download/viewer/)                 |                                                     |      |
+| [PTTStar](https://www.ptt.cc/bbs/EZsoft/M.1546241396.A.D95.html)                 |                                                     |      |
+| [YoutubeLiveCommentViewer](https://ryu-s.github.io/app/youtubelivecommentviewer) |                                                     |      |
+
+### 直播軟體
+
+- [OBS Studio](https://obsproject.com/ja)
+- [Wirecast](http://www.telestream.net/wirecast/)
+- [CameraFi Live](https://play.google.com/store/apps/details?id=com.vaultmicro.camerafi.live&hl=zh_TW)
+
+### 通訊軟體
+
+| 名稱                                                        | 說明 | 付費 |
+| ----------------------------------------------------------- | ---- | ---- |
+| [Telegram](https://telegram.org/)                           |      |      |
+| [Discord](https://discordapp.com/)                          |      |      |
+| [Slack](https://slack.com/intl/en-tw/)                      |      |      |
+| [MAPS.ME](https://maps.me/)                                 |      |      |
+| [HACK FOLDR](https://beta.hackfoldr.org/)                   |      |      |
+| [BRIDGEFY](https://www.bridgefy.me/)                        |      |      |
+| [ZELLO](https://zello.com/)                                 |      |      |
+| [PATCHWORK](https://hackmd.io/QM3RRIkFR_6x0jrw6TxPbg?view=) |      |      |
+
+### Chrome 插件
+
+| 名稱                                                                                                            | 說明 | 付費 |
+| --------------------------------------------------------------------------------------------------------------- | ---- | ---- |
+| [Flow Chat](https://github.com/fiahfy/youtube-live-chat-flow)                                                   |      |      |
+| [Pan for video](https://chrome.google.com/webstore/detail/pan-for-video/gpfhajmppnhpfkokaidnlepfkhblpiol?hl=ja) |      |      |
+| [OutsideBar](https://chrome.google.com/webstore/detail/outsidebar/bkbgfdeahjoonelgflchidgfppdldfhc)             |      |      |
+| [Maxchat](https://chrome.google.com/webstore/detail/maxchat/hgfdknfjakjkmdhmcndaajebcfhkodll)                   |      |      |
+| [Stream TV Array](https://fsworld009.github.io/StreamTvArray/)                                                  |      |      |
+| [Modch.at](https://modch.at/)                                                                                   |      |      |
+| [ViewSync](https://viewsync.net/)                                                                               |      |      |
+
+### 檔案
+
+| 名稱                                           | 說明                         | 付費 |
+| ---------------------------------------------- | ---------------------------- | ---- |
+| PowerToys                                      | 微軟推出的多功能系統輔助軟體 |      |
+| [AntRenamer](https://antp.be/software/renamer) |                              |      |
+| [Unlocker](http://emptyloop.com/unlocker/)     |                              |      |
+| [FastCopy](https://fastcopy.jp/en/)            |                              |      |
+| TakeOwnership                                  |                              |      |
+
+### 影音播放
+
+| 名稱                                                               | 說明 | 付費 |
+| ------------------------------------------------------------------ | ---- | ---- |
+| [mpv](https://mpv.io/)                                             |      |      |
+| [Foobar2000](https://www.foobar2000.org/)                          |      |      |
+| [MangaMeeya](https://mangameeya.softonic.jp/)                      |      |      |
+| [LCDDelayChecker](http://bygzam.seesaa.net/article/110314791.html) |      |      |
+
+### 下載
+
+| 名稱                                                                                         | 說明 | 付費 |
+| -------------------------------------------------------------------------------------------- | ---- | ---- |
+| [JDownloader](http://jdownloader.org/)                                                       |      |      |
+| [qbittorrent](https://www.qbittorrent.org/download.php)                                      |      |      |
+| [Youtube-dl](https://mrs0m30n3.github.io/youtube-dl-gui/)                                    |      |      |
+| [動画ゲッター](https://www.douga-getter.com/)                                                |      |      |
+| [TwitchLeecher]                                                                              |      |      |
+| [kakorokuRecorder154](https://jp.videoproc.com/record/kakorokurecorder-download-install.htm) |      |      |
+| [ニコ生の録画方法 まとめ](https://ch.nicovideo.jp/nico-lab/blomaga/ar8759)                   |      |      |
+| [FlickrDownloader]                                                                           |      |      |
+
+## 創作
 
 ### 繪圖
 
@@ -106,13 +218,7 @@ layout: blog
 | Youlean Loudness Meter 2                  | 監控麥克風輸入的音量響度 |      |
 | Orban Loudness Meter 2                    | 監控電腦上播放的音量響度 |      |
 
-### 麥克風變聲
-
-- [ユーザーローカルボイスチェンジャー](https://voice-changer.userlocal.jp/)
-- [ゆかりねっと](http://www.okayulu.moe/)
-- [AV Voice Changer Software Diamond](https://japanese.audio4fun.com/voice-over.htm)
-
-### 文件
+## 文件
 
 | 名稱                                              | 說明                                               | 付費 |
 | ------------------------------------------------- | -------------------------------------------------- | ---- |
@@ -122,99 +228,6 @@ layout: blog
 | [XMind](https://jp.xmind.net/download/)           |                                                    |      |
 | [HxD](https://mh-nexus.de/en/hxd/)                | Freeware Hex Editor and Disk Editor                |      |
 | [Text2MindMap](https://tobloef.com/text2mindmap/) | 文字版心智圖                                       | FREE |
-
-### 檔案
-
-| 名稱                                           | 說明                         | 付費 |
-| ---------------------------------------------- | ---------------------------- | ---- |
-| PowerToys                                      | 微軟推出的多功能系統輔助軟體 |      |
-| [AntRenamer](https://antp.be/software/renamer) |                              |      |
-| [Unlocker](http://emptyloop.com/unlocker/)     |                              |      |
-| [FastCopy](https://fastcopy.jp/en/)            |                              |      |
-| TakeOwnership                                  |                              |      |
-
-## 解壓縮
-
-| 名稱                                           | 說明 | 付費 |
-| ---------------------------------------------- | ---- | ---- |
-| [7-Zip](https://www.developershome.com/7-zip/) |      |      |
-| [Bandizip](https://tw.bandisoft.com/bandizip/) |      |      |
-
-## 語系切換
-
-| 名稱                                                                 | 說明                         | 付費 |
-| -------------------------------------------------------------------- | ---------------------------- | ---- |
-| [繁化姬](https://github.com/James1201/Fanhuaji-GUI-Release/releases) | 搭配詞語本地化的繁簡轉換工具 |      |
-| [Locale Emulator](https://pooi.moe/Locale-Emulator/)                 | 切換程式執行環境語系         |      |
-| [NTLEA](https://archive.codeplex.com/?p=ntlea)                       | 切換程式執行環境語系         |      |
-
-## 影音播放
-
-| 名稱                                                               | 說明 | 付費 |
-| ------------------------------------------------------------------ | ---- | ---- |
-| [mpv](https://mpv.io/)                                             |      |      |
-| [Foobar2000](https://www.foobar2000.org/)                          |      |      |
-| [MangaMeeya](https://mangameeya.softonic.jp/)                      |      |      |
-| [LCDDelayChecker](http://bygzam.seesaa.net/article/110314791.html) |      |      |
-
-## 網路
-
-| 名稱                                                                             | 說明                                                | 付費 |
-| -------------------------------------------------------------------------------- | --------------------------------------------------- | ---- |
-| [WinSCP](https://winscp.net/eng/download.php)                                    | open source SFTP client                             |      |
-| [Putty](https://www.putty.org/)                                                  | SSH and telnet client                               |      |
-| [MobaXterm](https://mobaxterm.mobatek.net/)                                      | eabbed SSH client                                   |      |
-| [TCPView](https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview)       | show detailed listings of all TCP and UDP endpoints |      |
-| [xlight](https://www.xlightftpd.com/)                                            | Windows FTP and SFTP Server                         |      |
-| [HFS](https://www.rejetto.com/hfs/)                                              | HTTP File Server                                    |      |
-| [AnyDesk](https://anydesk.com/zhs)                                               |                                                     |      |
-| [VNCViewer](https://www.realvnc.com/en/connect/download/viewer/)                 |                                                     |      |
-| [PTTStar](https://www.ptt.cc/bbs/EZsoft/M.1546241396.A.D95.html)                 |                                                     |      |
-| [YoutubeLiveCommentViewer](https://ryu-s.github.io/app/youtubelivecommentviewer) |                                                     |      |
-
-### 直播軟體
-
-- [OBS Studio](https://obsproject.com/ja)
-- [Wirecast](http://www.telestream.net/wirecast/)
-- [CameraFi Live](https://play.google.com/store/apps/details?id=com.vaultmicro.camerafi.live&hl=zh_TW)
-
-### 通訊軟體
-
-| 名稱                                                        | 說明 | 付費 |
-| ----------------------------------------------------------- | ---- | ---- |
-| [Telegram](https://telegram.org/)                           |      |      |
-| [Discord](https://discordapp.com/)                          |      |      |
-| [Slack](https://slack.com/intl/en-tw/)                      |      |      |
-| [MAPS.ME](https://maps.me/)                                 |      |      |
-| [HACK FOLDR](https://beta.hackfoldr.org/)                   |      |      |
-| [BRIDGEFY](https://www.bridgefy.me/)                        |      |      |
-| [ZELLO](https://zello.com/)                                 |      |      |
-| [PATCHWORK](https://hackmd.io/QM3RRIkFR_6x0jrw6TxPbg?view=) |      |      |
-
-### Chrome 插件
-
-| 名稱                                                                                                            | 說明 | 付費 |
-| --------------------------------------------------------------------------------------------------------------- | ---- | ---- |
-| [Flow Chat](https://github.com/fiahfy/youtube-live-chat-flow)                                                   |      |      |
-| [Pan for video](https://chrome.google.com/webstore/detail/pan-for-video/gpfhajmppnhpfkokaidnlepfkhblpiol?hl=ja) |      |      |
-| [OutsideBar](https://chrome.google.com/webstore/detail/outsidebar/bkbgfdeahjoonelgflchidgfppdldfhc)             |      |      |
-| [Maxchat](https://chrome.google.com/webstore/detail/maxchat/hgfdknfjakjkmdhmcndaajebcfhkodll)                   |      |      |
-| [Stream TV Array](https://fsworld009.github.io/StreamTvArray/)                                                  |      |      |
-| [Modch.at](https://modch.at/)                                                                                   |      |      |
-| [ViewSync](https://viewsync.net/)                                                                               |      |      |
-
-## 下載
-
-| 名稱                                                                                         | 說明 | 付費 |
-| -------------------------------------------------------------------------------------------- | ---- | ---- |
-| [JDownloader](http://jdownloader.org/)                                                       |      |      |
-| [qbittorrent](https://www.qbittorrent.org/download.php)                                      |      |      |
-| [Youtube-dl](https://mrs0m30n3.github.io/youtube-dl-gui/)                                    |      |      |
-| [動画ゲッター](https://www.douga-getter.com/)                                                |      |      |
-| [TwitchLeecher]                                                                              |      |      |
-| [kakorokuRecorder154](https://jp.videoproc.com/record/kakorokurecorder-download-install.htm) |      |      |
-| [ニコ生の録画方法 まとめ](https://ch.nicovideo.jp/nico-lab/blomaga/ar8759)                   |      |      |
-| [FlickrDownloader]                                                                           |      |      |
 
 ## 遊戲相關
 
@@ -255,7 +268,7 @@ layout: blog
 | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------- | ---- |
 | [WindowedBorderlessGaming](https://westechsolutions.net/sites/WindowedBorderlessGaming/download) | 無邊界啟動遊戲                                           |      |
 | [dxwnd](https://www.majorgeeks.com/files/details/dxwnd.html)                                     | 遊戲視窗化工具                                           |      |
-| [D3DWindower](https://ux.getuploader.com/Honihoni_Republic/download/21)                                                                                      | 遊戲視窗化工具                                           |      |
+| [D3DWindower](https://ux.getuploader.com/Honihoni_Republic/download/21)                          | 遊戲視窗化工具                                           |      |
 | [3D-Analyzer](http://www.3dfxzone.it/dir/tools/3d_analyze/index.php)                             | 透過模擬改善顯示卡效能與視覺效果，亦可用於調整遊戲解析度 |      |
 
 ### 資料解密
@@ -277,31 +290,3 @@ layout: blog
 | [Kiken URL List－危険と思われるアドレス一覧と解説－](http://gunkanmaki.jog.buttobi.net/)                    |      |      |
 | [Password Security info](https://passwordsecurity.info/)                                                    |      |      |
 | [Have I Been Pwned: Check if your email has been compromised in a data breach](https://haveibeenpwned.com/) |      |      |
-
-## 其它
-
-- 關閉輸入法整合器
-
-1. 開啟 `C:\Windows\System32\IME\shared`
-2. 找到 `IMEPADSV.EXE`
-3. 右鍵點擊内容 -> 安全頁 -> 進階 -> 更改擁有者為自己 -> 確定關閉
-4. 重新右鍵點擊内容 -> 安全頁 -> 編輯權限 -> 除了自己之外的其他賬戶權限都取消勾選
-5. 重開機
-
-## 個人網站
-
-- [vgod's blog](http://blog.vgod.tw/)
-- [O3noBLOG](https://blog.othree.net/)
-- [搞笑談軟工：生活](http://teddy-chen-tw.blogspot.com/search/label/%E7%94%9F%E6%B4%BB)
-- [Noob's Space](https://noob.tw/)
-- [Tutorial | 點燈坊](https://fpjs.fun/tutorial/)
-- [魔王不造反 / 个人主页](https://biezhi.me/)
-- [编程随想的博客](https://program-think.blogspot.com/)
-- [半熟前端 | Kalan's Blog](https://blog.kalan.dev/)
-- [St. Threath](http://st-threath.blogspot.com/)
-- [白髮‧青春 - 宅宅的背包誌](https://www.williamtai.moe/)
-- [デジモノに埋もれる日々](https://ckworks.jp/blog/)
-- [80sanime](http://80sanime.tumblr.com/post/158829607241/bonus-1979-1990-anime-primer-night-on-the-galactic)
-- [Magazines](http://animarchive.tumblr.com/tags-magazine)
-- [ハッピータイム](http://retroanimu.tumblr.com/)
-- [ＴＯＰ更新：新横浜ありな](http://tamaki.bake-neko.net/topb30b.htm)
