@@ -5,34 +5,24 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>2021-06-10T22:38:46Z</lastBuildDate>
+      <lastBuildDate>2021-06-21T23:34:35Z</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
         <item>
-          <title>Blog with Svelte</title>
-          <link>https://f6bfb5.github.io/blog/blog-with-svelte</link>
-          <pubDate>2100-01-02T00:00:00Z</pubDate>
-          <description>
-              undefined
-          </description>
-        </item>
-      
-
-        <item>
-          <title>Blog with Hexo</title>
-          <link>https://f6bfb5.github.io/blog/blog-with-hexo</link>
-          <pubDate>2100-01-01T00:00:00Z</pubDate>
-          <description>
-              undefined
-          </description>
-        </item>
-      
-
-        <item>
           <title>2021 年，我在網路上看了些什麼文（持續更新）</title>
           <link>https://f6bfb5.github.io/blog/2021-what-i-have-read-on-internet</link>
           <pubDate>2021-12-31T06:00:00Z</pubDate>
+          <description>
+              undefined
+          </description>
+        </item>
+      
+
+        <item>
+          <title>漫畫荒？不曉得有什麼好看嗎，看看日本網友都推些什麼吧！</title>
+          <link>https://f6bfb5.github.io/blog/ACG-super-manga-book-list</link>
+          <pubDate>2021-06-18T02:26:28Z</pubDate>
           <description>
               undefined
           </description>
@@ -1403,6 +1393,26 @@
           <title>【譯/歌詞】PC-6601が歌うタイニーゼビウス</title>
           <link>https://f6bfb5.github.io/blog/lyrics-tiny-xevious-sang-by-pc-6601</link>
           <pubDate>2008-10-21T13:48:55Z</pubDate>
+          <description>
+              undefined
+          </description>
+        </item>
+      
+
+        <item>
+          <title>Blog with Svelte</title>
+          <link>https://f6bfb5.github.io/blog/blog-with-svelte</link>
+          <pubDate>1990-01-02T00:00:00Z</pubDate>
+          <description>
+              undefined
+          </description>
+        </item>
+      
+
+        <item>
+          <title>Blog with Hexo</title>
+          <link>https://f6bfb5.github.io/blog/blog-with-hexo</link>
+          <pubDate>1990-01-01T00:00:00Z</pubDate>
           <description>
               undefined
           </description>
