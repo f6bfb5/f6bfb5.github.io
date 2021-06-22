@@ -1,7 +1,7 @@
 ---
-title: "【譯/歌詞】鬼束ちひろ - 私とワルツを"
+title: "【歌詞翻譯】鬼束ちひろ - 私とワルツを"
 date: 2017-07-16T11:36:24.000Z
-tags: Lyrics
+tags: Lyrics, Translate
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/hENIaeTrw-g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,7 +1,7 @@
 ---
-title: "【譯】誰人會嘲笑舞元的淚"
+title: "誰人會嘲笑舞元的淚"
 date: 2021-01-07T05:13:49.000Z
-tags: ACG
+tags: ACG, Translate
 ---
 
 文章來源：[舞元啓介の涙を誰が笑えるだろうか - Auto out life](https://autooutlife.hatenablog.com/entry/2019/10/14/053440)

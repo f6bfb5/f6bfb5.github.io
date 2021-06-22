@@ -1,6 +1,8 @@
 ---
-title: "【譯】《新世紀福音戰士》的詛咒"
+title: "《新世紀福音戰士》的詛咒"
 date: 2021-03-12T17:23:25.000Z
+summary: "Rebuild 3.33 電影版常被認為是《福音戰士》系列的害群之馬，從網路上可窺見，故事中的事件將人們搞得一頭霧水，也沒有解釋清楚到底發生了什麼，常常有人宣稱這部電影很糟糕，讓《福音戰士》的名字蒙羞。然而，3.33 是理解 Rebuild 電影所代表，和試圖達到的目的之關鍵，也是對整個《福音戰士》系列的評論。"
+tags: ACG, Evangelion, Translate
 ---
 
 <iframe id="video" title="The Curse of Evangelion" src="https://www.youtube.com/embed/rHIvs0Q-uKI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,7 +1,7 @@
 ---
-title: "【譯/歌詞】BUMP OF CHICKEN - ロストマン"
+title: "【歌詞翻譯】BUMP OF CHICKEN - ロストマン"
 date: 2020-10-14T11:10:45.000Z
-tags: Lyrics
+tags: Lyrics, Translate
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/z-DvnM298yw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

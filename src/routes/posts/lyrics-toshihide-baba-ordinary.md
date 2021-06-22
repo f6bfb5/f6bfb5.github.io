@@ -1,7 +1,7 @@
 ---
-title: "【譯/歌詞】馬場俊英 - 平凡"
+title: "【歌詞翻譯】馬場俊英 - 平凡"
 date: 2020-06-15T11:31:11.000Z
-tags: Lyrics
+tags: Lyrics, Translate
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/QtkK2VWyq6g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

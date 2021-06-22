@@ -1,7 +1,7 @@
 ---
-title: "【譯/歌詞】平沢進 - Kingdom"
+title: "【歌詞翻譯】平沢進 - Kingdom"
 date: 2017-10-04T12:05:07.000Z
-tags: Lyrics
+tags: Lyrics, Translate
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/1wwhkXEkdUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

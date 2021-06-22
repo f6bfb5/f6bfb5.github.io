@@ -1,8 +1,8 @@
 ---
-title: "【譯】《Mother》的心情。（1）"
+title: "《Mother》的心情。（1）"
 date: 2021-01-21T05:16:32.000Z
 summary: "在距離最近的地方，傾聽這款不可思議的遊戲的故事。"
-tags: ACG, Game
+tags: ACG, Game, Translate
 ---
 
 在距離最近的地方，傾聽這款不可思議的遊戲的故事。

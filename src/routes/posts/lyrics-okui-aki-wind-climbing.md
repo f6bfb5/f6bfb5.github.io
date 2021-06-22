@@ -1,7 +1,7 @@
 ---
-title: "【譯/歌詞】奥井亜紀 - Wind Climbing ～風にあそばれて～"
+title: "【歌詞翻譯】奥井亜紀 - Wind Climbing ～風にあそばれて～"
 date: 2014-06-23T13:14:32.000Z
-tags: Lyrics
+tags: Lyrics, Translate
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/jRFD8HwkS-Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

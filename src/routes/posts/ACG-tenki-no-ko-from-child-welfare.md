@@ -1,10 +1,10 @@
 ---
-title: "【譯】若從兒童福利的觀點來看《天氣之子》，就會覺得更真實而有趣！"
+title: "若從兒童福利的觀點來看《天氣之子》，就會覺得更真實而有趣！"
 date: 2019-09-19T07:32:22.000Z
 published: 2019-09-19T07:32:22.000Z
 author: f6bfb5
 summary:
-tags: ACG, Anime
+tags: ACG, Anime, Translate
 layout: blog
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: "【譯】《機動警察 the Movie》和「東京」的創造與破壞――身為浪漫主義者的帆場暎一"
+title: "《機動警察 the Movie》和「東京」的創造與破壞――身為浪漫主義者的帆場暎一"
 date: 2019-09-11T07:28:53.000Z
 published: 2019-09-11T07:28:53.000Z
 author: f6bfb5
 summary:
-tags: ACG, Anime
+tags: ACG, Anime, Translate
 layout: blog
 ---
 

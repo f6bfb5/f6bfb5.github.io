@@ -1,7 +1,7 @@
 ---
-title: "【譯/歌詞】Joanne Hogg - STARS OF TEARS"
+title: "【歌詞翻譯】Joanne Hogg - STARS OF TEARS"
 date: 2019-07-19T12:33:15.000Z
-tags: Lyrics
+tags: Lyrics, Translate
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/eZRvkTpTz3M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

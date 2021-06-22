@@ -1,7 +1,7 @@
 ---
-title: "【譯/歌詞】The Pillows - Funny Bunny"
+title: "【歌詞翻譯】The Pillows - Funny Bunny"
 date: 2019-12-26T11:43:00.000Z
-tags: Lyrics
+tags: Lyrics, Translate
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/f92VWkYl8CI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

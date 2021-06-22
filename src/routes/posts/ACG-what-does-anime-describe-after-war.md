@@ -1,10 +1,10 @@
 ---
-title: "【譯】戰後動畫描寫了什麼"
+title: "戰後動畫描寫了什麼"
 date: 2019-02-12T07:11:50.000Z
 published: 2019-02-12T07:11:50.000Z
 author: f6bfb5
 summary:
-tags: ACG, Anime
+tags: ACG, Anime, Translate
 layout: blog
 ---
 

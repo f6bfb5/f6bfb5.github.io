@@ -3,7 +3,7 @@ title: "遊戲抄襲系爭事例"
 date: 2020-10-16T05:07:16.000Z
 published: 2020-10-16T05:07:16.000Z
 author: f6bfb5
-summary:
+summary: "過去有過哪些動畫抄襲的法院事例？"
 tags: ACG, Game
 layout: blog
 ---

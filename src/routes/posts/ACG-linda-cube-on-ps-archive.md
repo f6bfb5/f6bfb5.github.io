@@ -1,10 +1,10 @@
 ---
-title: "【譯】Linda Cube Again 正式上架"
+title: "Linda Cube Again 正式上架"
 date: 2020-09-14T22:09:01.000Z
 published: 2020-09-14T22:09:01.000Z
 author: f6bfb5
-summary:
-tags: ACG, Game
+summary: "第一次談到《Linda Cube Again 數位版》的話題，是去年 9/26 SCE 提案的想法。當時仔細一看那份契約，是沒辦法在 PSP 上玩的。而且即使能在 PSP 上玩，也賺不到什麼錢，不過若是能在 PSP 上玩到這款遊戲，玩家們會很高興的吧。所以我下定決心，要釐清整個權利的歸屬關係。"
+tags: ACG, Game, Translate
 layout: blog
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: "【譯/歌詞】Buzy - Venus Say…"
+title: "【歌詞翻譯】Buzy - Venus Say…"
 date: 2018-12-25T12:43:22.000Z
-tags: Lyrics
+tags: Lyrics, Translate
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/e3pJIl4zHdo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

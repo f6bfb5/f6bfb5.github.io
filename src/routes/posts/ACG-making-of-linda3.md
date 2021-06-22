@@ -1,10 +1,10 @@
 ---
-title: "【譯】桝田省治的製作筆記 ～Making of Linda3～"
+title: "桝田省治的製作筆記 ～Making of Linda3～"
 date: 2020-09-09T22:06:33.000Z
 published: 2020-09-09T22:06:33.000Z
 author: f6bfb5
-summary:
-tags: ACG, Game
+summary: "在《天外魔境 II》發售約 1 個月後，家中長男出生的時候，我交上了 2 份 RPG 的企畫書。一份是《跨越我的屍體前進》，簡單講就是人類版本的《德貝賽馬》。另外一份是《天國的動物園》，也就是 Linda 的前身。"
+tags: ACG, Game, Translate
 layout: blog
 ---
 

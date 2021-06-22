@@ -1,7 +1,7 @@
 ---
-title: "【譯/歌詞】PC-6601が歌うタイニーゼビウス"
+title: "【歌詞翻譯】PC-6601が歌うタイニーゼビウス"
 date: 2008-10-21T13:48:55.000Z
-tags: Lyrics
+tags: Lyrics, Translate
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PXwiZSiQPGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

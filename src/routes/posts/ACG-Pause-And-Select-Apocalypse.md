@@ -1,19 +1,20 @@
 ---
-title: "【譯】PAS 動畫評論 次文化與末世論"
+title: "PAS 動畫評論 次文化與末世論"
 date: 2019-01-29T07:02:26.000Z
 published: 2019-01-29T07:02:26.000Z
 author: f6bfb5
-summary:
-tags: ACG, Anime, Comic
+summary: "默示錄信仰（apocalypse） 的原意是來自於 「掀開紗帽（vail）」 的希臘語 「apokalypsis」 ，意思是「揭示新的事實」，或是「拆穿秘密」。"
+tags: ACG, Anime, Comic, Translate
 layout: blog
 ---
 
 ## part1[DEATH NOTE]
 
-<iframe id="video-1" title="Pause and Select Understanding the Disaster 1" width="560" height="315" src="https://www.youtube.com/embed/kvvUiXc6m7U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <svelte:head>
+
   <script src="../youtube.external.subtitle.min.js"></script>
   <script src="../subtitles.parser.js"></script>
+
 </svelte:head>
 
 <script>
@@ -53,6 +54,8 @@ layout: blog
 
 註：中文字幕使用外掛方式載入，如果未載入成功，請重新整理頁面。
 
+<iframe id="video-1" title="Pause and Select Understanding the Disaster 1" width="560" height="315" src="https://www.youtube.com/embed/kvvUiXc6m7U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - 日文翻譯：https://nico.ms/sm33744630
 
 嘿，這真是有趣。我們來聊聊小畑健和大場つぐみ這對搭檔創造的名作，《死亡筆記本》動畫版所省略的，原作漫畫的第 108 話吧。在這話裡，即使仍能窺見奇樂留下的影響，世界各處的犯罪和墮落再次興起、蔓延，一切「恢復」至原有的秩序，最後幾頁，畫面帶到奇樂信徒們悲傷行進的隊列，進行祈願奇樂復活的儀式，這種「不變的世界」與奇樂所留下影響的對比，正是重點所在。
@@ -61,7 +64,7 @@ layout: blog
 
 漫畫和動畫在結局上的差異有個有趣的點，裡頭其實有個共通的普世概念， 「終末信仰／啟示文學（Apocalypticism）」，透過混合各式各樣的末世概念，《死亡筆記本》絕妙地刻畫出日本社會的病理。這麼一說也許會有人覺得怪異，講到啟示錄，人們聯想到的會是更偏向物理層面上的破壞，以動畫的知名例子來說就是《AKIRA》裡的新東京廢墟，《AKIRA》裡的「啟示錄」是表現於物理層面上的。而在《死亡筆記本》裡，尤其在故事初期，社會秩序是正常運作著的，即使在政治層面上服從於奇樂，也沒有導致秩序崩壞，月也還是會去學校，有著朋友和工作，因此這裡所說的「啟示錄」指的並不是破壞，而是更接近於這個詞彙語源的用法。
 
-> 默示錄信仰（apocalypse） 的原意是來自於 「掀開紗帽（vail）」 的希臘語 「apokalypsis」 ，意思是揭示新的事實或是拆穿秘密。
+> 默示錄信仰（apocalypse） 的原意是來自於 「掀開紗帽（vail）」 的希臘語 「apokalypsis」 ，意思是「揭示新的事實」，或是「拆穿秘密」。
 
 根據田中素子所說，啟示（apocalypse） 的原義是揭露秘密的事實，死神的降臨、米砂的登場與魅上的指名也可以說是這種意涵的啟示／開示，但是在 2 世紀的猶太教圈裡，這個詞彙的意義開始有所變化，在開示之上再添加了「善與惡的最終戰爭」或是「受迫民族的寓言」的意義。但重點就在於這股意義上的「雙重性」，秘密儀式的開示／被壓抑之人的救濟，
 

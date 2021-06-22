@@ -1,7 +1,7 @@
 ---
-title: "【譯/歌詞】JAM Project - The Everlasting"
+title: "【歌詞翻譯】JAM Project - The Everlasting"
 date: 2018-12-24T12:22:48.000Z
-tags: Lyrics
+tags: Lyrics, Translate
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/8fFeMKFNZuE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

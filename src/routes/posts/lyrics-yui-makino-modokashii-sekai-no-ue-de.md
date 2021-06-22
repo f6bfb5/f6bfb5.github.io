@@ -1,7 +1,7 @@
 ---
-title: "【譯/歌詞】牧野由依 - もどかしい世界の上で"
+title: "【歌詞翻譯】牧野由依 - もどかしい世界の上で"
 date: 2018-12-15T11:25:19.000Z
-tags: Lyrics
+tags: Lyrics, Translate
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/m6IElKOCnPI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

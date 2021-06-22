@@ -1,10 +1,10 @@
 ---
-title: "【譯】著作權物系爭事例"
+title: "著作權物系爭事例"
 date: 2020-09-25T05:02:10.000Z
 published: 2020-09-25T05:02:10.000Z
 author: f6bfb5
-summary:
-tags: ACG
+summary: "過去有過哪些 ACG 著作權侵權的相關案件？"
+tags: ACG, Translate
 layout: blog
 ---
 

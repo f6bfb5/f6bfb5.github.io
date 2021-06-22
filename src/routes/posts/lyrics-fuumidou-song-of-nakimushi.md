@@ -1,7 +1,7 @@
 ---
-title: "【譯/歌詞】風味堂 - ナキムシのうた"
+title: "【歌詞翻譯】風味堂 - ナキムシのうた"
 date: 2013-07-16T13:50:29.000Z
-tags: Lyrics
+tags: Lyrics, Translate
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/p2hZzyB_KvQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

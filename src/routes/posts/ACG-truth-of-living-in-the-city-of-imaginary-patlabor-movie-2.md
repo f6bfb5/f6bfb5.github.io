@@ -1,10 +1,10 @@
 ---
-title: "【譯】活在〈虛構的都市〉裡的真實——《機動警察 Patlabor 2 The Movie》感想"
+title: "活在〈虛構的都市〉裡的真實——《機動警察 Patlabor 2 The Movie》感想"
 date: 2019-01-26T07:22:16.000Z
 published: 2019-01-26T07:22:16.000Z
 author: f6bfb5
 summary:
-tags: ACG, Anime
+tags: ACG, Anime, Translate
 layout: blog
 ---
 

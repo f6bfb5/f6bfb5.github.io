@@ -1,7 +1,7 @@
 ---
-title: "【譯/歌詞】樋口了一 - 1/6の夢旅人2002"
+title: "【歌詞翻譯】樋口了一 - 1/6の夢旅人2002"
 date: 2018-12-25T11:51:05.000Z
-tags: Lyrics
+tags: Lyrics, Translate
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/lxt-zHlHd1o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,10 +1,10 @@
 ---
-title: "【譯】宮崎駿與恰克飛鳥的短篇實驗劇場 吉卜力《On Your Mark》訪談翻譯"
+title: "宮崎駿與恰克飛鳥的短篇實驗劇場 吉卜力《On Your Mark》訪談翻譯"
 date: 2019-01-19T06:30:08.000Z
 published: 2019-01-19T06:30:08.000Z
 author: f6bfb5
 summary: "原文出自月刊《Animage》1995 年 9 月號的宮崎駿採訪。"
-tags: ACG, Anime
+tags: ACG, Anime, Translate
 layout: blog
 ---
 

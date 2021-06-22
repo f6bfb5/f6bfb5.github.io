@@ -1,7 +1,7 @@
 ---
-title: "【譯/歌詞】鬼束ちひろ - 蠟の翼"
+title: "【歌詞翻譯】鬼束ちひろ - 蠟の翼"
 date: 2018-12-15T11:55:30.000Z
-tags: Lyrics
+tags: Lyrics, Translate
 ---
 
 <iframe width="720" height="480" src="https://www.youtube.com/embed/nvDOmQRiBRY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

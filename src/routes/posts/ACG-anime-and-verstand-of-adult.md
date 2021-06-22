@@ -1,9 +1,9 @@
 ---
-title: "【譯】動畫與成人的知性"
+title: "動畫與成人的知性"
 date: 2020-07-05T21:36:18.000Z
 author: f6bfb5
-summary:
-tags: ACG, Anime
+summary: "現在動畫的幼兒化是為了讓大人消費所做的幼兒化。當大人消費的作品幼兒化成為必然，只代表觀眾是依然幼稚的大人。並且這也不是現在才有的問題，而是近 40 年前從第一世代御宅族誕生時就存在的。"
+tags: ACG, Anime, Translate
 layout: blog
 ---
 
