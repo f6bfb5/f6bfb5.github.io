@@ -1,5 +1,5 @@
 ---
-title: "各家 Free Hosting Platform 比較"
+title: "各家 Free Hosting Platform"
 date: 2020-01-19T12:37:01.000Z
 published: 2020-01-19T12:37:01.000Z
 author: f6bfb5
@@ -129,7 +129,27 @@ heroku config | grep CLEARDB_DATABASE_URL
 
 - [利用 Cloud function 製作 GitHub Apps](https://blog.techbridge.cc/2020/06/21/github-apps-cloudfunction/)
 
-## [Amazon AWS](https://aws.amazon.com/tw/)
+## [Amazon AWS Free Plan](https://aws.amazon.com/tw/)
+
+### AWS Lambda
 
 - [Serverless 架構應用開發指南 - serverless](https://serverless.ink/)
 - [使用 Node.js + serverless framework + AWS Lambda 打造可擴展、更穩定而且更經濟的架構](https://medium.com/visuallylab/%E4%BD%BF%E7%94%A8-node-js-serverless-framework-aws-lambda-%E6%89%93%E9%80%A0%E5%8F%AF%E6%93%B4%E5%B1%95-%E6%9B%B4%E7%A9%A9%E5%AE%9A%E8%80%8C%E4%B8%94%E6%9B%B4%E7%B6%93%E6%BF%9F%E7%9A%84%E6%9E%B6%E6%A7%8B-6a54b51b8988)
+
+### Amazon DynamoDB
+
+## Microsoft Azure
+
+### Azure App Service
+
+### Azure Functions
+
+### Azure DevOps
+
+## Google Cloud
+
+## Oracle Cloud
+
+## IBM Cloud
+
+- [ずっと無料で使えるクラウドの「Free Tier」主要サービスまとめ。2021 年版 － Publickey](https://www.publickey1.jp/blog/21/free_tier2021.html)

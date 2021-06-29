@@ -10,23 +10,6 @@ layout: blog
 
 整理網路上的前端相關資源。
 
-<summary>
-
-###### TOC
-
-</summary>
-<details>
-
-- [入門](#入門)
-  - [練習資源](#練習資源)
-  - [互動遊戲](#互動遊戲)
-  - [如何撰寫技術文章](#如何撰寫技術文章)
-- [設計](#設計)
-  - [Product Requirements Docs ( PRD )](#product-requirements-docs--prd-)
-  - [如何做出有趣的網頁](#如何做出有趣的網頁)
-  - [靈感](#靈感)
-- [Note](#note)
-
 ---
 
 </details>
