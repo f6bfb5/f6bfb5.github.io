@@ -1,11 +1,8 @@
 ---
 title: "前端筆記 (5) 編輯器與相關資源"
 date: 2019-07-18T07:13:00.000Z
-published: 2019-07-18T07:13:00.000Z
-author: f6bfb5
 summary:
 tags: F2E
-layout: blog
 ---
 
 ## 編輯器

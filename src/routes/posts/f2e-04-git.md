@@ -1,11 +1,8 @@
 ---
 title: "前端筆記 (4) Git"
 date: 2019-07-18T07:11:59.000Z
-published: 2019-07-18T07:11:59.000Z
-author: f6bfb5
 summary:
 tags: F2E, Git
-layout: blog
 ---
 
 ## Git 簡介

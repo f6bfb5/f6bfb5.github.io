@@ -1,10 +1,7 @@
 ---
 title: "使用 Emmet 快速完成內容"
 date: 2019-07-21T13:47:08.000Z
-published: 2019-07-21T13:47:08.000Z
-author: f6bfb5
 summary:
-layout: blog
 ---
 
 ## What is Emmet？

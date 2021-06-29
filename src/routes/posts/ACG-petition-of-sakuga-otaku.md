@@ -1,11 +1,8 @@
 ---
 title: "作畫御宅族的訴願"
 date: 2019-08-25T07:25:22.000Z
-published: 2019-08-25T07:25:22.000Z
-author: f6bfb5
 summary: "到底是誰的錯呢，是海外動畫公司的錯，還是發包給他們的工作室的錯，或是不得不照著走的行程的錯，還是全部都有錯呢。但放長遠來看，有錯的，或許是身為觀眾的我們。"
 tags: ACG, Anime, Translate
-layout: blog
 ---
 
 文章來源： [とある作画オタクによる訴え](https://togetter.com/li/1059183)

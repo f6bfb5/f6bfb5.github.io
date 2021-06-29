@@ -1,11 +1,8 @@
 ---
 title: "RC 動畫評論 山田尚子的起源"
 date: 2019-01-19T06:46:33.000Z
-published: 2019-01-19T06:46:33.000Z
-author: f6bfb5
 summary: "每個作家都有所受到影響的源頭，山田尚子也不例外，有些根源對人們來說可能會覺得意外，但其影響是可見的。"
 tags: ACG, Anime, Translate
-layout: blog
 ---
 
 <iframe width="720" height="480" title="the influences of naoko yamada" src="https://www.youtube.com/embed/K_c1gQw6S6Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

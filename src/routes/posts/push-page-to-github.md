@@ -1,11 +1,8 @@
 ---
 title: "推送網頁到 GitHub Pages"
 date: 2020-05-25T00:26:32.000Z
-published: 2020-05-25T00:26:32.000Z
-author: f6bfb5
 summary:
 tags: F2E
-layout: blog
 ---
 
 ## 前置準備

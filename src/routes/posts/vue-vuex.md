@@ -1,10 +1,8 @@
 ---
 title: "Vue 筆記 - Vuex"
 date: 2019-12-07T06:43:15.000Z
-author: f6bfb5
 summary:
 tags: F2E, JavaScript
-layout: blog
 ---
 
 ## 介紹

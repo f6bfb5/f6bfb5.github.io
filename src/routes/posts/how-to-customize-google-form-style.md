@@ -1,10 +1,7 @@
 ---
 title: "自訂 Google 表單的外觀"
 date: 2020-06-10T14:59:54.000Z
-published: 2020-06-10T14:59:54.000Z
-author: f6bfb5
 summary:
-layout: blog
 ---
 
 ## 事前準備

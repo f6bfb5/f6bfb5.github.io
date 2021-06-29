@@ -1,11 +1,8 @@
 ---
 title: "動畫會變得無聊，都是《新世紀福音戰士》的錯"
 date: 2020-09-16T22:11:17.000Z
-published: 2020-09-16T22:11:17.000Z
-author: f6bfb5
 summary: "這全都是我們這些廠商和動畫製作公司的錯，是《EVA》的功過裡「過」的部份。我們並沒有「功」，若要說有，那也只是作品本身的評價而已。"
 tags: ACG, Anime, Evangelion, Translate
-layout: blog
 ---
 
 文章來源：[サイゾー１月号　アニメがつまらなくなったのは新世紀エヴァンゲリオンのせいである](http://anime-room.jp/modules/xpwiki/?%A5%B5%A5%A4%A5%BE%A1%BC%A3%B1%B7%EE%B9%E6%A1%A1%A5%A2%A5%CB%A5%E1%A4%AC%A4%C4%A4%DE%A4%E9%A4%CA%A4%AF%A4%CA%A4%C3%A4%BF%A4%CE%A4%CF%BF%B7%C0%A4%B5%AA%A5%A8%A5%F4%A5%A1%A5%F3%A5%B2%A5%EA%A5%AA%A5%F3%A4%CE%A4%BB%A4%A4%A4%C7%A4%A2%A4%EB)

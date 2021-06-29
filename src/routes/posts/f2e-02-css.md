@@ -1,11 +1,8 @@
 ---
 title: "前端筆記 (2) CSS"
 date: 2019-07-18T07:09:01.000Z
-published: 2019-07-18T07:09:01.000Z
-author: f6bfb5
 summary:
 tags: F2E, CSS
-layout: blog
 ---
 
 ## 1. 顯示與定位

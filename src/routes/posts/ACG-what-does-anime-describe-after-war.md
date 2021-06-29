@@ -1,11 +1,8 @@
 ---
 title: "戰後動畫描寫了什麼"
 date: 2019-02-12T07:11:50.000Z
-published: 2019-02-12T07:11:50.000Z
-author: f6bfb5
 summary:
 tags: ACG, Anime, Translate
-layout: blog
 ---
 
 文章來源：[戦後アニメーションは何を描いてきたか](https://note.mu/masashi3122/n/naef51e9b3569)（已失效）

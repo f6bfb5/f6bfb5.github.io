@@ -1,11 +1,8 @@
 ---
 title: "アニメ様的七嘴八舌 第 59 回 EVA 雜記 「第二十六話 在世界的中心呼喊愛的野獸」"
 date: 2020-05-10T19:37:05.000Z
-published: 2020-05-10T19:37:05.000Z
-author: f6bfb5
 summary: "雖然第貳拾伍話和最終話在主題上相當充實，可說是份充滿野心的影像，但放棄了戲劇應有的樣貌也是事實。許多在劇中所提到的謎團並沒有得到解答。實際上也有許多粉絲對這最後 2 話感到不滿。"
 tags: ACG, Anime, Evangelion, Translate
-layout: blog
 ---
 
 文章來源：[第 59 回　エヴァ雑記「最終話　世界の中心でアイを叫んだけもの」](http://style.fm/as/05_column/animesama59.shtml)

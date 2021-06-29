@@ -1,10 +1,7 @@
 ---
 title: "Marp - 從 Markdown 檔案產生投影片"
 date: 2020-07-11T20:13:35.000Z
-published: 2020-07-11T20:13:35.000Z
-author: f6bfb5
 summary:
-layout: blog
 ---
 
 如果你有用過 HackMD 或 reveal.js 的話，可能知道 markdown 也能用來製作投影片，但這些方式都需要透過網頁處理，VSCode 上的插件 Marp 除了既有的網頁形式外，還可以將 markdown 檔案轉換成 pdf 或 PowerPoint 格式

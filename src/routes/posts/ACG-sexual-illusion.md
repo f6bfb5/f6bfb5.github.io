@@ -1,11 +1,8 @@
 ---
-title: 論擁有拯救人生某段時期可能性的性幻想
+title: "論擁有拯救人生某段時期可能性的性幻想"
 date: 2019-10-29T06:00:00.000Z
-published: 2019-10-29T06:00:00.000Z
-author: f6bfb5
-summary:
 tags: ACG, Translate
-layout: blog
+summary:
 ---
 
 原文連結：[論擁有拯救人生某段時期的可能性的性幻想](http://togetter.com/li/22217)（已失效）

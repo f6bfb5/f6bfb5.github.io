@@ -1,11 +1,8 @@
 ---
 title: "關於「旅人的理論」"
 date: 2019-01-22T06:53:00.000Z
-published: 2019-01-22T06:53:00.000Z
-author: f6bfb5
 summary: "重要的是，徹底地沉迷，之後，從那裡回來。這樣才能開始看見許多東西。而這時所看見的東西，是在所沉迷時絕對看不見的，而也是不會沉迷的人，永遠無法理解的"
 tags: ACG, Translate
-layout: blog
 ---
 
 文章來源：[「旅人の論理」について](http://www.netcity.or.jp/otakuweekly/PRE0.9/TR8.html)

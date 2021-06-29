@@ -1,11 +1,8 @@
 ---
 title: "Vue - 靜態網頁產生器 Gridsome"
 date: 2019-12-06T10:48:03.000Z
-published: 2019-12-06T10:48:03.000Z
-author: f6bfb5
 summary:
 tags: F2E, JavaScript
-layout: blog
 ---
 
 ## What is gridsome

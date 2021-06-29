@@ -1,11 +1,8 @@
 ---
 title: "前端筆記 (6) 網頁開發者工具"
 date: 2019-07-18T07:15:32.000Z
-published: 2019-07-18T07:15:32.000Z
-author: f6bfb5
 summary:
 tags: F2E
-layout: blog
 ---
 
 - [[學習筆記] Chrome Dev Tools 開發者工具實用功能整理](https://pjchender.blogspot.com/2017/06/chrome-dev-tools.html)

@@ -1,11 +1,8 @@
 ---
 title: "CSS - Susy 3 快速計算排版欄寬與間隔的 library"
 date: 2019-11-09T00:32:49.000Z
-published: 2019-11-09T00:32:49.000Z
-author: f6bfb5
 summary: "Susy 是一套 Sass 的響應式版面引擎，在還沒有 flexbox 和 grid 的時候，Susy 提供了一系列的 Sass function ，可以搭配變數快速計算出網格分割的尺寸、處理斷點變版，讓工程師不再需要苦於自行處理數值，到了 Susy 3 之後，則簡化成了可以與 flexbox 和 float 搭配使用的功能性 library。"
 tags: F2E, CSS
-layout: blog
 ---
 
 ## What is Susy 3？

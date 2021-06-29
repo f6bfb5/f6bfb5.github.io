@@ -1,10 +1,7 @@
 ---
 title: "使用 Google Sheet 做為資料庫"
 date: 2020-07-23T00:40:12.000Z
-published: 2020-07-23T00:40:12.000Z
-author: f6bfb5
 summary: "Google 所提供的 Sheet API 可以直接將 Sheet 內容轉換成 JSON 格式輸出，亦可接受從外部傳進資料，修改 Sheet 裡的內容，並且都有提供 CORS 支援，可以免於處理跨域的困擾。"
-layout: blog
 ---
 
 Google 所提供的 Sheet API 可以直接將 Sheet 內容轉換成 JSON 格式輸出，

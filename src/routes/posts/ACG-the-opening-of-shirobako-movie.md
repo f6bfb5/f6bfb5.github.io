@@ -1,11 +1,8 @@
 ---
 title: "《劇場版 SHIROBAKO》的片頭所展示出的動畫業界轉變"
 date: 2020-05-10T19:29:29.000Z
-published: 2020-05-10T19:29:29.000Z
-author: f6bfb5
 summary: "這段《劇場版 SHIROBAKO》的片頭，是在呈現日本動畫業界狀況的演出，並且與現實的動畫業界有所關聯。"
 tags: ACG, Anime, Translate
-layout: blog
 ---
 
 文章來源：[【劇場版 SHIROBAKO】のオープニングがアニメ業界の移り変わりを示してくれている。](https://note.com/nejimura89/n/nf9d565d18ddf)

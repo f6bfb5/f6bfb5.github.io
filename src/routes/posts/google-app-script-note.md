@@ -1,10 +1,7 @@
 ---
 title: "Google App Script 筆記"
 date: 2020-08-25T03:21:09.000Z
-published: 2020-08-25T03:21:09.000Z
-author: f6bfb5
 summary:
-layout: blog
 ---
 
 - [contributorpw/google-apps-script-awesome-list: The usual list of links to interesting resources for Google Apps Script](https://github.com/contributorpw/google-apps-script-awesome-list#parsing)

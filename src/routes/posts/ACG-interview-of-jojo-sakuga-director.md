@@ -1,11 +1,8 @@
 ---
 title: "動畫版《JOJO》總作畫監督指摘「即使 Netflix 給出再多製作費，也回饋不到現場的動畫師手上」"
 date: 2020-08-27T21:37:25.000Z
-published: 2020-08-27T21:37:25.000Z
-author: f6bfb5
 summary: "在這篇文章裡，我們向西村輝實問道，關於以 Netflix 為首，進年開始進軍日本動畫業界的，海外資本的產業狀況。"
 tags: ACG, Anime, Translate
-layout: blog
 ---
 
 文章來源：[アニメ版『ジョジョ』の総作画監督が指摘「Netflix で制作費が増えても、現場のアニメーターには還元されない」](https://www.itmedia.co.jp/business/articles/2006/25/news013.html)

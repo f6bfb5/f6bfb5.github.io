@@ -1,11 +1,8 @@
 ---
 title: "中國人們稱為「名作之壁」的《IS》"
 date: 2020-07-04T20:18:43.000Z
-published: 2020-07-04T20:18:43.000Z
-author: f6bfb5
 summary: "用日文去搜尋「名作之壁」也找不到用詞來源。只有中文資料使用「名作之壁」在講《IS》。"
 tags: ACG, Anime, Translate
-layout: blog
 ---
 
 文章來源：[中国で「名作之壁」と呼ばれる「IS」](http://blog.livedoor.jp/kashikou/archives/51976215.html)

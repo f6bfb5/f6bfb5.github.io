@@ -1,10 +1,7 @@
 ---
 title: "Docker 筆記"
 date: 2020-08-21T15:12:42.000Z
-published: 2020-08-21T15:12:42.000Z
-author: f6bfb5
 summary:
-layout: blog
 ---
 
 Docker 的出現，是為了解決在 deploy 作業途中時會出現的各種問題。

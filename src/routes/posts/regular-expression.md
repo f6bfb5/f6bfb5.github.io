@@ -1,10 +1,7 @@
 ---
 title: "正規表達式 Regular Expression"
 date: 2019-09-17T20:08:26.000Z
-published: 2019-09-17T20:08:26.000Z
-author: f6bfb5
 summary:
-layout: blog
 ---
 
 ## 基礎介紹

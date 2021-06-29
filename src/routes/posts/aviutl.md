@@ -1,10 +1,7 @@
 ---
-title: "強大的免費影片剪輯後製軟體 Aviutl"
+title: "強大的免費影片剪輯、後製軟體 Aviutl"
 date: 2021-01-05T01:58:08.000Z
-published: 2021-01-05T01:58:08.000Z
-author: f6bfb5
 summary:
-layout: blog
 ---
 
 ## 程式本體

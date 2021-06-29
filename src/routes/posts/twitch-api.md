@@ -1,10 +1,7 @@
 ---
 title: "Twitch API Authentication"
 date: 2020-11-08T23:50:09.000Z
-published: 2020-11-08T23:50:09.000Z
-author: f6bfb5
 summary: "前陣子剛好有機會，寫了個用到 Twitch OAuth 登入認證的網站，順手記錄用到的內容"
-layout: blog
 ---
 
 前陣子剛好有機會，寫了個用到 Twitch OAuth 登入認證的網站，順手記錄用到的內容

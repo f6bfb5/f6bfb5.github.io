@@ -1,11 +1,8 @@
 ---
 title: "Vue - Cheatsheet"
 date: 2020-08-22T19:37:32.000Z
-published: 2020-08-22T19:37:32.000Z
-author: f6bfb5
 summary:
 tags: F2E, JavaScript
-layout: blog
 ---
 
 - [Vue-Essentials-Cheat-Sheet.pdf](https://www.vuemastery.com/pdf/Vue-Essentials-Cheat-Sheet.pdf)

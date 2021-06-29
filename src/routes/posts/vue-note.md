@@ -1,11 +1,8 @@
 ---
 title: "Vue 筆記"
 date: 2019-12-07T06:42:15.000Z
-published: 2019-12-07T06:42:15.000Z
-author: f6bfb5
 summary:
 tags: F2E, JavaScript
-layout: blog
 ---
 
 - [Vue.js 30 天隨身包](https://ithelp.ithome.com.tw/users/20107673/ironman/1470)

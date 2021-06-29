@@ -1,6 +1,7 @@
 ---
 title: "漫畫荒？來看看日本網友都推薦些什麼！"
 date: 2021-06-18T02:26:28.000Z
+summary: "常常煩惱不知道有什麼漫畫好看？或是覺得現在主流意見領袖的推薦漫畫都太常見，跟你家巷口老朋友的書單沒兩樣？不如換個口味，來看看日本網友們都推薦、討論些什麼漫畫吧！"
 ---
 
 常常煩惱不知道有什麼漫畫好看？或是覺得現在主流意見領袖的推薦漫畫都太常見，跟你家巷口老朋友的書單沒兩樣？不如換個口味，來看看日本網友們都推薦、討論些什麼漫畫吧！
@@ -9,27 +10,27 @@ date: 2021-06-18T02:26:28.000Z
 
 ## Hatena Blog
 
-- [お勧めの完結済み漫画](https://anond.hatelabo.jp/20190523021636)
-- [最終回がめちゃくちゃ良かった漫画を教えてくれ！](https://anond.hatelabo.jp/20200615195621)
-- [マイナーかもしれんが教えてくれ 追追追追記しました](https://anond.hatelabo.jp/20200729213114)
-- [何度も読み返してしまう漫画](https://anond.hatelabo.jp/20200929220019)
-- [おすすめ漫画教えて](https://anond.hatelabo.jp/20210520160147)
+- 2019-05-23 [お勧めの完結済み漫画](https://anond.hatelabo.jp/20190523021636)
+- 2020-06-15 [最終回がめちゃくちゃ良かった漫画を教えてくれ！](https://anond.hatelabo.jp/20200615195621)
+- 2020-07-29 [マイナーかもしれんが教えてくれ 追追追追記しました](https://anond.hatelabo.jp/20200729213114)
+- 2020-09-29 [何度も読み返してしまう漫画](https://anond.hatelabo.jp/20200929220019)
+- 2021-05-20 [おすすめ漫画教えて](https://anond.hatelabo.jp/20210520160147)
 
-##
+## 部落格介紹（依時間序）
 
-[出版社の営業がガチで選んだ、本当は自分が売りたい最高の漫画 26 選！｜ Career Supli](https://careersupli.jp/lifehack/manga-3/)
-[没後 30 年、「漫画の神様」手塚治虫先生に関する証言集 - いつか電池がきれるまで](https://fujipon.hatenablog.com/entry/2019/02/09/090000)
-[2020 年に第一巻が発売されたおもしろマンガ・ベスト 10 と＋ 40 作くらい - 名馬であれば馬のうち](https://proxia.hateblo.jp/entry/2021/01/20/190057)
-[【完結済み】漫画オタクが選ぶオススメ漫画ランキング 82 選【マイナー向け】 - 漫画に飽きるまで](http://jojocomic2325.hatenablog.com/entry/2020/04/25/161437)
-[【再掲載】「3.11 を直接描いた漫画」リストをそのまま再掲載します - INVISIBLE D.　ー QUIET & COLORFUL PLACE-](https://m-dojo.hatenadiary.com/entry/2020/03/11/013105)
-[全１巻オススメ漫画１００選　良いコミック](https://yoicomic.blog.fc2.com/blog-entry-185.html)
-[2015 年、漫画ベスト 50 - From The Inside](https://minesweeper96.hatenablog.com/entry/2015/12/31/180519)
-[Blog のタイトル:2008 年版 ナツ 100(確定) - livedoor Blog（ブログ）](http://blog.livedoor.jp/sabamiso_es/archives/51359391.html)
-[このマンガで語り合いたい！私が読んだマンガ・おすすめ 55 選。 - ネットタイガー](https://web.archive.org/web/20150213130034/http://nbnl.hatenablog.jp/entry/2015/02/13/211923)
-[漫画ナツ 100 に、久し振りに参加してみる - マンガ LOG 収蔵庫](https://m-kikuchi.hatenablog.com/entry/20110822/1314013093)
-[絶対に面白いおすすめ漫画 99 選！話題の新作から殿堂入りの名作まで厳選紹介 | 心に火を、指先にペンを](https://www.kokoro-fire.com/entry/osusume-manga/)
-[【永久保存版】国内ゲーム漫画 83 作品 287 冊を全冊読破してレビュー。語られざる歴史をベテランゲーム誌編集者が徹底案内【前編】](https://news.denfaminicogamer.jp/kikakuthetower/170721)
-[【2020 版】ミステリー・サスペンス漫画のおすすめの面白い作品を紹介する。 - 漫画ギーク記](https://www.dokusyo-geek-ki.com/entry/2016/04/27/070429)
+- 2008-08-12 [Blog のタイトル:2008 年版 ナツ 100(確定) - livedoor Blog（ブログ）](http://blog.livedoor.jp/sabamiso_es/archives/51359391.html)
+- 2010-08-23 [全１巻オススメ漫画１００選　良いコミック](https://yoicomic.blog.fc2.com/blog-entry-185.html)
+- 2011-08-22 [漫画ナツ 100 に、久し振りに参加してみる - マンガ LOG 収蔵庫](https://m-kikuchi.hatenablog.com/entry/20110822/1314013093)
+- 2015-02-13 [このマンガで語り合いたい！私が読んだマンガ・おすすめ 55 選。 - ネットタイガー](https://web.archive.org/web/20150213130034/http://nbnl.hatenablog.jp/entry/2015/02/13/211923)
+- 2015-12-31 [2015 年、漫画ベスト 50 - From The Inside](https://minesweeper96.hatenablog.com/entry/2015/12/31/180519)
+- 2017-02-08 [出版社の営業がガチで選んだ、本当は自分が売りたい最高の漫画 26 選！｜ Career Supli](https://careersupli.jp/lifehack/manga-3/)
+- 2017-07-21 [【永久保存版】国内ゲーム漫画 83 作品 287 冊を全冊読破してレビュー。語られざる歴史をベテランゲーム誌編集者が徹底案内【前編】](https://news.denfaminicogamer.jp/kikakuthetower/170721)
+- 2020-03-11 [【再掲載】「3.11 を直接描いた漫画」リストをそのまま再掲載します - INVISIBLE D.　ー QUIET & COLORFUL PLACE-](https://m-dojo.hatenadiary.com/entry/2020/03/11/013105)
+- 2020-04-25 [【完結済み】漫画オタクが選ぶオススメ漫画ランキング 82 選【マイナー向け】 - 漫画に飽きるまで](http://jojocomic2325.hatenablog.com/entry/2020/04/25/161437)
+- 2020-05-30 [【2020 版】ミステリー・サスペンス漫画のおすすめの面白い作品を紹介する。 - 漫画ギーク記](https://www.dokusyo-geek-ki.com/entry/2016/04/27/070429)
+- 2021-01-20 [2020 年に第一巻が発売されたおもしろマンガ・ベスト 10 と＋ 40 作くらい - 名馬であれば馬のうち](https://proxia.hateblo.jp/entry/2021/01/20/190057)
+- 2021-06-26 [絶対に面白いおすすめ漫画 99 選！話題の新作から殿堂入りの名作まで厳選紹介 | 心に火を、指先にペンを](https://www.kokoro-fire.com/entry/osusume-manga/)
+- 2021-06-26 [マンガ必読書 101（井戸畑,赤井,滝,竹田,寛治,ほしがた） - exust's blog](https://exust.hatenablog.com/entry/2021/06/26/045024)
 
 ## 額外加碼 英國推薦「1001 本你死前應該要看過的漫畫」
 

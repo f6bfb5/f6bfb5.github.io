@@ -1,11 +1,8 @@
 ---
 title: "若從兒童福利的觀點來看《天氣之子》，就會覺得更真實而有趣！"
 date: 2019-09-19T07:32:22.000Z
-published: 2019-09-19T07:32:22.000Z
-author: f6bfb5
 summary:
 tags: ACG, Anime, Translate
-layout: blog
 ---
 
 文章來源：[『天気の子』は、児童福祉の視点で見ると、さらにリアルで面白い！](https://hbol.jp/199661?display=b)

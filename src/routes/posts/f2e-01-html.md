@@ -1,11 +1,8 @@
 ---
 title: "前端筆記 (1) HTML"
 date: 2019-07-18T07:07:01.000Z
-published: 2019-07-18T07:07:01.000Z
-author: f6bfb5
 summary:
 tags: F2E, HTML
-layout: blog
 ---
 
 ## What is HTML？

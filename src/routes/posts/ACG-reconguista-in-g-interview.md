@@ -1,10 +1,8 @@
 ---
 title: 鋼彈 Reconguista in G 富野由悠季x宇野常寬 特別訪談
 date: 2019-10-29T06:00:00.000Z
-author: f6bfb5
 summary:
 tags: ACG, Anime
-layout: blog
 ---
 
 ## 完成新的「鋼彈」之後……

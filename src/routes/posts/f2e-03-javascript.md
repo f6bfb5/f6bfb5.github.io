@@ -1,11 +1,8 @@
 ---
 title: "前端筆記 (3) JavaScript"
 date: 2019-07-18T07:10:16.000Z
-published: 2019-07-18T07:10:16.000Z
-author: f6bfb5
 summary:
 tags: F2E, JavaScript
-layout: blog
 ---
 
 ## ECMAScript
@@ -380,9 +377,9 @@ let Observable = Rx.Observable;
 let resultA, resultB, resultC;
 
 function addAsync(num1, num2) {
-  const promise = fetch(
-    `http://example.com?num1=${num1}&num2=${num2}`
-  ).then((x) => x.json());
+  const promise = fetch(`http://example.com?num1=${num1}&num2=${num2}`).then(
+    (x) => x.json()
+  );
   return Observable.fromPromise(promise);
 }
 
