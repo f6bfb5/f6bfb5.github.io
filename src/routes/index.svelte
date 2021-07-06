@@ -173,6 +173,9 @@
   li + li {
     padding: 0.25em 0;
   }
+  ul li a {
+    letter-spacing: 0.52px;
+  }
 
   .tag-group {
     padding: 0 16px;
