@@ -110,11 +110,3 @@ tags: ACG, Anime, Evangelion, Translate
 ○ 特別節目上映會「庵野秀明的世界」
 <br>2014 年 10 月 24 日～ 10 月 30 日
 <br>http://2014.tiff-jp.net/news/ja/?p=25603
-
-## 相關資料
-
-- [WEB アニメスタイル ｜ アニメ様 365 日 第 455 回　「逆襲のシャア友の会」（前編）](http://www.style.fm/as/05_column/365/365_455.shtml)
-- [WEB アニメスタイル ｜ アニメ様 365 日 第 456 回　「逆襲のシャア友の会」（中編）](http://www.style.fm/as/05_column/365/365_456.shtml)
-- [WEB アニメスタイル ｜ アニメ様 365 日 第 457 回　「逆襲のシャア友の会」（後編）](http://www.style.fm/as/05_column/365/365_457.shtml)
-- [WEB アニメスタイル ｜ アニメ様 365 日 第 458 回　「逆襲のシャア友の会」（完結編）](http://www.style.fm/as/05_column/365/365_458.shtml)
-- [1988 年『機動戦士ガンダム 逆襲のシャア』編 - コラム](http://rittorsha.jp/column/2020/01/1988.html)
