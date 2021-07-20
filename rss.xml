@@ -5,7 +5,7 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>2021-07-06T23:53:59Z</lastBuildDate>
+      <lastBuildDate>2021-07-20T08:35:13Z</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -870,9 +870,9 @@
       
 
         <item>
-          <title>前端筆記 (8) Toolbox</title>
-          <link>https://f6bfb5.github.io/blog/f2e-08-tools</link>
-          <pubDate>2019-07-18T07:17:11Z</pubDate>
+          <title>前端筆記 (9) Toolbox</title>
+          <link>https://f6bfb5.github.io/blog/f2e-09-tools</link>
+          <pubDate>2019-07-18T07:09:00Z</pubDate>
           <description>
               null
           </description>
@@ -880,9 +880,9 @@
       
 
         <item>
-          <title>前端筆記 (7) 網頁測試</title>
-          <link>https://f6bfb5.github.io/blog/f2e-07-unit-test</link>
-          <pubDate>2019-07-18T07:16:11Z</pubDate>
+          <title>前端筆記 (8) 網頁測試</title>
+          <link>https://f6bfb5.github.io/blog/f2e-08-unit-test</link>
+          <pubDate>2019-07-18T07:08:00Z</pubDate>
           <description>
               null
           </description>
@@ -890,9 +890,9 @@
       
 
         <item>
-          <title>前端筆記 (6) 網頁開發者工具</title>
-          <link>https://f6bfb5.github.io/blog/f2e-06-devtool</link>
-          <pubDate>2019-07-18T07:15:32Z</pubDate>
+          <title>前端筆記 (7) 網頁開發者工具</title>
+          <link>https://f6bfb5.github.io/blog/f2e-07-devtool</link>
+          <pubDate>2019-07-18T07:07:00Z</pubDate>
           <description>
               null
           </description>
@@ -900,9 +900,9 @@
       
 
         <item>
-          <title>前端筆記 (5) 編輯器與相關資源</title>
-          <link>https://f6bfb5.github.io/blog/f2e-05-editor-and-extension</link>
-          <pubDate>2019-07-18T07:13:00Z</pubDate>
+          <title>前端筆記 (6) 編輯器與相關資源</title>
+          <link>https://f6bfb5.github.io/blog/f2e-06-editor-and-extension</link>
+          <pubDate>2019-07-18T07:06:00Z</pubDate>
           <description>
               null
           </description>
@@ -910,11 +910,21 @@
       
 
         <item>
-          <title>前端筆記 (4) Git</title>
-          <link>https://f6bfb5.github.io/blog/f2e-04-git</link>
-          <pubDate>2019-07-18T07:11:59Z</pubDate>
+          <title>前端筆記 (5) Git</title>
+          <link>https://f6bfb5.github.io/blog/f2e-05-git</link>
+          <pubDate>2019-07-18T07:05:00Z</pubDate>
           <description>
               null
+          </description>
+        </item>
+      
+
+        <item>
+          <title>前端筆記 (4) 自動化工具</title>
+          <link>https://f6bfb5.github.io/blog/f2e-04-tasker-and-bundler</link>
+          <pubDate>2019-07-18T07:04:00Z</pubDate>
+          <description>
+              undefined
           </description>
         </item>
       
@@ -922,7 +932,7 @@
         <item>
           <title>前端筆記 (3) JavaScript</title>
           <link>https://f6bfb5.github.io/blog/f2e-03-javascript</link>
-          <pubDate>2019-07-18T07:10:16Z</pubDate>
+          <pubDate>2019-07-18T07:03:00Z</pubDate>
           <description>
               null
           </description>
@@ -932,7 +942,7 @@
         <item>
           <title>前端筆記 (2) CSS</title>
           <link>https://f6bfb5.github.io/blog/f2e-02-css</link>
-          <pubDate>2019-07-18T07:09:01Z</pubDate>
+          <pubDate>2019-07-18T07:02:00Z</pubDate>
           <description>
               null
           </description>
@@ -942,7 +952,7 @@
         <item>
           <title>前端筆記 (1) HTML</title>
           <link>https://f6bfb5.github.io/blog/f2e-01-html</link>
-          <pubDate>2019-07-18T07:07:01Z</pubDate>
+          <pubDate>2019-07-18T07:01:00Z</pubDate>
           <description>
               null
           </description>
@@ -952,7 +962,7 @@
         <item>
           <title>前端筆記 (0) 總整理</title>
           <link>https://f6bfb5.github.io/blog/f2e-00-summary</link>
-          <pubDate>2019-07-18T07:05:01Z</pubDate>
+          <pubDate>2019-07-18T07:00:00Z</pubDate>
           <description>
               null
           </description>

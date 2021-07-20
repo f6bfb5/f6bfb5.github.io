@@ -3,28 +3,28 @@
   
     <url>
       <loc>https://f6bfb5.github.io/</loc>
-      <lastmod>2021-07-06T23:53:58.940Z</lastmod>
+      <lastmod>2021-07-20T08:35:13.504Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/about</loc>
-      <lastmod>2021-07-06T23:53:58.940Z</lastmod>
+      <lastmod>2021-07-20T08:35:13.504Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/posts</loc>
-      <lastmod>2021-07-06T23:53:58.940Z</lastmod>
+      <lastmod>2021-07-20T08:35:13.504Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/rss</loc>
-      <lastmod>2021-07-06T23:53:58.940Z</lastmod>
+      <lastmod>2021-07-20T08:35:13.504Z</lastmod>
       <priority>1.00</priority>
     </url>
   
@@ -632,35 +632,42 @@
   
 
     <url>
-      <loc>https://f6bfb5.github.io/f2e-08-tools</loc>
+      <loc>https://f6bfb5.github.io/f2e-09-tools</loc>
       <lastmod>2019-07-18T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
 
     <url>
-      <loc>https://f6bfb5.github.io/f2e-07-unit-test</loc>
+      <loc>https://f6bfb5.github.io/f2e-08-unit-test</loc>
       <lastmod>2019-07-18T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
 
     <url>
-      <loc>https://f6bfb5.github.io/f2e-06-devtool</loc>
+      <loc>https://f6bfb5.github.io/f2e-07-devtool</loc>
       <lastmod>2019-07-18T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
 
     <url>
-      <loc>https://f6bfb5.github.io/f2e-05-editor-and-extension</loc>
+      <loc>https://f6bfb5.github.io/f2e-06-editor-and-extension</loc>
       <lastmod>2019-07-18T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
 
     <url>
-      <loc>https://f6bfb5.github.io/f2e-04-git</loc>
+      <loc>https://f6bfb5.github.io/f2e-05-git</loc>
+      <lastmod>2019-07-18T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/f2e-04-tasker-and-bundler</loc>
       <lastmod>2019-07-18T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
