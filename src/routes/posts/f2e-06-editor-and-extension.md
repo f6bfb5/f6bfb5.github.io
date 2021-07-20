@@ -1,6 +1,6 @@
 ---
-title: "前端筆記 (5) 編輯器與相關資源"
-date: 2019-07-18T07:13:00.000Z
+title: "前端筆記 (6) 編輯器與相關資源"
+date: 2019-07-18T07:06:00.000Z
 summary:
 tags: F2E
 ---
@@ -9,25 +9,25 @@ tags: F2E
 
 | 名稱                                     | 說明 |
 | ---------------------------------------- | ---- |
-| [Atom](https://atom.io/)                 |      |
 | [VSCode](https://code.visualstudio.com/) |      |
 | [Vim](https://www.vim.org/)              |      |
+| [Atom](https://atom.io/)                 |      |
 | [Brackets](http://brackets.io/)          |      |
 
 ## 線上編輯器
 
-| 名稱                                   | 說明                  |
-| -------------------------------------- | --------------------- |
-| [CodeSandbox](https://codesandbox.io/) |                       |
-| [Coder](https://coder.com/projects)    | 瀏覽器上的雲端 VSCode |
-| [StackBlitz](https://stackblitz.com/)  |                       |
-| [Codepen](https://codepen.io/)         |                       |
-| [JS Bin](http://jsbin.com/)            |                       |
-| [Plunker](https://plnkr.co/)           |                       |
-| [CSS Deck](http://cssdeck.com/)        |                       |
-| [Dabblet](http://dabblet.com/)         |                       |
-| [Liveweave](http://liveweave.com/)     |                       |
-| [JSFiddle](https://jsfiddle.net/)      |                       |
+| 名稱                                   | 說明                          |
+| -------------------------------------- | ----------------------------- |
+| [CodeSandbox](https://codesandbox.io/) |                               |
+| [Coder](https://coder.com/projects)    | 可在瀏覽器上使用的雲端 VSCode |
+| [StackBlitz](https://stackblitz.com/)  |                               |
+| [Codepen](https://codepen.io/)         |                               |
+| [JS Bin](http://jsbin.com/)            |                               |
+| [Plunker](https://plnkr.co/)           |                               |
+| [CSS Deck](http://cssdeck.com/)        |                               |
+| [Dabblet](http://dabblet.com/)         |                               |
+| [Liveweave](http://liveweave.com/)     |                               |
+| [JSFiddle](https://jsfiddle.net/)      |                               |
 
 ## VSCode
 
@@ -431,6 +431,8 @@ Vim 也可以使用 `h`、`j`、`k`、`l` 四個鍵替代左、下、上、右�
 - [Vim のターミナルの真の力お見せしますよ](https://qiita.com/gorilla0513/items/4d1c610f1283bbe46f81)
 
 ## Vimium
+
+[Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) 是一套可以在瀏覽器上以類 vim 方式瀏覽網頁的 chrome 套件。
 
 ### 基礎操作
 

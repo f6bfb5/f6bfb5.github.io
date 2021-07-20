@@ -1,6 +1,6 @@
 ---
 title: "前端筆記 (0) 總整理"
-date: 2019-07-18T07:05:01.000Z
+date: 2019-07-18T07:00:00.000Z
 summary:
 tags: F2E
 ---
@@ -17,6 +17,7 @@ tags: F2E
 ## 入門
 
 - [零基礎的小明要如何成為前端工程師？](https://medium.com/hulis-blog/frontend-engineer-guide-297821512f4e)
+- [想轉職前端工程師？你該先好好認識這個職業](https://forum.gamer.com.tw/C.php?bsn=60561&snA=19606)
 - [成為 Web 開發人員的路線圖](https://github.com/goodjack/developer-roadmap-chinese)
 - [前端工程師養成手冊](https://idoc.hexschool.com/tobef2e/chapter1.html)
 - [邁向前端工程師之路！](https://quip.com/D59vAxcgG8Qc)
