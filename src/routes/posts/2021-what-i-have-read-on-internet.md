@@ -346,3 +346,7 @@ summary: "這是我 2021 年時，在網路上看過的文章。"
 - [ポジティブな満足感が「睡眠中に記憶力を向上させる」と明らかに - ナゾロジー](https://nazology.net/archives/92912)
 - [咖喱澤薰的創作諮詢 - 「看了別人的考察後便無法享受原作」是因為並非自己親眼所見 - pixivision](https://www.pixivision.net/zh-tw/a/6741)
 - [ルックバック - 藤本タツキ | 少年ジャンプ＋](https://shonenjumpplus.com/episode/3269754496401369355)
+
+## 8 月
+
+- [「ちゃんと考えてる」はずなのに「なぜか文章にできない」人がするべき "たった 3 つ" のこと](https://studyhacker.net/uchi-naru-kotoba)

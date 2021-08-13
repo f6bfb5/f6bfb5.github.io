@@ -134,6 +134,9 @@ spotted flower
 
 ## 個人部落格
 
+- [作品別独り言](http://shira-yawa.sakura.ne.jp/sakuhinbetu.html)
+- 2006-07-31 [ナツコミ－オススメの１００冊－](http://orangestar.littlestar.jp/100comic.html)
+- 2006-08-24 [マンガナツ 100 　結果発表 20 位～ 1 位](http://d.hatena.ne.jp/dangerous1192/20060824)
 - 2008-08-12 [Blog のタイトル:2008 年版 ナツ 100(確定) - livedoor Blog（ブログ）](http://blog.livedoor.jp/sabamiso_es/archives/51359391.html)
 - 2010-08-23 [全１巻オススメ漫画１００選　良いコミック](https://yoicomic.blog.fc2.com/blog-entry-185.html)
 - 2011-08-22 [漫画ナツ 100 に、久し振りに参加してみる - マンガ LOG 収蔵庫](https://m-kikuchi.hatenablog.com/entry/20110822/1314013093)
@@ -143,9 +146,11 @@ spotted flower
 - 2020-04-25 [【完結済み】漫画オタクが選ぶオススメ漫画ランキング 82 選【マイナー向け】 - 漫画に飽きるまで](http://jojocomic2325.hatenablog.com/entry/2020/04/25/161437)
 - 2021-01-20 [2020 年に第一巻が発売されたおもしろマンガ・ベスト 10 と＋ 40 作くらい - 名馬であれば馬のうち](https://proxia.hateblo.jp/entry/2021/01/20/190057)
 - 2021-06-26 [マンガ必読書 101（井戸畑,赤井,滝,竹田,寛治,ほしがた） - exust's blog](https://exust.hatenablog.com/entry/2021/06/26/045024)
+- 2021-07-07 [マンガ 100 - 装置](https://trebuchet.hatenablog.com/entry/2021/07/07/004439)
 
 ## 網站
 
+- 2010-12-?? [ファミ 2 コミック](http://randomhoohaas.flyingomelette.com/ai/scans/fami2comic.html#hichako)
 - 2017-02-08 [出版社の営業がガチで選んだ、本当は自分が売りたい最高の漫画 26 選！｜ Career Supli](https://careersupli.jp/lifehack/manga-3/)
 - 2017-07-21 [【永久保存版】国内ゲーム漫画 83 作品 287 冊を全冊読破してレビュー。語られざる歴史をベテランゲーム誌編集者が徹底案内【前編】](https://news.denfaminicogamer.jp/kikakuthetower/170721)
 - 2020-05-30 [【2020 版】ミステリー・サスペンス漫画のおすすめの面白い作品を紹介する。 - 漫画ギーク記](https://www.dokusyo-geek-ki.com/entry/2016/04/27/070429)
