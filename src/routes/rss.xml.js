@@ -34,12 +34,13 @@ function toRFC3339(date) {
 
 const renderXmlRssFeed = (posts) =>
   `<?xml version="1.0" encoding="utf-8" ?>
-  <rss version="2.0">
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       <title>f6bfb5's blog</title>
       <link>${siteUrl}</link>
+      <atom:link href="${siteUrl}" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>${toRFC3339(new Date())}</lastBuildDate>
+      <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       ${posts
@@ -48,7 +49,7 @@ const renderXmlRssFeed = (posts) =>
         <item>
           <title>${post.title}</title>
           <link>${siteUrl}/blog/${post.slug}</link>
-          <pubDate>${toRFC3339(new Date(post.date))}</pubDate>
+          <pubDate>${new Date(post.date).toUTCString()}</pubDate>
           <description>
               ${post.excerpt}
           </description>
