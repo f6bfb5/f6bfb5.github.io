@@ -1,8 +1,7 @@
-import posts from './_posts.js';
+import posts from "./_posts.js";
 let siteUrl = "https://f6bfb5.github.io";
 
 function toRFC3339(date) {
-  
   function pad(n) {
     return n < 10 ? "0" + n : n;
   }
@@ -12,18 +11,25 @@ function toRFC3339(date) {
     if (offset === 0) {
       return "Z";
     }
-    sign = (offset > 0) ? "_" : "+";
+    sign = offset > 0 ? "_" : "+";
     offset = Math.abs(offset);
     return sign + pad(Math.floor(offset / 60)) + ":" + pad(offset % 60);
   }
 
-  return date.getFullYear() + "-" + 
-    pad(date.getMonth() + 1) + "-" +
-    pad(date.getDate()) + "T" +
-    pad(date.getHours()) + ":" +
-    pad(date.getMinutes()) + ":" +
+  return (
+    date.getFullYear() +
+    "-" +
+    pad(date.getMonth() + 1) +
+    "-" +
+    pad(date.getDate()) +
+    "T" +
+    pad(date.getHours()) +
+    ":" +
+    pad(date.getMinutes()) +
+    ":" +
     pad(date.getSeconds()) +
-    timezoneOffset(date.getTimezoneOffset());
+    timezoneOffset(date.getTimezoneOffset())
+  );
 }
 
 const renderXmlRssFeed = (posts) =>
@@ -32,12 +38,13 @@ const renderXmlRssFeed = (posts) =>
     <channel>
       <title>f6bfb5's blog</title>
       <link>${siteUrl}</link>
-      <atom:link href="${siteUrl}" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
       <lastBuildDate>${toRFC3339(new Date())}</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
-      ${posts.map(post => `
+      ${posts
+        .map(
+          (post) => `
         <item>
           <title>${post.title}</title>
           <link>${siteUrl}/blog/${post.slug}</link>
@@ -46,14 +53,16 @@ const renderXmlRssFeed = (posts) =>
               ${post.excerpt}
           </description>
         </item>
-      `).join('\n')}
+      `
+        )
+        .join("\n")}
     </channel>
-  </rss>`
+  </rss>`;
 
 export async function get(req, res) {
   res.writeHead(200, {
-    'Cache-Control': `max-age=0, s-max-age=${600}`, // 10 minutes
-    'Content-Type': 'application/rss+xml'
+    "Cache-Control": `max-age=0, s-max-age=${600}`, // 10 minutes
+    "Content-Type": "application/rss+xml",
   });
 
   const feed = renderXmlRssFeed(posts);
