@@ -193,7 +193,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  border: 1px solid #000;
+  border: 1px solid var(--text-color);
 }
 
 ::-webkit-scrollbar-button:start:decrement,
@@ -202,7 +202,7 @@ body {
   width: 15px;
   display: block;
   background-repeat: no-repeat;
-  border: 1px solid #000;  
+  border: 1px solid var(--text-color);  
 }
 
 ::-webkit-scrollbar-button:vertical:decrement {

@@ -29,7 +29,7 @@
   :global(body) {
     background: var(--bg-color);
     color: var(--text-color);
-    transition: background-color 0.2s;
+    transition: background-color 0.4s;
   }
   :global(body.dark-mode) {
     --bg-color: #1d3040;
