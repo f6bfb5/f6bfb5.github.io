@@ -8,7 +8,7 @@
   .tag {
     padding: 0px 4px;
     margin-left: 0.5em;
-    border: 1px solid black;
+    border: 1px solid var(--text-color);
     font-size: 0.8em;
   }
 </style>

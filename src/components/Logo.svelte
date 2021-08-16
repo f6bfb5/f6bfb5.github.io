@@ -10,5 +10,6 @@
     display: block;
     height: 50px;
     width: 50px;
+    filter: invert(var(--invert));
   }
 </style>

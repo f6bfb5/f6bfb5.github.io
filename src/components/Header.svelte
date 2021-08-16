@@ -1,5 +1,6 @@
 <script>
   import Logo from "./Logo.svelte";
+  import DarkmodeButton from "./DarkmodeButton.svelte"
   import Nav from "./Nav.svelte";
 
   export let segment;
@@ -7,6 +8,7 @@
 
 <header>
   <Nav {segment} />
+  <DarkmodeButton />
   <Logo />
 </header>
 

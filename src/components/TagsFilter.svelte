@@ -67,17 +67,17 @@
   /* tag list & tag button */
   .tag {
     padding: 0px 4px;
-    border: 1px solid black;
+    border: 1px solid var(--text-color);
     font-size: 0.8em;
   }
-  .tag + .tag {
-    margin-left: 0.5em;
+  .tag svg {
+    filter: invert(var(--invert));
   }
   .tag-button {
     position: relative;
     display: inline-block;
-    color: #000;
-    background: #fff;
+    color: var(--text-color);
+    background: var(--bg-color);
     z-index: 1;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -90,11 +90,11 @@
     top: 0;
     right: 0;
     z-index: -1;
-    background: #000;
+    background: var(--text-color);
     transition: all 0.3s ease;
   }
   .tag-button:hover {
-    color: #fff;
+    color: var(--bg-color);
   }
   .tag-button:hover:after {
     left: 0;
@@ -107,7 +107,7 @@
     display: none;
   }
   .tag-checkbox:checked + .tag-button {
-    color: #fff;
+    color: var(--bg-color);
   }
   .tag-checkbox:checked + .tag-button:after {
     left: 0;
