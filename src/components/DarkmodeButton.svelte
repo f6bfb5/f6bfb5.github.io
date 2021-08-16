@@ -23,6 +23,7 @@
     background: transparent;
     margin-bottom: 10px;
     filter: invert(var(--invert));
+    cursor: pointer;
   }
 
   :global(body) {
