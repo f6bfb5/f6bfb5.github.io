@@ -40,9 +40,7 @@
     flex-direction: column;
     margin: 0 auto;
     padding: 1em 2em;
-    max-width: 1400px;
     width: 100%;
     box-sizing: border-box;
-    background-color: white;
   }
 </style>
