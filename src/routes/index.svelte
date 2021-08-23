@@ -17,8 +17,8 @@
   import Tag from "../components/Tag.svelte";
 
   const years = getAllPostsYears(posts);
+
   const tags = getAllPostsTags(posts);
-  tags.push("Other");
 
   let selection = [];
 
@@ -38,6 +38,8 @@
         tags.includes(tag) ? "" : tags.push(tag);
       });
     });
+    tags.sort((a, b) => (a < b ? -1 : a > b ? 1 : 0));
+    tags.push("Other");
     return tags;
   }
 
