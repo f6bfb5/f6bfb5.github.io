@@ -24,6 +24,12 @@
     margin-bottom: 10px;
     filter: invert(var(--invert));
     cursor: pointer;
+    transition: filter 0.2s ease-in-out;
+    -webkit-transition: -webkit-filter 0.2s ease-in-out;
+  }
+
+  button:hover {
+    filter: blur(0.5px) drop-shadow(0 0 4px black) invert(var(--invert));
   }
 
   :global(body) {
