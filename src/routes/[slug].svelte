@@ -23,15 +23,15 @@
 <svelte:head>
   <title>{post.title}</title>
   <!--  Include canonical links to your blog -->
-  <!--   <link rel="canonical" href="" /> -->
+  <link rel="canonical" href="https://f6bfb5.github.io/{post.slug}" />
 
   <!-- Validate your twitter card with https://cards-dev.twitter.com/validator  -->
   <!-- Update content properties with your URL   -->
-  <!-- 	<meta property="og:url" content=""} /> -->
+  <meta property="og:url" content="https://f6bfb5.github.io/{post.slug}" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content={post.title} />
-  <meta name="Description" content={post.excerpt} />
   <meta property="og:description" content={post.excerpt} />
+  <meta name="Description" content={post.excerpt} />
 
   <!--  Link to your preferred image  -->
   <!-- 	<meta property="og:image" content="" /> -->
