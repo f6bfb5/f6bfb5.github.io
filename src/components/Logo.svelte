@@ -11,5 +11,7 @@
     height: 50px;
     width: 50px;
     filter: invert(var(--invert));
+    transition: filter 0.2s ease-in-out;
+    -webkit-transition: -webkit-filter 0.2s ease-in-out;
   }
 </style>
