@@ -43,7 +43,7 @@ li p {
 a {
   color: var(--link-color);
   text-decoration: none;
-  transition: color linear .2s;
+  transition: color .2s ease-in-out;
 }
 
 a:hover {
