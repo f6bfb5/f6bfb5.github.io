@@ -4,6 +4,8 @@ const marked = require("marked");
 const matter = require("gray-matter");
 const formatDate = require("date-fns/format");
 const readingTime = require("reading-time");
+const fs = require("fs");
+const createTitleImage = require("./src/utils/title-image.js");
 
 // Support JSX syntax highlighting
 require("prismjs/components/prism-jsx.min");
@@ -38,7 +40,7 @@ renderer.code = (code, language) => {
 marked.setOptions({ renderer });
 
 export default () => ({
-  transform(md, id) {
+  async transform(md, id) {
     if (!/\.md$/.test(id)) return null;
 
     const fileName = path.basename(id);
@@ -67,6 +69,20 @@ export default () => ({
     tags = tags.map((tag) => tag.trim());
 
     if (data.image) image = data.image;
+    else {
+      try {
+        const buffer = await createTitleImage({
+          title,
+          subtitle: "f6bfb5.github.io",
+        });
+        const imagePath = path.join("./static/preview/", slug + ".png");
+        fs.writeFileSync(imagePath, buffer);
+        image = "https://f6bfb5.github.io/preview/" + slug + ".png";
+      } catch (e) {
+        throw new Error(e);
+        return;
+      }
+    }
 
     const exportFromModule = JSON.stringify({
       title: title || slug,

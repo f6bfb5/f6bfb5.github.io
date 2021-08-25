@@ -34,7 +34,7 @@
   <meta name="Description" content={post.excerpt} />
 
   <!--  Link to your preferred image  -->
-  <!-- 	<meta property="og:image" content="" /> -->
+  <meta property="og:image" content={post.image} />
 
   <meta name="twitter:card" content="summary_large_image" />
 
