@@ -76,6 +76,9 @@ export default () => ({
           subtitle: "f6bfb5.github.io",
         });
         const imagePath = path.join("./static/preview/", slug + ".png");
+        if (!fs.existsSync("./static/preview/")) {
+          fs.mkdirSync("./static/preview/");
+        }
         fs.writeFileSync(imagePath, buffer);
         image = "https://f6bfb5.github.io/preview/" + slug + ".png";
       } catch (e) {
