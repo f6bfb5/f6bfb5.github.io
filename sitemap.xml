@@ -3,28 +3,28 @@
   
     <url>
       <loc>https://f6bfb5.github.io/</loc>
-      <lastmod>2021-08-25T06:05:10.940Z</lastmod>
+      <lastmod>2021-08-26T08:21:20.264Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/about</loc>
-      <lastmod>2021-08-25T06:05:10.940Z</lastmod>
+      <lastmod>2021-08-26T08:21:20.264Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/posts</loc>
-      <lastmod>2021-08-25T06:05:10.940Z</lastmod>
+      <lastmod>2021-08-26T08:21:20.264Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/rss</loc>
-      <lastmod>2021-08-25T06:05:10.940Z</lastmod>
+      <lastmod>2021-08-26T08:21:20.264Z</lastmod>
       <priority>1.00</priority>
     </url>
   
@@ -32,6 +32,13 @@
     <url>
       <loc>https://f6bfb5.github.io/2021-what-i-have-read-on-internet</loc>
       <lastmod>2021-12-31T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/auto-generate-eyecatch-image-for-blog</loc>
+      <lastmod>2021-08-26T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
