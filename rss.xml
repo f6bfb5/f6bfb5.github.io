@@ -5,7 +5,7 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io/rss.xml" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>Thu, 26 Aug 2021 08:21:20 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 30 Sep 2021 11:59:45 GMT</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -715,6 +715,36 @@
           <pubDate>Sat, 09 Nov 2019 00:32:49 GMT</pubDate>
           <description>
               Susy 是一套 Sass 的響應式版面引擎，在還沒有 flexbox 和 grid 的時候，Susy 提供了一系列的 Sass function ，可以搭配變數快速計算出網格分割的尺寸、處理斷點變版，讓工程師不再需要苦於自行處理數值，到了 Susy 3 之後，則簡化成了可以與 flexbox 和 float 搭配使用的功能性 library。
+          </description>
+        </item>
+      
+
+        <item>
+          <title>「我服輸了，不愧是赤羽」漫畫家清野通簡介</title>
+          <link>https://f6bfb5.github.io/blog/ACG-seino-tooru</link>
+          <pubDate>Tue, 29 Oct 2019 14:00:00 GMT</pubDate>
+          <description>
+              null
+          </description>
+        </item>
+      
+
+        <item>
+          <title>《讓我們在夢之島相逢吧》 特殊鬼畜系漫畫家 山野一</title>
+          <link>https://f6bfb5.github.io/blog/ACG-yume-no-shima-de-aimashou</link>
+          <pubDate>Tue, 29 Oct 2019 14:00:00 GMT</pubDate>
+          <description>
+              null
+          </description>
+        </item>
+      
+
+        <item>
+          <title>骰子所指處就是目的 追著夢的旅人們 《玩轉世界瘋很大》</title>
+          <link>https://f6bfb5.github.io/blog/how-do-you-like-wendesday</link>
+          <pubDate>Tue, 29 Oct 2019 14:00:00 GMT</pubDate>
+          <description>
+              undefined
           </description>
         </item>
       

@@ -3,28 +3,28 @@
   
     <url>
       <loc>https://f6bfb5.github.io/</loc>
-      <lastmod>2021-08-26T08:21:20.264Z</lastmod>
+      <lastmod>2021-09-30T11:59:45.020Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/about</loc>
-      <lastmod>2021-08-26T08:21:20.264Z</lastmod>
+      <lastmod>2021-09-30T11:59:45.020Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/posts</loc>
-      <lastmod>2021-08-26T08:21:20.264Z</lastmod>
+      <lastmod>2021-09-30T11:59:45.020Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/rss</loc>
-      <lastmod>2021-08-26T08:21:20.264Z</lastmod>
+      <lastmod>2021-09-30T11:59:45.020Z</lastmod>
       <priority>1.00</priority>
     </url>
   
@@ -522,6 +522,27 @@
     <url>
       <loc>https://f6bfb5.github.io/css-susy3</loc>
       <lastmod>2019-11-09T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/ACG-seino-tooru</loc>
+      <lastmod>2019-10-29T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/ACG-yume-no-shima-de-aimashou</loc>
+      <lastmod>2019-10-29T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/how-do-you-like-wendesday</loc>
+      <lastmod>2019-10-29T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
