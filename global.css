@@ -19,6 +19,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0.5em 0 0.25em 0;
 }
+h1 + p {
+  padding: 0 0 8px 0;
+}
 p + h2 {
   margin: 0;
   padding: 0.5em 0 0.25em 0;
@@ -93,6 +96,9 @@ hr {
   width: 95%;
   overflow: visible;
   position: relative;
+
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 
 hr::before,
@@ -141,6 +147,7 @@ blockquote {
 }
 
 blockquote p {
+  padding-top: 6px;
   padding-bottom: 6px;
 }
 
