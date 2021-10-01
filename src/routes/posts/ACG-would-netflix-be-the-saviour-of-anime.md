@@ -9,7 +9,7 @@ tags: ACG, Anime, Translate
 
 ---
 
-在 NicoNico 動畫上 1 集播放次數超過 1000 萬次，襲捲了 2017 年動畫業界的人氣作品《動物朋友》。負責其制作的八百萬工作室的製作人福原慶匡，推出了新書[《來成為動畫製作人吧！動畫「製作(商業)」結構揭秘》](https://www.amazon.co.jp/dp/406511439X/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=gj09-22&linkId=52d507b1ad8c694a022eea3d7ad38f37&ref=mgac2017)。
+在 NicoNico 動畫上 1 集播放次數超過 1000 萬次，襲捲 2017 年動畫業界的人氣作品《動物朋友》。負責其制作的八百萬工作室的製作人福原慶匡，推出了新書[《來成為動畫製作人吧！動畫「製作(商業)」結構揭秘》](https://www.amazon.co.jp/dp/406511439X/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=gj09-22&linkId=52d507b1ad8c694a022eea3d7ad38f37&ref=mgac2017)。
 
 福原在新書裡所闡述的是，製作人應該要以「新的技能組」應對襲向日本動畫商業的巨大變化浪潮。這次我們將透過福原製作人的視點一探究竟，以網飛（Netflix）為首的「外資資金」、中國製的動畫現況，以及製作委員會所抱有的問題。
 
