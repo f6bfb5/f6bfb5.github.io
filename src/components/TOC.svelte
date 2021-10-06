@@ -56,6 +56,9 @@
       left: calc((100vw - 720px) / 2 - 280px) !important;
       max-width: 240px !important;
     }
+    .toc ul li {
+      font-size: 16px !important;
+    }
   }
   @media all and (min-width: 1150px) {
     .toc {
@@ -91,6 +94,7 @@
     }
     .toc ul li {
       padding: 0;
+      font-size: 14px;
       font-weight: 600;
     }
     .toc ul li::marker {
