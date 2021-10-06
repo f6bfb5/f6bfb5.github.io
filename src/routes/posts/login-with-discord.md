@@ -5,32 +5,35 @@ date: 2021-01-14T00:24:23.000Z
 
 - [「Discord の ID でログイン」を実装する(Oauth2) - Qiita](https://qiita.com/masayoshi4649/items/46fdb744cb8255f5eb98)
 
-## 於 Discord Developer Portal 登錄 Application
+## 1. 於 Discord Developer Portal 登錄 Application
 
-### 取得 「Client ID」和「Client Secert」
+### a. 取得 「Client ID」和「Client Secert」
 
 1. 登入 [Discord Developer Portal](https://discord.com/developers/applications)
 2. 點擊右上角的「New Application」
-3. 取名，本例使用 `OAuth Vertify`，點擊「Create」
-4. `Client ID` 和 `Client Secert` 位於資訊頁的右方
+3. 取名，本文範例取為 `OAuth Vertify`，此名稱會顯示於授權頁面上，之後點擊「Create」
+4. 資訊頁右方的 `Client ID` 和 `Client Secert` 後面也會用到
 
-### 建立 OAuth 用的網址
+### b. 建立 OAuth 用的網址
 
-1. 點擊左側的「OAuth2」
-2. 點擊右側的「Add Redirect」，輸入驗證登入的網址
-3. 勾選下方「SCOPE」（索取的資訊欄位）裡的「identify」（Discord 的 ID）和「email」
+1. 點擊左側的「OAuth2」分頁
+2. 點擊右側的「Add Redirect」，輸入要用到驗證登入的網址
+   <br/>例如本文最下方也有附上實作範例
+   <br/>輸入的網址就是 `https://f6bfb5.github.io/login-with-discord/`
+3. 勾選下方「SCOPE」（索取的資訊欄位）
+   裡的「identify」（Discord 的 ID）和「email」
 4. 就可於頁面下方取得認證用的連結
-   <br>例：`https://discord.com/api/oauth2/authorize?client_id=`CLIENT ID`&redirect_uri=`REDIRECT URL`&response_type=code&scope=`SCOPE
+   <br/>例：`https://discord.com/api/oauth2/authorize?client_id=`CLIENT ID`&redirect_uri=`REDIRECT URL`&response_type=code&scope=`SCOPE
 
-## 從認證連結取得「code」
+## 2. 從認證連結取得「code」
 
-使用認證連結登入，並 redirect 到後續頁面後，會回傳一個 `code` 參數到網址上
+使用此認證連結登入，並重新導向到結果頁面後，網址上會多出一個回傳的 `code` 參數
 
-## 使用「code」取得「token」
+## 3. 使用「code」取得「token」
 
-我們要再使用這個 `code` 去取得 `access_token`，才能得到存取資料的權限
+再使用這個 `code` 去取得 `access_token`，才能得到存取資料的權限
 
-1. 傳送 POST 請求到 Discord API
+### a. 傳送 POST 請求到 Discord API
 
 ```bash
 curl -X POST
@@ -43,7 +46,7 @@ curl -X POST
      https://discordapp.com/api/oauth2/token
 ```
 
-2. 若成功就可取得 `access token`
+### b. 若成功就可取得 `access token`
 
 ```json
 {
@@ -55,20 +58,20 @@ curl -X POST
 }
 ```
 
-- `code` 為一次性使用，同一個 `code` 無法存取第二次
+- `code` 為一次性使用，同一個 `code` 無法進行第二次存取
 - `access token` 的有效期限為 604800 秒＝一個禮拜
-  <br>若有更新需求，須使用 `refresh token` 重新送出請求
+  <br>若有更新需求，須使用回傳內容中的 `refresh token` 重新送出請求
 
-## 使用「token」取得使用者資料
+## 4. 使用「token」取得使用者資料
 
-1. 傳送 GET 請求到 Discord API
+### a. 傳送 GET 請求到 Discord API
 
 ```bash
 curl -H "Authorization: Bearer ACCESS TOKEN"
      https://discordapp.com/api/users/@me
 ```
 
-2. 若成功就可取得相關資料
+### b. 若順利成功，就可取得相關資料
 
 ```json
 {
@@ -85,11 +88,11 @@ curl -H "Authorization: Bearer ACCESS TOKEN"
 }
 ```
 
-- 頭像可以使用 `https://cdn.discordapp.com/avatars/`Discord ID`/`大頭貼 ID 取得
+- 頭像可以使用「`https://cdn.discordapp.com/avatars/`Discord ID`/`大頭貼 ID」取得
 
-## 使用 refresh token 重新取得 access token
+## 5. 使用 refresh token 重新取得 access token
 
-1. 傳送 POST 請求到 Discord API
+### a. 傳送 POST 請求到 Discord API
 
 ```bash
 curl -X POST
@@ -101,7 +104,7 @@ curl -X POST
      https://discordapp.com/api/oauth2/token
 ```
 
-2. 若成功就可取得 access token
+### b. 若成功就可取得 access token
 
 ```json
 {
@@ -116,7 +119,7 @@ curl -X POST
 ## 範例
 
 以下示範透過此方式，取得你的 Discord ID 與大頭貼圖片。
-如果未顯示「Not logged in」或點擊按鍵無反應，請重新整理頁面。
+<br/>如果未顯示「Not logged in」或點擊按鍵無反應，請重新整理頁面。
 
 <button id="js-discord-button">Login with Discord</button>
 <span id="js-discord-status" />
