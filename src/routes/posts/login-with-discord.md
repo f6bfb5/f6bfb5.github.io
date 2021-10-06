@@ -115,7 +115,8 @@ curl -X POST
 
 ## 範例
 
-示範透過此方式取得你的 Discord ID 與大頭貼圖片
+以下示範透過此方式，取得你的 Discord ID 與大頭貼圖片。
+如果未顯示「Not logged in」或點擊按鍵無反應，請重新整理頁面。
 
 <button id="js-discord-button">Login with Discord</button>
 <span id="js-discord-status" />
@@ -124,6 +125,12 @@ curl -X POST
   <img class="discord-card--image" id="js-discord-card--image">
   <div class="discord-card--username" id="js-discord-card--username"></div>
 </div>
+
+<style>
+.discord-card--image {
+  margin-left: 0 !important;
+}
+</style>
 
 <script>
 const clientID = "798950274114781204";
