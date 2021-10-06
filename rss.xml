@@ -5,7 +5,7 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io/rss.xml" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>Tue, 05 Oct 2021 16:19:48 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 06 Oct 2021 07:32:29 GMT</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -15,6 +15,16 @@
           <pubDate>Fri, 31 Dec 2021 06:00:00 GMT</pubDate>
           <description>
               這是我 2021 年時，在網路上看過的文章。
+          </description>
+        </item>
+      
+
+        <item>
+          <title>《MOTHER》的心情。（2）</title>
+          <link>https://f6bfb5.github.io/blog/ACG-emotion-of-mother-02</link>
+          <pubDate>Fri, 01 Oct 2021 13:21:15 GMT</pubDate>
+          <description>
+              在距離最近的地方，傾聽這款不可思議的遊戲的故事。
           </description>
         </item>
       
@@ -110,7 +120,7 @@
       
 
         <item>
-          <title>《Mother》的心情。（1）</title>
+          <title>《MOTHER》的心情。（1）</title>
           <link>https://f6bfb5.github.io/blog/ACG-emotion-of-mother-01</link>
           <pubDate>Thu, 21 Jan 2021 05:16:32 GMT</pubDate>
           <description>
@@ -230,7 +240,7 @@
       
 
         <item>
-          <title>《Mother》的心情。（0）</title>
+          <title>《MOTHER》的心情。（0）</title>
           <link>https://f6bfb5.github.io/blog/ACG-emotion-of-mother-00</link>
           <pubDate>Sun, 15 Nov 2020 22:23:20 GMT</pubDate>
           <description>
