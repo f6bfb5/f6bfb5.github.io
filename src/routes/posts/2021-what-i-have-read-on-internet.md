@@ -446,3 +446,5 @@ summary: "這是我 2021 年時，在網路上看過的文章。"
 - [Facebook・Instagram・Oculus・WhatsApp が世界的にダウン、その原因とは？ - GIGAZINE](https://gigazine.net/news/20211005-facebook-global-down/)
 - [シン・26 歳（95 年生まれ）オタクの日記と人生。](https://anond.hatelabo.jp/20211005002253)
 - [これが VTuber に関する論考として歴史に残ってしまうのはだいぶ知的にまずいと思います。(論座 2021 年 10 月 1 日)｜髙橋直樹 レビュー・感想ノート｜ note](https://note.com/naokitakahashi75/n/n6d4c8c03b794)
+- [解構經典:《一一》(The Canon: Yi Yi) - 23.97 Frame](https://2397framechannel.com/2021/09/21/%e8%a7%a3%e6%a7%8b%e7%b6%93%e5%85%b8%e3%80%8a%e4%b8%80%e4%b8%80%e3%80%8bthe-canon-yi-yi/)
+- [【画像】マジで格が違う錯視が見つかる:哲学ニュースnwk](http://blog.livedoor.jp/nwknews/archives/5845809.html)
