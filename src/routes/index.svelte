@@ -113,16 +113,21 @@
   ul {
     margin: 0;
     padding: 0 1rem;
-    /* list-style: none; */
     list-style-position: inside;
   }
-  li::marker {
-    content: "＠ ";
+  ul li::marker {
+    content: "◼";
+    display: inline-block;
   }
-  li + li {
+  ul li + li {
     padding: 0.25em 0;
   }
   ul li a {
+    margin-left: 8px;
     letter-spacing: 0.52px;
+  }
+  ul li span {
+    margin-left: 0.25rem;
+    font-size: 0.75rem;
   }
 </style>
