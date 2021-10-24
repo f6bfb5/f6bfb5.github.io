@@ -38,6 +38,10 @@ p {
   letter-spacing: 0.52px;
 }
 
+a {
+  word-break: break-all;
+}
+
 code {
   font-family: consolas, menlo, inconsolata, monospace;
   font-size: calc(1em - 2px);
