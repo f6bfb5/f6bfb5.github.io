@@ -51,6 +51,13 @@
   .toc {
     display: none;
   }
+  .toc ul li::marker {
+    color: #000;
+  }
+  .toc ul li a {
+    color: #1717d2;
+  }
+
   @media all and (min-width: 1280px) {
     .toc {
       left: calc((100vw - 720px) / 2 - 280px) !important;
@@ -60,6 +67,7 @@
       font-size: 16px !important;
     }
   }
+
   @media all and (min-width: 1150px) {
     .toc {
       display: flex;
