@@ -85,6 +85,11 @@
 
   header h1 {
     margin: 0;
+    font-size: 6em;
+    letter-spacing: -0.075em;
+    line-height: 1;
+    margin: 0 0 0.13em -0.05em;
+    color: #444;
   }
 
   header p {
