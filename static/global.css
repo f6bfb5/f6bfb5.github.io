@@ -77,6 +77,10 @@ p {
   padding: 1.25em 0;
 }
 
+li p {
+  padding: 0;
+}
+
 p + p {
   padding-top: 0;
 }
