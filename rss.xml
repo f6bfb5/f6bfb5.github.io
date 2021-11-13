@@ -5,16 +5,26 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io/rss.xml" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>Sat, 13 Nov 2021 09:04:42 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 13 Nov 2021 12:32:10 GMT</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
         <item>
-          <title>2021 年，我在網路上看了些什麼文（持續更新）</title>
+          <title>2021 年，我在網路上看了些什麼文</title>
           <link>https://f6bfb5.github.io/blog/2021-what-i-have-read-on-internet</link>
           <pubDate>Fri, 31 Dec 2021 06:00:00 GMT</pubDate>
           <description>
               這是我 2021 年時，在網路上看過的文章。
+          </description>
+        </item>
+      
+
+        <item>
+          <title>為什麼人生這麼無聊？</title>
+          <link>https://f6bfb5.github.io/blog/why-is-life-so-boring</link>
+          <pubDate>Thu, 11 Nov 2021 23:44:56 GMT</pubDate>
+          <description>
+              undefined
           </description>
         </item>
       
@@ -70,7 +80,7 @@
       
 
         <item>
-          <title>【譯】我是「憎惡創作者」。前陣子遊郭篇炎上給大家添麻煩了。但日本人也有錯呀…</title>
+          <title>我是「憎惡創作者」。前陣子遊郭篇炎上給大家添麻煩了。但日本人也有錯呀…</title>
           <link>https://f6bfb5.github.io/blog/creator-of-abomination</link>
           <pubDate>Sun, 07 Mar 2021 09:33:10 GMT</pubDate>
           <description>
@@ -180,8 +190,8 @@
       
 
         <item>
-          <title>JavaScript 筆記 - 資料型別轉換與資料處理</title>
-          <link>https://f6bfb5.github.io/blog/js-type-convert</link>
+          <title>JavaScript 筆記 - Snippet 與筆記</title>
+          <link>https://f6bfb5.github.io/blog/js-snippet-and-note</link>
           <pubDate>Mon, 11 Jan 2021 00:07:30 GMT</pubDate>
           <description>
               undefined
