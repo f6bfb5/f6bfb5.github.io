@@ -90,7 +90,7 @@
     line-height: 1;
     /* margin: 0 0 0.13em -0.025em; */
     margin: 0 0 0.13em 0;
-    color: #444;
+    color: var(--title-color);
   }
 
   /* need to add 15px for scrollbar width */

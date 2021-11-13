@@ -39,7 +39,9 @@
   }
   :global(body.dark-mode) {
     --bg-color: #1d3040;
-    --text-color: #bfc2c7;
+    --title-color: #bbb;
+    /* --text-color: #bfc2c7; */
+    --text-color: #ccc;
     --link-color: #d2d217;
     --invert: 1;
   }

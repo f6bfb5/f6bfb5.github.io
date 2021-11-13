@@ -6,6 +6,7 @@
 
 :root {
   --bg-color: #fff;
+  --title-color: #444;
   --text-color: #111;
   --link-color: #1717d2;
   --link-hover-color: #fd6378;
@@ -230,7 +231,8 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  border: 1px solid var(--text-color);
+  /* border: 1px solid var(--text-color); */
+  border: 1px solid #111;
 }
 
 ::-webkit-scrollbar-button:start:decrement,
@@ -239,7 +241,8 @@ body {
   width: 15px;
   display: block;
   background-repeat: no-repeat;
-  border: 1px solid var(--text-color);  
+  /* border: 1px solid var(--text-color); */
+  border: 1px solid #111;
 }
 
 ::-webkit-scrollbar-button:vertical:decrement {
