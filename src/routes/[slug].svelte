@@ -92,13 +92,16 @@
     margin: 0 0 0.13em 0;
     color: #444;
   }
-  @media all and (max-width: 720px) {
+
+  /* need to add 15px for scrollbar width */
+  @media all and (max-width: 735px) {
     header h1 {
       font-size: 4em;
     }
   }
 
   header p {
+    padding: 0 20px;
     color: #aaa;
     text-transform: uppercase;
     font-weight: 600;
