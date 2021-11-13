@@ -1,5 +1,5 @@
 ---
-title: "JavaScript 筆記 - 資料型別轉換與資料處理"
+title: "JavaScript 筆記 - Snippet 與筆記"
 date: 2021-01-11T00:07:30.000Z
 tags: F2E, JavaScript
 ---
@@ -250,8 +250,8 @@ var result = myArr.reduce(function (prev, element) {
 
 - 自陣列首值依序處理
 - 第一次被呼叫時，`accumulator` 與 `currentValue` 的值可能為兩種不同的狀況：
-  <br>├ 1. 呼叫 `reduce()` 有提供 `initialValue` 時，`accumulator` 會等於 `initialValue`，`currentValue` 等於陣列中的第一個元素值
-  <br>└ 2. 未提供 `initialValue`時，`accumulator` 會等於陣列的第一個元素值，`currentValue` 等於陣列的第二個元素
+  <br>1. 呼叫 `reduce()` 有提供 `initialValue` 時，`accumulator` 為 `initialValue`，`currentValue` 為陣列中的第一個元素值
+  <br>2. 未提供 `initialValue` 時，`accumulator` 為陣列的第一個元素值，`currentValue` 為陣列的第二個元素
 
 ### 如何安全使用會破壞 Array 資料的 Method
 
@@ -413,4 +413,136 @@ setTable.size;
 // To Array
 [...setTable];
 Array.from(setTable);
+```
+
+## dispatchEvent()
+
+```javascript
+const runThisFunny = () =>
+  setInterval(() => {
+    document.dispatchEvent(
+      new KeyboardEvent("keydown", { key: "g", ctrlKey: true })
+    );
+    runThisFunny();
+  }, 0);
+runThisFunny();
+
+setInterval(() => {
+  document.dispatchEvent(new Event("keydown"));
+  document.dispatchEvent(new Event("keyup"));
+}, 40);
+```
+
+## accurate timer
+
+[time - How to create an accurate timer in javascript? - Stack Overflow](https://stackoverflow.com/questions/29971898/how-to-create-an-accurate-timer-in-javascript)
+
+```javascript
+var interval = 1000; // ms
+var expected = Date.now() + interval;
+
+setTimeout(step, interval);
+
+function step() {
+  // the drift (positive for overshooting)
+  var dt = Date.now() - expected;
+  if (dt > interval) {
+    // something really bad happened. Maybe the browser (tab) was inactive?
+    // possibly special handling to avoid futile "catch up" run
+  }
+  // …
+  // do what is to be done
+
+  expected += interval;
+  setTimeout(step, Math.max(0, interval - dt)); // take into account drift
+}
+```
+
+## find duplicated data
+
+[Find duplicates in a JavaScript array: Syntax, example & comparison](https://flexiple.com/find-duplicates-javascript-array/)
+
+```javascript
+// for array contains only strings or numbers
+// const toFindDuplicates = arry => arry.filter((item, index) => arry.indexOf(item) !== index);
+// find duplicated anime title
+function toFindDuplicates(arry) {
+  return arry.filter(
+    (item, index) =>
+      arry.findIndex((obj) => obj.title.trim() === item.title.trim()) !== index
+  );
+}
+```
+
+## mutation observer
+
+```javascript
+let targetElement = document.querySelector("target element here");
+
+const mo = new MutationObserver((mutations) => {
+  // handle here
+});
+
+mo.observe(targetElement, {
+  childList: true,
+  subtree: true,
+});
+```
+
+## replaceAt
+
+```javascript
+function replaceAt(str, index, replacement) {
+  return str.substring(0, index) + replacement + str.substring(index + 1);
+}
+
+replaceAt("0".repeat(6), 0, 1);
+```
+
+## get random element in array
+
+```javascript
+function getRandomEle(arr) {
+  return arr[Math.floor(arr.length * Math.random())];
+}
+
+let arrData = [1, 2, 3];
+console.log(getRandomEle(arrData));
+```
+
+## difference of import and require
+
+- [js の import と require の違い - Qiita](https://qiita.com/minato-naka/items/39ecc285d1e37226a283)
+- [JavaScript 中 require, import 的差別及效能 « Nic Lin's Blog](https://blog.niclin.tw/2019/10/03/nodejs-require-vs-es6-import-export/)
+- ES6 的 import：編譯中執行
+- CommonJS 的 require：同步加載
+
+```javascript
+import { helloWorld } from "./module";
+
+helloWorld();
+```
+
+```javascript
+const helloWorldModule = require("./module.js");
+
+helloWorldModule();
+```
+
+### Module
+
+#### import
+
+```javascript
+export const helloWorld = function () {
+  console.log("Hello World!");
+};
+```
+
+#### require
+
+```javascript
+module.exports = function () {
+  console.log("Hello World!");
+};
 ```

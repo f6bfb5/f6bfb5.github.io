@@ -1,5 +1,5 @@
 ---
-title: "2021 年，我在網路上看了些什麼文（持續更新）"
+title: "2021 年，我在網路上看了些什麼文"
 date: 2021-12-31T06:00:00.000Z
 summary: "這是我 2021 年時，在網路上看過的文章。"
 ---
@@ -482,3 +482,33 @@ summary: "這是我 2021 年時，在網路上看過的文章。"
 - [もしも『北斗の拳』が実写ドラマだったら？　撮影の舞台裏描く異色のスピンオフ漫画がジワジワくる](https://nlab.itmedia.co.jp/nl/articles/2110/24/news008.html)
 - [『ロックマンエグゼ』シリーズはなぜ面白かったのか？──20 周年を迎えた今、「難しいゲーム」という『ロックマン』のイメージを塗り替えた偉大な名作を振り返る](https://news.denfaminicogamer.jp/kikakuthetower/211026a)
 - [桃鉄の決算の場所へ行く :: デイリーポータル Z](https://dailyportalz.jp/kiji/go-to-the-place-of-momotetsu)
+- [「はじめの一歩」作者が、スマホ漫画時代の新コマ割りを語る。「お手本の作品」とは…… - INVISIBLE D.　ー QUIET & COLORFUL PLACE-](https://m-dojo.hatenadiary.com/entry/2021/10/16/054214)
+- [「す゚み゚ま゚せ゚ん゚打ち゚込む゚全て゚の゚文字に゚コ゚ミ゚み゚た゚い゚な゚の゚つ゚い゚て゚る゚ん゚て゚す゚け゚と゚誰か゚原因を゚知り゚ま゚せ゚ん゚か゚？」スマホの謎のバグをツイッターの集合知が解決 - Togetter](https://togetter.com/li/1794580)
+- [SNS の発言にしんどさを感じたら。文学者・荒井裕樹さんに聞く「言葉」から他者と向き合う方法 - りっすん by イーアイデム](https://www.e-aidem.com/ch/listen/entry/2021/10/27/103000)
+- [『ブルーピリオド』のように美術素人が高 2 から藝大を目指し現役合格した人はいるのか → 藝大受験のプロに聞いてみた | ロケットニュース 24](https://rocketnews24.com/2021/10/31/1553492/)
+
+## 11 月
+
+- [Hello, 机械键盘 - 知乎](https://zhuanlan.zhihu.com/p/41285686)
+- [「炒」「爆」「炸」…中華料理のメニューで使われる漢字を学ぶ :: デイリーポータル Z](https://dailyportalz.jp/kiji/chuka-ryori-kanji-manabu)
+- [オタクであることを隠している友人が会社の人にスマブラに誘われて一般人の擬態しようとしている → その理由が面白すぎる - Togetter](https://togetter.com/li/1796803)
+- [昔からある漫画の描き方はもう通用しない？遠近法やデフォルメに対する反応の変化から思うこと - Togetter](https://togetter.com/li/1796536)
+- [出渕裕ロングインタビュー 5 　出渕裕とガンダム ZZ と小林誠と | 市川大河公式サイト](https://www.ichikawataiga.com/2021/11/01/5buchi/)
+- [出渕裕ロングインタビュー 6 　出渕裕と逆襲のシャアとサザビーと | 市川大河公式サイト](https://www.ichikawataiga.com/2021/11/02/6buchi/)
+- [あのジャンルを「デスゲームもの」と命名したのって、どこの誰よ？【創作系譜論】 - INVISIBLE D.　ー QUIET & COLORFUL PLACE-](https://m-dojo.hatenadiary.com/entry/2021/10/16/121321)
+- [なぜウメハラの「リバサ前歩き投げ」に全格闘ゲーマーが狂喜したのか？｜けーけー｜ note](https://note.com/kkakugekansenzei/n/n480e1ab7919c)
+- [栄養ドリンクの CM から「疲労回復」の言葉が消えた深いワケ | News&amp;Analysis | ダイヤモンド・オンライン](https://diamond.jp/articles/-/284501)
+- [hxblog | 909 - 洞窟物語のウラガワのウラガワ・イントロダクション](http://909.xii.jp/blog/2011/11/03/%E6%B4%9E%E7%AA%9F%E7%89%A9%E8%AA%9E%E3%81%AE%E3%82%A6%E3%83%A9%E3%82%AC%E3%83%AF%E3%81%AE%E3%82%A6%E3%83%A9%E3%82%AC%E3%83%AF%E3%83%BB%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%83%80%E3%82%AF%E3%82%B7/)
+- [宮崎駿と庵野秀明 全エピソードまとめ - はーとぼいるどワンダフル。](https://fc0373.hatenablog.com/entry/2021/05/15/160839)
+- [邦キチ！映子さん Season7／第 8 話](http://comip.jp/spinel/cbs/c1171/c121-13850/)
+- [『邦キチ！映子さん』の「池ちゃん」が地獄を煮詰めてできた純度 100％のサブカルクソ野郎でゲロ吐きそう - kansou](https://www.kansou-blog.jp/entry/2021/11/05/184034)
+- [人間嫌いの反出生主義オタク女ですが交際 0 日の男と結婚しました。｜シン＝リナ｜ note](https://note.com/waruagake/n/n763f73b6f221)
+- [一見、乱丁本にしか見えなかった『伝染るんです。』単行本、装丁デザイナーの解説を読むと狂気の先まで行っていた - Togetter](https://togetter.com/li/1798346)
+- [『真・女神転生 V』の海外 IGN レビューがネタバレだらけだったので、ほかの海外メディアも読んでみたら、ほぼなかった｜ surumeikaman ｜ note](https://note.com/surumeikaman/n/n3a7475940bb4)
+- [鉄道業界の人間が考える京王線の事件のような「電車内で刃物を振り回して放火する」模倣犯に遭遇した時に知っておくといい 6 箇条 - Togetter](https://togetter.com/li/1798671)
+- [冷凍庫は物置ではない　凍らせて OK な食材を教えてもらったけど、家庭科の授業で教えるべきでは？ - メシ通 | ホットペッパーグルメ](https://www.hotpepper.jp/mesitsu/entry/kin-masataka/2021-00540)
+- [『機動警察パトレイバー 2 the Movie』について色々書いてみる（「幻の爆撃」「荒川茂樹」など） - ひたすら映画を観まくるブログ](https://type-r.hatenablog.com/entry/20211106/patlabor2)
+- [マンションを買うまでの記録　前編 - 日毎に敵と懶惰に戦う](https://zaikabou.hatenablog.com/entry/20211105/1636098522)
+- [Steam リアル登山シム『Climber: Sky is the Limit』が日本語対応へ。ルート策定や荷造りをこなし、エベレストなど世界の名峰に挑む - AUTOMATON](https://automaton-media.com/articles/newsjp/20211110-181989/)
+- [蒼天の白き神の座とは (ソウテンノシロキカミノクラとは) \[単語記事\] - ニコニコ大百科](https://dic.nicovideo.jp/t/a/%E8%92%BC%E5%A4%A9%E3%81%AE%E7%99%BD%E3%81%8D%E7%A5%9E%E3%81%AE%E5%BA%A7)
+- [「谷口ジロー展」の感想が「すごすぎて何もわからん」「頭おかしい」と聞いて観てきたら想像の 100 倍くらい頭おかしかった - Togetter](https://togetter.com/li/1801164)

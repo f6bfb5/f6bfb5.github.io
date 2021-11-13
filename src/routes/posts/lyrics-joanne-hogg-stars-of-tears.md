@@ -4,7 +4,7 @@ date: 2019-07-19T12:33:15.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/eZRvkTpTz3M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="720" height="480" src="https://www.youtube.com/embed/SexW7iD-iWY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 你的指尖溫柔撫過我的心
 <br>生命的力量綿綿不斷
