@@ -1,9 +1,10 @@
 *, *:before, *:after {
+  /* for debug */
+  /* outline: 1px solid black; */
   box-sizing: border-box;
 }
 
 :root {
-  --margin: 2rem;
   --bg-color: #fff;
   --text-color: #111;
   --link-color: #1717d2;
@@ -200,15 +201,21 @@ td {
 /* set iframe aspect ratio to 16:9 */
 iframe {
   max-width: 720px;
-  max-height: calc(720px / 1.7778); /* 16:9 */
-  width: calc(100vw - (var(--margin) * 2));
-  height: calc((100vw - (var(--margin) * 2)) / 1.7778); /* 16:9 */
+  /* 16:9, 16/9 = 1.7778 */
+  max-height: calc(720px / 1.7778); 
+
+  /* 100vw needs to be substracted with scrollbar width 
+  which has been set to 15px in ::-webkit-scrollbar */
+  width: calc(100vw - 15px); 
+  height: calc((100vw - 15px) / 1.7778);
+
+  margin-left: -20px;
 }
 
 /* keep main content max-width in 720px (16px*45em) */
 .container {
   margin: 0 auto;
-  max-width: 45em;
+  max-width: 720px;
   width: 100%;
 }
 
