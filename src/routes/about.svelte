@@ -5,11 +5,7 @@
 <div class="container">
   <h1>About</h1>
   <figure class="about-hero-img">
-    <img
-      src="https://i.imgur.com/pA9yPzD.jpg"
-      alt="television-man"
-      loading="lazy"
-    />
+    <img src="https://i.imgur.com/pA9yPzD.jpg" alt="television-man" />
     <figcaption>
       <a href="https://unsplash.com/photos/KssYQvWXCv0" targer="blank">
         Yondon Batbileg(@prike) - Unsplash
@@ -25,6 +21,7 @@
 <style>
   .container {
     overflow: hidden;
+    padding: 0 16px;
   }
 
   .about-hero-img {
