@@ -39,6 +39,7 @@
   }
   :global(body.dark-mode) {
     --bg-color: #1d3040;
+    --outer-bg-color: #20241a;
     --title-color: #bbb;
     /* --text-color: #bfc2c7; */
     --text-color: #ccc;
