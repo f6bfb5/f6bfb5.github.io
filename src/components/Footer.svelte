@@ -30,6 +30,8 @@
     font-size: 1em;
     color: #aaa;
     border-top: 1px solid #e6e6e6;
+
+    background-color: var(--bg-color);
   }
 
   .clearfix {

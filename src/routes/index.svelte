@@ -109,6 +109,9 @@
 </div>
 
 <style>
+  h1 {
+    margin-left: 16px;
+  }
   /* articles list */
   ul {
     margin: 0;

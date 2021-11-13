@@ -1,6 +1,6 @@
 <script>
   import Logo from "./Logo.svelte";
-  import DarkmodeButton from "./DarkmodeButton.svelte"
+  import DarkmodeButton from "./DarkmodeButton.svelte";
   import Nav from "./Nav.svelte";
 
   export let segment;
@@ -19,5 +19,6 @@
     max-width: 720px;
     padding: 2em 0 0 0;
     width: 100%;
+    background-color: var(--bg-color);
   }
 </style>

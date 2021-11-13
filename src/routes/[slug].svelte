@@ -88,8 +88,14 @@
     font-size: 6em;
     letter-spacing: -0.075em;
     line-height: 1;
-    margin: 0 0 0.13em -0.05em;
+    /* margin: 0 0 0.13em -0.025em; */
+    margin: 0 0 0.13em 0;
     color: #444;
+  }
+  @media all and (max-width: 720px) {
+    header h1 {
+      font-size: 4em;
+    }
   }
 
   header p {
@@ -100,5 +106,9 @@
 
   p small {
     margin-left: 1em;
+  }
+
+  .container {
+    padding: 20px;
   }
 </style>

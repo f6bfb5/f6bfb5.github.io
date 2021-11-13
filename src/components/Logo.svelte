@@ -6,6 +6,9 @@
 </a>
 
 <style>
+  a {
+    margin-right: 20px;
+  }
   img {
     display: block;
     height: 50px;
