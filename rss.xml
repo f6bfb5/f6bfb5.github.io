@@ -5,7 +5,7 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io/rss.xml" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>Sat, 13 Nov 2021 13:37:33 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 18 Nov 2021 15:39:11 GMT</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -15,6 +15,16 @@
           <pubDate>Fri, 31 Dec 2021 06:00:00 GMT</pubDate>
           <description>
               這是我 2021 年時，在網路上看過的文章。
+          </description>
+        </item>
+      
+
+        <item>
+          <title>如何查詢可套用至 font-family 上的字體名稱</title>
+          <link>https://f6bfb5.github.io/blog/how-to-check-font-family-name-in-computer</link>
+          <pubDate>Sun, 14 Nov 2021 17:09:25 GMT</pubDate>
+          <description>
+              undefined
           </description>
         </item>
       
@@ -65,6 +75,16 @@
           <pubDate>Fri, 18 Jun 2021 02:26:28 GMT</pubDate>
           <description>
               常常煩惱不知道有什麼漫畫好看？或是覺得現在主流意見領袖的推薦漫畫都太常見，跟你家巷口老朋友的書單沒兩樣？不如換個口味，來看看日本網友們都推薦、討論些什麼漫畫吧！
+          </description>
+        </item>
+      
+
+        <item>
+          <title>擅長教學的人是怎麼做的？</title>
+          <link>https://f6bfb5.github.io/blog/why-can-they-teach-so-good</link>
+          <pubDate>Wed, 21 Apr 2021 20:12:21 GMT</pubDate>
+          <description>
+              undefined
           </description>
         </item>
       
@@ -800,8 +820,28 @@
       
 
         <item>
-          <title>Toolbox - 電腦篇</title>
-          <link>https://f6bfb5.github.io/blog/tool-list</link>
+          <title>Toolbox - 內容創作篇</title>
+          <link>https://f6bfb5.github.io/blog/tool-list-creativity</link>
+          <pubDate>Mon, 21 Oct 2019 18:10:11 GMT</pubDate>
+          <description>
+              
+          </description>
+        </item>
+      
+
+        <item>
+          <title>Toolbox - 遊戲篇</title>
+          <link>https://f6bfb5.github.io/blog/tool-list-gaming</link>
+          <pubDate>Mon, 21 Oct 2019 18:10:11 GMT</pubDate>
+          <description>
+              
+          </description>
+        </item>
+      
+
+        <item>
+          <title>Toolbox - 電腦系統篇</title>
+          <link>https://f6bfb5.github.io/blog/tool-list-system</link>
           <pubDate>Mon, 21 Oct 2019 18:10:11 GMT</pubDate>
           <description>
               

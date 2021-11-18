@@ -3,28 +3,28 @@
   
     <url>
       <loc>https://f6bfb5.github.io/</loc>
-      <lastmod>2021-11-13T13:37:32.734Z</lastmod>
+      <lastmod>2021-11-18T15:39:11.568Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/about</loc>
-      <lastmod>2021-11-13T13:37:32.734Z</lastmod>
+      <lastmod>2021-11-18T15:39:11.568Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/posts</loc>
-      <lastmod>2021-11-13T13:37:32.734Z</lastmod>
+      <lastmod>2021-11-18T15:39:11.568Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/rss</loc>
-      <lastmod>2021-11-13T13:37:32.734Z</lastmod>
+      <lastmod>2021-11-18T15:39:11.568Z</lastmod>
       <priority>1.00</priority>
     </url>
   
@@ -32,6 +32,13 @@
     <url>
       <loc>https://f6bfb5.github.io/2021-what-i-have-read-on-internet</loc>
       <lastmod>2021-12-31T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/how-to-check-font-family-name-in-computer</loc>
+      <lastmod>2021-11-14T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
@@ -67,6 +74,13 @@
     <url>
       <loc>https://f6bfb5.github.io/ACG-super-manga-book-list</loc>
       <lastmod>2021-06-18T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/why-can-they-teach-so-good</loc>
+      <lastmod>2021-04-21T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
@@ -583,7 +597,21 @@
   
 
     <url>
-      <loc>https://f6bfb5.github.io/tool-list</loc>
+      <loc>https://f6bfb5.github.io/tool-list-creativity</loc>
+      <lastmod>2019-10-21T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/tool-list-gaming</loc>
+      <lastmod>2019-10-21T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/tool-list-system</loc>
       <lastmod>2019-10-21T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
