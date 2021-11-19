@@ -10,11 +10,20 @@
   let ga_client_id = "ca-pub-9613661448556355";
 
   export let segment;
+
+  let randomImgArr = [
+    "_c_choju22_0020_s512_choju22_0020_4.png",
+    "_c_choju38_0037_s512_choju38_0037_5.png",
+    "_c_choju49_0035_s512_choju49_0035_0.png",
+    "_c_choju57_0032_s512_choju57_0032_3.png",
+    "_c_choju60_0025_s512_choju60_0025_0.png",
+  ];
 </script>
 
 <div class="layout">
   <GoogleAnalytics {stores} id={ga_measurement_id} />
   <GoogleAdsense id={ga_client_id} />
+
   <Favicon />
   <Header {segment} />
 
@@ -23,12 +32,21 @@
   </main>
 
   <Footer />
+
+  <a href="https://dic.nicovideo.jp/random" target="_blank" rel="noreferrer noopener">
+    <img
+      src={randomImgArr[Math.floor(randomImgArr.length * Math.random())]}
+      class="easter-egg"
+      alt="easter_egg"
+    />
+  </a>
 </div>
 
 <style>
   .layout {
     display: flex;
     flex-direction: column;
+    position: relative;
     min-height: 100%;
     min-height: 100vh;
     background-color: var(--outer-bg-color);
@@ -46,5 +64,13 @@
     width: 100%;
     box-sizing: border-box;
     background-color: var(--bg-color);
+  }
+
+  .easter-egg {
+    position: fixed;
+    max-width: 240px;
+    max-height: 240px;
+    left: 1600px;
+    bottom: 80px;
   }
 </style>
