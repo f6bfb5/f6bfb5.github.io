@@ -53,9 +53,16 @@
   .bubble-border {
     position: absolute;
   }
+
+  @font-face {
+    font-family: "nishiki-teki";
+    src: url("./fonts/nishiki-teki.ttf");
+  }
+
   .bubble-content {
     position: absolute;
     padding: 7.5% 12.5% 0 15%;
+    font-family: nishiki-teki;
   }
   .bubble-content p {
     padding: 10px 0;
