@@ -134,14 +134,26 @@ table td:nth-child(3) {
 - [commenomi](http://air.fem.jp/commenomi/)
   可顯示流動式留言的透明視窗
 
+### 錄影軟體
+
+- [LICEcap](https://www.cockos.com/licecap/)
+- [ScreenToGif](https://www.screentogif.com/)
+
 ### 直播軟體
 
 - [OBS Studio](https://obsproject.com/ja)
 - [Wirecast](http://www.telestream.net/wirecast/)
 - [CameraFi Live](https://play.google.com/store/apps/details?id=com.vaultmicro.camerafi.live&hl=zh_TW)
+- [CamTwist](https://camtwiststudio.com/)
 - [VDO.Ninja](https://obs.ninja/)
 - [VTuber 多人連動？想開電視牆？殺手級利器 VDO.Ninja 來了！快速分享你的視窗給其他人！ - HackMD](https://hackmd.io/@f6bfb5/B1uqVTB1t)
 - [アマレコ TV 公式ホームページ](http://www.amarectv.com/)
+
+### 遠端協作
+
+- Webex
+- Jitsi
+- Splashtop
 
 ## 資安
 
