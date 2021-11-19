@@ -118,6 +118,9 @@
     padding: 0 1rem;
     list-style-position: inside;
   }
+  ul li {
+    list-style-type: "◼";
+  }
   ul li::marker {
     content: "◼";
     display: inline-block;
