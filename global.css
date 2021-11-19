@@ -211,7 +211,7 @@ iframe {
   width: calc(100vw - 15px); 
   height: calc((100vw - 15px) / 1.7778);
 
-  margin-left: -20px;
+  /* margin-left: -20px; */
 }
 
 /* keep main content max-width in 720px (16px*45em) */
