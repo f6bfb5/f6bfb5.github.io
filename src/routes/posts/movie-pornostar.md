@@ -4,6 +4,8 @@ date: 2021-01-21T14:31:09.000Z
 summary: "豊田利晃所導的出道作，於 1998 年上映，由千原 Junior 主演的《Pornostar》，以東京澀谷為舞台，使用獨特手法，表現生存於一般社會與黑社會的狹縫間裡的人們的奇妙鬥爭。"
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pxk2HBOU-F0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 1994 年 1 月 23 號，在大阪市中央區的暴力團事務所裡，1 名組員遭到切喉殺害。警方在搜索後，發現在事發沒多久，北區的醫院裡有位左手受了傷的男性大學生正接受治療，並在地下鐵的車站垃圾桶內，找到沾滿大量血跡的刀子，經鑑定後確定是暴力團員與學生的血液。
 
 以殺人嫌疑逮捕的學生，起初供述犯案動機是為了金錢而侵入暴力團事務所，因為被發現才殺害了組員，然而這名學生並沒有金錢方面的問題，警方懷疑他與 19 號發生在堺市大樓的風俗店經營者遭刺殺案件有所關聯。並進一步追究後，學生自白連續殺人是因為他認為「這個世界不需要流氓」、「想把流氓全殺了」。
