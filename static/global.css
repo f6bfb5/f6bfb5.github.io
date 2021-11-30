@@ -204,14 +204,16 @@ td {
 iframe {
   max-width: calc(720px - 40px);
   /* 16:9, 16/9 = 1.7778 */
-  max-height: calc((720px - 40px) / 1.7778); 
+  /* max-height: calc((720px - 40px) / 1.7778);  */
+  aspect-ratio: 16 / 9;
 
   /* 100vw needs to be substracted with scrollbar width 
   which has been set to 15px in ::-webkit-scrollbar
   maybe just substract 20px from the content padding
   could solve this problue? */
   width: calc(100vw - 40px); 
-  height: calc((100vw - 40px) / 1.7778);
+  /* height: calc((100vw - 40px) / 1.7778); */
+  aspect-ratio: 16 / 9;
 
   /* margin-left: -20px; */
 }
