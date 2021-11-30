@@ -4,7 +4,7 @@ date: 2014-01-13T13:52:13.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/prmXQaZtdg4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/prmXQaZtdg4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 離別之時已近 緊抱著空殼般的太陽
 <br>在已看膩的這街道上互酌一杯 勝利組 失敗組

@@ -4,7 +4,7 @@ date: 2019-01-10T12:21:07.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/zJIdBFIBePM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/zJIdBFIBePM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 不是因為朝陽升起 才爬起身
 <br>而是覺醒之時已至 啟程旅行

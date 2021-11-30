@@ -4,7 +4,7 @@ date: 2018-12-24T12:24:07.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/tF45oBJ3wuM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/tF45oBJ3wuM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 在蒼藍星海的宇宙裡 今晚 漫長的旅途告終
 <br>讓我向你道聲再別

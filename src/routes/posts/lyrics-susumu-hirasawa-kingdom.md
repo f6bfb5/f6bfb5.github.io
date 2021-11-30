@@ -4,7 +4,7 @@ date: 2017-10-04T12:05:07.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/1wwhkXEkdUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/1wwhkXEkdUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 遠處傳來你嘶聲力竭呼喊的夜晚
 <br>就用這首歌曲迎接你吧

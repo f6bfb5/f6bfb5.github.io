@@ -51,7 +51,7 @@ tags: ACG, Anime, Comic, Translate
 
 註：中文字幕使用外掛方式載入，如果未載入成功，請重新整理頁面。
 
-<iframe id="video-1" title="Pause and Select Understanding the Disaster 1" width="560" height="315" src="https://www.youtube.com/embed/kvvUiXc6m7U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video-1" title="Pause and Select Understanding the Disaster 1" src="https://www.youtube.com/embed/kvvUiXc6m7U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - 日文翻譯：https://nico.ms/sm33744630
 
@@ -80,7 +80,7 @@ tags: ACG, Anime, Comic, Translate
 
 ## Part2[AKIRA]
 
-<iframe id="video-2" title="Pause and Select Understanding the Disaster 2" width="560" height="315" src="https://www.youtube.com/embed/L5XeDQ6sb2g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video-2" title="Pause and Select Understanding the Disaster 2" src="https://www.youtube.com/embed/L5XeDQ6sb2g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - 日文翻譯：https://nico.ms/sm33748001
 
@@ -135,7 +135,7 @@ Christopher Bolton 說道：「阿基拉是在戰後成長時，被埋藏起來�
 
 ## Part3[EVA]
 
-<iframe id="video-3" title="Pause and Select Understanding the Disaster 3" width="560" height="315" src="https://www.youtube.com/embed/dCKZQphDyLY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video-3" title="Pause and Select Understanding the Disaster 3" src="https://www.youtube.com/embed/dCKZQphDyLY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - 日文翻譯：https://nico.ms/sm33751637
 
@@ -203,7 +203,7 @@ Christopher Bolton 說道：「阿基拉是在戰後成長時，被埋藏起來�
 
 ## Part Final[橫濱購物紀行]
 
-<iframe id="video-4" title="Pause and Select Understanding the Disaster 4" width="560" height="315" src="https://www.youtube.com/embed/npLVlJTH_mk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video-4" title="Pause and Select Understanding the Disaster 4" src="https://www.youtube.com/embed/npLVlJTH_mk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - 日文翻譯：http://www.nicovideo.jp/watch/sm30478904
 

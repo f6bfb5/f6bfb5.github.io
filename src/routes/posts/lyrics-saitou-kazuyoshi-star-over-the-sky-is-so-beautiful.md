@@ -4,7 +4,7 @@ date: 2019-08-27T11:36:56.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/V3nguLRCIA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/V3nguLRCIA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 吹著口哨向前走吧 垂頭喪氣的朋友啊
 <br>縱使人生一波三折 天上繁星依舊美麗

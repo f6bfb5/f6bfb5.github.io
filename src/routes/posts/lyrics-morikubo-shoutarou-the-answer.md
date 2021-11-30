@@ -4,7 +4,7 @@ date: 2013-05-24T13:47:16.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/OvI6Tlx7Yhg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/OvI6Tlx7Yhg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 我活著的理由 根本不想知道 也不想講
 <br>不管想活下去 想要尋死 天空都會擅自落下巨石

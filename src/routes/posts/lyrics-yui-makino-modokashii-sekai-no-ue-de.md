@@ -4,7 +4,7 @@ date: 2018-12-15T11:25:19.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/m6IElKOCnPI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/m6IElKOCnPI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 如果明天這個世界就要結束了
 <br>你還是會擺出那副「這樣也好啊」的冷淡態度吧？

@@ -93,6 +93,7 @@ summary:
 - [VHS 風](https://twitter.com/sdkd500/status/1042352681241591810?s=21)
 - [【AviUtl】おすすめの便利プラグインまとめ【2018】](http://aviutl.info/plugins/#i-18)
   <br>推薦插件懶人包。
+- [AviUtl フォルダにフォントを置くだけで追加できるカスタムフォントプラグイン #AviUtl - Qiita](https://qiita.com/khsk/items/997adf671dfae94bb455)
 
 ## 腳本筆記
 

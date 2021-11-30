@@ -4,7 +4,7 @@ date: 2018-12-24T12:08:14.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/aKiyVqmDxAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/aKiyVqmDxAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 每當抬頭望向 淚水所沾糊的 這個<ruby>時空<rp>(</rp><rt>天空</rt><rp>)</rp> </ruby>
 <br>渺茫的蒼空 使我的胸膛緊揪

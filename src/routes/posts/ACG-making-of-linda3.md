@@ -11,7 +11,7 @@ tags: ACG, Game, Translate
 
 95／（取自 PCE 版 Linda 初回特典《Linda 的秘密》）
 
-<iframe width="720" height="480" title="linda cube cm" src="https://www.youtube.com/embed/Jc1QGIhnTaU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="linda cube cm" src="https://www.youtube.com/embed/Jc1QGIhnTaU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 這一切是從《天外魔境 II》開始的…
 

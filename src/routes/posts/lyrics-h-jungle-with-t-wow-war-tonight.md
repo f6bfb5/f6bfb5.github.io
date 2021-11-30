@@ -4,7 +4,7 @@ date: 2018-06-24T11:17:09.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/m4hmlvvnSeM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/m4hmlvvnSeM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 偶爾也想這樣肩並著肩喝著酒 稍微停下來喘口氣
 <br>幸好在這宛如圖畫中純情地 讓人空虛不已的夜晚

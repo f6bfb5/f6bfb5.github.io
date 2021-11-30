@@ -2,8 +2,20 @@
 title: "前端筆記 (9) Toolbox"
 date: 2019-07-18T07:09:00.000Z
 summary:
-tags: F2E
+tags: F2E, Toolbox
 ---
+
+<style>
+table {
+  width: 100%;
+}
+table td:nth-child(1) {
+  width: 25%;
+}
+table td:nth-child(3) {
+  width: 20%;
+}
+</style>
 
 ## Summary
 
@@ -281,45 +293,43 @@ settings.addButton("meow", () => {
 
 ### 圖示
 
-| 名稱                                                                | 說明                         | 付費             |
-| ------------------------------------------------------------------- | ---------------------------- | ---------------- |
-| [FontAwesome](https://fontawesome.com/)                             | 純 CSS 的向量圖示庫          | 有免費版與付費版 |
-| [Fontello](https://fontello.com/)                                   | 可依需求單獨挑選的圖示庫     |                  |
-| [CSS Icons](https://css.gg/)                                        | 開源 icons                   | FREE             |
-| [Icones](https://icones.netlify.app/)                               | 各家 icon 資源總整理         |                  |
-| [iconmonstr](https://iconmonstr.com/)                               | 向量圖示庫                   |                  |
-| [flaticon](https://www.flaticon.com/)                               | 向量圖示庫                   |                  |
-| [Icograms Designer](https://icograms.com/)                          | 可自由設計的 3D 圖示產生工具 | FREE             |
-| [Patternify](http://www.patternify.com/)                            | 轉換 pattern 圖示成 Base64   | FREE             |
-| [Seamless Pattern Maker](https://patternico.com/)                   | 製作無接縫 pattern 圖示      |                  |
-| [Simple Repeat](https://simple-repeat.com/)                         | 提供重覆 pattern 圖示        | FREE             |
-| [Favicon ジェネレーター](https://favicon-generator.mintsu-dev.com/) | 轉換 Favicon                 | FREE             |
-| [Favicon Generator](https://realfavicongenerator.net/)              | 支援跨裝置的 Favicon         |                  |
+| 名稱                                                                | 說明                         | 付費            |
+| ------------------------------------------------------------------- | ---------------------------- | --------------- |
+| [FontAwesome](https://fontawesome.com/)                             | 純 CSS 向量圖示庫            | 免費版 & 付費版 |
+| [Fontello](https://fontello.com/)                                   | 可依需求單獨挑選的圖示庫     |                 |
+| [CSS Icons](https://css.gg/)                                        | 開源 icons                   | FREE            |
+| [Icones](https://icones.netlify.app/)                               | 懶人包                       |                 |
+| [iconmonstr](https://iconmonstr.com/)                               | 向量圖示庫                   |                 |
+| [flaticon](https://www.flaticon.com/)                               | 向量圖示庫                   |                 |
+| [Icograms Designer](https://icograms.com/)                          | 可自由設計的 3D 圖示產生工具 | FREE            |
+| [Favicon ジェネレーター](https://favicon-generator.mintsu-dev.com/) | 轉換 Favicon                 | FREE            |
+| [Favicon Generator](https://realfavicongenerator.net/)              | 支援跨裝置的 Favicon         |                 |
+
+### 背景
+
+| 名稱                                              | 說明                       | 付費 |
+| ------------------------------------------------- | -------------------------- | ---- |
+| [Patternify](http://www.patternify.com/)          | 轉換 pattern 圖示成 Base64 | FREE |
+| [Seamless Pattern Maker](https://patternico.com/) | 製作無接縫 pattern 圖示    |      |
+| [Simple Repeat](https://simple-repeat.com/)       | 提供重覆 pattern 圖示      | FREE |
 
 ### 圖庫
 
 | 名稱                                                     | 說明       | 付費 |
 | -------------------------------------------------------- | ---------- | ---- |
+| [ベクターシェルフ](https://vectorshelf.com/)             | 插畫       |      |
+| [shigureni free illust](https://www.shigureni.com/)      | 插畫       |      |
+| [ちょうどいいイラスト](https://tyoudoii-illust.com/)     |            |      |
+| [ソコスト](https://soco-st.com/)                         |            |      |
 | [Noun Project](https://thenounproject.com/)              | 圖示、照片 |      |
 | [unDraw](https://undraw.co/illustrations)                | 插畫       |      |
 | [Mixkit](https://mixkit.co/free-stock-art/)              | 插畫       |      |
 | [Open Doodles](https://www.opendoodles.com/)             | 插畫       |      |
-| [Open Peeps](https://www.openpeeps.com/)                 | 插畫       |      |
-| [DrawKit](https://www.drawkit.io/)                       | 插畫       |      |
-| [IsoFlat](https://isoflat.com/)                          | 插畫       |      |
 | [Freepik](https://www.freepik.com/stories)               | 插畫       |      |
 | [赤面](https://blush.design/ja)                          | 插畫       |      |
-| [Vector Creator](https://icons8.com/vector-creator)      | 插畫       |      |
-| [illlustrations](https://illlustrations.co/)             | 插畫       |      |
-| [Absurd Design](https://absurd.design/)                  | 插畫       |      |
 | [Isometric](https://isometric.online/)                   | 插畫       |      |
 | [ITG](https://itg.digital/)                              | 插畫       |      |
 | [Icons8 Illustrations](https://icons8.com/illustrations) | 插畫       |      |
-| [Lukasz Adam](https://lukaszadam.com/)                   | 插畫       |      |
-| [Humaaans](https://www.humaaans.com/)                    | 插畫       |      |
-| [Glaze](https://www.glazestock.com/)                     | 插畫       |      |
-| [ManyPixels](https://www.manypixels.co/)                 | 插畫       |      |
-| [LOGASTER](https://www.777logos.com/)                    | 插畫       |      |
 | [いらすとや](https://www.irasutoya.com/)                 | 插畫       |      |
 | [Unsplash](https://unsplash.com/)                        | 照片       |      |
 | [KissCC0](https://www.kisscc0.com/)                      | 照片       |      |
@@ -385,128 +395,128 @@ settings.addButton("meow", () => {
 | [Random User Generator](https://randomuser.me/)          |                                                |      |
 | [JSONPlaceholder](https://jsonplaceholder.typicode.com/) |                                                |      |
 
-### 文字
+### 假文
 
-| 名稱                                                                        | 說明 | 付費 |
-| --------------------------------------------------------------------------- | ---- | ---- |
-| [すぐ使えるダミーテキスト](https://lipsum.sugutsukaeru.jp/)                 |      |      |
-| [Skate Ipsum](http://skateipsum.com)                                        |      |      |
-| [Baseball Ipsum](http://baseballipsum.apphb.com/Home/RestApi)               |      |      |
-| [jaspervdj/lorem-markdownum](https://github.com/jaspervdj/lorem-markdownum) |      |      |
-| [Bacon Ipsum](https://baconipsum.com/json-api/)                             |      |      |
-| [Bob Ross Lipsum](https://www.bobrosslipsum.com/)                           |      |      |
-| [Cupcake Ipsum](http://www.cupcakeipsum.com/)                               |      |      |
-| [Heisenberg Ipsum](http://heisenbergipsum.com/)                             |      |      |
-| [MoreText.js 一用就愛上的中文假文生產器](http://more.handlino.com/)         |      |      |
+| 名稱                                                                        | 說明               | 付費 |
+| --------------------------------------------------------------------------- | ------------------ | ---- |
+| [すぐ使えるダミーテキスト](https://lipsum.sugutsukaeru.jp/)                 | 純文字、HTML       |      |
+| [Skate Ipsum](http://skateipsum.com)                                        | 純文字、HTML、JSON |      |
+| [Baseball Ipsum](http://baseballipsum.apphb.com/Home/RestApi)               | JSON               |      |
+| [jaspervdj/lorem-markdownum](https://github.com/jaspervdj/lorem-markdownum) |                    |      |
+| [Bacon Ipsum](https://baconipsum.com/json-api/)                             |                    |      |
+| [Bob Ross Lipsum](https://www.bobrosslipsum.com/)                           |                    |      |
+| [Cupcake Ipsum](http://www.cupcakeipsum.com/)                               |                    |      |
+| [Heisenberg Ipsum](http://heisenbergipsum.com/)                             |                    |      |
+| [MoreText.js 一用就愛上的中文假文生產器](http://more.handlino.com/)         |                    |      |
 
 ### 字體
 
 #### 等寬
 
-| 名稱                                                                                     | 範例 |
-| ---------------------------------------------------------------------------------------- | ---- |
-| [Myrica](https://myrica.estable.jp/)                                                     |      |
-| [Input Fonts](https://input.djr.com/)                                                    |      |
-| [FireflySung]([Index of /apt/firefly-font](http://www.study-area.org/apt/firefly-font/)) |      |
-| [FiraCode](https://github.com/tonsky/FiraCode)                                           |      |
+| 名稱                                                       | 範例                                 |
+| ---------------------------------------------------------- | ------------------------------------ |
+| [Myrica](https://myrica.estable.jp/)                       | ![](https://i.imgur.com/6UKVnnu.png) |
+| [Input Fonts](https://input.djr.com/)                      |                                      |
+| [FireflySung](http://www.study-area.org/apt/firefly-font/) | ![](https://i.imgur.com/2oqOoew.png) |
+| [FiraCode](https://github.com/tonsky/FiraCode)             |                                      |
 
 #### 點陣
 
-| 名稱                                                               | 範例 |
-| ------------------------------------------------------------------ | ---- |
-| [Silver](https://poppyworks.itch.io/silver)                        |      |
-| [Zpix (最像素)](https://github.com/SolidZORO/zpix-pixel-font)      |      |
-| [美咲フォント](https://littlelimit.net/misaki.htm)                 |      |
-| [k8x12](https://littlelimit.net/k8x12.htm)                         |      |
-| [k12x8](https://littlelimit.net/k12x8.htm)                         |      |
-| [GNU Unifont](https://fontlibrary.org/en/font/gnu-unifont)         |      |
-| [Osaka](http://ifs.nog.cc/osakattf.hp.infoseek.co.jp/)             |      |
-| [精品點陣體 7×7](https://fontspeech.blogspot.com/2020/08/77.html)  |      |
-| [自家製ドットフォントシリーズ](http://jikasei.me/font/jf-dotfont/) |      |
-| [PixelMPlus](http://itouhiro.hatenablog.com/entry/20130602/font)   |      |
-| [じゃっきーふぉんと](https://nonty.net/font/freefont/jackey-font/) |      |
-| [ワープロ明朝](https://github.com/irori/wapuro-mincho)             |      |
+| 名稱                                                               | 範例                                 |
+| ------------------------------------------------------------------ | ------------------------------------ |
+| [Silver](https://poppyworks.itch.io/silver)                        | ![](https://i.imgur.com/qvvdBZ3.png) |
+| [Zpix (最像素)](https://github.com/SolidZORO/zpix-pixel-font)      | ![](https://i.imgur.com/PPTkVS1.png) |
+| [美咲フォント](https://littlelimit.net/misaki.htm)                 | ![](https://i.imgur.com/qbJSxYp.png) |
+| [k8x12](https://littlelimit.net/k8x12.htm)                         | ![](https://i.imgur.com/4gdmGKC.png) |
+| [k12x8](https://littlelimit.net/k12x8.htm)                         |                                      |
+| [GNU Unifont](https://fontlibrary.org/en/font/gnu-unifont)         | ![](https://i.imgur.com/daeQ6iU.png) |
+| [精品點陣體 7×7](https://fontspeech.blogspot.com/2020/08/77.html)  | ![](https://i.imgur.com/bY6lUQO.png) |
+| [ワープロ明朝](https://github.com/irori/wapuro-mincho)             | ![](https://i.imgur.com/o5kJXVM.png) |
+| [自家製ドットフォントシリーズ](http://jikasei.me/font/jf-dotfont/) |                                      |
+| [PixelMPlus](http://itouhiro.hatenablog.com/entry/20130602/font)   |                                      |
+| [じゃっきーふぉんと](https://nonty.net/font/freefont/jackey-font/) |                                      |
 
 #### 黑體
 
-| 名稱                                                                  | 範例 |
-| --------------------------------------------------------------------- | ---- |
-| [Mgen+](http://jikasei.me/font/mgenplus/)                             |      |
-| [源樣黑體](https://github.com/ButTaiwan/genyog-font)                  |      |
-| [源石黑體](https://github.com/ButTaiwan/genseki-font)                 |      |
-| [源暎ラテゴ/ラテミン](https://okoneya.jp/font/genei-latin.html)       |      |
-| [源暎 Nu ゴシック](https://okoneya.jp/font/genei-nu-gothic.html)      |      |
-| [ロゴたいぷゴシック](http://www.fontna.com/blog/1226/)                |      |
-| [コーポレート・ロゴ](https://logotype.jp/corporate-logo-font-dl.html) |      |
-| [デラゴシック](https://github.com/syakuzen/DelaGothic)                |      |
-| [超極細ゴシック](http://font.websozai.jp/index.html)                  |      |
-| [鉄瓶ゴシック](http://fontna.com/freefont/?p=12)                      |      |
-| [やさしさゴシック手書き](http://fontna.com/freefont/?p=40)            |      |
-| [マキナス](https://moji-waku.com/makinas/)                            |      |
-| [マメロン](https://moji-waku.com/mamelon/)                            |      |
-| [GLT-ごぬんね](https://booth.pm/ja/items/687528)                      |      |
-| [GN-キルゴ](http://getsuren.com/killgoU.html)                         |      |
-| [機械彫刻用標準書体フォント](http://font.kim/)                        |      |
+| 名稱                                                                  | 範例                                 |
+| --------------------------------------------------------------------- | ------------------------------------ |
+| [Osaka](http://ifs.nog.cc/osakattf.hp.infoseek.co.jp/)                | ![](https://i.imgur.com/NQrSykA.png) |
+| [源樣黑體](https://github.com/ButTaiwan/genyog-font)                  | ![](https://i.imgur.com/1IE4bxh.png) |
+| [源石黑體](https://github.com/ButTaiwan/genseki-font)                 | ![](https://i.imgur.com/G05hjU1.png) |
+| [源暎ラテゴ/ラテミン](https://okoneya.jp/font/genei-latin.html)       | ![](https://i.imgur.com/ZMtzNgH.png) |
+| [源暎 Nu ゴシック](https://okoneya.jp/font/genei-nu-gothic.html)      | ![](https://i.imgur.com/w2pBvDP.png) |
+| [ロゴたいぷゴシック](http://www.fontna.com/blog/1226/)                | ![](https://i.imgur.com/8Ks3Nfu.png) |
+| [コーポレート・ロゴ](https://logotype.jp/corporate-logo-font-dl.html) | ![](https://i.imgur.com/PQofUne.png) |
+| [デラゴシック](https://github.com/syakuzen/DelaGothic)                | ![](https://i.imgur.com/oXL99Vl.png) |
+| [超極細ゴシック](http://font.websozai.jp/index.html)                  | ![](https://i.imgur.com/GCNX6Qu.png) |
+| [鉄瓶ゴシック](http://fontna.com/freefont/?p=12)                      | ![](https://i.imgur.com/WN3z8gG.png) |
+| [やさしさゴシック手書き](http://fontna.com/freefont/?p=40)            |                                      |
+| [マキナス](https://moji-waku.com/makinas/)                            | ![](https://i.imgur.com/4JZ3XYN.png) |
+| [マメロン](https://moji-waku.com/mamelon/)                            | ![](https://i.imgur.com/x20TQIK.png) |
+| [GN-キルゴ](http://getsuren.com/killgoU.html)                         | ![](https://i.imgur.com/xNBtKSx.png) |
+| [GLT-ごぬんね](https://booth.pm/ja/items/687528)                      |                                      |
+| [機械彫刻用標準書体フォント](http://font.kim/)                        |                                      |
+| [Mgen+](http://jikasei.me/font/mgenplus/)                             |                                      |
 
 #### 圓體
 
-| 名稱                                                         | 範例 |
-| ------------------------------------------------------------ | ---- |
-| [jf open 粉圓](https://github.com/justfont/open-huninn-font) |      |
-| [源泉圓體](https://github.com/ButTaiwan/gensen-font)         |      |
+| 名稱                                                         | 範例                                 |
+| ------------------------------------------------------------ | ------------------------------------ |
+| [jf open 粉圓](https://github.com/justfont/open-huninn-font) | ![](https://i.imgur.com/2lTuGcx.png) |
+| [源泉圓體](https://github.com/ButTaiwan/gensen-font)         | ![](https://i.imgur.com/kLclAMU.png) |
 
 #### 明體／宋體
 
-| 名稱                                                                           | 範例 |
-| ------------------------------------------------------------------------------ | ---- |
-| [源樣明體](https://github.com/ButTaiwan/genyo-font)                            |      |
-| [源雲明體](https://github.com/ButTaiwan/genwan-font)                           |      |
-| [花園明朝](http://fonts.jp/hanazono/)                                          |      |
-| [装甲明朝](https://www.flopdesign.com/freefont/soukou.html)                    |      |
-| [焚火フォント](https://fontgraphic.jp/takibifont)                              |      |
-| [Oradano 明朝](http://www.asahi-net.or.jp/~sd5a-ucd/freefonts/Oradano-Mincho/) |      |
-| [叛逆明朝](https://www.fontspace.com/hangyaku-font-f31195)                     |      |
-| [令東齊伋體](https://github.com/LingDong-/qiji-font)                           |      |
+| 名稱                                                                           | 範例                                 |
+| ------------------------------------------------------------------------------ | ------------------------------------ |
+| [源樣明體](https://github.com/ButTaiwan/genyo-font)                            | ![](https://i.imgur.com/GZxH3FV.png) |
+| [源雲明體](https://github.com/ButTaiwan/genwan-font)                           | ![](https://i.imgur.com/D9ckRl9.png) |
+| [花園明朝](http://fonts.jp/hanazono/)                                          | ![](https://i.imgur.com/xyhkDIZ.png) |
+| [装甲明朝](https://www.flopdesign.com/freefont/soukou.html)                    |                                      |
+| [焚火フォント](https://fontgraphic.jp/takibifont)                              |                                      |
+| [Oradano 明朝](http://www.asahi-net.or.jp/~sd5a-ucd/freefonts/Oradano-Mincho/) |                                      |
+| [叛逆明朝](https://www.fontspace.com/hangyaku-font-f31195)                     | ![](https://i.imgur.com/1jSjoLz.png) |
+| [令東齊伋體](https://github.com/LingDong-/qiji-font)                           | ![](https://i.imgur.com/H21shlR.png) |
 
 #### 綜藝／POP 風字體
 
-| 名稱                                                                                | 範例 |
-| ----------------------------------------------------------------------------------- | ---- |
-| [チェックポイントフォント](http://marusexijaxs.web.fc2.com/quizfont.html#quizfont2) |      |
-| [たぬき油性マジック](https://tanukifont.com/tanuki-permanent-marker/)               |      |
-| [たぬゴ](https://tanukifont.com/tanugo/)                                            |      |
-| [851 マカポップ](https://pm85122.onamae.jp/851mkpop.html)                           |      |
-| [ラノベ POP](http://www.fontna.com/blog/1706/)                                      |      |
-| [にしき的フォント](https://umihotaru.work/)                                         |      |
-| [あははもじもじフォント](https://www.flopdesign.com/font7/ahahamojimoji-font.html)  |      |
-| [りいポップ角](http://aoirii.babyblue.jp/font/riipopkk/index.html)                  |      |
-| [プイッコ](https://aratakana.booth.pm/items/2094461)                                |      |
-| [日協 Sans](https://www.fontspace.com/nikkyou-sans-font-f31053)                     |      |
-| [しねきゃぷしょん](https://www.vector.co.jp/soft/data/writing/se314690.html)        |      |
-| [桜鯰フォント](https://twitter.com/ounen774/status/95830677177643009)               |      |
-| [怨霊](http://www.ankokukoubou.com/font/onryou.htm)                                 |      |
-| [新蒂字體](https://www.sentyfont.com/download.htm)                                  |      |
-| [WD-XL 滑油字](https://github.com/NightFurySL2001/WD-XL-font)                       |      |
+| 名稱                                                                                | 範例                                 |
+| ----------------------------------------------------------------------------------- | ------------------------------------ |
+| [チェックポイントフォント](http://marusexijaxs.web.fc2.com/quizfont.html#quizfont2) | ![](https://i.imgur.com/bRjXv7W.png) |
+| [たぬき油性マジック](https://tanukifont.com/tanuki-permanent-marker/)               | ![](https://i.imgur.com/WvHhtuk.png) |
+| [たぬゴ](https://tanukifont.com/tanugo/)                                            | ![](https://i.imgur.com/7DZQuIF.png) |
+| [851 マカポップ](https://pm85122.onamae.jp/851mkpop.html)                           | ![](https://i.imgur.com/w8MzGCa.png) |
+| [にしき的フォント](https://umihotaru.work/)                                         | ![](https://i.imgur.com/unRcbAY.png) |
+| [りいポップ角](http://aoirii.babyblue.jp/font/riipopkk/index.html)                  | ![](https://i.imgur.com/Ky6fQUz.png) |
+| [プイッコ](https://aratakana.booth.pm/items/2094461)                                | ![](https://i.imgur.com/s3lptvK.png) |
+| [しねきゃぷしょん](https://www.vector.co.jp/soft/data/writing/se314690.html)        | ![](https://i.imgur.com/PKiEliD.png) |
+| [桜鯰フォント](https://twitter.com/ounen774/status/95830677177643009)               | ![](https://i.imgur.com/esHgdVy.png) |
+| [怨霊](http://www.ankokukoubou.com/font/onryou.htm)                                 | ![](https://i.imgur.com/nRmsSf5.png) |
+| [新蒂字體](https://www.sentyfont.com/download.htm)                                  | ![](https://i.imgur.com/lTAR8Qi.png) |
+| [WD-XL 滑油字](https://github.com/NightFurySL2001/WD-XL-font)                       | ![](https://i.imgur.com/WLsYEtZ.png) |
+| [ラノベ POP](http://www.fontna.com/blog/1706/)                                      |                                      |
+| [あははもじもじフォント](https://www.flopdesign.com/font7/ahahamojimoji-font.html)  |                                      |
+| [日協 Sans](https://www.fontspace.com/nikkyou-sans-font-f31053)                     |                                      |
 
 #### 手寫風字體
 
-| 名稱                                                                         | 範例 |
-| ---------------------------------------------------------------------------- | ---- |
-| [瀬戸フォント](https://nonty.net/font/freefont/setofont/)                    |      |
-| [あくあフォント](https://www.vector.co.jp/soft/data/writing/se244261.html)   |      |
-| [みかちゃん](http://mikachan.osdn.jp/dl.html)                                |      |
-| [ふい字](https://studio-kikoro.appspot.com/blog/20151208_font.html)          |      |
-| [851 チカラヨワク](https://pm85122.onamae.jp/851ch-yw.html)                  |      |
-| [851 チカラヅヨク](https://pm85122.onamae.jp/851ch-dz.html)                  |      |
-| [851 手書き雑フォント](https://pm85122.onamae.jp/851fontpage.html)           |      |
-| [アームド・レモン](https://www.vector.co.jp/soft/data/writing/se334877.html) |      |
-| [ホリディ MDJP05](http://mksd.jp/holiday05.html)                             |      |
-| [殴り書きクレヨン](http://font.sumomo.ne.jp/font_2.html)                     |      |
-| [仕事メモ書き](http://font.sumomo.ne.jp/shigoto.html)                        |      |
-| [遊びメモ書き](http://font.sumomo.ne.jp/asobi.html)                          |      |
-| [KF ひま字](https://www.kfstudio.net/font/kfhimaji/)                         |      |
-| [Y.Oz Vox](http://yozvox.web.fc2.com/82788144826E829A81408275828F8298.html)  |      |
-| [清松手寫體](https://github.com/jasonhandwriting/JasonHandwriting)           |      |
+| 名稱                                                                         | 範例                                 |
+| ---------------------------------------------------------------------------- | ------------------------------------ |
+| [瀬戸フォント](https://nonty.net/font/freefont/setofont/)                    |                                      |
+| [あくあフォント](https://www.vector.co.jp/soft/data/writing/se244261.html)   |                                      |
+| [みかちゃん](http://mikachan.osdn.jp/dl.html)                                |                                      |
+| [ふい字](https://studio-kikoro.appspot.com/blog/20151208_font.html)          |                                      |
+| [851 チカラヨワク](https://pm85122.onamae.jp/851ch-yw.html)                  | ![](https://i.imgur.com/9PYLvZz.png) |
+| [851 チカラヅヨク](https://pm85122.onamae.jp/851ch-dz.html)                  | ![](https://i.imgur.com/w1I3e40.png) |
+| [851 手書き雑フォント](https://pm85122.onamae.jp/851fontpage.html)           | ![](https://i.imgur.com/Gkbvqkc.png) |
+| [アームド・レモン](https://www.vector.co.jp/soft/data/writing/se334877.html) | ![](https://i.imgur.com/73FTn1u.png) |
+| [ホリディ MDJP05](http://mksd.jp/holiday05.html)                             |                                      |
+| [殴り書きクレヨン](http://font.sumomo.ne.jp/font_2.html)                     | ![](https://i.imgur.com/NxyN3jC.png) |
+| [仕事メモ書き](http://font.sumomo.ne.jp/shigoto.html)                        |                                      |
+| [遊びメモ書き](http://font.sumomo.ne.jp/asobi.html)                          |                                      |
+| [KF ひま字](https://www.kfstudio.net/font/kfhimaji/)                         | ![](https://i.imgur.com/YmACMjV.png) |
+| [Y.Oz Vox](http://yozvox.web.fc2.com/82788144826E829A81408275828F8298.html)  |                                      |
+| [清松手寫體](https://github.com/jasonhandwriting/JasonHandwriting)           |                                      |
 
 #### 純英數字體
 
@@ -525,19 +535,19 @@ settings.addButton("meow", () => {
 
 #### 不可商用 or 需聯絡
 
-| 名稱                                                                                                                                | 範例 |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| [大甘書道体](http://fontlab.web.fc2.com/sweetheavycalligraphy.html)                                                                 |      |
-| [中森工芸 筆文字](https://booth.pm/ja/items/1166197)                                                                                |      |
-| [えるまー](https://www.vector.co.jp/download/file/data/writing/fh453621.html)                                                       |      |
-| [みきゆ FONT](http://sozaiya405.chu.jp/405/font.htm)                                                                                |      |
-| [S2G メモ](http://s2g.jp/font/index.htm)                                                                                            |      |
-| [しょかきうたげ](https://shokaki.hatenablog.jp/entry/2019/08/06/172131)                                                             |      |
-| [ainezunouzu フォント](https://web.archive.org/web/20190104214816/http://www.geocities.jp/o030b/ainezunouzu/font/font20121018.html) |      |
-| [三丁目フォント](https://web.archive.org/web/20190330044820/http://www.geocities.jp/bokurano_yume/)                                 |      |
-| [ラムダシステム日本語書体](https://www.lambda.co.jp/contents/font_japanese.html)                                                    |      |
-| [SH G30](http://smart-pda.net/isourou/other/e830w/Chapter-0402.html)                                                                |      |
-| Sword Kanji Font(不明)                                                                                                              |      |
+| 名稱                                                                                                                                | 範例                                 |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| [大甘書道体](http://fontlab.web.fc2.com/sweetheavycalligraphy.html)                                                                 |                                      |
+| [中森工芸 筆文字](https://booth.pm/ja/items/1166197)                                                                                |                                      |
+| [えるまー](https://www.vector.co.jp/download/file/data/writing/fh453621.html)                                                       |                                      |
+| [みきゆ FONT](http://sozaiya405.chu.jp/405/font.htm)                                                                                |                                      |
+| [S2G メモ](http://s2g.jp/font/index.htm)                                                                                            |                                      |
+| [しょかきうたげ](https://shokaki.hatenablog.jp/entry/2019/08/06/172131)                                                             |                                      |
+| [ainezunouzu フォント](https://web.archive.org/web/20190104214816/http://www.geocities.jp/o030b/ainezunouzu/font/font20121018.html) |                                      |
+| [三丁目フォント](https://web.archive.org/web/20190330044820/http://www.geocities.jp/bokurano_yume/)                                 |                                      |
+| [ラムダシステム日本語書体](https://www.lambda.co.jp/contents/font_japanese.html)                                                    |                                      |
+| [SH G30](http://smart-pda.net/isourou/other/e830w/Chapter-0402.html)                                                                | ![](https://i.imgur.com/702ECjN.png) |
+| Sword Kanji Font(不明)                                                                                                              | ![](https://i.imgur.com/Q31QGRM.png) |
 
 #### 參考資料
 
@@ -611,8 +621,8 @@ settings.addButton("meow", () => {
 
 | 名稱                                                                                                        | 說明                               | 付費 |
 | ----------------------------------------------------------------------------------------------------------- | ---------------------------------- | ---- |
-| [【可視化】Algorithm Visualizer](https://algorithm-visualizer.org/)                                         |                                    |      |
-| [【JS 執行可視化】loupe](http://latentflip.com/loupe/)                                                      | 時序化 JavaScript 程式碼的執行邏輯 |      |
+| [Algorithm Visualizer](https://algorithm-visualizer.org/)                                                   |                                    |      |
+| [loupe](http://latentflip.com/loupe/)                                                                       | 時序化 JavaScript 程式碼的執行邏輯 |      |
 | [js-code-to-svg](https://bogdan-lyashenko.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html)   | 圖像化 JavaScript 程式碼的執行邏輯 |      |
 | [JSON Editor](https://jsoneditoronline.org/)                                                                | 線上 JSON 結構化編輯器             |      |
 | [データ分析・可視化に本気でおすすめのツール 30 選](https://qiita.com/keisuuuuke/items/e7b5cc6a5db04f2c8d5c) |                                    |      |

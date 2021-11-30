@@ -4,7 +4,7 @@ date: 2018-09-07T13:21:19.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/_pBuR-q1Vmc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/_pBuR-q1Vmc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 總是在尋找著 眾人向前走著
 <br>但卻總都盡是 無法窮盡的事物

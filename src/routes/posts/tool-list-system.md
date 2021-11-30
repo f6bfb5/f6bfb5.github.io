@@ -2,6 +2,7 @@
 title: "Toolbox - 電腦系統篇"
 date: 2019-10-21T18:10:11.000Z
 summary: ""
+tags: Toolbox
 ---
 
 <style>
@@ -69,13 +70,14 @@ table td:nth-child(3) {
 
 | 名稱                                                               | 說明                                               | 付費 |
 | ------------------------------------------------------------------ | -------------------------------------------------- | ---- |
-| [Notepad++](https://notepad-plus-plus.org/)                        |                                                    |      |
+| [Notepad++](https://notepad-plus-plus.org/)                        |                                                    | FREE |
 | [Typora](https://www.typora.io/)                                   | Markdown 編輯器                                    |      |
 | [Obsidian](https://obsidian.md/)                                   | 可以運用內部連結做成卡片盒形式的 Markdown 筆記軟體 |      |
 | [XMind](https://jp.xmind.net/download/)                            |                                                    |      |
 | [HxD](https://mh-nexus.de/en/hxd/)                                 | Freeware Hex Editor and Disk Editor                |      |
 | [Text2MindMap](https://tobloef.com/text2mindmap/)                  | 文字版心智圖                                       | FREE |
 | [Stirling](https://www.vector.co.jp/soft/win95/util/se079072.html) | Binary Editor                                      |      |
+| [TeraPad](https://tera-net.com/library/tpad.html)                  |                                                    | FREE |
 
 ### 語系切換
 

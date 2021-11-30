@@ -4,7 +4,7 @@ date: 2019-12-27T11:44:59.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/HalIi4iV3cs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/HalIi4iV3cs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 破曉時分的 鈷藍色的天空
 <br>明明是如此地美麗 我卻不斷在哭泣

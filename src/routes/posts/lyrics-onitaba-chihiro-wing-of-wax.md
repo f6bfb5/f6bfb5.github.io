@@ -4,7 +4,7 @@ date: 2018-12-15T11:55:30.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/nvDOmQRiBRY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/nvDOmQRiBRY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 度過宇宙為之顫抖的夜晚時
 <br>讓我守護你因而顫抖的理由

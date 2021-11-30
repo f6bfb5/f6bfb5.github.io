@@ -4,7 +4,7 @@ date: 2018-12-24T12:22:48.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/8fFeMKFNZuE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/8fFeMKFNZuE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 追著流雲的前頭 在藍天的彼端 找到的答案
 <br>傳達給正拚命活著的我們

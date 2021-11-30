@@ -4,7 +4,7 @@ date: 2018-12-25T12:29:34.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/3b3lFaF8W84" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/3b3lFaF8W84" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 每當我來到這裡 總憶起夢想少年時
 <br>眾星吹拂起清風 帶我重回過往昔日
