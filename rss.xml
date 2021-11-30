@@ -5,7 +5,7 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io/rss.xml" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>Tue, 30 Nov 2021 07:52:55 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 30 Nov 2021 07:53:09 GMT</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -15,6 +15,16 @@
           <pubDate>Fri, 31 Dec 2021 06:00:00 GMT</pubDate>
           <description>
               這是我 2021 年時，在網路上看過的文章。
+          </description>
+        </item>
+      
+
+        <item>
+          <title>Chrome 擴充功能</title>
+          <link>https://f6bfb5.github.io/blog/chrome-extension</link>
+          <pubDate>Tue, 30 Nov 2021 14:31:12 GMT</pubDate>
+          <description>
+              undefined
           </description>
         </item>
       
