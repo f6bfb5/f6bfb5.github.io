@@ -30,10 +30,14 @@
     "https://www.youtube.com/watch?v=wbMe6DmtqMw",
     // ヤツメ穴
     "https://www.youtube.com/watch?v=C9PFVo1FEwU",
+    // serial experiments lain プレイ動画 level1【コメ実況風】
+    "https://www.nicovideo.jp/watch/sm5667565",
     // ラグとレイン
     "https://www.youtube.com/watch?v=AzFJUrKO8U0",
     // #lain20th
     "https://www.youtube.com/watch?v=uOREjHyENtc",
+    // さよならを教えて-プレイ動画 00
+    "https://www.nicovideo.jp/watch/sm938664",
     // クラフトボス『Flash Back Memories』3分39秒 宮崎吐夢 サントリー
     "https://www.youtube.com/watch?v=ezF1ZJurYig",
     // 登山家たちのクトゥルフ神話TRPG
@@ -56,6 +60,12 @@
     "https://www.nicovideo.jp/watch/sm35053910",
     // あなたのインターネットはどこから？
     "https://www.youtube.com/watch?v=P7W7Vtti78U",
+    // 古きネット文化よ、永遠に。
+    "https://www.nicovideo.jp/watch/sm29763392",
+    // 「最高のおもてなしだ」
+    "https://www.nicovideo.jp/watch/sm24304243",
+    // ヤッタモン勝ちなんや
+    "https://www.nicovideo.jp/watch/sm24550780",
   ];
 
   function getRandomEleFromArr(arr) {
