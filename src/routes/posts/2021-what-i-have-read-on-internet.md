@@ -542,5 +542,17 @@ summary: "這是我 2021 年時，在網路上看過的文章。"
 - [「普通になれない」女性の恋愛模様に共感の声「初恋、ざらり」が描き出す現代社会のリアル【漫画】](https://www.huffingtonpost.jp/entry/story_jp_6194659de4b025be1ad3bf49)
 - [鬼滅や呪術廻戦がツイートされまくる事の重み](https://toyokeizai.net/articles/-/463706?display=b&ismmark=a)
 - [VTuber の配信時間帯選びは奪い合いではない、表現の手法だ（たまごまご）](https://qjweb.jp/regular/60392/)
+- [ポケモンの「ゴース」が「ゴースト」に進化し「ゲンガー」に進化することなどを言語学的に考察した論文が興味深くて最高すぎる](https://togetter.com/li/1807577)
+- [「面白くない人ってそもそも"コレ"の時点で面白くない」という意見に共感の声多数「わかりみがすぎる」「俺じゃん」](https://togetter.com/li/1807816)
+- [『萌え絵』はどこで見ればよいのか？　〜ゾーニングについての考察〜](https://note.com/nampo_tsubasa/n/n1804ef5e11fb)
+- [明治の若者たちはいかに無銭旅行を成功させたのか - 山下泰平の趣味の方法](https://cocolog-nifty.hatenablog.com/entry/2021/11/26/172400)
+- [『機動警察パトレイバー 2 the Movie』について色々解説してみる（「後藤のセリフ」「ヘルハウンド」「飛行船」など） - ひたすら映画を観まくるブログ](https://type-r.hatenablog.com/entry/20211125/patlabor2)
+- [「描かずともあるように感じさせろ」昔、宮崎駿に叱られた時に唯一理解できた 3 つのポイントが今も体に叩き込まれてる](https://togetter.com/li/1807968)
+- [博士と助手と冷凍庫 - 永井乳歯 | 少年ジャンプ＋](https://shonenjumpplus.com/episode/3269754496617242143)
+- [最近の漫画でよくある「ポップに描かれたヤクザ」について](https://togetter.com/li/1808232)
+- [為什麼串流平台上的字幕，經常出現不該出現的錯誤？](https://vocus.cc/tech-translation/61974d09fd89780001d53b8c)
+- [国際学会に出たら学会でおなじみの例の「恐怖の質問」が英語圏にもあることを知って震えた「どこも一緒なんだな…」](https://togetter.com/li/1808679)
+- [交響詩篇エウレカセブン ハイエヴォリューション ２ （通称・アネモネセブン） ストーリーメモ ver1.0 限定公開](https://note.com/kyodatomoki/n/nddbbd1b1f88a)
+- [美人に話しかけなかったら褒められた](https://anond.hatelabo.jp/20211126210227)
 
 ## 12 月
