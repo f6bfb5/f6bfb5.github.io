@@ -5,7 +5,7 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io/rss.xml" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>Thu, 02 Dec 2021 08:30:44 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 02 Dec 2021 13:08:22 GMT</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -15,6 +15,16 @@
           <pubDate>Fri, 31 Dec 2021 06:00:00 GMT</pubDate>
           <description>
               這是我 2021 年時，在網路上看過的文章。
+          </description>
+        </item>
+      
+
+        <item>
+          <title>用 Foobar2000 來聽 Podcast</title>
+          <link>https://f6bfb5.github.io/blog/use-foobar2k-to-listen-to-podcast</link>
+          <pubDate>Thu, 02 Dec 2021 19:33:28 GMT</pubDate>
+          <description>
+              undefined
           </description>
         </item>
       
