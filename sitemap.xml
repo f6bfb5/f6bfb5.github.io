@@ -3,28 +3,28 @@
   
     <url>
       <loc>https://f6bfb5.github.io/</loc>
-      <lastmod>2021-12-01T03:21:15.905Z</lastmod>
+      <lastmod>2021-12-02T08:30:44.434Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/about</loc>
-      <lastmod>2021-12-01T03:21:15.905Z</lastmod>
+      <lastmod>2021-12-02T08:30:44.434Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/posts</loc>
-      <lastmod>2021-12-01T03:21:15.905Z</lastmod>
+      <lastmod>2021-12-02T08:30:44.434Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/rss</loc>
-      <lastmod>2021-12-01T03:21:15.905Z</lastmod>
+      <lastmod>2021-12-02T08:30:44.434Z</lastmod>
       <priority>1.00</priority>
     </url>
   
@@ -88,6 +88,13 @@
     <url>
       <loc>https://f6bfb5.github.io/ACG-super-manga-book-list</loc>
       <lastmod>2021-06-18T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/why-people-say-i-dont-understand-after-watching-movie</loc>
+      <lastmod>2021-06-04T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
@@ -333,13 +340,6 @@
     <url>
       <loc>https://f6bfb5.github.io/vue-cheatsheet</loc>
       <lastmod>2020-08-22T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/docker-note</loc>
-      <lastmod>2020-08-21T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
@@ -662,13 +662,6 @@
     <url>
       <loc>https://f6bfb5.github.io/ACG-creation-and-destroy-of-tokyo-patlabor-movie-1</loc>
       <lastmod>2019-09-11T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/web-security-note</loc>
-      <lastmod>2019-09-02T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   

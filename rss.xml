@@ -5,7 +5,7 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io/rss.xml" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>Wed, 01 Dec 2021 03:21:16 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 02 Dec 2021 08:30:44 GMT</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -44,7 +44,7 @@
           <link>https://f6bfb5.github.io/blog/why-is-life-so-boring</link>
           <pubDate>Thu, 11 Nov 2021 23:44:56 GMT</pubDate>
           <description>
-              undefined
+              你要做的是帶著瘋狂，破壞至今為止的合理正常人生。
           </description>
         </item>
       
@@ -95,6 +95,16 @@
           <pubDate>Fri, 18 Jun 2021 02:26:28 GMT</pubDate>
           <description>
               常常煩惱不知道有什麼漫畫好看？或是覺得現在主流意見領袖的推薦漫畫都太常見，跟你家巷口老朋友的書單沒兩樣？不如換個口味，來看看日本網友們都推薦、討論些什麼漫畫吧！
+          </description>
+        </item>
+      
+
+        <item>
+          <title>看完電影和戲劇之後「我看不懂」的感想開始增加的理由</title>
+          <link>https://f6bfb5.github.io/blog/why-people-say-i-dont-understand-after-watching-movie</link>
+          <pubDate>Fri, 04 Jun 2021 15:12:53 GMT</pubDate>
+          <description>
+              是觀眾變得幼稚了嗎？
           </description>
         </item>
       
@@ -260,7 +270,7 @@
       
 
         <item>
-          <title>【譯】如何對抗生存中不可避的賣春性 —— Mark Fisher《資本主義中的現實主義》</title>
+          <title>如何對抗生存中不可避的賣春性 —— Mark Fisher《資本主義中的現實主義》</title>
           <link>https://f6bfb5.github.io/blog/capitalist-realism-mark-fisher</link>
           <pubDate>Fri, 08 Jan 2021 22:35:34 GMT</pubDate>
           <description>
@@ -450,16 +460,6 @@
       
 
         <item>
-          <title>Docker 筆記</title>
-          <link>https://f6bfb5.github.io/blog/docker-note</link>
-          <pubDate>Fri, 21 Aug 2020 15:12:42 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
           <title>Svelte 筆記</title>
           <link>https://f6bfb5.github.io/blog/svelte-note</link>
           <pubDate>Wed, 12 Aug 2020 22:05:02 GMT</pubDate>
@@ -480,7 +480,7 @@
       
 
         <item>
-          <title>Marp - 從 Markdown 檔案產生投影片</title>
+          <title>Marp - 在 VSCode 上使用 Markdown 檔案產生投影片</title>
           <link>https://f6bfb5.github.io/blog/generate-presentation-from-markdown</link>
           <pubDate>Sat, 11 Jul 2020 20:13:35 GMT</pubDate>
           <description>
@@ -913,16 +913,6 @@
           <title>《機動警察 the Movie》和「東京」的創造與破壞――身為浪漫主義者的帆場暎一</title>
           <link>https://f6bfb5.github.io/blog/ACG-creation-and-destroy-of-tokyo-patlabor-movie-1</link>
           <pubDate>Wed, 11 Sep 2019 07:28:53 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
-          <title>網頁安全筆記</title>
-          <link>https://f6bfb5.github.io/blog/web-security-note</link>
-          <pubDate>Mon, 02 Sep 2019 05:44:11 GMT</pubDate>
           <description>
               null
           </description>
