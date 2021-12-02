@@ -2,7 +2,20 @@
 title: "正規表達式 Regular Expression"
 date: 2019-09-17T20:08:26.000Z
 summary:
+tags: Toolbox
 ---
+
+<style>
+table {
+  width: 100%;
+}
+table td:nth-child(1) {
+  width: 25%;
+}
+table td:nth-child(3) {
+  width: 20%;
+}
+</style>
 
 ## 基礎介紹
 

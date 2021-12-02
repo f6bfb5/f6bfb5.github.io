@@ -1,6 +1,7 @@
 ---
 title: "實作「使用 Discord 登入」"
 date: 2021-01-14T00:24:23.000Z
+tags: F2E
 ---
 
 - [「Discord の ID でログイン」を実装する(Oauth2) - Qiita](https://qiita.com/masayoshi4649/items/46fdb744cb8255f5eb98)

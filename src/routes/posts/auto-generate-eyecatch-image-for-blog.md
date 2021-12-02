@@ -1,6 +1,7 @@
 ---
 title: "自動產生部落格預覽圖片"
 date: 2021-08-26T15:26:19.000Z
+tags: F2E
 ---
 
 例如 [Qiita](https://qiita.com/) 或 [Hatena Blog](https://hatenablog.com/)，現在許多網站都能在預覽時的縮圖上顯示對應文章的標題，而這實際上到底是怎麼做到的？我很大幅度（或者說幾乎全部）參考了 [Generating Twitter Card images from blog post titles](https://shuheikagawa.com/blog/2019/10/13/generating-twitter-card-images/) 這篇文章的做法，使用 Node.js 的 canvas library 直接在 canvas 上畫好預覽圖，存成檔案後，再設定好相關檔案的對應路徑，就能替網站文章加上預覽圖。

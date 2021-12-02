@@ -1,6 +1,8 @@
 ---
 title: "為什麼人生這麼無聊？"
 date: 2021-11-11T23:44:56.000Z
+summary: "你要做的是帶著瘋狂，破壞至今為止的合理正常人生。"
+tags: Translate
 ---
 
 <blockquote class="quoteback" darkmode="" data-title="なぜ人生はこんなにもつまらないのですか？ - Quora" data-author="" cite="https://jp.quora.com/naze-jinsei-ha-konnanimo-tsumaranai-no-desu-ka">

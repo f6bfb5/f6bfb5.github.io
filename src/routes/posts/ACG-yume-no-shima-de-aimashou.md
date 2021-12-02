@@ -1,7 +1,7 @@
 ---
 title: 《讓我們在夢之島相逢吧》 特殊鬼畜系漫畫家 山野一
 date: 2019-10-29 14:00:00
-tags: ACG, Manga
+tags: ACG, Comic
 summary:
 ---
 

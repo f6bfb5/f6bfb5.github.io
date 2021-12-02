@@ -1,8 +1,8 @@
 ---
 title: 「我服輸了，不愧是赤羽」漫畫家清野通簡介
 date: 2019-10-29 14:00:00
-tags: ACG, Manga
 summary:
+tags: ACG, Comic
 ---
 
 清野とおる，1980 年 3 月 24 日出生，1998 年時於「Young Magazine 增刊藍 BUTA」出道後，在「週刊 Young Jump」上開始連載「<ruby>青春嘻嘻嘻<rp>(</rp><rt>青春ヒヒヒ</rt><rp>)</rp></ruby>」、「ハラハラドキドキ」。之後直到 2008 年，由於部落格獲得 Bbmf 雜誌的編輯者注目，在手機網站「<ruby>手機漫畫王國<rp>(</rp><rt>ケータイまんが王国</rt><rp>)</rp></ruby>」連載「東京都北區赤羽」開始受到各界媒體的注目。並在雙葉社的「漫畫 Action」雜誌上連載續作的「<ruby>開心！東京都北區赤羽<rp>(</rp><rt>ウヒョッ! 東京都北区赤羽</rt><rp>)</rp></ruby>」。

@@ -517,6 +517,7 @@ settings.addButton("meow", () => {
 | [KF ひま字](https://www.kfstudio.net/font/kfhimaji/)                         | ![](https://i.imgur.com/YmACMjV.png) |
 | [Y.Oz Vox](http://yozvox.web.fc2.com/82788144826E829A81408275828F8298.html)  |                                      |
 | [清松手寫體](https://github.com/jasonhandwriting/JasonHandwriting)           |                                      |
+| [ヘタレ字](http://bakafonts.kyakirun.com/japanese/page2.htm)                 |                                      |
 
 #### 純英數字體
 
