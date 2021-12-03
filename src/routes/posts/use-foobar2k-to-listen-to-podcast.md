@@ -3,9 +3,9 @@ title: "用 Foobar2000 來聽 Podcast"
 date: 2021-12-02T19:33:28.000Z
 ---
 
-去年疫情爆發，Podcast 順勢在台灣大爆紅，不免俗地我也跟風聽了一陣子，這邊也推薦一份表單：[榨乾你的耳：親自用耳朵聽過的 Podcast Awesome List](https://medium.com/starrocket/maxine-podcast-awesome-list-5f864deb072b)，在上面發現了很多有趣的節目。
+去年疫情爆發，Podcast 順勢在台灣爆紅，不免俗地也跟風聽了一陣子，這邊推薦兩份表單：[稍微分析了一下我的 Podcast 收聽紀錄 2018-2020](https://blog.yorkxin.org/posts/podcast-analysis.html)、[榨乾你的耳：親自用耳朵聽過的 Podcast Awesome List](https://medium.com/starrocket/maxine-podcast-awesome-list-5f864deb072b)，從上面發現了很多有趣的節目。
 
-雖然因為收聽 Podcast 實在還是太花費時間，之後已經沒什麼在聽了，不過還會聽的時候，一直有幾個問題很困擾我：一些平台的預設播放順序是從新往舊播、每個人的節目音量大小會有落差且播放平台無法解決，老實說非常地惱人，而且難以理解的是，前者不只一個大型平台這樣設計，時代是不是越活越回去了？
+雖然因為收聽 Podcast 實在還是蠻花費時間的，之後已經沒什麼在聽了，不過還在收聽的時候，一直有幾個問題很困擾我：一些平台的預設播放順序是從新往舊播、每個人的節目音量大小會有落差且播放平台無法解決，老實說非常地惱人，而且難以理解的是，前者不只一個大型平台這樣設計，時代是不是越活越回去了？
 
 ## Foobar2000
 
@@ -15,9 +15,9 @@ date: 2021-12-02T19:33:28.000Z
 
 最後滿足我的反而是老牌免費播放器――Foobar2000，搭配「Podcatcher」和「ReplayGain DSP」這兩個插件。
 
-Podcatcher 可以讓 foobar2000 自動更新與下載所訂閱的 Podcast 節目，雖然最後更新已經是十年前的事情，最近才爆紅的 Podcast 實際上也不算是什麼新東西，目前仍然可以正常使用。
+Podcatcher 可以讓 foobar2000 自動更新與下載所訂閱的 Podcast 節目，雖然最後更新已經是十年前的事情，近期爆紅的 Podcast 實際上也不算是什麼新東西，目前仍然可以正常使用。
 
-ReplayGain DSP 是由於 Foobar2000 內建的 ReplayGain 無法細調、EBU R128 Normalizer 是下壓到 R128 的標準，所以需要再另外找的替代版。
+安裝 ReplayGain DSP 則是由於 Foobar2000 內建的 ReplayGain 無法細調、EBU R128 Normalizer 是下壓到 R128 的標準，所以需要再另外找的替代版。
 
 ## 安裝
 
