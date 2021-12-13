@@ -250,6 +250,7 @@ summary: "這是我 2021 年時，在網路上看過的文章。"
 - [現存するアメリカ唯一のミスタードーナツへ行ってきました | オモコロ](https://omocoro.jp/kiji/285004/)
 - [ため池に落ちると、なぜ命を落とすのか(斎藤秀俊) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/saitohidetoshi/20210510-00237132/)
 - [テトリミノの偏り補正から見るテトリスの歴史](https://www.slideshare.net/eagle0wl/ss-204929232)
+- [主にマジコンの話を振り返る（検閲バージョン）](https://www.slideshare.net/eagle0wl/ss-88306840)
 - [ボツネタ供養：ぱちんこ、パチスロの不正行為・事件 - ど～も eagle0wl です（再）](https://eagle0wl.hatenadiary.jp/entry/2018/01/20/183321)
 - [最も誤解されている映画は何でしょうか？に対する高羅 佳子 (Kako Kora)さんの回答 - Quora](https://jp.quora.com/mottomo-gokai-sa-re-te-iru-eiga-ha-nande-shou-ka/answers/278137156?ch=10&share=f601a024&srid=P0lwc)
 - [知らない人が多い？東京都の不健全図書に指定された本は Amazon などから消え全国的に買えなくなることがある - Togetter](https://togetter.com/li/1714196)
