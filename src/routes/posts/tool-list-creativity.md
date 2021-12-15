@@ -36,6 +36,11 @@ table td:nth-child(3) {
 | [Ralpha Image Resizer](https://www.vector.co.jp/soft/winnt/art/se487522.html) | 批次化處理圖片         | FREE |
 | [ウゴツール](https://mclover.hateblo.jp/UgoTool)                              | 產生類似動態塗鴉的效果 | FREE |
 
+- [Gifski](https://gif.ski/)
+- apngasm
+- Pngyu
+- [製作準則 - LINE Creators Market](https://creator.line.me/zh-hant/guideline/animationsticker/detail/)
+
 ## 影片
 
 ### 剪輯
@@ -69,6 +74,10 @@ table td:nth-child(3) {
 | [SubtitleEdit](https://www.nikse.dk/subtitleedit)                  | 影片字幕編輯軟體    | FREE |
 | [pyTranscriber](https://github.com/raryelcostasouza/pyTranscriber) | 自動產生字幕軟體    | FREE |
 
+- [movie_thumbnailer - GitLab](https://gitlab.com/movie_thumbnailer/mtn/-/wikis/home#download)
+
+`mtn.exe -c 4 -h 0 -s 60 -f <path-to-font-file>`
+
 #### SubtitleEdit 常用快捷
 
 | 按鍵    | 功能              |
@@ -80,6 +89,23 @@ table td:nth-child(3) {
 | F5      | 播放被選取的字幕  |
 | Alt+↑/↓ | 選取上/下一句字幕 |
 
+### 錄影
+
+- [LICEcap](https://www.cockos.com/licecap/)
+- [ScreenToGif](https://www.screentogif.com/)
+
+### 直播
+
+- [OBS Studio](https://obsproject.com/ja)
+- [Wirecast](http://www.telestream.net/wirecast/)
+- [CameraFi Live](https://play.google.com/store/apps/details?id=com.vaultmicro.camerafi.live&hl=zh_TW)
+- [CamTwist](https://camtwiststudio.com/)
+- [VDO.Ninja](https://obs.ninja/)
+- [AmaRecTV](http://www.amarectv.com/)
+- [Equalizer APO](https://sourceforge.net/projects/equalizerapo/)
+- [LightHost](https://github.com/rolandoislas/LightHost)
+- [Audio Router](https://github.com/audiorouterdev/audio-router)
+
 ### 手繪動畫
 
 | 名稱                                                                     | 說明                         | 付費     |
@@ -89,12 +115,12 @@ table td:nth-child(3) {
 
 ## 3DCG
 
-| 名稱                                                          | 說明 | 付費     |
-| ------------------------------------------------------------- | ---- | -------- |
-| Autodesk Softimage                                            |      |          |
-| [Blender](https://www.blender.org/)                           |      | FREE     |
-| [Metasequoia](http://www.metaseq.net/)                        |      | 具免費版 |
-| [SketchUp \| 3D for Everyone](https://www.sketchup.com/zh-TW) |      |          |
+| 名稱                                       | 說明 | 付費     |
+| ------------------------------------------ | ---- | -------- |
+| Autodesk Softimage                         |      |          |
+| [Blender](https://www.blender.org/)        |      | FREE     |
+| [Metasequoia](http://www.metaseq.net/)     |      | 具免費版 |
+| [SketchUp](https://www.sketchup.com/zh-TW) |      |          |
 
 ## 音樂
 

@@ -34,154 +34,201 @@ table td:nth-child(3) {
 | [4gb_patch](https://ntcore.com/?page_id=371)                                                                       |                                  |          |
 | [Debug Monitor Tool](<https://docs.microsoft.com/ja-jp/previous-versions/bb896647(v=msdn.10)?redirectedfrom=MSDN>) |                                  |          |
 | [Ctrl2cap](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap)                                       | 將 Caps Lock 鍵切換成 Ctrl 鍵    | FREE     |
-| [Radare2](https://www.giantbranch.cn/2018/02/02/%E7%AE%80%E5%8D%95%E5%AE%9E%E8%B7%B5Radare2/)                      |                                  |          |
 
-- [NTFSLinksView - View NTFS symbolic links and junction points](https://www.nirsoft.net/utils/ntfs_links_view.html)
+- [NTFSLinksView](https://www.nirsoft.net/utils/ntfs_links_view.html)
   顯示所有的 symbolic link
-- [ShellExView - Shell Extension Manager For Windows](https://www.nirsoft.net/utils/shexview.html)
+- [ShellExView](https://www.nirsoft.net/utils/shexview.html)
   管理 shell
 - CrystalDiskInfo
 - CrystalDiskMark
 - [Autoruns for Windows](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)
-- [HWMONITOR | Softwares | CPUID](https://www.cpuid.com/softwares/hwmonitor.html#version-history)
+- [HWMONITOR](https://www.cpuid.com/softwares/hwmonitor.html#version-history)
   監測系統狀況
 - [RunCat](https://github.com/Kyome22/RunCat_for_windows)
+- [Geek Uninstaller](https://geekuninstaller.com/)
 
 ### 檔案
 
-| 名稱                                           | 說明                         | 付費 |
-| ---------------------------------------------- | ---------------------------- | ---- |
-| PowerToys                                      | 微軟推出的多功能系統輔助軟體 |      |
-| [AntRenamer](https://antp.be/software/renamer) |                              |      |
-| [Unlocker](http://emptyloop.com/unlocker/)     |                              |      |
-| [FastCopy](https://fastcopy.jp/en/)            |                              |      |
-| TakeOwnership                                  |                              |      |
+| 名稱                                                    | 說明                         | 付費 |
+| ------------------------------------------------------- | ---------------------------- | ---- |
+| PowerToys                                               | 微軟推出的多功能系統輔助軟體 | FREE |
+| [Paper Plane xUI](http://toro.d.dooo.jp/slppx.html#ppx) | 快速執行檔案相關處理         | FREE |
+| [AntRenamer](https://antp.be/software/renamer)          | 快速規則式重新命名大量檔案   | FREE |
+| [Unlocker](http://emptyloop.com/unlocker/)              | 強制解除檔案使用鎖定狀態     | FREE |
+| [FastCopy](https://fastcopy.jp/en/)                     | 快速複製／備份檔案           | FREE |
+| TakeOwnership                                           |                              |      |
 
-- [Paper Plane xUI](http://toro.d.dooo.jp/slppx.html#ppx)
+<details>
+
+<summary>Paper Plane xUI（PPX） Shotcut key</summary>
+
+| 按鍵               | 功能                                             |
+| ------------------ | ------------------------------------------------ |
+| Shift + ↑ カーソル | ページアップ                                     |
+| Shift + ↓ カーソル | ページダウン                                     |
+| Shift + <          | 一覧の先頭にカーソルを移動                       |
+| Shift + >          | 一覧の末尾にカーソルを移動                       |
+| Ctrl + →           | 次に進む(履歴)                                   |
+| Ctrl + ←           | 前に戻る(履歴)                                   |
+| TAB                | 次の PPC へ                                      |
+| / カーソル         | 以降／以前をすべてマーク                         |
+| --                 | --                                               |
+| C                  | コピー                                           |
+| D                  | カーソル位置/マーク対象をごみ箱へ移動            |
+| E                  | テキストエディタで編集                           |
+| F                  | ファイルマスク(カレントディレクトリのみ)         |
+| G                  | 反対の窓と場所を入れ替える                       |
+| H                  | ファイル名を指定して実行                         |
+| J                  | インクリメンタルサーチ (Shift + J コンソール）　 |
+| --                 | --                                               |
+| K                  | ディレクトリ作成                                 |
+| L                  | ディレクトリ移動(直接入力)                       |
+| M                  | ファイルを移動                                   |
+| P                  | 書庫作成(LHA)                                    |
+| Q                  | 終了(確認無し)                                   |
+| R                  | 名前を変更                                       |
+| S                  | ソート(カレントのみ)                             |
+| U                  | 書庫解凍                                         |
+| X                  | コマンド入力実行(ファイル名付き)                 |
+| Y                  | PPv で表示(フォーカス移動無し)                   |
+| Z                  | カーソル位置のファイルを開く(Shell 依存)         |
+| 0                  | ヒストリー&登録ディレクトリ                      |
+| 1 ～ 9             | ドライブ移動                                     |
+| F5                 | ディレクトリ再読込                               |
+| TAB                | 次の PPC へ                                      |
+
+- [Paper Plane xUI help](http://toro.d.dooo.jp/ppxhlp.html)
+- [デフォルトキーコンフィグ - \* PPC デフォルトキーコンフィグ](https://web.archive.org/web/20060628053009/http://aetermv.hp.infoseek.co.jp/cgi-bin/pyuki/wiki.cgi?%a5%c7%a5%d5%a5%a9%a5%eb%a5%c8%a5%ad%a1%bc%a5%b3%a5%f3%a5%d5%a5%a3%a5%b0)
+- [PPx 逆引き辞典 - Paper Plane xUI まとめサイト - atwiki（アットウィキ）](https://w.atwiki.jp/wiki6_ppx/pages/13.html)
+- [yesiam: PPX のことがまるでよくわかってなくても、とにかくこれだけ押さえれば、便利にサクサクッと、難解な PPX が使えたような気になれるかもしれない Tips](https://yesiamkd.blogspot.com/2007/07/ppxppxtips.html)
+
+</details>
 
 ### 解壓縮
 
-| 名稱                                           | 說明 | 付費 |
-| ---------------------------------------------- | ---- | ---- |
-| [7-Zip](https://www.developershome.com/7-zip/) |      |      |
-| [Bandizip](https://tw.bandisoft.com/bandizip/) |      |      |
+| 名稱                                           | 說明                               | 付費 |
+| ---------------------------------------------- | ---------------------------------- | ---- |
+| [7-Zip](https://www.developershome.com/7-zip/) | 萬用壓縮／解壓縮工具               | FREE |
+| [Bandizip](https://tw.bandisoft.com/bandizip/) | 可處理檔案名稱編碼問題的解壓縮工具 | FREE |
 
 ## 文件
 
 | 名稱                                                               | 說明                                               | 付費 |
 | ------------------------------------------------------------------ | -------------------------------------------------- | ---- |
-| [Notepad++](https://notepad-plus-plus.org/)                        |                                                    | FREE |
-| [Typora](https://www.typora.io/)                                   | Markdown 編輯器                                    |      |
-| [Obsidian](https://obsidian.md/)                                   | 可以運用內部連結做成卡片盒形式的 Markdown 筆記軟體 |      |
-| [XMind](https://jp.xmind.net/download/)                            |                                                    |      |
-| [HxD](https://mh-nexus.de/en/hxd/)                                 | Freeware Hex Editor and Disk Editor                |      |
-| [Text2MindMap](https://tobloef.com/text2mindmap/)                  | 文字版心智圖                                       | FREE |
-| [Stirling](https://www.vector.co.jp/soft/win95/util/se079072.html) | Binary Editor                                      |      |
+| [Notepad++](https://notepad-plus-plus.org/)                        | 開源的強大文字編輯器                               | FREE |
 | [TeraPad](https://tera-net.com/library/tpad.html)                  |                                                    | FREE |
+| [HxD](https://mh-nexus.de/en/hxd/)                                 | Freeware Hex Editor and Disk Editor                |      |
+| [Stirling](https://www.vector.co.jp/soft/win95/util/se079072.html) | Binary Editor                                      |      |
+| [Obsidian](https://obsidian.md/)                                   | 可以運用內部連結做成卡片盒形式的 Markdown 筆記軟體 |      |
+| [Text2MindMap](https://tobloef.com/text2mindmap/)                  | 文字版心智圖                                       | FREE |
+
+- [pytesseract](https://pypi.org/project/pytesseract/)
+
+```python
+try:
+  from PIL import Image
+except ImportError:
+  import Image
+import pytesseract
+import os
+
+pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+image_path = r'path to image file'
+
+f = []
+t = []
+input_dir = r'path to images file'
+
+# print(pytesseract.image_to_string(Image.open(path), lang='jpn'))
+# print(pytesseract.image_to_string(Image.open(path), lang='jpn_vert'))
+
+for root, dirs, filenames in os.walk(input_dir):
+  for filename in filenames:
+    try:
+      print(filename)
+      f.append(filename)
+      img = Image.open(input_dir+ filename)
+      text = pytesseract.image_to_string(img, lang='jpn')
+      t.append(text)
+      print(text)
+      print('-='*20)
+    except:
+      continue
+
+outputfile = open(input_dir + "result.txt", "w")
+for element in t:
+  outputfile.write(element + "\n")
+outputfile.close()
+```
 
 ### 語系切換
 
 | 名稱                                                                 | 說明                         | 付費 |
 | -------------------------------------------------------------------- | ---------------------------- | ---- |
-| [繁化姬](https://github.com/James1201/Fanhuaji-GUI-Release/releases) | 搭配詞語本地化的繁簡轉換工具 |      |
-| [Locale Emulator](https://pooi.moe/Locale-Emulator/)                 | 切換程式執行環境語系         |      |
-| [NTLEA](https://archive.codeplex.com/?p=ntlea)                       | 切換程式執行環境語系         |      |
+| [繁化姬](https://github.com/James1201/Fanhuaji-GUI-Release/releases) | 搭配詞語本地化的繁簡轉換工具 | FREE |
+| [Locale Emulator](https://pooi.moe/Locale-Emulator/)                 | 切換程式執行環境語系         | FREE |
+| [NTLEA](https://archive.codeplex.com/?p=ntlea)                       | 切換程式執行環境語系         | FREE |
+
+## 網路
 
 ### 網路連線
 
 | 名稱                                                                       | 說明                                                | 付費 |
 | -------------------------------------------------------------------------- | --------------------------------------------------- | ---- |
-| [OpenVPN](https://openvpn.net/download-open-vpn/)                          |                                                     |      |
-| [SoftEther VPN Client](https://www.vpngate.net/cn/howto_softether.aspx)    |                                                     |      |
-| [WinSCP](https://winscp.net/eng/download.php)                              | SFTP client                                         |      |
-| [Putty](https://www.putty.org/)                                            | SSH and telnet client                               |      |
-| [MobaXterm](https://mobaxterm.mobatek.net/)                                | tabbed SSH client                                   |      |
-| [TCPView](https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview) | show detailed listings of all TCP and UDP endpoints |      |
+| [OpenVPN](https://openvpn.net/download-open-vpn/)                          | VPN Client                                          | FREE |
+| [SoftEther VPN Client](https://www.vpngate.net/cn/howto_softether.aspx)    | VPN Client                                          | FREE |
+| [WinSCP](https://winscp.net/eng/download.php)                              | SFTP client                                         | FREE |
+| [Putty](https://www.putty.org/)                                            | SSH and telnet client                               | FREE |
+| [MobaXterm](https://mobaxterm.mobatek.net/)                                | tabbed SSH client                                   | FREE |
+| [TCPView](https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview) | show detailed listings of all TCP and UDP endpoints | FREE |
+| [ngrok](https://ngrok.com/)                                                |                                                     |      |
 | [xlight](https://www.xlightftpd.com/)                                      | Windows FTP and SFTP Server                         |      |
 | [HFS](https://www.rejetto.com/hfs/)                                        | HTTP File Server                                    |      |
-
-- [ngrok](https://ngrok.com/)
-- [Screego](https://app.screego.net/)
-- [croc](https://github.com/schollz/croc)
-- [Send Anywhere](https://send-anywhere.com/)
-- [AdapterWatch - monitor your network adapter](https://www.nirsoft.net/utils/awatch.html)
-  監測網路卡使用狀況
-- [CurrPorts: Monitoring TCP/IP network connections on Windows](https://www.nirsoft.net/utils/cports.html)
-  應用程式使用的網路 port
-- [Termshark](https://termshark.io/)
+| [croc](https://github.com/schollz/croc)                                    |                                                     |      |
+| [Send Anywhere](https://send-anywhere.com/)                                |                                                     |      |
+| [AdapterWatch](https://www.nirsoft.net/utils/awatch.html)                  | 監測網路卡使用狀況                                  | FREE |
+| [CurrPorts](https://www.nirsoft.net/utils/cports.html)                     | 監測應用程式使用的網路 port                         | FREE |
+| [Termshark](https://termshark.io/)                                         | 命令列版本的 WireShark                              | FREE |
 
 ### 通訊軟體
 
-| 名稱                                                        | 說明 | 付費 |
-| ----------------------------------------------------------- | ---- | ---- |
-| [Discord](https://discordapp.com/)                          |      |      |
-| [Telegram](https://telegram.org/)                           |      |      |
-| [Slack](https://slack.com/intl/en-tw/)                      |      |      |
-| [MAPS.ME](https://maps.me/)                                 |      |      |
-| [HACK FOLDR](https://beta.hackfoldr.org/)                   |      |      |
-| [BRIDGEFY](https://www.bridgefy.me/)                        |      |      |
-| [ZELLO](https://zello.com/)                                 |      |      |
-| [PATCHWORK](https://hackmd.io/QM3RRIkFR_6x0jrw6TxPbg?view=) |      |      |
+| 名稱                                                    | 說明 | 付費 |
+| ------------------------------------------------------- | ---- | ---- |
+| [Discord](https://discordapp.com/)                      |      |      |
+| [Telegram](https://telegram.org/)                       |      |      |
+| [Slack](https://slack.com/intl/en-tw/)                  |      |      |
+| [MAPS.ME](https://maps.me/)                             |      |      |
+| [BRIDGEFY](https://www.bridgefy.me/)                    |      |      |
+| [ZELLO](https://zello.com/)                             |      |      |
+| [PATCHWORK](https://github.com/ssbc/patchwork/releases) |      |      |
 
 ### 網路瀏覽
 
-| 名稱                                                                             | 說明 | 付費 |
-| -------------------------------------------------------------------------------- | ---- | ---- |
-| [PTTStar](https://www.ptt.cc/bbs/EZsoft/M.1546241396.A.D95.html)                 |      |      |
-| [JaneXeno](http://janexeno.client.jp/janexenobeta.htm)                           |      |      |
-| [YoutubeLiveCommentViewer](https://ryu-s.github.io/app/youtubelivecommentviewer) |      |      |
+| 名稱                                                             | 說明                       | 付費 |
+| ---------------------------------------------------------------- | -------------------------- | ---- |
+| [PTTStar](https://www.ptt.cc/bbs/EZsoft/M.1546241396.A.D95.html) |                            | FREE |
+| [JaneXeno](http://janexeno.client.jp/janexenobeta.htm)           |                            | FREE |
+| [commenomi](http://air.fem.jp/commenomi/)                        | 可顯示流動式留言的透明視窗 | FREE |
 
-- [commeon](http://air.fem.jp/commeon/)
-  可顯示流動式留言的播放器
-- [commenomi](http://air.fem.jp/commenomi/)
-  可顯示流動式留言的透明視窗
+### 資安
 
-### 錄影軟體
+| 名稱                                                     | 說明                   | 付費 |
+| -------------------------------------------------------- | ---------------------- | ---- |
+| [Sandboxie](https://github.com/sandboxie-plus/Sandboxie) | 可於沙盒環境下執行程式 | FREE |
+| [Anonymouse.org](http://anonymouse.org/anonwww.html)     | 匿名掛載網頁           | FREE |
+| [aguse.jp](https://www.aguse.jp/)                        | 掃描網址安全性         | FREE |
+| [VirusTotal](https://www.virustotal.com/zh-tw/)          | 掃描網址或檔案安全性   | FREE |
+| [Password Security info](https://passwordsecurity.info/) | 檢查密碼是否已遭外洩   | FREE |
+| [Have I Been Pwned](https://haveibeenpwned.com/)         | 檢查信箱是否已遭外洩   | FREE |
+| [Kiken URL List](http://gunkanmaki.jog.buttobi.net/)     | 危險網址內容解說       |      |
 
-- [LICEcap](https://www.cockos.com/licecap/)
-- [ScreenToGif](https://www.screentogif.com/)
-
-### 直播軟體
-
-- [OBS Studio](https://obsproject.com/ja)
-- [Wirecast](http://www.telestream.net/wirecast/)
-- [CameraFi Live](https://play.google.com/store/apps/details?id=com.vaultmicro.camerafi.live&hl=zh_TW)
-- [CamTwist](https://camtwiststudio.com/)
-- [VDO.Ninja](https://obs.ninja/)
-- [VTuber 多人連動？想開電視牆？殺手級利器 VDO.Ninja 來了！快速分享你的視窗給其他人！ - HackMD](https://hackmd.io/@f6bfb5/B1uqVTB1t)
-- [アマレコ TV 公式ホームページ](http://www.amarectv.com/)
-
-### 遠端協作
+## 遠端協作
 
 - Webex
 - Jitsi
 - Splashtop
 
-## 資安
-
-| 名稱                                                                                                        | 說明 | 付費 |
-| ----------------------------------------------------------------------------------------------------------- | ---- | ---- |
-| [Sandboxie](https://github.com/sandboxie-plus/Sandboxie)                                                    |      |      |
-| [aguse.jp: ウェブ調査](https://www.aguse.jp/)                                                               |      |      |
-| [Anonymouse.org](http://anonymouse.org/anonwww.html)                                                        |      |      |
-| [VirusTotal - 免費的線上病毒、惡意軟體和網址掃瞄器](https://www.virustotal.com/zh-tw/)                      |      |      |
-| [Kiken URL List－危険と思われるアドレス一覧と解説－](http://gunkanmaki.jog.buttobi.net/)                    |      |      |
-| [Password Security info](https://passwordsecurity.info/)                                                    |      |      |
-| [Have I Been Pwned: Check if your email has been compromised in a data breach](https://haveibeenpwned.com/) |      |      |
-
-### Chrome 插件
-
-| 名稱                                                                                                            | 說明 | 付費 |
-| --------------------------------------------------------------------------------------------------------------- | ---- | ---- |
-| [Flow Chat](https://github.com/fiahfy/youtube-live-chat-flow)                                                   |      |      |
-| [Pan for video](https://chrome.google.com/webstore/detail/pan-for-video/gpfhajmppnhpfkokaidnlepfkhblpiol?hl=ja) |      |      |
-| [OutsideBar](https://chrome.google.com/webstore/detail/outsidebar/bkbgfdeahjoonelgflchidgfppdldfhc)             |      |      |
-| [Maxchat](https://chrome.google.com/webstore/detail/maxchat/hgfdknfjakjkmdhmcndaajebcfhkodll)                   |      |      |
-| [Stream TV Array](https://fsworld009.github.io/StreamTvArray/)                                                  |      |      |
-| [Modch.at](https://modch.at/)                                                                                   |      |      |
-| [ViewSync](https://viewsync.net/)                                                                               |      |      |
-
-### 影音播放
+## 影音播放
 
 | 名稱                                                               | 說明 | 付費 |
 | ------------------------------------------------------------------ | ---- | ---- |
@@ -190,12 +237,7 @@ table td:nth-child(3) {
 | [MangaMeeya](https://mangameeya.softonic.jp/)                      |      |      |
 | [LCDDelayChecker](http://bygzam.seesaa.net/article/110314791.html) |      |      |
 
-- [Equalizer APO](https://sourceforge.net/projects/equalizerapo/)
-- [LightHost](https://github.com/rolandoislas/LightHost)
-- [如何使用 VST Plugin 去除噪音、嘶嘶聲、強化人聲、平衡音量，拯救你的麥克風音質！ - HackMD](https://hackmd.io/u4BFiGjgRLG-djyzMhOz1g)
-- [Audio Router](https://github.com/audiorouterdev/audio-router)
-
-### 下載
+## 下載
 
 | 名稱                                                                                                                   | 說明 | 付費 |
 | ---------------------------------------------------------------------------------------------------------------------- | ---- | ---- |

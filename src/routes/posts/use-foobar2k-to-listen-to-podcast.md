@@ -1,6 +1,7 @@
 ---
 title: "用 Foobar2000 來聽 Podcast"
 date: 2021-12-02T19:33:28.000Z
+tags: Toolbox
 ---
 
 去年疫情爆發，Podcast 順勢在台灣爆紅，不免俗地也跟風聽了一陣子，這邊推薦兩份表單：[稍微分析了一下我的 Podcast 收聽紀錄 2018-2020](https://blog.yorkxin.org/posts/podcast-analysis.html)、[榨乾你的耳：親自用耳朵聽過的 Podcast Awesome List](https://medium.com/starrocket/maxine-podcast-awesome-list-5f864deb072b)，從上面發現了很多有趣的節目。
