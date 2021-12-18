@@ -84,12 +84,10 @@
   }
 
   header h1 {
-    margin: 0;
+    margin: 0 0 0.13em 0;
     font-size: 6em;
     letter-spacing: -0.075em;
     line-height: 1;
-    /* margin: 0 0 0.13em -0.025em; */
-    margin: 0 0 0.13em 0;
     color: var(--title-color);
   }
 
