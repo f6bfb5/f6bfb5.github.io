@@ -5,17 +5,11 @@
     rel="noreferrer noopener nofollow">CC BY-SA 4.0.</a
   >
   <div class="right">
-    Made with <span class="heart">❤️</span>,
+    Made with <span class="heart">❤️</span> and
     <a
       href="https://github.com/Charca/sapper-blog-template"
       target="_blank"
       ref="noreferrer noopener nofollow">Sapper</a
-    >
-    and
-    <a
-      href="https://chiron-fonts.github.io/sans/"
-      target="_blank"
-      rel="noreferrer noopener nofollow">Chiron Sans HK</a
     >
   </div>
   <div class="clearfix" />
