@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&family=Noto+Serif+TC:wght@400;700&display=swap');
+
 body {
-  font-family: 'Chiron Sans HK Pro WS', -apple-system, BlinkMacSystemFont, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo,ＭＳ\ Ｐゴシック, MS PGothic, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo,ＭＳ\ Ｐゴシック, MS PGothic, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 16px;
-  color: #36393b;
+  text-rendering: geometricPrecision;
 }
 
 h1 {
@@ -33,6 +35,7 @@ h6 {
 }
 
 p {
+  font-family: 'Noto Serif TC';
   font-size: 1.125em;
   line-height: 1.6875em;
   letter-spacing: 0.52px;
@@ -47,8 +50,6 @@ code {
   font-size: calc(1em - 2px);
   color: #555;
   word-break: break-all;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 blockquote p {
