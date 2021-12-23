@@ -44,6 +44,7 @@
     /* --text-color: #bfc2c7; */
     --text-color: #ccc;
     --link-color: #d2d217;
+    --link-hover-color: #9f1212;
     --invert: 1;
   }
 </style>
