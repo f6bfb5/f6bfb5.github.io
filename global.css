@@ -38,12 +38,11 @@ h2 {
 }
 
 h3 {
-  padding: 2px 5px 2px 5px;
+  padding: 2px 5px 2px 8px;
   margin: 10px 5px 10px 3px;
   color: var(--text-color);
   border-left: 10px solid var(--subtitle-color);
   border-bottom: 1px solid var(--subtitle-color);
-  text-indent: 3px;
 }
 
 h1 + p,
