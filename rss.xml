@@ -5,10 +5,20 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io/rss.xml" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>Wed, 29 Dec 2021 21:48:49 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 04 Jan 2022 14:42:43 GMT</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
+        <item>
+          <title>NFT 是什麼，又不是什麼？</title>
+          <link>https://f6bfb5.github.io/blog/what-nft-is-not</link>
+          <pubDate>Tue, 04 Jan 2022 20:56:33 GMT</pubDate>
+          <description>
+              undefined
+          </description>
+        </item>
+      
+
         <item>
           <title>2021 年，我在網路上看了些什麼文</title>
           <link>https://f6bfb5.github.io/blog/2021-what-i-have-read-on-internet</link>
@@ -305,6 +315,16 @@
           <pubDate>Tue, 05 Jan 2021 01:58:08 GMT</pubDate>
           <description>
               null
+          </description>
+        </item>
+      
+
+        <item>
+          <title>2020 年，我在網路上看了些什麼文</title>
+          <link>https://f6bfb5.github.io/blog/2020-what-i-have-read-on-internet</link>
+          <pubDate>Thu, 31 Dec 2020 06:00:00 GMT</pubDate>
+          <description>
+              這是我 2020 年時，在網路上看過的文章。
           </description>
         </item>
       
@@ -1010,7 +1030,7 @@
       
 
         <item>
-          <title>前端筆記 (7) 網頁開發者工具</title>
+          <title>前端筆記 (7) Devtool</title>
           <link>https://f6bfb5.github.io/blog/f2e-07-devtool</link>
           <pubDate>Thu, 18 Jul 2019 07:07:00 GMT</pubDate>
           <description>
