@@ -419,14 +419,13 @@ iframe {
 
 有數套如 [Commento](https://github.com/adtac/commento)、[Remark42](https://remark42.com/demo/)、[Isso](https://posativ.org/isso/) 的 self-hosted 留言版，可以搭配 Heroku 使用 [commento-heroku](https://github.com/fidiego/commento-heroku) 架設
 
-### 頁面切換動態效果
-
-- [Simple page transitions in Svelte | Apostrof: web development studio](https://www.apostrof.co/blog/svelte-simple-page-transitions/)
-- [Svelte Smooth page transitions - DEV Community](https://dev.to/giorgosk/smooth-page-transitions-in-layout-svelte-with-sveltekit-or-sapper-4mm1)
-
 ### Dark Mode
 
 （待）
+
+### 使用 GitHub Issues 作為留言板
+
+[utterances](https://utteranc.es/)
 
 ---
 

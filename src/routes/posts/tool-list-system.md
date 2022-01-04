@@ -25,6 +25,7 @@ table td:nth-child(3) {
 | ------------------------------------------------------------------------------------------------------------------ | -------------------------------- | -------- |
 | [wox](http://www.wox.one/)                                                                                         | 快速執行程式                     | FREE     |
 | [orchis](http://www.eonet.ne.jp/~gorota/)                                                                          | 快速執行程式                     | FREE     |
+| [CLaunch](https://hp.vector.co.jp/authors/VA018351/en/claunch.html)                                                | 快速開啟資料夾                   | FREE     |
 | [Divvy](https://mizage.com/divvy/)                                                                                 | 切割視窗位置                     | 具付費版 |
 | [Rufus](https://rufus.ie/)                                                                                         | 簡易建立可開機 USB 裝置          | FREE     |
 | [TreeSize](https://www.jam-software.com/treesize_free/)                                                            | 分析硬碟檔案空間佔用分佈         | FREE     |
@@ -221,6 +222,25 @@ outputfile.close()
 | [Password Security info](https://passwordsecurity.info/) | 檢查密碼是否已遭外洩   | FREE |
 | [Have I Been Pwned](https://haveibeenpwned.com/)         | 檢查信箱是否已遭外洩   | FREE |
 | [Kiken URL List](http://gunkanmaki.jog.buttobi.net/)     | 危險網址內容解說       |      |
+
+### 留存資訊
+
+#### [Quotebacks - Quote the web](https://quotebacks.net/)
+
+<blockquote class="quoteback" darkmode="" data-title="ネットでなにも発信しないのが最適解になってきた" data-author="@hatenaanond" cite="https://anond.hatelabo.jp/20211017124401">
+<p>結果、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%8D%E3%83%83%E3%83%88" target="_blank" rel="noopener">ネット</a>では当たり<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%81%95%E3%82%8F%E3%82%8A" target="_blank" rel="noopener">さわり</a>のないことだけ書いて、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%8D%E3%83%83%E3%83%88" target="_blank" rel="noopener">ネット</a>では誰とも<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E4%BA%A4%E6%B5%81" target="_blank" rel="noopener">交流</a>しないのが最適解になってきた。</p><p><a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%8D%E3%83%83%E3%83%88" target="_blank" rel="noopener">ネット</a>で発信すること<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E8%87%AA%E4%BD%93" target="_blank" rel="noopener">自体</a>が<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%AA%E3%82%B9%E3%82%AF" target="_blank" rel="noopener">リスク</a>だし、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88" target="_blank" rel="noopener">メリット</a>ないし、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E4%B8%8D%E5%BF%AB" target="_blank" rel="noopener">不快</a>な思いするだけっていう<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E4%B8%96%E7%95%8C" target="_blank" rel="noopener">世界</a>になりつつある。</p>
+<footer>@hatenaanond<cite> <a href="https://anond.hatelabo.jp/20211017124401">https://anond.hatelabo.jp/20211017124401</a></cite></footer>
+</blockquote><script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
+
+網頁服務，備份網路上的文字內容與來源，可手動將內容貼至網頁內的文字框，或使用所提供的 Bookmarklet 可於反白選取文字後快速產生備份內容。
+
+#### [WorldBrain's Memex](https://getmemex.com/)
+
+Chrome 插件，除了可備份網頁成為書籤，也可畫線標註重點，或於其上加入文字註記與標籤，並可設計客製化的匯出格式，方便整合至其他筆記軟體內。
+
+#### [Home : Hypothesis](https://web.hypothes.is/)
+
+Chrome 插件，可共同協作註解或劃記並討論一篇網頁文章的內容。
 
 ## 遠端協作
 

@@ -5,6 +5,18 @@ summary:
 tags: F2E
 ---
 
+<style>
+table {
+  width: 100%;
+}
+table td:nth-child(1) {
+  width: 25%;
+}
+table td:nth-child(3) {
+  width: 20%;
+}
+</style>
+
 ## 編輯器
 
 | 名稱                                     | 說明 |

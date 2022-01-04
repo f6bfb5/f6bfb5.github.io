@@ -31,6 +31,7 @@ table td:nth-child(3) {
 | ---- | ---------- | ---------- |
 | `.`  | 任意字元   | `.n`       |
 | `[]` | 指定之字元 | `[aeiou]`  |
+| `()` | 指定之字串 | `(string)` |
 | `-`  | 範圍內字元 | `[a-zA-Z]` |
 | `^`  | 排除字元   | `[^a]`     |
 
@@ -95,6 +96,50 @@ table td:nth-child(3) {
 <br>需啟用正規表達式搜尋功能（快捷鍵為 `Alt+R`）
 <br>但不需在前後加上 `//`
 <br>可以用 `Alt + Enter` 一次選取所有符合規則的字元
+
+## 在 JavaScript 裡使用正規表達式
+
+想在 JavaScript 上使用正規表達式，需先宣告一前後由 `/` 包圍的字串：
+
+`var re = /ab+c/;`
+
+或呼叫 `RegExp` 物件的建構函式：
+
+`var re = new RegExp('ab+c');`
+
+宣告完畢後，可搭配此變數與一字串 `str` 使用以下函式：
+
+| 函式                         | 功能                                                             |
+| ---------------------------- | ---------------------------------------------------------------- |
+| `re.test(str)`               | 搜尋 `str` 字串是否有部分符合，回傳 boolean                      |
+| `re.exec(str)`               | 搜尋 `str` 字串是否有部分符合，並回傳為 Array，若無則回傳 `null` |
+| `str.match(re)`              | 搜尋 `str` 字串是否有部分符合，並回傳為 Array，若無則回傳 `null` |
+| `str.search(re)`             | 搜尋 `str` 字串是否有部分符合，並回傳 index，若無則回傳 `-1`     |
+| `str.replace(re, newSubstr)` | 搜尋 `str` 字串是否有部分符合，並以 `newSubstr` 取代該內容       |
+| `str.split(re)`              |                                                                  |
+
+例如想要快速取得 YouTube 直播聊天室的網址，就可透過正規表達式來比對影片網址：
+<br/>（雖然取得直播網址的時候通常不會有這麼多種變化格式，以及如果 playlist 參數先放在 v 之前也可能會出錯。實際上很可能也只需要比對 `[0-9a-zA-Z_-]{11}` 就能取得直播 ID 了。）
+
+```javascript
+let preRe =
+  /((http:\/\/)|(https:\/\/))?((youtu\.be\/)|((www\.youtube\.com\/)+((watch\?v=)|(v\/))))/;
+let vidRe = /[0-9a-zA-Z_-]{11}/;
+// different pattern of url of YouTube video
+let urlsForTest = [
+  "https://www.youtube.com/watch?v=gRr4fDVpw2c",
+  "http://www.youtube.com/watch?v=gRr4fDVpw2c&feature=featured",
+  "https://youtu.be/gRr4fDVpw2c",
+  "http://www.youtube.com/v/gRr4fDVpw2c?fs=1&hl=en_US",
+  "https://www.youtube.com/watch?v=gRr4fDVpw2c&list=PL7LdRPp7xCkP9JJYvAqrQJLScbSol7S4-&index=2",
+];
+let liveChatUrlPrefix = "https://www.youtube.com/live_chat?v=";
+
+urlsForTest.forEach((url) => {
+  console.log(liveChatUrlPrefix + url.replace(preRe, "").match(vidRe));
+});
+// https://www.youtube.com/live_chat?v=gRr4fDVpw2c
+```
 
 ## 相關工具
 

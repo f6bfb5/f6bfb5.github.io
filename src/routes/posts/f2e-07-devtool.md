@@ -1,5 +1,5 @@
 ---
-title: "前端筆記 (7) 網頁開發者工具"
+title: "前端筆記 (7) Devtool"
 date: 2019-07-18T07:07:00.000Z
 summary:
 tags: F2E

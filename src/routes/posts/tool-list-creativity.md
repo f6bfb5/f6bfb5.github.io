@@ -65,18 +65,17 @@ table td:nth-child(3) {
 
 ### 輔助
 
-| 名稱                                                               | 說明                | 付費 |
-| ------------------------------------------------------------------ | ------------------- | ---- |
-| [GANTAI](https://fairway.ne.jp/gantai/)                            | 快速加上馬賽克      | FREE |
-| [Audacity](https://sourceforge.net/projects/audacity/)             | 開源的聲音編輯軟體  | FREE |
-| [Mkvtoolnix](https://mkvtoolnix.download/)                         | 處理 Mastroska 檔案 | FREE |
-| [Aegisub](https://github.com/Aegisub/Aegisub)                      | 影片字幕編輯軟體    | FREE |
-| [SubtitleEdit](https://www.nikse.dk/subtitleedit)                  | 影片字幕編輯軟體    | FREE |
-| [pyTranscriber](https://github.com/raryelcostasouza/pyTranscriber) | 自動產生字幕軟體    | FREE |
+| 名稱                                                                                | 說明                | 付費 |
+| ----------------------------------------------------------------------------------- | ------------------- | ---- |
+| [GANTAI](https://fairway.ne.jp/gantai/)                                             | 快速加上馬賽克      | FREE |
+| [Audacity](https://sourceforge.net/projects/audacity/)                              | 開源的聲音編輯軟體  | FREE |
+| [Mkvtoolnix](https://mkvtoolnix.download/)                                          | 處理 Mastroska 檔案 | FREE |
+| [Aegisub](https://github.com/Aegisub/Aegisub)                                       | 影片字幕編輯軟體    | FREE |
+| [SubtitleEdit](https://www.nikse.dk/subtitleedit)                                   | 影片字幕編輯軟體    | FREE |
+| [pyTranscriber](https://github.com/raryelcostasouza/pyTranscriber)                  | 自動產生字幕軟體    | FREE |
+| [movie_thumbnailer](https://gitlab.com/movie_thumbnailer/mtn/-/wikis/home#download) | 製作影片縮圖        | FREE |
 
-- [movie_thumbnailer - GitLab](https://gitlab.com/movie_thumbnailer/mtn/-/wikis/home#download)
-
-`mtn.exe -c 4 -h 0 -s 60 -f <path-to-font-file>`
+`mtn.exe -c 4 -h 0 -s 60 -z -P -f <path-to-font-file>`
 
 #### SubtitleEdit 常用快捷
 
@@ -100,11 +99,8 @@ table td:nth-child(3) {
 - [Wirecast](http://www.telestream.net/wirecast/)
 - [CameraFi Live](https://play.google.com/store/apps/details?id=com.vaultmicro.camerafi.live&hl=zh_TW)
 - [CamTwist](https://camtwiststudio.com/)
-- [VDO.Ninja](https://obs.ninja/)
 - [AmaRecTV](http://www.amarectv.com/)
-- [Equalizer APO](https://sourceforge.net/projects/equalizerapo/)
-- [LightHost](https://github.com/rolandoislas/LightHost)
-- [Audio Router](https://github.com/audiorouterdev/audio-router)
+- [實作在家裡自架 IRL 戶外直播伺服器 - 一人遊戲直播局 hitorigs.live](https://hitorigs.live/irl-server-setting-up/)
 
 ### 手繪動畫
 
@@ -341,5 +337,7 @@ Myrica 為以 Inconsolata、源真ゴシック以及 Mgen+ 所組合而成的字
 
 ## ???
 
+- [2020 年 Vtuber Live2D 個人的総評｜ rariemonn](https://note.com/rariemonn/n/naee430e613f6)
 - [VMagicMirror](https://malaybaku.github.io/VMagicMirror/en/index)
+- [VtubeReflect by Oose](https://oose.itch.io/vtubereflect)
 - [簡易動態捕捉實況工具](https://www.notion.so/yankmw/dc869393118a467d873af62b3763e730)

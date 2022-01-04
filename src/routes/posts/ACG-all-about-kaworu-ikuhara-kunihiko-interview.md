@@ -7,8 +7,6 @@ tags: ACG, Anime, Evangelion, Translate
 
 文章來源：[\[Japanese\] All About Kaworu - Ikuhara Kunihiko Interview](https://evaresources.wordpress.com/staff/ikuhara-kunihiko/japanese-ikuhara-kunihiko/)
 
----
-
 ## 「現在的你就很好了」的魔力
 
 有好幾個人直接問過我「渚薰的人物原型是你嗎？」，我想著這是打哪來的資訊，我完全沒有參與過任何製作啊。而且薰的外型這麼帥氣，說是以我為原型設計的話，會被粉絲抗議吧。但也不是說完全沒有頭緒，在《新世紀福音戰士》還在準備階段的時候，我和庵野的交流相當密切，有次和《美少女戰士》的製作人員們一同去員工旅遊泡溫泉，庵野也是成員之一（※1）。那晚我們聊了一整夜，在其它人都倒下之後，我倆還是繼續喝酒、聊天、泡露天溫泉、聊天。
