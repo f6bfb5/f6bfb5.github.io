@@ -8,7 +8,8 @@
   .tag {
     padding: 0px 4px;
     margin-left: 0.5em;
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--subtext-color);
+    color: var(--subtext-color);
     font-size: 0.8em;
   }
 </style>

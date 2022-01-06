@@ -63,6 +63,7 @@
     position: absolute;
     padding: 7.5% 12.5% 0 15%;
     font-family: nishiki-teki;
+    color: #171717;
   }
   .bubble-content p {
     padding: 10px 0;

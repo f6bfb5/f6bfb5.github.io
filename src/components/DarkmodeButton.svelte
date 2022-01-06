@@ -22,29 +22,26 @@
     border: none;
     background: transparent;
     margin-bottom: 10px;
-    filter: invert(var(--invert));
     cursor: pointer;
     transition: filter 0.2s ease-in-out;
     -webkit-transition: -webkit-filter 0.2s ease-in-out;
   }
 
   button:hover {
-    filter: blur(0.5px) drop-shadow(0 0 4px black) invert(var(--invert));
+    filter: blur(0.5px) drop-shadow(0 0 4px var(--text-color));
+  }
+  button svg {
+    fill: var(--text-color);
   }
 
-  :global(body) {
-    /* background: var(--bg-color); */
-    color: var(--text-color);
-    transition: background-color 0.4s;
-  }
   :global(body.dark-mode) {
-    --bg-color: #1d3040;
-    --outer-bg-color: #20241a;
-    --title-color: #bbb;
-    /* --text-color: #bfc2c7; */
-    --text-color: #ccc;
-    --link-color: #d2d217;
+    --bg-color: #eaebeb;
+    --outer-bg-color: #eaebeb;
+    --title-color: #060606;
+    --subtitle-color: #0f0f0f;
+    --text-color: #171717;
+    --subtext-color: #1f1f1f;
+    --link-color: #9f1212;
     --link-hover-color: #9f1212;
-    --invert: 1;
   }
 </style>

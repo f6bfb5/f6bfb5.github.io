@@ -8,18 +8,20 @@
 }
 
 :root {
-  --bg-color: #fff;
-  --outer-bg-color: #dfdbe5;
-  --title-color: #444;
-  --subtitle-color: #ff8820;
-  --text-color: #111;
-  --link-color: #1717d2;
-  --link-hover-color: #46383a;
-  --invert: 0;
+  --bg-color: #150439;
+  --outer-bg-color: #150439;
+  --title-color: #f8ffeb;
+  --subtitle-color: #f2ffda;
+  --text-color: #ecffc9;
+  --subtext-color: #e6ffb8;
+  --link-color: #faff00;
+  --link-hover-color: #faff00;
 }
 
 body {
   margin: 0;
+  color: var(--text-color);
+  transition: background-color .2s ease-in-out;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,11 +32,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
+  position: relative;
   padding: 6px;
-  color: var(--bg-color);
-  background-color: var(--text-color);
-  border: 2px solid var(--text-color);
-  text-align: center;
+  padding-left: 12px;
+  color: var(--title-color);
+  text-shadow: var(--bg-color) 2px 0, var(--bg-color) -2px 0, var(--bg-color) 0 -2px, var(--bg-color) 0 2px, var(--bg-color) 2px 2px, var(--bg-color) -2px 2px, var(--bg-color) 2px -2px, var(--bg-color) -2px -2px, var(--bg-color) 1px 2px, var(--bg-color) -1px 2px, var(--bg-color) 1px -2px, var(--bg-color) -1px -2px, var(--bg-color) 2px 1px, var(--bg-color) -2px 1px, var(--bg-color) 2px -1px, var(--bg-color) -2px -1px, var(--text-color) 3px 3px 3px;
 }
 
 h3 {
@@ -103,7 +105,7 @@ p a {
 
 p a:hover {
   box-shadow: inset 0 -1.5em 0 var(--link-hover-color);
-  color: #fff;
+  color: var(--bg-color);
 }
 
 img {
@@ -150,6 +152,7 @@ hr::before {
 hr::after {
   right: calc(50% - 0.5rem);
 }
+/* custom hr end */
 
 br {
   content: "";
@@ -198,7 +201,6 @@ table {
 }
 
 th {
-  border-bottom: 2px solid #cccccc;
   padding: 0.4em 0.8em;
 }
 

@@ -66,6 +66,8 @@
     "https://www.nicovideo.jp/watch/sm24304243",
     // ヤッタモン勝ちなんや
     "https://www.nicovideo.jp/watch/sm24550780",
+    // 削除動画
+    "https://www.nicovideo.jp/watch/sm38213757",
   ];
 
   function getRandomEleFromArr(arr) {

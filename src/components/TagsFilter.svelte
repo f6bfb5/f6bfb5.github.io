@@ -70,9 +70,7 @@
     border: 1px solid var(--text-color);
     font-size: 0.8em;
   }
-  .tag svg {
-    filter: invert(var(--invert));
-  }
+
   .tag-button {
     position: relative;
     display: inline-block;
@@ -81,6 +79,9 @@
     z-index: 1;
     cursor: pointer;
     transition: all 0.3s ease;
+  }
+  .tag-button svg {
+    fill: var(--text-color);
   }
   .tag-button:after {
     content: "";
@@ -95,6 +96,9 @@
   }
   .tag-button:hover {
     color: var(--bg-color);
+  }
+  .tag-button:hover svg {
+    fill: var(--bg-color);
   }
   .tag-button:hover:after {
     left: 0;
