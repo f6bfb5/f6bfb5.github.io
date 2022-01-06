@@ -13,9 +13,9 @@
   --title-color: #f8ffeb;
   --subtitle-color: #f2ffda;
   --text-color: #ecffc9;
-  --subtext-color: #e6ffb8;
+  --subtext-color: #ffff89;
   --link-color: #faff00;
-  --link-hover-color: #faff00;
+  --link-hover-color: #fbff44;
 }
 
 body {
@@ -31,11 +31,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+h1, h2 {
+  color: var(--title-color);
+}
+
 h2 {
   position: relative;
   padding: 6px;
   padding-left: 12px;
-  color: var(--title-color);
   text-shadow: var(--bg-color) 2px 0, var(--bg-color) -2px 0, var(--bg-color) 0 -2px, var(--bg-color) 0 2px, var(--bg-color) 2px 2px, var(--bg-color) -2px 2px, var(--bg-color) 2px -2px, var(--bg-color) -2px -2px, var(--bg-color) 1px 2px, var(--bg-color) -1px 2px, var(--bg-color) 1px -2px, var(--bg-color) -1px -2px, var(--bg-color) 2px 1px, var(--bg-color) -2px 1px, var(--bg-color) 2px -1px, var(--bg-color) -2px -1px, var(--text-color) 3px 3px 3px;
 }
 
@@ -68,9 +71,17 @@ li:last-child {
   padding-bottom: 0.25em;
 }
 
+li::marker {
+  color: var(--title-color);
+}
+
 li p {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
+}
+
+ul li ul {
+  color: var(--subtext-color);
 }
 
 a {

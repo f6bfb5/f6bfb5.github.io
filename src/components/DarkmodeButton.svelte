@@ -40,8 +40,8 @@
     --title-color: #060606;
     --subtitle-color: #0f0f0f;
     --text-color: #171717;
-    --subtext-color: #1f1f1f;
+    --subtext-color: #282828;
     --link-color: #9f1212;
-    --link-hover-color: #9f1212;
+    --link-hover-color: #be1515;
   }
 </style>
