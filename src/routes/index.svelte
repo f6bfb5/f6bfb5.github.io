@@ -123,6 +123,7 @@
   }
   ul li::marker {
     content: "◼";
+    color: var(--title-color);
     display: inline-block;
   }
   ul li + li {
