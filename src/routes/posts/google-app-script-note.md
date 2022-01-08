@@ -75,9 +75,8 @@ function onEdit(e) {
   var time = Utilities.formatDate(date, "Asia/Tokyo", "HH:mm");
 
   //A1セルに８桁の年月日 B1セルに２４時間表記の時刻
-  var spreadsheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(
-    "シート名"
-  );
+  var spreadsheet =
+    SpreadsheetApp.getActiveSpreadsheet().getSheetByName("シート名");
   spreadsheet.getRange("A1").setValue(today);
   spreadsheet.getRange("B1").setValue(time);
 }
@@ -134,6 +133,9 @@ if (results.length == 0) {
 
 - cheerio 的 Google Sheet 版
 - 可以用類似 jQuery 的語法解析 HTML 內容
+
+1. 選擇「Tool」 → 「Script Editor」
+2. 「Library」 → 「Script ID」處加入 `1ReeQ6WO8kKNxoaA_O0XEQ589cIrRvEBA9qcWpNqdOP17i47u6N9M5Xh0`
 
 ```javascript
 const url = "";

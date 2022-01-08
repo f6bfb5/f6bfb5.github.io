@@ -227,27 +227,25 @@ settings.addButton("meow", () => {
 
 | 名稱                                                                                         | 說明                                        | 付費 |
 | -------------------------------------------------------------------------------------------- | ------------------------------------------- | ---- |
-| [Adobe Kuler](https://color.adobe.com/zh/create/color-wheel/)                                | Adobe 的取色工具                            |      |
-| [0to255](https://www.0to255.com/)                                                            | 色彩                                        |      |
-| [HUE/360](http://hue360.herokuapp.com/)                                                      | 色彩                                        |      |
-| [Color Hunt](https://colorhunt.co/)                                                          | 色彩                                        |      |
-| [Happy Hues](https://www.happyhues.co/)                                                      | 色彩                                        |      |
-| [Material Design Colors](https://www.materialui.co/colors)                                   | 色彩                                        |      |
-| [Web Colour Data](http://webcolourdata.com/)                                                 | 色彩                                        |      |
-| [CCHIMERA PALETTE CREATOR](http://saint11.org/tools/cchimera/index.html)                     | 色彩                                        |      |
-| [Random Material Palette Generator](https://www.threebu.it/random-material-palette/)         | 色彩                                        |      |
-| [Coolors](https://coolors.co/)                                                               | 點擊隨機產生一組五色色票                    |      |
-| [Palettable](https://www.palettable.io/)                                                     | 採用類似 Tinder 的好惡取捨，配對出 5 種色票 |      |
-| [Color Tool - Material Design](https://material.io/resources/color/)                         | 由 Google 開發的 UI 配色參考工具網站        |      |
-| [Paletton - The Color Scheme Designer](https://paletton.com/)                                | 提供自由選取主色明暗程度的色票組            |      |
-| [BrandColors](http://brandcolors.net/)                                                       | 各大知名品牌使用的顏色整理                  |      |
-| [Colorable](https://colorable.jxnblk.com/)                                                   | 提供兩個顏色的對比舒適度評比                |      |
-| [Color Leap](https://colorleap.app/home)                                                     | 各個時代的代表色整理                        |      |
-| [Sass Color Generator](http://scg.ar-ch.org/)                                                | 調整 SASS 顏色變數                          |      |
+| [Adobe Kuler](https://color.adobe.com/zh/create/color-wheel/)                                | Adobe 的取色工具                            | FREE |
+| [0to255](https://www.0to255.com/)                                                            | 提供一種顏色由淺至深的色票                  | FREE |
+| [HUE/360](http://hue360.herokuapp.com/)                                                      | 提供所選色彩之互補色的選擇                  | FREE |
+| [Color Hunt](https://colorhunt.co/)                                                          | 色票組合網站                                | FREE |
+| [Happy Hues](https://www.happyhues.co/)                                                      | 色票組合網站                                | FREE |
+| [Material Design Colors](https://www.materialui.co/colors)                                   | Material Design 所使用的色票                | FREE |
+| [CCHIMERA PALETTE CREATOR](http://saint11.org/tools/cchimera/index.html)                     | 點擊隨機產生色票工具                        | FREE |
+| [Random Material Palette Generator](https://www.threebu.it/random-material-palette/)         | 點擊隨機產生色票工具                        | FREE |
+| [Coolors](https://coolors.co/)                                                               | 點擊隨機產生色票工具                        | FREE |
+| [Palettable](https://www.palettable.io/)                                                     | 採用類似 Tinder 的好惡取捨，配對出 5 種色票 | FREE |
+| [Color Tool - Material Design](https://material.io/resources/color/)                         | Google 開發的 UI 配色參考工具網站           | FREE |
+| [Paletton - The Color Scheme Designer](https://paletton.com/)                                | 提供自由選取主色明暗程度的色票組            | FREE |
+| [BrandColors](http://brandcolors.net/)                                                       | 各大知名品牌使用的顏色整理                  | FREE |
+| [Colorable](https://colorable.jxnblk.com/)                                                   | 提供兩個顏色的對比舒適度評比                | FREE |
+| [Color Leap](https://colorleap.app/home)                                                     | 各個時代的代表色整理                        | FREE |
+| [Sass Color Generator](http://scg.ar-ch.org/)                                                | 調整 SASS 顏色變數                          | FREE |
 | [CSS Gradient](https://cssgradient.io/)                                                      | 產生漸層色                                  | FREE |
-| [WebGradients.com](https://webgradients.com/)                                                | 色彩                                        |      |
-| [カラーチャート/配色パターン - TAG index](https://www.tagindex.com/color/color_pattern.html) | 色彩                                        |      |
-| [SASS 變數色卡](https://codepen.io/frank890417/full/MpKebd)                                  | 色彩                                        |      |
+| [WebGradients.com](https://webgradients.com/)                                                | 提供 180 種漸層色                           | FREE |
+| [カラーチャート/配色パターン - TAG index](https://www.tagindex.com/color/color_pattern.html) | 色票組合網站                                | FREE |
 
 - [激發靈感的 50 套網頁配色方案，連色票都附上囉！](https://www.mydesy.com/web-page-2)
 
@@ -265,6 +263,9 @@ settings.addButton("meow", () => {
 
 ## 素材
 
+- [めっちゃ楽！面倒な Web 制作から救う最新オンラインツール 44 個まとめ - PhotoshopVIP](https://photoshopvip.net/131642)
+- [わずかな時間で驚くほど Web 制作がはかどる最新オンラインツール 43 個まとめ - PhotoshopVIP](https://photoshopvip.net/132219)
+
 ### 標籤產生器
 
 | 名稱                                                                | 說明                                                             | 付費 |
@@ -277,17 +278,18 @@ settings.addButton("meow", () => {
 
 ### 圖示
 
-| 名稱                                                                | 說明                         | 付費            |
-| ------------------------------------------------------------------- | ---------------------------- | --------------- |
-| [FontAwesome](https://fontawesome.com/)                             | 純 CSS 向量圖示庫            | 免費版 & 付費版 |
-| [Fontello](https://fontello.com/)                                   | 可依需求單獨挑選的圖示庫     |                 |
-| [CSS Icons](https://css.gg/)                                        | 開源 icons                   | FREE            |
-| [Icones](https://icones.netlify.app/)                               | 懶人包                       |                 |
-| [iconmonstr](https://iconmonstr.com/)                               | 向量圖示庫                   |                 |
-| [flaticon](https://www.flaticon.com/)                               | 向量圖示庫                   |                 |
-| [Icograms Designer](https://icograms.com/)                          | 可自由設計的 3D 圖示產生工具 | FREE            |
-| [Favicon ジェネレーター](https://favicon-generator.mintsu-dev.com/) | 轉換 Favicon                 | FREE            |
-| [Favicon Generator](https://realfavicongenerator.net/)              | 支援跨裝置的 Favicon         |                 |
+| 名稱                                                                  | 說明                         | 付費            |
+| --------------------------------------------------------------------- | ---------------------------- | --------------- |
+| [FontAwesome](https://fontawesome.com/)                               | 純 CSS 向量圖示庫            | 免費版 & 付費版 |
+| [Fontello](https://fontello.com/)                                     | 可依需求單獨挑選的圖示庫     |                 |
+| [CSS Icons](https://css.gg/)                                          | 開源 icons                   | FREE            |
+| [Icones](https://icones.netlify.app/)                                 | 懶人包                       |                 |
+| [iconmonstr](https://iconmonstr.com/)                                 | 向量圖示庫                   | FREE            |
+| [flaticon](https://www.flaticon.com/)                                 | 向量圖示庫                   |                 |
+| [Icograms Designer](https://icograms.com/)                            | 可自由設計的 3D 圖示產生工具 | FREE            |
+| [Favicon ジェネレーター](https://favicon-generator.mintsu-dev.com/)   | 轉換 Favicon                 | FREE            |
+| [Favicon Generator](https://realfavicongenerator.net/)                | 支援跨裝置的 Favicon         |                 |
+| [ふきだし素材専門サイト「フキダシデザイン」](https://fukidesign.com/) | 對話框素材                   | FREE            |
 
 ### 背景
 

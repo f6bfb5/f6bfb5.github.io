@@ -12,6 +12,7 @@ HTML（HyperText Markup Language）是撰寫網頁結構用的標記語言，「
 而一個最基本的標籤裡會有「名稱」與「屬性」，註記為 `<tagName attributeName="attributeValue">Content</tagName>`，名稱宣告這是什麼標籤，屬性宣告標籤性質，於第 4 點會再詳細解釋。
 
 - [HTML Standard 日本語訳](https://momdo.github.io/html/)
+- [HTML Living Standard 　 HTML 要素チートシート](https://htmlls.docs-share.com/)
 
 ## HTML 的四大基本結構
 

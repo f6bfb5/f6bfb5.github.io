@@ -5,6 +5,8 @@ summary:
 tags: F2E
 ---
 
+- [実質無料で使える Hosting Service の比較や使い分けの紹介 2021 (Firebase Hosting, Cloudflare Pages, Vercel, Netlify, GitHub Pages, Amplify, CloudRun)](https://blog.ojisan.io/hosting-battle-2021/)
+
 ## [Heroku](https://www.heroku.com/)
 
 ### 環境建置

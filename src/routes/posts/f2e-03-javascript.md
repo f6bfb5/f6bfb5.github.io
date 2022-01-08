@@ -5,21 +5,58 @@ summary:
 tags: F2E, JavaScript
 ---
 
-## ECMAScript
+## 總結
 
-- ECMAScript 的規格於 ECMA 的 TC39 裡制定
+### ECMAScript
+
+- JavaScript 起於 1995 年 Netscape 瀏覽器的部分功能，原名為 LiveScript，但因為行銷因素而改名為 JavaScript
+- 1996 年 Netscape 將 JavaScrip 交給 ECMA（歐洲電腦製造商協會）進行標準化，制定出新的語言標準，即為 ECMAScript
+- ECMA 旗下有許多負責制定標準的委員會，其中 TC39 便是負責 ECMAScript 的標準化
+  - 但通常標準制定之後，仍需一段時間才會實作至各瀏覽器上
   - [ECMA TC39](https://www.ecma-international.org/technical-committees/tc39/)
   - [GitHub organization](https://github.com/tc39)
 - [Node.js ES2015/ES6, ES2016 and ES2017 support](https://node.green/)
+- ES5、ES6、ES7 後面的數字為各個版本，ES2015、ES2016 則為該版本推出的時間
+  - ES6 於 2015 年推出，因此亦稱為 ES2015，同樣地 ES2016 係指 ES7，ES2017 係指 ES8
+  - ES6 起剛好每年推出一版，年號與版號正好相差 1，是個有些容易搞混的點
 
-## JavaScript
+### JavaScript
 
 - [JavaScript Primer](https://jsprimer.net/#javascript-primer)
 - [現代の JavaScript チュートリアル](https://ja.javascript.info/)
 - [語言技術：ECMAScript Essence](https://openhome.cc/Gossip/ECMAScript/index.html)
 - [從 ES6 開始的 JavaScript 學習生活](https://eyesofkids.gitbooks.io/javascript-start-from-es6/content/)
+- [JavaScript Promise の本](https://azu.github.io/promises-book/)
+- [モダン JavaScript チートシート | Modern JS Cheatsheet](https://mbeaudru.github.io/modern-js-cheatsheet/translations/ja-JP.html)
 
-## 現代 JS 的常見基礎技術
+### TypeScript
+
+- [TypeScript 新手指南](https://willh.gitbook.io/typescript-tutorial/)
+- [仕事ですぐに使える TypeScript](https://future-architect.github.io/typescript-guide/)
+- [TypeScript Deep Dive 日本語版について](https://typescript-jp.gitbook.io/deep-dive/)
+
+### Advanced
+
+- [重新認識 JavaScript 系列](https://ithelp.ithome.com.tw/users/20065504/ironman/1259)
+- [Learning Advanced JavaScript](https://johnresig.com/apps/learn/)
+- [克服 JS 的奇怪部份](https://chupainotebook.blogspot.com/search/label/%E5%85%8B%E6%9C%8D%20JS%20%E7%9A%84%E5%A5%87%E6%80%AA%E9%83%A8%E5%88%86)
+- [You Don't Know JS Yet: Get Started - 2nd Edition](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/ch1.md)
+- [Deep JavaScript](https://exploringjs.com/deep-js/toc.html)
+- [JavaScript 开发者应懂的 33 个概念](https://github.com/stephentian/33-js-concepts)
+- [無瑕的程式碼 JavaScript](https://github.com/AllJointTW/clean-code-javascript)
+- [DOM 的事件傳遞機制：捕獲與冒泡](https://blog.techbridge.cc/2017/07/15/javascript-event-propagation/)
+- [JS 原力覺醒 — Event Queue & Event Loop 、Event Table](https://medium.com/walkout/js-%E5%8E%9F%E5%8A%9B%E8%A6%BA%E9%86%92-day13-event-queue-event-loop-event-table-374fbbef3e40)
+- [覺得 JavaScript function 很有趣的我是不是很奇怪 - Huli](https://blog.huli.tw/2020/04/18/javascript-function-is-awesome/)
+- [深入現代前端開發](https://f2e.kalan.dev/)
+
+### Framework
+
+- [チュートリアル：React の導入 - React](https://ja.reactjs.org/tutorial/tutorial.html)
+- [React.js Examples](https://reactjsexample.com/)
+- [Vue.js](https://vue-new-docs-cn.netlify.app/)
+- [Svelte 中文文档](https://www.sveltejs.cn/)
+
+### 現代 JS 的常見基礎技術
 
 - [Node.js](https://nodejs.org/en/)
 - Package Manager
@@ -43,7 +80,7 @@ tags: F2E, JavaScript
   <br>├ Angular
   <br>└ Riot.js
 
-## 撰寫
+## 撰寫 JavaScript
 
 ### 變數
 
@@ -89,60 +126,32 @@ function setBackgroundColor()
 class Student{}
 ```
 
-## 型別
+### 資料型別
 
 程式語言裡常見的型別有「動態型別」與「靜態型別」，「靜態型別」語言的變數，於**編譯時**已經確定其型別，
 <br>JavaScript 所屬的動態型別，則是於**執行階段變數賦值後**才會擁有型別。
 
 Javascript 內建有七大型別：
 
-### `Null`（`null`）
+- `Null`（`null`）：值為空或不存在
+- `Undefined`（`undefined`）：初始值，或值未被定義
+- `Boolean`（`true`、`false`）：布林值
+- `Number`（整數 `1` 或浮點數 `3.14`）
+  - 能儲存根據 IEE 754-2008 標準所定義的，範圍於 `(2^53 -1)` 到 `2^53 -1` 之間的數字
+  - 另有三個符號值： `+Infinity` 、 `-Infinity` 、 `NaN` （Not a Number）
+  - 可以透過 `Number.MAX_VALUE` 或 `Number.MIN_VALUE` 兩個常數，以及在 ES6 新增的 `Number.isSafeInteger()` 、 `Number.MAX_SAFE_INTEGER` 、 `Number.MIN_SAFE_INTEGER` 來檢查數字是否位於標準範圍之內
+- `String`（`Hello World`）：文字，以單括號 `'` 或雙括號 `"` 包覆起來的字元
+- `Object`：資料或函式的組合＝ Property
+  - 可由 `{鍵 (Key) : 值 (Value)}` 或 `new Object()` 宣告
+  - 可以透過 `.Key` 或 `['Key']` 存取或操作 `Object` 裡的 property，刪除則需使用 `delete`
+  - 除了上述其中三種原始資料型別（ `Boolean` 、 `Number` 、 `String` ）也是 `Object` 之外，一些特殊的資料型別例如 `Array` 、 `Date` 、 `Function` 、 `RegExp` 也都屬於 `Object`
+- `Symbol`（於 ES6 新增）：此類型的值唯一且不可修改，通常用於做為 Object 的 Key 使用
+- `BigInt` （於 Chrome 67 新增）
+  - 可儲存超過 `Number` 範圍的值，於數值後面加上 `n` 或使用 `BigInt()` 函式轉型即可
+  - 例如 `const bigInt = 123456789012345678901234567890n;`
+  - `Number` 常見的運算子操作都可同樣套用於 `BigInt` 上，但 `BigInt` 類型的值不可與 `Number` 類型的值進行操作，會造成 `TypeError` 錯誤
 
-值為空或不存在
-
-### `Undefined`（`undefined`）
-
-值未被定義、初始值
-
-### `Boolean`（`true`、`false`）
-
-布林值
-
-### `Number`（整數 `1` 或浮點數 `3.14`）
-
-能儲存根據 IEE 754-2008 標準所定義的
-<br>範圍於 `(2^53 -1)` 到 `2^53 -1` 之間的數字
-<br>另外還有三個符號值： `+Infinity` 、 `-Infinity` 、 `NaN` （Not a Number）
-<br>可以透過 `Number.MAX_VALUE` 或 `Number.MIN_VALUE` 兩個常數
-<br>以及在 ES6 新增的 `Number.isSafeInteger()` 、 `Number.MAX_SAFE_INTEGER` 、 `Number.MIN_SAFE_INTEGER`
-<br>來檢查數字是否位於標準範圍之內
-
-### `String`（`Hello World`）
-
-文字，以單括號 `'` 或雙括號 `"` 包覆起來的字元
-
-### `Object`
-
-資料或函式的組合＝ Property
-<br>可由 `{鍵 (Key) : 值 (Value)}` 或 `new Object()` 宣告
-<br>可以透過 `.Key` 或 `['Key']` 存取或操作 `Object` 裡的 property，刪除則需使用 `delete`
-<br>除了上述其中三種原始資料型別（ `Boolean` 、 `Number` 、 `String` ）也是 `Object` 之外
-<br>一些特殊的資料型別例如 `Array` 、 `Date` 、 `Function` 、 `RegExp` 也都屬於 `Object`
-
-### `Symbol`（於 ES6 新增）
-
-此類型的值唯一且不可修改
-<br>通常用於做為 Object 的 Key 使用
-
-以及 `BigInt` （於 Chrome 67 新增）
-
-BigInt 則可儲存超過 `Number` 範圍的值
-<br>於數值後面加上 `n` 或使用 `BigInt()` 函式轉型即可
-<br>例如 `const bigInt = 123456789012345678901234567890n;`
-<br>`Number` 常見的運算子操作都可同樣套用於 `BigInt` 上
-<br>但 `BigInt` 類型的值不可與 `Number` 類型的值進行操作，會造成 `TypeError` 錯誤
-
-### `typeof` 運算子
+#### `typeof` 運算子
 
 `typeof` 是能檢視一個值型別的運算子。
 
@@ -509,7 +518,9 @@ axios
   });
 ```
 
-## ES6 加進的新功能
+## ES6 新增
+
+- [2016 年から 2019 年までの JavaScript の全て](https://qiita.com/rana_kualu/items/6bcc99226be741348c34)
 
 ### 1. Default Parameters
 
@@ -836,7 +847,7 @@ callback 預設的傳入參數為一陣列
 
 ## 進階
 
-### What's THIS in JavaScript ?
+### this
 
 - `this` 是 JavaScript 的一個關鍵字。
 - `this` 是 function 執行時，自動生成的一個內部物件。
@@ -964,29 +975,6 @@ function square(number) {
 
 - [Floating Point Math](https://0.30000000000000004.com/)
 
-### TypeScript
-
-- [TypeScript 新手指南](https://willh.gitbook.io/typescript-tutorial/)
-- [仕事ですぐに使える TypeScript](https://future-architect.github.io/typescript-guide/)
-
 ### API Mocking
 
 - [用 API mocking 讓前端不再苦苦等待](https://drive.google.com/file/d/1OOV55pClWtNBBM7StU7wepH39-UZb0lM/view)
-
-## 參考資料
-
-- [重新認識 JavaScript 系列](https://ithelp.ithome.com.tw/users/20065504/ironman/1259)
-- [Learning Advanced JavaScript](https://johnresig.com/apps/learn/)
-- [克服 JS 的奇怪部份](https://chupainotebook.blogspot.com/search/label/%E5%85%8B%E6%9C%8D%20JS%20%E7%9A%84%E5%A5%87%E6%80%AA%E9%83%A8%E5%88%86)
-- [You Don't Know JS Yet: Get Started - 2nd Edition](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/ch1.md)
-- [Deep JavaScript](https://exploringjs.com/deep-js/toc.html)
-- [JavaScript 开发者应懂的 33 个概念](https://github.com/stephentian/33-js-concepts)
-- [【翻訳】JavaScript 開発者が知るべき 33 のコンセプト リンク集 - Qiita](https://qiita.com/oimo23/items/b380a914867ec973039a)
-- [2016 年から 2019 年までの JavaScript の全て](https://qiita.com/rana_kualu/items/6bcc99226be741348c34)
-- [無瑕的程式碼 JavaScript](https://github.com/AllJointTW/clean-code-javascript)
-- [DOM 的事件傳遞機制：捕獲與冒泡](https://blog.techbridge.cc/2017/07/15/javascript-event-propagation/)
-- [JavaScript | 關於 Object ，一口氣全說完](https://medium.com/enjoy-life-enjoy-coding/javascript-%E9%97%9C%E6%96%BC-object-%E4%B8%80%E5%8F%A3%E6%B0%A3%E5%85%A8%E8%AA%AA%E5%AE%8C-4bb924bcc79f)
-- [JS 原力覺醒 — Event Queue & Event Loop 、Event Table](https://medium.com/walkout/js-%E5%8E%9F%E5%8A%9B%E8%A6%BA%E9%86%92-day13-event-queue-event-loop-event-table-374fbbef3e40)
-- [覺得 JavaScript function 很有趣的我是不是很奇怪 - Huli](https://blog.huli.tw/2020/04/18/javascript-function-is-awesome/)
-- [深入現代前端開發](https://f2e.kalan.dev/)
-- [JavaScript Promise の本](https://azu.github.io/promises-book/)
