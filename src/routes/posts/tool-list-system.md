@@ -211,6 +211,10 @@ outputfile.close()
 | [JaneXeno](http://janexeno.client.jp/janexenobeta.htm)           |                            | FREE |
 | [commenomi](http://air.fem.jp/commenomi/)                        | 可顯示流動式留言的透明視窗 | FREE |
 
+### chrome 插件
+
+- [Feedbro](https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa)
+
 ### 資安
 
 | 名稱                                                     | 說明                   | 付費 |
