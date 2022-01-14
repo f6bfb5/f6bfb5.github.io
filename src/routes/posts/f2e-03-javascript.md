@@ -228,13 +228,14 @@ flowchart TD
     TQT0 --當 Call Stack 工作全部結束後才丟上去--> CallStack=執行中
 ```
 
-而關於 `event loop` 的詳細講解，最多人推薦的就是由 Phillip Robert 在 JSConf 上解說的這支影片了。
+而關於 `event loop` 的詳細講解，最多人推薦的便是由 Phillip Robert 在 JSConf 上解說的這支影片。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8aGhZQkoFbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - [JavaScript 中的同步與非同步（上）：先成為 callback 大師吧！](https://blog.techbridge.cc/2019/10/05/javascript-async-sync-and-callback/)
 - [無痛理解 JS | 非同步怎麼運作？｜專欄文章｜五倍紅寶石](https://5xruby.tw/posts/how-js-synchronous-works/)
 - [\[筆記\] 理解 JavaScript 中的事件循環、堆疊、佇列和併發模式（Learn event loop, stack, queue, and concurrency mode of JavaScript in depth） ~ PJCHENder&lt;br>那些沒告訴你的小細節](https://pjchender.blogspot.com/2017/08/javascript-learn-event-loop-stack-queue.html)
+- [透過程式範例，熟悉 JS 執行流程的關鍵：Event Loop](https://www.programfarmer.com/articles/javaScript/javascript-browser-event-loop)
 
 ### Callback
 

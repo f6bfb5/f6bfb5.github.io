@@ -47,6 +47,8 @@ table td:nth-child(3) {
   監測系統狀況
 - [RunCat](https://github.com/Kyome22/RunCat_for_windows)
 - [Geek Uninstaller](https://geekuninstaller.com/)
+- [Hayabusa](https://itib.hatenablog.com/entry/2021/12/31/222946)
+  快速檢測 Windows 事件
 
 ### 檔案
 
@@ -214,6 +216,7 @@ outputfile.close()
 ### chrome 插件
 
 - [Feedbro](https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa)
+- [公開 RSS 配信一覧 - ニコニコ動画](https://www.nicovideo.jp/rss)
 
 ### 資安
 

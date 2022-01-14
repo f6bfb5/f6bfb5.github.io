@@ -334,13 +334,3 @@ Myrica 為以 Inconsolata、源真ゴシック以及 Mgen+ 所組合而成的字
 
 - [フォントの館](https://www.ne.jp/asahi/krk/kct/font/index.htm)
 - [FREE JAPANESE FONTS](https://www.freejapanesefont.com/)
-
-## ???
-
-- [2020 年 Vtuber Live2D 個人的総評｜ rariemonn](https://note.com/rariemonn/n/naee430e613f6)
-- [VMagicMirror](https://malaybaku.github.io/VMagicMirror/en/index)
-- [VtubeReflect by Oose](https://oose.itch.io/vtubereflect)
-- [簡易動態捕捉實況工具](https://www.notion.so/yankmw/dc869393118a467d873af62b3763e730)
-- [Neuron Pro で VRM モデルを動かし Unity 上で Vive コントローラーから表情を付けるワンオペ VTuber](https://qiita.com/akasakamasaka/items/9d341b19d42bf26c97b7)
-- [フルボディトラッキングのための機材比較](https://qiita.com/Santarh/items/de41ca5662f7e3520091)
-- [3D モデリングソフト「Blender」で VTuber 級モデルを作る！知識ゼロでもイケるポイントは？](https://forest.watch.impress.co.jp/docs/topic/special/1332950.html)
