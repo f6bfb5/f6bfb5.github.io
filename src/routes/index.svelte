@@ -132,6 +132,7 @@
   ul li a {
     margin-left: 8px;
     letter-spacing: 0.52px;
+    font-size: 1.125em;
   }
   ul li span {
     margin-left: 0.25rem;
