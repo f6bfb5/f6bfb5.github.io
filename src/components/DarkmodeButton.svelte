@@ -43,5 +43,6 @@
     --subtext-color: #282828;
     --link-color: #9f1212;
     --link-hover-color: #be1515;
+    --strong-color: #3fff00;
   }
 </style>
