@@ -9,16 +9,19 @@ tags: F2E, JavaScript
 
 ### ECMAScript
 
-- JavaScript 起於 1995 年 Netscape 瀏覽器的部分功能，原名為 LiveScript，但因為行銷因素而改名為 JavaScript
-- 1996 年 Netscape 將 JavaScrip 交給 ECMA（歐洲電腦製造商協會）進行標準化，制定出新的語言標準，即為 ECMAScript
-- ECMA 旗下有許多負責制定標準的委員會，其中 TC39 便是負責 ECMAScript 的標準化
-  - 但通常標準制定之後，仍需一段時間才會實作至各瀏覽器上
+- JavaScript 起於 1995 年 Netscape 與 Sun 為了打擊微軟，聯手欲將 Java 加進 Netscape 瀏覽器中，因此所設計的輔助語言，但除了 Java 外也參考了 Scheme、Self、C、Python 等語言
+  - 但最後 JavaScript 成為了一門獨立、跨平台且不需要 Java 的語言
+  - [從歷史開始認識 JavaScript - Huli](https://blog.huli.tw/2022/01/15/js-history/)
+  - [語言誕生 · JavaScript 二十年](https://cn.history.js.org/part-1.html)
+- 1996 年 Netscape 將 JavaScript 交給 ECMA（歐洲電腦製造商協會）進行標準化，制定出新的語言標準，並因為商標法等大人的原因，將此標準命名為 ECMAScript
+- ECMA 旗下有許多負責制定標準的技術委員會（Technical Committees），其中 TC39 便是負責 ECMAScript 的標準化
+  - 委員會成員會依照所期望的方向推動規範討論，也有參照已實作於各個瀏覽器上的功能，並統整回規範之中
   - [ECMA TC39](https://www.ecma-international.org/technical-committees/tc39/)
   - [GitHub organization](https://github.com/tc39)
 - [Node.js ES2015/ES6, ES2016 and ES2017 support](https://node.green/)
 - ES5、ES6、ES7 後面的數字為各個版本，ES2015、ES2016 則為該版本推出的時間
   - ES6 於 2015 年推出，因此亦稱為 ES2015，同樣地 ES2016 係指 ES7，ES2017 係指 ES8
-  - ES6 起剛好每年推出一版，年號與版號正好相差 1，是個有些容易搞混的點
+  - ES6 起為了因應瀏覽器的快速變化，因而每年都推出新的一版
 
 ### JavaScript
 
