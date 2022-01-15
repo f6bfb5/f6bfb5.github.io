@@ -16,6 +16,7 @@
   --subtext-color: #ffff89;
   --link-color: #3fff00;
   --link-hover-color: #faff00;
+  --strong-color: #9f1212;
 }
 
 body {
@@ -117,6 +118,10 @@ p a {
 p a:hover {
   box-shadow: inset 0 -1.5em 0 var(--link-hover-color);
   color: var(--bg-color);
+}
+
+strong {
+  background: linear-gradient(to bottom,  transparent 0%,transparent 50%,var(--strong-color) 50%,var(--strong-color) 100%);
 }
 
 img {
