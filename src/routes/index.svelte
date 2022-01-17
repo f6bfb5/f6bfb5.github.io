@@ -120,6 +120,7 @@
   }
   ul li {
     list-style-type: "◼";
+    color: var(--title-color);
   }
   ul li::marker {
     content: "◼";
@@ -137,5 +138,6 @@
   ul li span {
     margin-left: 0.25rem;
     font-size: 0.75rem;
+    color: var(--text-color);
   }
 </style>
