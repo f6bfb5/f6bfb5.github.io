@@ -1,6 +1,7 @@
 ---
 title: "鄧寧-克魯格效應的諷刺之處"
 date: 2022-01-08T13:31:48.000Z
+tags: Translate
 ---
 
 <iframe id="video" title="The Irony of the Dunning-Kruger Effect" src="https://www.youtube.com/embed/kcfRe15I47I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
