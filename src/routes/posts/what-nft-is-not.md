@@ -67,7 +67,7 @@ ul li ul {
 - 人們對於區塊鍊的支持並非因其功能上有所突破
   - 分散式帳本起初已是來自**政治性動機**的選擇
   - 必須先釐清現今的討論，已將**對其非功能需求部分的支持**（去中央集權性、持續性、匿名性…），以及從投機性資金導致的**對利益的期待**混為一談
-  - 尤其虛擬貨幣的高漲是起於某國富裕階級的資本外逃這點頗具象徵性
+  - 尤其虛擬貨幣的高漲起於某國富裕階級的資本外逃這點頗具象徵性
 
 ## 智慧合約與 NFT
 
@@ -134,6 +134,8 @@ Cypherpunk 運動的創立者之一的 Eric Hughes 曾在 [Cypherpunk 宣言](ht
 
 ## 相關文章
 
+- [比特幣：一種點對點的電子現金系統 - Satoshi Nakamoto](http://satoshinakamoto.me/zh-tw/bitcoin.pdf)
+- [サトシナカモトの原論文](https://bitcoin.org/files/bitcoin-paper/bitcoin_jp.pdf)
 - [「NFT とは何ではないか」の後に調べたこと](https://togetter.com/li/1823914)
 - [ブロックチェーン：膨張する看板に偽りはないか - 誠実なプロセスの必要性](https://shanematsuo.medium.com/%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3-%E8%86%A8%E5%BC%B5%E3%81%99%E3%82%8B%E7%9C%8B%E6%9D%BF%E3%81%AB%E5%81%BD%E3%82%8A%E3%81%AF%E3%81%AA%E3%81%84%E3%81%8B-%E8%AA%A0%E5%AE%9F%E3%81%AA%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E3%81%AE%E5%BF%85%E8%A6%81%E6%80%A7-fe9f5d38eb37)
 - [新しいアートのフォーマット ― ハイブリッド・エディション，ブロックチェーン（NFT）と物理世界](https://goh.works/ja/post/10299/)
