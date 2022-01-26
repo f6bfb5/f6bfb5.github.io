@@ -56,12 +56,13 @@ table td:nth-child(3) {
 
 ### 特效
 
-| 名稱                                        | 說明                                  | 付費     |
-| ------------------------------------------- | ------------------------------------- | -------- |
-| [Delir](https://delir.studio/)              | 開源的影片特效後製軟體                | FREE     |
-| [NATRON](https://natrongithub.github.io/)   | 注重於 Motion Graphics 的影片特效軟體 | FREE     |
-| [Cavalry](https://cavalry.scenegroup.co/)   | 類似 AfterEffects 的 影片特效軟體     | 具付費版 |
-| [AnimeEffects](http://animeeffects.org/ja/) | 可以處理圖片自由變型的後製軟體        | FREE     |
+| 名稱                                                  | 說明                                  | 付費     |
+| ----------------------------------------------------- | ------------------------------------- | -------- |
+| [Delir](https://delir.studio/)                        | 開源的影片特效後製軟體                | FREE     |
+| [NATRON](https://natrongithub.github.io/)             | 注重於 Motion Graphics 的影片特效軟體 | FREE     |
+| [HitFilm](https://fxhome.com/product/hitfilm-express) |                                       | FREE     |
+| [Cavalry](https://cavalry.scenegroup.co/)             | 類似 AfterEffects 的 影片特效軟體     | 具付費版 |
+| [AnimeEffects](http://animeeffects.org/ja/)           | 可以處理圖片自由變型的後製軟體        | FREE     |
 
 ### 輔助
 
