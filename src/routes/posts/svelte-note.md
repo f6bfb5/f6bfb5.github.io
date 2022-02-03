@@ -7,9 +7,9 @@ tags: F2E, JavaScript
 
 ## What is Svelte？
 
-- Svelte 是套秉持「Write less code」的精神，為了建構 UI 而生的 **JavaScript 編譯器**
-- 不同於 Vue 和 React 這類框架是在瀏覽器上執行處理，Svelte 是先在編譯階段就完成建構
-- Svelte 不採用 Virtual DOM diff，而是用原生 JS 直接修改 DOM
+- Svelte 是套秉持「Write less code」精神，為了建構 UI 而生的 **JavaScript 編譯器**
+- 不同於 Vue 和 React 等框架在瀏覽器上執行處理，Svelte 先在編譯階段就完成建構
+- Svelte 不採用 Virtual DOM diff，使用原生 JS 直接修改 DOM
 - 擁有相對優秀的執行速度與檔案大小表現
 
 ## 安裝
@@ -41,8 +41,9 @@ npm run dev
 
 - svelte 與其它框架相同，使用獨有的 `.svelte` 副檔名撰寫
 - 每個檔案為獨立的 component，包含 Javascript、CSS 和 HTML
-  <br>│ 和 HTML 一樣，JS 和 CSS 分別寫在 `<script></script>`、`<style></style>` 標籤裡
-  <br>└ HTML 元素直接撰寫於下方
+  - 架構和傳統 HTML 相去不大
+  - JS 和 CSS 分別寫在 `<script></script>`、`<style></style>` 標籤裡
+  - HTML 元素直接撰寫於其下方
 
 ```html
 <script>
@@ -57,14 +58,14 @@ npm run dev
 ```
 
 - 變數可直接於 `<script>` 中常規宣告，並使用 `{}` 代入／顯示變數
-  <br>└ 於屬性的雙括號中亦可使用：`<p class="primary-{bar}">Some text</p>`
+  - 亦可使用於 attribute 的雙括號中：`<p class="primary-{bar}">Some text</p>`
 - 與屬性同名的變數
-  <br>│ 如 `<img src={src} alt="A man dances.">`
-  <br>└ 可省略成 `<img {src} alt="A man dances.">`
-- 匯入 component 亦同樣於 `<script>` 中直接引入即可使用
-  <br>└ `import Nested from './Nested.svelte';`
+  - 如 `<img src={src} alt="A man dances.">`
+  - 可省略成 `<img {src} alt="A man dances.">`
+- 匯入 component 亦同樣於 `<script>` 中引入即可使用
+  - `import Nested from './Nested.svelte';`
 - CSS 樣式作用域僅該 component
-  <br>└ svelte 會自動用 hash 命名，因此不用擔心命名衝突
+  - svelte 會自動用 hash 命名，因此不必擔心命名衝突
 
 ```js
 import App from "./App.svelte";
@@ -81,30 +82,42 @@ const app = new App({
 ```
 
 - svelte 可使用 `@html` 從 JS 中傳入 HTML 內容進行渲染
-  <br>├ ex. `<p>{@html string}</p>`
-  <br>│ 但 svelte 並沒有進行任何過濾處理，會有 XSS 攻擊的風險
-  <br>└ 需確保此內容來自可信任的來源
+  - e.g. `<p>{@html string}</p>`
+  - 但 svelte 沒有進行任何過濾處理，會有 XSS 攻擊的風險 d
+    <br>需確保此內容來自可信任的來源
 
 ### Reactivity
 
 - 「Reactivity」意指指派值時會觸發的相關行為，類似 Vue 的 `computed`
 - svelte 以 `$:` 宣告 reactivity 內容
-  <br>├ component 的狀態改變時，會自動更新 `$:` 後面的行為內容到 DOM 上
-  <br>│ ex. `$: doubled = count * 2;`
-  <br>│ 以 `$:` 宣告的變數不需再加上 `let` 之類的宣告
-  <br>├ `$:` 裡的行為亦可使用如 `console.log()` 之類的函式監看數值變化
-  <br>│ 但 reactivity 只會於賦值時觸發
-  <br>│ 如 Array 的 `push` 和 `splice` 並不會觸發更新
-  <br>│ 因此 `push` 要改寫成 `numbers = [...numbers, numbers.length + 1];`
-  <br>└ 並且賦值變數（等號左邊的變數）必須為 `$:` 宣告的更新變數
-  ```js
-  $: obj;
-  // 若是二段式的賦值，並不會觸發更新
-  const foo = obj.foo;
-  foo.bar = "baz";
-  // 除非在最後加上 obj=obj
-  obj = obj;
-  ```
+- component 的狀態改變時，會自動更新 `$:` 後面的行為內容到 DOM 上
+  <br>e.g. `$: doubled = count * 2;`
+  - 以 `$:` 宣告的變數不需再加上 `let` 等宣告
+- `$:` 裡的行為亦可使用如 `console.log()` 等函式監看數值變化
+- reactivity 只會於賦值時觸發
+  - 如 Array 的 `push` 和 `splice` 不會觸發更新
+    <br>因此 `push` 要改寫成 `numbers = [...numbers, numbers.length + 1];`
+    <br>並且賦值變數（等號左邊的變數）必須為 `$:` 宣告的更新變數
+
+```js
+$: obj;
+// 若是二段式的賦值，並不會觸發更新
+const foo = obj.foo;
+foo.bar = "baz";
+// 除非在最後加上 obj=obj
+obj = obj;
+```
+
+- 想於 Reactivity 裡進行多段處裡時，加上 `{}` 即可
+
+```javascript
+let length = "5";
+let lengthNum;
+$: {
+  lengthNum = parseInt(length);
+  console.log(lengthNum);
+}
+```
 
 #### Reactivity 搭配非同步處理
 
@@ -157,20 +170,20 @@ const download_count = derived(
 ### Props（屬性傳遞）
 
 - 想使用 props 傳入值時，需於 component 中的變數前加上 `export`
-  <br>│ ex. `export let answer;`
-  <br>├ 此為 svelte 用法，與 Javascript 中的 `export` 用法不同
-  <br>└ 亦可於宣告時指定預設值`export let answer = 'a mystery';`
+  - e.g. `export let answer;`
+    <br>※此為 svelte 用法，與 Javascript 中的 `export` 用法不同
+  - 亦可於宣告時指定預設值`export let answer = 'a mystery';`
 - 就可將值傳入 component 中：`<Nested answer={answer}>`
 - 亦可使用 `{...pkg}` 將物件傳進 component 的 props 內
-  <br>└ ex. `<Info {...pkg}/>`
+  - e.g. `<Info {...pkg}/>`
 
-### 邏輯判斷
+### 區塊功能
 
 #### 分歧
 
 - svelte 提供了各種區塊語法，分歧區塊可依條件決定是否要 render 內容
-  <br>│ 各區塊皆以 `#` 開頭，以 `/` 結尾，以 `:` 連接
-  <br>└ `{#if condition}` 開頭，`{/if}` 結尾
+- 各區塊皆以 `#` 開頭，以 `/` 結尾，以 `:` 連接
+  - e.g. `{#if condition}` 開頭，`{/if}` 結尾
 
 ```
 {#if x > 10}
@@ -185,10 +198,10 @@ const download_count = derived(
 #### 遞迴
 
 - 遞迴區塊可以遞迴陣列或 array-like 型態的資料
-  <br>│ `{#each 變數 as 區域變數, index}` 開頭，`{/each}` 結尾
-  <br>└ 其中可使用如 `{區域變數.值}` 顯示內容
+  - `{#each 變數 as 區域變數, index}` 開頭，`{/each}` 結尾
+  - 其中可使用如 `{區域變數.值}` 顯示內容
 - 也可先解構內容後再顯示
-  <br>└ `{#each 變數 as { 值1, 值2 }} ... {/each}`
+  - `{#each 變數 as { 值1, 值2 }} ... {/each}`
 - 替 item 加上 key：`{#each things as thing (thing.id)}`
 
 #### 非同步處理
@@ -211,16 +224,16 @@ const download_count = derived(
 ### 事件綁定
 
 - bind event：`<div on:mousemove={handleMousemove}></div>`
-  <br>└ 也可使用 inline 寫法：`<div on:click={() => console.log("clicked");}></div>`
+  - 也可使用 inline 寫法：`<div on:click={() => console.log("clicked");}></div>`
 - svelte 也實作了自動註冊和銷毀事件的處理，省去撰寫的麻煩
 - bind event 亦可使用修飾子，以 `|` 加在 even 的後方：
-  <br>├ `<div on:click|preventDefault={handleClick}>`
-  <br>│ `preventDefault`
-  <br>│ `stopPropagation`
-  <br>│ `passive`
-  <br>│ `capture`
-  <br>│ `once`
-  <br>└ `self`
+  - `<div on:click|preventDefault={handleClick}>`
+  - `preventDefault`
+  - `stopPropagation`
+  - `passive`
+  - `capture`
+  - `once`
+  - `self`
 
 #### Event dispatcher
 
@@ -260,18 +273,21 @@ const download_count = derived(
 
 ### 資料綁定
 
-- bind data (`v-model`)：
-  <br>├ `<input bind:value={name}>`
-  <br>│ 將值同步更新回變數，或將值反應到 `input` 上
-  <br>├ 也可以用來套用 DOM 屬性
-  <br>│ 例如 `<input type="checkbox" bind:checked={isChecked} />`
-  <br>└ 或是 `<input type="radio" bind:group={selected} vale={1} />`
+- bind data（`v-model`）
+  - `<input bind:value={name}>`
+  - 會將值同步更新回變數，或將值反應到 `input` 上
+  - 也可以用來套用 DOM 屬性
+    - 例如：`<input type="checkbox" bind:checked={isChecked} />`
+    - 或是：`<input type="radio" bind:group={selected} vale={1} />`
 - bind DOM 元素
-  <br>└ `<input type="text" bind:this="{inputNode}" />`
-- bind class：當陳述為 true 時才綁定該 class
-  <br>├ `class:active={active}`
-  <br>│ 當 class 與變數同名時，可以省略掉後方的括弧：`class:active`
-  <br>└ 亦可於括號中撰寫陳述式，例如：`class:active={status == 'playing'}`
+  - `<input type="text" bind:this="{inputNode}" />`
+- bind class
+
+  - `class:active={active}`
+  - 當陳述為 true 時才綁定該 class
+    - 當 class 與變數同名時，可以省略掉後方的括弧：`class:active`
+    - 亦可於括號中撰寫陳述式
+      <br/>例如：`class:active={status == 'playing'}`
 
   ```html
   <script>
@@ -298,12 +314,12 @@ const download_count = derived(
 - 元件更新：`beforeUpdate` -> `afterUpdate`
 - 元件銷毀：`onDestroy`
 - `onMount`：在 Svelte 元件掛載時呼叫
-  <br>│ SSR 模式不會呼叫
-  <br>└ 回傳函式則會在 unmount／銷毀時呼叫
+  - SSR 模式不會呼叫
+  - 回傳函式則會在 unmount／銷毀時呼叫
 - `beforeUpdate`：狀態更新後、元件更新前執行
-  <br>├ 會在 `onMount` 之前執行
-  <br>│ 因此如 `bind` 之類於 `onMount` 階段執行的處理就會報錯
-  <br>└ 以及這時狀態資料可能會更新，但還沒反應到 DOM 上
+  - 會在 `onMount` 之前執行
+    - 因此如 `bind` 之類於 `onMount` 階段執行的處理就會報錯
+    - 以及這時狀態資料可能會更新，但還沒反應到 DOM 上
 - `afterUpdate`：狀態更新後、元件更新後執行
 - `onDestroy`：元件銷毀時執行
 
@@ -318,7 +334,8 @@ onMount(() => {
 
 - 統一保存資料管理狀態
 - Store 用於資料經常變動，並且需要跨元件使用時
-- Svelte 提供了 3 個 function，設定資料的可存取範圍，分別為 `readable()`、`writable()`、`derived()`
+- Svelte 提供了 3 個 function，設定資料的可存取範圍，
+  <br/>分別為 `readable()`、`writable()`、`derived()`
 - 將想存於 store 的值以此 function 宣告即可，例如 `const count = writable(0);`
 - 以及 1 個 `subscribe()` 方法，用以處理元件的生命週期問題
 
@@ -448,7 +465,7 @@ export const count = writable(0);
 ### [Context](https://svelte.dev/docs#setContext)
 
 - Context 用於資料幾乎不會變動或跨元件溝通時
-- 沒有 reactive 效果（ex. subscribe, unsubscribe）
+- 沒有 reactive 效果（e.g. subscribe, unsubscribe）
 - 需要在 svelte 元件中使用才有效果
 - 只作用在 svelte 的元件樹中
 - svelte 會去尋找距離元件最近的 context
@@ -487,7 +504,7 @@ svelte 提供了「motion」機制處理數值動態的呈現
 
 #### Tweened
 
-例如以下這個例子
+例如下例：
 
 ```html
 <script>
@@ -517,7 +534,7 @@ svelte 提供了「motion」機制處理數值動態的呈現
 ```
 
 修改進度條的數值後，進度條會馬上跳到指定的進度
-<br>如果改為使用 motion 裡的 `Tweened` 取代 `writable`
+<br>如果改為使用 motion 裡的 `Tweened` 取代 `writable`：
 
 ```html
 <script>
@@ -532,20 +549,20 @@ svelte 提供了「motion」機制處理數值動態的呈現
 ...
 ```
 
-進度條的值變更後，就會有中間進行變化的過程了
+進度條的值變更後，就會有中間進度變化的過程了
 
 - `Tweened` 可以使用 `duration` 與 `easing` 定義兩個數值之間的變化
 - 介面和 writable store 相同，具有 `subscribe`、`set`、`update` 等方法
 - 使用簡記：
 
-  ```html
-  <script>
-    import { tweened } from "svelte/motion";
-    const value = tweened(10, { duration: 3000 });
-  </script>
+```html
+<script>
+  import { tweened } from "svelte/motion";
+  const value = tweened(10, { duration: 3000 });
+</script>
 
-  {$value}
-  ```
+{$value}
+```
 
 ```html
 <script>
@@ -622,10 +639,11 @@ motion 還有 `Spring` 可以使用 `stiffness`（剛性）和 `damping`（摩�
 #### transition 設定
 
 - 這些轉場函式有兩個通用參數：
-  <br>├ `delay`：延遲多久開始 transition
-  <br>└ `duration`：transition 持續多久
+  - `delay`：延遲多久開始 transition
+  - `duration`：transition 持續多久
 - 各個動畫亦有獨自參數可以設定
-  <br>└ ex. `<h1 in:fade out:fly={{ x: 0, y: 50 }}>I'm Transition!</h1>`
+
+  - e.g. `<h1 in:fade out:fly={{ x: 0, y: 50 }}>I'm Transition!</h1>`
 
   ```html
   <script>
@@ -640,7 +658,7 @@ motion 還有 `Spring` 可以使用 `stiffness`（剛性）和 `damping`（摩�
 
 #### easing function 緩動函數
 
-替移動加上緩急，讓動靜看起來更真實且活潑
+替移動加上緩急，讓動靜看起來更真實且活潑：
 
 ```html
 <script>
@@ -1019,6 +1037,7 @@ npm run dev
 
 - [Docs • Sapper](https://sapper.svelte.dev/docs/)
 - [Svelte cheatsheet](https://gist.github.com/peltho/ad6e051b854cd3095f9e7f9d9c550a84)
+- [Cheat Sheet - Svelte Society](https://sveltesociety.dev/cheatsheet/)
 - [Svelte チュートリアルやってみた - Qiita](https://qiita.com/irico/items/3875c7ee6423cdf09392)
 - [Svelte で Web サイトを作ってみて感じた魅力 - Qiita](https://qiita.com/nishinoshake/items/46a64591c6411af68af1#svelte)
 - [Svelte のドキュメントを翻訳してみた - Qiita](https://qiita.com/myLifeAsaDog/items/5d3036201f37a98e685d)
