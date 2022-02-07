@@ -50,7 +50,7 @@ p {
 
 code {
   font-family: consolas, menlo, inconsolata, monospace;
-  font-size: calc(1em - 2px);
+  /* font-size: calc(1em - 2px); */
   color: #555;
 }
 

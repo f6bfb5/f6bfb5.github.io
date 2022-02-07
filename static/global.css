@@ -83,6 +83,7 @@ li p {
 
 ul li ul {
   color: var(--subtext-color);
+  list-style-type: square;
 }
 
 a {
