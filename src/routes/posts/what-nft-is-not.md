@@ -29,7 +29,7 @@ ul li ul {
 
 本文只擷取了文字條目的部分，原始投影片有輔於實例資料與圖解參考，建議搭配服用能更進一步理解。
 
-中間也有介紹了目前 NFT 帶來的轉機與危機，這部分目前大家應該都已相當熟悉，就先行略過；另外也有提及比特幣相關文化的源流、運動與類似的技術，有興趣的人可以參考 [Cypherpunk](https://en.wikipedia.org/wiki/Cypherpunk) 與 [e-timing](https://www.e-timing.ne.jp/)。
+中間也有介紹了目前 NFT 帶來的轉機與危機，這部分目前大家應該都已相當熟悉，就先行略過；另外也有提及比特幣相關文化的源流、運動與類似的技術，有興趣的人可以參考 <ruby>[密碼龐克](https://en.wikipedia.org/wiki/Cypherpunk)<rp>(</rp><rt>Cypherpunk</rt><rp>)</rp></ruby> 與 [e-timing](https://www.e-timing.ne.jp/)。
 
 以下正文。
 
@@ -37,7 +37,9 @@ ul li ul {
 
 - 「**加密資產**」是可以不經由銀行進行交易的分散式電子通貨
 - 「**區塊鍊**」是構成加密資產的分散式帳本機制，由所有人共同記帳
-  - 成立於礦工解出極困難的數學題，以檢驗交易內容（Proof-of-Work）
+  - 成立於礦工解出極困難的數學題，以檢驗交易內容，
+    <br/>即所謂的 Proof-of-Work
+    - [But how does bitcoin actually work?](https://youtu.be/bBC-nXj3Ng4?t=703)
   - 藉此避免有人竄改帳本，且礦工可以從檢驗獲得報酬
 
 ## 為什麼需要區塊鍊
@@ -52,6 +54,7 @@ ul li ul {
   - **權力下放**（decentralization）：不受特定國家或企業支配
   - **持續營運**（continuity）：某一主體無法繼續提供服務後能有承接者
   - **匿名使用**（anonymity）：將個人與交易紀錄分離
+  - （譯註：雷曼兄弟事件發生於 2008/09/15，比特幣論文發表於 2008/10/31，中本聰實作出比特幣應用後，在<ruby>首個區塊<rp>(</rp><rt>Genesis Block</rt><rp>)</rp></ruby>內引用了泰晤士報 2009/01/03 大標：「<ruby>財政大臣第二次對處於崩潰邊緣的銀行採取緊急救助<rp>(</rp><rt>Chancellor on brink of second bailout for banks</rt><rp>)</rp></ruby>」）
 - 為了防止權力下放的方式導致重複支付，需要使用**加密技術**
   - 加密技術的角色不只是為了保密資訊，也包含防止竄改資訊
 - 「Timestamp」是比特幣的起源想法之一
@@ -90,7 +93,7 @@ ul li ul {
   - ※ 雖然能將作品資料放進 NFT 上鍊，手續費亦會隨資料量增加大幅提高
 - 常見的誤解：取得 NFT 仍不代表擁有該作品
   - 現行民法下，購買 NFT **不會獲得作品的所有權或著作權**
-    - 此投影片為日本情況，台灣可參考[瑩真律師的影片](https://www.youtube.com/watch?v=L_YL-LYfN7g&t=348s)
+    - （譯註：此投影片為日本情況，台灣可參考[瑩真律師的影片](https://www.youtube.com/watch?v=L_YL-LYfN7g&t=348s)）
   - 交易的只有「NFT」自身
   - 且大前提下，數位資料是**無體物**，數位資料**不屬於法律上所有權的對象**
   - 必須等待「NFT 法」制定，或另行明確簽訂 NFT 交易之外的契約
@@ -127,7 +130,7 @@ ul li ul {
 
 從其技術性的本質來看，將 NFT 視為「參與服務或體驗的權利」而非「擁有資產或作品的權利」會是比較好的觀點。
 
-Cypherpunk 運動的創立者之一的 Eric Hughes 曾在 [Cypherpunk 宣言](https://zenn.dev/takahashim/articles/e534fb15b3271198f957)（[A Cypherpunk's Manifesto](https://www.activism.net/cypherpunk/manifesto.html)）裡如此說道：
+密碼龐克運動的創立者之一 Eric Hughes 曾在 [密碼龐克宣言](https://zenn.dev/takahashim/articles/e534fb15b3271198f957)（[A Cypherpunk's Manifesto](https://www.activism.net/cypherpunk/manifesto.html)）裡說道：
 
 > Cypherpunks 撰寫程式碼。我們很清楚，必須要有人寫程式來捍衛隱私，（中略）即使沒人認同我們寫的程式也沒關係。因為我們深有體悟，軟體不會消滅，廣域分散式的系統無法阻止。
 
@@ -135,13 +138,13 @@ Cypherpunk 運動的創立者之一的 Eric Hughes 曾在 [Cypherpunk 宣言](ht
 
 ## 相關文章
 
-- [比特幣：一種點對點的電子現金系統 - Satoshi Nakamoto](http://satoshinakamoto.me/zh-tw/bitcoin.pdf)
+- [比特幣：一種點對點的電子現金系統](http://satoshinakamoto.me/zh-tw/bitcoin.pdf)
   - 中本聰的原始論文，中譯版
   - 內容不長且不算困難，需時 30 分鐘左右即可看完
 - [サトシナカモトの原論文](https://bitcoin.org/files/bitcoin-paper/bitcoin_jp.pdf)
   - 中本聰的原始論文，日譯版
-- [ソフトウェアエンジニアなら 3 秒で理解できる NFT 入門 - Okapies' Archive](https://okapies.hateblo.jp/entry/2022/01/30/193604)
-  - 強烈推薦此文，直接從如 EIP-20（Ethereum Improvement Proposals，乙太坊改進提案，即社群試圖提出的實作修改方案）標準化後的 ERC-20（Ethereum Request for Comments，乙太坊徵求評論，即實作時應遵循的標準與討論）或 EIP-721（NFT 底下的智慧合約）的原始碼進一步做拆解，以及如 OpenSea 獨立制定的元資料內容為何
+- [ソフトウェアエンジニアなら 3 秒で理解できる NFT 入門](https://okapies.hateblo.jp/entry/2022/01/30/193604)
+  - 強烈推薦此文，直接從如 EIP-20（<ruby>乙太坊改進提案<rp>(</rp><rt>Ethereum Improvement Proposals</rt><rp>)</rp></ruby>，即社群試圖提出的實作修改方案）及標準化後的 ERC-20（<ruby>乙太坊徵求評論<rp>(</rp><rt>Ethereum Request for Comments</rt><rp>)</rp></ruby>，即實作時應遵循的標準與討論）或 EIP-721（建構 NFT 的智慧合約）的原始碼進一步做拆解，以及如 OpenSea 獨立制定的元資料內容為何
   - 也探討到 CryptoPunks 因為稀有屬性產出的價值，實質上更近似集換式卡牌，是由上頭的角色人氣或發行數量（所謂的稀有卡）而決定，而非作品本身的美術價值或文化脈絡
 - [「NFT とは何ではないか」の後に調べたこと](https://togetter.com/li/1823914)
   - 本文投影片作者之後的相關討論與補充資料

@@ -146,3 +146,8 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [Play by Mail 文化のアーカイブ保存に関するセッションをレポート。ネット上に記録されていない，30 年前の資料を集める課題とは](https://www.4gamer.net/games/999/G999905/20220126131/)
 - [最高裁で逆転無罪の確率は 0.02％── 針の穴を通した Coinhive 裁判　覆った"従来の法解釈"](https://www.itmedia.co.jp/news/articles/2202/02/news059.html)
 - [消費型 Vtuber 商売、とてもこわい](https://note.com/ringo_0_0_5/n/n546ed0e8b0aa)
+- [20 年ぶりに「遊戯王」復帰したら別のゲームになってて絶望した - kansou](https://www.kansou-blog.jp/entry/2022/02/02/173806)
+- [ゆっくり解説動画で人生変わった](https://anond.hatelabo.jp/20220202204807)
+- [元 JAXA マンの『プラネテス』批判が本当に言いたかったこと](https://note.com/meisounote/n/n4488db81ba51)
+- [秀逸なエロゲーのキャッチコピー 80 選](https://note.com/nyalra2/n/n8089622d776f)
+- [石原慎太郎さんが遺言状に記した後始末「葬式不要、戒名不要。我が骨は必ず海に散らせ」](https://www.tokyo-sports.co.jp/entame/news/3967826/)

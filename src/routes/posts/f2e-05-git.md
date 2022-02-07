@@ -84,6 +84,7 @@ tags: F2E, Git
     <br/>新增遠端 repo
     <br/>e.g. `git remote add origin http://github.com/f6bfb5/Sample.git`
   - `origin`、`upstream` 為常見的遠端數據庫名稱別名，亦可更改為其它名稱
+    <br/>遠端 repo 會以 `[remote_name]/[branch]` 的格式顯示
     <br/>此例下 Remote Repository 的 master 分支就會是 `origin/master`
   - `git remote set-url origin git://new.url.here`
     <br/>修改 remote 位置
@@ -143,7 +144,10 @@ tags: F2E, Git
 #### 3. `git push`
 
 - 將 Local Repository 本地儲存庫的異動 commit 到 Remote Repository 遠端儲存庫
-  - `git push origin master`
+  - `git push [remote_repo] [local_branch]`
+    <br/>e.g. `git push origin master`
+  - `git push [remote_repo] [source_branch]:[destination_branch]`
+    <br/>推送至不同的 branch
 
 #### 4. `git rm [filename] --cached`
 
@@ -209,6 +213,9 @@ tags: F2E, Git
   - `git branch [branch_name]/[revision]`
     <br/>切換至指定分支的特定版本
   - `git branch -f main HEAD^3`
+  - `git branch -u [remote_branch] [local_branch]`
+    <br/>`git branch -u o/main foo`
+    <br/>已經位於該本地分支則可省略 `[local_branch]`
 
 #### 2. `git push origin :[branch_name]`
 
@@ -223,7 +230,7 @@ tags: F2E, Git
     <br/>建立新的分支，並切換至該分支
   - `git checkout [branch_name] .`
     <br/>將當前分支的所有檔案複製至指定分支（※在最後方有一個 `.`）
-- `checkout` 也可以用於切換至不同的版本（HEAD）
+- `checkout` 也可以用於切換至不同的 HEAD
   - HEAD：指向當前 checkout 的 commit 的 reference，即目前所在的 commit
   - `git checkout [commit SHA-1]`
     <br/>由於 SHA-1 通常很長，也可以只輸入前幾個字元
@@ -234,6 +241,13 @@ tags: F2E, Git
     - `^` 和 `~` 可以組合使用，如 `git checkout HEAD~^2~2`
   - `git checkout HEAD^`
     <br/>也可將 `HEAD` 用於相對引用
+- 兩者也可組合，建立新的分支並將分支指向某個 HEAD
+  - `git checkout -b [branch_name] [commit SHA-1]`
+    <br/>e.g. `git checkout -b feature C2`
+    <br/>建立 feature 分支並切換至該分支，之後再將分支 HEAD 指向 C2
+  - `git checkout -b [local_branch] [remote_branch]`
+    <br/>也可以用來指向不同的 remote branch
+    <br/>e.g. `git checkout -b totallyNotMain o/main`
 
 #### 4. `git stash [save ['message]]`
 
@@ -256,21 +270,7 @@ tags: F2E, Git
 
 ### 合併
 
-#### 1. `git clone [git_url]`
-
-- 複製 `遠端 repo` 至本地端
-  - `git clone --mirror`
-  - `cd C:\Git\GitHub`
-  - `git clone https://github.com/f6bfb5/Sample.git`
-    <br/>clone 遠端工作目錄至本地端
-
-#### 2. `git fetch`
-
-- 將 `遠端 repo` 的最新變更加入至 `本地 repo`
-  - `git fetch --prune`
-    <br/>執行 fetch 之前，刪除遠端庫裡不存在的 repo
-
-#### 3. `git merge [branch_name]`
+#### 1. `git merge [branch_name]`
 
 - 將 `指定分支` 的檔案修改合併至 `當前分支`
   <br>合併兩個分支操作，紀錄兩者之間的實際操作
@@ -283,7 +283,7 @@ tags: F2E, Git
     <br>將從 `git fetch` 取得的 Remote Repository 的變更
     <br>反應至 Local Repository 裡目前的 branch
 
-#### 4. `git rebase [target_branch]`
+#### 2. `git rebase [target_branch]`
 
 - 複製當前分支做的修改，到目標分支的最後一次提交上面
   <br>會將指定分支的歷史紀錄併進 master 的線圖上，用以確保整體分支線圖乾淨
@@ -296,15 +296,32 @@ tags: F2E, Git
 - [git merge 與 rebase 的觀念與實務應用](https://www.slideshare.net/WillHuangTW/git-merge-rebase)
 - [rebase をちゃんと理解して使えるようになろう！ - Qiita](https://qiita.com/shira-shun/items/29c7f36179117022cb6d)
 
-#### 5. `git cherry-pick [commit_id]`
+#### 3. `git cherry-pick [commit_id]`
 
 - 任意挑選一個或多個 commit 複製並接到目前位置（`HEAD`）的下面
 - 可以避免 rebase 操作過多時可能的 rebase conflict
 
+#### 4. `git clone [git_url]`
+
+- 複製 `遠端 repo` 至本地端
+  - `git clone --mirror`
+  - `cd C:\Git\GitHub`
+  - `git clone https://github.com/f6bfb5/Sample.git`
+    <br/>clone 遠端工作目錄至本地端
+
+#### 5. `git fetch`
+
+- 將 `遠端 repo` 的最新變更加入至 `本地 repo`
+  - `git fetch --prune`
+    <br/>執行 fetch 之前，刪除遠端庫裡不存在的 repo
+  - 但 `fetch` 不會更動本地的 commit
+
 #### 6. `git pull`
 
-- 取得來自 Remote Repository 的變更
+- 將 `遠端 repo` 的最新變更加入至 `本地 repo` 後，合併本地 commit
 - 等同 `git fetch` + `git merge origin/master`
+- `git pull --rebase`
+  <br/> 加上 `--rebase` 則等同 `git fetch` + `git rebase`
 
 #### 衝突
 
