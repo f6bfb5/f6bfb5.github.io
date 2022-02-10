@@ -5,6 +5,12 @@ summary: "在距離最近的地方，傾聽這款不可思議的遊戲的故事�
 tags: ACG, Game, Translate
 ---
 
+在距離最近的地方，傾聽這款不可思議的遊戲的故事。
+
+文章來源：[『MOTHER』の気持ち。](https://www.1101.com/MOTHER/MOTHER_itoi.html)
+
+---
+
 ## 第２回<br/>「若非如此，<br/>我是做不到最後的。」
 
 ── 糸井先生能夠坦率肯定

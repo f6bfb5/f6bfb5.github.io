@@ -217,7 +217,7 @@ tags: F2E, Git
     <br/>`git branch -u o/main foo`
     <br/>已經位於該本地分支則可省略 `[local_branch]`
 
-#### 2. `git push origin :[branch_name]`
+#### 2. `git push [remote_repo] :[branch_name]`
 
 - 刪除遠端的分支
 - ※在欲刪除的遠端分支名稱前有個 `:`、使用的指令是 `push`
@@ -315,6 +315,15 @@ tags: F2E, Git
   - `git fetch --prune`
     <br/>執行 fetch 之前，刪除遠端庫裡不存在的 repo
   - 但 `fetch` 不會更動本地的 commit
+- `fetch` 也可以指定抓取特定 branch 的變更
+  - `git fetch origin foo`
+  - 同樣的，`fetch` 不會更動本地的 commit
+  - 也可與 `pull` 同樣透過 `:` 指定特定本地 branch
+    - `git fetch [remote_repo] [remote_branch]:[local_branch]`
+      <br/>e.g. `git fetch origin foo~1:bar`
+      <br/>將遠端 foo branch 到前一次的 commit 內容 fetch 至 bar branch
+- `git push [remote_repo] :[branch_name]` 會刪除遠端 branch
+  - 同樣地，`git fetch [remote_repo] :[branch_name]` 則會增加一個本地 branch
 
 #### 6. `git pull`
 
@@ -322,6 +331,8 @@ tags: F2E, Git
 - 等同 `git fetch` + `git merge origin/master`
 - `git pull --rebase`
   <br/> 加上 `--rebase` 則等同 `git fetch` + `git rebase`
+- `git pull [remote_repo] [branch_name]`
+  - = `git fetch [remote_repo] [branch_name]: git merge o/[branch_name]`
 
 #### 衝突
 

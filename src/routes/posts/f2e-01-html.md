@@ -7,16 +7,18 @@ tags: F2E, HTML
 
 ## What is HTML？
 
-HTML（HyperText Markup Language）是撰寫網頁結構用的標記語言，「標記語言」的意思是，它是直接將「特定寫法」轉換成「對應架構」，以 HTML 來說，就是將許多不同標籤（ex. `<tag> ... </tag>`）轉換成瀏覽器上的內容架構和元素。
-
-而一個最基本的標籤裡會有「名稱」與「屬性」，註記為 `<tagName attributeName="attributeValue">Content</tagName>`，名稱宣告這是什麼標籤，屬性宣告標籤性質，於第 4 點會再詳細解釋。
-
+- HTML（HyperText Markup Language）是撰寫網頁結構用的標記語言
+- 「標記語言」的意思是直接將「特定寫法」轉換成「對應架構」
+  - 以 HTML 來說，就是將各種標籤（ex. `<tag> ... </tag>`）轉換成瀏覽器上的內容架構和元素。
+- 一個基本 HTML 標籤裡會有「名稱」與「屬性」
+  - 格式為 `<tagName attributeName="attributeValue">Content</tagName>`
+  - 名稱宣告這是什麼標籤，屬性宣告標籤性質，詳細會於第 4 點再解釋。
 - [HTML Standard 日本語訳](https://momdo.github.io/html/)
 - [HTML Living Standard 　 HTML 要素チートシート](https://htmlls.docs-share.com/)
 
 ## HTML 的四大基本結構
 
-一份基礎的 HTML 文件大概長得像是：
+一份基礎的 HTML 文件大概像是：
 
 ```html
 <!DOCTYPE html>
@@ -30,7 +32,7 @@ HTML（HyperText Markup Language）是撰寫網頁結構用的標記語言，「
 </html>
 ```
 
-這裡包含了 HTML 的四大基本結構：
+裡頭包含了 HTML 的四大基本結構：
 
 1. `<!DOCTYPE html>`
 2. `<html>`
