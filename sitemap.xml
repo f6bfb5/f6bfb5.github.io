@@ -3,28 +3,28 @@
   
     <url>
       <loc>https://f6bfb5.github.io/</loc>
-      <lastmod>2022-02-07T06:24:36.918Z</lastmod>
+      <lastmod>2022-02-10T08:34:15.052Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/about</loc>
-      <lastmod>2022-02-07T06:24:36.918Z</lastmod>
+      <lastmod>2022-02-10T08:34:15.052Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/posts</loc>
-      <lastmod>2022-02-07T06:24:36.918Z</lastmod>
+      <lastmod>2022-02-10T08:34:15.052Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/rss</loc>
-      <lastmod>2022-02-07T06:24:36.918Z</lastmod>
+      <lastmod>2022-02-10T08:34:15.052Z</lastmod>
       <priority>1.00</priority>
     </url>
   
@@ -32,6 +32,13 @@
     <url>
       <loc>https://f6bfb5.github.io/2022-what-i-have-read-on-internet</loc>
       <lastmod>2022-12-31T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/ACG-emotion-of-mother-03</loc>
+      <lastmod>2022-02-10T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
