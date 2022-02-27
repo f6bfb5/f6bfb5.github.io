@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/yakuhanjp@3.4.1/dist/css/yakuhanjp_s-noto.min.css');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/yakuhanjp@3.4.1/dist/css/yakuhanjp_s-noto.min.css'); */
 
 /* [読みやすい＝理解しやすい　Webの組版を整理してより良い文章を届けよう - Qiita](https://qiita.com/xrxoxcxox/items/206b223844e3c42dc86f) */
 
+@font-face {
+  font-family: '俐方體11號';
+  src: url('./fonts/Cubic_11_1.010_R.ttf') format('truetype');
+}
+
 body {
-  font-family: 'YakuHanJPs_Noto', 'Noto Sans', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo,ＭＳ\ Ｐゴシック, MS PGothic, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: '俐方體11號', 'YakuHanJPs_Noto', 'Noto Sans', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo,ＭＳ\ Ｐゴシック, MS PGothic, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 16px;
   hyphens: auto;
   line-break: strict;
@@ -42,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-family: 'Noto Serif TC';
+  /* font-family: 'Noto Serif TC'; */
   font-size: 1.125em;
   line-height: calc(0.25rem * 7);
   letter-spacing: 0.0325em;

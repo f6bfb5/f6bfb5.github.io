@@ -118,6 +118,14 @@ ol, ul {
   margin: 0;
 }
 
+ul {
+  padding-top: 0.25em;
+}
+
+li {
+  padding-bottom: 0.25em;
+}
+
 li:last-child {
   padding-bottom: 0.25em;
 }
