@@ -3,19 +3,19 @@ const { createCanvas, registerFont } = require("canvas");
 
 const sansDir = path.resolve("./static/fonts");
 
-registerFont(path.join(sansDir, "nishiki-teki.ttf"), {
-  family: "Nishiki-teki",
+registerFont(path.join(sansDir, "Cubic_11_1.010_R.ttf"), {
+  family: "俐方體11號",
   weight: "normal",
 });
 
 const DEBUG = !!process.env.DEBUG_TITLE_IMAGE;
 
 function getTitleFont(size) {
-  return `normal ${size}px 'Nishiki-teki'`;
+  return `normal ${size}px '俐方體11號'`;
 }
 
 function getSubtitleFont(size) {
-  return `normal ${size}px 'Nishiki-teki'`;
+  return `normal ${size}px '俐方體11號'`;
 }
 
 function fitTextIntoRectangle({ ctx, text, maxFontSize, rect }) {
@@ -97,9 +97,9 @@ function createTitleImage({ title, subtitle }) {
   const paddingAboveSubtitle = 15;
   const titleFontSize = 50;
   const subtitleFontSize = 18;
-  const backgroundColor = "#f7f0e7";
-  const blueColor = "#095ae8";
-  const darkColor = "#2d1e14";
+  const backgroundColor = "#cadc9f";
+  const textColor = "#0f380f";
+  const subtextColor = "#306230";
 
   return new Promise((resolve, reject) => {
     const canvas = createCanvas(width, height);
@@ -125,13 +125,13 @@ function createTitleImage({ title, subtitle }) {
       },
     });
 
-    ctx.fillStyle = blueColor;
+    ctx.fillStyle = textColor;
     ctx.font = getTitleFont(fontSize);
     lines.forEach(({ text, x, y }) => {
       ctx.fillText(text, x, y);
     });
 
-    ctx.fillStyle = darkColor;
+    ctx.fillStyle = subtextColor;
     ctx.font = getSubtitleFont(subtitleFontSize);
     ctx.fillText(subtitle, xPadding, height - paddingBottom);
 
