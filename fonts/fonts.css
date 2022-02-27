@@ -5,7 +5,8 @@
 
 @font-face {
   font-family: '俐方體11號';
-  src: url('./fonts/Cubic_11_1.010_R.ttf') format('truetype');
+  src: url('Cubic_11_1.010_R.woff2') format('woff2');
+  src: url('Cubic_11_1.010_R.woff') format('woff');
 }
 
 body {
