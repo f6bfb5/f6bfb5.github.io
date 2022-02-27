@@ -22,7 +22,7 @@
     max-width: 720px;
     width: 100%;
     font-size: 1em;
-    color: #aaa;
+    color: var(--text-color);
     border-top: 1px solid #e6e6e6;
 
     background-color: var(--bg-color);

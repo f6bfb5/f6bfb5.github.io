@@ -35,7 +35,7 @@
   }
 
   :global(body.dark-mode) {
-    --bg-color: #eaebeb;
+    /* --bg-color: #eaebeb;
     --outer-bg-color: #eaebeb;
     --title-color: #060606;
     --subtitle-color: #0f0f0f;
@@ -43,6 +43,17 @@
     --subtext-color: #282828;
     --link-color: #9f1212;
     --link-hover-color: #be1515;
-    --strong-color: #3fff00;
+    --strong-color: #3fff00; */
+
+    --bg-color: #150439;
+    --outer-bg-color: #150439;
+    --title-color: #f8ffeb;
+    --subtitle-color: #f2ffda;
+    --text-color: #ecffc9;
+    --subtext-color: #a179f6;
+    --link-color: #3fff00;
+    /* --link-hover-color: #faff00; */
+    --link-hover-color: #a179f6;
+    --strong-color: #9f1212;
   }
 </style>

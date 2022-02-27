@@ -8,7 +8,7 @@
 }
 
 :root {
-  --bg-color: #150439;
+  /* --bg-color: #150439;
   --outer-bg-color: #150439;
   --title-color: #f8ffeb;
   --subtitle-color: #f2ffda;
@@ -16,7 +16,26 @@
   --subtext-color: #ffff89;
   --link-color: #3fff00;
   --link-hover-color: #faff00;
-  --strong-color: #9f1212;
+  --strong-color: #9f1212; */
+
+  /* 
+  #cadc9f
+  #0f380f
+  #306230
+  #8bac0f
+  #9bbc0f
+  #000000
+  */
+
+  --bg-color: #cadc9f;
+  --outer-bg-color: #cadc9f;
+  --title-color: #0f380f;
+  --subtitle-color: #8bac0f;
+  --text-color: #000000;
+  --subtext-color: #306230;
+  --link-color: #0f380f;
+  --link-hover-color: #8bac0f;
+  --strong-color: #9bbc0f;
 }
 
 body {
@@ -32,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-h1, h2 {
+h1 {
   color: var(--title-color);
 }
 
@@ -40,7 +59,38 @@ h2 {
   position: relative;
   padding: 6px;
   padding-left: 12px;
-  text-shadow: var(--bg-color) 2px 0, var(--bg-color) -2px 0, var(--bg-color) 0 -2px, var(--bg-color) 0 2px, var(--bg-color) 2px 2px, var(--bg-color) -2px 2px, var(--bg-color) 2px -2px, var(--bg-color) -2px -2px, var(--bg-color) 1px 2px, var(--bg-color) -1px 2px, var(--bg-color) 1px -2px, var(--bg-color) -1px -2px, var(--bg-color) 2px 1px, var(--bg-color) -2px 1px, var(--bg-color) 2px -1px, var(--bg-color) -2px -1px, var(--text-color) 3px 3px 3px;
+  color: var(--subtitle-color);
+  /* text-shadow: 
+  var(--subtext-color) 2px  0, 
+  var(--subtext-color) -2px 0, 
+  var(--subtext-color) 0    -2px, 
+  var(--subtext-color) 0    2px, 
+  var(--subtext-color) 2px  2px, 
+  var(--subtext-color) -2px 2px, 
+  var(--subtext-color) 2px  -2px, 
+  var(--subtext-color) -2px -2px, 
+  var(--subtext-color) 1px  2px, 
+  var(--subtext-color) -1px 2px, 
+  var(--subtext-color) 1px  -2px, 
+  var(--subtext-color) -1px -2px, 
+  var(--subtext-color) 2px  1px, 
+  var(--subtext-color) -2px 1px, 
+  var(--subtext-color) 2px  -1px, 
+  var(--subtext-color) -2px -1px, 
+  var(--text-color) 3px 3px 3px; */
+  text-shadow: 
+  var(--subtext-color) 2px  0px,
+  var(--subtext-color) 1px  0px,
+  var(--subtext-color) 2px  1px, 
+  var(--subtext-color) 1px  1px, 
+  var(--subtext-color) 2px  2px, 
+  var(--subtext-color) 1px  2px,
+  var(--subtext-color) 0px  2px, 
+  var(--subtext-color) 3px  3px,
+  var(--subtext-color) 2px  3px,
+  var(--subtext-color) 1px  3px,
+  var(--subtext-color) 0px  3px;
+  /* var(--text-color) 3px 3px 3px; */
 }
 
 h3 {
@@ -195,7 +245,7 @@ pre code {
 blockquote {
   margin: 0;
   padding: 0 1rem;
-  border-left: 4px solid #cccccc;
+  border-left: 4px solid var(--text-color);
 }
 
 blockquote p {
