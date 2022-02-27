@@ -91,7 +91,7 @@
   header h1 {
     margin: 0 0 0.13em 0;
     font-size: 6em;
-    letter-spacing: -0.075em;
+    /* letter-spacing: -0.075em; */
     line-height: 1;
     color: var(--title-color);
   }
