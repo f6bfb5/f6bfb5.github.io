@@ -105,7 +105,7 @@
 
   header p {
     padding: 0 20px;
-    color: #aaa;
+    color: var(--subtitle-color);
     text-transform: uppercase;
     font-weight: 600;
   }
@@ -148,20 +148,14 @@
     animation: Title_pink 0.5s linear both;
   }
 
-  :root {
-    --transformX: 0.2em;
-  }
-
   @keyframes Title_red {
     0% {
       color: var(--bg-color);
       fill: transparent;
-      transform: translateX(var(--transformX));
     }
     50% {
       color: #e50020;
       fill: #e50020;
-      transform: translateX(0);
     }
     100% {
       color: var(--title-color);
@@ -172,12 +166,10 @@
     0% {
       color: var(--bg-color);
       fill: transparent;
-      transform: translateX(var(--transformX));
     }
     50% {
       color: #ec6c00;
       fill: #ec6c00;
-      transform: translateX(0);
     }
     100% {
       color: var(--title-color);
@@ -188,12 +180,10 @@
     0% {
       color: var(--bg-color);
       fill: transparent;
-      transform: translateX(var(--transformX));
     }
     50% {
       color: #fbc600;
       fill: #fbc600;
-      transform: translateX(0);
     }
     100% {
       color: var(--title-color);
@@ -204,12 +194,10 @@
     0% {
       color: var(--bg-color);
       fill: transparent;
-      transform: translateX(var(--transformX));
     }
     50% {
       color: #6fba2c;
       fill: #6fba2c;
-      transform: translateX(0);
     }
     100% {
       color: var(--title-color);
@@ -220,12 +208,10 @@
     0% {
       color: var(--bg-color);
       fill: transparent;
-      transform: translateX(var(--transformX));
     }
     50% {
       color: #008b38;
       fill: #008b38;
-      transform: translateX(0);
     }
     100% {
       color: var(--title-color);
@@ -236,12 +222,10 @@
     0% {
       color: var(--bg-color);
       fill: transparent;
-      transform: translateX(var(--transformX));
     }
     50% {
       color: #009fe8;
       fill: #009fe8;
-      transform: translateX(0);
     }
     100% {
       color: var(--title-color);
@@ -252,12 +236,10 @@
     0% {
       color: var(--bg-color);
       fill: transparent;
-      transform: translateX(var(--transformX));
     }
     50% {
       color: #004da0;
       fill: #004da0;
-      transform: translateX(0);
     }
     100% {
       color: var(--title-color);
@@ -268,12 +250,10 @@
     0% {
       color: var(--bg-color);
       fill: transparent;
-      transform: translateX(var(--transformX));
     }
     50% {
       color: #910782;
       fill: #910782;
-      transform: translateX(0);
     }
     100% {
       color: var(--title-color);
@@ -284,12 +264,10 @@
     0% {
       color: var(--bg-color);
       fill: transparent;
-      transform: translateX(var(--transformX));
     }
     50% {
       color: #e40065;
       fill: #e40065;
-      transform: translateX(0);
     }
     100% {
       color: var(--title-color);
