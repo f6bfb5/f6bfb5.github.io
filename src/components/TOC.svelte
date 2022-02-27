@@ -21,7 +21,7 @@
   });
 </script>
 
-{#if TOC.length !== 0}
+{#if TOC.length > 1}
   <div class="toc">
     <div class="toc--title">
       {title}
