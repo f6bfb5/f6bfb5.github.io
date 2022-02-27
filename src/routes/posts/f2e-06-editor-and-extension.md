@@ -41,7 +41,7 @@ table td:nth-child(3) {
 | [Liveweave](http://liveweave.com/)     |                               |
 | [JSFiddle](https://jsfiddle.net/)      |                               |
 
-## VSCode
+## VSCode 快捷鍵
 
 - [VS Code 23 個常用快捷鍵速查表](https://hackmd.io/@sean666/HJ3x8K6Z8)
 - [Visual Studio Code 快速鍵一覽表](https://poychang.github.io/vscode-shortcuts/)
@@ -52,7 +52,7 @@ table td:nth-child(3) {
 | `Ctrl+P`         | 開啟檔案<br>加上 `:行數` 會再自動跳至指定行數 |
 | `Ctrl+Shift+E`   | 跳至左側檔案管理處                            |
 | `Ctrl+B`         | 隱藏側邊欄                                    |
-| `Ctrl+G`         | 跳至指定行數                                  |
+| `Ctrl+G`         | 跳至指定行數處                                |
 | `Ctrl+Shift+L`   | 反白所有指定文字                              |
 | `Ctrl+Shift+H`   | 跳至搜尋欄                                    |
 | `Ctrl+Q`         | 切換終端                                      |

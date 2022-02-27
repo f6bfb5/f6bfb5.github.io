@@ -189,7 +189,7 @@ CSS 將每個內容元素的外觀架構區分為 `Margin`、`Border`、`Padding
 
 - 以二維的方式定位的模型
 - grid 並非用於取代 flexbox，而是補足 flexbox 的不足
-- 需先使用 `display: grid` 定義主容器顯示類型，再使用 `grid-template` 定義版型結構
+- 需先使用 `display: grid` 定義主容器顯示類型，再用 `grid-template` 定義版型結構
 - [CSS Grid Generator | LayoutIt!](https://grid.layoutit.com/)
 
 ##### 宣告長寬
