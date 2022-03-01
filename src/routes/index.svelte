@@ -95,13 +95,17 @@
         .filter((p) => new Date(p.printDate).getFullYear() == year)
         .filter((p) => arrayContainsAny(p.tags, selection)) as post (post.slug)}
         <li>
-          <a rel="prefetch" href={post.slug}>{post.title}</a>
-          {#if post.tags}
-            {#each post.tags as tag}
-              <Tag {tag} />
-            {/each}
-          {/if}
-          <span>{post.printDate}</span>
+          <div>
+            <a rel="prefetch" href={post.slug}>{post.title}</a>
+          </div>
+          <div>
+            {#if post.tags}
+              {#each post.tags as tag}
+                <Tag {tag} />
+              {/each}
+            {/if}
+            <span>{post.printDate}</span>
+          </div>
         </li>
       {/each}
     </ul>
@@ -121,6 +125,10 @@
   ul li {
     list-style-type: "◼";
     color: var(--title-color);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   ul li::marker {
     content: "◼";
@@ -130,8 +138,14 @@
   ul li + li {
     padding: 0.25em 0;
   }
-  ul li a {
+  ul li div:first-child {
     margin-left: 8px;
+  }
+  ul li div:last-child {
+    flex-shrink: 0;
+  }
+  ul li a {
+    /* margin-left: 8px; */
     letter-spacing: 0.52px;
     font-size: 1.125em;
   }

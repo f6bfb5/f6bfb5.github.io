@@ -16,9 +16,14 @@
   header {
     display: flex;
     margin: 0 auto;
+    padding: 2em 0 1em 0;
     max-width: 720px;
-    padding: 2em 0 0 0;
     width: 100%;
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
     background-color: var(--bg-color);
   }
 </style>
