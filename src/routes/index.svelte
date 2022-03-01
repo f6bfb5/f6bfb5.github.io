@@ -123,20 +123,23 @@
     list-style-position: inside;
   }
   ul li {
-    /* list-style-type: "◼"; */
-    /* color: var(--title-color); */
+    list-style-type: "◼";
+    color: var(--title-color);
 
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  /* ul li::marker {
+  ul li::marker {
     content: "◼";
     color: var(--title-color);
     display: inline-block;
-  } */
+  }
   ul li + li {
     padding: 0.25em 0;
+  }
+  ul li div {
+    display: inline-block;
   }
   ul li div:first-child {
     margin-left: 8px;
@@ -147,6 +150,14 @@
   }
   ul li div:last-child {
     flex-shrink: 0;
+  }
+  @media (max-width: 720px) {
+    ul li {
+      display: list-item;
+    }
+    ul li div:first-child::before {
+      content: "";
+    }
   }
   ul li a {
     /* margin-left: 8px; */
