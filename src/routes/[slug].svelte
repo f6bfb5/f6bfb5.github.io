@@ -65,7 +65,14 @@
   <!-- <h1>{post.title}</h1> -->
   <h1 class="title">
     {#each post.title as title, index}
-      <span style="animation-delay: {125 + 25 * index}ms"> {title}</span>
+      <span
+        style="
+        animation-delay: {125 + 25 * index}ms;
+        {title == ' ' ? 'width: .25em;' : ''}
+      "
+      >
+        {title}</span
+      >
     {/each}
   </h1>
   <p>
@@ -92,7 +99,8 @@
     margin: 0.13em 0;
     font-size: 6em;
     /* letter-spacing: -0.075em; */
-    line-height: 1;
+    /* line-height: 1; */
+    line-height: 1.1;
     color: var(--title-color);
   }
 
@@ -117,8 +125,12 @@
   .title {
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow: visible;
   }
+  /* .title span {
+    width: 1em;
+  } */
 
   .title span:nth-child(9n-8) {
     animation: Title_red 0.5s linear both;
