@@ -30,3 +30,7 @@ tags: F2E
 ## 參考文章
 
 - [Chrome 拡張機能 を作ってみる](https://noitalog.tokyo/chrome-extensions/)
+
+## 確認其他人製作的擴充功能原始碼
+
+- [ブラウザ拡張機能のソースコードを確認する | バグ取りの日々](https://www.bugbugnow.net/2021/06/sourcecode-for-extension.html?m=1)

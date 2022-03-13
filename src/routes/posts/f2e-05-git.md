@@ -21,6 +21,13 @@ tags: F2E, Git
 3. `Modified`: 修改後
 4. `Deleted`: 刪除後
 
+## How does Git works？
+
+- [たぶんもう怖くない Git ~Git 内部の仕組み~ - Qiita](https://qiita.com/marchin_1989/items/2ec01553e907f3a9e6bb)
+- Git 的 Repo 由 Git 物件構成，透過有向無環圖與標籤管理履歷。
+- 提交 commit 並不是儲存差異，而是**快照（Snapshot）**。
+- Git 的指令實質上是在處理有向無環圖上的 Git 物件增減，以及標籤的移動。
+
 ## What is GitHub？
 
 與 Git 一同很常聽到的，還有 GitHub 與 GitLab，這兩者則是提供 Git 服務的網路平台，除了可將程式碼儲存於上頭外，也有獨自額外的輔助功能，例如 Pull Request（後述）或是 GitHub Actions 等等。
