@@ -7,6 +7,8 @@ tags: Lyrics, Translate
 
 <iframe src="https://www.youtube.com/embed/i90OEmXbFQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe src="https://www.youtube.com/embed/fVtAPaRLk0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 是什麼時候長大的
 <br/>也沒什麼特別改變
 <br/>汲汲營營跌跌撞撞
@@ -19,7 +21,7 @@ tags: Lyrics, Translate
 
 那天拿到的畫布上
 <br/>累積了辛勞的彩虹
-<br/>讓這也成為連結你我的羈絆
+<br/>也成為連結你我的羈絆
 
 我們總像滾石一般
 <br/>帶著擦撞劃出的傷
@@ -54,7 +56,7 @@ tags: Lyrics, Translate
 我們的日子結束了
 <br/>但我仍然想要掙扎
 <br/>「未來能夠改變」什麼都是扯謊
-<br/>我仍能有得手的愛
+<br/>你仍願將愛獻給我
 
 雖然你給予我的愛
 <br/>如此恐怖沉重不堪
