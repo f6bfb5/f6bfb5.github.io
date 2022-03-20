@@ -264,6 +264,20 @@ Chrome 插件，可共同協作註解或劃記並討論一篇網頁文章的內�
 | [MangaMeeya](https://mangameeya.softonic.jp/)                      |      |      |
 | [LCDDelayChecker](http://bygzam.seesaa.net/article/110314791.html) |      |      |
 
+### MangaMeeya
+
+- [Avisynth を活用しよう](https://geolog.mydns.jp/www.geocities.co.jp/comicview7/meeya_avisynth/avisynth.html)
+- [アーカイブ - AviSynth.info](https://www.avisynth.info/?%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96)
+
+```
+縦横比固定リサイズ(1.5,0,0,false,false,false,false,false,false,true);
+YUY2へ変換(false)
+WarpSharp(-20,3,128,-0.6)
+KenKunNR(256,1,128)
+アンシャープマスク(130,2,0)
+RGB24へ変換(false)
+```
+
 ## 下載
 
 | 名稱                                                                                                                   | 說明 | 付費 |

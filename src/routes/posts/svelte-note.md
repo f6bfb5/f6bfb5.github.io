@@ -447,6 +447,7 @@ export const count = writable(0);
 
 - 接收 1 至多個 store 並且進行加工
 - `import { derived } from 'svelte/store'`;
+- 類似 Vue 的 `computed`？
 
 ```html
 <script>

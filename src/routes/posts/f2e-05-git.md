@@ -23,7 +23,7 @@ tags: F2E, Git
 
 ## How does Git works？
 
-- [たぶんもう怖くない Git ~Git 内部の仕組み~ - Qiita](https://qiita.com/marchin_1989/items/2ec01553e907f3a9e6bb)
+- [たぶんもう怖くない Git ～ Git 内部の仕組み～](https://qiita.com/marchin_1989/items/2ec01553e907f3a9e6bb)
 - Git 的 Repo 由 Git 物件構成，透過有向無環圖與標籤管理履歷。
 - 提交 commit 並不是儲存差異，而是**快照（Snapshot）**。
 - Git 的指令實質上是在處理有向無環圖上的 Git 物件增減，以及標籤的移動。
@@ -395,7 +395,9 @@ out/*.log
 在修改 .gitignore 前就加入的項目可用 `git rm --cached` 清除，
 或用 `git clean -fx` 一口氣清理所有應忽略的檔案
 
-## Pull Request（PR）
+## GitHub
+
+### Pull Request（PR）
 
 `Pull Request` 和 `fork` 同樣是 Github／Bitbucket 上新增的整合功能
 <br>而 `fork` 是將**他人的**遠端 repo 複製至自己的**遠端 repo**
@@ -413,7 +415,7 @@ out/*.log
 
 - [與其它開發者的互動 - 使用 Pull Request（PR） - 為你自己學 Git | 高見龍](https://gitbook.tw/chapters/github/pull-request.html)
 
-## 使用 SSH 登入
+### 使用 SSH 登入
 
 1. `ssh-keygen -t rsa -C "[email]"`／`ssh-keygen -t rsa -b 4096 -c "[email]"`：產生 SSH key
 2. `eval "$(ssh-agent -s)"`：在後台開啟 SSH agent

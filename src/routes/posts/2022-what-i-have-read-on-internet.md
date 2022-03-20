@@ -224,3 +224,67 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [お別れのコードは／2021 年 12 月期 JUMP 新世界漫画賞 - 黒川明](https://shonenjumpplus.com/episode/3269754496765608542)
 - [漫画村問題、クラウドフレアを漫画家が訴えた裁判で逆転勝訴　足掛け 4 年、「少しでもいい前例になってくれたら」](https://news.yahoo.co.jp/articles/7b4c1e3c5ee07a6ef5ccedbca58439119c1b7ec1)
 - [紛争でしたら八田まで - 田素弘 / 第１５話　ウクライナ愛と暴力と資金提供編 ①](https://comic-days.com/episode/13933686331616212564)
+- [意外に身も蓋もなかった 21 世紀の戦争 - 関内関外日記](https://goldhead.hatenablog.com/entry/2022/02/24/231214)
+- [「彼女は悲しい」は「she makes me sad」か？ - 翻訳論その他](https://nakaii.hatenablog.com/entry/2022/02/22/210429)
+- [CHOCOROAD](https://uemill.github.io/chocoroad2022/)
+- [アメリカのロースクールで「プーチンがウクライナに戦車を送れるなら国際法を勉強することになんの意味があるのか？」と学生が教授に質問していた](https://togetter.com/li/1850726)
+- [森川ジョージ「\[ここが変だよ漫画界\]というスペースを聞きました。」](https://twitter.com/WANPOWANWAN/status/1497354607819096070)
+- [Steam にゲームを公開して心が折れた話【フリゲ作者からインディ開発者へ】 - 莞爾の草原。](https://kanjinokusargss3.hatenablog.com/entry/2022/02/21/204725)
+- [台北街歩き RPG『Dusk Diver 2』から日本人と台湾人が考える、台北の現在。この世界情勢下で"観光地の台北"はどう変化しているのか？ - AUTOMATON](https://automaton-media.com/articles/reportjp/20220224-192966/)
+- [2022 年ウクライナ情勢をより深く理解するための歴史文化背景雑学](https://note.com/tadhara3/n/nbcdf23a5e143)
+- [続編２:2022 年ウクライナ情勢をより深く理解するための歴史文化背景雑学](https://note.com/tadhara3/n/nb0c5710841d7)
+
+## 3 月
+
+- [健常者エミュレータ - contradiction29's blog](https://contradiction29.hatenablog.com/entry/2021/06/30/210154)
+- [「原作でそのセリフ言ってねぇ三銃士を連れてきたよ！」超有名作品のコラで広まってしまった台詞が面白い「お前もう船降りろ」](https://togetter.com/li/1852063)
+- [実写映像で描かれるミステリアドベンチャーの魅力とは。「春ゆきてレトロチカ」のプロデューサー＆ディレクターにインタビュー](https://www.4gamer.net/games/617/G061749/20220222115/)
+- [日本人は核兵器被害への解像度が「かなり高い」民族であり、諸外国では単なる「強めのバクダン」として認知されているのではという話](https://togetter.com/li/1852945)
+- [「1 万 5000 円からギャラ上げられない」　現役声優が訴えたアニメ現場の「過酷な労働実態」](https://www.j-cast.com/2022/03/02432205.html?p=all)
+- [『エルデンリング』にて日本人が謎メッセージ「砦、夜」に困惑していると聞き、海外プレイヤーが面白がる。その理由とは - AUTOMATON](https://automaton-media.com/articles/newsjp/20220304-194226/)
+- [Yossy's Diary : 「機動戦士 Ζ ガンダム II 　恋人たち」初登場 5 位](http://blog.livedoor.jp/yossy_44/archives/50174925.html)
+- [ウクライナ侵略と『太陽の牙ダグラム』気恥ずかしいようなことを正面から描くアニメの力が示した希望（藤津亮太）](https://qjweb.jp/journal/66942/?mode=all)
+- [タコピーとその読者が嫌いすぎるので同士を求めたい](https://anond.hatelabo.jp/20220304184302)
+- [ロシアとウクライナのプロパガンダ合戦、ミサイルの正体について（JSF）](https://news.yahoo.co.jp/byline/obiekt/20220304-00284973)
+- [陰陽師 15 周年、ニコニコのおもしれーヤツ](https://note.com/nekomasu2/n/n8cba5c5c662b)
+- [Rust でゲームボーイエミュレーターを書いた](https://zenn.dev/tanakh/articles/gb-emulator-in-rust)
+- [【4461】統合失調症等の妄想はその人の論理的思考力によって形態が変わるのでしょうか](http://kokoro.squares.net/?p=11014)
+- [今からでも知っておきたい『ゼルダの伝説 ブレス オブ ザ ワイルド』の 19 の開発エピソード](https://jp.ign.com/the-legend-of-zelda-breath-of-the-wild/58187/feature/19)
+- [『女子高生の無駄づかい』作者さんの「人間を ◯ ヶ月強育ててみてわかったこと」シリーズが最高にわかる＆かわいい](https://togetter.com/li/1854467)
+- ["『エルデンリング』ゴテゴテ UI 化画像"が反響集める。ユーザーから、とある開発者への皮肉アンサーか - AUTOMATON](https://automaton-media.com/articles/newsjp/20220307-194505/)
+- [「宇宙開発は愚か」　ガンダム生みの親、富野由悠季さん](https://mainichi.jp/articles/20220308/k00/00m/040/097000c)
+- [『エルデンリング』レビュー:心を折りたいわけじゃなく、実はものすごくクリアされたがってるゲーム](https://news.denfaminicogamer.jp/kikakuthetower/220309a)
+- [SoundQuest - 新しい音を見つけよう](https://soundquest.jp/)
+- [rain or shine - 柚](https://shonenjumpplus.com/episode/3269754496798458086)
+- [ハニワ開発室(ゲームデザイナーの隠居生活): 私のアリスソフト史１５(2006-2008)](https://hannylaboratory.blogspot.com/2022/03/2006-2008.html)
+- [スクエニ新作「チョコボ GP」オン対戦が不具合続出でレースどころではない事態に　「スタート順がバラバラ」「強制優勝」](https://nlab.itmedia.co.jp/nl/articles/2203/10/news136.html)
+- [旧限界数学ゼミガール](http://semigirls.conohawing.com/?p=101)
+
+- [「作中で真犯人とされたキャラは真犯人ではない」と主張した映画考察から見極めたい「受け取った側の自由」の限度。オッカムの剃刀の必要性も](https://togetter.com/li/1856964)
+- [「公式が勝手に言ってるだけ」からはじめる文学理論半世紀](https://anond.hatelabo.jp/20220311180824)
+- [作者の意図と作品の解釈 - 9bit](http://9bit.99ing.net/Entry/34/)
+
+> 文学の「正解」が「何でもあり」であっていいものだろうか。蔑称とか揺り戻しなどと何度か言っているように、今日の文学理論は素朴な「作者の死」論には与せず、いくらかの距離を取っていることが多い（『テクストから遠く離れて』はまさしくそうした書物である）。しかし昔と違って「神」のことばこそが「正解」であるとも考えない。そもそも「正解」があるのかどうかもわかってはいない。いまの研究者は、グラデーションの中のどこかに、自分の場所を見いだそうと必死になっているのだと思う。
+> 文學的「正確答案」可以是「什麼都能通」嗎？如同前面數次提過已成為蔑稱的「後現代」或震盪回歸傳統的理論，現今的文學理論大多已不再僅樸素地舉出「作者之死」的論點，會多少拉開之間的距離（如《遠離文本》正是這類的書籍）。但也不會和以前一樣只認為「神」的話語才是「正確答案」。說來也沒人知道「正確答案」究竟是否存在。我認為現在的研究者是拚命地試圖在光譜上找到自己的居身之所。
+
+「作者已死」已經變成小學生都會拿出來講的概念，但接觸過一些長篇作者訪談以及許多作者對於所謂「藍色窗簾」、「超譯」的反應後，總讓我覺得兩者都有難以解決的極限，而共通的解讀更可能處在中間的部份。
+
+前者遇上汎用脈絡或當代語境不管用的時候，就會陷入解讀者掌握詮釋／話語權的困境裡，忽略原有環境上的影響，怎麼說都能通，作品退至二線，任由拆解成無限拆解成碎片的文本被恣意把玩，淪為無端的消費。
+
+後者則變成只有唯一的正確答案，即便那可能只是為了服務粉絲或搪塞需求所草草帶過的東西，而不全是真實的意圖，抑或出自共同意識或潛意識的躁動，拉開時間與空間的距離才會發覺當時的緣由。甚至作者未留下足夠資訊就消失，「正確答案」也將不復存在。
+
+但該站在這兩點中間的何處，或許永遠都不會有答案吧。
+
+- [「このままでは死ぬ」命懸けた隊員　自衛隊の「極秘作戦」11 年経て明らかに #知り続ける（福島中央テレビ）](https://news.yahoo.co.jp/articles/7d7993f065b53e0bcbebd9ea927fb4efa6d45262)
+- [ウクライナ侵攻とインターネット - JPNIC Blog](https://blog.nic.ad.jp/2022/7359/)
+- [よるべない 60 デイズ - はくり](https://shonenjumpplus.com/episode/3269754496804164181)
+- [ラーメン赤猫 - アンギャマン](https://shonenjumpplus.com/episode/3269754496804659304)
+- [キズナアイは確かに実在する。](https://note.com/jmatsuda2501/n/nc323452afa3f)
+- [こんな感じやろ。 東映魔女っ子シリーズ...](https://anond.hatelabo.jp/20220314110028)
+- [自分は、コーヒーっていう飲み物が 10 年ちょっと前まで嫌いだったんですよ。](https://twitter.com/candylight308/status/1503220125352140803)
+- [ドンキの POP ライターに、すごい POP を見せてもらった話](https://dailyportalz.jp/kiji/amazing-POP-at-Don_Quijote)
+- [鈴波アミを待っています - 塗田一帆/おおみね](https://shonenjumpplus.com/episode/3269754496813275380)
+- [Hue Sync Box で映像とゲームを画面の外から強化する | N-Styles](https://n-styles.com/main/archives/2022/03/15-201952.php)
+- [『ダイの大冒険』は起きていること・考えていることを全部台詞にしてるけど、他の作品を見るとその伝達の重要さに気づかされた](https://togetter.com/li/1859401)
+- [フロム・ソフトウェアの 30 年以上の長い歴史を振り返る――初代 PlayStation から『ELDEN RING』まで](https://jp.ign.com/armored-core/58467/feature/30playstationelden-ring)
+- [ゼノギアス 手描き　 PV 風](https://www.nicovideo.jp/watch/sm38281916)
