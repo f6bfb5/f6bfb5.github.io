@@ -415,14 +415,6 @@ out/*.log
 
 - [與其它開發者的互動 - 使用 Pull Request（PR） - 為你自己學 Git | 高見龍](https://gitbook.tw/chapters/github/pull-request.html)
 
-### 使用 SSH 登入
-
-1. `ssh-keygen -t rsa -C "[email]"`／`ssh-keygen -t rsa -b 4096 -c "[email]"`：產生 SSH key
-2. `eval "$(ssh-agent -s)"`：在後台開啟 SSH agent
-3. `ssh-add -K ~/.ssh/id_rsa`
-4. `cat /Users/[user_name]/.ssh/id_rsa.pub`：檢視公鑰
-5. 以 GitHub 為例，至 [SSH and GPG keys](https://github.com/settings/keys) 點擊 `New SSH key`，將方才的公鑰貼上
-
 ## Branch Model
 
 ### git-flow

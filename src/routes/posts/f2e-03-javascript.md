@@ -136,23 +136,30 @@ class Student{}
 
 Javascript 內建有七大型別：
 
-- `Null`（`null`）：值為空或不存在
-- `Undefined`（`undefined`）：初始值，或值未被定義
-- `Boolean`（`true`、`false`）：布林值
-- `Number`（整數 `1` 或浮點數 `3.14`）
-  - 能儲存根據 IEE 754-2008 標準所定義的，範圍於 `(2^53 -1)` 到 `2^53 -1` 之間的數字
-  - 另有三個符號值： `+Infinity` 、 `-Infinity` 、 `NaN` （Not a Number）
-  - 可以透過 `Number.MAX_VALUE` 或 `Number.MIN_VALUE` 兩個常數，以及在 ES6 新增的 `Number.isSafeInteger()` 、 `Number.MAX_SAFE_INTEGER` 、 `Number.MIN_SAFE_INTEGER` 來檢查數字是否位於標準範圍之內
-- `String`（`Hello World`）：文字，以單括號 `'` 或雙括號 `"` 包覆起來的字元
-- `Object`：資料或函式的組合＝ Property
-  - 可由 `{鍵 (Key) : 值 (Value)}` 或 `new Object()` 宣告
-  - 可以透過 `.Key` 或 `['Key']` 存取或操作 `Object` 裡的 property，刪除則需使用 `delete`
-  - 除了上述其中三種原始資料型別（ `Boolean` 、 `Number` 、 `String` ）也是 `Object` 之外，一些特殊的資料型別例如 `Array` 、 `Date` 、 `Function` 、 `RegExp` 也都屬於 `Object`
-- `Symbol`（於 ES6 新增）：此類型的值唯一且不可修改，通常用於做為 Object 的 Key 使用
-- `BigInt` （於 Chrome 67 新增）
-  - 可儲存超過 `Number` 範圍的值，於數值後面加上 `n` 或使用 `BigInt()` 函式轉型即可
+| 型別        | 例值                     | 說明                                                                   |
+| ----------- | ------------------------ | ---------------------------------------------------------------------- |
+| `Null`      | `null`                   | 值為空或不存在                                                         |
+| `Undefined` | `undefined`              | 初始值或未定義值                                                       |
+| `Boolean`   | `true`、`false`          | 布林值                                                                 |
+| `Number`    | 整數 `1` 或浮點數 `3.14` | 儲存根據 IEE 754-2008 標準定義，於 `(2^53 -1)` 到 `2^53 -1` 之間的數字 |
+
+- `Number` 另有三個符號值： `+Infinity` 、 `-Infinity` 、 `NaN` （Not a Number）
+- 可以透過 `Number.MAX_VALUE` 或 `Number.MIN_VALUE` 兩個常數，以及在 ES6 新增的 `Number.isSafeInteger()` 、 `Number.MAX_SAFE_INTEGER` 、 `Number.MIN_SAFE_INTEGER` 來檢查數字是否位於標準範圍之內
+
+| 型別     | 例值          | 說明                                                      |
+| -------- | ------------- | --------------------------------------------------------- |
+| `String` | `Hello World` | 文字，以單括號 `'` 或雙括號 `"` 包覆起來的字元            |
+| `Object` |               | 資料或函式的組合                                          |
+| `Symbol` |               | 此類型的值唯一且不可修改，通常用於做為 Object 的 Key 使用 |
+
+- `Object` 由 `{鍵 (Key) : 值 (Value)}` 或 `new Object()` 宣告
+- 透過 `.Key` 或 `['Key']` 存取或操作 `Object` 裡的 property，刪除則需使用 `delete`
+- 除了上述三種內建資料型別（ `Boolean` 、 `Number` 、 `String` ）也是 `Object` 之外，一些特殊的資料型別例如 `Array` 、 `Date` 、 `Function` 、 `RegExp` 也都屬於 `Object`
+
+- 另外 Chrome 67 有新增 `BigInt`，可儲存超過 `Number` 範圍的值
+- 於數值後面加上 `n` 或使用 `BigInt()` 函式轉型即可
   - 例如 `const bigInt = 123456789012345678901234567890n;`
-  - `Number` 常見的運算子操作都可同樣套用於 `BigInt` 上，但 `BigInt` 類型的值不可與 `Number` 類型的值進行操作，會造成 `TypeError` 錯誤
+- `Number` 常見的運算子操作都可同樣套用於 `BigInt` 上，但 `BigInt` 類型的值不可與 `Number` 類型的值進行操作，會造成 `TypeError` 錯誤
 
 #### `typeof` 運算子
 
@@ -694,17 +701,117 @@ import { port, getAccounts } from "module";
 console.log(port);
 ```
 
-## MutationObserver
+## 瀏覽器事件
+
+JavaScript 起初是為了瀏覽器而創造，因此還有一系列針對瀏覽器運用的物件，藉此達成如操作或取得網頁上的元素，或是自訂互動等功能，而日後發展出伺服器用的 Node.js 時，也有因執行環境有不同的物件或事件。
+
+### Bubbling and Capture
+
+其中例如點擊事件，若我們有一個三層巢狀的元素，每個元素各有一個點擊事件，點擊最內層的元素，將會由內至外連續觸發三層元素的事件，這個過程稱作「冒泡（Bubbling）」。
+
+```html
+<form onclick="alert('form')">
+  FORM
+  <div onclick="alert('div')">
+    DIV
+    <p onclick="alert('p')">P</p>
+  </div>
+</form>
+```
+
+捕獲（Capture）則是反過來，會從 `Window` 一路往下走到目標元素，DOM 事件標準裡定義了事件傳播的 3 個階段：捕獲階段、目標階段、冒泡階段。
+
+```html
+<form>
+  FORM
+  <div>
+    DIV
+    <p>P</p>
+  </div>
+</form>
+
+<script>
+  for (let elem of document.querySelectorAll("*")) {
+    // adding Capture event listener
+    elem.addEventListener(
+      "click",
+      (e) => alert(`Capturing: ${elem.tagName}`),
+      true
+    );
+    // event bubbling
+    elem.addEventListener("click", (e) => alert(`Bubbling: ${elem.tagName}`));
+  }
+</script>
+```
+
+### Event Delegation
+
+如果想避免冒泡，可以使用 `event.stopPropagation()`。
+
+```html
+<form onclick="alert(`the bubbling doesn't reach here`)">
+  <button onclick="event.stopPropagation()">Click me</button>
+</form>
+```
+
+但阻止冒泡可能會導致預料之外的行為，且冒泡和捕獲讓我們能簡化大量需要類似處裡的元素，例如點擊一個 9x9 表格裡的元素，可以不必每個子元素逐格分配處理，而由母元素表格統一處理。這稱作「事件委託（Event Delegation）」
+
+```html
+<table>
+  <tr>
+    <th colspan="3">
+      <em>Bagua</em> Chart: Direction, Element, Color, Meaning
+    </th>
+  </tr>
+  <tr>
+    <td class="nw">
+      <strong>Northwest</strong><br />Metal<br />Silver<br />Elders
+    </td>
+    <td class="n">...</td>
+    <td class="ne">...</td>
+  </tr>
+  <tr>
+    ...2 more lines of this kind...
+  </tr>
+  <tr>
+    ...2 more lines of this kind...
+  </tr>
+</table>
+
+<script>
+  let selectedTd;
+
+  table.onclick = function (event) {
+    let target = event.target.closest("td");
+
+    if (!td) return;
+    if (!table.contains(td)) return;
+    if (target.tagName != "TD") return;
+
+    highlight(target);
+  };
+
+  function highlight(td) {
+    if (selectedTd) {
+      selectedTd.classList.remove("highlight");
+    }
+    selectedTd = td;
+    selectedTd.classList.add("highlight");
+  }
+</script>
+```
+
+### MutationObserver
 
 - [JavaScript 是如何工作的：使用 MutationObserver 跟踪 DOM 的变化](https://blog.fundebug.com/2019/01/10/understand-mutationobserver/)
 - [How JavaScript works: tracking changes in the DOM using MutationObserver | by Alexander Zlatkov | SessionStack Blog](https://blog.sessionstack.com/how-javascript-works-tracking-changes-in-the-dom-using-mutationobserver-86adc7446401)
 - [DOM 变动观察器（Mutation observer）](https://zh.javascript.info/mutation-observer)
 
-### 簡介
+#### 簡介
 
 `MutationObserver` 會在指定的 DOM 出現變化，例如增減節點、變更屬性、修改文字時回傳通知。
 
-### 使用
+#### 使用
 
 想要使用 `MutationObserver` 之前，我們需要先建立一個 instance，並且傳入一個 function 讓它每次偵測到變化時調用。
 
@@ -795,16 +902,16 @@ document.addEventListener("webkitAnimationStart", insertionListener, false); // 
 
 `MutationObserver` 相較這些方案提供了更多優勢，包括它涵蓋了 DOM 中的每種可能變化，以及分段啟動的特性，讓它有更好的效能，並且擁有相當優秀的支援性。
 
-## IntersectionObserver
+### IntersectionObserver
 
 - [example](https://codepen.io/osublake/embed/6fd214ecd74e7091ec7b609bb0270f97?height=450&slug-hash=6fd214ecd74e7091ec7b609bb0270f97&user=osublake&tab-bar-color=%23222&name=cp_embed_2#result-box)
 
-### 簡介
+#### 簡介
 
 `IntersectionObserver` 會在指定的目標出現在觀察器 (window) 中時，才回傳 `true`，
 不同於 jQuery 的 `onscroll` 是在每次捲動時都執行一次監聽。
 
-### 使用
+#### 使用
 
 `let observer = new IntersectionObserver(callback, [option]);`
 
