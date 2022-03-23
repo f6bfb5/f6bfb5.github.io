@@ -230,6 +230,7 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [アメリカのロースクールで「プーチンがウクライナに戦車を送れるなら国際法を勉強することになんの意味があるのか？」と学生が教授に質問していた](https://togetter.com/li/1850726)
 - [森川ジョージ「\[ここが変だよ漫画界\]というスペースを聞きました。」](https://twitter.com/WANPOWANWAN/status/1497354607819096070)
 - [Steam にゲームを公開して心が折れた話【フリゲ作者からインディ開発者へ】 - 莞爾の草原。](https://kanjinokusargss3.hatenablog.com/entry/2022/02/21/204725)
+- [にじさんじの VTuber を見続けて 3 ヶ月が過ぎた｜柞刈湯葉 Yuba Isukari](https://note.com/yubais/n/ncee5a855bd53)
 - [台北街歩き RPG『Dusk Diver 2』から日本人と台湾人が考える、台北の現在。この世界情勢下で"観光地の台北"はどう変化しているのか？ - AUTOMATON](https://automaton-media.com/articles/reportjp/20220224-192966/)
 - [2022 年ウクライナ情勢をより深く理解するための歴史文化背景雑学](https://note.com/tadhara3/n/nbcdf23a5e143)
 - [続編２:2022 年ウクライナ情勢をより深く理解するための歴史文化背景雑学](https://note.com/tadhara3/n/nb0c5710841d7)

@@ -36,6 +36,8 @@ table td:nth-child(3) {
 | [Debug Monitor Tool](<https://docs.microsoft.com/ja-jp/previous-versions/bb896647(v=msdn.10)?redirectedfrom=MSDN>) |                                  |          |
 | [Ctrl2cap](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap)                                       | 將 Caps Lock 鍵切換成 Ctrl 鍵    | FREE     |
 
+- [PIME](https://github.com/EasyIME/PIME/releases)
+  新酷音輸入法，包含可在 Windows 11 上使用的舊注音輸入法。
 - [NTFSLinksView](https://www.nirsoft.net/utils/ntfs_links_view.html)
   顯示所有的 symbolic link
 - [ShellExView](https://www.nirsoft.net/utils/shexview.html)
