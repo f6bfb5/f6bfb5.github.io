@@ -125,8 +125,7 @@
   .title {
     display: flex;
     flex-wrap: wrap;
-    /* overflow: hidden; */
-    overflow: visible;
+    overflow: hidden;
   }
   /* .title span {
     width: 1em;
