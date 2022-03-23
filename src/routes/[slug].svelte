@@ -289,4 +289,8 @@
   .container {
     padding: 20px;
   }
+
+  .container :global(a) {
+    font-weight: bold;
+  }
 </style>
