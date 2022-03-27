@@ -27,6 +27,14 @@
     </div>
   </div>
   <div class="clearfix" />
+  <hr />
+  <p>
+    いつでも捜しているよ どっかに君の姿を
+    <br />カバンの中も 机の中も探したけれど見つからないのに
+    <br />それより僕と踊りませんか 朝が来るまで終わる事のないダンスを
+    <br />踊ってない夜を知らない 踊ってない夜が気に入らない
+  </p>
+  <p>Make me sad, Make me mad, Make me feel alright.</p>
 </div>
 
 <style>
