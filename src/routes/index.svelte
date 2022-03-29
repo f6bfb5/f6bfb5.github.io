@@ -153,7 +153,17 @@
   }
   @media (max-width: 720px) {
     ul li {
+      min-width: 0;
+    }
+    ul li div:first-child {
+      text-overflow: ellipsis;
+      overflow-x: hidden;
+      white-space: nowrap;
+
       display: list-item;
+    }
+    ul li div:last-child {
+      display: none;
     }
     ul li div:first-child::before {
       content: "";
