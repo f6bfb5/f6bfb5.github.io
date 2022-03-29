@@ -3,7 +3,9 @@
 </script>
 
 <nav>
-  <a class={segment === undefined ? "selected" : ""} href=".">トリコじかけの明け暮れ</a>
+  <a class={segment === undefined ? "selected" : ""} href="."
+    >トリコじかけの明け暮れ</a
+  >
   <a class={segment === "about" ? "selected" : ""} href="about">about</a>
   <a class={segment === "rss" ? "selected" : ""} href="rss.xml">rss</a>
 </nav>
@@ -12,18 +14,28 @@
   nav {
     display: flex;
     flex: 1;
+    min-width: 0;
     justify-content: flex-start;
     align-items: center;
     text-transform: uppercase;
   }
 
   a {
-    color: inherit;
-    text-decoration: none;
+    margin-left: 20px;
     padding: 10px 5px;
     display: block;
     position: relative;
-    margin-left: 20px;
+    color: inherit;
+    text-decoration: none;
+
+    white-space: nowrap;
+  }
+  a:first-child {
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+  }
+  a:last-child {
+    margin-right: 20px;
   }
 
   a:not(.selected) {
