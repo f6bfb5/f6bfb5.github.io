@@ -28,13 +28,19 @@
   </div>
   <div class="clearfix" />
   <hr />
-  <p style="text-align: center;">
-    いつでも捜しているよ どっかに君の姿を
-    <br />カバンの中も 机の中も探したけれど見つからないのに
-    <br />それより僕と踊りませんか 朝が来るまで終わる事のないダンスを
-    <br />踊ってない夜を知らない 踊ってない夜が気に入らない
+  <p style="font-size: 0.875rem; text-align: center;">
+    いつでも捜しているよ
+    <br />どっかに君の姿を
+    <br />カバンの中も 机の中も
+    <br />探したけれど見つからないのに
+    <br />それより僕と踊りませんか
+    <br />朝が来るまで終わる事のないダンスを
+    <br />踊ってない夜を知らない
+    <br />踊ってない夜が気に入らない
+    <br />君は知ってるかい？
+    <br />踊らな死ぬ事を
   </p>
-  <p style="text-align: center;">
+  <p style="font-size: 0.875rem; text-align: center;">
     Make me sad, Make me mad, Make me feel alright.
   </p>
 </div>
@@ -73,9 +79,13 @@
     padding: 10px 0;
   }
   @media screen and (max-width: 720px) {
+    .bubble-content {
+      padding: 7.5% 12.5% 0 20%;
+    }
     .bubble-content p {
-      padding: 1.38vw 0;
+      padding: 0 0 1.38vw 0;
       font-size: 2.5vw;
+      line-height: calc(0.5vw * 7);
     }
   }
 </style>
