@@ -512,6 +512,108 @@ mo.observe(targetElement, {
 
 ## Algorithm
 
+### `O(n log m)` vs `O(n+m)`
+
+如何最好地找到兩個排序數組中的共同元素。你可以選擇兩種算法。
+
+1. "雙指標 "的方法，是 `O(m+n)`。
+2. 使用二進制搜索來確定陣列 N 中的項目是否在陣列 M 中，是 `O(n log m)`。
+
+如果陣列的大小接近相同，那麼第一種算法，即嚴格的線性算法是比較好的。
+
+如果其中一個陣列比另一個陣列大得多，那麼你可能要考慮二進制搜索方法。你要在大陣列中搜索小陣列中的項目。
+例如，如果你有陣列 `M` 和 `N`，其中 `M` 有 1,000,000 個項目，`N` 有 100 個項目，你可以選擇：
+
+- 在 `N` 中尋找 `M`（即在 100 個陣列上進行 1,000,000 次搜尋）
+- 在 `M` 中尋找 `N`（即在 1,000,000 個陣列上進行 100 次搜索）
+
+如果你在 `N` 中尋找 `M`，複雜度為 `O(m log n)`，
+<br>`m=1000000`，`log(n)=7`（大約值）。
+
+如果你在 `M` 中尋找 `N`，複雜度為 `O(n log m)`，
+<br>`n=100`，`log(m)=20`（大約值）。
+
+在這種情況下，很清楚哪種做法是好的。
+
+實際作法上，你要選擇使用 `O(m+n)` 還是 `O(n log m)`（其中 `n` 小於 `m`）算法的分界點，只能根據經驗來確定。
+這不僅僅是一個弄清楚 `(m+n) < (n log m)` 是否成立的問題，因為二進制搜索涉及到一點開銷，而雙指針方法沒有。
+即使 `(m + n)` 的值是 `(n log m)` 的雙倍或三倍 ，雙指針法也很有可能更快。
+
+### Sort
+
+```js
+function swap(list, i, j) {
+  var ele = list[i];
+  list[i] = list[j];
+  list[j] = ele;
+}
+
+function ascending(a, b) {
+  return a - b;
+}
+function descending(a, b) {
+  return -ascending(a, b);
+}
+
+function selectedIdx(list, from, to, compare) {
+  var selected = from;
+  for (var i = from + 1; i < to; i++) {
+    if (compare(list[i], list[selected]) < 0) {
+      selected = i;
+    }
+  }
+  return selected;
+}
+
+function selectionSort(list, compare) {
+  for (var i = 0; i < list.length; i++) {
+    var selected = selectedIdx(list, i, list.length, compare);
+    if (selected !== i) {
+      swap(list, i, selected);
+    }
+  }
+}
+
+function insertedIdx(list, eleIdx, compare) {
+  for (var i = 0; i < eleIdx; i++) {
+    if (compare(list[i], list[eleIdx]) > 0) {
+      break;
+    }
+  }
+  return i;
+}
+
+function insert(list, eleIdx, inserted) {
+  var ele = list[eleIdx];
+  for (var i = eleIdx; i > inserted; i--) {
+    list[i] = list[i - 1];
+  }
+  list[inserted] = ele;
+}
+
+function insertionSort(list, compare) {
+  for (var i = 0; i < list.length; i++) {
+    var inserted = insertedIdx(list, i, compare);
+    if (inserted !== i) {
+      insert(list, i, inserted);
+    }
+  }
+}
+
+function bubbleTo(list, to, compare) {
+  for (var i = 0; i < to - 1; i++)
+    if (compare(list[i + 1], list[i]) < 0) {
+      swap(list, i + 1, i);
+    }
+}
+
+function bubbleSort(list, compare) {
+  for (var i = 0; i < list.length; i++) {
+    bubbleTo(list, list.length - i, compare);
+  }
+}
+```
+
 ### Quick Sort
 
 ```javascript

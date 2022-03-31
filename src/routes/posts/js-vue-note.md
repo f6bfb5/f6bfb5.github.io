@@ -6,21 +6,21 @@ tags: F2E, JavaScript
 ---
 
 - [Vue.js 30 天隨身包](https://ithelp.ithome.com.tw/users/20107673/ironman/1470)
-- [Vue.js 簡介 | 重新認識 Vue.js | Kuro Hsu](https://book.vue.tw/CH1/1-1-introduction.html)
+- [重新認識 Vue.js](https://book.vue.tw/CH1/1-1-introduction.html)
 - [Vue.js を習得するためにやった事 まとめ（随時更新）](https://qiita.com/i-ryo/items/baa50cf0a6647fe8bd2e)
 - [Vue.js を 100 時間勉強して分かったこと](https://qiita.com/kskinaba/items/3e8887d45b11f9132012)
 - [Vue 開発者のための Vue.js ベストプラクティス集 15 選](https://qiita.com/mtoyopet/items/87a32d8e3497c5421727)
-- [2019 年版 Vue.js を使ってる人には必ず知っていてほしい Vue.js の武器とドキュメントに書かれていないコンポーネントやメンテナンスの際に役立つ Tips - Qiita](https://qiita.com/kahirokunn/items/6b4834b9a13406535f32)
+- [2019 年版 Vue.js を使ってる人には必ず知っていてほしい Vue.js の武器とドキュメントに書かれていないコンポーネントやメンテナンスの際に役立つ Tips](https://qiita.com/kahirokunn/items/6b4834b9a13406535f32)
 - [vue-enterprise-boilerplate](https://github.com/chrisvfritz/vue-enterprise-boilerplate)
 - [Vue 知识点自检清单(上)](https://mp.weixin.qq.com/s?__biz=MzIyMDkwODczNw%3D%3D&mid=2247486027&idx=2&sn=3926be273630a65fc69c4494ce525fa9&chksm=97c597e5a0b21ef3ab889271a3ef15327472d5efb386bd6693949b48d40796f864bc152e9d9b&scene=21#wechat_redirect)
 - [Vue.js を触る際に知っておきたい仮想 DOM の話](https://qiita.com/terry_6518/items/4ecb90fa474895b81b8a)
 - [Vue Custom Transition Component - Milk Midi - Medium](https://medium.com/@milkmidi/vue-custom-transition-component-54fdcb905d77)
-- [Vue.js の v-model を正しく使う - Qiita](https://qiita.com/simezi9/items/c27d69f17d2d08722b3a)
-- [【Vue.js】v-model 解体新書 - Qiita](https://qiita.com/al_tarte/items/0ff49219cd1b25411b7a)
-- [Vue でフォームのコンポーネント化に立ち向かう - Qiita](https://qiita.com/daiend/items/b179bbeae588429107ae)
-- [\[フロントエンド\] うわっ…Component の凝集度、低すぎ？ - Qiita](https://qiita.com/aki202/items/b279fa8097dde82e2730)
-- [無料で Vue.js + express で作った API を Azure Static Web Apps でホストしてみよう - Qiita](https://qiita.com/okazuki/items/54c91343d2b231f4e004)
-- [\[掘竅\] 為什麼畫面沒有隨資料更新 - Vue 響應式原理（Reactivity） ~ PJCHEN der 那些沒告訴你的小細節](https://pjchender.blogspot.com/2017/05/vue-vue-reactivity.html)
+- [Vue.js の v-model を正しく使う](https://qiita.com/simezi9/items/c27d69f17d2d08722b3a)
+- [v-model 解体新書](https://qiita.com/al_tarte/items/0ff49219cd1b25411b7a)
+- [Vue でフォームのコンポーネント化に立ち向かう](https://qiita.com/daiend/items/b179bbeae588429107ae)
+- [うわっ…Component の凝集度、低すぎ？](https://qiita.com/aki202/items/b279fa8097dde82e2730)
+- [無料で Vue.js + express で作った API を Azure Static Web Apps でホストしてみよう](https://qiita.com/okazuki/items/54c91343d2b231f4e004)
+- [為什麼畫面沒有隨資料更新 - Vue 響應式原理（Reactivity）](https://pjchender.blogspot.com/2017/05/vue-vue-reactivity.html)
 
 ## 介紹
 

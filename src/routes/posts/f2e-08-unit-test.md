@@ -6,11 +6,14 @@ tags: F2E
 ---
 
 - [前端工程師在 GitHub 上持續整合與部署(CI/CD)](https://medium.com/yusong-blog/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E5%9C%A8github%E4%B8%8A%E6%8C%81%E7%BA%8C%E6%95%B4%E5%90%88%E8%88%87%E9%83%A8%E7%BD%B2-ci-cd-9735f622ae68)
-- [Chrome の拡張機能を 2 つ使うだけでブラウザの操作を自動化！？ - Qiita](https://qiita.com/Daara_y/items/4f006ead604e015186dc)
-- [Web スクレイピングの注意事項一覧 - Qiita](https://qiita.com/nezuq/items/c5e827e1827e7cb29011)
-- [Python Web スクレイピング テクニック集「取得できない値は無い」JavaScript 対応@追記あり 6/12 - Qiita](https://qiita.com/Azunyan1111/items/b161b998790b1db2ff7a)
+- [Chrome の拡張機能を 2 つ使うだけでブラウザの操作を自動化！？](https://qiita.com/Daara_y/items/4f006ead604e015186dc)
+- [Web スクレイピングの注意事項一覧](https://qiita.com/nezuq/items/c5e827e1827e7cb29011)
+- [Python Web スクレイピング テクニック集「取得できない値は無い」JavaScript 対応](https://qiita.com/Azunyan1111/items/b161b998790b1db2ff7a)
 - [六角學院線上分享單元測試 QA 區](https://hackmd.io/Jsn8miqHQdWUUdqgrIc9Cg)
 - [step-by-step-unit-testing](https://github.com/ms314006/step-by-step-unit-testing)
+- [テストコードを書き始める前に考えるべきテストの話（2021 年版）](https://speakerdeck.com/nihonbuson/scrum-fest-osaka-2021)
+- [如何在前端導入單元測試](https://blog.yyisyou.tw/c91309fe/)
+- [測試該驗證結果還是該驗證細節](https://jaceju.net/to-test-the-detail-or-to-test-the-result/)
 
 ## 1. [Selenium](https://selenium.dev/)
 
@@ -39,7 +42,7 @@ tags: F2E
 ### 參考
 
 - [十分鐘上手前端單元測試 - 使用 Jest](https://wcc723.github.io/development/2020/02/02/jest-intro/)
-- [Jest | 讓 Jest 為你的 Code 做測試-基礎用法教學](https://medium.com/enjoy-life-enjoy-coding/%E8%AE%93-jest-%E7%82%BA%E4%BD%A0%E7%9A%84-code-%E5%81%9A%E5%96%AE%E5%85%83%E6%B8%AC%E8%A9%A6-%E5%9F%BA%E7%A4%8E%E7%94%A8%E6%B3%95%E6%95%99%E5%AD%B8-d898f11d9a23)
+- [讓 Jest 為你的 Code 做測試-基礎用法教學](https://medium.com/enjoy-life-enjoy-coding/%E8%AE%93-jest-%E7%82%BA%E4%BD%A0%E7%9A%84-code-%E5%81%9A%E5%96%AE%E5%85%83%E6%B8%AC%E8%A9%A6-%E5%9F%BA%E7%A4%8E%E7%94%A8%E6%B3%95%E6%95%99%E5%AD%B8-d898f11d9a23)
 
 ## 3. [Cypress](https://www.cypress.io/)
 
@@ -225,20 +228,19 @@ fs.writeFileSync(
 
 - [Puppeteer v2.1.1 API](https://zhaoqize.github.io/puppeteer-api-zh_CN/#/)
 - [Puppeteer でできることまとめ](https://techblog.gmo-ap.jp/2018/12/28/puppeteer%E3%81%A7%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8%E3%81%BE%E3%81%A8%E3%82%81/)
-- [Day 17 Puppeteer API 介紹 - class: Page method part 3 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10202445)
 - [うるるを Puppeteer でスクレイピングしてみた](https://qiita.com/KawamotoShuji/items/878ae659a5c6e540343e)
 - [puppeteer での要素の取得方法](https://qiita.com/go_sagawa/items/85f97deab7ccfdce53ea)
 - [Puppeteer：模拟浏览器操作行为的利器](https://github.com/chenxiaochun/blog/issues/38)
 - [Medium 爬蟲進化史](https://blog.techbridge.cc/2019/07/13/medium-crawler/)
 - [Puppeteer 爬蟲常用技巧](https://blog.typeart.cc/using-puppeteer-crawler-common-skills/)
-- [puppeteer/block-images.js at main · puppeteer/puppeteer](https://github.com/puppeteer/puppeteer/blob/main/examples/block-images.js)
-- [puppeteer/api.md at main · puppeteer/puppeteer](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#pagesetrequestinterceptionvalue)
+- [puppeteer/block-images.js](https://github.com/puppeteer/puppeteer/blob/main/examples/block-images.js)
+- [puppeteer/api.md](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#pagesetrequestinterceptionvalue)
 
 ## 文章
 
-- [\[閒聊\] 笑談軟體測試的幾個階段（一） - 看板 Soft_Job - 批踢踢實業坊](https://www.ptt.cc/bbs/Soft_Job/M.1332567899.A.C00.html)
-- [\[閒聊\] 笑談軟體測試的幾個階段（二） - 看板 Soft_Job - 批踢踢實業坊](https://www.ptt.cc/bbs/Soft_Job/M.1332601969.A.342.html)
-- [\[閒聊\] 笑談軟體測試的幾個階段（三） - 看板 Soft_Job - 批踢踢實業坊](https://www.ptt.cc/bbs/Soft_Job/M.1332681709.A.EB4.html)
-- [\[閒聊\] 笑談軟體測試的幾個階段（四） - 看板 Soft_Job - 批踢踢實業坊](https://www.ptt.cc/bbs/Soft_Job/M.1332697283.A.630.html)
-- [\[閒聊\] 笑談軟體測試的幾個階段（五） 測試權重 - 看板 Soft_Job - 批踢踢實業坊](https://www.ptt.cc/bbs/Soft_Job/M.1332863702.A.076.html)
-- [\[心得\] 笑談軟體測試的幾個階段（六） 歷史代碼 - 看板 Soft_Job - 批踢踢實業坊](https://www.ptt.cc/bbs/Soft_Job/M.1597938487.A.566.html)
+- [\[閒聊\] 笑談軟體測試的幾個階段（一）](https://www.ptt.cc/bbs/Soft_Job/M.1332567899.A.C00.html)
+- [\[閒聊\] 笑談軟體測試的幾個階段（二）](https://www.ptt.cc/bbs/Soft_Job/M.1332601969.A.342.html)
+- [\[閒聊\] 笑談軟體測試的幾個階段（三）](https://www.ptt.cc/bbs/Soft_Job/M.1332681709.A.EB4.html)
+- [\[閒聊\] 笑談軟體測試的幾個階段（四）](https://www.ptt.cc/bbs/Soft_Job/M.1332697283.A.630.html)
+- [\[閒聊\] 笑談軟體測試的幾個階段（五） 測試權重](https://www.ptt.cc/bbs/Soft_Job/M.1332863702.A.076.html)
+- [\[心得\] 笑談軟體測試的幾個階段（六） 歷史代碼](https://www.ptt.cc/bbs/Soft_Job/M.1597938487.A.566.html)
