@@ -20,7 +20,8 @@
 
   const tags = getAllPostsTags(posts);
 
-  let selection = [];
+  import { tagsSelected } from "../components/store.js";
+  // let selection = [];
 
   function getAllPostsYears(posts) {
     let years = [];
@@ -82,10 +83,10 @@
 <div class="container">
   <h1>Articles</h1>
   <!-- TAG FILTER -->
-  <TagsFilter bind:selection {tags} />
+  <TagsFilter bind:$tagsSelected {tags} />
   <!-- ARTICLES -->
   {#each years as year}
-    {#if getAllPostsYears(posts.filter( (p) => arrayContainsAny(p.tags, selection) )).includes(year)}
+    {#if getAllPostsYears(posts.filter( (p) => arrayContainsAny(p.tags, $tagsSelected) )).includes(year)}
       <h2>
         {year}
       </h2>
@@ -93,7 +94,7 @@
     <ul>
       {#each posts
         .filter((p) => new Date(p.printDate).getFullYear() == year)
-        .filter((p) => arrayContainsAny(p.tags, selection)) as post (post.slug)}
+        .filter( (p) => arrayContainsAny(p.tags, $tagsSelected) ) as post (post.slug)}
         <li>
           <div>
             <a rel="prefetch" href={post.slug}>{post.title}</a>
@@ -170,7 +171,7 @@
     }
   }
   ul li a {
-    /* margin-left: 8px; */
+    margin-left: 2px;
     letter-spacing: 0.52px;
     font-size: 1.125em;
   }

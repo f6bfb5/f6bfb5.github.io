@@ -1,5 +1,6 @@
 <script>
-  export let selection;
+  import { tagsSelected } from "../components/store.js";
+  // export let selection;
   export let tags;
 
   function checkAll() {
@@ -7,7 +8,7 @@
     for (let i = 0; i < checkboxes.length; i++) {
       checkboxes[i].checked = false;
     }
-    selection = [];
+    $tagsSelected = [];
   }
 </script>
 
@@ -42,7 +43,7 @@
       name="filterCheckbox"
       id={tag}
       value={tag}
-      bind:group={selection}
+      bind:group={$tagsSelected}
     />
     <label class="tag tag-button" for={tag}>
       <svg
