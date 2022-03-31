@@ -5,7 +5,7 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io/rss.xml" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>Tue, 29 Mar 2022 19:04:53 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 31 Mar 2022 08:53:17 GMT</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -320,9 +320,9 @@
       
 
         <item>
-          <title>JavaScript 筆記 - D3.js</title>
-          <link>https://f6bfb5.github.io/blog/js-d3</link>
-          <pubDate>Mon, 11 Jan 2021 00:07:30 GMT</pubDate>
+          <title>HTML 筆記</title>
+          <link>https://f6bfb5.github.io/blog/html-note</link>
+          <pubDate>Mon, 11 Jan 2021 00:27:30 GMT</pubDate>
           <description>
               undefined
           </description>
@@ -330,8 +330,8 @@
       
 
         <item>
-          <title>JavaScript 筆記 - 如何改寫</title>
-          <link>https://f6bfb5.github.io/blog/js-modern-feature-vs-bad-code</link>
+          <title>JavaScript 筆記 - D3.js</title>
+          <link>https://f6bfb5.github.io/blog/js-d3</link>
           <pubDate>Mon, 11 Jan 2021 00:07:30 GMT</pubDate>
           <description>
               undefined
@@ -810,6 +810,16 @@
       
 
         <item>
+          <title>Vue 筆記 - 靜態網頁產生器 Gridsome</title>
+          <link>https://f6bfb5.github.io/blog/vue-gridsome</link>
+          <pubDate>Sat, 07 Dec 2019 10:48:03 GMT</pubDate>
+          <description>
+              null
+          </description>
+        </item>
+      
+
+        <item>
           <title>Vue 筆記 - fontawesome</title>
           <link>https://f6bfb5.github.io/blog/vue-fontawesome</link>
           <pubDate>Sat, 07 Dec 2019 06:46:15 GMT</pubDate>
@@ -855,16 +865,6 @@
           <pubDate>Fri, 06 Dec 2019 13:19:59 GMT</pubDate>
           <description>
               Tailwind CSS 是一套 Utility-First（以功能性為主）的 CSS 框架，改為把各種 CSS 會用到的屬性簡化為對應的 class，例如 p-8 是 padding: 2rem;、rounded-xl 是 border-radius: 0.75rem;、md:flex 是 @media (min-width: 768px) { display: flex; }，把樣式都直接寫在了 HTML 的 class 上。
-          </description>
-        </item>
-      
-
-        <item>
-          <title>Vue - 靜態網頁產生器 Gridsome</title>
-          <link>https://f6bfb5.github.io/blog/vue-gridsome</link>
-          <pubDate>Fri, 06 Dec 2019 10:48:03 GMT</pubDate>
-          <description>
-              null
           </description>
         </item>
       
