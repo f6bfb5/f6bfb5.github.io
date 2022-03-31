@@ -5,7 +5,7 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io/rss.xml" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>Thu, 31 Mar 2022 09:29:26 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 31 Mar 2022 10:23:28 GMT</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -205,16 +205,6 @@
           <pubDate>Fri, 04 Jun 2021 15:12:53 GMT</pubDate>
           <description>
               是觀眾變得幼稚了嗎？
-          </description>
-        </item>
-      
-
-        <item>
-          <title>擅長教學的人是怎麼做的？</title>
-          <link>https://f6bfb5.github.io/blog/why-can-they-teach-so-good</link>
-          <pubDate>Wed, 21 Apr 2021 20:12:21 GMT</pubDate>
-          <description>
-              undefined
           </description>
         </item>
       
@@ -811,7 +801,7 @@
 
         <item>
           <title>Vue 筆記 - 靜態網頁產生器 Gridsome</title>
-          <link>https://f6bfb5.github.io/blog/vue-gridsome</link>
+          <link>https://f6bfb5.github.io/blog/js-vue-gridsome</link>
           <pubDate>Sat, 07 Dec 2019 10:48:03 GMT</pubDate>
           <description>
               null
@@ -821,7 +811,7 @@
 
         <item>
           <title>Vue 筆記 - fontawesome</title>
-          <link>https://f6bfb5.github.io/blog/vue-fontawesome</link>
+          <link>https://f6bfb5.github.io/blog/js-vue-fontawesome</link>
           <pubDate>Sat, 07 Dec 2019 06:46:15 GMT</pubDate>
           <description>
               null
@@ -831,7 +821,7 @@
 
         <item>
           <title>Vue 筆記 - Router</title>
-          <link>https://f6bfb5.github.io/blog/vue-router</link>
+          <link>https://f6bfb5.github.io/blog/js-vue-router</link>
           <pubDate>Sat, 07 Dec 2019 06:45:15 GMT</pubDate>
           <description>
               null
@@ -841,7 +831,7 @@
 
         <item>
           <title>Vue 筆記 - Vuex</title>
-          <link>https://f6bfb5.github.io/blog/vue-vuex</link>
+          <link>https://f6bfb5.github.io/blog/js-vue-vuex</link>
           <pubDate>Sat, 07 Dec 2019 06:43:15 GMT</pubDate>
           <description>
               null
@@ -851,7 +841,7 @@
 
         <item>
           <title>Vue 筆記</title>
-          <link>https://f6bfb5.github.io/blog/vue-note</link>
+          <link>https://f6bfb5.github.io/blog/js-vue-note</link>
           <pubDate>Sat, 07 Dec 2019 06:42:15 GMT</pubDate>
           <description>
               null
@@ -871,7 +861,7 @@
 
         <item>
           <title>使用 NODECG 妝點直播介面</title>
-          <link>https://f6bfb5.github.io/blog/nodecg</link>
+          <link>https://f6bfb5.github.io/blog/f2e-nodecg</link>
           <pubDate>Wed, 13 Nov 2019 08:48:54 GMT</pubDate>
           <description>
               null
