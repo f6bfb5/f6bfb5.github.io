@@ -122,6 +122,11 @@ ul {
   padding-top: 0.25em;
 }
 
+ol {
+  list-style: none;
+  counter-reset: item;
+}
+
 li {
   padding-bottom: 0.25em;
 }
@@ -132,11 +137,31 @@ li:last-child {
 
 li::marker {
   color: var(--title-color);
+  font-weight: bold;
 }
 
-li p {
+/* li p {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
+} */
+
+li p {
+  padding: 0;
+  font-size: initial;
+  line-height: initial;
+}
+
+ol li {
+  position: relative;
+  counter-increment: item;
+}
+ol li:before {
+  position: absolute;
+  right: 100%;
+  width: fit-content;
+  content: counter(item) ". ";
+  font-weight: bold;
+  color: var(--title-color);
 }
 
 ul li ul {
@@ -157,10 +182,6 @@ a:hover {
 p {
   margin: 0;
   padding: 1em 0;
-}
-
-li p {
-  padding: 0;
 }
 
 p + p {
