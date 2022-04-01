@@ -101,16 +101,19 @@
     background: var(--text-color);
     transition: all 0.3s ease;
   }
-  .tag-button:hover {
-    color: var(--bg-color);
+  @media (hover: hover) {
+    .tag-button:hover {
+      color: var(--bg-color);
+    }
+    .tag-button:hover svg {
+      fill: var(--bg-color);
+    }
+    .tag-button:hover:after {
+      left: 0;
+      width: 100%;
+    }
   }
-  .tag-button:hover svg {
-    fill: var(--bg-color);
-  }
-  .tag-button:hover:after {
-    left: 0;
-    width: 100%;
-  }
+
   .tag-button:active {
     top: 2px;
   }
