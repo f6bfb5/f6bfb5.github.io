@@ -14,6 +14,7 @@ tags: F2E
 - [テストコードを書き始める前に考えるべきテストの話（2021 年版）](https://speakerdeck.com/nihonbuson/scrum-fest-osaka-2021)
 - [如何在前端導入單元測試](https://blog.yyisyou.tw/c91309fe/)
 - [測試該驗證結果還是該驗證細節](https://jaceju.net/to-test-the-detail-or-to-test-the-result/)
+- [小朋友才『寫』測試，成熟的大人都 Property-Based Testing | λ. Thoughts -> Text](https://blog.cybai.dev/intro-pbt/)
 
 ## 1. [Selenium](https://selenium.dev/)
 

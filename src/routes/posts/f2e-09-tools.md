@@ -59,6 +59,8 @@ table td:nth-child(3) {
 | [Squoosh](https://squoosh.app/)                                                                                  | 提供圖片壓縮功能                                   | FREE |
 | [RemoteJS](https://remotejs.com/)                                                                                | 可以 debug 執行在不同裝置上的網頁                  | FREE |
 
+- [CSS Layout Generator](https://layout.bradwoods.io/)
+
 ## CSS 函式庫、框架
 
 - [あなたの CSS 力の助けになってくれる素晴らしい Web サイト 12 選 - Qiita](https://qiita.com/rana_kualu/items/5528b34d409b599bf599?utm_campaign=ab79178ee4-Qiita_newsletter_422_08_05_2020&utm_term=0_e44feaa081-ab79178ee4-34565689)
@@ -96,6 +98,7 @@ table td:nth-child(3) {
 
 - [Tailblocks — Ready-to-use Tailwind CSS blocks](https://tailblocks.cc/)
 - [Flowrift - Features](https://flowrift.com/c/features)
+- [daisyUI — Tailwind CSS Components](https://daisyui.com/)
 - [Destack](https://github.com/LiveDuo/destack)
 
 ## JavaScript 函式庫、框架

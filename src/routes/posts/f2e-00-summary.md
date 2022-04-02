@@ -18,6 +18,7 @@ tags: F2E
 - [成為 Web 開發人員的路線圖](https://github.com/goodjack/developer-roadmap-chinese)
 - [前端工程師養成手冊](https://idoc.hexschool.com/tobef2e/chapter1.html)
 - [邁向前端工程師之路！](https://quip.com/D59vAxcgG8Qc)
+- [紮實的網頁前端學習路線與資源推薦](https://blog.huli.tw/2019/08/21/real-front-end-learning-path/)
 
 ### 技術資源
 
