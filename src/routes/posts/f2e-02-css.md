@@ -1814,8 +1814,12 @@ Element 只允許一層巢狀。也就是說，規範上是不可命名為 `card
 
 ### Atomic CSS 樣式原子化
 
-- [Atomic Design を分かったつもりになる | DeNA DESIGN BLOG](https://design.dena.com/design/atomic-design-%E3%82%92%E5%88%86%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%A4%E3%82%82%E3%82%8A%E3%81%AB%E3%81%AA%E3%82%8B/)
-- [フロントエンドのコンポーネント設計に立ち向かう - Qiita](https://qiita.com/seya/items/8814e905693f00cdade2)
+- [Atomic Design を分かったつもりになる](https://design.dena.com/design/atomic-design-%E3%82%92%E5%88%86%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%A4%E3%82%82%E3%82%8A%E3%81%AB%E3%81%AA%E3%82%8B/)
+- [フロントエンドのコンポーネント設計に立ち向かう](https://qiita.com/seya/items/8814e905693f00cdade2)
+
+### HTML Parts
+
+- [脱・Atomic Design - HTML+CSS コーディングの粒度分類法（HTML Parts）](https://qiita.com/croo_works/items/e34d1b0c0e50b37031d7)
 
 ## 12. 現代 CSS 常見的基礎技術
 
