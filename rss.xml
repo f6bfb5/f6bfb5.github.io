@@ -5,7 +5,7 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io/rss.xml" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>Sat, 02 Apr 2022 10:13:10 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 05 Apr 2022 16:05:41 GMT</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -15,6 +15,26 @@
           <pubDate>Sat, 31 Dec 2022 06:00:00 GMT</pubDate>
           <description>
               這是我 2022 年時，在網路上看過的文章。
+          </description>
+        </item>
+      
+
+        <item>
+          <title>腦內電影院</title>
+          <link>https://f6bfb5.github.io/blog/theater-in-a-brain</link>
+          <pubDate>Sun, 03 Apr 2022 07:20:40 GMT</pubDate>
+          <description>
+              「好個堅強的女孩呢。什麼時候你堅信的現實建構完成了，再來叫我們吧。那時我們會從這個電影院裡出來的。」
+          </description>
+        </item>
+      
+
+        <item>
+          <title>React 筆記</title>
+          <link>https://f6bfb5.github.io/blog/js-react-note</link>
+          <pubDate>Sat, 02 Apr 2022 20:20:57 GMT</pubDate>
+          <description>
+              
           </description>
         </item>
       

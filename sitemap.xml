@@ -3,28 +3,28 @@
   
     <url>
       <loc>https://f6bfb5.github.io/</loc>
-      <lastmod>2022-04-02T10:13:10.071Z</lastmod>
+      <lastmod>2022-04-05T16:05:41.725Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/about</loc>
-      <lastmod>2022-04-02T10:13:10.071Z</lastmod>
+      <lastmod>2022-04-05T16:05:41.725Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/posts</loc>
-      <lastmod>2022-04-02T10:13:10.071Z</lastmod>
+      <lastmod>2022-04-05T16:05:41.726Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/rss</loc>
-      <lastmod>2022-04-02T10:13:10.071Z</lastmod>
+      <lastmod>2022-04-05T16:05:41.726Z</lastmod>
       <priority>1.00</priority>
     </url>
   
@@ -32,6 +32,20 @@
     <url>
       <loc>https://f6bfb5.github.io/2022-what-i-have-read-on-internet</loc>
       <lastmod>2022-12-31T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/theater-in-a-brain</loc>
+      <lastmod>2022-04-03T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/js-react-note</loc>
+      <lastmod>2022-04-02T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
