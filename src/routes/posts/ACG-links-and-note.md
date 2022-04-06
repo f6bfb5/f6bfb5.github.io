@@ -35,6 +35,29 @@ tags: ACG
 - [調査報告書 | 活動報告 | ACCS](https://www2.accsjp.or.jp/research/)：檔案分享軟體使用狀況 crwaling 調查統計
 - [日本におけるアニメ視聴の概況 | eb-i](https://www.f-ism.net/ebi/mreport/r00000000047/)
 
+## [為什麼有些動畫的畫面會突然整個變暗？](http://www.ufotable.info/2014/12/blog-post.html)
+
+電視在播放節目時，為了確保觀眾所獲得的是安全的視聽體驗，不管是什麼節目，在上播前一定會先使用所謂的閃爍檢測器做檢查。這種機械會自動檢查亮度與彩度的變化是否符合「規範」，並進行如增加幀數、調暗畫面這一類降低 "視覺刺激" 的處置。
+以 Fate/stay night [Unlimited Blade Works] 的片頭影片為例。
+當以下的場景（OP_co28）進行檢查
+
+[播放版本]
+
+與在 ufotable 裡製作完成後的做比較
+
+[製作完成版本]
+
+在亮度變化與動作較為劇烈的畫面描寫，
+會因為這種鮮明程度的不同而有決定性的差異，可說是一目瞭然的。
+（Blu-ray 版就沒有這層限制，而是收錄了制作完成後最為忠實的影像畫面）
+另外一個例子是，上個週末播放的 #8 。
+劇中的重頭戲之一，士郎召喚 Saber 的橋段。
+在鮮紅混濁的結界裡閃耀的黃金光輝，以這樣的概念所制作的畫面。
+進行了好幾次檢查，用我們的眼睛決定「就是這個了！」的畫面。
+
+- [與 Harding 的戰鬥 (vs ハーディング)](http://www.ufotable.info/2016/07/vs.html)
+- [支援除去 Harding (閃爍檢測) 的 AviUtl 用腳本](http://park19.wakwak.com/~gadget_factory/factory/anti-harding/index.html)
+
 ---
 
 ## 製作委員會
