@@ -1,5 +1,5 @@
 ---
-title: "docsify - 從 Markdown 即時轉譯成網頁樣板"
+title: "docsify - 即時轉譯 Markdown 成為網頁"
 date: 2020-10-14T03:51:04.000Z
 summary: "Docsify 是一套以 Vue 為基底撰寫，即時解析 markdown 檔案產生網頁頁面的靜態網站產生器，特徵是初始化完畢後，只需要 index.html 和 markdown 檔案即可運作，不需進行 build。"
 tags: Toolbox

@@ -1,5 +1,5 @@
 ---
-title: 過早出現的成人寶可夢？奇妙異色 RPG《Linda Cube》
+title: "過早出現的成人寶可夢？奇妙異色 RPG《Linda Cube》"
 date: 2019-10-29T06:00:00.000Z
 summary: "主角不是勇者。沒有要打倒的邪惡魔王。也絕對無法拯救世界。刻意脫離王道，充滿奇幻和混亂的劇情，正是本作最大的特徵。主角拯救的不是世界和國家，而是奇形怪狀的動物與青梅竹馬的女孩。在桝田的個人網站裡，還特地對這點做了聲明。「我先說了！！這款遊戲裡沒有魔王。你也不是勇者。沒有什麼魔法。不會有人告訴你該去哪裡。不管你怎麼做都無法阻止隕石。」"
 tags: ACG, Game, Translate
@@ -85,3 +85,5 @@ AMD（After Mothers Death，指「地球死亡之後」）1991 年，在和地�
 對於這中間幾經波折的部份有興趣的人，請一定要去看看 Alpha System Mars 的部落格「[Linda Cube Again 正式上架](https://f6bfb5.github.io/ACG-linda-cube-on-ps-archive/)」。
 
 對於 Archive 串流有興趣的人而言，會是段相當有意思的故事。
+
+- [リンダキューブとは - ニコニコ大百科](https://dic.nicovideo.jp/a/%E3%83%AA%E3%83%B3%E3%83%80%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%96)

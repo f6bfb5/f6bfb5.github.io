@@ -1,5 +1,5 @@
 ---
-title: Blog with Svelte
+title: "Blog with Svelte"
 date: 1990-01-02T00:00:00.000Z
 ---
 

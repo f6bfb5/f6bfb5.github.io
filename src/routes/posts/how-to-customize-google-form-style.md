@@ -1,8 +1,8 @@
 ---
-title: "自訂 Google 表單的外觀"
+title: "如何自訂 Google 表單樣式"
 date: 2020-06-10T14:59:54.000Z
 summary:
-tags: Google
+tags: F2E, Google
 ---
 
 ## 事前準備
@@ -16,7 +16,7 @@ tags: Google
 5. 尋找所有提問的 id
    <br>├ `name=[提問 ID]`
    <br>└ 通常為 `entry.xxxxxxx`，可使用此關鍵字快速搜尋
-6. 撰寫自訂表格網頁，並將傳送行為綁定至自訂的傳送按鍵上
+6. 另外撰寫表格網頁，並將傳送行為綁定至自訂的傳送按鍵上
 
 ## 傳送表單
 
@@ -74,4 +74,4 @@ export default {
 
 - [独自フォームと Google フォームを連携してかっこよくスマートにアンケート回収する - Qiita](https://qiita.com/inoue2002/items/78dac54dba93ea4a087a)
 - [【2020 年最新版】カスタマイズしたフォームから JavaScript で Google フォームに回答を送信 - Qiita](https://qiita.com/Robot-Inventor/items/56e2b7b69760d045fad3)
-- [【GAS】自動返信機能付き Google フォームの作り方 – Valmore](https://valmore.work/auto-response-from-google-form/)
+- [【GAS】自動返信機能付き Google フォームの作り方](https://valmore.work/auto-response-from-google-form/)

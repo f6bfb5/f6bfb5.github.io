@@ -1,5 +1,5 @@
 ---
-title: "使用 NODECG 妝點直播介面"
+title: "使用 NodeCG 妝點直播介面"
 date: 2019-11-13T08:48:54.000Z
 summary:
 tags: F2E

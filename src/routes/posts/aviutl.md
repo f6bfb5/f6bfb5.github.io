@@ -1,5 +1,5 @@
 ---
-title: "強大的免費影片剪輯、後製軟體 Aviutl"
+title: "強大、免費的影片剪輯、後製軟體 Aviutl"
 date: 2021-01-05T01:58:08.000Z
 summary:
 tags: Toolbox

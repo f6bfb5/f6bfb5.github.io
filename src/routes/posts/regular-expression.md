@@ -149,3 +149,15 @@ urlsForTest.forEach((url) => {
 | [Regulex](<https://jex.im/regulex/#!flags=&re=%5E(a%7Cb)*%3F%24>) | 圖象化表達式內容       |
 | [iHateRegex](https://ihateregex.io/)                              | 表達式 snippet         |
 | [Regex Crossword](https://regexcrossword.com/)                    | 正規表達式字謎遊戲     |
+
+## 正規表達式的漏洞（ReDoS）
+
+- [正規表現の脆弱性 (ReDoS) を JavaScript で学ぶ](http://nmi.jp/2022-02-18-Understanding-ReDoS)
+- 並非侵入系統內部類型的漏洞，而是會導致無限迴圈造成執行阻塞的漏洞
+- 例如以下程式碼，會花上超過 3000ms 的執行時間：
+  ```javascript
+  console.time();
+  /\s+$/.test(" ".repeat(65536) + "a");
+  console.timeEnd();
+  ```
+- 與使用的語言環境無關，而和 RegEx 的內部實作模式有關

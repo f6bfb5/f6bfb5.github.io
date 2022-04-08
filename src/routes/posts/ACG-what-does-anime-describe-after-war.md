@@ -5,7 +5,7 @@ summary:
 tags: ACG, Anime, Translate
 ---
 
-文章來源：[戦後アニメーションは何を描いてきたか](https://note.mu/masashi3122/n/naef51e9b3569)（已失效）
+文章來源：[戦後アニメーションは何を描いてきたか](https://note.mu/masashi3122/n/naef51e9b3569)
 
 ---
 
