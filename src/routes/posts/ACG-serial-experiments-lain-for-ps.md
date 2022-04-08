@@ -35,8 +35,6 @@ tags: ACG, Anime, Game
 
 官方另有推出腳本集 [scenario experiments lain](https://www.amazon.co.jp/scenario-experiments-lain%EF%BC%8F%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%84-%E3%83%AC%E3%82%A4%E3%83%B3-%E6%96%B0%E8%A3%85%E7%89%88-%E5%B0%8F%E4%B8%AD%E5%8D%83%E6%98%AD/dp/4835445678)、導覽攻略 [visual experiments lain](https://www.amazon.co.jp/visual-experiments-lain-%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%84-%E3%83%AC%E3%82%A4%E3%83%B3/dp/4835449509) 以及畫冊 [An omnipresence in wired](https://www.amazon.co.jp/omnipresence-wired-%E3%80%8Elain%E3%80%8F-%E7%94%BB%E9%9B%86-%E5%AE%89%E5%80%8D-%E5%90%89%E4%BF%8A/dp/4789713431)、[yoshitoshi ABe lain illustrations](https://www.amazon.co.jp/yoshitoshi-ABe-lain-illustrations-%E5%AE%89%E5%80%8D/dp/4898294871)，其中也收錄了遊戲中唯一缺乏的資料「Dc1029」── 一則短篇漫畫「The nightmare of fabrication」。
 
-而今年起我也嘗試著手遊戲版的中文翻譯，目前目標是每天至少發布一支影片，慢慢做至少會能在年內做完，有興趣的人歡迎參考[我的頻道](https://www.youtube.com/channel/UCQ9EBAyukJWov6vWXPi8izg)。（雖然開始做之後才發現先前也有人做過[簡體中文版的翻譯](https://crowdin.com/project/lain-psx)了，但看起來沒有繼續維護。我的版本完成後也會整理並提供給 laingame.net。）
-
 ## 相關連結
 
 - [lain 動畫版官方網站](https://www.nbcuni.co.jp/rondorobe/anime/lain/)
