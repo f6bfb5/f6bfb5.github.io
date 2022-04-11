@@ -11,9 +11,11 @@ table {
 }
 table td:nth-child(1) {
   width: 25%;
+  padding-left: 2em;
 }
 table td:nth-child(3) {
   width: 20%;
+  text-align: center;
 }
 </style>
 
@@ -21,86 +23,84 @@ table td:nth-child(3) {
 
 ## 系統
 
-| 名稱                                                                                                               | 說明                             | 付費     |
-| ------------------------------------------------------------------------------------------------------------------ | -------------------------------- | -------- |
-| [wox](http://www.wox.one/)                                                                                         | 快速執行程式                     | FREE     |
-| [orchis](http://www.eonet.ne.jp/~gorota/)                                                                          | 快速執行程式                     | FREE     |
-| [CLaunch](https://hp.vector.co.jp/authors/VA018351/en/claunch.html)                                                | 快速開啟資料夾                   | FREE     |
-| [Divvy](https://mizage.com/divvy/)                                                                                 | 切割視窗位置                     | 具付費版 |
-| [Rufus](https://rufus.ie/)                                                                                         | 簡易建立可開機 USB 裝置          | FREE     |
-| [TreeSize](https://www.jam-software.com/treesize_free/)                                                            | 分析硬碟檔案空間佔用分佈         | FREE     |
-| [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)                                      | 對弱點目標具作用的搜尋字串資料庫 | FREE     |
-| [SysinternalsSuite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)                    | 微軟發佈的疑難排解工具套件       | FREE     |
-| [Auslogics Disk Defrag](https://www.auslogics.com/en/software/disk-defrag/)                                        | 硬碟重組                         | 具付費版 |
-| [4gb_patch](https://ntcore.com/?page_id=371)                                                                       |                                  |          |
-| [Debug Monitor Tool](<https://docs.microsoft.com/ja-jp/previous-versions/bb896647(v=msdn.10)?redirectedfrom=MSDN>) |                                  |          |
-| [Ctrl2cap](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap)                                       | 將 Caps Lock 鍵切換成 Ctrl 鍵    | FREE     |
-
-- [PIME](https://github.com/EasyIME/PIME/releases)
-  新酷音輸入法，包含可在 Windows 11 上使用的舊注音輸入法。
-- [NTFSLinksView](https://www.nirsoft.net/utils/ntfs_links_view.html)
-  顯示所有的 symbolic link
-- [ShellExView](https://www.nirsoft.net/utils/shexview.html)
-  管理 shell
-- CrystalDiskInfo
-- CrystalDiskMark
-- [Autoruns for Windows](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)
-- [HWMONITOR](https://www.cpuid.com/softwares/hwmonitor.html#version-history)
-  監測系統狀況
-- [RunCat](https://github.com/Kyome22/RunCat_for_windows)
-- [Geek Uninstaller](https://geekuninstaller.com/)
-- [Hayabusa](https://itib.hatenablog.com/entry/2021/12/31/222946)
-  快速檢測 Windows 事件
+| 名稱                                                                                                               | 說明                                                                           | 付費     |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | -------- |
+| [Ninite](https://ninite.com/)                                                                                      | 一次快速安裝各種軟體                                                           | FREE     |
+| [Flow Launcher](https://www.flowlauncher.com/)                                                                     | 快速執行程式與各種功能的 launcher，[wox](http://www.wox.one/) 似乎已經不再維護 | FREE     |
+| [Everything](https://www.voidtools.com/downloads/)                                                                 | 超級快速的檔案搜索工具                                                         | FREE     |
+| [Geek Uninstaller](https://geekuninstaller.com/)                                                                   | 會將關聯檔案一同刪除的程式反安裝工具                                           | 具付費版 |
+| [Bulk Crap Uninstaller](https://www.bcuninstaller.com/)                                                            |                                                                                | FREE     |
+| [PIME](https://github.com/EasyIME/PIME/releases)                                                                   | 新酷音輸入法，包含可在 Windows 11 上使用的舊注音輸入法。                       | FREE     |
+| [orchis](http://www.eonet.ne.jp/~gorota/)                                                                          | 快速執行程式                                                                   | FREE     |
+| [CLaunch](https://hp.vector.co.jp/authors/VA018351/en/claunch.html)                                                | 快速開啟資料夾                                                                 | FREE     |
+| [Divvy](https://mizage.com/divvy/)                                                                                 | 切割視窗位置                                                                   | 具付費版 |
+| [Rufus](https://rufus.ie/)                                                                                         | 簡易建立可開機 USB 裝置                                                        | FREE     |
+| [TreeSize](https://www.jam-software.com/treesize_free/)                                                            | 分析硬碟檔案空間佔用分佈                                                       | FREE     |
+| [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)                                      | 對弱點目標具作用的搜尋字串資料庫                                               | FREE     |
+| [SysinternalsSuite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)                    | 微軟發佈的疑難排解工具套件                                                     | FREE     |
+| [Auslogics Disk Defrag](https://www.auslogics.com/en/software/disk-defrag/)                                        | 硬碟重組                                                                       | 具付費版 |
+| [4gb_patch](https://ntcore.com/?page_id=371)                                                                       | 讓 32 位元的應用程式也能使用超過 4GB 的記憶體（可能沒有效果）                  | FREE     |
+| [Debug Monitor Tool](<https://docs.microsoft.com/ja-jp/previous-versions/bb896647(v=msdn.10)?redirectedfrom=MSDN>) |                                                                                | FREE     |
+| [Ctrl2cap](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap)                                       | 將 Caps Lock 鍵切換成 Ctrl 鍵的功能                                            | FREE     |
+| [NTFSLinksView](https://www.nirsoft.net/utils/ntfs_links_view.html)                                                | 顯示所有的 symbolic link                                                       | FREE     |
+| [ShellExView](https://www.nirsoft.net/utils/shexview.html)                                                         | 管理 shell                                                                     | FREE     |
+| [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)                                       | 檢視各種系統相關的檔案與設定                                                   | FREE     |
+| [HWMONITOR](https://www.cpuid.com/softwares/hwmonitor.html#version-history)                                        | 監測系統狀況                                                                   | FREE     |
+| [Hayabusa](https://itib.hatenablog.com/entry/2021/12/31/222946)                                                    | 快速檢測 Windows 事件                                                          | FREE     |
+| CrystalDiskInfo                                                                                                    |                                                                                | FREE     |
+| CrystalDiskMark                                                                                                    |                                                                                | FREE     |
+| [RunCat](https://github.com/Kyome22/RunCat_for_windows)                                                            |                                                                                | FREE     |
 
 ### 檔案
 
-| 名稱                                                    | 說明                         | 付費 |
-| ------------------------------------------------------- | ---------------------------- | ---- |
-| PowerToys                                               | 微軟推出的多功能系統輔助軟體 | FREE |
-| [Paper Plane xUI](http://toro.d.dooo.jp/slppx.html#ppx) | 快速執行檔案相關處理         | FREE |
-| [AntRenamer](https://antp.be/software/renamer)          | 快速規則式重新命名大量檔案   | FREE |
-| [Unlocker](http://emptyloop.com/unlocker/)              | 強制解除檔案使用鎖定狀態     | FREE |
-| [FastCopy](https://fastcopy.jp/en/)                     | 快速複製／備份檔案           | FREE |
-| TakeOwnership                                           |                              |      |
+| 名稱                                                          | 說明                               | 付費 |
+| ------------------------------------------------------------- | ---------------------------------- | ---- |
+| [PowerToys](https://github.com/microsoft/PowerToys)           | 微軟推出的多功能系統輔助軟體       | FREE |
+| [Tablacus Explorer](https://tablacus.github.io/explorer.html) | 可擴張、多功能、多視窗的檔案瀏覽器 | FREE |
+| [NyanFi](http://nekomimi.la.coocan.jp/freesoft/nyanfi.htm)    | 以鍵盤為主體操作的雙視窗檔案瀏覽器 | FREE |
+| [Paper Plane xUI](http://toro.d.dooo.jp/slppx.html#ppx)       | 快速執行檔案相關處理               | FREE |
+| [AntRenamer](https://antp.be/software/renamer)                | 快速規則式重新命名大量檔案         | FREE |
+| [Unlocker](http://emptyloop.com/unlocker/)                    | 強制解除檔案使用鎖定狀態           | FREE |
+| [FastCopy](https://fastcopy.jp/en/)                           | 快速複製／備份檔案                 | FREE |
 
 <details>
 
 <summary>Paper Plane xUI（PPX） Shotcut key</summary>
 
-| 按鍵               | 功能                                             |
-| ------------------ | ------------------------------------------------ |
-| Shift + ↑ カーソル | ページアップ                                     |
-| Shift + ↓ カーソル | ページダウン                                     |
-| Shift + <          | 一覧の先頭にカーソルを移動                       |
-| Shift + >          | 一覧の末尾にカーソルを移動                       |
-| Ctrl + →           | 次に進む(履歴)                                   |
-| Ctrl + ←           | 前に戻る(履歴)                                   |
-| TAB                | 次の PPC へ                                      |
-| / カーソル         | 以降／以前をすべてマーク                         |
-| --                 | --                                               |
-| C                  | コピー                                           |
-| D                  | カーソル位置/マーク対象をごみ箱へ移動            |
-| E                  | テキストエディタで編集                           |
-| F                  | ファイルマスク(カレントディレクトリのみ)         |
-| G                  | 反対の窓と場所を入れ替える                       |
-| H                  | ファイル名を指定して実行                         |
-| J                  | インクリメンタルサーチ (Shift + J コンソール）　 |
-| --                 | --                                               |
-| K                  | ディレクトリ作成                                 |
-| L                  | ディレクトリ移動(直接入力)                       |
-| M                  | ファイルを移動                                   |
-| P                  | 書庫作成(LHA)                                    |
-| Q                  | 終了(確認無し)                                   |
-| R                  | 名前を変更                                       |
-| S                  | ソート(カレントのみ)                             |
-| U                  | 書庫解凍                                         |
-| X                  | コマンド入力実行(ファイル名付き)                 |
-| Y                  | PPv で表示(フォーカス移動無し)                   |
-| Z                  | カーソル位置のファイルを開く(Shell 依存)         |
-| 0                  | ヒストリー&登録ディレクトリ                      |
-| 1 ～ 9             | ドライブ移動                                     |
-| F5                 | ディレクトリ再読込                               |
-| TAB                | 次の PPC へ                                      |
+| 按鍵               | 功能                                              |
+| ------------------ | ------------------------------------------------- |
+| Shift + ↑ カーソル | ページアップ                                      |
+| Shift + ↓ カーソル | ページダウン                                      |
+| Shift + <          | 一覧の先頭にカーソルを移動                        |
+| Shift + >          | 一覧の末尾にカーソルを移動                        |
+| Ctrl + →           | 次に進む（履歴）                                  |
+| Ctrl + ←           | 前に戻る（履歴）                                  |
+| TAB                | 次の PPC へ                                       |
+| / カーソル         | 以降／以前をすべてマーク                          |
+| --                 | --                                                |
+| C                  | コピー                                            |
+| D                  | カーソル位置/マーク対象をごみ箱へ移動             |
+| E                  | テキストエディタで編集                            |
+| F                  | ファイルマスク（カレントディレクトリのみ）        |
+| G                  | 反対の窓と場所を入れ替える                        |
+| H                  | ファイル名を指定して実行                          |
+| J                  | インクリメンタルサーチ （Shift + J コンソール）　 |
+| --                 | --                                                |
+| K                  | ディレクトリ作成                                  |
+| L                  | ディレクトリ移動（直接入力）                      |
+| M                  | ファイルを移動                                    |
+| P                  | 書庫作成（LHA）                                   |
+| Q                  | 終了（確認無し）                                  |
+| R                  | 名前を変更                                        |
+| S                  | ソート（カレントのみ）                            |
+| U                  | 書庫解凍                                          |
+| X                  | コマンド入力実行（ファイル名付き）                |
+| Y                  | PPv で表示（フォーカス移動無し）                  |
+| Z                  | カーソル位置のファイルを開く（Shell 依存）        |
+| 0                  | ヒストリー&登録ディレクトリ                       |
+| 1 ～ 9             | ドライブ移動                                      |
+| F5                 | ディレクトリ再読込                                |
+| TAB                | 次の PPC へ                                       |
 
 - [Paper Plane xUI help](http://toro.d.dooo.jp/ppxhlp.html)
 - [デフォルトキーコンフィグ - \* PPC デフォルトキーコンフィグ](https://web.archive.org/web/20060628053009/http://aetermv.hp.infoseek.co.jp/cgi-bin/pyuki/wiki.cgi?%a5%c7%a5%d5%a5%a9%a5%eb%a5%c8%a5%ad%a1%bc%a5%b3%a5%f3%a5%d5%a5%a3%a5%b0)
@@ -118,16 +118,15 @@ table td:nth-child(3) {
 
 ## 文件
 
-| 名稱                                                               | 說明                                               | 付費 |
-| ------------------------------------------------------------------ | -------------------------------------------------- | ---- |
-| [Notepad++](https://notepad-plus-plus.org/)                        | 開源的強大文字編輯器                               | FREE |
-| [TeraPad](https://tera-net.com/library/tpad.html)                  |                                                    | FREE |
-| [HxD](https://mh-nexus.de/en/hxd/)                                 | Freeware Hex Editor and Disk Editor                |      |
-| [Stirling](https://www.vector.co.jp/soft/win95/util/se079072.html) | Binary Editor                                      |      |
-| [Obsidian](https://obsidian.md/)                                   | 可以運用內部連結做成卡片盒形式的 Markdown 筆記軟體 |      |
-| [Text2MindMap](https://tobloef.com/text2mindmap/)                  | 文字版心智圖                                       | FREE |
-
-- [pytesseract](https://pypi.org/project/pytesseract/)
+| 名稱                                                               | 說明                                           | 付費 |
+| ------------------------------------------------------------------ | ---------------------------------------------- | ---- |
+| [Notepad++](https://notepad-plus-plus.org/)                        | 開源的強大文字編輯器                           | FREE |
+| [TeraPad](https://tera-net.com/library/tpad.html)                  | 老牌的高效能文字編輯器                         | FREE |
+| [HxD](https://mh-nexus.de/en/hxd/)                                 | Freeware Hex Editor and Disk Editor            |      |
+| [Stirling](https://www.vector.co.jp/soft/win95/util/se079072.html) | Binary Editor                                  |      |
+| [Obsidian](https://obsidian.md/)                                   | 可以將 Markdown 筆記轉換成內部連結卡片盒的軟體 |      |
+| [Text2MindMap](https://tobloef.com/text2mindmap/)                  | 文字版心智圖                                   | FREE |
+| [pytesseract](https://pypi.org/project/pytesseract/)               | 辨識圖片文字的 library                         | FREE |
 
 ```python
 try:
@@ -186,10 +185,10 @@ outputfile.close()
 | [Putty](https://www.putty.org/)                                            | SSH and telnet client                               | FREE |
 | [MobaXterm](https://mobaxterm.mobatek.net/)                                | tabbed SSH client                                   | FREE |
 | [TCPView](https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview) | show detailed listings of all TCP and UDP endpoints | FREE |
-| [ngrok](https://ngrok.com/)                                                |                                                     |      |
+| [ngrok](https://ngrok.com/)                                                | make a public ip                                    |      |
 | [xlight](https://www.xlightftpd.com/)                                      | Windows FTP and SFTP Server                         |      |
 | [HFS](https://www.rejetto.com/hfs/)                                        | HTTP File Server                                    |      |
-| [croc](https://github.com/schollz/croc)                                    |                                                     |      |
+| [croc](https://github.com/schollz/croc)                                    | securely transfer files between 2 computers         |      |
 | [Send Anywhere](https://send-anywhere.com/)                                |                                                     |      |
 | [AdapterWatch](https://www.nirsoft.net/utils/awatch.html)                  | 監測網路卡使用狀況                                  | FREE |
 | [CurrPorts](https://www.nirsoft.net/utils/cports.html)                     | 監測應用程式使用的網路 port                         | FREE |
@@ -217,8 +216,15 @@ outputfile.close()
 
 ### chrome 插件
 
-- [Feedbro](https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa)
-- [公開 RSS 配信一覧 - ニコニコ動画](https://www.nicovideo.jp/rss)
+| 名稱                                                                                                                               | 說明                                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| [Feedbro](https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa)                                      | RSS 訂閱插件。[ニコニコ動画](https://www.nicovideo.jp/rss)、[ライブドアブログ](https://help.blogpark.jp/archives/52366452.html) |
+| [終結內容農場](https://chrome.google.com/webstore/detail/content-farm-terminator/lcghoajegeldpfkfaejegfobkapnemjl)                 | 要是感到厭煩，放棄也是一種選擇啊。                                                                                              |
+| [DOM Distiller Reading Mode](https://chrome.google.com/webstore/detail/dom-distiller-reading-mod/oiembdaoobijmdmeobkalaehgifealpl) | 只擷取並顯示網站的主要部份文字內容                                                                                              |
+| [HeadingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi)                              | 快速顯示網站內容結構                                                                                                            |
+| [Neat URL](https://chrome.google.com/webstore/detail/neat-url/jchobbjgibcahbheicfocecmhocglkco)                                    | 移除網址上的多餘內容                                                                                                            |
+| [TabAttack](https://chrome.google.com/webstore/detail/tabattack/ginflokhdahakklidfjlogllkkhokidj)                                  | 轉換瀏覽頁面成為 markdown 格式                                                                                                  |
+| [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)                                        | 使用類似 Vim 編輯器的方式瀏覽網站                                                                                               |
 
 ### 資安
 
@@ -234,22 +240,18 @@ outputfile.close()
 
 ### 留存資訊
 
-#### [Quotebacks - Quote the web](https://quotebacks.net/)
+- [Quotebacks - Quote the web](https://quotebacks.net/)
 
-<blockquote class="quoteback" darkmode="" data-title="ネットでなにも発信しないのが最適解になってきた" data-author="@hatenaanond" cite="https://anond.hatelabo.jp/20211017124401">
-<p>結果、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%8D%E3%83%83%E3%83%88" target="_blank" rel="noopener">ネット</a>では当たり<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%81%95%E3%82%8F%E3%82%8A" target="_blank" rel="noopener">さわり</a>のないことだけ書いて、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%8D%E3%83%83%E3%83%88" target="_blank" rel="noopener">ネット</a>では誰とも<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E4%BA%A4%E6%B5%81" target="_blank" rel="noopener">交流</a>しないのが最適解になってきた。</p><p><a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%8D%E3%83%83%E3%83%88" target="_blank" rel="noopener">ネット</a>で発信すること<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E8%87%AA%E4%BD%93" target="_blank" rel="noopener">自体</a>が<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%AA%E3%82%B9%E3%82%AF" target="_blank" rel="noopener">リスク</a>だし、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88" target="_blank" rel="noopener">メリット</a>ないし、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E4%B8%8D%E5%BF%AB" target="_blank" rel="noopener">不快</a>な思いするだけっていう<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E4%B8%96%E7%95%8C" target="_blank" rel="noopener">世界</a>になりつつある。</p>
-<footer>@hatenaanond<cite> <a href="https://anond.hatelabo.jp/20211017124401">https://anond.hatelabo.jp/20211017124401</a></cite></footer>
-</blockquote><script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
+  - 網頁服務，備份網路上的文字內容與來源，可手動將內容貼至網頁內的文字框，或使用所提供的 Bookmarklet 可於反白選取文字後快速產生備份內容。
+  <blockquote class="quoteback" darkmode="" data-title="ネットでなにも発信しないのが最適解になってきた" data-author="@hatenaanond" cite="https://anond.hatelabo.jp/20211017124401">
+  <p>結果、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%8D%E3%83%83%E3%83%88" target="_blank" rel="noopener">ネット</a>では当たり<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%81%95%E3%82%8F%E3%82%8A" target="_blank" rel="noopener">さわり</a>のないことだけ書いて、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%8D%E3%83%83%E3%83%88" target="_blank" rel="noopener">ネット</a>では誰とも<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E4%BA%A4%E6%B5%81" target="_blank" rel="noopener">交流</a>しないのが最適解になってきた。</p><p><a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%8D%E3%83%83%E3%83%88" target="_blank" rel="noopener">ネット</a>で発信すること<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E8%87%AA%E4%BD%93" target="_blank" rel="noopener">自体</a>が<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%AA%E3%82%B9%E3%82%AF" target="_blank" rel="noopener">リスク</a>だし、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88" target="_blank" rel="noopener">メリット</a>ないし、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E4%B8%8D%E5%BF%AB" target="_blank" rel="noopener">不快</a>な思いするだけっていう<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E4%B8%96%E7%95%8C" target="_blank" rel="noopener">世界</a>になりつつある。</p>
+  <footer>@hatenaanond<cite> <a href="https://anond.hatelabo.jp/20211017124401">https://anond.hatelabo.jp/20211017124401</a></cite></footer>
+  </blockquote><script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
 
-網頁服務，備份網路上的文字內容與來源，可手動將內容貼至網頁內的文字框，或使用所提供的 Bookmarklet 可於反白選取文字後快速產生備份內容。
-
-#### [WorldBrain's Memex](https://getmemex.com/)
-
-Chrome 插件，除了可備份網頁成為書籤，也可畫線標註重點，或於其上加入文字註記與標籤，並可設計客製化的匯出格式，方便整合至其他筆記軟體內。
-
-#### [Home : Hypothesis](https://web.hypothes.is/)
-
-Chrome 插件，可共同協作註解或劃記並討論一篇網頁文章的內容。
+- [WorldBrain's Memex](https://getmemex.com/)
+  - Chrome 插件，除了可備份網頁成為書籤，也可畫線標註重點，或於其上加入文字註記與標籤，並可設計客製化的匯出格式，方便整合至其他筆記軟體內。
+- [Hypothesis](https://web.hypothes.is/)
+  - Chrome 插件，可共同協作註解或劃記並討論一篇網頁文章的內容。
 
 ## 遠端協作
 
@@ -259,12 +261,11 @@ Chrome 插件，可共同協作註解或劃記並討論一篇網頁文章的內�
 
 ## 影音播放
 
-| 名稱                                                               | 說明 | 付費 |
-| ------------------------------------------------------------------ | ---- | ---- |
-| [mpv](https://mpv.io/)                                             |      |      |
-| [Foobar2000](https://www.foobar2000.org/)                          |      |      |
-| [MangaMeeya](https://mangameeya.softonic.jp/)                      |      |      |
-| [LCDDelayChecker](http://bygzam.seesaa.net/article/110314791.html) |      |      |
+| 名稱                                          | 說明 | 付費 |
+| --------------------------------------------- | ---- | ---- |
+| [mpv](https://mpv.io/)                        |      |      |
+| [Foobar2000](https://www.foobar2000.org/)     |      |      |
+| [MangaMeeya](https://mangameeya.softonic.jp/) |      |      |
 
 ### MangaMeeya
 
@@ -289,6 +290,6 @@ RGB24へ変換(false)
 | [Youtube-dl](https://mrs0m30n3.github.io/youtube-dl-gui/)                                                              |      |      |
 | [動画ゲッター](https://www.douga-getter.com/)                                                                          |      |      |
 | [TwitchLeecher](https://github.com/Franiac/TwitchLeecher/releases)                                                     |      |      |
-| [kakorokuRecorder154](https://jp.videoproc.com/record/kakorokurecorder-download-install.htm)                           |      |      |
+| [kakorokuRecorder](https://jp.videoproc.com/record/kakorokurecorder-download-install.htm)                              |      |      |
 | [ニコ生の録画方法 まとめ](https://ch.nicovideo.jp/nico-lab/blomaga/ar8759)                                             |      |      |
 | [FlickrDownloader](https://weils.net/blog/2017/01/10/flickr-downloader-%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BC%89%E5%99%A8/) |      |      |

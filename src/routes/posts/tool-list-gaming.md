@@ -11,9 +11,11 @@ table {
 }
 table td:nth-child(1) {
   width: 25%;
+  padding-left: 2em;
 }
 table td:nth-child(3) {
   width: 20%;
+  text-align: center;
 }
 </style>
 
@@ -23,16 +25,15 @@ table td:nth-child(3) {
 | -------------------------------------------------------------------------------------------------------- | -------------- | ---- |
 | [PassMark Software - Video Card (GPU) Benchmark Charts](https://www.videocardbenchmark.net/gpu_list.php) | 顯示卡測分網站 | FREE |
 | [DisplaySpecifications](https://www.displayspecifications.com/en)                                        | 螢幕測資       | FREE |
-| [Best TVs & Monitors for Gaming: Input Lag Database](https://displaylag.com/display-database/)           | 顯示延遲測資   | FREE |
-| [Reviews and Ratings - RTINGS.com](https://www.rtings.com/)                                              | 電視測資       | FREE |
-| [TV Reviews 2018 \- Best 4K HDR LED, OLED & QLED TVs](https://www.hdtvtest.co.uk/)                       | 電視測資       | FREE |
+| [Input Lag Database](https://displaylag.com/display-database/)                                           | 顯示延遲測資   | FREE |
+| [RTINGS.com](https://www.rtings.com/)                                                                    | 電視測資       | FREE |
 
 ### 螢幕測試工具
 
-| 名稱                                                                                 | 說明         | 付費 |
-| ------------------------------------------------------------------------------------ | ------------ | ---- |
-| [LCD monitor test images](http://www.lagom.nl/lcd-test/)                             | 螢幕測試工具 | FREE |
-| [LCD Delay Checker - Tari Lari Run](http://bygzam.seesaa.net/article/110314791.html) | 螢幕延遲測試 | FREE |
+| 名稱                                                                 | 說明                                         | 付費 |
+| -------------------------------------------------------------------- | -------------------------------------------- | ---- |
+| [LCD monitor test images](http://www.lagom.nl/lcd-test/)             | 測試對比、銳利度、輝度、灰階等效果的工具網站 | FREE |
+| [LCD Delay Checker](http://bygzam.seesaa.net/article/110314791.html) | 螢幕延遲測試                                 | FREE |
 
 ## 遊戲輔助工具
 
@@ -40,7 +41,6 @@ table td:nth-child(3) {
 | ----------------------------------------------------------------------------------- | -------------------------- | ---- |
 | [PS3_Sixaxis_Driver](http://blog.livedoor.jp/ebiflynageruyo/archives/38271889.html) | PS3 手把驅動程式           | FREE |
 | [JoyToKey](https://joytokey.net/en/)                                                | 使用手把模擬鍵盤行為       | FREE |
-| [x360ce](https://www.x360ce.com/)                                                   |                            |      |
 | [HTML5 Gamepad Tester](http://html5gamepad.com/)                                    | 手把功能測試網站           | FREE |
 | [Memory Hack Software](http://memoryhacking.com/)                                   |                            |      |
 | [WinIPS](http://fuji.drillspirits.net/winips/)                                      | 掛載 IPS 至 SFC 遊戲       | FREE |

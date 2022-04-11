@@ -11,9 +11,11 @@ table {
 }
 table td:nth-child(1) {
   width: 25%;
+  padding-left: 2em;
 }
 table td:nth-child(3) {
   width: 20%;
+  text-align: center;
 }
 </style>
 
@@ -28,18 +30,16 @@ table td:nth-child(3) {
 
 ## 圖片處理
 
-| 名稱                                                                          | 說明                   | 付費 |
-| ----------------------------------------------------------------------------- | ---------------------- | ---- |
-| [GIMP](https://www.gimp.org/downloads/)                                       | 免費開源的圖片處理軟體 | FREE |
-| [Affinity Photo](https://affinity.serif.com/en-gb/photo/)                     | PhotoShop 的類似軟體   | ＄   |
-| [PhotoSift](https://www.rlvision.com/photosift/about.php)                     | 使用鍵盤快速分類圖片   | FREE |
-| [Ralpha Image Resizer](https://www.vector.co.jp/soft/winnt/art/se487522.html) | 批次化處理圖片         | FREE |
-| [ウゴツール](https://mclover.hateblo.jp/UgoTool)                              | 產生類似動態塗鴉的效果 | FREE |
-
-- [Gifski](https://gif.ski/)
-- apngasm
-- Pngyu
-- [製作準則 - LINE Creators Market](https://creator.line.me/zh-hant/guideline/animationsticker/detail/)
+| 名稱                                                                          | 說明                        | 付費 |
+| ----------------------------------------------------------------------------- | --------------------------- | ---- |
+| [GIMP](https://www.gimp.org/downloads/)                                       | 免費開源的圖片處理軟體      | FREE |
+| [Affinity Photo](https://affinity.serif.com/en-gb/photo/)                     | PhotoShop 的類似軟體        | ＄   |
+| [PhotoSift](https://www.rlvision.com/photosift/about.php)                     | 使用鍵盤快速分類圖片        | FREE |
+| [Ralpha Image Resizer](https://www.vector.co.jp/soft/winnt/art/se487522.html) | 批次化處理圖片              | FREE |
+| [ウゴツール](https://mclover.hateblo.jp/UgoTool)                              | 製作動態塗鴉效果圖片        | FREE |
+| [Gifski](https://gif.ski/)                                                    | 號稱最高品質的 GIF 壓縮程式 | FREE |
+| [apngasm](http://apngasm.sourceforge.net/)                                    | 以一系列圖片製作 APNG 動圖  | FREE |
+| [Pngyu](https://nukesaq88.github.io/Pngyu/)                                   | 壓縮 PNG 檔案               | FREE |
 
 ## 影片
 
@@ -170,28 +170,6 @@ table td:nth-child(3) {
 - [#14 : 動画素材 ② ｜ cossy ｜ note](https://note.com/cossy/n/n1120eb304754)
 
 ## 字體
-
-現在我使用於各種環境裡的字體：
-
-| 類型                     | 名稱                 |
-| ------------------------ | -------------------- |
-| 標準字型                 | UD Digi Kyokasho N-R |
-| Serif（襯線）字型        | UD Digi Kyokasho N-R |
-| Sans-serif（無襯線）字型 | Osaka-Mono           |
-| 固定寬度字型             | Myrica M             |
-
-UD Digi Kyokasho（UD デジタル教科書体）為微軟內建字型，是森澤所開發的泛用設計字型，特別加強了文字的可讀性，降低閱讀所需要的負擔。無後綴（N-R）為全等寬字體， P（NP-R）為英數寬度增縮字體，K（NK-R）為英數與部分符號寬度增縮字體。
-
-- [ユニバーサルフォントについて](https://www.pen-kanagawa.ed.jp/ayase-h/gaiyou/documents/030412ayasemi.pdf)
-
-Osaka 為移植自 Mac 的同名字型，於 Mac OS 8.5 至 9.2.2 為系統標準字型，並亦收錄於 Mac OS X、OS X 以及 macOS Sierra 內，是以平成角ゴシック和 Geneva（標準）和 Monaco（等寬）組合而成。
-
-SH G-30 為移植自 Sharp 特別針對攜帶電子閱讀器開發的 LC 字型，始於當初為了改善液晶螢幕與 CRT 顯示方式不同導致的閱讀疲勞，重新調整了文字的中心、部首平衡與骨幹幅度，改善了文字顯示的鋸齒感、過細感與不均衡感。任天堂的攜帶遊戲主機 DS 也採用了此字型。
-
-- [ＬＣ（液晶）フォント](https://corporate.jp.sharp/rd/journala-69/pdf/69-18.pdf)
-- [液晶表示用オリジナルフォント＜ＬＣフォント＞](https://jp.sharp/products/lcd/glossary/lcfont.html)
-
-Myrica 為以 Inconsolata、源真ゴシック以及 Mgen+ 所組合而成的字型，針對許多容易混淆的文字（ex. 1、l、I、| 和「一」與破折號，O 與 0，具半濁點的平假名等等）進一步改善了可讀性。
 
 ### 等寬
 
@@ -335,3 +313,11 @@ Myrica 為以 Inconsolata、源真ゴシック以及 Mgen+ 所組合而成的字
 
 - [フォントの館](https://www.ne.jp/asahi/krk/kct/font/index.htm)
 - [FREE JAPANESE FONTS](https://www.freejapanesefont.com/)
+
+UD Digi Kyokasho（UD デジタル教科書体）為微軟內建字型，是森澤所開發的泛用設計字型，特別加強了文字的可讀性，降低閱讀所需要的負擔。無後綴（N-R）為全等寬字體， P（NP-R）為英數寬度增縮字體，K（NK-R）為英數與部分符號寬度增縮字體。（[ユニバーサルフォントについて](https://www.pen-kanagawa.ed.jp/ayase-h/gaiyou/documents/030412ayasemi.pdf)）
+
+Osaka 為移植自 Mac 的同名字型，於 Mac OS 8.5 至 9.2.2 為系統標準字型，並亦收錄於 Mac OS X、OS X 以及 macOS Sierra 內，是以平成角ゴシック和 Geneva（標準）和 Monaco（等寬）組合而成。
+
+SH G-30 為移植自 Sharp 特別針對攜帶電子閱讀器開發的 LC 字型，始於當初為了改善液晶螢幕與 CRT 顯示方式不同導致的閱讀疲勞，重新調整了文字的中心、部首平衡與骨幹幅度，改善了文字顯示的鋸齒感、過細感與不均衡感。任天堂的攜帶遊戲主機 DS 也採用了此字型。（[ＬＣ（液晶）フォント](https://corporate.jp.sharp/rd/journala-69/pdf/69-18.pdf)、[液晶表示用オリジナルフォント＜ＬＣフォント＞](https://jp.sharp/products/lcd/glossary/lcfont.html)）
+
+Myrica 為以 Inconsolata、源真ゴシック以及 Mgen+ 所組合而成的字型，針對許多容易混淆的文字（ex. 1、l、I、| 和「一」與破折號，O 與 0，具半濁點的平假名等等）進一步改善了可讀性。
