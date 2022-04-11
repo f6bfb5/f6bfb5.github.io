@@ -68,6 +68,8 @@
     "https://www.nicovideo.jp/watch/sm24550780",
     // 削除動画
     "https://www.nicovideo.jp/watch/sm38213757",
+    // [決意表明] 会社辞めてninja250で日本一周 phase 0
+    "https://www.nicovideo.jp/watch/sm30344277",
   ];
 
   function getRandomEleFromArr(arr) {

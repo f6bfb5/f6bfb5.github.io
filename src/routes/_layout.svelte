@@ -6,8 +6,6 @@
   import GoogleAdsense from "../components/GoogleAdsense.svelte";
   import Favicon from "../components/Favicon.svelte";
 
-  import EasterEgg from "../components/EasterEgg.svelte";
-
   let ga_measurement_id = "UA-114661136-2";
   let ga_client_id = "ca-pub-9613661448556355";
 
@@ -26,8 +24,6 @@
   </main>
 
   <Footer />
-
-  <EasterEgg />
 </div>
 
 <style>
