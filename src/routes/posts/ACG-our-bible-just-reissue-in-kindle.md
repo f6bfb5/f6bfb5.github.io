@@ -48,5 +48,7 @@ layout: blog
 
 正是在有新劇場版的這個時代，才更推薦各位閱讀本書。
 
+## 購買連結
+
 - [『スキゾ・エヴァンゲリオン』](http://www.amazon.co.jp/o/ASIN/B00NPWMDC8/ex-news-22/)
 - [『パラノ・エヴァンゲリオン』](http://www.amazon.co.jp/o/ASIN/B00NPWMDD2/ex-news-22/)

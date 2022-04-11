@@ -127,3 +127,7 @@ summary: "這是我 2020 年時，在網路上看過的文章。"
 - [【デスストランディング】荷物を配達するゲームは面白いのか？【特別編第 6 回-ゲーム夜話】](https://www.nicovideo.jp/watch/sm35944133)
 - [【聖剣伝説 LOM 考察】居心地のいい世界【第 64 回前編-ゲーム夜話】](https://www.nicovideo.jp/watch/sm35895689)
 - [【マザー 2】バファリンと MOTHER はやさしさでできている【第 50 回後編-ゲーム夜話】](https://nico.ms/sm34826699)
+- [Every Frame a Painting 告別心得感言（中文翻譯）](https://brettlin-78528.medium.com/every-frame-a-painting-%E5%91%8A%E5%88%A5%E5%BF%83%E5%BE%97%E6%84%9F%E8%A8%80-%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AD%AF-c46ade3e93db)
+- [暴露年齡的電視畫面，藏著你不知道的祕密](https://technews.tw/2020/08/01/story-of-tv-test-card/)
+- [【泛哲學】在談論音樂作品時，我們想的是同一個東西嗎？](https://philomedium.com/blog/81361)
+- [怎样背单词 - Andy (@Andy)](https://matters.news/@Andy/%E6%80%8E%E6%A0%B7%E8%83%8C%E5%8D%95%E8%AF%8D-bafyreigp7nm4walobps5f4qvngmqaistcgb5yy76oeffe27ueclce3e7g4)

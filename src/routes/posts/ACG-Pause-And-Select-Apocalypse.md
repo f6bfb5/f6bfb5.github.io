@@ -49,8 +49,6 @@ tags: ACG, Anime, Comic, Translate
   }
 </script>
 
-註：中文字幕使用外掛方式載入，如果未載入成功，請重新整理頁面。
-
 <iframe id="video-1" title="Pause and Select Understanding the Disaster 1" src="https://www.youtube.com/embed/kvvUiXc6m7U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - 日文翻譯：https://nico.ms/sm33744630

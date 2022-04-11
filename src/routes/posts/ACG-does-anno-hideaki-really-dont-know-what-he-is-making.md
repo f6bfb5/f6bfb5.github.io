@@ -74,16 +74,10 @@ tags: ACG, Anime, Evangelion
 > 本企畫為，回歸至這個原點上，在原有的「巨大機器人動畫」的魅力裡，
 > <br>重新挖掘並發現其全新的獨特之處。
 
-也要感謝 YouTube 演算法某天突然推了我 [The Curse of Evangelion](https://www.youtube.com/watch?v=rHIvs0Q-uKI) 這支影片，裡面開門見山就提到「《3.33》常得到糟糕的評價，但想理解整個新劇場版系列，與其如何評論整個 EVA 系列，《3.33》是不可或缺的關鍵」、「『本週怪獸』確實既誘人又有趣，人們卻會忘記使徒的起源和動機並不重要，（略）你可以在維基百科上找到一大堆詳細資料，但沒有必要，因為作品的核心是在談論逃避與孤獨」，並且非常詳細解釋了電視版、舊劇到新劇的內容脈絡，以至相關主題的延伸討論，是我目前看過認為做得最好並且最完整，而且相當容易理解、不難入口的評論。
-
 ## 相關資料
 
-- [アニメ様的七嘴八舌 第 58 回 EVA 雜記 「第二十五話 結束的世界」](./ACG-animesama-58-eva-end-of-world)
-- [アニメ様的七嘴八舌 第 59 回 EVA 雜記 「第二十六話 在世界的中心呼喊愛的野獸](./ACG-animesama-59-eva-monster-shout-for-love-in-the-center-of-world)
-- [關於渚薰的一切——幾原邦彥訪談](./ACG-all-about-kaworu-ikuhara-kunihiko-interview)
 - [我們當年的聖經在 Kindle 上復刻了 《新世紀福音戰士．分裂》、《新世紀福音戰士．偏執》](./ACG-our-bible-just-reissue-in-kindle)
 - [The End of Evangelion 中的恐嚇信](http://orgsun.blogspot.com/2011/05/end-of-evangelion.html)
 - [《新世紀福音戰士》 舊劇場版 紅十字書 鶴卷和哉訪談](./ACG-eoe-interview)
-- [動畫會變得無聊，都是《新世紀福音戰士》的錯](./ACG-curse-of-anime-evangelion)
-- [庵野秀明談及幻之《EVA》劇場版新作「驚人地與《進擊的巨人》如出一轍」](./ACG-world-of-anno-hideaki-interview)
+- [關於渚薰的一切——幾原邦彥訪談](./ACG-all-about-kaworu-ikuhara-kunihiko-interview)
 - [PAS 動畫評論 次文化與末世論](./ACG-Pause-And-Select-Apocalypse)
