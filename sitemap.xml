@@ -3,28 +3,28 @@
   
     <url>
       <loc>https://f6bfb5.github.io/</loc>
-      <lastmod>2022-04-12T12:59:30.492Z</lastmod>
+      <lastmod>2022-04-12T20:03:15.038Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/about</loc>
-      <lastmod>2022-04-12T12:59:30.492Z</lastmod>
+      <lastmod>2022-04-12T20:03:15.038Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/posts</loc>
-      <lastmod>2022-04-12T12:59:30.492Z</lastmod>
+      <lastmod>2022-04-12T20:03:15.038Z</lastmod>
       <priority>1.00</priority>
     </url>
   
 
     <url>
       <loc>https://f6bfb5.github.io/rss</loc>
-      <lastmod>2022-04-12T12:59:30.492Z</lastmod>
+      <lastmod>2022-04-12T20:03:15.038Z</lastmod>
       <priority>1.00</priority>
     </url>
   
@@ -32,6 +32,13 @@
     <url>
       <loc>https://f6bfb5.github.io/2022-what-i-have-read-on-internet</loc>
       <lastmod>2022-12-31T00:00:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+
+    <url>
+      <loc>https://f6bfb5.github.io/search-engine-operators</loc>
+      <lastmod>2022-04-11T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
@@ -102,13 +109,6 @@
     <url>
       <loc>https://f6bfb5.github.io/use-foobar2k-to-listen-to-podcast</loc>
       <lastmod>2021-12-02T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/chrome-extension</loc>
-      <lastmod>2021-11-30T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
@@ -212,20 +212,6 @@
   
 
     <url>
-      <loc>https://f6bfb5.github.io/html-note</loc>
-      <lastmod>2021-01-11T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/js-snippet-and-note</loc>
-      <lastmod>2021-01-11T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
       <loc>https://f6bfb5.github.io/ACG-note</loc>
       <lastmod>2021-01-10T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
@@ -289,13 +275,6 @@
   
 
     <url>
-      <loc>https://f6bfb5.github.io/docsify</loc>
-      <lastmod>2020-10-14T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
       <loc>https://f6bfb5.github.io/ACG-problems-about-taiwan-students-facing-japan-culture</loc>
       <lastmod>2020-10-06T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
@@ -326,34 +305,6 @@
     <url>
       <loc>https://f6bfb5.github.io/ACG-interview-of-jojo-sakuga-director</loc>
       <lastmod>2020-08-27T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/google-app-script-note</loc>
-      <lastmod>2020-08-25T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/svelte-note</loc>
-      <lastmod>2020-08-12T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/google-sheet-as-database</loc>
-      <lastmod>2020-07-23T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/generate-presentation-from-markdown</loc>
-      <lastmod>2020-07-11T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
@@ -415,21 +366,7 @@
   
 
     <url>
-      <loc>https://f6bfb5.github.io/how-to-customize-google-form-style</loc>
-      <lastmod>2020-06-10T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
       <loc>https://f6bfb5.github.io/ACG-ginza-demonstration</loc>
-      <lastmod>2020-05-25T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/push-page-to-github</loc>
       <lastmod>2020-05-25T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
@@ -480,34 +417,6 @@
     <url>
       <loc>https://f6bfb5.github.io/lyrics-the-pillows-funny-bunny</loc>
       <lastmod>2019-12-26T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/js-vue-fontawesome</loc>
-      <lastmod>2019-12-07T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/css-tailwind</loc>
-      <lastmod>2019-12-06T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/f2e-nodecg</loc>
-      <lastmod>2019-11-13T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/css-susy3</loc>
-      <lastmod>2019-11-09T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
@@ -576,13 +485,6 @@
   
 
     <url>
-      <loc>https://f6bfb5.github.io/regular-expression</loc>
-      <lastmod>2019-09-17T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
       <loc>https://f6bfb5.github.io/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful</loc>
       <lastmod>2019-08-27T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
@@ -604,13 +506,6 @@
   
 
     <url>
-      <loc>https://f6bfb5.github.io/editor-Emmet</loc>
-      <lastmod>2019-07-21T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
       <loc>https://f6bfb5.github.io/mpv</loc>
       <lastmod>2019-07-19T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
@@ -620,76 +515,6 @@
     <url>
       <loc>https://f6bfb5.github.io/lyrics-joanne-hogg-stars-of-tears</loc>
       <lastmod>2019-07-19T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/f2e-09-tools</loc>
-      <lastmod>2019-07-18T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/f2e-08-unit-test</loc>
-      <lastmod>2019-07-18T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/f2e-07-devtool</loc>
-      <lastmod>2019-07-18T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/f2e-06-editor-and-extension</loc>
-      <lastmod>2019-07-18T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/f2e-05-git</loc>
-      <lastmod>2019-07-18T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/f2e-04-tasker-and-bundler</loc>
-      <lastmod>2019-07-18T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/f2e-03-javascript</loc>
-      <lastmod>2019-07-18T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/f2e-02-css</loc>
-      <lastmod>2019-07-18T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/f2e-01-html</loc>
-      <lastmod>2019-07-18T00:00:00.000Z</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-
-    <url>
-      <loc>https://f6bfb5.github.io/f2e-00-summary</loc>
-      <lastmod>2019-07-18T00:00:00.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   

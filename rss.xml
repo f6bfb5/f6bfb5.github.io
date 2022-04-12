@@ -5,7 +5,7 @@
       <link>https://f6bfb5.github.io</link>
       <atom:link href="https://f6bfb5.github.io/rss.xml" rel="self" type="application/rss+xml"/>
       <description>This is f6bfb5's blog.</description>
-      <lastBuildDate>Tue, 12 Apr 2022 12:59:30 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 12 Apr 2022 20:03:15 GMT</lastBuildDate>
       <managingEditor>f6bfb5@gmail.com (f6bfb5)</managingEditor>
 
       
@@ -15,6 +15,16 @@
           <pubDate>Sat, 31 Dec 2022 06:00:00 GMT</pubDate>
           <description>
               這是我 2022 年時，在網路上看過的文章。
+          </description>
+        </item>
+      
+
+        <item>
+          <title>為了能找到想要的內容 好用的搜尋相關參數</title>
+          <link>https://f6bfb5.github.io/blog/search-engine-operators</link>
+          <pubDate>Mon, 11 Apr 2022 23:03:34 GMT</pubDate>
+          <description>
+              
           </description>
         </item>
       
@@ -113,16 +123,6 @@
           <title>用 Foobar2000 來聽 Podcast</title>
           <link>https://f6bfb5.github.io/blog/use-foobar2k-to-listen-to-podcast</link>
           <pubDate>Thu, 02 Dec 2021 19:33:28 GMT</pubDate>
-          <description>
-              undefined
-          </description>
-        </item>
-      
-
-        <item>
-          <title>Chrome 擴充功能</title>
-          <link>https://f6bfb5.github.io/blog/chrome-extension</link>
-          <pubDate>Tue, 30 Nov 2021 14:31:12 GMT</pubDate>
           <description>
               undefined
           </description>
@@ -270,26 +270,6 @@
       
 
         <item>
-          <title>HTML 筆記</title>
-          <link>https://f6bfb5.github.io/blog/html-note</link>
-          <pubDate>Mon, 11 Jan 2021 00:27:30 GMT</pubDate>
-          <description>
-              undefined
-          </description>
-        </item>
-      
-
-        <item>
-          <title>JavaScript 筆記 - Snippet 與筆記</title>
-          <link>https://f6bfb5.github.io/blog/js-snippet-and-note</link>
-          <pubDate>Mon, 11 Jan 2021 00:07:30 GMT</pubDate>
-          <description>
-              undefined
-          </description>
-        </item>
-      
-
-        <item>
           <title>ACG 雜記</title>
           <link>https://f6bfb5.github.io/blog/ACG-note</link>
           <pubDate>Sun, 10 Jan 2021 04:29:12 GMT</pubDate>
@@ -380,16 +360,6 @@
       
 
         <item>
-          <title>docsify - 即時轉譯 Markdown 成為網頁</title>
-          <link>https://f6bfb5.github.io/blog/docsify</link>
-          <pubDate>Wed, 14 Oct 2020 03:51:04 GMT</pubDate>
-          <description>
-              Docsify 是一套以 Vue 為基底撰寫，即時解析 markdown 檔案產生網頁頁面的靜態網站產生器，特徵是初始化完畢後，只需要 index.html 和 markdown 檔案即可運作，不需進行 build。
-          </description>
-        </item>
-      
-
-        <item>
           <title>在教育台灣學生零零年代的日本文學時所面對的諸問題與日後展望</title>
           <link>https://f6bfb5.github.io/blog/ACG-problems-about-taiwan-students-facing-japan-culture</link>
           <pubDate>Tue, 06 Oct 2020 22:17:41 GMT</pubDate>
@@ -435,46 +405,6 @@
           <pubDate>Thu, 27 Aug 2020 21:37:25 GMT</pubDate>
           <description>
               在這篇文章裡，我們向西村輝實問道，關於以 Netflix 為首，進年開始進軍日本動畫業界的，海外資本的產業狀況。
-          </description>
-        </item>
-      
-
-        <item>
-          <title>Google App Script 筆記</title>
-          <link>https://f6bfb5.github.io/blog/google-app-script-note</link>
-          <pubDate>Tue, 25 Aug 2020 03:21:09 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
-          <title>Svelte 筆記</title>
-          <link>https://f6bfb5.github.io/blog/svelte-note</link>
-          <pubDate>Wed, 12 Aug 2020 22:05:02 GMT</pubDate>
-          <description>
-              Svelte 是套秉持「Write less code」的精神，為了建構 UI 而生的編譯器，不同於 Vue 和 React 這類框架在瀏覽器上執行處理，而是先在編譯階段就完成建構，因此擁有相對優秀的執行速度與檔案大小表現。
-          </description>
-        </item>
-      
-
-        <item>
-          <title>讓 Google Sheet 用作資料庫</title>
-          <link>https://f6bfb5.github.io/blog/google-sheet-as-database</link>
-          <pubDate>Thu, 23 Jul 2020 00:40:12 GMT</pubDate>
-          <description>
-              Google 所提供的 Sheet API 可以直接將 Sheet 內容轉換成 JSON 格式輸出，亦可接受從外部傳進資料，修改 Sheet 裡的內容，並且都有提供 CORS 支援，可以免於處理跨域的困擾。
-          </description>
-        </item>
-      
-
-        <item>
-          <title>Marp - 在 VSCode 上使用 Markdown 檔案產生投影片</title>
-          <link>https://f6bfb5.github.io/blog/generate-presentation-from-markdown</link>
-          <pubDate>Sat, 11 Jul 2020 20:13:35 GMT</pubDate>
-          <description>
-              null
           </description>
         </item>
       
@@ -560,31 +490,11 @@
       
 
         <item>
-          <title>如何自訂 Google 表單樣式</title>
-          <link>https://f6bfb5.github.io/blog/how-to-customize-google-form-style</link>
-          <pubDate>Wed, 10 Jun 2020 14:59:54 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
           <title>我找到了當年幻之銀座動畫示威，要求改善現場制作條件的傳單</title>
           <link>https://f6bfb5.github.io/blog/ACG-ginza-demonstration</link>
           <pubDate>Mon, 25 May 2020 22:44:55 GMT</pubDate>
           <description>
               這次「銀座示威」是頭一次由動畫聲優、動畫師、制作公司的經營者、工會成員、非工會成員，一同表示要求提高制作費、改善制作條件。
-          </description>
-        </item>
-      
-
-        <item>
-          <title>推送網頁到 GitHub Pages</title>
-          <link>https://f6bfb5.github.io/blog/push-page-to-github</link>
-          <pubDate>Mon, 25 May 2020 00:26:32 GMT</pubDate>
-          <description>
-              null
           </description>
         </item>
       
@@ -655,46 +565,6 @@
           <pubDate>Thu, 26 Dec 2019 11:43:00 GMT</pubDate>
           <description>
               undefined
-          </description>
-        </item>
-      
-
-        <item>
-          <title>Vue 筆記 - fontawesome</title>
-          <link>https://f6bfb5.github.io/blog/js-vue-fontawesome</link>
-          <pubDate>Sat, 07 Dec 2019 06:46:15 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
-          <title>CSS - Tailwind CSS 把樣式都寫在 HTML class 上</title>
-          <link>https://f6bfb5.github.io/blog/css-tailwind</link>
-          <pubDate>Fri, 06 Dec 2019 13:19:59 GMT</pubDate>
-          <description>
-              Tailwind CSS 是一套 Utility-First（以功能性為主）的 CSS 框架，改為把各種 CSS 會用到的屬性簡化為對應的 class，例如 p-8 是 padding: 2rem;、rounded-xl 是 border-radius: 0.75rem;、md:flex 是 @media (min-width: 768px) { display: flex; }，把樣式都直接寫在了 HTML 的 class 上。
-          </description>
-        </item>
-      
-
-        <item>
-          <title>使用 NodeCG 妝點直播介面</title>
-          <link>https://f6bfb5.github.io/blog/f2e-nodecg</link>
-          <pubDate>Wed, 13 Nov 2019 08:48:54 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
-          <title>CSS - Susy 3 快速計算排版欄寬與間隔的 library</title>
-          <link>https://f6bfb5.github.io/blog/css-susy3</link>
-          <pubDate>Sat, 09 Nov 2019 00:32:49 GMT</pubDate>
-          <description>
-              Susy 是一套 Sass 的響應式版面引擎，在還沒有 flexbox 和 grid 的時候，Susy 提供了一系列的 Sass function ，可以搭配變數快速計算出網格分割的尺寸、處理斷點變版，讓工程師不再需要苦於自行處理數值，到了 Susy 3 之後，則簡化成了可以與 flexbox 和 float 搭配使用的功能性 library。
           </description>
         </item>
       
@@ -790,16 +660,6 @@
       
 
         <item>
-          <title>正規表達式 Regular Expression</title>
-          <link>https://f6bfb5.github.io/blog/regular-expression</link>
-          <pubDate>Tue, 17 Sep 2019 20:08:26 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
           <title>【歌詞翻譯】齊藤和義 - 空に星が綺麗</title>
           <link>https://f6bfb5.github.io/blog/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful</link>
           <pubDate>Tue, 27 Aug 2019 11:36:56 GMT</pubDate>
@@ -830,16 +690,6 @@
       
 
         <item>
-          <title>使用 Emmet 快速完成內容</title>
-          <link>https://f6bfb5.github.io/blog/editor-Emmet</link>
-          <pubDate>Sun, 21 Jul 2019 13:47:08 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
           <title>免安裝單一程式看遍所有影片！簡潔強大的播放器 mpv</title>
           <link>https://f6bfb5.github.io/blog/mpv</link>
           <pubDate>Fri, 19 Jul 2019 15:18:13 GMT</pubDate>
@@ -855,106 +705,6 @@
           <pubDate>Fri, 19 Jul 2019 12:33:15 GMT</pubDate>
           <description>
               undefined
-          </description>
-        </item>
-      
-
-        <item>
-          <title>前端筆記 (9) Toolbox</title>
-          <link>https://f6bfb5.github.io/blog/f2e-09-tools</link>
-          <pubDate>Thu, 18 Jul 2019 07:09:00 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
-          <title>前端筆記 (8) 網頁測試</title>
-          <link>https://f6bfb5.github.io/blog/f2e-08-unit-test</link>
-          <pubDate>Thu, 18 Jul 2019 07:08:00 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
-          <title>前端筆記 (7) Devtool</title>
-          <link>https://f6bfb5.github.io/blog/f2e-07-devtool</link>
-          <pubDate>Thu, 18 Jul 2019 07:07:00 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
-          <title>前端筆記 (6) 編輯器與相關資源</title>
-          <link>https://f6bfb5.github.io/blog/f2e-06-editor-and-extension</link>
-          <pubDate>Thu, 18 Jul 2019 07:06:00 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
-          <title>前端筆記 (5) Git</title>
-          <link>https://f6bfb5.github.io/blog/f2e-05-git</link>
-          <pubDate>Thu, 18 Jul 2019 07:05:00 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
-          <title>前端筆記 (4) 自動化工具</title>
-          <link>https://f6bfb5.github.io/blog/f2e-04-tasker-and-bundler</link>
-          <pubDate>Thu, 18 Jul 2019 07:04:00 GMT</pubDate>
-          <description>
-              undefined
-          </description>
-        </item>
-      
-
-        <item>
-          <title>前端筆記 (3) JavaScript</title>
-          <link>https://f6bfb5.github.io/blog/f2e-03-javascript</link>
-          <pubDate>Thu, 18 Jul 2019 07:03:00 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
-          <title>前端筆記 (2) CSS</title>
-          <link>https://f6bfb5.github.io/blog/f2e-02-css</link>
-          <pubDate>Thu, 18 Jul 2019 07:02:00 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
-          <title>前端筆記 (1) HTML</title>
-          <link>https://f6bfb5.github.io/blog/f2e-01-html</link>
-          <pubDate>Thu, 18 Jul 2019 07:01:00 GMT</pubDate>
-          <description>
-              null
-          </description>
-        </item>
-      
-
-        <item>
-          <title>前端筆記 (0) 總整理</title>
-          <link>https://f6bfb5.github.io/blog/f2e-00-summary</link>
-          <pubDate>Thu, 18 Jul 2019 07:00:00 GMT</pubDate>
-          <description>
-              null
           </description>
         </item>
       
