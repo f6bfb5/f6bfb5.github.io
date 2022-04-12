@@ -1,8 +1,8 @@
 <footer>
   <a
-    href="https://creativecommons.org/licenses/by-sa/4.0/"
+    href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
     target="_blank"
-    rel="noreferrer noopener nofollow">CC BY-SA 4.0.</a
+    rel="noreferrer noopener nofollow">CC BY-NC-SA 4.0</a
   >
   <div class="right">
     Made with <span class="heart">❤️</span> and
