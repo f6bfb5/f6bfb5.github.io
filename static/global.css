@@ -300,6 +300,21 @@ th {
   padding: 0.4em 0.8em;
 }
 
+tbody > tr {
+  position: relative;
+}
+tbody > tr:after {
+  content: "";
+  position: absolute;
+  width: 97.5%;
+  height: 0;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  border-top: 1px solid var(--subtext-color);
+}
+
+
 td {
   padding: 0.4em 0.8em;
 }
