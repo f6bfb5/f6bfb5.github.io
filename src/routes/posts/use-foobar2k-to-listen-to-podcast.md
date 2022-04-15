@@ -6,7 +6,7 @@ tags: Toolbox
 
 去年疫情爆發，Podcast 順勢在台灣爆紅，不免俗地也跟風聽了一陣子，這邊推薦兩份表單：[稍微分析了一下我的 Podcast 收聽紀錄 2018-2020](https://blog.yorkxin.org/posts/podcast-analysis.html)、[榨乾你的耳：親自用耳朵聽過的 Podcast Awesome List](https://medium.com/starrocket/maxine-podcast-awesome-list-5f864deb072b)，從上面發現了很多有趣的節目。
 
-雖然因為收聽 Podcast 實在還是蠻花費時間的，之後已經沒什麼在聽了，不過還在收聽的時候，一直有幾個問題很困擾我：一些平台的預設播放順序是從新往舊播、每個人的節目音量大小會有落差且播放平台無法解決，老實說非常地惱人，而且難以理解的是，前者不只一個大型平台這樣設計，時代是不是越活越回去了？
+雖然因為收聽 Podcast 實在還是蠻花費時間的，之後已經沒什麼在聽了，不過還在收聽的時候，一直有幾個問題很困擾我：一些平台的預設播放順序是從新往舊播、每個人的節目音量大小會有落差且播放平台無法解決，老實說非常地惱人。
 
 ## Foobar2000
 
@@ -14,7 +14,7 @@ tags: Toolbox
 - [foobar2000: Components Repository - Podcatcher](https://www.foobar2000.org/components/view/foo_podcatcher)
 - [foobar2000: Components Repository - ReplayGain DSP](https://www.foobar2000.org/components/view/foo_dsp_replaygain)
 
-最後滿足我的反而是老牌免費播放器――Foobar2000，搭配「Podcatcher」和「ReplayGain DSP」這兩個插件。
+最後滿足我的，反而是老牌免費播放器――Foobar2000，搭配「Podcatcher」和「ReplayGain DSP」這兩個插件。
 
 Podcatcher 可以讓 foobar2000 自動更新與下載所訂閱的 Podcast 節目，雖然最後更新已經是十年前的事情，近期爆紅的 Podcast 實際上也不算是什麼新東西，目前仍然可以正常使用。
 
@@ -43,6 +43,6 @@ Podcatcher 可以讓 foobar2000 自動更新與下載所訂閱的 Podcast 節目
 
 原本聲音小到會令人抓狂（大概是因為完全沒做調整，這類節目的音量聽起來只有到 -18db 甚至更低，在特定平台上根本聽不了）的節目馬上變得舒服許多，也能同時顯示所有已訂閱的創作者的新節目，不需要再一個一個點開來看新節目有沒有興趣，收聽體驗有了飛躍性的改善。
 
-不過這種收聽方式也有一些缺點：無法標記節目是否已聽過、有些 Podcaster 因為檔案命名因素（ex. 呱吉的檔案名稱都會是「rssFileVip.mp3」）在下載時會有問題、節目敘述需要特別點開內容來看…等等。
+不過這種收聽方式也有一些缺點：無法標記節目是否已聽過、有些 Podcaster 因為檔案命名因素（ex. 呱吉的錄音檔案名稱都會是「rssFileVip.mp3」）在下載時會有問題、節目敘述需要特別點開內容來看…等等。
 
 節目敘述大多是節目重點整理、補充資料或業配相關資訊，也能從選單裡點開來看，問題不大。前兩者就比較麻煩，尤其是檔名重複問題，時常會莫名播放到和所選完全不同的節目，例如點了某一集新資料夾，卻播起了人生晚長，就得把已經抓下來的檔案刪掉後再重新點擊播放，目前也沒有新的替代插件能用，算是比較遺憾的待改善點。
