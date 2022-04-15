@@ -1,9 +1,15 @@
 const path = require("path");
+// syntax highlight
 const prism = require("prismjs");
-const marked = require("marked");
+// markdown parser and compiler
+// const marked = require("marked");
+import { marked } from "marked";
+// parse YAML front matter
 const matter = require("gray-matter");
+// date utility library
 const formatDate = require("date-fns/format");
 const readingTime = require("reading-time");
+
 const fs = require("fs");
 const createTitleImage = require("./src/utils/title-image.js");
 
@@ -32,6 +38,9 @@ renderer.link = (href, title, text) => {
 };
 
 renderer.code = (code, language) => {
+  if (language === "mermaid") {
+    return '<pre class="mermaid">' + code + "</pre>";
+  }
   const parser = prism.languages[language] || prism.languages.html;
   const highlighted = prism.highlight(code, parser, language);
   return `<pre class="language-${language}"><code class="language-${language}">${highlighted}</code></pre>`;

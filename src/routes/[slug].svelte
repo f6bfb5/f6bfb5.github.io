@@ -18,9 +18,15 @@
 
   import BackToTop from "../components/BackToTop.svelte";
   import TOC from "../components/TOC.svelte";
+
+  import { onMount } from "svelte";
+  onMount(async () => {
+    mermaid.init();
+  });
 </script>
 
 <svelte:head>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <title>{post.title}</title>
   <!--  Include canonical links to your blog -->
   <link rel="canonical" href="https://f6bfb5.github.io/{post.slug}" />
