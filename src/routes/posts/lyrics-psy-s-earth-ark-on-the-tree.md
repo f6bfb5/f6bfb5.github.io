@@ -4,7 +4,7 @@ date: 2018-12-24T12:12:22.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe src="https://www.youtube.com/embed/UStItLx4jyc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="PSY・S - EARTH 〜木の上の方舟〜" src="https://www.youtube.com/embed/UStItLx4jyc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 BIRD 不知何時開始 身處夢境之中
 <br>LEAF 那遙遠的聲音 如今近在身邊

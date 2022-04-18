@@ -5,9 +5,9 @@ summary: ""
 tags: Lyrics, Translate
 ---
 
-<iframe width="312" height="176" src="https://ext.nicovideo.jp/thumb/sm2053548" scrolling="no" style="border:solid 1px #ccc;" frameborder="0"><a href="https://www.nicovideo.jp/watch/sm2053548">【初音ミク】 サイハテ 【アニメ風PV・オリジナル曲】</a></iframe>
+<iframe title="【初音ミク】 サイハテ 【アニメ風PV・オリジナル曲】" width="312" height="176" src="https://ext.nicovideo.jp/thumb/sm2053548" scrolling="no" style="border:solid 1px #ccc;" frameborder="0"><a href="https://www.nicovideo.jp/watch/sm2053548">【初音ミク】 サイハテ 【アニメ風PV・オリジナル曲】</a></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fUxUvPBeo5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="小林オニキス - サイハテ" src="https://www.youtube.com/embed/fUxUvPBeo5c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 那邊是個什麼樣的地方呢？
 <br/>若你平安抵達 給我寄封信吧

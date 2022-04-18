@@ -1,6 +1,6 @@
 ---
 title: "Blog with Svelte"
-date: 1990-01-02T00:00:00.000Z
+date: 2022-01-01T00:00:00.000Z
 ---
 
 ## 前言
@@ -176,6 +176,8 @@ jobs:
           FOLDER: __sapper__/export # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch
 ```
+
+## 追加功能
 
 ### 加入 Google Analytics
 
@@ -386,7 +388,7 @@ export function get(req, res, next) {
 
 如果想在文章裡放入 Youtube 嵌入影片，還需要另外修改 `iframe` 部份的 CSS 實作響應式效果，避免在視窗大小改變或在手機上瀏覽時，造成版面跑掉
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OGWO3u8zgTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Liz and the Blue Bird" src="https://www.youtube.com/embed/OGWO3u8zgTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 `global.css`
 
@@ -422,12 +424,13 @@ iframe {
   // ...
   renderer.code = (code, language) => {
     if (language == "mermaid") {
-      return '<pre class="mermaid">'+code+"</pre>";
+      return '<pre class="mermaid">' + code + "</pre>";
     }
     // ...
-  }
+  };
   ```
 - `[slug].svelte`
+
   ```html
   <script>
     // ...
@@ -436,11 +439,13 @@ iframe {
       mermaid.init();
     });
   </script>
-  
+
   <svelte:head>
     <!-- ... -->
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-  </svelte:head>  
+    <script
+      src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"
+    ></script>
+  </svelte:head>
   ```
 
 ```mermaid
@@ -453,7 +458,7 @@ graph TB
     S[(Sanity)]
     G{GraphQL}
     GH[(Github)]
-  
+
     G --> GH
     G --> S
   end

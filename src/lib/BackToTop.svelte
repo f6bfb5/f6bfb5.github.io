@@ -13,6 +13,7 @@
   }
 
   function handleOnScroll() {
+    console.log("triggered");
     if (!scrollContainer()) {
       return;
     }

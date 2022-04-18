@@ -1,6 +1,5 @@
 <script>
   import Logo from "./Logo.svelte";
-  // import DarkmodeButton from "./DarkmodeButton.svelte";
   import Nav from "./Nav.svelte";
   import ProgressBar from "./ProgressBar.svelte";
 
@@ -10,7 +9,6 @@
 <header>
   <div class="row">
     <Nav {segment} />
-    <!-- <DarkmodeButton /> -->
     <Logo />
   </div>
   <ProgressBar />

@@ -1,4 +1,7 @@
 .DS_Store
+.vscode
+.svelte-kit
+build
 node_modules
 yarn-error.log
 /cypress/screenshots/

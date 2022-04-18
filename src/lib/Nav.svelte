@@ -3,14 +3,14 @@
 </script>
 
 <nav>
-  <a class={segment === undefined ? "selected" : ""} href="."
+  <a class={segment === undefined ? "selected" : ""} href=".."
     >トリコじかけの明け暮れ</a
   >
   <a class={segment === "about" ? "selected" : ""} href="about">about</a>
   <a class={segment === "rss" ? "selected" : ""} href="rss.xml">rss</a>
 </nav>
 
-<style>
+<style scoped>
   nav {
     display: flex;
     flex: 1;

@@ -131,3 +131,4 @@ table {
 
 - [動畫不是因為大和號和鋼彈成為的大人的玩意，而是將原本小學生是極限的客群拉到了國高中生](http://kanose.hateblo.jp/entry/20080416/animeotona)
 - [EVA 前夕（1986 ～ 1994）在動畫史上是空白的？](http://www12.plala.or.jp/sikoukairo/90history01.htm)
+- [90 年代的ファン気質: 氷川竜介評論集](http://hikawa.cocolog-nifty.com/hyoron/2006/12/90_a20e.html)

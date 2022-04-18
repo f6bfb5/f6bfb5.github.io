@@ -4,7 +4,7 @@ date: 2020-06-20T11:11:57.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe src="https://www.youtube.com/embed/POmIhkRZayE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="RADWIMPS - グランドエスケープ Feat.三浦透子" src="https://www.youtube.com/embed/POmIhkRZayE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 捨棄翱翔天際的翅膀 選擇緊繫雙手的我們
 <br>仍然迷戀於這片天空 懷抱夢想是罪過嗎？

@@ -5,7 +5,7 @@ summary: ""
 tags: Lyrics, Translate
 ---
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0YTW2P6lSvmNbEDUuqNUdp?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe title="夢眠ねむ - おやすみ世界きゅん。" style="border-radius:12px" src="https://open.spotify.com/embed/track/0YTW2P6lSvmNbEDUuqNUdp?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 有天我做了個夢想實現的夢 在超越想像的
 <br/>早安 晚安 明天見 我的朋友

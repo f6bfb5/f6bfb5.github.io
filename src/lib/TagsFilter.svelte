@@ -1,13 +1,13 @@
 <script>
-  import { tagsSelected } from "../components/store.js";
-  // export let selection;
-  export let tags;
+  import { tagsSelected } from "$lib/store.js";
+  export let allPostsTags;
 
   function checkAll() {
     let checkboxes = document.getElementsByName("filterCheckbox");
     for (let i = 0; i < checkboxes.length; i++) {
       checkboxes[i].checked = false;
     }
+
     $tagsSelected = [];
   }
 </script>
@@ -36,7 +36,7 @@
     </svg>
     <span>All</span>
   </label>
-  {#each tags as tag}
+  {#each allPostsTags as tag}
     <input
       class="tag-checkbox"
       type="checkbox"

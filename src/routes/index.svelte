@@ -1,53 +1,103 @@
 <script context="module">
-  export async function preload({ params, query }) {
-    const posts = await this.fetch(`index.json`)
-      .then((r) => r.json())
-      .then((posts) => {
-        return posts;
-      });
-    const sitemap = await this.fetch("sitemap.xml");
-    return { posts };
+  const allPosts = import.meta.globEager(`../routes/posts/*.md`);
+  let body = [];
+  // let years = new Set();
+  // let tags = new Set();
+  // let otherTag = false;
+
+  for (let path in allPosts) {
+    const post = allPosts[path];
+    const metadata = post.metadata;
+
+    if (typeof metadata.tags === "string")
+      metadata.tags = [...new Set(metadata.tags.split(", "))];
+    // if (!metadata.tags) {
+    //   otherTag = true;
+    // } else if (typeof metadata.tags === "string") {
+    // metadata.tags = new Set(metadata.tags.split(", "));
+    // tags = new Set([...tags, ...metadata.tags]);
+    // metadata.tags = [...metadata.tags];
+
+    // tags = new Set([...tags, ...new Set(metadata.tags.split(", "))]);
+    // metadata.tags = [...new Set(metadata.tags.split(", "))];
+    // } else if (typeof metadata.tags === "object") {
+    //   tags = new Set([...tags, ...metadata.tags]);
+    // }
+
+    const year = new Date(metadata.date).getFullYear();
+    // years = new Set([...years, year]);
+
+    const namePage = path.split("/");
+    const slugPage = namePage[namePage.length - 1].slice(0, -3);
+
+    const p = {
+      path,
+      metadata,
+      slugPage,
+      year,
+    };
+    body.push(p);
   }
+  // years = [...years].sort((a, b) => b - a);
+  // tags = otherTag ? [...[...tags].sort(), "Others"] : [...tags].sort();
+  // console.log("tags in module", tags);
+  // console.log("tags sorted in module", tags);
+
+  export const load = async () => {
+    return {
+      props: {
+        posts: body,
+        // years,
+        // tags,
+      },
+    };
+  };
 </script>
 
 <script>
+  import { base } from "$app/paths";
+
   export let posts;
+  // export let years;
+  // export let tags;
+  // console.log(posts);
 
-  import TagsFilter from "../components/TagsFilter.svelte";
-  import Tag from "../components/Tag.svelte";
+  let allPostsYears = [...new Set(posts.map((p) => p.year))].sort(
+    (a, b) => b - a
+  );
+  let allPostsTags = [
+    ...new Set(
+      posts
+        .map((p) => {
+          if (!!p.metadata.tags) {
+            return p.metadata.tags;
+          }
+        })
+        .filter((tag) => !!tag)
+        .flat()
+        .sort()
+    ),
+  ];
+  // console.log(allPostsYears);
+  // console.log(allPostsTags);
 
-  const years = getAllPostsYears(posts);
+  // console.log("tags in script", tags);
 
-  const tags = getAllPostsTags(posts);
+  import TagsFilter from "$lib/TagsFilter.svelte";
+  import Tag from "$lib/Tag.svelte";
 
-  import { tagsSelected } from "../components/store.js";
-  // let selection = [];
-
-  function getAllPostsYears(posts) {
-    let years = [];
-    posts.forEach((post, index) => {
-      let postYear = new Date(post.printDate).getFullYear();
-      years.includes(postYear) ? "" : years.push(postYear);
-    });
-    return years;
-  }
-
-  function getAllPostsTags(posts) {
-    let tags = [];
-    posts.forEach((post, index) => {
-      post.tags.forEach((tag) => {
-        tags.includes(tag) ? "" : tags.push(tag);
-      });
-    });
-    tags.sort((a, b) => (a < b ? -1 : a > b ? 1 : 0));
-    tags.push("Other");
-    return tags;
-  }
+  import { tagsSelected } from "$lib/store.js";
+  // import tagsSelected from "$lib/store.js";
+  $tagsSelected = [];
+  // console.log("tagsSelected", tagsSelected);
+  // console.log("$tagsSelected", $tagsSelected);
 
   function arrayContainsAny(array1, array2) {
+    // console.log("array1", array1);
+    // console.log("array2", array2);
     if (array2.length == 0) return true;
 
-    if (array1.length == 0) {
+    if (!array1 || array1.length == 0) {
       return array2.includes("Other") ? true : false;
     }
 
@@ -66,11 +116,9 @@
   <meta property="og:title" content="f6bfb5's blog" />
   <meta name="Description" content="雨天決行" />
   <meta property="og:description" content="雨天決行" />
-
-  <meta property="og:image" content="https://i.imgur.com/hQnfcyo.jpg" />
+  <meta property="og:image" content="https://i.imgur.com/mNM7Eg9.jpg" />
 
   <meta name="twitter:card" content="summary_large_image" />
-
   <meta name="twitter:title" value="f6bfb5's blog" />
   <meta name="twitter:description" content="雨天決行" />
 
@@ -83,34 +131,42 @@
 <div class="container">
   <h1>Articles</h1>
   <!-- TAG FILTER -->
-  <TagsFilter bind:$tagsSelected {tags} />
+  <TagsFilter {allPostsTags} />
+
   <!-- ARTICLES -->
-  {#each years as year}
-    {#if getAllPostsYears(posts.filter( (p) => arrayContainsAny(p.tags, $tagsSelected) )).includes(year)}
-      <h2>
-        {year}
-      </h2>
-    {/if}
-    <ul>
+  {#each allPostsYears as year}
+    {#if posts
+      .filter((p) => arrayContainsAny(p.metadata.tags, $tagsSelected))
+      .some((p) => new Date(p.metadata.date).getFullYear() === year)}
+      <h2>{year}</h2>
       {#each posts
-        .filter((p) => new Date(p.printDate).getFullYear() == year)
-        .filter( (p) => arrayContainsAny(p.tags, $tagsSelected) ) as post (post.slug)}
-        <li>
-          <div>
-            <a rel="prefetch" href={post.slug}>{post.title}</a>
-          </div>
-          <div>
-            {#if post.tags}
-              {#each post.tags as tag}
-                <Tag {tag} />
-              {/each}
-            {/if}
-            <span>{post.printDate}</span>
-          </div>
-        </li>
+        .filter((p) => arrayContainsAny(p.metadata.tags, $tagsSelected))
+        .filter((p) => new Date(p.metadata.date).getFullYear() === year)
+        .sort((a, b) => new Date(b.metadata.date) - new Date(a.metadata.date)) as { slugPage, metadata: { title, date, tags } }}
+        <ul>
+          <li>
+            <div>
+              <a href={`${base}/${slugPage}`} sveltekit:prefetch>{title}</a>
+            </div>
+            <div>
+              {#if tags}
+                {#each tags as tag}
+                  <Tag {tag} />
+                {/each}
+              {/if}
+              <span>{date}</span>
+            </div>
+          </li>
+        </ul>
       {/each}
-    </ul>
+    {/if}
   {/each}
+
+  <!-- {#each posts as { slugPage, metadata: { title, date } }}
+      <li>
+        <a href={`${base}/${slugPage}`} sveltekit:prefetch>{title}</a>
+      </li>
+    {/each} -->
 </div>
 
 <style>
@@ -136,9 +192,9 @@
     color: var(--title-color);
     display: inline-block;
   }
-  ul li + li {
+  /* ul li + li {
     padding: 0.25em 0;
-  }
+  } */
   ul li div {
     display: inline-block;
   }

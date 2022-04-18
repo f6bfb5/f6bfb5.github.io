@@ -7,9 +7,9 @@
   <div class="right">
     Made with <span class="heart">❤️</span> and
     <a
-      href="https://github.com/Charca/sapper-blog-template"
+      href="https://kit.svelte.dev/"
       target="_blank"
-      ref="noreferrer noopener nofollow">Sapper</a
+      ref="noreferrer noopener nofollow">SvelteKit</a
     >
   </div>
   <div class="clearfix" />

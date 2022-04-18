@@ -137,6 +137,8 @@ curl -X POST
 </style>
 
 <script>
+import { onMount } from 'svelte';
+
 const clientID = "798950274114781204";
 const redirectUri = "https://f6bfb5.github.io/login-with-discord";
 const scope = "identify email"
@@ -145,7 +147,8 @@ function handleClick() {
    document.location.href = `https://discord.com/api/oauth2/authorize?client_id=${clientID}&redirect_uri=${encodeURIComponent(redirectUri)}&response_type=code&scope=${encodeURIComponent(scope)}`;
 }
 
-window.addEventListener('load', function() {
+   onMount(() => {
+// window.addEventListener('load', function() {
    document.getElementById("js-discord-button").addEventListener("click", handleClick);
    // 1. get code from url params
    const urlParams = new URLSearchParams(window.location.search);
@@ -215,5 +218,6 @@ window.addEventListener('load', function() {
    } else {
       document.getElementById("js-discord-status").innerText = "Not logged in";
    }
+// })
 })
 </script>

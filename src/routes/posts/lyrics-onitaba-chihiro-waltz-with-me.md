@@ -4,7 +4,7 @@ date: 2017-07-16T11:36:24.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe src="https://www.youtube.com/embed/hENIaeTrw-g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="鬼束ちひろ - 私とワルツを" src="https://www.youtube.com/embed/hENIaeTrw-g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 時針不再旋轉
 <br>奇妙晚餐 安靜的進行著

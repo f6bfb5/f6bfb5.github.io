@@ -1,19 +1,21 @@
 <script>
-  import Header from "../components/Header.svelte";
-  import Footer from "../components/Footer.svelte";
-  import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte";
-  import { stores } from "@sapper/app";
-  import GoogleAdsense from "../components/GoogleAdsense.svelte";
-  import Favicon from "../components/Favicon.svelte";
+  import Header from "$lib/Header.svelte";
+  import Footer from "$lib/Footer.svelte";
 
-  let ga_measurement_id = "UA-114661136-2";
+  // import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte";
+  // import { stores } from "@sapper/app";
+  // import { getStores } from "$app/stores";
+  import GoogleAdsense from "$lib/GoogleAdsense.svelte";
+  import Favicon from "$lib/Favicon.svelte";
+
+  // let ga_measurement_id = "UA-114661136-2";
   let ga_client_id = "ca-pub-9613661448556355";
 
   export let segment;
 </script>
 
 <div class="layout">
-  <GoogleAnalytics {stores} id={ga_measurement_id} />
+  <!-- <GoogleAnalytics {getStores} id={ga_measurement_id} /> -->
   <GoogleAdsense id={ga_client_id} />
 
   <Favicon />
@@ -44,7 +46,6 @@
     flex: 1;
     flex-direction: column;
     margin: 0 auto;
-    /* padding: 1em 2em; */
     max-width: 720px;
     width: 100%;
     box-sizing: border-box;

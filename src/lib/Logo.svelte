@@ -102,7 +102,7 @@
   />
 </a>
 
-<style>
+<style scoped>
   a {
     margin-right: 20px;
   }

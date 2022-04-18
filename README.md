@@ -1,47 +1,28 @@
-# sapper-blog-template
+# Blog with SvelteKit
 
-A starter template for building markdown-powered blogs with [Sapper](https://github.com/sveltejs/sapper) and [Svelte](https://github.com/sveltejs/svelte).
+## To-Do
 
-### 👉 [Demo](https://sapper-blog-template.netlify.com/)
-
-## ✨ Getting started
-
-```bash
-npx degit Charca/sapper-blog-template my-blog
-cd my-blog
-npm install # or yarn!
-npm run dev
-```
-
-Open up [localhost:3000](http://localhost:3000) and start clicking around.
-
-Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
-
-## 🏗 Structure
-
-The base structure of this template is the same as Sapper's [default template](https://github.com/sveltejs/sapper-template/). These are some of the new things you'll find here:
-
-### src/routes/blog
-
-This is the home of your blog. The most important files in here are:
-
-- `_posts.js`: this module contains the logic for loading and parsing your markdown posts.
-- `[slug].svelte`: this is the template of your blog post page.
-- `index.svelte`: this is the template of your article list page.
-
-### src/routes/blog/posts
-
-This is where your markdown posts live in. All `.md` files in this directory are treated as blog posts and parsed automatically by the `_posts.js` module.
-
-- The markdown file name becomes the post slug. For example `hello-world.md` becomes `http://localhost:3000/blog/hello-world`.
-- Everything between the start of the post and the `<!-- more -->` tag becomes the article's "excerpt".
-- Frontmatter properties supported are `title` and `date`.
-
-## 🚀 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Charca/sapper-blog-template)
-
-
-## 🐛 Bugs and feedback
-
-Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues).
+- [x] Read markdown file
+  - [Let's learn SvelteKit by building a static Markdown blog from scratch](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog)
+- [x] Custom path without folder
+  - [SvelteKit: routing from other folders](https://blog.stranianelli.com/sveltekit-routing-from-other-folders-english/)
+  - [el3um4s/memento-sveltekit-and-github-pages](https://github.com/el3um4s/memento-sveltekit-and-github-pages)
+- [x] Article slug
+- [x] Tags
+- [x] Tags Filter
+  - [The Unwritten Svelte Stores Guide](https://dev.to/jdgamble555/the-unwritten-svelte-stores-guide-47la)
+- [ ] Push to GitHub Pages
+  - [How to Deploy SvelteKit Apps to Github Pages](https://sveltesaas.com/articles/sveltekit-github-pages-guide/)
+- [ ] Navbar segment
+- [ ] Reading time
+- [ ] TOC
+- [ ] RSS
+- [ ] Sitemap
+- [ ] Google Analytics
+  - [beyonk-adventures/svelte-google-analytics](https://github.com/beyonk-adventures/svelte-google-analytics)
+  - [SvelteKit google analytics double reporting](https://stackoverflow.com/questions/71861393/sveltekit-google-analytics-double-reporting)
+- [] Title image
+- [ ] Mermaid
+  - [mdx-mermaid](https://sjwall.github.io/mdx-mermaid/)
+- [Making a static blog with svelte-kit, tailwind and markdown](https://megzari.com/blog/about_this_site/)
+- [My personal Sapper to Svelte-Kit Cheat Sheet (this is not-official, and pre launch, don't use this unless you like fighting dragons and breaking changes)](https://gist.github.com/acoyfellow/a94f020245d4bfcd4c5d9ddc8f86a98a)

@@ -129,8 +129,6 @@ tags: ACG, Anime
 - 2008 \[宮崎駿\] [折返點 1997－2008](https://www.books.com.tw/products/0010486951)
 - 2009 \[神村幸子\] [アニメーションの基礎知識大百科](https://www.amazon.co.jp/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E5%9F%BA%E7%A4%8E%E7%9F%A5%E8%AD%98%E5%A4%A7%E7%99%BE%E7%A7%91-%E5%A2%97%E8%A3%9C%E6%94%B9%E8%A8%82%E7%89%88-%E7%A5%9E%E6%9D%91-%E5%B9%B8%E5%AD%90/dp/4766133315)
 
-</details>
-
 ### 2010
 
 - 2010 \[濱野智史\] [當神話開始思考：網路社會的文化論](https://www.books.com.tw/products/0010502625)
@@ -223,14 +221,9 @@ tags: ACG, Anime
 
 ## 系列文章
 
-<summary>
-
 ### [kaito2198] 超易懂！動畫人的工作
 
 由翻譯富野由悠季著書《影像的原則》的 kaito2198，為了慶祝該書於台灣發售，自 2014 年開始撰寫的一系列動畫制作介紹文章，很可惜目前只至第 7 回便暫無後續下文。
-
-</summary>
-<details>
 
 - [第 0 回 日本動畫的製作程序](https://tomino-eizo.blogspot.com/2014/11/0.html)
 - [第 1 回 監督（導演）](http://tomino-eizo.blogspot.tw/2014/10/1.html)
@@ -241,16 +234,9 @@ tags: ACG, Anime
 - [第 6 回 背景](http://tomino-eizo.blogspot.tw/2016/03/blog-post.html)
 - [第 7 回 攝影](http://tomino-eizo.blogspot.tw/2016/04/blog-post.html)
 
-</details>
-
-<summary>
-
 ### [zecy]《白箱》各集內容解說
 
 由中國知乎論壇上一位頗具有知名度與知識量，並擁有熱心回覆的熱情與精闢見解的愛好者 zecy ，對以動畫製作為題材的動畫《白箱》所做的內容細節與原捏它出處的解說。
-
-</summary>
-<details>
 
 #### 第一季
 
@@ -277,16 +263,9 @@ tags: ACG, Anime
 - [《白箱》第 22 集解說](https://zhuanlan.zhihu.com/p/19976962)
 - [《白箱》第 23 集解說](https://zhuanlan.zhihu.com/p/19982613)
 
-</details>
-
-<summary>
-
 ### [[joe-sensei] アニメの作り方（動畫的製作方法）](https://home.gamer.com.tw/creationDetail.php?sn=1713276)
 
 一位動畫講師在自己的網誌上分享的動畫詳細製作流程，從分鏡、LO、律表、原畫動畫到整體完成。
-
-</summary>
-<details>
 
 - [アニメの作り方](https://ameblo.jp/joe-sensei/entry-12500264899.html)
 - [アニメの作り方その２「絵コンテからレイアウト」](https://ameblo.jp/joe-sensei/entry-12500264903.html)
@@ -297,8 +276,6 @@ tags: ACG, Anime
 - [アニメの作り方その７「原畫・動畫」の２](https://ameblo.jp/joe-sensei/entry-12500264940.html)
 - [アニメの作り方その８「原畫・動畫」の３](https://ameblo.jp/joe-sensei/entry-12500264950.html)
 - [アニメの作り方その９「最終回」](https://ameblo.jp/joe-sensei/entry-12500264952.html)
-
-</details>
 
 ## 解說專欄
 
@@ -323,12 +300,8 @@ tags: ACG, Anime
 
 ## 單篇文章
 
-<summary>
-
 ### [看懂動畫的製作資料](http://blog.roodo.com/just_like/archives/17464035.html)（連結已失效）
 
-</summary>
-<details>
 本文以日本動畫的資料當例子 。
 <br>為什麼是日本動畫？ 因為台灣沒什麼動畫的製作書籍可以參考。
 <br>日本動畫多，出的書也多，在台灣取得也很容易。
@@ -514,8 +487,6 @@ tags: ACG, Anime
 **※ 動畫原畫集與一般插畫原畫集的差異：**
 <br>動畫原畫集收錄的是**用線條表現物體動作**的圖，幾乎無任何彩圖，因為動畫家的工作就是用線條來表現動作，不負責有關色彩的事，只會用色鉛筆的線條指定某個範圍是亮部、某個範圍是陰影。
 <br>（不清楚動畫中「原畫（key frame animation）的定義」的人，會說這是黑白草稿，那是用插畫的觀點在看動畫的原畫。）
-
-</details>
 
 <style scoped>
 .bg-yellow {
@@ -764,93 +735,58 @@ tags: ACG, Anime
 
 ## 歷史事件
 
-1939 — （世界）二戰開戰
-<br/>1945 — （世界）二戰終戰
-<br/>1947 — （世界）冷戰爆發
-<br/>1947 — （日本）「[團塊世代](https://ja.wikipedia.org/wiki/%E5%9B%A3%E5%A1%8A%E3%81%AE%E4%B8%96%E4%BB%A3)」出生潮
-<br/>1950 — （世界）韓戰爆發
-<br/>1953 — （世界）古巴革命
-<br/>1955 — （世界）越戰爆發
-<br/>1959 — （日本）[安保鬥爭](https://ja.wikipedia.org/wiki/%E5%AE%89%E4%BF%9D%E9%97%98%E4%BA%89)
-<br/>1962 — （世界）古巴危機
-<br/>1964 — （日本）[東京奧運](https://ja.wikipedia.org/wiki/1964%E5%B9%B4%E6%9D%B1%E4%BA%AC%E3%82%AA%E3%83%AA%E3%83%B3%E3%83%94%E3%83%83%E3%82%AF)
-<br/>1966 — （世界）文化大革命
-<br/>1968 — （世界）五月革命、布拉格之春
-<br/>1968 — （日本）「全共鬥世代」、[東大鬥爭（第二次安保鬥爭）](https://zh.wikipedia.org/wiki/%E6%9D%B1%E5%A4%A7%E5%AE%89%E7%94%B0%E8%AC%9B%E5%A0%82%E4%BA%8B%E4%BB%B6)、[三億圓事件](https://ja.wikipedia.org/wiki/%E4%B8%89%E5%84%84%E5%86%86%E4%BA%8B%E4%BB%B6)
-<br/>1969 — （日本）[永山則夫連續射殺事件](https://ja.wikipedia.org/wiki/%E6%B0%B8%E5%B1%B1%E5%89%87%E5%A4%AB%E9%80%A3%E7%B6%9A%E5%B0%84%E6%AE%BA%E4%BA%8B%E4%BB%B6)
-<br/>1970 — （日本）[大阪萬博](https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E4%B8%87%E5%9B%BD%E5%8D%9A%E8%A6%A7%E4%BC%9A)、「[一億總中流](https://ja.wikipedia.org/wiki/%E4%B8%80%E5%84%84%E7%B7%8F%E4%B8%AD%E6%B5%81)」、[三島由紀夫事件](https://ja.wikipedia.org/wiki/%E4%B8%89%E5%B3%B6%E4%BA%8B%E4%BB%B6)
-<br/>1972 — （日本）[淺間山莊事件](https://ja.wikipedia.org/wiki/%E3%81%82%E3%81%95%E3%81%BE%E5%B1%B1%E8%8D%98%E4%BA%8B%E4%BB%B6)
-<br/>1973 — （世界）國際石油危機
-<br/>1984 — （日本）[固力果·森永事件](https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%AA%E3%82%B3%E3%83%BB%E6%A3%AE%E6%B0%B8%E4%BA%8B%E4%BB%B6)
-<br/>1985 — （日本）[電腦通訊](https://ja.wikipedia.org/wiki/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E9%80%9A%E4%BF%A1)普及化
-<br/>1989 — （日本）[女高中生水泥埋屍案](https://ja.wikipedia.org/wiki/%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F%E3%82%B3%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%88%E8%A9%B0%E3%82%81%E6%AE%BA%E4%BA%BA%E4%BA%8B%E4%BB%B6)、[宮崎勤事件](https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%BB%E5%9F%BC%E7%8E%89%E9%80%A3%E7%B6%9A%E5%B9%BC%E5%A5%B3%E8%AA%98%E6%8B%90%E6%AE%BA%E4%BA%BA%E4%BA%8B%E4%BB%B6)
-<br/>1991 — （世界）柏林圍牆倒下
-<br/>1992 — （日本）泡沫經濟崩壞
-<br/>1993 — （日本）《完全自殺手冊》出版
-<br/>1995 — （日本）沙林毒氣事件、阪神大地震
-<br/>1997 — （日本）酒鬼薔薇聖斗
-<br/>1999 — （日本）「2ch」創立
-<br/>2000 — （日本）「キレる 17 歳」
-<br/>2001 — （世界）911 恐怖攻擊事件
-<br/>2001 — （日本）小泉構造改革
-<br/>2003 — （世界）伊拉克戰爭
-<br/>2008 — （日本）秋葉原殺人事件
-<br/>2011 — （日本）東日本大地震
-
----
-
-1932 — 迪士尼製作世界首部全彩動畫《[花與樹](https://en.wikipedia.org/wiki/Flowers_and_Trees)》
-<br/>1937 — 迪士尼製作世界首部長篇動畫《[白雪公主](<https://ja.wikipedia.org/wiki/%E7%99%BD%E9%9B%AA%E5%A7%AB_(1937%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)>)》
-<br/>1943 — 日本首部長篇電影動畫《[桃太郎の海鷲](https://ja.wikipedia.org/wiki/%E6%A1%83%E5%A4%AA%E9%83%8E%E3%81%AE%E6%B5%B7%E9%B7%B2)》上映
-<br/>1945 — 手塚治蟲受到《[桃太郎 海の神兵](https://ja.wikipedia.org/wiki/%E6%A1%83%E5%A4%AA%E9%83%8E_%E6%B5%B7%E3%81%AE%E7%A5%9E%E5%85%B5)》巨大影響
-<br/>1948 — [東宝争議](https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%AE%9D%E4%BA%89%E8%AD%B0)
-<br/>1952 — [「常盤莊」設立](https://ja.wikipedia.org/wiki/%E3%83%88%E3%82%AD%E3%83%AF%E8%8D%98)
-<br/>1955 — [手塚治蟲惡書追放運動](https://lovelovedog.hatenadiary.org/entry/19550101/akumoku)
-<br/>1958 — 日本首部全彩長篇電影動畫《[白蛇傳](<https://ja.wikipedia.org/wiki/%E7%99%BD%E8%9B%87%E4%BC%9D_(1958%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)>)》上映
-<br/>1960 — 「御宅族第一世代」出生
-<br/>1962 — 手塚治蟲建立「[蟲製作](https://ja.wikipedia.org/wiki/%E8%99%AB%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3)」公司
-<br/>1963 — 「[出版倫理協議會](https://ja.wikipedia.org/wiki/%E5%87%BA%E7%89%88%E5%80%AB%E7%90%86%E5%8D%94%E8%AD%B0%E4%BC%9A)」成立
-<br/>1963 — 日本首部長篇 30 分鐘電視動畫《[阿童木](<https://ja.wikipedia.org/wiki/%E9%89%84%E8%85%95%E3%82%A2%E3%83%88%E3%83%A0_(%E3%82%A2%E3%83%8B%E3%83%A1%E7%AC%AC1%E4%BD%9C)>)》播出
-<br/>1963 — 全世界首部巨大機器人動畫《[鐵人 28 號](https://ja.wikipedia.org/wiki/%E9%89%84%E4%BA%BA28%E5%8F%B7)》播出
-<br/>1963 — 全世界首部深夜動畫《[仙人部落](https://ja.wikipedia.org/wiki/%E4%BB%99%E4%BA%BA%E9%83%A8%E8%90%BD)》播出
-<br/>1964 — 《[ガロ](<https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%AD_(%E9%9B%91%E8%AA%8C)>)》創刊
-<br/>1965 — 日本首部全彩電視動畫《[小獅王](https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E5%A4%A7%E5%B8%9D)》播出
-<br/>1966 — 全世界首部魔法少女動畫《[魔法使莎莉](https://ja.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E4%BD%BF%E3%81%84%E3%82%B5%E3%83%AA%E3%83%BC)》播出
-<br/>1967 — 首部？外包給海外製作的電視動畫《[黃金蝙蝠](https://ja.wikipedia.org/wiki/%E9%BB%84%E9%87%91%E3%83%90%E3%83%83%E3%83%88)》播出
-<br/>1968 — 《[週刊少年 Jump](https://ja.wikipedia.org/wiki/%E9%80%B1%E5%88%8A%E5%B0%91%E5%B9%B4%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97)》創刊
-<br/>1968 — 《[巨人之星](<https://ja.wikipedia.org/wiki/%E5%B7%A8%E4%BA%BA%E3%81%AE%E6%98%9F_(%E3%82%A2%E3%83%8B%E3%83%A1)>)》播出，確立起「[運動草根](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%9D%E6%A0%B9)」作品概念
-<br/>1970 — 「御宅族第二世代」出生
-<br/>1971 — 《[魯邦三世](<https://ja.wikipedia.org/wiki/%E3%83%AB%E3%83%91%E3%83%B3%E4%B8%89%E4%B8%96_(TV%E7%AC%AC1%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA)>)》播出
-<br/>1972 — 《[魔神 Z](https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%B8%E3%83%B3%E3%82%AC%E3%83%BCZ)》播出，帶來首次大型機器人浪潮
-<br/>1974 — 《魔神 Z》的熱潮帶動玩具商資金投入，《[蓋特機器人](https://ja.wikipedia.org/wiki/%E3%82%B2%E3%83%83%E3%82%BF%E3%83%BC%E3%83%AD%E3%83%9C)》、《[宇宙戰艦大和號](https://ja.wikipedia.org/wiki/%E5%AE%87%E5%AE%99%E6%88%A6%E8%89%A6%E3%83%A4%E3%83%9E%E3%83%88)》播出
-<br/>1977 — 聲優養成學校創立
-<br/>1978 — 《Animage》創刊
-<br/>1978 — [MAD 島川推出首部「MAD」影片](https://ch.nicovideo.jp/nyutoi/blomaga/ar574424)
-<br/>1979 — 《機動戰士鋼彈》播出
-<br/>1980 — 「御宅族第三世代」出生
-<br/>1981 — DAICON FILM 舉辦 DAICON 3
-<br/>1982 — 首部？掛有製作委員會名稱的電影動畫《対馬丸 -さようなら沖縄-》上映
-<br/>1983 — 首部通路專屬動畫（[OVA](https://ja.wikipedia.org/wiki/OVA)）《[DALLOS](https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%AD%E3%82%B9)》發售
-<br/>1984 — GAINAX 成立
-<br/>1985 — 吉卜力成立
-<br/>1986 — 皮克斯動畫工作室、4 度 C 工作室成立
-<br/>1987 — Production I.G 成立
-<br/>1988 — 《AKIRA》上映
-<br/>1991 — [コミケ幕張メッセ追放事件](https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%9F%E3%82%B1%E5%B9%95%E5%BC%B5%E3%83%A1%E3%83%83%E3%82%BB%E8%BF%BD%E6%94%BE%E4%BA%8B%E4%BB%B6)、[沙織事件](https://ja.wikipedia.org/wiki/%E6%B2%99%E7%B9%94%E4%BA%8B%E4%BB%B6)
-<br/>1993 — 首部採用製作委員會型式的電視動畫《[無責任艦長泰勒](<https://ja.wikipedia.org/wiki/%E7%84%A1%E8%B2%AC%E4%BB%BB%E8%89%A6%E9%95%B7%E3%82%BF%E3%82%A4%E3%83%A9%E3%83%BC_(%E3%82%A2%E3%83%8B%E3%83%A1)>)》播出
-<br/>1995 — 《新世紀福音戰士》播出、《攻殼機動隊》上映
-<br/>1996 — 首部御宅族取向的深夜動畫《[妖精狩獵者](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%AB%E3%83%95%E3%82%92%E7%8B%A9%E3%82%8B%E3%83%A2%E3%83%8E%E3%81%9F%E3%81%A1)》播出，帶起深夜動畫風潮
-<br/>1997 — [「寶可夢 3D 龍」事件](https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF)
-<br/>2001 — 《神隱少女》上映，創下日本電影史上第一高的 300 億日元票房
-<br/>2001 — 首部網路專屬動畫（[ONA](https://ja.wikipedia.org/wiki/Web%E3%82%A2%E3%83%8B%E3%83%A1)）《[變種危機](https://ja.wikipedia.org/wiki/I-wish_you_were_here-)》播出
-<br/>2002 — [松文館裁判事件](https://ja.wikipedia.org/wiki/%E6%9D%BE%E6%96%87%E9%A4%A8%E8%A3%81%E5%88%A4)、奧斯卡新設長篇動畫獎、[日本動畫協會](https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E5%8B%95%E7%94%BB%E5%8D%94%E4%BC%9A)成立
-<br/>2006 — 《涼宮春日的憂鬱》播出，成為深夜動畫爆紅契機
-<br/>2007 — 日本電影學院獎新設動畫獎，《[跨越時空的少女](<https://ja.wikipedia.org/wiki/%E6%99%82%E3%82%92%E3%81%8B%E3%81%91%E3%82%8B%E5%B0%91%E5%A5%B3_(%E3%82%A2%E3%83%8B%E3%83%A1%E6%98%A0%E7%94%BB)>)》取得最優秀動畫作品獎
-<br/>2007 — 由於金田邊警官殺害事件，《[寒蟬鳴泣之時 解](https://ja.wikipedia.org/wiki/%E3%81%B2%E3%81%90%E3%82%89%E3%81%97%E3%81%AE%E3%81%AA%E3%81%8F%E9%A0%83%E3%81%AB%E8%A7%A3)》與《[School Days](<https://ja.wikipedia.org/wiki/School_Days_(%E3%82%A2%E3%83%8B%E3%83%A1)>)》自肅暫停播出，《[萌少女的戀愛時光](https://ja.wikipedia.org/wiki/%E3%81%93%E3%81%A9%E3%82%82%E3%81%AE%E3%81%98%E3%81%8B%E3%82%93)》也因為札幌學校主任買春事件而停止播出
-<br/>2009 — 首部日韓同時播放作品《[黑神](https://ja.wikipedia.org/wiki/%E9%BB%92%E7%A5%9E)》播出
-<br/>2011 — 《[魔法少女小圓](https://ja.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB)》播出
-<br/>2016 — 《你的名字。》上映，成為日本電影史上第二高的 250 億日元票房
-<br/>2019 — 《鬼滅之刃》播出
+- 1932 — 迪士尼製作世界首部全彩動畫《[花與樹](https://en.wikipedia.org/wiki/Flowers_and_Trees)》
+- 1937 — 迪士尼製作世界首部長篇動畫《[白雪公主](<https://ja.wikipedia.org/wiki/%E7%99%BD%E9%9B%AA%E5%A7%AB_(1937%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)>)》
+- 1943 — 日本首部長篇電影動畫《[桃太郎の海鷲](https://ja.wikipedia.org/wiki/%E6%A1%83%E5%A4%AA%E9%83%8E%E3%81%AE%E6%B5%B7%E9%B7%B2)》上映
+- 1945 — 手塚治蟲受到《[桃太郎 海の神兵](https://ja.wikipedia.org/wiki/%E6%A1%83%E5%A4%AA%E9%83%8E_%E6%B5%B7%E3%81%AE%E7%A5%9E%E5%85%B5)》巨大影響
+- 1948 — [東宝争議](https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%AE%9D%E4%BA%89%E8%AD%B0)
+- 1952 — [「常盤莊」設立](https://ja.wikipedia.org/wiki/%E3%83%88%E3%82%AD%E3%83%AF%E8%8D%98)
+- 1955 — [手塚治蟲惡書追放運動](https://lovelovedog.hatenadiary.org/entry/19550101/akumoku)
+- 1958 — 日本首部全彩長篇電影動畫《[白蛇傳](<https://ja.wikipedia.org/wiki/%E7%99%BD%E8%9B%87%E4%BC%9D_(1958%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)>)》上映
+- 1960 — 「御宅族第一世代」出生
+- 1962 — 手塚治蟲建立「[蟲製作](https://ja.wikipedia.org/wiki/%E8%99%AB%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3)」公司
+- 1963 — 「[出版倫理協議會](https://ja.wikipedia.org/wiki/%E5%87%BA%E7%89%88%E5%80%AB%E7%90%86%E5%8D%94%E8%AD%B0%E4%BC%9A)」成立
+- 1963 — 日本首部長篇 30 分鐘電視動畫《[阿童木](<https://ja.wikipedia.org/wiki/%E9%89%84%E8%85%95%E3%82%A2%E3%83%88%E3%83%A0_(%E3%82%A2%E3%83%8B%E3%83%A1%E7%AC%AC1%E4%BD%9C)>)》播出
+- 1963 — 全世界首部巨大機器人動畫《[鐵人 28 號](https://ja.wikipedia.org/wiki/%E9%89%84%E4%BA%BA28%E5%8F%B7)》播出
+- 1963 — 全世界首部深夜動畫《[仙人部落](https://ja.wikipedia.org/wiki/%E4%BB%99%E4%BA%BA%E9%83%A8%E8%90%BD)》播出
+- 1964 — 《[ガロ](<https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%AD_(%E9%9B%91%E8%AA%8C)>)》創刊
+- 1965 — 日本首部全彩電視動畫《[小獅王](https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E5%A4%A7%E5%B8%9D)》播出
+- 1966 — 全世界首部魔法少女動畫《[魔法使莎莉](https://ja.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E4%BD%BF%E3%81%84%E3%82%B5%E3%83%AA%E3%83%BC)》播出
+- 1967 — 首部？外包給海外製作的電視動畫《[黃金蝙蝠](https://ja.wikipedia.org/wiki/%E9%BB%84%E9%87%91%E3%83%90%E3%83%83%E3%83%88)》播出
+- 1968 — 《[週刊少年 Jump](https://ja.wikipedia.org/wiki/%E9%80%B1%E5%88%8A%E5%B0%91%E5%B9%B4%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97)》創刊
+- 1968 — 《[巨人之星](<https://ja.wikipedia.org/wiki/%E5%B7%A8%E4%BA%BA%E3%81%AE%E6%98%9F_(%E3%82%A2%E3%83%8B%E3%83%A1)>)》播出，確立起「[運動草根](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%9D%E6%A0%B9)」作品概念
+- 1970 — 「御宅族第二世代」出生
+- 1971 — 《[魯邦三世](<https://ja.wikipedia.org/wiki/%E3%83%AB%E3%83%91%E3%83%B3%E4%B8%89%E4%B8%96_(TV%E7%AC%AC1%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA)>)》播出
+- 1972 — 《[魔神 Z](https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%B8%E3%83%B3%E3%82%AC%E3%83%BCZ)》播出，帶來首次大型機器人浪潮
+- 1974 — 《魔神 Z》的熱潮帶動玩具商資金投入，《[蓋特機器人](https://ja.wikipedia.org/wiki/%E3%82%B2%E3%83%83%E3%82%BF%E3%83%BC%E3%83%AD%E3%83%9C)》、《[宇宙戰艦大和號](https://ja.wikipedia.org/wiki/%E5%AE%87%E5%AE%99%E6%88%A6%E8%89%A6%E3%83%A4%E3%83%9E%E3%83%88)》播出
+- 1977 — 聲優養成學校創立
+- 1978 — 《Animage》創刊
+- 1978 — [MAD 島川推出首部「MAD」影片](https://ch.nicovideo.jp/nyutoi/blomaga/ar574424)
+- 1979 — 《機動戰士鋼彈》播出
+- 1980 — 「御宅族第三世代」出生
+- 1981 — DAICON FILM 舉辦 DAICON 3
+- 1982 — 首部？掛有製作委員會名稱的電影動畫《対馬丸 -さようなら沖縄-》上映
+- 1983 — 首部通路專屬動畫（[OVA](https://ja.wikipedia.org/wiki/OVA)）《[DALLOS](https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%AD%E3%82%B9)》發售
+- 1984 — GAINAX 成立
+- 1985 — 吉卜力成立
+- 1986 — 皮克斯動畫工作室、4 度 C 工作室成立
+- 1987 — Production I.G 成立
+- 1988 — 《AKIRA》上映
+- 1991 — [コミケ幕張メッセ追放事件](https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%9F%E3%82%B1%E5%B9%95%E5%BC%B5%E3%83%A1%E3%83%83%E3%82%BB%E8%BF%BD%E6%94%BE%E4%BA%8B%E4%BB%B6)、[沙織事件](https://ja.wikipedia.org/wiki/%E6%B2%99%E7%B9%94%E4%BA%8B%E4%BB%B6)
+- 1993 — 首部採用製作委員會型式的電視動畫《[無責任艦長泰勒](<https://ja.wikipedia.org/wiki/%E7%84%A1%E8%B2%AC%E4%BB%BB%E8%89%A6%E9%95%B7%E3%82%BF%E3%82%A4%E3%83%A9%E3%83%BC_(%E3%82%A2%E3%83%8B%E3%83%A1)>)》播出
+- 1995 — 《新世紀福音戰士》播出、《攻殼機動隊》上映
+- 1996 — 首部御宅族取向的深夜動畫《[妖精狩獵者](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%AB%E3%83%95%E3%82%92%E7%8B%A9%E3%82%8B%E3%83%A2%E3%83%8E%E3%81%9F%E3%81%A1)》播出，帶起深夜動畫風潮
+- 1997 — [「寶可夢 3D 龍」事件](https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF)
+- 2001 — 《神隱少女》上映，創下日本電影史上第一高的 300 億日元票房
+- 2001 — 首部網路專屬動畫（[ONA](https://ja.wikipedia.org/wiki/Web%E3%82%A2%E3%83%8B%E3%83%A1)）《[變種危機](https://ja.wikipedia.org/wiki/I-wish_you_were_here-)》播出
+- 2002 — [松文館裁判事件](https://ja.wikipedia.org/wiki/%E6%9D%BE%E6%96%87%E9%A4%A8%E8%A3%81%E5%88%A4)、奧斯卡新設長篇動畫獎、[日本動畫協會](https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E5%8B%95%E7%94%BB%E5%8D%94%E4%BC%9A)成立
+- 2006 — 《涼宮春日的憂鬱》播出，成為深夜動畫爆紅契機
+- 2007 — 日本電影學院獎新設動畫獎，《[跨越時空的少女](<https://ja.wikipedia.org/wiki/%E6%99%82%E3%82%92%E3%81%8B%E3%81%91%E3%82%8B%E5%B0%91%E5%A5%B3_(%E3%82%A2%E3%83%8B%E3%83%A1%E6%98%A0%E7%94%BB)>)》取得最優秀動畫作品獎
+- 2007 — 由於金田邊警官殺害事件，《[寒蟬鳴泣之時 解](https://ja.wikipedia.org/wiki/%E3%81%B2%E3%81%90%E3%82%89%E3%81%97%E3%81%AE%E3%81%AA%E3%81%8F%E9%A0%83%E3%81%AB%E8%A7%A3)》與《[School Days](<https://ja.wikipedia.org/wiki/School_Days_(%E3%82%A2%E3%83%8B%E3%83%A1)>)》自肅暫停播出，《[萌少女的戀愛時光](https://ja.wikipedia.org/wiki/%E3%81%93%E3%81%A9%E3%82%82%E3%81%AE%E3%81%98%E3%81%8B%E3%82%93)》也因為札幌學校主任買春事件而停止播出
+- 2009 — 首部日韓同時播放作品《[黑神](https://ja.wikipedia.org/wiki/%E9%BB%92%E7%A5%9E)》播出
+- 2011 — 《[魔法少女小圓](https://ja.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB)》播出
+- 2016 — 《你的名字。》上映，成為日本電影史上第二高的 250 億日元票房
+- 2019 — 《鬼滅之刃》播出
 
 ---
 
