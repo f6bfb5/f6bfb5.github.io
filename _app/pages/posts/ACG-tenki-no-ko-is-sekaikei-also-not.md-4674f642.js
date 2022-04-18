@@ -1,0 +1,1 @@
+import"../../chunks/index-281cf758.js";import"../../chunks/_post-bcd7746f.js";import{A as r,m as e}from"../../chunks/ACG-tenki-no-ko-is-sekaikei-also-not-2e01b283.js";export{r as default,e as metadata};

@@ -1,0 +1,1 @@
+import"../../chunks/index-281cf758.js";import"../../chunks/_post-bcd7746f.js";import{A as r,m as e}from"../../chunks/ACG-problems-about-taiwan-students-facing-japan-culture-969afdc8.js";export{r as default,e as metadata};

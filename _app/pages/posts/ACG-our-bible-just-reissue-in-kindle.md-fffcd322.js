@@ -1,0 +1,1 @@
+import"../../chunks/index-281cf758.js";import"../../chunks/_post-bcd7746f.js";import{A as r,m as e}from"../../chunks/ACG-our-bible-just-reissue-in-kindle-e1c038be.js";export{r as default,e as metadata};
