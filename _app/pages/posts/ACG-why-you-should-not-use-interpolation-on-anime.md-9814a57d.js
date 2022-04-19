@@ -1,0 +1,1 @@
+import"../../chunks/index-946c5d3a.js";import"../../chunks/_post-3d10a06c.js";import{A as r,m as e}from"../../chunks/ACG-why-you-should-not-use-interpolation-on-anime-cee184b0.js";export{r as default,e as metadata};

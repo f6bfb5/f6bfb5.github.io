@@ -1,1 +1,0 @@
-import"../../chunks/index-946c5d3a.js";import"../../chunks/_post-432aa816.js";import{L as r,m as e}from"../../chunks/lyrics-toshihide-baba-boys-on-the-run-f506755a.js";export{r as default,e as metadata};
