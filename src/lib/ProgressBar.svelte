@@ -1,4 +1,3 @@
-<!-- [How to Build a Reading Progress Bar With CSS and JavaScript](https://webdesign.tutsplus.com/tutorials/reading-progress-bar-css-javascript--cms-36635) -->
 <script>
   let scrollPercent = "0%";
   let processScroll = () => {

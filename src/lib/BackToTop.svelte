@@ -34,7 +34,6 @@
 
 <style>
   .back-to-top {
-    /* padding: 4px; */
     position: fixed;
     bottom: 4em;
     z-index: 99;

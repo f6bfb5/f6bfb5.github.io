@@ -4,7 +4,7 @@ date: 2021-01-21T14:31:09.000Z
 summary: "豊田利晃所導的出道作，於 1998 年上映，由千原 Junior 主演的《Pornostar》，以東京澀谷為舞台，使用獨特手法，表現生存於一般社會與黑社會的狹縫間裡的人們的奇妙鬥爭。"
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Pxk2HBOU-F0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Pornostar" width="560" height="315" src="https://www.youtube.com/embed/Pxk2HBOU-F0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1994 年 1 月 23 號，在大阪市中央區的暴力團事務所裡，1 名組員遭到切喉殺害。警方在搜索後，發現在事發沒多久，北區的醫院裡有位左手受了傷的男性大學生正接受治療，並在地下鐵的車站垃圾桶內，找到沾滿大量血跡的刀子，經鑑定後確定是暴力團員與學生的血液。
 
@@ -16,7 +16,7 @@ summary: "豊田利晃所導的出道作，於 1998 年上映，由千原 Junior
 
 豊田利晃所導的出道作，於 1998 年上映，由千原 Junior 主演的《Pornostar》，以東京澀谷為舞台，使用獨特手法，表現生存於一般社會與黑社會的狹縫間裡的人們的奇妙鬥爭。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nmOcFDS3Y14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Pornostar opening scene" width="560" height="315" src="https://www.youtube.com/embed/nmOcFDS3Y14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 處身於慾望與憎恨、暴力之中毫無救贖的小鬼們的鬥爭劇。在交友俱樂部裡賺錢，並繳錢給黑道，對於這樣的生活感到毫無理由的不安與焦躁的上條，出現了帶著一副毫無表情的臉殺害流氓的男人，荒野。「世界上有太多多餘的事物」這樣想的荒野走在澀谷，同樣也是抱持著無法解釋的焦躁。看似不相容卻又互相吸引的兩人最後…
 

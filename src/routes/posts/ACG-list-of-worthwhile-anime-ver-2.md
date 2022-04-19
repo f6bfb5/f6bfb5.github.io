@@ -6,7 +6,7 @@ image: "https://i.imgur.com/fTb36e0.jpg"
 tags: ACG, Anime, Translate
 ---
 
-[![](https://i.imgur.com/fTb36e0.jpg)](https://i.imgur.com/fTb36e0.jpg)
+[![List of Worthwhile Anime version 2](https://i.imgur.com/fTb36e0.jpg)](https://i.imgur.com/fTb36e0.jpg)
 
 ## Introduction 介紹
 
@@ -112,7 +112,7 @@ tags: `實驗性`、`科幻`、`心理`
 
 [預告](https://youtu.be/c8O7w3xFqoo)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c8O7w3xFqoo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Memories 三部曲" src="https://www.youtube.com/embed/c8O7w3xFqoo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A compilation of three 40 minute movies, overseen by Katsuhiro Otomo, the man responsible for Akira. The first, Magnetic Rose, is the main draw for the compilation, being both technically stunning and deep, and carrying the other two less impressive movies.
 
@@ -125,7 +125,7 @@ tags: `歷史`、`動作`、`人間劇`
 
 [預告](https://youtu.be/3vUpmcZRkRY)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3vUpmcZRkRY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="異邦人 無皇刃譚" src="https://www.youtube.com/embed/3vUpmcZRkRY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 With possibly the most intensly well animated and pulse pounding sword fights of any animated action film, a classic "underdog" storyline, and a throwback vibe to the days of classic samurai movies, this masterpiece movie leaves little to be desired. You'll find yourself replaying the fight scenes over and over.
 
@@ -138,7 +138,7 @@ tags: `喜劇`、`愛情`
 
 [預告](https://youtu.be/Zf-peRtgpWI)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Zf-peRtgpWI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="黃金小子" src="https://www.youtube.com/embed/Zf-peRtgpWI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Erotic comedy done right. A college guy who drops out of University even though he's completed all the requirements floats across Japan on his bike, from job to job, girl to girl, the humor seems to flow naturally from the characters and situations. This title has been bestowed the status of "classic" and "essentail" by a number of critics.
 
@@ -151,7 +151,7 @@ tags: `科幻`、`動作`、`心理`
 
 [預告](https://youtu.be/ooKBenGK3R4)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ooKBenGK3R4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="光明戰士" src="https://www.youtube.com/embed/ooKBenGK3R4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Considered by many to be one of the most important and influential anime for western audiences. It's visceral and violent imagery challenged western percpetions of animation. It's often credited for starting the "second wave" of fandom during the early 90's.
 
@@ -164,7 +164,7 @@ tags: `喜劇`、`日常`
 
 [預告](https://youtu.be/uX2xMBvUm58)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uX2xMBvUm58" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="笑園漫畫大王" src="https://www.youtube.com/embed/uX2xMBvUm58" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Originally aired as 130 five minute shorts. Charming, mellow, and somewhat cutesy, yet completely innocent. Manages to avoid the pitfalls associated with the schoolgirl genre through a "zen-like" quality reminiscent of the 4-panel manga it was based on.
 
@@ -177,7 +177,7 @@ tags: `動作`、`冒險`
 
 [預告](https://youtu.be/MtuNdtfMlJ0)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MtuNdtfMlJ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="永生之酒" src="https://www.youtube.com/embed/MtuNdtfMlJ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Pulp fiction. gangsters, and a mashup of classic american movie themes come together in a web of intersecting plots. Graphic, voilent, and complex, it has recieved "universal critical acclaim" as well as a strong fan following.
 
@@ -190,7 +190,7 @@ tags: `科幻`、`人間劇`、`動作`
 
 [預告](https://youtu.be/JY0C_xuTZrQ)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JY0C_xuTZrQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="大城市" src="https://www.youtube.com/embed/JY0C_xuTZrQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Based on the original work and visual style of the father of Japanese animation, Osamu Tezuka, this movie is a hallmark "classic for the ages". Osamu's distinct style comes through clearly, which makes this title an important benchmark for fans looking to gauge the evolution of anime.
 
@@ -203,7 +203,7 @@ tags: `中世奇幻`、`動作`
 
 [預告](https://youtu.be/IXL5r3n862U)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IXL5r3n862U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="劍風傳奇烙印勇士" src="https://www.youtube.com/embed/IXL5r3n862U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Based on the highly acclaimed manga of the same name, this show has caused some polarization in its fanbase. Often criticized as an example of "where the anime goes wrong", with low production values and a cut-short storyline. It stands on it's own as a cult classic.
 
@@ -216,7 +216,7 @@ tags: `機人`、`動作`、`懸疑`
 
 [預告](https://youtu.be/GOzphFKZAFk)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GOzphFKZAFk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="The Big O" src="https://www.youtube.com/embed/GOzphFKZAFk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Most notable for its unique style and noir atmosphere - later seen in the American Batman animation - this show was cut short before a planned third season, leading to a controversial ending which often requires guidance to understand.
 
@@ -229,7 +229,7 @@ tags: `動作`、`冒險`
 
 [預告](https://youtu.be/JsL9vhMfyrs)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JsL9vhMfyrs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="黑礁" src="https://www.youtube.com/embed/JsL9vhMfyrs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This high action shoot-em-up about crime and the south-sea underworld is described simply as "badass." It is also a strong representative of the rare "girls with guns" genre and has picked up a large fanbase composed mostly of people seeking a mature action anime.
 
@@ -242,7 +242,7 @@ tags: `中世奇幻`、`動作`
 
 [預告](https://youtu.be/c5DDD0ofspk)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c5DDD0ofspk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="獵魔戰記" src="https://www.youtube.com/embed/c5DDD0ofspk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Eye popping action scenes and a sharp visual style are the main draws for this series. Like Berserk, it is heavily propped up by its manga. It follows the story of a swordswomen with supernatual powers on her quest for revenge.
 
@@ -255,7 +255,7 @@ tags: `科幻`、`動作`、`冒險`
 
 [預告](https://youtu.be/QCaEJZqLeTU)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QCaEJZqLeTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="星際牛仔" src="https://www.youtube.com/embed/QCaEJZqLeTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Possibly the most watched and easily identifiable anime for western audiences over 16, it is consistently ranked among the top anime of all time. It has stood the test of time and is widely regarded as a "must-watch" for all anime fans. Also noted for its highly episodic flow with focus on individual characters.
 
@@ -268,7 +268,7 @@ tags: `日常`、`人間劇`、`懸疑`、`賽博龐克`
 
 [預告](https://youtu.be/4bkG6YDjfcM)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4bkG6YDjfcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="電腦線圈" src="https://www.youtube.com/embed/4bkG6YDjfcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In production for over 10 years, this show is as innovative as it is fun to watch. Don't be fooled by the school girls the story centers on, it's quite substantial. The plot is thick, filler enjoyable, and the ending is surprisingly smart.
 
@@ -281,7 +281,7 @@ tags: `賽博龐克`、`科幻`、`末日後幻想`
 
 [預告](https://youtu.be/MWI97Kg8ur8)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MWI97Kg8ur8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="死亡代理人" src="https://www.youtube.com/embed/MWI97Kg8ur8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 With its dark visual style and the strong pedigree of its production crew, this show has sparked many a critical debate due to a perception of being "overtly deep" and pretentious. Make your own judgements.
 
@@ -294,7 +294,7 @@ tags: `科幻`、`人間劇`
 
 [預告](https://youtu.be/5CrNNs-37As)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5CrNNs-37As" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="夏娃的時間" src="https://www.youtube.com/embed/5CrNNs-37As" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Original and having high quality animation, this show raises questions about Asimov's three laws, human- andriod relations, and machine intellegence. Also worthwhile are shorts by the same director: Aquatic Language and Pale Cocoon
 
@@ -307,7 +307,7 @@ tags: `喜劇`、`動作`、`科幻`
 
 [預告](https://youtu.be/pKMzuuy_KQQ)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pKMzuuy_KQQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="FLCL" src="https://www.youtube.com/embed/pKMzuuy_KQQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Another "must watch" classic. Noted for it's over-the-top action and crazy characters. If "ridiculous" was a genre, this anime would be it's representative. Adult Swim has said of it: "The best anime we ever aired."
 
@@ -320,7 +320,7 @@ tags: `動作`、`科幻`、`末日後幻想`、`人間劇`
 
 [預告](https://youtu.be/CKvZKrGmODE)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CKvZKrGmODE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="FREEDOM" src="https://www.youtube.com/embed/CKvZKrGmODE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The story of a post-apocalypse utopian moon colony, and those they left behind. From the same creators as Akira and Steamboy, Extremely high quality animation, brought to you by Nissan Cup Noodles.
 
@@ -333,7 +333,7 @@ tags: `科幻`、`藝術`、`動作`、`人間劇`
 
 [預告](https://youtu.be/qaG9Kkkdfx0)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qaG9Kkkdfx0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="嚴窟王" src="https://www.youtube.com/embed/qaG9Kkkdfx0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Based on the best book of all time, The Count of Monte Cristo, this show takes it into the future while retaining the same themes and overall "vibe", and loosely adhereing to the storyline. Notable for its complex plot and unique artistic style.
 
@@ -346,7 +346,7 @@ tags: `藝術`、`實驗`
 
 [預告](https://youtu.be/qEmOMcteTwk)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qEmOMcteTwk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Genuis Party + Beyond" src="https://www.youtube.com/embed/qEmOMcteTwk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This is not so much an anime as it is a "film festival" showcasing experimental animation by Japanese artists, some of them well-renowned, others indie. Shorts vary in length from 8 minutes to 20-or-so.
 
@@ -359,7 +359,7 @@ tags: `賽博龐克`、`心理`、`動作`
 
 [預告](https://youtu.be/Gf6YFrV7zes)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Gf6YFrV7zes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="攻殼機動隊" src="https://www.youtube.com/embed/Gf6YFrV7zes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The original cyberpunk anime, based on the work of famed artist Shiro Masamune. Pretty much evensthing that comes out of this franchise is good, but the two original movies are especially regarded as classics. Noted for smart, multi-layered, intrigue and waxing philosophical.
 
@@ -372,7 +372,7 @@ tags: `人間劇`、`科幻`
 
 [預告](https://youtu.be/QxhF1BDrYTM)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QxhF1BDrYTM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="跨越時空的少女" src="https://www.youtube.com/embed/QxhF1BDrYTM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This was a sleeper hit among western and Japanese fans. It won awards at international film festivals before it was discovered as an exemplary "drama with a twist" and spread by word of mouth over the internet.
 
@@ -385,7 +385,7 @@ tags: `歷史`、`人間劇`
 
 [預告](https://youtu.be/4vPeTSRd580)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4vPeTSRd580" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="螢火蟲之墓" src="https://www.youtube.com/embed/4vPeTSRd580" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A heartwrenching movie about a young boy and his little sister surviving the fire bombings of Kobe during WWII. Robert Ebert reviewed it as "one of the most powerful anti-war movies ever made." This profoundly deep Ghibli classic will make you cry, garunteed.
 
@@ -398,7 +398,7 @@ tags: `歷史`、`動作`、`人間劇`
 
 [預告](https://youtu.be/IWg7t1z35BY)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IWg7t1z35BY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="赤腳阿元" src="https://www.youtube.com/embed/IWg7t1z35BY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Depicts WWII Japan through the eyes of a young boy trying to help his family. Interesting for a Japanese view of the war, and the Hiroshima bombing. A sometimes heartwrenching pair of movies. Until the late 90's, the first was required watching for many Japanese school children.
 
@@ -411,7 +411,7 @@ tags: `人間劇`
 
 [預告](https://youtu.be/iCcDhnNjkqA)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iCcDhnNjkqA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="灰羽聯盟" src="https://www.youtube.com/embed/iCcDhnNjkqA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Heartwarming and genuine, yet at times melodramatic, it is a highly regarded favorite for fans seeking an emotional show which contains more depth. It has a lot of atmosphere, centering around a group of young girls who are "reborn" into a mysterious walled town, without memories, who develop angel-like features.
 
@@ -424,7 +424,7 @@ tags: `動作`、`恐怖`
 
 [預告](https://youtu.be/oLjJtdmUNdk)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oLjJtdmUNdk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Hellsing Ultimate" src="https://www.youtube.com/embed/oLjJtdmUNdk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 With longer episodes in the 40 to 60 minute range, this more recent version of the Hellsing anime follows its superb manga more closely, and is of a generally higher quality than the 2001 TV. Well known for being a "badass" title and a strong representative of the horror genre.
 
@@ -437,7 +437,7 @@ tags: `奇幻`、`冒險`、`蒸氣龐克`
 
 [預告](https://youtu.be/iwROgK94zcM)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iwROgK94zcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="霍爾的移動城堡" src="https://www.youtube.com/embed/iwROgK94zcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Miyazaki and Studio Ghibli at their best. Visually stunning, with an enchanting story, it appeared on a number of top 10 lists for best film of 2005, won numerous awards, and has since gained legendary status among anime.
 
@@ -450,7 +450,7 @@ tags: `心理`、`動作`、`人間劇`
 
 [預告](https://youtu.be/8oui3kAkUqE)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8oui3kAkUqE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="人狼" src="https://www.youtube.com/embed/8oui3kAkUqE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 From the creators of Akira and Ghost in the Shell, it is everything you'd expect from its pedigree. Worth watching just for "one of the most chilling moments in anime." This movie has been described as "heavy", and has possibly one of the deepest endings of any animated action film. The kind of movie film professors assign papers on.
 
@@ -463,7 +463,7 @@ tags: `科幻`、`藝術`、`人間劇`、`愛情`
 
 [預告](https://youtu.be/KFI_Fl1sRWg)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KFI_Fl1sRWg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="海馬" src="https://www.youtube.com/embed/KFI_Fl1sRWg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Most immediatley noticed for its experimental artistic style and unique atmosphere, below the surface itis a beautifully told story of memories and a romance lost. This show has a calming effect on some people. Don't let the artistic style fool you, it contains fairly mature content.
 
@@ -476,7 +476,7 @@ tags: `喜劇`、`日常`
 
 [預告](https://youtu.be/jyE9L7xeJvA)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jyE9L7xeJvA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="再見了絕望老師" src="https://www.youtube.com/embed/jyE9L7xeJvA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A hilarious, distinctly Japanese, comedy about a chronically depressed school teacher and the quirky schoolgirls he teaches. The textured, high contrast, art style emphasises the zany. high contrast, humor. This show has recieved very strong positive reception and a cult fandom.
 
@@ -489,7 +489,7 @@ tags: `歷史`、`動作`、`喜劇`、`愛情`、`藝術`
 
 [預告](https://youtu.be/nocsfRZxt3M)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nocsfRZxt3M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="刀語" src="https://www.youtube.com/embed/nocsfRZxt3M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 With a single episode airing each month, that leaves much time to be put into this anime's striking art and overall quality The character designs and interactions are almost perfect, and the show has picked up quite a cult-following.
 
@@ -502,7 +502,7 @@ tags: `人間劇`、`超自然`、`愛情`、`藝術`、`恐怖`
 
 [預告](https://youtu.be/J3AvlxZBMXU)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J3AvlxZBMXU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="獸爪" src="https://www.youtube.com/embed/J3AvlxZBMXU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Featuring an amazing artistic style, it's a story of forbidden love. A modern Beauty and the Beast, with a graphic twist. A man who hunts monsters and a woman who is one. Worth watching for the visual pleasure alone.
 
@@ -515,7 +515,7 @@ tags: `冒險`、`人間劇`
 
 [預告](https://youtu.be/8sNKsnr9kwY)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8sNKsnr9kwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="奇諾之旅" src="https://www.youtube.com/embed/8sNKsnr9kwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Kino's Journey explores what director Ryutaro Nakamura describes as "a radical sense of 'beauty'." and brutality, loneliness, nonsense, oppression and tragedy are often juxtaposed against compassion and a fairy-tale atmosphere. Excellent story, atmosphere, and philosophical themes.
 
@@ -528,7 +528,7 @@ tags: `蒸氣龐克`、`動作`、`冒險`
 
 [預告](https://youtu.be/WtOBWGPfdOo)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WtOBWGPfdOo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="最後流亡" src="https://www.youtube.com/embed/WtOBWGPfdOo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A respected steampunk series, with designs done by famed character artist Range Murata, and universally positive reception in and out of Japan. Described as a "retro-futuristic space-opera in the sky" with a WWII meets Industrial Revolution atmosphere.
 
@@ -541,7 +541,7 @@ tags: `科幻`、`冒險`、`人間劇`、`懷舊`
 
 [預告](https://youtu.be/G7grjXe2Eyo)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G7grjXe2Eyo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="銀河英雄傳說" src="https://www.youtube.com/embed/G7grjXe2Eyo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 With a 9 year direct-to-video run through the late 80's and 90's, this anime has seen a recent revival in a devoted cult of hardcore fans. It's the definition of "space opera", with massive naval battles, a detailed political universe, and complex plotlines. One of the few true epics.
 
@@ -554,7 +554,7 @@ tags: `愛情`、`喜劇`、`人間劇`、`懷舊`、`日常`
 
 [預告](https://youtu.be/et7jnupRe7Y)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/et7jnupRe7Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="相聚一刻" src="https://www.youtube.com/embed/et7jnupRe7Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A comedy slice of life geared towards an older college student audience. The characters are genuine and relatable, have real issues, and believable interactions. It provides a classic view of the SoL romance genre before it was known for harems and other gimmicks.
 
@@ -567,7 +567,7 @@ tags: `賽博龐克`、`動作`、`心理`、`人間劇`
 
 [預告](https://youtu.be/rG2yepeULbw)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rG2yepeULbw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="殼中少女" src="https://www.youtube.com/embed/rG2yepeULbw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 With only two of three parts complete, this outstanding noir scifi is poised to take its place in the hall of cyberpunk classics alongside the likes of Ghost in the Shell. It follows the story of an exploited girl, empowered by cybernetic enhancement, on her quest for justice.
 
@@ -580,7 +580,7 @@ tags: `人間劇`、`愛情`、`心理`
 
 [預告](https://youtu.be/wfnRYdTpzbs)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wfnRYdTpzbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="千年女優" src="https://www.youtube.com/embed/wfnRYdTpzbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Straight from the mind of legendary director Satoshi Kon. Like in many of his works, reality and fantasy become blurred illusions of the human psyche, with the complex interwoven narrative style of a "play within a play."
 
@@ -593,7 +593,7 @@ tags: `懸疑`、`超自然`、`藝術`
 
 [預告](https://youtu.be/5OJW9gZL33Q)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5OJW9gZL33Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="物怪" src="https://www.youtube.com/embed/5OJW9gZL33Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This technically advanced and stylistically bold animation follows a wandering, nameless, character known only as the "Medicine Seller", as he undertakes multi- episode exorcisms of spirits which linger in our world. It covers 5 individual self- contained story arcs.
 
@@ -606,7 +606,7 @@ tags: `人間劇`、`懸疑`、`心理`、`恐怖`
 
 [預告](https://youtu.be/9aS-EgdAq6U)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9aS-EgdAq6U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="怪物" src="https://www.youtube.com/embed/9aS-EgdAq6U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Based on the manga of the same name by award winning mangka Naoki Urasawa, best known for 20th Century Boys, Monster is often cited as a show that wouldn't seem out of place as a primetime live action drama on western network TV.
 
@@ -619,7 +619,7 @@ tags: `懸疑`、`超自然`
 
 [預告](https://youtu.be/StCN_4qWfWE)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/StCN_4qWfWE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="蟲師" src="https://www.youtube.com/embed/StCN_4qWfWE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The most common adjective used to describe this anime is "mellow." It has a relaxing atmosphere, almost meditative, following a "quiet genius" main character as he helps people solve problems with supernatural ordanisms known as Mushi.
 
@@ -632,7 +632,7 @@ tags: `動作`、`奇幻`、`人間劇`、`末日後幻想`
 
 [預告](https://youtu.be/6zhLBe319KE)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6zhLBe319KE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="風之谷" src="https://www.youtube.com/embed/6zhLBe319KE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The movie that started Studio Ghibli, based on one of the best manga of all time, both by Miyazaki. The indomitable spirit of its lead character, Nausicaa, as she fights to save her people, make it a "must watch" classic.
 
@@ -645,7 +645,7 @@ tags: `機人`、`心理`、`人間劇`、`動作`
 
 [預告](https://youtu.be/13nSISwxrY4)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/13nSISwxrY4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="新世紀福音戰士" src="https://www.youtube.com/embed/13nSISwxrY4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This franchise is controversial and has generated more debate, criticism, and derrivative fan work than any other anime. The reasons it's hated are as varied as the reasons it's loved. Be your own judge.
 
@@ -658,7 +658,7 @@ tags: `科幻`、`動作`、`冒險`
 
 [預告](https://youtu.be/IOqZlvL_PDA)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IOqZlvL_PDA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="星方武俠" src="https://www.youtube.com/embed/IOqZlvL_PDA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A classic shounen scifi. with well written plot and unique character designs. Many older fans grew up watching this show on midnight Toonami, and so holds a special place in the fandom. Some have called it a less-mature Cowboy Bebop with overarching storyline.
 
@@ -671,7 +671,7 @@ tags: `心理`、`人間劇`
 
 [預告](https://youtu.be/yn7U1KIGeuQ)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yn7U1KIGeuQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="盜夢偵探" src="https://www.youtube.com/embed/yn7U1KIGeuQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Satoshi Kon's magnum opus. The vivid animation is "as trippy as the plot." Leveraging on Satoshi's usual experimental themes, it asks "what happens when our dreams get loose." Scored by genius composer Susumu Hirasawa. A post-modern classic.
 
@@ -684,7 +684,7 @@ tags: `心理`、`人間劇`
 
 [預告](https://youtu.be/QHvcCmrgDbY)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QHvcCmrgDbY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="妄想代理人" src="https://www.youtube.com/embed/QHvcCmrgDbY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Wherein Satoshi Kon "plays around with different ideas and characters." It's as much a window into the mind of a genius as itis a genius work itself. Overarching themes having to do with social pressures the resulting psychological breakdowns.
 
@@ -697,7 +697,7 @@ tags: `心理`、`人間劇`
 
 [預告](https://youtu.be/dpaCRJ_u600)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dpaCRJ_u600" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="藍色恐懼" src="https://www.youtube.com/embed/dpaCRJ_u600" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Another classic Satoshi film. A pop idol is stalked by a psychopathic fan whose sense of personal reality has become distorted. It contains some deep messages about the image of beauty and society Suspensful, yet introspective.
 
@@ -710,7 +710,7 @@ tags: `人間劇`、`愛情`、`科幻`
 
 [預告](https://youtu.be/Y7lIXfKhOAA)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y7lIXfKhOAA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="雲之彼端，約定的地方" src="https://www.youtube.com/embed/Y7lIXfKhOAA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Excellent artisitic quality and detailed backgrounds set this anime apart. It takes place in an alternate history where Japan was divided up at the end of WWII, and follows the story of 3 teenagers as they unravel the secrets of their world.
 
@@ -723,7 +723,7 @@ tags: `人間劇`、`愛情`、`科幻`
 
 [預告](https://youtu.be/en3Gg3k1y3Q)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/en3Gg3k1y3Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="惑星奇航" src="https://www.youtube.com/embed/en3Gg3k1y3Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In a technically-accurate "plausable scifi" setting, it tells the story of the relationships and ambitions of a lowly space-garbage collector. Notable for it's many complex themes, inculding "the artificial division of mankind", "the realtionship between space, humanity. and the individual", and existentialism.
 
@@ -736,7 +736,7 @@ tags: `動作`、`人間劇`、`奇幻`、`超自然`
 
 [預告](https://youtu.be/4OiMOHRDs14)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4OiMOHRDs14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="魔法公主" src="https://www.youtube.com/embed/4OiMOHRDs14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 One of the most highly reviewed anime classics, winning more awards than any other animated feature film during it's time. It is classic Miyazaki, and a fitting spiritual sucessor to Nausicaa.
 
@@ -749,7 +749,7 @@ tags: `動作`
 
 [預告](https://youtu.be/ZjduRoWgrao)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZjduRoWgrao" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="R.O.D -READ OR DIE-" src="https://www.youtube.com/embed/ZjduRoWgrao" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 What it lacks for in depth, it makes up in spades with thrilling action. With protagonists sporting superhero-like specializations, and a supervillian plot to destroy the world fitting of any american comic book, this unique anime is worth its 1.5 hour runtime.
 
@@ -762,7 +762,7 @@ tags: `動作`、`冒險`
 
 [預告](https://youtu.be/RJCiRrd-lXE)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RJCiRrd-lXE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="道子與哈金" src="https://www.youtube.com/embed/RJCiRrd-lXE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Hatchin is the depressed young girl, stiffled by her abusive foster family. Mitchiko is the sexy, carefree, criminial who sweeps her off her feet on a journey to find their past. This anime has style, action, and a "lawless Latin America" atmosphere backed by an amazing soundtrack and engaging storyline.
 
@@ -775,7 +775,7 @@ tags: `動作`、`冒險`、`歷史`
 
 [預告](https://youtu.be/HFZ0Br5n0b0)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HFZ0Br5n0b0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="琉球武士瘋雲錄" src="https://www.youtube.com/embed/HFZ0Br5n0b0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Directed by the creator of Cowboy Bebop, this series continues his "mashup style", this time with hip-hop in Edo period Japan. Often recommended as a show for people suffering post- bebop depression: believing they'll never find a show as good.
 
@@ -788,7 +788,7 @@ tags: `賽博龐克`、`心理`
 
 [預告](https://youtu.be/t5y4nQ5Y1V8)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t5y4nQ5Y1V8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="玲音" src="https://www.youtube.com/embed/t5y4nQ5Y1V8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 "The hacker anime." This dark series is rife with philosophical questions, psychological depth. symbolism, conspiracy theories, and a fair ammount of subtle hacker trivia.
 
@@ -801,7 +801,7 @@ tags: `動作`、`人間劇`、`歷史`
 
 [預告](https://youtu.be/XE8bImi0_GQ)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XE8bImi0_GQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="劍豪生死鬥" src="https://www.youtube.com/embed/XE8bImi0_GQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Graphic, bloody, and voilent, the show is reminiscent of classic samurai movies. It's based on an excellent manga of the same name. Sharp visuals and attention to detial make both worth checking out.
 
@@ -814,7 +814,7 @@ tags: `超自然`、`奇幻`
 
 [預告](https://youtu.be/ByXuk9QqQkk)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ByXuk9QqQkk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="神隱少女" src="https://www.youtube.com/embed/ByXuk9QqQkk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Possibly the most higly decorated Japanese animation of all time, being the only anime to win an Academy Award, and only the second to win an Oscar. It's the fantastic tale of a young girl's journey through a world of spirits, by Hayao Miyazaki and Studio Ghibli.
 
@@ -827,7 +827,7 @@ tags: `蒸氣龐克`、`動作`
 
 [預告](https://youtu.be/rQpbBwA0r14)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rQpbBwA0r14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="蒸氣男孩" src="https://www.youtube.com/embed/rQpbBwA0r14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In production for over 10 years, it holds the title of most expensive anime movie to date. From the same creator as Akira, it is a representative work of the rare Steampunk genre. Quality, detailed, animation and a fairly good storyline leave little to be desired.
 
@@ -840,7 +840,7 @@ tags: `日常`
 
 [預告](https://youtu.be/PlWk-96JHz4)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PlWk-96JHz4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="白兔玩偶" src="https://www.youtube.com/embed/PlWk-96JHz4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A 30 year old bachelor adopts the illegitimate child of his recently deceased grandfather. It is a soft, heartwarming, and humorous story which illuminates the sacafices and rewards of parenting. This show "stirs the paternal instinct" in many male fans.
 
@@ -853,7 +853,7 @@ tags: `人間劇`、`藝術`
 
 [預告](https://youtu.be/hzvU8t3TRio)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hzvU8t3TRio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="四疊半神話大系" src="https://www.youtube.com/embed/hzvU8t3TRio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Another show with experimental visual style, using 2D, 3D CGI, and filtered live action in various colorschemes, from the creator and director of Kaiba. An interesting take on the quarter-life crisis experienced by many young men in Japan.
 
@@ -866,7 +866,7 @@ tags: `人間劇`、`動作`、`藝術`
 
 [預告](https://youtu.be/W2ku5toXWFc)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/W2ku5toXWFc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="惡童當街" src="https://www.youtube.com/embed/W2ku5toXWFc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Most notable for it's eye popping "background porn" and vibrant use of color. This movie, while produced in Japan, had an American director. It tells the story of two orphans who patrol Treasure Town, beating down any yakuza or thugs that get in their way
 
@@ -879,7 +879,7 @@ tags: `科幻`、`心理`
 
 [預告](https://youtu.be/89pOg6LRmgo)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/89pOg6LRmgo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="機魂末世錄" src="https://www.youtube.com/embed/89pOg6LRmgo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The first thing people notice about this show is its minimalistic dialogue, followed by its dark imagery. The plot is slow at first, but eventually reveals a deep story of warring factions in a city considered a sentient force and governed by a subtle caste system built around prosthetic implants.
 
@@ -892,7 +892,7 @@ tags: `人間劇`、`喜劇`
 
 [預告](https://youtu.be/vNGiL9UNONU)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vNGiL9UNONU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="東京教父" src="https://www.youtube.com/embed/vNGiL9UNONU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Somewhat of a divergence from Satoshi Kon's usual psychologically complex and experimental themes, this movie follows three homeless in Tokyo who find an abandoned baby on Christmas Eve as they attempt to return the child to its mother.
 
@@ -905,7 +905,7 @@ tags: `動作`、`恐怖`、`科幻`
 
 [預告](https://youtu.be/mYWpTOBl3Ic)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mYWpTOBl3Ic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="吸血鬼獵人 D" src="https://www.youtube.com/embed/mYWpTOBl3Ic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 D is a sort of lone wolf-like knight-errant, who wanders through a far-future post- nuclear Earth that combines elements of pulp genres: western, science fiction, horror, and high fantasy. The 1985 film was one of the first anime released in the west, and the 2000 film is noted for it's advanced technique.
 
@@ -918,7 +918,7 @@ tags: `心理`、`人間劇`、`喜劇`、`愛情`
 
 [預告](https://youtu.be/QYLsjJ8RThQ)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QYLsjJ8RThQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="歡迎來到 NHK" src="https://www.youtube.com/embed/QYLsjJ8RThQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 What many people expect to be a light hearted otaku comedy actually turns out to be a fairly dark show about a man's descent into antisocial escapism. It leaves a bitter taste for some anime fans who relate a little too well with the main character.
 
@@ -931,7 +931,7 @@ tags: `科幻`、`動作`、`人間劇`
 
 [預告](https://youtu.be/TdYgZov_1uk)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TdYgZov_1uk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="王立宇宙軍" src="https://www.youtube.com/embed/TdYgZov_1uk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Best known as Gainax' first commercial full length animation, it's considered a classic, with a 2 hour length and amazingly high quality animation, voice acting, and attention to detail for its smallish budget and then garage-band crew. It recieved positive reviews and is credited for Gainax' success as an early studio.
 
@@ -944,7 +944,7 @@ tags: `藝術`、`心理`、`喜劇`
 
 [預告](https://youtu.be/2fmmCsyK1dY)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2fmmCsyK1dY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="心靈遊戲" src="https://www.youtube.com/embed/2fmmCsyK1dY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A hallmark movie of Studio 4°C, it uses a series of disparate artistic styles which morph as the movie progresses, giving it a playful and "rough-cut" artistic feel. While it was a box office flop and recieved poor critical reviews in Japan, fan reception was positive and it gained a strong cult following, and has since won multiple awards internationally
 
@@ -957,7 +957,7 @@ tags: `愛情`、`人間劇`
 
 [預告](https://youtu.be/wdM7athAem0)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wdM7athAem0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="秒速 5 公分" src="https://www.youtube.com/embed/wdM7athAem0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 One reviewer said of it: "[It] pierces the veil of the everyday to reveal a poignant, evanescent beauty most of us notice only in rare moments." It's a deeply beautiful animation about love and the progression of life.
 

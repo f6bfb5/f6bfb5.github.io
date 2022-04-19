@@ -4,7 +4,7 @@ date: 2010-09-02T13:07:13.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe src="https://www.youtube.com/embed/C34pr9PnLAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="サンボマスター - 人はそれを情熱と呼ぶ" src="https://www.youtube.com/embed/C34pr9PnLAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 有些事情我在組了 Sambomaster 這支樂團，和你們這群美好的日本人相逢之後才了解
 

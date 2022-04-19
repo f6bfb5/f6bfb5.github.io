@@ -4,7 +4,7 @@ date: 2018-12-25T11:51:05.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe src="https://www.youtube.com/embed/lxt-zHlHd1o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="樋口了一 - 1/6の夢旅人2002" src="https://www.youtube.com/embed/lxt-zHlHd1o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 轉啊轉啊地球旋轉著
 <br>一無所有時已是如此

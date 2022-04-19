@@ -15,9 +15,9 @@ tags: ACG, Anime
 
 在 Youtube 上搜尋「動畫名稱 60fps」，可以找到非常多經過這類處理的影片成品，乍看之下會覺得動得非常快速的畫面看來十分過癮，似乎沒什麼不好的？然而眼睛銳利的人，可能會在狀況比較惡劣的時候注意到像這樣的畫面：
 
-![](https://i.imgur.com/W0fnu0Nl.jpg)
-![](https://www.svp-team.com/w/images/c/c2/Anime-1.jpg)
-![](https://user-images.githubusercontent.com/2360542/37360739-0f78cdf4-272c-11e8-9573-a71be7f8072c.jpg)
+![example1](https://i.imgur.com/W0fnu0Nl.jpg)
+![example2](https://www.svp-team.com/w/images/c/c2/Anime-1.jpg)
+![example3](https://user-images.githubusercontent.com/2360542/37360739-0f78cdf4-272c-11e8-9573-a71be7f8072c.jpg)
 
 也就是所謂的「**偽影**」，常出現在難以預測的角色動作佔畫面大部份時，軟體無法計算出正確的中間動作是什麼，就變成了像電視雜訊般的畫面，這是因為動畫的畫面資訊，不同於有連續性且易於猜測的真人影劇，是**經由精密計算過後手繪 / 建模而成**，變動性落差較大，與補幀軟體的相容性十分惡劣。這是第一個原因，**難以預測性**。
 

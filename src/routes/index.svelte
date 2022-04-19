@@ -155,7 +155,11 @@
                   <Tag {tag} />
                 {/each}
               {/if}
-              <span>{date}</span>
+              <span>
+                {("0" + (new Date(date).getMonth() + 1)).slice(-2)}/{(
+                  "0" + new Date(date).getDate()
+                ).slice(-2)}
+              </span>
             </div>
           </li>
         </ul>

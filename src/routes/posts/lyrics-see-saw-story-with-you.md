@@ -4,7 +4,7 @@ date: 2019-10-14T13:13:14.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe src="https://www.youtube.com/embed/_KG3VM-Ud5k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="See-Saw - 君がいた物語" src="https://www.youtube.com/embed/_KG3VM-Ud5k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 寂靜與安寧在遠處招手
 <br>似乎旋即就能抵達前方

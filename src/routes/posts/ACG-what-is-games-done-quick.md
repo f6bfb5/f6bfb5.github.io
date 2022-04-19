@@ -5,7 +5,7 @@ summary: ""
 tags: ACG, Game
 ---
 
-![](https://1.bp.blogspot.com/-1q0FQX55Vig/Wzj9ZOdWv6I/AAAAAAAABp4/llfwaZLc0rU9yNsfMLTZqsCdu5O3yrqtACLcBGAs/s1600/36063595_399970023826244_606162993775902720_n.png)
+![Summer Games Done Quick](https://1.bp.blogspot.com/-1q0FQX55Vig/Wzj9ZOdWv6I/AAAAAAAABp4/llfwaZLc0rU9yNsfMLTZqsCdu5O3yrqtACLcBGAs/s1600/36063595_399970023826244_606162993775902720_n.png)
 
 2018 年 7 月 1 日，全球最大的快速通關（RTA）慈善活動 Summer Games Done Quick 2018 以 2125290 美元的驚人募款總額華麗地為活動劃下了句點，聲勢可說是越來越浩大，隨著規模逐年的擴大，去年開始更聯同各國的線上頻道展開各地語言主持的鏡像串流，讓對於英語不是那麼擅長的觀眾也能更加享受到這個活動所帶來的樂趣。
 
@@ -19,7 +19,7 @@ $2,122,529.20, that's a new SGDQ record! Thank you so so much to all of you for 
 
 台灣當然也不落人後的，自 2016 年起也在彩學的頻道進行事前的節目內容介紹、精彩看點解說、活動同步轉播以及事後的各種補充資訊，並連續兩次集結眾人之力，替慈善出一份力。
 
-<iframe height="400" allow="encrypted-media" allowtransparency="true" frameborder="0" scrolling="no" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftetristhegrandmaster3%2Fposts%2F1647910708792715%3A0&amp;width=500" style="border: none; overflow: hidden;" ></iframe>
+<iframe title="#AGDQ2016" height="400" allow="encrypted-media" allowtransparency="true" frameborder="0" scrolling="no" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftetristhegrandmaster3%2Fposts%2F1647910708792715%3A0&amp;width=500" style="border: none; overflow: hidden;" ></iframe>
 
 不過上面說了這麼多，讓我們先回頭來講講，GDQ 是什麼？什麼是 RTA？他們在幹什麼？
 

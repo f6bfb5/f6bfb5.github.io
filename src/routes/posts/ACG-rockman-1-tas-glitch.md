@@ -9,7 +9,7 @@ summary: "2014 年 5 月，遊戲圈出現了一支使用輔助程式，在「�
 
 2014 年 5 月，遊戲圈出現了一支使用輔助程式，在**半分鐘內**通關《洛克人 1》的破天荒影片，而這種需要經過精密的機制解析，與流程操控的遊戲通關方式，僅隔一個月竟然出現人力操作達成同樣的成果，人類無極限！本文會對其所使用的機制與流程進行解說。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u5qom2q7cUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="【TAS】 ロックマン 1 in 00:32.11 【任意コード実行】" width="560" height="315" src="https://www.youtube.com/embed/u5qom2q7cUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 △【TAS】 ロックマン 1 in 00:32.11 【任意コード実行】
 
 ## TAS 與 ACE
@@ -96,7 +96,7 @@ C45E: A9 00 lda #$00
 
 ## 人力 RTA
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SoUd69Xs9gg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="【RTA】ロックマン in3:53【2014-06-21】" width="560" height="315" src="https://www.youtube.com/embed/SoUd69Xs9gg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 △【RTA】ロックマン in3:53【2014-06-21】
 

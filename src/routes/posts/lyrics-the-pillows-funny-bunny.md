@@ -4,7 +4,7 @@ date: 2019-12-26T11:43:00.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe src="https://www.youtube.com/embed/f92VWkYl8CI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="The Pillows - Funny Bunny" src="https://www.youtube.com/embed/f92VWkYl8CI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 違抗大王命令敗露的夜晚
 <br>你在能觸碰極光的山丘上

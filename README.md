@@ -11,6 +11,8 @@
 - [x] Tags
 - [x] Tags Filter
   - [The Unwritten Svelte Stores Guide](https://dev.to/jdgamble555/the-unwritten-svelte-stores-guide-47la)
+- [x] Progress Bar
+  - [How to Build a Reading Progress Bar With CSS and JavaScript](https://webdesign.tutsplus.com/tutorials/reading-progress-bar-css-javascript--cms-36635)
 - [ ] Push to GitHub Pages
   - [How to Deploy SvelteKit Apps to Github Pages](https://sveltesaas.com/articles/sveltekit-github-pages-guide/)
 - [ ] Navbar segment

@@ -30,7 +30,7 @@ layout: blog
 
 ## 訪談
 
-![](https://i.imgur.com/PCqOuDx.jpg)
+![On Your Mark Interview page.1](https://i.imgur.com/PCqOuDx.jpg)
 
 ### ～我是刻意曲解了歌詞的內容製作這部影片的～
 
@@ -112,7 +112,7 @@ On Your Mark 我們消滅不了它
 於是我們
 ```
 
-![](https://i.imgur.com/m9ONs9p.jpg)
+![On Your Mark Interview page.2](https://i.imgur.com/m9ONs9p.jpg)
 
 ## 參考文章
 
