@@ -7,15 +7,16 @@ tags: ACG, Anime, Comic, Translate
 
 ## part1[DEATH NOTE]
 
-<svelte:head>
+<!-- <svelte:head>
 
-  <script src="../youtube.external.subtitle.min.js"></script>
-  <script src="../subtitles.parser.js"></script>
+<script src="../youtube.external.subtitle.min.js"></script>
+<script src="../subtitles.parser.js"></script>
 
 </svelte:head>
 
 <script>
-  window.onload = function() {
+  import { onMount } from 'svelte';
+  onMount(() => {
     var loadSRT = function(url, callback) {
       var httpRequest = new XMLHttpRequest();
       httpRequest.onreadystatechange = function() {
@@ -35,19 +36,19 @@ tags: ACG, Anime, Comic, Translate
       httpRequest.send(null);
     };
     loadSRT('../ACG-the-curse-of-evangelion.srt', function(subtitles) {
-      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.  getElementById('video-1'), subtitles);
+      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.getElementById('video-1'), subtitles);
     });
     loadSRT('../ACG-the-curse-of-evangelion.srt', function(subtitles) {
-      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.  getElementById('video-2'), subtitles);
+      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.getElementById('video-2'), subtitles);
     });
     loadSRT('../ACG-the-curse-of-evangelion.srt', function(subtitles) {
-      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.  getElementById('video-3'), subtitles);
+      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.getElementById('video-3'), subtitles);
     });
     loadSRT('../ACG-the-curse-of-evangelion.srt', function(subtitles) {
-      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.  getElementById('video-4'), subtitles);
+      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.getElementById('video-4'), subtitles);
     });
-  }
-</script>
+  })
+</script> -->
 
 <iframe id="video-1" title="Pause and Select Understanding the Disaster 1" src="https://www.youtube.com/embed/kvvUiXc6m7U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

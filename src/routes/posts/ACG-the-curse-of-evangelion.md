@@ -11,7 +11,8 @@ tags: ACG, Evangelion, Translate
   <script src="../subtitles.parser.js"></script>
 </svelte:head>
 <script>
-  window.onload = function() {
+  import { onMount } from 'svelte';
+  onMount(() => {
     var loadSRT = function(url, callback) {
       var httpRequest = new XMLHttpRequest();
       httpRequest.onreadystatechange = function() {
@@ -33,7 +34,7 @@ tags: ACG, Evangelion, Translate
     loadSRT('../ACG-the-curse-of-evangelion.srt', function(subtitles) {
       var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.  getElementById('video'), subtitles);
     });
-  }
+  })
 </script>
 
 註：中文字幕使用外掛方式載入，如果未載入成功，請重新整理頁面。

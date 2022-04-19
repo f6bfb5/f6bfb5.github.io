@@ -5,21 +5,19 @@
   // import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte";
   // import { stores } from "@sapper/app";
   // import { getStores } from "$app/stores";
-  import GoogleAdsense from "$lib/GoogleAdsense.svelte";
+  // import GoogleAdsense from "$lib/GoogleAdsense.svelte";
   import Favicon from "$lib/Favicon.svelte";
 
   // let ga_measurement_id = "UA-114661136-2";
-  let ga_client_id = "ca-pub-9613661448556355";
-
-  export let segment;
+  // let ga_client_id = "ca-pub-9613661448556355";
 </script>
 
 <div class="layout">
   <!-- <GoogleAnalytics {getStores} id={ga_measurement_id} /> -->
-  <GoogleAdsense id={ga_client_id} />
+  <!-- <GoogleAdsense id={ga_client_id} /> -->
 
   <Favicon />
-  <Header {segment} />
+  <Header />
 
   <main>
     <slot />

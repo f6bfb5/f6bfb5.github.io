@@ -13,7 +13,9 @@ tags: ACG, Game
 <div dir="ltr" lang="en">
 $2,122,529.20, that's a new SGDQ record! Thank you so so much to all of you for your support in helping us reach a new record for <a href="https://twitter.com/hashtag/SGDQ2018?src=hash&amp;ref_src=twsrc%5Etfw">#SGDQ2018</a></div>
 — Games Done Quick (@GamesDoneQuick) <a href="https://twitter.com/GamesDoneQuick/status/1013324830760996865?ref_src=twsrc%5Etfw">2018年7月1日</a></blockquote>
+<svelte:head>
 <script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
+</svelte:head>
 
 台灣當然也不落人後的，自 2016 年起也在彩學的頻道進行事前的節目內容介紹、精彩看點解說、活動同步轉播以及事後的各種補充資訊，並連續兩次集結眾人之力，替慈善出一份力。
 
@@ -124,7 +126,7 @@ TASBOT 引人入勝的不只是其將傳統 TAS 影片裡在快速通關裡加�
 
 ## 補充資料
 
-1. [快速通關 Speedrun 常見專有名詞解釋](/s/kLA9WzGxR4KmYGV9BlqdUw)
+1. [快速通關 Speedrun 常見專有名詞解釋](https://hackmd.io/@f6bfb5/SkEKYx-nI)
 2. [How a robot got Super Mario 64 and Portal "running" on an SNES](https://arstechnica.com/gaming/2017/01/how-a-robot-got-super-mario-64-and-portal-running-on-an-snes/)
    <br/> TASBot 是如何在 SFC 上運作瑪利歐 64 和 Portal 的？
 3. [TGM Setup @ SGDQ 2017](https://pastebin.com/bvqsJk6j)

@@ -2,13 +2,11 @@
   import Logo from "./Logo.svelte";
   import Nav from "./Nav.svelte";
   import ProgressBar from "./ProgressBar.svelte";
-
-  export let segment;
 </script>
 
 <header>
   <div class="row">
-    <Nav {segment} />
+    <Nav />
     <Logo />
   </div>
   <ProgressBar />

@@ -56,6 +56,7 @@
 
 <script>
   import { base } from "$app/paths";
+  console.log(base);
 
   export let posts;
   // export let years;

@@ -579,7 +579,7 @@ summary: "這是我 2021 年時，在網路上看過的文章。"
 - [自作キーボードの基板設計は意外とどうにかなる話 - メモ帳 DPA](https://de0.hatenablog.com/entry/2021/12/03/071653)
 - [各駅停車で旅をして](https://www.nicovideo.jp/watch/sm39702443)
 - [日本初の男性向けエロ同人誌『シベール』全書評（抄録） - Underground Magazine Archives](https://kougasetumei.hatenablog.com/entry/cybele)
-- [SQUAREENIX OPEN CONFERENCE ゲーム開発プロジェクトマネジメント講座](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/http://www.jp.square-enix.com/tech/openconference/library/2011/dldata/PM/PM.pdf)
+- [SQUAREENIX OPEN CONFERENCE ゲーム開発プロジェクトマネジメント講座](http://www.jp.square-enix.com/tech/openconference/library/2011/dldata/PM/PM.pdf)
 - [『山で熊に襲われました。』 ～格闘&血だらけ逃走レポート～](https://note.com/bear_attack/n/nf71a79e0864f)
 - [ニコニコ｜ 15 周年記念特設サイト](https://site.nicovideo.jp/15th_anniversary/)
 - [Blender で作るセルルックアニメーションやエフェクトの表現](https://vook.vc/n/3828)

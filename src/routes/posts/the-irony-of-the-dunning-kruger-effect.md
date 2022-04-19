@@ -10,7 +10,8 @@ tags: Translate
   <script src="../subtitles.parser.js"></script>
 </svelte:head>
 <script>
-  window.onload = function() {
+  import { onMount } from 'svelte';
+  onMount(() => {
     var loadSRT = function(url, callback) {
       var httpRequest = new XMLHttpRequest();
       httpRequest.onreadystatechange = function() {
@@ -32,7 +33,7 @@ tags: Translate
     loadSRT('../The Irony of the Dunning-Kruger Effect.srt', function(subtitles) {
       var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.getElementById('video'), subtitles);
     });
-  }
+  })
 </script>
 
 註：中文字幕使用外掛方式載入，如果未載入成功，請重新整理頁面。

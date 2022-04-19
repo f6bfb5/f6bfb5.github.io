@@ -1,13 +1,30 @@
 <script>
-  export let segment;
+  import { page } from "$app/stores";
+  // import { onDestroy } from "svelte";
+  // let currentPage;
+
+  // const unsubscribe = page.subscribe((value) => {
+  //   currentPage = value;
+  // });
+  // onDestroy(unsubscribe);
 </script>
 
 <nav>
-  <a class={segment === undefined ? "selected" : ""} href=".."
-    >トリコじかけの明け暮れ</a
+  <a
+    class={$page.url.pathname === undefined ? "selected" : ""}
+    href=".."
+    sveltekit:prefetch>トリコじかけの明け暮れ</a
   >
-  <a class={segment === "about" ? "selected" : ""} href="about">about</a>
-  <a class={segment === "rss" ? "selected" : ""} href="rss.xml">rss</a>
+  <!-- <a
+    class={$page.url.pathname === "about" ? "selected" : ""}
+    href="about"
+    sveltekit:prefetch>about</a
+  >
+  <a
+    class={$page.url.pathname === "rss" ? "selected" : ""}
+    href="rss.xml"
+    sveltekit:prefetch>rss</a
+  > -->
 </nav>
 
 <style scoped>
