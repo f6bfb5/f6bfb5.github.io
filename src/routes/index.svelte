@@ -1,9 +1,6 @@
 <script context="module">
   const allPosts = import.meta.globEager(`../routes/posts/*.md`);
   let body = [];
-  // let years = new Set();
-  // let tags = new Set();
-  // let otherTag = false;
 
   for (let path in allPosts) {
     const post = allPosts[path];
@@ -11,22 +8,8 @@
 
     if (typeof metadata.tags === "string")
       metadata.tags = [...new Set(metadata.tags.split(", "))];
-    // if (!metadata.tags) {
-    //   otherTag = true;
-    // } else if (typeof metadata.tags === "string") {
-    // metadata.tags = new Set(metadata.tags.split(", "));
-    // tags = new Set([...tags, ...metadata.tags]);
-    // metadata.tags = [...metadata.tags];
-
-    // tags = new Set([...tags, ...new Set(metadata.tags.split(", "))]);
-    // metadata.tags = [...new Set(metadata.tags.split(", "))];
-    // } else if (typeof metadata.tags === "object") {
-    //   tags = new Set([...tags, ...metadata.tags]);
-    // }
 
     const year = new Date(metadata.date).getFullYear();
-    // years = new Set([...years, year]);
-
     const namePage = path.split("/");
     const slugPage = namePage[namePage.length - 1].slice(0, -3);
 
@@ -38,17 +21,11 @@
     };
     body.push(p);
   }
-  // years = [...years].sort((a, b) => b - a);
-  // tags = otherTag ? [...[...tags].sort(), "Others"] : [...tags].sort();
-  // console.log("tags in module", tags);
-  // console.log("tags sorted in module", tags);
 
   export const load = async () => {
     return {
       props: {
         posts: body,
-        // years,
-        // tags,
       },
     };
   };
@@ -59,19 +36,19 @@
   console.log(base);
 
   export let posts;
-  // export let years;
-  // export let tags;
-  // console.log(posts);
 
   let allPostsYears = [...new Set(posts.map((p) => p.year))].sort(
     (a, b) => b - a
   );
+  let otherTag = false;
   let allPostsTags = [
     ...new Set(
       posts
         .map((p) => {
           if (!!p.metadata.tags) {
             return p.metadata.tags;
+          } else if (!otherTag) {
+            otherTag = true;
           }
         })
         .filter((tag) => !!tag)
@@ -79,23 +56,15 @@
         .sort()
     ),
   ];
-  // console.log(allPostsYears);
-  // console.log(allPostsTags);
-
-  // console.log("tags in script", tags);
+  if (otherTag) allPostsTags.push("Other");
 
   import TagsFilter from "$lib/TagsFilter.svelte";
   import Tag from "$lib/Tag.svelte";
 
   import { tagsSelected } from "$lib/store.js";
-  // import tagsSelected from "$lib/store.js";
   $tagsSelected = [];
-  // console.log("tagsSelected", tagsSelected);
-  // console.log("$tagsSelected", $tagsSelected);
 
   function arrayContainsAny(array1, array2) {
-    // console.log("array1", array1);
-    // console.log("array2", array2);
     if (array2.length == 0) return true;
 
     if (!array1 || array1.length == 0) {
@@ -147,34 +116,35 @@
         <ul>
           <li>
             <div>
+              <span>
+                {new Date(date).toLocaleDateString("en-US", {
+                  month: "2-digit",
+                }) +
+                  "/" +
+                  new Date(date).toLocaleDateString("en-US", {
+                    day: "2-digit",
+                  })}
+                <!-- {("0" + (new Date(date).getMonth() + 1)).slice(-2)}/{(
+                "0" + new Date(date).getDate()
+              ).slice(-2)} -->
+              </span>
               <a href={`${base}/${slugPage}`} sveltekit:prefetch>{title}</a>
             </div>
-            <div>
-              {#if tags}
+            {#if tags}
+              <div>
                 {#each tags as tag}
                   <Tag {tag} />
                 {/each}
-              {/if}
-              <span>
-                {("0" + (new Date(date).getMonth() + 1)).slice(-2)}/{(
-                  "0" + new Date(date).getDate()
-                ).slice(-2)}
-              </span>
-            </div>
+              </div>
+            {/if}
           </li>
         </ul>
       {/each}
     {/if}
   {/each}
-
-  <!-- {#each posts as { slugPage, metadata: { title, date } }}
-      <li>
-        <a href={`${base}/${slugPage}`} sveltekit:prefetch>{title}</a>
-      </li>
-    {/each} -->
 </div>
 
-<style>
+<style scoped>
   h1 {
     margin-left: 16px;
   }

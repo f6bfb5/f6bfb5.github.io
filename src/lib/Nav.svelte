@@ -1,30 +1,20 @@
 <script>
   import { page } from "$app/stores";
-  // import { onDestroy } from "svelte";
-  // let currentPage;
-
-  // const unsubscribe = page.subscribe((value) => {
-  //   currentPage = value;
-  // });
-  // onDestroy(unsubscribe);
+  import { base } from "$app/paths";
 </script>
 
 <nav>
-  <a
-    class={$page.url.pathname === undefined ? "selected" : ""}
-    href=".."
-    sveltekit:prefetch>トリコじかけの明け暮れ</a
-  >
-  <!-- <a
-    class={$page.url.pathname === "about" ? "selected" : ""}
-    href="about"
-    sveltekit:prefetch>about</a
+  <a class={$page.url.pathname === "/" ? "selected" : ""} href={`${base}/`}
+    >トリコじかけの明け暮れ</a
   >
   <a
-    class={$page.url.pathname === "rss" ? "selected" : ""}
-    href="rss.xml"
-    sveltekit:prefetch>rss</a
-  > -->
+    class={$page.url.pathname === "/about" ? "selected" : ""}
+    href={`${base}/about`}>about</a
+  >
+  <a
+    class={$page.url.pathname === "/rss" ? "selected" : ""}
+    href={`${base}/rss.xml`}>rss</a
+  >
 </nav>
 
 <style scoped>
