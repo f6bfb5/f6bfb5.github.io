@@ -61,6 +61,7 @@
   import Tag from "$lib/Tag.svelte";
 
   import { tagsSelected } from "$lib/store.js";
+  $tagsSelected = $tagsSelected;
 
   function arrayContainsAny(array1, array2) {
     if (array2.length == 0) return true;
