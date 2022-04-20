@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-bb98c40d.js",
+    "file": "start-b8d6b487.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -16,7 +16,7 @@
       "src/routes/index.svelte",
       "_2020-what-i-have-read-on-internet-5fce4456.js",
       "_2021-what-i-have-read-on-internet-0e60ada5.js",
-      "_2022-what-i-have-read-on-internet-3bf63859.js",
+      "_2022-what-i-have-read-on-internet-7568cac5.js",
       "_ACG-80s-winter-age-of-anime-1bed105b.js",
       "_ACG-Pause-And-Select-Apocalypse-64c1d123.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-a6dc9505.js",
@@ -75,7 +75,7 @@
       "_how-to-check-font-family-name-in-computer-f4004c99.js",
       "_login-with-discord-0f5ab2be.js",
       "_lyrics-gift-from-you-d8615338.js",
-      "_lyrics-good-night-world-6114290f.js",
+      "_lyrics-good-night-world-424cec7f.js",
       "_lyrics-hamada-shogo-j-boy-157a984a.js",
       "_lyrics-higuchi-ryouichi-1-6-dream-traveller-34a4bfa7.js",
       "_lyrics-joanne-hogg-stars-of-tears-aab38645.js",
@@ -110,7 +110,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-3df2b25d.js",
+    "file": "pages/__layout.svelte-50ffd93b.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -135,14 +135,14 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-67911233.js",
+    "file": "pages/_slug_.svelte-525e7789.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-5fce4456.js",
       "_2021-what-i-have-read-on-internet-0e60ada5.js",
-      "_2022-what-i-have-read-on-internet-3bf63859.js",
+      "_2022-what-i-have-read-on-internet-7568cac5.js",
       "_ACG-80s-winter-age-of-anime-1bed105b.js",
       "_ACG-Pause-And-Select-Apocalypse-64c1d123.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-a6dc9505.js",
@@ -201,7 +201,7 @@
       "_how-to-check-font-family-name-in-computer-f4004c99.js",
       "_login-with-discord-0f5ab2be.js",
       "_lyrics-gift-from-you-d8615338.js",
-      "_lyrics-good-night-world-6114290f.js",
+      "_lyrics-good-night-world-424cec7f.js",
       "_lyrics-hamada-shogo-j-boy-157a984a.js",
       "_lyrics-higuchi-ryouichi-1-6-dream-traveller-34a4bfa7.js",
       "_lyrics-joanne-hogg-stars-of-tears-aab38645.js",
@@ -250,14 +250,14 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-cd9cb7ff.js",
+    "file": "pages/index.svelte-9e1648ab.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-5fce4456.js",
       "_2021-what-i-have-read-on-internet-0e60ada5.js",
-      "_2022-what-i-have-read-on-internet-3bf63859.js",
+      "_2022-what-i-have-read-on-internet-7568cac5.js",
       "_ACG-80s-winter-age-of-anime-1bed105b.js",
       "_ACG-Pause-And-Select-Apocalypse-64c1d123.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-a6dc9505.js",
@@ -316,7 +316,7 @@
       "_how-to-check-font-family-name-in-computer-f4004c99.js",
       "_login-with-discord-0f5ab2be.js",
       "_lyrics-gift-from-you-d8615338.js",
-      "_lyrics-good-night-world-6114290f.js",
+      "_lyrics-good-night-world-424cec7f.js",
       "_lyrics-hamada-shogo-j-boy-157a984a.js",
       "_lyrics-higuchi-ryouichi-1-6-dream-traveller-34a4bfa7.js",
       "_lyrics-joanne-hogg-stars-of-tears-aab38645.js",
@@ -378,13 +378,13 @@
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-ba8e7f99.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-bcc4a58c.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_2022-what-i-have-read-on-internet-3bf63859.js"
+      "_2022-what-i-have-read-on-internet-7568cac5.js"
     ]
   },
   "src/routes/posts/ACG-80s-winter-age-of-anime.md": {
@@ -968,13 +968,13 @@
     ]
   },
   "src/routes/posts/lyrics-good-night-world.md": {
-    "file": "pages/posts/lyrics-good-night-world.md-2a8d3955.js",
+    "file": "pages/posts/lyrics-good-night-world.md-7b6411f2.js",
     "src": "src/routes/posts/lyrics-good-night-world.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-good-night-world-6114290f.js"
+      "_lyrics-good-night-world-424cec7f.js"
     ]
   },
   "src/routes/posts/lyrics-hamada-shogo-j-boy.md": {
@@ -1315,8 +1315,8 @@
       "__post-3d10a06c.js"
     ]
   },
-  "_2022-what-i-have-read-on-internet-3bf63859.js": {
-    "file": "chunks/2022-what-i-have-read-on-internet-3bf63859.js",
+  "_2022-what-i-have-read-on-internet-7568cac5.js": {
+    "file": "chunks/2022-what-i-have-read-on-internet-7568cac5.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
@@ -1799,8 +1799,8 @@
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-good-night-world-6114290f.js": {
-    "file": "chunks/lyrics-good-night-world-6114290f.js",
+  "_lyrics-good-night-world-424cec7f.js": {
+    "file": "chunks/lyrics-good-night-world-424cec7f.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
@@ -2007,7 +2007,7 @@
       "__post-3d10a06c.js"
     ],
     "css": [
-      "assets/tool-list-creativity-74747bfb.css"
+      "assets/tool-list-gaming-cfa2b81a.css"
     ]
   },
   "_tool-list-gaming-2bfb8579.js": {
@@ -2018,7 +2018,7 @@
       "__post-3d10a06c.js"
     ],
     "css": [
-      "assets/tool-list-creativity-74747bfb.css"
+      "assets/tool-list-gaming-cfa2b81a.css"
     ]
   },
   "_tool-list-system-d37942f0.js": {
@@ -2029,7 +2029,7 @@
       "__post-3d10a06c.js"
     ],
     "css": [
-      "assets/tool-list-creativity-74747bfb.css"
+      "assets/tool-list-gaming-cfa2b81a.css"
     ]
   },
   "_use-foobar2k-to-listen-to-podcast-7cac6cbb.js": {
