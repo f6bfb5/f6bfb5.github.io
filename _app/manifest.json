@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-b8d6b487.js",
+    "file": "start-0a378c98.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -74,28 +74,28 @@
       "_how-do-you-like-wendesday-5d881916.js",
       "_how-to-check-font-family-name-in-computer-f4004c99.js",
       "_login-with-discord-0f5ab2be.js",
-      "_lyrics-gift-from-you-d8615338.js",
+      "_lyrics-gift-from-you-4e3254f3.js",
       "_lyrics-good-night-world-424cec7f.js",
-      "_lyrics-hamada-shogo-j-boy-157a984a.js",
-      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-34a4bfa7.js",
-      "_lyrics-joanne-hogg-stars-of-tears-aab38645.js",
-      "_lyrics-mr-children-fake-e80a20f2.js",
-      "_lyrics-onitaba-chihiro-rollin-c52581f2.js",
-      "_lyrics-onitaba-chihiro-waltz-with-me-869ea899.js",
-      "_lyrics-psy-s-earth-ark-on-the-tree-993a3944.js",
-      "_lyrics-radwimps-grand-escape-f30478fe.js",
-      "_lyrics-saihate-4222514f.js",
-      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-03253f13.js",
-      "_lyrics-sakai-mikio-wonderful-life-5e645641.js",
-      "_lyrics-sambomaster-people-call-it-passion-ebde135a.js",
-      "_lyrics-see-saw-story-with-you-35c18105.js",
-      "_lyrics-susumu-hirasawa-kingdom-285e9f53.js",
-      "_lyrics-suzuki-yume-one-and-only-abef9c03.js",
-      "_lyrics-the-pillows-funny-bunny-917c853d.js",
-      "_lyrics-toshihide-baba-boys-on-the-run-67567a09.js",
-      "_lyrics-toshihide-baba-ordinary-ee8dac28.js",
-      "_lyrics-yoshida-takuro-dont-talk-about-life-69e5f021.js",
-      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-68c6a655.js",
+      "_lyrics-hamada-shogo-j-boy-8b52c50e.js",
+      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-22a8c69d.js",
+      "_lyrics-joanne-hogg-stars-of-tears-34dadcd3.js",
+      "_lyrics-mr-children-fake-0d7c9625.js",
+      "_lyrics-onitaba-chihiro-rollin-4b2cc959.js",
+      "_lyrics-onitaba-chihiro-waltz-with-me-789df831.js",
+      "_lyrics-psy-s-earth-ark-on-the-tree-29758c65.js",
+      "_lyrics-radwimps-grand-escape-636e9cd7.js",
+      "_lyrics-saihate-d263093d.js",
+      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-7d15672c.js",
+      "_lyrics-sakai-mikio-wonderful-life-c26aa8d8.js",
+      "_lyrics-sambomaster-people-call-it-passion-a4ed16d7.js",
+      "_lyrics-see-saw-story-with-you-dbc551c4.js",
+      "_lyrics-susumu-hirasawa-kingdom-6fefa092.js",
+      "_lyrics-suzuki-yume-one-and-only-9c15862e.js",
+      "_lyrics-the-pillows-funny-bunny-d87223d8.js",
+      "_lyrics-toshihide-baba-boys-on-the-run-156f66a0.js",
+      "_lyrics-toshihide-baba-ordinary-161f5b35.js",
+      "_lyrics-yoshida-takuro-dont-talk-about-life-68fe057a.js",
+      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-ceb233b1.js",
       "_movie-pornostar-09895278.js",
       "_mpv-a92b3059.js",
       "_search-engine-operators-9f988ee7.js",
@@ -135,7 +135,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-525e7789.js",
+    "file": "pages/_slug_.svelte-f48263c1.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -200,28 +200,28 @@
       "_how-do-you-like-wendesday-5d881916.js",
       "_how-to-check-font-family-name-in-computer-f4004c99.js",
       "_login-with-discord-0f5ab2be.js",
-      "_lyrics-gift-from-you-d8615338.js",
+      "_lyrics-gift-from-you-4e3254f3.js",
       "_lyrics-good-night-world-424cec7f.js",
-      "_lyrics-hamada-shogo-j-boy-157a984a.js",
-      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-34a4bfa7.js",
-      "_lyrics-joanne-hogg-stars-of-tears-aab38645.js",
-      "_lyrics-mr-children-fake-e80a20f2.js",
-      "_lyrics-onitaba-chihiro-rollin-c52581f2.js",
-      "_lyrics-onitaba-chihiro-waltz-with-me-869ea899.js",
-      "_lyrics-psy-s-earth-ark-on-the-tree-993a3944.js",
-      "_lyrics-radwimps-grand-escape-f30478fe.js",
-      "_lyrics-saihate-4222514f.js",
-      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-03253f13.js",
-      "_lyrics-sakai-mikio-wonderful-life-5e645641.js",
-      "_lyrics-sambomaster-people-call-it-passion-ebde135a.js",
-      "_lyrics-see-saw-story-with-you-35c18105.js",
-      "_lyrics-susumu-hirasawa-kingdom-285e9f53.js",
-      "_lyrics-suzuki-yume-one-and-only-abef9c03.js",
-      "_lyrics-the-pillows-funny-bunny-917c853d.js",
-      "_lyrics-toshihide-baba-boys-on-the-run-67567a09.js",
-      "_lyrics-toshihide-baba-ordinary-ee8dac28.js",
-      "_lyrics-yoshida-takuro-dont-talk-about-life-69e5f021.js",
-      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-68c6a655.js",
+      "_lyrics-hamada-shogo-j-boy-8b52c50e.js",
+      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-22a8c69d.js",
+      "_lyrics-joanne-hogg-stars-of-tears-34dadcd3.js",
+      "_lyrics-mr-children-fake-0d7c9625.js",
+      "_lyrics-onitaba-chihiro-rollin-4b2cc959.js",
+      "_lyrics-onitaba-chihiro-waltz-with-me-789df831.js",
+      "_lyrics-psy-s-earth-ark-on-the-tree-29758c65.js",
+      "_lyrics-radwimps-grand-escape-636e9cd7.js",
+      "_lyrics-saihate-d263093d.js",
+      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-7d15672c.js",
+      "_lyrics-sakai-mikio-wonderful-life-c26aa8d8.js",
+      "_lyrics-sambomaster-people-call-it-passion-a4ed16d7.js",
+      "_lyrics-see-saw-story-with-you-dbc551c4.js",
+      "_lyrics-susumu-hirasawa-kingdom-6fefa092.js",
+      "_lyrics-suzuki-yume-one-and-only-9c15862e.js",
+      "_lyrics-the-pillows-funny-bunny-d87223d8.js",
+      "_lyrics-toshihide-baba-boys-on-the-run-156f66a0.js",
+      "_lyrics-toshihide-baba-ordinary-161f5b35.js",
+      "_lyrics-yoshida-takuro-dont-talk-about-life-68fe057a.js",
+      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-ceb233b1.js",
       "_movie-pornostar-09895278.js",
       "_mpv-a92b3059.js",
       "_search-engine-operators-9f988ee7.js",
@@ -250,7 +250,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-9e1648ab.js",
+    "file": "pages/index.svelte-a9a13094.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -315,28 +315,28 @@
       "_how-do-you-like-wendesday-5d881916.js",
       "_how-to-check-font-family-name-in-computer-f4004c99.js",
       "_login-with-discord-0f5ab2be.js",
-      "_lyrics-gift-from-you-d8615338.js",
+      "_lyrics-gift-from-you-4e3254f3.js",
       "_lyrics-good-night-world-424cec7f.js",
-      "_lyrics-hamada-shogo-j-boy-157a984a.js",
-      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-34a4bfa7.js",
-      "_lyrics-joanne-hogg-stars-of-tears-aab38645.js",
-      "_lyrics-mr-children-fake-e80a20f2.js",
-      "_lyrics-onitaba-chihiro-rollin-c52581f2.js",
-      "_lyrics-onitaba-chihiro-waltz-with-me-869ea899.js",
-      "_lyrics-psy-s-earth-ark-on-the-tree-993a3944.js",
-      "_lyrics-radwimps-grand-escape-f30478fe.js",
-      "_lyrics-saihate-4222514f.js",
-      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-03253f13.js",
-      "_lyrics-sakai-mikio-wonderful-life-5e645641.js",
-      "_lyrics-sambomaster-people-call-it-passion-ebde135a.js",
-      "_lyrics-see-saw-story-with-you-35c18105.js",
-      "_lyrics-susumu-hirasawa-kingdom-285e9f53.js",
-      "_lyrics-suzuki-yume-one-and-only-abef9c03.js",
-      "_lyrics-the-pillows-funny-bunny-917c853d.js",
-      "_lyrics-toshihide-baba-boys-on-the-run-67567a09.js",
-      "_lyrics-toshihide-baba-ordinary-ee8dac28.js",
-      "_lyrics-yoshida-takuro-dont-talk-about-life-69e5f021.js",
-      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-68c6a655.js",
+      "_lyrics-hamada-shogo-j-boy-8b52c50e.js",
+      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-22a8c69d.js",
+      "_lyrics-joanne-hogg-stars-of-tears-34dadcd3.js",
+      "_lyrics-mr-children-fake-0d7c9625.js",
+      "_lyrics-onitaba-chihiro-rollin-4b2cc959.js",
+      "_lyrics-onitaba-chihiro-waltz-with-me-789df831.js",
+      "_lyrics-psy-s-earth-ark-on-the-tree-29758c65.js",
+      "_lyrics-radwimps-grand-escape-636e9cd7.js",
+      "_lyrics-saihate-d263093d.js",
+      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-7d15672c.js",
+      "_lyrics-sakai-mikio-wonderful-life-c26aa8d8.js",
+      "_lyrics-sambomaster-people-call-it-passion-a4ed16d7.js",
+      "_lyrics-see-saw-story-with-you-dbc551c4.js",
+      "_lyrics-susumu-hirasawa-kingdom-6fefa092.js",
+      "_lyrics-suzuki-yume-one-and-only-9c15862e.js",
+      "_lyrics-the-pillows-funny-bunny-d87223d8.js",
+      "_lyrics-toshihide-baba-boys-on-the-run-156f66a0.js",
+      "_lyrics-toshihide-baba-ordinary-161f5b35.js",
+      "_lyrics-yoshida-takuro-dont-talk-about-life-68fe057a.js",
+      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-ceb233b1.js",
       "_movie-pornostar-09895278.js",
       "_mpv-a92b3059.js",
       "_search-engine-operators-9f988ee7.js",
@@ -958,13 +958,13 @@
     ]
   },
   "src/routes/posts/lyrics-gift-from-you.md": {
-    "file": "pages/posts/lyrics-gift-from-you.md-63f303e3.js",
+    "file": "pages/posts/lyrics-gift-from-you.md-07f339cb.js",
     "src": "src/routes/posts/lyrics-gift-from-you.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-gift-from-you-d8615338.js"
+      "_lyrics-gift-from-you-4e3254f3.js"
     ]
   },
   "src/routes/posts/lyrics-good-night-world.md": {
@@ -978,203 +978,203 @@
     ]
   },
   "src/routes/posts/lyrics-hamada-shogo-j-boy.md": {
-    "file": "pages/posts/lyrics-hamada-shogo-j-boy.md-e3546a0d.js",
+    "file": "pages/posts/lyrics-hamada-shogo-j-boy.md-7d8a59d6.js",
     "src": "src/routes/posts/lyrics-hamada-shogo-j-boy.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-hamada-shogo-j-boy-157a984a.js"
+      "_lyrics-hamada-shogo-j-boy-8b52c50e.js"
     ]
   },
   "src/routes/posts/lyrics-higuchi-ryouichi-1-6-dream-traveller.md": {
-    "file": "pages/posts/lyrics-higuchi-ryouichi-1-6-dream-traveller.md-3874079e.js",
+    "file": "pages/posts/lyrics-higuchi-ryouichi-1-6-dream-traveller.md-f5f9ebbe.js",
     "src": "src/routes/posts/lyrics-higuchi-ryouichi-1-6-dream-traveller.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-34a4bfa7.js"
+      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-22a8c69d.js"
     ]
   },
   "src/routes/posts/lyrics-joanne-hogg-stars-of-tears.md": {
-    "file": "pages/posts/lyrics-joanne-hogg-stars-of-tears.md-38dee635.js",
+    "file": "pages/posts/lyrics-joanne-hogg-stars-of-tears.md-d9ccbdd1.js",
     "src": "src/routes/posts/lyrics-joanne-hogg-stars-of-tears.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-joanne-hogg-stars-of-tears-aab38645.js"
+      "_lyrics-joanne-hogg-stars-of-tears-34dadcd3.js"
     ]
   },
   "src/routes/posts/lyrics-mr-children-fake.md": {
-    "file": "pages/posts/lyrics-mr-children-fake.md-04b021ca.js",
+    "file": "pages/posts/lyrics-mr-children-fake.md-ded622be.js",
     "src": "src/routes/posts/lyrics-mr-children-fake.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-mr-children-fake-e80a20f2.js"
+      "_lyrics-mr-children-fake-0d7c9625.js"
     ]
   },
   "src/routes/posts/lyrics-onitaba-chihiro-rollin.md": {
-    "file": "pages/posts/lyrics-onitaba-chihiro-rollin.md-34f00f2c.js",
+    "file": "pages/posts/lyrics-onitaba-chihiro-rollin.md-27ccc630.js",
     "src": "src/routes/posts/lyrics-onitaba-chihiro-rollin.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-onitaba-chihiro-rollin-c52581f2.js"
+      "_lyrics-onitaba-chihiro-rollin-4b2cc959.js"
     ]
   },
   "src/routes/posts/lyrics-onitaba-chihiro-waltz-with-me.md": {
-    "file": "pages/posts/lyrics-onitaba-chihiro-waltz-with-me.md-448a7c02.js",
+    "file": "pages/posts/lyrics-onitaba-chihiro-waltz-with-me.md-90768f17.js",
     "src": "src/routes/posts/lyrics-onitaba-chihiro-waltz-with-me.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-onitaba-chihiro-waltz-with-me-869ea899.js"
+      "_lyrics-onitaba-chihiro-waltz-with-me-789df831.js"
     ]
   },
   "src/routes/posts/lyrics-psy-s-earth-ark-on-the-tree.md": {
-    "file": "pages/posts/lyrics-psy-s-earth-ark-on-the-tree.md-6678e15c.js",
+    "file": "pages/posts/lyrics-psy-s-earth-ark-on-the-tree.md-6ff2eaed.js",
     "src": "src/routes/posts/lyrics-psy-s-earth-ark-on-the-tree.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-psy-s-earth-ark-on-the-tree-993a3944.js"
+      "_lyrics-psy-s-earth-ark-on-the-tree-29758c65.js"
     ]
   },
   "src/routes/posts/lyrics-radwimps-grand-escape.md": {
-    "file": "pages/posts/lyrics-radwimps-grand-escape.md-2a74fe1b.js",
+    "file": "pages/posts/lyrics-radwimps-grand-escape.md-d48a42a3.js",
     "src": "src/routes/posts/lyrics-radwimps-grand-escape.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-radwimps-grand-escape-f30478fe.js"
+      "_lyrics-radwimps-grand-escape-636e9cd7.js"
     ]
   },
   "src/routes/posts/lyrics-saihate.md": {
-    "file": "pages/posts/lyrics-saihate.md-651d932b.js",
+    "file": "pages/posts/lyrics-saihate.md-998194be.js",
     "src": "src/routes/posts/lyrics-saihate.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-saihate-4222514f.js"
+      "_lyrics-saihate-d263093d.js"
     ]
   },
   "src/routes/posts/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful.md": {
-    "file": "pages/posts/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful.md-69199dfd.js",
+    "file": "pages/posts/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful.md-d990529a.js",
     "src": "src/routes/posts/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-03253f13.js"
+      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-7d15672c.js"
     ]
   },
   "src/routes/posts/lyrics-sakai-mikio-wonderful-life.md": {
-    "file": "pages/posts/lyrics-sakai-mikio-wonderful-life.md-8ec47448.js",
+    "file": "pages/posts/lyrics-sakai-mikio-wonderful-life.md-309c8e8a.js",
     "src": "src/routes/posts/lyrics-sakai-mikio-wonderful-life.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-sakai-mikio-wonderful-life-5e645641.js"
+      "_lyrics-sakai-mikio-wonderful-life-c26aa8d8.js"
     ]
   },
   "src/routes/posts/lyrics-sambomaster-people-call-it-passion.md": {
-    "file": "pages/posts/lyrics-sambomaster-people-call-it-passion.md-88c8866c.js",
+    "file": "pages/posts/lyrics-sambomaster-people-call-it-passion.md-30a4f612.js",
     "src": "src/routes/posts/lyrics-sambomaster-people-call-it-passion.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-sambomaster-people-call-it-passion-ebde135a.js"
+      "_lyrics-sambomaster-people-call-it-passion-a4ed16d7.js"
     ]
   },
   "src/routes/posts/lyrics-see-saw-story-with-you.md": {
-    "file": "pages/posts/lyrics-see-saw-story-with-you.md-a4553b06.js",
+    "file": "pages/posts/lyrics-see-saw-story-with-you.md-90d85789.js",
     "src": "src/routes/posts/lyrics-see-saw-story-with-you.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-see-saw-story-with-you-35c18105.js"
+      "_lyrics-see-saw-story-with-you-dbc551c4.js"
     ]
   },
   "src/routes/posts/lyrics-susumu-hirasawa-kingdom.md": {
-    "file": "pages/posts/lyrics-susumu-hirasawa-kingdom.md-8509285a.js",
+    "file": "pages/posts/lyrics-susumu-hirasawa-kingdom.md-499c3bd9.js",
     "src": "src/routes/posts/lyrics-susumu-hirasawa-kingdom.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-susumu-hirasawa-kingdom-285e9f53.js"
+      "_lyrics-susumu-hirasawa-kingdom-6fefa092.js"
     ]
   },
   "src/routes/posts/lyrics-suzuki-yume-one-and-only.md": {
-    "file": "pages/posts/lyrics-suzuki-yume-one-and-only.md-87103118.js",
+    "file": "pages/posts/lyrics-suzuki-yume-one-and-only.md-fdccd65f.js",
     "src": "src/routes/posts/lyrics-suzuki-yume-one-and-only.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-suzuki-yume-one-and-only-abef9c03.js"
+      "_lyrics-suzuki-yume-one-and-only-9c15862e.js"
     ]
   },
   "src/routes/posts/lyrics-the-pillows-funny-bunny.md": {
-    "file": "pages/posts/lyrics-the-pillows-funny-bunny.md-7c8f100e.js",
+    "file": "pages/posts/lyrics-the-pillows-funny-bunny.md-17085b77.js",
     "src": "src/routes/posts/lyrics-the-pillows-funny-bunny.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-the-pillows-funny-bunny-917c853d.js"
+      "_lyrics-the-pillows-funny-bunny-d87223d8.js"
     ]
   },
   "src/routes/posts/lyrics-toshihide-baba-boys-on-the-run.md": {
-    "file": "pages/posts/lyrics-toshihide-baba-boys-on-the-run.md-37bd7912.js",
+    "file": "pages/posts/lyrics-toshihide-baba-boys-on-the-run.md-e92b7219.js",
     "src": "src/routes/posts/lyrics-toshihide-baba-boys-on-the-run.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-toshihide-baba-boys-on-the-run-67567a09.js"
+      "_lyrics-toshihide-baba-boys-on-the-run-156f66a0.js"
     ]
   },
   "src/routes/posts/lyrics-toshihide-baba-ordinary.md": {
-    "file": "pages/posts/lyrics-toshihide-baba-ordinary.md-b0a2d596.js",
+    "file": "pages/posts/lyrics-toshihide-baba-ordinary.md-71ff4ac3.js",
     "src": "src/routes/posts/lyrics-toshihide-baba-ordinary.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-toshihide-baba-ordinary-ee8dac28.js"
+      "_lyrics-toshihide-baba-ordinary-161f5b35.js"
     ]
   },
   "src/routes/posts/lyrics-yoshida-takuro-dont-talk-about-life.md": {
-    "file": "pages/posts/lyrics-yoshida-takuro-dont-talk-about-life.md-f97a6d88.js",
+    "file": "pages/posts/lyrics-yoshida-takuro-dont-talk-about-life.md-fc190795.js",
     "src": "src/routes/posts/lyrics-yoshida-takuro-dont-talk-about-life.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-yoshida-takuro-dont-talk-about-life-69e5f021.js"
+      "_lyrics-yoshida-takuro-dont-talk-about-life-68fe057a.js"
     ]
   },
   "src/routes/posts/lyrics-yui-makino-modokashii-sekai-no-ue-de.md": {
-    "file": "pages/posts/lyrics-yui-makino-modokashii-sekai-no-ue-de.md-ce6159b2.js",
+    "file": "pages/posts/lyrics-yui-makino-modokashii-sekai-no-ue-de.md-0e899a69.js",
     "src": "src/routes/posts/lyrics-yui-makino-modokashii-sekai-no-ue-de.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js",
-      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-68c6a655.js"
+      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-ceb233b1.js"
     ]
   },
   "src/routes/posts/movie-pornostar.md": {
@@ -1791,8 +1791,8 @@
       "assets/login-with-discord-4c509c13.css"
     ]
   },
-  "_lyrics-gift-from-you-d8615338.js": {
-    "file": "chunks/lyrics-gift-from-you-d8615338.js",
+  "_lyrics-gift-from-you-4e3254f3.js": {
+    "file": "chunks/lyrics-gift-from-you-4e3254f3.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
@@ -1807,160 +1807,160 @@
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-hamada-shogo-j-boy-157a984a.js": {
-    "file": "chunks/lyrics-hamada-shogo-j-boy-157a984a.js",
+  "_lyrics-hamada-shogo-j-boy-8b52c50e.js": {
+    "file": "chunks/lyrics-hamada-shogo-j-boy-8b52c50e.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-higuchi-ryouichi-1-6-dream-traveller-34a4bfa7.js": {
-    "file": "chunks/lyrics-higuchi-ryouichi-1-6-dream-traveller-34a4bfa7.js",
+  "_lyrics-higuchi-ryouichi-1-6-dream-traveller-22a8c69d.js": {
+    "file": "chunks/lyrics-higuchi-ryouichi-1-6-dream-traveller-22a8c69d.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-joanne-hogg-stars-of-tears-aab38645.js": {
-    "file": "chunks/lyrics-joanne-hogg-stars-of-tears-aab38645.js",
+  "_lyrics-joanne-hogg-stars-of-tears-34dadcd3.js": {
+    "file": "chunks/lyrics-joanne-hogg-stars-of-tears-34dadcd3.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-mr-children-fake-e80a20f2.js": {
-    "file": "chunks/lyrics-mr-children-fake-e80a20f2.js",
+  "_lyrics-mr-children-fake-0d7c9625.js": {
+    "file": "chunks/lyrics-mr-children-fake-0d7c9625.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-onitaba-chihiro-rollin-c52581f2.js": {
-    "file": "chunks/lyrics-onitaba-chihiro-rollin-c52581f2.js",
+  "_lyrics-onitaba-chihiro-rollin-4b2cc959.js": {
+    "file": "chunks/lyrics-onitaba-chihiro-rollin-4b2cc959.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-onitaba-chihiro-waltz-with-me-869ea899.js": {
-    "file": "chunks/lyrics-onitaba-chihiro-waltz-with-me-869ea899.js",
+  "_lyrics-onitaba-chihiro-waltz-with-me-789df831.js": {
+    "file": "chunks/lyrics-onitaba-chihiro-waltz-with-me-789df831.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-psy-s-earth-ark-on-the-tree-993a3944.js": {
-    "file": "chunks/lyrics-psy-s-earth-ark-on-the-tree-993a3944.js",
+  "_lyrics-psy-s-earth-ark-on-the-tree-29758c65.js": {
+    "file": "chunks/lyrics-psy-s-earth-ark-on-the-tree-29758c65.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-radwimps-grand-escape-f30478fe.js": {
-    "file": "chunks/lyrics-radwimps-grand-escape-f30478fe.js",
+  "_lyrics-radwimps-grand-escape-636e9cd7.js": {
+    "file": "chunks/lyrics-radwimps-grand-escape-636e9cd7.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-saihate-4222514f.js": {
-    "file": "chunks/lyrics-saihate-4222514f.js",
+  "_lyrics-saihate-d263093d.js": {
+    "file": "chunks/lyrics-saihate-d263093d.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-03253f13.js": {
-    "file": "chunks/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-03253f13.js",
+  "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-7d15672c.js": {
+    "file": "chunks/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-7d15672c.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-sakai-mikio-wonderful-life-5e645641.js": {
-    "file": "chunks/lyrics-sakai-mikio-wonderful-life-5e645641.js",
+  "_lyrics-sakai-mikio-wonderful-life-c26aa8d8.js": {
+    "file": "chunks/lyrics-sakai-mikio-wonderful-life-c26aa8d8.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-sambomaster-people-call-it-passion-ebde135a.js": {
-    "file": "chunks/lyrics-sambomaster-people-call-it-passion-ebde135a.js",
+  "_lyrics-sambomaster-people-call-it-passion-a4ed16d7.js": {
+    "file": "chunks/lyrics-sambomaster-people-call-it-passion-a4ed16d7.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-see-saw-story-with-you-35c18105.js": {
-    "file": "chunks/lyrics-see-saw-story-with-you-35c18105.js",
+  "_lyrics-see-saw-story-with-you-dbc551c4.js": {
+    "file": "chunks/lyrics-see-saw-story-with-you-dbc551c4.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-susumu-hirasawa-kingdom-285e9f53.js": {
-    "file": "chunks/lyrics-susumu-hirasawa-kingdom-285e9f53.js",
+  "_lyrics-susumu-hirasawa-kingdom-6fefa092.js": {
+    "file": "chunks/lyrics-susumu-hirasawa-kingdom-6fefa092.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-suzuki-yume-one-and-only-abef9c03.js": {
-    "file": "chunks/lyrics-suzuki-yume-one-and-only-abef9c03.js",
+  "_lyrics-suzuki-yume-one-and-only-9c15862e.js": {
+    "file": "chunks/lyrics-suzuki-yume-one-and-only-9c15862e.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-the-pillows-funny-bunny-917c853d.js": {
-    "file": "chunks/lyrics-the-pillows-funny-bunny-917c853d.js",
+  "_lyrics-the-pillows-funny-bunny-d87223d8.js": {
+    "file": "chunks/lyrics-the-pillows-funny-bunny-d87223d8.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-toshihide-baba-boys-on-the-run-67567a09.js": {
-    "file": "chunks/lyrics-toshihide-baba-boys-on-the-run-67567a09.js",
+  "_lyrics-toshihide-baba-boys-on-the-run-156f66a0.js": {
+    "file": "chunks/lyrics-toshihide-baba-boys-on-the-run-156f66a0.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-toshihide-baba-ordinary-ee8dac28.js": {
-    "file": "chunks/lyrics-toshihide-baba-ordinary-ee8dac28.js",
+  "_lyrics-toshihide-baba-ordinary-161f5b35.js": {
+    "file": "chunks/lyrics-toshihide-baba-ordinary-161f5b35.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-yoshida-takuro-dont-talk-about-life-69e5f021.js": {
-    "file": "chunks/lyrics-yoshida-takuro-dont-talk-about-life-69e5f021.js",
+  "_lyrics-yoshida-takuro-dont-talk-about-life-68fe057a.js": {
+    "file": "chunks/lyrics-yoshida-takuro-dont-talk-about-life-68fe057a.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-3d10a06c.js"
     ]
   },
-  "_lyrics-yui-makino-modokashii-sekai-no-ue-de-68c6a655.js": {
-    "file": "chunks/lyrics-yui-makino-modokashii-sekai-no-ue-de-68c6a655.js",
+  "_lyrics-yui-makino-modokashii-sekai-no-ue-de-ceb233b1.js": {
+    "file": "chunks/lyrics-yui-makino-modokashii-sekai-no-ue-de-ceb233b1.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
