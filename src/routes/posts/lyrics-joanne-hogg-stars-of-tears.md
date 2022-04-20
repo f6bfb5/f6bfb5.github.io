@@ -6,28 +6,28 @@ tags: Lyrics, Translate
 
 <iframe title="Joanne Hogg - STARS OF TEARS" src="https://www.youtube.com/embed/SexW7iD-iWY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-你的指尖溫柔撫過我的心
+<p>你的指尖溫柔撫過我的心
 <br>生命的力量綿綿不斷
 <br>這首歌始終如此難忘
-<br>彷彿天使寄宿其中
+<br>彷彿天使寄宿其中</p>
 
-而我想問你
+<p>而我想問你
 <br>我們能否撫平喪失之人的悲痛？
 <br>（生命之力在延續著）
 <br>我們能否知曉一切悲傷的來由？
 <br>（淚水與寂寥）
 <br>我們能否接住這破碎世界的淚？
-<br>當它不斷地墜落至這地球上，不斷墜落…
+<br>當它不斷地墜落至這地球上，不斷墜落…</p>
 
-時間的長河帶我更瞭解你
+<p>時間的長河帶我更瞭解你
 <br>內心似如夏日晴天的藍霧
 <br>領向無法解鎖門扉的鑰匙
-<br>受傷的鳥 啟程離去
+<br>受傷的鳥 啟程離去</p>
 
-而我想問你
+<p>而我想問你
 <br>我們能否撫平喪失之人的悲痛？
 <br>（生命之力在延續著）
 <br>我們能否知曉一切悲傷的來由？
 <br>（淚水與寂寥）
 <br>我們能否接住這破碎世界的淚？
-<br>當它不斷地墜落至這地球上，不斷墜落…
+<br>當它不斷地墜落至這地球上，不斷墜落…</p>
