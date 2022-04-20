@@ -1,19 +1,30 @@
 <script>
   import Header from "$lib/Header.svelte";
   import Footer from "$lib/Footer.svelte";
-
-  // import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte";
-  // import { stores } from "@sapper/app";
-  // import { getStores } from "$app/stores";
-  // import GoogleAdsense from "$lib/GoogleAdsense.svelte";
   import Favicon from "$lib/Favicon.svelte";
 
-  // let ga_measurement_id = "UA-114661136-2";
+  import { onMount } from "svelte";
+  onMount(() => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-CRDP7WTXSQ");
+  });
+
+  // import GoogleAdsense from "$lib/GoogleAdsense.svelte";
   // let ga_client_id = "ca-pub-9613661448556355";
 </script>
 
+<svelte:head>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-CRDP7WTXSQ"></script>
+</svelte:head>
+
 <div class="layout">
-  <!-- <GoogleAnalytics {getStores} id={ga_measurement_id} /> -->
   <!-- <GoogleAdsense id={ga_client_id} /> -->
 
   <Favicon />
