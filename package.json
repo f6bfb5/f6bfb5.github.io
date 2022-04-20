@@ -15,10 +15,6 @@
   },
   "dependencies": {
     "canvas": "^2.8.0",
-    "date-fns": "^2.16.1",
-    "gray-matter": "^4.0.2",
-    "marked": "^4.0.14",
-    "npm-check-updates": "^10.2.5",
     "prismjs": "^1.23.0",
     "reading-time": "^1.2.1"
   },
