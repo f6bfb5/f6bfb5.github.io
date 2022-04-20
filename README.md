@@ -18,9 +18,11 @@
 - [x] Navbar segment
 - [ ] Reading time
 - [ ] TOC
-- [ ] RSS
-- [ ] Sitemap
-- [ ] Google Analytics
+- [x] RSS
+  - [RSS - Version 2.0 Tags and Syntax](https://www.tutorialspoint.com/rss/rss2.0-tag-syntax.htm)
+- [x] Sitemap
+  - [Best practices for XML sitemaps and RSS/Atom feeds](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom)
+- [x] Google Analytics
   - [beyonk-adventures/svelte-google-analytics](https://github.com/beyonk-adventures/svelte-google-analytics)
   - [SvelteKit google analytics double reporting](https://stackoverflow.com/questions/71861393/sveltekit-google-analytics-double-reporting)
 - [ ] Title image
