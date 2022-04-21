@@ -171,6 +171,8 @@ table td:nth-child(3) {
 
 ## 字體
 
+- [設事未深 - 字型大補帖](https://media.unh3o.com/%E5%AD%97%E5%9E%8B%E5%A4%A7%E8%A3%9C%E5%B8%960727.pdf)
+
 ### 等寬
 
 | 名稱                                                       | 範例                                            |
