@@ -37,3 +37,5 @@ tags: Toolbox
 - [目次 - 序論 - SoundQuest](https://soundquest.jp/category-archive-intro/)
 - [好きなラジオネーム 300 選 - kansou](https://www.kansou-blog.jp/entry/2021/11/11/200409)
 - [キャラ名とかハンドルネームとか考えるのに参考になりそうなサイト](https://name-site.net/)
+- [ソトトイシ](https://soto.aikotoba.jp/index.html)
+- [Treasure Box : 斑鳩](http://rssp.web.fc2.com/ikaruga.html)

@@ -416,3 +416,4 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [かおなくし - ミヨカワ将](https://shonenjumpplus.com/episode/3269754496874192756)
 - [「無職になったらいくらかかる？」を計算するサービスをリリースしました！](https://zenn.dev/ikuma/articles/release-quitcost)
 - [「月曜日のたわわ」を人々はどう見るか/田中辰雄 - SYNODOS](https://synodos.jp/opinion/society/27932/)
+- [これはまだ、私が処女だった頃の話ーマンガ『一度寝ただけの女になりたくなかった』→「私に足りない物はこれだ」](https://togetter.com/li/1875545)
