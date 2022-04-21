@@ -36,9 +36,6 @@ tags: Translate
   })
 </script>
 
-註：中文字幕使用外掛方式載入，如果未載入成功，請重新整理頁面。
-<br>本字幕為使用 DeepL 快速翻譯，希望精確理解的觀眾，可以點開原始 CC 字幕達成雙語效果！
-
 ![the Dunning Kurger effect](https://i.imgur.com/0hoaiZx.jpeg)
 
 也許你已經認識這個曲線圖。它出現在無數的 YouTube 影片、與社會和商業世界有關的部落格文章中，也是你在搜尋相關的心理學效應時，會出現的普遍結果――鄧寧-克魯格效應。

@@ -1,5 +1,5 @@
 ---
-title: "為了找到想要的內容，好用的搜尋相關參數"
+title: "各平台的搜尋相關參數"
 date: 2022-04-11T23:03:34.000Z
 summary: ""
 tags: Toolbox
@@ -40,6 +40,24 @@ tags: Toolbox
 | `loc:placename`／`location:` | 搜尋位於特定區域的內容                |                                                                                                                                                                                         |
 
 這些參數可以互相搭配使用，例如日本前陣子火紅的「[まとも検索](https://fukuyuki.github.io/mtm.html)」就是利用了限定於來自公家機關、論文單位或可信度較高的檔案類型的搜尋參數組合，藉此過濾出相對可信的內容。
+
+## GitHub
+
+- [Searching for repositories - GitHub Docs](https://docs.github.com/en/search-github/searching-on-github/searching-for-repositories)
+- [Understanding the search syntax - GitHub Docs](https://docs.github.com/en/search-github/getting-started-with-searching-on-github/understanding-the-search-syntax)
+
+| 關鍵字                     | 功能                                        | 範例 |
+| -------------------------- | ------------------------------------------- | ---- |
+| `[keyword] in:name`        | 搜尋 repo 名稱裡含有關鍵字的 repo           |      |
+| `[keyword] in:description` | 搜尋 repo 敘述裡含有關鍵字的 repo           |      |
+| `[keyword] in:readme`      | 搜尋 repo 的 README 檔案裡含有關鍵字的 repo |      |
+| `repo:owner/name`          | 搜尋特定的 repo                             |      |
+| `user:USERNAME`            | 搜尋特定使用者的 repo                       |      |
+| `org:ORGNAME`              | 搜尋特定組織的 repo                         |      |
+| `size:n`                   | 搜尋特定範圍檔案大小的 repo                 |      |
+| `followers:n`              | 搜尋特定數量跟隨者範圍的 repo               |      |
+| `forks:n`                  | 搜尋特定數量 fork 範圍的 repo               |      |
+| `stars:n`                  | 搜尋特定數量 star 範圍的 repo               |      |
 
 ## Twitter
 

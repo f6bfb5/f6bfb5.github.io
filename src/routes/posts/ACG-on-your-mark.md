@@ -1,5 +1,5 @@
 ---
-title: "宮崎駿與恰克飛鳥的短篇實驗劇場 吉卜力《On Your Mark》訪談翻譯"
+title: "【訪談翻譯】宮崎駿與恰克飛鳥的短篇實驗劇場 吉卜力《On Your Mark》"
 date: 2019-01-19T06:30:08.000Z
 published: 2019-01-19T06:30:08.000Z
 author: f6bfb5

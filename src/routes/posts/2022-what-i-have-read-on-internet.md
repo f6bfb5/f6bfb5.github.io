@@ -409,3 +409,10 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [【詳しすぎる 2 週間】親の死亡後にまずやること（行動チェックリスト付）](https://g1-g.jp/magokoro-souzoku/list-of-procedures-after-death)
 - [身内が死んだら注意すべき葬儀周辺での悪意について - 空中の杜](https://nakamorikzs.net/entry/20120529/1338307137)
 - [亡くなったときの主な手続き(府中市おくやみハンドブック）](https://www.city.fuchu.tokyo.jp/kurashi/machi/sogi/nakunatta.html)
+- [登場から早や 20 年、いまだに話題となるデスクトップマスコット「伺か」ってなに？ - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1404090.html)
+- [42 歳、人生が突然淡々としはじめた。これが中年というものか - アラフォーからはじめる！](https://www.okimhome.com/entry/2022/04/20/144415)
+- [あまり知られていないけど可愛い動物教えて](https://anond.hatelabo.jp/20220420141437)
+- 【神スレ】エロゲーの歴史を画像と共に説明していく
+- [かおなくし - ミヨカワ将](https://shonenjumpplus.com/episode/3269754496874192756)
+- [「無職になったらいくらかかる？」を計算するサービスをリリースしました！](https://zenn.dev/ikuma/articles/release-quitcost)
+- [「月曜日のたわわ」を人々はどう見るか/田中辰雄 - SYNODOS](https://synodos.jp/opinion/society/27932/)

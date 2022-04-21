@@ -52,6 +52,7 @@ tags: ACG, Anime, Game
   - 製作人上田耕行、人設與美術的安倍吉俊、腳本小中千昭的二十週年回顧訪談
 - [serial experiments lain PS 版 RTA を走ってみよう計画\[雑記\]](https://note.com/igasub/n/nb1566fb7849c)
   - ＿ 人人人人人人 ＿<br/>＞　 13:48.66 　＜<br/>￣ Y^Y^Y^Y^Y^Y^￣
+- [LoveLetterTypewriterTTL](https://github.com/AKIRA-MIYAKE/LoveLetterTypewriterTTL)
 - [ですぺら](https://www.amazon.co.jp/%E3%81%A7%E3%81%99%E3%81%BA%E3%82%89%EF%BC%88%E3%83%AD%E3%83%9E%E3%83%B3%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%EF%BC%89-%E5%B0%8F%E4%B8%AD-%E5%8D%83%E6%98%AD/dp/4197203284)
   - 由與《Lain》相同製作陣容的小中千昭、安倍吉俊、中村隆太郎於 2009 年推出，可說是《Lain》精神上的後續作品，但原先預定的動畫版因為中村隆太郎的健康問題沒能實現，最後僅有雜誌上的小說連載，中村隆太郎並於 2013 年因胰臟癌逝世。
   - 以 1922 年的大正時代為舞台，時值民權運動興起，連接至今的科學技術思想開始出現，亦是關東大震災、軍隊思想失控的時期，一名名為「Ain」的少女製造出了「能夠窺探未來的裝置」，故事也自此開始…
