@@ -5,7 +5,7 @@
     <link>https://f6bfb5.github.io</link>
     <description>Close the world,.txEn eht nepO</description>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 21 Apr 2022 03:12:34 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 21 Apr 2022 06:15:19 GMT</lastBuildDate>
     
       <item>
         <title>2020 年，我在網路上看了些什麼文</title>
@@ -312,7 +312,7 @@
         <title>一次看懂動畫的製作人員名單</title>
         <link>https://f6bfb5.github.io/ACG-understanding-staff-of-anime</link>
         <pubDate>2019-01-23T06:56:18.000Z</pubDate>
-        <description>本文取自設計雜誌『MdN』2017 年 4 月號的「アニメのスタッフ・クレジットから読み解けるもの」專欄，訪問影像導演篠田利隆，以《亞人醬有話要說》為例，解說製作人員職位的內容。</description>
+        <description>本文取自設計雜誌『MdN』2017 年 4 月號的「アニメのスタッフ・クレジットから読み解けるもの」專欄，訪問影像監督篠田利隆，以《亞人醬有話要說》為例，解說製作人員職位的內容。</description>
       </item>
       
       <item>
@@ -396,6 +396,20 @@
         <title>實作「使用 Discord 登入」</title>
         <link>https://f6bfb5.github.io/login-with-discord</link>
         <pubDate>2021-01-14T00:24:23.000Z</pubDate>
+        
+      </item>
+      
+      <item>
+        <title>【歌詞翻譯】BUMP OF CHICKEN - ロストマン</title>
+        <link>https://f6bfb5.github.io/lyrics-bump-of-chicken-lostman</link>
+        <pubDate>2020-10-14T11:10:45.000Z</pubDate>
+        
+      </item>
+      
+      <item>
+        <title>【歌詞翻譯】Buzy - Venus Say…</title>
+        <link>https://f6bfb5.github.io/lyrics-buzy-venus-say</link>
+        <pubDate>2018-12-25T12:43:22.000Z</pubDate>
         
       </item>
       
@@ -519,6 +533,13 @@
       </item>
       
       <item>
+        <title>【歌詞翻譯】The High-Lows - 日曜日よりの使者</title>
+        <link>https://f6bfb5.github.io/lyrics-the-high-lows-messenger-from-sunday</link>
+        <pubDate>2019-08-27T11:21:10.000Z</pubDate>
+        
+      </item>
+      
+      <item>
         <title>【歌詞翻譯】The Pillows - Funny Bunny</title>
         <link>https://f6bfb5.github.io/lyrics-the-pillows-funny-bunny</link>
         <pubDate>2019-12-26T11:43:00.000Z</pubDate>
@@ -599,14 +620,14 @@
         <title>Toolbox - 電腦系統篇</title>
         <link>https://f6bfb5.github.io/tool-list-system</link>
         <pubDate>2019-10-21T18:10:11.000Z</pubDate>
-        
+        <description>各種電腦工具軟體整理。</description>
       </item>
       
       <item>
         <title>Toolbox - 趣味網站篇</title>
         <link>https://f6bfb5.github.io/tool-list-website</link>
         <pubDate>2019-10-21T18:10:11.000Z</pubDate>
-        
+        <description>已經連工具箱都稱不上了，有趣的網站。</description>
       </item>
       
       <item>
