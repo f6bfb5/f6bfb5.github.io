@@ -1,1 +1,0 @@
-import"../../chunks/index-946c5d3a.js";import"../../chunks/_post-3d10a06c.js";import{A as r,m as e}from"../../chunks/ACG-does-anno-hideaki-really-dont-know-what-he-is-making-8c5c52e7.js";export{r as default,e as metadata};
