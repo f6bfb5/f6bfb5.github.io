@@ -28,6 +28,8 @@ table td:nth-child(3) {
 | [Tegaki](https://www.kannagi.net/TEGAKI/)                                                | 可與推特聯動的速發塗鴉軟體                    | FREE |
 | [PHJCI](https://bach.ccu.edu.tw/Site/nu13754/Media/dir_52aecfed62c6f/dir_52aecfef57e4c/) | 繪製 PTT 用的 ASCII 圖像工具                  | FREE |
 
+[Krita](https://krita.org/zh-tw/download_zh-tw/krita-desktop_zh-tw/)
+
 ## 圖片處理
 
 | 名稱                                                                          | 說明                        | 付費 |

@@ -4,7 +4,7 @@ date: 2018-12-25T12:43:22.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe src="https://www.youtube.com/embed/e3pJIl4zHdo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Buzy - Venus Say…" src="https://www.youtube.com/embed/e3pJIl4zHdo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 弱小的旅人啊 趁現在回頭吧<br>
 在你倒地之前<br>
@@ -28,7 +28,7 @@ Do you know? I'm a Venus
 What you wanna go?<br>
 I will make it happen
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/co2gAPZEMwM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Buzy - 鯨" width="720" height="480" src="https://www.youtube.com/embed/co2gAPZEMwM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 誕生的罪行 存活的刑罰<br>
 名為我的存在<br>

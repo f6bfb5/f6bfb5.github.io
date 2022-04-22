@@ -4,7 +4,7 @@ date: 2020-10-14T11:10:45.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe src="https://www.youtube.com/embed/z-DvnM298yw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="BUMP OF CHICKEN - ロストマン" src="https://www.youtube.com/embed/z-DvnM298yw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 狀況怎麼樣 我問道自己<br>
 還能夠想起 旅途起點嗎
