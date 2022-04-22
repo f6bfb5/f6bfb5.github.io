@@ -1,16 +1,20 @@
-<footer>
+<footer scoped>
   <a
     href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
     target="_blank"
-    rel="noreferrer noopener nofollow">CC BY-NC-SA 4.0</a
+    rel="noreferrer noopener nofollow"
   >
+    CC BY-NC-SA 4.0
+  </a>
   <div class="right">
     Made with <span class="heart">❤️</span> and
     <a
       href="https://kit.svelte.dev/"
       target="_blank"
-      ref="noreferrer noopener nofollow">SvelteKit</a
+      ref="noreferrer noopener nofollow"
     >
+      SvelteKit
+    </a>
   </div>
   <div class="clearfix" />
 </footer>
@@ -26,6 +30,8 @@
     border-top: 1px solid var(--text-color);
 
     background-color: var(--bg-color);
+
+    line-height: 1em;
   }
 
   .clearfix {
