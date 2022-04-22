@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-b140d83c.js",
+    "file": "start-f9fb3f0a.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -16,7 +16,7 @@
       "src/routes/index.svelte",
       "_2020-what-i-have-read-on-internet-48c68f8b.js",
       "_2021-what-i-have-read-on-internet-61734e62.js",
-      "_2022-what-i-have-read-on-internet-a84c0453.js",
+      "_2022-what-i-have-read-on-internet-0cc68896.js",
       "_ACG-80s-winter-age-of-anime-1c5371e2.js",
       "_ACG-Pause-And-Select-Apocalypse-1f2ee056.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-e215cde2.js",
@@ -46,7 +46,7 @@
       "_ACG-petition-of-sakuga-otaku-3b8bd458.js",
       "_ACG-planetes-is-the-treasure-of-life-0ea7d52a.js",
       "_ACG-problems-about-taiwan-students-facing-japan-culture-2a20f30a.js",
-      "_ACG-rockman-1-tas-glitch-693a10ec.js",
+      "_ACG-rockman-1-tas-glitch-debe4adb.js",
       "_ACG-seino-tooru-36694dbb.js",
       "_ACG-serial-experiments-lain-for-ps-c1f3210e.js",
       "_ACG-super-manga-book-list-bb0deee5.js",
@@ -70,8 +70,8 @@
       "_how-do-you-like-wendesday-47cfb685.js",
       "_how-to-check-font-family-name-in-computer-e44f1bba.js",
       "_login-with-discord-4c7ed035.js",
-      "_lyrics-bump-of-chicken-lostman-22223b72.js",
-      "_lyrics-buzy-venus-say-dfc63533.js",
+      "_lyrics-bump-of-chicken-lostman-9dfd3b4f.js",
+      "_lyrics-buzy-venus-say-873bbb51.js",
       "_lyrics-gift-from-you-8ec09637.js",
       "_lyrics-good-night-world-bbf1fe3d.js",
       "_lyrics-hamada-shogo-j-boy-1d7246a1.js",
@@ -99,7 +99,7 @@
       "_mpv-45921dd9.js",
       "_search-engine-operators-8118e177.js",
       "_the-irony-of-the-dunning-kruger-effect-035615a8.js",
-      "_tool-list-creativity-0c964e18.js",
+      "_tool-list-creativity-ef79b20e.js",
       "_tool-list-gaming-78ab98c1.js",
       "_tool-list-system-edfd28ef.js",
       "_tool-list-website-e2920606.js",
@@ -110,7 +110,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-50ffd93b.js",
+    "file": "pages/__layout.svelte-18fe722c.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -119,7 +119,7 @@
       "_paths-396f020f.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-716cafff.css"
+      "assets/pages/__layout.svelte-986387b2.css"
     ]
   },
   "src/routes/__error.svelte": {
@@ -135,14 +135,14 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-29f2edd3.js",
+    "file": "pages/_slug_.svelte-5da4726b.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-48c68f8b.js",
       "_2021-what-i-have-read-on-internet-61734e62.js",
-      "_2022-what-i-have-read-on-internet-a84c0453.js",
+      "_2022-what-i-have-read-on-internet-0cc68896.js",
       "_ACG-80s-winter-age-of-anime-1c5371e2.js",
       "_ACG-Pause-And-Select-Apocalypse-1f2ee056.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-e215cde2.js",
@@ -172,7 +172,7 @@
       "_ACG-petition-of-sakuga-otaku-3b8bd458.js",
       "_ACG-planetes-is-the-treasure-of-life-0ea7d52a.js",
       "_ACG-problems-about-taiwan-students-facing-japan-culture-2a20f30a.js",
-      "_ACG-rockman-1-tas-glitch-693a10ec.js",
+      "_ACG-rockman-1-tas-glitch-debe4adb.js",
       "_ACG-seino-tooru-36694dbb.js",
       "_ACG-serial-experiments-lain-for-ps-c1f3210e.js",
       "_ACG-super-manga-book-list-bb0deee5.js",
@@ -196,8 +196,8 @@
       "_how-do-you-like-wendesday-47cfb685.js",
       "_how-to-check-font-family-name-in-computer-e44f1bba.js",
       "_login-with-discord-4c7ed035.js",
-      "_lyrics-bump-of-chicken-lostman-22223b72.js",
-      "_lyrics-buzy-venus-say-dfc63533.js",
+      "_lyrics-bump-of-chicken-lostman-9dfd3b4f.js",
+      "_lyrics-buzy-venus-say-873bbb51.js",
       "_lyrics-gift-from-you-8ec09637.js",
       "_lyrics-good-night-world-bbf1fe3d.js",
       "_lyrics-hamada-shogo-j-boy-1d7246a1.js",
@@ -225,7 +225,7 @@
       "_mpv-45921dd9.js",
       "_search-engine-operators-8118e177.js",
       "_the-irony-of-the-dunning-kruger-effect-035615a8.js",
-      "_tool-list-creativity-0c964e18.js",
+      "_tool-list-creativity-ef79b20e.js",
       "_tool-list-gaming-78ab98c1.js",
       "_tool-list-system-edfd28ef.js",
       "_tool-list-website-e2920606.js",
@@ -250,14 +250,14 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-3f349f42.js",
+    "file": "pages/index.svelte-d52c5c98.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-48c68f8b.js",
       "_2021-what-i-have-read-on-internet-61734e62.js",
-      "_2022-what-i-have-read-on-internet-a84c0453.js",
+      "_2022-what-i-have-read-on-internet-0cc68896.js",
       "_ACG-80s-winter-age-of-anime-1c5371e2.js",
       "_ACG-Pause-And-Select-Apocalypse-1f2ee056.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-e215cde2.js",
@@ -287,7 +287,7 @@
       "_ACG-petition-of-sakuga-otaku-3b8bd458.js",
       "_ACG-planetes-is-the-treasure-of-life-0ea7d52a.js",
       "_ACG-problems-about-taiwan-students-facing-japan-culture-2a20f30a.js",
-      "_ACG-rockman-1-tas-glitch-693a10ec.js",
+      "_ACG-rockman-1-tas-glitch-debe4adb.js",
       "_ACG-seino-tooru-36694dbb.js",
       "_ACG-serial-experiments-lain-for-ps-c1f3210e.js",
       "_ACG-super-manga-book-list-bb0deee5.js",
@@ -311,8 +311,8 @@
       "_how-do-you-like-wendesday-47cfb685.js",
       "_how-to-check-font-family-name-in-computer-e44f1bba.js",
       "_login-with-discord-4c7ed035.js",
-      "_lyrics-bump-of-chicken-lostman-22223b72.js",
-      "_lyrics-buzy-venus-say-dfc63533.js",
+      "_lyrics-bump-of-chicken-lostman-9dfd3b4f.js",
+      "_lyrics-buzy-venus-say-873bbb51.js",
       "_lyrics-gift-from-you-8ec09637.js",
       "_lyrics-good-night-world-bbf1fe3d.js",
       "_lyrics-hamada-shogo-j-boy-1d7246a1.js",
@@ -340,7 +340,7 @@
       "_mpv-45921dd9.js",
       "_search-engine-operators-8118e177.js",
       "_the-irony-of-the-dunning-kruger-effect-035615a8.js",
-      "_tool-list-creativity-0c964e18.js",
+      "_tool-list-creativity-ef79b20e.js",
       "_tool-list-gaming-78ab98c1.js",
       "_tool-list-system-edfd28ef.js",
       "_tool-list-website-e2920606.js",
@@ -378,13 +378,13 @@
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-28d2ea4a.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-7bc1a30f.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-24334240.js",
-      "_2022-what-i-have-read-on-internet-a84c0453.js"
+      "_2022-what-i-have-read-on-internet-0cc68896.js"
     ]
   },
   "src/routes/posts/ACG-80s-winter-age-of-anime.md": {
@@ -678,13 +678,13 @@
     ]
   },
   "src/routes/posts/ACG-rockman-1-tas-glitch.md": {
-    "file": "pages/posts/ACG-rockman-1-tas-glitch.md-3873d967.js",
+    "file": "pages/posts/ACG-rockman-1-tas-glitch.md-019a6071.js",
     "src": "src/routes/posts/ACG-rockman-1-tas-glitch.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-24334240.js",
-      "_ACG-rockman-1-tas-glitch-693a10ec.js"
+      "_ACG-rockman-1-tas-glitch-debe4adb.js"
     ]
   },
   "src/routes/posts/ACG-seino-tooru.md": {
@@ -918,23 +918,23 @@
     ]
   },
   "src/routes/posts/lyrics-bump-of-chicken-lostman.md": {
-    "file": "pages/posts/lyrics-bump-of-chicken-lostman.md-15c69b71.js",
+    "file": "pages/posts/lyrics-bump-of-chicken-lostman.md-e93cfc4b.js",
     "src": "src/routes/posts/lyrics-bump-of-chicken-lostman.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-24334240.js",
-      "_lyrics-bump-of-chicken-lostman-22223b72.js"
+      "_lyrics-bump-of-chicken-lostman-9dfd3b4f.js"
     ]
   },
   "src/routes/posts/lyrics-buzy-venus-say.md": {
-    "file": "pages/posts/lyrics-buzy-venus-say.md-e83acda9.js",
+    "file": "pages/posts/lyrics-buzy-venus-say.md-a543edba.js",
     "src": "src/routes/posts/lyrics-buzy-venus-say.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-24334240.js",
-      "_lyrics-buzy-venus-say-dfc63533.js"
+      "_lyrics-buzy-venus-say-873bbb51.js"
     ]
   },
   "src/routes/posts/lyrics-gift-from-you.md": {
@@ -1208,13 +1208,13 @@
     ]
   },
   "src/routes/posts/tool-list-creativity.md": {
-    "file": "pages/posts/tool-list-creativity.md-5e1def92.js",
+    "file": "pages/posts/tool-list-creativity.md-6b9adf90.js",
     "src": "src/routes/posts/tool-list-creativity.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-24334240.js",
-      "_tool-list-creativity-0c964e18.js"
+      "_tool-list-creativity-ef79b20e.js"
     ]
   },
   "src/routes/posts/tool-list-gaming.md": {
@@ -1315,8 +1315,8 @@
       "__post-24334240.js"
     ]
   },
-  "_2022-what-i-have-read-on-internet-a84c0453.js": {
-    "file": "chunks/2022-what-i-have-read-on-internet-a84c0453.js",
+  "_2022-what-i-have-read-on-internet-0cc68896.js": {
+    "file": "chunks/2022-what-i-have-read-on-internet-0cc68896.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
@@ -1561,8 +1561,8 @@
       "__post-24334240.js"
     ]
   },
-  "_ACG-rockman-1-tas-glitch-693a10ec.js": {
-    "file": "chunks/ACG-rockman-1-tas-glitch-693a10ec.js",
+  "_ACG-rockman-1-tas-glitch-debe4adb.js": {
+    "file": "chunks/ACG-rockman-1-tas-glitch-debe4adb.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
@@ -1759,16 +1759,16 @@
       "assets/login-with-discord-4c509c13.css"
     ]
   },
-  "_lyrics-bump-of-chicken-lostman-22223b72.js": {
-    "file": "chunks/lyrics-bump-of-chicken-lostman-22223b72.js",
+  "_lyrics-bump-of-chicken-lostman-9dfd3b4f.js": {
+    "file": "chunks/lyrics-bump-of-chicken-lostman-9dfd3b4f.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-24334240.js"
     ]
   },
-  "_lyrics-buzy-venus-say-dfc63533.js": {
-    "file": "chunks/lyrics-buzy-venus-say-dfc63533.js",
+  "_lyrics-buzy-venus-say-873bbb51.js": {
+    "file": "chunks/lyrics-buzy-venus-say-873bbb51.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
@@ -1991,8 +1991,8 @@
       "__post-24334240.js"
     ]
   },
-  "_tool-list-creativity-0c964e18.js": {
-    "file": "chunks/tool-list-creativity-0c964e18.js",
+  "_tool-list-creativity-ef79b20e.js": {
+    "file": "chunks/tool-list-creativity-ef79b20e.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",

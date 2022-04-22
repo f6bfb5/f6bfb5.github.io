@@ -13,16 +13,16 @@
     <!-- This contains the contents of the <svelte:head> component, if
 	     the current page has one -->
     <meta http-equiv="content-security-policy" content=""><script async src="https://www.googletagmanager.com/gtag/js?id=G-CRDP7WTXSQ" data-svelte="svelte-bhtlqr"></script><link rel="shortcut icon" href="/favicon.ico" data-svelte="svelte-1c8ynol"><link rel="bookmark" href="/favicon.ico" data-svelte="svelte-1c8ynol">
-	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-716cafff.css">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-986387b2.css">
 	<link rel="stylesheet" href="/_app/assets/_post-30ba6428.css">
-	<link rel="modulepreload" href="/_app/start-b140d83c.js">
+	<link rel="modulepreload" href="/_app/start-f9fb3f0a.js">
 	<link rel="modulepreload" href="/_app/chunks/index-946c5d3a.js">
 	<link rel="modulepreload" href="/_app/chunks/index-a2613d0b.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-50ffd93b.js">
-	<link rel="modulepreload" href="/_app/pages/posts/ACG-rockman-1-tas-glitch.md-3873d967.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-18fe722c.js">
+	<link rel="modulepreload" href="/_app/pages/posts/ACG-rockman-1-tas-glitch.md-019a6071.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-24334240.js">
-	<link rel="modulepreload" href="/_app/chunks/ACG-rockman-1-tas-glitch-693a10ec.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-rockman-1-tas-glitch-debe4adb.js">
   </head>
   <body>
     <!-- The application will be rendered inside this element,
@@ -39,7 +39,7 @@
   <a class=" svelte-t90z2a" href="/about">about</a>
   <a class=" svelte-t90z2a" href="/rss.xml">rss</a>
 </nav>
-    <a href="https://www.nicovideo.jp/watch/sm33802520" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
+    <a href="https://www.youtube.com/watch?v=C9PFVo1FEwU" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
 </a></div>
   
 <div id="progress-bar" style="--scrollAmount: 0%;" class="svelte-1gbseey"></div>
@@ -118,9 +118,9 @@
 <td>6C 18 00</td>
 <td>JMP (<code>$0018</code>)=<code>$C460</code>（<code>$C460</code>: jump 至通關處理的途中）</td>
 <td>擊倒普通的敵人掉落道具的 ObjectFireDelay=6C,18<br>delay FF 出現的物件 55 的 ObjectFireDelay=00<br><code>$0018</code> 的數値由操作控制器 1 的「左下」+ 控制器 2 的「左右 Select」=60,C4</td></tr></tbody></table>
-<p>C45E: A9 00 lda #$00</p>
-<br>C460: 85 31 sta $31(CurrentStage)　 ← 遊戲程式會 jump 至這裡並進行中斷處理
-<br>C462: 4C 0C C1 jmp $C10C
+<p>C45E: A9 00 lda #$00<br>
+C460: 85 31 sta $31(CurrentStage)　 ← 遊戲程式會 jump 至這裡並進行中斷處理<br>
+C462: 4C 0C C1 jmp $C10C</p>
 <p>進入遊戲 ending。</p>
 <p>利用這個漏洞，就能在事先準備好讀取的資料後，達成想要的操作結果。</p>
 <h3>DoubleObjectFFGlitch</h3>
@@ -169,34 +169,47 @@
 <td>04</td></tr></tbody></table>
 <p>進行 DoubleObjectFFGlitch 就會進入 Ending 畫面。</p>
 <h3>流程</h3>
-<ol><li>在 Electric Man 的關卡裡，於梯子上進行射擊的動作，<strong>僅按下 1 frame</strong> 下鍵，會變為半抓住梯子的樣子，<br>[![img06](https://i.imgur.com/5srrun8.jpg)](https://i.imgur.com/5srrun8.jpg)
-<br>洛克人朝左的狀況下，按下上鍵，會變為頭卡在天花板的穿牆狀態，按下跳躍鍵，跳到最高處後，按下右鍵，會穿越至磁力條的右方，這個狀態下按左鍵，會由於子畫素（subpixel）的關係，有 1/8 的機率可以拿到磁力條，再按下一次跳躍鍵，就會回到穿牆狀態。</li>
+<ol><li>在 Electric Man 的關卡裡，於梯子上進行射擊的動作，<strong>僅按下 1 frame</strong> 下鍵，會變為半抓住梯子的樣子，<br>
+<a href="https://i.imgur.com/5srrun8.jpg" rel="nofollow"><img src="https://i.imgur.com/5srrun8.jpg" alt="img06"></a><br>
+洛克人朝左的狀況下，按下上鍵，會變為頭卡在天花板的穿牆狀態，按下跳躍鍵，跳到最高處後，按下右鍵，會穿越至磁力條的右方，這個狀態下按左鍵，會由於子畫素（subpixel）的關係，有 1/8 的機率可以拿到磁力條，再按下一次跳躍鍵，就會回到穿牆狀態。</li>
 <li>進入 Guts Man 關卡</li>
-<li>在關卡開頭等待第二隻小矮兵的 3 連攻擊，在下圖的位置等待至第 3 發中央的子彈消失於畫面外後， <code>$49B</code> 的值會變為 C4 。<br>[![img07](https://i.imgur.com/EhAhmrY.jpg)](https://i.imgur.com/EhAhmrY.jpg)</li>
-<li>在畫面內有 2 隻小矮兵的狀態下，<strong>保持畫面裡有 2 連攻擊</strong>追至下圖的位置，等待至第 2 發中央的子彈消失於畫面外後， <code>$49A</code> 的值會變為 60。<br>這裡若是遇到 3 連攻擊 `$49B` 會因此取得 C4 之外的值。
-<br>[![img08](https://i.imgur.com/fAcJeMt.jpg)](https://i.imgur.com/fAcJeMt.jpg)</li>
-<li>在畫面內有 1 隻小矮兵的狀態下，在下圖位置等待 2 連攻擊的第 2 發中央子彈消失於畫面外後， <code>$499</code> 的值會變為 20。<br>這裡同樣若是遇到 3 連攻擊，在這之前的調整會因此偏掉。
-<br>[![img09](https://i.imgur.com/O046zDW.jpg)](https://i.imgur.com/O046zDW.jpg)
-<br>這裡小矮兵的攻擊間隔是由亂數決定，若是運氣不好，會有可能為了 3 連攻擊或 2 連攻擊，要等上數十秒。
-<br>若是途中失敗可從 `$49B` 重新開始調整。</li>
-<li>接下來要調整 <code>$498</code>，移動至斷崖的另一邊後，擊敗 3 隻敵人<strong>並使畫面上顯示 3 個道具</strong>後，在下圖的位置受到傷害，會使 <code>$498</code> 的值變為 4A 。<br>若是失敗仍可在血量允許的情況下持續調整。
-<br>[![img10](https://i.imgur.com/uFBy8hb.jpg)](https://i.imgur.com/uFBy8hb.jpg)</li>
-<li>接下來是 <code>$482</code>～<code>$484</code> 的調整，在下圖的位置向右連射 3 發 buster ，在第 3 發子彈消失於畫面外後，<code>$484</code> 的值會變為 13。<br>[![img11](https://i.imgur.com/5KVdRku.jpg)](https://i.imgur.com/5KVdRku.jpg)</li>
-<li>在下圖的位置向右連射 2 發 buster ，在第 2 發子彈消失於畫面外後，<code>$483</code> 的值會變為 50。<br>[![img12](https://i.imgur.com/ZKGmALT.jpg)](https://i.imgur.com/ZKGmALT.jpg)</li>
-<li>在下圖的位置向右射單發 buster ，子彈消失於畫面外後，<code>$482</code> 的值會變為 8A。<br>在這之後若再發射 buster，會造成先前調整的數值變動，**要注意不可再使用 buster** ，若是失敗則要再從 `$484` 開始重新調整。
-<br>[![img13](https://i.imgur.com/O95Y27D.jpg)](https://i.imgur.com/O95Y27D.jpg)</li>
-<li>接下來是 <code>$605</code>～<code>$607</code> 的調整，從第三階樓梯開始，使用磁力條逐格拉高 10 高度。<br>[![img14](https://i.imgur.com/ceJ1S7O.jpg)](https://i.imgur.com/ceJ1S7O.jpg)</li>
-<li>注意磁力條的顯示時間，將畫面最上方的磁力條調整為<strong>畫面裡出現的第 3 條</strong>， <code>$607</code> 的值會變為 04 。<br>需將時間調整為，這時踏台的第 2 條和第 1 條的磁力條，在設置第 3 條後會馬上消失。
-<br>[![img15](https://i.imgur.com/6qy17F2.jpg)](https://i.imgur.com/6qy17F2.jpg)</li>
-<li>在踏台的第 2 條磁力條消失前，射出磁力條並跳至最高，可以使用 Start → Select 微調磁力條至下圖的位置（與右邊的山峰平行）後，放開 B 鍵便能在此設置磁力條。<br>由於這時先前設值的第 1 和第 2 條磁力條已經消失了，這時設置的磁力條會變為第 1 條，`$605` 會變為 20 。
-<br>[![img16](https://i.imgur.com/uQmEdO7.jpg)](https://i.imgur.com/uQmEdO7.jpg)</li>
-<li>著地後朝左射出磁力條，並在最大跳躍後，在<strong>頂點附近</strong>朝右，將磁力條設置於如下圖的階梯上固定，這會是第 2 條磁力條，<code>$606</code> 變為 82 。<br>若是這時失敗會由於磁力條的殘量不足，必須整個 run 重來過。
-<br>若只是想成功可以從 `$484` 的調整重新開始。
-<br>[![img17](https://i.imgur.com/MPvesQN.jpg)](https://i.imgur.com/MPvesQN.jpg)</li>
-<li>調整至此<strong>必須沒有任何 1 格點陣</strong>的偏差，並且為了使用 DoubleObjectFFGlicth 叫出物件 55，需要<strong>按下控制器 2 的「←、↑、Select、A」鍵</strong>。<br>影片的跑者是使用膠帶固定住 A 鍵，用雙腳踩下十字鍵與 Select 鍵。
-<br>然而 Guts Man 關的 DoubleObjectFFGlicth 比起 Ice Man 的難易度更高，在人力執行上是一定程度的運 Game，這點只能不斷嘗試來達成。
-<br>而最重要的是，**要在這 3 條磁力條消失前達成 DoubleObjectFFGlicth 的技巧**，若是成功達成執行技巧，呼叫出物件 55，就會和 TAS 影片一樣突然進入 ending 。
-<br>磁力條消失的時間是 150 frames（約 2.5 秒左右），因此僅有大概 1 ～ 2 次的跳躍機會可嘗試，雖然單次 run 的整體時間很短，仍然是個極為困難的技巧。</li></ol>
+<li>在關卡開頭等待第二隻小矮兵的 3 連攻擊，在下圖的位置等待至第 3 發中央的子彈消失於畫面外後， <code>$49B</code> 的值會變為 C4 。<br>
+<a href="https://i.imgur.com/EhAhmrY.jpg" rel="nofollow"><img src="https://i.imgur.com/EhAhmrY.jpg" alt="img07"></a></li>
+<li>在畫面內有 2 隻小矮兵的狀態下，<strong>保持畫面裡有 2 連攻擊</strong>追至下圖的位置，等待至第 2 發中央的子彈消失於畫面外後， <code>$49A</code> 的值會變為 60。<br>
+這裡若是遇到 3 連攻擊 <code>$49B</code> 會因此取得 C4 之外的值。<br>
+<a href="https://i.imgur.com/fAcJeMt.jpg" rel="nofollow"><img src="https://i.imgur.com/fAcJeMt.jpg" alt="img08"></a></li>
+<li>在畫面內有 1 隻小矮兵的狀態下，在下圖位置等待 2 連攻擊的第 2 發中央子彈消失於畫面外後， <code>$499</code> 的值會變為 20。<br>
+這裡同樣若是遇到 3 連攻擊，在這之前的調整會因此偏掉。<br>
+<a href="https://i.imgur.com/O046zDW.jpg" rel="nofollow"><img src="https://i.imgur.com/O046zDW.jpg" alt="img09"></a><br>
+這裡小矮兵的攻擊間隔是由亂數決定，若是運氣不好，會有可能為了 3 連攻擊或 2 連攻擊，要等上數十秒。<br>
+若是途中失敗可從 <code>$49B</code> 重新開始調整。</li>
+<li>接下來要調整 <code>$498</code>，移動至斷崖的另一邊後，擊敗 3 隻敵人<strong>並使畫面上顯示 3 個道具</strong>後，在下圖的位置受到傷害，會使 <code>$498</code> 的值變為 4A 。<br>
+若是失敗仍可在血量允許的情況下持續調整。<br>
+<a href="https://i.imgur.com/uFBy8hb.jpg" rel="nofollow"><img src="https://i.imgur.com/uFBy8hb.jpg" alt="img10"></a></li>
+<li>接下來是 <code>$482</code>～<code>$484</code> 的調整，在下圖的位置向右連射 3 發 buster ，在第 3 發子彈消失於畫面外後，<code>$484</code> 的值會變為 13。<br>
+<a href="https://i.imgur.com/5KVdRku.jpg" rel="nofollow"><img src="https://i.imgur.com/5KVdRku.jpg" alt="img11"></a></li>
+<li>在下圖的位置向右連射 2 發 buster ，在第 2 發子彈消失於畫面外後，<code>$483</code> 的值會變為 50。<br>
+<a href="https://i.imgur.com/ZKGmALT.jpg" rel="nofollow"><img src="https://i.imgur.com/ZKGmALT.jpg" alt="img12"></a></li>
+<li>在下圖的位置向右射單發 buster ，子彈消失於畫面外後，<code>$482</code> 的值會變為 8A。<br>
+在這之後若再發射 buster，會造成先前調整的數值變動，<strong>要注意不可再使用 buster</strong> ，若是失敗則要再從 <code>$484</code> 開始重新調整。<br>
+<a href="https://i.imgur.com/O95Y27D.jpg" rel="nofollow"><img src="https://i.imgur.com/O95Y27D.jpg" alt="img13"></a></li>
+<li>接下來是 <code>$605</code>～<code>$607</code> 的調整，從第三階樓梯開始，使用磁力條逐格拉高 10 高度。<br>
+<a href="https://i.imgur.com/ceJ1S7O.jpg" rel="nofollow"><img src="https://i.imgur.com/ceJ1S7O.jpg" alt="img14"></a></li>
+<li>注意磁力條的顯示時間，將畫面最上方的磁力條調整為<strong>畫面裡出現的第 3 條</strong>， <code>$607</code> 的值會變為 04 。<br>
+需將時間調整為，這時踏台的第 2 條和第 1 條的磁力條，在設置第 3 條後會馬上消失。<br>
+<a href="https://i.imgur.com/6qy17F2.jpg" rel="nofollow"><img src="https://i.imgur.com/6qy17F2.jpg" alt="img15"></a></li>
+<li>在踏台的第 2 條磁力條消失前，射出磁力條並跳至最高，可以使用 Start → Select 微調磁力條至下圖的位置（與右邊的山峰平行）後，放開 B 鍵便能在此設置磁力條。<br>
+由於這時先前設值的第 1 和第 2 條磁力條已經消失了，這時設置的磁力條會變為第 1 條，<code>$605</code> 會變為 20 。<br>
+<a href="https://i.imgur.com/uQmEdO7.jpg" rel="nofollow"><img src="https://i.imgur.com/uQmEdO7.jpg" alt="img16"></a></li>
+<li>著地後朝左射出磁力條，並在最大跳躍後，在<strong>頂點附近</strong>朝右，將磁力條設置於如下圖的階梯上固定，這會是第 2 條磁力條，<code>$606</code> 變為 82 。<br>
+若是這時失敗會由於磁力條的殘量不足，必須整個 run 重來過。<br>
+若只是想成功可以從 <code>$484</code> 的調整重新開始。<br>
+<a href="https://i.imgur.com/MPvesQN.jpg" rel="nofollow"><img src="https://i.imgur.com/MPvesQN.jpg" alt="img17"></a></li>
+<li>調整至此<strong>必須沒有任何 1 格點陣</strong>的偏差，並且為了使用 DoubleObjectFFGlicth 叫出物件 55，需要<strong>按下控制器 2 的「←、↑、Select、A」鍵</strong>。<br>
+影片的跑者是使用膠帶固定住 A 鍵，用雙腳踩下十字鍵與 Select 鍵。<br>
+然而 Guts Man 關的 DoubleObjectFFGlicth 比起 Ice Man 的難易度更高，在人力執行上是一定程度的運 Game，這點只能不斷嘗試來達成。<br>
+而最重要的是，<strong>要在這 3 條磁力條消失前達成 DoubleObjectFFGlicth 的技巧</strong>，若是成功達成執行技巧，呼叫出物件 55，就會和 TAS 影片一樣突然進入 ending 。<br>
+磁力條消失的時間是 150 frames（約 2.5 秒左右），因此僅有大概 1 ～ 2 次的跳躍機會可嘗試，雖然單次 run 的整體時間很短，仍然是個極為困難的技巧。</li></ol>
 <h2>參考文章：</h2>
 <ul><li><a href="http://www.yuko2ch.net/rockman/mm1tasmap.html" rel="nofollow">ディレオブジェクトテク</a></li>
 <li><a href="http://ch.nicovideo.jp/TASVideos/blomaga/ar529967" rel="nofollow">ロックマン 1 のディレイエンディング TAS について</a></li>
@@ -232,18 +245,20 @@
 </div>
 </div></main>
 
-  <footer class="svelte-1nz5bf0"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noreferrer noopener nofollow">CC BY-NC-SA 4.0</a>
-  <div class="right svelte-1nz5bf0">Made with <span class="heart svelte-1nz5bf0">❤️</span> and
-    <a href="https://kit.svelte.dev/" target="_blank" ref="noreferrer noopener nofollow">SvelteKit</a></div>
-  <div class="clearfix svelte-1nz5bf0"></div>
+  <footer scoped class="svelte-uffv1e"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noreferrer noopener nofollow">CC BY-NC-SA 4.0
+  </a>
+  <div class="right svelte-uffv1e">Made with <span class="heart svelte-uffv1e">❤️</span> and
+    <a href="https://kit.svelte.dev/" target="_blank" ref="noreferrer noopener nofollow">SvelteKit
+    </a></div>
+  <div class="clearfix svelte-uffv1e"></div>
 </footer>
 </div>
 
 
-		<script type="module" data-hydrate="1jwri3w">
-		import { start } from "/_app/start-b140d83c.js";
+		<script type="module" data-hydrate="qu9rqm">
+		import { start } from "/_app/start-f9fb3f0a.js";
 		start({
-			target: document.querySelector('[data-hydrate="1jwri3w"]').parentNode,
+			target: document.querySelector('[data-hydrate="qu9rqm"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -253,8 +268,8 @@
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-50ffd93b.js"),
-						import("/_app/pages/posts/ACG-rockman-1-tas-glitch.md-3873d967.js")
+					import("/_app/pages/__layout.svelte-18fe722c.js"),
+						import("/_app/pages/posts/ACG-rockman-1-tas-glitch.md-019a6071.js")
 				],
 				params: {},
 				routeId: "posts/ACG-rockman-1-tas-glitch"
