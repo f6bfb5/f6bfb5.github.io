@@ -18,13 +18,13 @@ tags: F2E
 ### b. 建立 OAuth 用的網址
 
 1. 點擊左側的「OAuth2」分頁
-2. 點擊右側的「Add Redirect」，輸入要用到驗證登入的網址
-   <br/>例如本文最下方也有附上實作範例
-   <br/>輸入的網址就是 `https://f6bfb5.github.io/login-with-discord/`
+2. 點擊右側的「Add Redirect」，輸入要用到驗證登入的網址<br/>
+   例如本文最下方有附上實作範例<br/>
+   輸入的網址就是本文連結 `https://f6bfb5.github.io/login-with-discord/`
 3. 勾選下方「SCOPE」（索取的資訊欄位）
    裡的「identify」（Discord 的 ID）和「email」
-4. 就可於頁面下方取得認證用的連結
-   <br/>例：`https://discord.com/api/oauth2/authorize?client_id=`CLIENT ID`&redirect_uri=`REDIRECT URL`&response_type=code&scope=`SCOPE
+4. 就可於頁面下方取得認證用的連結<br/>
+   例：`https://discord.com/api/oauth2/authorize?client_id=`CLIENT ID`&redirect_uri=`REDIRECT URL`&response_type=code&scope=`SCOPE
 
 ## 2. 從認證連結取得「code」
 
@@ -32,7 +32,7 @@ tags: F2E
 
 ## 3. 使用「code」取得「token」
 
-再使用這個 `code` 去取得 `access_token`，才能得到存取資料的權限
+再使用這個 `code` 送出請求，取得 `access_token`，才能得到存取資料的權限
 
 ### a. 傳送 POST 請求到 Discord API
 
@@ -60,8 +60,8 @@ curl -X POST
 ```
 
 - `code` 為一次性使用，同一個 `code` 無法進行第二次存取
-- `access token` 的有效期限為 604800 秒＝一個禮拜
-  <br>若有更新需求，須使用回傳內容中的 `refresh token` 重新送出請求
+- `access token` 的有效期限為 604800 秒＝一個禮拜<br>
+  若有更新需求，須使用回傳內容中的 `refresh token` 重新送出請求
 
 ## 4. 使用「token」取得使用者資料
 
@@ -89,7 +89,7 @@ curl -H "Authorization: Bearer ACCESS TOKEN"
 }
 ```
 
-- 頭像可以使用「`https://cdn.discordapp.com/avatars/`Discord ID`/`大頭貼 ID」取得
+- 頭像網址可以使用「`https://cdn.discordapp.com/avatars/`Discord ID`/`大頭貼 ID」取得
 
 ## 5. 使用 refresh token 重新取得 access token
 
