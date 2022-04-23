@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-f9fb3f0a.js",
+    "file": "start-969d83b7.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -57,7 +57,7 @@
       "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-5398cbe8.js",
       "_ACG-theory-of-traveller-0cdfa0a9.js",
       "_ACG-thought-about-re-take-c2e8f0cd.js",
-      "_ACG-understanding-staff-of-anime-af3985ef.js",
+      "_ACG-understanding-staff-of-anime-35f15e4f.js",
       "_ACG-what-does-wall-of-meisaku-mean-6a3bf08e.js",
       "_ACG-what-is-games-done-quick-71d33791.js",
       "_ACG-why-you-should-not-use-interpolation-on-anime-dd82dffc.js",
@@ -69,10 +69,10 @@
       "_capitalist-realism-mark-fisher-ec6e43c0.js",
       "_how-do-you-like-wendesday-47cfb685.js",
       "_how-to-check-font-family-name-in-computer-e44f1bba.js",
-      "_login-with-discord-4c7ed035.js",
+      "_login-with-discord-712bffb6.js",
       "_lyrics-bump-of-chicken-lostman-9dfd3b4f.js",
       "_lyrics-buzy-venus-say-873bbb51.js",
-      "_lyrics-gift-from-you-8ec09637.js",
+      "_lyrics-gift-from-you-e7f1b4ad.js",
       "_lyrics-good-night-world-bbf1fe3d.js",
       "_lyrics-hamada-shogo-j-boy-1d7246a1.js",
       "_lyrics-higuchi-ryouichi-1-6-dream-traveller-8a38dd72.js",
@@ -135,7 +135,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-5da4726b.js",
+    "file": "pages/_slug_.svelte-abde1fb9.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -183,7 +183,7 @@
       "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-5398cbe8.js",
       "_ACG-theory-of-traveller-0cdfa0a9.js",
       "_ACG-thought-about-re-take-c2e8f0cd.js",
-      "_ACG-understanding-staff-of-anime-af3985ef.js",
+      "_ACG-understanding-staff-of-anime-35f15e4f.js",
       "_ACG-what-does-wall-of-meisaku-mean-6a3bf08e.js",
       "_ACG-what-is-games-done-quick-71d33791.js",
       "_ACG-why-you-should-not-use-interpolation-on-anime-dd82dffc.js",
@@ -195,10 +195,10 @@
       "_capitalist-realism-mark-fisher-ec6e43c0.js",
       "_how-do-you-like-wendesday-47cfb685.js",
       "_how-to-check-font-family-name-in-computer-e44f1bba.js",
-      "_login-with-discord-4c7ed035.js",
+      "_login-with-discord-712bffb6.js",
       "_lyrics-bump-of-chicken-lostman-9dfd3b4f.js",
       "_lyrics-buzy-venus-say-873bbb51.js",
-      "_lyrics-gift-from-you-8ec09637.js",
+      "_lyrics-gift-from-you-e7f1b4ad.js",
       "_lyrics-good-night-world-bbf1fe3d.js",
       "_lyrics-hamada-shogo-j-boy-1d7246a1.js",
       "_lyrics-higuchi-ryouichi-1-6-dream-traveller-8a38dd72.js",
@@ -250,7 +250,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-d52c5c98.js",
+    "file": "pages/index.svelte-b606fde1.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -298,7 +298,7 @@
       "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-5398cbe8.js",
       "_ACG-theory-of-traveller-0cdfa0a9.js",
       "_ACG-thought-about-re-take-c2e8f0cd.js",
-      "_ACG-understanding-staff-of-anime-af3985ef.js",
+      "_ACG-understanding-staff-of-anime-35f15e4f.js",
       "_ACG-what-does-wall-of-meisaku-mean-6a3bf08e.js",
       "_ACG-what-is-games-done-quick-71d33791.js",
       "_ACG-why-you-should-not-use-interpolation-on-anime-dd82dffc.js",
@@ -310,10 +310,10 @@
       "_capitalist-realism-mark-fisher-ec6e43c0.js",
       "_how-do-you-like-wendesday-47cfb685.js",
       "_how-to-check-font-family-name-in-computer-e44f1bba.js",
-      "_login-with-discord-4c7ed035.js",
+      "_login-with-discord-712bffb6.js",
       "_lyrics-bump-of-chicken-lostman-9dfd3b4f.js",
       "_lyrics-buzy-venus-say-873bbb51.js",
-      "_lyrics-gift-from-you-8ec09637.js",
+      "_lyrics-gift-from-you-e7f1b4ad.js",
       "_lyrics-good-night-world-bbf1fe3d.js",
       "_lyrics-hamada-shogo-j-boy-1d7246a1.js",
       "_lyrics-higuchi-ryouichi-1-6-dream-traveller-8a38dd72.js",
@@ -788,13 +788,13 @@
     ]
   },
   "src/routes/posts/ACG-understanding-staff-of-anime.md": {
-    "file": "pages/posts/ACG-understanding-staff-of-anime.md-578099b6.js",
+    "file": "pages/posts/ACG-understanding-staff-of-anime.md-f8fc1175.js",
     "src": "src/routes/posts/ACG-understanding-staff-of-anime.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-24334240.js",
-      "_ACG-understanding-staff-of-anime-af3985ef.js"
+      "_ACG-understanding-staff-of-anime-35f15e4f.js"
     ]
   },
   "src/routes/posts/ACG-what-does-wall-of-meisaku-mean.md": {
@@ -908,13 +908,13 @@
     ]
   },
   "src/routes/posts/login-with-discord.md": {
-    "file": "pages/posts/login-with-discord.md-3f0ea693.js",
+    "file": "pages/posts/login-with-discord.md-ea38d95b.js",
     "src": "src/routes/posts/login-with-discord.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-24334240.js",
-      "_login-with-discord-4c7ed035.js"
+      "_login-with-discord-712bffb6.js"
     ]
   },
   "src/routes/posts/lyrics-bump-of-chicken-lostman.md": {
@@ -938,13 +938,13 @@
     ]
   },
   "src/routes/posts/lyrics-gift-from-you.md": {
-    "file": "pages/posts/lyrics-gift-from-you.md-6977721e.js",
+    "file": "pages/posts/lyrics-gift-from-you.md-177b8ea6.js",
     "src": "src/routes/posts/lyrics-gift-from-you.md",
     "isEntry": true,
     "imports": [
       "_index-946c5d3a.js",
       "__post-24334240.js",
-      "_lyrics-gift-from-you-8ec09637.js"
+      "_lyrics-gift-from-you-e7f1b4ad.js"
     ]
   },
   "src/routes/posts/lyrics-good-night-world.md": {
@@ -1652,8 +1652,8 @@
       "__post-24334240.js"
     ]
   },
-  "_ACG-understanding-staff-of-anime-af3985ef.js": {
-    "file": "chunks/ACG-understanding-staff-of-anime-af3985ef.js",
+  "_ACG-understanding-staff-of-anime-35f15e4f.js": {
+    "file": "chunks/ACG-understanding-staff-of-anime-35f15e4f.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
@@ -1748,8 +1748,8 @@
       "__post-24334240.js"
     ]
   },
-  "_login-with-discord-4c7ed035.js": {
-    "file": "chunks/login-with-discord-4c7ed035.js",
+  "_login-with-discord-712bffb6.js": {
+    "file": "chunks/login-with-discord-712bffb6.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
@@ -1775,8 +1775,8 @@
       "__post-24334240.js"
     ]
   },
-  "_lyrics-gift-from-you-8ec09637.js": {
-    "file": "chunks/lyrics-gift-from-you-8ec09637.js",
+  "_lyrics-gift-from-you-e7f1b4ad.js": {
+    "file": "chunks/lyrics-gift-from-you-e7f1b4ad.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-946c5d3a.js",
@@ -1999,7 +1999,7 @@
       "__post-24334240.js"
     ],
     "css": [
-      "assets/tool-list-creativity-74747bfb.css"
+      "assets/tool-list-system-90e7347a.css"
     ]
   },
   "_tool-list-gaming-78ab98c1.js": {
@@ -2010,7 +2010,7 @@
       "__post-24334240.js"
     ],
     "css": [
-      "assets/tool-list-creativity-74747bfb.css"
+      "assets/tool-list-system-90e7347a.css"
     ]
   },
   "_tool-list-system-edfd28ef.js": {
@@ -2021,7 +2021,7 @@
       "__post-24334240.js"
     ],
     "css": [
-      "assets/tool-list-creativity-74747bfb.css"
+      "assets/tool-list-system-90e7347a.css"
     ]
   },
   "_tool-list-website-e2920606.js": {
