@@ -1,2 +1,7 @@
+# Internet Archive
 User-agent: ia_archiver
+Disallow: /
+
+# Megalodonblock
+User-agent: Megalodon
 Disallow: /
