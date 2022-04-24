@@ -85,15 +85,14 @@ tags: ACG, Anime, Translate
 
 動畫業界應該要有這樣的危機感。
 
+- [■ 後編｢日本が直面する巨大アニメ市場『中国』の脅威 — — ｢けもフレ｣福原 P インタビュー｣に続く](https://www.businessinsider.jp/post-164253)
+
 ---
 
 ## 補充參考：
 
-- [■ 後編｢日本が直面する巨大アニメ市場『中国』の脅威 — — ｢けもフレ｣福原 P インタビュー｣に続く](https://www.businessinsider.jp/post-164253)
 - [「諸悪の根源は製作委員会」ってホント？ アニメ制作における委員会の役割を制作会社と日本動画協会に聞いた (1/3)](https://nlab.itmedia.co.jp/nl/articles/1706/18/news001.html)
-- [テレビアニメ制作 製作委員会方式 図解 広告収入方式 お金の流れ](https://dogadata.com/515)
 - [著作者にはどんな権利がある？](https://www.cric.or.jp/qa/hajime/hajime2.html)
-- [図解入門業界研究最新ｱﾆﾒ業界の動向とｶﾗｸﾘがよ〜くわかる本[第 2 版] — 谷口功, 麻生はじめ — Google 圖書](https://books.google.com.tw/books?id=28c9DwAAQBAJ&pg=PA144&lpg=PA144&dq=%E5%88%B6%E4%BD%9C%E5%A7%94%E5%93%A1%E4%BC%9A+%E6%AF%94%E7%8E%87&source=bl&ots=8emrD9m7Aw&sig=ACfU3U1BxI4VMnSfqDJ0bh1fYeGnW5MBJw&hl=zh-TW&sa=X&ved=2ahUKEwjGxevc2vnpAhVvy4sBHYiiB-4Q6AEwBXoECAoQAQ#v=onepage&q&f=false)
+- [図解入門業界研究最新ｱﾆﾒ業界の動向とｶﾗｸﾘがよ〜くわかる本[第 2 版] — 谷口功, 麻生はじめ](https://books.google.com.tw/books?id=28c9DwAAQBAJ&pg=PA144&lpg=PA144&dq=%E5%88%B6%E4%BD%9C%E5%A7%94%E5%93%A1%E4%BC%9A+%E6%AF%94%E7%8E%87&source=bl&ots=8emrD9m7Aw&sig=ACfU3U1BxI4VMnSfqDJ0bh1fYeGnW5MBJw&hl=zh-TW&sa=X&ved=2ahUKEwjGxevc2vnpAhVvy4sBHYiiB-4Q6AEwBXoECAoQAQ#v=onepage&q&f=false)
 - [Synapse 編集部が行く！日本アニメの現状 Vol.1 「製作委員会方式の成り立ちから、ネット配信まで」](https://synapse-magazine.jp/television/2019anime01/)
 - [ネットフリックスが｢アニメ｣を重視する理由](https://toyokeizai.net/articles/-/347660)
-- [うずらインフォ](https://uzurainfo.han-be.com/index.html)
