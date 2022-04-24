@@ -136,10 +136,14 @@ tags: Comic
 ## 個人部落格
 
 - [作品別独り言](http://shira-yawa.sakura.ne.jp/sakuhinbetu.html)
+  - 由「白拍子 y」撰寫的漫畫讀後心得
 - 2006-07-31 [ナツコミ－オススメの１００冊－](http://orangestar.littlestar.jp/100comic.html)
+  - 其中一份參加「ナツの漫画１００冊」的書單
 - 2006-08-24 [マンガナツ 100 　結果発表 20 位～ 1 位](http://d.hatena.ne.jp/dangerous1192/20060824)
+  - 由「酔拳の王　だんげの方」舉辦的企畫「ナツの漫画１００冊」（漫畫百選）票選結果
 - 2008-08-12 [Blog のタイトル:2008 年版 ナツ 100(確定) - livedoor Blog（ブログ）](http://blog.livedoor.jp/sabamiso_es/archives/51359391.html)
 - 2010-08-23 [全１巻オススメ漫画１００選　良いコミック](https://yoicomic.blog.fc2.com/blog-entry-185.html)
+  - 單冊漫畫的推薦書單
 - 2011-08-22 [漫画ナツ 100 に、久し振りに参加してみる - マンガ LOG 収蔵庫](https://m-kikuchi.hatenablog.com/entry/20110822/1314013093)
 - 2015-02-13 [このマンガで語り合いたい！私が読んだマンガ・おすすめ 55 選。 - ネットタイガー](https://web.archive.org/web/20150213130034/http://nbnl.hatenablog.jp/entry/2015/02/13/211923)
 - 2015-12-31 [2015 年、漫画ベスト 50 - From The Inside](https://minesweeper96.hatenablog.com/entry/2015/12/31/180519)

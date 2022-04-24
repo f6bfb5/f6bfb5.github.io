@@ -418,3 +418,6 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [「月曜日のたわわ」を人々はどう見るか/田中辰雄 - SYNODOS](https://synodos.jp/opinion/society/27932/)
 - [これはまだ、私が処女だった頃の話ーマンガ『一度寝ただけの女になりたくなかった』→「私に足りない物はこれだ」](https://togetter.com/li/1875545)
 - [最終話「比類なき才能の証明」](https://www.nicovideo.jp/watch/sm40345012)
+- [さくらの詩 - 早志ねま](https://shonenjumpplus.com/episode/3269754496885813688)
+- [90 年代の鬱屈とした曲教えて](https://anond.hatelabo.jp/20220423173601)
+- [漢字與英文、數字的間距怎麼處理？ - Bobby Tung](https://bobtung.medium.com/%E6%BC%A2%E5%AD%97%E8%88%87%E8%8B%B1%E6%96%87-%E6%95%B8%E5%AD%97%E7%9A%84%E9%96%93%E8%B7%9D%E6%80%8E%E9%BA%BC%E8%99%95%E7%90%86-cd3c7144cd8a)
