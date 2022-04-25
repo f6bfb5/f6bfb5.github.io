@@ -9,8 +9,11 @@ tags: Translate
 <p class="q-text qu-display--block">そう、つまらないですね。平日は働いて、家に帰って寝るまでの僅かな時間はネットをしたりYoutubeを観たり。土日は昼まで眠って、運動不足解消のためランニングして、ご褒美にちょっと買い物。あとはこれの繰り返し。</p> <p class="q-text qu-display--block">安定はしているけれど、つまらない。決して不幸ではないけれど、だからといって満足しているわけではない。</p> <p class="q-text qu-display--block">「普通の日々を送れることが幸せだ」なんて人は言うけれど、自分はそうは思わない。なのに、この状況を変えようとは思わない。</p> <p class="q-text qu-display--block">それは、結局そこに居心地の良さを感じてしまっているからだと思います。居心地の良さと人生のつまらなさは両立します。なぜなら、楽だから。何も起こらないつまらない人生は、色んな刺激にいちいち反応しなくても済むから、楽。</p> <p class="q-text qu-display--block">あなたはその理性と合理的思考をもって、今の居心地の良い人生を作り上げたのです。合理性を突き詰めれば、人生はただ食って寝るだけの人生に辿り着きます。それだけが生きるために必要なことだから。</p> <p class="q-text qu-display--block">だからあなたが捨てるべきものは理性と合理的思考です。代わりに狂気を手に入れるのです。合理的に考えたら到底受け入れられないことをし続けるのです。人生は何をしたっていいし、どこへ向かってもいいんです。親も上司も同僚も、みんな他人です。狂気をもって、今までの合理的で正しい人生を破壊するのです。</p> <p class="q-text qu-display--block">そんなことをしているうちに、もしかしたら元のつまらない人生に戻りたくなるかも知れませんね。結局あなたは、つまらない人生に安住する凡人だったってことです。そうしてまた人生に絶望するでしょう。でもそれも人生です。</p>
 <footer><cite> <a href="https://jp.quora.com/naze-jinsei-ha-konnanimo-tsumaranai-no-desu-ka">https://jp.quora.com/naze-jinsei-ha-konnanimo-tsumaranai-no-desu-ka</a></cite></footer>
 </blockquote>
+
 <svelte:head>
+
 <script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
+
 </svelte:head>
 
 沒錯，非常無聊。平日上班工作，回家後用所剩不多的時間上網、看 YouTube。周末睡到中午，因為運動不足去慢跑，獎勵自己買些小東西。之後就是重複這樣的日子。
