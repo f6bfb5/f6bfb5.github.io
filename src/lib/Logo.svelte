@@ -13,6 +13,12 @@
     "https://www.nicovideo.jp/watch/sm24304243",
     // ヤッタモン勝ちなんや
     "https://www.nicovideo.jp/watch/sm24550780",
+    // 『リズと青い鳥』メイキング
+    "https://www.youtube.com/watch?v=Pfo4kTK-sws&list=PLTNhweghpLi2U9Liu1wszAR7nlJAUFv-M",
+    // 'The End of Evangelion' and Stan Brakhage
+    "https://medium.com/@EstherRosenfield/the-end-of-evangelion-and-stan-brakhage-e57fb668181f",
+    // The Illusion of Peace in Mamoru Oshii's Patlabor 2
+    "https://youtu.be/ybLKmO5Kq5A",
     // ----------------------------------------
     // Music
     // ----------------------------------------
