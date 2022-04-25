@@ -76,6 +76,8 @@
     }
     return result;
   }
+
+  import Marquee from "$lib/Marquee.svelte";
 </script>
 
 <svelte:head>
@@ -98,6 +100,7 @@
 </svelte:head>
 
 <div class="container">
+  <Marquee />
   <h1>Articles</h1>
   <!-- TAG FILTER -->
   <TagsFilter {allPostsTags} />
