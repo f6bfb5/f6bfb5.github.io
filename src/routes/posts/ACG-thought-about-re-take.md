@@ -2,7 +2,7 @@
 title: "關於 RE-TAKE 的小思考"
 date: 2019-02-13T07:16:58.000Z
 summary: "我想，這可以說是進行二次創作的人，所會擁有的，願望、希望、祈禱一類的東西吧。"
-tags: ACG, Anime, Evangelion, Translate
+tags: ACG, Anime, Translate
 ---
 
 文章來源：[RE-TAKE についてちょっと考えた](http://d.hatena.ne.jp/LASism/20060814)

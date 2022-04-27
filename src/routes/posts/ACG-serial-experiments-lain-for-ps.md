@@ -19,7 +19,11 @@ tags: ACG, Anime, Game
 
 <iframe src="https://www.youtube.com/embed/KZONR1BFZ3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-《Lain》以 1998 年當時的日本為舞台基底，描寫網路極為先進的世界下，當技術的發達造成現實與虛擬間的界線變得模糊，要如何去面對存在的意義或記憶的認同改變。除了類似《攻殼機動隊》的 cyberpunk 要素外，亦有許多如 geek 與地下文化、心理學、精神疾病、陰謀論與偽科學等等，在當時的商業作品仍難以碰觸的元素，是如其名「experiments」的實驗性極強的作品。<span class="hide">雖然看似複雜難懂，但其實就是青春期都會經歷過的胡思亂想，或平常沒事會在網路上看到的東西再進一步深掘。只是這樣說破就不有趣了(X</span>
+<p title="雖然看似複雜難懂，但其實就是青春期都會經歷過的胡思亂想，
+或平常沒事會在網路上看到的東西，再做進一步深掘。
+只是這樣說破就不有趣了(X">
+《Lain》以 1998 年當時的日本為舞台基底，描寫網路極為先進的世界下，當技術的發達造成現實與虛擬間的界線變得模糊，要如何去面對存在的意義或記憶的認同改變。除了類似《攻殼機動隊》的 cyberpunk 要素外，亦有許多如 geek 與地下文化、心理學、精神疾病、陰謀論與偽科學等等，在當時的商業作品仍難以碰觸的元素，是如其名「experiments」的實驗性極強的作品。
+</p>
 
 > 故事以玲音的同學四方田千砂的自殺開始。在她自殺後，玲音的同學陸續收到千砂的電子郵件，同學普遍認為這是惡作劇。但玲音並不相信並決定自己調查。她使用個人電腦（或稱「navi」，以 Knowledge Navigator 概念命名），並收到千砂的電子郵件。千砂在其中說她拋棄肉體，生活在「連線」中。玲音因此開始探索「連線」。而後她通過一系列事件逐漸領悟到，她自己是一個無所不在全知全能的存在。
 >

@@ -73,3 +73,6 @@ tags: Toolbox
 - [WarBirds](http://www.warbirds.jp/index1.html)
 - [かんたん暗記](https://www.8toch.net/hachiben/anki.cgi)
 - [日本文学ガイド](https://koten.sk46.com/index.html)
+- [e-typing ローマ字タイピング](https://www.e-typing.ne.jp/roma/check/)
+- [ネットワーク対戦タイピング Weather Typing](https://denasu.com/software/weathertyping.html)
+- [Dr 林のこころと脳の相談室](http://kokoro.squares.net/)

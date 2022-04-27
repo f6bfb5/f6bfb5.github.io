@@ -2,7 +2,7 @@
 title: "庵野秀明真的不知道自己在拍什麼嗎？"
 date: 2020-09-06T21:42:04.000Z
 summary: "或說，在暴風圈中心的人們是怎麼想的。"
-tags: ACG, Anime, Evangelion
+tags: ACG, Anime
 ---
 
 或說，在暴風圈中心的人們是怎麼想的。

@@ -10,7 +10,7 @@ summary: "2014 年 5 月，遊戲圈出現了一支使用輔助程式，在「�
 2014 年 5 月，遊戲圈出現了一支使用輔助程式，在**半分鐘內**通關《洛克人 1》的破天荒影片，而這種需要經過精密的機制解析，與流程操控的遊戲通關方式，僅隔一個月竟然出現人力操作達成同樣的成果，人類無極限！本文會對其所使用的機制與流程進行解說。
 
 <iframe title="【TAS】 ロックマン 1 in 00:32.11 【任意コード実行】" width="560" height="315" src="https://www.youtube.com/embed/u5qom2q7cUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-△【TAS】 ロックマン 1 in 00:32.11 【任意コード実行】
+<p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△【TAS】 ロックマン 1 in 00:32.11 【任意コード実行】</p>
 
 ## TAS 與 ACE
 
@@ -27,7 +27,7 @@ summary: "2014 年 5 月，遊戲圈出現了一支使用輔助程式，在「�
 
 [![img01](https://i.imgur.com/FZkBQwv.gif)](https://i.imgur.com/FZkBQwv.gif)
 
-△ 「`0xFF`」物件出現於畫面不可視之處
+<p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△ 「0xFF」物件出現於畫面不可視之處</p>
 
 這個物件會讓影像處理單位（PPU, Picture Processing Unit）進行 Pattern Table Remap。推測是用於重新建構畫面用的物件。
 
@@ -41,7 +41,7 @@ summary: "2014 年 5 月，遊戲圈出現了一支使用輔助程式，在「�
 
 [![img02](https://i.imgur.com/pwkEkYJ.gif)](https://i.imgur.com/pwkEkYJ.gif)
 
-△ 異常出現的 Electric Man
+<p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△ 異常出現的 Electric Man</p>
 
 而 jump 目標詳細來說，系統會從 `$AA3B` + 2×（物件編號）取得 [AI 位置](http://www.yuko2ch.net/rockman/JumpAddressList.txt)，故物件編號為 `0x15` 時，目標位置會是 `$AA3B` + 2×0x15 = `$AA65` 裡所儲存的值，因此跳至儲存的「`B23C`」執行 AI。
 
@@ -49,17 +49,19 @@ summary: "2014 年 5 月，遊戲圈出現了一支使用輔助程式，在「�
 
 套用計算法，`$AA3B` + 2×0x55 = `$AAE5`，裡頭儲存的 AI 位置為「`$600`」，搭配下列操作調整相關資料：
 
-| 位置 | 數值     | 行為                                                           | 如何調整                                                                                                                                                                    |
-| ---- | -------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 0600 | 54 F8    | NOP F8,X（什麼都不做，往下執行 ）                              | 移動洛克人的 Y 座標 =54                                                                                                                                                     |
-| 0602 | 50 4D    | BVC `$0651`（jump 至 `$651`）                                  | 調整 rock buster 第 1 發和第 2 發的 Y 座標 =50, 4D                                                                                                                          |
-| 0650 | 3C       | UNDEFINED（這裡不會執行）                                      | delay FF 出現物件 3 的 ObjectFireDelay=3C                                                                                                                                   |
-| 0651 | AD 22 1F | LDA `$1F22`=#`$0A`（讀取 0x0A 裡的 `$1F22` 並儲存至 A 暫存器） | 擊倒普通的敵人掉落道具的 ObjectFireDelay=AD,22<br>delay FF 出現的物件 1 的 ObjectFireDelay=1F                                                                               |
-| 0654 | 6C 18 00 | JMP (`$0018`)=`$C460`（`$C460`: jump 至通關處理的途中）        | 擊倒普通的敵人掉落道具的 ObjectFireDelay=6C,18<br>delay FF 出現的物件 55 的 ObjectFireDelay=00<br>`$0018` 的數値由操作控制器 1 的「左下」+ 控制器 2 的「左右 Select」=60,C4 |
+| 位置 | 數值     | 行為                                                                | 如何調整                                                                                                                                                                    |
+| ---- | -------- | ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0600 | 54 F8    | NOP F8,X（什麼都不做，往下執行 ）                                   | 移動洛克人的 Y 座標 =54                                                                                                                                                     |
+| 0602 | 50 4D    | BVC `$0651`（jump 至 `$651`）                                       | 調整 rock buster 第 1 發和第 2 發的 Y 座標 =50, 4D                                                                                                                          |
+| 0650 | 3C       | UNDEFINED（這裡不會執行）                                           | delay FF 出現物件 3 的 ObjectFireDelay=3C                                                                                                                                   |
+| 0651 | AD 22 1F | LDA `$1F22`=#`$0A`<br/>（讀取 0x0A 裡的 `$1F22` 並儲存至 A 暫存器） | 擊倒普通的敵人掉落道具的 ObjectFireDelay=AD,22<br>delay FF 出現的物件 1 的 ObjectFireDelay=1F                                                                               |
+| 0654 | 6C 18 00 | JMP (`$0018`)=`$C460`<br/>（`$C460`: jump 至通關處理的途中）        | 擊倒普通的敵人掉落道具的 ObjectFireDelay=6C,18<br>delay FF 出現的物件 55 的 ObjectFireDelay=00<br>`$0018` 的數値由操作控制器 1 的「左下」+ 控制器 2 的「左右 Select」=60,C4 |
 
-C45E: A9 00 lda #$00<br>
-C460: 85 31 sta $31(CurrentStage)　 ← 遊戲程式會 jump 至這裡並進行中斷處理<br>
+```
+C45E: A9 00 lda #$00
+C460: 85 31 sta $31(CurrentStage)　 ← 遊戲程式會 jump 至這裡並進行中斷處理
 C462: 4C 0C C1 jmp $C10C
+```
 
 進入遊戲 ending。
 
@@ -86,7 +88,7 @@ C462: 4C 0C C1 jmp $C10C
 
 [![img05](https://i.imgur.com/xO6xO8i.gif)](https://i.imgur.com/xO6xO8i.gif)
 
-△ 本次 RTA 的關鍵地點
+<p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△ 本次 RTA 的關鍵地點</p>
 
 在氣力人關卡的圖片位置三處，進行 DoubleObjectFFGlitch（在圖片的位置左右移動）就會將 `$17`（控制器 2）做為下一個讀取的物件編號，因此可由控制器 2 的數值決定物件 00 ～ FF 的出現。
 
@@ -97,8 +99,7 @@ C462: 4C 0C C1 jmp $C10C
 ## 人力 RTA
 
 <iframe title="【RTA】ロックマン in3:53【2014-06-21】" width="560" height="315" src="https://www.youtube.com/embed/SoUd69Xs9gg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-△【RTA】ロックマン in3:53【2014-06-21】
+<p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△【RTA】ロックマン in3:53【2014-06-21】</p>
 
 ### 目標
 
@@ -123,7 +124,10 @@ C462: 4C 0C C1 jmp $C10C
 
 1. 在 Electric Man 的關卡裡，於梯子上進行射擊的動作，**僅按下 1 frame** 下鍵，會變為半抓住梯子的樣子，<br>
    [![img06](https://i.imgur.com/5srrun8.jpg)](https://i.imgur.com/5srrun8.jpg)<br>
-   洛克人朝左的狀況下，按下上鍵，會變為頭卡在天花板的穿牆狀態，按下跳躍鍵，跳到最高處後，按下右鍵，會穿越至磁力條的右方，這個狀態下按左鍵，會由於子畫素（subpixel）的關係，有 1/8 的機率可以拿到磁力條，再按下一次跳躍鍵，就會回到穿牆狀態。
+   洛克人朝左的狀況下，按下上鍵，會變為頭卡在天花板的穿牆狀態，<br>
+   按下跳躍鍵，跳到最高處後，按下右鍵，會穿越至磁力條的右方，<br>
+   這個狀態下按左鍵，會由於<ruby>子像素<rp>(</rp><rt>subpixel</rt><rp>)</rp></ruby>的關係，有 1/8 機率可以拿到磁力條，<br>
+   再按下一次跳躍鍵，就會回到穿牆狀態。
 2. 進入 Guts Man 關卡
 3. 在關卡開頭等待第二隻小矮兵的 3 連攻擊，在下圖的位置等待至第 3 發中央的子彈消失於畫面外後， `$49B` 的值會變為 C4 。<br>
    [![img07](https://i.imgur.com/EhAhmrY.jpg)](https://i.imgur.com/EhAhmrY.jpg)
@@ -133,9 +137,12 @@ C462: 4C 0C C1 jmp $C10C
 5. 在畫面內有 1 隻小矮兵的狀態下，在下圖位置等待 2 連攻擊的第 2 發中央子彈消失於畫面外後， `$499` 的值會變為 20。<br>
    這裡同樣若是遇到 3 連攻擊，在這之前的調整會因此偏掉。<br>
    [![img09](https://i.imgur.com/O046zDW.jpg)](https://i.imgur.com/O046zDW.jpg)<br>
-   這裡小矮兵的攻擊間隔是由亂數決定，若是運氣不好，會有可能為了 3 連攻擊或 2 連攻擊，要等上數十秒。<br>
+   這裡小矮兵的攻擊間隔是由亂數決定，若是運氣不好，<br>
+   會有可能為了 3 連攻擊或 2 連攻擊，要等上數十秒。<br>
    若是途中失敗可從 `$49B` 重新開始調整。
-6. 接下來要調整 `$498`，移動至斷崖的另一邊後，擊敗 3 隻敵人**並使畫面上顯示 3 個道具**後，在下圖的位置受到傷害，會使 `$498` 的值變為 4A 。<br>
+6. 接下來要調整 `$498`，移動至斷崖的另一邊後，<br>
+   擊敗 3 隻敵人**並使畫面上顯示 3 個道具**後，<br>
+   在下圖的位置受到傷害，會使 `$498` 的值變為 4A 。<br>
    若是失敗仍可在血量允許的情況下持續調整。<br>
    [![img10](https://i.imgur.com/uFBy8hb.jpg)](https://i.imgur.com/uFBy8hb.jpg)
 7. 接下來是 `$482`～`$484` 的調整，在下圖的位置向右連射 3 發 buster ，在第 3 發子彈消失於畫面外後，`$484` 的值會變為 13。<br>
