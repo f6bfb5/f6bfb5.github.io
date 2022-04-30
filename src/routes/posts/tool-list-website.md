@@ -76,3 +76,4 @@ tags: Toolbox
 - [e-typing ローマ字タイピング](https://www.e-typing.ne.jp/roma/check/)
 - [ネットワーク対戦タイピング Weather Typing](https://denasu.com/software/weathertyping.html)
 - [Dr 林のこころと脳の相談室](http://kokoro.squares.net/)
+- [Sci-pursuit](https://sci-pursuit.com/)

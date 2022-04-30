@@ -437,5 +437,12 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [左ききのエレン NFT 漫画事件簿【NFT アートの正しい理解に向けて】](https://note.com/nemchan_nel/n/nb52c49e60920)
 - [『Tell Your World』の歌詞を kz 本人が解説「初音ミクが居るからこそ"クリエイター"が主役になれるという想いで作った」【ボカロ P：kz インタビュー】](https://originalnews.nico/363687)
 - [高知と宇宙はそんなに違わない。 - 斎藤キミオ](https://www.sunday-webry.com/episode/3269754496846181377)
+- [桜井政博氏が語る、初代『星のカービィ』開発秘話。当時の企画書に、あのゲームの原点があった？](https://www.famitsu.com/news/201705/17132636.html)
+- [トレパク冤罪をふっかけられた話](https://note.com/abunaipeke/n/nbfeb91624408)
+- [『ウマ娘』ゲーム内映像のコンテづくり | Cygames Magazine（サイマガ）](https://magazine.cygames.co.jp/archives/21652)
+- [全部の日記 - 田子創太](https://shonenjumpplus.com/episode/3269754496895767333)
+- [庵野秀明が『紫綬褒章』を受章致しました](https://www.khara.co.jp/2022/04/28/0428/)
+- [ローグライクとローグライトの違いはなんなのか？Steam 上で Valve が自ら説明 - AUTOMATON](https://automaton-media.com/articles/newsjp/20220429-200983/)
+- [東映アニメーションへの不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2022/04/30/010606)
 
 ## 5 月
