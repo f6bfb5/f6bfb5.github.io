@@ -5,16 +5,6 @@ summary: "《Serial Experiments Lain》是於 1998 年發表，同時跨足動�
 tags: ACG, Anime, Game
 ---
 
-<style>
-  .hide {
-    background-color: var(--title-color);
-    color: var(--title-color);
-  }
-  .hide:hover {
-    color: var(--subtitle-color);
-  }
-</style>
-
 《Serial Experiments Lain》（下稱《Lain》）是於 1998 年發表，同時跨足動畫、遊戲與雜誌連載的跨媒體系列作品。然而各作品僅有主角與主題相同，其餘則為不同內容的平行作品。遊戲版（《Serial Experiments Lain for PS》，下稱《Lain PS》）雖然是最早進行企劃的，但直至整個跨媒體展開的最後才發表。
 
 <iframe src="https://www.youtube.com/embed/KZONR1BFZ3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

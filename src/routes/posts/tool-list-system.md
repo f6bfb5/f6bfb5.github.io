@@ -51,7 +51,7 @@ table td:nth-child(3) {
 | CrystalDiskMark                                                                                                    |                                                                                | FREE     |
 | [RunCat](https://github.com/Kyome22/RunCat_for_windows)                                                            |                                                                                | FREE     |
 
-### 檔案
+## 檔案
 
 | 名稱                                                          | 說明                               | 付費 |
 | ------------------------------------------------------------- | ---------------------------------- | ---- |
@@ -323,15 +323,16 @@ outputfile.close()
 
 ### 資安
 
-| 名稱                                                     | 說明                   | 付費 |
-| -------------------------------------------------------- | ---------------------- | ---- |
-| [Sandboxie](https://github.com/sandboxie-plus/Sandboxie) | 可於沙盒環境下執行程式 | FREE |
-| [Anonymouse.org](http://anonymouse.org/anonwww.html)     | 匿名掛載網頁           | FREE |
-| [aguse.jp](https://www.aguse.jp/)                        | 掃描網址安全性         | FREE |
-| [VirusTotal](https://www.virustotal.com/zh-tw/)          | 掃描網址或檔案安全性   | FREE |
-| [Password Security info](https://passwordsecurity.info/) | 檢查密碼是否已遭外洩   | FREE |
-| [Have I Been Pwned](https://haveibeenpwned.com/)         | 檢查信箱是否已遭外洩   | FREE |
-| [Kiken URL List](http://gunkanmaki.jog.buttobi.net/)     | 危險網址內容解說       |      |
+| 名稱                                                     | 說明                             | 付費 |
+| -------------------------------------------------------- | -------------------------------- | ---- |
+| [Sandboxie](https://github.com/sandboxie-plus/Sandboxie) | 可於沙盒環境下執行程式           | FREE |
+| [Anonymouse.org](http://anonymouse.org/anonwww.html)     | 匿名掛載網頁                     | FREE |
+| [aguse.jp](https://www.aguse.jp/)                        | 掃描網址安全性                   | FREE |
+| [LessPass](https://www.lesspass.com/#/)                  | 從 Master 密碼產生高強度雜湊密碼 | FREE |
+| [VirusTotal](https://www.virustotal.com/zh-tw/)          | 掃描網址或檔案安全性             | FREE |
+| [Password Security info](https://passwordsecurity.info/) | 檢查密碼是否已遭外洩             | FREE |
+| [Have I Been Pwned](https://haveibeenpwned.com/)         | 檢查信箱是否已遭外洩             | FREE |
+| [Kiken URL List](http://gunkanmaki.jog.buttobi.net/)     | 危險網址內容解說                 |      |
 
 ### 留存資訊
 
