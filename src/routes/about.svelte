@@ -59,7 +59,7 @@
     /* background-image: url('https://i.imgur.com/pA9yPzD.jpg'); */
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 
     display: flex;
     justify-content: center;
@@ -74,6 +74,12 @@
 
     font-size: 40px;
     text-align: center;
+  }
+
+  @media screen and (max-width: 576px) {
+    .about--background-caption {
+      font-size: 28px;
+    }
   }
 
   /* .hide {
