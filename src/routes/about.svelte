@@ -33,7 +33,7 @@
   style="background-image: url('{backgroundImage}')"
 >
   <a
-    href="https://www.youtube.com/watch?v=8ftDjebw8aA"
+    href="https://www.youtube.com/watch?v=SM36ykdccsQ"
     class="about--background-caption vhs"
     target="_blank"
     data-text={text}
