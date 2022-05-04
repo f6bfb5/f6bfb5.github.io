@@ -153,6 +153,9 @@
     z-index: 0;
     overflow-x: clip;
     overflow-y: visible;
+    transform: perspective(0);
+    /* clip: auto; */
+    /* -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%) */
   }
   h1::after {
     content: attr(data-text);
