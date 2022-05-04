@@ -1,1 +1,0 @@
-import"../../chunks/index-1ddf5aaf.js";import"../../chunks/_post-c8628b6c.js";import{A as r,m as e}from"../../chunks/ACG-the-influences-of-naoko-yamada-89c7a31c.js";export{r as default,e as metadata};

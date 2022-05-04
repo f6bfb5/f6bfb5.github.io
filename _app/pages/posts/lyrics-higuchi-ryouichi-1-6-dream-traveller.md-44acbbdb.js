@@ -1,1 +1,0 @@
-import"../../chunks/index-1ddf5aaf.js";import"../../chunks/_post-c8628b6c.js";import{L as r,m as e}from"../../chunks/lyrics-higuchi-ryouichi-1-6-dream-traveller-ca68261c.js";export{r as default,e as metadata};

@@ -1,1 +1,0 @@
-import"../../chunks/index-1ddf5aaf.js";import"../../chunks/_post-c8628b6c.js";import{L as r,m as e}from"../../chunks/lyrics-sambomaster-people-call-it-passion-6cbd4121.js";export{r as default,e as metadata};
