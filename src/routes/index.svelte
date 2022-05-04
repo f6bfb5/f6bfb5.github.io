@@ -101,7 +101,7 @@
 
 <div class="container">
   <Marquee />
-  <h1>Articles</h1>
+  <h1 data-text="Articles">Articles</h1>
   <TagsFilter {allPostsTags} />
 
   <!-- ARTICLES -->
@@ -148,6 +148,29 @@
 <style scoped>
   h1 {
     margin-left: 16px;
+
+    position: relative;
+    z-index: 0;
+    overflow-x: clip;
+    overflow-y: visible;
+  }
+  h1::after {
+    content: attr(data-text);
+    font-size: 4em;
+    color: var(--bg-color);
+    text-shadow: -1px  1px 0 var(--subtitle-color),
+                  1px  1px 0 var(--subtitle-color),
+                  1px -1px 0 var(--subtitle-color),
+                 -1px -1px 0 var(--subtitle-color);
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(3%, -33%);
+    z-index: -1;
+
+    max-width: 720px;
+    white-space: nowrap;
   }
   .breakline {
     margin-left: 12px;
@@ -163,6 +186,9 @@
     margin-right: 1em;
     border: 1px solid var(--subtitle-color);
     box-shadow: 2px 2px 0 var(--subtext-color), 4px 4px 0 var(--title-color);
+
+    position: relative;
+    background-color: var(--bg-color);
   }
   .articles-list--container h2 {
     margin: 0;

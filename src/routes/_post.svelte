@@ -227,10 +227,6 @@
 
   .post--container {
     padding: 10px;
-    /* padding: 0 20px 20px 20px;
-    margin-top: 20px; */
-    /* border: 1px solid var(--subtitle-color);
-    box-shadow: 2px 2px 0 var(--subtext-color), 4px 4px 0 var(--title-color); */
   }
 
   .post--container :global(a) {
@@ -242,9 +238,4 @@
     border: 1px solid var(--subtitle-color);
     box-shadow: 2px 2px 0 var(--subtext-color), 4px 4px 0 var(--title-color);
   }
-
-  /* .post--content > :first-child {
-    margin-top: 1em;
-  } */
-
 </style>

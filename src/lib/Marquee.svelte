@@ -123,6 +123,8 @@
     display: flex;
     align-items: center;
 
+    z-index: 1;
+
     /* typography */
     font-size: 24px;
     line-height: 1.5;
