@@ -210,25 +210,58 @@ outputfile.close()
 
 | 名稱                                                             | 說明                       | 付費 |
 | ---------------------------------------------------------------- | -------------------------- | ---- |
+| [chrlauncher](https://www.henrypp.org/product/chrlauncher)       |                            |      |
+| ungoogled-chromium                                               |                            |      |
+| [icecat-win64](https://github.com/muslayev/icecat-win64)         |                            |      |
 | [PTTStar](https://www.ptt.cc/bbs/EZsoft/M.1546241396.A.D95.html) |                            | FREE |
 | [JaneXeno](http://janexeno.client.jp/janexenobeta.htm)           |                            | FREE |
 | [commenomi](http://air.fem.jp/commenomi/)                        | 可顯示流動式留言的透明視窗 | FREE |
 
 ### chrome 插件
 
-| 名稱                                                                                                                               | 說明                                                                                                                            |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| [Feedbro](https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa)                                      | RSS 訂閱插件。[ニコニコ動画](https://www.nicovideo.jp/rss)、[ライブドアブログ](https://help.blogpark.jp/archives/52366452.html) |
-| [終結內容農場](https://chrome.google.com/webstore/detail/content-farm-terminator/lcghoajegeldpfkfaejegfobkapnemjl)                 | 要是感到厭煩，放棄也是一種選擇啊。                                                                                              |
-| [DOM Distiller Reading Mode](https://chrome.google.com/webstore/detail/dom-distiller-reading-mod/oiembdaoobijmdmeobkalaehgifealpl) | 只擷取並顯示網站的主要部份文字內容                                                                                              |
-| [HeadingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi)                              | 快速顯示網站內容結構                                                                                                            |
-| [Neat URL](https://chrome.google.com/webstore/detail/neat-url/jchobbjgibcahbheicfocecmhocglkco)                                    | 移除網址上的多餘內容                                                                                                            |
-| [TabAttack](https://chrome.google.com/webstore/detail/tabattack/ginflokhdahakklidfjlogllkkhokidj)                                  | 轉換瀏覽頁面成為 markdown 格式                                                                                                  |
-| [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)                                        | 使用類似 Vim 編輯器的方式瀏覽網站                                                                                               |
+| 名稱                                                                                                               | 說明                               |
+| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
+| [Feedbro](https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa)                      | RSS 訂閱插件。                     |
+| [終結內容農場](https://chrome.google.com/webstore/detail/content-farm-terminator/lcghoajegeldpfkfaejegfobkapnemjl) | 要是感到厭煩，放棄也是一種選擇啊。 |
+| [HeadingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi)              | 快速顯示網站內容結構               |
+| [Neat URL](https://chrome.google.com/webstore/detail/neat-url/jchobbjgibcahbheicfocecmhocglkco)                    | 移除網址上的多餘內容               |
+| [TabAttack](https://chrome.google.com/webstore/detail/tabattack/ginflokhdahakklidfjlogllkkhokidj)                  | 轉換瀏覽頁面成為 markdown 格式     |
+| [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)                        | 使用類似 Vim 編輯器的方式瀏覽網站  |
 
-- [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) 是一套可以在瀏覽器上以類 vim 方式瀏覽網頁的 chrome 套件。
+- [Violentmonkey](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
+- [UI.Vision RPA](https://chrome.google.com/webstore/detail/uivision-rpa/gcbalfbdmfieckjlnblleoemohcganoc)
+- [無料でChrome・Firefoxの操作を自動化＆ファイルのアップロードやデスクトップの操作もできる「UI.Vision」 - GIGAZINE](https://gigazine.net/news/20220417-ui-vision/)
+- [DeepL翻訳（ベータ版）](https://chrome.google.com/webstore/detail/deepl-translate-beta-vers/cofdbpoegempjloogbagkncekinflcnj?hl=ja)
 
-#### 基礎操作
+#### Shopping
+
+- [Augmented Steam](https://chrome.google.com/webstore/detail/augmented-steam/dnhpnfgdlenaccegplpojghhmaamnnfp)
+- [Keepa - Amazon Price Tracker](https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo)
+- [Add to Buyee](https://chrome.google.com/webstore/detail/add-to-buyee/ocjpgibbldacmpedgjgmcdcikjeopnpb)
+
+#### YouTube Pack
+
+- [fiahfy/youtube-live-chat-flow](https://github.com/fiahfy/youtube-live-chat-flow)
+- [YouTubeLiveClock](https://chrome.google.com/webstore/detail/youtubeliveclock/chpodcedholiggcllnmmjlnghllddgmj)
+- [Unhook](https://chrome.google.com/webstore/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid)
+- [Volume Master](https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke)
+- [Open-as-Popup](https://chrome.google.com/webstore/detail/open-as-popup/ncppfjladdkdaemaghochfikpmghbcpc)
+
+#### Twitch Pack
+
+- Gumbo: Twitch Companion
+- FrankerFaceZ
+- TTV LOL
+
+#### NicoNico Pack
+
+#### Feedbro
+
+- [jp-locale](https://github.com/ktkr3d/feedbro-locale)
+- [ニコニコ動画](https://www.nicovideo.jp/rss)
+- [ライブドアブログ](https://help.blogpark.jp/archives/52366452.html)
+
+#### Vimium 基礎操作
 
 | 按鍵 | 功能                 |
 | ---- | -------------------- |

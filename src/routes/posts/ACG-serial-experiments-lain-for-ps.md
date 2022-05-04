@@ -19,7 +19,7 @@ tags: ACG, Anime, Game
 >
 > _動畫版劇情大綱 - [玲音 - 維基百科](https://zh.wikipedia.org/wiki/%E7%8E%B2%E9%9F%B3)_
 
-動畫版除了畫面上顯而易見的迷幻色彩、無機質的表現手法之外，在音響效果也下足了功夫，十分推薦觀看由 RCAnime 所製作的這片「Drama in Sound Mixing」，可說是「不直接透過角色的嘴巴講出說明台詞，而用其他元素進行表達」的典範之一。
+動畫版除了畫面上顯而易見的迷幻色彩、無機質的表現手法之外，在音響效果也下足了功夫，十分推薦觀看由 RCAnime 所製作的這片「Drama in Sound Mixing」，可說是「不直接透過角色的嘴巴講出說明台詞，而用其他元素進行表達」的範例作品。
 
 <iframe src="https://www.youtube.com/embed/zowb8QIWTOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
