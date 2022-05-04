@@ -27,7 +27,7 @@
     width: 100%;
     font-size: 1em;
     color: var(--text-color);
-    border-top: 1px solid var(--text-color);
+    /* border-top: 1px solid var(--text-color); */
 
     background-color: var(--bg-color);
 

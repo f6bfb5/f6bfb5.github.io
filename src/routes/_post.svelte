@@ -3,6 +3,7 @@
   export let date;
 
   import BackToTop from "$lib/BackToTop.svelte";
+  import BlinkAnchor from "$lib/BlinkAnchor.svelte";
 </script>
 
 <header>
@@ -18,7 +19,7 @@
       </span>
     {/each}
   </h1>
-  <p>
+  <p class="date">
     {new Date(date).toLocaleDateString(undefined, {
       year: "numeric",
       month: "short",
@@ -26,14 +27,15 @@
     })}
   </p>
 </header>
-<div class="container">
-  <article class="content">
+<div class="post--container">
+  <article class="post--content">
     <slot />
+    <BlinkAnchor />
   </article>
   <BackToTop />
 </div>
 
-<style>
+<style scoped>
   header {
     margin: 0 auto;
     max-width: 45em;
@@ -55,7 +57,7 @@
     }
   }
 
-  header p {
+  .date {
     padding: 0 20px;
     color: var(--subtitle-color);
     text-transform: uppercase;
@@ -223,11 +225,26 @@
     }
   }
 
-  .container {
-    padding: 20px;
+  .post--container {
+    padding: 10px;
+    /* padding: 0 20px 20px 20px;
+    margin-top: 20px; */
+    /* border: 1px solid var(--subtitle-color);
+    box-shadow: 2px 2px 0 var(--subtext-color), 4px 4px 0 var(--title-color); */
   }
 
-  .container :global(a) {
+  .post--container :global(a) {
     font-weight: bold;
   }
+
+  .post--content {
+    padding: 10px;
+    border: 1px solid var(--subtitle-color);
+    box-shadow: 2px 2px 0 var(--subtext-color), 4px 4px 0 var(--title-color);
+  }
+
+  /* .post--content > :first-child {
+    margin-top: 1em;
+  } */
+
 </style>

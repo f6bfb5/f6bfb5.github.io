@@ -102,7 +102,6 @@
 <div class="container">
   <Marquee />
   <h1>Articles</h1>
-  <!-- TAG FILTER -->
   <TagsFilter {allPostsTags} />
 
   <!-- ARTICLES -->
@@ -110,38 +109,38 @@
     {#if posts
       .filter((p) => arrayContainsAny(p.metadata.tags, $tagsSelected))
       .some((p) => new Date(p.metadata.date).getFullYear() === year)}
-      <h2>{year}</h2>
-      {#each posts
-        .filter((p) => arrayContainsAny(p.metadata.tags, $tagsSelected))
-        .filter((p) => new Date(p.metadata.date).getFullYear() === year)
-        .sort((a, b) => new Date(b.metadata.date) - new Date(a.metadata.date)) as { slugPage, metadata: { title, date, tags } }}
-        <ul>
-          <li>
-            <div>
-              <span>
-                {new Date(date).toLocaleDateString("en-US", {
-                  month: "2-digit",
-                }) +
-                  "/" +
-                  new Date(date).toLocaleDateString("en-US", {
-                    day: "2-digit",
-                  })}
-                <!-- {("0" + (new Date(date).getMonth() + 1)).slice(-2)}/{(
-                "0" + new Date(date).getDate()
-              ).slice(-2)} -->
-              </span>
-              <a href={`${base}/${slugPage}`} sveltekit:prefetch>{title}</a>
-            </div>
-            {#if tags}
-              <div>
-                {#each tags as tag}
-                  <Tag {tag} />
-                {/each}
+      <div class="articles-list--container">
+        <h2>{year}</h2>
+        <div class="breakline"></div>
+        <ul class="articles-list">
+          {#each posts
+            .filter((p) => arrayContainsAny(p.metadata.tags, $tagsSelected))
+            .filter((p) => new Date(p.metadata.date).getFullYear() === year)
+            .sort((a, b) => new Date(b.metadata.date) - new Date(a.metadata.date)) as { slugPage, metadata: { title, date, tags } }}
+            <li>
+              <div class="articles-list--link">
+                <span>
+                  {new Date(date).toLocaleDateString("en-US", {
+                    month: "2-digit",
+                  }) +
+                    "/" +
+                    new Date(date).toLocaleDateString("en-US", {
+                      day: "2-digit",
+                    })}
+                </span>
+                <a href={`${base}/${slugPage}`} sveltekit:prefetch>{title}</a>
               </div>
-            {/if}
-          </li>
+              {#if tags}
+                <div class="articles-list--tags">
+                  {#each tags as tag}
+                    <Tag {tag} />
+                  {/each}
+                </div>
+              {/if}
+            </li>
+          {/each}
         </ul>
-      {/each}
+      </div>
     {/if}
   {/each}
 </div>
@@ -150,13 +149,32 @@
   h1 {
     margin-left: 16px;
   }
+  .breakline {
+    margin-left: 12px;
+    margin-bottom: 6px;
+    width: 80%;
+    border-bottom: 1px solid var(--title-color);
+  }
+
   /* articles list */
-  ul {
+  .articles-list--container {
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    border: 1px solid var(--subtitle-color);
+    box-shadow: 2px 2px 0 var(--subtext-color), 4px 4px 0 var(--title-color);
+  }
+  .articles-list--container h2 {
     margin: 0;
-    padding: 0 1rem;
+  }
+  .articles-list {
+    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 6px;
     list-style-position: inside;
   }
-  ul li {
+  .articles-list li {
     list-style-type: "◼";
     color: var(--title-color);
 
@@ -164,7 +182,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  ul li::marker {
+  .articles-list li::marker {
     content: "◼";
     color: var(--title-color);
     display: inline-block;
@@ -172,34 +190,35 @@
   /* ul li + li {
     padding: 0.25em 0;
   } */
-  ul li div {
+  .articles-list--link,
+  .articles-list--tags {
     display: inline-block;
   }
-  ul li div:first-child {
+  .articles-list--link {
     margin-left: 8px;
   }
-  ul li div:first-child::before {
+  .articles-list--link::before {
     content: "◼";
     color: var(--title-color);
   }
-  ul li div:last-child {
+  .articles-list--tags {
     flex-shrink: 0;
   }
   @media (max-width: 720px) {
     ul li {
       min-width: 0;
     }
-    ul li div:first-child {
+    .articles-list--link {
       text-overflow: ellipsis;
       overflow-x: hidden;
       white-space: nowrap;
 
       display: list-item;
     }
-    ul li div:last-child {
+    .articles-list--tags {
       display: none;
     }
-    ul li div:first-child::before {
+    .articles-list--link::before {
       content: "";
     }
   }

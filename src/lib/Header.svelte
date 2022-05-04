@@ -5,17 +5,19 @@
 </script>
 
 <header>
-  <div class="row">
-    <Nav />
-    <Logo />
+  <div class="header-container">
+    <div class="row">
+      <Nav />
+      <Logo />
+    </div>
+    <ProgressBar />
   </div>
-  <ProgressBar />
 </header>
 
 <style>
   header {
     margin: 0 auto;
-    max-width: 720px;
+    /* max-width: 720px; */
     width: 100%;
 
     position: sticky;
@@ -23,6 +25,11 @@
     z-index: 10;
 
     background-color: var(--bg-color);
+  }
+
+  .header-container {
+    max-width: 720px;
+    margin: auto;
   }
   .row {
     display: flex;

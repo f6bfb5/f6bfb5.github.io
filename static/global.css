@@ -181,11 +181,15 @@ a:hover {
 
 p {
   margin: 0;
-  padding: 1em 0;
+  padding-bottom: 1em;
 }
 
-p + p {
-  padding-top: 0;
+* p:last-child {
+  padding-bottom: 0;
+}
+
+:not(p) + p {
+  padding-top: 1em;
 }
 
 p a {

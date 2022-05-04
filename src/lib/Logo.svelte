@@ -86,6 +86,10 @@
     "https://www.nicovideo.jp/watch/sm30344277",
     // blank vhs covers were kinda beautiful
     "https://www.youtube.com/watch?v=e9DfSCk-6Ko",
+    // 【手描きにじさんじ】灰に灯る火はブルー【黛灰1st_Storage】
+    "https://www.youtube.com/watch?v=oo5F2WVtLA8&t",
+    // 【#001】作画オタクVTuber、自己紹介します！
+    "https://www.youtube.com/watch?v=RqkAgWTZ98w",
   ];
 
   function getRandomEleFromArr(arr) {
