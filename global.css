@@ -60,24 +60,6 @@ h2 {
   padding: 6px;
   padding-left: 12px;
   color: var(--subtitle-color);
-  /* text-shadow: 
-  var(--subtext-color) 2px  0, 
-  var(--subtext-color) -2px 0, 
-  var(--subtext-color) 0    -2px, 
-  var(--subtext-color) 0    2px, 
-  var(--subtext-color) 2px  2px, 
-  var(--subtext-color) -2px 2px, 
-  var(--subtext-color) 2px  -2px, 
-  var(--subtext-color) -2px -2px, 
-  var(--subtext-color) 1px  2px, 
-  var(--subtext-color) -1px 2px, 
-  var(--subtext-color) 1px  -2px, 
-  var(--subtext-color) -1px -2px, 
-  var(--subtext-color) 2px  1px, 
-  var(--subtext-color) -2px 1px, 
-  var(--subtext-color) 2px  -1px, 
-  var(--subtext-color) -2px -1px, 
-  var(--text-color) 3px 3px 3px; */
   text-shadow: 
   var(--subtext-color) 2px  0px,
   var(--subtext-color) 1px  0px,
@@ -90,7 +72,6 @@ h2 {
   var(--subtext-color) 2px  3px,
   var(--subtext-color) 1px  3px,
   var(--subtext-color) 0px  3px;
-  /* var(--text-color) 3px 3px 3px; */
 }
 
 h3 {
@@ -104,7 +85,7 @@ h3 {
 h1 + p,
 h2 + p,
 h3 + p {
-  padding: 0.25em 0 1em 0;
+  padding-top: 0.25em;
 }
 
 h2 a {
@@ -184,11 +165,7 @@ p {
   padding-bottom: 1em;
 }
 
-* p:last-child {
-  padding-bottom: 0;
-}
-
-:not(p) + p {
+:not(p):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(hr) + p {
   padding-top: 1em;
 }
 
