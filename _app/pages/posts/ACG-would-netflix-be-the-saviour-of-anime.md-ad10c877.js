@@ -1,1 +1,0 @@
-import"../../chunks/index-1ddf5aaf.js";import"../../chunks/_post-bca10d4e.js";import{A as r,m as e}from"../../chunks/ACG-would-netflix-be-the-saviour-of-anime-ec7c8e38.js";export{r as default,e as metadata};

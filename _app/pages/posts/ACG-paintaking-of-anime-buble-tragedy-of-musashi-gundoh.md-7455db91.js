@@ -1,1 +1,0 @@
-import"../../chunks/index-1ddf5aaf.js";import"../../chunks/_post-bca10d4e.js";import{A as r,m as e}from"../../chunks/ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-f0de9075.js";export{r as default,e as metadata};
