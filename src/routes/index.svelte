@@ -111,7 +111,7 @@
       .some((p) => new Date(p.metadata.date).getFullYear() === year)}
       <div class="articles-list--container">
         <h2>{year}</h2>
-        <div class="breakline"></div>
+        <div class="breakline" />
         <ul class="articles-list">
           {#each posts
             .filter((p) => arrayContainsAny(p.metadata.tags, $tagsSelected))
@@ -151,20 +151,14 @@
 
     position: relative;
     z-index: 0;
-    overflow-x: clip;
-    overflow-y: visible;
-    transform: perspective(0);
-    /* clip: auto; */
-    /* -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%) */
   }
   h1::after {
     content: attr(data-text);
     font-size: 4em;
     color: var(--bg-color);
-    text-shadow: -1px  1px 0 var(--subtitle-color),
-                  1px  1px 0 var(--subtitle-color),
-                  1px -1px 0 var(--subtitle-color),
-                 -1px -1px 0 var(--subtitle-color);
+    text-shadow: -1px 1px 0 var(--subtitle-color),
+      1px 1px 0 var(--subtitle-color), 1px -1px 0 var(--subtitle-color),
+      -1px -1px 0 var(--subtitle-color);
 
     position: absolute;
     left: 0;
@@ -172,7 +166,9 @@
     transform: translate(3%, -33%);
     z-index: -1;
 
-    max-width: 720px;
+    width: 97%;
+    display: inline-block;
+    overflow: hidden;
     white-space: nowrap;
   }
   .breakline {
