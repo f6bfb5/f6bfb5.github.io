@@ -14,7 +14,7 @@
   </div>
 </header>
 
-<style>
+<style scoped>
   header {
     margin: 0 auto;
     /* max-width: 720px; */
