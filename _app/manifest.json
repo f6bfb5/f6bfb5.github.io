@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-cdc14699.js",
+    "file": "start-2123a650.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -232,7 +232,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-a8d462a3.js",
+    "file": "pages/index.svelte-309c09b3.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -327,7 +327,7 @@
       "__post-96223c4b.js"
     ],
     "css": [
-      "assets/pages/index.svelte-72c6b94b.css"
+      "assets/pages/index.svelte-17a44236.css"
     ]
   },
   "src/routes/posts/2020-what-i-have-read-on-internet.md": {
