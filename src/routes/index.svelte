@@ -78,6 +78,7 @@
   }
 
   import Marquee from "$lib/Marquee.svelte";
+  import FloatingCubes from "$lib/FloatingCubes.svelte";
 </script>
 
 <svelte:head>
@@ -143,9 +144,14 @@
       </div>
     {/if}
   {/each}
+
+  <FloatingCubes />
 </div>
 
 <style scoped>
+  .container {
+    height: 100%;
+  }
   h1 {
     margin-left: 16px;
 
@@ -188,6 +194,8 @@
 
     position: relative;
     background-color: var(--bg-color);
+
+    z-index: 10;
   }
   .articles-list--container h2 {
     margin: 0;
