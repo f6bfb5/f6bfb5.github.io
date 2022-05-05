@@ -22,7 +22,7 @@
 
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 10000;
 
     background-color: var(--bg-color);
   }
