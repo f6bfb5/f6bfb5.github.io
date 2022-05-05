@@ -44,6 +44,7 @@ style="--cube-size: {size}; left: {left}; right: {right}; animation-delay: {dela
     }
   }
 
+  /* [\[CSS\] Floating Cube](https://codepen.io/sam_designer/pen/qJEXdY?editors=1100) */
   .cube {
     position: relative;
     width: var(--cube-size);
