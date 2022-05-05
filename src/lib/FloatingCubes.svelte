@@ -19,6 +19,7 @@
   .floating-cubes {
     position: fixed;
     bottom: 0;
+    left: 0;
     /* position: relative; */
     width: 100%;
     /* height: 100%; */
