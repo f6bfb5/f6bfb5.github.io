@@ -1,5 +1,5 @@
 ---
-title: "2022 年，我在網路上看了些什麼文"
+title: "2022 年，我在網路上看了些什麼"
 date: 2022-12-31T06:00:00.000Z
 summary: "這是我 2022 年時，在網路上看過的文章。"
 ---
@@ -545,3 +545,11 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [リーナスがLinuxを開発したというのは、どれほど「技術的に」すごい偉業だったのでしょうか？ - Quora](https://jp.quora.com/%E3%83%AA%E3%83%BC%E3%83%8A%E3%82%B9%E3%81%8CLinux%E3%82%92%E9%96%8B%E7%99%BA%E3%81%97%E3%81%9F%E3%81%A8%E3%81%84%E3%81%86%E3%81%AE%E3%81%AF-%E3%81%A9%E3%82%8C%E3%81%BB%E3%81%A9-%E6%8A%80%E8%A1%93%E7%9A%84%E3%81%AB-)
 - [ガチオタに聞く！ ガイドブックには載らない秋葉原の歩き方](https://www.chintai.net/news/2014/09/30/1846/)
 - [歴史認識をアップデートする『世界史の考え方』](https://dain.cocolog-nifty.com/myblog/2022/04/post-b0fbe7.html)
+- [一時停止すると見えなくなる Bad Apple!!　ＰＶ (横)](https://www.nicovideo.jp/watch/sm40360290)
+- [「勃起」という言葉はいつから、普通の意味で使われなくなった？～ゴールデンカムイ雑談](https://m-dojo.hatenadiary.com/entry/2022/05/03/033127)
+- [私たちがゲームに関する文章を書くようになったきっかけ：#295 しゃべりすぎGAMER](https://www.youtube.com/watch?v=9Nfnsu1GVjY)
+- [「かゆうま」みたいなノリで匿名日記を書くサイト作って2年が経った](https://anond.hatelabo.jp/20220505021429)
+- [聊聊Hate Speech（仇恨言论）](https://democraticsocialism.noblogs.org/post/2018/10/27/%E8%81%8A%E8%81%8Ahate-speech%EF%BC%88%E4%BB%87%E6%81%A8%E8%A8%80%E8%AE%BA%EF%BC%89/)
+- [ラノベはなぜ死んだのか](https://anond.hatelabo.jp/20220505041542)
+- [リアルとバーチャルの境界は消える？　どちらの良さも認め合う時代に](https://withnews.jp/article/k0220505008qq000000000000000S00111401qq000024650A)
+- [写真が下手だけどいい感じに"物撮り"したい。スマホ編 - Impress Watch](https://www.watch.impress.co.jp/docs/topic/1403688.html)

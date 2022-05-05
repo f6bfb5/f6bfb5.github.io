@@ -14,7 +14,7 @@ blockquote + p {
   padding-top: 4px;
 }
 ul {
-  list-style-type: '◆ ';
+  list-style-type: '◆';
 }
 ul li ul {
   list-style-type: '> ';
