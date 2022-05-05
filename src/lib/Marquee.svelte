@@ -34,12 +34,13 @@
     "「該說的話都已經被說過，但是因為沒人在聽，所以還得全都再說一遍。」",
     // "會想求死，是因為滿是不安，會感到不安，是因為有所願，向世界，向自己所祈願的姿態顯得過於巨大，使得雙腳發抖，無法動彈，若是動起身來，就會無法保住自己的願望，你並不是想死，而是想以所願的姿態活著吧。願望是，非得要實現不可的嗎？",
     // "紀子「矢吹你…不會覺得寂寞嗎？其他同齡的青年們帶著情人走遍高山藍海歌頌青春，你卻只是日覆一日關在滿是汗水、凡士林與松脂味的體育館裡，跳著跳繩、做柔軟體操、空揮練拳、敲擊沙包。提到有什麼比較亮麗鮮明的回憶，也只有處在眩目照明的，牢籠般的拳擊場中，散遍著香菸煙霧的鬥技場，丟出椅墊嘲諷的酒醉客人，像鬥雞與鬥犬般互毆至滿頭鮮血的生活…而且明明身高還有成長的可能性，卻要為了控制體重，不能盡情飲食，這實在太不堪、太悲慘了。要將這稱作青春，實在太昏暗了！」矢吹「我不太會說話…但我不是因為有所虧欠，或是欠下人情才在打著拳鬥的。因為我喜歡拳鬥，所以才走到了現在。也許這和小紀你講的歌頌青春有點不同，但我至今已在滿是鮮血的拳擊場上，嘗過了數次那種燃燒般的充實感…這和那種無法點燃、不完全燃燒的虛煙可不同了。雖然僅有短短的一瞬間，但它燃燒得可刺眼了。之後，只留下純白的灰燼…不留一絲未燃的餘燼…純白的灰。我在接觸拳鬥之前，從未嘗過這種充實感。你能瞭解嗎，小紀，我不是因為有所虧欠，或是欠下人情才在打著拳鬥的。因為我喜歡拳鬥，我喜歡這種發狂似地咬緊對方的充實感。」",
+    "說到虹色，也許很多人會聯想到的是「七色」，但在日本的傳統顏色裡，「虹色」指的是帶有些許黃色的，淡薄的紅色。以照片來說的話，虹色所指的並不是彩虹的本身，而是天空的顏色。為什麼這個顏色會被稱為虹色，說來有些不可思議。源由是「淡薄的紅色會因為光的反射，使得青色調或紫色調顯得更加強烈，呈現出各種不同的顏色，因而得名」。",
     "いつでも捜しているよ　どっかに君の姿を　カバンの中も 机の中も　探したけれど見つからないのに　それより僕と踊りませんか　朝が来るまで終わる事のないダンスを　踊ってない夜を知らない　踊ってない夜が気に入らない　君は知ってるかい？　踊らな死ぬ事を",
   ];
   let nowPlayingIndex = Math.floor(sentencesToShow.length * Math.random());
   let content;
   let contentWidth;
-  let slideOutDuration = sentencesToShow[nowPlayingIndex].length / 8 + "s";
+  let slideOutDuration = sentencesToShow[nowPlayingIndex].length / 8 > 6 ? sentencesToShow[nowPlayingIndex].length / 8 + "s" : "6s";
 
   import { afterUpdate } from "svelte";
 
@@ -62,7 +63,7 @@
       // play randomly
       nowPlayingIndex = Math.floor(sentencesToShow.length * Math.random());
       content.classList.remove("slideOut");
-      slideOutDuration = sentencesToShow[nowPlayingIndex].length / 8 + "s";
+      slideOutDuration = sentencesToShow[nowPlayingIndex].length / 8 > 6 ? sentencesToShow[nowPlayingIndex].length / 8 + "s" : "6s";
       content.classList.add("slideIn");
     }
   }
