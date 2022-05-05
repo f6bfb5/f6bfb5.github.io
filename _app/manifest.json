@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-30dc844e.js",
+    "file": "start-d6f822cd.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -14,9 +14,9 @@
       "src/routes/[slug].svelte",
       "src/routes/about.svelte",
       "src/routes/index.svelte",
-      "_2020-what-i-have-read-on-internet-2270d488.js",
-      "_2021-what-i-have-read-on-internet-8a4365a6.js",
-      "_2022-what-i-have-read-on-internet-c958547b.js",
+      "_2020-what-i-have-read-on-internet-66d92120.js",
+      "_2021-what-i-have-read-on-internet-c77f809b.js",
+      "_2022-what-i-have-read-on-internet-142109ac.js",
       "_ACG-80s-winter-age-of-anime-93e3f596.js",
       "_ACG-Pause-And-Select-Apocalypse-786b530e.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-07aa608b.js",
@@ -28,76 +28,77 @@
       "_ACG-emotion-of-mother-02-1f1ee62e.js",
       "_ACG-emotion-of-mother-03-266f90d7.js",
       "_ACG-eoe-interview-80cc701c.js",
-      "_ACG-expression-of-light-and-heavy-07bbf778.js",
-      "_ACG-history-of-robot-anime-dc791d37.js",
-      "_ACG-linda-cube-introduction-8b937596.js",
-      "_ACG-linda-cube-on-ps-archive-437bcfc3.js",
-      "_ACG-list-of-worthwhile-anime-ver-2-ffa4a381.js",
-      "_ACG-making-of-linda3-03c3fbbf.js",
-      "_ACG-note-13fd8c9f.js",
-      "_ACG-on-your-mark-f29038a2.js",
-      "_ACG-our-bible-just-reissue-in-kindle-e42daf46.js",
-      "_ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-38b3c39a.js",
-      "_ACG-petition-of-sakuga-otaku-1b2e3880.js",
-      "_ACG-planetes-is-the-treasure-of-life-f320b542.js",
-      "_ACG-rockman-1-tas-glitch-a794dd5b.js",
-      "_ACG-seino-tooru-1f055cd7.js",
-      "_ACG-serial-experiments-lain-for-ps-58506b65.js",
-      "_ACG-super-manga-book-list-ccc160ef.js",
-      "_ACG-tenki-no-ko-is-sekaikei-also-not-44566486.js",
-      "_ACG-the-influences-of-naoko-yamada-dad5e342.js",
-      "_ACG-the-opening-of-shirobako-movie-0db53c49.js",
-      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-f13d2ca8.js",
-      "_ACG-theory-of-traveller-dba392df.js",
-      "_ACG-thought-about-re-take-efd3ce53.js",
-      "_ACG-understanding-staff-of-anime-30074f57.js",
-      "_ACG-what-does-wall-of-meisaku-mean-75f4b5f5.js",
-      "_ACG-what-is-games-done-quick-996fe0d8.js",
-      "_ACG-why-you-should-not-use-interpolation-on-anime-1754050d.js",
-      "_ACG-would-netflix-be-the-saviour-of-anime-b9d121ac.js",
-      "_ACG-yume-no-shima-de-aimashou-6980bcdb.js",
-      "_auto-generate-eyecatch-image-for-blog-f9962107.js",
-      "_blog-with-hexo-1fdb620a.js",
-      "_blog-with-svelte-5566aee5.js",
-      "_capitalist-realism-mark-fisher-6529dcee.js",
-      "_how-do-you-like-wendesday-8d3f9611.js",
-      "_how-to-check-font-family-name-in-computer-5cf231c6.js",
-      "_login-with-discord-6104182c.js",
-      "_lyrics-bump-of-chicken-lostman-299fcd8a.js",
-      "_lyrics-buzy-venus-say-b1e13147.js",
-      "_lyrics-gift-from-you-c34b8e15.js",
-      "_lyrics-good-night-world-dbe320bf.js",
-      "_lyrics-hamada-shogo-j-boy-35e1b385.js",
-      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-4e8a1e70.js",
-      "_lyrics-joanne-hogg-stars-of-tears-1ce497f2.js",
-      "_lyrics-mr-children-fake-6b671c67.js",
-      "_lyrics-okui-aki-wind-climbing-63ceef16.js",
-      "_lyrics-onitaba-chihiro-rollin-0b472207.js",
-      "_lyrics-onitaba-chihiro-waltz-with-me-d8713b78.js",
-      "_lyrics-psy-s-earth-ark-on-the-tree-c581f418.js",
-      "_lyrics-radwimps-grand-escape-9516faf4.js",
-      "_lyrics-saihate-1329c048.js",
-      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-4502ce2a.js",
-      "_lyrics-sakai-mikio-wonderful-life-273c00eb.js",
-      "_lyrics-sambomaster-people-call-it-passion-8a91a2b1.js",
-      "_lyrics-see-saw-story-with-you-dfbb848a.js",
-      "_lyrics-susumu-hirasawa-kingdom-4ffa6f14.js",
-      "_lyrics-suzuki-yume-one-and-only-7e8eb840.js",
-      "_lyrics-the-high-lows-messenger-from-sunday-44bc7399.js",
-      "_lyrics-the-pillows-funny-bunny-17ebe774.js",
-      "_lyrics-toshihide-baba-boys-on-the-run-570bd05f.js",
-      "_lyrics-toshihide-baba-ordinary-0bf7ba88.js",
-      "_lyrics-yoshida-takuro-dont-talk-about-life-8faa9ae1.js",
-      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-8db75be9.js",
-      "_mpv-3b8fcf9d.js",
-      "_search-engine-operators-e56138b4.js",
-      "_tool-list-creativity-71f9b3e1.js",
-      "_tool-list-gaming-52b967cc.js",
-      "_tool-list-system-2175dfee.js",
-      "_tool-list-website-7ab34cd8.js",
-      "_use-foobar2k-to-listen-to-podcast-880b935e.js",
-      "_what-nft-is-not-cbc49684.js",
-      "_why-is-life-so-boring-84c5b37d.js"
+      "_ACG-evening-chat-of-game-xenogears-6fdfd91f.js",
+      "_ACG-expression-of-light-and-heavy-df55fb0f.js",
+      "_ACG-history-of-robot-anime-6d150075.js",
+      "_ACG-linda-cube-introduction-5719047f.js",
+      "_ACG-linda-cube-on-ps-archive-b178407d.js",
+      "_ACG-list-of-worthwhile-anime-ver-2-94947873.js",
+      "_ACG-making-of-linda3-bc9b283b.js",
+      "_ACG-note-9b3c6f5a.js",
+      "_ACG-on-your-mark-de5e0f9c.js",
+      "_ACG-our-bible-just-reissue-in-kindle-869c1114.js",
+      "_ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-a8837eea.js",
+      "_ACG-petition-of-sakuga-otaku-fcae2ecd.js",
+      "_ACG-planetes-is-the-treasure-of-life-f022c579.js",
+      "_ACG-rockman-1-tas-glitch-6f9536ee.js",
+      "_ACG-seino-tooru-5b0c998a.js",
+      "_ACG-serial-experiments-lain-for-ps-67c7717a.js",
+      "_ACG-super-manga-book-list-4a848596.js",
+      "_ACG-tenki-no-ko-is-sekaikei-also-not-2499c473.js",
+      "_ACG-the-influences-of-naoko-yamada-d3dcb92b.js",
+      "_ACG-the-opening-of-shirobako-movie-9a25560d.js",
+      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-dd179219.js",
+      "_ACG-theory-of-traveller-74d3e157.js",
+      "_ACG-thought-about-re-take-cb5e96fc.js",
+      "_ACG-understanding-staff-of-anime-4765b632.js",
+      "_ACG-what-does-wall-of-meisaku-mean-cde6346f.js",
+      "_ACG-what-is-games-done-quick-c48cbbe5.js",
+      "_ACG-why-you-should-not-use-interpolation-on-anime-97838ab4.js",
+      "_ACG-would-netflix-be-the-saviour-of-anime-f3fae350.js",
+      "_ACG-yume-no-shima-de-aimashou-5a93386b.js",
+      "_auto-generate-eyecatch-image-for-blog-54a3b800.js",
+      "_blog-with-hexo-cd765df8.js",
+      "_blog-with-svelte-ce21250a.js",
+      "_capitalist-realism-mark-fisher-587f2b9e.js",
+      "_how-do-you-like-wendesday-c0bceef3.js",
+      "_how-to-check-font-family-name-in-computer-4a6c8364.js",
+      "_login-with-discord-5404b603.js",
+      "_lyrics-bump-of-chicken-lostman-e3a21572.js",
+      "_lyrics-buzy-venus-say-b4edf145.js",
+      "_lyrics-gift-from-you-6f5d5b50.js",
+      "_lyrics-good-night-world-898065b7.js",
+      "_lyrics-hamada-shogo-j-boy-ba817d96.js",
+      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-7ec11cd9.js",
+      "_lyrics-joanne-hogg-stars-of-tears-7480d481.js",
+      "_lyrics-mr-children-fake-35fced55.js",
+      "_lyrics-okui-aki-wind-climbing-b01953a7.js",
+      "_lyrics-onitaba-chihiro-rollin-702ea01e.js",
+      "_lyrics-onitaba-chihiro-waltz-with-me-559853da.js",
+      "_lyrics-psy-s-earth-ark-on-the-tree-1d265434.js",
+      "_lyrics-radwimps-grand-escape-d8cebd2b.js",
+      "_lyrics-saihate-59e94ab3.js",
+      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-848c516b.js",
+      "_lyrics-sakai-mikio-wonderful-life-b8636ab6.js",
+      "_lyrics-sambomaster-people-call-it-passion-16235ff2.js",
+      "_lyrics-see-saw-story-with-you-e2135550.js",
+      "_lyrics-susumu-hirasawa-kingdom-2c25f003.js",
+      "_lyrics-suzuki-yume-one-and-only-1d4b0f3e.js",
+      "_lyrics-the-high-lows-messenger-from-sunday-f133cab3.js",
+      "_lyrics-the-pillows-funny-bunny-1fa97c69.js",
+      "_lyrics-toshihide-baba-boys-on-the-run-21e5aeb7.js",
+      "_lyrics-toshihide-baba-ordinary-a32f05bd.js",
+      "_lyrics-yoshida-takuro-dont-talk-about-life-52225fe5.js",
+      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-a55492ef.js",
+      "_mpv-5e47be7e.js",
+      "_search-engine-operators-dfea4f1e.js",
+      "_tool-list-creativity-28309605.js",
+      "_tool-list-gaming-55cdadf0.js",
+      "_tool-list-system-30ae32e4.js",
+      "_tool-list-website-294f6840.js",
+      "_use-foobar2k-to-listen-to-podcast-e6e5597d.js",
+      "_what-nft-is-not-5a2a6093.js",
+      "_why-is-life-so-boring-20e6c17d.js"
     ]
   },
   "src/routes/__layout.svelte": {
@@ -126,14 +127,14 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-32e33118.js",
+    "file": "pages/_slug_.svelte-41211921.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_2020-what-i-have-read-on-internet-2270d488.js",
-      "_2021-what-i-have-read-on-internet-8a4365a6.js",
-      "_2022-what-i-have-read-on-internet-c958547b.js",
+      "_2020-what-i-have-read-on-internet-66d92120.js",
+      "_2021-what-i-have-read-on-internet-c77f809b.js",
+      "_2022-what-i-have-read-on-internet-142109ac.js",
       "_ACG-80s-winter-age-of-anime-93e3f596.js",
       "_ACG-Pause-And-Select-Apocalypse-786b530e.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-07aa608b.js",
@@ -145,76 +146,77 @@
       "_ACG-emotion-of-mother-02-1f1ee62e.js",
       "_ACG-emotion-of-mother-03-266f90d7.js",
       "_ACG-eoe-interview-80cc701c.js",
-      "_ACG-expression-of-light-and-heavy-07bbf778.js",
-      "_ACG-history-of-robot-anime-dc791d37.js",
-      "_ACG-linda-cube-introduction-8b937596.js",
-      "_ACG-linda-cube-on-ps-archive-437bcfc3.js",
-      "_ACG-list-of-worthwhile-anime-ver-2-ffa4a381.js",
-      "_ACG-making-of-linda3-03c3fbbf.js",
-      "_ACG-note-13fd8c9f.js",
-      "_ACG-on-your-mark-f29038a2.js",
-      "_ACG-our-bible-just-reissue-in-kindle-e42daf46.js",
-      "_ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-38b3c39a.js",
-      "_ACG-petition-of-sakuga-otaku-1b2e3880.js",
-      "_ACG-planetes-is-the-treasure-of-life-f320b542.js",
-      "_ACG-rockman-1-tas-glitch-a794dd5b.js",
-      "_ACG-seino-tooru-1f055cd7.js",
-      "_ACG-serial-experiments-lain-for-ps-58506b65.js",
-      "_ACG-super-manga-book-list-ccc160ef.js",
-      "_ACG-tenki-no-ko-is-sekaikei-also-not-44566486.js",
-      "_ACG-the-influences-of-naoko-yamada-dad5e342.js",
-      "_ACG-the-opening-of-shirobako-movie-0db53c49.js",
-      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-f13d2ca8.js",
-      "_ACG-theory-of-traveller-dba392df.js",
-      "_ACG-thought-about-re-take-efd3ce53.js",
-      "_ACG-understanding-staff-of-anime-30074f57.js",
-      "_ACG-what-does-wall-of-meisaku-mean-75f4b5f5.js",
-      "_ACG-what-is-games-done-quick-996fe0d8.js",
-      "_ACG-why-you-should-not-use-interpolation-on-anime-1754050d.js",
-      "_ACG-would-netflix-be-the-saviour-of-anime-b9d121ac.js",
-      "_ACG-yume-no-shima-de-aimashou-6980bcdb.js",
-      "_auto-generate-eyecatch-image-for-blog-f9962107.js",
-      "_blog-with-hexo-1fdb620a.js",
-      "_blog-with-svelte-5566aee5.js",
-      "_capitalist-realism-mark-fisher-6529dcee.js",
-      "_how-do-you-like-wendesday-8d3f9611.js",
-      "_how-to-check-font-family-name-in-computer-5cf231c6.js",
-      "_login-with-discord-6104182c.js",
-      "_lyrics-bump-of-chicken-lostman-299fcd8a.js",
-      "_lyrics-buzy-venus-say-b1e13147.js",
-      "_lyrics-gift-from-you-c34b8e15.js",
-      "_lyrics-good-night-world-dbe320bf.js",
-      "_lyrics-hamada-shogo-j-boy-35e1b385.js",
-      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-4e8a1e70.js",
-      "_lyrics-joanne-hogg-stars-of-tears-1ce497f2.js",
-      "_lyrics-mr-children-fake-6b671c67.js",
-      "_lyrics-okui-aki-wind-climbing-63ceef16.js",
-      "_lyrics-onitaba-chihiro-rollin-0b472207.js",
-      "_lyrics-onitaba-chihiro-waltz-with-me-d8713b78.js",
-      "_lyrics-psy-s-earth-ark-on-the-tree-c581f418.js",
-      "_lyrics-radwimps-grand-escape-9516faf4.js",
-      "_lyrics-saihate-1329c048.js",
-      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-4502ce2a.js",
-      "_lyrics-sakai-mikio-wonderful-life-273c00eb.js",
-      "_lyrics-sambomaster-people-call-it-passion-8a91a2b1.js",
-      "_lyrics-see-saw-story-with-you-dfbb848a.js",
-      "_lyrics-susumu-hirasawa-kingdom-4ffa6f14.js",
-      "_lyrics-suzuki-yume-one-and-only-7e8eb840.js",
-      "_lyrics-the-high-lows-messenger-from-sunday-44bc7399.js",
-      "_lyrics-the-pillows-funny-bunny-17ebe774.js",
-      "_lyrics-toshihide-baba-boys-on-the-run-570bd05f.js",
-      "_lyrics-toshihide-baba-ordinary-0bf7ba88.js",
-      "_lyrics-yoshida-takuro-dont-talk-about-life-8faa9ae1.js",
-      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-8db75be9.js",
-      "_mpv-3b8fcf9d.js",
-      "_search-engine-operators-e56138b4.js",
-      "_tool-list-creativity-71f9b3e1.js",
-      "_tool-list-gaming-52b967cc.js",
-      "_tool-list-system-2175dfee.js",
-      "_tool-list-website-7ab34cd8.js",
-      "_use-foobar2k-to-listen-to-podcast-880b935e.js",
-      "_what-nft-is-not-cbc49684.js",
-      "_why-is-life-so-boring-84c5b37d.js",
+      "_ACG-evening-chat-of-game-xenogears-6fdfd91f.js",
+      "_ACG-expression-of-light-and-heavy-df55fb0f.js",
+      "_ACG-history-of-robot-anime-6d150075.js",
+      "_ACG-linda-cube-introduction-5719047f.js",
+      "_ACG-linda-cube-on-ps-archive-b178407d.js",
+      "_ACG-list-of-worthwhile-anime-ver-2-94947873.js",
+      "_ACG-making-of-linda3-bc9b283b.js",
+      "_ACG-note-9b3c6f5a.js",
+      "_ACG-on-your-mark-de5e0f9c.js",
+      "_ACG-our-bible-just-reissue-in-kindle-869c1114.js",
+      "_ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-a8837eea.js",
+      "_ACG-petition-of-sakuga-otaku-fcae2ecd.js",
+      "_ACG-planetes-is-the-treasure-of-life-f022c579.js",
+      "_ACG-rockman-1-tas-glitch-6f9536ee.js",
+      "_ACG-seino-tooru-5b0c998a.js",
+      "_ACG-serial-experiments-lain-for-ps-67c7717a.js",
+      "_ACG-super-manga-book-list-4a848596.js",
+      "_ACG-tenki-no-ko-is-sekaikei-also-not-2499c473.js",
+      "_ACG-the-influences-of-naoko-yamada-d3dcb92b.js",
+      "_ACG-the-opening-of-shirobako-movie-9a25560d.js",
+      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-dd179219.js",
+      "_ACG-theory-of-traveller-74d3e157.js",
+      "_ACG-thought-about-re-take-cb5e96fc.js",
+      "_ACG-understanding-staff-of-anime-4765b632.js",
+      "_ACG-what-does-wall-of-meisaku-mean-cde6346f.js",
+      "_ACG-what-is-games-done-quick-c48cbbe5.js",
+      "_ACG-why-you-should-not-use-interpolation-on-anime-97838ab4.js",
+      "_ACG-would-netflix-be-the-saviour-of-anime-f3fae350.js",
+      "_ACG-yume-no-shima-de-aimashou-5a93386b.js",
+      "_auto-generate-eyecatch-image-for-blog-54a3b800.js",
+      "_blog-with-hexo-cd765df8.js",
+      "_blog-with-svelte-ce21250a.js",
+      "_capitalist-realism-mark-fisher-587f2b9e.js",
+      "_how-do-you-like-wendesday-c0bceef3.js",
+      "_how-to-check-font-family-name-in-computer-4a6c8364.js",
+      "_login-with-discord-5404b603.js",
+      "_lyrics-bump-of-chicken-lostman-e3a21572.js",
+      "_lyrics-buzy-venus-say-b4edf145.js",
+      "_lyrics-gift-from-you-6f5d5b50.js",
+      "_lyrics-good-night-world-898065b7.js",
+      "_lyrics-hamada-shogo-j-boy-ba817d96.js",
+      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-7ec11cd9.js",
+      "_lyrics-joanne-hogg-stars-of-tears-7480d481.js",
+      "_lyrics-mr-children-fake-35fced55.js",
+      "_lyrics-okui-aki-wind-climbing-b01953a7.js",
+      "_lyrics-onitaba-chihiro-rollin-702ea01e.js",
+      "_lyrics-onitaba-chihiro-waltz-with-me-559853da.js",
+      "_lyrics-psy-s-earth-ark-on-the-tree-1d265434.js",
+      "_lyrics-radwimps-grand-escape-d8cebd2b.js",
+      "_lyrics-saihate-59e94ab3.js",
+      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-848c516b.js",
+      "_lyrics-sakai-mikio-wonderful-life-b8636ab6.js",
+      "_lyrics-sambomaster-people-call-it-passion-16235ff2.js",
+      "_lyrics-see-saw-story-with-you-e2135550.js",
+      "_lyrics-susumu-hirasawa-kingdom-2c25f003.js",
+      "_lyrics-suzuki-yume-one-and-only-1d4b0f3e.js",
+      "_lyrics-the-high-lows-messenger-from-sunday-f133cab3.js",
+      "_lyrics-the-pillows-funny-bunny-1fa97c69.js",
+      "_lyrics-toshihide-baba-boys-on-the-run-21e5aeb7.js",
+      "_lyrics-toshihide-baba-ordinary-a32f05bd.js",
+      "_lyrics-yoshida-takuro-dont-talk-about-life-52225fe5.js",
+      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-a55492ef.js",
+      "_mpv-5e47be7e.js",
+      "_search-engine-operators-dfea4f1e.js",
+      "_tool-list-creativity-28309605.js",
+      "_tool-list-gaming-55cdadf0.js",
+      "_tool-list-system-30ae32e4.js",
+      "_tool-list-website-294f6840.js",
+      "_use-foobar2k-to-listen-to-podcast-e6e5597d.js",
+      "_what-nft-is-not-5a2a6093.js",
+      "_why-is-life-so-boring-20e6c17d.js",
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
@@ -232,14 +234,14 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-309c09b3.js",
+    "file": "pages/index.svelte-80213311.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_2020-what-i-have-read-on-internet-2270d488.js",
-      "_2021-what-i-have-read-on-internet-8a4365a6.js",
-      "_2022-what-i-have-read-on-internet-c958547b.js",
+      "_2020-what-i-have-read-on-internet-66d92120.js",
+      "_2021-what-i-have-read-on-internet-c77f809b.js",
+      "_2022-what-i-have-read-on-internet-142109ac.js",
       "_ACG-80s-winter-age-of-anime-93e3f596.js",
       "_ACG-Pause-And-Select-Apocalypse-786b530e.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-07aa608b.js",
@@ -251,76 +253,77 @@
       "_ACG-emotion-of-mother-02-1f1ee62e.js",
       "_ACG-emotion-of-mother-03-266f90d7.js",
       "_ACG-eoe-interview-80cc701c.js",
-      "_ACG-expression-of-light-and-heavy-07bbf778.js",
-      "_ACG-history-of-robot-anime-dc791d37.js",
-      "_ACG-linda-cube-introduction-8b937596.js",
-      "_ACG-linda-cube-on-ps-archive-437bcfc3.js",
-      "_ACG-list-of-worthwhile-anime-ver-2-ffa4a381.js",
-      "_ACG-making-of-linda3-03c3fbbf.js",
-      "_ACG-note-13fd8c9f.js",
-      "_ACG-on-your-mark-f29038a2.js",
-      "_ACG-our-bible-just-reissue-in-kindle-e42daf46.js",
-      "_ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-38b3c39a.js",
-      "_ACG-petition-of-sakuga-otaku-1b2e3880.js",
-      "_ACG-planetes-is-the-treasure-of-life-f320b542.js",
-      "_ACG-rockman-1-tas-glitch-a794dd5b.js",
-      "_ACG-seino-tooru-1f055cd7.js",
-      "_ACG-serial-experiments-lain-for-ps-58506b65.js",
-      "_ACG-super-manga-book-list-ccc160ef.js",
-      "_ACG-tenki-no-ko-is-sekaikei-also-not-44566486.js",
-      "_ACG-the-influences-of-naoko-yamada-dad5e342.js",
-      "_ACG-the-opening-of-shirobako-movie-0db53c49.js",
-      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-f13d2ca8.js",
-      "_ACG-theory-of-traveller-dba392df.js",
-      "_ACG-thought-about-re-take-efd3ce53.js",
-      "_ACG-understanding-staff-of-anime-30074f57.js",
-      "_ACG-what-does-wall-of-meisaku-mean-75f4b5f5.js",
-      "_ACG-what-is-games-done-quick-996fe0d8.js",
-      "_ACG-why-you-should-not-use-interpolation-on-anime-1754050d.js",
-      "_ACG-would-netflix-be-the-saviour-of-anime-b9d121ac.js",
-      "_ACG-yume-no-shima-de-aimashou-6980bcdb.js",
-      "_auto-generate-eyecatch-image-for-blog-f9962107.js",
-      "_blog-with-hexo-1fdb620a.js",
-      "_blog-with-svelte-5566aee5.js",
-      "_capitalist-realism-mark-fisher-6529dcee.js",
-      "_how-do-you-like-wendesday-8d3f9611.js",
-      "_how-to-check-font-family-name-in-computer-5cf231c6.js",
-      "_login-with-discord-6104182c.js",
-      "_lyrics-bump-of-chicken-lostman-299fcd8a.js",
-      "_lyrics-buzy-venus-say-b1e13147.js",
-      "_lyrics-gift-from-you-c34b8e15.js",
-      "_lyrics-good-night-world-dbe320bf.js",
-      "_lyrics-hamada-shogo-j-boy-35e1b385.js",
-      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-4e8a1e70.js",
-      "_lyrics-joanne-hogg-stars-of-tears-1ce497f2.js",
-      "_lyrics-mr-children-fake-6b671c67.js",
-      "_lyrics-okui-aki-wind-climbing-63ceef16.js",
-      "_lyrics-onitaba-chihiro-rollin-0b472207.js",
-      "_lyrics-onitaba-chihiro-waltz-with-me-d8713b78.js",
-      "_lyrics-psy-s-earth-ark-on-the-tree-c581f418.js",
-      "_lyrics-radwimps-grand-escape-9516faf4.js",
-      "_lyrics-saihate-1329c048.js",
-      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-4502ce2a.js",
-      "_lyrics-sakai-mikio-wonderful-life-273c00eb.js",
-      "_lyrics-sambomaster-people-call-it-passion-8a91a2b1.js",
-      "_lyrics-see-saw-story-with-you-dfbb848a.js",
-      "_lyrics-susumu-hirasawa-kingdom-4ffa6f14.js",
-      "_lyrics-suzuki-yume-one-and-only-7e8eb840.js",
-      "_lyrics-the-high-lows-messenger-from-sunday-44bc7399.js",
-      "_lyrics-the-pillows-funny-bunny-17ebe774.js",
-      "_lyrics-toshihide-baba-boys-on-the-run-570bd05f.js",
-      "_lyrics-toshihide-baba-ordinary-0bf7ba88.js",
-      "_lyrics-yoshida-takuro-dont-talk-about-life-8faa9ae1.js",
-      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-8db75be9.js",
-      "_mpv-3b8fcf9d.js",
-      "_search-engine-operators-e56138b4.js",
-      "_tool-list-creativity-71f9b3e1.js",
-      "_tool-list-gaming-52b967cc.js",
-      "_tool-list-system-2175dfee.js",
-      "_tool-list-website-7ab34cd8.js",
-      "_use-foobar2k-to-listen-to-podcast-880b935e.js",
-      "_what-nft-is-not-cbc49684.js",
-      "_why-is-life-so-boring-84c5b37d.js",
+      "_ACG-evening-chat-of-game-xenogears-6fdfd91f.js",
+      "_ACG-expression-of-light-and-heavy-df55fb0f.js",
+      "_ACG-history-of-robot-anime-6d150075.js",
+      "_ACG-linda-cube-introduction-5719047f.js",
+      "_ACG-linda-cube-on-ps-archive-b178407d.js",
+      "_ACG-list-of-worthwhile-anime-ver-2-94947873.js",
+      "_ACG-making-of-linda3-bc9b283b.js",
+      "_ACG-note-9b3c6f5a.js",
+      "_ACG-on-your-mark-de5e0f9c.js",
+      "_ACG-our-bible-just-reissue-in-kindle-869c1114.js",
+      "_ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-a8837eea.js",
+      "_ACG-petition-of-sakuga-otaku-fcae2ecd.js",
+      "_ACG-planetes-is-the-treasure-of-life-f022c579.js",
+      "_ACG-rockman-1-tas-glitch-6f9536ee.js",
+      "_ACG-seino-tooru-5b0c998a.js",
+      "_ACG-serial-experiments-lain-for-ps-67c7717a.js",
+      "_ACG-super-manga-book-list-4a848596.js",
+      "_ACG-tenki-no-ko-is-sekaikei-also-not-2499c473.js",
+      "_ACG-the-influences-of-naoko-yamada-d3dcb92b.js",
+      "_ACG-the-opening-of-shirobako-movie-9a25560d.js",
+      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-dd179219.js",
+      "_ACG-theory-of-traveller-74d3e157.js",
+      "_ACG-thought-about-re-take-cb5e96fc.js",
+      "_ACG-understanding-staff-of-anime-4765b632.js",
+      "_ACG-what-does-wall-of-meisaku-mean-cde6346f.js",
+      "_ACG-what-is-games-done-quick-c48cbbe5.js",
+      "_ACG-why-you-should-not-use-interpolation-on-anime-97838ab4.js",
+      "_ACG-would-netflix-be-the-saviour-of-anime-f3fae350.js",
+      "_ACG-yume-no-shima-de-aimashou-5a93386b.js",
+      "_auto-generate-eyecatch-image-for-blog-54a3b800.js",
+      "_blog-with-hexo-cd765df8.js",
+      "_blog-with-svelte-ce21250a.js",
+      "_capitalist-realism-mark-fisher-587f2b9e.js",
+      "_how-do-you-like-wendesday-c0bceef3.js",
+      "_how-to-check-font-family-name-in-computer-4a6c8364.js",
+      "_login-with-discord-5404b603.js",
+      "_lyrics-bump-of-chicken-lostman-e3a21572.js",
+      "_lyrics-buzy-venus-say-b4edf145.js",
+      "_lyrics-gift-from-you-6f5d5b50.js",
+      "_lyrics-good-night-world-898065b7.js",
+      "_lyrics-hamada-shogo-j-boy-ba817d96.js",
+      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-7ec11cd9.js",
+      "_lyrics-joanne-hogg-stars-of-tears-7480d481.js",
+      "_lyrics-mr-children-fake-35fced55.js",
+      "_lyrics-okui-aki-wind-climbing-b01953a7.js",
+      "_lyrics-onitaba-chihiro-rollin-702ea01e.js",
+      "_lyrics-onitaba-chihiro-waltz-with-me-559853da.js",
+      "_lyrics-psy-s-earth-ark-on-the-tree-1d265434.js",
+      "_lyrics-radwimps-grand-escape-d8cebd2b.js",
+      "_lyrics-saihate-59e94ab3.js",
+      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-848c516b.js",
+      "_lyrics-sakai-mikio-wonderful-life-b8636ab6.js",
+      "_lyrics-sambomaster-people-call-it-passion-16235ff2.js",
+      "_lyrics-see-saw-story-with-you-e2135550.js",
+      "_lyrics-susumu-hirasawa-kingdom-2c25f003.js",
+      "_lyrics-suzuki-yume-one-and-only-1d4b0f3e.js",
+      "_lyrics-the-high-lows-messenger-from-sunday-f133cab3.js",
+      "_lyrics-the-pillows-funny-bunny-1fa97c69.js",
+      "_lyrics-toshihide-baba-boys-on-the-run-21e5aeb7.js",
+      "_lyrics-toshihide-baba-ordinary-a32f05bd.js",
+      "_lyrics-yoshida-takuro-dont-talk-about-life-52225fe5.js",
+      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-a55492ef.js",
+      "_mpv-5e47be7e.js",
+      "_search-engine-operators-dfea4f1e.js",
+      "_tool-list-creativity-28309605.js",
+      "_tool-list-gaming-55cdadf0.js",
+      "_tool-list-system-30ae32e4.js",
+      "_tool-list-website-294f6840.js",
+      "_use-foobar2k-to-listen-to-podcast-e6e5597d.js",
+      "_what-nft-is-not-5a2a6093.js",
+      "_why-is-life-so-boring-20e6c17d.js",
       "_index-1ddf5aaf.js",
       "_paths-396f020f.js",
       "_index-82870d7b.js",
@@ -331,33 +334,33 @@
     ]
   },
   "src/routes/posts/2020-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2020-what-i-have-read-on-internet.md-f51d9da0.js",
+    "file": "pages/posts/2020-what-i-have-read-on-internet.md-3899afc6.js",
     "src": "src/routes/posts/2020-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_2020-what-i-have-read-on-internet-2270d488.js"
+      "_2020-what-i-have-read-on-internet-66d92120.js"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2021-what-i-have-read-on-internet.md-40b181b9.js",
+    "file": "pages/posts/2021-what-i-have-read-on-internet.md-1698c4bf.js",
     "src": "src/routes/posts/2021-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_2021-what-i-have-read-on-internet-8a4365a6.js"
+      "_2021-what-i-have-read-on-internet-c77f809b.js"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-ba270d6e.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-f7c2a53d.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_2022-what-i-have-read-on-internet-c958547b.js"
+      "_2022-what-i-have-read-on-internet-142109ac.js"
     ]
   },
   "src/routes/posts/ACG-80s-winter-age-of-anime.md": {
@@ -470,704 +473,714 @@
       "_ACG-eoe-interview-80cc701c.js"
     ]
   },
+  "src/routes/posts/ACG-evening-chat-of-game-xenogears.md": {
+    "file": "pages/posts/ACG-evening-chat-of-game-xenogears.md-3c704beb.js",
+    "src": "src/routes/posts/ACG-evening-chat-of-game-xenogears.md",
+    "isEntry": true,
+    "imports": [
+      "_index-1ddf5aaf.js",
+      "__post-96223c4b.js",
+      "_ACG-evening-chat-of-game-xenogears-6fdfd91f.js"
+    ]
+  },
   "src/routes/posts/ACG-expression-of-light-and-heavy.md": {
-    "file": "pages/posts/ACG-expression-of-light-and-heavy.md-297a54bb.js",
+    "file": "pages/posts/ACG-expression-of-light-and-heavy.md-c61a9acf.js",
     "src": "src/routes/posts/ACG-expression-of-light-and-heavy.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-expression-of-light-and-heavy-07bbf778.js"
+      "_ACG-expression-of-light-and-heavy-df55fb0f.js"
     ]
   },
   "src/routes/posts/ACG-history-of-robot-anime.md": {
-    "file": "pages/posts/ACG-history-of-robot-anime.md-da207253.js",
+    "file": "pages/posts/ACG-history-of-robot-anime.md-301e42e3.js",
     "src": "src/routes/posts/ACG-history-of-robot-anime.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-history-of-robot-anime-dc791d37.js"
+      "_ACG-history-of-robot-anime-6d150075.js"
     ]
   },
   "src/routes/posts/ACG-linda-cube-introduction.md": {
-    "file": "pages/posts/ACG-linda-cube-introduction.md-ad03b5be.js",
+    "file": "pages/posts/ACG-linda-cube-introduction.md-0057d55f.js",
     "src": "src/routes/posts/ACG-linda-cube-introduction.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-linda-cube-introduction-8b937596.js"
+      "_ACG-linda-cube-introduction-5719047f.js"
     ]
   },
   "src/routes/posts/ACG-linda-cube-on-ps-archive.md": {
-    "file": "pages/posts/ACG-linda-cube-on-ps-archive.md-86b93c74.js",
+    "file": "pages/posts/ACG-linda-cube-on-ps-archive.md-e755ad50.js",
     "src": "src/routes/posts/ACG-linda-cube-on-ps-archive.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-linda-cube-on-ps-archive-437bcfc3.js"
+      "_ACG-linda-cube-on-ps-archive-b178407d.js"
     ]
   },
   "src/routes/posts/ACG-list-of-worthwhile-anime-ver-2.md": {
-    "file": "pages/posts/ACG-list-of-worthwhile-anime-ver-2.md-b785d3be.js",
+    "file": "pages/posts/ACG-list-of-worthwhile-anime-ver-2.md-14406cb7.js",
     "src": "src/routes/posts/ACG-list-of-worthwhile-anime-ver-2.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-list-of-worthwhile-anime-ver-2-ffa4a381.js"
+      "_ACG-list-of-worthwhile-anime-ver-2-94947873.js"
     ]
   },
   "src/routes/posts/ACG-making-of-linda3.md": {
-    "file": "pages/posts/ACG-making-of-linda3.md-0e925487.js",
+    "file": "pages/posts/ACG-making-of-linda3.md-b0376c69.js",
     "src": "src/routes/posts/ACG-making-of-linda3.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-making-of-linda3-03c3fbbf.js"
+      "_ACG-making-of-linda3-bc9b283b.js"
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-de2debf0.js",
+    "file": "pages/posts/ACG-note.md-c7c55378.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-note-13fd8c9f.js"
+      "_ACG-note-9b3c6f5a.js"
     ]
   },
   "src/routes/posts/ACG-on-your-mark.md": {
-    "file": "pages/posts/ACG-on-your-mark.md-573e4ac8.js",
+    "file": "pages/posts/ACG-on-your-mark.md-985931e7.js",
     "src": "src/routes/posts/ACG-on-your-mark.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-on-your-mark-f29038a2.js"
+      "_ACG-on-your-mark-de5e0f9c.js"
     ]
   },
   "src/routes/posts/ACG-our-bible-just-reissue-in-kindle.md": {
-    "file": "pages/posts/ACG-our-bible-just-reissue-in-kindle.md-381328e4.js",
+    "file": "pages/posts/ACG-our-bible-just-reissue-in-kindle.md-01c5aa97.js",
     "src": "src/routes/posts/ACG-our-bible-just-reissue-in-kindle.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-our-bible-just-reissue-in-kindle-e42daf46.js"
+      "_ACG-our-bible-just-reissue-in-kindle-869c1114.js"
     ]
   },
   "src/routes/posts/ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh.md": {
-    "file": "pages/posts/ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh.md-4363451a.js",
+    "file": "pages/posts/ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh.md-3542b946.js",
     "src": "src/routes/posts/ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-38b3c39a.js"
+      "_ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-a8837eea.js"
     ]
   },
   "src/routes/posts/ACG-petition-of-sakuga-otaku.md": {
-    "file": "pages/posts/ACG-petition-of-sakuga-otaku.md-f49c9c28.js",
+    "file": "pages/posts/ACG-petition-of-sakuga-otaku.md-860dcdb9.js",
     "src": "src/routes/posts/ACG-petition-of-sakuga-otaku.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-petition-of-sakuga-otaku-1b2e3880.js"
+      "_ACG-petition-of-sakuga-otaku-fcae2ecd.js"
     ]
   },
   "src/routes/posts/ACG-planetes-is-the-treasure-of-life.md": {
-    "file": "pages/posts/ACG-planetes-is-the-treasure-of-life.md-175193ff.js",
+    "file": "pages/posts/ACG-planetes-is-the-treasure-of-life.md-0989b0f5.js",
     "src": "src/routes/posts/ACG-planetes-is-the-treasure-of-life.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-planetes-is-the-treasure-of-life-f320b542.js"
+      "_ACG-planetes-is-the-treasure-of-life-f022c579.js"
     ]
   },
   "src/routes/posts/ACG-rockman-1-tas-glitch.md": {
-    "file": "pages/posts/ACG-rockman-1-tas-glitch.md-bd16cb02.js",
+    "file": "pages/posts/ACG-rockman-1-tas-glitch.md-62228b46.js",
     "src": "src/routes/posts/ACG-rockman-1-tas-glitch.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-rockman-1-tas-glitch-a794dd5b.js"
+      "_ACG-rockman-1-tas-glitch-6f9536ee.js"
     ]
   },
   "src/routes/posts/ACG-seino-tooru.md": {
-    "file": "pages/posts/ACG-seino-tooru.md-1dfa791c.js",
+    "file": "pages/posts/ACG-seino-tooru.md-d018debb.js",
     "src": "src/routes/posts/ACG-seino-tooru.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-seino-tooru-1f055cd7.js"
+      "_ACG-seino-tooru-5b0c998a.js"
     ]
   },
   "src/routes/posts/ACG-serial-experiments-lain-for-ps.md": {
-    "file": "pages/posts/ACG-serial-experiments-lain-for-ps.md-862a3937.js",
+    "file": "pages/posts/ACG-serial-experiments-lain-for-ps.md-06974bf9.js",
     "src": "src/routes/posts/ACG-serial-experiments-lain-for-ps.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-serial-experiments-lain-for-ps-58506b65.js"
+      "_ACG-serial-experiments-lain-for-ps-67c7717a.js"
     ]
   },
   "src/routes/posts/ACG-super-manga-book-list.md": {
-    "file": "pages/posts/ACG-super-manga-book-list.md-30f3a476.js",
+    "file": "pages/posts/ACG-super-manga-book-list.md-59fc4cce.js",
     "src": "src/routes/posts/ACG-super-manga-book-list.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-super-manga-book-list-ccc160ef.js"
+      "_ACG-super-manga-book-list-4a848596.js"
     ]
   },
   "src/routes/posts/ACG-tenki-no-ko-is-sekaikei-also-not.md": {
-    "file": "pages/posts/ACG-tenki-no-ko-is-sekaikei-also-not.md-4ea294b4.js",
+    "file": "pages/posts/ACG-tenki-no-ko-is-sekaikei-also-not.md-008be650.js",
     "src": "src/routes/posts/ACG-tenki-no-ko-is-sekaikei-also-not.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-tenki-no-ko-is-sekaikei-also-not-44566486.js"
+      "_ACG-tenki-no-ko-is-sekaikei-also-not-2499c473.js"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
-    "file": "pages/posts/ACG-the-influences-of-naoko-yamada.md-4f4127ff.js",
+    "file": "pages/posts/ACG-the-influences-of-naoko-yamada.md-0dfa7a28.js",
     "src": "src/routes/posts/ACG-the-influences-of-naoko-yamada.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-the-influences-of-naoko-yamada-dad5e342.js"
+      "_ACG-the-influences-of-naoko-yamada-d3dcb92b.js"
     ]
   },
   "src/routes/posts/ACG-the-opening-of-shirobako-movie.md": {
-    "file": "pages/posts/ACG-the-opening-of-shirobako-movie.md-7e8fa38d.js",
+    "file": "pages/posts/ACG-the-opening-of-shirobako-movie.md-a6e3f332.js",
     "src": "src/routes/posts/ACG-the-opening-of-shirobako-movie.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-the-opening-of-shirobako-movie-0db53c49.js"
+      "_ACG-the-opening-of-shirobako-movie-9a25560d.js"
     ]
   },
   "src/routes/posts/ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition.md": {
-    "file": "pages/posts/ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition.md-9f6b434a.js",
+    "file": "pages/posts/ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition.md-953c978e.js",
     "src": "src/routes/posts/ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-f13d2ca8.js"
+      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-dd179219.js"
     ]
   },
   "src/routes/posts/ACG-theory-of-traveller.md": {
-    "file": "pages/posts/ACG-theory-of-traveller.md-9c28f131.js",
+    "file": "pages/posts/ACG-theory-of-traveller.md-c738e20a.js",
     "src": "src/routes/posts/ACG-theory-of-traveller.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-theory-of-traveller-dba392df.js"
+      "_ACG-theory-of-traveller-74d3e157.js"
     ]
   },
   "src/routes/posts/ACG-thought-about-re-take.md": {
-    "file": "pages/posts/ACG-thought-about-re-take.md-aad5fa58.js",
+    "file": "pages/posts/ACG-thought-about-re-take.md-e36fa27a.js",
     "src": "src/routes/posts/ACG-thought-about-re-take.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-thought-about-re-take-efd3ce53.js"
+      "_ACG-thought-about-re-take-cb5e96fc.js"
     ]
   },
   "src/routes/posts/ACG-understanding-staff-of-anime.md": {
-    "file": "pages/posts/ACG-understanding-staff-of-anime.md-1298d504.js",
+    "file": "pages/posts/ACG-understanding-staff-of-anime.md-9d23599f.js",
     "src": "src/routes/posts/ACG-understanding-staff-of-anime.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-understanding-staff-of-anime-30074f57.js"
+      "_ACG-understanding-staff-of-anime-4765b632.js"
     ]
   },
   "src/routes/posts/ACG-what-does-wall-of-meisaku-mean.md": {
-    "file": "pages/posts/ACG-what-does-wall-of-meisaku-mean.md-d8df89c8.js",
+    "file": "pages/posts/ACG-what-does-wall-of-meisaku-mean.md-ec08aa6c.js",
     "src": "src/routes/posts/ACG-what-does-wall-of-meisaku-mean.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-what-does-wall-of-meisaku-mean-75f4b5f5.js"
+      "_ACG-what-does-wall-of-meisaku-mean-cde6346f.js"
     ]
   },
   "src/routes/posts/ACG-what-is-games-done-quick.md": {
-    "file": "pages/posts/ACG-what-is-games-done-quick.md-46bdc44e.js",
+    "file": "pages/posts/ACG-what-is-games-done-quick.md-3ed078ae.js",
     "src": "src/routes/posts/ACG-what-is-games-done-quick.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-what-is-games-done-quick-996fe0d8.js"
+      "_ACG-what-is-games-done-quick-c48cbbe5.js"
     ]
   },
   "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md": {
-    "file": "pages/posts/ACG-why-you-should-not-use-interpolation-on-anime.md-b6236023.js",
+    "file": "pages/posts/ACG-why-you-should-not-use-interpolation-on-anime.md-811e3ecc.js",
     "src": "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-why-you-should-not-use-interpolation-on-anime-1754050d.js"
+      "_ACG-why-you-should-not-use-interpolation-on-anime-97838ab4.js"
     ]
   },
   "src/routes/posts/ACG-would-netflix-be-the-saviour-of-anime.md": {
-    "file": "pages/posts/ACG-would-netflix-be-the-saviour-of-anime.md-27ea5963.js",
+    "file": "pages/posts/ACG-would-netflix-be-the-saviour-of-anime.md-b5839f03.js",
     "src": "src/routes/posts/ACG-would-netflix-be-the-saviour-of-anime.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-would-netflix-be-the-saviour-of-anime-b9d121ac.js"
+      "_ACG-would-netflix-be-the-saviour-of-anime-f3fae350.js"
     ]
   },
   "src/routes/posts/ACG-yume-no-shima-de-aimashou.md": {
-    "file": "pages/posts/ACG-yume-no-shima-de-aimashou.md-672004ce.js",
+    "file": "pages/posts/ACG-yume-no-shima-de-aimashou.md-284e01eb.js",
     "src": "src/routes/posts/ACG-yume-no-shima-de-aimashou.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_ACG-yume-no-shima-de-aimashou-6980bcdb.js"
+      "_ACG-yume-no-shima-de-aimashou-5a93386b.js"
     ]
   },
   "src/routes/posts/auto-generate-eyecatch-image-for-blog.md": {
-    "file": "pages/posts/auto-generate-eyecatch-image-for-blog.md-5b4f3b69.js",
+    "file": "pages/posts/auto-generate-eyecatch-image-for-blog.md-bac0254f.js",
     "src": "src/routes/posts/auto-generate-eyecatch-image-for-blog.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_auto-generate-eyecatch-image-for-blog-f9962107.js"
+      "_auto-generate-eyecatch-image-for-blog-54a3b800.js"
     ]
   },
   "src/routes/posts/blog-with-hexo.md": {
-    "file": "pages/posts/blog-with-hexo.md-867fca19.js",
+    "file": "pages/posts/blog-with-hexo.md-87188b62.js",
     "src": "src/routes/posts/blog-with-hexo.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_blog-with-hexo-1fdb620a.js"
+      "_blog-with-hexo-cd765df8.js"
     ]
   },
   "src/routes/posts/blog-with-svelte.md": {
-    "file": "pages/posts/blog-with-svelte.md-f9de37a8.js",
+    "file": "pages/posts/blog-with-svelte.md-5f9f094e.js",
     "src": "src/routes/posts/blog-with-svelte.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_blog-with-svelte-5566aee5.js"
+      "_blog-with-svelte-ce21250a.js"
     ]
   },
   "src/routes/posts/capitalist-realism-mark-fisher.md": {
-    "file": "pages/posts/capitalist-realism-mark-fisher.md-55f442c2.js",
+    "file": "pages/posts/capitalist-realism-mark-fisher.md-bdf162e2.js",
     "src": "src/routes/posts/capitalist-realism-mark-fisher.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_capitalist-realism-mark-fisher-6529dcee.js"
+      "_capitalist-realism-mark-fisher-587f2b9e.js"
     ]
   },
   "src/routes/posts/how-do-you-like-wendesday.md": {
-    "file": "pages/posts/how-do-you-like-wendesday.md-caa112ef.js",
+    "file": "pages/posts/how-do-you-like-wendesday.md-c7d6e6ae.js",
     "src": "src/routes/posts/how-do-you-like-wendesday.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_how-do-you-like-wendesday-8d3f9611.js"
+      "_how-do-you-like-wendesday-c0bceef3.js"
     ]
   },
   "src/routes/posts/how-to-check-font-family-name-in-computer.md": {
-    "file": "pages/posts/how-to-check-font-family-name-in-computer.md-97771374.js",
+    "file": "pages/posts/how-to-check-font-family-name-in-computer.md-df0eeb96.js",
     "src": "src/routes/posts/how-to-check-font-family-name-in-computer.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_how-to-check-font-family-name-in-computer-5cf231c6.js"
+      "_how-to-check-font-family-name-in-computer-4a6c8364.js"
     ]
   },
   "src/routes/posts/login-with-discord.md": {
-    "file": "pages/posts/login-with-discord.md-fdbf1959.js",
+    "file": "pages/posts/login-with-discord.md-39e6abce.js",
     "src": "src/routes/posts/login-with-discord.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_login-with-discord-6104182c.js"
+      "_login-with-discord-5404b603.js"
     ]
   },
   "src/routes/posts/lyrics-bump-of-chicken-lostman.md": {
-    "file": "pages/posts/lyrics-bump-of-chicken-lostman.md-257c4e12.js",
+    "file": "pages/posts/lyrics-bump-of-chicken-lostman.md-7181ca00.js",
     "src": "src/routes/posts/lyrics-bump-of-chicken-lostman.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-bump-of-chicken-lostman-299fcd8a.js"
+      "_lyrics-bump-of-chicken-lostman-e3a21572.js"
     ]
   },
   "src/routes/posts/lyrics-buzy-venus-say.md": {
-    "file": "pages/posts/lyrics-buzy-venus-say.md-4c08239f.js",
+    "file": "pages/posts/lyrics-buzy-venus-say.md-9b126074.js",
     "src": "src/routes/posts/lyrics-buzy-venus-say.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-buzy-venus-say-b1e13147.js"
+      "_lyrics-buzy-venus-say-b4edf145.js"
     ]
   },
   "src/routes/posts/lyrics-gift-from-you.md": {
-    "file": "pages/posts/lyrics-gift-from-you.md-7d6a3aff.js",
+    "file": "pages/posts/lyrics-gift-from-you.md-50edbf21.js",
     "src": "src/routes/posts/lyrics-gift-from-you.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-gift-from-you-c34b8e15.js"
+      "_lyrics-gift-from-you-6f5d5b50.js"
     ]
   },
   "src/routes/posts/lyrics-good-night-world.md": {
-    "file": "pages/posts/lyrics-good-night-world.md-5f2d46c5.js",
+    "file": "pages/posts/lyrics-good-night-world.md-91e029e8.js",
     "src": "src/routes/posts/lyrics-good-night-world.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-good-night-world-dbe320bf.js"
+      "_lyrics-good-night-world-898065b7.js"
     ]
   },
   "src/routes/posts/lyrics-hamada-shogo-j-boy.md": {
-    "file": "pages/posts/lyrics-hamada-shogo-j-boy.md-fb17b1cd.js",
+    "file": "pages/posts/lyrics-hamada-shogo-j-boy.md-43318d6e.js",
     "src": "src/routes/posts/lyrics-hamada-shogo-j-boy.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-hamada-shogo-j-boy-35e1b385.js"
+      "_lyrics-hamada-shogo-j-boy-ba817d96.js"
     ]
   },
   "src/routes/posts/lyrics-higuchi-ryouichi-1-6-dream-traveller.md": {
-    "file": "pages/posts/lyrics-higuchi-ryouichi-1-6-dream-traveller.md-285ed238.js",
+    "file": "pages/posts/lyrics-higuchi-ryouichi-1-6-dream-traveller.md-46a6197a.js",
     "src": "src/routes/posts/lyrics-higuchi-ryouichi-1-6-dream-traveller.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-4e8a1e70.js"
+      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-7ec11cd9.js"
     ]
   },
   "src/routes/posts/lyrics-joanne-hogg-stars-of-tears.md": {
-    "file": "pages/posts/lyrics-joanne-hogg-stars-of-tears.md-f0581fbd.js",
+    "file": "pages/posts/lyrics-joanne-hogg-stars-of-tears.md-bf24f609.js",
     "src": "src/routes/posts/lyrics-joanne-hogg-stars-of-tears.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-joanne-hogg-stars-of-tears-1ce497f2.js"
+      "_lyrics-joanne-hogg-stars-of-tears-7480d481.js"
     ]
   },
   "src/routes/posts/lyrics-mr-children-fake.md": {
-    "file": "pages/posts/lyrics-mr-children-fake.md-6bcc82e2.js",
+    "file": "pages/posts/lyrics-mr-children-fake.md-d17e40e1.js",
     "src": "src/routes/posts/lyrics-mr-children-fake.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-mr-children-fake-6b671c67.js"
+      "_lyrics-mr-children-fake-35fced55.js"
     ]
   },
   "src/routes/posts/lyrics-okui-aki-wind-climbing.md": {
-    "file": "pages/posts/lyrics-okui-aki-wind-climbing.md-eb482a1e.js",
+    "file": "pages/posts/lyrics-okui-aki-wind-climbing.md-7c50c536.js",
     "src": "src/routes/posts/lyrics-okui-aki-wind-climbing.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-okui-aki-wind-climbing-63ceef16.js"
+      "_lyrics-okui-aki-wind-climbing-b01953a7.js"
     ]
   },
   "src/routes/posts/lyrics-onitaba-chihiro-rollin.md": {
-    "file": "pages/posts/lyrics-onitaba-chihiro-rollin.md-d161d234.js",
+    "file": "pages/posts/lyrics-onitaba-chihiro-rollin.md-91797164.js",
     "src": "src/routes/posts/lyrics-onitaba-chihiro-rollin.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-onitaba-chihiro-rollin-0b472207.js"
+      "_lyrics-onitaba-chihiro-rollin-702ea01e.js"
     ]
   },
   "src/routes/posts/lyrics-onitaba-chihiro-waltz-with-me.md": {
-    "file": "pages/posts/lyrics-onitaba-chihiro-waltz-with-me.md-55e85cd1.js",
+    "file": "pages/posts/lyrics-onitaba-chihiro-waltz-with-me.md-55aea505.js",
     "src": "src/routes/posts/lyrics-onitaba-chihiro-waltz-with-me.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-onitaba-chihiro-waltz-with-me-d8713b78.js"
+      "_lyrics-onitaba-chihiro-waltz-with-me-559853da.js"
     ]
   },
   "src/routes/posts/lyrics-psy-s-earth-ark-on-the-tree.md": {
-    "file": "pages/posts/lyrics-psy-s-earth-ark-on-the-tree.md-17ba14ae.js",
+    "file": "pages/posts/lyrics-psy-s-earth-ark-on-the-tree.md-a758da4f.js",
     "src": "src/routes/posts/lyrics-psy-s-earth-ark-on-the-tree.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-psy-s-earth-ark-on-the-tree-c581f418.js"
+      "_lyrics-psy-s-earth-ark-on-the-tree-1d265434.js"
     ]
   },
   "src/routes/posts/lyrics-radwimps-grand-escape.md": {
-    "file": "pages/posts/lyrics-radwimps-grand-escape.md-89167358.js",
+    "file": "pages/posts/lyrics-radwimps-grand-escape.md-536ff4d9.js",
     "src": "src/routes/posts/lyrics-radwimps-grand-escape.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-radwimps-grand-escape-9516faf4.js"
+      "_lyrics-radwimps-grand-escape-d8cebd2b.js"
     ]
   },
   "src/routes/posts/lyrics-saihate.md": {
-    "file": "pages/posts/lyrics-saihate.md-00c491c4.js",
+    "file": "pages/posts/lyrics-saihate.md-a4e375de.js",
     "src": "src/routes/posts/lyrics-saihate.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-saihate-1329c048.js"
+      "_lyrics-saihate-59e94ab3.js"
     ]
   },
   "src/routes/posts/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful.md": {
-    "file": "pages/posts/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful.md-904a280d.js",
+    "file": "pages/posts/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful.md-6ebfa58f.js",
     "src": "src/routes/posts/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-4502ce2a.js"
+      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-848c516b.js"
     ]
   },
   "src/routes/posts/lyrics-sakai-mikio-wonderful-life.md": {
-    "file": "pages/posts/lyrics-sakai-mikio-wonderful-life.md-a2a8eaac.js",
+    "file": "pages/posts/lyrics-sakai-mikio-wonderful-life.md-9dcf0133.js",
     "src": "src/routes/posts/lyrics-sakai-mikio-wonderful-life.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-sakai-mikio-wonderful-life-273c00eb.js"
+      "_lyrics-sakai-mikio-wonderful-life-b8636ab6.js"
     ]
   },
   "src/routes/posts/lyrics-sambomaster-people-call-it-passion.md": {
-    "file": "pages/posts/lyrics-sambomaster-people-call-it-passion.md-e683f58e.js",
+    "file": "pages/posts/lyrics-sambomaster-people-call-it-passion.md-455f933b.js",
     "src": "src/routes/posts/lyrics-sambomaster-people-call-it-passion.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-sambomaster-people-call-it-passion-8a91a2b1.js"
+      "_lyrics-sambomaster-people-call-it-passion-16235ff2.js"
     ]
   },
   "src/routes/posts/lyrics-see-saw-story-with-you.md": {
-    "file": "pages/posts/lyrics-see-saw-story-with-you.md-1c95f4fc.js",
+    "file": "pages/posts/lyrics-see-saw-story-with-you.md-ce204d64.js",
     "src": "src/routes/posts/lyrics-see-saw-story-with-you.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-see-saw-story-with-you-dfbb848a.js"
+      "_lyrics-see-saw-story-with-you-e2135550.js"
     ]
   },
   "src/routes/posts/lyrics-susumu-hirasawa-kingdom.md": {
-    "file": "pages/posts/lyrics-susumu-hirasawa-kingdom.md-4ee736fe.js",
+    "file": "pages/posts/lyrics-susumu-hirasawa-kingdom.md-1581831b.js",
     "src": "src/routes/posts/lyrics-susumu-hirasawa-kingdom.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-susumu-hirasawa-kingdom-4ffa6f14.js"
+      "_lyrics-susumu-hirasawa-kingdom-2c25f003.js"
     ]
   },
   "src/routes/posts/lyrics-suzuki-yume-one-and-only.md": {
-    "file": "pages/posts/lyrics-suzuki-yume-one-and-only.md-9118b465.js",
+    "file": "pages/posts/lyrics-suzuki-yume-one-and-only.md-bc551c09.js",
     "src": "src/routes/posts/lyrics-suzuki-yume-one-and-only.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-suzuki-yume-one-and-only-7e8eb840.js"
+      "_lyrics-suzuki-yume-one-and-only-1d4b0f3e.js"
     ]
   },
   "src/routes/posts/lyrics-the-high-lows-messenger-from-sunday.md": {
-    "file": "pages/posts/lyrics-the-high-lows-messenger-from-sunday.md-57a94024.js",
+    "file": "pages/posts/lyrics-the-high-lows-messenger-from-sunday.md-e200ac52.js",
     "src": "src/routes/posts/lyrics-the-high-lows-messenger-from-sunday.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-the-high-lows-messenger-from-sunday-44bc7399.js"
+      "_lyrics-the-high-lows-messenger-from-sunday-f133cab3.js"
     ]
   },
   "src/routes/posts/lyrics-the-pillows-funny-bunny.md": {
-    "file": "pages/posts/lyrics-the-pillows-funny-bunny.md-1921f242.js",
+    "file": "pages/posts/lyrics-the-pillows-funny-bunny.md-d4e6b989.js",
     "src": "src/routes/posts/lyrics-the-pillows-funny-bunny.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-the-pillows-funny-bunny-17ebe774.js"
+      "_lyrics-the-pillows-funny-bunny-1fa97c69.js"
     ]
   },
   "src/routes/posts/lyrics-toshihide-baba-boys-on-the-run.md": {
-    "file": "pages/posts/lyrics-toshihide-baba-boys-on-the-run.md-bf03c31b.js",
+    "file": "pages/posts/lyrics-toshihide-baba-boys-on-the-run.md-9eafcb99.js",
     "src": "src/routes/posts/lyrics-toshihide-baba-boys-on-the-run.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-toshihide-baba-boys-on-the-run-570bd05f.js"
+      "_lyrics-toshihide-baba-boys-on-the-run-21e5aeb7.js"
     ]
   },
   "src/routes/posts/lyrics-toshihide-baba-ordinary.md": {
-    "file": "pages/posts/lyrics-toshihide-baba-ordinary.md-f382adad.js",
+    "file": "pages/posts/lyrics-toshihide-baba-ordinary.md-d4e7580b.js",
     "src": "src/routes/posts/lyrics-toshihide-baba-ordinary.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-toshihide-baba-ordinary-0bf7ba88.js"
+      "_lyrics-toshihide-baba-ordinary-a32f05bd.js"
     ]
   },
   "src/routes/posts/lyrics-yoshida-takuro-dont-talk-about-life.md": {
-    "file": "pages/posts/lyrics-yoshida-takuro-dont-talk-about-life.md-9f30bd04.js",
+    "file": "pages/posts/lyrics-yoshida-takuro-dont-talk-about-life.md-482ad69c.js",
     "src": "src/routes/posts/lyrics-yoshida-takuro-dont-talk-about-life.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-yoshida-takuro-dont-talk-about-life-8faa9ae1.js"
+      "_lyrics-yoshida-takuro-dont-talk-about-life-52225fe5.js"
     ]
   },
   "src/routes/posts/lyrics-yui-makino-modokashii-sekai-no-ue-de.md": {
-    "file": "pages/posts/lyrics-yui-makino-modokashii-sekai-no-ue-de.md-99aaface.js",
+    "file": "pages/posts/lyrics-yui-makino-modokashii-sekai-no-ue-de.md-af2c457e.js",
     "src": "src/routes/posts/lyrics-yui-makino-modokashii-sekai-no-ue-de.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-8db75be9.js"
+      "_lyrics-yui-makino-modokashii-sekai-no-ue-de-a55492ef.js"
     ]
   },
   "src/routes/posts/mpv.md": {
-    "file": "pages/posts/mpv.md-fee20d99.js",
+    "file": "pages/posts/mpv.md-30e633f7.js",
     "src": "src/routes/posts/mpv.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_mpv-3b8fcf9d.js"
+      "_mpv-5e47be7e.js"
     ]
   },
   "src/routes/posts/search-engine-operators.md": {
-    "file": "pages/posts/search-engine-operators.md-1cb34d6c.js",
+    "file": "pages/posts/search-engine-operators.md-ad249134.js",
     "src": "src/routes/posts/search-engine-operators.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_search-engine-operators-e56138b4.js"
+      "_search-engine-operators-dfea4f1e.js"
     ]
   },
   "src/routes/posts/tool-list-creativity.md": {
-    "file": "pages/posts/tool-list-creativity.md-6a047501.js",
+    "file": "pages/posts/tool-list-creativity.md-8c049458.js",
     "src": "src/routes/posts/tool-list-creativity.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_tool-list-creativity-71f9b3e1.js"
+      "_tool-list-creativity-28309605.js"
     ]
   },
   "src/routes/posts/tool-list-gaming.md": {
-    "file": "pages/posts/tool-list-gaming.md-fdee78d7.js",
+    "file": "pages/posts/tool-list-gaming.md-e65a59ca.js",
     "src": "src/routes/posts/tool-list-gaming.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_tool-list-gaming-52b967cc.js"
+      "_tool-list-gaming-55cdadf0.js"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
-    "file": "pages/posts/tool-list-system.md-eeb3877f.js",
+    "file": "pages/posts/tool-list-system.md-96e0e9df.js",
     "src": "src/routes/posts/tool-list-system.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_tool-list-system-2175dfee.js"
+      "_tool-list-system-30ae32e4.js"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-f9ab0fc0.js",
+    "file": "pages/posts/tool-list-website.md-138a5c5f.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_tool-list-website-7ab34cd8.js"
+      "_tool-list-website-294f6840.js"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
-    "file": "pages/posts/use-foobar2k-to-listen-to-podcast.md-3209803e.js",
+    "file": "pages/posts/use-foobar2k-to-listen-to-podcast.md-1ac4aec1.js",
     "src": "src/routes/posts/use-foobar2k-to-listen-to-podcast.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_use-foobar2k-to-listen-to-podcast-880b935e.js"
+      "_use-foobar2k-to-listen-to-podcast-e6e5597d.js"
     ]
   },
   "src/routes/posts/what-nft-is-not.md": {
-    "file": "pages/posts/what-nft-is-not.md-cb98f436.js",
+    "file": "pages/posts/what-nft-is-not.md-4a3c5acd.js",
     "src": "src/routes/posts/what-nft-is-not.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_what-nft-is-not-cbc49684.js"
+      "_what-nft-is-not-5a2a6093.js"
     ]
   },
   "src/routes/posts/why-is-life-so-boring.md": {
-    "file": "pages/posts/why-is-life-so-boring.md-8213b0b3.js",
+    "file": "pages/posts/why-is-life-so-boring.md-78f34a63.js",
     "src": "src/routes/posts/why-is-life-so-boring.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_why-is-life-so-boring-84c5b37d.js"
+      "_why-is-life-so-boring-20e6c17d.js"
     ]
   },
   "_index-1ddf5aaf.js": {
@@ -1182,24 +1195,24 @@
   "_paths-396f020f.js": {
     "file": "chunks/paths-396f020f.js"
   },
-  "_2020-what-i-have-read-on-internet-2270d488.js": {
-    "file": "chunks/2020-what-i-have-read-on-internet-2270d488.js",
+  "_2020-what-i-have-read-on-internet-66d92120.js": {
+    "file": "chunks/2020-what-i-have-read-on-internet-66d92120.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_2021-what-i-have-read-on-internet-8a4365a6.js": {
-    "file": "chunks/2021-what-i-have-read-on-internet-8a4365a6.js",
+  "_2021-what-i-have-read-on-internet-c77f809b.js": {
+    "file": "chunks/2021-what-i-have-read-on-internet-c77f809b.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_2022-what-i-have-read-on-internet-c958547b.js": {
-    "file": "chunks/2022-what-i-have-read-on-internet-c958547b.js",
+  "_2022-what-i-have-read-on-internet-142109ac.js": {
+    "file": "chunks/2022-what-i-have-read-on-internet-142109ac.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
@@ -1297,280 +1310,288 @@
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-expression-of-light-and-heavy-07bbf778.js": {
-    "file": "chunks/ACG-expression-of-light-and-heavy-07bbf778.js",
+  "_ACG-evening-chat-of-game-xenogears-6fdfd91f.js": {
+    "file": "chunks/ACG-evening-chat-of-game-xenogears-6fdfd91f.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-history-of-robot-anime-dc791d37.js": {
-    "file": "chunks/ACG-history-of-robot-anime-dc791d37.js",
+  "_ACG-expression-of-light-and-heavy-df55fb0f.js": {
+    "file": "chunks/ACG-expression-of-light-and-heavy-df55fb0f.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-linda-cube-introduction-8b937596.js": {
-    "file": "chunks/ACG-linda-cube-introduction-8b937596.js",
+  "_ACG-history-of-robot-anime-6d150075.js": {
+    "file": "chunks/ACG-history-of-robot-anime-6d150075.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-linda-cube-on-ps-archive-437bcfc3.js": {
-    "file": "chunks/ACG-linda-cube-on-ps-archive-437bcfc3.js",
+  "_ACG-linda-cube-introduction-5719047f.js": {
+    "file": "chunks/ACG-linda-cube-introduction-5719047f.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-list-of-worthwhile-anime-ver-2-ffa4a381.js": {
-    "file": "chunks/ACG-list-of-worthwhile-anime-ver-2-ffa4a381.js",
+  "_ACG-linda-cube-on-ps-archive-b178407d.js": {
+    "file": "chunks/ACG-linda-cube-on-ps-archive-b178407d.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-making-of-linda3-03c3fbbf.js": {
-    "file": "chunks/ACG-making-of-linda3-03c3fbbf.js",
+  "_ACG-list-of-worthwhile-anime-ver-2-94947873.js": {
+    "file": "chunks/ACG-list-of-worthwhile-anime-ver-2-94947873.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-note-13fd8c9f.js": {
-    "file": "chunks/ACG-note-13fd8c9f.js",
+  "_ACG-making-of-linda3-bc9b283b.js": {
+    "file": "chunks/ACG-making-of-linda3-bc9b283b.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-on-your-mark-f29038a2.js": {
-    "file": "chunks/ACG-on-your-mark-f29038a2.js",
+  "_ACG-note-9b3c6f5a.js": {
+    "file": "chunks/ACG-note-9b3c6f5a.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-our-bible-just-reissue-in-kindle-e42daf46.js": {
-    "file": "chunks/ACG-our-bible-just-reissue-in-kindle-e42daf46.js",
+  "_ACG-on-your-mark-de5e0f9c.js": {
+    "file": "chunks/ACG-on-your-mark-de5e0f9c.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-38b3c39a.js": {
-    "file": "chunks/ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-38b3c39a.js",
+  "_ACG-our-bible-just-reissue-in-kindle-869c1114.js": {
+    "file": "chunks/ACG-our-bible-just-reissue-in-kindle-869c1114.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-petition-of-sakuga-otaku-1b2e3880.js": {
-    "file": "chunks/ACG-petition-of-sakuga-otaku-1b2e3880.js",
+  "_ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-a8837eea.js": {
+    "file": "chunks/ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-a8837eea.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-planetes-is-the-treasure-of-life-f320b542.js": {
-    "file": "chunks/ACG-planetes-is-the-treasure-of-life-f320b542.js",
+  "_ACG-petition-of-sakuga-otaku-fcae2ecd.js": {
+    "file": "chunks/ACG-petition-of-sakuga-otaku-fcae2ecd.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-rockman-1-tas-glitch-a794dd5b.js": {
-    "file": "chunks/ACG-rockman-1-tas-glitch-a794dd5b.js",
+  "_ACG-planetes-is-the-treasure-of-life-f022c579.js": {
+    "file": "chunks/ACG-planetes-is-the-treasure-of-life-f022c579.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-seino-tooru-1f055cd7.js": {
-    "file": "chunks/ACG-seino-tooru-1f055cd7.js",
+  "_ACG-rockman-1-tas-glitch-6f9536ee.js": {
+    "file": "chunks/ACG-rockman-1-tas-glitch-6f9536ee.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-serial-experiments-lain-for-ps-58506b65.js": {
-    "file": "chunks/ACG-serial-experiments-lain-for-ps-58506b65.js",
+  "_ACG-seino-tooru-5b0c998a.js": {
+    "file": "chunks/ACG-seino-tooru-5b0c998a.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-super-manga-book-list-ccc160ef.js": {
-    "file": "chunks/ACG-super-manga-book-list-ccc160ef.js",
+  "_ACG-serial-experiments-lain-for-ps-67c7717a.js": {
+    "file": "chunks/ACG-serial-experiments-lain-for-ps-67c7717a.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-tenki-no-ko-is-sekaikei-also-not-44566486.js": {
-    "file": "chunks/ACG-tenki-no-ko-is-sekaikei-also-not-44566486.js",
+  "_ACG-super-manga-book-list-4a848596.js": {
+    "file": "chunks/ACG-super-manga-book-list-4a848596.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-the-influences-of-naoko-yamada-dad5e342.js": {
-    "file": "chunks/ACG-the-influences-of-naoko-yamada-dad5e342.js",
+  "_ACG-tenki-no-ko-is-sekaikei-also-not-2499c473.js": {
+    "file": "chunks/ACG-tenki-no-ko-is-sekaikei-also-not-2499c473.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-the-opening-of-shirobako-movie-0db53c49.js": {
-    "file": "chunks/ACG-the-opening-of-shirobako-movie-0db53c49.js",
+  "_ACG-the-influences-of-naoko-yamada-d3dcb92b.js": {
+    "file": "chunks/ACG-the-influences-of-naoko-yamada-d3dcb92b.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-f13d2ca8.js": {
-    "file": "chunks/ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-f13d2ca8.js",
+  "_ACG-the-opening-of-shirobako-movie-9a25560d.js": {
+    "file": "chunks/ACG-the-opening-of-shirobako-movie-9a25560d.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-theory-of-traveller-dba392df.js": {
-    "file": "chunks/ACG-theory-of-traveller-dba392df.js",
+  "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-dd179219.js": {
+    "file": "chunks/ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-dd179219.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-thought-about-re-take-efd3ce53.js": {
-    "file": "chunks/ACG-thought-about-re-take-efd3ce53.js",
+  "_ACG-theory-of-traveller-74d3e157.js": {
+    "file": "chunks/ACG-theory-of-traveller-74d3e157.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-understanding-staff-of-anime-30074f57.js": {
-    "file": "chunks/ACG-understanding-staff-of-anime-30074f57.js",
+  "_ACG-thought-about-re-take-cb5e96fc.js": {
+    "file": "chunks/ACG-thought-about-re-take-cb5e96fc.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-what-does-wall-of-meisaku-mean-75f4b5f5.js": {
-    "file": "chunks/ACG-what-does-wall-of-meisaku-mean-75f4b5f5.js",
+  "_ACG-understanding-staff-of-anime-4765b632.js": {
+    "file": "chunks/ACG-understanding-staff-of-anime-4765b632.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-what-is-games-done-quick-996fe0d8.js": {
-    "file": "chunks/ACG-what-is-games-done-quick-996fe0d8.js",
+  "_ACG-what-does-wall-of-meisaku-mean-cde6346f.js": {
+    "file": "chunks/ACG-what-does-wall-of-meisaku-mean-cde6346f.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-why-you-should-not-use-interpolation-on-anime-1754050d.js": {
-    "file": "chunks/ACG-why-you-should-not-use-interpolation-on-anime-1754050d.js",
+  "_ACG-what-is-games-done-quick-c48cbbe5.js": {
+    "file": "chunks/ACG-what-is-games-done-quick-c48cbbe5.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-would-netflix-be-the-saviour-of-anime-b9d121ac.js": {
-    "file": "chunks/ACG-would-netflix-be-the-saviour-of-anime-b9d121ac.js",
+  "_ACG-why-you-should-not-use-interpolation-on-anime-97838ab4.js": {
+    "file": "chunks/ACG-why-you-should-not-use-interpolation-on-anime-97838ab4.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_ACG-yume-no-shima-de-aimashou-6980bcdb.js": {
-    "file": "chunks/ACG-yume-no-shima-de-aimashou-6980bcdb.js",
+  "_ACG-would-netflix-be-the-saviour-of-anime-f3fae350.js": {
+    "file": "chunks/ACG-would-netflix-be-the-saviour-of-anime-f3fae350.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_auto-generate-eyecatch-image-for-blog-f9962107.js": {
-    "file": "chunks/auto-generate-eyecatch-image-for-blog-f9962107.js",
+  "_ACG-yume-no-shima-de-aimashou-5a93386b.js": {
+    "file": "chunks/ACG-yume-no-shima-de-aimashou-5a93386b.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_blog-with-hexo-1fdb620a.js": {
-    "file": "chunks/blog-with-hexo-1fdb620a.js",
+  "_auto-generate-eyecatch-image-for-blog-54a3b800.js": {
+    "file": "chunks/auto-generate-eyecatch-image-for-blog-54a3b800.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_blog-with-svelte-5566aee5.js": {
-    "file": "chunks/blog-with-svelte-5566aee5.js",
+  "_blog-with-hexo-cd765df8.js": {
+    "file": "chunks/blog-with-hexo-cd765df8.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_capitalist-realism-mark-fisher-6529dcee.js": {
-    "file": "chunks/capitalist-realism-mark-fisher-6529dcee.js",
+  "_blog-with-svelte-ce21250a.js": {
+    "file": "chunks/blog-with-svelte-ce21250a.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_how-do-you-like-wendesday-8d3f9611.js": {
-    "file": "chunks/how-do-you-like-wendesday-8d3f9611.js",
+  "_capitalist-realism-mark-fisher-587f2b9e.js": {
+    "file": "chunks/capitalist-realism-mark-fisher-587f2b9e.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_how-to-check-font-family-name-in-computer-5cf231c6.js": {
-    "file": "chunks/how-to-check-font-family-name-in-computer-5cf231c6.js",
+  "_how-do-you-like-wendesday-c0bceef3.js": {
+    "file": "chunks/how-do-you-like-wendesday-c0bceef3.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_login-with-discord-6104182c.js": {
-    "file": "chunks/login-with-discord-6104182c.js",
+  "_how-to-check-font-family-name-in-computer-4a6c8364.js": {
+    "file": "chunks/how-to-check-font-family-name-in-computer-4a6c8364.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-1ddf5aaf.js",
+      "__post-96223c4b.js"
+    ]
+  },
+  "_login-with-discord-5404b603.js": {
+    "file": "chunks/login-with-discord-5404b603.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
@@ -1580,292 +1601,292 @@
       "assets/login-with-discord-4c509c13.css"
     ]
   },
-  "_lyrics-bump-of-chicken-lostman-299fcd8a.js": {
-    "file": "chunks/lyrics-bump-of-chicken-lostman-299fcd8a.js",
+  "_lyrics-bump-of-chicken-lostman-e3a21572.js": {
+    "file": "chunks/lyrics-bump-of-chicken-lostman-e3a21572.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-buzy-venus-say-b1e13147.js": {
-    "file": "chunks/lyrics-buzy-venus-say-b1e13147.js",
+  "_lyrics-buzy-venus-say-b4edf145.js": {
+    "file": "chunks/lyrics-buzy-venus-say-b4edf145.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-gift-from-you-c34b8e15.js": {
-    "file": "chunks/lyrics-gift-from-you-c34b8e15.js",
+  "_lyrics-gift-from-you-6f5d5b50.js": {
+    "file": "chunks/lyrics-gift-from-you-6f5d5b50.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-good-night-world-dbe320bf.js": {
-    "file": "chunks/lyrics-good-night-world-dbe320bf.js",
+  "_lyrics-good-night-world-898065b7.js": {
+    "file": "chunks/lyrics-good-night-world-898065b7.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-hamada-shogo-j-boy-35e1b385.js": {
-    "file": "chunks/lyrics-hamada-shogo-j-boy-35e1b385.js",
+  "_lyrics-hamada-shogo-j-boy-ba817d96.js": {
+    "file": "chunks/lyrics-hamada-shogo-j-boy-ba817d96.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-higuchi-ryouichi-1-6-dream-traveller-4e8a1e70.js": {
-    "file": "chunks/lyrics-higuchi-ryouichi-1-6-dream-traveller-4e8a1e70.js",
+  "_lyrics-higuchi-ryouichi-1-6-dream-traveller-7ec11cd9.js": {
+    "file": "chunks/lyrics-higuchi-ryouichi-1-6-dream-traveller-7ec11cd9.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-joanne-hogg-stars-of-tears-1ce497f2.js": {
-    "file": "chunks/lyrics-joanne-hogg-stars-of-tears-1ce497f2.js",
+  "_lyrics-joanne-hogg-stars-of-tears-7480d481.js": {
+    "file": "chunks/lyrics-joanne-hogg-stars-of-tears-7480d481.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-mr-children-fake-6b671c67.js": {
-    "file": "chunks/lyrics-mr-children-fake-6b671c67.js",
+  "_lyrics-mr-children-fake-35fced55.js": {
+    "file": "chunks/lyrics-mr-children-fake-35fced55.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-okui-aki-wind-climbing-63ceef16.js": {
-    "file": "chunks/lyrics-okui-aki-wind-climbing-63ceef16.js",
+  "_lyrics-okui-aki-wind-climbing-b01953a7.js": {
+    "file": "chunks/lyrics-okui-aki-wind-climbing-b01953a7.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-onitaba-chihiro-rollin-0b472207.js": {
-    "file": "chunks/lyrics-onitaba-chihiro-rollin-0b472207.js",
+  "_lyrics-onitaba-chihiro-rollin-702ea01e.js": {
+    "file": "chunks/lyrics-onitaba-chihiro-rollin-702ea01e.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-onitaba-chihiro-waltz-with-me-d8713b78.js": {
-    "file": "chunks/lyrics-onitaba-chihiro-waltz-with-me-d8713b78.js",
+  "_lyrics-onitaba-chihiro-waltz-with-me-559853da.js": {
+    "file": "chunks/lyrics-onitaba-chihiro-waltz-with-me-559853da.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-psy-s-earth-ark-on-the-tree-c581f418.js": {
-    "file": "chunks/lyrics-psy-s-earth-ark-on-the-tree-c581f418.js",
+  "_lyrics-psy-s-earth-ark-on-the-tree-1d265434.js": {
+    "file": "chunks/lyrics-psy-s-earth-ark-on-the-tree-1d265434.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-radwimps-grand-escape-9516faf4.js": {
-    "file": "chunks/lyrics-radwimps-grand-escape-9516faf4.js",
+  "_lyrics-radwimps-grand-escape-d8cebd2b.js": {
+    "file": "chunks/lyrics-radwimps-grand-escape-d8cebd2b.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-saihate-1329c048.js": {
-    "file": "chunks/lyrics-saihate-1329c048.js",
+  "_lyrics-saihate-59e94ab3.js": {
+    "file": "chunks/lyrics-saihate-59e94ab3.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-4502ce2a.js": {
-    "file": "chunks/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-4502ce2a.js",
+  "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-848c516b.js": {
+    "file": "chunks/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-848c516b.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-sakai-mikio-wonderful-life-273c00eb.js": {
-    "file": "chunks/lyrics-sakai-mikio-wonderful-life-273c00eb.js",
+  "_lyrics-sakai-mikio-wonderful-life-b8636ab6.js": {
+    "file": "chunks/lyrics-sakai-mikio-wonderful-life-b8636ab6.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-sambomaster-people-call-it-passion-8a91a2b1.js": {
-    "file": "chunks/lyrics-sambomaster-people-call-it-passion-8a91a2b1.js",
+  "_lyrics-sambomaster-people-call-it-passion-16235ff2.js": {
+    "file": "chunks/lyrics-sambomaster-people-call-it-passion-16235ff2.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-see-saw-story-with-you-dfbb848a.js": {
-    "file": "chunks/lyrics-see-saw-story-with-you-dfbb848a.js",
+  "_lyrics-see-saw-story-with-you-e2135550.js": {
+    "file": "chunks/lyrics-see-saw-story-with-you-e2135550.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-susumu-hirasawa-kingdom-4ffa6f14.js": {
-    "file": "chunks/lyrics-susumu-hirasawa-kingdom-4ffa6f14.js",
+  "_lyrics-susumu-hirasawa-kingdom-2c25f003.js": {
+    "file": "chunks/lyrics-susumu-hirasawa-kingdom-2c25f003.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-suzuki-yume-one-and-only-7e8eb840.js": {
-    "file": "chunks/lyrics-suzuki-yume-one-and-only-7e8eb840.js",
+  "_lyrics-suzuki-yume-one-and-only-1d4b0f3e.js": {
+    "file": "chunks/lyrics-suzuki-yume-one-and-only-1d4b0f3e.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-the-high-lows-messenger-from-sunday-44bc7399.js": {
-    "file": "chunks/lyrics-the-high-lows-messenger-from-sunday-44bc7399.js",
+  "_lyrics-the-high-lows-messenger-from-sunday-f133cab3.js": {
+    "file": "chunks/lyrics-the-high-lows-messenger-from-sunday-f133cab3.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-the-pillows-funny-bunny-17ebe774.js": {
-    "file": "chunks/lyrics-the-pillows-funny-bunny-17ebe774.js",
+  "_lyrics-the-pillows-funny-bunny-1fa97c69.js": {
+    "file": "chunks/lyrics-the-pillows-funny-bunny-1fa97c69.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-toshihide-baba-boys-on-the-run-570bd05f.js": {
-    "file": "chunks/lyrics-toshihide-baba-boys-on-the-run-570bd05f.js",
+  "_lyrics-toshihide-baba-boys-on-the-run-21e5aeb7.js": {
+    "file": "chunks/lyrics-toshihide-baba-boys-on-the-run-21e5aeb7.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-toshihide-baba-ordinary-0bf7ba88.js": {
-    "file": "chunks/lyrics-toshihide-baba-ordinary-0bf7ba88.js",
+  "_lyrics-toshihide-baba-ordinary-a32f05bd.js": {
+    "file": "chunks/lyrics-toshihide-baba-ordinary-a32f05bd.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-yoshida-takuro-dont-talk-about-life-8faa9ae1.js": {
-    "file": "chunks/lyrics-yoshida-takuro-dont-talk-about-life-8faa9ae1.js",
+  "_lyrics-yoshida-takuro-dont-talk-about-life-52225fe5.js": {
+    "file": "chunks/lyrics-yoshida-takuro-dont-talk-about-life-52225fe5.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-yui-makino-modokashii-sekai-no-ue-de-8db75be9.js": {
-    "file": "chunks/lyrics-yui-makino-modokashii-sekai-no-ue-de-8db75be9.js",
+  "_lyrics-yui-makino-modokashii-sekai-no-ue-de-a55492ef.js": {
+    "file": "chunks/lyrics-yui-makino-modokashii-sekai-no-ue-de-a55492ef.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_mpv-3b8fcf9d.js": {
-    "file": "chunks/mpv-3b8fcf9d.js",
+  "_mpv-5e47be7e.js": {
+    "file": "chunks/mpv-5e47be7e.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_search-engine-operators-e56138b4.js": {
-    "file": "chunks/search-engine-operators-e56138b4.js",
+  "_search-engine-operators-dfea4f1e.js": {
+    "file": "chunks/search-engine-operators-dfea4f1e.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_tool-list-creativity-71f9b3e1.js": {
-    "file": "chunks/tool-list-creativity-71f9b3e1.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-1ddf5aaf.js",
-      "__post-96223c4b.js"
-    ],
-    "css": [
-      "assets/tool-list-gaming-cfa2b81a.css"
-    ]
-  },
-  "_tool-list-gaming-52b967cc.js": {
-    "file": "chunks/tool-list-gaming-52b967cc.js",
+  "_tool-list-creativity-28309605.js": {
+    "file": "chunks/tool-list-creativity-28309605.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ],
     "css": [
-      "assets/tool-list-gaming-cfa2b81a.css"
+      "assets/tool-list-creativity-74747bfb.css"
     ]
   },
-  "_tool-list-system-2175dfee.js": {
-    "file": "chunks/tool-list-system-2175dfee.js",
+  "_tool-list-gaming-55cdadf0.js": {
+    "file": "chunks/tool-list-gaming-55cdadf0.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ],
     "css": [
-      "assets/tool-list-gaming-cfa2b81a.css"
+      "assets/tool-list-creativity-74747bfb.css"
     ]
   },
-  "_tool-list-website-7ab34cd8.js": {
-    "file": "chunks/tool-list-website-7ab34cd8.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-1ddf5aaf.js",
-      "__post-96223c4b.js"
-    ]
-  },
-  "_use-foobar2k-to-listen-to-podcast-880b935e.js": {
-    "file": "chunks/use-foobar2k-to-listen-to-podcast-880b935e.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-1ddf5aaf.js",
-      "__post-96223c4b.js"
-    ]
-  },
-  "_what-nft-is-not-cbc49684.js": {
-    "file": "chunks/what-nft-is-not-cbc49684.js",
+  "_tool-list-system-30ae32e4.js": {
+    "file": "chunks/tool-list-system-30ae32e4.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ],
     "css": [
-      "assets/what-nft-is-not-56f1b9b0.css"
+      "assets/tool-list-creativity-74747bfb.css"
     ]
   },
-  "_why-is-life-so-boring-84c5b37d.js": {
-    "file": "chunks/why-is-life-so-boring-84c5b37d.js",
+  "_tool-list-website-294f6840.js": {
+    "file": "chunks/tool-list-website-294f6840.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-1ddf5aaf.js",
+      "__post-96223c4b.js"
+    ]
+  },
+  "_use-foobar2k-to-listen-to-podcast-e6e5597d.js": {
+    "file": "chunks/use-foobar2k-to-listen-to-podcast-e6e5597d.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-1ddf5aaf.js",
+      "__post-96223c4b.js"
+    ]
+  },
+  "_what-nft-is-not-5a2a6093.js": {
+    "file": "chunks/what-nft-is-not-5a2a6093.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-1ddf5aaf.js",
+      "__post-96223c4b.js"
+    ],
+    "css": [
+      "assets/what-nft-is-not-17bf58b6.css"
+    ]
+  },
+  "_why-is-life-so-boring-20e6c17d.js": {
+    "file": "chunks/why-is-life-so-boring-20e6c17d.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
