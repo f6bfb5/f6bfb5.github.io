@@ -15,6 +15,9 @@
     class={$page.url.pathname === "/rss" ? "selected" : ""}
     href={`${base}/rss.xml`}>rss</a
   >
+  <a
+    href={`${base}/sitemap.xml`} style="display: none;">sitemap</a
+  >
 </nav>
 
 <style scoped>
