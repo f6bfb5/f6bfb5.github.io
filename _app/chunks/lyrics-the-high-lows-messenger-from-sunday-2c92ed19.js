@@ -1,0 +1,35 @@
+import{S as Ut,i as Vt,s as Wt,C as Gt,w as Xt,x as dt,y as ht,z as gt,A as Nt,q as te,o as ee,B as le,R as Qt,e as a,k as v,t as f,c as s,a as n,d as l,m as R,h as p,F as re,b as V,g as u,G as e,E as ae}from"./index-1ddf5aaf.js";import{P as se}from"./_post-96223c4b.js";function fe(T){let _,S,c,o,i,B,L,W,X,M,j,d,k,E,h,g,tt,et,lt,G,P,rt,at,st,ft,pt,H,q,_t,Y,y,ut,it,ot,bt,mt,Z,$,nt,vt,Rt,D,z,Bt,J,b,ct,Et,Pt,yt,wt,xt,St,$t,Tt,K,m,Lt,jt,qt,zt,Ft,Ot,At,Ct,It,N,F,Mt,Q,O,kt;return{c(){_=a("iframe"),c=v(),o=a("p"),i=f("\u80FD\u4E0D\u80FD\u5C31\u9019\u6A23\u5B50"),B=a("br"),L=f(`
+\u5E36\u6211\u5230\u90A3\u9060\u65B9\u53BB`),W=a("br"),X=f(`
+\u662F\u4F60 \u4F60\u5C31\u662F\u90A3 \u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005`),M=v(),j=a("p"),d=f("Sha la la"),k=v(),E=a("p"),h=f("\u80FD\u4E0D\u80FD\u5C31\u9019\u6A23\u5B50"),g=a("br"),tt=f(`
+\u5E36\u6211\u5230\u90A3\u9060\u65B9\u53BB`),et=a("br"),lt=f(`
+\u662F\u4F60 \u4F60\u5C31\u662F\u90A3 \u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005`),G=v(),P=a("p"),rt=f("\u5373\u4F7F\u9019\u6574\u500B\u4E16\u754C"),at=a("br"),st=f(`
+\u90FD\u6EFF\u904D\u61FE\u4EBA\u8C6A\u96E8`),ft=a("br"),pt=f(`
+\u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005 \u4E5F\u6703\u6367\u8179\u5927\u7B11`),H=v(),q=a("p"),_t=f("Sha la la"),Y=v(),y=a("p"),ut=f("\u8B93\u81EA\u5DF1\u6C89\u6D78\u5728\u65BC"),it=a("br"),ot=f(`
+\u6628\u665A\u5165\u5589\u7684\u9152\u676F`),bt=a("br"),mt=f(`
+\u6D6E\u73FE\u5728\u6C34\u9762\u4E0A\u7684 \u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005`),Z=v(),$=a("p"),nt=f("\u96A8\u53E3\u6492\u500B\u8B0A\u8A00"),vt=a("br"),Rt=f(`
+\u70BA\u4E86\u5EA6\u904E\u7576\u4E0B`),D=v(),z=a("p"),Bt=f("\u4E0D\u50B7\u5BB3\u4EFB\u4F55\u4EBA\u7684 \u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005"),J=v(),b=a("p"),ct=f("\uFF08\u203B\uFF09"),Et=a("br"),Pt=f(`
+\u6D41\u661F\u6700\u5F8C\u62B5\u9054\u65BC`),yt=a("br"),wt=f(`
+\u60B2\u50B7\u6C89\u6FB1\u7684\u897F\u65B9`),xt=a("br"),St=f(`
+\u8B93\u6211\u5011\u524D\u53BB\u8FCE\u63A5`),$t=a("br"),Tt=f(`
+\u5F9E\u6771\u65B9\u6607\u8D77\u4E4B\u7269 \u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005`),K=v(),m=a("p"),Lt=f("\u80FD\u4E0D\u80FD\u5C31\u9019\u6A23\u5B50"),jt=a("br"),qt=f(`
+\u5E36\u6211\u5230\u90A3\u9060\u65B9\u53BB`),zt=a("br"),Ft=f(`
+\u662F\u4F60 \u4F60\u5C31\u662F\u90A3 \u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005`),Ot=a("br"),At=f(`
+\u5373\u4F7F\u9019\u500B\u57CE\u5E02 \u6B63\u9700\u8981\u6211`),Ct=a("br"),It=f(`
+\u73FE\u5728\u5C31\u51FA\u767C\u5427 \u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005`),N=v(),F=a("p"),Mt=f("\uFF08\u203B\uFF09"),Q=v(),O=a("p"),kt=f("Sha la la"),this.h()},l(t){_=s(t,"IFRAME",{src:!0,title:!0,frameborder:!0,allow:!0}),n(_).forEach(l),c=R(t),o=s(t,"P",{});var r=n(o);i=p(r,"\u80FD\u4E0D\u80FD\u5C31\u9019\u6A23\u5B50"),B=s(r,"BR",{}),L=p(r,`
+\u5E36\u6211\u5230\u90A3\u9060\u65B9\u53BB`),W=s(r,"BR",{}),X=p(r,`
+\u662F\u4F60 \u4F60\u5C31\u662F\u90A3 \u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005`),r.forEach(l),M=R(t),j=s(t,"P",{});var Yt=n(j);d=p(Yt,"Sha la la"),Yt.forEach(l),k=R(t),E=s(t,"P",{});var A=n(E);h=p(A,"\u80FD\u4E0D\u80FD\u5C31\u9019\u6A23\u5B50"),g=s(A,"BR",{}),tt=p(A,`
+\u5E36\u6211\u5230\u90A3\u9060\u65B9\u53BB`),et=s(A,"BR",{}),lt=p(A,`
+\u662F\u4F60 \u4F60\u5C31\u662F\u90A3 \u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005`),A.forEach(l),G=R(t),P=s(t,"P",{});var C=n(P);rt=p(C,"\u5373\u4F7F\u9019\u6574\u500B\u4E16\u754C"),at=s(C,"BR",{}),st=p(C,`
+\u90FD\u6EFF\u904D\u61FE\u4EBA\u8C6A\u96E8`),ft=s(C,"BR",{}),pt=p(C,`
+\u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005 \u4E5F\u6703\u6367\u8179\u5927\u7B11`),C.forEach(l),H=R(t),q=s(t,"P",{});var Zt=n(q);_t=p(Zt,"Sha la la"),Zt.forEach(l),Y=R(t),y=s(t,"P",{});var I=n(y);ut=p(I,"\u8B93\u81EA\u5DF1\u6C89\u6D78\u5728\u65BC"),it=s(I,"BR",{}),ot=p(I,`
+\u6628\u665A\u5165\u5589\u7684\u9152\u676F`),bt=s(I,"BR",{}),mt=p(I,`
+\u6D6E\u73FE\u5728\u6C34\u9762\u4E0A\u7684 \u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005`),I.forEach(l),Z=R(t),$=s(t,"P",{});var U=n($);nt=p(U,"\u96A8\u53E3\u6492\u500B\u8B0A\u8A00"),vt=s(U,"BR",{}),Rt=p(U,`
+\u70BA\u4E86\u5EA6\u904E\u7576\u4E0B`),U.forEach(l),D=R(t),z=s(t,"P",{});var Dt=n(z);Bt=p(Dt,"\u4E0D\u50B7\u5BB3\u4EFB\u4F55\u4EBA\u7684 \u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005"),Dt.forEach(l),J=R(t),b=s(t,"P",{});var w=n(b);ct=p(w,"\uFF08\u203B\uFF09"),Et=s(w,"BR",{}),Pt=p(w,`
+\u6D41\u661F\u6700\u5F8C\u62B5\u9054\u65BC`),yt=s(w,"BR",{}),wt=p(w,`
+\u60B2\u50B7\u6C89\u6FB1\u7684\u897F\u65B9`),xt=s(w,"BR",{}),St=p(w,`
+\u8B93\u6211\u5011\u524D\u53BB\u8FCE\u63A5`),$t=s(w,"BR",{}),Tt=p(w,`
+\u5F9E\u6771\u65B9\u6607\u8D77\u4E4B\u7269 \u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005`),w.forEach(l),K=R(t),m=s(t,"P",{});var x=n(m);Lt=p(x,"\u80FD\u4E0D\u80FD\u5C31\u9019\u6A23\u5B50"),jt=s(x,"BR",{}),qt=p(x,`
+\u5E36\u6211\u5230\u90A3\u9060\u65B9\u53BB`),zt=s(x,"BR",{}),Ft=p(x,`
+\u662F\u4F60 \u4F60\u5C31\u662F\u90A3 \u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005`),Ot=s(x,"BR",{}),At=p(x,`
+\u5373\u4F7F\u9019\u500B\u57CE\u5E02 \u6B63\u9700\u8981\u6211`),Ct=s(x,"BR",{}),It=p(x,`
+\u73FE\u5728\u5C31\u51FA\u767C\u5427 \u4F86\u81EA\u9031\u65E5\u7684\u4F7F\u8005`),x.forEach(l),N=R(t),F=s(t,"P",{});var Jt=n(F);Mt=p(Jt,"\uFF08\u203B\uFF09"),Jt.forEach(l),Q=R(t),O=s(t,"P",{});var Kt=n(O);kt=p(Kt,"Sha la la"),Kt.forEach(l),this.h()},h(){re(_.src,S="https://www.youtube.com/embed/3uIzx6w8OEo")||V(_,"src",S),V(_,"title","YouTube video player"),V(_,"frameborder","0"),V(_,"allow","accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"),_.allowFullscreen=!0},m(t,r){u(t,_,r),u(t,c,r),u(t,o,r),e(o,i),e(o,B),e(o,L),e(o,W),e(o,X),u(t,M,r),u(t,j,r),e(j,d),u(t,k,r),u(t,E,r),e(E,h),e(E,g),e(E,tt),e(E,et),e(E,lt),u(t,G,r),u(t,P,r),e(P,rt),e(P,at),e(P,st),e(P,ft),e(P,pt),u(t,H,r),u(t,q,r),e(q,_t),u(t,Y,r),u(t,y,r),e(y,ut),e(y,it),e(y,ot),e(y,bt),e(y,mt),u(t,Z,r),u(t,$,r),e($,nt),e($,vt),e($,Rt),u(t,D,r),u(t,z,r),e(z,Bt),u(t,J,r),u(t,b,r),e(b,ct),e(b,Et),e(b,Pt),e(b,yt),e(b,wt),e(b,xt),e(b,St),e(b,$t),e(b,Tt),u(t,K,r),u(t,m,r),e(m,Lt),e(m,jt),e(m,qt),e(m,zt),e(m,Ft),e(m,Ot),e(m,At),e(m,Ct),e(m,It),u(t,N,r),u(t,F,r),e(F,Mt),u(t,Q,r),u(t,O,r),e(O,kt)},p:ae,d(t){t&&l(_),t&&l(c),t&&l(o),t&&l(M),t&&l(j),t&&l(k),t&&l(E),t&&l(G),t&&l(P),t&&l(H),t&&l(q),t&&l(Y),t&&l(y),t&&l(Z),t&&l($),t&&l(D),t&&l(z),t&&l(J),t&&l(b),t&&l(K),t&&l(m),t&&l(N),t&&l(F),t&&l(Q),t&&l(O)}}}function pe(T){let _,S;const c=[T[0],Ht];let o={$$slots:{default:[fe]},$$scope:{ctx:T}};for(let i=0;i<c.length;i+=1)o=Gt(o,c[i]);return _=new se({props:o}),{c(){Xt(_.$$.fragment)},l(i){dt(_.$$.fragment,i)},m(i,B){ht(_,i,B),S=!0},p(i,[B]){const L=B&1?gt(c,[B&1&&Nt(i[0]),B&0&&Nt(Ht)]):{};B&2&&(L.$$scope={dirty:B,ctx:i}),_.$set(L)},i(i){S||(te(_.$$.fragment,i),S=!0)},o(i){ee(_.$$.fragment,i),S=!1},d(i){le(_,i)}}}const Ht={title:"\u3010\u6B4C\u8A5E\u7FFB\u8B6F\u3011The High-Lows - \u65E5\u66DC\u65E5\u3088\u308A\u306E\u4F7F\u8005",date:"2019-08-27T11:21:10.000Z",tags:"Lyrics, Translate"};function _e(T,_,S){return T.$$set=c=>{S(0,_=Gt(Gt({},_),Qt(c)))},_=Qt(_),[_]}class ue extends Ut{constructor(_){super(),Vt(this,_,_e,pe,Wt,{})}}var be=Object.freeze(Object.defineProperty({__proto__:null,default:ue,metadata:Ht},Symbol.toStringTag,{value:"Module"}));export{ue as L,be as _,Ht as m};

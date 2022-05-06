@@ -1,0 +1,1 @@
+import"../../chunks/index-1ddf5aaf.js";import"../../chunks/_post-96223c4b.js";import{A as r,m as e}from"../../chunks/ACG-evening-chat-of-game-xenogears-611399da.js";export{r as default,e as metadata};

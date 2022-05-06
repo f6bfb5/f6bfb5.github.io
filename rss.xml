@@ -5,7 +5,7 @@
     <link>https://f6bfb5.github.io</link>
     <description>Close the world,.txEn eht nepO</description>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 05 May 2022 22:10:33 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 May 2022 14:50:57 GMT</lastBuildDate>
     
       <item>
         <title>2020 年，我在網路上看了些什麼</title>
@@ -250,13 +250,6 @@
         <link>https://f6bfb5.github.io/ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition</link>
         <pubDate>2020-07-08T20:35:32.000Z</pubDate>
         <description>雖然當年 PS2 的性能已十分令人驚訝，現在看來更能感受到 PS2 的性能，是大幅超越了當時普遍的規格。簡直是遊戲歷史上的超時代產物…隨著世代轉變，PS3 當然有了更好的性能，但想用來和 PS2 的最大性能對抗仍然不是件簡單的事。當時使用的還是 SD 解析度，現在已經升到了 720p/1080p 的 HD 畫質，需要繪出的圖像面積也多出非常多，為了能達到對等的成效，PS3 也得要以最大性能來處理。</description>
-      </item>
-      
-      <item>
-        <title>關於「旅人的邏輯」</title>
-        <link>https://f6bfb5.github.io/ACG-theory-of-traveller</link>
-        <pubDate>2019-01-22T06:53:00.000Z</pubDate>
-        <description>重要的是，徹底地沉迷，之後，從那裡回來。這樣才能開始看見許多東西。而這時所看見的東西，是在所沉迷時絕對看不見的，而也是不會沉迷的人，永遠無法理解的</description>
       </item>
       
       <item>
@@ -554,17 +547,24 @@
       </item>
       
       <item>
+        <title>關於「旅人的邏輯」</title>
+        <link>https://f6bfb5.github.io/theory-of-traveller</link>
+        <pubDate>2019-01-22T06:53:00.000Z</pubDate>
+        <description>「你們是將成為藝術家的雛鳥，所以會想從如鐵籠般將自己困住的價值觀裡逃離獲得自由。（略）那麼，離開了這道鐵籠後呢。那裡又會是另一道鐵籠。這個鐵籠就是文化。人類社會就像是立體格子鐵架一樣的文化鐵籠無限連鎖著。只要人類身為人類，是無法從裡頭逃脫的。那麼，想在裡面追求自由的話該怎麼做好呢。人類唯一被允許能夠享受自由的方法，就是在這數多的鐵籠裡來回移動。雖然沒辦法自鐵籠裡逃出，從鐵籠移動到另一個鐵籠是可能的。也就是，成為旅人。」</description>
+      </item>
+      
+      <item>
         <title>Toolbox - 內容創作篇</title>
         <link>https://f6bfb5.github.io/tool-list-creativity</link>
         <pubDate>2019-10-21T18:10:11.000Z</pubDate>
-        
+        <description>各種工具軟體整理。</description>
       </item>
       
       <item>
         <title>Toolbox - 遊戲工具篇</title>
         <link>https://f6bfb5.github.io/tool-list-gaming</link>
         <pubDate>2019-10-21T18:10:11.000Z</pubDate>
-        
+        <description>各種工具軟體整理。</description>
       </item>
       
       <item>
@@ -592,7 +592,7 @@
         <title>NFT 是什麼，又不是什麼？</title>
         <link>https://f6bfb5.github.io/what-nft-is-not</link>
         <pubDate>2022-01-04T20:56:33.000Z</pubDate>
-        
+        <description>「具唯一性的可持有資產」與數位特性的衝突，並未因為 NFT 的登場有所改善。現今反而充斥以投機資金為目標的詐欺商法，若未做好功課便貿然出手恐有高度風險。從其技術性的本質來看，將 NFT 視為「參與服務或體驗的權利」而非「擁有資產或作品的權利」會是比較好的觀點。</description>
       </item>
       
       <item>
