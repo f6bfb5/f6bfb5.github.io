@@ -2,7 +2,7 @@
 title: "【異域神兵】新的才能展露頭角的時代＆故事的考察"
 date: 2019-07-15T23:46:44.000Z
 summary: "主角菲以拉罕村村長養子的身份生活著。然而，在就隔天是好友婚禮的當天，吉斯雷卜的 Gear 出現在村莊裡，並使村莊陷入一片火海。菲搭上明應是首次看見的 Gear 迎戰，Gear 卻突然爆走。導致了奪走全村村人性命的慘況…。無法再待在村裡的菲，暫且決定隻身一人前往亞維之國。"
-tags: Game
+tags: ACG, Game, Translate
 ---
 
 <iframe title="【異域神兵】新的才能展露頭角的時代"  src="https://www.youtube.com/embed/WizEeve1SJM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

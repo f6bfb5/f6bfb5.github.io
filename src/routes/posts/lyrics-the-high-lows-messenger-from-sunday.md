@@ -4,7 +4,7 @@ date: 2019-08-27T11:21:10.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe src="https://www.youtube.com/embed/F9qqSQLbjPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/3uIzx6w8OEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 能不能就這樣子<br>
 帶我到那遠方去<br>
@@ -34,8 +34,8 @@ Sha la la
 （※）<br>
 流星最後抵達於<br>
 悲傷沉澱的西方<br>
-讓我們前去迎接吧<br>
-將在東方升起之物 來自週日的使者
+讓我們前去迎接<br>
+從東方昇起之物 來自週日的使者
 
 能不能就這樣子<br>
 帶我到那遠方去<br>

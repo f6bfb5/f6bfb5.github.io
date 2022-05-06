@@ -529,27 +529,63 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
     - 理想的情侶關係是？
 - [あなたは【ノーマル】タイプ！ カービィのコピー能力から、あなたのタイプを診断してみよう！](https://www.kirby.jp/special/personalityquiz/result/31-kirby_normal.php)
 - [20 歳が観るべきアニメ 38 タイトルを選んでみた（藤津亮太）](https://qjweb.jp/journal/70033/?mode=all)
+  - 以 20 歲的動畫粉絲為對象，「能夠理解為目前的主流動畫，變成現今模樣背後的脈絡」為目標所羅列的動畫作品
+  - 目的不是要網羅「所有的有趣作品」或是「歷史性轉折點的作品」
+  - 重要的是可以透過其中數部作品的組合，理解到貫穿動畫背後的各種文脈
   - 1958 - 白蛇傳
   - 1962 - [某個街角的故事](https://youtu.be/mB1BJWJfOJg)
   - 1963 - 淘氣王子戰大蛇
   - 1967 - 忍者武藝帳
   - 1968 - 巨人之星
+  - 1968 - 太陽王子 霍爾斯的大冒險
+  - 1969 - 虎面人
+  - 1973 - 悲傷的貝拉朵娜
+  - 1974 - 阿爾卑斯的少女小蓮
+  - 1974 - 宇宙戰艦大和號
+  - 1975 - 頑皮鼠歷險記
+  - 1978 - 未來少年柯南
+  - 1979 - 銀河鐵道 999（電影版）
+  - 1979 - 網球甜心
+  - 1981 - 機動戰士鋼彈（電影版三部曲）
+  - 1984 - 超時空要塞 愛，還記得嗎？
+  - 1984 - 福星小子 2 綺麗夢中人
+  - 1986 - 魔法之星愛美 蟬時雨
+  - 1987 - 王立宇宙軍～歐尼亞米斯之翼～
+  - 1988 - 螢火蟲之墓
+  - 1988 - AKIRA
+  - 1989 - 祖先大人萬萬歲！
+  - 1993 - 電影版美少女戰士 R
+  - 1993 - [機動警察 2 the Movie](https://ani.gamer.com.tw/animeVideo.php?sn=11837)
+  - 1995 - 新世紀福音戰士
+  - 1997 - 少女革命
+  - 2000 - [人狼 JIN-ROH](https://ani.gamer.com.tw/animeVideo.php?sn=11857)
+  - 2000 - 數碼寶貝大冒險 我們的戰爭遊戲！
+  - 2001 - [千年女優](https://ani.gamer.com.tw/animeVideo.php?sn=11669)
+  - 2004 - 心靈遊戲
+  - 2006 - 涼宮春日的憂鬱
+  - 2009 - K-ON！輕音部
+  - 2009 - 化物語
+  - 2013 - 輝夜姬物語
+  - 2016 - 謝謝你，在世界的角落找到我
+  - 2016 - 你的名字。
+  - 2017 - BLAME!
+  - 2018 - HUG! 光之美少女
 - [産まない高学歴と貧困の子沢山...そんな時代はもう終わっていた 日本の少子化を分析した論文が浮き彫りにした現代の格差とは](https://togetter.com/li/1880613)
-- [40年間続いている『ダンジョンズ&ドラゴンズ』のキャンペーンを特集する動画が公開](https://news.denfaminicogamer.jp/news/220502k)
-  - [記得經典桌遊《龍與地下城》嗎？「資深城主」40年來靠精緻手作道具、場景延續遊戲](https://www.youtube.com/watch?v=mZcsiKB7crA)
+- [40 年間続いている『ダンジョンズ&ドラゴンズ』のキャンペーンを特集する動画が公開](https://news.denfaminicogamer.jp/news/220502k)
+  - [記得經典桌遊《龍與地下城》嗎？「資深城主」40 年來靠精緻手作道具、場景延續遊戲](https://www.youtube.com/watch?v=mZcsiKB7crA)
 - [「性的な漫画です」とツイートされた漫画の性的なレベルが高すぎて混乱してしまう人や刺さりすぎておかしくなる人が相次いでしまう](https://togetter.com/li/1880582)
-- [2000時間の遠回り英語学習を経てたどり着いた、1日30分でネイティブの会話が聞き取れるようになる練習法](https://anond.hatelabo.jp/20220502190016)
+- [2000 時間の遠回り英語学習を経てたどり着いた、1 日 30 分でネイティブの会話が聞き取れるようになる練習法](https://anond.hatelabo.jp/20220502190016)
 - [アニメーションを作る仕事をしていた【前編】](https://anond.hatelabo.jp/20220502223251)
 - [アニメーションを作る仕事をしていた【後編】](https://anond.hatelabo.jp/20220502223252)
 - [ハレトキドキアメ - 小林おむすけ](https://shonenjumpplus.com/episode/3269754496899655161)
-- [リーナスがLinuxを開発したというのは、どれほど「技術的に」すごい偉業だったのでしょうか？ - Quora](https://jp.quora.com/%E3%83%AA%E3%83%BC%E3%83%8A%E3%82%B9%E3%81%8CLinux%E3%82%92%E9%96%8B%E7%99%BA%E3%81%97%E3%81%9F%E3%81%A8%E3%81%84%E3%81%86%E3%81%AE%E3%81%AF-%E3%81%A9%E3%82%8C%E3%81%BB%E3%81%A9-%E6%8A%80%E8%A1%93%E7%9A%84%E3%81%AB-)
+- [リーナスが Linux を開発したというのは、どれほど「技術的に」すごい偉業だったのでしょうか？ - Quora](https://jp.quora.com/%E3%83%AA%E3%83%BC%E3%83%8A%E3%82%B9%E3%81%8CLinux%E3%82%92%E9%96%8B%E7%99%BA%E3%81%97%E3%81%9F%E3%81%A8%E3%81%84%E3%81%86%E3%81%AE%E3%81%AF-%E3%81%A9%E3%82%8C%E3%81%BB%E3%81%A9-%E6%8A%80%E8%A1%93%E7%9A%84%E3%81%AB-)
 - [ガチオタに聞く！ ガイドブックには載らない秋葉原の歩き方](https://www.chintai.net/news/2014/09/30/1846/)
 - [歴史認識をアップデートする『世界史の考え方』](https://dain.cocolog-nifty.com/myblog/2022/04/post-b0fbe7.html)
 - [一時停止すると見えなくなる Bad Apple!!　ＰＶ (横)](https://www.nicovideo.jp/watch/sm40360290)
 - [「勃起」という言葉はいつから、普通の意味で使われなくなった？～ゴールデンカムイ雑談](https://m-dojo.hatenadiary.com/entry/2022/05/03/033127)
-- [私たちがゲームに関する文章を書くようになったきっかけ：#295 しゃべりすぎGAMER](https://www.youtube.com/watch?v=9Nfnsu1GVjY)
-- [「かゆうま」みたいなノリで匿名日記を書くサイト作って2年が経った](https://anond.hatelabo.jp/20220505021429)
-- [聊聊Hate Speech（仇恨言论）](https://democraticsocialism.noblogs.org/post/2018/10/27/%E8%81%8A%E8%81%8Ahate-speech%EF%BC%88%E4%BB%87%E6%81%A8%E8%A8%80%E8%AE%BA%EF%BC%89/)
+- [私たちがゲームに関する文章を書くようになったきっかけ：#295 しゃべりすぎ GAMER](https://www.youtube.com/watch?v=9Nfnsu1GVjY)
+- [「かゆうま」みたいなノリで匿名日記を書くサイト作って 2 年が経った](https://anond.hatelabo.jp/20220505021429)
+- [聊聊 Hate Speech（仇恨言论）](https://democraticsocialism.noblogs.org/post/2018/10/27/%E8%81%8A%E8%81%8Ahate-speech%EF%BC%88%E4%BB%87%E6%81%A8%E8%A8%80%E8%AE%BA%EF%BC%89/)
 - [ラノベはなぜ死んだのか](https://anond.hatelabo.jp/20220505041542)
 - [リアルとバーチャルの境界は消える？　どちらの良さも認め合う時代に](https://withnews.jp/article/k0220505008qq000000000000000S00111401qq000024650A)
 - [写真が下手だけどいい感じに"物撮り"したい。スマホ編 - Impress Watch](https://www.watch.impress.co.jp/docs/topic/1403688.html)

@@ -2,7 +2,7 @@
 title: "《Anubis Zone Of Enders》 HD EDITION -高品質背後所經之路-"
 date: 2020-07-08T20:35:32.000Z
 summary: "雖然當年 PS2 的性能已十分令人驚訝，現在看來更能感受到 PS2 的性能，是大幅超越了當時普遍的規格。簡直是遊戲歷史上的超時代產物…隨著世代轉變，PS3 當然有了更好的性能，但想用來和 PS2 的最大性能對抗仍然不是件簡單的事。當時使用的還是 SD 解析度，現在已經升到了 720p/1080p 的 HD 畫質，需要繪出的圖像面積也多出非常多，為了能達到對等的成效，PS3 也得要以最大性能來處理。"
-tags: ACG, Game
+tags: ACG, Game, Translate
 ---
 
 文章來源：[ZONE OF THE ENDERS HD EDITION -はいだらクオリティへの道- For quality and performance improvement.](http://hexadrive.sblo.jp/article/71326168.html)
