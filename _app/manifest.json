@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-878f305e.js",
+    "file": "start-247d8549.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -69,7 +69,7 @@
       "_lyrics-gift-from-you-6f5d5b50.js",
       "_lyrics-good-night-world-898065b7.js",
       "_lyrics-hamada-shogo-j-boy-ba817d96.js",
-      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-7ec11cd9.js",
+      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-6d173a5c.js",
       "_lyrics-joanne-hogg-stars-of-tears-7a8381c6.js",
       "_lyrics-mr-children-fake-35fced55.js",
       "_lyrics-okui-aki-wind-climbing-b01953a7.js",
@@ -78,13 +78,13 @@
       "_lyrics-psy-s-earth-ark-on-the-tree-1d265434.js",
       "_lyrics-radwimps-grand-escape-d8cebd2b.js",
       "_lyrics-saihate-50e9c257.js",
-      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-848c516b.js",
-      "_lyrics-sakai-mikio-wonderful-life-b8636ab6.js",
+      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-982bd42e.js",
+      "_lyrics-sakai-mikio-wonderful-life-84b7b706.js",
       "_lyrics-sambomaster-people-call-it-passion-16235ff2.js",
       "_lyrics-see-saw-story-with-you-e2135550.js",
       "_lyrics-susumu-hirasawa-kingdom-2c25f003.js",
       "_lyrics-suzuki-yume-one-and-only-1d4b0f3e.js",
-      "_lyrics-the-high-lows-messenger-from-sunday-cd3f0553.js",
+      "_lyrics-the-high-lows-messenger-from-sunday-af0cc0df.js",
       "_lyrics-the-pillows-funny-bunny-1fa97c69.js",
       "_lyrics-toshihide-baba-boys-on-the-run-121b9c71.js",
       "_lyrics-toshihide-baba-ordinary-a32f05bd.js",
@@ -128,7 +128,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-4b6175b2.js",
+    "file": "pages/_slug_.svelte-acc883f9.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -188,7 +188,7 @@
       "_lyrics-gift-from-you-6f5d5b50.js",
       "_lyrics-good-night-world-898065b7.js",
       "_lyrics-hamada-shogo-j-boy-ba817d96.js",
-      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-7ec11cd9.js",
+      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-6d173a5c.js",
       "_lyrics-joanne-hogg-stars-of-tears-7a8381c6.js",
       "_lyrics-mr-children-fake-35fced55.js",
       "_lyrics-okui-aki-wind-climbing-b01953a7.js",
@@ -197,13 +197,13 @@
       "_lyrics-psy-s-earth-ark-on-the-tree-1d265434.js",
       "_lyrics-radwimps-grand-escape-d8cebd2b.js",
       "_lyrics-saihate-50e9c257.js",
-      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-848c516b.js",
-      "_lyrics-sakai-mikio-wonderful-life-b8636ab6.js",
+      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-982bd42e.js",
+      "_lyrics-sakai-mikio-wonderful-life-84b7b706.js",
       "_lyrics-sambomaster-people-call-it-passion-16235ff2.js",
       "_lyrics-see-saw-story-with-you-e2135550.js",
       "_lyrics-susumu-hirasawa-kingdom-2c25f003.js",
       "_lyrics-suzuki-yume-one-and-only-1d4b0f3e.js",
-      "_lyrics-the-high-lows-messenger-from-sunday-cd3f0553.js",
+      "_lyrics-the-high-lows-messenger-from-sunday-af0cc0df.js",
       "_lyrics-the-pillows-funny-bunny-1fa97c69.js",
       "_lyrics-toshihide-baba-boys-on-the-run-121b9c71.js",
       "_lyrics-toshihide-baba-ordinary-a32f05bd.js",
@@ -236,7 +236,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-70cbbbf5.js",
+    "file": "pages/index.svelte-014cf20f.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -296,7 +296,7 @@
       "_lyrics-gift-from-you-6f5d5b50.js",
       "_lyrics-good-night-world-898065b7.js",
       "_lyrics-hamada-shogo-j-boy-ba817d96.js",
-      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-7ec11cd9.js",
+      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-6d173a5c.js",
       "_lyrics-joanne-hogg-stars-of-tears-7a8381c6.js",
       "_lyrics-mr-children-fake-35fced55.js",
       "_lyrics-okui-aki-wind-climbing-b01953a7.js",
@@ -305,13 +305,13 @@
       "_lyrics-psy-s-earth-ark-on-the-tree-1d265434.js",
       "_lyrics-radwimps-grand-escape-d8cebd2b.js",
       "_lyrics-saihate-50e9c257.js",
-      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-848c516b.js",
-      "_lyrics-sakai-mikio-wonderful-life-b8636ab6.js",
+      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-982bd42e.js",
+      "_lyrics-sakai-mikio-wonderful-life-84b7b706.js",
       "_lyrics-sambomaster-people-call-it-passion-16235ff2.js",
       "_lyrics-see-saw-story-with-you-e2135550.js",
       "_lyrics-susumu-hirasawa-kingdom-2c25f003.js",
       "_lyrics-suzuki-yume-one-and-only-1d4b0f3e.js",
-      "_lyrics-the-high-lows-messenger-from-sunday-cd3f0553.js",
+      "_lyrics-the-high-lows-messenger-from-sunday-af0cc0df.js",
       "_lyrics-the-pillows-funny-bunny-1fa97c69.js",
       "_lyrics-toshihide-baba-boys-on-the-run-121b9c71.js",
       "_lyrics-toshihide-baba-ordinary-a32f05bd.js",
@@ -887,13 +887,13 @@
     ]
   },
   "src/routes/posts/lyrics-higuchi-ryouichi-1-6-dream-traveller.md": {
-    "file": "pages/posts/lyrics-higuchi-ryouichi-1-6-dream-traveller.md-46a6197a.js",
+    "file": "pages/posts/lyrics-higuchi-ryouichi-1-6-dream-traveller.md-0a0b9924.js",
     "src": "src/routes/posts/lyrics-higuchi-ryouichi-1-6-dream-traveller.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-7ec11cd9.js"
+      "_lyrics-higuchi-ryouichi-1-6-dream-traveller-6d173a5c.js"
     ]
   },
   "src/routes/posts/lyrics-joanne-hogg-stars-of-tears.md": {
@@ -977,23 +977,23 @@
     ]
   },
   "src/routes/posts/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful.md": {
-    "file": "pages/posts/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful.md-6ebfa58f.js",
+    "file": "pages/posts/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful.md-3176bf80.js",
     "src": "src/routes/posts/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-848c516b.js"
+      "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-982bd42e.js"
     ]
   },
   "src/routes/posts/lyrics-sakai-mikio-wonderful-life.md": {
-    "file": "pages/posts/lyrics-sakai-mikio-wonderful-life.md-9dcf0133.js",
+    "file": "pages/posts/lyrics-sakai-mikio-wonderful-life.md-0f179f99.js",
     "src": "src/routes/posts/lyrics-sakai-mikio-wonderful-life.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-sakai-mikio-wonderful-life-b8636ab6.js"
+      "_lyrics-sakai-mikio-wonderful-life-84b7b706.js"
     ]
   },
   "src/routes/posts/lyrics-sambomaster-people-call-it-passion.md": {
@@ -1037,13 +1037,13 @@
     ]
   },
   "src/routes/posts/lyrics-the-high-lows-messenger-from-sunday.md": {
-    "file": "pages/posts/lyrics-the-high-lows-messenger-from-sunday.md-731284b5.js",
+    "file": "pages/posts/lyrics-the-high-lows-messenger-from-sunday.md-5bf42c26.js",
     "src": "src/routes/posts/lyrics-the-high-lows-messenger-from-sunday.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js",
-      "_lyrics-the-high-lows-messenger-from-sunday-cd3f0553.js"
+      "_lyrics-the-high-lows-messenger-from-sunday-af0cc0df.js"
     ]
   },
   "src/routes/posts/lyrics-the-pillows-funny-bunny.md": {
@@ -1654,8 +1654,8 @@
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-higuchi-ryouichi-1-6-dream-traveller-7ec11cd9.js": {
-    "file": "chunks/lyrics-higuchi-ryouichi-1-6-dream-traveller-7ec11cd9.js",
+  "_lyrics-higuchi-ryouichi-1-6-dream-traveller-6d173a5c.js": {
+    "file": "chunks/lyrics-higuchi-ryouichi-1-6-dream-traveller-6d173a5c.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
@@ -1726,16 +1726,16 @@
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-848c516b.js": {
-    "file": "chunks/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-848c516b.js",
+  "_lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-982bd42e.js": {
+    "file": "chunks/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-982bd42e.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-sakai-mikio-wonderful-life-b8636ab6.js": {
-    "file": "chunks/lyrics-sakai-mikio-wonderful-life-b8636ab6.js",
+  "_lyrics-sakai-mikio-wonderful-life-84b7b706.js": {
+    "file": "chunks/lyrics-sakai-mikio-wonderful-life-84b7b706.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
@@ -1774,8 +1774,8 @@
       "__post-96223c4b.js"
     ]
   },
-  "_lyrics-the-high-lows-messenger-from-sunday-cd3f0553.js": {
-    "file": "chunks/lyrics-the-high-lows-messenger-from-sunday-cd3f0553.js",
+  "_lyrics-the-high-lows-messenger-from-sunday-af0cc0df.js": {
+    "file": "chunks/lyrics-the-high-lows-messenger-from-sunday-af0cc0df.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
@@ -1854,7 +1854,7 @@
       "__post-96223c4b.js"
     ],
     "css": [
-      "assets/tool-list-gaming-cfa2b81a.css"
+      "assets/tool-list-system-90e7347a.css"
     ]
   },
   "_tool-list-gaming-ad21f991.js": {
@@ -1865,7 +1865,7 @@
       "__post-96223c4b.js"
     ],
     "css": [
-      "assets/tool-list-gaming-cfa2b81a.css"
+      "assets/tool-list-system-90e7347a.css"
     ]
   },
   "_tool-list-system-93d1f278.js": {
@@ -1876,7 +1876,7 @@
       "__post-96223c4b.js"
     ],
     "css": [
-      "assets/tool-list-gaming-cfa2b81a.css"
+      "assets/tool-list-system-90e7347a.css"
     ]
   },
   "_tool-list-website-c6ff7b9e.js": {
