@@ -4,7 +4,40 @@ date: 2019-08-27T11:21:10.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe src="https://www.youtube.com/embed/3uIzx6w8OEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video" src="https://www.youtube.com/embed/3uIzx6w8OEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<svelte:head>
+  <script src="../subtitle/youtube.external.subtitle.min.js"></script>
+  <script src="../subtitle/subtitles.parser.js"></script>
+</svelte:head>
+
+<script>
+  import { onMount } from 'svelte';
+  let subfile = '../subtitle/the-high-lows-messenger-from-sunday.srt'
+  onMount(() => {
+    var loadSRT = function(url, callback) {
+      var httpRequest = new XMLHttpRequest();
+      httpRequest.onreadystatechange = function() {
+        if (httpRequest.readyState === XMLHttpRequest.DONE) {
+          var subtitles = parser.fromSrt(httpRequest.responseText, true);
+          for (var i in subtitles) {
+            subtitles[i] = {
+              start : (subtitles[i].startTime / 1000),
+              end   : (subtitles[i].endTime / 1000),
+              text  : subtitles[i].text
+            };
+          }
+          callback(subtitles);
+        }
+      };
+      httpRequest.open('GET', url, true);
+      httpRequest.send(null);
+    };
+    loadSRT(subfile, function(subtitles) {
+      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.getElementById('video'), subtitles);
+    });
+  })
+</script>
 
 能不能就這樣子<br>
 帶我到那遠方去<br>

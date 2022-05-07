@@ -4,7 +4,40 @@ date: 2018-12-25T11:51:05.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe title="樋口了一 - 1/6の夢旅人2002" src="https://www.youtube.com/embed/lxt-zHlHd1o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video" title="樋口了一 - 1/6の夢旅人2002" src="https://www.youtube.com/embed/lxt-zHlHd1o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<svelte:head>
+  <script src="../subtitle/youtube.external.subtitle.min.js"></script>
+  <script src="../subtitle/subtitles.parser.js"></script>
+</svelte:head>
+
+<script>
+  import { onMount } from 'svelte';
+  let subfile = '../subtitle/higuchi-ryouichi-1-6-dream-traveller.srt'
+  onMount(() => {
+    var loadSRT = function(url, callback) {
+      var httpRequest = new XMLHttpRequest();
+      httpRequest.onreadystatechange = function() {
+        if (httpRequest.readyState === XMLHttpRequest.DONE) {
+          var subtitles = parser.fromSrt(httpRequest.responseText, true);
+          for (var i in subtitles) {
+            subtitles[i] = {
+              start : (subtitles[i].startTime / 1000) + 13,
+              end   : (subtitles[i].endTime / 1000) + 13,
+              text  : subtitles[i].text
+            };
+          }
+          callback(subtitles);
+        }
+      };
+      httpRequest.open('GET', url, true);
+      httpRequest.send(null);
+    };
+    loadSRT(subfile, function(subtitles) {
+      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.getElementById('video'), subtitles);
+    });
+  })
+</script>
 
 <p>轉啊轉啊地球旋轉著
 <br>一無所有時已是如此

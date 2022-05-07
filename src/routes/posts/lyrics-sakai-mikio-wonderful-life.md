@@ -4,7 +4,40 @@ date: 2018-12-25T12:42:06.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe title="酒井ミキオ - Wonderful Life" src="https://www.youtube.com/embed/HHPn9whQ2P4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video" title="酒井ミキオ - Wonderful Life" src="https://www.youtube.com/embed/Pj-iPkgTzoE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<svelte:head>
+  <script src="../subtitle/youtube.external.subtitle.min.js"></script>
+  <script src="../subtitle/subtitles.parser.js"></script>
+</svelte:head>
+
+<script>
+  import { onMount } from 'svelte';
+  let subfile = '../subtitle/sakai-mikio-wonderful-life.srt'
+  onMount(() => {
+    var loadSRT = function(url, callback) {
+      var httpRequest = new XMLHttpRequest();
+      httpRequest.onreadystatechange = function() {
+        if (httpRequest.readyState === XMLHttpRequest.DONE) {
+          var subtitles = parser.fromSrt(httpRequest.responseText, true);
+          for (var i in subtitles) {
+            subtitles[i] = {
+              start : (subtitles[i].startTime / 1000),
+              end   : (subtitles[i].endTime / 1000),
+              text  : subtitles[i].text
+            };
+          }
+          callback(subtitles);
+        }
+      };
+      httpRequest.open('GET', url, true);
+      httpRequest.send(null);
+    };
+    loadSRT(subfile, function(subtitles) {
+      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.getElementById('video'), subtitles);
+    });
+  })
+</script>
 
 <p>一口將水飲盡
 <br>抬頭望向夕陽 熾紅灼燒的雲
