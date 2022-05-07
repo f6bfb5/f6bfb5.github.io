@@ -13,7 +13,7 @@ tags: Lyrics, Translate
 
 <script>
   import { onMount } from 'svelte';
-  let subfile = '../'
+  let subfile = '../subtitle/toshihide-baba-boys-on-the-run.srt'
   onMount(() => {
     var loadSRT = function(url, callback) {
       var httpRequest = new XMLHttpRequest();
@@ -33,7 +33,7 @@ tags: Lyrics, Translate
       httpRequest.open('GET', url, true);
       httpRequest.send(null);
     };
-    loadSRT('../subtitle/toshihide-baba-boys-on-the-run.srt', function(subtitles) {
+    loadSRT(subfile, function(subtitles) {
       var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.getElementById('video'), subtitles);
     });
   })

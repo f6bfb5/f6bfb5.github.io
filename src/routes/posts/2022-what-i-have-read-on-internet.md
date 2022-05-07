@@ -589,3 +589,8 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [ラノベはなぜ死んだのか](https://anond.hatelabo.jp/20220505041542)
 - [リアルとバーチャルの境界は消える？　どちらの良さも認め合う時代に](https://withnews.jp/article/k0220505008qq000000000000000S00111401qq000024650A)
 - [写真が下手だけどいい感じに"物撮り"したい。スマホ編 - Impress Watch](https://www.watch.impress.co.jp/docs/topic/1403688.html)
+- [EYES WIDE OPEN - 外池達宏](https://shonenjumpplus.com/episode/3269754496899770414)
+- [自分を模したロボットは「自分」なのか？　D.E.A.D. ~Digital Employment After Death~を知った衝撃](https://note.com/nt_303/n/n6397dd233aaf)
+- [9.0水面下Megathrust | 放射性Hi5](https://radioactivehi5.bandcamp.com/album/90-megathrust)
+- [Web3 is going just great](https://web3isgoinggreat.com/)
+- [論文「説明書のWeb公開はボードゲーム同人制作者にとって効果的なプロモーション手法か」](https://booth.pm/ja/items/3845883)
