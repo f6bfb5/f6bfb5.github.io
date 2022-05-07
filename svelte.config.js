@@ -1,6 +1,7 @@
 // import adapter from "@sveltejs/adapter-auto";
 import staticAdapter from "@sveltejs/adapter-static";
 import { mdsvex } from "mdsvex";
+import mdsvexConfig from './mdsvex.config.js';
 
 // const dev = "production" === "development";
 
@@ -39,13 +40,7 @@ const config = {
 
   // options passed to svelte.preprocess (https://svelte.dev/docs#compile-time-svelte-preprocess)
   preprocess: [
-    mdsvex({
-      extensions: [".md"],
-      layout: {
-        blog: "src/routes/_post.svelte",
-        _: "src/routes/_post.svelte",
-      },
-    }),
+    mdsvex(mdsvexConfig),
   ],
 };
 

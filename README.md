@@ -33,6 +33,8 @@
 ## Ref
 
 - [Making a static blog with svelte-kit, tailwind and markdown](https://megzari.com/blog/about_this_site/)
-- [My personal Sapper to Svelte-Kit Cheat Sheet (this is not-official, and pre launch, don't use this unless you like fighting dragons and breaking changes)](https://gist.github.com/acoyfellow/a94f020245d4bfcd4c5d9ddc8f86a98a)
+- [My personal Sapper to Svelte-Kit Cheat Sheet](https://gist.github.com/acoyfellow/a94f020245d4bfcd4c5d9ddc8f86a98a)
 - [Sh031224/svelte-kit-github-page-example](https://github.com/Sh031224/svelte-kit-github-page-example)
 - [svelteland/svelte-kit-blog-demo](https://github.com/svelteland/svelte-kit-blog-demo)
+- [marydotdev/simple-sveltekit-starter-v2](https://github.com/marydotdev/simple-sveltekit-starter-v2)
+- [janosh/awesome-svelte-kit: Awesome examples of SvelteKit in the wild](https://github.com/janosh/awesome-svelte-kit)
