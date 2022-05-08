@@ -1,3 +1,14 @@
+import urls from 'rehype-urls';
+
+function processUrl(url, node) {
+  if (node.tagName === 'a') {
+    if (!url.href.startsWith("/")) {
+      node.properties.target = "_blank";
+      node.properties.rel = "noopener";
+    }
+  }
+}
+
 export default {
   extensions: [".md"],
   layout: {
@@ -5,5 +16,8 @@ export default {
     _: "src/routes/_post.svelte",
   },
   remarkPlugins: [],
-  rehypePlugins: [],
+  rehypePlugins: [
+    // [MDSveX and Svelte Kit](https://www.furudean.com/blog/svelte-kit-mdsvex)
+    [urls, processUrl],
+  ],
 }
