@@ -1,6 +1,11 @@
 <script>
+  // These props get filled in from the page's front matter
   export let title;
   export let date;
+  export let tags;
+
+  let _tags;
+  if (tags !== undefined) _tags = tags.split(", ");
 
   import BackToTop from "$lib/BackToTop.svelte";
   import BlinkAnchor from "$lib/BlinkAnchor.svelte";
@@ -19,12 +24,21 @@
       </span>
     {/each}
   </h1>
-  <p class="date">
-    {new Date(date).toLocaleDateString(undefined, {
-      year: "numeric",
-      month: "short",
-      day: "numeric",
-    })}
+  <p class="meta">
+    <span class="date">
+      {new Date(date).toLocaleDateString(undefined, {
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+      })}
+    </span>
+    {#if _tags}
+      <div class="tags">
+        {#each _tags as tag}
+          <span class="tag">{tag}</span>
+        {/each}
+      </div>
+    {/if}
   </p>
 </header>
 <div class="post--container">
@@ -57,11 +71,30 @@
     }
   }
 
-  .date {
+  .meta {
     padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .date {
+    /* padding: 0 20px; */
     color: var(--subtitle-color);
     text-transform: uppercase;
     font-weight: 600;
+  }
+  .tags {
+    display: inline-block;
+    text-align: right;
+  }
+  .tag {
+    padding: 0 4px;
+    font-size: .8em;;
+    color: var(--subtext-color);
+    border: 1px solid var(--subtext-color);
+    white-space: nowrap;
+  }
+  .tag + .tag {
+    margin-left: .5em;
   }
 
   .title {
