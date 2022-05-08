@@ -5,7 +5,8 @@
   export let tags;
 
   let _tags;
-  if (tags !== undefined) _tags = tags.split(", ");
+  if (tags !== undefined && tags !== null && !Array.isArray(tags)) _tags = tags.split(", ");
+  if (Array.isArray(tags)) _tags = tags;
 
   import BackToTop from "$lib/BackToTop.svelte";
   import BlinkAnchor from "$lib/BlinkAnchor.svelte";
