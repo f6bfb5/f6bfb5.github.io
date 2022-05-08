@@ -26,10 +26,8 @@
   <a
     href="https://seesaawiki.jp/w/niten_plus/d/%a5%d0%a1%bc%a5%dc%a5%f3%a5%cf%a5%a6%a5%b9"
     target="_blank"
-    rel="noreferrer noopener"
-  >
-    波本酒屋
-  </a>。<br />
+    rel="noreferrer noopener">波本酒屋</a
+  >。<br />
   這杯龍舌蘭是請你的，先喝了冷靜下來吧。<br />&nbsp;<br />
   嗯，「又是我」。不好意思。<br />
   俗話說事不過三，我也不覺得道歉就能得到原諒。<br />&nbsp;<br />
