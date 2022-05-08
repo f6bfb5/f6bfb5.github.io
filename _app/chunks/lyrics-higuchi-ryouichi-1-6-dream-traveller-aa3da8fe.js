@@ -1,0 +1,41 @@
+import{S as Dt,i as Nt,s as Yt,C as Ft,e as r,k as S,w as Zt,M as Jt,c as s,a as E,d as l,m as T,x as Kt,F as Ot,b as H,G as e,g as f,y as Qt,z as Ut,A as Xt,q as Vt,o as Wt,B as gt,v as te,R as kt,L as ee,t as a,h as n,E as le}from"./index-1ddf5aaf.js";import{P as re}from"./_post-4b9489f2.js";const{document:It}=ee;function se(I){let i,z,b,_,x,p,m,R,C,u,c,$,v,K,Q,U,V,W,g,tt,A,d,et,lt,rt,st,at,nt,it,ot,ut,G,q,ft,_t,pt,X,B,bt,ct,mt,vt,dt,Rt,Bt,k,P,yt,Et,xt,Pt,wt,D,y,St,Tt,$t,qt,ht,Lt,Mt,N,h,jt,zt,Ct,Y,F,Ht;return{c(){i=r("iframe"),b=S(),_=r("p"),x=a(`\u8F49\u554A\u8F49\u554A\u5730\u7403\u65CB\u8F49\u8457
+`),p=r("br"),m=a(`\u4E00\u7121\u6240\u6709\u6642\u5DF2\u662F\u5982\u6B64
+`),R=r("br"),C=a(`\u70BA\u4E86\u96A8\u6642\u90FD\u80FD\u98DB\u5954\u800C\u51FA
+`),u=r("br"),c=a("\u6211\u60F3\u8981\u50CF\u9AB0\u5B50\u822C\u5730\u7FFB\u6EFE"),$=S(),v=r("p"),K=a(`\u5728\u60F3\u54ED\u7684\u6642\u5019
+`),Q=r("br"),U=a(`\u5373\u4F7F\u60F3\u53BB\u898B\u4F60
+`),V=r("br"),W=a(`\u4E5F\u53EA\u662F\u5728\u901E\u5F37
+`),g=r("br"),tt=a("\u73FE\u5728\u4ECD\u4EC0\u9EBC\u90FD \u4EC0\u9EBC\u90FD\u4E0D\u61C2"),A=S(),d=r("p"),et=a(`\uFF08\u203B\uFF09
+`),lt=r("br"),rt=a(`\u7528\u6211\u5011\u7684\u6DDA\u6C34\u586B\u6EFF\u9019\u4E16\u754C
+`),st=r("br"),at=a(`\u5373\u4F7F\u9019\u4EFD\u7121\u6240\u9069\u5F9E\u7684\u60C5\u611F
+`),nt=r("br"),it=a(`\u964D\u4E0B\u4E86\u4ECA\u65E5\u7684\u96E8
+`),ot=r("br"),ut=a("\u65B0\u7684\u65E9\u6668\u4F9D\u820A\u4ECD\u6703\u518D\u958B\u59CB"),G=S(),q=r("p"),ft=a(`\u6211\u60F3\u8981\u50CF\u9019\u6A23\u5B50 \u50CF\u9019\u6A23\u5B50 \u6D3B\u4E0B\u53BB
+`),_t=r("br"),pt=a("\u50CF\u9019\u6A23\u5B50\u6D3B\u4E0B\u53BB"),X=S(),B=r("p"),bt=a(`\u7368\u81EA\u4E00\u4EBA\u7121\u6CD5\u505A\u5230\u7684\u4E8B
+`),ct=r("br"),mt=a(`\u53EA\u8981\u6709\u5805\u5F37\u7B11\u81C9\u7684\u4F19\u4F34 \u5C31\u80FD\u9054\u6210
+`),vt=r("br"),dt=a(`\u5230\u9054\u4E4B\u5F8C\u4E00\u5207\u624D\u662F\u958B\u59CB
+`),Rt=r("br"),Bt=a("\u73FE\u5728\u6C92\u6709\u9918\u88D5\u6C7A\u5B9A\u7D42\u9EDE"),k=S(),P=r("p"),yt=a(`\u53BB\u611B\u8457\u8AB0\u9019\u4EF6\u4E8B
+`),Et=r("br"),xt=a(`\u4E00\u76F4\u53BB\u76F8\u4FE1\u4EC0\u9EBC
+`),Pt=r("br"),wt=a("\u73FE\u5728\u6BD4\u4EC0\u9EBC\u90FD\u66F4\u52A0\u652F\u6301\u6211"),D=S(),y=r("p"),St=a(`\u7528\u6211\u5011\u7684\u6DDA\u6C34\u586B\u6EFF\u9019\u4E16\u754C
+`),Tt=r("br"),$t=a(`\u5373\u4F7F\u81EA\u7B4B\u75B2\u529B\u7AED\u7684\u8173\u4E0B\u8D77
+`),qt=r("br"),ht=a(`\u4E00\u5207\u90FD\u5B8C\u5168\u51CD\u7D50
+`),Lt=r("br"),Mt=a("\u7E3D\u6709\u4E00\u5929\u5357\u98A8\u6703\u518D\u6B21\u6B4C\u5531"),N=S(),h=r("p"),jt=a(`\u6211\u60F3\u8981\u50CF\u9019\u6A23\u5B50 \u50CF\u9019\u6A23\u5B50 \u6B61\u7B11\u8457
+`),zt=r("br"),Ct=a("\u50CF\u9019\u6A23\u5B50\u6B61\u7B11\u8457"),Y=S(),F=r("p"),Ht=a("\uFF08\u203B\uFF09"),this.h()},l(t){i=s(t,"IFRAME",{id:!0,title:!0,src:!0,frameborder:!0,allow:!0}),E(i).forEach(l),b=T(t),_=s(t,"P",{});var o=E(_);x=n(o,`\u8F49\u554A\u8F49\u554A\u5730\u7403\u65CB\u8F49\u8457
+`),p=s(o,"BR",{}),m=n(o,`\u4E00\u7121\u6240\u6709\u6642\u5DF2\u662F\u5982\u6B64
+`),R=s(o,"BR",{}),C=n(o,`\u70BA\u4E86\u96A8\u6642\u90FD\u80FD\u98DB\u5954\u800C\u51FA
+`),u=s(o,"BR",{}),c=n(o,"\u6211\u60F3\u8981\u50CF\u9AB0\u5B50\u822C\u5730\u7FFB\u6EFE"),o.forEach(l),$=T(t),v=s(t,"P",{});var L=E(v);K=n(L,`\u5728\u60F3\u54ED\u7684\u6642\u5019
+`),Q=s(L,"BR",{}),U=n(L,`\u5373\u4F7F\u60F3\u53BB\u898B\u4F60
+`),V=s(L,"BR",{}),W=n(L,`\u4E5F\u53EA\u662F\u5728\u901E\u5F37
+`),g=s(L,"BR",{}),tt=n(L,"\u73FE\u5728\u4ECD\u4EC0\u9EBC\u90FD \u4EC0\u9EBC\u90FD\u4E0D\u61C2"),L.forEach(l),A=T(t),d=s(t,"P",{});var w=E(d);et=n(w,`\uFF08\u203B\uFF09
+`),lt=s(w,"BR",{}),rt=n(w,`\u7528\u6211\u5011\u7684\u6DDA\u6C34\u586B\u6EFF\u9019\u4E16\u754C
+`),st=s(w,"BR",{}),at=n(w,`\u5373\u4F7F\u9019\u4EFD\u7121\u6240\u9069\u5F9E\u7684\u60C5\u611F
+`),nt=s(w,"BR",{}),it=n(w,`\u964D\u4E0B\u4E86\u4ECA\u65E5\u7684\u96E8
+`),ot=s(w,"BR",{}),ut=n(w,"\u65B0\u7684\u65E9\u6668\u4F9D\u820A\u4ECD\u6703\u518D\u958B\u59CB"),w.forEach(l),G=T(t),q=s(t,"P",{});var Z=E(q);ft=n(Z,`\u6211\u60F3\u8981\u50CF\u9019\u6A23\u5B50 \u50CF\u9019\u6A23\u5B50 \u6D3B\u4E0B\u53BB
+`),_t=s(Z,"BR",{}),pt=n(Z,"\u50CF\u9019\u6A23\u5B50\u6D3B\u4E0B\u53BB"),Z.forEach(l),X=T(t),B=s(t,"P",{});var M=E(B);bt=n(M,`\u7368\u81EA\u4E00\u4EBA\u7121\u6CD5\u505A\u5230\u7684\u4E8B
+`),ct=s(M,"BR",{}),mt=n(M,`\u53EA\u8981\u6709\u5805\u5F37\u7B11\u81C9\u7684\u4F19\u4F34 \u5C31\u80FD\u9054\u6210
+`),vt=s(M,"BR",{}),dt=n(M,`\u5230\u9054\u4E4B\u5F8C\u4E00\u5207\u624D\u662F\u958B\u59CB
+`),Rt=s(M,"BR",{}),Bt=n(M,"\u73FE\u5728\u6C92\u6709\u9918\u88D5\u6C7A\u5B9A\u7D42\u9EDE"),M.forEach(l),k=T(t),P=s(t,"P",{});var O=E(P);yt=n(O,`\u53BB\u611B\u8457\u8AB0\u9019\u4EF6\u4E8B
+`),Et=s(O,"BR",{}),xt=n(O,`\u4E00\u76F4\u53BB\u76F8\u4FE1\u4EC0\u9EBC
+`),Pt=s(O,"BR",{}),wt=n(O,"\u73FE\u5728\u6BD4\u4EC0\u9EBC\u90FD\u66F4\u52A0\u652F\u6301\u6211"),O.forEach(l),D=T(t),y=s(t,"P",{});var j=E(y);St=n(j,`\u7528\u6211\u5011\u7684\u6DDA\u6C34\u586B\u6EFF\u9019\u4E16\u754C
+`),Tt=s(j,"BR",{}),$t=n(j,`\u5373\u4F7F\u81EA\u7B4B\u75B2\u529B\u7AED\u7684\u8173\u4E0B\u8D77
+`),qt=s(j,"BR",{}),ht=n(j,`\u4E00\u5207\u90FD\u5B8C\u5168\u51CD\u7D50
+`),Lt=s(j,"BR",{}),Mt=n(j,"\u7E3D\u6709\u4E00\u5929\u5357\u98A8\u6703\u518D\u6B21\u6B4C\u5531"),j.forEach(l),N=T(t),h=s(t,"P",{});var J=E(h);jt=n(J,`\u6211\u60F3\u8981\u50CF\u9019\u6A23\u5B50 \u50CF\u9019\u6A23\u5B50 \u6B61\u7B11\u8457
+`),zt=s(J,"BR",{}),Ct=n(J,"\u50CF\u9019\u6A23\u5B50\u6B61\u7B11\u8457"),J.forEach(l),Y=T(t),F=s(t,"P",{});var Gt=E(F);Ht=n(Gt,"\uFF08\u203B\uFF09"),Gt.forEach(l),this.h()},h(){H(i,"id","video"),H(i,"title","\u6A0B\u53E3\u4E86\u4E00 - 1/6\u306E\u5922\u65C5\u4EBA2002"),Ot(i.src,z="https://www.youtube.com/embed/lxt-zHlHd1o")||H(i,"src",z),H(i,"frameborder","0"),H(i,"allow","accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"),i.allowFullscreen=!0},m(t,o){f(t,i,o),f(t,b,o),f(t,_,o),e(_,x),e(_,p),e(_,m),e(_,R),e(_,C),e(_,u),e(_,c),f(t,$,o),f(t,v,o),e(v,K),e(v,Q),e(v,U),e(v,V),e(v,W),e(v,g),e(v,tt),f(t,A,o),f(t,d,o),e(d,et),e(d,lt),e(d,rt),e(d,st),e(d,at),e(d,nt),e(d,it),e(d,ot),e(d,ut),f(t,G,o),f(t,q,o),e(q,ft),e(q,_t),e(q,pt),f(t,X,o),f(t,B,o),e(B,bt),e(B,ct),e(B,mt),e(B,vt),e(B,dt),e(B,Rt),e(B,Bt),f(t,k,o),f(t,P,o),e(P,yt),e(P,Et),e(P,xt),e(P,Pt),e(P,wt),f(t,D,o),f(t,y,o),e(y,St),e(y,Tt),e(y,$t),e(y,qt),e(y,ht),e(y,Lt),e(y,Mt),f(t,N,o),f(t,h,o),e(h,jt),e(h,zt),e(h,Ct),f(t,Y,o),f(t,F,o),e(F,Ht)},p:le,d(t){t&&l(i),t&&l(b),t&&l(_),t&&l($),t&&l(v),t&&l(A),t&&l(d),t&&l(G),t&&l(q),t&&l(X),t&&l(B),t&&l(k),t&&l(P),t&&l(D),t&&l(y),t&&l(N),t&&l(h),t&&l(Y),t&&l(F)}}}function ae(I){let i,z,b,_,x,p,m;const R=[I[0],At];let C={$$slots:{default:[se]},$$scope:{ctx:I}};for(let u=0;u<R.length;u+=1)C=Ft(C,R[u]);return p=new re({props:C}),{c(){i=r("script"),b=r("script"),x=S(),Zt(p.$$.fragment),this.h()},l(u){const c=Jt('[data-svelte="svelte-7wz15u"]',It.head);i=s(c,"SCRIPT",{src:!0});var $=E(i);$.forEach(l),b=s(c,"SCRIPT",{src:!0});var v=E(b);v.forEach(l),c.forEach(l),x=T(u),Kt(p.$$.fragment,u),this.h()},h(){Ot(i.src,z="../subtitle/youtube.external.subtitle.min.js")||H(i,"src",z),Ot(b.src,_="../subtitle/subtitles.parser.js")||H(b,"src",_)},m(u,c){e(It.head,i),e(It.head,b),f(u,x,c),Qt(p,u,c),m=!0},p(u,[c]){const $=c&1?Ut(R,[c&1&&Xt(u[0]),c&0&&Xt(At)]):{};c&2&&($.$$scope={dirty:c,ctx:u}),p.$set($)},i(u){m||(Vt(p.$$.fragment,u),m=!0)},o(u){Wt(p.$$.fragment,u),m=!1},d(u){l(i),l(b),u&&l(x),gt(p,u)}}}const At={title:"\u3010\u6B4C\u8A5E\u7FFB\u8B6F\u3011\u6A0B\u53E3\u4E86\u4E00 - 1/6\u306E\u5922\u65C5\u4EBA2002",date:"2018-12-25T11:51:05.000Z",tags:"Lyrics, Translate"};let ne="../subtitle/higuchi-ryouichi-1-6-dream-traveller.srt";function ie(I,i,z){return te(()=>{var b=function(_,x){var p=new XMLHttpRequest;p.onreadystatechange=function(){if(p.readyState===XMLHttpRequest.DONE){var m=parser.fromSrt(p.responseText,!0);for(var R in m)m[R]={start:m[R].startTime/1e3+13,end:m[R].endTime/1e3+13,text:m[R].text};x(m)}},p.open("GET",_,!0),p.send(null)};b(ne,function(_){new YoutubeExternalSubtitle.Subtitle(document.getElementById("video"),_)})}),I.$$set=b=>{z(0,i=Ft(Ft({},i),kt(b)))},i=kt(i),[i]}class oe extends Dt{constructor(i){super(),Nt(this,i,ie,ae,Yt,{})}}var _e=Object.freeze(Object.defineProperty({__proto__:null,default:oe,metadata:At},Symbol.toStringTag,{value:"Module"}));export{oe as L,_e as _,At as m};
