@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-3f306343.js",
+    "file": "start-bd850ba2.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -14,11 +14,11 @@
       "src/routes/[slug].svelte",
       "src/routes/about.svelte",
       "src/routes/index.svelte",
-      "_2020-what-i-have-read-on-internet-075924d5.js",
-      "_2021-what-i-have-read-on-internet-da7ef31c.js",
-      "_2022-what-i-have-read-on-internet-cc4c38d0.js",
-      "_ACG-80s-winter-age-of-anime-def740fb.js",
-      "_ACG-Pause-And-Select-Apocalypse-1d234f3b.js",
+      "_2020-what-i-have-read-on-internet-2038b996.js",
+      "_2021-what-i-have-read-on-internet-26ca9528.js",
+      "_2022-what-i-have-read-on-internet-5836dfbe.js",
+      "_ACG-80s-winter-age-of-anime-05a8d5a1.js",
+      "_ACG-Pause-And-Select-Apocalypse-1fb33b6f.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-6f24b6bb.js",
       "_ACG-char-counterattack-fans-interview-3432d04d.js",
       "_ACG-difference-of-director-and-producer-3668c999.js",
@@ -35,7 +35,7 @@
       "_ACG-linda-cube-on-ps-archive-c3aac85d.js",
       "_ACG-list-of-worthwhile-anime-ver-2-2696e0f4.js",
       "_ACG-making-of-linda3-dd857f1e.js",
-      "_ACG-note-a8c270bd.js",
+      "_ACG-note-737d8aae.js",
       "_ACG-on-your-mark-f74a8ed6.js",
       "_ACG-our-bible-just-reissue-in-kindle-57ad5a07.js",
       "_ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-650a31cf.js",
@@ -48,18 +48,18 @@
       "_ACG-tenki-no-ko-is-sekaikei-also-not-876740c7.js",
       "_ACG-the-influences-of-naoko-yamada-1ddd819e.js",
       "_ACG-the-opening-of-shirobako-movie-c00b08ac.js",
-      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-9d910adf.js",
+      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-f5d39022.js",
       "_ACG-thought-about-re-take-ee6e029b.js",
       "_ACG-understanding-staff-of-anime-ba646edc.js",
       "_ACG-what-does-wall-of-meisaku-mean-2d6f3224.js",
       "_ACG-what-is-games-done-quick-ff102620.js",
-      "_ACG-why-you-should-not-use-interpolation-on-anime-848abda1.js",
+      "_ACG-why-you-should-not-use-interpolation-on-anime-d25982c2.js",
       "_ACG-would-netflix-be-the-saviour-of-anime-0e117866.js",
       "_ACG-yume-no-shima-de-aimashou-22037c18.js",
       "_auto-generate-eyecatch-image-for-blog-22c87c83.js",
       "_blog-with-hexo-4a136e18.js",
       "_blog-with-svelte-cb8b60e1.js",
-      "_capitalist-realism-mark-fisher-24d2aff1.js",
+      "_capitalist-realism-mark-fisher-2d568e92.js",
       "_how-do-you-like-wendesday-4afdffd0.js",
       "_how-to-check-font-family-name-in-computer-1b798ba6.js",
       "_login-with-discord-137c4d58.js",
@@ -96,14 +96,14 @@
       "_tool-list-creativity-21a35c35.js",
       "_tool-list-gaming-0e73c561.js",
       "_tool-list-system-819992e3.js",
-      "_tool-list-website-00c64252.js",
+      "_tool-list-website-8c00fa91.js",
       "_use-foobar2k-to-listen-to-podcast-b5d022b6.js",
       "_what-nft-is-not-69321a95.js",
-      "_why-is-life-so-boring-16c385f3.js"
+      "_why-is-life-so-boring-c9e1f0bc.js"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-2b7884ee.js",
+    "file": "pages/__layout.svelte-68efd0b9.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -128,16 +128,16 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-84549d1d.js",
+    "file": "pages/_slug_.svelte-a43f117d.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_2020-what-i-have-read-on-internet-075924d5.js",
-      "_2021-what-i-have-read-on-internet-da7ef31c.js",
-      "_2022-what-i-have-read-on-internet-cc4c38d0.js",
-      "_ACG-80s-winter-age-of-anime-def740fb.js",
-      "_ACG-Pause-And-Select-Apocalypse-1d234f3b.js",
+      "_2020-what-i-have-read-on-internet-2038b996.js",
+      "_2021-what-i-have-read-on-internet-26ca9528.js",
+      "_2022-what-i-have-read-on-internet-5836dfbe.js",
+      "_ACG-80s-winter-age-of-anime-05a8d5a1.js",
+      "_ACG-Pause-And-Select-Apocalypse-1fb33b6f.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-6f24b6bb.js",
       "_ACG-char-counterattack-fans-interview-3432d04d.js",
       "_ACG-difference-of-director-and-producer-3668c999.js",
@@ -154,7 +154,7 @@
       "_ACG-linda-cube-on-ps-archive-c3aac85d.js",
       "_ACG-list-of-worthwhile-anime-ver-2-2696e0f4.js",
       "_ACG-making-of-linda3-dd857f1e.js",
-      "_ACG-note-a8c270bd.js",
+      "_ACG-note-737d8aae.js",
       "_ACG-on-your-mark-f74a8ed6.js",
       "_ACG-our-bible-just-reissue-in-kindle-57ad5a07.js",
       "_ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-650a31cf.js",
@@ -167,18 +167,18 @@
       "_ACG-tenki-no-ko-is-sekaikei-also-not-876740c7.js",
       "_ACG-the-influences-of-naoko-yamada-1ddd819e.js",
       "_ACG-the-opening-of-shirobako-movie-c00b08ac.js",
-      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-9d910adf.js",
+      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-f5d39022.js",
       "_ACG-thought-about-re-take-ee6e029b.js",
       "_ACG-understanding-staff-of-anime-ba646edc.js",
       "_ACG-what-does-wall-of-meisaku-mean-2d6f3224.js",
       "_ACG-what-is-games-done-quick-ff102620.js",
-      "_ACG-why-you-should-not-use-interpolation-on-anime-848abda1.js",
+      "_ACG-why-you-should-not-use-interpolation-on-anime-d25982c2.js",
       "_ACG-would-netflix-be-the-saviour-of-anime-0e117866.js",
       "_ACG-yume-no-shima-de-aimashou-22037c18.js",
       "_auto-generate-eyecatch-image-for-blog-22c87c83.js",
       "_blog-with-hexo-4a136e18.js",
       "_blog-with-svelte-cb8b60e1.js",
-      "_capitalist-realism-mark-fisher-24d2aff1.js",
+      "_capitalist-realism-mark-fisher-2d568e92.js",
       "_how-do-you-like-wendesday-4afdffd0.js",
       "_how-to-check-font-family-name-in-computer-1b798ba6.js",
       "_login-with-discord-137c4d58.js",
@@ -215,16 +215,16 @@
       "_tool-list-creativity-21a35c35.js",
       "_tool-list-gaming-0e73c561.js",
       "_tool-list-system-819992e3.js",
-      "_tool-list-website-00c64252.js",
+      "_tool-list-website-8c00fa91.js",
       "_use-foobar2k-to-listen-to-podcast-b5d022b6.js",
       "_what-nft-is-not-69321a95.js",
-      "_why-is-life-so-boring-16c385f3.js",
+      "_why-is-life-so-boring-c9e1f0bc.js",
       "_index-1ddf5aaf.js",
       "__post-4b9489f2.js"
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-e76717c1.js",
+    "file": "pages/about.svelte-a1a5d3c7.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -236,16 +236,16 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-8bc66c50.js",
+    "file": "pages/index.svelte-b4a55039.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_2020-what-i-have-read-on-internet-075924d5.js",
-      "_2021-what-i-have-read-on-internet-da7ef31c.js",
-      "_2022-what-i-have-read-on-internet-cc4c38d0.js",
-      "_ACG-80s-winter-age-of-anime-def740fb.js",
-      "_ACG-Pause-And-Select-Apocalypse-1d234f3b.js",
+      "_2020-what-i-have-read-on-internet-2038b996.js",
+      "_2021-what-i-have-read-on-internet-26ca9528.js",
+      "_2022-what-i-have-read-on-internet-5836dfbe.js",
+      "_ACG-80s-winter-age-of-anime-05a8d5a1.js",
+      "_ACG-Pause-And-Select-Apocalypse-1fb33b6f.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-6f24b6bb.js",
       "_ACG-char-counterattack-fans-interview-3432d04d.js",
       "_ACG-difference-of-director-and-producer-3668c999.js",
@@ -262,7 +262,7 @@
       "_ACG-linda-cube-on-ps-archive-c3aac85d.js",
       "_ACG-list-of-worthwhile-anime-ver-2-2696e0f4.js",
       "_ACG-making-of-linda3-dd857f1e.js",
-      "_ACG-note-a8c270bd.js",
+      "_ACG-note-737d8aae.js",
       "_ACG-on-your-mark-f74a8ed6.js",
       "_ACG-our-bible-just-reissue-in-kindle-57ad5a07.js",
       "_ACG-paintaking-of-anime-buble-tragedy-of-musashi-gundoh-650a31cf.js",
@@ -275,18 +275,18 @@
       "_ACG-tenki-no-ko-is-sekaikei-also-not-876740c7.js",
       "_ACG-the-influences-of-naoko-yamada-1ddd819e.js",
       "_ACG-the-opening-of-shirobako-movie-c00b08ac.js",
-      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-9d910adf.js",
+      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-f5d39022.js",
       "_ACG-thought-about-re-take-ee6e029b.js",
       "_ACG-understanding-staff-of-anime-ba646edc.js",
       "_ACG-what-does-wall-of-meisaku-mean-2d6f3224.js",
       "_ACG-what-is-games-done-quick-ff102620.js",
-      "_ACG-why-you-should-not-use-interpolation-on-anime-848abda1.js",
+      "_ACG-why-you-should-not-use-interpolation-on-anime-d25982c2.js",
       "_ACG-would-netflix-be-the-saviour-of-anime-0e117866.js",
       "_ACG-yume-no-shima-de-aimashou-22037c18.js",
       "_auto-generate-eyecatch-image-for-blog-22c87c83.js",
       "_blog-with-hexo-4a136e18.js",
       "_blog-with-svelte-cb8b60e1.js",
-      "_capitalist-realism-mark-fisher-24d2aff1.js",
+      "_capitalist-realism-mark-fisher-2d568e92.js",
       "_how-do-you-like-wendesday-4afdffd0.js",
       "_how-to-check-font-family-name-in-computer-1b798ba6.js",
       "_login-with-discord-137c4d58.js",
@@ -323,10 +323,10 @@
       "_tool-list-creativity-21a35c35.js",
       "_tool-list-gaming-0e73c561.js",
       "_tool-list-system-819992e3.js",
-      "_tool-list-website-00c64252.js",
+      "_tool-list-website-8c00fa91.js",
       "_use-foobar2k-to-listen-to-podcast-b5d022b6.js",
       "_what-nft-is-not-69321a95.js",
-      "_why-is-life-so-boring-16c385f3.js",
+      "_why-is-life-so-boring-c9e1f0bc.js",
       "_index-1ddf5aaf.js",
       "_paths-396f020f.js",
       "_index-82870d7b.js",
@@ -337,53 +337,53 @@
     ]
   },
   "src/routes/posts/2020-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2020-what-i-have-read-on-internet.md-03c8967b.js",
+    "file": "pages/posts/2020-what-i-have-read-on-internet.md-2f193377.js",
     "src": "src/routes/posts/2020-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-4b9489f2.js",
-      "_2020-what-i-have-read-on-internet-075924d5.js"
+      "_2020-what-i-have-read-on-internet-2038b996.js"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2021-what-i-have-read-on-internet.md-93f72bff.js",
+    "file": "pages/posts/2021-what-i-have-read-on-internet.md-d188741a.js",
     "src": "src/routes/posts/2021-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-4b9489f2.js",
-      "_2021-what-i-have-read-on-internet-da7ef31c.js"
+      "_2021-what-i-have-read-on-internet-26ca9528.js"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-0abe4815.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-bc7cf423.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-4b9489f2.js",
-      "_2022-what-i-have-read-on-internet-cc4c38d0.js"
+      "_2022-what-i-have-read-on-internet-5836dfbe.js"
     ]
   },
   "src/routes/posts/ACG-80s-winter-age-of-anime.md": {
-    "file": "pages/posts/ACG-80s-winter-age-of-anime.md-c08927ac.js",
+    "file": "pages/posts/ACG-80s-winter-age-of-anime.md-8a8a2f5b.js",
     "src": "src/routes/posts/ACG-80s-winter-age-of-anime.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-4b9489f2.js",
-      "_ACG-80s-winter-age-of-anime-def740fb.js"
+      "_ACG-80s-winter-age-of-anime-05a8d5a1.js"
     ]
   },
   "src/routes/posts/ACG-Pause-And-Select-Apocalypse.md": {
-    "file": "pages/posts/ACG-Pause-And-Select-Apocalypse.md-68279b63.js",
+    "file": "pages/posts/ACG-Pause-And-Select-Apocalypse.md-0f4709d8.js",
     "src": "src/routes/posts/ACG-Pause-And-Select-Apocalypse.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-4b9489f2.js",
-      "_ACG-Pause-And-Select-Apocalypse-1d234f3b.js"
+      "_ACG-Pause-And-Select-Apocalypse-1fb33b6f.js"
     ]
   },
   "src/routes/posts/ACG-all-about-kaworu-ikuhara-kunihiko-interview.md": {
@@ -547,13 +547,13 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-b7b8f7df.js",
+    "file": "pages/posts/ACG-note.md-bde6ac4f.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-4b9489f2.js",
-      "_ACG-note-a8c270bd.js"
+      "_ACG-note-737d8aae.js"
     ]
   },
   "src/routes/posts/ACG-on-your-mark.md": {
@@ -677,13 +677,13 @@
     ]
   },
   "src/routes/posts/ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition.md": {
-    "file": "pages/posts/ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition.md-5046b7eb.js",
+    "file": "pages/posts/ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition.md-53c7294a.js",
     "src": "src/routes/posts/ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-4b9489f2.js",
-      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-9d910adf.js"
+      "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-f5d39022.js"
     ]
   },
   "src/routes/posts/ACG-thought-about-re-take.md": {
@@ -727,13 +727,13 @@
     ]
   },
   "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md": {
-    "file": "pages/posts/ACG-why-you-should-not-use-interpolation-on-anime.md-5e789fec.js",
+    "file": "pages/posts/ACG-why-you-should-not-use-interpolation-on-anime.md-f313d7a1.js",
     "src": "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-4b9489f2.js",
-      "_ACG-why-you-should-not-use-interpolation-on-anime-848abda1.js"
+      "_ACG-why-you-should-not-use-interpolation-on-anime-d25982c2.js"
     ]
   },
   "src/routes/posts/ACG-would-netflix-be-the-saviour-of-anime.md": {
@@ -787,13 +787,13 @@
     ]
   },
   "src/routes/posts/capitalist-realism-mark-fisher.md": {
-    "file": "pages/posts/capitalist-realism-mark-fisher.md-a8503d05.js",
+    "file": "pages/posts/capitalist-realism-mark-fisher.md-787a50b4.js",
     "src": "src/routes/posts/capitalist-realism-mark-fisher.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-4b9489f2.js",
-      "_capitalist-realism-mark-fisher-24d2aff1.js"
+      "_capitalist-realism-mark-fisher-2d568e92.js"
     ]
   },
   "src/routes/posts/how-do-you-like-wendesday.md": {
@@ -1157,13 +1157,13 @@
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-91d88964.js",
+    "file": "pages/posts/tool-list-website.md-6dc49cf9.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-4b9489f2.js",
-      "_tool-list-website-00c64252.js"
+      "_tool-list-website-8c00fa91.js"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
@@ -1187,13 +1187,13 @@
     ]
   },
   "src/routes/posts/why-is-life-so-boring.md": {
-    "file": "pages/posts/why-is-life-so-boring.md-ab976a9f.js",
+    "file": "pages/posts/why-is-life-so-boring.md-44343503.js",
     "src": "src/routes/posts/why-is-life-so-boring.md",
     "isEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-4b9489f2.js",
-      "_why-is-life-so-boring-16c385f3.js"
+      "_why-is-life-so-boring-c9e1f0bc.js"
     ]
   },
   "_index-1ddf5aaf.js": {
@@ -1208,32 +1208,32 @@
   "_paths-396f020f.js": {
     "file": "chunks/paths-396f020f.js"
   },
-  "_2020-what-i-have-read-on-internet-075924d5.js": {
-    "file": "chunks/2020-what-i-have-read-on-internet-075924d5.js",
+  "_2020-what-i-have-read-on-internet-2038b996.js": {
+    "file": "chunks/2020-what-i-have-read-on-internet-2038b996.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-4b9489f2.js"
     ]
   },
-  "_2021-what-i-have-read-on-internet-da7ef31c.js": {
-    "file": "chunks/2021-what-i-have-read-on-internet-da7ef31c.js",
+  "_2021-what-i-have-read-on-internet-26ca9528.js": {
+    "file": "chunks/2021-what-i-have-read-on-internet-26ca9528.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-4b9489f2.js"
     ]
   },
-  "_2022-what-i-have-read-on-internet-cc4c38d0.js": {
-    "file": "chunks/2022-what-i-have-read-on-internet-cc4c38d0.js",
+  "_2022-what-i-have-read-on-internet-5836dfbe.js": {
+    "file": "chunks/2022-what-i-have-read-on-internet-5836dfbe.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
       "__post-4b9489f2.js"
     ]
   },
-  "_ACG-80s-winter-age-of-anime-def740fb.js": {
-    "file": "chunks/ACG-80s-winter-age-of-anime-def740fb.js",
+  "_ACG-80s-winter-age-of-anime-05a8d5a1.js": {
+    "file": "chunks/ACG-80s-winter-age-of-anime-05a8d5a1.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
@@ -1243,8 +1243,8 @@
       "assets/ACG-80s-winter-age-of-anime-c464cb87.css"
     ]
   },
-  "_ACG-Pause-And-Select-Apocalypse-1d234f3b.js": {
-    "file": "chunks/ACG-Pause-And-Select-Apocalypse-1d234f3b.js",
+  "_ACG-Pause-And-Select-Apocalypse-1fb33b6f.js": {
+    "file": "chunks/ACG-Pause-And-Select-Apocalypse-1fb33b6f.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
@@ -1379,8 +1379,8 @@
       "__post-4b9489f2.js"
     ]
   },
-  "_ACG-note-a8c270bd.js": {
-    "file": "chunks/ACG-note-a8c270bd.js",
+  "_ACG-note-737d8aae.js": {
+    "file": "chunks/ACG-note-737d8aae.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
@@ -1483,8 +1483,8 @@
       "__post-4b9489f2.js"
     ]
   },
-  "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-9d910adf.js": {
-    "file": "chunks/ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-9d910adf.js",
+  "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-f5d39022.js": {
+    "file": "chunks/ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-f5d39022.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
@@ -1523,8 +1523,8 @@
       "__post-4b9489f2.js"
     ]
   },
-  "_ACG-why-you-should-not-use-interpolation-on-anime-848abda1.js": {
-    "file": "chunks/ACG-why-you-should-not-use-interpolation-on-anime-848abda1.js",
+  "_ACG-why-you-should-not-use-interpolation-on-anime-d25982c2.js": {
+    "file": "chunks/ACG-why-you-should-not-use-interpolation-on-anime-d25982c2.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
@@ -1571,8 +1571,8 @@
       "__post-4b9489f2.js"
     ]
   },
-  "_capitalist-realism-mark-fisher-24d2aff1.js": {
-    "file": "chunks/capitalist-realism-mark-fisher-24d2aff1.js",
+  "_capitalist-realism-mark-fisher-2d568e92.js": {
+    "file": "chunks/capitalist-realism-mark-fisher-2d568e92.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
@@ -1854,7 +1854,7 @@
       "__post-4b9489f2.js"
     ],
     "css": [
-      "assets/tool-list-system-90e7347a.css"
+      "assets/tool-list-creativity-74747bfb.css"
     ]
   },
   "_tool-list-gaming-0e73c561.js": {
@@ -1865,7 +1865,7 @@
       "__post-4b9489f2.js"
     ],
     "css": [
-      "assets/tool-list-system-90e7347a.css"
+      "assets/tool-list-creativity-74747bfb.css"
     ]
   },
   "_tool-list-system-819992e3.js": {
@@ -1876,11 +1876,11 @@
       "__post-4b9489f2.js"
     ],
     "css": [
-      "assets/tool-list-system-90e7347a.css"
+      "assets/tool-list-creativity-74747bfb.css"
     ]
   },
-  "_tool-list-website-00c64252.js": {
-    "file": "chunks/tool-list-website-00c64252.js",
+  "_tool-list-website-8c00fa91.js": {
+    "file": "chunks/tool-list-website-8c00fa91.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
@@ -1906,8 +1906,8 @@
       "assets/what-nft-is-not-17bf58b6.css"
     ]
   },
-  "_why-is-life-so-boring-16c385f3.js": {
-    "file": "chunks/why-is-life-so-boring-16c385f3.js",
+  "_why-is-life-so-boring-c9e1f0bc.js": {
+    "file": "chunks/why-is-life-so-boring-c9e1f0bc.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1ddf5aaf.js",
