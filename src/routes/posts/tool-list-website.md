@@ -77,3 +77,8 @@ tags: Toolbox
 - [ネットワーク対戦タイピング Weather Typing](https://denasu.com/software/weathertyping.html)
 - [Dr 林のこころと脳の相談室](http://kokoro.squares.net/)
 - [Sci-pursuit](https://sci-pursuit.com/)
+- [ぽんしゃぶ弐号〜サムライスピリッツ零シリーズ攻略〜](http://www5b.biglobe.ne.jp/~hitokiri/)
+- [格闘ゲームリスト](http://kakuge.info/d/index.htm)
+- [社長が訊く リンク集](https://www.nintendo.co.jp/corporate/links/)
+- [松岡正剛の千夜千冊 - 全読譜](https://1000ya.isis.ne.jp/souran/index.php?vol=102)
+- [映像作家 100 人 MOTION GRAPHIC CREATORS](https://eizo100.jp/)

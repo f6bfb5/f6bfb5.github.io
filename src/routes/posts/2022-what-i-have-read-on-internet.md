@@ -590,7 +590,70 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [リアルとバーチャルの境界は消える？　どちらの良さも認め合う時代に](https://withnews.jp/article/k0220505008qq000000000000000S00111401qq000024650A)
 - [写真が下手だけどいい感じに"物撮り"したい。スマホ編 - Impress Watch](https://www.watch.impress.co.jp/docs/topic/1403688.html)
 - [EYES WIDE OPEN - 外池達宏](https://shonenjumpplus.com/episode/3269754496899770414)
-- [自分を模したロボットは「自分」なのか？　D.E.A.D. ~Digital Employment After Death~を知った衝撃](https://note.com/nt_303/n/n6397dd233aaf)
-- [9.0水面下Megathrust | 放射性Hi5](https://radioactivehi5.bandcamp.com/album/90-megathrust)
+- [自分を模したロボットは「自分」なのか？　 D.E.A.D. ~Digital Employment After Death~を知った衝撃](https://note.com/nt_303/n/n6397dd233aaf)
+- [9.0 水面下 Megathrust | 放射性 Hi5](https://radioactivehi5.bandcamp.com/album/90-megathrust)
 - [Web3 is going just great](https://web3isgoinggreat.com/)
-- [論文「説明書のWeb公開はボードゲーム同人制作者にとって効果的なプロモーション手法か」](https://booth.pm/ja/items/3845883)
+- [論文「説明書の Web 公開はボードゲーム同人制作者にとって効果的なプロモーション手法か」](https://booth.pm/ja/items/3845883)
+- [任天堂の社長になってしまった男　-君島達己-](https://note.com/syosin_kai/n/n21bbc75ce4f4)
+- [3DCG や美術解剖学の知識が影響？美少女系イラストのクオリティが 2020 年前後にバカ上がりした理由の考察](https://togetter.com/li/1883129)
+- [ドワンゴが、対 FC2 特許権侵害訴訟で敗訴（4 年ぶり 2 回目）（栗原潔）](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20220506-00294789)
+- [ロックマンエグゼで快適なネット対戦ができるようになるかもしれない話](https://zenn.dev/akatsuki/articles/47cc86955acd38)
+- ながい窖 - 手塚治虫 (日本語版)
+- [手塚治虫が描いた「在日」](https://getnews.jp/archives/272772)
+
+（追註：我總覺得這也是另一個討論度很高，卻不斷迴圈、始終沒看到什麼新進展的議題，至今讓我認為最有說服力的是這篇十年前的「[盜版與反盜版](https://marco.org/2012/02/25/right-vs-pragmatic)」。）
+
+- [中小同人誌即売会のハコ事情を語る主催と暴論を吐く荒らしの一幕](https://togetter.com/li/1882816)
+- [アメリカのシリアルキラーがなかなか捕まらなかった理由、シンプルすぎるが「アメリカならいける」と思わせるものだった](https://togetter.com/li/1883347)
+- [Web 日記は止まる - laiso](https://laiso.hatenablog.com/entry/2022/05/07/movable_type)
+- [Web 日記は止まらない - @kyanny's blog](https://blog.kyanny.me/entry/2022/05/08/045318)
+- [PS5 の品薄とコンシューマゲーム機の生産効率についての一考察　-転売ヤーは如何にして爆発四散させるべきか-](https://note.com/syosin_kai/n/na5f3336bf0cc)
+- [書くことでメンタルヘルスを改善できる「3 つの文章タイプ」とは？](https://gigazine.net/news/20210624-writing-improve-mental-health/)
+  - Expressive Writing
+    - 不以讓他人閱讀為前提，完全不在意文章或詞彙的錯誤，只將自己所想的直率地寫出來的文章
+    - 除了提高對自己的認識，還能減少抑鬱症狀、不安或壓力
+  - Reflective Writing
+    - 記載關於特定的狀況或記憶，並著眼於「自己注意到了什麼？」、「這件事改變了自己什麼？」、「如果採取不同的行動會如何？」，寫下自己的思考或反省的文章
+    - 可以找出能在往後活用的事物，也能對於自己的行動做出評價
+  - Creative Writing
+    - 如其名，即詩或小說（包含短短篇、中篇、長篇）等文章類型的創作
+    - 同時使用記憶與想像力，採取比喻或心理表現等文學風格的文章
+- [実物を直接目で見ても脳みそが騙されてバグりそうになる光景がこちら「なんだこれ…すげえ…すげえ…」](https://togetter.com/li/1882124)
+- [これが出来たら貴方も一人前のメイドさん！メイドさんがお紅茶を 2 ポット同時に淹れる姿が美し過ぎる](https://togetter.com/li/1883190)
+- [長編小説版「鈴波アミを待っています」の CM を機能美ｐさんに作っていただきました](https://null.style/archives/5273)
+- [Notion vs Obsidian (あるいはアスカ vs 綾波)](https://pouhon.net/notion-vs-obsidian/6141/)
+- [中日新聞:自動車工場のガロア体　ＱＲコードはどう動くか](https://static.chunichi.co.jp/chunichi/pages/feature/QR/galois_field_in_auto_factory.html)
+- [【報道の自由度日本 71 位】国境なき記者団の原文+和訳と NHK、日経、TV 朝日の報道を比べてみた - 知の泉](https://kasikoi.hatenablog.com/entry/2022/05/07/%E3%80%90%E5%A0%B1%E9%81%93%E3%81%AE%E8%87%AA%E7%94%B1%E5%BA%A6%E6%97%A5%E6%9C%AC71%E4%BD%8D%E3%80%91%E5%9B%BD%E5%A2%83%E3%81%AA%E3%81%8D%E8%A8%98%E8%80%85%E5%9B%A3%E3%81%AE%E5%8E%9F%E6%96%87%E3%81%A8N)
+- [197 冊の教えを 1 つにまとめた黄金律の教科書 - 本しゃぶり](https://honeshabri.hatenablog.com/entry/golden-rule)
+- [日経たわわ案件の中間報告　概括と展望 ① - trajectory](https://trajectory.hateblo.jp/entry/2022/05/09/065232)
+- [個人 VTuber ユニットのさきがけ・ぜったい天使くるみちゃんと「天魔機忍 ver.G」が切り開いた 2018 年](https://www.moguravr.com/vtuber-kouhaku-utagassen/)
+- [ぜったい天使くるみちゃんが復活 「まず肉声を聞かせるから」あれから 4 年](https://panora.tokyo/archives/48516)
+- [名古屋以外全部壊滅 - 藤山佑](https://shonenjumpplus.com/episode/3270296674331482330)
+- [デジタルノート界隈でブームな「Zetterkasten」と Link Your Thinking という発展系のフレームワーク](https://knowledgestuck.substack.com/p/zetterkastenlink-your-thinking?s=r)
+  - 一張卡片記載一份想法
+  - 一張卡片包含完整內容
+    - 即只需要該卡片內容就能理解該想法
+  - 卡片之間常是互相連結
+  - 卡片之間連結須有意義
+  - 用自己的說法撰寫內容
+  - 保留參考文獻
+  - 添加自己想法
+    - 遵循規則 1、2、3，以卡片新增自己的想法
+  - 不要在乎構造
+  - 持續新增卡片
+  - 新增大綱卡片
+    - 當卡片群的想法有了整體形狀，為了整理順序而新增的卡片
+  - 不要刪除卡片
+    - 即使舊卡片內容有錯也不要刪除，而是使用新的卡片說明為何有錯，反應自己思考的變化
+  - 不要害怕新增卡片
+- [📒Productivity を上げるために大切な 100 のこと - Minerva](https://minerva.mamansoft.net/%F0%9F%93%97Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8/%F0%9F%93%92Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8)
+- [【ナカムラ ☆ チャレンジ】MOTHER2 ギーグの逆襲](https://www.youtube.com/watch?v=9eGTrTHJe4U)
+- [「関ジャム 完全燃 SHOW 　若手アーティストが選ぶ最強平成ソング BEST30」から漏れてしまった「平成み」をリアルタイム世代が分析する - 森の掟](https://guatarro.hatenablog.com/entry/2022/05/08/234252)
+- [ポール・ローマー 「人に魚を与えれば一日で食べてしまうが、釣り方を教えれば・・・」（2009 年 7 月 29 日）／「『テクノロジー』と『ルール』の競争」（2009 年 8 月 21 日）](https://econ101.jp/%E3%83%9D%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%AD%E3%83%BC%E3%83%9E%E3%83%BC-%E3%80%8C%E4%BA%BA%E3%81%AB%E9%AD%9A%E3%82%92%E4%B8%8E%E3%81%88%E3%82%8C%E3%81%B0%E4%B8%80%E6%97%A5%E3%81%A7%E9%A3%9F%E3%81%B9/)
+- [にじさんじ初期組の謎の人材力](https://anond.hatelabo.jp/20220507142936)
+- [『エルデンリングの和訳の「やばさ」』という記事は本当にやばい](https://note.com/tokage_otoko2/n/n3ed870c1cb8a)
+- [ニコニコ公式が用意した「歴史」があまりに舗装されていて「かつての闇」を語り始める生き証人たち](https://togetter.com/li/1884633)
+- [トレパク冤罪の顛末まとめ｜こなつ](https://note.com/abunaipeke/n/nfb48f3b558bf)
+- [――この間、家に帰ったら、妻が見慣れないスカートをはいていた。新しい...](https://anond.hatelabo.jp/20220509191854)
+- [『スーパーマリオ 64』"目隠し"120 枚クリアが達成される。不屈の挑戦、11 時間を超える死闘 - AUTOMATON](https://automaton-media.com/articles/newsjp/20220509-201733/)
+- [2022年 GW立山①：富山で絶品寿司を食べて残雪の立山に登る - I AM A DOG](https://moognyk.jp/entry/2022/05/10/123000)

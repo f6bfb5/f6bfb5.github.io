@@ -5,7 +5,7 @@ summary: "不容許怠惰、不容許無理、不容許幫助他人。沒有替�
 tags: Translate
 ---
 
-- [生きること、その不可避な売春性に対する抵抗 ── マーク・フィッシャー『資本主義リアリズム』 | UNLEASH](https://unleashmag.com/2019/03/15/fisher_review_higuchi/)
+- [生きること、その不可避な売春性に対する抵抗 ── マーク・フィッシャー『資本主義リアリズム』](https://unleashmag.com/2019/03/15/fisher_review_higuchi/)
 
 「資本主義中的現實主義」簡單來說是，我們被迫相信，我們無法解決為了生存勢必無法避免的賣春性。
 

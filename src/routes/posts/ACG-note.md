@@ -312,6 +312,7 @@ tags: ACG, Anime
 - [アニメの絵コンテを取り巻くいろいろな現狀](http://d.hatena.ne.jp/keroxp/20110201/1296557637)
 - [アニメにおけるワイヤー・ケーブルの作画表現のいろいろと、その両面性](http://royal2627.ldblog.jp/archives/48152829.html)
   - 動畫中的「繩索」作畫表現
+- [アニメランナー | アニメーション制作会社P.A.WORKS公式HP](https://www.pa-works.jp/category/for-animator/anime-runner/)
 
 ## 單篇文章
 
@@ -322,3 +323,12 @@ tags: ACG, Anime
 - [「製作上請」迷思](https://zhuanlan.zhihu.com/p/29986877)
 - [無責任作畫講座 Ver0.8 制作概述篇](http://safehouset.pixnet.net/blog/post/84882917-%E3%80%90%E5%8B%95%E7%95%AB%E3%80%91%E7%84%A1%E8%B2%AC%E4%BB%BB%E4%BD%9C%E7%95%AB%E8%AC%9B%E5%BA%A7ver0.8-%E5%88%B6%E4%BD%9C%E6%A6%82%E8%BF%B0%E7%AF%87-)
 - [作畫愛好者（作豚）的自我修養 v2.99（beta）](https://zhuanlan.zhihu.com/p/20584724)
+- [では「レイアウト」の概要から](https://threadreaderapp.com/thread/1287725757574205440.html?refreshed=yes)
+- [「動画作業において気をつけて欲しいこと」](https://ameblo.jp/lapislazuli2019/)
+- [用語だけでは解りにくかったので、アニメの撮影処理を実際の使用例を見せつつまとめてみた（GIF あり）](http://usapen3.hatenablog.com/entry/2016/12/18/234110)
+
+> FIX、PAN、じわ PAN、PAN UP、PAN DOWN、ポン寄り／ポン引き、Track Up／Track Back、Quick Track Back、Fade In／Fade Out、Glow Out、Focus In／Focus Out、Overlap、Cut 內 Overlap、Wipe、iris-in／iris-out、Follow、Follow pan、Follow Through、timelapse、近接 Multi Follow、近接 Multi、近接 Track Up／Track Back、foggy filter、透過光、slit-scan、strobe 攝影、單點透過光、cross filter、交叉透過光、camera shake、handicap 晃動、波狀玻璃、blur、stream blur、radial blur、集中線偏移、paraffin、beam、lens flare、lens ghost、降曝、過曝、入射光、smear、orb、搖晃透過光、延得耳效應、黑墨
+> 同位、夕陽背光、漫畫性符號、人物小形化、紅臉、線條陰影、BL 影
+
+- [宮崎作品のアニメーション技術考](http://www.yk.rim.or.jp/~rst/rabo/miyazaki/gijyutsu_ron.html)
+- [漫画の原作者と作画者は「企画・脚本」と「撮影・監督」の役割分担…なのだろうか？](https://togetter.com/li/1081987)

@@ -7,6 +7,8 @@ tags: ACG, Game, Translate
 
 文章來源：[ZONE OF THE ENDERS HD EDITION -はいだらクオリティへの道- For quality and performance improvement.](http://hexadrive.sblo.jp/article/71326168.html)
 
+---
+
 今天是 PlayStation3 『[ZONE OF THE ENDERS HD EDITION](http://www.konami.jp/zoe_hd/)』問題修正 Patch ＆ Best 版的上架日！<br>
 本公司負責了這次發佈的修正 Patch 和 Best 版。<br>
 我所負責的部份是 ANUBIS ZONE OF THE ENDERS（ZOE2）的 PS3 部份。

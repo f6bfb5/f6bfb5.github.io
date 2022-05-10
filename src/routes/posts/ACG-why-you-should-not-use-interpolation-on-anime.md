@@ -58,3 +58,11 @@ tags: ACG, Anime
 - [【作畫】所謂律表的節奏拍數](https://forum.gamer.com.tw/Co.php?bsn=60143&sn=132698)
 - [一拍三](https://baike.baidu.com/item/%E4%B8%80%E6%8B%8D%E4%B8%89)
 - [映画は 24 コマで観よう! トム様に応え、テレビで映画を観るための設定を 4 社に聞く](https://av.watch.impress.co.jp/docs/topic/1164146.html)
+- [ねこまたや on Twitter](https://twitter.com/info_nekomataya/status/1219618627923501056)
+  - 雖然這是種挺有趣的技術，但現有的作品基本上都是以「製作時指定的幀數觀賞」為前提製作的，用這些技術補完時，若沒有把它當成「取得著作者的許可做出的二創作品＝不同作品」會令人很困擾的
+- [Arin Hanson, you say? on Twitter](https://twitter.com/egoraptor/status/1123080649475121152)
+  - 這是同樣幀數下運動時間點不同的兩顆球，可以看出藝術家在綠色球上設計了不同的動靜。
+- [TKO on Twitter](https://twitter.com/SzTko/status/1123815112480108544)
+  - 用四種方法移動一個方塊。<br />
+    都是 24f，時間長度與移動距離完全一樣。<br />
+    第 3 和第 4 種有因為拔幀加了變形。
