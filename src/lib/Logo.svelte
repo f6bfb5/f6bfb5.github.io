@@ -38,6 +38,10 @@
     "https://soundcloud.com/f6bfb5/sets/k4psq4s1vpbd",
     // 【ｺﾞﾑ】　ロックマン2　おっくせんまん！（Version ｺﾞﾑ）
     "https://www.nicovideo.jp/watch/sm83",
+    // ファミコンの実機演奏操作を解説！【NES BAND】
+    "https://youtu.be/KmGvN3fmsbY",
+    // ファミコンの音声出力比較をしてみたら意外な機器の音質が良かった【9 通り】
+    "https://youtu.be/LXCrwoQzrwI",
     // ----------------------------------------
     // Game
     // ----------------------------------------
@@ -90,6 +94,13 @@
     "https://www.youtube.com/watch?v=oo5F2WVtLA8&t",
     // 【#001】作画オタクVTuber、自己紹介します！
     "https://www.youtube.com/watch?v=RqkAgWTZ98w",
+    // ----------------------------------------
+    // Article
+    // ----------------------------------------
+    // 伊丹万作 演技指導論草案
+    "https://www.aozora.gr.jp/cards/000231/files/1190_31196.html",
+    // 「二次創作を元にした二次創作」を繰り返し、九次創作に至るまでの流れを図解してみました！
+    "https://twitter.com/sin_ncd/status/1210874514403291136",
   ];
 
   function getRandomEleFromArr(arr) {
