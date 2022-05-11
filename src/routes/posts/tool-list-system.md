@@ -230,8 +230,8 @@ outputfile.close()
 
 - [Violentmonkey](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
 - [UI.Vision RPA](https://chrome.google.com/webstore/detail/uivision-rpa/gcbalfbdmfieckjlnblleoemohcganoc)
-- [無料でChrome・Firefoxの操作を自動化＆ファイルのアップロードやデスクトップの操作もできる「UI.Vision」 - GIGAZINE](https://gigazine.net/news/20220417-ui-vision/)
-- [DeepL翻訳（ベータ版）](https://chrome.google.com/webstore/detail/deepl-translate-beta-vers/cofdbpoegempjloogbagkncekinflcnj?hl=ja)
+- [無料で Chrome・Firefox の操作を自動化＆ファイルのアップロードやデスクトップの操作もできる「UI.Vision」 - GIGAZINE](https://gigazine.net/news/20220417-ui-vision/)
+- [DeepL 翻訳（ベータ版）](https://chrome.google.com/webstore/detail/deepl-translate-beta-vers/cofdbpoegempjloogbagkncekinflcnj?hl=ja)
 
 #### Shopping
 

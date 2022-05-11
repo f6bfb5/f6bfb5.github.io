@@ -142,13 +142,14 @@ script-opts-append=ytdl_hook-ytdl_path="./yt-dlp"
 
 mpv 可以使用 lua 語言撰寫第三方套件，套件檔案通常放置於 `~/.config/mpv/scripts/`。
 
-| 名稱                                                                                 | 功能                                                         |
-| ------------------------------------------------------------------------------------ | ------------------------------------------------------------ |
-| [autoload](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua)     | 播放檔案後會自動讀取同資料夾內的其它檔案並加入播放清單內。   |
-| [mpv-oled-screensaver](https://github.com/Akemi/mpv-oled-screensaver)                | 保護 OLED 避免烙痕效應，在影片暫停 15 秒後會自動轉為黑畫面。 |
-| [open-file-dialog.lua](https://github.com/rossy/mpv-open-file-dialog)                | 可使用快捷鍵 `Ctrl+O` 從程式內直接開啟檔案視窗選擇影片播放   |
-| [reload.lua](https://github.com/4e6/mpv-reload)                                      | 播放線上影片緩衝過久時，可以自行重新載入。                   |
-| [SmartCopyPaste Script](https://github.com/Eisa01/mpv-scripts#smartcopypaste-script) | 可以直接使用 `Ctrl+V` 將檔案路徑或網址貼至 mpv 播放。        |
+| 名稱                                                                                                          | 功能                                                         |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| [autoload](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua)                              | 播放檔案後會自動讀取同資料夾內的其它檔案並加入播放清單內。   |
+| [open-file-dialog](https://github.com/rossy/mpv-open-file-dialog)                                             | 可使用 `Ctrl+O` 從程式內直接開啟檔案視窗選擇影片播放         |
+| [SmartCopyPaste Script](https://github.com/Eisa01/mpv-scripts#smartcopypaste-script)                          | 可使用 `Ctrl+V` 將檔案路徑或網址貼至 mpv 播放。              |
+| [reload](https://github.com/4e6/mpv-reload)                                                                   | 可使用 `Ctrl+r` 在播放線上影片緩衝過久時重新載入。           |
+| [mpv-oled-screensaver](https://github.com/Akemi/mpv-oled-screensaver)                                         | 保護 OLED 避免烙痕效應，在影片暫停 15 秒後會自動轉為黑畫面。 |
+| [cycle-video-rotate](https://github.com/VideoPlayerCode/mpv-tools/blob/master/scripts/cycle-video-rotate.lua) | 可使用 `Alt+方向鍵` 旋轉影片                                 |
 
 ## 外部連結
 

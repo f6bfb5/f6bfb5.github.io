@@ -35,8 +35,6 @@ tags: ACG, Anime, Translate
 
 以宇宙這廣大的空間為舞台，刻劃了社會、公司以至於人的《惑星奇航》，也絕無輕視任何一點細節。既是部任何一處的描寫都能令人感動的作品，我也希望以 NHK E 台的播放為契機，年輕人們能看看夢想著廣大世界的頭帶八的苦惱，在社會裡戰鬥的大人們能看看這些角色們的生活方式。筆者可以斷言，這是部看了決不會後悔、能成為一生財產的作品。
 
-<iframe src="https://www.youtube.com/embed/nhDDD4ME_wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 《惑星奇航》
 <br/>演出者：田中一成、雪野五月、折笠愛、子安武人、緒方愛香、後藤哲夫、伊藤舞子、加門良、渡辺久美子、檜山修之、倉田雅世、若本規夫、小林恭治
 <br/>原作：幸村誠
