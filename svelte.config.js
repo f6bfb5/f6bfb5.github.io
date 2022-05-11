@@ -28,10 +28,11 @@ const config = {
     },
     routes: (filepath) =>
       !/(?:(?:^_|\/_)|(?:^\.|\/\.)(?!well-known))/.test(filepath),
-    version: {
+      version: {
       name: Date.now().toString(),
       pollInterval: 0,
     },
+    trailingSlash: 'never',
     vite: () => ({}),
   },
 
