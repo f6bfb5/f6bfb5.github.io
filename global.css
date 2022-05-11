@@ -80,6 +80,7 @@ h2 {
     var(--subtext-color) 2px 3px, var(--subtext-color) 1px 3px,
     var(--subtext-color) 0px 3px;
 }
+
 h2::after {
   margin-left: 12px;
   margin-bottom: 6px;
@@ -230,6 +231,7 @@ img {
 }
 
 /* custom hr */
+/*
 hr {
   background: linear-gradient(
     to left,
@@ -266,7 +268,45 @@ hr::before {
 hr::after {
   right: calc(50% - 0.5rem);
 }
+*/
 /* custom hr end */
+
+@keyframes loader-animate {
+    25% {
+        content: "/";
+    }
+        
+    50% {
+        content: "\2013";
+    }
+    
+    75% {
+        content: "\\";
+    }
+    
+    100% {
+        content: "|";
+    }
+}
+
+hr {
+  height: 1em;
+  width: 100%;
+  border: none;
+
+  position: relative;
+  margin-block-start: 1.5em;
+  margin-block-end: 1.5em;
+}
+
+hr:after {
+  content: "";
+  animation: loader-animate .5s linear infinite;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 br {
   content: "";
