@@ -112,7 +112,6 @@
       .some((p) => new Date(p.metadata.date).getFullYear() === year)}
       <div class="articles-list--container">
         <h2>{year}</h2>
-        <div class="breakline" />
         <ul class="articles-list">
           {#each posts
             .filter((p) => arrayContainsAny(p.metadata.tags, $tagsSelected))
@@ -176,12 +175,6 @@
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
-  }
-  .breakline {
-    margin-left: 12px;
-    margin-bottom: 6px;
-    width: 80%;
-    border-bottom: 1px solid var(--title-color);
   }
 
   /* articles list */
