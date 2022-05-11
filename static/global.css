@@ -271,6 +271,8 @@ hr::after {
 */
 /* custom hr end */
 
+/* loader hr start */
+/*
 @keyframes loader-animate {
     25% {
         content: "/";
@@ -306,6 +308,27 @@ hr:after {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+*/
+/* loader hr end */
+
+hr {
+  border: none;
+  margin-block-start: 1.5em;
+  margin-block-end: 1.5em;
+  text-align: center;
+}
+
+hr::after {
+  content: '';
+  letter-spacing: 4em;
+  padding-left: 4em;
+}
+@media screen and (max-width: 720px) {
+  hr::after {
+    letter-spacing: 2em;
+    padding-left: 2em;
+  }
 }
 
 br {
