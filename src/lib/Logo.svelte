@@ -42,6 +42,8 @@
     "https://youtu.be/KmGvN3fmsbY",
     // ファミコンの音声出力比較をしてみたら意外な機器の音質が良かった【9 通り】
     "https://youtu.be/LXCrwoQzrwI",
+    // Long Long ago, 20th Century
+    "https://www.youtube.com/watch?v=7EJ_1gPoJR8",
     // ----------------------------------------
     // Game
     // ----------------------------------------
@@ -101,6 +103,8 @@
     "https://www.aozora.gr.jp/cards/000231/files/1190_31196.html",
     // 「二次創作を元にした二次創作」を繰り返し、九次創作に至るまでの流れを図解してみました！
     "https://twitter.com/sin_ncd/status/1210874514403291136",
+    // ひろゆき「なんだろう、一人で悩むのやめてもらっていいですか」
+    "http://tasogarech.blog.jp/archives/7552248.html",
   ];
 
   function getRandomEleFromArr(arr) {
