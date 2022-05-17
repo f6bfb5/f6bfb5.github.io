@@ -9,12 +9,12 @@
   >
   <url>
     <loc>https://f6bfb5.github.io</loc>
-    <lastmod>2022-05-14T11:24:59.901Z</lastmod>
+    <lastmod>2022-05-17T15:17:07.394Z</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://f6bfb5.github.io/about</loc>
-    <lastmod>2022-05-14T11:24:59.901Z</lastmod>
+    <lastmod>2022-05-17T15:17:07.394Z</lastmod>
     <priority>1.00</priority>
   </url>
   
@@ -357,6 +357,12 @@
     <url>
       <loc>https://f6bfb5.github.io/lyrics-joanne-hogg-stars-of-tears</loc>
       <lastmod>2019-07-19T12:33:15.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+    <url>
+      <loc>https://f6bfb5.github.io/lyrics-long-long-ago-20th-century</loc>
+      <lastmod>2022-05-16T23:11:39.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
