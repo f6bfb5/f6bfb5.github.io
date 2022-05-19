@@ -44,6 +44,8 @@
     "https://youtu.be/LXCrwoQzrwI",
     // Long Long ago, 20th Century
     "https://www.youtube.com/watch?v=7EJ_1gPoJR8",
+    // ヤツメ穴 / 緑仙 (全部僕の声)
+    "https://www.youtube.com/watch?v=s3dVPAAEX14",
     // ----------------------------------------
     // Game
     // ----------------------------------------
