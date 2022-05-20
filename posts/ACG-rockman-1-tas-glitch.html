@@ -15,14 +15,14 @@
     <meta http-equiv="content-security-policy" content=""><script async src="https://www.googletagmanager.com/gtag/js?id=G-CRDP7WTXSQ" data-svelte="svelte-bhtlqr"></script><link rel="shortcut icon" href="/favicon.ico" data-svelte="svelte-1c8ynol"><link rel="bookmark" href="/favicon.ico" data-svelte="svelte-1c8ynol">
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-245e8c1b.css">
 	<link rel="stylesheet" href="/_app/assets/_post-5b55a3da.css">
-	<link rel="modulepreload" href="/_app/start-5b2190d0.js">
+	<link rel="modulepreload" href="/_app/start-ea32b50e.js">
 	<link rel="modulepreload" href="/_app/chunks/index-1ddf5aaf.js">
 	<link rel="modulepreload" href="/_app/chunks/index-82870d7b.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-c9d305d5.js">
-	<link rel="modulepreload" href="/_app/pages/posts/ACG-rockman-1-tas-glitch.md-85974606.js">
+	<link rel="modulepreload" href="/_app/pages/posts/ACG-rockman-1-tas-glitch.md-7d756f47.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-4b9489f2.js">
-	<link rel="modulepreload" href="/_app/chunks/ACG-rockman-1-tas-glitch-e3df1235.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-rockman-1-tas-glitch-48d8375f.js">
   </head>
   <body>
     <!-- The application will be rendered inside this element,
@@ -40,7 +40,7 @@
   <a class=" svelte-t90z2a" href="/rss.xml">rss</a>
   <a href="/sitemap.xml" style="display: none;" class="svelte-t90z2a">sitemap</a>
 </nav>
-      <a href="https://www.nicovideo.jp/watch/sm24304243" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
+      <a href="https://www.youtube.com/watch?v=3Y6zlM-n9Kg" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
 </a></div>
     
 <div id="progress-bar" style="--scrollAmount: 0%;" class="svelte-1gbseey"></div></div>
@@ -84,16 +84,16 @@
 <h2>TAS 使用機制</h2>
 <h3>DelayObjectFFGlitch 技巧</h3>
 <p>在《洛克人 1》裡，當洛克人經過特定地圖的某些地點後，會出現不可視的「<code>0xFF</code>」物件（後稱 <code>FF 物件</code>）。例如 Ice Man 關卡的此處：</p>
-<p><a href="https://i.imgur.com/FZkBQwv.gif" rel="noopener" target="_blank"><img src="https://i.imgur.com/FZkBQwv.gif" alt="img01"></a></p>
+<p><img src="https://i.imgur.com/FZkBQwv.gif" alt="img01"></p>
 <p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△ 「0xFF」物件出現於畫面不可視之處</p>
 <p>這個物件會讓影像處理單位（PPU, Picture Processing Unit）進行 Pattern Table Remap。推測是用於重新建構畫面用的物件。</p>
 <p>在正常情況的程式執行流程是 <code>1. 物件 FF 出現</code> → <code>2. 處理物件 FF（讀取 Bank 2 的資料）</code> → <code>3. 切換至 Bank 6</code> → <code>4. 讀取敵人資料編號</code>。</p>
 <p>若是在切換 Bank 之前，經由<strong>特定的操作</strong>超載待處理的指令量，會導致未切換至 Bank 6 之前，就直接在 Bank 2 讀取敵人編號的資料，造成畫面異常或是出現錯誤的敵人。</p>
 <p>敵人的 AI 舉動是在 <code>0x00</code>～<code>0x3A</code> 這個範圍裡的物件資料，程式流程是「執行敵人的 AI 程式 → 從物件編號得出要 jump 的（下一個資料的）目標 → 執行目標位置的 AI 程式」，因此使用 Delay Object 技巧，會讓最後的目標變成範圍外的物件，造成各種問題。</p>
 <p>例如物件 <code>F5</code> 出現後，需要執行敵人行動的 AI 模式 → 由於未切換 Bank，物件編號得到的 jump 目標為「<code>C0BD</code>」→ <code>C0BD</code> 為「通關處理過程中的物件」位置，因此遊戲會突然通關。</p>
-<p><a href="https://i.imgur.com/pwkEkYJ.gif" rel="noopener" target="_blank"><img src="https://i.imgur.com/pwkEkYJ.gif" alt="img02"></a></p>
+<p><img src="https://i.imgur.com/pwkEkYJ.gif" alt="img02"></p>
 <p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△ 異常出現的 Electric Man</p>
-<p>而 jump 目標詳細來說，系統會從 <code>$AA3B</code> + 2×（物件編號）取得 <a href="http://www.yuko2ch.net/rockman/JumpAddressList.txt" rel="noopener" target="_blank">AI 位置</a>，故物件編號為 <code>0x15</code> 時，目標位置會是 <code>$AA3B</code> + 2×0x15 = <code>$AA65</code> 裡所儲存的值，因此跳至儲存的「<code>B23C</code>」執行 AI。</p>
+<p>而 jump 目標詳細來說，系統會從 <code>$AA3B</code> + 2×（物件編號）取得 <a href="http://www.yuko2ch.net/rockman/JumpAddressList.txt" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://www.yuko2ch.net/rockman/JumpAddressList.txt" alt="AI 位置"><span>AI 位置</span></a>，故物件編號為 <code>0x15</code> 時，目標位置會是 <code>$AA3B</code> + 2×0x15 = <code>$AA65</code> 裡所儲存的值，因此跳至儲存的「<code>B23C</code>」執行 AI。</p>
 <p>可能出現的各種物件 00 ～ FF 中，大部份的物件會造成遊戲重新開始或無法繼續遊玩，在上例的 Ice Man TAS 的實際運用裡，是發現 <code>$23</code>（每 frame 增加 1 的計數器）的值走至 55 時，有可能會出現「物件 55」，之後再藉由<strong>調整道具的出現量、音樂的演奏變化時間點、 rock buster 的高低座標</strong>得到想要的後續目標位置。</p>
 <p>套用計算法，<code>$AA3B</code> + 2×0x55 = <code>$AAE5</code>，裡頭儲存的 AI 位置為「<code>$600</code>」，搭配下列操作調整相關資料：</p>
 <table><thead><tr><th>位置</th>
@@ -135,9 +135,9 @@ C462: 4C 0C C1 jmp $C10C</code><!-- HTML_TAG_END --></pre>
 <li><code>4A</code> : 出現後，過一段時間通過該關卡，下一關的關卡圖像正常。</li>
 <li><code>42</code> : 磁力條，由於看不見、初始座標會變動、會往 11 點鐘方向並馬上消失，因此難以取得，在晃動人物時偶爾會有成功取得的狀況。</li></ul>
 <p>一旦某項物件出現後，在其消滅之前都不會再出現下個物件，若出現了目標之外的物件，就要用離開畫面之類的手法來清除。</p>
-<p><a href="https://i.imgur.com/LEoXwhg.gif" rel="noopener" target="_blank"><img src="https://i.imgur.com/LEoXwhg.gif" alt="img03"></a></p>
-<p><a href="https://i.imgur.com/b0naPNm.gif" rel="noopener" target="_blank"><img src="https://i.imgur.com/b0naPNm.gif" alt="img04"></a></p>
-<p><a href="https://i.imgur.com/xO6xO8i.gif" rel="noopener" target="_blank"><img src="https://i.imgur.com/xO6xO8i.gif" alt="img05"></a></p>
+<p><img src="https://i.imgur.com/LEoXwhg.gif" alt="img03"></p>
+<p><img src="https://i.imgur.com/b0naPNm.gif" alt="img04"></p>
+<p><img src="https://i.imgur.com/xO6xO8i.gif" alt="img05"></p>
 <p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△ 本次 RTA 的關鍵地點</p>
 <p>在氣力人關卡的圖片位置三處，進行 DoubleObjectFFGlitch（在圖片的位置左右移動）就會將 <code>$17</code>（控制器 2）做為下一個讀取的物件編號，因此可由控制器 2 的數值決定物件 00 ～ FF 的出現。</p>
 <p>若是同時按住控制器 2 的「左、上、下、Select、A」鍵，會出現物件 75 ，通過目前關卡，但下一關會破圖。</p>
@@ -172,20 +172,20 @@ C462: 4C 0C C1 jmp $C10C</code><!-- HTML_TAG_END --></pre>
 <p>進行 DoubleObjectFFGlitch 就會進入 Ending 畫面。</p>
 <h3>流程</h3>
 <ol><li>在 Electric Man 的關卡裡，於梯子上進行射擊的動作，<strong>僅按下 1 frame</strong> 下鍵，會變為半抓住梯子的樣子，<br>
-<a href="https://i.imgur.com/5srrun8.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/5srrun8.jpg" alt="img06"></a><br>
+<img src="https://i.imgur.com/5srrun8.jpg" alt="img06"><br>
 洛克人朝左的狀況下，按下上鍵，會變為頭卡在天花板的穿牆狀態，<br>
 按下跳躍鍵，跳到最高處後，按下右鍵，會穿越至磁力條的右方，<br>
 這個狀態下按左鍵，會由於<ruby>子像素<rp>(</rp><rt>subpixel</rt><rp>)</rp></ruby>的關係，有 1/8 機率可以拿到磁力條，<br>
 再按下一次跳躍鍵，就會回到穿牆狀態。</li>
 <li>進入 Guts Man 關卡</li>
 <li>在關卡開頭等待第二隻小矮兵的 3 連攻擊，在下圖的位置等待至第 3 發中央的子彈消失於畫面外後， <code>$49B</code> 的值會變為 C4 。<br>
-<a href="https://i.imgur.com/EhAhmrY.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/EhAhmrY.jpg" alt="img07"></a></li>
+<img src="https://i.imgur.com/EhAhmrY.jpg" alt="img07"></li>
 <li>在畫面內有 2 隻小矮兵的狀態下，<strong>保持畫面裡有 2 連攻擊</strong>追至下圖的位置，等待至第 2 發中央的子彈消失於畫面外後， <code>$49A</code> 的值會變為 60。<br>
 這裡若是遇到 3 連攻擊 <code>$49B</code> 會因此取得 C4 之外的值。<br>
-<a href="https://i.imgur.com/fAcJeMt.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/fAcJeMt.jpg" alt="img08"></a></li>
+<img src="https://i.imgur.com/fAcJeMt.jpg" alt="img08"></li>
 <li>在畫面內有 1 隻小矮兵的狀態下，在下圖位置等待 2 連攻擊的第 2 發中央子彈消失於畫面外後， <code>$499</code> 的值會變為 20。<br>
 這裡同樣若是遇到 3 連攻擊，在這之前的調整會因此偏掉。<br>
-<a href="https://i.imgur.com/O046zDW.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/O046zDW.jpg" alt="img09"></a><br>
+<img src="https://i.imgur.com/O046zDW.jpg" alt="img09"><br>
 這裡小矮兵的攻擊間隔是由亂數決定，若是運氣不好，<br>
 會有可能為了 3 連攻擊或 2 連攻擊，要等上數十秒。<br>
 若是途中失敗可從 <code>$49B</code> 重新開始調整。</li>
@@ -193,39 +193,39 @@ C462: 4C 0C C1 jmp $C10C</code><!-- HTML_TAG_END --></pre>
 擊敗 3 隻敵人<strong>並使畫面上顯示 3 個道具</strong>後，<br>
 在下圖的位置受到傷害，會使 <code>$498</code> 的值變為 4A 。<br>
 若是失敗仍可在血量允許的情況下持續調整。<br>
-<a href="https://i.imgur.com/uFBy8hb.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/uFBy8hb.jpg" alt="img10"></a></li>
+<img src="https://i.imgur.com/uFBy8hb.jpg" alt="img10"></li>
 <li>接下來是 <code>$482</code>～<code>$484</code> 的調整，在下圖的位置向右連射 3 發 buster ，在第 3 發子彈消失於畫面外後，<code>$484</code> 的值會變為 13。<br>
-<a href="https://i.imgur.com/5KVdRku.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/5KVdRku.jpg" alt="img11"></a></li>
+<img src="https://i.imgur.com/5KVdRku.jpg" alt="img11"></li>
 <li>在下圖的位置向右連射 2 發 buster ，在第 2 發子彈消失於畫面外後，<code>$483</code> 的值會變為 50。<br>
-<a href="https://i.imgur.com/ZKGmALT.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/ZKGmALT.jpg" alt="img12"></a></li>
+<img src="https://i.imgur.com/ZKGmALT.jpg" alt="img12"></li>
 <li>在下圖的位置向右射單發 buster ，子彈消失於畫面外後，<code>$482</code> 的值會變為 8A。<br>
 在這之後若再發射 buster，會造成先前調整的數值變動，<strong>要注意不可再使用 buster</strong> ，若是失敗則要再從 <code>$484</code> 開始重新調整。<br>
-<a href="https://i.imgur.com/O95Y27D.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/O95Y27D.jpg" alt="img13"></a></li>
+<img src="https://i.imgur.com/O95Y27D.jpg" alt="img13"></li>
 <li>接下來是 <code>$605</code>～<code>$607</code> 的調整，從第三階樓梯開始，使用磁力條逐格拉高 10 高度。<br>
-<a href="https://i.imgur.com/ceJ1S7O.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/ceJ1S7O.jpg" alt="img14"></a></li>
+<img src="https://i.imgur.com/ceJ1S7O.jpg" alt="img14"></li>
 <li>注意磁力條的顯示時間，將畫面最上方的磁力條調整為<strong>畫面裡出現的第 3 條</strong>， <code>$607</code> 的值會變為 04 。<br>
 需將時間調整為，這時踏台的第 2 條和第 1 條的磁力條，在設置第 3 條後會馬上消失。<br>
-<a href="https://i.imgur.com/6qy17F2.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/6qy17F2.jpg" alt="img15"></a></li>
+<img src="https://i.imgur.com/6qy17F2.jpg" alt="img15"></li>
 <li>在踏台的第 2 條磁力條消失前，射出磁力條並跳至最高，可以使用 Start → Select 微調磁力條至下圖的位置（與右邊的山峰平行）後，放開 B 鍵便能在此設置磁力條。<br>
 由於這時先前設值的第 1 和第 2 條磁力條已經消失了，這時設置的磁力條會變為第 1 條，<code>$605</code> 會變為 20 。<br>
-<a href="https://i.imgur.com/uQmEdO7.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/uQmEdO7.jpg" alt="img16"></a></li>
+<img src="https://i.imgur.com/uQmEdO7.jpg" alt="img16"></li>
 <li>著地後朝左射出磁力條，並在最大跳躍後，在<strong>頂點附近</strong>朝右，將磁力條設置於如下圖的階梯上固定，這會是第 2 條磁力條，<code>$606</code> 變為 82 。<br>
 若是這時失敗會由於磁力條的殘量不足，必須整個 run 重來過。<br>
 若只是想成功可以從 <code>$484</code> 的調整重新開始。<br>
-<a href="https://i.imgur.com/MPvesQN.jpg" rel="noopener" target="_blank"><img src="https://i.imgur.com/MPvesQN.jpg" alt="img17"></a></li>
+<img src="https://i.imgur.com/MPvesQN.jpg" alt="img17"></li>
 <li>調整至此<strong>必須沒有任何 1 格點陣</strong>的偏差，並且為了使用 DoubleObjectFFGlicth 叫出物件 55，需要<strong>按下控制器 2 的「←、↑、Select、A」鍵</strong>。<br>
 影片的跑者是使用膠帶固定住 A 鍵，用雙腳踩下十字鍵與 Select 鍵。<br>
 然而 Guts Man 關的 DoubleObjectFFGlicth 比起 Ice Man 的難易度更高，在人力執行上是一定程度的運 Game，這點只能不斷嘗試來達成。<br>
 而最重要的是，<strong>要在這 3 條磁力條消失前達成 DoubleObjectFFGlicth 的技巧</strong>，若是成功達成執行技巧，呼叫出物件 55，就會和 TAS 影片一樣突然進入 ending 。<br>
 磁力條消失的時間是 150 frames（約 2.5 秒左右），因此僅有大概 1 ～ 2 次的跳躍機會可嘗試，雖然單次 run 的整體時間很短，仍然是個極為困難的技巧。</li></ol>
 <h2>參考文章：</h2>
-<ul><li><a href="http://www.yuko2ch.net/rockman/mm1tasmap.html" rel="noopener" target="_blank">ディレオブジェクトテク</a></li>
-<li><a href="http://ch.nicovideo.jp/TASVideos/blomaga/ar529967" rel="noopener" target="_blank">ロックマン 1 のディレイエンディング TAS について</a></li>
-<li><a href="http://ch.nicovideo.jp/TASVideos/blomaga/ar535617" rel="noopener" target="_blank">ロックマン 1 の新技：DoubleObjectFFGlitch について</a></li>
-<li><a href="http://ch.nicovideo.jp/nou/blomaga/ar558601" rel="noopener" target="_blank">ロックマン RTA における　任意コード実行テクニックについて</a></li>
-<li><a href="http://www.nicovideo.jp/watch/sm23553625" rel="noopener" target="_blank">ロックマン 1 in 00:32.11 の解説用動画</a></li></ul>
+<ul><li><a href="http://www.yuko2ch.net/rockman/mm1tasmap.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://www.yuko2ch.net/rockman/mm1tasmap.html" alt="ディレオブジェクトテク"><span>ディレオブジェクトテク</span></a></li>
+<li><a href="http://ch.nicovideo.jp/TASVideos/blomaga/ar529967" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://ch.nicovideo.jp/TASVideos/blomaga/ar529967" alt="ロックマン 1 のディレイエンディング TAS について"><span>ロックマン 1 のディレイエンディング TAS について</span></a></li>
+<li><a href="http://ch.nicovideo.jp/TASVideos/blomaga/ar535617" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://ch.nicovideo.jp/TASVideos/blomaga/ar535617" alt="ロックマン 1 の新技：DoubleObjectFFGlitch について"><span>ロックマン 1 の新技：DoubleObjectFFGlitch について</span></a></li>
+<li><a href="http://ch.nicovideo.jp/nou/blomaga/ar558601" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://ch.nicovideo.jp/nou/blomaga/ar558601" alt="ロックマン RTA における　任意コード実行テクニックについて"><span>ロックマン RTA における　任意コード実行テクニックについて</span></a></li>
+<li><a href="http://www.nicovideo.jp/watch/sm23553625" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://www.nicovideo.jp/watch/sm23553625" alt="ロックマン 1 in 00:32.11 の解説用動画"><span>ロックマン 1 in 00:32.11 の解説用動画</span></a></li></ul>
 <h2>追記</h2>
-<ul><li><a href="https://www.nicovideo.jp/watch/sm36192523" rel="noopener" target="_blank">【TAS】 ロックマン 1 in 00:27.04 【任意コード実行】</a></li></ul>
+<ul><li><a href="https://www.nicovideo.jp/watch/sm36192523" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.nicovideo.jp/watch/sm36192523" alt="【TAS】 ロックマン 1 in 00:27.04 【任意コード実行】"><span>【TAS】 ロックマン 1 in 00:27.04 【任意コード実行】</span></a></li></ul>
 <p>在 2020 年的 1 月 6 號，ピロ彦 P 上傳了一支大幅更新版本的影片，
 這次把原本就很驚人的 32 秒紀錄再推進了 5 秒，全破《洛克人 1》只需要 27 秒！</p>
 <h3>機制簡記</h3>
@@ -246,7 +246,7 @@ C462: 4C 0C C1 jmp $C10C</code><!-- HTML_TAG_END --></pre>
 <li>第一次的跳躍讓 A 暫存器值變為 0A，第二次跳躍讓關卡變為 0A+1</li>
 <li>關卡的值（<code>$31</code>）變成 0B 進入 Ending</li></ul>
 <h3>參考文章</h3>
-<ul><li><a href="http://hp.vector.co.jp/authors/VA042397/nes/6502.html" rel="noopener" target="_blank">NES 研究室 - 6502</a></li></ul>
+<ul><li><a href="http://hp.vector.co.jp/authors/VA042397/nes/6502.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://hp.vector.co.jp/authors/VA042397/nes/6502.html" alt="NES 研究室 - 6502"><span>NES 研究室 - 6502</span></a></li></ul>
     <span class="blink svelte-1kip24n">_</span></article>
   
 
@@ -264,10 +264,10 @@ C462: 4C 0C C1 jmp $C10C</code><!-- HTML_TAG_END --></pre>
 </div>
 
 
-		<script type="module" data-hydrate="55vk6q">
-		import { start } from "/_app/start-5b2190d0.js";
+		<script type="module" data-hydrate="kl31oy">
+		import { start } from "/_app/start-ea32b50e.js";
 		start({
-			target: document.querySelector('[data-hydrate="55vk6q"]').parentNode,
+			target: document.querySelector('[data-hydrate="kl31oy"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -278,7 +278,7 @@ C462: 4C 0C C1 jmp $C10C</code><!-- HTML_TAG_END --></pre>
 				error: null,
 				nodes: [
 					import("/_app/pages/__layout.svelte-c9d305d5.js"),
-						import("/_app/pages/posts/ACG-rockman-1-tas-glitch.md-85974606.js")
+						import("/_app/pages/posts/ACG-rockman-1-tas-glitch.md-7d756f47.js")
 				],
 				params: {},
 				routeId: "posts/ACG-rockman-1-tas-glitch"
