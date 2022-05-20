@@ -29,6 +29,7 @@ tags: Toolbox
 - [ブリコラージュ@川内川前叢茅辺](http://st.cat-v.ne.jp/kawamae_cho/index.html)
 - [e-typing ローマ字タイピング](https://www.e-typing.ne.jp/roma/check/)
 - [ネットワーク対戦タイピング Weather Typing](https://denasu.com/software/weathertyping.html)
+- [物理のかぎしっぽ](http://hooktail.sub.jp/index.html)
 
 ## 社會
 

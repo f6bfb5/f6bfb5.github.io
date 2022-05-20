@@ -708,4 +708,88 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [「ゆっくり茶番劇」について](https://www.kaipat.com/%E3%80%8C%E3%82%86%E3%81%A3%E3%81%8F%E3%82%8A%E8%8C%B6%E7%95%AA%E5%8A%87%E3%80%8D%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/)
 - [「ゆっくり茶番劇」事件の炎上要素抜き解説（栗原潔）](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20220516-00296304)
 - [「ロシア軍、"戦史に残る"渡河作戦失敗」の衝撃～そもそも渡河作戦って、なぜそんなに難しいの？ - Togetter](https://togetter.com/li/1887804)
-
+- [にせウルトラマンや、にせ仮面ライダーを見ても、なぜ劇中の人々はニセモノと気づかないのだろう？（柳田理科雄）](https://news.yahoo.co.jp/byline/yanagitarikao/20220223-00283359)
+- [抽象的な考え事をしてはいけない - Lambda カクテル](https://blog.3qe.us/entry/2022/05/17/025908)
+- [USB メモリの大先輩！ 紫外線を当ててデータ消去するメモリで遊ぶ](https://dailyportalz.jp/kiji/usb_memory-sosen-UV-EPROM)
+- [「AIR 1 話の冒頭 10 分」がどれだけ好きで完成されているかの話をする](https://note.com/nyalra2/n/n2efd3d203711)
+- [平成 6 年生まれ私の平成邦楽 TOP30](https://anond.hatelabo.jp/20220517213328)
+  - [小沢健二 - ぼくらが旅に出る理由](https://www.youtube.com/watch?v=YR_2jMtBD6w)
+  - [ノーナ・リーヴス - DJ! DJ! ～とどかぬ想い～ feat. YOU THE ROCK★](https://www.youtube.com/watch?v=GmeJCsYk1JQ)
+  - KinKi Kids - 硝子の少年
+  - [livetune - ファインダー（kz's DSLR remix）](https://www.youtube.com/watch?v=eXaVzZlkQ9c)
+  - [Lamp - 最終列車は 25 時](https://www.youtube.com/watch?v=yDOx_Duc498)
+  - [PIZZICATO FIVE - 大都会交響楽](https://www.youtube.com/watch?v=ewQ14eyFPto)
+- [渋谷系と声優とレーベルの話 - AOI-CAT's diary](https://aoicat.hatenablog.com/entry/2014/09/02/230029)
+- [『星のカービィ 64』の「カッターカッターの残った方」人気がひっそり過熱。哀愁漂うほっそりボディ - AUTOMATON](https://automaton-media.com/articles/newsjp/20220518-202957/)
+- [テキーラとブーメラン - Tamamushi](https://shonenjumpplus.com/episode/3270296674354393396)
+- [絵画教室に通って 2 年たちました記録](https://dailyportalz.jp/kiji/illustschool-2years)
+- [ある日突然、私の口座に間違って二千万が振り込まれたときの話](https://ncode.syosetu.com/n3164hq/)
+- [ガラスに映ってポール・モーリアになりたい](https://dailyportalz.jp/kiji/Paul_Mauriat-in-glass)
+- [取扱説明書のイラストは人が描いています！～テクニカルイラストレーターというお仕事](https://dailyportalz.jp/kiji/hitoga-kaitemasu-technical-illustrator)
+- [『ゼルダの伝説 ブレス オブ ザ ワイルド』にて「潜水グリッチ」が発見される。さらに開拓される海と地下世界](https://automaton-media.com/articles/newsjp/20220516-202613/)
+- [ゲームデザインによくある「３すくみ」の話](https://togetter.com/li/1887009)
+- [アニメ『けものフレンズ』の「相似」「原因と結果」「鏡像」に分類した上で脚本の構造に見出される関係性について](https://togetter.com/li/1887537)
+- [鈴木 P が語る庵野秀明とウルトラマン、そして宮崎駿との幻の共演](https://www.asahi.com/articles/ASQ5B4HH7Q58UCVL00M.html)
+- [前の歌詞に次の歌詞が被ってきてカラオケで歌うとグダグダになって発狂する曲プレイリスト - kansou](https://www.kansou-blog.jp/entry/2022/05/16/195055)
+- [酒器を持ち、寝台特急サンライズに乗り込んで、香川でうどんをたらふく食べる - 今夜はいやほい](https://kikuchidesu.hatenablog.com/entry/2022/05/15/195753)
+- [「志摩スペイン村」微塵も人がいないのに突如トレンド入り　「にじさんじ」周央サンゴの"正直すぎるレポ"で話題に](https://nlab.itmedia.co.jp/nl/articles/2205/17/news099.html)
+- [踏襲と対比の美しさから考察する【オイサラバエル】樋口円香](https://note.com/natsuori/n/n470df5d220e1?s=09)
+- [千葉県佐倉市の RPG「天倫の桜」が時間泥棒すぎてやばい / ストーリーもキャラも魅力的すぎて時間がゴリゴリ溶けていく…!!](https://rocketnews24.com/2022/05/17/1633157/)
+- [平成 2 年（1990 年）生まれの私の平成邦楽ベスト 50](https://anond.hatelabo.jp/20220518173557)
+- [「自由ってそんなにいいもんじゃない」――30 代を迎えた米津玄師の変化](https://news.yahoo.co.jp/articles/cb9ffff1016c5ecb95c881ed085f5d99a2b163f9)
+- [娘が毎日どの服を着たらいいか分からなくてパニックになる → この表を印刷して貼ったら天気予報の気温をみて自分で服を選べるようになった](https://togetter.com/li/1889088)
+- [40 代でアーリーリタイアした知り合いが「びっくりするスピードで物覚えが悪くなった」と聞いて怖くなった話](https://togetter.com/li/1888971)
+- [「マンガを布教する時に"全巻貸す"は絶対ダメ」大学の宗教研究者に"布教ノウハウ"を聞きに行ったら推し活での NG 行為が明らかになった](https://originalnews.nico/359670)
+- [アニメ主題歌がアニメの内容と合ってるか合ってないかで言うと『すごいよ！！マサルさん』の"ロマンス"は合ってないのになぜかめちゃくちゃ合ってる](https://togetter.com/li/1888966)
+- [志摩スペイン村をトレンドに押し上げた女こと](https://anond.hatelabo.jp/20220519041755)
+- [映像作品の倍速視聴は何を取りこぼすのか、銭さんへのリプライ - 昆虫亀](https://morinorihide.hatenablog.com/entry/2021/03/30/011218)
+  - 1.倍速觀賞是偏離作者意圖的失禮觀看方式嗎？
+    - 1-1.「作者意圖」很麻煩
+      - 大多數作品裡作者的意圖並不明確
+      - 例如電影有大量人員參與的作品，也很難以特定作者
+      - 現代大多作者認為「不必在乎我的意圖，自由觀看作品就好」
+    - 1-2.「失禮觀看方式」微妙的語意
+      - 例如違反（或是不考慮）作者意圖的解釋，通常並不失禮
+      - 在類別層面上不將作品視為作品，則常會是種失禮的觀看
+  - 2.倍速觀看能夠想像、重現一般觀看的體驗嗎？
+    - 2-1.身體反應是能夠想像或重現的嗎？
+      - 倍速觀看常漏掉的，正是「反應的沈澱」的效果
+    - 2-2.沒試過不會知道作品適不適合倍速觀賞
+      - 若是間隔運用非常巧妙的作品，倍速看過就難再有原初體驗
+  - YouTube 上的學術研討會或 Podcast 能以倍速消化
+    - 由於重點只在談話的內容，而非談話技巧、間隔是否優秀的美學層面
+- [ゴールデンカムイの不死身の杉元と明治の不死身キャラの類似性とその進化について - 山下泰平の趣味の方法](https://cocolog-nifty.hatenablog.com/entry/2022/05/19/182400)
+- [ゲームには必ず「勝ちと負け」があるのか？](https://togetter.com/li/1888249)
+- [コスティキャンのゲーム論](http://www.aa.cyberhome.ne.jp/~babahide/bblibrary/library/design_j.html)
+  - 說來「遊戲」是什麼？
+    - 「遊戲」不是謎題
+    - 「遊戲」不是玩具
+    - 「遊戲」不是故事
+    - 「遊戲」需要參加者
+  - 所以「遊戲」到底是什麼？
+    - 決定意志
+    - 目標
+    - 障礙物
+    - 資源管理
+    - 遊戲令牌
+      - 「資源」與「令牌」的差異是，玩家為了達成目的必須妥善管理資源，令牌便是為此使用的手段
+      - 例如戰爭模擬遊戲，「戰力」是種資源，象徵部隊的「計數器（棋子）」就是遊戲令牌
+    - 資訊
+  - 替「遊戲」帶來魅力的其他要素
+    - 互相支援與交涉
+    - 氣氛
+    - 模擬
+    - 多變的發展
+    - 感情投射
+    - 角色扮演
+    - 玩家之間的交流
+    - 戲劇性的精彩橋段
+  - 所有遊戲都是骰子底下的兄弟
+- [デス鮭ハンター - 有波](https://shonenjumpplus.com/episode/3270296674354569235)
+- [【給付金誤振込み事件】電子計算機使用詐欺罪の適用は疑問だ（園田寿）](https://news.yahoo.co.jp/byline/sonodahisashi/20220519-00296676)
+- [赤木さんは金曜日の天使 - 緑黄シヅク](https://shonenjumpplus.com/episode/3270296674354569288)
+- [入力中の個人情報が"送信ボタンを押す前に"収集されている問題　約 10 万の Web サイトを調査](https://www.itmedia.co.jp/news/articles/2205/20/news044.html)
+- [文字商標「ゆっくり茶番劇」に関するドワンゴの見解と対応について](https://blog.nicovideo.jp/niconews/170666.html)
+- [90 年代前半のオリコン月間ランキングを眺めて知らなかった歌手をピックアップしていく](https://anond.hatelabo.jp/20220520170104)
+- [FD のコピープロテクト : プログラミング指南 - Code Knowledge](https://codeknowledge.livedoor.blog/archives/15843396.html)
+- [全てのクリエイターと、それを推すオタクはニコニコ動画を利用したほうがいいって話](https://note.com/hayutea/n/n250037c591d3)

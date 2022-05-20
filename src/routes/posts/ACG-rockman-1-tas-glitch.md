@@ -25,7 +25,7 @@ summary: "2014 年 5 月，遊戲圈出現了一支使用輔助程式，在「�
 
 在《洛克人 1》裡，當洛克人經過特定地圖的某些地點後，會出現不可視的「`0xFF`」物件（後稱 `FF 物件`）。例如 Ice Man 關卡的此處：
 
-[![img01](https://i.imgur.com/FZkBQwv.gif)](https://i.imgur.com/FZkBQwv.gif)
+![img01](https://i.imgur.com/FZkBQwv.gif)
 
 <p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△ 「0xFF」物件出現於畫面不可視之處</p>
 
@@ -39,7 +39,7 @@ summary: "2014 年 5 月，遊戲圈出現了一支使用輔助程式，在「�
 
 例如物件 `F5` 出現後，需要執行敵人行動的 AI 模式 → 由於未切換 Bank，物件編號得到的 jump 目標為「`C0BD`」→ `C0BD` 為「通關處理過程中的物件」位置，因此遊戲會突然通關。
 
-[![img02](https://i.imgur.com/pwkEkYJ.gif)](https://i.imgur.com/pwkEkYJ.gif)
+![img02](https://i.imgur.com/pwkEkYJ.gif)
 
 <p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△ 異常出現的 Electric Man</p>
 
@@ -82,11 +82,11 @@ C462: 4C 0C C1 jmp $C10C
 
 一旦某項物件出現後，在其消滅之前都不會再出現下個物件，若出現了目標之外的物件，就要用離開畫面之類的手法來清除。
 
-[![img03](https://i.imgur.com/LEoXwhg.gif)](https://i.imgur.com/LEoXwhg.gif)
+![img03](https://i.imgur.com/LEoXwhg.gif)
 
-[![img04](https://i.imgur.com/b0naPNm.gif)](https://i.imgur.com/b0naPNm.gif)
+![img04](https://i.imgur.com/b0naPNm.gif)
 
-[![img05](https://i.imgur.com/xO6xO8i.gif)](https://i.imgur.com/xO6xO8i.gif)
+![img05](https://i.imgur.com/xO6xO8i.gif)
 
 <p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△ 本次 RTA 的關鍵地點</p>
 
@@ -123,20 +123,20 @@ C462: 4C 0C C1 jmp $C10C
 ### 流程
 
 1. 在 Electric Man 的關卡裡，於梯子上進行射擊的動作，**僅按下 1 frame** 下鍵，會變為半抓住梯子的樣子，<br>
-   [![img06](https://i.imgur.com/5srrun8.jpg)](https://i.imgur.com/5srrun8.jpg)<br>
+   ![img06](https://i.imgur.com/5srrun8.jpg)<br>
    洛克人朝左的狀況下，按下上鍵，會變為頭卡在天花板的穿牆狀態，<br>
    按下跳躍鍵，跳到最高處後，按下右鍵，會穿越至磁力條的右方，<br>
    這個狀態下按左鍵，會由於<ruby>子像素<rp>(</rp><rt>subpixel</rt><rp>)</rp></ruby>的關係，有 1/8 機率可以拿到磁力條，<br>
    再按下一次跳躍鍵，就會回到穿牆狀態。
 2. 進入 Guts Man 關卡
 3. 在關卡開頭等待第二隻小矮兵的 3 連攻擊，在下圖的位置等待至第 3 發中央的子彈消失於畫面外後， `$49B` 的值會變為 C4 。<br>
-   [![img07](https://i.imgur.com/EhAhmrY.jpg)](https://i.imgur.com/EhAhmrY.jpg)
+   ![img07](https://i.imgur.com/EhAhmrY.jpg)
 4. 在畫面內有 2 隻小矮兵的狀態下，**保持畫面裡有 2 連攻擊**追至下圖的位置，等待至第 2 發中央的子彈消失於畫面外後， `$49A` 的值會變為 60。<br>
    這裡若是遇到 3 連攻擊 `$49B` 會因此取得 C4 之外的值。<br>
-   [![img08](https://i.imgur.com/fAcJeMt.jpg)](https://i.imgur.com/fAcJeMt.jpg)
+   ![img08](https://i.imgur.com/fAcJeMt.jpg)
 5. 在畫面內有 1 隻小矮兵的狀態下，在下圖位置等待 2 連攻擊的第 2 發中央子彈消失於畫面外後， `$499` 的值會變為 20。<br>
    這裡同樣若是遇到 3 連攻擊，在這之前的調整會因此偏掉。<br>
-   [![img09](https://i.imgur.com/O046zDW.jpg)](https://i.imgur.com/O046zDW.jpg)<br>
+   ![img09](https://i.imgur.com/O046zDW.jpg)<br>
    這裡小矮兵的攻擊間隔是由亂數決定，若是運氣不好，<br>
    會有可能為了 3 連攻擊或 2 連攻擊，要等上數十秒。<br>
    若是途中失敗可從 `$49B` 重新開始調整。
@@ -144,26 +144,26 @@ C462: 4C 0C C1 jmp $C10C
    擊敗 3 隻敵人**並使畫面上顯示 3 個道具**後，<br>
    在下圖的位置受到傷害，會使 `$498` 的值變為 4A 。<br>
    若是失敗仍可在血量允許的情況下持續調整。<br>
-   [![img10](https://i.imgur.com/uFBy8hb.jpg)](https://i.imgur.com/uFBy8hb.jpg)
+   ![img10](https://i.imgur.com/uFBy8hb.jpg)
 7. 接下來是 `$482`～`$484` 的調整，在下圖的位置向右連射 3 發 buster ，在第 3 發子彈消失於畫面外後，`$484` 的值會變為 13。<br>
-   [![img11](https://i.imgur.com/5KVdRku.jpg)](https://i.imgur.com/5KVdRku.jpg)
+   ![img11](https://i.imgur.com/5KVdRku.jpg)
 8. 在下圖的位置向右連射 2 發 buster ，在第 2 發子彈消失於畫面外後，`$483` 的值會變為 50。<br>
-   [![img12](https://i.imgur.com/ZKGmALT.jpg)](https://i.imgur.com/ZKGmALT.jpg)
+   ![img12](https://i.imgur.com/ZKGmALT.jpg)
 9. 在下圖的位置向右射單發 buster ，子彈消失於畫面外後，`$482` 的值會變為 8A。<br>
    在這之後若再發射 buster，會造成先前調整的數值變動，**要注意不可再使用 buster** ，若是失敗則要再從 `$484` 開始重新調整。<br>
-   [![img13](https://i.imgur.com/O95Y27D.jpg)](https://i.imgur.com/O95Y27D.jpg)
+   ![img13](https://i.imgur.com/O95Y27D.jpg)
 10. 接下來是 `$605`～`$607` 的調整，從第三階樓梯開始，使用磁力條逐格拉高 10 高度。<br>
-    [![img14](https://i.imgur.com/ceJ1S7O.jpg)](https://i.imgur.com/ceJ1S7O.jpg)
+    ![img14](https://i.imgur.com/ceJ1S7O.jpg)
 11. 注意磁力條的顯示時間，將畫面最上方的磁力條調整為**畫面裡出現的第 3 條**， `$607` 的值會變為 04 。<br>
     需將時間調整為，這時踏台的第 2 條和第 1 條的磁力條，在設置第 3 條後會馬上消失。<br>
-    [![img15](https://i.imgur.com/6qy17F2.jpg)](https://i.imgur.com/6qy17F2.jpg)
+    ![img15](https://i.imgur.com/6qy17F2.jpg)
 12. 在踏台的第 2 條磁力條消失前，射出磁力條並跳至最高，可以使用 Start → Select 微調磁力條至下圖的位置（與右邊的山峰平行）後，放開 B 鍵便能在此設置磁力條。<br>
     由於這時先前設值的第 1 和第 2 條磁力條已經消失了，這時設置的磁力條會變為第 1 條，`$605` 會變為 20 。<br>
-    [![img16](https://i.imgur.com/uQmEdO7.jpg)](https://i.imgur.com/uQmEdO7.jpg)
+    ![img16](https://i.imgur.com/uQmEdO7.jpg)
 13. 著地後朝左射出磁力條，並在最大跳躍後，在**頂點附近**朝右，將磁力條設置於如下圖的階梯上固定，這會是第 2 條磁力條，`$606` 變為 82 。<br>
     若是這時失敗會由於磁力條的殘量不足，必須整個 run 重來過。<br>
     若只是想成功可以從 `$484` 的調整重新開始。<br>
-    [![img17](https://i.imgur.com/MPvesQN.jpg)](https://i.imgur.com/MPvesQN.jpg)
+    ![img17](https://i.imgur.com/MPvesQN.jpg)
 14. 調整至此**必須沒有任何 1 格點陣**的偏差，並且為了使用 DoubleObjectFFGlicth 叫出物件 55，需要**按下控制器 2 的「←、↑、Select、A」鍵**。<br>
     影片的跑者是使用膠帶固定住 A 鍵，用雙腳踩下十字鍵與 Select 鍵。<br>
     然而 Guts Man 關的 DoubleObjectFFGlicth 比起 Ice Man 的難易度更高，在人力執行上是一定程度的運 Game，這點只能不斷嘗試來達成。<br>

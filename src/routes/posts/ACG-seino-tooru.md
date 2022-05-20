@@ -5,7 +5,7 @@ summary:
 tags: ACG, Comic
 ---
 
-清野とおる，1980 年 3 月 24 日出生，1998 年時於《Young Magazine 增刊藍 BUTA》出道後，在《週刊 Young Jump》上開始連載《<ruby>青春嘻嘻嘻<rp>(</rp><rt>青春ヒヒヒ</rt><rp>)</rp></ruby>》、《ハラハラドキドキ》。之後直到 2008 年，由於部落格獲得 Bbmf 雜誌的編輯者注目，在手機網站「<ruby>手機漫畫王國<rp>(</rp><rt>ケータイまんが王国</rt><rp>)</rp></ruby>」連載《東京都北區赤羽》開始受到各界媒體的注目。並在雙葉社的「漫畫 Action」雜誌上連載續作的《<ruby>開心！東京都北區赤羽<rp>(</rp><rt>ウヒョッ! 東京都北区赤羽</rt><rp>)</rp></ruby>》。
+清野とおる，1980 年 3 月 24 日出生，1998 年時於《Young Magazine 增刊藍 BUTA》出道後，在《週刊 Young Jump》上開始連載《<ruby><rb>青春嘻嘻嘻</rb><rt>青春ヒヒヒ</rt></ruby>》、《ハラハラドキドキ》。之後直到 2008 年，由於部落格獲得 Bbmf 雜誌的編輯者注目，在手機網站「<ruby><rb>手機漫畫王國</rb><rt>ケータイまんが王国</rt></ruby>」連載《東京都北區赤羽》開始受到各界媒體的注目。並在雙葉社的「漫畫 Action」雜誌上連載續作的《<ruby><rb>開心！東京都北區赤羽</rb><rt>ウヒョッ! 東京都北区赤羽</rt></ruby>》。
 
 清野通開始連載《青春嘻嘻嘻》時是大學 3 年級的時候，在這個會決定往後生涯的時期，清野由於有了連載，並沒有進行求職活動，但作品在連載了半年後就遇到腰斬。即使問了當時的負責編輯：「我在大學畢業之後該怎麼辦好呢？」也只得到了「就算你問我也…」的回答，就此進入無職人生。在這半年之後開始連載《ハラハラドキドキ》，但也同樣在半年後慘遭腰斬。
 
@@ -46,51 +46,51 @@ tags: ACG, Comic
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nf_OGK9UJuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△ 山田孝之的東京都北區赤羽片尾曲《TOKYO NORTH SIDE》</p>
 
-<ruby>滿身束縛的操線人偶<rp>(</rp><rt>がんじがらめのマリオネット</rt><rp>)</rp></ruby><br/>
-<ruby>正嘲笑著自己的我<rp>(</rp><rt>俺を笑う俺がいる</rt><rp>)</rp></ruby><br/>
-<ruby>與注視這情境的我<rp>(</rp><rt>それを見ている俺もいる</rt><rp>)</rp></ruby><br/>
-<ruby>把聚光燈打在他身上<rp>(</rp><rt>彼にライトを当ててくれ</rt><rp>)</rp></ruby><br/>
-<ruby>沒有觀眾的 盲目的舞動男孩<rp>(</rp><rt>観客のいない盲目のダンシングボーイ</rt><rp>)</rp></ruby><br/>
+<ruby><rb>滿身束縛的操線人偶</rb><rt>がんじがらめのマリオネット</rt></ruby><br/>
+<ruby><rb>正嘲笑著自己的我</rb><rt>俺を笑う俺がいる</rt></ruby><br/>
+<ruby><rb>與注視這情境的我</rb><rt>それを見ている俺もいる</rt></ruby><br/>
+<ruby><rb>把聚光燈打在他身上</rb><rt>彼にライトを当ててくれ</rt></ruby><br/>
+<ruby><rb>沒有觀眾的 盲目的舞動男孩</rb><rt>観客のいない盲目のダンシングボーイ</rt></ruby><br/>
 yeah<br/>
-<ruby>在束手無策的心境生育成長<rp>(</rp><rt>諦めの境地で生まれ育ち</rt><rp>)</rp></ruby><br/>
+<ruby><rb>在束手無策的心境生育成長</rb><rt>諦めの境地で生まれ育ち</rt></ruby><br/>
 woo…<br/>
-<ruby>連同虛無感都吞噬精光<rp>(</rp><rt>虚無感さえも食い尽くす</rt><rp>)</rp></ruby><br/>&nbsp;<br/>
+<ruby><rb>連同虛無感都吞噬精光</rb><rt>虚無感さえも食い尽くす</rt></ruby><br/>&nbsp;<br/>
 
-<ruby>這裡是<rp>(</rp><rt>ここは</rt><rp>)</rp></ruby><br/>
-<ruby>東京北區<rp>(</rp><rt>TOKYO NORTH SIDE</rt><rp>)</rp></ruby><br/>
-<ruby>虛偽啊上吊吧<rp>(</rp><rt>偽りよ首を吊れ</rt><rp>)</rp></ruby><br/>
-<ruby>孤獨啊退隱吧<rp>(</rp><rt>孤独よ引きこもれ</rt><rp>)</rp></ruby><br/>
-<ruby>去尋找那<rp>(</rp><rt>探せ</rt><rp>)</rp></ruby><br/>
-<ruby>東京北區<rp>(</rp><rt>TOKYO NORTH SIDE</rt><rp>)</rp></ruby><br/>
-<ruby>地圖遺忘的幻之街道<rp>(</rp><rt>地図が忘れた幻の街</rt><rp>)</rp></ruby><br/>
-<ruby>我會找出來的<rp>(</rp><rt>見つけてみせる</rt><rp>)</rp></ruby><br/>
-<ruby>赤羽 赤羽<rp>(</rp><rt>RED WING RED WING</rt><rp>)</rp></ruby><br/>&nbsp;<br/>
+<ruby><rb>這裡是</rb><rt>ここは</rt></ruby><br/>
+<ruby><rb>東京北區</rb><rt>TOKYO NORTH SIDE</rt></ruby><br/>
+<ruby><rb>虛偽啊上吊吧</rb><rt>偽りよ首を吊れ</rt></ruby><br/>
+<ruby><rb>孤獨啊退隱吧</rb><rt>孤独よ引きこもれ</rt></ruby><br/>
+<ruby><rb>去尋找那</rb><rt>探せ</rt></ruby><br/>
+<ruby><rb>東京北區</rb><rt>TOKYO NORTH SIDE</rt></ruby><br/>
+<ruby><rb>地圖遺忘的幻之街道</rb><rt>地図が忘れた幻の街</rt></ruby><br/>
+<ruby><rb>我會找出來的</rb><rt>見つけてみせる</rt></ruby><br/>
+<ruby><rb>赤羽 赤羽</rb><rt>RED WING RED WING</rt></ruby><br/>&nbsp;<br/>
 
-<ruby>背德的火炎燒盡惡意和善意<rp>(</rp><rt>背徳の炎が悪意と善意を焼き尽くす</rt><rp>)</rp></ruby><br/>
-<ruby>已經無一物能夠燃燒<rp>(</rp><rt>もうこれで燃やすものはない</rt><rp>)</rp></ruby><br/>
-<ruby>奏響無弦的吉它<rp>(</rp><rt>弦のないギターをかき鳴らす</rt><rp>)</rp></ruby><br/>
-<ruby>我還聽不見 Shy boy<rp>(</rp><rt>俺にはまだ聞こえないシャイボーイ</rt><rp>)</rp></ruby><br/>
-<ruby>yeah 在無盡黑暗中閉上眼睛<rp>(</rp><rt>yeah 真っ暗な闇で目を閉じて</rt><rp>)</rp></ruby><br/>
-<ruby>把潔然無暇的紙張染上純白<rp>(</rp><rt>真っ白な紙を純白に染める</rt><rp>)</rp></ruby><br/>
+<ruby><rb>背德的火炎燒盡惡意和善意</rb><rt>背徳の炎が悪意と善意を焼き尽くす</rt></ruby><br/>
+<ruby><rb>已經無一物能夠燃燒</rb><rt>もうこれで燃やすものはない</rt></ruby><br/>
+<ruby><rb>奏響無弦的吉它</rb><rt>弦のないギターをかき鳴らす</rt></ruby><br/>
+<ruby><rb>我還聽不見 Shy boy</rb><rt>俺にはまだ聞こえないシャイボーイ</rt></ruby><br/>
+<ruby><rb>yeah 在無盡黑暗中閉上眼睛</rb><rt>yeah 真っ暗な闇で目を閉じて</rt></ruby><br/>
+<ruby><rb>把潔然無暇的紙張染上純白</rb><rt>真っ白な紙を純白に染める</rt></ruby><br/>
 woo…<br/>&nbsp;<br/>
 
-<ruby>嘲笑吧<rp>(</rp><rt>笑え</rt><rp>)</rp></ruby><br/>
-<ruby>東京北都<rp>(</rp><rt>TOKYO NORTH SIDE</rt><rp>)</rp></ruby><br/>
-<ruby>我已經厭倦了<rp>(</rp><rt>イエローマウスとの</rt><rp>)</rp></ruby><br/>
-<ruby>和黃色老鼠的追逐遊戲<rp>(</rp><rt>逃走遊戯にはもう 飽きた</rt><rp>)</rp></ruby><br/>&nbsp;<br/>
+<ruby><rb>嘲笑吧</rb><rt>笑え</rt></ruby><br/>
+<ruby><rb>東京北都</rb><rt>TOKYO NORTH SIDE</rt></ruby><br/>
+<ruby><rb>我已經厭倦了</rb><rt>イエローマウスとの</rt></ruby><br/>
+<ruby><rb>和黃色老鼠的追逐遊戲</rb><rt>逃走遊戯にはもう 飽きた</rt></ruby><br/>&nbsp;<br/>
 
-<ruby>活在這<rp>(</rp><rt>暮らせ</rt><rp>)</rp></ruby><br/>
-<ruby>東京北區<rp>(</rp><rt>TOKYO NORTH SIDE</rt><rp>)</rp></ruby><br/>
-<ruby>野獸的皮做成的靴子<rp>(</rp><rt>獣の皮で作ったブーツ</rt><rp>)</rp></ruby><br/>
-<ruby>我要展翅飛翔<rp>(</rp><rt>俺から羽ばたけ</rt><rp>)</rp></ruby><br/>
-<ruby>赤羽<rp>(</rp><rt>RED WING</rt><rp>)</rp></ruby><br/>
-<ruby>雨啊 風啊 天空啊 我啊<rp>(</rp><rt>雨が風が空が俺が</rt><rp>)</rp></ruby><br/>&nbsp;<br/>
+<ruby><rb>活在這</rb><rt>暮らせ</rt></ruby><br/>
+<ruby><rb>東京北區</rb><rt>TOKYO NORTH SIDE</rt></ruby><br/>
+<ruby><rb>野獸的皮做成的靴子</rb><rt>獣の皮で作ったブーツ</rt></ruby><br/>
+<ruby><rb>我要展翅飛翔</rb><rt>俺から羽ばたけ</rt></ruby><br/>
+<ruby><rb>赤羽</rb><rt>RED WING</rt></ruby><br/>
+<ruby><rb>雨啊 風啊 天空啊 我啊</rb><rt>雨が風が空が俺が</rt></ruby><br/>&nbsp;<br/>
 
-<ruby>再會了<rp>(</rp><rt>さらば</rt><rp>)</rp></ruby><br/>
-<ruby>東京北區<rp>(</rp><rt>TOKYO NORTH SIDE</rt><rp>)</rp></ruby><br/>
-<ruby>我已做好沐浴光下的覺悟<rp>(</rp><rt>光を浴びる覚悟はできた</rt><rp>)</rp></ruby><br/>
-<ruby>不會說出道別話語<rp>(</rp><rt>さよならは言わない</rt><rp>)</rp></ruby><br/>
-<ruby>赤羽 赤羽<rp>(</rp><rt>RED WING RED WING RED WING</rt><rp>)</rp></ruby>
+<ruby><rb>再會了</rb><rt>さらば</rt></ruby><br/>
+<ruby><rb>東京北區</rb><rt>TOKYO NORTH SIDE</rt></ruby><br/>
+<ruby><rb>我已做好沐浴光下的覺悟</rb><rt>光を浴びる覚悟はできた</rt></ruby><br/>
+<ruby><rb>不會說出道別話語</rb><rt>さよならは言わない</rt></ruby><br/>
+<ruby><rb>赤羽 赤羽</rb><rt>RED WING RED WING RED WING</rt></ruby>
 
 ## 參考文章
 

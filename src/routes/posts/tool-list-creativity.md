@@ -71,7 +71,6 @@ table td:nth-child(3) {
 | 名稱                                                                                | 說明                | 付費 |
 | ----------------------------------------------------------------------------------- | ------------------- | ---- |
 | [GANTAI](https://fairway.ne.jp/gantai/)                                             | 快速加上馬賽克      | FREE |
-| [Audacity](https://sourceforge.net/projects/audacity/)                              | 開源的聲音編輯軟體  | FREE |
 | [Mkvtoolnix](https://mkvtoolnix.download/)                                          | 處理 Mastroska 檔案 | FREE |
 | [Aegisub](https://github.com/Aegisub/Aegisub)                                       | 影片字幕編輯軟體    | FREE |
 | [SubtitleEdit](https://www.nikse.dk/subtitleedit)                                   | 影片字幕編輯軟體    | FREE |
@@ -79,17 +78,6 @@ table td:nth-child(3) {
 | [movie_thumbnailer](https://gitlab.com/movie_thumbnailer/mtn/-/wikis/home#download) | 製作影片縮圖        | FREE |
 
 `mtn.exe -c 4 -h 0 -s 60 -z -P -f <path-to-font-file>`
-
-#### SubtitleEdit 常用快捷
-
-| 按鍵    | 功能              |
-| ------- | ----------------- |
-| F8      | 播放/暫停影片     |
-| F9      | 增加新字幕        |
-| F11     | 設定字幕開始位置  |
-| F12     | 設定字幕結束位置  |
-| F5      | 播放被選取的字幕  |
-| Alt+↑/↓ | 選取上/下一句字幕 |
 
 ### 錄影
 

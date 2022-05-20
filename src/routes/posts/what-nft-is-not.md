@@ -30,7 +30,7 @@ ul li ul {
 
 本文只擷取了文字條目的部分，原始投影片有輔於實例資料與圖解參考，建議搭配服用能更進一步理解。
 
-中間也有介紹了目前 NFT 帶來的轉機與危機，這部分目前大家應該都已相當熟悉，就先行略過；另外也有提及比特幣相關文化的源流、運動與類似的技術，有興趣的人可以參考 <ruby>[密碼龐克](https://en.wikipedia.org/wiki/Cypherpunk)<rp>(</rp><rt>Cypherpunk</rt><rp>)</rp></ruby> 與 [e-timing](https://www.e-timing.ne.jp/)。
+中間也有介紹了目前 NFT 帶來的轉機與危機，這部分目前大家應該都已相當熟悉，就先行略過；另外也有提及比特幣相關文化的源流、運動與類似的技術，有興趣的人可以參考 <ruby><rb>[密碼龐克](https://en.wikipedia.org/wiki/Cypherpunk)</rb><rt>Cypherpunk</rt></ruby> 與 [e-timing](https://www.e-timing.ne.jp/)。
 
 以下正文。
 
@@ -55,7 +55,7 @@ ul li ul {
   - **權力下放**（decentralization）：不受特定國家或企業支配
   - **持續營運**（continuity）：某一主體無法提供服務後能有承接者
   - **匿名使用**（anonymity）：將個人與交易紀錄分離
-  - （譯註：雷曼兄弟事件發生於 2008/09/15，比特幣論文發表於 2008/10/31，中本聰實作出比特幣應用後，在<ruby>首個區塊<rp>(</rp><rt>Genesis Block</rt><rp>)</rp></ruby>內引用了泰晤士報 2009/01/03 大標：「<ruby>財政大臣第二次對處於崩潰邊緣的銀行採取緊急救助<rp>(</rp><rt>Chancellor on brink of second bailout for banks</rt><rp>)</rp></ruby>」）
+  - （譯註：雷曼兄弟事件發生於 2008/09/15，比特幣論文發表於 2008/10/31，中本聰實作出比特幣應用後，在<ruby><rb>首個區塊</rb><rt>Genesis Block</rt></ruby>內引用了泰晤士報 2009/01/03 大標：「<ruby><rb>財政大臣第二次對處於崩潰邊緣的銀行採取緊急救助</rb><rt>Chancellor on brink of second bailout for banks</rt></ruby>」）
 - 為了防止權力下放的方式導致重複支付，需要使用**加密技術**
   - 加密技術的角色不只是為了保密資訊，也包含防止竄改資訊
 - 「Timestamp」是比特幣的起源想法之一
@@ -147,7 +147,7 @@ ul li ul {
 - [サトシナカモトの原論文](https://bitcoin.org/files/bitcoin-paper/bitcoin_jp.pdf)
   - 中本聰的原始論文，日譯版
 - [ソフトウェアエンジニアなら 3 秒で理解できる NFT 入門](https://okapies.hateblo.jp/entry/2022/01/30/193604)
-  - 強烈推薦此文，直接從如 EIP-20（<ruby>乙太坊改進提案<rp>(</rp><rt>Ethereum Improvement Proposals</rt><rp>)</rp></ruby>，即社群試圖提出的實作修改方案）及標準化後的 ERC-20（<ruby>乙太坊徵求評論<rp>(</rp><rt>Ethereum Request for Comments</rt><rp>)</rp></ruby>，即實作時應遵循的標準與討論）或 EIP-721（建構 NFT 的智慧合約）的原始碼進一步做拆解，以及如 OpenSea 獨立制定的元資料內容為何
+  - 強烈推薦此文，直接從如 EIP-20（<ruby><rb>乙太坊改進提案</rb><rt>Ethereum Improvement Proposals</rt></ruby>，即社群試圖提出的實作修改方案）及標準化後的 ERC-20（<ruby><rb>乙太坊徵求評論</rb><rt>Ethereum Request for Comments</rt></ruby>，即實作時應遵循的標準與討論）或 EIP-721（建構 NFT 的智慧合約）的原始碼進一步做拆解，以及如 OpenSea 獨立制定的元資料內容為何
   - 也探討到 CryptoPunks 因為稀有屬性產出的價值，實質上更近似集換式卡牌，是由上頭的角色人氣或發行數量（所謂的稀有卡）而決定，而非作品本身的美術價值或文化脈絡
 - [「NFT とは何ではないか」の後に調べたこと](https://togetter.com/li/1823914)
   - 本文投影片作者之後的相關討論與補充資料
