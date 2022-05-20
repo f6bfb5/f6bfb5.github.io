@@ -187,9 +187,18 @@ a {
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
-
 a:hover {
   color: var(--link-hover-color);
+}
+
+a img {
+  display: inline-block;
+  margin: 0;
+  vertical-align: text-bottom;
+  height: 1em;
+}
+a img + span {
+  margin-left: .25em;
 }
 
 p {
