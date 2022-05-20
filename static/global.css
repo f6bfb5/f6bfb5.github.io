@@ -381,6 +381,15 @@ figure {
   margin: 0 0 3em 0;
 }
 
+ruby {
+  display: inline-flex;
+  flex-direction: column-reverse;
+}
+rb, rt {
+  display: inline;
+  line-height: 1.2;
+}
+
 table {
   border-collapse: collapse;
   margin: 0 auto;
