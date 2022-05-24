@@ -1,6 +1,16 @@
 <script>
   import { page } from "$app/stores";
   import { base } from "$app/paths";
+
+  const randomAnchorName = [
+    "共同幻想",
+    "晴耕雨読",
+    "雨天決行",
+    "森羅万象",
+    "諸行無常",
+    "一期一会",
+    "有象無象",
+  ];
 </script>
 
 <nav>

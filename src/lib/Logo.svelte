@@ -28,8 +28,6 @@
     "https://www.youtube.com/watch?v=OGWO3u8zgTU",
     // 坂本真綾 - おかえりなさい (Tomatomerde Remix)
     "https://www.youtube.com/watch?v=wbMe6DmtqMw",
-    // ヤツメ穴
-    "https://www.youtube.com/watch?v=C9PFVo1FEwU",
     // ラグとレイン
     "https://www.youtube.com/watch?v=AzFJUrKO8U0",
     // 週末のDDRメドレーを　あの頃のようには踊れない
@@ -42,10 +40,10 @@
     "https://youtu.be/KmGvN3fmsbY",
     // ファミコンの音声出力比較をしてみたら意外な機器の音質が良かった【9 通り】
     "https://youtu.be/LXCrwoQzrwI",
-    // Long Long ago, 20th Century
-    "https://www.youtube.com/watch?v=7EJ_1gPoJR8",
     // ヤツメ穴 / 緑仙 (全部僕の声)
     "https://www.youtube.com/watch?v=s3dVPAAEX14",
+    // あなたは世界の終わりにずんだを食べるのだ / なみぐる feat.ずんだもん
+    "https://www.nicovideo.jp/watch/sm40487046",
     // ----------------------------------------
     // Game
     // ----------------------------------------
