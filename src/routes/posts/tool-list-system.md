@@ -30,10 +30,10 @@ table td:nth-child(3) {
 | [Everything](https://www.voidtools.com/downloads/)                                                                 | 超級快速的檔案搜索工具                                                         | FREE     |
 | [Geek Uninstaller](https://geekuninstaller.com/)                                                                   | 會將關聯檔案一同刪除的程式反安裝工具                                           | 具付費版 |
 | [Bulk Crap Uninstaller](https://www.bcuninstaller.com/)                                                            |                                                                                | FREE     |
-| [PIME](https://github.com/EasyIME/PIME/releases)                                                                   | 新酷音輸入法，包含可在 Windows 11 上使用的舊注音輸入法。                       | FREE     |
+| [PIME](https://github.com/EasyIME/PIME/releases)                                                                   | 新酷音輸入法，包含可在 Windows 11 上使用的舊注音輸入法                         | FREE     |
+| [Divvy](https://mizage.com/divvy/)                                                                                 | 切割視窗位置                                                                   | 具付費版 |
 | [orchis](http://www.eonet.ne.jp/~gorota/)                                                                          | 快速執行程式                                                                   | FREE     |
 | [CLaunch](https://hp.vector.co.jp/authors/VA018351/en/claunch.html)                                                | 快速開啟資料夾                                                                 | FREE     |
-| [Divvy](https://mizage.com/divvy/)                                                                                 | 切割視窗位置                                                                   | 具付費版 |
 | [Rufus](https://rufus.ie/)                                                                                         | 簡易建立可開機 USB 裝置                                                        | FREE     |
 | [TreeSize](https://www.jam-software.com/treesize_free/)                                                            | 分析硬碟檔案空間佔用分佈                                                       | FREE     |
 | [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)                                      | 對弱點目標具作用的搜尋字串資料庫                                               | FREE     |
@@ -42,14 +42,14 @@ table td:nth-child(3) {
 | [4gb_patch](https://ntcore.com/?page_id=371)                                                                       | 讓 32 位元的應用程式也能使用超過 4GB 的記憶體（可能沒有效果）                  | FREE     |
 | [Debug Monitor Tool](<https://docs.microsoft.com/ja-jp/previous-versions/bb896647(v=msdn.10)?redirectedfrom=MSDN>) |                                                                                | FREE     |
 | [Ctrl2cap](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap)                                       | 將 Caps Lock 鍵切換成 Ctrl 鍵的功能                                            | FREE     |
+| [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)                                       | 檢視各種系統相關的檔案與設定                                                   | FREE     |
 | [NTFSLinksView](https://www.nirsoft.net/utils/ntfs_links_view.html)                                                | 顯示所有的 symbolic link                                                       | FREE     |
 | [ShellExView](https://www.nirsoft.net/utils/shexview.html)                                                         | 管理 shell                                                                     | FREE     |
-| [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)                                       | 檢視各種系統相關的檔案與設定                                                   | FREE     |
 | [HWMONITOR](https://www.cpuid.com/softwares/hwmonitor.html#version-history)                                        | 監測系統狀況                                                                   | FREE     |
 | [Hayabusa](https://itib.hatenablog.com/entry/2021/12/31/222946)                                                    | 快速檢測 Windows 事件                                                          | FREE     |
 | CrystalDiskInfo                                                                                                    |                                                                                | FREE     |
 | CrystalDiskMark                                                                                                    |                                                                                | FREE     |
-| [RunCat](https://github.com/Kyome22/RunCat_for_windows)                                                            |                                                                                | FREE     |
+| [RunCat](https://github.com/Kyome22/RunCat_for_windows)                                                            | KAWAII                                                                         | FREE     |
 
 ## 檔案
 
@@ -128,6 +128,9 @@ table td:nth-child(3) {
 | [Text2MindMap](https://tobloef.com/text2mindmap/)                  | 文字版心智圖                                   | FREE |
 | [pytesseract](https://pypi.org/project/pytesseract/)               | 辨識圖片文字的 library                         | FREE |
 
+<details>
+  <summary>pytesseract example</summary>
+
 ```python
 try:
   from PIL import Image
@@ -165,6 +168,8 @@ for element in t:
 outputfile.close()
 ```
 
+</details>
+
 ### 語系切換
 
 | 名稱                                                                 | 說明                         | 付費 |
@@ -180,7 +185,6 @@ outputfile.close()
 | 名稱                                                                       | 說明                                                | 付費 |
 | -------------------------------------------------------------------------- | --------------------------------------------------- | ---- |
 | [OpenVPN](https://openvpn.net/download-open-vpn/)                          | VPN Client                                          | FREE |
-| [SoftEther VPN Client](https://www.vpngate.net/cn/howto_softether.aspx)    | VPN Client                                          | FREE |
 | [WinSCP](https://winscp.net/eng/download.php)                              | SFTP client                                         | FREE |
 | [Putty](https://www.putty.org/)                                            | SSH and telnet client                               | FREE |
 | [MobaXterm](https://mobaxterm.mobatek.net/)                                | tabbed SSH client                                   | FREE |
@@ -221,47 +225,22 @@ outputfile.close()
 
 | 名稱                                                                                                               | 說明                               |
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
-| [Feedbro](https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa)                      | RSS 訂閱插件。                     |
+| [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)                        | 使用類似 Vim 編輯器的方式瀏覽網站  |
+| [Feedbro](https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa)                      | RSS 訂閱插件                       |
 | [終結內容農場](https://chrome.google.com/webstore/detail/content-farm-terminator/lcghoajegeldpfkfaejegfobkapnemjl) | 要是感到厭煩，放棄也是一種選擇啊。 |
 | [HeadingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi)              | 快速顯示網站內容結構               |
 | [Neat URL](https://chrome.google.com/webstore/detail/neat-url/jchobbjgibcahbheicfocecmhocglkco)                    | 移除網址上的多餘內容               |
 | [TabAttack](https://chrome.google.com/webstore/detail/tabattack/ginflokhdahakklidfjlogllkkhokidj)                  | 轉換瀏覽頁面成為 markdown 格式     |
-| [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)                        | 使用類似 Vim 編輯器的方式瀏覽網站  |
 
 - [Violentmonkey](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
 - [UI.Vision RPA](https://chrome.google.com/webstore/detail/uivision-rpa/gcbalfbdmfieckjlnblleoemohcganoc)
-- [無料で Chrome・Firefox の操作を自動化＆ファイルのアップロードやデスクトップの操作もできる「UI.Vision」 - GIGAZINE](https://gigazine.net/news/20220417-ui-vision/)
+- [無料で Chrome・Firefox の操作を自動化＆ファイルのアップロードやデスクトップの操作もできる「UI.Vision」](https://gigazine.net/news/20220417-ui-vision/)
 - [DeepL 翻訳（ベータ版）](https://chrome.google.com/webstore/detail/deepl-translate-beta-vers/cofdbpoegempjloogbagkncekinflcnj?hl=ja)
 
-#### Shopping
+<details>
+  <summary>Vimium 常用操作</summary>
 
-- [Augmented Steam](https://chrome.google.com/webstore/detail/augmented-steam/dnhpnfgdlenaccegplpojghhmaamnnfp)
-- [Keepa - Amazon Price Tracker](https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo)
-- [Add to Buyee](https://chrome.google.com/webstore/detail/add-to-buyee/ocjpgibbldacmpedgjgmcdcikjeopnpb)
-
-#### YouTube Pack
-
-- [fiahfy/youtube-live-chat-flow](https://github.com/fiahfy/youtube-live-chat-flow)
-- [YouTubeLiveClock](https://chrome.google.com/webstore/detail/youtubeliveclock/chpodcedholiggcllnmmjlnghllddgmj)
-- [Unhook](https://chrome.google.com/webstore/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid)
-- [Volume Master](https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke)
-- [Open-as-Popup](https://chrome.google.com/webstore/detail/open-as-popup/ncppfjladdkdaemaghochfikpmghbcpc)
-
-#### Twitch Pack
-
-- Gumbo: Twitch Companion
-- FrankerFaceZ
-- TTV LOL
-
-#### NicoNico Pack
-
-#### Feedbro
-
-- [jp-locale](https://github.com/ktkr3d/feedbro-locale)
-- [ニコニコ動画](https://www.nicovideo.jp/rss)
-- [ライブドアブログ](https://help.blogpark.jp/archives/52366452.html)
-
-#### Vimium 基礎操作
+#### 基礎操作
 
 | 按鍵 | 功能                 |
 | ---- | -------------------- |
@@ -353,6 +332,36 @@ outputfile.close()
 | w    | 移至下一個標點符號                           |
 | e    | 移至上一個標點符號                           |
 | b    | 取消選擇字員                                 |
+
+</details>
+
+#### Shopping
+
+- [Augmented Steam](https://chrome.google.com/webstore/detail/augmented-steam/dnhpnfgdlenaccegplpojghhmaamnnfp)
+- [Keepa - Amazon Price Tracker](https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo)
+- [Add to Buyee](https://chrome.google.com/webstore/detail/add-to-buyee/ocjpgibbldacmpedgjgmcdcikjeopnpb)
+
+#### YouTube Pack
+
+- [fiahfy/youtube-live-chat-flow](https://github.com/fiahfy/youtube-live-chat-flow)
+- [YouTubeLiveClock](https://chrome.google.com/webstore/detail/youtubeliveclock/chpodcedholiggcllnmmjlnghllddgmj)
+- [Unhook](https://chrome.google.com/webstore/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid)
+- [Volume Master](https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke)
+- [Open-as-Popup](https://chrome.google.com/webstore/detail/open-as-popup/ncppfjladdkdaemaghochfikpmghbcpc)
+
+#### Twitch Pack
+
+- Gumbo: Twitch Companion
+- FrankerFaceZ
+- TTV LOL
+
+#### NicoNico Pack
+
+#### Feedbro
+
+- [jp-locale](https://github.com/ktkr3d/feedbro-locale)
+- [ニコニコ動画](https://www.nicovideo.jp/rss)
+- [ライブドアブログ](https://help.blogpark.jp/archives/52366452.html)
 
 ### 資安
 

@@ -27,8 +27,7 @@ table td:nth-child(3) {
 | [GraphicsGale](https://graphicsgale.com/us/)                                             | 點陣繪圖軟體，支援至 256 色，製作動畫較為方便 | FREE |
 | [Tegaki](https://www.kannagi.net/TEGAKI/)                                                | 可與推特聯動的速發塗鴉軟體                    | FREE |
 | [PHJCI](https://bach.ccu.edu.tw/Site/nu13754/Media/dir_52aecfed62c6f/dir_52aecfef57e4c/) | 繪製 PTT 用的 ASCII 圖像工具                  | FREE |
-
-[Krita](https://krita.org/zh-tw/download_zh-tw/krita-desktop_zh-tw/)
+| [Krita](https://krita.org/zh-tw/download_zh-tw/krita-desktop_zh-tw/)                     |                                               |      |
 
 ## 圖片處理
 
@@ -75,7 +74,7 @@ table td:nth-child(3) {
 | [Aegisub](https://github.com/Aegisub/Aegisub)                                       | 影片字幕編輯軟體    | FREE |
 | [SubtitleEdit](https://www.nikse.dk/subtitleedit)                                   | 影片字幕編輯軟體    | FREE |
 | [pyTranscriber](https://github.com/raryelcostasouza/pyTranscriber)                  | 自動產生字幕軟體    | FREE |
-| [movie_thumbnailer](https://gitlab.com/movie_thumbnailer/mtn/-/wikis/home#download) | 製作影片縮圖        | FREE |
+| [mtn](https://gitlab.com/movie_thumbnailer/mtn/-/wikis/home#download) | 製作影片縮時一覽圖  | FREE |
 
 `mtn.exe -c 4 -h 0 -s 60 -z -P -f <path-to-font-file>`
 
@@ -91,7 +90,7 @@ table td:nth-child(3) {
 - [CameraFi Live](https://play.google.com/store/apps/details?id=com.vaultmicro.camerafi.live&hl=zh_TW)
 - [CamTwist](https://camtwiststudio.com/)
 - [AmaRecTV](http://www.amarectv.com/)
-- [實作在家裡自架 IRL 戶外直播伺服器 - 一人遊戲直播局 hitorigs.live](https://hitorigs.live/irl-server-setting-up/)
+- [實作在家裡自架 IRL 戶外直播伺服器](https://hitorigs.live/irl-server-setting-up/)
 
 ### 手繪動畫
 
@@ -156,8 +155,8 @@ table td:nth-child(3) {
 - [えふすと f-stock](https://f-stock.net/)
 - [キャターズアイフリー素材チャンネル・CG](https://www.youtube.com/user/CATTeRZEYE/videos)
 - [ニコニ･コモンズ](http://commons.nicovideo.jp/)
-- [#13 : 動画素材 ① ｜ cossy ｜ note](https://note.com/cossy/n/nac2b21f003dc)
-- [#14 : 動画素材 ② ｜ cossy ｜ note](https://note.com/cossy/n/n1120eb304754)
+- [#13 : 動画素材 ①](https://note.com/cossy/n/nac2b21f003dc)
+- [#14 : 動画素材 ②](https://note.com/cossy/n/n1120eb304754)
 
 ## 字體
 
