@@ -198,7 +198,7 @@ a img {
   height: 1em;
 }
 a img + span {
-  margin-left: .25em;
+  margin-left: 0.25em;
 }
 
 p {
@@ -329,7 +329,7 @@ hr {
 }
 
 hr::after {
-  content: '';
+  content: "";
   letter-spacing: 4em;
   padding-left: 4em;
 }
@@ -385,7 +385,8 @@ ruby {
   display: inline-flex;
   flex-direction: column-reverse;
 }
-rb, rt {
+rb,
+rt {
   display: inline;
   line-height: 1.2;
 }
@@ -415,6 +416,23 @@ tbody > tr:after {
 
 td {
   padding: 0.4em 0.8em;
+}
+
+details {
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border: 4px solid var(--subtext-color);
+  border-radius: 12px;
+}
+details:last-child {
+  margin-bottom: 0;
+}
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+details summary:focus {
+  outline: none;
 }
 
 /* set iframe aspect ratio to 16:9 */
