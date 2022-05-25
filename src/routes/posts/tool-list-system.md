@@ -62,10 +62,10 @@ table td:nth-child(3) {
 | [AntRenamer](https://antp.be/software/renamer)                | 快速規則式重新命名大量檔案         | FREE |
 | [Unlocker](http://emptyloop.com/unlocker/)                    | 強制解除檔案使用鎖定狀態           | FREE |
 | [FastCopy](https://fastcopy.jp/en/)                           | 快速複製／備份檔案                 | FREE |
+| [vifm](https://github.com/vifm/vifm)                          | 使用類似 vim 的方式操作檔案        | FREE |
 
 <details>
-
-<summary>Paper Plane xUI（PPX） Shotcut key</summary>
+  <summary>Paper Plane xUI（PPX） Shotcut key</summary>
 
 | 按鍵               | 功能                                              |
 | ------------------ | ------------------------------------------------- |
@@ -106,6 +106,24 @@ table td:nth-child(3) {
 - [デフォルトキーコンフィグ - \* PPC デフォルトキーコンフィグ](https://web.archive.org/web/20060628053009/http://aetermv.hp.infoseek.co.jp/cgi-bin/pyuki/wiki.cgi?%a5%c7%a5%d5%a5%a9%a5%eb%a5%c8%a5%ad%a1%bc%a5%b3%a5%f3%a5%d5%a5%a3%a5%b0)
 - [PPx 逆引き辞典 - Paper Plane xUI まとめサイト - atwiki（アットウィキ）](https://w.atwiki.jp/wiki6_ppx/pages/13.html)
 - [yesiam: PPX のことがまるでよくわかってなくても、とにかくこれだけ押さえれば、便利にサクサクッと、難解な PPX が使えたような気になれるかもしれない Tips](https://yesiamkd.blogspot.com/2007/07/ppxppxtips.html)
+
+</details>
+
+<details>
+  <summary>vifm</summary>
+
+- [vifm - Mark Volkmann](https://mvolkmann.github.io/blog/vifm/)
+- [app-assignment for vifm on windows](https://stackoverflow.com/questions/43594291/app-assignment-for-vifm-on-windows)
+
+```
+" 使用 l 或 Enter 執行
+filextype {...}
+\ "program to execute" %"f &,
+
+" 使用 e 查看
+fileviewer {...}
+\ "program to view" %"f &,
+```
 
 </details>
 
@@ -257,21 +275,21 @@ outputfile.close()
 
 #### 頁面互動
 
-| 按鍵 | 功能                                     |
-| ---- | ---------------------------------------- |
-| f    | 點擊頁面元素，於當前頁籤開啟             |
-| F    | 點擊頁面元素，於全新頁籤開啟             |
-| r    | 重新整理                                 |
-| t    | 開新頁籤                                 |
-| ---- | ---------------------------------------- |
-| yt   | 複製當前頁籤，於新頁籤中開啟             |
-| 1t   | 開啟一個頁籤（可依數字開新指定數量頁籤） |
-| ---- | ---------------------------------------- |
-| T    | 顯示所有已開啟頁籤                       |
-| gs   | 顯示原始碼                               |
-| ---- | ---------------------------------------- |
-| yy   | 複製當前頁籤連結                         |
-| yf   | 複製頁面元素連結                         |
+| 按鍵 | 功能                                       |
+| ---- | ------------------------------------------ |
+| f    | 點擊頁面元素，於當前頁籤開啟               |
+| F    | 點擊頁面元素，於全新頁籤開啟               |
+| r    | 重新整理                                   |
+| t    | 開新頁籤                                   |
+| ---- | ----------------------------------------   |
+| yt   | 複製當前頁籤，於新頁籤中開啟               |
+| 1t   | 開啟一個頁籤（可依數字開啟指定數量新頁籤） |
+| ---- | ----------------------------------------   |
+| T    | 顯示所有已開啟頁籤                         |
+| gs   | 顯示原始碼                                 |
+| ---- | ----------------------------------------   |
+| yy   | 複製當前頁籤連結                           |
+| yf   | 複製頁面元素連結                           |
 
 #### 頁面導覽
 

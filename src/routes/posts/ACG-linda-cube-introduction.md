@@ -82,7 +82,7 @@ AMD（After Mothers Death，指「地球死亡之後」）1991 年，在和地�
 
 幾經波折後，終於在大約 1 年後的 2008 年 9 月 10 日成功再次發布。
 
-對於這中間幾經波折的部份有興趣的人，請一定要去看看 Alpha System Mars 的部落格「[Linda Cube Again 正式上架](https://f6bfb5.github.io/ACG-linda-cube-on-ps-archive/)」。
+對於這中間幾經波折的部份有興趣的人，請一定要去看看 Alpha System Mars 的部落格「[Linda Cube Again 正式上架](https://f6bfb5.github.io/ACG-linda-cube-on-ps-archive)」。
 
 對於 Archive 串流有興趣的人而言，會是段相當有意思的故事。
 
