@@ -4,13 +4,17 @@
 /* [読みやすい＝理解しやすい　Webの組版を整理してより良い文章を届けよう - Qiita](https://qiita.com/xrxoxcxox/items/206b223844e3c42dc86f) */
 
 @font-face {
-  font-family: '缝合怪像素字体';
-  src: url('fusion-pixel.woff2') format('woff2');
-  src: url('fusion-pixel.woff') format('woff');
+  font-family: "缝合怪像素字体";
+  src: url("fusion-pixel.woff2") format("woff2");
+  src: url("fusion-pixel.woff") format("woff");
 }
 
 body {
-  font-family: '缝合怪像素字体', 'YakuHanJPs_Noto', 'Noto Sans', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo,ＭＳ\ Ｐゴシック, MS PGothic, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "缝合怪像素字体", "YakuHanJPs_Noto", "Noto Sans", "Noto Sans TC",
+    -apple-system, BlinkMacSystemFont, ヒラギノ角ゴ Pro W3,
+    Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ\Ｐゴシック, MS PGothic,
+    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    Helvetica, sans-serif;
   font-size: 16px;
   hyphens: auto;
   line-break: strict;
@@ -43,7 +47,12 @@ h6 {
   font-size: 1.2em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-feature-settings: "palt";
 }
 
@@ -54,8 +63,20 @@ p {
   letter-spacing: 0.0325em;
 }
 
+p:not(:first-of-type) {
+  text-indent: 2em;
+}
+
+blockquote p:not(:first-of-type) {
+  text-indent: 0;
+}
+
 code {
-  font-family: consolas, menlo, inconsolata, monospace;
+  font-family: consolas, menlo, inconsolata, "YakuHanJPs_Noto", "Noto Sans",
+    "Noto Sans TC", -apple-system, BlinkMacSystemFont, ヒラギノ角ゴ Pro W3,
+    Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ\Ｐゴシック, MS PGothic,
+    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    Helvetica, sans-serif;
   /* font-size: calc(1em - 2px); */
   color: #555;
 }
