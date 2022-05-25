@@ -28,6 +28,7 @@
     "https://c.tenor.com/urtf9xuBAaMAAAAC/tengen-toppa.gif",
     "https://c.tenor.com/0v63YjpRCuQAAAAC/madoka-magica.gif",
     "https://c.tenor.com/Ads_EGsOaioAAAAC/promare-anime.gif",
+    "https://c.tenor.com/iF2QagbiCSIAAAAC/eureka-eureka-seven.gif",
     // --- Game ---
     "https://c.tenor.com/SjuAbL0uMakAAAAC/yume-nikki-yume.gif",
     "https://c.tenor.com/6L6itJ6PXKoAAAAC/chrono-trigger-courtroom.gif",
@@ -55,6 +56,8 @@
   ];
 
   const randomTargetUrlArr = [
+    // home of the first website
+    "http://info.cern.ch/",
     // Right versus pragmatic
     "https://marco.org/2012/02/25/right-vs-pragmatic",
     // 正直的人

@@ -40,6 +40,10 @@
     "https://youtu.be/KmGvN3fmsbY",
     // ファミコンの音声出力比較をしてみたら意外な機器の音質が良かった【9 通り】
     "https://youtu.be/LXCrwoQzrwI",
+    // .
+    "https://www.nicovideo.jp/watch/sm36337465",
+    // 名の無い星が空に堕ちたら
+    "https://www.nicovideo.jp/watch/sm36920659",
     // ヤツメ穴 / 緑仙 (全部僕の声)
     "https://www.youtube.com/watch?v=s3dVPAAEX14",
     // あなたは世界の終わりにずんだを食べるのだ / なみぐる feat.ずんだもん
@@ -88,6 +92,10 @@
     "https://www.nicovideo.jp/watch/sm29763392",
     // 削除動画
     "https://www.nicovideo.jp/watch/sm38213757",
+    // ＬＯＣＡＬ５８ＴＶ - Contingency
+    "https://www.youtube.com/watch?v=3c66w6fVqOI",
+    // 日本国尊厳維持局 尊厳扶助政府有事宣言時フィルム
+    "https://www.nicovideo.jp/watch/sm36221966",
     // [決意表明] 会社辞めてninja250で日本一周 phase 0
     "https://www.nicovideo.jp/watch/sm30344277",
     // blank vhs covers were kinda beautiful
