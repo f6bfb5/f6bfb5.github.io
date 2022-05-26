@@ -172,7 +172,7 @@ tags: ACG, Comic
 ## 網站
 
 - 2010-12-?? [ファミ 2 コミック](http://randomhoohaas.flyingomelette.com/ai/scans/fami2comic.html#hichako)
-- 2017-02-08 [出版社の営業がガチで選んだ、本当は自分が売りたい最高の漫画 26 選！｜ Career Supli](https://careersupli.jp/lifehack/manga-3/)
+- 2017-02-08 [出版社の営業がガチで選んだ、本当は自分が売りたい最高の漫画 26 選！](https://careersupli.jp/lifehack/manga-3/)
 - 2017-07-21 [【永久保存版】国内ゲーム漫画 83 作品 287 冊を全冊読破してレビュー。語られざる歴史をベテランゲーム誌編集者が徹底案内【前編】](https://news.denfaminicogamer.jp/kikakuthetower/170721)
 - 2020-05-30 [【2020 版】ミステリー・サスペンス漫画のおすすめの面白い作品を紹介する。 - 漫画ギーク記](https://www.dokusyo-geek-ki.com/entry/2016/04/27/070429)
 - 2021-06-26 [絶対に面白いおすすめ漫画 99 選！話題の新作から殿堂入りの名作まで厳選紹介 | 心に火を、指先にペンを](https://www.kokoro-fire.com/entry/osusume-manga/)

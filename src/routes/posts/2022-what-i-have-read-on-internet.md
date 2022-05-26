@@ -824,3 +824,12 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [北海道一周旅行をする皆さんへ。釧路以東、根室へ車で向かう際は必ず厚岸と厚床で給油と食事等を済まし 30 分程度は休憩をしてください。死にます。](https://togetter.com/li/1891503)
 - [自治体アプリ改修に関わっていた北朝鮮籍 IT 技術者への不正送金事案についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2022/05/25/125620)
 - [「モンハン持ち」がなぜか今話題に。『モンスターハンター』『エルデンリング』『FF14』で活用される古の妙技](https://automaton-media.com/articles/newsjp/20220525-203914/)
+- [「台湾の少女が、"はっぴいえんど" の『風をあつめて』に出逢った話」( 𝟏 / 𝟖 ) #緑の歌](https://twitter.com/_gao_yan/status/1529427685201813505)
+- [伝説のゲーム誌『ゲーメスト』公式 YouTube チャンネルが始動　草創期のスタッフが制作の裏事情を証言](https://nlab.itmedia.co.jp/nl/articles/2205/25/news015.html)
+- [ノックノック - インカ帝国](https://shonenjumpplus.com/episode/3270296674370328954)
+- [管理職になると「マジで仕事やる気ない人」のマネジメントは凄く大変だと気がつくという話 →「大体の人は出来るだけ働かずにお金をもらいたい」](https://togetter.com/li/1891905)
+- [ファミコンエミュレータ実装の感想 - ichirin2501's diary](https://ichirin2501.hatenablog.com/entry/2022/05/25/231808)
+- [「ゲーム実況でストーリーのオチを見た後、そのゲームをプレイしたくなるか」。ある研究者の Twitter アンケートが反響、その結果は](https://automaton-media.com/articles/newsjp/202200526-204007/)
+- [「ゲーム制作工程のはなし」](https://togetter.com/li/1892189)
+
+## 6 月
