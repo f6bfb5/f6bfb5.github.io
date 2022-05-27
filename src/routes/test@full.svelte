@@ -197,19 +197,23 @@
 </svelte:head>
 
 <div class="c">
-  <canvas
-    id="noise"
-    class="noise"
-    width="2560"
-    height="1400"
-    style="opacity: 0.05;"
-  />
-  <div class="ht">では、<br />あなたは何故、ココにいるの？</div>
-  <div class="tc">
-    <span class="t vhs" style="color: {color1};" data-text={text1}>{text1}</span
-    >
-    <span class="t vhs" style="color: {color2};" data-text={text2}>{text2}</span
-    >
+  <div class="w">
+    <canvas
+      id="noise"
+      class="noise"
+      width="2560"
+      height="1400"
+      style="opacity: 0.05;"
+    />
+    <div class="ht">では、<br />あなたは何故、ココにいるの？</div>
+    <div class="tc">
+      <span class="t vhs" style="color: {color1};" data-text={text1}
+        >{text1}</span
+      >
+      <span class="t vhs" style="color: {color2};" data-text={text2}
+        >{text2}</span
+      >
+    </div>
   </div>
 </div>
 
@@ -275,14 +279,19 @@
   </defs>
 </svg>
 
-
-
 <style scoped>
-  :global(:root) {
-    --outer-bg-color: #460609;
-  }
-
   .c {
+    width: 100%;
+    min-height: 100vh;
+
+    font-family: "Zen Old Mincho", serif;
+    color: white;
+    background-color: #460609;
+
+    user-select: none;
+    overflow: hidden;
+  }
+  .w {
     width: 100%;
     min-height: 100vh;
 
@@ -291,10 +300,6 @@
     align-items: center;
 
     position: relative;
-
-    font-family: "Zen Old Mincho", serif;
-    color: white;
-
     background: linear-gradient(
         217deg,
         rgba(0, 0, 0, 0.8),
@@ -302,12 +307,9 @@
       ),
       linear-gradient(127deg, rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%),
       linear-gradient(336deg, rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%);
-
-    user-select: none;
-    overflow: hidden;
   }
   .tc {
-    padding: .5em;
+    padding: 0.5em;
     text-align: center;
 
     z-index: 10;
