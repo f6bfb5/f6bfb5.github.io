@@ -1,5 +1,4 @@
-// import adapter from "@sveltejs/adapter-auto";
-import staticAdapter from "@sveltejs/adapter-static";
+import adapter from "@sveltejs/adapter-static";
 import { mdsvex } from "mdsvex";
 import mdsvexConfig from './mdsvex.config.js';
 
@@ -12,7 +11,7 @@ const config = {
   extensions: [".svelte", ".md"],
 
   kit: {
-    adapter: staticAdapter({
+    adapter: adapter({
       pages: "build",
       assets: "build",
       fallback: "index.html",
@@ -21,12 +20,9 @@ const config = {
       base: "",
       assets: "",
     },
-    prerender: {
-      default: true,
-      entries: [
-        '*',
-      ]
-    },
+    // prerender: {
+    //   default: true,
+    // },
     routes: (filepath) =>
       !/(?:(?:^_|\/_)|(?:^\.|\/\.)(?!well-known))/.test(filepath),
       version: {

@@ -20,7 +20,6 @@
     "rehype-urls": "^1.1.1"
   },
   "devDependencies": {
-    "@sveltejs/adapter-auto": "^1.0.0-next.34",
     "@sveltejs/adapter-static": "^1.0.0-next.29",
     "@sveltejs/kit": "^1.0.0-next.314",
     "cypress": "^6.2.1",
