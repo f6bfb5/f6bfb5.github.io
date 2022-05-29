@@ -28,6 +28,7 @@ table td:nth-child(3) {
 | [Tegaki](https://www.kannagi.net/TEGAKI/)                                                | 可與推特聯動的速發塗鴉軟體                    | FREE |
 | [PHJCI](https://bach.ccu.edu.tw/Site/nu13754/Media/dir_52aecfed62c6f/dir_52aecfef57e4c/) | 繪製 PTT 用的 ASCII 圖像工具                  | FREE |
 | [Krita](https://krita.org/zh-tw/download_zh-tw/krita-desktop_zh-tw/)                     |                                               |      |
+| [Inkscape](https://inkscape.org/)                                                        |                                               |      |
 
 ## 圖片處理
 
@@ -67,13 +68,13 @@ table td:nth-child(3) {
 
 ### 輔助
 
-| 名稱                                                                                | 說明                | 付費 |
-| ----------------------------------------------------------------------------------- | ------------------- | ---- |
-| [GANTAI](https://fairway.ne.jp/gantai/)                                             | 快速加上馬賽克      | FREE |
-| [Mkvtoolnix](https://mkvtoolnix.download/)                                          | 處理 Mastroska 檔案 | FREE |
-| [Aegisub](https://github.com/Aegisub/Aegisub)                                       | 影片字幕編輯軟體    | FREE |
-| [SubtitleEdit](https://www.nikse.dk/subtitleedit)                                   | 影片字幕編輯軟體    | FREE |
-| [pyTranscriber](https://github.com/raryelcostasouza/pyTranscriber)                  | 自動產生字幕軟體    | FREE |
+| 名稱                                                                  | 說明                | 付費 |
+| --------------------------------------------------------------------- | ------------------- | ---- |
+| [GANTAI](https://fairway.ne.jp/gantai/)                               | 快速加上馬賽克      | FREE |
+| [Mkvtoolnix](https://mkvtoolnix.download/)                            | 處理 Mastroska 檔案 | FREE |
+| [Aegisub](https://github.com/Aegisub/Aegisub)                         | 影片字幕編輯軟體    | FREE |
+| [SubtitleEdit](https://www.nikse.dk/subtitleedit)                     | 影片字幕編輯軟體    | FREE |
+| [pyTranscriber](https://github.com/raryelcostasouza/pyTranscriber)    | 自動產生字幕軟體    | FREE |
 | [mtn](https://gitlab.com/movie_thumbnailer/mtn/-/wikis/home#download) | 製作影片縮時一覽圖  | FREE |
 
 `mtn.exe -c 4 -h 0 -s 60 -z -P -f <path-to-font-file>`
