@@ -6,12 +6,12 @@
 @font-face {
   font-family: "缝合怪像素字体";
   src: url("fusion-pixel.woff2") format("woff2");
-  src: url("fusion-pixel.woff") format("woff");
+  /* src: url("fusion-pixel.woff") format("woff"); */
 }
 
 body {
-  font-family: "缝合怪像素字体", "YakuHanJPs_Noto", "Noto Sans", "Noto Sans TC",
-    -apple-system, BlinkMacSystemFont, ヒラギノ角ゴ Pro W3,
+  font-family: "缝合怪像素字体", "YakuHanJPs_Noto", "Noto Sans",
+    "Noto Sans TC", -apple-system, BlinkMacSystemFont, ヒラギノ角ゴ Pro W3,
     Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ\Ｐゴシック, MS PGothic,
     "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
     Helvetica, sans-serif;
