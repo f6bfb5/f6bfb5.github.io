@@ -3,8 +3,6 @@ import staticAdapter from "@sveltejs/adapter-static";
 import { mdsvex } from "mdsvex";
 import mdsvexConfig from './mdsvex.config.js';
 
-// const dev = "production" === "development";
-
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   // options passed to svelte.compile (https://svelte.dev/docs#compile-time-svelte-compile)
@@ -17,14 +15,17 @@ const config = {
     adapter: staticAdapter({
       pages: "build",
       assets: "build",
-      fallback: null,
+      fallback: "index.html",
     }),
     paths: {
-      assets: "",
       base: "",
+      assets: "",
     },
     prerender: {
       default: true,
+      entries: [
+        '*',
+      ]
     },
     routes: (filepath) =>
       !/(?:(?:^_|\/_)|(?:^\.|\/\.)(?!well-known))/.test(filepath),
