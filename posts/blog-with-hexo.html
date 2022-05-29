@@ -6,20 +6,22 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="../global.css" />
-    <link rel="manifest" href="../manifest.json" />
-    <link rel="icon" type="image/png" href="../favicon.png" />
+    <link rel="preload" href="../fonts/fusion-pixel.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- <link rel="preload" href="../global.css" as="style" /> -->
+    <link rel="stylesheet preload prefetch" href="../global.css" />
+    <!-- <link rel="manifest" href="../manifest.json" /> -->
+    <link rel="icon" type="image/png" href="../favicon.ico" />
 
     <!-- This contains the contents of the <svelte:head> component, if
 	     the current page has one -->
-    <meta http-equiv="content-security-policy" content=""><script async src="https://www.googletagmanager.com/gtag/js?id=G-CRDP7WTXSQ" data-svelte="svelte-bhtlqr"></script><link rel="shortcut icon" href="/favicon.ico" data-svelte="svelte-1c8ynol"><link rel="bookmark" href="/favicon.ico" data-svelte="svelte-1c8ynol">
-	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-245e8c1b.css">
+    <meta http-equiv="content-security-policy" content=""><script async src="https://www.googletagmanager.com/gtag/js?id=G-CRDP7WTXSQ" data-svelte="svelte-bhtlqr"></script>
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-93493585.css">
 	<link rel="stylesheet" href="/_app/assets/_post-5b55a3da.css">
-	<link rel="modulepreload" href="/_app/start-282d9b7f.js">
+	<link rel="modulepreload" href="/_app/start-b29a83f9.js">
 	<link rel="modulepreload" href="/_app/chunks/index-b07fe34e.js">
 	<link rel="modulepreload" href="/_app/chunks/index-df5cbf9f.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-667dfea2.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-109517a1.js">
 	<link rel="modulepreload" href="/_app/pages/posts/blog-with-hexo.md-3e91d73e.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-156e190f.js">
 	<link rel="modulepreload" href="/_app/chunks/blog-with-hexo-eb5fead6.js">
@@ -32,310 +34,18 @@
 
 
 
-<div class="layout svelte-m8p3fl">
-
-  
-  <header class="svelte-ka06mn"><div class="header-container svelte-ka06mn"><div class="row svelte-ka06mn"><nav class="svelte-t90z2a"><a class=" svelte-t90z2a" href="/">トリコじかけの明け暮れ</a>
-  <a class=" svelte-t90z2a" href="/about">about</a>
-  <a class=" svelte-t90z2a" href="/rss.xml">rss</a>
-  <a href="/sitemap.xml" style="display: none;" class="svelte-t90z2a">sitemap</a>
-</nav>
-      <a href="https://www.youtube.com/watch?v=wbMe6DmtqMw" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
-</a></div>
-    
-<div id="progress-bar" style="--scrollAmount: 0%;" class="svelte-1gbseey"></div></div>
-</header>
-
-  <main class="svelte-m8p3fl"><header class="svelte-100hyuq"><h1 class="title svelte-100hyuq"><span style="animation-delay: 125ms; " class="svelte-100hyuq">B
-      </span><span style="animation-delay: 150ms; " class="svelte-100hyuq">l
-      </span><span style="animation-delay: 175ms; " class="svelte-100hyuq">o
-      </span><span style="animation-delay: 200ms; " class="svelte-100hyuq">g
-      </span><span style="animation-delay: 225ms; width: .25em;" class="svelte-100hyuq"> 
-      </span><span style="animation-delay: 250ms; " class="svelte-100hyuq">w
-      </span><span style="animation-delay: 275ms; " class="svelte-100hyuq">i
-      </span><span style="animation-delay: 300ms; " class="svelte-100hyuq">t
-      </span><span style="animation-delay: 325ms; " class="svelte-100hyuq">h
-      </span><span style="animation-delay: 350ms; width: .25em;" class="svelte-100hyuq"> 
-      </span><span style="animation-delay: 375ms; " class="svelte-100hyuq">H
-      </span><span style="animation-delay: 400ms; " class="svelte-100hyuq">e
-      </span><span style="animation-delay: 425ms; " class="svelte-100hyuq">x
-      </span><span style="animation-delay: 450ms; " class="svelte-100hyuq">o
-      </span></h1>
-  <p class="meta svelte-100hyuq"><span class="date svelte-100hyuq">Jan 1, 1990</span>
-    </p></header>
-<div class="post--container svelte-100hyuq"><article class="post--content svelte-100hyuq"><h2>指令速見表</h2>
-<ol><li>新建記事 <code>hexo n</code></li>
-<li>清除暫存 <code>hexo clean</code></li>
-<li>產生推播 <code>hexo g -d</code></li></ol>
-<hr>
-<h2>0. 準備安裝</h2>
-<p>開始使用 hexo 建置部落格之前，需先安裝 <code>git</code> 和 <code>nodejs</code></p>
-<p>安裝建置用的相關套件： <code>npm install hexo-cli -g</code></p>
-<p>本文預設使用 GitHub 做為建置平台，Hexo 可放置於 GitHub Pages 的主分支上，或是子網域頁面（在 GitHub Pages 主頁面的專案之外另開一個專案）上</p>
-<p>參考： <a href="http://alincode.github.io/blog/2016/03/05/hexo-deploy/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://alincode.github.io/blog/2016/03/05/hexo-deploy/" alt="將 hexo 部署到 GitHub page"><span>將 hexo 部署到 GitHub page</span></a></p>
-<h2>1. 放置網域</h2>
-<h3>a. GitHub Pages 主分支（repo/url: <code>AccountName.github.io</code>）</h3>
-<ol><li>以 <code>自己的 GitHub 帳號.github.io</code> 命名建立一個 Repo ，遵循網頁上的指令完成建立作業</li>
-<li>進行後續建置</li></ol>
-<p>參考：</p>
-<ul><li><a href="https://gitbook.tw/chapters/github/using-github-pages.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://gitbook.tw/chapters/github/using-github-pages.html" alt="使用 GitHub 免費製作個人網站"><span>使用 GitHub 免費製作個人網站</span></a></li>
-<li><a href="https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/zh-tw/24.md" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/zh-tw/24.md" alt="使用 GitHub 遠端儲存庫 - 入門篇"><span>使用 GitHub 遠端儲存庫 - 入門篇</span></a></li></ul>
-<h3>b. 子網域頁面（repo: <code>RepoName</code>, url: <code>AccountName.github.io/RepoName</code>）</h3>
-<ol><li>以 <code>子網域名稱</code> 命名建立一個 Repo ，遵循網頁上的指令完成建立作業</li>
-<li>建立 <code>gh-pages</code> 分支</li>
-<li>切回 <code>master</code> 主支進行後續建置</li></ol>
-<p>參考：</p>
-<ul><li><a href="https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/zh-tw/08.md" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/zh-tw/08.md" alt="關於分支的基本觀念與使用方式"><span>關於分支的基本觀念與使用方式</span></a></li>
-<li><a href="https://gitbook.tw/chapters/branch/using-branch.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://gitbook.tw/chapters/branch/using-branch.html" alt="開始使用分支"><span>開始使用分支</span></a></li>
-<li><a href="https://gitbook.tw/chapters/github/push-to-github.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://gitbook.tw/chapters/github/push-to-github.html" alt="Git 教學：如何 Push 上傳到 GitHub？"><span>Git 教學：如何 Push 上傳到 GitHub？</span></a></li></ul>
-<h2>2. 部落格建構</h2>
-<h3>a. 初始化</h3>
-<ol><li>將建立好的 Repo pull 至本地硬碟裡後，將命令列錨點移至該資料夾內</li>
-<li>確定分支為 <code>master</code> 之後，使用 <code>hexo init blog-name</code> 指令初始化存放部落格內容的資料夾</li>
-<li>將錨點移進該資料夾內，執行 <code>npm install</code> 與 <code>hexo init</code> 完成初始化</li></ol>
-<h3>b. 設定</h3>
-<p>Repo 母資料夾底下的 <code>_confiy.yml</code> 可以設定如標題、副標、說明等內容</p>
-<pre class="language-yml"><!-- HTML_TAG_START --><code class="language-yml"><span class="token key atrule">title</span><span class="token punctuation">:</span> 部落格標題
-<span class="token key atrule">subtitle</span><span class="token punctuation">:</span> 副標(可留空)
-<span class="token key atrule">description</span><span class="token punctuation">:</span> 部落格說明
-<span class="token key atrule">author</span><span class="token punctuation">:</span>
-<span class="token key atrule">language</span><span class="token punctuation">:</span> (預設設定為en)
-<span class="token key atrule">timezone</span><span class="token punctuation">:</span> (預設設定為執行電腦上的時區)
-
-<span class="token key atrule">url</span><span class="token punctuation">:</span> http<span class="token punctuation">:</span>//example.com
-<span class="token key atrule">root</span><span class="token punctuation">:</span> /blog/
-<span class="token key atrule">permalink</span><span class="token punctuation">:</span> <span class="token punctuation">:</span>year/<span class="token punctuation">:</span>month/<span class="token punctuation">:</span>day/<span class="token punctuation">:</span>title/
-permalink_defaults<span class="token punctuation">:</span></code><!-- HTML_TAG_END --></pre>
-<h2>3. 正式上線</h2>
-<h3>a. 撰寫文章</h3>
-<p>這時已經可以運行如文章新增與預覽的基本功能：</p>
-<ol><li>建立記事：<code>hexo new post-name</code> = <code>hexo n</code><ul><li>（可選）清除暫存：<code>hexo clean</code></li></ul></li>
-<li>產生記事靜態頁面：<code>hexo generate</code> = <code>hexo g</code></li>
-<li>在本地上執行伺服器進行預覽：<code>hexo server</code> = <code>hexo s</code></li></ol>
-<h3>b. 推送</h3>
-<ol><li><p>安裝推送到 GitHub Pages 的套件：
-<code>npm install hexo-deplyer-git --save</code></p></li>
-<li><p>於 <code>_config.yml</code> 設定 Deploy：</p></li></ol>
-<pre class="language-yml"><!-- HTML_TAG_START --><code class="language-yml"><span class="token key atrule">deploy</span><span class="token punctuation">:</span>
-  <span class="token key atrule">type</span><span class="token punctuation">:</span> git
-  <span class="token key atrule">repo</span><span class="token punctuation">:</span> &lt;repository url<span class="token punctuation">></span>
-  <span class="token key atrule">branch</span><span class="token punctuation">:</span> gh<span class="token punctuation">-</span>pages // 只有建置在子網域頁面時才需要</code><!-- HTML_TAG_END --></pre>
-<ol start="3"><li>推送：<code>hexo deploy</code> = <code>hexo d</code><ul><li>生成頁面後即推送：<code>hexo generate --deploy</code> = <code>hexo g -d</code></li></ul></li></ol>
-<p>參考： <a href="https://hexo.io/zh-tw/docs/deployment" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://hexo.io/zh-tw/docs/deployment" alt="Hexo - 佈署"><span>Hexo - 佈署</span></a></p>
-<h3>（可選）c. 線上編輯後自動更新</h3>
-<p>也可以利用 GitHub 所提供的 CI/CD（持續性整合與自動化部署）服務 GitHub Actions，自動化儲存與發表文章的處理</p>
-<ol><li>於 GitHub 上建立一個新專案，push hexo 上去後，將此專案設為 Private</li>
-<li>設立 SSH Key 提供給 GitHub Actions 使用</li></ol>
-<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash">ssh-keygen -f github-deploy-key</code><!-- HTML_TAG_END --></pre>
-<p>留空點擊兩次 Enter 後，會在 hexo 資料夾底下產生兩個新檔案 <code>github-deply-key</code>（私鑰）與 <code>github-deploy-key.pub</code>（公鑰）</p>
-<ol start="3"><li>至原始碼專案的 Settings 的 Secrets 分頁裡，點選 Add a new secret，<ul><li>於 Name 輸入 <code>HEXO_DEPLOY_PRI</code>，Value 輸入私鑰 <code>github-deply-key</code> 裡的內容</li></ul></li>
-<li>至靜態網頁專案的 Settings 的 Deploy keys 分頁裡，<ul><li>於 Title 輸入 <code>HEXO_DEPLOY_PUB</code>，Key 輸入公鑰 <code>github-deploy-key.pub</code> 裡的內容，勾選 Allow write access</li></ul></li>
-<li>開啟 hexo 資料夾裡的 <code>_config.xml</code> 檔案，編輯 <code>deploy</code> 的部份改為 SSH 連線</li></ol>
-<pre class="language-xml"><!-- HTML_TAG_START --><code class="language-xml">deploy:
-  type: git
-  repo: git@github.com:[YOUR_GITHUB_ACCOUNT/YOUR_STATIC_WEB_REPO_NAME].git
-  branch: master</code><!-- HTML_TAG_END --></pre>
-<ol start="6"><li>推送更新專案</li>
-<li>至原始碼專案頁面的 Actions 分頁，點選右上角的 <code>Set up a workflow yourself</code><ul><li>設定自動部署時要使用的環境與執行的指令，以及 Hexo 所需要的主題和插件安裝</li>
-<li>把 <code>main.yml</code> 推上 <code>workflows/</code> 之後，再次回到 Actions 確認 workflows 是否已更新</li></ul></li></ol>
-<p><code>main.yml</code> 參考：</p>
-<pre class="language-yml"><!-- HTML_TAG_START --><code class="language-yml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Deploy Blog
-
-<span class="token key atrule">on</span><span class="token punctuation">:</span>
-  <span class="token key atrule">push</span><span class="token punctuation">:</span>
-    <span class="token key atrule">branches</span><span class="token punctuation">:</span>
-      <span class="token punctuation">-</span> master
-
-<span class="token key atrule">jobs</span><span class="token punctuation">:</span>
-  <span class="token key atrule">build</span><span class="token punctuation">:</span>
-    <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest
-
-    <span class="token key atrule">env</span><span class="token punctuation">:</span>
-      <span class="token key atrule">HEXO_DEPLOY_PRI</span><span class="token punctuation">:</span> $<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span>secrets.HEXO_DEPLOY_PRI<span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
-      <span class="token key atrule">USER_NAME</span><span class="token punctuation">:</span> USER_NAME
-      <span class="token key atrule">USER_EMAIL</span><span class="token punctuation">:</span> USER_EMAIL
-
-    <span class="token key atrule">strategy</span><span class="token punctuation">:</span>
-      <span class="token key atrule">matrix</span><span class="token punctuation">:</span>
-        <span class="token key atrule">node-version</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>10.x<span class="token punctuation">]</span>
-
-    <span class="token key atrule">steps</span><span class="token punctuation">:</span>
-      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Checkout
-        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@v1
-      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Use Node.js $<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> matrix.node<span class="token punctuation">-</span>version <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
-        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/setup<span class="token punctuation">-</span>node@v1
-        <span class="token key atrule">with</span><span class="token punctuation">:</span>
-          <span class="token key atrule">node-version</span><span class="token punctuation">:</span> $<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> matrix.node<span class="token punctuation">-</span>version <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
-      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Setup Hexo
-        <span class="token key atrule">run</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string">
-          mkdir -p ~/.ssh/
-          echo "$HEXO_DEPLOY_PRI" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git config --global user.name $USER_NAME
-          git config --global user.email $USER_EMAIL
-          npm i -g hexo-cli
-          npm i hexo-generator-tag hexo-generator-feed hexo-renderer-ejs hexo-renderer-less hexo-renderer-marked hexo-pagination hexo-all-minifier hexo-autoprefixer hexo-front-matter
-          npm i</span>
-      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Deploy
-        <span class="token key atrule">run</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string">
-          hexo g -d</span></code><!-- HTML_TAG_END --></pre>
-<ol start="8"><li>本地端亦需同步推上建立 <code>main.yml</code> 後的 commit</li></ol>
-<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">git</span> remote update
-<span class="token function">git</span> pull</code><!-- HTML_TAG_END --></pre>
-<ol start="9"><li>若有修改 blog 的佈景或設定時也需要同部更新原始碼</li></ol>
-<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">git</span> <span class="token function">add</span> --all
-<span class="token function">git</span> commit -m <span class="token string">"update"</span>
-<span class="token function">git</span> push origin master</code><!-- HTML_TAG_END --></pre>
-<ol start="10"><li>至原始碼專案的 <code>source/_posts</code> 資料夾裡，點選右上角的 <code>Create new file</code>，<ul><li>輸入完文章內容後，點擊 <code>Commit new file</code> 便可線上發布文章了</li></ul></li></ol>
-<h4>參考</h4>
-<ul><li><a href="https://blog.weitw.net/posts/350dd70b/index.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://blog.weitw.net/posts/350dd70b/index.html" alt="Hexo + GitHub Actions 打造自動部署"><span>Hexo + GitHub Actions 打造自動部署</span></a></li>
-<li><a href="https://gythialy.github.io/deploy-hexo-to-github-pages-via-github-actions/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://gythialy.github.io/deploy-hexo-to-github-pages-via-github-actions/" alt="通过 GitHub Actions 自动部署 Hexo"><span>通过 GitHub Actions 自动部署 Hexo</span></a></li></ul>
-<h2>4. 套件</h2>
-<h3>a. 主題</h3>
-<ul><li>Apollo (<a href="https://github.com/pinggod/hexo-theme-apollo" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/pinggod/hexo-theme-apollo" alt="hexo-theme-apollo"><span>hexo-theme-apollo</span></a>)</li>
-<li>Element (<a href="https://github.com/artchen/hexo-theme-element" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/artchen/hexo-theme-element" alt="hexo-theme-element"><span>hexo-theme-element</span></a>)</li>
-<li>Modernist (<a href="https://github.com/heroicyang/hexo-theme-modernist" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/heroicyang/hexo-theme-modernist" alt="hexo-modernist"><span>hexo-modernist</span></a>)</li>
-<li>Light (<a href="https://github.com/hexojs/hexo-theme-light" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/hexojs/hexo-theme-light" alt="hexo-theme-light"><span>hexo-theme-light</span></a>)</li></ul>
-<h3>b. RSS</h3>
-<p><code>npm install hexo-generator-feed --save</code></p>
-<h3>c. Sitemap</h3>
-<p><code>npm install hexo-generator-seo-friendly-sitemap --save</code></p>
-<p><code>_config.yml</code>設定：</p>
-<pre class="language-yml"><!-- HTML_TAG_START --><code class="language-yml"><span class="token key atrule">sitemap</span><span class="token punctuation">:</span>
-  <span class="token key atrule">path</span><span class="token punctuation">:</span> sitemap.xml
-  <span class="token key atrule">template</span><span class="token punctuation">:</span> ./sitemap_template.xml</code><!-- HTML_TAG_END --></pre>
-<h3>d. 壓縮</h3>
-<ul><li><a href="https://github.com/mamboer/hexo-filter-cleanup" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/mamboer/hexo-filter-cleanup" alt="Hexo-filter-cleanup"><span>Hexo-filter-cleanup</span></a><ul><li><code>npm install hexo-filter-cleanup --save</code></li></ul></li></ul>
-<p><code>Hexo-filter-cleanup</code>也整合了以下三個插件：</p>
-<ol><li><a href="https://github.com/hexojs/hexo-html-minifier" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/hexojs/hexo-html-minifier" alt="hexo-html-minifier"><span>hexo-html-minifier</span></a><ul><li><code>npm install hexo-html-minifier --save</code></li></ul></li>
-<li><a href="https://github.com/hexojs/hexo-clean-css" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/hexojs/hexo-clean-css" alt="hexo-clean-css"><span>hexo-clean-css</span></a><ul><li><code>npm install hexo-clean-css --save</code></li></ul></li>
-<li><a href="https://github.com/hexojs/hexo-uglify" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/hexojs/hexo-uglify" alt="hexo-uglify"><span>hexo-uglify</span></a><ul><li><code>npm install hexo-uglify --save</code></li></ul></li></ol>
-<ul><li><a href="https://github.com/theme-next/hexo-filter-optimize" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/theme-next/hexo-filter-optimize" alt="hexo-filter-optimize"><span>hexo-filter-optimize</span></a><ul><li><code>npm install hexo-filter-optimize --save</code></li></ul></li></ul>
-<p><code>_config.yml</code>設定：</p>
-<pre class="language-yml"><!-- HTML_TAG_START --><code class="language-yml"><span class="token key atrule">filter_optimize</span><span class="token punctuation">:</span>
-  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-  <span class="token comment"># remove static resource query string</span>
-  <span class="token comment">#   - like &#96;?v=1.0.0&#96;</span>
-  <span class="token key atrule">remove_query_string</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-  <span class="token comment"># remove the surrounding comments in each of the bundled files</span>
-  <span class="token key atrule">remove_comments</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">css</span><span class="token punctuation">:</span>
-    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-    <span class="token comment"># bundle loaded css file into the one</span>
-    <span class="token key atrule">bundle</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-    <span class="token comment"># use a script block to load css elements dynamically</span>
-    <span class="token key atrule">delivery</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-    <span class="token comment"># make specific css content inline into the html page</span>
-    <span class="token comment">#   - only support the full path</span>
-    <span class="token comment">#   - default is ['css/main.css']</span>
-    <span class="token key atrule">inlines</span><span class="token punctuation">:</span>
-    <span class="token key atrule">excludes</span><span class="token punctuation">:</span>
-  <span class="token key atrule">js</span><span class="token punctuation">:</span>
-    <span class="token comment"># bundle loaded js file into the one</span>
-    <span class="token key atrule">bundle</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-    <span class="token key atrule">excludes</span><span class="token punctuation">:</span>
-  <span class="token comment"># set the priority of this plugin,</span>
-  <span class="token comment"># lower means it will be executed first, default is 10</span>
-  <span class="token key atrule">priority</span><span class="token punctuation">:</span> <span class="token number">12</span>
-
-  <span class="token comment"># ---</span>
-
-<span class="token key atrule">html_minifier</span><span class="token punctuation">:</span>
-  <span class="token key atrule">exclude</span><span class="token punctuation">:</span>
-  <span class="token key atrule">removeComments</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-  <span class="token key atrule">removeCommentsFromCDATA</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">removeCDATASectionsFromCDATA</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">collapseWhitespace</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-  <span class="token key atrule">conservativeCollapse</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-  <span class="token key atrule">preserveLineBreaks</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-  <span class="token key atrule">collapseBooleanAttributes</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">removeAttributeQuotes</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">removeRedundantAttributes</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">preventAttributesEscaping</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">useShortDoctype</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">removeEmptyAttributes</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">removeScriptTypeAttributes</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">removeStyleLinkTypeAttributes</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">removeOptionalTags</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">removeIgnored</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">removeEmptyElements</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">lint</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">keepClosingSlash</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">caseSensitive</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">minifyJS</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-  <span class="token key atrule">minifyCSS</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-  <span class="token key atrule">minifyURLs</span><span class="token punctuation">:</span> <span class="token boolean important">false</span></code><!-- HTML_TAG_END --></pre>
-<h2>5. 文章編寫 （Markdown 記法）</h2>
-<ul><li><a href="https://hackmd.io/5I6nEE0aQTGYT1PzTyTBAw" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://hackmd.io/5I6nEE0aQTGYT1PzTyTBAw" alt="HackMD 的 Markdown 輸入格式對照表"><span>HackMD 的 Markdown 輸入格式對照表</span></a></li>
-<li><a href="https://qiita.com/ka215/items/a709665cb34c505ccf1f" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://qiita.com/ka215/items/a709665cb34c505ccf1f" alt="Markdown テキストでシーケンス図とフローチャートを描く"><span>Markdown テキストでシーケンス図とフローチャートを描く</span></a></li></ul>
-<pre class="language-markdown"><!-- HTML_TAG_START --><code class="language-markdown"><span class="token title important"><span class="token punctuation">#</span> 主標題</span>
-
-<span class="token title important"><span class="token punctuation">##</span> 副標題</span>
-
-<span class="token blockquote punctuation">></span> 引言
-
-<span class="token list punctuation">-</span> 清單
-<span class="token list punctuation">-</span> 清單
-
-<span class="token list punctuation">1.</span> 有序清單
-<span class="token list punctuation">2.</span> 有序清單
-
-<span class="token bold"><span class="token punctuation">**</span><span class="token content">粗體</span><span class="token punctuation">**</span></span>
-<span class="token italic"><span class="token punctuation">_</span><span class="token content">斜線</span><span class="token punctuation">_</span></span>
-<span class="token strike"><span class="token punctuation">~</span><span class="token content">刪除線</span><span class="token punctuation">~</span></span>
-
-連結
-<span class="token url">[<span class="token content">an example</span>](<span class="token url">http://example.com/</span> <span class="token string">"Title"</span>)</span>
-This is <span class="token url">[<span class="token content">an example</span>][<span class="token variable">id</span>]</span> reference-style link.
-<span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">id</span><span class="token punctuation">]</span><span class="token punctuation">:</span> http://example.com/ <span class="token string">"Optional Title Here"</span></span>
-
-圖片
-<span class="token url"><span class="token operator">!</span>[<span class="token content">エビフライトライアングル</span>](<span class="token url">http://i.imgur.com/Jjwsc.jpg</span> <span class="token string">"サンプル"</span>)</span>
-
-待辦事項
-
-<span class="token list punctuation">-</span> [ ] Eat
-<span class="token list punctuation">-</span> [x] Code
-  <span class="token list punctuation">-</span> [x] HTML
-  <span class="token list punctuation">-</span> [x] CSS
-  <span class="token list punctuation">-</span> [x] JavaScript
-<span class="token list punctuation">-</span> [ ] Sleep
-
-閱讀更多
-
-＜!-- more --＞
-
-嵌入 Youtube 影片
-&#123;%youtube [Youtube影片ID] %&#125;
-
-&#123;%raw%&#125;不需解析的 markdown 原文&#123;%endraw%&#125;</code><!-- HTML_TAG_END --></pre>
-<h2>6. 補充連結</h2>
-<ul><li><a href="https://qiita.com/in_silico_/items/7e6ed639c24142bdbd04" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://qiita.com/in_silico_/items/7e6ed639c24142bdbd04" alt="Hexo で始めるお手軽な静的ブログ　-インストールと配備-"><span>Hexo で始めるお手軽な静的ブログ　-インストールと配備-</span></a></li>
-<li><a href="https://qiita.com/in_silico_/items/31c2c0bc1cf061c86250" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://qiita.com/in_silico_/items/31c2c0bc1cf061c86250" alt="Hexo で始めるお手軽な静的ブログ　-画像投稿とプラグインの追加-"><span>Hexo で始めるお手軽な静的ブログ　-画像投稿とプラグインの追加-</span></a></li>
-<li><a href="https://pepese.github.io/blog/hexo-github-pages/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://pepese.github.io/blog/hexo-github-pages/" alt="Hexo で作ったブログを GitHub Pages で公開"><span>Hexo で作ったブログを GitHub Pages で公開</span></a></li>
-<li><a href="https://photo-tea.com/p/usecase-of-hexo-plugin/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://photo-tea.com/p/usecase-of-hexo-plugin/" alt="Hexo ブログで使ってるプラグインを公開します"><span>Hexo ブログで使ってるプラグインを公開します</span></a></li></ul>
-    <span class="blink svelte-1kip24n">_</span></article>
-  
-
-<div class="back-to-top svelte-1p7rwza hidden" style="right: 2em">Back to top
-</div>
-</div></main>
-
-  <footer scoped class="svelte-1xo47ws"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noreferrer noopener nofollow">CC BY-NC-SA 4.0
-  </a>
-  <div class="right svelte-1xo47ws">Made with <span class="heart svelte-1xo47ws">❤️</span> and
-    <a href="https://kit.svelte.dev/" target="_blank" ref="noreferrer noopener nofollow">SvelteKit
-    </a></div>
-  <div class="clearfix svelte-1xo47ws"></div>
-</footer>
-</div>
 
 
-		<script type="module" data-hydrate="usmk6i">
-		import { start } from "/_app/start-282d9b7f.js";
+<div class="layout svelte-1v8kxte"><div class="loader-container svelte-1v8kxte"><div class="loader svelte-1v8kxte"><span class="loader-text loader-step1 svelte-1v8kxte">/</span>
+        <span class="loader-text loader-step1 svelte-1v8kxte">-</span>
+        <span class="loader-text loader-step1 svelte-1v8kxte">\</span>
+        <span class="loader-text loader-step1 svelte-1v8kxte">|</span></div></div></div>
+
+
+		<script type="module" data-hydrate="wx4ps6">
+		import { start } from "/_app/start-b29a83f9.js";
 		start({
-			target: document.querySelector('[data-hydrate="usmk6i"]').parentNode,
+			target: document.querySelector('[data-hydrate="wx4ps6"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -345,7 +55,7 @@ This is <span class="token url">[<span class="token content">an example</span>][
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-667dfea2.js"),
+					import("/_app/pages/__layout.svelte-109517a1.js"),
 						import("/_app/pages/posts/blog-with-hexo.md-3e91d73e.js")
 				],
 				params: {},
