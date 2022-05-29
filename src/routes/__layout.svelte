@@ -1,4 +1,5 @@
 <script>
+  import Loader from "$lib/Loader.svelte";
   import Header from "$lib/Header.svelte";
   import Footer from "$lib/Footer.svelte";
   import Favicon from "$lib/Favicon.svelte";
@@ -32,19 +33,12 @@
 
 <svelte:window on:load={loaded()} />
 
-{#if !isLoaded}
-  <div class="layout">
+<div class="layout">
+  {#if !isLoaded}
     <div class="loader-container">
-      <div class="loader">
-        <span class="loader-text loader-step1">/</span>
-        <span class="loader-text loader-step1">-</span>
-        <span class="loader-text loader-step1">\</span>
-        <span class="loader-text loader-step1">|</span>
-      </div>
+      <Loader />
     </div>
-  </div>
-{:else}
-  <div class="layout">
+  {:else}
     <!-- <GoogleAdsense id={ga_client_id} /> -->
 
     <Favicon />
@@ -55,8 +49,8 @@
     </main>
 
     <Footer />
-  </div>
-{/if}
+  {/if}
+</div>
 
 <style>
   .layout {
@@ -70,9 +64,6 @@
     background-color: var(--outer-bg-color);
   }
 
-  :root {
-    --loader-size: 24px;
-  }
   .loader-container {
     display: flex;
     justify-content: center;
@@ -81,33 +72,9 @@
     width: 100%;
     min-height: 100%;
     min-height: 100vh;
-    
+
     background-color: black;
     color: white;
-  }
-  .loader {
-    display: flex;
-
-    width: var(--loader-size);
-    white-space: nowrap;
-    overflow: hidden;
-    font-family: monospace;
-    
-    animation: loading-animation 0.5s steps(4, end) infinite;
-  }
-  .loader-text {
-    flex: 1;
-    min-width: var(--loader-size);
-    font-size: var(--loader-size);
-    text-align: center;
-  }
-  @keyframes loading-animation {
-    from {
-      text-indent: 0;
-    }
-    to {
-      text-indent: calc(var(--loader-size) * -8);
-    }
   }
 
   main {
