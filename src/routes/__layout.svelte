@@ -7,7 +7,7 @@
   import { onMount } from "svelte";
 
   let isLoaded = false;
-  function loaded() {
+  function pageLoaded() {
     isLoaded = true;
   }
 
@@ -31,25 +31,27 @@
     src="https://www.googletagmanager.com/gtag/js?id=G-CRDP7WTXSQ"></script>
 </svelte:head>
 
-<svelte:window on:load={loaded()} />
+<svelte:window on:load={pageLoaded()} />
 
-<div class="layout">
-  {#if !isLoaded}
-    <div class="loader-container">
-      <Loader />
-    </div>
-  {:else}
-    <!-- <GoogleAdsense id={ga_client_id} /> -->
+<!-- if statement of svelte would not render slot page to static file in root -->
 
-    <Favicon />
-    <Header />
+<div class="layout" style={isLoaded ? "display: none;" : ""}>
+  <div class="loader-container">
+    <Loader />
+  </div>
+</div>
 
-    <main>
-      <slot />
-    </main>
+<div class="layout" style={!isLoaded ? "display: none;" : ""}>
+  <!-- <GoogleAdsense id={ga_client_id} /> -->
 
-    <Footer />
-  {/if}
+  <Favicon />
+  <Header />
+
+  <main>
+    <slot />
+  </main>
+
+  <Footer />
 </div>
 
 <style>
