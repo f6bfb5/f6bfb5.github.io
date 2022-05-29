@@ -88,7 +88,7 @@
   <meta property="og:title" content="f6bfb5's blog" />
   <meta name="Description" content="雨天決行" />
   <meta property="og:description" content="雨天決行" />
-  <meta property="og:image" content="https://i.imgur.com/mNM7Eg9.jpg" />
+  <meta property="og:image" content="https://i.imgur.com/pA9yPzD.jpg" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" value="f6bfb5's blog" />
