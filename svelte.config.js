@@ -14,15 +14,15 @@ const config = {
     adapter: adapter({
       pages: "build",
       assets: "build",
-      fallback: "index.html",
+      fallback: null,
     }),
     paths: {
       base: "",
       assets: "",
     },
-    // prerender: {
-    //   default: true,
-    // },
+    prerender: {
+      default: true,
+    },
     routes: (filepath) =>
       !/(?:(?:^_|\/_)|(?:^\.|\/\.)(?!well-known))/.test(filepath),
       version: {
