@@ -104,6 +104,35 @@
     "https://www.youtube.com/watch?v=oo5F2WVtLA8&t",
     // 【#001】作画オタクVTuber、自己紹介します！
     "https://www.youtube.com/watch?v=RqkAgWTZ98w",
+    // Nico
+    // ニコ厨と見るニコニコで流行ったアニメ
+    "https://www.nicovideo.jp/watch/sm35971994",
+    // MAD 　 ↑↑↓↓←→←→×○（2020 年 ver）
+    "https://www.nicovideo.jp/watch/sm36399404",
+    // ニコニコ動画宝島
+    "http://www.nicovideo.jp/watch/sm34303211",
+    // 敗北々しくて
+    "http://www.nicovideo.jp/watch/sm34295558",
+    // 【マリオメーカー２】勝利しないと爆発する妹のためにみんなでバトル #1【マリオ３スキン】 
+    "https://www.nicovideo.jp/watch/sm35323613",
+    // 【マリオメーカー２】マリオ、きづけばきょうもまたリンクに
+    "https://www.nicovideo.jp/watch/sm36084637",
+    // 【マリオメーカー２】やあみんな　おれはリンク　マリオじゃないぜ
+    "https://nico.ms/sm36110873",
+    // 【マリオメーカー２】マリオ、しょうこりもなくリンクになる,
+    "https://www.nicovideo.jp/watch/sm36068301",
+    // ぼくらのニコニコはこれからだ！
+    "https://nico.ms/sm35744482",
+    // イチローのレーザービームで人類滅亡 2019 年 ver.
+    "https://nico.ms/sm34810455",
+    // 【歌ってみた】お正月の歌を平沢進っぽくアレンジ【Lotus】
+    "https://nico.ms/sm36166697",
+    // ニコニコ動画の世紀 2019
+    "https://nico.ms/sm36069424",
+    // 2012 年みたいな MAD に住んでるう p 主はどうすりゃいいですか？
+    "https://nico.ms/sm35957126",
+    // 全盛期みたいな MAD に住んでるニコ厨はどうすりゃいいですか？
+    "https://www.nicovideo.jp/watch/sm35866765",
     // ----------------------------------------
     // Article
     // ----------------------------------------
@@ -113,6 +142,10 @@
     "https://twitter.com/sin_ncd/status/1210874514403291136",
     // ひろゆき「なんだろう、一人で悩むのやめてもらっていいですか」
     "http://tasogarech.blog.jp/archives/7552248.html",
+    // ニコニコ動画各時代の流行まとめ
+    "https://dic.nicovideo.jp/a/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%8B%95%E7%94%BB%E5%90%84%E6%99%82%E4%BB%A3%E3%81%AE%E6%B5%81%E8%A1%8C%E3%81%BE%E3%81%A8%E3%82%81",
+    // 【ニコニコ動画】七色のニコニコ動画 10 周年祭コメントアートまとめ
+    "https://togetter.com/li/1362957",
   ];
 
   function getRandomEleFromArr(arr) {
