@@ -1,0 +1,33 @@
+import{S as b,i as h,s as v,C as i,w,x as $,y as x,z as E,A as f,q as P,o as k,B as L,R as d,e as p,k as S,c as g,a as y,d as _,m as T,b as c,G as j,g as u,E as q}from"./index-26d5f122.js";import{P as C}from"./_post-0413a406.js";function I(n){let e,l,r,s,a=`<code class="language-undefined">\u5982\u679C\u660E\u5929\u9019\u500B\u4E16\u754C\u5C31\u8981\u7D50\u675F\u4E86
+\u4F60\u9084\u662F\u6703\u64FA\u51FA\u90A3\u526F\u300C\u9019\u6A23\u4E5F\u597D\u554A\u300D\u7684\u51B7\u6DE1\u614B\u5EA6\u5427\uFF1F
+
+\u4E0D\u5FC5\u52C9\u5F37 \u5076\u723E\u5C31\u597D \u62AC\u8D77\u982D\u4F86 \u770B\u9019\u908A\u5427 \u770B\u770B\u6211\u5427
+
+\u660E\u660E\u662F\u5982\u6B64\u6E3A\u5C0F\u7684\u4E16\u754C \u70BA\u4F55\u5C0D\u9019\u96D9\u624B\u4F86\u8B1B\u537B\u904E\u65BC\u5DE8\u5927
+\u660E\u660E\u662F\u6BEB\u7121\u6B62\u6DAF\u7684\u4E16\u754C \u70BA\u4F55\u5C0D\u9019\u96D9\u624B\u4F86\u8B1B\u537B\u904E\u65BC\u5FAE\u5C0F
+\u566F \u6211\u60F3\u5728\u64FE\u4EBA\u7684\u6668\u5149\u88E1\u548C\u4F60\u4E00\u540C\u6B61\u7B11
+
+\u662F\u5F9E\u4EC0\u9EBC\u6642\u5019\u958B\u59CB\u5462 \u5931\u53BB\u4E86\u81EA\u4FE1\u958B\u59CB\u6B3A\u9A19\u81EA\u5DF1
+\u660E\u660E\u5728\u5EFA\u8457\u7684\u662F\u9003\u907F\u7684\u8DEF \u56DE\u795E\u904E\u4F86\u537B\u9020\u51FA\u4E86\u8FF7\u5BAE
+
+\u4F60\u5606\u606F\u7684\u59FF\u614B\u9084\u662F\u6703\u8F49\u8B8A\u70BA\u7B11\u81C9\u5C0D\u5427\uFF1F\u6211\u60F3\u76F8\u4FE1
+
+\u770B\u770B\u6211\u5427
+
+\u660E\u660E\u662F\u5982\u6B64\u6E3A\u5C0F\u7684\u4E16\u754C \u70BA\u4F55\u80F8\u4E2D\u7684\u671F\u5F85\u5728\u81A8\u8139\u8457
+\u660E\u660E\u662F\u6BEB\u7121\u6B62\u6DAF\u7684\u4E16\u754C \u70BA\u4F55\u7121\u6CD5\u62B1\u6709\u4EFB\u548C\u671F\u5F85\u5462
+\u566F \u6211\u60F3\u5728\u64FE\u4EBA\u7684\u6708\u5149\u4E0B\u548C\u4F60\u4E00\u540C\u6B61\u7B11
+
+\u8FF7\u60D8\u7684\u5B63\u7BC0\u5FAA\u74B0\u8457
+
+\u70BA\u4EC0\u9EBC\u5462
+\u660E\u660E\u662F\u5982\u6B64\u6E3A\u5C0F\u7684\u4E16\u754C
+\u660E\u660E\u662F\u5982\u6B64\u6E3A\u5C0F\u7684\u4E16\u754C
+
+\u5373\u4F7F\u5982\u6B64
+\u660E\u660E\u662F\u5982\u6B64\u6E3A\u5C0F\u7684\u4E16\u754C \u70BA\u4F55\u5C0D\u9019\u96D9\u624B\u4F86\u8B1B\u537B\u904E\u65BC\u5DE8\u5927
+\u660E\u660E\u662F\u6BEB\u7121\u6B62\u6DAF\u7684\u4E16\u754C \u70BA\u4F55\u5C0D\u9019\u96D9\u624B\u4F86\u8B1B\u537B\u904E\u65BC\u5FAE\u5C0F
+
+\u660E\u660E\u662F\u5982\u6B64\u6E3A\u5C0F\u7684\u4E16\u754C \u70BA\u4F55\u80F8\u4E2D\u7684\u671F\u5F85\u5728\u81A8\u8139\u8457
+\u660E\u660E\u662F\u6BEB\u7121\u6B62\u6DAF\u7684\u4E16\u754C \u70BA\u4F55\u7121\u6CD5\u62B1\u6709\u4EFB\u548C\u671F\u5F85\u5462
+\u6211\u60F3\u5728\u9019\u64FE\u4EBA\u7684\u4E16\u754C\u4E0A\u548C\u4F60\u4E00\u540C\u6B61\u7B11</code>`;return{c(){e=p("iframe"),r=S(),s=p("pre"),this.h()},l(t){e=g(t,"IFRAME",{title:!0,src:!0,frameborder:!0,allow:!0}),y(e).forEach(_),r=T(t),s=g(t,"PRE",{class:!0});var o=y(s);o.forEach(_),this.h()},h(){c(e,"title","\u7267\u91CE\u7531\u4F9D - \u3082\u3069\u304B\u3057\u3044\u4E16\u754C\u306E\u4E0A\u3067"),j(e.src,l="https://www.youtube.com/embed/m6IElKOCnPI")||c(e,"src",l),c(e,"frameborder","0"),c(e,"allow","accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"),e.allowFullscreen=!0,c(s,"class","language-undefined")},m(t,o){u(t,e,o),u(t,r,o),u(t,s,o),s.innerHTML=a},p:q,d(t){t&&_(e),t&&_(r),t&&_(s)}}}function M(n){let e,l;const r=[n[0],m];let s={$$slots:{default:[I]},$$scope:{ctx:n}};for(let a=0;a<r.length;a+=1)s=i(s,r[a]);return e=new C({props:s}),{c(){w(e.$$.fragment)},l(a){$(e.$$.fragment,a)},m(a,t){x(e,a,t),l=!0},p(a,[t]){const o=t&1?E(r,[t&1&&f(a[0]),t&0&&f(m)]):{};t&2&&(o.$$scope={dirty:t,ctx:a}),e.$set(o)},i(a){l||(P(e.$$.fragment,a),l=!0)},o(a){k(e.$$.fragment,a),l=!1},d(a){L(e,a)}}}const m={title:"\u3010\u6B4C\u8A5E\u7FFB\u8B6F\u3011\u7267\u91CE\u7531\u4F9D - \u3082\u3069\u304B\u3057\u3044\u4E16\u754C\u306E\u4E0A\u3067",date:"2018-12-15T11:25:19.000Z",tags:"Lyrics, Translate"};function O(n,e,l){return n.$$set=r=>{l(0,e=i(i({},e),d(r)))},e=d(e),[e]}class R extends b{constructor(e){super(),h(this,e,O,M,v,{})}}var F=Object.freeze(Object.defineProperty({__proto__:null,default:R,metadata:m},Symbol.toStringTag,{value:"Module"}));export{R as L,F as _,m};

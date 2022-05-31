@@ -9,12 +9,12 @@
   >
   <url>
     <loc>https://f6bfb5.github.io</loc>
-    <lastmod>2022-05-29T08:12:25.075Z</lastmod>
+    <lastmod>2022-05-31T20:35:50.458Z</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://f6bfb5.github.io/about</loc>
-    <lastmod>2022-05-29T08:12:25.075Z</lastmod>
+    <lastmod>2022-05-31T20:35:50.458Z</lastmod>
     <priority>1.00</priority>
   </url>
   
@@ -303,6 +303,12 @@
     <url>
       <loc>https://f6bfb5.github.io/lyrics-buzy-venus-say</loc>
       <lastmod>2018-12-25T12:43:22.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+    <url>
+      <loc>https://f6bfb5.github.io/lyrics-eastern-youth-song-of-daybreak</loc>
+      <lastmod>2017-06-29T12:08:06.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
