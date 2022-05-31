@@ -147,7 +147,7 @@ tags: ACG, Comic
 
 ### 美食、料理漫畫愛好者的 TOP30
 
-- 2022-05-15 [グルメ・料理漫画好きがTOP30選んだ](https://anond.hatelabo.jp/20220515032301)
+- 2022-05-15 [グルメ・料理漫画好きが TOP30 選んだ](https://anond.hatelabo.jp/20220515032301)
 
 ## 個人部落格
 
@@ -352,3 +352,4 @@ tags: ACG, Comic
 - [2021 年に読んで面白かった漫画 55 選 - AQM](https://aqm.hatenablog.jp/entry/2021/12/31/000100)
 - [【２０２１年度版】すごかった漫画（全３５作品） - 村 村](https://msknmr.hatenablog.com/entry/2022/01/04/035238)
 - [(昔の、一昔前の)少女漫画のオススメ](http://girlsreport.net/archives/45412536.html)
+- [2021 年のマンガ新作ベスト 10+5+7+5 - 名馬であれば馬のうち](https://proxia.hateblo.jp/entry/2022/01/16/181742)

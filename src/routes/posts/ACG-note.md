@@ -7,21 +7,21 @@ tags: ACG, Anime
 
 ## 資料網站
 
-| 網站                                                                             | 類型 | 說明                                                                                                 |
-| -------------------------------------------------------------------------------- | ---- | ---------------------------------------------------------------------------------------------------- |
-| [作品データベース](https://sakuhindb.com/)                                       | 綜合 | 自動畫、遊戲、漫畫到文學、日劇、特攝皆有討論與評價的作品資料庫                                       |
-| [おすすめアニメ](http://www001.upp.so-net.ne.jp/tsuribe/anime/animej.html)       | 動畫 | 由「ランドルト環」製作，涵概過去 1930 年代到現在 2020 年代的電影、電視、OVA 動畫的作品介紹與個人評價 |
-| [うずらインフォ](https://uzurainfo.han-be.com/index.html)                        | 動畫 | 知名的當季電視動畫作品一覽表，已於 2020 年宣佈停止繼續更新                                           |
-| [アニメレーダー](https://ckworks.jp/animeradar/)                                 | 動畫 | 自動整理推特上對當季動畫的反應推文                                                                   |
-| [Annict](https://annict.jp/)                                                     | 動畫 | 整理自己觀看動畫紀錄的工具網站                                                                       |
-| [MyOngoingsCalendar](https://myongoingscalendar.eu/)                             | 動畫 | 類似 Annict 的另一個工具網站                                                                         |
-| [アニメスタッフデータベース](https://seesaawiki.jp/w/radioi_34/)                 | 動畫 | 整理作品製作人員表的網站                                                                             |
-| [マンガペディア（MANGA PEDIA）](https://mangapedia.com/)                         | 漫畫 | 漫畫版的維基百科                                                                                     |
-| [社長が訊く リンク集](https://www.nintendo.co.jp/corporate/links/)               | 遊戲 | 任天堂前社長岩田聰訪問各個作品團隊的脈絡與背景的專欄企劃                                             |
-| [JACC® Search - Japan Content Catalog](https://japancontentcatalog.jp/)          | 統計 | 查詢作品的相關權利持有者                                                                             |
-| [各種調査報告｜一般社団法人日本映像ソフト協会](http://www.jva-net.or.jp/report/) | 統計 | 加盟 JAV 的各家片商銷售數量統計                                                                      |
-| [調査報告書 \| 活動報告 \| ACCS](https://www2.accsjp.or.jp/research/)            | 統計 | 檔案分享軟體使用狀況 crwaling 調查統計                                                               |
-| [日本におけるアニメ視聴の概況](https://www.f-ism.net/ebi/mreport/r00000000047/)  | 統計 |                                                                                                      |
+| 網站                                                                            | 類型 | 說明                                                                         |
+| ------------------------------------------------------------------------------- | ---- | ---------------------------------------------------------------------------- |
+| [作品データベース](https://sakuhindb.com/)                                      | 綜合 | 自動畫、遊戲、漫畫到文學、日劇、特攝皆有討論與評價的作品資料庫               |
+| [おすすめアニメ](http://www001.upp.so-net.ne.jp/tsuribe/anime/animej.html)      | 動畫 | 涵概過去 1930 年代到現在 2020 年代的電影、電視、OVA 動畫的作品介紹與個人評價 |
+| [うずらインフォ](https://uzurainfo.han-be.com/index.html)                       | 動畫 | 知名的當季電視動畫作品一覽表，已於 2020 年宣佈停止繼續更新                   |
+| [アニメレーダー](https://ckworks.jp/animeradar/)                                | 動畫 | 自動整理推特上對當季動畫的反應推文                                           |
+| [Annict](https://annict.jp/)                                                    | 動畫 | 整理自己觀看動畫紀錄的工具網站                                               |
+| [MyOngoingsCalendar](https://myongoingscalendar.eu/)                            | 動畫 | 類似 Annict 的另一個工具網站                                                 |
+| [アニメスタッフデータベース](https://seesaawiki.jp/w/radioi_34/)                | 動畫 | 整理作品製作人員表的網站                                                     |
+| [マンガペディア（MANGA PEDIA）](https://mangapedia.com/)                        | 漫畫 | 漫畫版的維基百科                                                             |
+| [社長が訊く リンク集](https://www.nintendo.co.jp/corporate/links/)              | 遊戲 | 任天堂前社長岩田聰訪問各個作品團隊的脈絡與背景的專欄企劃                     |
+| [JACC® Search - Japan Content Catalog](https://japancontentcatalog.jp/)         | 統計 | 查詢作品的相關權利持有者                                                     |
+| [各種調査報告](http://www.jva-net.or.jp/report/)                                | 統計 | 加盟 JAV 的各家片商銷售數量統計                                              |
+| [調査報告書](https://www2.accsjp.or.jp/research/)                               | 統計 | 檔案分享軟體使用狀況 crwaling 調查統計                                       |
+| [日本におけるアニメ視聴の概況](https://www.f-ism.net/ebi/mreport/r00000000047/) | 統計 |                                                                              |
 
 ### [20 歳が観るべきアニメ 38 タイトルを選んでみた（藤津亮太）](https://qjweb.jp/journal/70033/?mode=all)
 

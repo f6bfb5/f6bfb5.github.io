@@ -353,6 +353,16 @@ outputfile.close()
 
 </details>
 
+#### Feedbro
+
+| 名稱                                                                | 種類 | 說明             |
+| ------------------------------------------------------------------- | ---- | ---------------- |
+| [jp-locale](https://github.com/ktkr3d/feedbro-locale)               | 設定 | 日文化           |
+| [ニコニコ動画](https://www.nicovideo.jp/rss)                        | 來源 | NicoNico 動畫    |
+| Youtube                                                             | 來源 | 貼上頻道網址即可 |
+| [ライブドアブログ](https://help.blogpark.jp/archives/52366452.html) | 來源 | Livedoor Blog    |
+| [報導者](https://public.twreporter.org/rss/twreporter-rss.xml)      | 來源 | 報導者           |
+
 #### Shopping
 
 - [Augmented Steam](https://chrome.google.com/webstore/detail/augmented-steam/dnhpnfgdlenaccegplpojghhmaamnnfp)
@@ -374,12 +384,6 @@ outputfile.close()
 - TTV LOL
 
 #### NicoNico Pack
-
-#### Feedbro
-
-- [jp-locale](https://github.com/ktkr3d/feedbro-locale)
-- [ニコニコ動画](https://www.nicovideo.jp/rss)
-- [ライブドアブログ](https://help.blogpark.jp/archives/52366452.html)
 
 ### 資安
 
