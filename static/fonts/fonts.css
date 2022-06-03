@@ -71,16 +71,6 @@ blockquote p:not(:first-of-type) {
   text-indent: 0;
 }
 
-code {
-  font-family: consolas, menlo, inconsolata, "YakuHanJPs_Noto", "Noto Sans",
-    "Noto Sans TC", -apple-system, BlinkMacSystemFont, ヒラギノ角ゴ Pro W3,
-    Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ\Ｐゴシック, MS PGothic,
-    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
-    Helvetica, sans-serif;
-  /* font-size: calc(1em - 2px); */
-  color: #555;
-}
-
 blockquote p {
   font-size: 1em;
   line-height: calc(0.25rem * 6);
@@ -89,6 +79,21 @@ blockquote p {
 blockquote footer {
   font-size: 1.1rem;
   text-align: right;
+}
+
+em {
+  font-style: normal;
+  text-emphasis: '・' var(--text-color);
+}
+
+code {
+  font-family: consolas, menlo, inconsolata, "YakuHanJPs_Noto", "Noto Sans",
+    "Noto Sans TC", -apple-system, BlinkMacSystemFont, ヒラギノ角ゴ Pro W3,
+    Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ\Ｐゴシック, MS PGothic,
+    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    Helvetica, sans-serif;
+  /* font-size: calc(1em - 2px); */
+  color: #555;
 }
 
 figure {
