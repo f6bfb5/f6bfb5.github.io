@@ -87,13 +87,13 @@ import{S as zk,i as Jk,s as Yk,C as jr,w as Xk,x as Wk,y as Kk,z as Zk,A as vk,q
           <span class="token key atrule">GITHUB_TOKEN</span><span class="token punctuation">:</span> $<span class="token punctuation">&#123;</span><span class="token punctuation">&#123;</span> secrets.GITHUB_TOKEN <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span>
           <span class="token key atrule">BRANCH</span><span class="token punctuation">:</span> gh<span class="token punctuation">-</span>pages <span class="token comment"># The branch the action should deploy to.</span>
           <span class="token key atrule">FOLDER</span><span class="token punctuation">:</span> __sapper__/export <span class="token comment"># The folder the action should deploy.</span>
-          <span class="token key atrule">CLEAN</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># Automatically remove deleted files from the deploy branch</span></code>`,xe,In,ll,Ce,Dn,cl,Ae,ms,Ka,X,Ln,Xr,Za,rl,il,Qa,W,Pn,Wr,st,ul,Ie,v,Ms,kl,nt,fl,dl,ml,js,vl,at,gl,_l,hl,vs,El,tt,yl,bl,wl,Sl,O,xl,et,Cl,Al,pt,Il,Dl,Ll,Pl,ot,lt,Hl,Gl,Ts,Rl,ct,Ol,Ml,jl,M,Tl,rt,Nl,Ul,it,$l,Bl,Fl,De,Ns,wk=`<code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span>
-  import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte";
-  import &#123; stores &#125; from "@sapper/app";
+          <span class="token key atrule">CLEAN</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># Automatically remove deleted files from the deploy branch</span></code>`,xe,In,ll,Ce,Dn,cl,Ae,ms,Ka,X,Ln,Xr,Za,rl,il,Qa,W,Pn,Wr,st,ul,Ie,v,Ms,kl,nt,fl,dl,ml,js,vl,at,gl,_l,hl,vs,El,tt,yl,bl,wl,Sl,O,xl,et,Cl,Al,pt,Il,Dl,Ll,Pl,ot,lt,Hl,Gl,Ts,Rl,ct,Ol,Ml,jl,M,Tl,rt,Nl,Ul,it,$l,Bl,Fl,De,Ns,wk=`<code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">import</span> GoogleAnalytics <span class="token keyword">from</span> <span class="token string">"sapper-google-analytics/GoogleAnalytics.svelte"</span><span class="token punctuation">;</span>
+  <span class="token keyword">import</span> <span class="token punctuation">&#123;</span> stores <span class="token punctuation">&#125;</span> <span class="token keyword">from</span> <span class="token string">"@sapper/app"</span><span class="token punctuation">;</span>
 
-  // \u525B\u624D\u8907\u88FD\u7684 Tracking ID
-  let ga_measurement_id = "UA-SOMETHING";
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+  <span class="token comment">// \u525B\u624D\u8907\u88FD\u7684 Tracking ID</span>
+  <span class="token keyword">let</span> ga_measurement_id <span class="token operator">=</span> <span class="token string">"UA-SOMETHING"</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>GoogleAnalytics</span> <span class="token attr-name">&#123;stores&#125;</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>&#123;ga_measurement_id&#125;<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span></code>`,Le,Hn,ql,Pe,Gn,S,Vl,ut,zl,Jl,kt,Yl,Xl,Wl,Kl,He,Us,Sk=`<code class="language-javascript"><span class="token keyword">import</span> posts <span class="token keyword">from</span> <span class="token string">"./_posts.js"</span><span class="token punctuation">;</span>
 <span class="token keyword">let</span> siteUrl <span class="token operator">=</span> <span class="token string">""</span><span class="token punctuation">;</span>
@@ -251,19 +251,19 @@ renderer<span class="token punctuation">.</span><span class="token function-vari
     <span class="token keyword">return</span> <span class="token string">'&lt;pre class="mermaid">'</span> <span class="token operator">+</span> code <span class="token operator">+</span> <span class="token string">"&lt;/pre>"</span><span class="token punctuation">;</span>
   <span class="token punctuation">&#125;</span>
   <span class="token comment">// ...</span>
-<span class="token punctuation">&#125;</span><span class="token punctuation">;</span></code>`,nr,Ys,Vt,zt,ar,tr,pa,Dk=`<code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span>
-  // ...
-  import &#123; onMount &#125; from "svelte";
-  onMount(async () => &#123;
-    mermaid.init();
-  &#125;);
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">;</span></code>`,nr,Ys,Vt,zt,ar,tr,pa,Dk=`<code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+  <span class="token comment">// ...</span>
+  <span class="token keyword">import</span> <span class="token punctuation">&#123;</span> onMount <span class="token punctuation">&#125;</span> <span class="token keyword">from</span> <span class="token string">"svelte"</span><span class="token punctuation">;</span>
+  <span class="token function">onMount</span><span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
+    mermaid<span class="token punctuation">.</span><span class="token function">init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">svelte:</span>head</span><span class="token punctuation">></span></span>
   <span class="token comment">&lt;!-- ... --></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span>
     <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js<span class="token punctuation">"</span></span>
-  <span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+  <span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token namespace">svelte:</span>head</span><span class="token punctuation">></span></span></code>`,Qe,Xs,Lk=`<code class="language-mermaid"><span class="token keyword">graph</span> TB
   F<span class="token text string">[Gatsby]</span>
   F <span class="token arrow operator">--></span> G

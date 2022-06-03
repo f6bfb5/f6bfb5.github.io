@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-677f85b3.js",
+    "file": "start-e9ccf4d7.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -16,8 +16,8 @@
       "src/routes/about.svelte",
       "src/routes/index.svelte",
       "_2020-what-i-have-read-on-internet-554f6436.js",
-      "_2021-what-i-have-read-on-internet-5b099810.js",
-      "_2022-what-i-have-read-on-internet-1479abe8.js",
+      "_2021-what-i-have-read-on-internet-515b6121.js",
+      "_2022-what-i-have-read-on-internet-ad0b72ca.js",
       "_ACG-80s-winter-age-of-anime-af7a8eff.js",
       "_ACG-Pause-And-Select-Apocalypse-16f73ddc.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-97142cc6.js",
@@ -54,8 +54,8 @@
       "_ACG-would-netflix-be-the-saviour-of-anime-e7b594dd.js",
       "_ACG-yume-no-shima-de-aimashou-4041e918.js",
       "_auto-generate-eyecatch-image-for-blog-e748f154.js",
-      "_blog-with-hexo-213d26da.js",
-      "_blog-with-svelte-7e493bbe.js",
+      "_blog-with-hexo-7ce87b49.js",
+      "_blog-with-svelte-3dca408b.js",
       "_capitalist-realism-mark-fisher-4c1d47b0.js",
       "_how-do-you-like-wendesday-b0fd5d9d.js",
       "_how-to-check-font-family-name-in-computer-bae3edc7.js",
@@ -63,7 +63,7 @@
       "_lyrics-bump-of-chicken-guild-5139bbd0.js",
       "_lyrics-bump-of-chicken-lostman-25cb89dc.js",
       "_lyrics-buzy-venus-say-f2599d37.js",
-      "_lyrics-eastern-youth-song-of-daybreak-8c0afc0c.js",
+      "_lyrics-eastern-youth-song-of-daybreak-c9fe1b1d.js",
       "_lyrics-gift-from-you-35095801.js",
       "_lyrics-good-night-world-5bad749a.js",
       "_lyrics-hamada-shogo-j-boy-8103c710.js",
@@ -89,20 +89,21 @@
       "_lyrics-toshihide-baba-ordinary-a2971e74.js",
       "_lyrics-yoshida-takuro-dont-talk-about-life-5c85bed5.js",
       "_lyrics-yui-makino-modokashii-sekai-no-ue-de-0a043923.js",
-      "_mpv-9a54377a.js",
+      "_mpv-3868157b.js",
       "_search-engine-operators-e8a17bae.js",
-      "_tool-list-creativity-fbb32c09.js",
-      "_tool-list-gaming-c413e27c.js",
-      "_tool-list-system-8aa559ed.js",
-      "_tool-list-website-9732f1c8.js",
-      "_use-foobar2k-to-listen-to-podcast-5f49f7d3.js",
-      "_what-nft-is-not-e57b0d2d.js",
-      "_why-is-life-so-boring-07bb835f.js",
+      "_template-ee52025d.js",
+      "_tool-list-creativity-95c68bc1.js",
+      "_tool-list-gaming-a9dafcee.js",
+      "_tool-list-system-52b31f16.js",
+      "_tool-list-website-be168303.js",
+      "_use-foobar2k-to-listen-to-podcast-014744de.js",
+      "_what-nft-is-not-fe26612a.js",
+      "_why-is-life-so-boring-f9c8a6aa.js",
       "src/routes/test@full.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-f3c6a732.js",
+    "file": "pages/__layout.svelte-01898d72.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -139,14 +140,14 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-d2fb7bda.js",
+    "file": "pages/_slug_.svelte-5e06d8de.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-554f6436.js",
-      "_2021-what-i-have-read-on-internet-5b099810.js",
-      "_2022-what-i-have-read-on-internet-1479abe8.js",
+      "_2021-what-i-have-read-on-internet-515b6121.js",
+      "_2022-what-i-have-read-on-internet-ad0b72ca.js",
       "_ACG-80s-winter-age-of-anime-af7a8eff.js",
       "_ACG-Pause-And-Select-Apocalypse-16f73ddc.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-97142cc6.js",
@@ -183,8 +184,8 @@
       "_ACG-would-netflix-be-the-saviour-of-anime-e7b594dd.js",
       "_ACG-yume-no-shima-de-aimashou-4041e918.js",
       "_auto-generate-eyecatch-image-for-blog-e748f154.js",
-      "_blog-with-hexo-213d26da.js",
-      "_blog-with-svelte-7e493bbe.js",
+      "_blog-with-hexo-7ce87b49.js",
+      "_blog-with-svelte-3dca408b.js",
       "_capitalist-realism-mark-fisher-4c1d47b0.js",
       "_how-do-you-like-wendesday-b0fd5d9d.js",
       "_how-to-check-font-family-name-in-computer-bae3edc7.js",
@@ -192,7 +193,7 @@
       "_lyrics-bump-of-chicken-guild-5139bbd0.js",
       "_lyrics-bump-of-chicken-lostman-25cb89dc.js",
       "_lyrics-buzy-venus-say-f2599d37.js",
-      "_lyrics-eastern-youth-song-of-daybreak-8c0afc0c.js",
+      "_lyrics-eastern-youth-song-of-daybreak-c9fe1b1d.js",
       "_lyrics-gift-from-you-35095801.js",
       "_lyrics-good-night-world-5bad749a.js",
       "_lyrics-hamada-shogo-j-boy-8103c710.js",
@@ -218,21 +219,22 @@
       "_lyrics-toshihide-baba-ordinary-a2971e74.js",
       "_lyrics-yoshida-takuro-dont-talk-about-life-5c85bed5.js",
       "_lyrics-yui-makino-modokashii-sekai-no-ue-de-0a043923.js",
-      "_mpv-9a54377a.js",
+      "_mpv-3868157b.js",
       "_search-engine-operators-e8a17bae.js",
-      "_tool-list-creativity-fbb32c09.js",
-      "_tool-list-gaming-c413e27c.js",
-      "_tool-list-system-8aa559ed.js",
-      "_tool-list-website-9732f1c8.js",
-      "_use-foobar2k-to-listen-to-podcast-5f49f7d3.js",
-      "_what-nft-is-not-e57b0d2d.js",
-      "_why-is-life-so-boring-07bb835f.js",
+      "_template-ee52025d.js",
+      "_tool-list-creativity-95c68bc1.js",
+      "_tool-list-gaming-a9dafcee.js",
+      "_tool-list-system-52b31f16.js",
+      "_tool-list-website-be168303.js",
+      "_use-foobar2k-to-listen-to-podcast-014744de.js",
+      "_what-nft-is-not-fe26612a.js",
+      "_why-is-life-so-boring-f9c8a6aa.js",
       "_index-26d5f122.js",
       "__post-0413a406.js"
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-be41ec0a.js",
+    "file": "pages/about.svelte-ad69d184.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -244,14 +246,14 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-7672a692.js",
+    "file": "pages/index.svelte-ba50a040.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-554f6436.js",
-      "_2021-what-i-have-read-on-internet-5b099810.js",
-      "_2022-what-i-have-read-on-internet-1479abe8.js",
+      "_2021-what-i-have-read-on-internet-515b6121.js",
+      "_2022-what-i-have-read-on-internet-ad0b72ca.js",
       "_ACG-80s-winter-age-of-anime-af7a8eff.js",
       "_ACG-Pause-And-Select-Apocalypse-16f73ddc.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-97142cc6.js",
@@ -288,8 +290,8 @@
       "_ACG-would-netflix-be-the-saviour-of-anime-e7b594dd.js",
       "_ACG-yume-no-shima-de-aimashou-4041e918.js",
       "_auto-generate-eyecatch-image-for-blog-e748f154.js",
-      "_blog-with-hexo-213d26da.js",
-      "_blog-with-svelte-7e493bbe.js",
+      "_blog-with-hexo-7ce87b49.js",
+      "_blog-with-svelte-3dca408b.js",
       "_capitalist-realism-mark-fisher-4c1d47b0.js",
       "_how-do-you-like-wendesday-b0fd5d9d.js",
       "_how-to-check-font-family-name-in-computer-bae3edc7.js",
@@ -297,7 +299,7 @@
       "_lyrics-bump-of-chicken-guild-5139bbd0.js",
       "_lyrics-bump-of-chicken-lostman-25cb89dc.js",
       "_lyrics-buzy-venus-say-f2599d37.js",
-      "_lyrics-eastern-youth-song-of-daybreak-8c0afc0c.js",
+      "_lyrics-eastern-youth-song-of-daybreak-c9fe1b1d.js",
       "_lyrics-gift-from-you-35095801.js",
       "_lyrics-good-night-world-5bad749a.js",
       "_lyrics-hamada-shogo-j-boy-8103c710.js",
@@ -323,15 +325,16 @@
       "_lyrics-toshihide-baba-ordinary-a2971e74.js",
       "_lyrics-yoshida-takuro-dont-talk-about-life-5c85bed5.js",
       "_lyrics-yui-makino-modokashii-sekai-no-ue-de-0a043923.js",
-      "_mpv-9a54377a.js",
+      "_mpv-3868157b.js",
       "_search-engine-operators-e8a17bae.js",
-      "_tool-list-creativity-fbb32c09.js",
-      "_tool-list-gaming-c413e27c.js",
-      "_tool-list-system-8aa559ed.js",
-      "_tool-list-website-9732f1c8.js",
-      "_use-foobar2k-to-listen-to-podcast-5f49f7d3.js",
-      "_what-nft-is-not-e57b0d2d.js",
-      "_why-is-life-so-boring-07bb835f.js",
+      "_template-ee52025d.js",
+      "_tool-list-creativity-95c68bc1.js",
+      "_tool-list-gaming-a9dafcee.js",
+      "_tool-list-system-52b31f16.js",
+      "_tool-list-website-be168303.js",
+      "_use-foobar2k-to-listen-to-podcast-014744de.js",
+      "_what-nft-is-not-fe26612a.js",
+      "_why-is-life-so-boring-f9c8a6aa.js",
       "_index-26d5f122.js",
       "_paths-396f020f.js",
       "_index-c51f2d3e.js",
@@ -364,23 +367,23 @@
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2021-what-i-have-read-on-internet.md-83463108.js",
+    "file": "pages/posts/2021-what-i-have-read-on-internet.md-a8e4faad.js",
     "src": "src/routes/posts/2021-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js",
-      "_2021-what-i-have-read-on-internet-5b099810.js"
+      "_2021-what-i-have-read-on-internet-515b6121.js"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-021ecd0e.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-07057d49.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js",
-      "_2022-what-i-have-read-on-internet-1479abe8.js"
+      "_2022-what-i-have-read-on-internet-ad0b72ca.js"
     ]
   },
   "src/routes/posts/ACG-80s-winter-age-of-anime.md": {
@@ -744,23 +747,23 @@
     ]
   },
   "src/routes/posts/blog-with-hexo.md": {
-    "file": "pages/posts/blog-with-hexo.md-90855212.js",
+    "file": "pages/posts/blog-with-hexo.md-6a025684.js",
     "src": "src/routes/posts/blog-with-hexo.md",
     "isEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js",
-      "_blog-with-hexo-213d26da.js"
+      "_blog-with-hexo-7ce87b49.js"
     ]
   },
   "src/routes/posts/blog-with-svelte.md": {
-    "file": "pages/posts/blog-with-svelte.md-32b93db8.js",
+    "file": "pages/posts/blog-with-svelte.md-d73f6203.js",
     "src": "src/routes/posts/blog-with-svelte.md",
     "isEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js",
-      "_blog-with-svelte-7e493bbe.js"
+      "_blog-with-svelte-3dca408b.js"
     ]
   },
   "src/routes/posts/capitalist-realism-mark-fisher.md": {
@@ -834,13 +837,13 @@
     ]
   },
   "src/routes/posts/lyrics-eastern-youth-song-of-daybreak.md": {
-    "file": "pages/posts/lyrics-eastern-youth-song-of-daybreak.md-db393ffb.js",
+    "file": "pages/posts/lyrics-eastern-youth-song-of-daybreak.md-0897ce6f.js",
     "src": "src/routes/posts/lyrics-eastern-youth-song-of-daybreak.md",
     "isEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js",
-      "_lyrics-eastern-youth-song-of-daybreak-8c0afc0c.js"
+      "_lyrics-eastern-youth-song-of-daybreak-c9fe1b1d.js"
     ]
   },
   "src/routes/posts/lyrics-gift-from-you.md": {
@@ -1094,13 +1097,13 @@
     ]
   },
   "src/routes/posts/mpv.md": {
-    "file": "pages/posts/mpv.md-723a7586.js",
+    "file": "pages/posts/mpv.md-777beff6.js",
     "src": "src/routes/posts/mpv.md",
     "isEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js",
-      "_mpv-9a54377a.js"
+      "_mpv-3868157b.js"
     ]
   },
   "src/routes/posts/search-engine-operators.md": {
@@ -1113,74 +1116,84 @@
       "_search-engine-operators-e8a17bae.js"
     ]
   },
+  "src/routes/posts/template.md": {
+    "file": "pages/posts/template.md-96f8c0dd.js",
+    "src": "src/routes/posts/template.md",
+    "isEntry": true,
+    "imports": [
+      "_index-26d5f122.js",
+      "__post-0413a406.js",
+      "_template-ee52025d.js"
+    ]
+  },
   "src/routes/posts/tool-list-creativity.md": {
-    "file": "pages/posts/tool-list-creativity.md-72f8a99b.js",
+    "file": "pages/posts/tool-list-creativity.md-62db2a51.js",
     "src": "src/routes/posts/tool-list-creativity.md",
     "isEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js",
-      "_tool-list-creativity-fbb32c09.js"
+      "_tool-list-creativity-95c68bc1.js"
     ]
   },
   "src/routes/posts/tool-list-gaming.md": {
-    "file": "pages/posts/tool-list-gaming.md-c5268a73.js",
+    "file": "pages/posts/tool-list-gaming.md-e11d3c6e.js",
     "src": "src/routes/posts/tool-list-gaming.md",
     "isEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js",
-      "_tool-list-gaming-c413e27c.js"
+      "_tool-list-gaming-a9dafcee.js"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
-    "file": "pages/posts/tool-list-system.md-25374e9d.js",
+    "file": "pages/posts/tool-list-system.md-1107a414.js",
     "src": "src/routes/posts/tool-list-system.md",
     "isEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js",
-      "_tool-list-system-8aa559ed.js"
+      "_tool-list-system-52b31f16.js"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-fbed4e68.js",
+    "file": "pages/posts/tool-list-website.md-39754ad0.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js",
-      "_tool-list-website-9732f1c8.js"
+      "_tool-list-website-be168303.js"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
-    "file": "pages/posts/use-foobar2k-to-listen-to-podcast.md-0182ff89.js",
+    "file": "pages/posts/use-foobar2k-to-listen-to-podcast.md-ea365921.js",
     "src": "src/routes/posts/use-foobar2k-to-listen-to-podcast.md",
     "isEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js",
-      "_use-foobar2k-to-listen-to-podcast-5f49f7d3.js"
+      "_use-foobar2k-to-listen-to-podcast-014744de.js"
     ]
   },
   "src/routes/posts/what-nft-is-not.md": {
-    "file": "pages/posts/what-nft-is-not.md-5b8f9868.js",
+    "file": "pages/posts/what-nft-is-not.md-55a145fb.js",
     "src": "src/routes/posts/what-nft-is-not.md",
     "isEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js",
-      "_what-nft-is-not-e57b0d2d.js"
+      "_what-nft-is-not-fe26612a.js"
     ]
   },
   "src/routes/posts/why-is-life-so-boring.md": {
-    "file": "pages/posts/why-is-life-so-boring.md-019cfce4.js",
+    "file": "pages/posts/why-is-life-so-boring.md-6de72786.js",
     "src": "src/routes/posts/why-is-life-so-boring.md",
     "isEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js",
-      "_why-is-life-so-boring-07bb835f.js"
+      "_why-is-life-so-boring-f9c8a6aa.js"
     ]
   },
   "_index-26d5f122.js": {
@@ -1203,16 +1216,16 @@
       "__post-0413a406.js"
     ]
   },
-  "_2021-what-i-have-read-on-internet-5b099810.js": {
-    "file": "chunks/2021-what-i-have-read-on-internet-5b099810.js",
+  "_2021-what-i-have-read-on-internet-515b6121.js": {
+    "file": "chunks/2021-what-i-have-read-on-internet-515b6121.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js"
     ]
   },
-  "_2022-what-i-have-read-on-internet-1479abe8.js": {
-    "file": "chunks/2022-what-i-have-read-on-internet-1479abe8.js",
+  "_2022-what-i-have-read-on-internet-ad0b72ca.js": {
+    "file": "chunks/2022-what-i-have-read-on-internet-ad0b72ca.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-26d5f122.js",
@@ -1510,16 +1523,16 @@
       "__post-0413a406.js"
     ]
   },
-  "_blog-with-hexo-213d26da.js": {
-    "file": "chunks/blog-with-hexo-213d26da.js",
+  "_blog-with-hexo-7ce87b49.js": {
+    "file": "chunks/blog-with-hexo-7ce87b49.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js"
     ]
   },
-  "_blog-with-svelte-7e493bbe.js": {
-    "file": "chunks/blog-with-svelte-7e493bbe.js",
+  "_blog-with-svelte-3dca408b.js": {
+    "file": "chunks/blog-with-svelte-3dca408b.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-26d5f122.js",
@@ -1585,8 +1598,8 @@
       "__post-0413a406.js"
     ]
   },
-  "_lyrics-eastern-youth-song-of-daybreak-8c0afc0c.js": {
-    "file": "chunks/lyrics-eastern-youth-song-of-daybreak-8c0afc0c.js",
+  "_lyrics-eastern-youth-song-of-daybreak-c9fe1b1d.js": {
+    "file": "chunks/lyrics-eastern-youth-song-of-daybreak-c9fe1b1d.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-26d5f122.js",
@@ -1793,8 +1806,8 @@
       "__post-0413a406.js"
     ]
   },
-  "_mpv-9a54377a.js": {
-    "file": "chunks/mpv-9a54377a.js",
+  "_mpv-3868157b.js": {
+    "file": "chunks/mpv-3868157b.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-26d5f122.js",
@@ -1809,8 +1822,16 @@
       "__post-0413a406.js"
     ]
   },
-  "_tool-list-creativity-fbb32c09.js": {
-    "file": "chunks/tool-list-creativity-fbb32c09.js",
+  "_template-ee52025d.js": {
+    "file": "chunks/template-ee52025d.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-26d5f122.js",
+      "__post-0413a406.js"
+    ]
+  },
+  "_tool-list-creativity-95c68bc1.js": {
+    "file": "chunks/tool-list-creativity-95c68bc1.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-26d5f122.js",
@@ -1820,8 +1841,8 @@
       "assets/tool-list-creativity-74747bfb.css"
     ]
   },
-  "_tool-list-gaming-c413e27c.js": {
-    "file": "chunks/tool-list-gaming-c413e27c.js",
+  "_tool-list-gaming-a9dafcee.js": {
+    "file": "chunks/tool-list-gaming-a9dafcee.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-26d5f122.js",
@@ -1831,8 +1852,8 @@
       "assets/tool-list-creativity-74747bfb.css"
     ]
   },
-  "_tool-list-system-8aa559ed.js": {
-    "file": "chunks/tool-list-system-8aa559ed.js",
+  "_tool-list-system-52b31f16.js": {
+    "file": "chunks/tool-list-system-52b31f16.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-26d5f122.js",
@@ -1842,24 +1863,24 @@
       "assets/tool-list-creativity-74747bfb.css"
     ]
   },
-  "_tool-list-website-9732f1c8.js": {
-    "file": "chunks/tool-list-website-9732f1c8.js",
+  "_tool-list-website-be168303.js": {
+    "file": "chunks/tool-list-website-be168303.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js"
     ]
   },
-  "_use-foobar2k-to-listen-to-podcast-5f49f7d3.js": {
-    "file": "chunks/use-foobar2k-to-listen-to-podcast-5f49f7d3.js",
+  "_use-foobar2k-to-listen-to-podcast-014744de.js": {
+    "file": "chunks/use-foobar2k-to-listen-to-podcast-014744de.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-26d5f122.js",
       "__post-0413a406.js"
     ]
   },
-  "_what-nft-is-not-e57b0d2d.js": {
-    "file": "chunks/what-nft-is-not-e57b0d2d.js",
+  "_what-nft-is-not-fe26612a.js": {
+    "file": "chunks/what-nft-is-not-fe26612a.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-26d5f122.js",
@@ -1869,8 +1890,8 @@
       "assets/what-nft-is-not-17bf58b6.css"
     ]
   },
-  "_why-is-life-so-boring-07bb835f.js": {
-    "file": "chunks/why-is-life-so-boring-07bb835f.js",
+  "_why-is-life-so-boring-f9c8a6aa.js": {
+    "file": "chunks/why-is-life-so-boring-f9c8a6aa.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-26d5f122.js",

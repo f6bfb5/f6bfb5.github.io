@@ -15,14 +15,14 @@
     <meta http-equiv="content-security-policy" content=""><script async src="https://www.googletagmanager.com/gtag/js?id=G-CRDP7WTXSQ" data-svelte="svelte-bhtlqr"></script><link rel="shortcut icon" href="/favicon.ico" data-svelte="svelte-1c8ynol"><link rel="bookmark" href="/favicon.ico" data-svelte="svelte-1c8ynol">
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-0d892495.css">
 	<link rel="stylesheet" href="/_app/assets/_post-5b55a3da.css">
-	<link rel="modulepreload" href="/_app/start-677f85b3.js">
+	<link rel="modulepreload" href="/_app/start-e9ccf4d7.js">
 	<link rel="modulepreload" href="/_app/chunks/index-26d5f122.js">
 	<link rel="modulepreload" href="/_app/chunks/index-c51f2d3e.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-f3c6a732.js">
-	<link rel="modulepreload" href="/_app/pages/posts/blog-with-svelte.md-32b93db8.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-01898d72.js">
+	<link rel="modulepreload" href="/_app/pages/posts/blog-with-svelte.md-d73f6203.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-0413a406.js">
-	<link rel="modulepreload" href="/_app/chunks/blog-with-svelte-7e493bbe.js">
+	<link rel="modulepreload" href="/_app/chunks/blog-with-svelte-3dca408b.js">
   </head>
   <body>
     <!-- The application will be rendered inside this element,
@@ -50,7 +50,7 @@
   <a class=" svelte-t90z2a" href="/rss.xml">rss</a>
   <a href="/sitemap.xml" style="display: none;" class="svelte-t90z2a">sitemap</a>
 </nav>
-      <a href="https://www.nicovideo.jp/watch/sm35866765" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
+      <a href="http://tasogarech.blog.jp/archives/7552248.html" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
 </a></div>
     
 <div id="progress-bar" style="--scrollAmount: 0%;" class="svelte-1gbseey"></div></div>
@@ -216,13 +216,13 @@
 <li><code>npm i sapper-google-analytics</code></li>
 <li>編輯 <code>src/routes/_layout.svelte</code> 加上下方程式碼</li>
 <li>完成後可以到 <code>Tracking Info</code> 裡的 <code>Tracking Code</code><br>點選 `Send test traffic` 測試是否新增成功</li></ol>
-<pre class="language-html"><!-- HTML_TAG_START --><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span>
-  import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte";
-  import &#123; stores &#125; from "@sapper/app";
+<pre class="language-html"><!-- HTML_TAG_START --><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">import</span> GoogleAnalytics <span class="token keyword">from</span> <span class="token string">"sapper-google-analytics/GoogleAnalytics.svelte"</span><span class="token punctuation">;</span>
+  <span class="token keyword">import</span> <span class="token punctuation">&#123;</span> stores <span class="token punctuation">&#125;</span> <span class="token keyword">from</span> <span class="token string">"@sapper/app"</span><span class="token punctuation">;</span>
 
-  // 剛才複製的 Tracking ID
-  let ga_measurement_id = "UA-SOMETHING";
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+  <span class="token comment">// 剛才複製的 Tracking ID</span>
+  <span class="token keyword">let</span> ga_measurement_id <span class="token operator">=</span> <span class="token string">"UA-SOMETHING"</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>GoogleAnalytics</span> <span class="token attr-name">&#123;stores&#125;</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>&#123;ga_measurement_id&#125;<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span></code><!-- HTML_TAG_END --></pre>
 <h3>RSS</h3>
@@ -413,19 +413,19 @@ renderer<span class="token punctuation">.</span><span class="token function-vari
   <span class="token comment">// ...</span>
 <span class="token punctuation">&#125;</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre></li>
 <li><p><code>[slug].svelte</code></p>
-<pre class="language-html"><!-- HTML_TAG_START --><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span>
-  // ...
-  import &#123; onMount &#125; from "svelte";
-  onMount(async () => &#123;
-    mermaid.init();
-  &#125;);
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+<pre class="language-html"><!-- HTML_TAG_START --><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+  <span class="token comment">// ...</span>
+  <span class="token keyword">import</span> <span class="token punctuation">&#123;</span> onMount <span class="token punctuation">&#125;</span> <span class="token keyword">from</span> <span class="token string">"svelte"</span><span class="token punctuation">;</span>
+  <span class="token function">onMount</span><span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
+    mermaid<span class="token punctuation">.</span><span class="token function">init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">svelte:</span>head</span><span class="token punctuation">></span></span>
   <span class="token comment">&lt;!-- ... --></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span>
     <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js<span class="token punctuation">"</span></span>
-  <span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+  <span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token namespace">svelte:</span>head</span><span class="token punctuation">></span></span></code><!-- HTML_TAG_END --></pre></li></ul>
 <pre class="language-mermaid"><!-- HTML_TAG_START --><code class="language-mermaid"><span class="token keyword">graph</span> TB
   F<span class="token text string">[Gatsby]</span>
@@ -470,10 +470,10 @@ renderer<span class="token punctuation">.</span><span class="token function-vari
 </div>
 
 
-		<script type="module" data-hydrate="bo3sdx">
-		import { start } from "/_app/start-677f85b3.js";
+		<script type="module" data-hydrate="xhvjhd">
+		import { start } from "/_app/start-e9ccf4d7.js";
 		start({
-			target: document.querySelector('[data-hydrate="bo3sdx"]').parentNode,
+			target: document.querySelector('[data-hydrate="xhvjhd"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -483,8 +483,8 @@ renderer<span class="token punctuation">.</span><span class="token function-vari
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-f3c6a732.js"),
-						import("/_app/pages/posts/blog-with-svelte.md-32b93db8.js")
+					import("/_app/pages/__layout.svelte-01898d72.js"),
+						import("/_app/pages/posts/blog-with-svelte.md-d73f6203.js")
 				],
 				params: {},
 				routeId: "posts/blog-with-svelte"
