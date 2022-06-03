@@ -301,56 +301,7 @@ html_minifier:
   minifyURLs: false
 ```
 
-## 5. 文章編寫 （Markdown 記法）
-
-- [HackMD 的 Markdown 輸入格式對照表](https://hackmd.io/5I6nEE0aQTGYT1PzTyTBAw)
-- [Markdown テキストでシーケンス図とフローチャートを描く](https://qiita.com/ka215/items/a709665cb34c505ccf1f)
-
-```markdown
-# 主標題
-
-## 副標題
-
-> 引言
-
-- 清單
-- 清單
-
-1. 有序清單
-2. 有序清單
-
-**粗體**
-_斜線_
-~刪除線~
-
-連結
-[an example](http://example.com/ "Title")
-This is [an example][id] reference-style link.
-[id]: http://example.com/ "Optional Title Here"
-
-圖片
-![エビフライトライアングル](http://i.imgur.com/Jjwsc.jpg "サンプル")
-
-待辦事項
-
-- [ ] Eat
-- [x] Code
-  - [x] HTML
-  - [x] CSS
-  - [x] JavaScript
-- [ ] Sleep
-
-閱讀更多
-
-＜!-- more --＞
-
-嵌入 Youtube 影片
-{%youtube [Youtube影片ID] %}
-
-{%raw%}不需解析的 markdown 原文{%endraw%}
-```
-
-## 6. 補充連結
+## 5. 補充連結
 
 - [Hexo で始めるお手軽な静的ブログ　-インストールと配備-](https://qiita.com/in_silico_/items/7e6ed639c24142bdbd04)
 - [Hexo で始めるお手軽な静的ブログ　-画像投稿とプラグインの追加-](https://qiita.com/in_silico_/items/31c2c0bc1cf061c86250)

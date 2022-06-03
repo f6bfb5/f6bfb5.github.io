@@ -63,17 +63,19 @@ mpv 的設定可以透過修改 `~/.config/mpv/mpv.conf` 進行變更，同樣�
 
 ### [影像處理](https://github.com/mpv-player/mpv/blob/master/DOCS/man/vo.rst)
 
-- [mpv-config/shaders](https://github.com/zhxie/mpv-config/tree/master/shaders)
+- [User Shaders·mpv-player/mpv Wiki](https://github.com/mpv-player/mpv/wiki/User-Scripts#user-shaders)
+- [bloc97/Anime4K](https://github.com/bloc97/Anime4K)
+- [bjin/mpv-prescalers](https://github.com/bjin/mpv-prescalers/tree/master)
+
+`mpv.conf`
 
 ```conf
 vo=gpu
 profile=gpu-hq
-glsl-shader="./shaders/LumaSharpenHook.glsl" #Strength at 0.35 with pyramid shaped pattern.
-glsl-shader="./shaders/SSimSuperRes.glsl" #With robidouxsharp parameters
-glsl-shader="./shaders/ravu-lite-r3.hook"
+glsl-shaders="~~/shaders/LumaSharpenHook.glsl;~~/shaders/SSimSuperRes.glsl;"
+glsl-shaders-append="~~/shaders/ravu-lite-r3.hook"
 
 gpu-api=vulkan
-gpu-api=d3d11
 
 scale=ewa_lanczossharp
 cscale=ewa_robidouxsharp
@@ -128,8 +130,8 @@ ytdl-format = bestvideo[ext=mp4][height<=?1080][fps<=?60]+bestaudio/best
 # 由於目前 Youtube-dl 有部分網站支援性的問題（例如 NicoNico），目前有一系列的 Youtube-dl 延伸開發 project，[YT-DLP](https://github.com/yt-dlp/yt-dlp) 是其中一套更新相當頻繁，並且支援性相當優秀的相關工具。
 #
 # 想要使用 Youtube-dl 之外的程式介接網路影片，需要多加上：
-script-opts=ytdl_hook-ytdl_path="./yt-dlp"
-script-opts-append=ytdl_hook-ytdl_path="./yt-dlp"
+script-opts=ytdl_hook-ytdl_path="~~/yt-dlp"
+script-opts-append=ytdl_hook-ytdl_path="~~/yt-dlp"
 ```
 
 ### 獨立使用 youtube-dl 觀看網路影片

@@ -4,7 +4,7 @@ date: 2017-06-29T12:08:06.000Z
 tags: Lyrics, Translate
 ---
 
-<iframe src="https://www.youtube.com/embed/XphRhS_e8UI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Eastern Youth - 夜明けの歌" src="https://www.youtube.com/embed/XphRhS_e8UI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ```
 黑夜已明 看得見吧
