@@ -1,7 +1,7 @@
 ---
 title: "template.md"
-date: 1969-07-21t02:56:00.000z
-summary: ""
+date: 1969-07-21T02:56:00.000Z
+summary: "template and snippet elements of markdown"
 tags:
 ---
 
@@ -83,6 +83,7 @@ Second Paragraph That's one small step for man, one giant leap for mankind.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 <div style="clear: both;" />
+
 <img src="https://picsum.photos/128/128/" alt="Image alt" title="Image title" style="padding-top: 1.125em; padding-right: 1.125em;  float: left;">
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
