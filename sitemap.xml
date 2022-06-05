@@ -9,12 +9,12 @@
   >
   <url>
     <loc>https://f6bfb5.github.io</loc>
-    <lastmod>2022-06-05T00:04:07.839Z</lastmod>
+    <lastmod>2022-06-05T16:36:45.134Z</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://f6bfb5.github.io/about</loc>
-    <lastmod>2022-06-05T00:04:07.839Z</lastmod>
+    <lastmod>2022-06-05T16:36:45.134Z</lastmod>
     <priority>1.00</priority>
   </url>
   
@@ -415,6 +415,12 @@
     </url>
   
     <url>
+      <loc>https://f6bfb5.github.io/lyrics-shounannokaze-kurenai</loc>
+      <lastmod>2022-06-05T21:46:47.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+    <url>
       <loc>https://f6bfb5.github.io/lyrics-susumu-hirasawa-kingdom</loc>
       <lastmod>2017-10-04T12:05:07.000Z</lastmod>
       <priority>0.80</priority>
@@ -465,6 +471,12 @@
     <url>
       <loc>https://f6bfb5.github.io/mpv</loc>
       <lastmod>2019-07-19T15:18:13.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+    <url>
+      <loc>https://f6bfb5.github.io/operating-with-keyboard</loc>
+      <lastmod>2022-06-05T17:04:28.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
