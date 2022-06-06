@@ -900,3 +900,20 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [ブログ: 太平洋における海底ケーブルの政治](https://okuranagaimo.blogspot.com/2022/06/blog-post_59.html)
 - [ゆうやけトリップ - ともひ](https://comic-fuz.com/manga/2399)
 - [何処として何一つ非の打ちどころのない僕の日常 - オヒルネ](https://shonenjumpplus.com/episode/3270296674382491509)
+- [滝沢秀明も共演したセガ『ドリームキャスト』CM の"湯川専務"が亡くなっていた！](https://www.jprime.jp/articles/-/24152)
+- [[第 1 話]てるてる建設(株) - 馬渕朝子/安藤宏平](https://shonenjumpplus.com/episode/3270296674387638325)
+- [はてブのユーザーインタビューを受けた - 本しゃぶり](https://honeshabri.hatenablog.com/entry/bookmark-interview)
+- [【売られた有人島】50 年前に島全体が苦渋の決断で売却された話。そこには予想外の原因があった。→「日本の未来みたい」「たった一つの出来事が島の運命を決めてしまった」](https://togetter.com/li/1896877)
+- [II-5 　「思想と討論の自由」が守られなければならない理由](http://s-scrap.com/7625)
+- [大人の学びパターン・ランゲージ（略称まなパタ）](https://www.ipa.go.jp/ikc/reports/20220601.html)
+- [編集のコツを教わるずんだもん](https://www.nicovideo.jp/watch/sm40578528)
+  - 精彩部份放在開頭
+  - 不要讓遊戲聲音蓋過人聲
+  - 提昇字幕可讀性
+  - 注意音量
+  - 剪掉無話可說的部份保持節奏
+  - 想提高觀看數就要再精製縮圖、運鏡、素材與詞彙能力
+  - 其他技法：突然靜音、連接場景、聲音逆播放、跳剪
+- [オタク同士の念能力バトル関連 - 漫画皇国](https://mgkkk.hatenablog.com/entry/2022/06/06/122247)
+- [「FF10」二次創作動画「おとわっか」、スクエニの申し立てにより削除　 300 万再生超の人気も、差別的笑いに物議](https://nlab.itmedia.co.jp/nl/articles/2206/06/news183.html)
+- [『ポケモン』の超ハイクオリティな「ゲーム風映像」が続々投稿される。中の人はどのような意図でファンアートを作っているのか](https://automaton-media.com/articles/newsjp/20220606-205353/)
