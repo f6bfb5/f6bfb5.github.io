@@ -80,3 +80,5 @@ tags: Toolbox
 | `url:keyword`                          | 內容含有包含特定關鍵字的連結 |
 | `since:yyyy-mm-dd`／`until:yyyy-mm-dd` | 搜尋特定時間範圍的內容       |
 | `lang:`                                | 搜尋特定語言的內容           |
+
+`filter:follows -fitler:retweets -fitler:replies`

@@ -917,3 +917,6 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [オタク同士の念能力バトル関連 - 漫画皇国](https://mgkkk.hatenablog.com/entry/2022/06/06/122247)
 - [「FF10」二次創作動画「おとわっか」、スクエニの申し立てにより削除　 300 万再生超の人気も、差別的笑いに物議](https://nlab.itmedia.co.jp/nl/articles/2206/06/news183.html)
 - [『ポケモン』の超ハイクオリティな「ゲーム風映像」が続々投稿される。中の人はどのような意図でファンアートを作っているのか](https://automaton-media.com/articles/newsjp/20220606-205353/)
+- [「言葉をたくさん知っていることがなぜ大切か」……自分の感情を整理し、自らの悩みや眼前の困難を正確に把握して、効率的に手を打てるようになる](https://togetter.com/li/1897696)
+- [おとわっか、FFX 売上に大貢献するも削除「悲しすぎだろ!」「当然だろ」](https://togetter.com/li/1897406)
+- [『ベルセルク』再開のお知らせ](https://www.hakusensha.co.jp/information/63802/)
