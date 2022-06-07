@@ -269,9 +269,11 @@ br {
 }
 
 code {
-  background-color: #f0f0f0;
   padding: 0em 0.2em;
   border-radius: 2px;
+  color: #eee;
+  background-color: #4e9a06;
+  /* background-color: #3465a4; */
 }
 
 pre {
