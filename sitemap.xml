@@ -9,12 +9,12 @@
   >
   <url>
     <loc>https://f6bfb5.github.io</loc>
-    <lastmod>2022-06-06T14:19:04.965Z</lastmod>
+    <lastmod>2022-06-07T11:26:41.332Z</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://f6bfb5.github.io/about</loc>
-    <lastmod>2022-06-06T14:19:04.965Z</lastmod>
+    <lastmod>2022-06-07T11:26:41.332Z</lastmod>
     <priority>1.00</priority>
   </url>
   
@@ -177,6 +177,12 @@
     <url>
       <loc>https://f6bfb5.github.io/ACG-rockman-1-tas-glitch</loc>
       <lastmod>2019-02-19T13:59:42.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+    <url>
+      <loc>https://f6bfb5.github.io/ACG-s3-project</loc>
+      <lastmod>2019-08-14T22:02:21.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   

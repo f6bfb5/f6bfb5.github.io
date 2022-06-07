@@ -1,1 +1,0 @@
-import"../../chunks/index-f37dbfe1.js";import"../../chunks/_post-ecb61153.js";import{L as r,m as e}from"../../chunks/lyrics-yoshida-takuro-dont-talk-about-life-2ec2afea.js";export{r as default,e as metadata};
