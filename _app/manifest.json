@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-83ae7655.js",
+    "file": "start-acfdf94a.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -17,7 +17,7 @@
       "src/routes/index.svelte",
       "_2020-what-i-have-read-on-internet-30857e0c.js",
       "_2021-what-i-have-read-on-internet-95273726.js",
-      "_2022-what-i-have-read-on-internet-77ccad71.js",
+      "_2022-what-i-have-read-on-internet-cc570fc6.js",
       "_ACG-80s-winter-age-of-anime-cdc5988c.js",
       "_ACG-Pause-And-Select-Apocalypse-de8afc60.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-d6ca7d2e.js",
@@ -33,9 +33,9 @@
       "_ACG-expression-of-light-and-heavy-a6454e6e.js",
       "_ACG-games-done-quick-introduction-9a2b065d.js",
       "_ACG-history-of-robot-anime-f9dcaa4b.js",
-      "_ACG-linda-cube-introduction-89b96255.js",
-      "_ACG-linda-cube-on-ps-archive-82ada19f.js",
-      "_ACG-making-of-linda3-8f65cc68.js",
+      "_ACG-linda-cube-introduction-510f1cbe.js",
+      "_ACG-linda-cube-on-ps-archive-c78bf927.js",
+      "_ACG-making-of-linda3-f0d3d067.js",
       "_ACG-note-2165d36d.js",
       "_ACG-on-your-mark-32177143.js",
       "_ACG-our-bible-just-reissue-in-kindle-312c0b22.js",
@@ -144,14 +144,14 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-479df685.js",
+    "file": "pages/_slug_.svelte-c799330e.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-30857e0c.js",
       "_2021-what-i-have-read-on-internet-95273726.js",
-      "_2022-what-i-have-read-on-internet-77ccad71.js",
+      "_2022-what-i-have-read-on-internet-cc570fc6.js",
       "_ACG-80s-winter-age-of-anime-cdc5988c.js",
       "_ACG-Pause-And-Select-Apocalypse-de8afc60.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-d6ca7d2e.js",
@@ -167,9 +167,9 @@
       "_ACG-expression-of-light-and-heavy-a6454e6e.js",
       "_ACG-games-done-quick-introduction-9a2b065d.js",
       "_ACG-history-of-robot-anime-f9dcaa4b.js",
-      "_ACG-linda-cube-introduction-89b96255.js",
-      "_ACG-linda-cube-on-ps-archive-82ada19f.js",
-      "_ACG-making-of-linda3-8f65cc68.js",
+      "_ACG-linda-cube-introduction-510f1cbe.js",
+      "_ACG-linda-cube-on-ps-archive-c78bf927.js",
+      "_ACG-making-of-linda3-f0d3d067.js",
       "_ACG-note-2165d36d.js",
       "_ACG-on-your-mark-32177143.js",
       "_ACG-our-bible-just-reissue-in-kindle-312c0b22.js",
@@ -254,14 +254,14 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-531b9679.js",
+    "file": "pages/index.svelte-4a8bdc3e.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-30857e0c.js",
       "_2021-what-i-have-read-on-internet-95273726.js",
-      "_2022-what-i-have-read-on-internet-77ccad71.js",
+      "_2022-what-i-have-read-on-internet-cc570fc6.js",
       "_ACG-80s-winter-age-of-anime-cdc5988c.js",
       "_ACG-Pause-And-Select-Apocalypse-de8afc60.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-d6ca7d2e.js",
@@ -277,9 +277,9 @@
       "_ACG-expression-of-light-and-heavy-a6454e6e.js",
       "_ACG-games-done-quick-introduction-9a2b065d.js",
       "_ACG-history-of-robot-anime-f9dcaa4b.js",
-      "_ACG-linda-cube-introduction-89b96255.js",
-      "_ACG-linda-cube-on-ps-archive-82ada19f.js",
-      "_ACG-making-of-linda3-8f65cc68.js",
+      "_ACG-linda-cube-introduction-510f1cbe.js",
+      "_ACG-linda-cube-on-ps-archive-c78bf927.js",
+      "_ACG-making-of-linda3-f0d3d067.js",
       "_ACG-note-2165d36d.js",
       "_ACG-on-your-mark-32177143.js",
       "_ACG-our-bible-just-reissue-in-kindle-312c0b22.js",
@@ -389,13 +389,13 @@
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-82eba26e.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-1536d51c.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-f37dbfe1.js",
       "__post-ecb61153.js",
-      "_2022-what-i-have-read-on-internet-77ccad71.js"
+      "_2022-what-i-have-read-on-internet-cc570fc6.js"
     ]
   },
   "src/routes/posts/ACG-80s-winter-age-of-anime.md": {
@@ -549,33 +549,33 @@
     ]
   },
   "src/routes/posts/ACG-linda-cube-introduction.md": {
-    "file": "pages/posts/ACG-linda-cube-introduction.md-74a5b190.js",
+    "file": "pages/posts/ACG-linda-cube-introduction.md-df059c3c.js",
     "src": "src/routes/posts/ACG-linda-cube-introduction.md",
     "isEntry": true,
     "imports": [
       "_index-f37dbfe1.js",
       "__post-ecb61153.js",
-      "_ACG-linda-cube-introduction-89b96255.js"
+      "_ACG-linda-cube-introduction-510f1cbe.js"
     ]
   },
   "src/routes/posts/ACG-linda-cube-on-ps-archive.md": {
-    "file": "pages/posts/ACG-linda-cube-on-ps-archive.md-a34ba182.js",
+    "file": "pages/posts/ACG-linda-cube-on-ps-archive.md-bddcf315.js",
     "src": "src/routes/posts/ACG-linda-cube-on-ps-archive.md",
     "isEntry": true,
     "imports": [
       "_index-f37dbfe1.js",
       "__post-ecb61153.js",
-      "_ACG-linda-cube-on-ps-archive-82ada19f.js"
+      "_ACG-linda-cube-on-ps-archive-c78bf927.js"
     ]
   },
   "src/routes/posts/ACG-making-of-linda3.md": {
-    "file": "pages/posts/ACG-making-of-linda3.md-6ef09e5a.js",
+    "file": "pages/posts/ACG-making-of-linda3.md-bde6afea.js",
     "src": "src/routes/posts/ACG-making-of-linda3.md",
     "isEntry": true,
     "imports": [
       "_index-f37dbfe1.js",
       "__post-ecb61153.js",
-      "_ACG-making-of-linda3-8f65cc68.js"
+      "_ACG-making-of-linda3-f0d3d067.js"
     ]
   },
   "src/routes/posts/ACG-note.md": {
@@ -1276,8 +1276,8 @@
       "__post-ecb61153.js"
     ]
   },
-  "_2022-what-i-have-read-on-internet-77ccad71.js": {
-    "file": "chunks/2022-what-i-have-read-on-internet-77ccad71.js",
+  "_2022-what-i-have-read-on-internet-cc570fc6.js": {
+    "file": "chunks/2022-what-i-have-read-on-internet-cc570fc6.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-f37dbfe1.js",
@@ -1407,24 +1407,24 @@
       "__post-ecb61153.js"
     ]
   },
-  "_ACG-linda-cube-introduction-89b96255.js": {
-    "file": "chunks/ACG-linda-cube-introduction-89b96255.js",
+  "_ACG-linda-cube-introduction-510f1cbe.js": {
+    "file": "chunks/ACG-linda-cube-introduction-510f1cbe.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-f37dbfe1.js",
       "__post-ecb61153.js"
     ]
   },
-  "_ACG-linda-cube-on-ps-archive-82ada19f.js": {
-    "file": "chunks/ACG-linda-cube-on-ps-archive-82ada19f.js",
+  "_ACG-linda-cube-on-ps-archive-c78bf927.js": {
+    "file": "chunks/ACG-linda-cube-on-ps-archive-c78bf927.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-f37dbfe1.js",
       "__post-ecb61153.js"
     ]
   },
-  "_ACG-making-of-linda3-8f65cc68.js": {
-    "file": "chunks/ACG-making-of-linda3-8f65cc68.js",
+  "_ACG-making-of-linda3-f0d3d067.js": {
+    "file": "chunks/ACG-making-of-linda3-f0d3d067.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-f37dbfe1.js",
@@ -1925,7 +1925,7 @@
       "__post-ecb61153.js"
     ],
     "css": [
-      "assets/tool-list-gaming-cfa2b81a.css"
+      "assets/tool-list-system-90e7347a.css"
     ]
   },
   "_tool-list-gaming-0b042468.js": {
@@ -1936,7 +1936,7 @@
       "__post-ecb61153.js"
     ],
     "css": [
-      "assets/tool-list-gaming-cfa2b81a.css"
+      "assets/tool-list-system-90e7347a.css"
     ]
   },
   "_tool-list-system-72e29f3b.js": {
@@ -1947,7 +1947,7 @@
       "__post-ecb61153.js"
     ],
     "css": [
-      "assets/tool-list-gaming-cfa2b81a.css"
+      "assets/tool-list-system-90e7347a.css"
     ]
   },
   "_tool-list-website-0a708d04.js": {
