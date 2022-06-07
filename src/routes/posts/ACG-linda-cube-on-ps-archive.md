@@ -5,11 +5,10 @@ summary: "第一次談到《Linda Cube Again 數位版》的話題，是去年 9
 tags: ACG, Game, Translate
 ---
 
-文章來源：[リンダキューブアゲイン配信開始](http://www.alfasystem.net/a_m/diary.cgi?date=20080911)
+- 文章來源：[リンダキューブアゲイン配信開始](http://www.alfasystem.net/a_m/diary.cgi?date=20080911)
+- [リンダキューブ　アゲイン](https://www.jp.playstation.com/software/title/jp9000npji00040_000000000000000001.html)
 
 ---
-
-- [リンダキューブ　アゲイン | プレイステーション ® オフィシャルサイト](https://www.jp.playstation.com/software/title/jp9000npji00040_000000000000000001.html)
 
 唉呀——真的是好漫長哪。
 

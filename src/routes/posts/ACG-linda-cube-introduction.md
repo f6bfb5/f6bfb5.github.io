@@ -5,6 +5,10 @@ summary: "主角不是勇者。沒有要打倒的邪惡魔王。也絕對無法�
 tags: ACG, Game, Translate
 ---
 
+- [リンダキューブ　アゲイン](https://www.jp.playstation.com/software/title/jp9000npji00040_000000000000000001.html)
+
+---
+
 <iframe title="linda cube cm" src="https://www.youtube.com/embed/Jc1QGIhnTaU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 AMD（After Mothers Death，指「地球死亡之後」）1991 年，在和地球非常相似的星球「新肯亞」。生活在其上的人類們，知曉 8 年後將有無法迴避的巨大隕石襲向新肯亞。逃離新肯亞的「人類脫出計畫」著實地進行中，人們突然收到一份來自「方舟」宇宙船、自稱神明的訊息。
@@ -32,7 +36,8 @@ AMD（After Mothers Death，指「地球死亡之後」）1991 年，在和地�
 主角不是勇者。沒有要打倒的邪惡魔王。也絕對無法拯救世界。<br/>
 刻意脫離王道，充滿奇幻和混亂的劇情，正是本作最大的特徵。<br/>
 主角拯救的不是世界和國家，而是奇形怪狀的動物與青梅竹馬的女孩。<br/>
-在桝田的個人網站裡，還特地對這點做了聲明。<br/>
+在桝田的個人網站裡，還特地對這點做了聲明。
+
 「我先說了！！這款遊戲裡沒有魔王。你也不是勇者。沒有什麼魔法。不會有人告訴你該去哪裡。不管你怎麼做都無法阻止隕石。」
 
 ### ◎ 8 年後隕石絕對會墜落下來。

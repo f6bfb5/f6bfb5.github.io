@@ -920,3 +920,4 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [「言葉をたくさん知っていることがなぜ大切か」……自分の感情を整理し、自らの悩みや眼前の困難を正確に把握して、効率的に手を打てるようになる](https://togetter.com/li/1897696)
 - [おとわっか、FFX 売上に大貢献するも削除「悲しすぎだろ!」「当然だろ」](https://togetter.com/li/1897406)
 - [『ベルセルク』再開のお知らせ](https://www.hakusensha.co.jp/information/63802/)
+- [にじさんじ壱百満天原サロメ、VTuber 史上最速で YouTube 登録者 100 万人突破](https://kai-you.net/article/83841)

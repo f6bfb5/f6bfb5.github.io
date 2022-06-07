@@ -5,7 +5,8 @@ summary: "在《天外魔境 II》發售約 1 個月後，家中長男出生的�
 tags: ACG, Game, Translate
 ---
 
-文章來源：[桝田省治の製作ノート ～ Making of Linda3 ～](http://www.alfasystem.net/a_m/column/sub.4.0.htm)
+- 文章來源：[桝田省治の製作ノート ～ Making of Linda3 ～](http://www.alfasystem.net/a_m/column/sub.4.0.htm)
+- [リンダキューブ　アゲイン](https://www.jp.playstation.com/software/title/jp9000npji00040_000000000000000001.html)
 
 ---
 
