@@ -18,8 +18,8 @@
 
 <div class="ip--container">
   <div class="ip--label">
-    <span>TCP</span>
-    <span>IP</span>
+    <span>H3</span>
+    <span>LL0</span>
   </div>
   <span>{$ip}</span>
 </div>
@@ -33,7 +33,7 @@
     margin-left: 26px;
     margin-right: 20px;
     margin-bottom: 0.25em;
-    padding: 0.125em;
+    padding: 0.25em;
     max-width: 24em;
 
     color: #efefef;
@@ -41,18 +41,38 @@
     z-index: 10;
   }
   .ip--label {
+    display: flex;
     margin-left: 0.225em;
     margin-right: 0.5em;
-    border: 1px solid #efefef;
+    outline: 1px solid #efefef;
   }
   .ip--label span {
-    padding: 0 0.125em;
+    padding: 0 0.25em;
+    position: relative;
   }
   .ip--label span:nth-child(1) {
     color: #2f2f2f;
     background-color: #efefef;
   }
-  .ip--label span:nth-child(2) {
-    padding-left: 0;
+  /* .ip--label span:nth-child(2) {
+    padding-left: 0.25em;
+  } */
+  .ip--label span:nth-child(1)::after,
+  .ip--label span:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    top: 0;
+  }
+  .ip--label span:nth-child(1)::after {
+    right: -2px;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    background-color: #efefef;
+  }
+  .ip--label span:nth-child(2)::before {
+    left: -2px;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    background-color: #503232;
   }
 </style>
