@@ -1,7 +1,6 @@
 ---
 title: "【歌詞翻譯】湘南乃風 - 紅"
 date: 2022-06-05T21:46:47.000Z
-summary: ""
 tags: Lyrics, Translate
 ---
 

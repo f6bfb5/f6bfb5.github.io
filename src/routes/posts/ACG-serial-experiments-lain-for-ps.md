@@ -25,7 +25,7 @@ tags: ACG, Anime, Game
 
 《Lain PS》則捨棄了傳統的線性遊戲設計，甚至很難說這是一款「遊戲」，如同文首 CM 影片說的，玩家必須操作類似電腦系統的「lain interface」，存取散落在網路上的各種斷片資訊，可能會是聲音紀錄，可能會是一段影片，要找出彼此之間的關聯，拼湊出故事的全貌，整體上更像是現今已成為常態的上網，而不是在玩遊戲，但姑且還是存在著結局，以及所謂的「周回要素」，看過結局之後還會再有更多資訊解鎖，並逐漸逼近整個作品的核心。
 
-雖然《Lain PS》的銷量據說並不算差，但因後續無再推出重製版或新機種主機的向下相容版，二手遊戲片的價格便水漲船高，目前的價格大約落在 40000 日圓以上。也因為《Lain PS》未推出其他語言的版本，2008 年時一群歐美網友開始了將遊戲翻譯成英文，與重製至瀏覽器上的企劃，並在 2014 年釋出，現在可以在 [laingame.net](https://laingame.net/) 上玩到。
+雖然《Lain PS》的銷量據說並不算差，但因後續無再推出重製版或新機種主機的向下相容版，二手遊戲片的價格便水漲船高，目前的價格大約落在 40000 日圓以上。也因為《Lain PS》未推出其他語言的版本，2008 年時一群歐美網友開始了將遊戲翻譯成英文，與重製至瀏覽器上的企劃，並在 2014 年釋出。
 
 官方另有推出腳本集 [scenario experiments lain](https://www.amazon.co.jp/scenario-experiments-lain%EF%BC%8F%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%84-%E3%83%AC%E3%82%A4%E3%83%B3-%E6%96%B0%E8%A3%85%E7%89%88-%E5%B0%8F%E4%B8%AD%E5%8D%83%E6%98%AD/dp/4835445678)、導覽攻略 [visual experiments lain](https://www.amazon.co.jp/visual-experiments-lain-%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%84-%E3%83%AC%E3%82%A4%E3%83%B3/dp/4835449509) 以及畫冊 [An omnipresence in wired](https://www.amazon.co.jp/omnipresence-wired-%E3%80%8Elain%E3%80%8F-%E7%94%BB%E9%9B%86-%E5%AE%89%E5%80%8D-%E5%90%89%E4%BF%8A/dp/4789713431)、[yoshitoshi ABe lain illustrations](https://www.amazon.co.jp/yoshitoshi-ABe-lain-illustrations-%E5%AE%89%E5%80%8D/dp/4898294871)，其中也收錄了遊戲中唯一缺乏的資料「Dc1029」── 一則短篇漫畫「The nightmare of fabrication」。
 

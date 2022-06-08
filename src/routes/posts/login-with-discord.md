@@ -24,7 +24,7 @@ tags: F2E
 3. 勾選下方「SCOPE」（索取的資訊欄位）
    裡的「identify」（Discord 的 ID）和「email」
 4. 就可於頁面下方取得認證用的連結<br/>
-   例：`https://discord.com/api/oauth2/authorize?client_id=`CLIENT ID`&redirect_uri=`REDIRECT URL`&response_type=code&scope=`SCOPE
+   例：`https://discord.com/api/oauth2/authorize?client_id=`[CLIENT ID]`&redirect_uri=`[REDIRECT URL]`&response_type=code&scope=`[SCOPE]
 
 ## 2. 從認證連結取得「code」
 
@@ -89,7 +89,7 @@ curl -H "Authorization: Bearer ACCESS TOKEN"
 }
 ```
 
-- 頭像網址可以使用「`https://cdn.discordapp.com/avatars/`Discord ID`/`大頭貼 ID」取得
+- 頭像網址可以使用「`https://cdn.discordapp.com/avatars/`[Discord ID]`/`[大頭貼 ID]」取得
 
 ## 5. 使用 refresh token 重新取得 access token
 
