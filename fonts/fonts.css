@@ -6,7 +6,6 @@
 @font-face {
   font-family: "缝合怪像素字体";
   src: url("fusion-pixel.woff2") format("woff2");
-  /* src: url("fusion-pixel.woff") format("woff"); */
 }
 
 body {
@@ -57,7 +56,6 @@ h6 {
 }
 
 p {
-  /* font-family: 'Noto Serif TC'; */
   font-size: 1.125em;
   line-height: calc(0.25rem * 7);
   letter-spacing: 0.0325em;
