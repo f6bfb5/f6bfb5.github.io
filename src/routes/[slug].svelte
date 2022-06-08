@@ -57,8 +57,10 @@
   {#if metadata}
     <title>{metadata.title}</title>
     <meta property="og:title" content={metadata.title} />
-    <meta property="og:description" content={metadata.summary} />
-    <meta name="Description" content={metadata.summary} />
+    {#if metadata.summary}
+      <meta property="og:description" content={metadata.summary} />
+      <meta name="Description" content={metadata.summary} />
+    {/if}
 
     <!--  Link to your preferred image  -->
     {#if metadata.image != ""}
@@ -67,7 +69,9 @@
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" value={metadata.title} />
-    <meta name="twitter:description" content={metadata.summary} />
+    {#if metadata.summary}
+      <meta name="twitter:description" content={metadata.summary} />
+    {/if}
     <meta name="twitter:label1" value="Published on" />
     <meta
       name="twitter:data1"

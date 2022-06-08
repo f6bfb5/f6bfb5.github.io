@@ -251,7 +251,12 @@ hr {
 }
 
 hr::after {
-  content: "";
+  /* Hollow arrow */
+  /* content: ""; */
+  /* Solid arrow */
+  /* content: ""; */
+  /* Solid arrow with border */
+  content: "";
   letter-spacing: 4em;
   padding-left: 4em;
 }
