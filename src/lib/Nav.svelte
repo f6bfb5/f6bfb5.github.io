@@ -14,24 +14,27 @@
     "滅尽滅相",
     "残留思念",
     "右往左往",
+    "万物流転",
   ];
 </script>
 
 <nav>
-  <a class={$page.url.pathname === "/" ? "selected" : ""} href={`${base}/`}
-    >トリコじかけの明け暮れ</a
-  >
+  <a class={$page.url.pathname === "/" ? "selected" : ""} href={`${base}/`}>
+    トリコじかけの明け暮れ
+  </a>
   <a
     class={$page.url.pathname === "/about" ? "selected" : ""}
-    href={`${base}/about`}>about</a
+    href={`${base}/about`}
   >
+    about
+  </a>
   <a
     class={$page.url.pathname === "/rss" ? "selected" : ""}
-    href={`${base}/rss.xml`}>rss</a
+    href={`${base}/rss.xml`}
   >
-  <a
-    href={`${base}/sitemap.xml`} style="display: none;">sitemap</a
-  >
+    rss
+  </a>
+  <a href={`${base}/sitemap.xml`} style="display: none;">sitemap</a>
 </nav>
 
 <style scoped>
