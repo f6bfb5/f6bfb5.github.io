@@ -123,7 +123,7 @@ WIP
 
 <div id="dom-to-image-output-node" />
 
-<style>
+<style scoped>
   :root {
     --sticker--bg: red;
     --sticker--color: white;

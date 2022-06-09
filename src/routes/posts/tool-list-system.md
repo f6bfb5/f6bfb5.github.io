@@ -23,46 +23,41 @@ table td:nth-child(3) {
 
 ## 系統
 
-| 名稱                                                                                                               | 說明                                                                             | 付費     |
-| ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------- |
-| [Ninite](https://ninite.com/)                                                                                      | 一次快速安裝各種軟體                                                             | FREE     |
-| [Flow Launcher](https://www.flowlauncher.com/)                                                                     | 快速執行程式與各種功能的 launcher，[wox](http://www.wox.one/) 似乎已經不再維護   | FREE     |
-| [Everything](https://www.voidtools.com/downloads/)                                                                 | 超級快速的檔案搜索工具                                                           | FREE     |
-| [Geek Uninstaller](https://geekuninstaller.com/)                                                                   | 會將關聯檔案一同刪除的程式反安裝工具，alt: [BCU](https://www.bcuninstaller.com/) | 具付費版 |
-| [PIME](https://github.com/EasyIME/PIME/releases)                                                                   | 新酷音輸入法，包含可在 Windows 11 上使用的舊注音輸入法                           | FREE     |
-| [Divvy](https://mizage.com/divvy/)                                                                                 | 切割視窗位置                                                                     | 具付費版 |
-| [orchis](http://www.eonet.ne.jp/~gorota/)                                                                          | 快速執行程式                                                                     | FREE     |
-| [CLaunch](https://hp.vector.co.jp/authors/VA018351/en/claunch.html)                                                | 快速開啟資料夾                                                                   | FREE     |
-| [Rufus](https://rufus.ie/)                                                                                         | 簡易建立可開機 USB 裝置，alt: [balenaEtcher](https://www.balena.io/etcher/)      | FREE     |
-| [TreeSize](https://www.jam-software.com/treesize_free/)                                                            | 分析硬碟檔案空間佔用分佈，alt: [WinDirStat](https://windirstat.net/)             | FREE     |
-| [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)                                      | 對弱點目標具作用的搜尋字串資料庫                                                 | FREE     |
-| [Auslogics Disk Defrag](https://www.auslogics.com/en/software/disk-defrag/)                                        | 硬碟重組                                                                         | 具付費版 |
-| [4gb_patch](https://ntcore.com/?page_id=371)                                                                       | 讓 32 位元的應用程式也能使用超過 4GB 的記憶體（可能沒有效果）                    | FREE     |
-| [Ctrl2cap](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap)                                       | 將 Caps Lock 鍵切換成 Ctrl 鍵的功能                                              | FREE     |
-| [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)                                       | 檢視各種系統相關的檔案與設定                                                     | FREE     |
-| [SysinternalsSuite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)                    | 微軟發佈的疑難排解工具套件                                                       | FREE     |
-| [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)                       |                                                                                  | FREE     |
-| [Debug Monitor Tool](<https://docs.microsoft.com/ja-jp/previous-versions/bb896647(v=msdn.10)?redirectedfrom=MSDN>) |                                                                                  | FREE     |
-| [NTFSLinksView](https://www.nirsoft.net/utils/ntfs_links_view.html)                                                | 顯示所有的 symbolic link                                                         | FREE     |
-| [ShellExView](https://www.nirsoft.net/utils/shexview.html)                                                         | 管理 shell                                                                       | FREE     |
-| [HWMONITOR](https://www.cpuid.com/softwares/hwmonitor.html#version-history)                                        | 監測系統狀況                                                                     | FREE     |
-| [Hayabusa](https://itib.hatenablog.com/entry/2021/12/31/222946)                                                    | 快速檢測 Windows 事件                                                            | FREE     |
-| CrystalDiskInfo                                                                                                    |                                                                                  | FREE     |
-| CrystalDiskMark                                                                                                    |                                                                                  | FREE     |
-| [RunCat](https://github.com/Kyome22/RunCat_for_windows)                                                            | KAWAII                                                                           | FREE     |
+| 名稱                                                                                                               | 說明                                                                                | 付費     |
+| ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | -------- |
+| [Ninite](https://ninite.com/)                                                                                      | 一次快速安裝各種軟體                                                                | FREE     |
+| [Flow Launcher](https://www.flowlauncher.com/)                                                                     | 快速執行程式與各種功能的 launcher，alt: [wox](http://www.wox.one/) 似乎已經不再維護 | FREE     |
+| [Everything](https://www.voidtools.com/downloads/)                                                                 | 超級快速的檔案搜索工具                                                              | FREE     |
+| [Geek Uninstaller](https://geekuninstaller.com/)                                                                   | 會將關聯檔案一同刪除的程式反安裝工具，alt: [BCU](https://www.bcuninstaller.com/)    | 具付費版 |
+| [PIME](https://github.com/EasyIME/PIME/releases)                                                                   | 新酷音輸入法，包含可在 Windows 11 上使用的舊注音輸入法                              | FREE     |
+| [Divvy](https://mizage.com/divvy/)                                                                                 | 切割視窗位置                                                                        | 具付費版 |
+| [orchis](http://www.eonet.ne.jp/~gorota/)                                                                          | 快速執行程式                                                                        | FREE     |
+| [CLaunch](https://hp.vector.co.jp/authors/VA018351/en/claunch.html)                                                | 快速開啟資料夾                                                                      | FREE     |
+| [Rufus](https://rufus.ie/)                                                                                         | 簡易建立可開機 USB 裝置，alt: [balenaEtcher](https://www.balena.io/etcher/)         | FREE     |
+| [TreeSize](https://www.jam-software.com/treesize_free/)                                                            | 分析硬碟檔案空間佔用分佈，alt: [WinDirStat](https://windirstat.net/)                | FREE     |
+| [Auslogics Disk Defrag](https://www.auslogics.com/en/software/disk-defrag/)                                        | 硬碟重組                                                                            | 具付費版 |
+| [4gb_patch](https://ntcore.com/?page_id=371)                                                                       | 讓 32 位元的應用程式使用超過 4GB 的記憶體（可能沒有效果）                           | FREE     |
+| [Ctrl2cap](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap)                                       | 將 Caps Lock 鍵切換成 Ctrl 鍵的功能                                                 | FREE     |
+| [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)                                       | 檢視各種系統相關的檔案與設定                                                        | FREE     |
+| [SysinternalsSuite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)                    | 微軟發佈的疑難排解工具套件                                                          | FREE     |
+| [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)                       |                                                                                     | FREE     |
+| [Debug Monitor Tool](<https://docs.microsoft.com/ja-jp/previous-versions/bb896647(v=msdn.10)?redirectedfrom=MSDN>) |                                                                                     | FREE     |
+| [NTFSLinksView](https://www.nirsoft.net/utils/ntfs_links_view.html)                                                | 顯示所有的 symbolic link                                                            | FREE     |
+| [ShellExView](https://www.nirsoft.net/utils/shexview.html)                                                         | 管理 shell                                                                          | FREE     |
+| [HWMONITOR](https://www.cpuid.com/softwares/hwmonitor.html#version-history)                                        | 監測系統狀況                                                                        | FREE     |
+| [Hayabusa](https://itib.hatenablog.com/entry/2021/12/31/222946)                                                    | 快速檢測 Windows 事件                                                               | FREE     |
+| CrystalDiskInfo                                                                                                    |                                                                                     | FREE     |
+| CrystalDiskMark                                                                                                    |                                                                                     | FREE     |
+| [RunCat](https://github.com/Kyome22/RunCat_for_windows)                                                            | KAWAII                                                                              | FREE     |
 
 ## 檔案
 
-| 名稱                                                          | 說明                               | 付費 |
-| ------------------------------------------------------------- | ---------------------------------- | ---- |
-| [PowerToys](https://github.com/microsoft/PowerToys)           | 微軟推出的多功能系統輔助軟體       | FREE |
-| [Tablacus Explorer](https://tablacus.github.io/explorer.html) | 可擴張、多功能、多視窗的檔案瀏覽器 | FREE |
-| [NyanFi](http://nekomimi.la.coocan.jp/freesoft/nyanfi.htm)    | 以鍵盤為主體操作的雙視窗檔案瀏覽器 | FREE |
-| [Paper Plane xUI](http://toro.d.dooo.jp/slppx.html#ppx)       | 快速執行檔案相關處理               | FREE |
-| [AntRenamer](https://antp.be/software/renamer)                | 快速規則式重新命名大量檔案         | FREE |
-| [Unlocker](http://emptyloop.com/unlocker/)                    | 強制解除檔案使用鎖定狀態           | FREE |
-| [FastCopy](https://fastcopy.jp/en/)                           | 快速複製／備份檔案                 | FREE |
-| [vifm](https://github.com/vifm/vifm)                          | 使用類似 vim 的方式操作檔案        | FREE |
+| 名稱                                                | 說明                         | 付費 |
+| --------------------------------------------------- | ---------------------------- | ---- |
+| [PowerToys](https://github.com/microsoft/PowerToys) | 微軟推出的多功能系統輔助軟體 | FREE |
+| [AntRenamer](https://antp.be/software/renamer)      | 快速規則式重新命名大量檔案   | FREE |
+| [Unlocker](http://emptyloop.com/unlocker/)          | 強制解除檔案使用鎖定狀態     | FREE |
+| [FastCopy](https://fastcopy.jp/en/)                 | 快速複製／備份檔案           | FREE |
 
 ### 解壓縮
 
@@ -81,7 +76,7 @@ table td:nth-child(3) {
 | [Stirling](https://www.vector.co.jp/soft/win95/util/se079072.html) | Binary Editor                                  |      |
 | [Obsidian](https://obsidian.md/)                                   | 可以將 Markdown 筆記轉換成內部連結卡片盒的軟體 |      |
 | [Text2MindMap](https://tobloef.com/text2mindmap/)                  | 文字版心智圖                                   | FREE |
-| [pytesseract](https://pypi.org/project/pytesseract/)               | 辨識圖片文字的 library                         | FREE |
+| [pytesseract](https://pypi.org/project/pytesseract/)               | 辨識圖片文字的 python library                  | FREE |
 
 <details>
   <summary>pytesseract example</summary>
@@ -183,7 +178,7 @@ outputfile.close()
 | [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)                         | 使用類似 Vim 編輯器的方式瀏覽網站   |
 | [Feedbro](https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa)                       | RSS 訂閱插件                        |
 | [終結內容農場](https://chrome.google.com/webstore/detail/content-farm-terminator/lcghoajegeldpfkfaejegfobkapnemjl)  | 要是感到厭煩，放棄也是一種選擇啊。  |
-| [ClearURLs](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk/)                  | 移除網址上的多餘內容                |
+| [ClearURLs](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk/)                  | 移除網址的多餘內容                  |
 | [TabAttack](https://chrome.google.com/webstore/detail/tabattack/ginflokhdahakklidfjlogllkkhokidj)                   | 轉換瀏覽頁面網址成為 markdown 格式  |
 | [Close download bar](https://chrome.google.com/webstore/detail/close-download-bar/bkfclmjddajodogcbpohgfpdkgdecgmg) | 設定 `Alt + W` 為「關閉下載欄」功能 |
 | [HeadingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi)               | 快速顯示網站內容結構                |
@@ -195,13 +190,13 @@ outputfile.close()
 
 #### Feedbro
 
-| 名稱                                                                | 種類 | 說明             |
-| ------------------------------------------------------------------- | ---- | ---------------- |
-| [jp-locale](https://github.com/ktkr3d/feedbro-locale)               | 設定 | 日文化           |
-| [ニコニコ動画](https://www.nicovideo.jp/rss)                        | 來源 | NicoNico 動畫    |
-| Youtube                                                             | 來源 | 貼上頻道網址即可 |
-| [ライブドアブログ](https://help.blogpark.jp/archives/52366452.html) | 來源 | Livedoor Blog    |
-| [報導者](https://public.twreporter.org/rss/twreporter-rss.xml)      | 來源 | 報導者           |
+| 名稱                                                                | 說明             | 種類 |
+| ------------------------------------------------------------------- | ---------------- | ---- |
+| [jp-locale](https://github.com/ktkr3d/feedbro-locale)               | 日文化           | 設定 |
+| [ニコニコ動画](https://www.nicovideo.jp/rss)                        | NicoNico 動畫    | 來源 |
+| Youtube                                                             | 貼上頻道網址即可 | 來源 |
+| [ライブドアブログ](https://help.blogpark.jp/archives/52366452.html) | Livedoor Blog    | 來源 |
+| [報導者](https://public.twreporter.org/rss/twreporter-rss.xml)      | 報導者           | 來源 |
 
 #### Shopping
 
@@ -219,24 +214,25 @@ outputfile.close()
 
 #### Twitch Pack
 
-- Gumbo: Twitch Companion
-- FrankerFaceZ
-- TTV LOL
+- [Gumbo: Twitch Companion](https://chrome.google.com/webstore/detail/gumbo-twitch-companion/aalmjfpohaedoddkobnibokclgeefamn)
+- [FrankerFaceZ](https://chrome.google.com/webstore/detail/frankerfacez/fadndhdgpmmaapbmfcknlfgcflmmmieb)
+  - Enable Portrait Mode
+- [TTV LOL](https://chrome.google.com/webstore/detail/ttv-lol/ofbbahodfeppoklmgjiokgfdgcndngjm)
 
 #### NicoNico Pack
 
 ### 資安
 
-| 名稱                                                     | 說明                             | 付費 |
+| 名稱                                                     | 說明                             | 類型 |
 | -------------------------------------------------------- | -------------------------------- | ---- |
-| [Sandboxie](https://github.com/sandboxie-plus/Sandboxie) | 可於沙盒環境下執行程式           | FREE |
-| [Anonymouse.org](http://anonymouse.org/anonwww.html)     | 匿名掛載網頁                     | FREE |
-| [aguse.jp](https://www.aguse.jp/)                        | 掃描網址安全性                   | FREE |
-| [LessPass](https://www.lesspass.com/#/)                  | 從 Master 密碼產生高強度雜湊密碼 | FREE |
-| [VirusTotal](https://www.virustotal.com/zh-tw/)          | 掃描網址或檔案安全性             | FREE |
-| [Password Security info](https://passwordsecurity.info/) | 檢查密碼是否已遭外洩             | FREE |
-| [Have I Been Pwned](https://haveibeenpwned.com/)         | 檢查信箱是否已遭外洩             | FREE |
-| [Kiken URL List](http://gunkanmaki.jog.buttobi.net/)     | 危險網址內容解說                 |      |
+| [Sandboxie](https://github.com/sandboxie-plus/Sandboxie) | 可於沙盒環境下執行程式           | 程式 |
+| [LessPass](https://www.lesspass.com/#/)                  | 從 Master 密碼產生高強度雜湊密碼 | 插件 |
+| [Anonymouse.org](http://anonymouse.org/anonwww.html)     | 匿名掛載網頁                     | 網站 |
+| [aguse.jp](https://www.aguse.jp/)                        | 掃描網址安全性                   | 網站 |
+| [VirusTotal](https://www.virustotal.com/zh-tw/)          | 掃描網址或檔案安全性             | 網站 |
+| [Password Security info](https://passwordsecurity.info/) | 檢查密碼是否已遭外洩             | 網站 |
+| [Have I Been Pwned](https://haveibeenpwned.com/)         | 檢查信箱是否已遭外洩             | 網站 |
+| [Kiken URL List](http://gunkanmaki.jog.buttobi.net/)     | 危險網址內容解說                 | 網站 |
 
 ### 留存資訊
 
@@ -261,11 +257,12 @@ outputfile.close()
 
 ## 影音播放
 
-| 名稱                                          | 說明 | 付費 |
-| --------------------------------------------- | ---- | ---- |
-| [mpv](https://mpv.io/)                        |      |      |
-| [Foobar2000](https://www.foobar2000.org/)     |      |      |
-| [MangaMeeya](https://mangameeya.softonic.jp/) |      |      |
+| 名稱                                           | 說明 | 付費 |
+| ---------------------------------------------- | ---- | ---- |
+| [mpv](https://mpv.io/)                         |      |      |
+| [Foobar2000](https://www.foobar2000.org/)      |      |      |
+| [MangaMeeya](https://mangameeya.softonic.jp/)  |      |      |
+| [JPEGView](https://github.com/sylikc/jpegview) |      |      |
 
 ### MangaMeeya
 

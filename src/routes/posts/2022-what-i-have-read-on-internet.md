@@ -946,3 +946,6 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [飲みかけは危険！？ペットボトル内で細菌が増える条件](http://www.ncsm.city.nagoya.jp/visit/visitors_guide/information/muramathu%20miduki.PDF)
 - [飛んで福山 - 大山田](https://shonenjumpplus.com/episode/3270296674395868337)
 - [会社以外に知り合いがおらず、良い歳した独身のおっさんはどうやって友達を作れば良いのでしょうか](https://togetter.com/li/1898039)
+- [山本直樹先生が重信房子氏に会い、『レッド』について「もっと楽しそうに描いて、実際楽しかったんだから」と言われていた話](https://togetter.com/li/1898015)
+- [「孤独のグルメ」久住昌之さんが三鷹で育んだ無常観。「好きな店とはなくなっていくもの」【東京っ子に聞け！】](https://suumo.jp/town/entry/mitaka-qusumi/)
+- [リバタリアニズムの終焉――陰謀論に乗っかるロン・ポールとその支持者をみた雑感 - 接近から流します](https://votoms13votoms.hatenablog.com/entry/2022/03/12/110344)
