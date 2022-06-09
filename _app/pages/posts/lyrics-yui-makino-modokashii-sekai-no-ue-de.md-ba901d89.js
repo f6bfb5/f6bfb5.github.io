@@ -1,0 +1,1 @@
+import"../../chunks/index-eaf72aad.js";import"../../chunks/_post-b069be5f.js";import{L as r,m as e}from"../../chunks/lyrics-yui-makino-modokashii-sekai-no-ue-de-0de6e8e0.js";export{r as default,e as metadata};
