@@ -65,6 +65,14 @@
     height: 100%;
     top: 0;
   }
+  /* 
+      x >
+    y
+    v 
+  
+  polygon(x0 y0, x1 y1, x2 y2)
+  the last coordinate would create a line to the first coordinate
+  */
   .ip--label span:nth-child(1)::after {
     right: -2px;
     clip-path: polygon(0 0, 0 100%, 100% 0);
