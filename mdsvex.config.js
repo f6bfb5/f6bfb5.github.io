@@ -1,5 +1,5 @@
-import urls from "rehype-urls";
 import appendLinkFavicon from "./src/lib/_append-link-favicon.js";
+import urls from "rehype-urls";
 
 function processUrl(url, node) {
   if (node.tagName === "a") {
@@ -18,7 +18,6 @@ export default {
   },
   remarkPlugins: [appendLinkFavicon],
   rehypePlugins: [
-    // [MDSveX and Svelte Kit](https://www.furudean.com/blog/svelte-kit-mdsvex)
     [urls, processUrl],
   ],
 };
