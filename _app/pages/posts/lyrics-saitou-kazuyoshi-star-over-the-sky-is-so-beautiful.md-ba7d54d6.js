@@ -1,0 +1,1 @@
+import"../../chunks/index-1cb0a915.js";import"../../chunks/_post-84ef0c92.js";import{L as p,m as e}from"../../chunks/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful-c7a9b316.js";import"../../chunks/BlinkAnchor-55bdbd1c.js";export{p as default,e as metadata};
