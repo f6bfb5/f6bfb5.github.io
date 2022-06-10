@@ -12,49 +12,90 @@
 <script>
   export let status;
   export let error;
+
+  import BlinkAnchor from "$lib/BlinkAnchor.svelte";
 </script>
 
 <svelte:head>
   <title>{status}</title>
 </svelte:head>
 
-<h1 style="text-align: center; padding-top: .5em;">{status}</h1>
+<div class="wrapper">
+  <div class="error-container">
+    <h1>{status}</h1>
+    <p>An error has occurred. To continue:</p>
+    <ul>
+      <li>Please click any link on the header to go back.</li>
+      <li>
+        Or you can drink a cup of coffee and listen to a
+        <a
+          href="https://www.youtube.com/watch?v=OGWO3u8zgTU"
+          rel="noreferrer noopener"
+          target="_blank">song</a
+        >
+        ♪
+      </li>
+    </ul>
+    <p>Error: {error.message.toUpperCase()}</p>
+    <p class="center">Press any link to continue <BlinkAnchor /></p>
+  </div>
+</div>
 
-<p>
-  嗨（´・ω・｀）<br />
-  歡迎來到
-  <a
-    href="https://seesaawiki.jp/w/niten_plus/d/%a5%d0%a1%bc%a5%dc%a5%f3%a5%cf%a5%a6%a5%b9"
-    target="_blank"
-    rel="noreferrer noopener">波本酒屋</a
-  >。<br />
-  這杯龍舌蘭是請你的，先喝了冷靜下來吧。<br />&nbsp;<br />
-  嗯，「又是我」。不好意思。<br />
-  俗話說事不過三，我也不覺得道歉就能得到原諒。<br />&nbsp;<br />
-  但是，我相信當你看到這則頁面的時候，<br />
-  你一定會感受到某種言語無法表達的， 類似「雀躍」的東西。<br />
-  希望你在這動盪的亂世裡，不要忘了這種心情<br />
-  帶著這樣的想法，我製作了這則頁面。<br />&nbsp;<br />
-  那麼，你要點什麼呢。
-</p>
-
-<p>{error.message}</p>
-
-<style>
-  h1 {
-    font-size: 2.8em;
-    font-weight: 700;
-    margin: 0 0 0.5em 0;
+<style scoped>
+  .center {
+    text-align: center;
   }
+  .wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
 
-  p {
-    margin: 1em auto;
-    color: #0f380f;
+    display: flex;
+    align-items: center;
+    background-color: #0102ac;
   }
-
-  @media (min-width: 480px) {
-    h1 {
-      font-size: 4em;
+  .error-container {
+    padding: 4em;
+    width: 100%;
+  }
+  @media (max-width: 576px) {
+    .error-container {
+      padding: 2em;
     }
+  }
+  h1 {
+    margin: 0 auto 0.5em;
+    padding: 0 0.75em;
+    width: fit-content;
+
+    font-weight: 700;
+    color: #0a0876;
+    background-color: #b3b1b2;
+  }
+  p,
+  ul {
+    color: #f8f8ff;
+  }
+  p {
+    text-indent: 0;
+  }
+  a {
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #0a0876;
+    background-color: #b3b1b2;
+  }
+  ul {
+    padding: 0 0.5em;
+    list-style-type: "*";
+  }
+  ul li::marker {
+    color: #f8f8ff;
+  }
+  ul li {
+    text-indent: 1em;
   }
 </style>

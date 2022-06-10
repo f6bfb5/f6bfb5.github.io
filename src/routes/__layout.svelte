@@ -61,9 +61,9 @@
     display: flex;
     flex-direction: column;
 
-    min-height: 100%;
+    width: 100%;
+    height: auto;
     min-height: 100vh;
-    background-color: var(--outer-bg-color);
   }
 
   .loader-container {
@@ -72,7 +72,6 @@
     align-items: center;
 
     width: 100%;
-    min-height: 100%;
     min-height: 100vh;
 
     background-color: black;
@@ -89,6 +88,7 @@
     margin: 0 auto;
     max-width: 720px;
     width: 100%;
+    height: 100%;
     box-sizing: border-box;
 
     background-color: var(--bg-color);

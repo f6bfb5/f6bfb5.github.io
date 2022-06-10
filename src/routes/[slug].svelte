@@ -25,7 +25,8 @@
     });
     if (filteredPosts.length === 0) {
       return {
-        props: {},
+        status: 404,
+        error: new Error(`slug is not found`)
       };
     } else {
       return {
