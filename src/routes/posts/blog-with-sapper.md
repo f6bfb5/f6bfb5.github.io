@@ -1,6 +1,7 @@
 ---
-title: "Blog with Svelte"
+title: "Blog with Sapper"
 date: 2022-01-01T00:00:00.000Z
+tags: F2E
 ---
 
 ## 前言
@@ -42,7 +43,7 @@ template 中的頁面相關檔案位於 `src/routes/blog`，主要功能由以�
 - `[slug].svelte`：文章頁面的 template
 - `index.svelte`：文章列表的 template
 
-文章檔案則放置於 `src/routes/blog/posts` 資料夾中，檔案名稱會 parse 成為網頁路徑，撰寫於文章開頭到 `＜!-- more --＞` 之間的內容會成為預覽部份，標題和日期記載在檔案內的 yaml 區域內
+文章檔案則放置於 `src/routes/blog/posts` 資料夾中，檔案名稱會 parse 成為網頁路徑，撰寫於文章開頭到 `<!-- more -->` 之間的內容會成為預覽部份，標題和日期記載在檔案內的 yaml 區域內
 
 這邊我改寫了 `src/utils/markdown.js` 裡要丟到社群預覽的部份：
 
@@ -148,8 +149,8 @@ if (rawContent.indexOf(EXCERPT_SEPARATOR) !== -1) {
 2. 在裡頭新增一個 `workflows` 資料夾
 3. 在裡頭新增一個 `deploy-to-github-pages.yaml` 檔案
 4. 貼上以下截取與修改自上方連結的內容
-5. 檔案 push 到 GitHub 後，就會透過 GitHub Actions
-   <br>把 build 完畢的檔案自動 branch 到 `gh-pages` 分支
+5. 檔案 push 到 GitHub 後，就會透過 GitHub Actions<br/>
+   把 build 完畢的檔案自動 branch 到 `gh-pages` 分支
 
 ```yml
 name: Build and Deploy
@@ -186,10 +187,10 @@ jobs:
 
 1. 申請 GA 帳戶，點擊左下角的 `Admin` 開啟控制面板
 2. 點擊 `Create Property` 建立資源，輸入名稱與選擇時區
-3. 點擊下方的 `Show advanced options`
-   <br/>啟用 `Create a Universal Analytics property` 選項
-4. 資源建立完成後，點擊 `Tracking Info` 底下的 `Tracking Code`
-   <br/>複製裡頭的 `Tracking ID`
+3. 點擊下方的 `Show advanced options`<br/>
+   啟用 `Create a Universal Analytics property` 選項
+4. 資源建立完成後，點擊 `Tracking Info` 底下的 `Tracking Code`<br/>
+   複製裡頭的 `Tracking ID`
 5. `npm i sapper-google-analytics`
 6. 編輯 `src/routes/_layout.svelte` 加上下方程式碼
 7. 完成後可以到 `Tracking Info` 裡的 `Tracking Code`
@@ -209,8 +210,8 @@ jobs:
 
 ### RSS
 
-1. 在 `src/routes/` 底下建立一個 `rss.xml.js`：
-   <br>（檔案內的 `title`、`description` 等內容請自行修改）
+1. 在 `src/routes/` 底下建立一個 `rss.xml.js`：<br/>
+   （檔案內的 `title`、`description` 等內容請自行修改）
 
 ```javascript
 import posts from "./_posts.js";
@@ -293,8 +294,8 @@ export async function get(req, res) {
 
 ### Sitemap
 
-- 在 `src/routes/` 底下建立一個 `sitemap.xml.js`：
-  <br>（檔案內的 `siteUrl` 等內容請自行修改）
+- 在 `src/routes/` 底下建立一個 `sitemap.xml.js`：<br/>
+  （檔案內的 `siteUrl` 等內容請自行修改）
 
 ```javascript
 import posts from "./_posts.js";
@@ -354,8 +355,8 @@ export function get(req, res, next) {
 }
 ```
 
-- 為了 export 時 `sitemap.xml` 也要渲染
-  <br>修改 `index.svelte` 裡的 `preload` function
+- 為了 export 時 `sitemap.xml` 也要渲染<br/>
+  修改 `index.svelte` 裡的 `preload` function
 
 ```diff
 <script context="module">

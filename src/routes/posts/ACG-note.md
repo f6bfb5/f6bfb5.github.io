@@ -218,6 +218,7 @@ tags: ACG, Anime
 
 - [動畫理論書 Starter Pack.](https://medium.com/@Altia/%E5%8B%95%E7%95%AB%E7%90%86%E8%AB%96%E6%9B%B8-starter-pack-58539c9167f)
 - [Thread by @Matt_Alt: In writing "Pure Invention," I stuck as much as possible to Japanese-language sources…](https://threadreaderapp.com/thread/1282492091235360768.html)
+- [日本のアニメーション史を知るための10の文献 - Database for Animation Studies](http://database.jsas.net/mapping/recommendations/nishimura/)
 
 ## Anime Central 日本動畫的作畫講座（2013）
 

@@ -2,7 +2,7 @@
 title: "template.md"
 date: 1969-07-21T02:56:00.000Z
 summary: "template and snippet elements of markdown"
-tags:
+tags: F2E
 ---
 
 # Title 1

@@ -77,6 +77,9 @@ tags: Toolbox
 - [fladdict](http://fladdict.net/)
 - [SPECIMEN](http://fladdict.net/sketches/specimen/index.html)
 - [映像作家 100 人 MOTION GRAPHIC CREATORS](https://eizo100.jp/)
+- [物語要素事典](https://www.lib.agu.ac.jp/yousojiten/)
+- [陽明雑記](https://toshi-y.at.webry.info/)
+- [NDLイメージバンク](https://rnavi.ndl.go.jp/imagebank/)
 
 ## 娛樂
 

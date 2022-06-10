@@ -1,6 +1,7 @@
 ---
 title: "Blog with Hexo"
 date: 1990-01-01T00:00:00.000Z
+tags: F2E
 ---
 
 ## 指令速見表
