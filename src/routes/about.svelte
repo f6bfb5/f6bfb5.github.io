@@ -32,6 +32,8 @@
     "https://c.tenor.com/Ads_EGsOaioAAAAC/promare-anime.gif",
     "https://c.tenor.com/iF2QagbiCSIAAAAC/eureka-eureka-seven.gif",
     "https://c.tenor.com/R27oaZQSMi4AAAAC/haibane-renmei-ailes-grises.gif",
+    "https://c.tenor.com/zLBsleCsdOQAAAAC/akane-shinj%C5%8D-shinjou-akane.gif",
+    "https://c.tenor.com/d6b6YPHSgYoAAAAC/scopedog-votoms.gif",
     // === Game ===
     "https://c.tenor.com/SjuAbL0uMakAAAAC/yume-nikki-yume.gif",
     "https://c.tenor.com/6L6itJ6PXKoAAAAC/chrono-trigger-courtroom.gif",
@@ -80,6 +82,8 @@
     "https://matters.news/@Andy/6002-%E5%89%B5%E6%A5%AD%E8%BE%AF%E8%AD%89%E6%B3%95-zdpuB2fCc6WEa12hnher8fcsPVgsU58MDpwHyCcrEQF8H47m9",
     // 線性產值與指數產值
     "https://blog.kalan.dev/2021-10-17-linear-and-exponential-value/",
+    // バッドノウハウと「奥が深い症候群」
+    "http://0xcc.net/misc/bad-knowhow.html",
     // ========================================
     // 語用（pragmatic）
     "https://aaphi.blogspot.com/2010/03/pragmatic.html",
