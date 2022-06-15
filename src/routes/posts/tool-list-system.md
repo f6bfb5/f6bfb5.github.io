@@ -50,6 +50,26 @@ table td:nth-child(3) {
 | CrystalDiskMark                                                                                                    |                                                                                     | FREE     |
 | [RunCat](https://github.com/Kyome22/RunCat_for_windows)                                                            | KAWAII                                                                              | FREE     |
 
+## 建構全平台通用的環境
+
+- [開発環境へのこだわり](https://speakerdeck.com/hsbt/kai-fa-huan-jing-hefalsekodawari)
+- [fish shell](https://fishshell.com/)
+- [Chocolatey Cheat Sheet](https://gist.github.com/yunga/99d04694e2466e017c5502d7c828d4f4)
+
+| alternative                                      | description                                                           | Linux command |
+| ------------------------------------------------ | --------------------------------------------------------------------- | ------------- |
+| [fzf](https://github.com/junegunn/fzf)           | fuzzy finder, interactive filter                                      |               |
+| [peco](https://github.com/peco/peco)             | interactive filter                                                    |               |
+| [zoxide](https://github.com/ajeetdsouza/zoxide)  | smarter cd command                                                    | cd            |
+| [fd](https://github.com/sharkdp/fd)              | search for files in a directory hierarchy                             | find          |
+| [ripgrep](https://github.com/BurntSushi/ripgrep) | search plain-text data sets for lines that match a regular expression | grep          |
+| [sd](https://github.com/chmln/sd)                | stream editor for filtering and transforming text                     | sed           |
+| [bat](https://github.com/sharkdp/bat)            | concatenate files and print on the standard output                    | cat           |
+| [dog](https://github.com/ogham/dog)              | domain information groper                                             | dig           |
+| [tealdeer](https://github.com/dbrgn/tealdeer)    | an interface to the system reference manuals                          | man           |
+| [ghq](https://github.com/x-motemen/ghq)          |                                                                       |               |
+| [gem-src](https://github.com/amatsuda/gem-src)   |                                                                       |               |
+
 ## 檔案
 
 | 名稱                                                | 說明                         | 付費 |
@@ -58,6 +78,8 @@ table td:nth-child(3) {
 | [AntRenamer](https://antp.be/software/renamer)      | 快速規則式重新命名大量檔案   | FREE |
 | [Unlocker](http://emptyloop.com/unlocker/)          | 強制解除檔案使用鎖定狀態     | FREE |
 | [FastCopy](https://fastcopy.jp/en/)                 | 快速複製／備份檔案           | FREE |
+
+- [jnzd/vimified-windows-explorer](https://github.com/jnzd/vimified-windows-explorer)
 
 ### 解壓縮
 
@@ -276,6 +298,15 @@ WarpSharp(-20,3,128,-0.6)
 KenKunNR(256,1,128)
 アンシャープマスク(130,2,0)
 RGB24へ変換(false)
+```
+
+### JPEGView
+
+```ini
+ShowFullScreen=false
+WrapAroundFolder=false
+SkipFileOpenDialogOnStartup=true
+IniEditor=system
 ```
 
 ## 下載

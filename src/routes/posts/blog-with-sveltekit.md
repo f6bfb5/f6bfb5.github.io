@@ -32,8 +32,8 @@ src/
   | |  |_ [userId].svelte ----> 透過 `load` function
   | |                             或 `page` store 取得動態變數
   | |- posts/
-  | |- index.json.js ----> localhost:3000/posts.json
-  |
+  | |  |_ index.json.js ----> localhost:3000/posts.json
+  | |
   | |- __layout.svelte ----> 預設頁面 layout 元件
   | |                        子元件會嵌套至 <slot/> 元素裡
   | |- __layout-foo.svelte ----> 別名 layout

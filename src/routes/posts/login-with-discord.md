@@ -39,11 +39,11 @@ tags: F2E
 ```bash
 curl -X POST
      -H "Content-Type:application/x-www-form-urlencoded"
-     -d "client_id=CLIENT ID
-     &client_secret=CLIENT SECRET
+     -d "client_id=[CLIENT ID]
+     &client_secret=[CLIENT SECRET]
      &grant_type=authorization_code
-     &code=CODE
-     &redirect_uri=REDIRECT URL（要與認證 URL 相同）"
+     &code=[CODE]
+     &redirect_uri=[REDIRECT URL]（要與認證 URL 相同）"
      https://discordapp.com/api/oauth2/token
 ```
 
@@ -51,10 +51,10 @@ curl -X POST
 
 ```json
 {
-  "access_token": ACCESS TOKEN,
+  "access_token": [ACCESS TOKEN],
   "expires_in": 604800,
-  "refresh_token": REFRESH TOKEN,
-  "scope": SCOPE,
+  "refresh_token": [REFRESH TOKEN],
+  "scope": [SCOPE],
   "token_type": "Bearer"
 }
 ```
@@ -68,7 +68,7 @@ curl -X POST
 ### a. 傳送 GET 請求到 Discord API
 
 ```bash
-curl -H "Authorization: Bearer ACCESS TOKEN"
+curl -H "Authorization: Bearer [ACCESS TOKEN]"
      https://discordapp.com/api/users/@me
 ```
 
@@ -76,15 +76,15 @@ curl -H "Authorization: Bearer ACCESS TOKEN"
 
 ```json
 {
-   "id": Discord ID,
-   "username": 使用者名稱,
-   "avatar": 大頭貼 ID,
-   "discriminator": 使用者編號（在名稱#後面的數字）,
+   "id": [Discord ID],
+   "username": [使用者名稱],
+   "avatar": [大頭貼 ID],
+   "discriminator": [使用者編號]（在名稱#後面的數字）,
    "public_flags": 0,
    "flags": 0,
-   "email": 信箱,
+   "email": [信箱],
    "verified": true,
-   "locale": 使用語言,
+   "locale": [使用語言],
    "mfa_enabled": false
 }
 ```
@@ -98,10 +98,10 @@ curl -H "Authorization: Bearer ACCESS TOKEN"
 ```bash
 curl -X POST
      -H "Content-Type:application/x-www-form-urlencoded"
-     -d "client_id=CLIENT ID
-     &client_secret=CLIENT SECRET
+     -d "client_id=[CLIENT ID]
+     &client_secret=[CLIENT SECRET]
      &grant_type=refresh_token
-     &refresh_token=REFRESH TOKEN"
+     &refresh_token=[REFRESH TOKEN]"
      https://discordapp.com/api/oauth2/token
 ```
 
@@ -109,10 +109,10 @@ curl -X POST
 
 ```json
 {
-   "access_token": ACCESS TOKEN,
+   "access_token": [ACCESS TOKEN],
    "expires_in": 604800,
-   "refresh_token": REFRESH TOKEN,
-   "scope": SCOPE,
+   "refresh_token": [REFRESH TOKEN],
+   "scope": [SCOPE],
    "token_type": "Bearer"
 }
 ```
