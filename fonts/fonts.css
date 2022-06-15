@@ -102,3 +102,7 @@ figure {
 table tbody {
   font-size: 0.875em;
 }
+
+li, td {
+  line-height: 1.3;
+}

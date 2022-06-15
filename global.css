@@ -154,9 +154,9 @@ li::marker {
   font-weight: bold;
 }
 
-li + li {
+/* li + li {
   margin-top: 0.25em;
-}
+} */
 
 /* li p {
   padding-bottom: 0.5rem;

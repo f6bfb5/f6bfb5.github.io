@@ -5,7 +5,7 @@
     <link>https://f6bfb5.github.io</link>
     <description>Close the world,.txEn eht nepO</description>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 10 Jun 2022 17:40:38 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jun 2022 13:12:06 GMT</lastBuildDate>
     
       <item>
         <title>2020 年，我在網路上看了些什麼</title>
@@ -183,21 +183,14 @@
       </item>
       
       <item>
-        <title>電視動畫《惑星奇航》　一部能成為人生財產的作品</title>
-        <link>https://f6bfb5.github.io/ACG-planetes-is-the-treasure-of-life</link>
-        <pubDate>2022-01-09T20:51:20.000Z</pubDate>
-        <description>故事舞台是西元 2070 年代，散佈於宇宙的太空廢棄物，亦即所謂的宇宙垃圾，因為撞擊人類所搭乘的太空船的事故等等形成社會問題。作中是以負責清理這些太空廢棄物的上班族星野八郎太（通稱「頭帶八」，或是「阿八」）、新進社員的女主角田名部愛（通稱「田名部」）為中心的群像劇。</description>
-      </item>
-      
-      <item>
-        <title>《洛克人 1》的呼叫 Ending 漏洞機制解說</title>
+        <title>《洛克人 1》TAS 呼叫 Ending 漏洞機制解說</title>
         <link>https://f6bfb5.github.io/ACG-rockman-1-tas-glitch</link>
         <pubDate>2019-02-19T13:59:42.000Z</pubDate>
         <description>2014 年 5 月，遊戲圈出現了一支使用輔助程式，在「半分鐘內」通關《洛克人 1》的破天荒影片，而這種需要經過精密的機制解析，與流程操控的遊戲通關方式，僅隔一個月竟然出現人力操作達成同樣的成果，人類無極限！</description>
       </item>
       
       <item>
-        <title>「我服輸了，不愧是赤羽」漫畫家清野通簡介</title>
+        <title>「我服輸了，不愧是赤羽」漫畫家 清野通 簡介</title>
         <link>https://f6bfb5.github.io/ACG-seino-tooru</link>
         <pubDate>2019-10-29T14:00:00.000Z</pubDate>
         
@@ -253,7 +246,7 @@
       </item>
       
       <item>
-        <title>為什麼你不應該替動畫套用補幀程式</title>
+        <title>為什麼你不該替動畫套用補幀程式</title>
         <link>https://f6bfb5.github.io/ACG-why-you-should-not-use-interpolation-on-anime</link>
         <pubDate>2019-04-16T14:25:36.000Z</pubDate>
         <description>由於人腦會擅自補足畫面中間缺乏的資訊，讓觀眾能感受到畫面營造出迅速、柔軟、強硬、沉重的各種不同表現感。補幀軟體會抹煞這種創作者意圖表現的畫面節奏效果，而讓整部作品看起來如出一轍，平凡無趣，也會破壞原本的畫面作畫。</description>
@@ -277,6 +270,13 @@
         <title>自動產生部落格預覽圖片</title>
         <link>https://f6bfb5.github.io/auto-generate-eyecatch-image-for-blog</link>
         <pubDate>2021-08-26T15:26:19.000Z</pubDate>
+        
+      </item>
+      
+      <item>
+        <title>AutoHotKey 筆記</title>
+        <link>https://f6bfb5.github.io/autohotkey-note</link>
+        <pubDate>2022-06-11T23:36:19.000Z</pubDate>
         
       </item>
       
@@ -333,216 +333,6 @@
         <title>實作「使用 Discord 登入」</title>
         <link>https://f6bfb5.github.io/login-with-discord</link>
         <pubDate>2021-01-14T00:24:23.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】BUMP OF CHICKEN - ギルド</title>
-        <link>https://f6bfb5.github.io/lyrics-bump-of-chicken-guild</link>
-        <pubDate>2018-12-24T23:09:12.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】BUMP OF CHICKEN - ロストマン</title>
-        <link>https://f6bfb5.github.io/lyrics-bump-of-chicken-lostman</link>
-        <pubDate>2020-10-14T11:10:45.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】Buzy - Venus Say…</title>
-        <link>https://f6bfb5.github.io/lyrics-buzy-venus-say</link>
-        <pubDate>2018-12-25T12:43:22.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】Eastern Youth - 夜明けの歌</title>
-        <link>https://f6bfb5.github.io/lyrics-eastern-youth-song-of-daybreak</link>
-        <pubDate>2017-06-29T12:08:06.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】浮遊信号 - あなたのおかげで</title>
-        <link>https://f6bfb5.github.io/lyrics-gift-from-you</link>
-        <pubDate>2022-03-13T14:54:39.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】夢眠ねむ - おやすみ世界きゅん。</title>
-        <link>https://f6bfb5.github.io/lyrics-good-night-world</link>
-        <pubDate>2022-04-05T23:09:02.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】浜田省吾 - J. BOY</title>
-        <link>https://f6bfb5.github.io/lyrics-hamada-shogo-j-boy</link>
-        <pubDate>2018-11-13T12:26:16.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】樋口了一 - 1/6の夢旅人2002</title>
-        <link>https://f6bfb5.github.io/lyrics-higuchi-ryouichi-1-6-dream-traveller</link>
-        <pubDate>2018-12-25T11:51:05.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】Joanne Hogg - STARS OF TEARS</title>
-        <link>https://f6bfb5.github.io/lyrics-joanne-hogg-stars-of-tears</link>
-        <pubDate>2019-07-19T12:33:15.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】坂井紀雄 - Long Long ago, 20th Century</title>
-        <link>https://f6bfb5.github.io/lyrics-long-long-ago-20th-century</link>
-        <pubDate>2022-05-16T23:11:39.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】Mr.Children - フェイク</title>
-        <link>https://f6bfb5.github.io/lyrics-mr-children-fake</link>
-        <pubDate>2011-01-13T12:01:25.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】奥井亜紀 - Wind Climbing ～風にあそばれて～</title>
-        <link>https://f6bfb5.github.io/lyrics-okui-aki-wind-climbing</link>
-        <pubDate>2014-06-23T13:14:32.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】鬼束ちひろ - ROLLIN'</title>
-        <link>https://f6bfb5.github.io/lyrics-onitaba-chihiro-rollin</link>
-        <pubDate>2018-12-15T11:58:11.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】鬼束ちひろ - 私とワルツを</title>
-        <link>https://f6bfb5.github.io/lyrics-onitaba-chihiro-waltz-with-me</link>
-        <pubDate>2017-07-16T11:36:24.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】PSY・S - EARTH 〜木の上の方舟〜</title>
-        <link>https://f6bfb5.github.io/lyrics-psy-s-earth-ark-on-the-tree</link>
-        <pubDate>2018-12-24T12:12:22.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】RADWIMPS - グランドエスケープ Feat.三浦透子</title>
-        <link>https://f6bfb5.github.io/lyrics-radwimps-grand-escape</link>
-        <pubDate>2020-06-20T11:11:57.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】小林オニキス - サイハテ</title>
-        <link>https://f6bfb5.github.io/lyrics-saihate</link>
-        <pubDate>2022-03-29T23:42:20.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】齊藤和義 - 空に星が綺麗</title>
-        <link>https://f6bfb5.github.io/lyrics-saitou-kazuyoshi-star-over-the-sky-is-so-beautiful</link>
-        <pubDate>2019-08-27T11:36:56.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】酒井ミキオ - Wonderful Life</title>
-        <link>https://f6bfb5.github.io/lyrics-sakai-mikio-wonderful-life</link>
-        <pubDate>2018-12-25T12:42:06.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】サンボマスター - 人はそれを情熱と呼ぶ</title>
-        <link>https://f6bfb5.github.io/lyrics-sambomaster-people-call-it-passion</link>
-        <pubDate>2010-09-02T13:07:13.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】See-Saw - 君がいた物語</title>
-        <link>https://f6bfb5.github.io/lyrics-see-saw-story-with-you</link>
-        <pubDate>2019-10-14T13:13:14.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】湘南乃風 - 紅</title>
-        <link>https://f6bfb5.github.io/lyrics-shounannokaze-kurenai</link>
-        <pubDate>2022-06-05T21:46:47.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】平沢進 - Kingdom</title>
-        <link>https://f6bfb5.github.io/lyrics-susumu-hirasawa-kingdom</link>
-        <pubDate>2017-10-04T12:05:07.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】鈴木結女 - One and Only</title>
-        <link>https://f6bfb5.github.io/lyrics-suzuki-yume-one-and-only</link>
-        <pubDate>2018-09-07T13:21:19.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】The High-Lows - 日曜日よりの使者</title>
-        <link>https://f6bfb5.github.io/lyrics-the-high-lows-messenger-from-sunday</link>
-        <pubDate>2019-08-27T11:21:10.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】The Pillows - Funny Bunny</title>
-        <link>https://f6bfb5.github.io/lyrics-the-pillows-funny-bunny</link>
-        <pubDate>2019-12-26T11:43:00.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】馬場俊英 - Boys on the run</title>
-        <link>https://f6bfb5.github.io/lyrics-toshihide-baba-boys-on-the-run</link>
-        <pubDate>2021-07-02T00:30:42.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】馬場俊英 - 平凡</title>
-        <link>https://f6bfb5.github.io/lyrics-toshihide-baba-ordinary</link>
-        <pubDate>2020-06-15T11:31:11.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】吉田拓郎 - 人生を語らず</title>
-        <link>https://f6bfb5.github.io/lyrics-yoshida-takuro-dont-talk-about-life</link>
-        <pubDate>2019-01-10T12:21:07.000Z</pubDate>
-        
-      </item>
-      
-      <item>
-        <title>【歌詞翻譯】牧野由依 - もどかしい世界の上で</title>
-        <link>https://f6bfb5.github.io/lyrics-yui-makino-modokashii-sekai-no-ue-de</link>
-        <pubDate>2018-12-15T11:25:19.000Z</pubDate>
         
       </item>
       
