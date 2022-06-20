@@ -1,0 +1,1 @@
+import"../../chunks/index-1cb0a915.js";import"../../chunks/_post-84ef0c92.js";import{O as p,m as e}from"../../chunks/operating-with-keyboard-a0b94c55.js";import"../../chunks/BlinkAnchor-55bdbd1c.js";export{p as default,e as metadata};
