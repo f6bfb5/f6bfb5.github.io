@@ -220,6 +220,8 @@ outputfile.close()
 | [ライブドアブログ](https://help.blogpark.jp/archives/52366452.html) | Livedoor Blog    | 來源 |
 | [報導者](https://public.twreporter.org/rss/twreporter-rss.xml)      | 報導者           | 來源 |
 
+- [Get podcasts RSS Feed Urls](https://getrssfeed.com/)
+
 #### Shopping
 
 - [Augmented Steam](https://chrome.google.com/webstore/detail/augmented-steam/dnhpnfgdlenaccegplpojghhmaamnnfp)
@@ -306,6 +308,7 @@ RGB24へ変換(false)
 ShowFullScreen=false
 WrapAroundFolder=false
 SkipFileOpenDialogOnStartup=true
+AutoZoomMode=Fit
 IniEditor=system
 ```
 

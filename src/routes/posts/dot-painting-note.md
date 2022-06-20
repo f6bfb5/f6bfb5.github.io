@@ -17,3 +17,4 @@ tags: Toolbox
 ## Video
 
 - [【ドット絵講座】アプリ紹介と線を整える【#01】](https://www.youtube.com/watch?v=K5ugpk7A8Q8)
+- [ドットでゲームキャラを描こう！～桜乃そらのよわよわゲーム制作部(仮)～](https://www.nicovideo.jp/watch/sm36034396)
