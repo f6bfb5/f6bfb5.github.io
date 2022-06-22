@@ -23,32 +23,66 @@ table td:nth-child(3) {
 
 ## 系統
 
-| 名稱                                                                                                               | 說明                                                                                | 付費     |
-| ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | -------- |
-| [Ninite](https://ninite.com/)                                                                                      | 一次快速安裝各種軟體                                                                | FREE     |
-| [Flow Launcher](https://www.flowlauncher.com/)                                                                     | 快速執行程式與各種功能的 launcher，alt: [wox](http://www.wox.one/) 似乎已經不再維護 | FREE     |
-| [Everything](https://www.voidtools.com/downloads/)                                                                 | 超級快速的檔案搜索工具                                                              | FREE     |
-| [Geek Uninstaller](https://geekuninstaller.com/)                                                                   | 會將關聯檔案一同刪除的程式反安裝工具，alt: [BCU](https://www.bcuninstaller.com/)    | 具付費版 |
-| [PIME](https://github.com/EasyIME/PIME/releases)                                                                   | 新酷音輸入法，包含可在 Windows 11 上使用的舊注音輸入法                              | FREE     |
-| [Divvy](https://mizage.com/divvy/)                                                                                 | 切割視窗位置                                                                        | 具付費版 |
-| [orchis](http://www.eonet.ne.jp/~gorota/)                                                                          | 快速執行程式                                                                        | FREE     |
-| [CLaunch](https://hp.vector.co.jp/authors/VA018351/en/claunch.html)                                                | 快速開啟資料夾                                                                      | FREE     |
-| [Rufus](https://rufus.ie/)                                                                                         | 簡易建立可開機 USB 裝置，alt: [balenaEtcher](https://www.balena.io/etcher/)         | FREE     |
-| [TreeSize](https://www.jam-software.com/treesize_free/)                                                            | 分析硬碟檔案空間佔用分佈，alt: [WinDirStat](https://windirstat.net/)                | FREE     |
-| [Auslogics Disk Defrag](https://www.auslogics.com/en/software/disk-defrag/)                                        | 硬碟重組                                                                            | 具付費版 |
-| [4gb_patch](https://ntcore.com/?page_id=371)                                                                       | 讓 32 位元的應用程式使用超過 4GB 的記憶體（可能沒有效果）                           | FREE     |
-| [Ctrl2cap](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap)                                       | 將 Caps Lock 鍵切換成 Ctrl 鍵的功能                                                 | FREE     |
-| [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)                                       | 檢視各種系統相關的檔案與設定                                                        | FREE     |
-| [SysinternalsSuite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)                    | 微軟發佈的疑難排解工具套件                                                          | FREE     |
-| [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)                       |                                                                                     | FREE     |
-| [Debug Monitor Tool](<https://docs.microsoft.com/ja-jp/previous-versions/bb896647(v=msdn.10)?redirectedfrom=MSDN>) |                                                                                     | FREE     |
-| [NTFSLinksView](https://www.nirsoft.net/utils/ntfs_links_view.html)                                                | 顯示所有的 symbolic link                                                            | FREE     |
-| [ShellExView](https://www.nirsoft.net/utils/shexview.html)                                                         | 管理 shell                                                                          | FREE     |
-| [HWMONITOR](https://www.cpuid.com/softwares/hwmonitor.html#version-history)                                        | 監測系統狀況                                                                        | FREE     |
-| [Hayabusa](https://itib.hatenablog.com/entry/2021/12/31/222946)                                                    | 快速檢測 Windows 事件                                                               | FREE     |
-| CrystalDiskInfo                                                                                                    |                                                                                     | FREE     |
-| CrystalDiskMark                                                                                                    |                                                                                     | FREE     |
-| [RunCat](https://github.com/Kyome22/RunCat_for_windows)                                                            | KAWAII                                                                              | FREE     |
+| 名稱                                                                                            | 說明                                                                                                        | 付費     |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | -------- |
+| [Ninite](https://ninite.com/)                                                                   | 一次快速安裝各種軟體                                                                                        | FREE     |
+| [Flow Launcher](https://www.flowlauncher.com/)                                                  | 快速執行程式與各種功能的 launcher，alt: [wox][wox_link] 似乎已經不再維護                                    | FREE     |
+| [Everything](https://www.voidtools.com/downloads/)                                              | 超級快速的檔案搜索工具                                                                                      | FREE     |
+| [Geek Uninstaller](https://geekuninstaller.com/)                                                | 會將關聯檔案一同刪除的程式反安裝工具，alt: [BCU][bcu_link]                                                  | 具付費版 |
+| [PIME](https://github.com/EasyIME/PIME/releases)                                                | 新酷音輸入法，包含可在 Windows 11 上使用的舊注音輸入法                                                      | FREE     |
+| [SKK](https://dic.nicovideo.jp/a/skk)                                                           | 由東北大學的佐藤雅彦開發，原本用於 Emacs 上的日文輸入法。[SKKFEP][skkfep_link]、[CorvusSKK][corvusskk_link] | FREE     |
+| [Divvy](https://mizage.com/divvy/)                                                              | 切割視窗位置                                                                                                | 具付費版 |
+| [orchis](http://www.eonet.ne.jp/~gorota/)                                                       | 快速執行程式                                                                                                | FREE     |
+| [CLaunch](https://hp.vector.co.jp/authors/VA018351/en/claunch.html)                             | 快速開啟資料夾                                                                                              | FREE     |
+| [Rufus](https://rufus.ie/)                                                                      | 簡易建立可開機 USB 裝置，alt: [balenaEtcher][balenaetcher_link]                                             | FREE     |
+| [TreeSize](https://www.jam-software.com/treesize_free/)                                         | 分析硬碟檔案空間佔用分佈，alt: [WinDirStat][windirstat_link]                                                | FREE     |
+| [Auslogics Disk Defrag](https://www.auslogics.com/en/software/disk-defrag/)                     | 硬碟重組                                                                                                    | 具付費版 |
+| [4gb_patch](https://ntcore.com/?page_id=371)                                                    | 讓 32 位元的應用程式使用超過 4GB 的記憶體（可能沒有效果）                                                   | FREE     |
+| [Ctrl2cap](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap)                    | 將 Caps Lock 鍵切換成 Ctrl 鍵的功能                                                                         | FREE     |
+| [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)                    | 檢視各種系統相關的檔案與設定                                                                                | FREE     |
+| [SysinternalsSuite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite) | 微軟發佈的疑難排解工具套件                                                                                  | FREE     |
+| [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)    |                                                                                                             | FREE     |
+| [Debug Monitor Tool](https://docs.microsoft.com/en-us/sysinternals/downloads/debugview)         |                                                                                                             | FREE     |
+| [NTFSLinksView](https://www.nirsoft.net/utils/ntfs_links_view.html)                             | 顯示所有的 symbolic link                                                                                    | FREE     |
+| [ShellExView](https://www.nirsoft.net/utils/shexview.html)                                      | 管理 shell                                                                                                  | FREE     |
+| [HWMONITOR](https://www.cpuid.com/softwares/hwmonitor.html#version-history)                     | 監測系統狀況                                                                                                | FREE     |
+| [Hayabusa](https://itib.hatenablog.com/entry/2021/12/31/222946)                                 | 快速檢測 Windows 事件                                                                                       | FREE     |
+| CrystalDiskInfo                                                                                 |                                                                                                             | FREE     |
+| CrystalDiskMark                                                                                 |                                                                                                             | FREE     |
+| [RunCat](https://github.com/Kyome22/RunCat_for_windows)                                         | KAWAII                                                                                                      | FREE     |
+
+[wox_link]: http://www.wox.one/
+[bcu_link]: https://www.bcuninstaller.com/
+[skkfep_link]: http://coexe.web.fc2.com/programs.html
+[corvusskk_link]: https://github.com/nathancorvussolis/corvusskk
+[balenaetcher_link]: https://www.balena.io/etcher/
+[windirstat_link]: https://windirstat.net/
+
+### SKK
+
+不同於過往由輸入法解析文法，SKK 是交由使用者透過首字大寫與空白轉換，去主動提示需要轉換的語句，例如「今日も事件だダイナマイト刑事」，SKK 的輸入會變成：
+
+```
+Kyou moJiken daqdainamaitoDeka
+```
+
+這樣的好處是能精確指定想要轉換的詞句（當然，仍不保證能有正確的詞彙，例如[ニコニコ百科上的介紹文](https://dic.nicovideo.jp/a/skk)就能從留言看到過去版本也有錯字），而且不必每次輸入完畢都要再按下 Enter 鍵，大幅提高輸入的速度。
+
+以及 SKK 採用快速鍵切換輸入模式：
+
+```
+   ------ l ------> [ASCII] <----- l ------
+  |                  ^   |                 |
+  |                  l <C-j>               |
+  |       <--<C-q>-- |   v   --q-->        |
+  [半形片假名]      [平假名] <--q-- [片假名]
+  |       --<C-q>--> |   ^  <--<C-j>--     |
+  |       --<C-j>--> L <C-j>               |
+  |                  v   |                 |
+   ------ L -----> [全形英文] <---- L -----
+```
+
+相較於原本日文 IME 需要使用 `F7` 至 `F10` 等功能鍵，也省下了相當程度的輸入移動。並且除了由有志人士提供的轉換詞彙庫，SKK 也可以隨時加入自訂詞彙供日後使用。
 
 ## 建構全平台通用的環境
 
