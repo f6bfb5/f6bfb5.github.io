@@ -60,13 +60,7 @@ table td:nth-child(3) {
 
 ### SKK
 
-不同於過往由輸入法解析文法，SKK 是交由使用者透過首字大寫與空白轉換，去主動提示需要轉換的語句，例如「今日も事件だダイナマイト刑事」，SKK 的輸入會變成：
-
-```
-Kyou moJiken daqdainamaitoDeka
-```
-
-這樣的好處是能精確指定想要轉換的詞句（當然，仍不保證能有正確的詞彙，例如[ニコニコ百科上的介紹文](https://dic.nicovideo.jp/a/skk)就能從留言看到過去版本也有錯字），而且不必每次輸入完畢都要再按下 Enter 鍵，大幅提高輸入的速度。
+不同於過往由輸入法解析文法，SKK 是交由使用者透過首字大寫與空白鍵，去主動提示需要轉換的語句，例如「今日も事件だダイナマイト刑事」，SKK 的輸入會變成：`Kyou moJiken daqdainamaitoDeka`，這樣的好處是能精確指定想要轉換的詞句（當然，仍不保證能有正確的詞彙，例如[ニコニコ百科上的介紹文](https://dic.nicovideo.jp/a/skk)就能從留言看到過去版本也有錯字），不必每次輸入完畢後，不論要轉換與否都得再按下 Enter 鍵，能大幅提高輸入的速度。
 
 以及 SKK 採用快速鍵切換輸入模式：
 
@@ -82,7 +76,21 @@ Kyou moJiken daqdainamaitoDeka
    ------ L -----> [全形英文] <---- L -----
 ```
 
-相較於原本日文 IME 需要使用 `F7` 至 `F10` 等功能鍵，也省下了相當程度的輸入移動。並且除了由有志人士提供的轉換詞彙庫，SKK 也可以隨時加入自訂詞彙供日後使用。
+相較於原本日文 IME 需要使用 `F7` 至 `F10` 等功能鍵，也省下了相當程度的輸入時移動。並且除了由有志人士提供的轉換詞彙庫（可以透過以下連結安裝），SKK 也可以隨時加入自訂詞彙供日後使用。
+
+- 設定頁可以從對輸入欄的文字模式點擊右鍵開啟
+- [SKK Openlab - 辞書](http://openlab.ring.gr.jp/skk/dic-ja.html)
+  - [SKK 辞書 - SKK 辞書 Wiki](http://openlab.ring.gr.jp/skk/wiki/wiki.cgi?page=SKK%BC%AD%BD%F1)
+  - [SKK dictionary files gh-pages](https://skk-dev.github.io/dict/)
+- 於「辞書 1」分頁點選「URL 追加」，加入想要的辭典種類網址後，點擊「取込」
+- 匯入完成後，切換至其他輸入法後再切回即會生效
+
+但語言詞彙的變化日新月異，固定的字典檔終究有無法填補的需求，對此 SKK 也能透過串接 Google API，在遇到字典檔裡沒有的詞彙時發送轉換的請求。
+
+- [2020 年版。SKK で Google 日本語入力の辞書を使う - sasasin's blog](https://sasasin.hatenablog.com/entry/2020/06/06/192712)
+- [2021 年初頭に SKK を Windows/Mac で Google 日本語入力からの候補取得といっしょに絵文字まで変換して使うための方法 - あじーん-0.0.2-SNAPSHOT](https://nishikawasasaki.hatenablog.com/entry/2021/01/07/004422)
+  - `pip install google-ime-skk-py`
+  - `google-ime-skk-py`
 
 ## 建構全平台通用的環境
 
