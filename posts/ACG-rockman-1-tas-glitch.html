@@ -16,15 +16,15 @@
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-e04a8a3c.css">
 	<link rel="stylesheet" href="/_app/assets/_post-53558623.css">
 	<link rel="stylesheet" href="/_app/assets/BlinkAnchor-39834c8c.css">
-	<link rel="modulepreload" href="/_app/start-c8ab21d3.js">
+	<link rel="modulepreload" href="/_app/start-fb59a2fe.js">
 	<link rel="modulepreload" href="/_app/chunks/index-1cb0a915.js">
 	<link rel="modulepreload" href="/_app/chunks/index-908f6326.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-ad839f27.js">
-	<link rel="modulepreload" href="/_app/pages/posts/ACG-rockman-1-tas-glitch.md-a2780579.js">
+	<link rel="modulepreload" href="/_app/pages/posts/ACG-rockman-1-tas-glitch.md-07e0f8a4.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-84ef0c92.js">
 	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-55bdbd1c.js">
-	<link rel="modulepreload" href="/_app/chunks/ACG-rockman-1-tas-glitch-40bb5979.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-rockman-1-tas-glitch-b6e4279c.js">
   </head>
   <body>
     <!-- The application will be rendered inside this element,
@@ -55,7 +55,7 @@
   </a>
   <a href="/sitemap.xml" style="display: none;" class="svelte-t90z2a">sitemap</a>
 </nav>
-      <a href="https://youtu.be/ybLKmO5Kq5A" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
+      <a href="https://www.nicovideo.jp/watch/sm35971994" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
 </a></div>
     
 <div id="progress-bar" style="--scrollAmount: 0%;" class="svelte-1gbseey"></div></div>
@@ -150,8 +150,8 @@ C462: 4C 0C C1 jmp $C10C</code><!-- HTML_TAG_END --></pre>
 <li>會變為從 Bank 2 讀入錯誤的物件</li></ol>
 <p>同樣的，由調整 <code>$23</code>（每 frame 增加 1 的計數器）決定讀入的物件，以下則是一些有趣的物件：</p>
 <ul><li><code>75</code>、<code>F5</code>：通過該關卡，但下一關開始會破圖。</li>
-<li><code>4A</code>：出現後，過一段時間通過該關卡，下一關的關卡圖像正常。</li>
-<li><code>42</code>：磁力條，由於看不見、初始座標會變動、會往 11 點鐘方向並馬上消失，因此難以取得，在晃動人物時偶爾會有成功取得的狀況。</li></ul>
+<li><code>4A</code>：出現後，過一段時間通過該關卡，下一關關卡的圖像正常。</li>
+<li><code>42</code>：磁力條，由於看不見、初始座標會變動、會往 11 點鐘方向移動並馬上消失，因此難以取得，在晃動人物時偶爾會有成功取得的狀況。</li></ul>
 <p>一旦某項物件出現後，在其消滅之前都不會再出現下個物件，若出現了目標之外的物件，就要用離開畫面之類的手法來清除。</p>
 <hr>
 <p><img src="https://i.imgur.com/LEoXwhg.gif" alt="img03"></p>
@@ -226,15 +226,15 @@ C462: 4C 0C C1 jmp $C10C</code><!-- HTML_TAG_END --></pre>
 在第 2 發子彈消失於畫面外後，<code>$483</code> 的值會變為 50。<br>
 <img src="https://i.imgur.com/ZKGmALT.jpg" alt="img12"></li>
 <li>在下圖的位置向右射單發 buster，子彈消失於畫面外後，<code>$482</code> 的值會變為 8A。<br>
-在這之後若再發射 buster，會造成先前調整的數值變動，
+在這之後若再發射 buster，會造成先前調整的數值變動，<br>
 <strong>要注意不可再使用 buster</strong>，若是失敗則要再從 <code>$484</code> 開始重新調整。<br>
 <img src="https://i.imgur.com/O95Y27D.jpg" alt="img13"></li>
-<li>接下來是 <code>$605</code>～<code>$607</code> 的調整，
+<li>接下來是 <code>$605</code>～<code>$607</code> 的調整，<br>
 從第三階樓梯開始，使用磁力條逐格拉高 10 高度。<br>
 <img src="https://i.imgur.com/ceJ1S7O.jpg" alt="img14"></li>
-<li>注意磁力條的顯示時間，將畫面最上方的磁力條調整為<strong>畫面裡出現的第 3 條</strong>，
+<li>注意磁力條的顯示時間，將畫面最上方的磁力條調整為<strong>畫面裡出現的第 3 條</strong>，<br>
 <code>$607</code> 的值會變為 04。<br>
-需將時間調整為，這時踏台的第 2 條和第 1 條的磁力條，
+需將時間調整為，這時踏台的第 2 條和第 1 條的磁力條，<br>
 在設置第 3 條後馬上消失。<br>
 <img src="https://i.imgur.com/6qy17F2.jpg" alt="img15"></li>
 <li>在踏台的第 2 條磁力條消失前，射出磁力條並跳至最高點，<br>
@@ -309,10 +309,10 @@ F8 是 SED（Stream Editor），<br>
 </div>
 
 
-		<script type="module" data-hydrate="1u0ib1s">
-		import { start } from "/_app/start-c8ab21d3.js";
+		<script type="module" data-hydrate="uzs3aq">
+		import { start } from "/_app/start-fb59a2fe.js";
 		start({
-			target: document.querySelector('[data-hydrate="1u0ib1s"]').parentNode,
+			target: document.querySelector('[data-hydrate="uzs3aq"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -323,7 +323,7 @@ F8 是 SED（Stream Editor），<br>
 				error: null,
 				nodes: [
 					import("/_app/pages/__layout.svelte-ad839f27.js"),
-						import("/_app/pages/posts/ACG-rockman-1-tas-glitch.md-a2780579.js")
+						import("/_app/pages/posts/ACG-rockman-1-tas-glitch.md-07e0f8a4.js")
 				],
 				params: {},
 				routeId: "posts/ACG-rockman-1-tas-glitch"
