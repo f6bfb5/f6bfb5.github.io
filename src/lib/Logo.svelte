@@ -75,6 +75,8 @@
     "https://www.nicovideo.jp/watch/sm35053910",
     // いんゆめにっき
     "https://www.nicovideo.jp/watch/sm37696367",
+    // アダルトゲームの歴史【1981年～1985年】
+    "https://www.nicovideo.jp/watch/sm37520821",
     // ----------------------------------------
     // Video
     // ----------------------------------------
