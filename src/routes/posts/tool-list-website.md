@@ -55,6 +55,7 @@ tags: Toolbox
 - [Dr 林のこころと脳の相談室](http://kokoro.squares.net/)
 - [Sci-pursuit](https://sci-pursuit.com/)
 - [「英語スラング」- カラフルな英語の辞典](https://eigoslang.com/)
+- [鳥居の分類](https://miniuzi0502.sakura.ne.jp/torii/Tbunrui.html)
 
 ## 音樂
 

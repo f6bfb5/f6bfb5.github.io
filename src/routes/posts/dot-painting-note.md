@@ -20,3 +20,17 @@ tags: Toolbox
 - [ドットでゲームキャラを描こう！～桜乃そらのよわよわゲーム制作部(仮)～](https://www.nicovideo.jp/watch/sm36034396)
 - [ドットでゲームキャラを描こう！～アニメーション～](https://www.nicovideo.jp/watch/sm36120470)
 - [エミネムさんがドット絵の描き方を教えてくれるそうです](https://www.nicovideo.jp/watch/sm32752899)
+
+## Article
+
+- [ドット道](http://temaemisokoubou.web.fc2.com/)
+- [GraphicsGaleで格ゲーキャラを描こう！！](http://powudon.com/Galekouza/Gale_top.html)
+- [単色(1bit)で描いてデフォルメ力を鍛えよう！【ドット絵講座】](https://moshi-nara.com/18723/)
+- [ドット絵の作画技法・表現方法について学ぼう編【現役ゲームクリエイターによるドット基礎講座 第 3 回】](https://garage.creatures.co.jp/blog/851/)
+- [ドット絵の色数制限別の作画方法について学ぼう編【現役ゲームクリエイターによるドット基礎講座 第 4 回】](https://garage.creatures.co.jp/blog/1068/)
+
+## 基礎
+
+- 直線
+- 圓
+- 影子
