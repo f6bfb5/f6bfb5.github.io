@@ -42,9 +42,11 @@
     "https://c.tenor.com/e6DP5Mypb2MAAAAC/xenogears-cross.gif",
     "https://c.tenor.com/8LexFYcsTmQAAAAC/va11hall-a-jill.gif",
     "https://c.tenor.com/TCEyVCo9wG0AAAAC/dark-souls-bonfire.gif",
+    "https://s3.amazonaws.com/com.twilio.prod.twilio-docs/original_images/1tFKtacF7rSNxnHmwfYKSOFzQU6p2XU3MdUtBdhS4n5pRfCHrvlpNaEK9fMLXkgu9Ys-04iEuX.png",
     // src: https://tenor.com/view/namco-x-capcom-anime-video-games-kosmos-xenogears-gif-16674177
     "https://c.tenor.com/Z44G6YGKlnkAAAAC/namco-x-capcom-anime.gif",
     "https://c.tenor.com/cd2lzZRW9WUAAAAC/omega-zero-megaman.gif",
+    "https://i.imgur.com/gL1P7Q1.gif",
     // === Pixel art ===
     "https://c.tenor.com/-GZI0TXyO-AAAAAC/subway-yuri.gif",
     "https://c.tenor.com/BrNtIejIcXUAAAAC/pixel-art.gif",
@@ -54,7 +56,7 @@
     "https://64.media.tumblr.com/414c6d09204aba6b054341b45b68758d/tumblr_n381ofewGD1qghl49o1_r1_500.gifv",
     "https://64.media.tumblr.com/4c10be689ac1391fc24526008320e33b/tumblr_moro5oFd9n1qghl49o1_r1_500.gifv",
     // "https://c.tenor.com/6-OKnddIaaIAAAAC/oddloop-frederic.gif",
-    "https://i.imgur.com/vGT9RRj.jpg",
+    // "https://i.imgur.com/vGT9RRj.jpg",
     "https://i.imgur.com/SqCn8Gj.jpg",
   ];
 
