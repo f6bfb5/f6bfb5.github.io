@@ -16,15 +16,15 @@
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-e04a8a3c.css">
 	<link rel="stylesheet" href="/_app/assets/_post-53558623.css">
 	<link rel="stylesheet" href="/_app/assets/BlinkAnchor-39834c8c.css">
-	<link rel="modulepreload" href="/_app/start-27f94433.js">
+	<link rel="modulepreload" href="/_app/start-32a8a312.js">
 	<link rel="modulepreload" href="/_app/chunks/index-1cb0a915.js">
 	<link rel="modulepreload" href="/_app/chunks/index-908f6326.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-ad839f27.js">
-	<link rel="modulepreload" href="/_app/pages/posts/autohotkey-note.md-cf71540f.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-98158d43.js">
+	<link rel="modulepreload" href="/_app/pages/posts/autohotkey-note.md-51b6bb06.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-84ef0c92.js">
 	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-55bdbd1c.js">
-	<link rel="modulepreload" href="/_app/chunks/autohotkey-note-974fb828.js">
+	<link rel="modulepreload" href="/_app/chunks/autohotkey-note-2b372fff.js">
   </head>
   <body>
     <!-- The application will be rendered inside this element,
@@ -55,7 +55,7 @@
   </a>
   <a href="/sitemap.xml" style="display: none;" class="svelte-t90z2a">sitemap</a>
 </nav>
-      <a href="https://soundcloud.com/f6bfb5/sets/k4psq4s1vpbd" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
+      <a href="https://www.aozora.gr.jp/cards/000231/files/1190_31196.html" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
 </a></div>
     
 <div id="progress-bar" style="--scrollAmount: 0%;" class="svelte-1gbseey"></div></div>
@@ -80,6 +80,7 @@
 <div class="post--container svelte-100hyuq"><article class="post--content svelte-100hyuq"><h2>Introduction</h2>
 <ul><li><del>2022 年才開始研究 AHK</del></li>
 <li>AutoHotKey 是可以自由自動化與客製化 Windows 操作的腳本引擎</li>
+<li>亦可儲存變數、處理條件分歧、遞迴與呼叫函式達成更複雜的操作</li>
 <li><a href="https://www.autohotkey.com/download/ahk-install.exe" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.autohotkey.com/download/ahk-install.exe" alt="下載"><span>下載</span></a></li></ul>
 <h2>Basic instruction</h2>
 <ul><li><p>Example:</p>
@@ -90,19 +91,99 @@
 ^!f::       ; Ctrl + Alt + f
 MouseGetPos, xpos, ypos
 MsgBox, The cursor is at X%xpos% Y%ypos%.
-return</code><!-- HTML_TAG_END --></pre></li>
-<li><p><code>^</code>: <code>Ctrl</code></p></li>
-<li><p><code>+</code>: <code>Shift</code></p></li>
-<li><p><code>!</code>: <code>Alt</code></p></li>
-<li><p>left of <code>::</code>: Keys to trigger function</p></li>
-<li><p>right of <code>::</code>: Function content</p></li>
-<li><p><code>return</code>: Function end</p></li>
-<li><p><a href="https://www.autohotkey.com/docs/Hotkeys.htm" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.autohotkey.com/docs/Hotkeys.htm" alt="Hotkeys"><span>Hotkeys</span></a></p></li></ul>
+return</code><!-- HTML_TAG_END --></pre></li></ul>
+<table><thead><tr><th></th>
+<th></th></tr></thead>
+<tbody><tr><td><code>^</code></td>
+<td><code>Ctrl</code></td></tr>
+<tr><td><code>+</code></td>
+<td><code>Shift</code></td></tr>
+<tr><td><code>!</code></td>
+<td><code>Alt</code></td></tr>
+<tr><td><code>#</code></td>
+<td><code>Win</code></td></tr>
+<tr><td><code>&amp;</code></td>
+<td>Combination key</td></tr></tbody></table>
+<ul><li>left of <code>::</code>: Keys to trigger function</li>
+<li>right of <code>::</code>: Function content</li>
+<li><code>return</code>: Function end</li>
+<li><a href="https://www.autohotkey.com/docs/Hotkeys.htm" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.autohotkey.com/docs/Hotkeys.htm" alt="Hotkeys"><span>Hotkeys</span></a></li>
+<li><a href="https://ahkwiki.net/Commands_Category" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://ahkwiki.net/Commands_Category" alt="Commands"><span>Commands</span></a></li></ul>
 <h2>Write script</h2>
-<ul><li>Window Spy</li>
-<li><code>x := &quot;string&quot;</code></li>
-<li><code>#IfWinActive</code></li>
-<li><code>#IfWinExist</code></li></ul>
+<h3>Remap Keyboard</h3>
+<ul><li>除了鍵盤按鍵外，滑鼠按鍵或手把按鍵也可以 remap</li>
+<li>可以使用 <code>#IfWinActive</code> 或 <code>#IfWinExist</code> 只於特定程式 remap 按鍵<ul><li>可利用 AHK 附屬的 Window Spy 觀察個別程式的詳細資訊</li></ul></li>
+<li><a href="https://ahkwiki.net/Examples" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://ahkwiki.net/Examples" alt="使用例 - AutoHotkey Wiki"><span>使用例 - AutoHotkey Wiki</span></a></li></ul>
+<h3>Hotstring</h3>
+<ul><li><p>以指定的文字輸入，而非組合按鍵去觸發操作</p></li>
+<li><p>Example:</p>
+<pre class="language-ahk"><!-- HTML_TAG_START --><code class="language-ahk">::kita-::
+Clipboard = ｷﾀ━━━━━━(ﾟ∀ﾟ)━━━━━━ !!!!!
+Send,^v
+Return</code><!-- HTML_TAG_END --></pre></li>
+<li><p>輸入完畢後，還需要<strong>輸入終止文字才會觸發</strong></p>
+<ul><li>預設的終止文字為 <code>-()[]{}&#39;:;&quot;/\,.?!{Enter}{Space}{Tab}</code></li>
+<li>可使用 <code>#Hotstring EndChars</code> 修改終止文字，例如改為 <code>*</code> 便不須輸入終止文字</li></ul></li>
+<li><p>可設定是否要取代原始輸入文字，或是否要無視大小寫差異</p>
+<ul><li>可使用 <code>#Hotstring</code> 統一進行設定，或於指令裡個別設定</li>
+<li>個別設定的情況，則要於指定前方的 <code>:</code> 之間加入參數</li>
+<li>Example: <code>:*:btw::by the way</code></li></ul></li></ul>
+<h3>Mouse and Keyboard Input</h3>
+<ul><li><code>Send, Keys</code><ul><li>一般模式，會將以 <code>{}</code> 包住的特殊按鍵，或是如 <code>^c</code> 的修飾按鍵轉換成特殊功能</li></ul></li>
+<li><code>SendRaw, Keys</code><ul><li>原始輸入模式，直接依照參數內容送出，一般模式下使用 <code>{Raw}</code> 標注也會變為此模式</li></ul></li>
+<li><code>SendInput, Keys</code>, <code>SendPlay, Keys</code>, <code>SendEvent, Keys</code><ul><li>使用不同實作方式送出按鍵</li>
+<li><code>Send</code> 預設為 <code>SendEvent</code>，使用 WindowAPI 的 <code>keybd_event</code> 和 <code>mouse_event</code></li></ul></li>
+<li>大小寫會視為不同按鍵，如 <code>Send, ABC</code> 與 <code>Send, abc</code> 會依照其大小寫送出</li>
+<li>修飾按鍵：</li></ul>
+<table><thead><tr><th></th>
+<th></th></tr></thead>
+<tbody><tr><td><code>^</code></td>
+<td>Ctrl</td></tr>
+<tr><td><code>+</code></td>
+<td>Shift</td></tr>
+<tr><td><code>!</code></td>
+<td>Alt</td></tr>
+<tr><td><code>#</code></td>
+<td>Win</td></tr></tbody></table>
+<ul><li><a href="https://ahkwiki.net/Send#.E7.89.B9.E6.AE.8A.E3.82.AD.E3.83.BC.E5.90.8D.E4.B8.80.E8.A6.A7" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://ahkwiki.net/Send#.E7.89.B9.E6.AE.8A.E3.82.AD.E3.83.BC.E5.90.8D.E4.B8.80.E8.A6.A7" alt="特殊按鍵"><span>特殊按鍵</span></a>（一部）：</li></ul>
+<table><thead><tr><th></th>
+<th></th></tr></thead>
+<tbody><tr><td><code>{LCtrl}</code></td>
+<td>左側 Ctrl 鍵</td></tr>
+<tr><td><code>{LWin}</code></td>
+<td>左側 Win 鍵</td></tr>
+<tr><td><code>{LButton}</code></td>
+<td>滑鼠左鍵</td></tr>
+<tr><td><code>{RButton}</code></td>
+<td>滑鼠右鍵</td></tr>
+<tr><td><code>{MButton}</code></td>
+<td>滑鼠中鍵</td></tr>
+<tr><td><code>{Click[, options]}</code></td>
+<td>進行點擊操作，options 與 <code>Click</code> 相同</td></tr></tbody></table>
+<ul><li><code>Click[, Button, up/down, x, y, count, rel]</code></li>
+<li>Button:<ul><li>可省略為 <code>L</code>, <code>R</code>, <code>M</code>, <code>WU</code>, <code>WD</code></li></ul></li></ul>
+<table><thead><tr><th></th>
+<th></th></tr></thead>
+<tbody><tr><td><code>LEFT</code></td>
+<td>左鍵（預設值）</td></tr>
+<tr><td><code>RIGHT</code></td>
+<td>右鍵</td></tr>
+<tr><td><code>MIDDLE</code></td>
+<td>中鍵</td></tr>
+<tr><td><code>WheelUp</code></td>
+<td>滾輪上滑</td></tr>
+<tr><td><code>WheelDown</code></td>
+<td>滾輪下滑</td></tr>
+<tr><td><code>X1</code></td>
+<td>擴充鍵 1</td></tr>
+<tr><td><code>X2</code></td>
+<td>擴充鍵 2</td></tr></tbody></table>
+<ul><li>up/down:<ul><li><code>Down</code>/<code>D</code> 會保持按住不放</li>
+<li><code>Up</code>/<code>U</code> 會於按下後放開</li></ul></li>
+<li>Count: 設為 0 則會只移動鼠標</li>
+<li>Rel: 設定為 <code>Relative</code> 或 <code>Rel</code> 則會改為以現在鼠標位置為起點</li></ul>
+<h3>Process</h3>
+<ul><li><code>Run, Target[, WorkingDir, Max|Min|Hide/UseErrorLevel, OutputVarPID]</code></li></ul>
 <h2>Snippet</h2>
 <h3>Xonar Essence STX - Switch Speaker and Headphone</h3>
 <ul><li><a href="https://www.amazon.com/review/R17HDTKPBDSYSX?ASIN=B001OV789U" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.amazon.com/review/R17HDTKPBDSYSX?ASIN=B001OV789U" alt="AutoHotKey script"><span>AutoHotKey script</span></a></li></ul>
@@ -136,7 +217,8 @@ Return</code><!-- HTML_TAG_END --></pre>
 <ul><li><a href="https://www.autohotkey.com/boards/viewtopic.php?t=4161" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.autohotkey.com/boards/viewtopic.php?t=4161" alt="[AutoHotkey Programming Tools] + Featured Scripts - AutoHotkey Community"><span>[AutoHotkey Programming Tools] + Featured Scripts - AutoHotkey Community</span></a></li>
 <li><a href="https://www.autohotkey.com/boards/viewtopic.php?style=19&t=102377" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.autohotkey.com/boards/viewtopic.php?style=19&t=102377" alt="QuickSwitch - Use opened file manager folders in File dialogs"><span>QuickSwitch - Use opened file manager folders in File dialogs</span></a></li></ul>
 <h2>Ref</h2>
-<ul><li><a href="https://sites.google.com/site/autohotkeyjp/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://sites.google.com/site/autohotkeyjp/" alt="AutoHotkeyJp"><span>AutoHotkeyJp</span></a></li></ul>
+<ul><li><a href="https://sites.google.com/site/autohotkeyjp/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://sites.google.com/site/autohotkeyjp/" alt="AutoHotkeyJp"><span>AutoHotkeyJp</span></a></li>
+<li><a href="https://qiita.com/ryoheiszk/items/092cc5d76838cb5a13f1" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://qiita.com/ryoheiszk/items/092cc5d76838cb5a13f1" alt="AutoHotkey のススメ"><span>AutoHotkey のススメ</span></a></li></ul>
     <span class="blink svelte-1kip24n">_</span></article>
   
 
@@ -154,10 +236,10 @@ Return</code><!-- HTML_TAG_END --></pre>
 </div>
 
 
-		<script type="module" data-hydrate="11chlz3">
-		import { start } from "/_app/start-27f94433.js";
+		<script type="module" data-hydrate="1dp5pwq">
+		import { start } from "/_app/start-32a8a312.js";
 		start({
-			target: document.querySelector('[data-hydrate="11chlz3"]').parentNode,
+			target: document.querySelector('[data-hydrate="1dp5pwq"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -167,8 +249,8 @@ Return</code><!-- HTML_TAG_END --></pre>
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-ad839f27.js"),
-						import("/_app/pages/posts/autohotkey-note.md-cf71540f.js")
+					import("/_app/pages/__layout.svelte-98158d43.js"),
+						import("/_app/pages/posts/autohotkey-note.md-51b6bb06.js")
 				],
 				params: {},
 				routeId: "posts/autohotkey-note"

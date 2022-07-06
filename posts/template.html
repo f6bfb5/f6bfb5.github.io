@@ -16,15 +16,15 @@
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-e04a8a3c.css">
 	<link rel="stylesheet" href="/_app/assets/_post-53558623.css">
 	<link rel="stylesheet" href="/_app/assets/BlinkAnchor-39834c8c.css">
-	<link rel="modulepreload" href="/_app/start-27f94433.js">
+	<link rel="modulepreload" href="/_app/start-32a8a312.js">
 	<link rel="modulepreload" href="/_app/chunks/index-1cb0a915.js">
 	<link rel="modulepreload" href="/_app/chunks/index-908f6326.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-ad839f27.js">
-	<link rel="modulepreload" href="/_app/pages/posts/template.md-9c62f7b7.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-98158d43.js">
+	<link rel="modulepreload" href="/_app/pages/posts/template.md-17461b46.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-84ef0c92.js">
 	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-55bdbd1c.js">
-	<link rel="modulepreload" href="/_app/chunks/template-eac619dc.js">
+	<link rel="modulepreload" href="/_app/chunks/template-ff26175d.js">
   </head>
   <body>
     <!-- The application will be rendered inside this element,
@@ -55,7 +55,7 @@
   </a>
   <a href="/sitemap.xml" style="display: none;" class="svelte-t90z2a">sitemap</a>
 </nav>
-      <a href="https://www.nicovideo.jp/watch/sm40487046" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
+      <a href="https://www.nicovideo.jp/watch/sm24550780" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
 </a></div>
     
 <div id="progress-bar" style="--scrollAmount: 0%;" class="svelte-1gbseey"></div></div>
@@ -132,6 +132,42 @@ Other <a href="https://othersocialmedia.com/Profile" rel="noopener" target="_bla
 <div style="clear: both;"></div>
 <details><summary>Details element summary</summary>
 <p>details element description</p></details>
+<h2>Mermaid Cheatsheet</h2>
+<h3>Flowchart</h3>
+<ul><li><a href="https://mermaid-js.github.io/mermaid/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://mermaid-js.github.io/mermaid/" alt="https://mermaid-js.github.io/mermaid/"><span>https://mermaid-js.github.io/mermaid/</span></a></li>
+<li><code>flowchart [directions]</code><ul><li>or <code>graph [directions]</code>？</li>
+<li><code>TB</code>: top to bottom</li>
+<li><code>TD</code>: top-down / same as top to bottom</li>
+<li><code>BT</code>: bottom to top</li>
+<li><code>RL</code>: right to left</li>
+<li><code>LR</code>: left to right</li></ul></li>
+<li><code>node</code></li>
+<li><code>node[node with text]</code></li>
+<li><code>node1 --&gt; node2</code></li>
+<li><code>node1 -- link with text -- node2</code><ul><li>or <code>node1--&gt;|text|node2</code></li></ul></li>
+<li><code>node1 --&gt; node2 &amp; node3 --&gt; node4</code></li>
+<li>Node shapes:<ul><li>round edges: <code>node(text)</code></li>
+<li>stadium-shaped: <code>node([text])</code></li>
+<li>subroutine: <code>node[[text]]</code></li>
+<li>cylindrical shape: <code>node[(text)]</code></li>
+<li>circle: <code>node((text))</code></li>
+<li>asymmetric shape: <code>node&gt;text]</code></li>
+<li>rhombus: <code>node{text}</code></li>
+<li>hexagon: <code>node{{text}}</code></li>
+<li>parallelogram: <code>node[/text/]</code></li>
+<li>parallelogram alt: <code>node[\text\]</code></li>
+<li>trapezoid: <code>node[/text\]</code></li>
+<li>trapezoid alt: <code>node[\text/]</code></li>
+<li>double circle: <code>node(((text)))</code></li></ul></li>
+<li>Link shapes:<ul><li>normal: <code>---</code></li>
+<li>normal with arrow: <code>--&gt;</code></li>
+<li>thick: <code>===</code></li>
+<li>thick with arrow: <code>==&gt;</code></li>
+<li>dotted: <code>-.-</code></li>
+<li>dotted with arrow: <code>-.-&gt;</code></li></ul></li>
+<li>subgraph<ul><li><code>subgraph [name]</code></li>
+<li><code>direction [directions]</code></li>
+<li><code>end</code></li></ul></li></ul>
     <span class="blink svelte-1kip24n">_</span></article>
   
 
@@ -149,10 +185,10 @@ Other <a href="https://othersocialmedia.com/Profile" rel="noopener" target="_bla
 </div>
 
 
-		<script type="module" data-hydrate="ntemyg">
-		import { start } from "/_app/start-27f94433.js";
+		<script type="module" data-hydrate="1gn3roa">
+		import { start } from "/_app/start-32a8a312.js";
 		start({
-			target: document.querySelector('[data-hydrate="ntemyg"]').parentNode,
+			target: document.querySelector('[data-hydrate="1gn3roa"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -162,8 +198,8 @@ Other <a href="https://othersocialmedia.com/Profile" rel="noopener" target="_bla
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-ad839f27.js"),
-						import("/_app/pages/posts/template.md-9c62f7b7.js")
+					import("/_app/pages/__layout.svelte-98158d43.js"),
+						import("/_app/pages/posts/template.md-17461b46.js")
 				],
 				params: {},
 				routeId: "posts/template"
