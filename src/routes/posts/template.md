@@ -97,3 +97,47 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 details element description
 
 </details>
+
+## Mermaid Cheatsheet
+
+### Flowchart
+
+- https://mermaid-js.github.io/mermaid/
+- `flowchart [directions]`
+  - or `graph [directions]`？
+  - `TB`: top to bottom
+  - `TD`: top-down / same as top to bottom
+  - `BT`: bottom to top
+  - `RL`: right to left
+  - `LR`: left to right
+- `node`
+- `node[node with text]`
+- `node1 --> node2`
+- `node1 -- link with text -- node2`
+  - or `node1-->|text|node2`
+- `node1 --> node2 & node3 --> node4`
+- Node shapes:
+  - round edges: `node(text)`
+  - stadium-shaped: `node([text])`
+  - subroutine: `node[[text]]`
+  - cylindrical shape: `node[(text)]`
+  - circle: `node((text))`
+  - asymmetric shape: `node>text]`
+  - rhombus: `node{text}`
+  - hexagon: `node{{text}}`
+  - parallelogram: `node[/text/]`
+  - parallelogram alt: `node[\text\]`
+  - trapezoid: `node[/text\]`
+  - trapezoid alt: `node[\text/]`
+  - double circle: `node(((text)))`
+- Link shapes:
+  - normal: `---`
+  - normal with arrow: `-->`
+  - thick: `===`
+  - thick with arrow: `==>`
+  - dotted: `-.-`
+  - dotted with arrow: `-.->`
+- subgraph
+  - `subgraph [name]`
+  - `direction [directions]`
+  - `end`

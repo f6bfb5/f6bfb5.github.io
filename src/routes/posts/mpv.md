@@ -154,16 +154,17 @@ mpv 可以使用 lua 語言撰寫第三方套件，套件檔案通常放置於 `
 | [cycle-video-rotate](https://github.com/VideoPlayerCode/mpv-tools/blob/master/scripts/cycle-video-rotate.lua) | 可使用 `Alt+方向鍵` 旋轉影片                                 |
 | [mpv-twitch-chat-irc](https://github.com/morrah/mpv-twitch-chat-irc)                                          | 觀看 Twitch 影片時顯示聊天室內容                             |
 
+- https://github.com/rossy/mpv-repl
+- https://github.com/Samillion/mpv-ytdlautoformat
+- [mpv-gif-generator](https://github.com/the-honey/mpv-gif-generator)
+- [VariousDanmakuScripts](https://github.com/hmm5/VariousDanmakuScripts)
+
 ## 外部連結
 
 - [Archlinux Wiki - mpv](https://wiki.archlinux.org/index.php/Mpv)
 - [mpv - LUA SCRIPTING](https://github.com/mpv-player/mpv/blob/master/DOCS/man/lua.rst)
 - [mpv - User Scripts](https://github.com/mpv-player/mpv/wiki/User-Scripts)
 - [mpv 播放器折腾记录](https://hooke007.github.io/mpv-lazy/mpv.html)
-- [nicovideo.jp issue · Issue #29225 · ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl/issues/29225)
-- https://github.com/rossy/mpv-repl
-- https://github.com/noaione/mpv-discordRPC/blob/master/Scripts/mpv-drpc.lua
-- https://github.com/Samillion/mpv-ytdlautoformat
 
 ## 追伸
 
@@ -186,10 +187,6 @@ mpv 可以使用 lua 語言撰寫第三方套件，套件檔案通常放置於 `
 4. （推薦）新增批次檔快速進行處理
    `danmaku2ass.py -s 1920x1080 -fn "Noto Sans" -fs 80 -a 0.95 -dm 5 -ds 5 %1 -o %~n1.ass`
 5. 完成。
-
-### 直接讓播放器讀取 `.xml` 檔案
-
-挫折。
 
 - [loaddanmaku](https://github.com/huisedenanhai/LoadDanmaku)
 - [Hack of the day: extracting comments from Nicovideo](https://www.dennogumi.org/2019/01/hack-of-the-day-extracting-comments-from-nicovideo/)

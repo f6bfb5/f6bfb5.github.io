@@ -48,3 +48,24 @@ Podcatcher 可以讓 foobar2000 自動更新與下載所訂閱的 Podcast 節目
 節目敘述大多是節目重點整理、補充資料或業配相關資訊，也能從選單裡點開來看，問題不大。前兩者就比較麻煩，尤其是檔名重複問題，時常會莫名播放到和所選完全不同的節目，例如點了某一集新資料夾，卻播起了人生晚長，就得把已經抓下來的檔案刪掉後再重新點擊播放，目前也沒有新的替代插件能用，算是比較遺憾的待改善點。
 
 > 追記：將設定頁面 `Perferences` -> `Tools` -> `Podcatcher` 裡的 `Time range over which to automatically download podcasts` 移至最左邊的 `No automatic downloading`，並從 `File` -> `Update All Podcast Feeds` 更新來源後，即可避免相同檔名問題（吧）。
+
+追記 2：我的 podcast 訂閱清單
+
+| 名稱                                    | RSS 網址                                                                     | 類型 |
+| --------------------------------------- | ---------------------------------------------------------------------------- | ---- |
+| Backyard Hatena                         | `https://anchor.fm/s/7aad9de4/podcast/rss`                                   | 技術 |
+| Rebuild                                 | `https://feeds.rebuild.fm/rebuildfm`                                         | 技術 |
+| Sansan Tech Podcast                     | `https://feeds.soundcloud.com/users/soundcloud:users:554143311/sounds.rss`   | 技術 |
+| fukabori.fm                             | `https://pitpa.jp/rss/fukabori`                                              | 技術 |
+| texta.fm                                | `https://anchor.fm/s/330a9488/podcast/rss`                                   | 技術 |
+| 頂樓加蓋/Overbuild                      | `https://open.firstory.me/rss/user/ck1npa6vwf2930786sj5qsoec`                | 技術 |
+| 3Q 陳柏惟                               | `https://open.firstory.me/rss/user/ckzyvnsrg04gw0b721rwh5t41`                | 社會 |
+| 《The Real Story》By 報導者             | `https://feeds.soundon.fm/podcasts/c1f1f3c9-8d28-42ad-9f1c-908018b8d9fc.xml` | 社會 |
+| 你說的都對                              | `https://anchor.fm/s/f5cf9cc/podcast/rss`                                    | 社會 |
+| 呱吉                                    | `https://feeds.soundon.fm/podcasts/ecd31076-d12d-46dc-ba11-32d24b41cca5.xml` | 社會 |
+| 寶島少年兄                              | `http://feeds.soundcloud.com/users/soundcloud:users:756787843/sounds.rss`    | 社會 |
+| 台灣通勤第一品牌                        | `https://anchor.fm/s/1ea77470/podcast/rss`                                   | 生活 |
+| 法克廚難                                | `https://feeds.soundon.fm/podcasts/aaa97576-664a-4fcd-8c09-57b09f7819b3.xml` | 生活 |
+| TBS ラジオ「アフター 6 ジャンクション」 | `https://anchor.fm/s/18d944c4/podcast/rss`                                   | 娛樂 |
+| 尼爾喝牛奶：你的次文化指南              | `https://open.firstory.me/rss/user/cjyqpmw8l2qci07437m3pfqe6`                | 娛樂 |
+| 按下任意鍵：不專業聊遊戲                | `https://link.chtbl.com/zd2GtOO7?platform=rss`                               | 娛樂 |
