@@ -1,4 +1,5 @@
 import appendLinkFavicon from "./src/lib/_append-link-favicon.js";
+import toc from "./src/lib/_toc.js";
 import urls from "rehype-urls";
 
 function processUrl(url, node) {
@@ -16,7 +17,7 @@ export default {
     blog: "src/routes/_post.svelte",
     _: "src/routes/_post.svelte",
   },
-  remarkPlugins: [appendLinkFavicon],
+  remarkPlugins: [appendLinkFavicon, toc],
   rehypePlugins: [
     [urls, processUrl],
   ],

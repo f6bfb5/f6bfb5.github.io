@@ -268,6 +268,7 @@
   }
 
   .post--content {
+    position: relative;
     padding: 10px;
     border: 1px solid var(--subtitle-color);
     box-shadow: 2px 2px 0 var(--subtext-color), 4px 4px 0 var(--title-color);
