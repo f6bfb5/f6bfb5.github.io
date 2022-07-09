@@ -352,11 +352,31 @@ export default config;
 
 ### Write Remark and Rehype plugin
 
-- [How to get favicon's URL from a generic webpage in Javascript? - Stack Overflow](https://stackoverflow.com/questions/10282939/how-to-get-favicons-url-from-a-generic-webpage-in-javascript)
-- [Transforming Markdown with Remark & Rehype](https://www.ryanfiller.com/blog/remark-and-rehype-plugins)
+- [How to get favicon's URL from a generic webpage in Javascript?](https://stackoverflow.com/questions/10282939/how-to-get-favicons-url-from-a-generic-webpage-in-javascript)
+- [Creating a Remark Transformer Plugin](https://www.gatsbyjs.com/tutorial/remark-plugin-tutorial/)
 - [MDSveX and Svelte Kit](https://www.furudean.com/blog/svelte-kit-mdsvex)
 - [remark](https://github.com/remarkjs/remark)
 - [mdast](https://github.com/syntax-tree/mdast)
+
+Markdown parser 會先將內容轉換成 AST（Abstract Syntax Tree）之後，再轉換成 HTML 標籤：
+
+<div>
+  <input type="radio" id="markdown-parser-md" value={0} bind:group={markdownParserExmapleIndex} name="markdown-parser-exmaple" checked>
+  <label for="markdown-parser-md">Markdown</label>
+  <input type="radio" id="markdown-parser-ast" value={1} bind:group={markdownParserExmapleIndex} name="markdown-parser-exmaple">
+  <label for="markdown-parser-ast">AST</label>
+  <input type="radio" id="markdown-parser-html" value={2} bind:group={markdownParserExmapleIndex} name="markdown-parser-exmaple">
+  <label for="markdown-parser-html">HTML</label>
+</div>
+<pre class="language-undefined">
+  <code class="language-undefined">
+    {markdownParserExample[markdownParserExmapleIndex]}
+  </code>
+</pre>
+
+MDsveX 在轉換成 Markdown AST（[MDAST](https://github.com/syntax-tree/mdast)）後，會執行 remark plugin，之後轉換成 HTML AST（[HAST](https://github.com/syntax-tree/hast)）時，會執行 rehype plugin，最後會轉換成可編譯的 Svelte component
+
+- [Transforming Markdown with Remark & Rehype](https://www.ryanfiller.com/blog/remark-and-rehype-plugins)
 
 ```javascript
 // lib/_append-link-favicon.js
@@ -439,12 +459,6 @@ export default {
 
 剛從 Sapper 跳到 SvelteKit 的時候，由於是直接修改舊檔案，官方文件也沒有提供檔案架構範例參考，真的是看得一個頭兩個大，但摸了一陣子，比較理解大概是怎麼運作之後，覺得其實意外地相當俐落，而且有了 MDsveX 也讓頁面的可玩性變得很大，例如可以直接在 Markdown 裡撰寫可互動的元件：
 
-<script>
-  let counter = 0;
-  const minus = () => counter--;
-  const plus = () => counter++;
-</script>
-
 <div style="display: flex; justify-content: center; align-items: center;">
   <button on:click={() => minus()}>&minus;</button>
   <span style="margin: 0 1em;">{counter}</span>
@@ -452,3 +466,27 @@ export default {
 </div>
 
 雖說如此還是有很多沒有完全理解或活用的部份，像是 `import.mega.globEager` 似乎在預覽時會有效能上的問題，也還有像預覽縮圖、文章大綱、閱讀所需時間等等想實裝的功能，或是統整樣式到 Tailwind CSS 或 Windi CSS，但就抱著至少能動的精神，簡單整理了目前用到的核心架構。
+
+<script>
+  // markdown parser example
+  const markdownParserExample = [
+    `# Hello World!`,
+    `{
+      type: "heading",
+      depth: 1,
+      children: [
+        {
+          type: "text",
+          value: "Hello World!"
+        }
+      ]
+    }`,
+    `<h1>Hello World!</h1>`
+  ]
+  let markdownParserExmapleIndex = 0;
+
+  // counter
+  let counter = 0;
+  const minus = () => counter--;
+  const plus = () => counter++;
+</script>

@@ -8,6 +8,8 @@ tags: Toolbox
 已經連工具箱都稱不上了，有趣、適合打發時間的網站。
 
 - [暇つぶしに最適なリンク集](http://fcrandom.freeoda.com/hima.html)
+- [📒Productivity を上げるために大切な 100 のこと](https://minerva.mamansoft.net/%F0%9F%93%97Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8/%F0%9F%93%92Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8)
+- [新冠確診過程應對指南](https://nova-jumbo-a96.notion.site/0701-3c934b7a75a2447d8f8fadb5bde63c42)
 
 ---
 
@@ -80,7 +82,7 @@ tags: Toolbox
 - [映像作家 100 人 MOTION GRAPHIC CREATORS](https://eizo100.jp/)
 - [物語要素事典](https://www.lib.agu.ac.jp/yousojiten/)
 - [陽明雑記](https://toshi-y.at.webry.info/)
-- [NDLイメージバンク](https://rnavi.ndl.go.jp/imagebank/)
+- [NDL イメージバンク](https://rnavi.ndl.go.jp/imagebank/)
 
 ## 娛樂
 

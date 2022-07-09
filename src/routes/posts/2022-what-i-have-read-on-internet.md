@@ -1187,7 +1187,28 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [「独身おじさん友達いない」問題が意外に深刻　「会社以外ではいつも一人ぼっち」の中年男性はどうすればいいのか](https://dot.asahi.com/dot/2022070400059.html)
 - [冨樫義博先生の「深刻な腰痛」ってこれまで公になってましたか？お大事に… - INVISIBLE D.　ー QUIET & COLORFUL PLACE-](https://m-dojo.hatenadiary.com/entry/2022/07/05/094315)
 - [進む劣化と進まぬ解体、消えた経営者…鬼怒川温泉"廃墟群"はなぜ生まれてしまったのか](https://bunshun.jp/articles/-/55566)
-- [世の中には困ってる人を助ける制度がたくさんあるのに何が使えるかを教えてくれないっていう理不尽仕様なんだが、そんな世界をなんとかしようとしてる人たちがいて、そのための Web ページがこの前リリースされたってことを僕はフォロワーさんに知っておいて欲しいと思ったんよ](https://togetter.com/li/1911629)
+- [世の中には困ってる人を助ける制度がたくさんあるのに何が使えるかを教えてくれないっていう理不尽仕様なんだが、そんな世界をなんとかしようとしてる人たちがいて、そのための Web ページがこの前リリースされ...](https://togetter.com/li/1911629)
 - [一個英文字 technically 打敗台灣學術界 教育界 翻譯界 出版界](https://1453liencai.blogspot.com/2022/06/technically.html)
 - [ゴーファーくんと辿るプログラミング言語の歴史](https://speakerdeck.com/iwasiman/history-of-programming-languages-with-gopher)
-- [「いいえ」は「はい」の対義語として広く認知されてるけど会話ではほとんど使われていない？→調べてみたら本当に使われてなかった](https://togetter.com/li/1911948)
+- [「いいえ」は「はい」の対義語として広く認知されてるけど会話ではほとんど使われていない？→ 調べてみたら本当に使われてなかった](https://togetter.com/li/1911948)
+- [『めぞん一刻』（あるいはやきもちのパラドックス）について - Akosmismus](https://akosmismus.hatenadiary.com/entry/2022/07/03/202540)
+- [Rust でゲームボーイアドバンスエミュレーターを書いた](https://zenn.dev/tanakh/articles/gba-emulator-in-rust)
+- [誕生日から生成した初期パスワードを悪用した内部不正事案についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2022/07/07/004422)
+- [任侠百鬼 - 幸橋明希](https://shonenjumpplus.com/episode/3270375685326452068)
+- [ふたりの告白 - 西瓜士](https://comic-days.com/episode/3270375685307274432)
+- [まんじゅう要求 BBA 死す](https://anond.hatelabo.jp/20220707214147)
+- [理解ある彼くんの本音「好きだから頑張ってるだけで、こっちもごりごり削られてるんだよ」→「キャパがある」「理解あるじゃなくて理解したいんだよね」](https://togetter.com/li/1912651)
+- ["本当のその人"ってなに……？心が読めてしまうから他人と距離をとる生徒と、全力で助ける先生の漫画『寛容と不寛容についてのはなし』](https://togetter.com/li/1912610)
+- [安倍元首相死亡 容疑者「拳銃や爆発物複数製造した」【速報】](https://www3.nhk.or.jp/news/html/20220708/k10013707601000.html)
+  - [安倍元首相 銃撃 事件前の容疑者とみられる人物 NHK記者が撮影](https://www3.nhk.or.jp/news/html/20220708/k10013707921000.html)
+- [名古屋にはないけど台湾にある『名古屋カレー』お互い様な上に解像度高いと注目「こっちに出店して」](https://togetter.com/li/1912906)
+- [【大型ホストクラブを陰で支える男たち】感動まかないストーリー・伝説のシェフ💫TOP DANDY-1st-💫](https://www.youtube.com/watch?v=rs9nYi20800)
+- [南極へ行った猫　たけし](https://polaris.nipr.ac.jp/~archives/contents/takeshi.html)
+- [山川方夫 夏の葬列](https://www.aozora.gr.jp/cards/001801/files/59532_70200.html)
+- [創作物や表現は「人を傷つけない」「必ず人を傷つける」は同じことの裏表で、歴史学者リン・ハントの１８世紀からの文学史研究と哲学者シンガーの人間心理の分析を合わせると「安全に傷つくことができる」である...](https://twitter.com/AsaiLabot2/status/1545085266490445824)
+
+> 創作與表現裡的「不要傷害到人」與「一定會傷害人」是一體兩面，從歷史學者林恩．亨特自 18 世紀起的文學史研究，與哲學家辛格的心理分析來看，這代表的是「可以安全地傷害人」。在創作裡受的傷與現實的傷口比起安全許多，更是為了應對現實必須的存在。
+
+- [猫は「ゴハン」としゃべるのか？→本当にしゃべってるっぽい :: デイリーポータルZ](https://dailyportalz.jp/kiji/the-cat-speaks-gohan)
+ 
+ 
