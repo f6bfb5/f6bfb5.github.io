@@ -21,7 +21,7 @@
   padding-right: .5em;
   width: fit-content;
   white-space: nowrap;
-  font-size: 1rem;
+  font-size: 1rem !important;
   background-color: var(--bg-color);
   border-left: 1px solid var(--subtitle-color);
   border-top: 1px solid var(--subtitle-color);
@@ -45,6 +45,6 @@
   }
   .toc {
     top: 6em;
-    font-size: .8em;
+    font-size: .8em !important;
   }
 }
