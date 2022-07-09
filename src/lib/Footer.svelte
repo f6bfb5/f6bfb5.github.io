@@ -19,7 +19,7 @@
   <div class="clearfix" />
 </footer>
 
-<style>
+<style scoped>
   footer {
     margin: 1em auto;
     padding: 1em 2em;
