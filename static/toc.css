@@ -11,7 +11,8 @@
   padding-right: 0;
   top: 8em;
   list-style: none !important;
-
+  font-size: 1rem !important;
+  
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -21,7 +22,6 @@
   padding-right: .5em;
   width: fit-content;
   white-space: nowrap;
-  font-size: 1rem !important;
   background-color: var(--bg-color);
   border-left: 1px solid var(--subtitle-color);
   border-top: 1px solid var(--subtitle-color);
