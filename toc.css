@@ -21,6 +21,7 @@
   padding-right: .5em;
   width: fit-content;
   white-space: nowrap;
+  font-size: 1rem;
   background-color: var(--bg-color);
   border-left: 1px solid var(--subtitle-color);
   border-top: 1px solid var(--subtitle-color);
