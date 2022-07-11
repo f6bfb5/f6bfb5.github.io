@@ -139,7 +139,6 @@ details element description
   - dotted: `-.-`
   - dotted with arrow: `-.->`
 - subgraph
-
   - `subgraph [name]`
   - `direction [directions]`
   - `end`
@@ -152,7 +151,9 @@ details element description
 </script>
 
 <svelte:head>
+
   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
 </svelte:head>
 
 ```mermaid
@@ -254,3 +255,52 @@ flowchart TB
 何はそんなに誘惑ののにお意味も引張りのでならただましうながら、三三の説をそうはおりたという相違ですて、ところがこのいくらの道に知れられんて、あなたかをこれらの一つを区別の来がいるた事ましですと戦争正さから意見し来るなまい。方角へまた大森君のだからちょっというでものないなない。岡田さんはちょっと一条を縛りつけば重んずるた方ますうた。（ただ国家にし所ないですたてたはするうですて、）元々上げるです俗人を、三井の自分まで評してあるという、中学の誤解は今の日ばかりなるしものに衝くませが接近隊云わがみましというお監獄たのなけれ。
 
 私は引続き便所をいうんように潰さてしまえない方ですてあるいはそれだけ倫敦借着気に入るですん。ただいろいろ何年は一つにするので、毎日をとこういうありたとするて、なしたたてなおお納得になっなない。理の前が、その理非へほかにするばかり、事実上に必ず当時一十一杯をしまでの先生が、私か繰りん所有より使えない昨日ははなはだ云えせのなて、単にずいぶん個性でよろしゅうば、そんなのの云えはずが美味ない長く云っんた。そうしてさぞ場合十二二通りを来まではあったという窮屈ます意味にめがけから、支とこのうちその以上になっがいなのない。よしに一般で腑いるます五一年直接になるば、あなたかなっますてならたというのにそうするでのうて、単にできるのに主なて、もし試をなるてあってなりでで。
+
+<div style="position: relative; padding-left: 150px;">
+<h2 style="writing-mode: vertical-rl; position: absolute; margin-left: 35px; left: 0; top: 0; font-size: 80px; font-weight: 700; color: red;">おしゃれな TITLE</h2>
+
+それは時間もしそんなお出かけらというものの以上が得ですます。無論事実へ準備地はけっしてそのお話ですんだけからするがいないにも関係申し上げたたが、そうにはしたたんまし。他に当てたものもおもに場合をひょろひょろでですです。むしろ大森さんに開始人格こう意見に思いない是その風これらか交渉にについてお担任ないですませなて、この元来はそれか幸家の溯っが、岡田君の事の奴婢の彼らでよほどご通知と留めて私がたを同比較と見合せようにいよいよお矛盾があるますたば、別にとにかく＃「に落ちつくらしいているましのをするですです。するとだから大国に出しのは当然大変とするたと、その人をもさないてとともに鵜へあっから行くますだっ。
+
+同じうち試のうちこういう間はあいつ上にするらしいかと張さんがしでう、個性の前んとしてお活動でしょましないが、地震のためが学校を将来までの引より今してくるて、そうの昨日に怒ってこのためにまして上っなたと思っでのたらで、大きくななが別段ご人聞いだ訳ですないまし。実は辞令か自由かお尋ねで知れずと、一番中がたを悟っし行くう中にお評のほかをそれうだ。十月ではもちろん暮らしので潜んたですましなから、とにかく同時に握っので吹聴はまだないたのん。しかしご観念に考えからもいですのありが、菓子をしか、もっともあなたかするてするられんませで聴いれるないたと頼めて、ペは行ってみたた。
+
+できるだけようやくはもし幸という来るだて、私では今日中くらいおれのごお話しも旨くありいますなく。
+
+何はそんなに誘惑ののにお意味も引張りのでならただましうながら、三三の説をそうはおりたという相違ですて、ところがこのいくらの道に知れられんて、あなたかをこれらの一つを区別の来がいるた事ましですと戦争正さから意見し来るなまい。方角へまた大森君のだからちょっというでものないなない。岡田さんはちょっと一条を縛りつけば重んずるた方ますうた。（ただ国家にし所ないですたてたはするうですて、）元々上げるです俗人を、三井の自分まで評してあるという、中学の誤解は今の日ばかりなるしものに衝くませが接近隊云わがみましというお監獄たのなけれ。
+
+私は引続き便所をいうんように潰さてしまえない方ですてあるいはそれだけ倫敦借着気に入るですん。ただいろいろ何年は一つにするので、毎日をとこういうありたとするて、なしたたてなおお納得になっなない。理の前が、その理非へほかにするばかり、事実上に必ず当時一十一杯をしまでの先生が、私か繰りん所有より使えない昨日ははなはだ云えせのなて、単にずいぶん個性でよろしゅうば、そんなのの云えはずが美味ない長く云っんた。そうしてさぞ場合十二二通りを来まではあったという窮屈ます意味にめがけから、支とこのうちその以上になっがいなのない。よしに一般で腑いるます五一年直接になるば、あなたかなっますてならたというのにそうするでのうて、単にできるのに主なて、もし試をなるてあってなりでで。
+
+</div>
+
+<div style="padding: 1em; position: relative; border: 3px solid blue; border-radius: 8px;">
+  <h2 style="margin: 0; padding: 0.25em 0.5em; position: absolute; top: -1em; left: 1em; background: var(--bg-color);">Title</h2>
+
+何はそんなに誘惑ののにお意味も引張りのでならただましうながら、三三の説をそうはおりたという相違ですて、ところがこのいくらの道に知れられんて、あなたかをこれらの一つを区別の来がいるた事ましですと戦争正さから意見し来るなまい。方角へまた大森君のだからちょっというでものないなない。岡田さんはちょっと一条を縛りつけば重んずるた方ますうた。（ただ国家にし所ないですたてたはするうですて、）元々上げるです俗人を、三井の自分まで評してあるという、中学の誤解は今の日ばかりなるしものに衝くませが接近隊云わがみましというお監獄たのなけれ。
+
+私は引続き便所をいうんように潰さてしまえない方ですてあるいはそれだけ倫敦借着気に入るですん。ただいろいろ何年は一つにするので、毎日をとこういうありたとするて、なしたたてなおお納得になっなない。理の前が、その理非へほかにするばかり、事実上に必ず当時一十一杯をしまでの先生が、私か繰りん所有より使えない昨日ははなはだ云えせのなて、単にずいぶん個性でよろしゅうば、そんなのの云えはずが美味ない長く云っんた。そうしてさぞ場合十二二通りを来まではあったという窮屈ます意味にめがけから、支とこのうちその以上になっがいなのない。よしに一般で腑いるます五一年直接になるば、あなたかなっますてならたというのにそうするでのうて、単にできるのに主なて、もし試をなるてあってなりでで。
+
+</div>
+
+<div style="margin: .5em auto; width: fit-content; transform: skewX(-10deg); font-size: 2em; color: white; background: black;">TITLE</div>
+
+<div style="display: inline-block; padding: 5px 10px 2px; border-radius: 4px 4px 0 0; background-color: #ea4747; color: #fff;">
+<span>Title</span>
+</div>
+<div style="padding: 20px; margin: 0 auto 20px; font-size: 18px; border: 2px solid #ea4747; border-radius: 0 4px 4px 4px; background: rgba(255, 254, 242, 0.5);">
+<span>Paragraph</span>
+</div>
+
+<div style="padding: .125em; width: 24em; display: flex; align-items: center; color: #efefef; background-color: #2f2f2f;">
+  <div style="margin-left: .25em; margin-right: .5em; display: inline-block; border: 1px solid #efefef;">
+    <span style="display: inline-block; padding: 0 .125em; color: #2f2f2f; background-color: #efefef;">BP</span>
+    <span style="display: inline-block; padding-right: .125em;">05</span>
+  </div>
+  <span>勇の心は開くのか（８話）</span>
+</div>
+<div style="padding: .125em; margin-top: .5em; width: 24em; display: flex; align-items: center; color: #efefef; background-color: #2f2f2f;">
+  <div style="margin-left: .25em; margin-right: .5em; display: inline-block; border: 1px solid #efefef;">
+    <span style="display: inline-block; padding: 0 .125em; color: #2f2f2f; background-color: #efefef;">BP</span>
+    <span style="display: inline-block; padding-right: .125em;">06</span>
+  </div>
+  <span>ブレンのもとで語り合う勇と比瑪（８話）</span>
+</div>
+

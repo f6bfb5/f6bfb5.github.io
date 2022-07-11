@@ -72,7 +72,7 @@ curl -H "Authorization: Bearer [ACCESS TOKEN]"
      https://discordapp.com/api/users/@me
 ```
 
-### b. 若順利成功，就可取得相關資料
+### b. 若成功就可取得相關資料
 
 ```json
 {
