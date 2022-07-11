@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-26fb6121.js",
+    "file": "start-c8d05e54.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -47,7 +47,7 @@
       "src/routes/lyrics/lyrics-yui-makino-modokashii-sekai-no-ue-de.md",
       "_2020-what-i-have-read-on-internet-712a0326.js",
       "_2021-what-i-have-read-on-internet-cac5fb3b.js",
-      "_2022-what-i-have-read-on-internet-3b23f284.js",
+      "_2022-what-i-have-read-on-internet-9852e090.js",
       "_ACG-80s-winter-age-of-anime-b9ceb30a.js",
       "_ACG-Pause-And-Select-Apocalypse-d9eddb97.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-14b57889.js",
@@ -91,12 +91,12 @@
       "_dot-painting-note-2e8df1f0.js",
       "_how-do-you-like-wendesday-da88b0d9.js",
       "_how-to-check-font-family-name-in-computer-7bc14f88.js",
-      "_login-with-discord-c60614cf.js",
+      "_login-with-discord-760152d4.js",
       "_mpv-ed80b2f2.js",
-      "_operating-with-keyboard-c0cf67bc.js",
+      "_operating-with-keyboard-8e29a786.js",
       "_search-engine-operators-4afaff17.js",
       "_sticker-generator-66909899.js",
-      "_template-9ab577b4.js",
+      "_template-47cde468.js",
       "_tool-list-creativity-e06a358d.js",
       "_tool-list-gaming-8594526b.js",
       "_tool-list-system-1af9ddd7.js",
@@ -146,14 +146,14 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-f5ffa4dd.js",
+    "file": "pages/_slug_.svelte-a1c55a2a.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-712a0326.js",
       "_2021-what-i-have-read-on-internet-cac5fb3b.js",
-      "_2022-what-i-have-read-on-internet-3b23f284.js",
+      "_2022-what-i-have-read-on-internet-9852e090.js",
       "_ACG-80s-winter-age-of-anime-b9ceb30a.js",
       "_ACG-Pause-And-Select-Apocalypse-d9eddb97.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-14b57889.js",
@@ -197,12 +197,12 @@
       "_dot-painting-note-2e8df1f0.js",
       "_how-do-you-like-wendesday-da88b0d9.js",
       "_how-to-check-font-family-name-in-computer-7bc14f88.js",
-      "_login-with-discord-c60614cf.js",
+      "_login-with-discord-760152d4.js",
       "_mpv-ed80b2f2.js",
-      "_operating-with-keyboard-c0cf67bc.js",
+      "_operating-with-keyboard-8e29a786.js",
       "_search-engine-operators-4afaff17.js",
       "_sticker-generator-66909899.js",
-      "_template-9ab577b4.js",
+      "_template-47cde468.js",
       "_tool-list-creativity-e06a358d.js",
       "_tool-list-gaming-8594526b.js",
       "_tool-list-system-1af9ddd7.js",
@@ -228,14 +228,14 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-ac53b40e.js",
+    "file": "pages/index.svelte-fc792362.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-712a0326.js",
       "_2021-what-i-have-read-on-internet-cac5fb3b.js",
-      "_2022-what-i-have-read-on-internet-3b23f284.js",
+      "_2022-what-i-have-read-on-internet-9852e090.js",
       "_ACG-80s-winter-age-of-anime-b9ceb30a.js",
       "_ACG-Pause-And-Select-Apocalypse-d9eddb97.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-14b57889.js",
@@ -279,12 +279,12 @@
       "_dot-painting-note-2e8df1f0.js",
       "_how-do-you-like-wendesday-da88b0d9.js",
       "_how-to-check-font-family-name-in-computer-7bc14f88.js",
-      "_login-with-discord-c60614cf.js",
+      "_login-with-discord-760152d4.js",
       "_mpv-ed80b2f2.js",
-      "_operating-with-keyboard-c0cf67bc.js",
+      "_operating-with-keyboard-8e29a786.js",
       "_search-engine-operators-4afaff17.js",
       "_sticker-generator-66909899.js",
-      "_template-9ab577b4.js",
+      "_template-47cde468.js",
       "_tool-list-creativity-e06a358d.js",
       "_tool-list-gaming-8594526b.js",
       "_tool-list-system-1af9ddd7.js",
@@ -667,13 +667,13 @@
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-73c4b772.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-df502116.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-1cb0a915.js",
       "__post-8b5fe991.js",
-      "_2022-what-i-have-read-on-internet-3b23f284.js",
+      "_2022-what-i-have-read-on-internet-9852e090.js",
       "_BlinkAnchor-55bdbd1c.js"
     ]
   },
@@ -1151,13 +1151,13 @@
     ]
   },
   "src/routes/posts/login-with-discord.md": {
-    "file": "pages/posts/login-with-discord.md-3ffeb192.js",
+    "file": "pages/posts/login-with-discord.md-c717ddbc.js",
     "src": "src/routes/posts/login-with-discord.md",
     "isEntry": true,
     "imports": [
       "_index-1cb0a915.js",
       "__post-8b5fe991.js",
-      "_login-with-discord-c60614cf.js",
+      "_login-with-discord-760152d4.js",
       "_BlinkAnchor-55bdbd1c.js"
     ]
   },
@@ -1173,13 +1173,13 @@
     ]
   },
   "src/routes/posts/operating-with-keyboard.md": {
-    "file": "pages/posts/operating-with-keyboard.md-2752c712.js",
+    "file": "pages/posts/operating-with-keyboard.md-848ae429.js",
     "src": "src/routes/posts/operating-with-keyboard.md",
     "isEntry": true,
     "imports": [
       "_index-1cb0a915.js",
       "__post-8b5fe991.js",
-      "_operating-with-keyboard-c0cf67bc.js",
+      "_operating-with-keyboard-8e29a786.js",
       "_BlinkAnchor-55bdbd1c.js"
     ]
   },
@@ -1206,13 +1206,13 @@
     ]
   },
   "src/routes/posts/template.md": {
-    "file": "pages/posts/template.md-4e3d85c7.js",
+    "file": "pages/posts/template.md-2aa99142.js",
     "src": "src/routes/posts/template.md",
     "isEntry": true,
     "imports": [
       "_index-1cb0a915.js",
       "__post-8b5fe991.js",
-      "_template-9ab577b4.js",
+      "_template-47cde468.js",
       "_BlinkAnchor-55bdbd1c.js"
     ]
   },
@@ -1330,8 +1330,8 @@
       "__post-8b5fe991.js"
     ]
   },
-  "_2022-what-i-have-read-on-internet-3b23f284.js": {
-    "file": "chunks/2022-what-i-have-read-on-internet-3b23f284.js",
+  "_2022-what-i-have-read-on-internet-9852e090.js": {
+    "file": "chunks/2022-what-i-have-read-on-internet-9852e090.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1cb0a915.js",
@@ -1685,8 +1685,8 @@
       "__post-8b5fe991.js"
     ]
   },
-  "_login-with-discord-c60614cf.js": {
-    "file": "chunks/login-with-discord-c60614cf.js",
+  "_login-with-discord-760152d4.js": {
+    "file": "chunks/login-with-discord-760152d4.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1cb0a915.js",
@@ -1704,8 +1704,8 @@
       "__post-8b5fe991.js"
     ]
   },
-  "_operating-with-keyboard-c0cf67bc.js": {
-    "file": "chunks/operating-with-keyboard-c0cf67bc.js",
+  "_operating-with-keyboard-8e29a786.js": {
+    "file": "chunks/operating-with-keyboard-8e29a786.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1cb0a915.js",
@@ -1731,8 +1731,8 @@
       "assets/sticker-generator-a58d6bc5.css"
     ]
   },
-  "_template-9ab577b4.js": {
-    "file": "chunks/template-9ab577b4.js",
+  "_template-47cde468.js": {
+    "file": "chunks/template-47cde468.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1cb0a915.js",
