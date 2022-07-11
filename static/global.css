@@ -320,6 +320,9 @@ rb,
 rt {
   display: inline;
 }
+rt {
+  user-select: none;
+}
 
 table {
   border-collapse: collapse;
