@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-c8d05e54.js",
+    "file": "start-c437fb2c.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -47,7 +47,7 @@
       "src/routes/lyrics/lyrics-yui-makino-modokashii-sekai-no-ue-de.md",
       "_2020-what-i-have-read-on-internet-712a0326.js",
       "_2021-what-i-have-read-on-internet-cac5fb3b.js",
-      "_2022-what-i-have-read-on-internet-9852e090.js",
+      "_2022-what-i-have-read-on-internet-39a77b1f.js",
       "_ACG-80s-winter-age-of-anime-b9ceb30a.js",
       "_ACG-Pause-And-Select-Apocalypse-d9eddb97.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-14b57889.js",
@@ -78,7 +78,7 @@
       "_ACG-the-influences-of-naoko-yamada-69780c8b.js",
       "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-e0e791f9.js",
       "_ACG-thought-about-re-take-6028bd4b.js",
-      "_ACG-understanding-staff-of-anime-711a4278.js",
+      "_ACG-understanding-staff-of-anime-0fa6bf40.js",
       "_ACG-why-you-should-not-use-interpolation-on-anime-ffe20fa3.js",
       "_ACG-would-netflix-be-the-saviour-of-anime-37a6974a.js",
       "_ACG-yume-no-shima-de-aimashou-02e9570a.js",
@@ -88,7 +88,7 @@
       "_blog-with-sapper-0deab294.js",
       "_blog-with-sveltekit-097451f5.js",
       "_capitalist-realism-mark-fisher-66918b74.js",
-      "_dot-painting-note-2e8df1f0.js",
+      "_dot-painting-note-13a5a7da.js",
       "_how-do-you-like-wendesday-da88b0d9.js",
       "_how-to-check-font-family-name-in-computer-7bc14f88.js",
       "_login-with-discord-760152d4.js",
@@ -146,14 +146,14 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-a1c55a2a.js",
+    "file": "pages/_slug_.svelte-7537f570.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-712a0326.js",
       "_2021-what-i-have-read-on-internet-cac5fb3b.js",
-      "_2022-what-i-have-read-on-internet-9852e090.js",
+      "_2022-what-i-have-read-on-internet-39a77b1f.js",
       "_ACG-80s-winter-age-of-anime-b9ceb30a.js",
       "_ACG-Pause-And-Select-Apocalypse-d9eddb97.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-14b57889.js",
@@ -184,7 +184,7 @@
       "_ACG-the-influences-of-naoko-yamada-69780c8b.js",
       "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-e0e791f9.js",
       "_ACG-thought-about-re-take-6028bd4b.js",
-      "_ACG-understanding-staff-of-anime-711a4278.js",
+      "_ACG-understanding-staff-of-anime-0fa6bf40.js",
       "_ACG-why-you-should-not-use-interpolation-on-anime-ffe20fa3.js",
       "_ACG-would-netflix-be-the-saviour-of-anime-37a6974a.js",
       "_ACG-yume-no-shima-de-aimashou-02e9570a.js",
@@ -194,7 +194,7 @@
       "_blog-with-sapper-0deab294.js",
       "_blog-with-sveltekit-097451f5.js",
       "_capitalist-realism-mark-fisher-66918b74.js",
-      "_dot-painting-note-2e8df1f0.js",
+      "_dot-painting-note-13a5a7da.js",
       "_how-do-you-like-wendesday-da88b0d9.js",
       "_how-to-check-font-family-name-in-computer-7bc14f88.js",
       "_login-with-discord-760152d4.js",
@@ -228,14 +228,14 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-fc792362.js",
+    "file": "pages/index.svelte-e53b9997.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-712a0326.js",
       "_2021-what-i-have-read-on-internet-cac5fb3b.js",
-      "_2022-what-i-have-read-on-internet-9852e090.js",
+      "_2022-what-i-have-read-on-internet-39a77b1f.js",
       "_ACG-80s-winter-age-of-anime-b9ceb30a.js",
       "_ACG-Pause-And-Select-Apocalypse-d9eddb97.js",
       "_ACG-all-about-kaworu-ikuhara-kunihiko-interview-14b57889.js",
@@ -266,7 +266,7 @@
       "_ACG-the-influences-of-naoko-yamada-69780c8b.js",
       "_ACG-the-way-of-quality-anubis-zone-of-enders-hd-edition-e0e791f9.js",
       "_ACG-thought-about-re-take-6028bd4b.js",
-      "_ACG-understanding-staff-of-anime-711a4278.js",
+      "_ACG-understanding-staff-of-anime-0fa6bf40.js",
       "_ACG-why-you-should-not-use-interpolation-on-anime-ffe20fa3.js",
       "_ACG-would-netflix-be-the-saviour-of-anime-37a6974a.js",
       "_ACG-yume-no-shima-de-aimashou-02e9570a.js",
@@ -276,7 +276,7 @@
       "_blog-with-sapper-0deab294.js",
       "_blog-with-sveltekit-097451f5.js",
       "_capitalist-realism-mark-fisher-66918b74.js",
-      "_dot-painting-note-2e8df1f0.js",
+      "_dot-painting-note-13a5a7da.js",
       "_how-do-you-like-wendesday-da88b0d9.js",
       "_how-to-check-font-family-name-in-computer-7bc14f88.js",
       "_login-with-discord-760152d4.js",
@@ -667,13 +667,13 @@
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-df502116.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-eb56669b.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-1cb0a915.js",
       "__post-8b5fe991.js",
-      "_2022-what-i-have-read-on-internet-9852e090.js",
+      "_2022-what-i-have-read-on-internet-39a77b1f.js",
       "_BlinkAnchor-55bdbd1c.js"
     ]
   },
@@ -1008,13 +1008,13 @@
     ]
   },
   "src/routes/posts/ACG-understanding-staff-of-anime.md": {
-    "file": "pages/posts/ACG-understanding-staff-of-anime.md-14079989.js",
+    "file": "pages/posts/ACG-understanding-staff-of-anime.md-55e1db82.js",
     "src": "src/routes/posts/ACG-understanding-staff-of-anime.md",
     "isEntry": true,
     "imports": [
       "_index-1cb0a915.js",
       "__post-8b5fe991.js",
-      "_ACG-understanding-staff-of-anime-711a4278.js",
+      "_ACG-understanding-staff-of-anime-0fa6bf40.js",
       "_BlinkAnchor-55bdbd1c.js"
     ]
   },
@@ -1118,13 +1118,13 @@
     ]
   },
   "src/routes/posts/dot-painting-note.md": {
-    "file": "pages/posts/dot-painting-note.md-82d4c738.js",
+    "file": "pages/posts/dot-painting-note.md-933e96d4.js",
     "src": "src/routes/posts/dot-painting-note.md",
     "isEntry": true,
     "imports": [
       "_index-1cb0a915.js",
       "__post-8b5fe991.js",
-      "_dot-painting-note-2e8df1f0.js",
+      "_dot-painting-note-13a5a7da.js",
       "_BlinkAnchor-55bdbd1c.js"
     ]
   },
@@ -1330,8 +1330,8 @@
       "__post-8b5fe991.js"
     ]
   },
-  "_2022-what-i-have-read-on-internet-9852e090.js": {
-    "file": "chunks/2022-what-i-have-read-on-internet-9852e090.js",
+  "_2022-what-i-have-read-on-internet-39a77b1f.js": {
+    "file": "chunks/2022-what-i-have-read-on-internet-39a77b1f.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1cb0a915.js",
@@ -1581,8 +1581,8 @@
       "__post-8b5fe991.js"
     ]
   },
-  "_ACG-understanding-staff-of-anime-711a4278.js": {
-    "file": "chunks/ACG-understanding-staff-of-anime-711a4278.js",
+  "_ACG-understanding-staff-of-anime-0fa6bf40.js": {
+    "file": "chunks/ACG-understanding-staff-of-anime-0fa6bf40.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1cb0a915.js",
@@ -1661,8 +1661,8 @@
       "__post-8b5fe991.js"
     ]
   },
-  "_dot-painting-note-2e8df1f0.js": {
-    "file": "chunks/dot-painting-note-2e8df1f0.js",
+  "_dot-painting-note-13a5a7da.js": {
+    "file": "chunks/dot-painting-note-13a5a7da.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1cb0a915.js",
@@ -1750,7 +1750,7 @@
       "__post-8b5fe991.js"
     ],
     "css": [
-      "assets/tool-list-system-90e7347a.css"
+      "assets/tool-list-gaming-cfa2b81a.css"
     ]
   },
   "_tool-list-gaming-8594526b.js": {
@@ -1761,7 +1761,7 @@
       "__post-8b5fe991.js"
     ],
     "css": [
-      "assets/tool-list-system-90e7347a.css"
+      "assets/tool-list-gaming-cfa2b81a.css"
     ]
   },
   "_tool-list-system-1af9ddd7.js": {
@@ -1772,7 +1772,7 @@
       "__post-8b5fe991.js"
     ],
     "css": [
-      "assets/tool-list-system-90e7347a.css"
+      "assets/tool-list-gaming-cfa2b81a.css"
     ]
   },
   "_tool-list-website-4e02e29d.js": {
