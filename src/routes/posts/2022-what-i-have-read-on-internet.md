@@ -261,7 +261,6 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [ハニワ開発室(ゲームデザイナーの隠居生活): 私のアリスソフト史１５(2006-2008)](https://hannylaboratory.blogspot.com/2022/03/2006-2008.html)
 - [スクエニ新作「チョコボ GP」オン対戦が不具合続出でレースどころではない事態に　「スタート順がバラバラ」「強制優勝」](https://nlab.itmedia.co.jp/nl/articles/2203/10/news136.html)
 - [旧限界数学ゼミガール](http://semigirls.conohawing.com/?p=101)
-
 - [「作中で真犯人とされたキャラは真犯人ではない」と主張した映画考察から見極めたい「受け取った側の自由」の限度。オッカムの剃刀の必要性も](https://togetter.com/li/1856964)
 - [「公式が勝手に言ってるだけ」からはじめる文学理論半世紀](https://anond.hatelabo.jp/20220311180824)
 - [作者の意図と作品の解釈 - 9bit](http://9bit.99ing.net/Entry/34/)
@@ -1215,3 +1214,7 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [言論では届かなかった氷河期世代の声 - ニャート](https://nyaaat.hatenablog.com/entry/2022/07/09)
 - [政治的問題に矮小化するということ～無敵の人について～ - メロンダウト](https://plagmaticjam.hatenablog.com/entry/2022/07/09/215929)
 - [PlayStation エミュレータ作りに取り組んだ](https://zenn.dev/mjhd/articles/4040ef2fc47adc)
+- [国内アプリゲーム開発者が「広告量を半分にしたら、ただ収益が半減した」と明かす。ユーザー思いの施策が振るわず](https://automaton-media.com/articles/newsjp/20220711-209891/)
+- [アベノミクスのレガシー](https://note.com/gyamaguchi/n/nfe629f91d172)
+- [レトロPCゲームみたいな写真が撮りたい](https://dailyportalz.jp/kiji/retro_PC_game-mitaina-shashin)
+- [旧統一教会・戦後保守・岸信介…安倍元総理銃撃事件犯人の世界観とは？（古谷経衡）](https://news.yahoo.co.jp/byline/furuyatsunehira/20220712-00305301)

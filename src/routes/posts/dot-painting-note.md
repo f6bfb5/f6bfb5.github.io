@@ -20,6 +20,7 @@ tags: Toolbox
 - [ドットでゲームキャラを描こう！～桜乃そらのよわよわゲーム制作部(仮)～](https://www.nicovideo.jp/watch/sm36034396)
 - [ドットでゲームキャラを描こう！～アニメーション～](https://www.nicovideo.jp/watch/sm36120470)
 - [エミネムさんがドット絵の描き方を教えてくれるそうです](https://www.nicovideo.jp/watch/sm32752899)
+- [Aseprite（エースプライト）～初級者向け講座～](https://www.youtube.com/watch?v=JW-v6UZUE8Y&list=WL&index=28&t=909s)
 
 ## Article
 
