@@ -76,8 +76,5 @@ tags: ACG, Anime
 
 ## 相關資料
 
-- [我們當年的聖經在 Kindle 上復刻了 《新世紀福音戰士．分裂》、《新世紀福音戰士．偏執》](./ACG-our-bible-just-reissue-in-kindle)
 - [The End of Evangelion 中的恐嚇信](http://orgsun.blogspot.com/2011/05/end-of-evangelion.html)
-- [《新世紀福音戰士》 舊劇場版 紅十字書 鶴卷和哉訪談](./ACG-eoe-interview)
-- [關於渚薰的一切——幾原邦彥訪談](./ACG-all-about-kaworu-ikuhara-kunihiko-interview)
 - [PAS 動畫評論 次文化與末世論](./ACG-Pause-And-Select-Apocalypse)

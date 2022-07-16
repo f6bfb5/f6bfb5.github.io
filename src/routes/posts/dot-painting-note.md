@@ -25,13 +25,22 @@ tags: Toolbox
 ## Article
 
 - [ドット道](http://temaemisokoubou.web.fc2.com/)
-- [GraphicsGaleで格ゲーキャラを描こう！！](http://powudon.com/Galekouza/Gale_top.html)
+- [GraphicsGale で格ゲーキャラを描こう！！](http://powudon.com/Galekouza/Gale_top.html)
 - [単色(1bit)で描いてデフォルメ力を鍛えよう！【ドット絵講座】](https://moshi-nara.com/18723/)
 - [ドット絵の作画技法・表現方法について学ぼう編【現役ゲームクリエイターによるドット基礎講座 第 3 回】](https://garage.creatures.co.jp/blog/851/)
 - [ドット絵の色数制限別の作画方法について学ぼう編【現役ゲームクリエイターによるドット基礎講座 第 4 回】](https://garage.creatures.co.jp/blog/1068/)
+- [Puking Rabbit の色のつくりかた](https://twitter.com/puking_rabbit/status/1058653378387955712)
 
 ## 基礎
 
 - 直線
 - 圓
 - 影子
+
+## 角度
+
+- 平視
+- 俯視
+- 斜視
+- 意識光影角度
+- 意識材質質感
