@@ -1208,7 +1208,7 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 
 > 創作與表現裡的「不要傷害到人」與「一定會傷害人」是一體兩面，從歷史學者林恩．亨特自 18 世紀起的文學史研究，與哲學家辛格的心理分析來看，這代表的是「可以安全地傷害人」。在創作裡受的傷與現實的傷口比起安全許多，更是為了應對現實必須的存在。
 
-- [猫は「ゴハン」としゃべるのか？→ 本当にしゃべってるっぽい :: デイリーポータル Z](https://dailyportalz.jp/kiji/the-cat-speaks-gohan)
+- [猫は「ゴハン」としゃべるのか？→ 本当にしゃべってるっぽい](https://dailyportalz.jp/kiji/the-cat-speaks-gohan)
 - [トライアル授業動画「レイアウト・構図」担当教員：斉藤拓也 【京都芸術大学 通信教育部 イラストレーションコース】](https://www.youtube.com/watch?v=NnbCG1E1P4g)
 - [UZZY - 高瀬継久](https://shonenjumpplus.com/episode/3270375685326452090)
 - [言論では届かなかった氷河期世代の声 - ニャート](https://nyaaat.hatenablog.com/entry/2022/07/09)
@@ -1216,5 +1216,13 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [PlayStation エミュレータ作りに取り組んだ](https://zenn.dev/mjhd/articles/4040ef2fc47adc)
 - [国内アプリゲーム開発者が「広告量を半分にしたら、ただ収益が半減した」と明かす。ユーザー思いの施策が振るわず](https://automaton-media.com/articles/newsjp/20220711-209891/)
 - [アベノミクスのレガシー](https://note.com/gyamaguchi/n/nfe629f91d172)
-- [レトロPCゲームみたいな写真が撮りたい](https://dailyportalz.jp/kiji/retro_PC_game-mitaina-shashin)
+- [レトロ PC ゲームみたいな写真が撮りたい](https://dailyportalz.jp/kiji/retro_PC_game-mitaina-shashin)
+  - [レトロ PC ゲームみたいな画像にするよ](https://rpp.snca.net/)
 - [旧統一教会・戦後保守・岸信介…安倍元総理銃撃事件犯人の世界観とは？（古谷経衡）](https://news.yahoo.co.jp/byline/furuyatsunehira/20220712-00305301)
+- [人類社會的進步：過去、現在與未來](https://www.bbc.com/zhongwen/trad/science-61951758)
+- ["やるべきこと"をやる"気力"の枯渇](http://hatarakutokoganai.blog.fc2.com/blog-entry-561.html)
+- [このタイミングで上映される「輪るピングドラム」という運命の話](https://anond.hatelabo.jp/20220713203406)
+- [鷹の台に『ノルウェイの森』はなかった](https://suumo.jp/town/entry/takanodai-jinushikeisuke/)
+- [「61 億Ｋ必要」"Ｋ"＝献金集めるよう指示する内部文書入手　謎の"Ｍ作戦"も　"統一教会"元信者が語る第 4 弾](https://newsdig.tbs.co.jp/articles/tut/95733?display=1)
+- [一口エッセイ:90 年代のイデアのようなアニメ曲たち](https://note.com/nyalra2/n/nfff1fcd70de2)
+- [企業系攻略サイトを回避してググれるサイトをつくりました。 - ゲームブンセキ](https://gamebunseki.hatenablog.com/entry/2019/11/26/231054)

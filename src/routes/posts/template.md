@@ -304,3 +304,4 @@ flowchart TB
   <span>ブレンのもとで語り合う勇と比瑪（８話）</span>
 </div>
 
+<span></span><span style="display: inline-block; transform: rotate(45deg); transform-origin: center center;"></span><span></span><span></span>
