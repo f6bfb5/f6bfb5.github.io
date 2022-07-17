@@ -1,7 +1,7 @@
 ---
 title: "全球最大的頂尖 RTA 玩家慈善盛會 Games Done Quick 介紹"
 date: 2018-10-28T19:58:53.000Z
-summary: ""
+summary: "Games Done Quick 是個在美國半年度舉辦一次的電玩競速慈善馬拉松活動，起先活動主要成員由 Speed Demos Archive 與 Speedruns Live 的社群成員所組成，在 2015 年後則改由 Games Done Quick 公司處理。自 2010 年起舉辦至今，此活動已為許多慈善團體募得資金，目前最常見的兩大組織為預防癌症基金會與無國界醫生。"
 tags: ACG, Game
 ---
 
@@ -52,7 +52,7 @@ RTA（Real Time Attack）是玩家社群裡一種遊戲的遊玩方式，如同�
 
 ## 什麼是 GDQ？
 
-Games Done Quick 是個**在美國半年度舉辦一次的電玩競速慈善馬拉松活動**，起先活動主要成員由 Speed Demos Archive 與 Speedruns Live 的社群成員所組成，在 2015 年後則改由 Games Done Quick 公司所處理。自 2010 年起舉辦至今，此活動已為許多慈善團體募得資金，目前最常見的兩大組織為預防癌症基金會與無國界醫生。
+Games Done Quick 是個**在美國半年度舉辦一次的電玩競速慈善馬拉松活動**，起先活動主要成員由 Speed Demos Archive 與 Speedruns Live 的社群成員所組成，在 2015 年後則改由 Games Done Quick 公司處理。自 2010 年起舉辦至今，此活動已為許多慈善團體募得資金，目前最常見的兩大組織為預防癌症基金會與無國界醫生。
 
 並且會在 Twitch 上串流，觀眾能夠透過捐贈為遊戲腳色命名，讓跑者挑戰更高的難度，或是參加節目內的禮品抽獎。自 2017 年起更透過讓不同國家的社群進行二次轉播，讓英文能力不強的觀眾也能更加體驗到這個活動的樂趣。在活動結束後也會將影片留存，觀眾完全不必擔心錯過而沒能看到節目內容。
 

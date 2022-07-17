@@ -16,7 +16,40 @@ tags:
 
 這樣毫無包袱的節目形式，讓當時僅是大學生的大泉洋，發揮了其天才般的豪華口才，以及普通節目所看不到的，藝人與導演之間的閒話家常、嘻笑怒罵，首集節目在深夜 12 點 50 分開播，仍拿到了 4.4% 的收視率，而這種全新的節目內容，在當時北海道的深夜播放時段更拿到了平均 10% 收視率的驚人成績。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cGeeGsX8ykU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video" title="樋口了一 - 1/6の夢旅人2002" src="https://www.youtube.com/embed/lxt-zHlHd1o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<svelte:head>
+  <script src="../subtitle/youtube.external.subtitle.min.js"></script>
+  <script src="../subtitle/subtitles.parser.js"></script>
+</svelte:head>
+
+<script>
+  import { onMount } from 'svelte';
+  let subfile = '../subtitle/higuchi-ryouichi-1-6-dream-traveller.srt'
+  onMount(() => {
+    var loadSRT = function(url, callback) {
+      var httpRequest = new XMLHttpRequest();
+      httpRequest.onreadystatechange = function() {
+        if (httpRequest.readyState === XMLHttpRequest.DONE) {
+          var subtitles = parser.fromSrt(httpRequest.responseText, true);
+          for (var i in subtitles) {
+            subtitles[i] = {
+              start : (subtitles[i].startTime / 1000) + 13,
+              end   : (subtitles[i].endTime / 1000) + 13,
+              text  : subtitles[i].text
+            };
+          }
+          callback(subtitles);
+        }
+      };
+      httpRequest.open('GET', url, true);
+      httpRequest.send(null);
+    };
+    loadSRT(subfile, function(subtitles) {
+      var youtubeExternalSubtitle = new YoutubeExternalSubtitle.Subtitle(document.getElementById('video'), subtitles);
+    });
+  })
+</script>
 
 △ 主題曲「1/6 の夢旅人」，曲名裡的「1/6」是取自初期的知名企畫「骰子之旅」的骰子數字，蘊涵著「要去哪裡都交由骰子決定」的意義。
 
