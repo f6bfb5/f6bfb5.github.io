@@ -48,6 +48,13 @@
     "https://www.youtube.com/watch?v=s3dVPAAEX14",
     // あなたは世界の終わりにずんだを食べるのだ / なみぐる feat.ずんだもん
     "https://www.nicovideo.jp/watch/sm40487046",
+    // ----
+    // ぼくのフレンド
+    "https://www.youtube.com/watch?v=83xwNaTUB54",
+    // the pillows / Funny Bunny
+    "https://www.youtube.com/watch?v=f92VWkYl8CI",
+    // TVアニメ「ゆるキャン△」MV～1/6の夢旅人2002ver.～
+    "https://www.youtube.com/watch?v=lxt-zHlHd1o",
     // ----------------------------------------
     // Game
     // ----------------------------------------
