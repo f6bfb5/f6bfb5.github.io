@@ -56,8 +56,6 @@
     "https://64.media.tumblr.com/414c6d09204aba6b054341b45b68758d/tumblr_n381ofewGD1qghl49o1_r1_500.gifv",
     "https://64.media.tumblr.com/4c10be689ac1391fc24526008320e33b/tumblr_moro5oFd9n1qghl49o1_r1_500.gifv",
     // "https://c.tenor.com/6-OKnddIaaIAAAAC/oddloop-frederic.gif",
-    // "https://i.imgur.com/vGT9RRj.jpg",
-    "https://i.imgur.com/SqCn8Gj.jpg",
   ];
 
   const randomTargetUrlArr = [
