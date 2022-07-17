@@ -59,6 +59,7 @@
   import IP from "$lib/IP.svelte";
   import TagsFilter from "$lib/TagsFilter.svelte";
   import ArticlesList from "$lib/ArticlesList.svelte";
+  import RandomImage from "$lib/RandomImage.svelte";
 
 </script>
 
@@ -88,7 +89,8 @@
   <h1 data-text="Articles">Articles</h1>
   <TagsFilter {allPostsTags} />
   <ArticlesList {allPostsYears} {posts} />
-
+  
+  <RandomImage />
 </div>
 
 <style scoped>
