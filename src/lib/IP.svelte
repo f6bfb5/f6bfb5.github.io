@@ -7,12 +7,15 @@
   let corsanywhere = "https://cors-anywhere-srmlyuexjbosgg0x.herokuapp.com/";
   let apiUrl = "https://api.ipify.org?format=json";
 
+  let nav = "";
+
   onMount(async function () {
     if ($ip === "") {
       await fetch(corsanywhere + apiUrl)
         .then((resp) => resp.json())
         .then((data) => ($ip = data.ip));
     }
+    nav = navigator.appVersion;
   });
 </script>
 
@@ -22,6 +25,13 @@
     <span>LL0</span>
   </div>
   <span>{$ip}</span>
+</div>
+<div class="ip--container">
+  <div class="ip--label">
+    <span>FR1</span>
+    <span>3ND</span>
+  </div>
+  <span>{nav}</span>
 </div>
 
 <style scoped>
@@ -44,11 +54,14 @@
     display: flex;
     margin-left: 0.225em;
     margin-right: 0.5em;
+    min-width: 4em;
     outline: 1px solid #efefef;
   }
   .ip--label span {
     padding: 0 0.25em;
     position: relative;
+    width: 100%;
+    word-break: keep-all;
   }
   .ip--label span:nth-child(1) {
     color: #2f2f2f;
