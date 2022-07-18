@@ -2,6 +2,12 @@ let siteUrl = "https://f6bfb5.github.io";
 
 export async function get() {
   const allPosts = import.meta.globEager(`../routes/posts/*.md`);
+  const sortedAllPosts = Object.keys(allPosts)
+    .map((path) => {
+      allPosts[path].metadata["path"] = path;
+      return allPosts[path].metadata;
+    })
+    .sort((a, b) => new Date(b.date) - new Date(a.date));
 
   const body = `
   <?xml version="1.0" encoding="UTF-8" ?>
@@ -12,26 +18,18 @@ export async function get() {
     <description>Close the world,.txEn eht nepO</description>
     <language>zh-tw</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-    ${Object.keys(allPosts)
+    ${sortedAllPosts
       .map(
-        (path) => `
+        (post) => `
       <item>
-        <title>${allPosts[path].metadata.title}</title>
-        <link>${siteUrl}/${path
+        <title>${post.title}</title>
+        <link>${siteUrl}/${post.path
           .split("/")
-          [path.split("/").length - 1].slice(0, -3)}</link>
-        <pubDate>${new Date(
-          allPosts[path].metadata.date
-        ).toISOString()}</pubDate>
-        ${
-          allPosts[path].metadata.summary
-            ? "<description>" +
-              allPosts[path].metadata.summary +
-              "</description>"
-            : ""
-        }
+          [post.path.split("/").length - 1].slice(0, -3)}</link>
+        <pubDate>${new Date(post.date).toISOString()}</pubDate>
+        ${post.summary ? "<description>" + post.summary + "</description>" : ""}
       </item>
-      `
+    `
       )
       .join("")}
   </channel>
