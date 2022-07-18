@@ -22,6 +22,10 @@
     left: 0;
     mix-blend-mode: screen;
     animation: glitch 5s infinite alternate;
+
+    font-weight: bold;
+    color: red;
+    -webkit-text-stroke: 2px red;
   }
   .vhs::before {
     text-shadow: 0 0 0.125rem #f00;
