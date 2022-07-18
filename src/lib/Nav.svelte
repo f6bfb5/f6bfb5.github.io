@@ -21,6 +21,7 @@
     "有言実行",
     // 林纈
     // 翳光
+    // Mary Sue
   ];
 </script>
 
@@ -37,10 +38,13 @@
   <a
     class={$page.url.pathname === "/rss" ? "selected" : ""}
     href={`${base}/rss.xml`}
+    target="_blank"
   >
     rss
   </a>
-  <a href={`${base}/sitemap.xml`} style="display: none;">sitemap</a>
+  <a style="display: none;" href={`${base}/sitemap.xml`} target="_blank">
+    sitemap
+  </a>
 </nav>
 
 <style scoped>
