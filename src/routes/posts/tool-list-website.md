@@ -32,6 +32,19 @@ tags: Toolbox
 - [ブリコラージュ@川内川前叢茅辺](http://st.cat-v.ne.jp/kawamae_cho/index.html)
 - [e-typing ローマ字タイピング](https://www.e-typing.ne.jp/roma/check/)
 - [ネットワーク対戦タイピング Weather Typing](https://denasu.com/software/weathertyping.html)
+- [映画学メモ 「映画学入門」　目次（これまで扱った分）](http://filmstudies.blog21.fc2.com/blog-entry-76.html)
+- [錯視と錯聴を体験 Illusion Forum イリュージョンフォーラム 錯覚一覧](https://illusion-forum.ilab.ntt.co.jp/list.html)
+- [群衆の英知もしくは狂気](https://ncase.me/crowds/ja.html)
+- [有名問題・定理から学ぶ高校数学](https://wkmath.org/hsf.html)
+- [THE MAKING（1）～（50）](https://scienceportal.jst.go.jp/feature/b980601_01/)
+- [デジタルカメラの歴史 history of digital cameras /monox デジカメ 比較 レビュー](http://www.monox.jp/history/digitalcamera-history-01.html)
+- [日本語教育用アクセント辞典](https://accent.u-biq.org/)
+- [Vaporwave A to Z：蒸気波仮想世界地図―――Vaporwave サブジャンルまとめ](https://obakeweb.hatenablog.com/entry/vaporwave_worldmap)
+- [あに瓶: アニメキャプに FFT をかけてアニメ画質を評価するブログ HV 判定(HD)、アプコン判定の客観的手法？を検証](https://anibin.blogspot.com/)
+- [論理憲法](https://bitlaw-jp.github.io/logicon-system/)
+- [N.O.M：2012 年のバックナンバー](https://www.nintendo.co.jp/nom/backnumber/index.html)
+- [失敗知識データベース](http://www.shippai.org/fkd/index.php)
+- [ゼロ年代インターネットスラングとかまとめ Wiki\*](https://wikiwiki.jp/moudameder/)
 
 ## 社會
 

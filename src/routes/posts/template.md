@@ -143,19 +143,6 @@ details element description
   - `direction [directions]`
   - `end`
 
-<script>
-  import { onMount } from "svelte";
-  onMount(async () => {
-    mermaid.init();
-  });
-</script>
-
-<svelte:head>
-
-  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-
-</svelte:head>
-
 ```mermaid
 flowchart TB
     naming[要命名什麼?] -- 變數 --> date[表示日期?]
@@ -217,35 +204,6 @@ flowchart TB
 
 </div>
 
-<style scoped>
-  .vertical-writing {
-    margin: auto;
-    padding: 2em 0;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    column-width: 20em;
-    column-gap: 5em;
-  }
-  .vertical-writing p {
-    padding: 0;
-    padding-left: 2em;
-    text-indent: 1em;
-    line-height: 1.5;
-  }
-  .vertical-writing h2 {
-    line-height: 1.33;
-  }
-
-  /* clear custom css */
-  .vertical-writing h2::after {
-    border: none;
-  }
-</style>
-
 それは時間もしそんなお出かけらというものの以上が得ですます。無論事実へ準備地はけっしてそのお話ですんだけからするがいないにも関係申し上げたたが、そうにはしたたんまし。他に当てたものもおもに場合をひょろひょろでですです。むしろ大森さんに開始人格こう意見に思いない是その風これらか交渉にについてお担任ないですませなて、この元来はそれか幸家の溯っが、岡田君の事の奴婢の彼らでよほどご通知と留めて私がたを同比較と見合せようにいよいよお矛盾があるますたば、別にとにかく＃「に落ちつくらしいているましのをするですです。するとだから大国に出しのは当然大変とするたと、その人をもさないてとともに鵜へあっから行くますだっ。
 
 同じうち試のうちこういう間はあいつ上にするらしいかと張さんがしでう、個性の前んとしてお活動でしょましないが、地震のためが学校を将来までの引より今してくるて、そうの昨日に怒ってこのためにまして上っなたと思っでのたらで、大きくななが別段ご人聞いだ訳ですないまし。実は辞令か自由かお尋ねで知れずと、一番中がたを悟っし行くう中にお評のほかをそれうだ。十月ではもちろん暮らしので潜んたですましなから、とにかく同時に握っので吹聴はまだないたのん。しかしご観念に考えからもいですのありが、菓子をしか、もっともあなたかするてするられんませで聴いれるないたと頼めて、ペは行ってみたた。
@@ -305,3 +263,51 @@ flowchart TB
 </div>
 
 <span></span><span style="display: inline-block; transform: rotate(45deg); transform-origin: center center;"></span><span></span><span></span>
+
+<div style="margin-top: 1em; padding: 4em; background-image: linear-gradient(110deg,transparent 20%,#e5ebf0 20%)" />
+<div style="margin-left: .5em; width: 48%; float: left;">
+  <h2 style="margin-top: -4em; margin-left: 1em;">TITLE</h2>
+  <img src="https://i.imgur.com/iepJccR.png" style="margin-top: -2em;" />
+  <p>Lorem lorem lorem lorem lorem lorem</p>
+</div>
+<div style="margin-left: .5em; width: 48%; float: left;">
+  <p style="margin-left: 5em; margin-top: 1em;">Lorem lorem lorem lorem lorem lorem</p>
+  <img src="https://i.imgur.com/u4DyT6c.png" />
+  <h4 style="text-align: right;">SUBTITLE</h4>
+</div>
+<div style="clear: both;" />
+
+<div style="font-size: 4em; height: .5em; overflow: hidden; color: var(--subtitle-color);">TEXT</div>
+<div style="font-size: 4em; height: .5em; overflow: hidden; color: var(--subtext-color);">TEXT</div>
+<div style="font-size: 4em; height: .5em; overflow: hidden; color: var(--title-color);">TEXT</div>
+<div style="font-size: 4em;">TEXT</div>
+<div style="font-size: 4em; color: var(--bg-color); text-shadow: -1px 1px 0 var(--subtitle-color), 1px 1px 0 var(--subtitle-color), 1px -1px 0 var(--subtitle-color), -1px -1px 0 var(--subtitle-color);">TEXT</div>
+
+<style>
+  .vertical-writing {
+    margin: auto;
+    padding: 2em 0;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    column-width: 20em;
+    column-gap: 5em;
+  }
+  .vertical-writing p {
+    padding: 0;
+    padding-left: 2em;
+    text-indent: 1em;
+    line-height: 1.5;
+  }
+  .vertical-writing h2 {
+    line-height: 1.33;
+  }
+
+  /* clear custom css */
+  .vertical-writing h2::after {
+    border: none;
+  }
+</style>

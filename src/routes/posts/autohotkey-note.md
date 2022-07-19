@@ -67,7 +67,7 @@ tags: Toolbox
   - 可使用 `#Hotstring EndChars` 修改終止文字，例如改為 `*` 便不須輸入終止文字
 - 可設定是否要取代原始輸入文字，或是否要無視大小寫差異
   - 可使用 `#Hotstring` 統一進行設定，或於指令裡個別設定
-  - 個別設定的情況，則要於指定前方的 `:` 之間加入參數
+  - 個別設定的情況，須於指定前方的 `:` 之間加入參數
   - Example: `:*:btw::by the way`
 
 ### Mouse and Keyboard Input
@@ -79,7 +79,7 @@ tags: Toolbox
 - `SendInput, Keys`, `SendPlay, Keys`, `SendEvent, Keys`
   - 使用不同實作方式送出按鍵
   - `Send` 預設為 `SendEvent`，使用 WindowAPI 的 `keybd_event` 和 `mouse_event`
-- 大小寫會視為不同按鍵，如 `Send, ABC` 與 `Send, abc` 會依照其大小寫送出
+- 大小寫會視為不同按鍵，如 `Send, ABC` 與 `Send, abc` 會依其大小寫送出
 - 修飾按鍵：
 
 |     |       |
