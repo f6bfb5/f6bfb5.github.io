@@ -1249,4 +1249,5 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [ジョジョの地球の歩き方を聖地巡礼の観点からレビュー - 本しゃぶり](https://honeshabri.hatenablog.com/entry/jojo_arukikata)
 - [MAKE HERO - 松永参悟/ラミン](https://shonenjumpplus.com/episode/3270375685348567841)
 - [信仰の話がTLに飛び交っているため、十数年前の2ちゃんねるコピペで流行っていた「欧米人の友達が真・女神転生シリーズのおかげで…](https://twitter.com/mototanaka/status/1548936157697716224)
+  - [メガテンにおける信仰とゲーム内分岐の描き方の長文スレで語れる良考察…「宗教観や哲学に影響を受けた」「自由を知った」など](https://togetter.com/li/1918405)
 - [宮尾岳先生の同人誌に関するツイート「こんなモノ描いて儲けていいのか？と」まとめ](https://togetter.com/li/1918292)

@@ -283,6 +283,8 @@ flowchart TB
 <div style="font-size: 4em;">TEXT</div>
 <div style="font-size: 4em; color: var(--bg-color); text-shadow: -1px 1px 0 var(--subtitle-color), 1px 1px 0 var(--subtitle-color), 1px -1px 0 var(--subtitle-color), -1px -1px 0 var(--subtitle-color);">TEXT</div>
 
+<span style="padding-left: 2px; color: yellow; background-color: red; border-bottom: 1px solid red;">TEXT</span><span style="background-color: red; clip-path: polygon(0 0, 100% 100%, 0 100%); border-bottom: 1px solid red;">&nbsp;</span><span style="display: inline-block; margin-left: -2px; width: 8em; border-bottom: 1px solid red;">TEXT</span>
+
 <style>
   .vertical-writing {
     margin: auto;
