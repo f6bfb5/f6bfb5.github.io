@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-1f13d4a8.js",
+    "file": "start-47409446.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -47,7 +47,7 @@
       "src/routes/lyrics/lyrics-yui-makino-modokashii-sekai-no-ue-de.md",
       "_2020-what-i-have-read-on-internet-4afe7dd7.js",
       "_2021-what-i-have-read-on-internet-eb1e3cec.js",
-      "_2022-what-i-have-read-on-internet-ad14b3c6.js",
+      "_2022-what-i-have-read-on-internet-6fd77aea.js",
       "_ACG-Pause-And-Select-Apocalypse-bbb96df8.js",
       "_ACG-char-counterattack-fans-interview-588800aa.js",
       "_ACG-difference-of-director-and-producer-c64802e8.js",
@@ -78,13 +78,13 @@
       "_login-with-discord-313939c5.js",
       "_mpv-b9c9e4a8.js",
       "_operating-with-keyboard-cc3370fc.js",
-      "_search-engine-operators-2ba80610.js",
+      "_search-engine-operators-bd126133.js",
       "_sticker-generator-d18dd933.js",
-      "_template-b1c67799.js",
+      "_template-56e1fb9b.js",
       "_tool-list-creativity-1fa7daa8.js",
       "_tool-list-gaming-8c4db410.js",
       "_tool-list-system-7378e4f9.js",
-      "_tool-list-website-4b4e534c.js",
+      "_tool-list-website-28e60cfb.js",
       "_use-foobar2k-to-listen-to-podcast-92f04951.js",
       "_what-nft-is-not-7dd1c2fc.js",
       "_why-is-life-so-boring-3bf4b091.js",
@@ -130,14 +130,14 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-da4afdc6.js",
+    "file": "pages/_slug_.svelte-6109fad4.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-4afe7dd7.js",
       "_2021-what-i-have-read-on-internet-eb1e3cec.js",
-      "_2022-what-i-have-read-on-internet-ad14b3c6.js",
+      "_2022-what-i-have-read-on-internet-6fd77aea.js",
       "_ACG-Pause-And-Select-Apocalypse-bbb96df8.js",
       "_ACG-char-counterattack-fans-interview-588800aa.js",
       "_ACG-difference-of-director-and-producer-c64802e8.js",
@@ -168,13 +168,13 @@
       "_login-with-discord-313939c5.js",
       "_mpv-b9c9e4a8.js",
       "_operating-with-keyboard-cc3370fc.js",
-      "_search-engine-operators-2ba80610.js",
+      "_search-engine-operators-bd126133.js",
       "_sticker-generator-d18dd933.js",
-      "_template-b1c67799.js",
+      "_template-56e1fb9b.js",
       "_tool-list-creativity-1fa7daa8.js",
       "_tool-list-gaming-8c4db410.js",
       "_tool-list-system-7378e4f9.js",
-      "_tool-list-website-4b4e534c.js",
+      "_tool-list-website-28e60cfb.js",
       "_use-foobar2k-to-listen-to-podcast-92f04951.js",
       "_what-nft-is-not-7dd1c2fc.js",
       "_why-is-life-so-boring-3bf4b091.js",
@@ -196,14 +196,14 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-620a97fe.js",
+    "file": "pages/index.svelte-a887c070.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-4afe7dd7.js",
       "_2021-what-i-have-read-on-internet-eb1e3cec.js",
-      "_2022-what-i-have-read-on-internet-ad14b3c6.js",
+      "_2022-what-i-have-read-on-internet-6fd77aea.js",
       "_ACG-Pause-And-Select-Apocalypse-bbb96df8.js",
       "_ACG-char-counterattack-fans-interview-588800aa.js",
       "_ACG-difference-of-director-and-producer-c64802e8.js",
@@ -234,13 +234,13 @@
       "_login-with-discord-313939c5.js",
       "_mpv-b9c9e4a8.js",
       "_operating-with-keyboard-cc3370fc.js",
-      "_search-engine-operators-2ba80610.js",
+      "_search-engine-operators-bd126133.js",
       "_sticker-generator-d18dd933.js",
-      "_template-b1c67799.js",
+      "_template-56e1fb9b.js",
       "_tool-list-creativity-1fa7daa8.js",
       "_tool-list-gaming-8c4db410.js",
       "_tool-list-system-7378e4f9.js",
-      "_tool-list-website-4b4e534c.js",
+      "_tool-list-website-28e60cfb.js",
       "_use-foobar2k-to-listen-to-podcast-92f04951.js",
       "_what-nft-is-not-7dd1c2fc.js",
       "_why-is-life-so-boring-3bf4b091.js",
@@ -619,13 +619,13 @@
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-efa2eb5c.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-4a82fc3c.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-1cb0a915.js",
       "__post-8b5fe991.js",
-      "_2022-what-i-have-read-on-internet-ad14b3c6.js",
+      "_2022-what-i-have-read-on-internet-6fd77aea.js",
       "_BlinkAnchor-55bdbd1c.js"
     ]
   },
@@ -960,13 +960,13 @@
     ]
   },
   "src/routes/posts/search-engine-operators.md": {
-    "file": "pages/posts/search-engine-operators.md-5e5492f5.js",
+    "file": "pages/posts/search-engine-operators.md-20189970.js",
     "src": "src/routes/posts/search-engine-operators.md",
     "isEntry": true,
     "imports": [
       "_index-1cb0a915.js",
       "__post-8b5fe991.js",
-      "_search-engine-operators-2ba80610.js",
+      "_search-engine-operators-bd126133.js",
       "_BlinkAnchor-55bdbd1c.js"
     ]
   },
@@ -982,13 +982,13 @@
     ]
   },
   "src/routes/posts/template.md": {
-    "file": "pages/posts/template.md-0d49a065.js",
+    "file": "pages/posts/template.md-e615b10b.js",
     "src": "src/routes/posts/template.md",
     "isEntry": true,
     "imports": [
       "_index-1cb0a915.js",
       "__post-8b5fe991.js",
-      "_template-b1c67799.js",
+      "_template-56e1fb9b.js",
       "_BlinkAnchor-55bdbd1c.js"
     ]
   },
@@ -1026,13 +1026,13 @@
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-6733ec55.js",
+    "file": "pages/posts/tool-list-website.md-98fb1ffb.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "imports": [
       "_index-1cb0a915.js",
       "__post-8b5fe991.js",
-      "_tool-list-website-4b4e534c.js",
+      "_tool-list-website-28e60cfb.js",
       "_BlinkAnchor-55bdbd1c.js"
     ]
   },
@@ -1106,8 +1106,8 @@
       "__post-8b5fe991.js"
     ]
   },
-  "_2022-what-i-have-read-on-internet-ad14b3c6.js": {
-    "file": "chunks/2022-what-i-have-read-on-internet-ad14b3c6.js",
+  "_2022-what-i-have-read-on-internet-6fd77aea.js": {
+    "file": "chunks/2022-what-i-have-read-on-internet-6fd77aea.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1cb0a915.js",
@@ -1357,8 +1357,8 @@
       "__post-8b5fe991.js"
     ]
   },
-  "_search-engine-operators-2ba80610.js": {
-    "file": "chunks/search-engine-operators-2ba80610.js",
+  "_search-engine-operators-bd126133.js": {
+    "file": "chunks/search-engine-operators-bd126133.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1cb0a915.js",
@@ -1376,8 +1376,8 @@
       "assets/sticker-generator-a58d6bc5.css"
     ]
   },
-  "_template-b1c67799.js": {
-    "file": "chunks/template-b1c67799.js",
+  "_template-56e1fb9b.js": {
+    "file": "chunks/template-56e1fb9b.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1cb0a915.js",
@@ -1395,7 +1395,7 @@
       "__post-8b5fe991.js"
     ],
     "css": [
-      "assets/tool-list-system-90e7347a.css"
+      "assets/tool-list-gaming-cfa2b81a.css"
     ]
   },
   "_tool-list-gaming-8c4db410.js": {
@@ -1406,7 +1406,7 @@
       "__post-8b5fe991.js"
     ],
     "css": [
-      "assets/tool-list-system-90e7347a.css"
+      "assets/tool-list-gaming-cfa2b81a.css"
     ]
   },
   "_tool-list-system-7378e4f9.js": {
@@ -1417,11 +1417,11 @@
       "__post-8b5fe991.js"
     ],
     "css": [
-      "assets/tool-list-system-90e7347a.css"
+      "assets/tool-list-gaming-cfa2b81a.css"
     ]
   },
-  "_tool-list-website-4b4e534c.js": {
-    "file": "chunks/tool-list-website-4b4e534c.js",
+  "_tool-list-website-28e60cfb.js": {
+    "file": "chunks/tool-list-website-28e60cfb.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-1cb0a915.js",
