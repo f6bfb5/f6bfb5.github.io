@@ -15,7 +15,7 @@
         .then((resp) => resp.json())
         .then((data) => ($ip = data.ip));
     }
-    nav = navigator.appVersion;
+    nav = `${navigator.appCodeName} ${navigator.appVersion}`;
   });
 </script>
 
