@@ -98,19 +98,19 @@ table td:nth-child(3) {
 - [fish shell](https://fishshell.com/)
 - [Chocolatey Cheat Sheet](https://gist.github.com/yunga/99d04694e2466e017c5502d7c828d4f4)
 
-| alternative                                      | description                                                           | Linux command |
-| ------------------------------------------------ | --------------------------------------------------------------------- | ------------- |
-| [fzf](https://github.com/junegunn/fzf)           | fuzzy finder, interactive filter                                      |               |
-| [peco](https://github.com/peco/peco)             | interactive filter                                                    |               |
-| [zoxide](https://github.com/ajeetdsouza/zoxide)  | smarter cd command                                                    | cd            |
-| [fd](https://github.com/sharkdp/fd)              | search for files in a directory hierarchy                             | find          |
-| [ripgrep](https://github.com/BurntSushi/ripgrep) | search plain-text data sets for lines that match a regular expression | grep          |
-| [sd](https://github.com/chmln/sd)                | stream editor for filtering and transforming text                     | sed           |
-| [bat](https://github.com/sharkdp/bat)            | concatenate files and print on the standard output                    | cat           |
-| [dog](https://github.com/ogham/dog)              | domain information groper                                             | dig           |
-| [tealdeer](https://github.com/dbrgn/tealdeer)    | an interface to the system reference manuals                          | man           |
-| [ghq](https://github.com/x-motemen/ghq)          |                                                                       |               |
-| [gem-src](https://github.com/amatsuda/gem-src)   |                                                                       |               |
+| alternative                                          | description                                                           | Linux command |
+| ---------------------------------------------------- | --------------------------------------------------------------------- | ------------- |
+| [fzf](https://github.com/junegunn/fzf)               | fuzzy finder, interactive filter                                      |               |
+| [peco](https://github.com/peco/peco)                 | interactive filter                                                    |               |
+| [zoxide](https://github.com/ajeetdsouza/zoxide)      | smarter cd command                                                    | cd            |
+| [fd](https://github.com/sharkdp/fd)                  | search for files in a directory hierarchy                             | find          |
+| [ripgrep](https://github.com/BurntSushi/ripgrep)(rg) | search plain-text data sets for lines that match a regular expression | grep          |
+| [sd](https://github.com/chmln/sd)                    | stream editor for filtering and transforming text                     | sed           |
+| [bat](https://github.com/sharkdp/bat)                | concatenate files and print on the standard output                    | cat           |
+| [dog](https://github.com/ogham/dog)                  | domain information groper                                             | dig           |
+| [tealdeer](https://github.com/dbrgn/tealdeer)        | an interface to the system reference manuals                          | man           |
+| [ghq](https://github.com/x-motemen/ghq)              |                                                                       |               |
+| [gem-src](https://github.com/amatsuda/gem-src)       |                                                                       |               |
 
 ## 檔案
 

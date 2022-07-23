@@ -285,6 +285,35 @@ flowchart TB
 
 <span style="padding-left: 2px; color: yellow; background-color: red; border-bottom: 1px solid red;">TEXT</span><span style="background-color: red; clip-path: polygon(0 0, 100% 100%, 0 100%); border-bottom: 1px solid red;">&nbsp;</span><span style="display: inline-block; margin-left: -2px; width: 8em; border-bottom: 1px solid red;">TEXT</span>
 
+🟥🟧🟨🟩🟦🟫🟪⬛⬜
+
+```
+🟥🟥
+⬛🟥🟥
+
+🟧
+🟧
+🟧🟧
+
+🟨🟨
+🟨🟨
+
+⬛🟩🟩
+🟩🟩
+
+🟦
+🟦
+🟦
+🟦
+
+⬛🟫
+⬛🟫
+🟫🟫
+
+⬛🟪
+🟪🟪🟪
+```
+
 <style>
   .vertical-writing {
     margin: auto;

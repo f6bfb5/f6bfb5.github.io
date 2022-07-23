@@ -10,153 +10,138 @@ tags: Toolbox
 - [暇つぶしに最適なリンク集](http://fcrandom.freeoda.com/hima.html)
 - [📒Productivity を上げるために大切な 100 のこと](https://minerva.mamansoft.net/%F0%9F%93%97Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8/%F0%9F%93%92Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8)
 - [新冠確診過程應對指南](https://nova-jumbo-a96.notion.site/0701-3c934b7a75a2447d8f8fadb5bde63c42)
+- [教科書には載らないニッポンのインターネットの歴史](https://web.archive.org/web/20030801113739/http://blogdex.tripod.co.jp/encyclopedia/)
+- [佐倉葉ウェブ文化研究室](https://websitemap.sakura.ne.jp/index.html)
+- [e-typing ローマ字タイピング](https://www.e-typing.ne.jp/roma/check/)
+- [ネットワーク対戦タイピング Weather Typing](https://denasu.com/software/weathertyping.html)
+- [Google reCAPTCHA test](https://patrickhlauke.github.io/recaptcha/)
 
 ---
 
 ## 學習
 
-| 名稱                                                                                                                                     | 內容                           |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
-| [教科書には載らないニッポンのインターネットの歴史](https://web.archive.org/web/20030801113739/http://blogdex.tripod.co.jp/encyclopedia/) | 「課本不會教的日本網路歷史」   |
-| [ワンランク上の勉強法](https://web.archive.org/web/20130629035806/http://www.geocities.jp/nagare_basi/study/stdy_mokuji.html)            | 如何「讀十次」學習內容         |
-| [大学受験板 特製 天プレ丼](http://ifs.nog.cc/daigakujuken.at.infoseek.co.jp/index.html)                                                  | 考大學的各種策略               |
-| [応用音響学 Applied Acoustics](https://ocw.u-tokyo.ac.jp/course_11270/)                                                                  | 東京大學的音響學課程           |
-| [劣化資料のデジタル化](https://library.iss.u-tokyo.ac.jp/collection/d00/index.html)                                                      | 東京大學的社會學古老資料數位化 |
+| 名稱                                                                                                                          | 內容                                     |
+| ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| [ワンランク上の勉強法](https://web.archive.org/web/20130629035806/http://www.geocities.jp/nagare_basi/study/stdy_mokuji.html) | 如何「讀十次」學習內容                   |
+| [大学受験板 特製 天プレ丼](http://ifs.nog.cc/daigakujuken.at.infoseek.co.jp/index.html)                                       | 考大學的各種策略                         |
+| [有名問題・定理から学ぶ高校数学](https://wkmath.org/hsf.html)                                                                 | 從知名題目學習高中數學                   |
+| [数学についての web ノート](https://www.ne.jp/asahi/search-center/internationalrelation/mathWeb/index.htm)                    | 數學資料整理                             |
+| [数学 IB（牛腸）](https://lecture.ecc.u-tokyo.ac.jp/~nkiyono/gochoIB.html)                                                    | 微積分練習題目                           |
+| [コグニカル](https://cognicull.com/ja/field)                                                                                  | 數學、物理、電腦科學、化學知識條目式介紹 |
+| [Sci-pursuit](https://sci-pursuit.com/)                                                                                       | 化學與數學的圖文介紹                     |
+| [物理のかぎしっぽ](http://hooktail.sub.jp/index.html)                                                                         | 物理、數學與電腦科學的學習筆記           |
+| [素数 2357](https://2357.aimary.com/)                                                                                         | 質數介紹                                 |
+| [言語研修テキスト](http://www.aa.tufs.ac.jp/ja/publications/language-text)                                                    | 東京外文大學的語言學習資料               |
+| [東外大言語モジュール](http://www.coelang.tufs.ac.jp/mt/)                                                                     | 東京外文大學的語言學習資料               |
+| [「英語スラング」- カラフルな英語の辞典](https://eigoslang.com/)                                                              | 英文俗語、黑話辭典                       |
+| [日本語教育用アクセント辞典](https://accent.u-biq.org/)                                                                       | 日文語調辭典                             |
+| [発音ガイド Forvo](https://ja.forvo.com/)                                                                                     | 多國語言發音參考                         |
+| [劣化資料のデジタル化](https://library.iss.u-tokyo.ac.jp/collection/d00/index.html)                                           | 東京大學的社會學古老資料數位化           |
+| [失敗知識データベース](http://www.shippai.org/fkd/index.php)                                                                  | 失敗知識資料庫                           |
+| [Visualizing.JP](https://visualizing.jp/)                                                                                     | 資料視覺化手法與實例整理                 |
 
+- [非公式漢字難易度 wiki](https://www.wikihouse.com/kanjitable/index.php?FrontPage)
 - [通信用語の基礎知識](https://www.wdic.org/)
-- [物理のかぎしっぽ](http://hooktail.sub.jp/index.html)
 - [かんたん暗記](https://www.8toch.net/hachiben/anki.cgi)
 - [計算形而上学入門 - A602](https://tsg.ne.jp/nolze/texts/CM.html)
 - [Simulation, Consciousness, Existence -- Hans Moravec, 1998](https://frc.ri.cmu.edu/~hpm/project.archive/general.articles/1998/SimConEx.98.html)
 - [松岡正剛の千夜千冊](https://1000ya.isis.ne.jp/souran/index.php?vol=102)
 - [ブリコラージュ@川内川前叢茅辺](http://st.cat-v.ne.jp/kawamae_cho/index.html)
-- [e-typing ローマ字タイピング](https://www.e-typing.ne.jp/roma/check/)
-- [ネットワーク対戦タイピング Weather Typing](https://denasu.com/software/weathertyping.html)
-- [西洋ファンタジー用語ナナメ読み辞典「Tiny Tales」](http://tinyangel.jog.client.jp/index.html)
-- [映画学メモ 「映画学入門」　目次（これまで扱った分）](http://filmstudies.blog21.fc2.com/blog-entry-76.html)
-- [錯視と錯聴を体験 Illusion Forum イリュージョンフォーラム 錯覚一覧](https://illusion-forum.ilab.ntt.co.jp/list.html)
+- [魔法道具ＣＧ](http://www.elfindog.sakura.ne.jp/cgtools.htm)
+- [世界一高いウェブサイト](https://worlds-highest-website.com/ja/)
+- [パチンコの歌 「777」](https://777songs.blog.fc2.com/)
+- [上手な換気の方法](https://www.daikin.co.jp/air/life/ventilation)
+- [Philosophy Guides - 哲学ガイドブログ](https://www.philosophyguides.org/)
+- [日本図書コードの分類コード(C コード)](https://www.asahi-net.or.jp/~ax2s-kmtn/ref/ccode.html)
+
+## 社會
+
+| 名稱                                                                                       | 內容                           |
+| ------------------------------------------------------------------------------------------ | ------------------------------ |
+| [青春 18 きっぷ　ギャラリー](http://www.satou3.com/railways/18kippu2.html)                 | 青春 18 車票的宣傳海報整理     |
+| [無限回廊 endless loop](http://www.maroon.dti.ne.jp/knight999/)                            | 日本重大社會事件詳細介紹       |
+| [全自動さじなげ委員会](https://do-inaka.info/)                                             | 秋田的廢墟、廢村、B 級景點介紹 |
+| [放送の事故](https://tvjiko.web.fc2.com/)                                                  | 放送事故紀錄                   |
+| [実録、廃屋に残された少女の日記](http://honoguraiosanpo.blog.jp/archives/1057998384.html)  | 廢墟探訪紀錄                   |
+| [空港探索・3：SS ブログ](https://airport1111.blog.ss-blog.jp/)                             | 各種機場介紹                   |
+| [朝倉泉　事件の内容](https://grandson.tripod.com/i_jiken.html)                             | 1979 年朝倉泉事件紀錄          |
+| [東京 DEEP 案内 - 東京アンダーグラウンドタウンガイド](https://tokyodeep.info/)             | 東京冷門景點介紹               |
+| [2005 年 4 月 25 日 福知山線 5418M、一両目の「真実」](http://www.kysd.net/fuku42501a.html) | 2005 年福知山線事故紀錄        |
+| [いつの間にか容量が減っている商品 wiki](https://shrinkflation.info/)                       | 容量不知不覺間減少的商品 wiki  |
+| [しりとり](https://siritori.net/)                                                          | 文字接龍遊戲                   |
+| [SMPTE - 深夜テレビ試験放送のアレ](https://satorunet.github.io/SMPTE/)                     | 電視測試訊號畫面               |
+| [ゼロ年代インターネットスラングとかまとめ Wiki](https://wikiwiki.jp/moudameder/)           | 00 年代的網路黑話整理 wiki     |
+| [Dr 林のこころと脳の相談室](http://kokoro.squares.net/)                                    | 林醫師的疑難雜症網站           |
+| [亡くなった人の Twitter アカウント 最後のツイート](https://togetter.com/li/1553934)        | 往生者的最後一則推文           |
+| [日本文学ガイド](https://koten.sk46.com/index.html)                                        | 日本古典文學介紹               |
+| [鳥居の分類](https://miniuzi0502.sakura.ne.jp/torii/Tbunrui.html)                          | 鳥居分類介紹                   |
+| [デジタルカメラの歴史](http://www.monox.jp/history/digitalcamera-history-01.html)          | 數位相機歷史                   |
+
+- [The Rabbit Hole: The site of Lewis Carroll and 'Alice' books](http://www.hp-alice.com/index.html)
+- [お葬式プラザ／死の総合研究所](http://osoushiki-plaza.com/institut/index.html)
+- [ブログの趣旨: 狂気をくぐり抜ける](http://tiem.cocolog-nifty.com/blog/shishi.html)
+- [パーソナリティのプリズム](http://dongavatyo.web.fc2.com/038.htm)
+- [三脚檣士官室](http://www.ironclad.saloon.jp/wardroom/wardroom.htm)
+- [WarBirds](http://www.warbirds.jp/index1.html)
 - [群衆の英知もしくは狂気](https://ncase.me/crowds/ja.html)
-- [有名問題・定理から学ぶ高校数学](https://wkmath.org/hsf.html)
-- [THE MAKING（1）～（50）](https://scienceportal.jst.go.jp/feature/b980601_01/)
-- [デジタルカメラの歴史 history of digital cameras /monox デジカメ 比較 レビュー](http://www.monox.jp/history/digitalcamera-history-01.html)
-- [日本語教育用アクセント辞典](https://accent.u-biq.org/)
-- [Vaporwave A to Z：蒸気波仮想世界地図―――Vaporwave サブジャンルまとめ](https://obakeweb.hatenablog.com/entry/vaporwave_worldmap)
-- [あに瓶: アニメキャプに FFT をかけてアニメ画質を評価するブログ HV 判定(HD)、アプコン判定の客観的手法？を検証](https://anibin.blogspot.com/)
 - [論理憲法](https://bitlaw-jp.github.io/logicon-system/)
-- [N.O.M：2012 年のバックナンバー](https://www.nintendo.co.jp/nom/backnumber/index.html)
-- [失敗知識データベース](http://www.shippai.org/fkd/index.php)
-- [ゼロ年代インターネットスラングとかまとめ Wiki\*](https://wikiwiki.jp/moudameder/)
-- [Steam Charts - Tracking What's Played](https://steamcharts.com/)
 - [首都圏住みたくない街 - 「首都圏住みたくない街」WEB バージョン](https://t.tokyodeep.info/)
-- [◇ テレビドラマデータベース ◇](http://www.tvdrama-db.com/)
-- [日本アニメーション映画クラシックス](https://animation.filmarchives.jp/works)
 - [作り損ねた国々](https://geolog.mydns.jp/www.geocities.jp/keropero2003/syometsu/sokone.html)
 - [みんながアクセスすると劣化する記事](https://web-media.blue-puddle.com/degradation/)
-- [数学 IB（牛腸）](https://lecture.ecc.u-tokyo.ac.jp/~nkiyono/gochoIB.html)
 - [怪文書ジェネレータ](http://o-tomox.com/mysterious_generator/)
-- [コグニカル](https://cognicull.com/ja)
-- [Google reCAPTCHA test](https://patrickhlauke.github.io/recaptcha/)
 - [自転車ツーリング再生計画](http://miyaginocyclingclub.org/kadooka/biketouring/index.html)
-- [言語研修テキスト](http://www.aa.tufs.ac.jp/ja/publications/language-text)
-- [錯思コレクション 100](https://www.jumonji-u.ac.jp/sscs/ikeda/cognitive_bias/about.html)
 - [夢十夜 Remix](http://pha22.net/yume10/)
 - [猿にもわかるミニ FM 放送局の作り方、猿にもわかるミニ FM の電波？](http://mini-fm.nrr.nobody.jp/)
 - [中世の料理レシピ集](https://plaza.rakuten.co.jp/mayzon/24000/)
 - [雨の言葉](http://www.ameagari.jp/ame/ame_kotoba.html)
 - [風の名称辞典](http://accent.main.jp/kaze/na.htm)
-- [現代麻雀技術論](http://yabejp.web.fc2.com/mahjong/tactics.html)
-- [Visualizing.JP](https://visualizing.jp/)
-- [素数 2357](https://2357.aimary.com/)
 - [ShadyURL](http://www.shadyurl.com/)
-- [次回予告](http://jikainoyokoku.blog23.fc2.com/)
-- [発音ガイド Forvo](https://ja.forvo.com/)
 - [家族を新興宗教から守ろう](http://anticult.minibird.jp/shuumei/index2.html)
-- [非公式漢字難易度 wiki](https://www.wikihouse.com/kanjitable/index.php?FrontPage)
-- [魔法道具ＣＧ](http://www.elfindog.sakura.ne.jp/cgtools.htm)
-- [週刊少年ジャンプの掲載順](https://jumpranking.blog.fc2.com/)
-- [世界一高いウェブサイト](https://worlds-highest-website.com/ja/)
 - [初期ラジカセの研究室](http://plaza.harmonix.ne.jp/~ita/index.html)
 - [case1112/事件まとめ](https://case1112.jp/)
 - [書籍予約・取寄せ用紙生成ツール](https://monokakitools.net/bookinfo/)
 - [ウェブサイト駅弁資料館](https://kfm.sakura.ne.jp/ekiben/)
 - [一目でわかる冷凍・解凍チャート](https://www.asahi-kasei.co.jp/saran/preservation/chart.html)
-- [Typing delay experiment](https://input-delay.glitch.me/)
 - [不審者セリフ集](https://fushinsha-joho.co.jp/serif.cgi)
 - [バイクの音を楽しむ「名車図鑑」](https://jaf.or.jp/individual/life-stage-appendix/bike/picture-book)
 - [マンガ災害事例](http://makoto-y.cocolog-nifty.com/blog/)
-- [亡くなった人の Twitter アカウント 最後のツイート](https://togetter.com/li/1553934)
-- [ジャンプ巻末コメント倉庫](https://jcomment-lib.hatenablog.com/)
-- [パチンコの歌 「777」](https://777songs.blog.fc2.com/)
 - [怪異・妖怪伝承データベース](https://www.nichibun.ac.jp/YoukaiDB/)
 - [幻覚・夢・狂気系の動画](https://edielec.tumblr.com/)
 - [未出・迷宮入り CM 捜索@wiki](https://w.atwiki.jp/commercial/)
-- [差替文庫](https://sashikae.hatenablog.com/)
-- [上手な換気の方法](https://www.daikin.co.jp/air/life/ventilation)
-- [佐倉葉ウェブ文化研究室](https://websitemap.sakura.ne.jp/index.html)
-- [ジョジョの奇妙なアオリ　～煽りにブルルン！！～](http://atmarkjojo.org/aori/)
 - [The Deep Sea](https://neal.fun/deep-sea/)
-- [イヤホン・ヘッドホンを知るための音響学講座](https://final-inc.com/pages/make-acoustics)
-- [Philosophy Guides - 哲学ガイドブログ](https://www.philosophyguides.org/)
-- [日本図書コードの分類コード(C コード)](https://www.asahi-net.or.jp/~ax2s-kmtn/ref/ccode.html)
-- [オープニングナレーション辞典 インデックス](http://www.cans.zaq.ne.jp/wormhole/op_index.html)
 - [奇食の館](http://ww2.tiki.ne.jp/~morim/menu.htm)
 - [暴力団ミニ講座](https://www.web-sanin.co.jp/gov/boutsui/mini00.htm)
-- [宮崎論目次](http://www.yk.rim.or.jp/~rst/rabo/miyazaki/m_mokuji.html)
 - [戦史の探求](http://warhistory-quest.blog.jp/)
-- [萌え表現の不自由展 2019](https://anond.hatelabo.jp/20191021020100)
 - [Mini Tokyo 3D](https://minitokyo3d.com/)
-- [TYPE-MOON 不完全年表](http://www.st.rim.or.jp/~nmisaki/topics/typemoon.html)
 - [シャンプー別 歴代ＣＭ出演者変遷](http://shampoomania.web.fc2.com/rekidai.html)
-- [東外大言語モジュール](http://www.coelang.tufs.ac.jp/mt/)
 - [インスタントコーヒー徹底比較](http://coffee.uraro.com/)
-- [薬物乱用、依存症、200人の証言](http://www2.wind.ne.jp/Akagi-kohgen-HP/DR200.htm)
-- [数学についてのwebノート](https://www.ne.jp/asahi/search-center/internationalrelation/mathWeb/index.htm)
+- [薬物乱用、依存症、200 人の証言](http://www2.wind.ne.jp/Akagi-kohgen-HP/DR200.htm)
 - [物を捨てられないオタクが主に紙製のグッズを収納するために必要なものをまとめた記事](https://dic.nicovideo.jp/a/%E7%89%A9%E3%82%92%E6%8D%A8%E3%81%A6%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84%E3%82%AA%E3%82%BF%E3%82%AF%E3%81%8C%E4%B8%BB%E3%81%AB%E7%B4%99%E8%A3%BD%E3%81%AE%E3%82%B0%E3%83%83%E3%82%BA%E3%82%92%E5%8F%8E%E7%B4%8D%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%AA%E3%82%82%E3%81%AE%E3%82%92%E3%81%BE%E3%81%A8%E3%82%81%E3%81%9F%E8%A8%98%E4%BA%8B)
 - [実在苗字の根拠](https://web.archive.org/web/20200609223515/https://myoujikonkyo.web.fc2.com/)
-- [The Japanese Gallery of Psychiatric Art](https://web.archive.org/web/20210707110029/http://psychodoc.eek.jp/abare/gallery/)
-- [jfxr](https://jfxr.frozenfractal.com/#)
-
-## 社會
-
-- [青春 18 きっぷ　ギャラリー](http://www.satou3.com/railways/18kippu2.html)
-- [無限回廊 endless loop](http://www.maroon.dti.ne.jp/knight999/)
-- [The Rabbit Hole: The site of Lewis Carroll and 'Alice' books](http://www.hp-alice.com/index.html)
-- [全自動さじなげ委員会 - ～秋田的廃墟案内所～](https://do-inaka.info/)
-- [放送の事故](https://tvjiko.web.fc2.com/)
-- [実録、廃屋に残された少女の日記](http://honoguraiosanpo.blog.jp/archives/1057998384.html)
-- [空港探索・3：SS ブログ](https://airport1111.blog.ss-blog.jp/)
-- [朝倉泉　事件の内容](https://grandson.tripod.com/i_jiken.html)
-- [お葬式プラザ／死の総合研究所](http://osoushiki-plaza.com/institut/index.html)
-- [東京 DEEP 案内 - 東京アンダーグラウンドタウンガイド](https://tokyodeep.info/)
-- [2005 年 4 月 25 日 福知山線 5418M、一両目の「真実」](http://www.kysd.net/fuku42501a.html)
-- [ブログの趣旨: 狂気をくぐり抜ける](http://tiem.cocolog-nifty.com/blog/shishi.html)
-- [いつの間にか容量が減っている商品 wiki](https://shrinkflation.info/)
-- [パーソナリティのプリズム](http://dongavatyo.web.fc2.com/038.htm)
-- [三脚檣士官室](http://www.ironclad.saloon.jp/wardroom/wardroom.htm)
-- [しりとり](https://siritori.net/)
-- [SMPTE - 深夜テレビ試験放送のアレ](https://satorunet.github.io/SMPTE/)
-- [WarBirds](http://www.warbirds.jp/index1.html)
-- [日本文学ガイド](https://koten.sk46.com/index.html)
-- [Dr 林のこころと脳の相談室](http://kokoro.squares.net/)
-- [Sci-pursuit](https://sci-pursuit.com/)
-- [「英語スラング」- カラフルな英語の辞典](https://eigoslang.com/)
-- [鳥居の分類](https://miniuzi0502.sakura.ne.jp/torii/Tbunrui.html)
+- [力尽きレシピ〜簡単ズボラ飯のレシピ集〜](https://saruwakakun.com/life/recipe)
 
 ## 音樂
 
-| 名稱                                                           | 內容               |
-| -------------------------------------------------------------- | ------------------ |
-| [Learning Music (Beta)](https://learningmusic.ableton.com/ja/) | 互動式學習音樂製作 |
-| [SoundQuest](https://soundquest.jp/category-archive-intro/)    | 音樂理論           |
-| [AC-chan](https://aidn.jp/jingle/)                             | AI 自動產生樂曲    |
+| 名稱                                                                                             | 內容                     |
+| ------------------------------------------------------------------------------------------------ | ------------------------ |
+| [Learning Music (Beta)](https://learningmusic.ableton.com/ja/)                                   | 互動式學習音樂製作       |
+| [SoundQuest](https://soundquest.jp/category-archive-intro/)                                      | 音樂理論                 |
+| [AC-chan](https://aidn.jp/jingle/)                                                               | AI 自動產生樂曲          |
+| [応用音響学 Applied Acoustics](https://ocw.u-tokyo.ac.jp/course_11270/)                          | 東京大學的音響學課程     |
+| [イヤホン・ヘッドホンを知るための音響学講座](https://final-inc.com/pages/make-acoustics)         | 簡易的圖文音響學介紹     |
+| [Vaporwave A to Z：蒸気波仮想世界地図](https://obakeweb.hatenablog.com/entry/vaporwave_worldmap) | Vaporwave 的發展歷史介紹 |
 
 ## 設計
 
-| 名稱                                                    | 內容                                                 |
-| ------------------------------------------------------- | ---------------------------------------------------- |
-| [no hello](https://nohello.net/en/)                     | 用「哈囉」開啟對話不是個好主意                       |
-| [Don't ask to ask, just ask](https://dontasktoask.com/) | 別要求回答，直接發問                                 |
-| [伝わるデザイン](https://tsutawarudesign.com/)          | 如何製作「容易閱讀」、「容易觀看」、「無障礙」的設計 |
+| 名稱                                                                                          | 內容                                 |
+| --------------------------------------------------------------------------------------------- | ------------------------------------ |
+| [no hello](https://nohello.net/en/)                                                           | 用「哈囉」開啟對話不是個好主意       |
+| [Don't ask to ask, just ask](https://dontasktoask.com/)                                       | 別要求回答，直接發問                 |
+| [伝わるデザイン](https://tsutawarudesign.com/)                                                | 如何製作易閱讀、好觀看、無障礙的設計 |
+| [THE MAKING（1）～（50）](https://scienceportal.jst.go.jp/feature/b980601_01/)                | 50 種產品的製作流程                  |
+| [錯視と錯聴を体験](https://illusion-forum.ilab.ntt.co.jp/list.html)                           | 各種錯覺體驗                         |
+| [錯思コレクション 100](https://www.jumonji-u.ac.jp/sscs/ikeda/cognitive_bias/about.html)      | 100 種認知偏誤整理                   |
+| [西洋ファンタジー用語ナナメ読み辞典「Tiny Tales」](http://tinyangel.jog.client.jp/index.html) | 西洋奇幻作品的用語辭典               |
 
 - [ね  — NT](https://nathan.tokyo/)
 - [E.O.T.W.](https://eotw.nathan.tokyo/)
@@ -166,16 +151,33 @@ tags: Toolbox
 - [物語要素事典](https://www.lib.agu.ac.jp/yousojiten/)
 - [陽明雑記](https://toshi-y.at.webry.info/)
 - [NDL イメージバンク](https://rnavi.ndl.go.jp/imagebank/)
+- [The Japanese Gallery of Psychiatric Art](https://web.archive.org/web/20210707110029/http://psychodoc.eek.jp/abare/gallery/)
+- [jfxr](https://jfxr.frozenfractal.com/#)
+- [Artvee](https://artvee.com/)
+- [Copyright Q&A 著作権なるほど質問箱](https://copyright-qa.azurewebsites.net/)
 
 ## 娛樂
 
-| 名稱                                                                                     | 內容                     |
-| ---------------------------------------------------------------------------------------- | ------------------------ |
-| [Poolsuite FM](https://poolsuite.net/)                                                   | 90 年代風格的網路電台    |
-| [Drive & Listen](https://driveandlisten.herokuapp.com/)                                  | 搭配駕駛風景的網路電台   |
-| [夢の中に出てきた奇妙な単語達](http://hon-kon.o.oo7.jp/unknown.html)                     | 「在夢裡出現的奇妙單字」 |
-| [好きなラジオネーム 300 選 - kansou](https://www.kansou-blog.jp/entry/2021/11/11/200409) | 300 個喜歡的電台聽眾名稱 |
-| [キャラ名とかハンドルネームとか考えるのに参考になりそうなサイト](https://name-site.net/) | 取各式名稱時可參考的網站 |
+| 名稱                                                                                                        | 內容                                   |
+| ----------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| [Poolsuite FM](https://poolsuite.net/)                                                                      | 90 年代風格的網路電台                  |
+| [Drive & Listen](https://driveandlisten.herokuapp.com/)                                                     | 搭配駕駛風景的網路電台                 |
+| [夢の中に出てきた奇妙な単語達](http://hon-kon.o.oo7.jp/unknown.html)                                        | 「在夢裡出現的奇妙單字」               |
+| [好きなラジオネーム 300 選 - kansou](https://www.kansou-blog.jp/entry/2021/11/11/200409)                    | 300 個喜歡的電台聽眾名稱               |
+| [キャラ名とかハンドルネームとか考えるのに参考になりそうなサイト](https://name-site.net/)                    | 取各式名稱時可參考的網站               |
+| [あに瓶](https://anibin.blogspot.com/)                                                                      | 檢證動畫原始製作尺寸的部落格           |
+| [日本アニメーション映画クラシックス](https://animation.filmarchives.jp/works)                               | 日本古典動畫                           |
+| [週刊少年ジャンプの掲載順](https://jumpranking.blog.fc2.com/)                                               | 週刊少年 JUMP 的連載紀錄整理           |
+| [ジャンプ巻末コメント倉庫](https://jcomment-lib.hatenablog.com/)                                            | 週刊少年 JUMP 的卷尾感言整理           |
+| [ジョジョの奇妙なアオリ　～煽りにブルルン！！～](http://atmarkjojo.org/aori/)                               | JOJO 的奇妙冒險第六部的雜誌裝飾語整理  |
+| [オープニングナレーション辞典](http://www.cans.zaq.ne.jp/wormhole/op_index.html)                            | 動畫與特攝作品的開場旁白、結尾預告整理 |
+| [次回予告](http://jikainoyokoku.blog23.fc2.com/)                                                            | 動畫次回預告整理                       |
+| [宮崎論目次](http://www.yk.rim.or.jp/~rst/rabo/miyazaki/m_mokuji.html)                                      | 叶精二的宮崎駿作品評論、訪談           |
+| [萌え表現の不自由展 2019](https://anond.hatelabo.jp/20191021020100)                                         | 至 2019 曾發生過的「萌表現」相關事件   |
+| [TYPE-MOON 不完全年表](http://www.st.rim.or.jp/~nmisaki/topics/typemoon.html)                               |                                        |
+| [映画学メモ 「映画学入門」　目次（これまで扱った分）](http://filmstudies.blog21.fc2.com/blog-entry-76.html) | 電影學入門筆記                         |
+| [◇ テレビドラマデータベース ◇](http://www.tvdrama-db.com/)                                                  | 電視戲劇資料庫                         |
+| [現代麻雀技術論](http://yabejp.web.fc2.com/mahjong/tactics.html)                                            | 日本麻將戰術介紹                       |
 
 ## 電玩
 
@@ -205,3 +207,7 @@ tags: Toolbox
 | [Treasure Box : 斑鳩](http://rssp.web.fc2.com/ikaruga.html)                                                            | 斑鳩劇情介紹                         |
 | [Land Island](https://land-island.com/)                                                                                | RPG 遊戲最強養成特化攻略             |
 | [Lapse Pointer](https://ninja114514.hide-yoshi.net/)                                                                   | RPG 遊戲最強養成特化攻略             |
+| [N.O.M](https://www.nintendo.co.jp/nom/backnumber/index.html)                                                          | 任天堂於 1998 至 2012 發行的線上雜誌 |
+| [Steam Charts - Tracking What's Played](https://steamcharts.com/)                                                      | Steam 即時遊戲資料統計               |
+| [Typing delay experiment](https://input-delay.glitch.me/)                                                              | 輸入延遲體驗網站                     |
+| [差替文庫](https://sashikae.hatenablog.com/)                                                                           | 參與過 FF14 製作設計者的創作論       |

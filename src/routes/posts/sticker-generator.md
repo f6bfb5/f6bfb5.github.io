@@ -55,35 +55,10 @@ tags: F2E
 </svelte:head>
 <!--  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500&family=Exo&family=Merriweather:wght@900&display=swap" rel="stylesheet"> -->
 
+
 WIP
-🟥🟧🟨🟩🟦🟫🟪⬛⬜
 
-```
-🟥🟥
-⬛🟥🟥
-
-🟧
-🟧
-🟧🟧
-
-🟨🟨
-🟨🟨
-
-⬛🟩🟩
-🟩🟩
-
-🟦
-🟦
-🟦
-🟦
-
-⬛🟫
-⬛🟫
-🟫🟫
-
-⬛🟪
-🟪🟪🟪
-```
+Please reload page to import related script
 
 <div class="sticker" id="sticker">
   <div class="sticker--header">
