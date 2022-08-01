@@ -16,15 +16,15 @@
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-e04a8a3c.css">
 	<link rel="stylesheet" href="/_app/assets/_post-6cf996f4.css">
 	<link rel="stylesheet" href="/_app/assets/BlinkAnchor-39834c8c.css">
-	<link rel="modulepreload" href="/_app/start-733206bd.js">
+	<link rel="modulepreload" href="/_app/start-0bcea64b.js">
 	<link rel="modulepreload" href="/_app/chunks/index-1cb0a915.js">
 	<link rel="modulepreload" href="/_app/chunks/index-908f6326.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-5611d17c.js">
-	<link rel="modulepreload" href="/_app/pages/posts/use-google-spreadsheet-as-database.md-a930d868.js">
+	<link rel="modulepreload" href="/_app/pages/posts/use-google-spreadsheet-as-database.md-fe5911b2.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-8b5fe991.js">
 	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-55bdbd1c.js">
-	<link rel="modulepreload" href="/_app/chunks/use-google-spreadsheet-as-database-1c21b20b.js">
+	<link rel="modulepreload" href="/_app/chunks/use-google-spreadsheet-as-database-4c8925da.js">
   </head>
   <body>
     <!-- The application will be rendered inside this element,
@@ -56,7 +56,7 @@
   <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
   </a>
 </nav>
-      <a href="https://www.nicovideo.jp/watch/sm9244874" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
+      <a href="https://www.nicovideo.jp/watch/sm30344277" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
 </a></div>
     
 <div id="progress-bar" style="--scrollAmount: 0%;" class="svelte-1gbseey"></div></div>
@@ -89,7 +89,7 @@
 <div class="post--container svelte-5uw8di"><article class="post--content svelte-5uw8di"><h2 id="js-id-介紹">介紹</h2>
 <ul><li>Google 的 Sheet API 可以直接將 Sheet 內容轉換成 JSON 格式輸出</li>
 <li>亦可從外部傳進資料，修改 Sheet 裡的內容</li>
-<li>並且都有提供 CORS 支援，可免於處理跨域的困擾</li></ul>
+<li>並有提供 CORS 支援，可免於處理跨域的困擾</li></ul>
 <h2 id="js-id-實作">實作</h2>
 <h3>1. [純讀取] Spreadsheets Data API</h3>
 <ul><li>發佈表單<ul><li>「檔案（File）」</li>
@@ -143,89 +143,178 @@
 <li>詳見下方範例</li></ul></li>
 <li>發佈 API<ul><li>「發佈（Publish）」</li>
 <li>「部署為網路應用程式…（Deploy as web app…）」</li>
-<li>「將應用程式執行為（Execute the app as）」：<strong>「我（Me）」</strong></li>
-<li>「具有應用程式存取權的使用者（Who has access to the app）」：<strong>「任何人，甚至匿名使用者（Anyone, even anonymous）」</strong></li>
-<li>「部署（Deploy）」→「核對權限」→選擇授權用的 Google 帳號→「進階」→「前往（此應用程式名稱）」→ 允許</li>
+<li>「將應用程式執行為（Execute the app as）」<ul><li><strong>「我（Me）」</strong></li></ul></li>
+<li>「具有應用程式存取權的使用者（Who has access to the app）」<ul><li><strong>「任何人，甚至匿名使用者（Anyone, even anonymous）」</strong></li></ul></li>
+<li>「部署（Deploy）」<ul><li>「核對權限」</li>
+<li>選擇授權用的 Google 帳號</li>
+<li>「進階」</li>
+<li>「前往（此應用程式名稱）」</li>
+<li>「允許」</li></ul></li>
 <li>「app URL」即為讀取與寫入用的網址</li></ul></li>
-<li>更改程式<ul><li>更新 GAS 程式後，在重新發佈時，「專案版本（Project version）」要選擇「新增（New）」</li>
-<li>既有數字是之前點擊發佈時的版本，不會反應最新的修改內容</li>
+<li>更改程式<ul><li>更新 GAS 程式後，重新發佈時，「專案版本（Project version）」要選擇「新增（New）」</li>
+<li>既有數字是之前發佈的版本，不會反應最新的修改內容</li>
 <li>改動後一定要選擇「新增」專案版本，才會有效反應</li></ul></li></ul>
-<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token comment">// 複製 Sheet 網址裡 [sheet-id] 的部份</span>
+<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token comment">// Sheet 網址裡 [sheet-id] 的部份</span>
 <span class="token comment">// https://docs.google.com/spreadsheets/d/[sheet-id]/</span>
 <span class="token keyword">const</span> SpreadSheetID <span class="token operator">=</span> <span class="token string">""</span><span class="token punctuation">;</span>
-<span class="token comment">// 下方的分頁名稱</span>
-<span class="token keyword">const</span> sheetName <span class="token operator">=</span> <span class="token string">""</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> SpreadSheet <span class="token operator">=</span> SpreadsheetApp<span class="token punctuation">.</span><span class="token function">openById</span><span class="token punctuation">(</span>SpreadSheetID<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-<span class="token keyword">function</span> <span class="token function">doGet</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-  <span class="token comment">// accept object as parameter</span>
-  <span class="token keyword">const</span> params <span class="token operator">=</span> e<span class="token punctuation">.</span>parameter<span class="token punctuation">;</span>
-  <span class="token keyword">const</span> SpreadSheet <span class="token operator">=</span> SpreadsheetApp<span class="token punctuation">.</span><span class="token function">openById</span><span class="token punctuation">(</span>SpreadSheetID<span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token keyword">const</span> Sheet <span class="token operator">=</span> SpreadSheet<span class="token punctuation">.</span><span class="token function">getSheetByName</span><span class="token punctuation">(</span>sheetName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">function</span> <span class="token function">textOutput</span><span class="token punctuation">(</span>obj<span class="token punctuation">,</span> mimeType <span class="token operator">=</span> <span class="token string">"JSON"</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">return</span> ContentService<span class="token punctuation">.</span><span class="token function">createTextOutput</span><span class="token punctuation">(</span>
+    <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">setMimeType</span><span class="token punctuation">(</span>ContentService<span class="token punctuation">.</span>MimeType<span class="token punctuation">[</span>mimeType<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">&#125;</span>
 
-  <span class="token comment">// wouldn't return category row (the first row) by default</span>
-  <span class="token keyword">const</span> row <span class="token operator">=</span> params<span class="token punctuation">.</span>row <span class="token operator">?</span> params<span class="token punctuation">.</span>row <span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">;</span>
-  <span class="token keyword">const</span> col <span class="token operator">=</span> params<span class="token punctuation">.</span>col <span class="token operator">?</span> params<span class="token punctuation">.</span>col <span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">function</span> <span class="token function">getSheet</span><span class="token punctuation">(</span><span class="token parameter">sheetName</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">return</span> SpreadSheet<span class="token punctuation">.</span><span class="token function">getSheetByName</span><span class="token punctuation">(</span>sheetName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span>
+
+<span class="token comment">// ----------</span>
+<span class="token comment">// doGet</span>
+<span class="token comment">// ----------</span>
+
+<span class="token keyword">function</span> <span class="token function">getAllSheetData</span><span class="token punctuation">(</span><span class="token parameter">sheetName</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">const</span> Sheet <span class="token operator">=</span> <span class="token function">getSheet</span><span class="token punctuation">(</span>sheetName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token comment">// the first row is category,</span>
+  <span class="token comment">// so row starts from 2</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// and the first row is not needed,</span>
+  <span class="token comment">// so length is full length -1</span>
+  <span class="token comment">//</span>
+  <span class="token keyword">return</span> Sheet<span class="token punctuation">.</span><span class="token function">getSheetValues</span><span class="token punctuation">(</span>
+    <span class="token number">2</span><span class="token punctuation">,</span>
+    <span class="token number">1</span><span class="token punctuation">,</span>
+    Sheet<span class="token punctuation">.</span><span class="token function">getLastRow</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    Sheet<span class="token punctuation">.</span><span class="token function">getLastColumn</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">&#125;</span>
+
+<span class="token keyword">function</span> <span class="token function">getSheetDataByRange</span><span class="token punctuation">(</span><span class="token parameter">sheetName<span class="token punctuation">,</span> range</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">const</span> Sheet <span class="token operator">=</span> <span class="token function">getSheet</span><span class="token punctuation">(</span>sheetName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+   <span class="token comment">// wouldn't return category row (the first row) by default</span>
+  <span class="token keyword">const</span> startRow <span class="token operator">=</span> range<span class="token punctuation">.</span>startRow <span class="token operator">?</span> range<span class="token punctuation">.</span>startRow <span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> startCol <span class="token operator">=</span> range<span class="token punctuation">.</span>startCol <span class="token operator">?</span> range<span class="token punctuation">.</span>startCol <span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">;</span>
   <span class="token keyword">let</span> rowRange <span class="token operator">=</span>
-    params<span class="token punctuation">.</span>endRow <span class="token operator">&amp;&amp;</span> params<span class="token punctuation">.</span>row
-      <span class="token operator">?</span> params<span class="token punctuation">.</span>endRow <span class="token operator">-</span> params<span class="token punctuation">.</span>row <span class="token operator">+</span> <span class="token number">1</span>
+    range<span class="token punctuation">.</span>endRow <span class="token operator">&amp;&amp;</span> range<span class="token punctuation">.</span>startRow
+      <span class="token operator">?</span> range<span class="token punctuation">.</span>endRow <span class="token operator">-</span> range<span class="token punctuation">.</span>startRow <span class="token operator">+</span> <span class="token number">1</span>
       <span class="token operator">:</span> Sheet<span class="token punctuation">.</span><span class="token function">getLastRow</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span>
   <span class="token keyword">let</span> colRange <span class="token operator">=</span>
-    params<span class="token punctuation">.</span>endCol <span class="token operator">&amp;&amp;</span> params<span class="token punctuation">.</span>col
-      <span class="token operator">?</span> params<span class="token punctuation">.</span>endCol <span class="token operator">-</span> params<span class="token punctuation">.</span>col <span class="token operator">+</span> <span class="token number">1</span>
+    range<span class="token punctuation">.</span>endCol <span class="token operator">&amp;&amp;</span> range<span class="token punctuation">.</span>startCol
+      <span class="token operator">?</span> range<span class="token punctuation">.</span>endCol <span class="token operator">-</span> range<span class="token punctuation">.</span>startCol <span class="token operator">+</span> <span class="token number">1</span>
       <span class="token operator">:</span> Sheet<span class="token punctuation">.</span><span class="token function">getLastColumn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token keyword">if</span> <span class="token punctuation">(</span>rowRange <span class="token operator">></span> Sheet<span class="token punctuation">.</span><span class="token function">getLastRow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> rowRange <span class="token operator">=</span> Sheet<span class="token punctuation">.</span><span class="token function">getLastRow</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span>
   <span class="token keyword">if</span> <span class="token punctuation">(</span>colRange <span class="token operator">></span> Sheet<span class="token punctuation">.</span><span class="token function">getLastColumn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> colRange <span class="token operator">=</span> Sheet<span class="token punctuation">.</span><span class="token function">getLastColumn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-  <span class="token keyword">const</span> data <span class="token operator">=</span> Sheet<span class="token punctuation">.</span><span class="token function">getSheetValues</span><span class="token punctuation">(</span>row<span class="token punctuation">,</span> col<span class="token punctuation">,</span> rowRange<span class="token punctuation">,</span> colRange<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> data <span class="token operator">=</span> Sheet<span class="token punctuation">.</span><span class="token function">getSheetValues</span><span class="token punctuation">(</span>startRow<span class="token punctuation">,</span> startCol<span class="token punctuation">,</span> rowRange<span class="token punctuation">,</span> colRange<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> data<span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span>
 
-  <span class="token keyword">return</span> ContentService<span class="token punctuation">.</span><span class="token function">createTextOutput</span><span class="token punctuation">(</span><span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setMimeType</span><span class="token punctuation">(</span>
-    ContentService<span class="token punctuation">.</span>MimeType<span class="token punctuation">.</span><span class="token constant">JSON</span>
-  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">function</span> <span class="token function">doGet</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token comment">// accept object as parameter</span>
+  <span class="token keyword">const</span> params <span class="token operator">=</span> e<span class="token operator">?.</span>parameter<span class="token punctuation">;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>params<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    <span class="token keyword">return</span> <span class="token function">textOutput</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span> <span class="token literal-property property">response</span><span class="token operator">:</span> <span class="token string">"200"</span> <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">&#125;</span>
+
+  <span class="token comment">// you can custom what key to use for different execution</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>params<span class="token punctuation">.</span>action<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    <span class="token keyword">case</span> <span class="token string">"getAll"</span><span class="token operator">:</span>
+      <span class="token keyword">return</span> <span class="token function">textOutput</span><span class="token punctuation">(</span><span class="token function">getAllSheetData</span><span class="token punctuation">(</span><span class="token string">"Sheet1"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token string">"getRange"</span><span class="token operator">:</span>
+      <span class="token keyword">return</span> <span class="token function">textOutput</span><span class="token punctuation">(</span><span class="token function">getSheetDataByRange</span><span class="token punctuation">(</span><span class="token string">"Sheet1"</span><span class="token punctuation">,</span> params<span class="token punctuation">.</span>range<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">default</span><span class="token operator">:</span>
+      <span class="token keyword">return</span> <span class="token function">textOutput</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span> <span class="token literal-property property">response</span><span class="token operator">:</span> <span class="token string">"200"</span> <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">break</span><span class="token punctuation">;</span>
+  <span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span>
+
+<span class="token comment">// ----------</span>
+<span class="token comment">// doPost</span>
+<span class="token comment">// ----------</span>
+
+<span class="token keyword">function</span> <span class="token function">appendSheetRow</span><span class="token punctuation">(</span><span class="token parameter">sheetName<span class="token punctuation">,</span> newRowData</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">const</span> Sheet <span class="token operator">=</span> <span class="token function">getSheet</span><span class="token punctuation">(</span>sheetName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> newRow <span class="token operator">=</span> Sheet<span class="token punctuation">.</span><span class="token function">getLastRow</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+  <span class="token comment">// accept number key as row-col index</span>
+  <span class="token comment">// for example,</span>
+  <span class="token comment">// data: &#123; 1: "Cell 1 data", 2: "Cell 2 data", 3: "Cell 3 data" &#125;</span>
+  <span class="token comment">// would save to the row by the key</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">const</span> <span class="token punctuation">[</span>index<span class="token punctuation">,</span> cellData<span class="token punctuation">]</span> <span class="token keyword">of</span> Object<span class="token punctuation">.</span><span class="token function">entries</span><span class="token punctuation">(</span>newRowData<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    Sheet<span class="token punctuation">.</span><span class="token function">getRange</span><span class="token punctuation">(</span>newRow<span class="token punctuation">,</span> index<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setValue</span><span class="token punctuation">(</span>cellData<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span>
+
+<span class="token keyword">function</span> <span class="token function">editSheetCell</span><span class="token punctuation">(</span><span class="token parameter">sheetName<span class="token punctuation">,</span> row<span class="token punctuation">,</span> col<span class="token punctuation">,</span> value</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token function">getSheet</span><span class="token punctuation">(</span>sheetName<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getRange</span><span class="token punctuation">(</span>row<span class="token punctuation">,</span> col<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setValue</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span>
+
+<span class="token keyword">function</span> <span class="token function">deleteSheetRow</span><span class="token punctuation">(</span><span class="token parameter">sheetName<span class="token punctuation">,</span> row</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token function">getSheet</span><span class="token punctuation">(</span>sheetName<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">deleteRow</span><span class="token punctuation">(</span>row<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">&#125;</span>
 
 <span class="token keyword">function</span> <span class="token function">doPost</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-  <span class="token keyword">const</span> params <span class="token operator">=</span> e<span class="token punctuation">.</span>parameter<span class="token punctuation">;</span>
-  <span class="token keyword">const</span> SpreadSheet <span class="token operator">=</span> SpreadsheetApp<span class="token punctuation">.</span><span class="token function">openById</span><span class="token punctuation">(</span>SpreadSheetID<span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token keyword">const</span> Sheet <span class="token operator">=</span> SpreadSheet<span class="token punctuation">.</span><span class="token function">getSheetByName</span><span class="token punctuation">(</span>sheetName<span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token keyword">const</span> NewRow <span class="token operator">=</span> Sheet<span class="token punctuation">.</span><span class="token function">getLastRow</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+  <span class="token comment">// accept object as parameter</span>
+  <span class="token keyword">const</span> params <span class="token operator">=</span> e<span class="token operator">?.</span>parameter<span class="token punctuation">;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>params<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    <span class="token keyword">return</span> <span class="token function">textOutput</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span> <span class="token literal-property property">response</span><span class="token operator">:</span> <span class="token string">"200"</span> <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">&#125;</span>
 
-  <span class="token comment">// customize data key here</span>
-  <span class="token keyword">const</span> dataKey <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"data"</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-
-  <span class="token comment">// add Timestamp in the first column</span>
-  Sheet<span class="token punctuation">.</span><span class="token function">getRange</span><span class="token punctuation">(</span>NewRow<span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span>
-    <span class="token punctuation">.</span><span class="token function">setValue</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-    <span class="token punctuation">.</span><span class="token function">setNumberFormat</span><span class="token punctuation">(</span><span class="token string">"yyyy/MM/dd hh:mm"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-  <span class="token comment">// add data by keys to the last row</span>
-  dataKey<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">key<span class="token punctuation">,</span> i</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
-    Sheet<span class="token punctuation">.</span><span class="token function">getRange</span><span class="token punctuation">(</span>NewRow<span class="token punctuation">,</span> i <span class="token operator">+</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setValue</span><span class="token punctuation">(</span>params<span class="token punctuation">[</span>key<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-  <span class="token keyword">return</span> ContentService<span class="token punctuation">.</span><span class="token function">createTextOutput</span><span class="token punctuation">(</span><span class="token string">"POST success"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> postContents <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>e<span class="token operator">?.</span>postData<span class="token punctuation">.</span>contents<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token comment">// you can custom what key to use for different execution</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>params<span class="token punctuation">.</span>action<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    <span class="token keyword">case</span> <span class="token string">"appendRow"</span><span class="token operator">:</span>
+      <span class="token comment">// again, you can also custom what key to use for post data</span>
+      <span class="token function">appendSheetRow</span><span class="token punctuation">(</span><span class="token string">"Sheet1"</span><span class="token punctuation">,</span> postContents<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">return</span> <span class="token function">textOutput</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span> <span class="token literal-property property">response</span><span class="token operator">:</span> <span class="token string">"200"</span> <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token string">"editCell"</span><span class="token operator">:</span>
+      <span class="token function">editSheetCell</span><span class="token punctuation">(</span><span class="token string">"Sheet1"</span><span class="token punctuation">,</span> postContents<span class="token punctuation">.</span>row<span class="token punctuation">,</span> postContents<span class="token punctuation">.</span>col<span class="token punctuation">,</span> postContents<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">return</span> <span class="token function">textOutput</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span> <span class="token literal-property property">response</span><span class="token operator">:</span> <span class="token string">"200"</span> <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> <span class="token string">"deleteRow"</span><span class="token operator">:</span>
+      <span class="token function">deleteSheetRow</span><span class="token punctuation">(</span><span class="token string">"Sheet1"</span><span class="token punctuation">,</span> postContents<span class="token punctuation">.</span>row<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">return</span> <span class="token function">textOutput</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span> <span class="token literal-property property">response</span><span class="token operator">:</span> <span class="token string">"200"</span> <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">default</span><span class="token operator">:</span>
+      <span class="token keyword">return</span> <span class="token function">textOutput</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span> <span class="token literal-property property">response</span><span class="token operator">:</span> <span class="token string">"200"</span> <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">break</span><span class="token punctuation">;</span>
+  <span class="token punctuation">&#125;</span>
 <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
-<ul><li>GAS 的回傳資料格式<ul><li>字串：<code>return ContentService.createTextOutput(&quot;GET 回傳字串&quot;);</code></li>
+<ul><li>GAS 的回傳資料格式<ul><li>字串：<code>return ContentService.createTextOutput(&quot;回傳字串&quot;);</code></li>
 <li>HTML：<code>return HtmlService.createHtmlOutput(HTMLString);</code></li>
-<li>JSON： <pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript">  <span class="token keyword">const</span> JSONString <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token keyword">return</span> ContentService<span class="token punctuation">.</span><span class="token function">createTextOutput</span><span class="token punctuation">(</span>JSONString<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setMimeType</span><span class="token punctuation">(</span>
-    ContentService<span class="token punctuation">.</span>MimeType<span class="token punctuation">.</span><span class="token constant">JSON</span>
-  <span class="token punctuation">)</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre></li></ul></li>
-<li>傳送參數<ul><li><code>const appUrl = new URL(&quot;[app url]&quot;);</code></li>
-<li><code>appUrl.search = new URLSearchParams({ action: &quot;getAll&quot; }).toString();</code></li></ul></li></ul>
+<li>JSON：<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token keyword">const</span> JSONString <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> ContentService<span class="token punctuation">.</span><span class="token function">createTextOutput</span><span class="token punctuation">(</span>JSONString<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setMimeType</span><span class="token punctuation">(</span>
+  ContentService<span class="token punctuation">.</span>MimeType<span class="token punctuation">.</span><span class="token constant">JSON</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre></li></ul></li>
+<li>傳送參數至 GAS<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript">  <span class="token keyword">const</span> apiUrl <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> postData <span class="token operator">=</span> <span class="token punctuation">&#123;</span> <span class="token literal-property property">data</span><span class="token operator">:</span> <span class="token string">"some data to post"</span> <span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
+  <span class="token keyword">await</span> <span class="token function">fetch</span><span class="token punctuation">(</span>apiUrl<span class="token punctuation">,</span> <span class="token punctuation">&#123;</span>
+    <span class="token literal-property property">method</span><span class="token operator">:</span> <span class="token string">'POST'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">body</span><span class="token operator">:</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>postData<span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">headers</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+      <span class="token string-property property">'Content-Type'</span><span class="token operator">:</span> <span class="token string">'text/plain;charset=utf-8'</span>
+    <span class="token punctuation">&#125;</span>
+    <span class="token literal-property property">redirect</span><span class="token operator">:</span> <span class="token string">'follow'</span><span class="token punctuation">,</span>
+  <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre></li>
+<li>表單格式<ul><li>要注意 Google Sheet 預設會自動處理各種資料</li>
+<li>例如 <code>0123</code> 會被轉換成數值後變成 <code>123</code></li>
+<li>推薦事先點選表單左上角格全選後，將格式設為純文字</li></ul></li></ul>
 <h2 id="js-id-參考文章">參考文章</h2>
 <ul><li><a href="https://medium.com/unalai/%E5%AF%AB%E7%B5%A6%E7%B4%94%E5%89%8D%E7%AB%AF-%E8%AE%93-google-sheets-%E7%95%B6%E4%BD%A0%E7%9A%84%E5%BE%8C%E7%AB%AF%E5%AE%8C%E6%88%90%E5%AF%AB%E5%85%A5%E5%8A%9F%E8%83%BD-715799e5e013" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://medium.com/unalai/%E5%AF%AB%E7%B5%A6%E7%B4%94%E5%89%8D%E7%AB%AF-%E8%AE%93-google-sheets-%E7%95%B6%E4%BD%A0%E7%9A%84%E5%BE%8C%E7%AB%AF%E5%AE%8C%E6%88%90%E5%AF%AB%E5%85%A5%E5%8A%9F%E8%83%BD-715799e5e013" alt="寫給純前端，讓 Google Sheets 當你的後端完成寫入功能"><span>寫給純前端，讓 Google Sheets 當你的後端完成寫入功能</span></a></li>
 <li><a href="https://tutorials.webduino.io/zh-tw/docs/socket/useful/google-sheet-2.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://tutorials.webduino.io/zh-tw/docs/socket/useful/google-sheet-2.html" alt="Google 試算表 (前後端實作)"><span>Google 試算表 (前後端實作)</span></a></li>
 <li><a href="https://g0v.hackpad.tw/5Ofw64qSz7P#:h=Google-Spreadsheet" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://g0v.hackpad.tw/5Ofw64qSz7P#:h=Google-Spreadsheet" alt="盤點各種線上協作資料(庫)方案 - g0v.hackpad.tw"><span>盤點各種線上協作資料(庫)方案 - g0v.hackpad.tw</span></a></li></ul>
 <h2 id="js-id-gas">GAS</h2>
-<ul><li>GET<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript">  <span class="token keyword">function</span> <span class="token function">doGet</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">const</span> target <span class="token operator">=</span> e<span class="token punctuation">.</span>parameter<span class="token punctuation">.</span>target<span class="token punctuation">;</span>
-    <span class="token function">getHandler</span><span class="token punctuation">(</span>target<span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre></li>
-<li>POST<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript">  <span class="token keyword">function</span> <span class="token function">doPost</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">const</span> parameter <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>e<span class="token punctuation">.</span>postData<span class="token punctuation">.</span>contents<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">const</span> target <span class="token operator">=</span> parameter<span class="token punctuation">.</span>target<span class="token punctuation">;</span>
-    <span class="token function">postHandler</span><span class="token punctuation">(</span>target<span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre></li>
+<ul><li>GET<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">doGet</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">const</span> target <span class="token operator">=</span> e<span class="token punctuation">.</span>parameter<span class="token punctuation">.</span>target<span class="token punctuation">;</span>
+  <span class="token function">getHandler</span><span class="token punctuation">(</span>target<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre></li>
+<li>POST<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">doPost</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">const</span> parameter <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>e<span class="token punctuation">.</span>postData<span class="token punctuation">.</span>contents<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> target <span class="token operator">=</span> parameter<span class="token punctuation">.</span>target<span class="token punctuation">;</span>
+  <span class="token function">postHandler</span><span class="token punctuation">(</span>target<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre></li>
 <li>TRIGGER<ul><li><code>onEdit()</code></li></ul></li>
 <li>Read<ul><li><code>SpreadsheetApp.getActiveSpreadsheet()</code></li>
 <li><code>Spreadsheet#getSheetByName(name)</code></li>
@@ -236,9 +325,9 @@
 <li><code>Range#getValues()</code><ul><li>ex. <code>const values = sheet.getRange(&quot;A1:C2&quot;).getValues();</code></li>
 <li><code>const values = sheet.getRange(&quot;A1:C2&quot;).getValues().flat();</code></li></ul></li></ul></li>
 <li>Write<ul><li><code>Range#setValues(values)</code></li>
-<li><pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript">  <span class="token keyword">const</span> rowLength <span class="token operator">=</span> array<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
-  <span class="token keyword">const</span> colLength <span class="token operator">=</span> array<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>length<span class="token punctuation">;</span>
-  sheet<span class="token punctuation">.</span><span class="token function">getRange</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> rowLength<span class="token punctuation">,</span> colLength<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setValues</span><span class="token punctuation">(</span>array<span class="token punctuation">)</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre></li></ul></li>
+<li><pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token keyword">const</span> rowLength <span class="token operator">=</span> array<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+<span class="token keyword">const</span> colLength <span class="token operator">=</span> array<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+sheet<span class="token punctuation">.</span><span class="token function">getRange</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> rowLength<span class="token punctuation">,</span> colLength<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setValues</span><span class="token punctuation">(</span>array<span class="token punctuation">)</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre></li></ul></li>
 <li><a href="https://developers.google.com/apps-script/reference/utilities/utilities" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://developers.google.com/apps-script/reference/utilities/utilities" alt="Utilities"><span>Utilities</span></a></li>
 <li>Use library<ul><li>Resources</li>
 <li>Libraries</li>
@@ -355,10 +444,10 @@
 </div>
 
 
-		<script type="module" data-hydrate="1lv7vc9">
-		import { start } from "/_app/start-733206bd.js";
+		<script type="module" data-hydrate="flcua1">
+		import { start } from "/_app/start-0bcea64b.js";
 		start({
-			target: document.querySelector('[data-hydrate="1lv7vc9"]').parentNode,
+			target: document.querySelector('[data-hydrate="flcua1"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -369,7 +458,7 @@
 				error: null,
 				nodes: [
 					import("/_app/pages/__layout.svelte-5611d17c.js"),
-						import("/_app/pages/posts/use-google-spreadsheet-as-database.md-a930d868.js")
+						import("/_app/pages/posts/use-google-spreadsheet-as-database.md-fe5911b2.js")
 				],
 				params: {},
 				routeId: "posts/use-google-spreadsheet-as-database"
