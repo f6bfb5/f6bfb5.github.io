@@ -72,7 +72,7 @@ tags: F2E, Toolbox
 ### 2. [可讀寫] Google Apps Script
 
 - 建立 GAS 檔案
-  - 「工具（Tools）」
+  - 「Extensions」
   - 「指令碼編輯器（Script editor）」
 - 撰寫 GAS
   - 預設以 `doGet()` 處理 GET 要求、`doPost()` 處理 POST 要求
@@ -97,11 +97,12 @@ const SpreadSheetID = "";
 const sheetName = "";
 
 function doGet(e) {
+  // accept object as parameter
   const params = e.parameter;
   const SpreadSheet = SpreadsheetApp.openById(SpreadSheetID);
   const Sheet = SpreadSheet.getSheetByName(sheetName);
 
-  // default wouldn't return category row (the first row)
+  // wouldn't return category row (the first row) by default
   const row = params.row ? params.row : 2;
   const col = params.col ? params.col : 1;
   let rowRange =
@@ -145,7 +146,7 @@ function doPost(e) {
 }
 ```
 
-- GAS 的回傳資料格式：
+- GAS 的回傳資料格式
   - 字串：`return ContentService.createTextOutput("GET 回傳字串");`
   - HTML：`return HtmlService.createHtmlOutput(HTMLString);`
   - JSON： 
@@ -155,6 +156,9 @@ function doPost(e) {
         ContentService.MimeType.JSON
       );
     ```
+- 傳送參數
+  - `const appUrl = new URL("[app url]");`
+  - `appUrl.search = new URLSearchParams({ action: "getAll" }).toString();`
 
 ## 參考文章
 
@@ -199,11 +203,13 @@ function doPost(e) {
       const colLength = array[0].length;
       sheet.getRange(1, 1, rowLength, colLength).setValues(array);
     ```
+- [Utilities](https://developers.google.com/apps-script/reference/utilities/utilities)
 - Use library
   - Resources
   - Libraries
   - 於 `add library` 貼上 script id
   - 追加
+  - [Cheeriogs](https://github.com/tani/cheeriogs)
 - Timestamp
   - `Utilities.formatDate(new Date(), "Asia/Taipei", "顯示格式");`
   - `顯示格式`
@@ -217,6 +223,9 @@ function doPost(e) {
     - `'yyyy/MM/dd/HH:mm'` → `2020/12/31/23:59`
 - Message Box
   - `if (Browser.msgBox("確認", "是否要執行？", Browser.Buttons.YES_NO) != "yes")`
+- Hash
+  - `var md5bin = Utilities.computeDigest(Utilities.DigestAlgorithm.MD5, text);`
+  - `var md5 = Utilities.base64Encode(md5bin);`
 
 ### 撰寫 Discord Webhook
 
@@ -224,6 +233,18 @@ function doPost(e) {
   - 點擊 Discord 頻道右邊的齒輪鍵
   - 點擊 `Integrations` -> `Create Webhook` -> `Copy Webhook URL`
 - 撰寫 GAS
+- [UrlFetchApp](https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app)
+- `UrlFetchApp.fetch(url[, params])`
+- params
+  - `contentType`
+  - `headers`
+  - `method`
+  - `payload`
+- response
+  - `getContentText()`
+  - `getHeaders()`
+  - `getResponseCode()`
+  - `getBlob()`
 
 ```javaScript
 function sendToDiscord(message) {
@@ -254,6 +275,26 @@ function sendToDiscord(message) {
 }
 ```
 
+### Save as excel file
+
+```javascript
+var sheetID = "";
+var fetchUrl =
+  "https://docs.google.com/feeds/download/spreadsheets/Export?key=" +
+  sheetID +
+  "&amp;exportFormat=xlsx";
+
+//OAuth
+var fetchOpt = {
+  headers: { Authorization: "Bearer " + ScriptApp.getOAuthToken() },
+  muteHttpExceptions: true,
+};
+
+var xlsxFile = UrlFetchApp.fetch(fetchUrl, fetchOpt)
+  .getBlob()
+  .setName("filename.xlsx");
+```
+
 ### 參考文章
 
 - [google-apps-script-awesome-list](https://github.com/contributorpw/google-apps-script-awesome-list#parsing)
@@ -266,3 +307,22 @@ function sendToDiscord(message) {
 - [法改正情報を早く確実にキャッチするために GAS で自動化するツールを作って運用してみた。](https://qiita.com/yamaguchi_yo/items/09bfc5c32faffa3beb62)
 - [スクレイピングいろいろ](https://qiita.com/cyoi0129/items/1cafb446dbe176e9366e)
 - [【Google Apps Script】トリガーによる定期実行の時間のズレをなくす方法](https://qiita.com/tapatyo/items/465a982635ba3933b32d)
+
+## Google Form
+
+1. 先使用 Google Form 製作好和需求相同形式的表單
+2. 點擊右上預覽表單
+3. 開啟開發者工具
+4. 尋找 `<form>` 標籤的 `action` 屬性中的傳送表單網址
+   - `action=[表單網址]`
+   - `https://docs.google.com/forms/u/0/d/e/xxxxxxx/formResponse`
+5. 尋找所有提問的 id
+   - `name=[提問 ID]`
+   - 通常為 `entry.xxxxxxx`，可使用此關鍵字快速搜尋
+6. 另外撰寫表格網頁，將傳送行為綁定至自訂的傳送按鍵上
+
+### 參考文章
+
+- [独自フォームと Google フォームを連携してかっこよくスマートにアンケート回収する](https://qiita.com/inoue2002/items/78dac54dba93ea4a087a)
+- [【2020 年最新版】カスタマイズしたフォームから JavaScript で Google フォームに回答を送信](https://qiita.com/Robot-Inventor/items/56e2b7b69760d045fad3)
+- [【GAS】自動返信機能付き Google フォームの作り方](https://valmore.work/auto-response-from-google-form/)

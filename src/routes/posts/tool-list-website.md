@@ -9,6 +9,7 @@ tags: Toolbox
 
 - [暇つぶしに最適なリンク集](http://fcrandom.freeoda.com/hima.html)
 - [📒Productivity を上げるために大切な 100 のこと](https://minerva.mamansoft.net/%F0%9F%93%97Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8/%F0%9F%93%92Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8)
+  - [【自宅で筋トレ】世界で一番楽な筋トレ＆有酸素運動で全身10種目の10分間です。楽に脂肪燃焼、肩こり解消、腰痛解消、運動不足解消したい方におすすめです。](https://www.youtube.com/watch?app=desktop&v=hge3fr50o0o)
 - [新冠確診過程應對指南](https://nova-jumbo-a96.notion.site/0701-3c934b7a75a2447d8f8fadb5bde63c42)
 - [教科書には載らないニッポンのインターネットの歴史](https://web.archive.org/web/20030801113739/http://blogdex.tripod.co.jp/encyclopedia/)
 - [佐倉葉ウェブ文化研究室](https://websitemap.sakura.ne.jp/index.html)
@@ -119,6 +120,8 @@ tags: Toolbox
 - [物を捨てられないオタクが主に紙製のグッズを収納するために必要なものをまとめた記事](https://dic.nicovideo.jp/a/%E7%89%A9%E3%82%92%E6%8D%A8%E3%81%A6%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84%E3%82%AA%E3%82%BF%E3%82%AF%E3%81%8C%E4%B8%BB%E3%81%AB%E7%B4%99%E8%A3%BD%E3%81%AE%E3%82%B0%E3%83%83%E3%82%BA%E3%82%92%E5%8F%8E%E7%B4%8D%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%AA%E3%82%82%E3%81%AE%E3%82%92%E3%81%BE%E3%81%A8%E3%82%81%E3%81%9F%E8%A8%98%E4%BA%8B)
 - [実在苗字の根拠](https://web.archive.org/web/20200609223515/https://myoujikonkyo.web.fc2.com/)
 - [力尽きレシピ〜簡単ズボラ飯のレシピ集〜](https://saruwakakun.com/life/recipe)
+- [五十音順(パンの名前)](https://bread.jp.net/japanese_syllabary.php)
+- [死刑確定者 全リスト](https://www.crimeinfo.jp/data/dplist/dplist_all/)
 
 ## 音樂
 
@@ -178,6 +181,8 @@ tags: Toolbox
 | [映画学メモ 「映画学入門」　目次（これまで扱った分）](http://filmstudies.blog21.fc2.com/blog-entry-76.html) | 電影學入門筆記                         |
 | [◇ テレビドラマデータベース ◇](http://www.tvdrama-db.com/)                                                  | 電視戲劇資料庫                         |
 | [現代麻雀技術論](http://yabejp.web.fc2.com/mahjong/tactics.html)                                            | 日本麻將戰術介紹                       |
+
+- [Tech Noir](https://technoir.nl/)
 
 ## 電玩
 

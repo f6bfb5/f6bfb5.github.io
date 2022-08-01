@@ -13,6 +13,7 @@
     "https://c.tenor.com/xK6H41lmjrQAAAAC/anime-girl.gif",
     "https://c.tenor.com/I2pOVoq3YAIAAAAC/lain-serial-experiments.gif",
     // === Anime ===
+    "https://cdn.discordapp.com/attachments/942800436996505670/999437255263395900/IMG_7551.gif",
     // src: https://media4.giphy.com/media/nlk3Y1u3r1n5C/giphy.gif
     "https://64.media.tumblr.com/tumblr_m50esawubi1qghl49o1_r1_500.gifv",
     // src: https://media0.giphy.com/media/jsoMtBuP1Ahpu/giphy.gif
@@ -103,6 +104,8 @@
     "https://healthy-person-emulator.memo.wiki/d/%b7%f2%b9%af%c5%aa%a4%ca%c0%b8%b3%e8%a5%ea%a5%ba%a5%e0%a4%f2%b3%ce%ce%a9%a4%b7%a4%bf%a4%db%a4%a6%a4%ac%a4%e8%a4%a4",
     // 自分の思っていることを相手にしっかり伝えるようにする
     "https://healthy-person-emulator.memo.wiki/d/%bc%ab%ca%ac%a4%ce%bb%d7%a4%c3%a4%c6%a4%a4%a4%eb%a4%b3%a4%c8%a4%f2%c1%ea%bc%ea%a4%cb%a4%b7%a4%c3%a4%ab%a4%ea%c5%c1%a4%a8%a4%eb%a4%e8%a4%a6%a4%cb%a4%b9%a4%eb",
+    // 【対談】精神科医の名越康文先生と「心が弱ったときのあるある」について話す
+    "https://www.youtube.com/watch?v=y7vX3Km396U",
     // ========================================
   ];
 

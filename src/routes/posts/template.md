@@ -182,6 +182,11 @@ flowchart TB
     funOp -- 例 --- funOpEx([toggleArchivedItems])
 ```
 
+## Other Flowchart library
+
+- [asciiflow](https://dot-to-ascii.ggerganov.com/)
+- [markmap](https://markmap.js.org/repl)
+
 ## 縦書き
 
 - [html と css で縦書き](https://memorocchi.net/hpcss-tategaki/)
@@ -314,7 +319,7 @@ flowchart TB
 🟪🟪🟪
 ```
 
-<style>
+<style scoped>
   .vertical-writing {
     margin: auto;
     padding: 2em 0;
