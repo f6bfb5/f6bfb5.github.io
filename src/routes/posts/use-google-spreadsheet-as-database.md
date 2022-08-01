@@ -9,7 +9,7 @@ tags: F2E, Toolbox
 
 - Google 的 Sheet API 可以直接將 Sheet 內容轉換成 JSON 格式輸出
 - 亦可從外部傳進資料，修改 Sheet 裡的內容
-- 並且都有提供 CORS 支援，可免於處理跨域的困擾
+- 並有提供 CORS 支援，可免於處理跨域的困擾
 
 ## 實作
 
@@ -80,85 +80,180 @@ tags: F2E, Toolbox
 - 發佈 API
   - 「發佈（Publish）」
   - 「部署為網路應用程式…（Deploy as web app...）」
-  - 「將應用程式執行為（Execute the app as）」：**「我（Me）」**
-  - 「具有應用程式存取權的使用者（Who has access to the app）」：**「任何人，甚至匿名使用者（Anyone, even anonymous）」**
-  - 「部署（Deploy）」→「核對權限」→選擇授權用的 Google 帳號→「進階」→「前往（此應用程式名稱）」→ 允許
+  - 「將應用程式執行為（Execute the app as）」
+    - **「我（Me）」**
+  - 「具有應用程式存取權的使用者（Who has access to the app）」
+    - **「任何人，甚至匿名使用者（Anyone, even anonymous）」**
+  - 「部署（Deploy）」
+    - 「核對權限」
+    - 選擇授權用的 Google 帳號
+    - 「進階」
+    - 「前往（此應用程式名稱）」
+    - 「允許」
   - 「app URL」即為讀取與寫入用的網址
 - 更改程式
-  - 更新 GAS 程式後，在重新發佈時，「專案版本（Project version）」要選擇「新增（New）」
-  - 既有數字是之前點擊發佈時的版本，不會反應最新的修改內容
+  - 更新 GAS 程式後，重新發佈時，「專案版本（Project version）」要選擇「新增（New）」
+  - 既有數字是之前發佈的版本，不會反應最新的修改內容
   - 改動後一定要選擇「新增」專案版本，才會有效反應
 
 ```javascript
-// 複製 Sheet 網址裡 [sheet-id] 的部份
+// Sheet 網址裡 [sheet-id] 的部份
 // https://docs.google.com/spreadsheets/d/[sheet-id]/
 const SpreadSheetID = "";
-// 下方的分頁名稱
-const sheetName = "";
+const SpreadSheet = SpreadsheetApp.openById(SpreadSheetID);
 
-function doGet(e) {
-  // accept object as parameter
-  const params = e.parameter;
-  const SpreadSheet = SpreadsheetApp.openById(SpreadSheetID);
-  const Sheet = SpreadSheet.getSheetByName(sheetName);
+function textOutput(obj, mimeType = "JSON") {
+  return ContentService.createTextOutput(
+    JSON.stringify(obj)
+    .setMimeType(ContentService.MimeType[mimeType]);
+  )
+}
 
-  // wouldn't return category row (the first row) by default
-  const row = params.row ? params.row : 2;
-  const col = params.col ? params.col : 1;
+function getSheet(sheetName) {
+  return SpreadSheet.getSheetByName(sheetName);
+}
+
+// ----------
+// doGet
+// ----------
+
+function getAllSheetData(sheetName) {
+  const Sheet = getSheet(sheetName);
+  // the first row is category,
+  // so row starts from 2
+  //
+  // and the first row is not needed,
+  // so length is full length -1
+  //
+  return Sheet.getSheetValues(
+    2,
+    1,
+    Sheet.getLastRow() - 1,
+    Sheet.getLastColumn()
+  )
+}
+
+function getSheetDataByRange(sheetName, range) {
+  const Sheet = getSheet(sheetName);
+   // wouldn't return category row (the first row) by default
+  const startRow = range.startRow ? range.startRow : 2;
+  const startCol = range.startCol ? range.startCol : 1;
   let rowRange =
-    params.endRow && params.row
-      ? params.endRow - params.row + 1
+    range.endRow && range.startRow
+      ? range.endRow - range.startRow + 1
       : Sheet.getLastRow() - 1;
   let colRange =
-    params.endCol && params.col
-      ? params.endCol - params.col + 1
+    range.endCol && range.startCol
+      ? range.endCol - range.startCol + 1
       : Sheet.getLastColumn();
   if (rowRange > Sheet.getLastRow()) rowRange = Sheet.getLastRow() - 1;
   if (colRange > Sheet.getLastColumn()) colRange = Sheet.getLastColumn();
 
-  const data = Sheet.getSheetValues(row, col, rowRange, colRange);
+  const data = Sheet.getSheetValues(startRow, startCol, rowRange, colRange);
+  return data;
+}
 
-  return ContentService.createTextOutput(JSON.stringify(data)).setMimeType(
-    ContentService.MimeType.JSON
-  );
+function doGet(e) {
+  // accept object as parameter
+  const params = e?.parameter;
+  if (!params) {
+    return textOutput({ response: "200" });
+  }
+
+  // you can custom what key to use for different execution
+  switch (params.action) {
+    case "getAll":
+      return textOutput(getAllSheetData("Sheet1"));
+      break;
+    case "getRange":
+      return textOutput(getSheetDataByRange("Sheet1", params.range));
+      break;
+    default:
+      return textOutput({ response: "200" });
+      break;
+  }
+}
+
+// ----------
+// doPost
+// ----------
+
+function appendSheetRow(sheetName, newRowData) {
+  const Sheet = getSheet(sheetName);
+  const newRow = Sheet.getLastRow() + 1;
+  // accept number key as row-col index
+  // for example,
+  // data: { 1: "Cell 1 data", 2: "Cell 2 data", 3: "Cell 3 data" }
+  // would save to the row by the key
+  for (const [index, cellData] of Object.entries(newRowData)) {
+    Sheet.getRange(newRow, index).setValue(cellData);
+  }
+}
+
+function editSheetCell(sheetName, row, col, value) {
+  getSheet(sheetName).getRange(row, col).setValue(value);
+}
+
+function deleteSheetRow(sheetName, row) {
+  getSheet(sheetName).deleteRow(row);
 }
 
 function doPost(e) {
-  const params = e.parameter;
-  const SpreadSheet = SpreadsheetApp.openById(SpreadSheetID);
-  const Sheet = SpreadSheet.getSheetByName(sheetName);
-  const NewRow = Sheet.getLastRow() + 1;
+  // accept object as parameter
+  const params = e?.parameter;
+  if (!params) {
+    return textOutput({ response: "200" });
+  }
 
-  // customize data key here
-  const dataKey = ["data"];
-
-  // add Timestamp in the first column
-  Sheet.getRange(NewRow, 1)
-    .setValue(new Date())
-    .setNumberFormat("yyyy/MM/dd hh:mm");
-
-  // add data by keys to the last row
-  dataKey.forEach((key, i) => {
-    Sheet.getRange(NewRow, i + 2).setValue(params[key]);
-  });
-
-  return ContentService.createTextOutput("POST success");
+  const postContents = JSON.parse(e?.postData.contents);
+  // you can custom what key to use for different execution
+  switch (params.action) {
+    case "appendRow":
+      // again, you can also custom what key to use for post data
+      appendSheetRow("Sheet1", postContents.data);
+      return textOutput({ response: "200" });
+      break;
+    case "editCell":
+      editSheetCell("Sheet1", postContents.row, postContents.col, postContents.data);
+      return textOutput({ response: "200" });
+      break;
+    case "deleteRow":
+      deleteSheetRow("Sheet1", postContents.row);
+      return textOutput({ response: "200" });
+    default:
+      return textOutput({ response: "200" });
+      break;
+  }
 }
 ```
 
 - GAS 的回傳資料格式
-  - 字串：`return ContentService.createTextOutput("GET 回傳字串");`
+  - 字串：`return ContentService.createTextOutput("回傳字串");`
   - HTML：`return HtmlService.createHtmlOutput(HTMLString);`
-  - JSON： 
+  - JSON：
     ```javascript
-      const JSONString = JSON.stringify(result);
-      return ContentService.createTextOutput(JSONString).setMimeType(
-        ContentService.MimeType.JSON
-      );
+    const JSONString = JSON.stringify(result);
+    return ContentService.createTextOutput(JSONString).setMimeType(
+      ContentService.MimeType.JSON
+    );
     ```
-- 傳送參數
-  - `const appUrl = new URL("[app url]");`
-  - `appUrl.search = new URLSearchParams({ action: "getAll" }).toString();`
+- 傳送參數至 GAS
+  ```javascript
+    const apiUrl = '';
+    const postData = { data: "some data to post" };
+    await fetch(apiUrl, {
+      method: 'POST',
+      body: JSON.stringify(postData),
+      headers: {
+        'Content-Type': 'text/plain;charset=utf-8'
+      }
+      redirect: 'follow',
+    });
+  ```
+- 表單格式
+  - 要注意 Google Sheet 預設會自動處理各種資料
+  - 例如 `0123` 會被轉換成數值後變成 `123`
+  - 推薦事先點選表單左上角格全選後，將格式設為純文字
 
 ## 參考文章
 
@@ -166,22 +261,22 @@ function doPost(e) {
 - [Google 試算表 (前後端實作)](https://tutorials.webduino.io/zh-tw/docs/socket/useful/google-sheet-2.html)
 - [盤點各種線上協作資料(庫)方案 - g0v.hackpad.tw](https://g0v.hackpad.tw/5Ofw64qSz7P#:h=Google-Spreadsheet)
 
-## GAS 
+## GAS
 
 - GET
   ```javascript
-    function doGet(e) {
-      const target = e.parameter.target;
-      getHandler(target);
-    }
+  function doGet(e) {
+    const target = e.parameter.target;
+    getHandler(target);
+  }
   ```
 - POST
   ```javascript
-    function doPost(e) {
-      const parameter = JSON.parse(e.postData.contents);
-      const target = parameter.target;
-      postHandler(target);
-    }
+  function doPost(e) {
+    const parameter = JSON.parse(e.postData.contents);
+    const target = parameter.target;
+    postHandler(target);
+  }
   ```
 - TRIGGER
   - `onEdit()`
@@ -199,9 +294,9 @@ function doPost(e) {
 - Write
   - `Range#setValues(values)`
   - ```javascript
-      const rowLength = array.length;
-      const colLength = array[0].length;
-      sheet.getRange(1, 1, rowLength, colLength).setValues(array);
+    const rowLength = array.length;
+    const colLength = array[0].length;
+    sheet.getRange(1, 1, rowLength, colLength).setValues(array);
     ```
 - [Utilities](https://developers.google.com/apps-script/reference/utilities/utilities)
 - Use library
