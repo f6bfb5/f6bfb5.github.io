@@ -157,16 +157,16 @@ tags: ACG, Comic
   - 其中一份參加「ナツの漫画１００冊」的書單
 - 2006-08-24 [マンガナツ 100 　結果発表 20 位～ 1 位](http://d.hatena.ne.jp/dangerous1192/20060824)
   - 由「酔拳の王　だんげの方」舉辦的企畫「ナツの漫画１００冊」（漫畫百選）票選結果
-- 2008-08-12 [Blog のタイトル:2008 年版 ナツ 100(確定) - livedoor Blog（ブログ）](http://blog.livedoor.jp/sabamiso_es/archives/51359391.html)
+- 2008-08-12 [Blog のタイトル:2008 年版 ナツ 100(確定)](http://blog.livedoor.jp/sabamiso_es/archives/51359391.html)
 - 2010-08-23 [全１巻オススメ漫画１００選　良いコミック](https://yoicomic.blog.fc2.com/blog-entry-185.html)
   - 單冊漫畫的推薦書單
-- 2011-08-22 [漫画ナツ 100 に、久し振りに参加してみる - マンガ LOG 収蔵庫](https://m-kikuchi.hatenablog.com/entry/20110822/1314013093)
-- 2015-02-13 [このマンガで語り合いたい！私が読んだマンガ・おすすめ 55 選。 - ネットタイガー](https://web.archive.org/web/20150213130034/http://nbnl.hatenablog.jp/entry/2015/02/13/211923)
-- 2015-12-31 [2015 年、漫画ベスト 50 - From The Inside](https://minesweeper96.hatenablog.com/entry/2015/12/31/180519)
-- 2020-03-11 [【再掲載】「3.11 を直接描いた漫画」リストをそのまま再掲載します - INVISIBLE D.　ー QUIET & COLORFUL PLACE-](https://m-dojo.hatenadiary.com/entry/2020/03/11/013105)
-- 2020-04-25 [【完結済み】漫画オタクが選ぶオススメ漫画ランキング 82 選【マイナー向け】 - 漫画に飽きるまで](http://jojocomic2325.hatenablog.com/entry/2020/04/25/161437)
-- 2021-01-20 [2020 年に第一巻が発売されたおもしろマンガ・ベスト 10 と＋ 40 作くらい - 名馬であれば馬のうち](https://proxia.hateblo.jp/entry/2021/01/20/190057)
-- 2021-06-26 [マンガ必読書 101（井戸畑,赤井,滝,竹田,寛治,ほしがた） - exust's blog](https://exust.hatenablog.com/entry/2021/06/26/045024)
+- 2011-08-22 [漫画ナツ 100 に、久し振りに参加してみる](https://m-kikuchi.hatenablog.com/entry/20110822/1314013093)
+- 2015-02-13 [このマンガで語り合いたい！私が読んだマンガ・おすすめ 55 選。](https://web.archive.org/web/20150213130034/http://nbnl.hatenablog.jp/entry/2015/02/13/211923)
+- 2015-12-31 [2015 年、漫画ベスト 50](https://minesweeper96.hatenablog.com/entry/2015/12/31/180519)
+- 2020-03-11 [【再掲載】「3.11 を直接描いた漫画」リストをそのまま再掲載します](https://m-dojo.hatenadiary.com/entry/2020/03/11/013105)
+- 2020-04-25 [【完結済み】漫画オタクが選ぶオススメ漫画ランキング 82 選【マイナー向け】](http://jojocomic2325.hatenablog.com/entry/2020/04/25/161437)
+- 2021-01-20 [2020 年に第一巻が発売されたおもしろマンガ・ベスト 10 と＋ 40 作くらい](https://proxia.hateblo.jp/entry/2021/01/20/190057)
+- 2021-06-26 [マンガ必読書 101（井戸畑,赤井,滝,竹田,寛治,ほしがた）](https://exust.hatenablog.com/entry/2021/06/26/045024)
 - 2021-07-07 [マンガ 100 - 装置](https://trebuchet.hatenablog.com/entry/2021/07/07/004439)
 
 ## 網站
@@ -174,8 +174,17 @@ tags: ACG, Comic
 - 2010-12-?? [ファミ 2 コミック](http://randomhoohaas.flyingomelette.com/ai/scans/fami2comic.html#hichako)
 - 2017-02-08 [出版社の営業がガチで選んだ、本当は自分が売りたい最高の漫画 26 選！](https://careersupli.jp/lifehack/manga-3/)
 - 2017-07-21 [【永久保存版】国内ゲーム漫画 83 作品 287 冊を全冊読破してレビュー。語られざる歴史をベテランゲーム誌編集者が徹底案内【前編】](https://news.denfaminicogamer.jp/kikakuthetower/170721)
-- 2020-05-30 [【2020 版】ミステリー・サスペンス漫画のおすすめの面白い作品を紹介する。 - 漫画ギーク記](https://www.dokusyo-geek-ki.com/entry/2016/04/27/070429)
-- 2021-06-26 [絶対に面白いおすすめ漫画 99 選！話題の新作から殿堂入りの名作まで厳選紹介 | 心に火を、指先にペンを](https://www.kokoro-fire.com/entry/osusume-manga/)
+- 2020-05-30 [【2020 版】ミステリー・サスペンス漫画のおすすめの面白い作品を紹介する。](https://www.dokusyo-geek-ki.com/entry/2016/04/27/070429)
+- 2021-06-26 [絶対に面白いおすすめ漫画 99 選！話題の新作から殿堂入りの名作まで厳選紹介](https://www.kokoro-fire.com/entry/osusume-manga/)
+- [現役東大生 249 人が支持｢これだけは読ませて損はない｣わが子の頭がよくなるマンガ 16 作品](https://president.jp/articles/-/51045)
+- [後味が悪い／モヤモヤする／憂鬱になる漫画のおすすめ１５作品＋ α](https://kido-ari.hatenablog.com/entry/2016/12/09/234456)
+- [人類が存続を保証すべき 2017 年の新作連載マンガ 72 選](https://proxia.hateblo.jp/entry/2018/01/03/211819)
+- [マンガ最初の 1 巻だけ 100 冊読んで調べてみた「これおもしくなるんじゃねえか？ランキング」](https://www.rupannzasann.com/entry/2021/05/05/223321)
+- [「このマンガを読め！」1 位は松本大洋「東京ヒゴロ」](https://natalie.mu/comic/news/458218)
+- [2021 年に読んで面白かった漫画 55 選](https://aqm.hatenablog.jp/entry/2021/12/31/000100)
+- [【２０２１年度版】すごかった漫画（全３５作品）](https://msknmr.hatenablog.com/entry/2022/01/04/035238)
+- [(昔の、一昔前の)少女漫画のオススメ](http://girlsreport.net/archives/45412536.html)
+- [2021 年のマンガ新作ベスト 10+5+7+5](https://proxia.hateblo.jp/entry/2022/01/16/181742)
 
 ## 「1001 本你死前應該要看過的漫畫」
 
@@ -343,13 +352,3 @@ tags: ACG, Comic
 | 1947 年  | ミネ・オークボ       | Citizen 13660      |      |
 | 1994 年  | バル                 | 太陽高速           |      |
 | 2000 年  | フレデリック・ボワレ | ゆき子のホウレン草 |      |
-
-- [現役東大生 249 人が支持｢これだけは読ませて損はない｣わが子の頭がよくなるマンガ 16 作品](https://president.jp/articles/-/51045)
-- [後味が悪い／モヤモヤする／憂鬱になる漫画のおすすめ１５作品＋ α - 今にも崩れそうな本棚の下で](https://kido-ari.hatenablog.com/entry/2016/12/09/234456)
-- [人類が存続を保証すべき 2017 年の新作連載マンガ 72 選](https://proxia.hateblo.jp/entry/2018/01/03/211819)
-- [マンガ最初の 1 巻だけ 100 冊読んで調べてみた「これおもしくなるんじゃねえか？ランキング」 - 節約系ミニマリスト 0.5](https://www.rupannzasann.com/entry/2021/05/05/223321)
-- [「このマンガを読め！」1 位は松本大洋「東京ヒゴロ」 - コミックナタリー](https://natalie.mu/comic/news/458218)
-- [2021 年に読んで面白かった漫画 55 選 - AQM](https://aqm.hatenablog.jp/entry/2021/12/31/000100)
-- [【２０２１年度版】すごかった漫画（全３５作品） - 村 村](https://msknmr.hatenablog.com/entry/2022/01/04/035238)
-- [(昔の、一昔前の)少女漫画のオススメ](http://girlsreport.net/archives/45412536.html)
-- [2021 年のマンガ新作ベスト 10+5+7+5 - 名馬であれば馬のうち](https://proxia.hateblo.jp/entry/2022/01/16/181742)

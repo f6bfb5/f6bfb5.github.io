@@ -48,6 +48,7 @@
     "4万円貸してくれませんか？必ず来月には返すのですが……",
     "火は一日で森を灰にするが、水と風は百年かけて森を育てる",
     "ここに来て一年になるが、ケイスはまだ電脳空間の夢を見、希望は夜ごとに薄れていく。”ナイト・シティ”でこれだけ覚醒剤をやり、あれだけ肩代わりし、危ない橋を渡ってきても、眠るときに見るのはマトリックス。無色の虚空に広がる、輝くロジックの格子ーー",
+    "何、それは本当かね！？それは…気の毒に…",
     "Lain is omnipresent, existing everywhere.",
     "Make me sad, Make me mad, Make me feel alright.",
     "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",

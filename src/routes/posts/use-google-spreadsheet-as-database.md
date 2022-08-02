@@ -307,7 +307,7 @@ function doPost(e) {
   - [Cheeriogs](https://github.com/tani/cheeriogs)
 - Timestamp
   - `Utilities.formatDate(new Date(), "Asia/Taipei", "顯示格式");`
-  - `顯示格式`
+  - 顯示格式
     - `年：y`
     - `月：M`
     - `日：d`
