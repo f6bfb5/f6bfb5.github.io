@@ -1,0 +1,1 @@
+import"../../chunks/index-1cb0a915.js";import"../../chunks/_post-8b5fe991.js";import{U as p,m as e}from"../../chunks/use-google-spreadsheet-as-database-9e06fe74.js";import"../../chunks/BlinkAnchor-55bdbd1c.js";export{p as default,e as metadata};
