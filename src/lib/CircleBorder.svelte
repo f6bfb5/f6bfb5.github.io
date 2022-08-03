@@ -1,10 +1,11 @@
 <script>
   export let text;
   export let image;
+  export let borderColor = "skyblue";
 </script>
 
-<div class="circle-border">
-  {#if text}
+<div class="circle-border" style="border: 3px solid {borderColor};">
+    {#if text}
     <span class="circle-border-content">{text}</span>
   {:else}
     <img
@@ -23,7 +24,7 @@
     height: 80px;
     border-radius: 50%;
     background: white;
-    border: 3px solid skyblue;
+    /* border: 3px solid skyblue; */
     overflow: hidden;
   }
   .circle-border-content {

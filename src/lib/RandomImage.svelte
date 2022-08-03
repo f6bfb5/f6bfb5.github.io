@@ -23,8 +23,60 @@
     "https://i.imgur.com/XHOlLwQ.png",
     "https://i.imgur.com/vCT9925.png",
     "https://i.imgur.com/VKSRtGQ.png",
-  ]
-  const imageUrl = imageUrlsArray[Math.floor(imageUrlsArray.length * Math.random())];
+  ];
+  const imageUrl =
+    imageUrlsArray[Math.floor(imageUrlsArray.length * Math.random())];
 </script>
 
-<img style="max-width: 480px; width: 100%; margin: 16px auto 0;" src={imageUrl} alt="random retro-style picture" />
+<div id="js-random-image-container" class="random-image-container">
+  <img id="js-random-image" src={imageUrl} alt="random retro-style pic" />
+  <div class="image-noise" />
+</div>
+
+<!-- 
+CodePen Embed - Noisy Gradients Image
+https://webdesign.tutsplus.com/tutorials/better-web-images-with-svg-grainy-filters--cms-39739
+-->
+<svg>
+  <filter id="noiseFilter">
+    <feTurbulence
+      type="fractalNoise"
+      baseFrequency="6.29"
+      numOctaves="6"
+      stitchTiles="stitch"
+    />
+  </filter>
+</svg>
+
+<style scoped>
+  .random-image-container {
+    position: relative;
+    margin: 16px auto 0;
+    width: fit-content;
+  }
+  img {
+    max-width: 480px;
+    width: 100%;
+    filter: contrast(100%) brightness(150%);
+  }
+  .image-noise {
+    width: 100%;
+  }
+  .image-noise::before,
+  .image-noise::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 83.5%;
+    height: 83.5%;
+    mix-blend-mode: multiply;
+  }
+  .image-noise::before {
+    filter: url(#noiseFilter);
+  }
+  svg {
+    display: none;
+  }
+</style>
