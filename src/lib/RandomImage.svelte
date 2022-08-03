@@ -1,4 +1,6 @@
 <script>
+  import { onMount } from "svelte";
+
   const imageUrlsArray = [
     "https://i.imgur.com/tdh6Lx8.png",
     "https://i.imgur.com/JuPO2pq.png",
@@ -26,9 +28,28 @@
   ];
   const imageUrl =
     imageUrlsArray[Math.floor(imageUrlsArray.length * Math.random())];
+
+  let noiseWidth = "83.5%";
+  let noiseHeight = "83.5%";
+  onMount(() => {
+    const userAgent = navigator.userAgent;
+    if (
+      // FireFox
+      userAgent.indexOf("Firefox") > -1 ||
+      // Safari
+      (userAgent.indexOf("Safari") > -1 && userAgent.indexOf("Chrome") == -1)
+    ) {
+      noiseWidth = "100%";
+      noiseHeight = "100%";
+    }
+  });
 </script>
 
-<div id="js-random-image-container" class="random-image-container">
+<div
+  id="js-random-image-container"
+  class="random-image-container"
+  style="--noise-width: {noiseWidth}; --noise-height: {noiseHeight};"
+>
   <img id="js-random-image" src={imageUrl} alt="random retro-style pic" />
   <div class="image-noise" />
 </div>
@@ -69,8 +90,10 @@ https://webdesign.tutsplus.com/tutorials/better-web-images-with-svg-grainy-filte
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 83.5%;
-    height: 83.5%;
+    /* width: 83.5%; */
+    /* height: 83.5%; */
+    width: var(--noise-width);
+    height: var(--noise-height);
     mix-blend-mode: multiply;
   }
   .image-noise::before {
