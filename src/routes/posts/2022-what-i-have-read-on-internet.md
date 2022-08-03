@@ -1331,3 +1331,4 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - ["牛乳パック"どっちが好きですか？](https://note.com/shikaku_labo/n/n0c690cc6ac64)
 - [DMMの「Mastercard取引停止」で考える"カード決済の裏"　クレカの扱いがなくなる複数の理由](https://www.itmedia.co.jp/news/articles/2208/03/news116.html)
 - [国語の授業で『たゆたう』という言葉を使い答えたらそんな言葉はないと先生や同級生から笑われた経験をした為、コミュ力＝語彙力や読解力ではないと思う](https://togetter.com/li/1925288)
+- [𓁲 𓀀 𓀁 𓀂 𓀃 𓀄 𓀅 𓀆 𓀇 𓀈 𓀉 𓀊 𓀋 𓀌 𓀍 ..](https://anond.hatelabo.jp/20220803153344)

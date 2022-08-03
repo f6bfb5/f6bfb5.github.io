@@ -397,6 +397,10 @@ flowchart TB
 
 <BorderedText />
 
+<div style="margin: auto; width: fit-content; font-size: 50pt;">𓂀</div>
+
+♦永遠(とわ)に千切れてく
+
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
   import BalloonQuote from "$lib/BalloonQuote.svelte";
