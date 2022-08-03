@@ -11,6 +11,7 @@ tags: Toolbox
 - [📒Productivity を上げるために大切な 100 のこと](https://minerva.mamansoft.net/%F0%9F%93%97Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8/%F0%9F%93%92Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8)
   - [【自宅で筋トレ】世界で一番楽な筋トレ＆有酸素運動で全身10種目の10分間です。楽に脂肪燃焼、肩こり解消、腰痛解消、運動不足解消したい方におすすめです。](https://www.youtube.com/watch?app=desktop&v=hge3fr50o0o)
 - [新冠確診過程應對指南](https://nova-jumbo-a96.notion.site/0701-3c934b7a75a2447d8f8fadb5bde63c42)
+- [新型コロナ後遺症チートシート（対策一覧）](https://longcovid.jp/cheat-sheet.html)
 - [教科書には載らないニッポンのインターネットの歴史](https://web.archive.org/web/20030801113739/http://blogdex.tripod.co.jp/encyclopedia/)
 - [佐倉葉ウェブ文化研究室](https://websitemap.sakura.ne.jp/index.html)
 - [e-typing ローマ字タイピング](https://www.e-typing.ne.jp/roma/check/)
@@ -18,6 +19,20 @@ tags: Toolbox
 - [Google reCAPTCHA test](https://patrickhlauke.github.io/recaptcha/)
 
 ---
+
+- [僕を取り囲む私を観察した不定期日記で自分は誰？](https://web.archive.org/web/20030811182532/http://www4.vc-net.ne.jp/~obara/diary/)
+- [同人誌生活文化総合研究所](https://web.archive.org/web/20030802235114/http://www.st.rim.or.jp/~nmisaki/)
+- [地下ゲームセンター](https://web.archive.org/web/20030810131216/http://www.hehehe.net/game/)
+- [潜在的幻狂覚無差別覚醒菌感染者](https://web.archive.org/web/20030802101451/http://rb.731.jp/ugjiten.html)
+- [虚構日記](https://web.archive.org/web/20030807141431/http://www4.osk.3web.ne.jp/~kawami/)
+- [Everything Rumia Knows](https://namelessrumia.heliohost.org/w/doku.php)
+- [Saltorn Blog](https://saltorn.neocities.org/)
+- [lilibyte](https://lilibyte.net/)
+- [dimden's hotel](https://dimden.dev/)
+- [Hotel Paintings](https://hotelpaintings.neocities.org/index.html)
+- [Twelve Men](https://twelvemen.neocities.org/)
+- [Simplifier](https://simplifier.neocities.org/)
+- [The Law NEET](https://lawneet.neocities.org/)
 
 ## 學習
 
@@ -54,6 +69,22 @@ tags: Toolbox
 - [上手な換気の方法](https://www.daikin.co.jp/air/life/ventilation)
 - [Philosophy Guides - 哲学ガイドブログ](https://www.philosophyguides.org/)
 - [日本図書コードの分類コード(C コード)](https://www.asahi-net.or.jp/~ax2s-kmtn/ref/ccode.html)
+- [東京大学語学愛好会 〜言語逆評定①〜](https://twitter.com/ut_glossophilia/status/1111830816772939777)
+
+---
+
+- 金融庁 - 基礎から学べる金融ガイド
+- 総務省 - Excel データ表記のルール資料
+- KEARNEY - Kearney 流仕事術
+- 経済産業省 - 経産省委託調査報告書
+- The Elements of Style
+- Utokyo English Academia
+- 経済産業省 - スタートアップの成長に向けたファイナンス
+- SFC - 「データ・ドリブン社会の創発と戦略」講座
+- 数理・データサイエンス教育強化拠点コンソーシアム
+- 京都大学 - プログラミング演習 Python
+- IPA - 超上流から攻める IT 化の事例集
+- Cookpad - クックパッド技術基礎研修
 
 ## 社會
 

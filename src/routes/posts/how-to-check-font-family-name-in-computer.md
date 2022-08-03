@@ -5,11 +5,15 @@ tags: F2E
 ---
 
 - Windows 的情況：
-  - 「設定」→「個人化」→「字型」，於「可用字型」底下，位於字型預覽圖下方的名稱。
+  1. 「設定」→「個人化」→「字型」
+  2. 於「可用字型」底下，位於字型預覽圖下方的名稱
 - Mac 的情況：
-  - 「Finder」→「Application」→「Font Book」，點擊字體裡選單的「i」開啟詳細資訊欄，裡頭的「Family」、「正式名稱」或「PostScript 名稱」皆可使用。
+  1. 「Finder」→「Application」→「Font Book」
+  2. 點擊字體裡選單的「i」開啟詳細資訊欄
+  3. 裡頭的「Family」、「正式名稱」或「PostScript 名稱」皆可使用
 - 通用解：直接貼上字體檔案名稱（不含副檔名）
-  - 例如字體檔案為 `crazeE-font2 thin.tff` <br/>則設定為 `font-family: 'crazeE-font2 thin';` 即可。
+  1. 例如字體檔案為 `crazeE-font2 thin.tff`
+  2. 設定為 `font-family: 'crazeE-font2 thin';` 即可
 
 ## 參考資料
 

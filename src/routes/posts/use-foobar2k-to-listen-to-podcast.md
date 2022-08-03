@@ -48,9 +48,18 @@ Podcatcher 可以讓 foobar2000 自動更新與下載所訂閱的 Podcast 節目
 
 節目敘述大多是節目重點整理、補充資料或業配相關資訊，也能從選單裡點開來看，問題不大。前兩者就比較麻煩，尤其是檔名重複問題，時常會莫名播放到和所選完全不同的節目，例如點了某一集新資料夾，卻播起了人生晚長，就得把已經抓下來的檔案刪掉後再重新點擊播放，目前也沒有新的替代插件能用，算是比較遺憾的待改善點。
 
-> 追記：將設定頁面 `Perferences` -> `Tools` -> `Podcatcher` 裡的 `Time range over which to automatically download podcasts` 移至最左邊的 `No automatic downloading`，並從 `File` -> `Update All Podcast Feeds` 更新來源後，即可避免相同檔名問題（吧）。
+## 追記
 
-追記 2：我的 podcast 訂閱清單
+- 將設定頁面 `Perferences` -> `Tools` -> `Podcatcher`
+  - 裡的 `Time range over which to automatically download podcasts`
+  - 移至最左邊的 `No automatic downloading`
+- 從 `File` -> `Update All Podcast Feeds` 更新來源
+
+即可避免相同檔名問題（吧）。
+
+## 追記 2
+
+我的 podcast 訂閱清單：
 
 | 名稱                                    | RSS 網址                                                                     | 類型 |
 | --------------------------------------- | ---------------------------------------------------------------------------- | ---- |
