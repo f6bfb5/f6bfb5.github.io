@@ -16,15 +16,15 @@
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-e04a8a3c.css">
 	<link rel="stylesheet" href="/_app/assets/_post-6cf996f4.css">
 	<link rel="stylesheet" href="/_app/assets/BlinkAnchor-39834c8c.css">
-	<link rel="modulepreload" href="/_app/start-36345cf7.js">
+	<link rel="modulepreload" href="/_app/start-45da3bde.js">
 	<link rel="modulepreload" href="/_app/chunks/index-1cb0a915.js">
 	<link rel="modulepreload" href="/_app/chunks/index-908f6326.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-f9215757.js">
-	<link rel="modulepreload" href="/_app/pages/posts/use-foobar2k-to-listen-to-podcast.md-8fabe13e.js">
+	<link rel="modulepreload" href="/_app/pages/posts/use-foobar2k-to-listen-to-podcast.md-b312ea5a.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-8b5fe991.js">
 	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-55bdbd1c.js">
-	<link rel="modulepreload" href="/_app/chunks/use-foobar2k-to-listen-to-podcast-92f04951.js">
+	<link rel="modulepreload" href="/_app/chunks/use-foobar2k-to-listen-to-podcast-526682a1.js">
   </head>
   <body>
     <!-- The application will be rendered inside this element,
@@ -56,7 +56,7 @@
   <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
   </a>
 </nav>
-      <a href="https://www.nicovideo.jp/watch/sm24304243" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
+      <a href="https://nico.ms/sm36110873" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
 </a></div>
     
 <div id="progress-bar" style="--scrollAmount: 0%;" class="svelte-1gbseey"></div></div>
@@ -112,8 +112,13 @@
 <p>原本聲音小到會令人抓狂（大概是因為完全沒做調整，這類節目的音量聽起來只有到 -18db 甚至更低，在特定平台上根本聽不了）的節目馬上變得舒服許多，也能同時顯示所有已訂閱的創作者的新節目，不需要再一個一個點開來看新節目有沒有興趣，收聽體驗有了飛躍性的改善。</p>
 <p>不過這種收聽方式也有一些缺點：無法標記節目是否已聽過、有些 Podcaster 因為檔案命名因素（ex. 呱吉的錄音檔案名稱都會是「rssFileVip.mp3」）在下載時會有問題、節目敘述需要特別點開內容來看…等等。</p>
 <p>節目敘述大多是節目重點整理、補充資料或業配相關資訊，也能從選單裡點開來看，問題不大。前兩者就比較麻煩，尤其是檔名重複問題，時常會莫名播放到和所選完全不同的節目，例如點了某一集新資料夾，卻播起了人生晚長，就得把已經抓下來的檔案刪掉後再重新點擊播放，目前也沒有新的替代插件能用，算是比較遺憾的待改善點。</p>
-<blockquote><p>追記：將設定頁面 <code>Perferences</code> -&gt; <code>Tools</code> -&gt; <code>Podcatcher</code> 裡的 <code>Time range over which to automatically download podcasts</code> 移至最左邊的 <code>No automatic downloading</code>，並從 <code>File</code> -&gt; <code>Update All Podcast Feeds</code> 更新來源後，即可避免相同檔名問題（吧）。</p></blockquote>
-<p>追記 2：我的 podcast 訂閱清單</p>
+<h2 id="js-id-追記">追記</h2>
+<ul><li>將設定頁面 <code>Perferences</code> -&gt; <code>Tools</code> -&gt; <code>Podcatcher</code><ul><li>裡的 <code>Time range over which to automatically download podcasts</code></li>
+<li>移至最左邊的 <code>No automatic downloading</code></li></ul></li>
+<li>從 <code>File</code> -&gt; <code>Update All Podcast Feeds</code> 更新來源</li></ul>
+<p>即可避免相同檔名問題（吧）。</p>
+<h2 id="js-id-追記-2">追記 2</h2>
+<p>我的 podcast 訂閱清單：</p>
 <table><thead><tr><th>名稱</th>
 <th>RSS 網址</th>
 <th>類型</th></tr></thead>
@@ -165,7 +170,7 @@
 <tr><td>按下任意鍵：不專業聊遊戲</td>
 <td><code>https://link.chtbl.com/zd2GtOO7?platform=rss</code></td>
 <td>娛樂</td></tr></tbody></table>
-<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-foobar2000').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">Foobar2000</a></li><li><a href="#" onclick="document.querySelector('#js-id-安裝').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">安裝</a></li><li><a href="#" onclick="document.querySelector('#js-id-結語').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">結語</a></li></ul></div>
+<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-foobar2000').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">Foobar2000</a></li><li><a href="#" onclick="document.querySelector('#js-id-安裝').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">安裝</a></li><li><a href="#" onclick="document.querySelector('#js-id-結語').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">結語</a></li><li><a href="#" onclick="document.querySelector('#js-id-追記').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">追記</a></li><li><a href="#" onclick="document.querySelector('#js-id-追記-2').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">追記 2</a></li></ul></div>
     <span class="blink svelte-1kip24n">_</span></article>
   
 
@@ -183,10 +188,10 @@
 </div>
 
 
-		<script type="module" data-hydrate="13huvwm">
-		import { start } from "/_app/start-36345cf7.js";
+		<script type="module" data-hydrate="9r9w7a">
+		import { start } from "/_app/start-45da3bde.js";
 		start({
-			target: document.querySelector('[data-hydrate="13huvwm"]').parentNode,
+			target: document.querySelector('[data-hydrate="9r9w7a"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -197,7 +202,7 @@
 				error: null,
 				nodes: [
 					import("/_app/pages/__layout.svelte-f9215757.js"),
-						import("/_app/pages/posts/use-foobar2k-to-listen-to-podcast.md-8fabe13e.js")
+						import("/_app/pages/posts/use-foobar2k-to-listen-to-podcast.md-b312ea5a.js")
 				],
 				params: {},
 				routeId: "posts/use-foobar2k-to-listen-to-podcast"
