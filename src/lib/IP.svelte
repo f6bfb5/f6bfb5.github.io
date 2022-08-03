@@ -3,21 +3,32 @@
   // https://stackoverflow.com/questions/391979/how-to-get-clients-ip-address-using-javascript
   import { onMount } from "svelte";
 
+  import LibLoader from "$lib/LibLoader.svelte";
   import { ip } from "$lib/store.js";
-  let corsanywhere = "https://cors-anywhere-srmlyuexjbosgg0x.herokuapp.com/";
-  let apiUrl = "https://api.ipify.org?format=json";
+  // let corsanywhere = "https://cors-anywhere-srmlyuexjbosgg0x.herokuapp.com/";
+  // let apiUrl = "https://api.ipify.org?format=json";
 
   let nav = "";
 
   onMount(async function () {
-    if ($ip === "") {
-      await fetch(corsanywhere + apiUrl)
-        .then((resp) => resp.json())
-        .then((data) => ($ip = data.ip));
-    }
+    // if ($ip === "") {
+    //   await fetch(corsanywhere + apiUrl)
+    //     .then((resp) => resp.json())
+    //     .then((data) => ($ip = data.ip));
+    // }
     nav = `${navigator.appCodeName} ${navigator.appVersion}`;
   });
+  function onLoaded() {
+    if ($ip === "") {
+      getIPs().then((res) => ($ip = res));
+    }
+  }
 </script>
+
+<LibLoader
+  url="https://cdn.jsdelivr.net/gh/joeymalvinni/webrtc-ip/dist/bundle.dev.js"
+  on:loaded={onLoaded}
+/>
 
 <div class="ip--container">
   <div class="ip--label">

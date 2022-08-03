@@ -1,4 +1,6 @@
 <script>
+  // javascript - How do I load an external JS library in Svelte/Sapper?
+  // https://stackoverflow.com/questions/59629947/how-do-i-load-an-external-js-library-in-svelte-sapper
   import { onMount, createEventDispatcher } from 'svelte';
   
   const dispatch = createEventDispatcher();
