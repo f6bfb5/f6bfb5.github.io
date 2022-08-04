@@ -163,6 +163,10 @@ function getSheetDataByRange(sheetName, range) {
   return data;
 }
 
+// ex. {
+//       2: [ ['row2_cell1'], ['row2_cell2'], ['row2_cell3'] ],
+//       5: [ ['row5_cell1'], ['row5_cell2'], ['row5_cell3'] ]
+//     }
 function getSheetDataBySpecificColumns(sheetName, columnsArray) {
   const Sheet = getSheet(sheetName);
   const data = {};
@@ -221,14 +225,13 @@ function deleteSheetRow(sheetName, row) {
 
 function doPost(e) {
   // accept object as parameter
-  const params = e?.parameter;
-  if (!params) {
+  const postContents = JSON.parse(e?.postData.contents);
+  if (!postContents) {
     return textOutput({ response: "200" });
   }
 
-  const postContents = JSON.parse(e?.postData.contents);
   // you can custom what key to use for different execution
-  switch (params.action) {
+  switch (postContents.action) {
     case "appendRow":
       // again, you can also custom what key to use for post data
       appendSheetRow("Sheet1", postContents.data);
@@ -264,11 +267,10 @@ function onEdit(e) {
   }
 
   const editedSheetName = e.range.getSheet().getName();
-  if (editedSheetName != 'SomeSheetName') {
+  if (editedSheetName != "SomeSheetName") {
     // some execution here
   }
 }
-
 ```
 
 </details>
