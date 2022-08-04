@@ -83,6 +83,10 @@ import{S as TE,i as ME,s as jE,C as Vf,w as HE,x as FE,y as qE,z as JE,A as mE,q
   <span class="token keyword">return</span> data<span class="token punctuation">;</span>
 <span class="token punctuation">&#125;</span>
 
+<span class="token comment">// ex. &#123;</span>
+<span class="token comment">//       2: [ ['row2_cell1'], ['row2_cell2'], ['row2_cell3'] ],</span>
+<span class="token comment">//       5: [ ['row5_cell1'], ['row5_cell2'], ['row5_cell3'] ]</span>
+<span class="token comment">//     &#125;</span>
 <span class="token keyword">function</span> <span class="token function">getSheetDataBySpecificColumns</span><span class="token punctuation">(</span><span class="token parameter">sheetName<span class="token punctuation">,</span> columnsArray</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
   <span class="token keyword">const</span> Sheet <span class="token operator">=</span> <span class="token function">getSheet</span><span class="token punctuation">(</span>sheetName<span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token keyword">const</span> data <span class="token operator">=</span> <span class="token punctuation">&#123;</span><span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
@@ -141,14 +145,13 @@ import{S as TE,i as ME,s as jE,C as Vf,w as HE,x as FE,y as qE,z as JE,A as mE,q
 
 <span class="token keyword">function</span> <span class="token function">doPost</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
   <span class="token comment">// accept object as parameter</span>
-  <span class="token keyword">const</span> params <span class="token operator">=</span> e<span class="token operator">?.</span>parameter<span class="token punctuation">;</span>
-  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>params<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">const</span> postContents <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>e<span class="token operator">?.</span>postData<span class="token punctuation">.</span>contents<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>postContents<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
     <span class="token keyword">return</span> <span class="token function">textOutput</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span> <span class="token literal-property property">response</span><span class="token operator">:</span> <span class="token string">"200"</span> <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token punctuation">&#125;</span>
 
-  <span class="token keyword">const</span> postContents <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>e<span class="token operator">?.</span>postData<span class="token punctuation">.</span>contents<span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token comment">// you can custom what key to use for different execution</span>
-  <span class="token keyword">switch</span> <span class="token punctuation">(</span>params<span class="token punctuation">.</span>action<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>postContents<span class="token punctuation">.</span>action<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
     <span class="token keyword">case</span> <span class="token string">"appendRow"</span><span class="token operator">:</span>
       <span class="token comment">// again, you can also custom what key to use for post data</span>
       <span class="token function">appendSheetRow</span><span class="token punctuation">(</span><span class="token string">"Sheet1"</span><span class="token punctuation">,</span> postContents<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -184,11 +187,10 @@ import{S as TE,i as ME,s as jE,C as Vf,w as HE,x as FE,y as qE,z as JE,A as mE,q
   <span class="token punctuation">&#125;</span>
 
   <span class="token keyword">const</span> editedSheetName <span class="token operator">=</span> e<span class="token punctuation">.</span>range<span class="token punctuation">.</span><span class="token function">getSheet</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token keyword">if</span> <span class="token punctuation">(</span>editedSheetName <span class="token operator">!=</span> <span class="token string">'SomeSheetName'</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>editedSheetName <span class="token operator">!=</span> <span class="token string">"SomeSheetName"</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
     <span class="token comment">// some execution here</span>
   <span class="token punctuation">&#125;</span>
-<span class="token punctuation">&#125;</span>
-</code>`,Xp,Fs,jr,sl,F,ee,as,Pa,Wf,oe,Hr,Fr,pe,ns,Ba,zf,le,qr,Jr,ce,ts,Ta,Yf,re,Vr,al,qs,$r,nl,d,ue,es,Ma,Qf,ie,Wr,zr,ke,os,ja,Zf,de,Yr,Qr,Ha,Zr,Fa,gE=`<code class="language-javascript"><span class="token keyword">function</span> <span class="token function">doGet</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+<span class="token punctuation">&#125;</span></code>`,Xp,Fs,jr,sl,F,ee,as,Pa,Wf,oe,Hr,Fr,pe,ns,Ba,zf,le,qr,Jr,ce,ts,Ta,Yf,re,Vr,al,qs,$r,nl,d,ue,es,Ma,Qf,ie,Wr,zr,ke,os,ja,Zf,de,Yr,Qr,Ha,Zr,Fa,gE=`<code class="language-javascript"><span class="token keyword">function</span> <span class="token function">doGet</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
   <span class="token keyword">const</span> target <span class="token operator">=</span> e<span class="token punctuation">.</span>parameter<span class="token punctuation">.</span>target<span class="token punctuation">;</span>
   <span class="token function">getHandler</span><span class="token punctuation">(</span>target<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">&#125;</span></code>`,Kr,qa,Xr,Ja,yE=`<code class="language-javascript"><span class="token keyword">function</span> <span class="token function">doPost</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>

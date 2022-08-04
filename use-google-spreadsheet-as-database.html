@@ -32,12 +32,12 @@
 	<link rel="stylesheet" href="/_app/assets/template-e54d5420.css">
 	<link rel="stylesheet" href="/_app/assets/tool-list-creativity-74747bfb.css">
 	<link rel="stylesheet" href="/_app/assets/what-nft-is-not-17bf58b6.css">
-	<link rel="modulepreload" href="/_app/start-05c43a66.js">
+	<link rel="modulepreload" href="/_app/start-e14b8ef8.js">
 	<link rel="modulepreload" href="/_app/chunks/index-c6bc965e.js">
 	<link rel="modulepreload" href="/_app/chunks/index-338af8f6.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-5830ae6f.js">
-	<link rel="modulepreload" href="/_app/pages/_slug_.svelte-6323555d.js">
+	<link rel="modulepreload" href="/_app/pages/_slug_.svelte-1e8e2301.js">
 	<link rel="modulepreload" href="/_app/chunks/2020-what-i-have-read-on-internet-f566731b.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-c6dc398a.js">
 	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-1c46babf.js">
@@ -81,7 +81,7 @@
 	<link rel="modulepreload" href="/_app/chunks/tool-list-system-7606389e.js">
 	<link rel="modulepreload" href="/_app/chunks/tool-list-website-ed2aa7e6.js">
 	<link rel="modulepreload" href="/_app/chunks/use-foobar2k-to-listen-to-podcast-69760382.js">
-	<link rel="modulepreload" href="/_app/chunks/use-google-spreadsheet-as-database-5a90233a.js">
+	<link rel="modulepreload" href="/_app/chunks/use-google-spreadsheet-as-database-73cca37a.js">
 	<link rel="modulepreload" href="/_app/chunks/what-nft-is-not-f819f049.js">
 	<link rel="modulepreload" href="/_app/chunks/why-is-life-so-boring-d267c033.js">
   </head>
@@ -115,7 +115,7 @@
   <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
   </a>
 </nav>
-      <a href="https://www.nicovideo.jp/watch/sm40487046" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
+      <a href="https://www.nicovideo.jp/watch/sm24627168" target="_blank" rel="noreferrer noopener" class="svelte-1swke90"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" style="width: 36px; height: 42px;">
 </a></div>
     
 <div id="progress-bar" style="--scrollAmount: 0%;" class="svelte-1gbseey"></div></div>
@@ -275,6 +275,10 @@
   <span class="token keyword">return</span> data<span class="token punctuation">;</span>
 <span class="token punctuation">&#125;</span>
 
+<span class="token comment">// ex. &#123;</span>
+<span class="token comment">//       2: [ ['row2_cell1'], ['row2_cell2'], ['row2_cell3'] ],</span>
+<span class="token comment">//       5: [ ['row5_cell1'], ['row5_cell2'], ['row5_cell3'] ]</span>
+<span class="token comment">//     &#125;</span>
 <span class="token keyword">function</span> <span class="token function">getSheetDataBySpecificColumns</span><span class="token punctuation">(</span><span class="token parameter">sheetName<span class="token punctuation">,</span> columnsArray</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
   <span class="token keyword">const</span> Sheet <span class="token operator">=</span> <span class="token function">getSheet</span><span class="token punctuation">(</span>sheetName<span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token keyword">const</span> data <span class="token operator">=</span> <span class="token punctuation">&#123;</span><span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
@@ -333,14 +337,13 @@
 
 <span class="token keyword">function</span> <span class="token function">doPost</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
   <span class="token comment">// accept object as parameter</span>
-  <span class="token keyword">const</span> params <span class="token operator">=</span> e<span class="token operator">?.</span>parameter<span class="token punctuation">;</span>
-  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>params<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">const</span> postContents <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>e<span class="token operator">?.</span>postData<span class="token punctuation">.</span>contents<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>postContents<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
     <span class="token keyword">return</span> <span class="token function">textOutput</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span> <span class="token literal-property property">response</span><span class="token operator">:</span> <span class="token string">"200"</span> <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token punctuation">&#125;</span>
 
-  <span class="token keyword">const</span> postContents <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>e<span class="token operator">?.</span>postData<span class="token punctuation">.</span>contents<span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token comment">// you can custom what key to use for different execution</span>
-  <span class="token keyword">switch</span> <span class="token punctuation">(</span>params<span class="token punctuation">.</span>action<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>postContents<span class="token punctuation">.</span>action<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
     <span class="token keyword">case</span> <span class="token string">"appendRow"</span><span class="token operator">:</span>
       <span class="token comment">// again, you can also custom what key to use for post data</span>
       <span class="token function">appendSheetRow</span><span class="token punctuation">(</span><span class="token string">"Sheet1"</span><span class="token punctuation">,</span> postContents<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -376,11 +379,10 @@
   <span class="token punctuation">&#125;</span>
 
   <span class="token keyword">const</span> editedSheetName <span class="token operator">=</span> e<span class="token punctuation">.</span>range<span class="token punctuation">.</span><span class="token function">getSheet</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token keyword">if</span> <span class="token punctuation">(</span>editedSheetName <span class="token operator">!=</span> <span class="token string">'SomeSheetName'</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>editedSheetName <span class="token operator">!=</span> <span class="token string">"SomeSheetName"</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
     <span class="token comment">// some execution here</span>
   <span class="token punctuation">&#125;</span>
-<span class="token punctuation">&#125;</span>
-</code><!-- HTML_TAG_END --></pre></details>
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre></details>
 <h2 id="js-id-參考文章">參考文章</h2>
 <ul><li><a href="https://medium.com/unalai/%E5%AF%AB%E7%B5%A6%E7%B4%94%E5%89%8D%E7%AB%AF-%E8%AE%93-google-sheets-%E7%95%B6%E4%BD%A0%E7%9A%84%E5%BE%8C%E7%AB%AF%E5%AE%8C%E6%88%90%E5%AF%AB%E5%85%A5%E5%8A%9F%E8%83%BD-715799e5e013" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://medium.com/unalai/%E5%AF%AB%E7%B5%A6%E7%B4%94%E5%89%8D%E7%AB%AF-%E8%AE%93-google-sheets-%E7%95%B6%E4%BD%A0%E7%9A%84%E5%BE%8C%E7%AB%AF%E5%AE%8C%E6%88%90%E5%AF%AB%E5%85%A5%E5%8A%9F%E8%83%BD-715799e5e013" alt="寫給純前端，讓 Google Sheets 當你的後端完成寫入功能"><span>寫給純前端，讓 Google Sheets 當你的後端完成寫入功能</span></a></li>
 <li><a href="https://tutorials.webduino.io/zh-tw/docs/socket/useful/google-sheet-2.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://tutorials.webduino.io/zh-tw/docs/socket/useful/google-sheet-2.html" alt="Google 試算表 (前後端實作)"><span>Google 試算表 (前後端實作)</span></a></li>
@@ -567,10 +569,10 @@ sheet<span class="token punctuation">.</span><span class="token function">getRan
 </div>
 
 
-		<script type="module" data-hydrate="ziednf">
-		import { start } from "/_app/start-05c43a66.js";
+		<script type="module" data-hydrate="avhsui">
+		import { start } from "/_app/start-e14b8ef8.js";
 		start({
-			target: document.querySelector('[data-hydrate="ziednf"]').parentNode,
+			target: document.querySelector('[data-hydrate="avhsui"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -581,7 +583,7 @@ sheet<span class="token punctuation">.</span><span class="token function">getRan
 				error: null,
 				nodes: [
 					import("/_app/pages/__layout.svelte-5830ae6f.js"),
-						import("/_app/pages/_slug_.svelte-6323555d.js")
+						import("/_app/pages/_slug_.svelte-1e8e2301.js")
 				],
 				params: {slug:"use-google-spreadsheet-as-database"},
 				routeId: "[slug]"
