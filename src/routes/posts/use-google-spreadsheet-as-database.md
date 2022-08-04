@@ -78,23 +78,34 @@ tags: F2E, Toolbox
   - 預設以 `doGet()` 處理 GET 要求、`doPost()` 處理 POST 要求
   - 詳見下方範例
 - 發佈 API
-  - 「發佈（Publish）」
-  - 「部署為網路應用程式…（Deploy as web app...）」
+  - 「Deploy」
+  - 「Select type」
+    - 「網路應用程式（web app）」
+  - 「Description」
+    - 發佈註解
   - 「將應用程式執行為（Execute the app as）」
     - **「我（Me）」**
   - 「具有應用程式存取權的使用者（Who has access to the app）」
     - **「任何人，甚至匿名使用者（Anyone, even anonymous）」**
   - 「部署（Deploy）」
-    - 「核對權限」
+    - 「核對權限（Authorize access）」
     - 選擇授權用的 Google 帳號
-    - 「進階」
-    - 「前往（此應用程式名稱）」
-    - 「允許」
-  - 「app URL」即為讀取與寫入用的網址
-- 更改程式
-  - 更新 GAS 程式後，重新發佈時，「專案版本（Project version）」要選擇「新增（New）」
+    - 「進階（Advanced）」
+    - 「前往 `此應用程式名稱`（Go to `[web app name]` (unsafe)）」
+    - 「允許（Allow）」
+  - 「Web app」底下的「URL」即為讀取與寫入用的網址
+    - 之後也可以從「Deploy」→「Manage deployments」裡查詢
+- 若有更改程式
+  - 部署時「專案版本（Project version）」要選擇「新增（New）」
   - 既有數字是之前發佈的版本，不會反應最新的修改內容
   - 改動後一定要選擇「新增」專案版本，才會有效反應
+- 表單資料格式
+  - 要注意 Google Sheet 預設會自動轉換各種資料
+  - 例如 `0123` 會被轉換成數值後，變成 `123`
+  - 推薦事先點選表單左上角格全選後，將格式設為純文字
+
+<details>
+  <summary>範例程式</summary>
 
 ```javascript
 // Sheet 網址裡 [sheet-id] 的部份
@@ -103,10 +114,9 @@ const SpreadSheetID = "";
 const SpreadSheet = SpreadsheetApp.openById(SpreadSheetID);
 
 function textOutput(obj, mimeType = "JSON") {
-  return ContentService.createTextOutput(
-    JSON.stringify(obj)
-    .setMimeType(ContentService.MimeType[mimeType]);
-  )
+  return ContentService.createTextOutput(JSON.stringify(obj)).setMimeType(
+    ContentService.MimeType[mimeType]
+  );
 }
 
 function getSheet(sheetName) {
@@ -130,12 +140,12 @@ function getAllSheetData(sheetName) {
     1,
     Sheet.getLastRow() - 1,
     Sheet.getLastColumn()
-  )
+  );
 }
 
 function getSheetDataByRange(sheetName, range) {
   const Sheet = getSheet(sheetName);
-   // wouldn't return category row (the first row) by default
+  // wouldn't return category row (the first row) by default
   const startRow = range.startRow ? range.startRow : 2;
   const startCol = range.startCol ? range.startCol : 1;
   let rowRange =
@@ -153,6 +163,15 @@ function getSheetDataByRange(sheetName, range) {
   return data;
 }
 
+function getSheetDataBySpecificColumns(sheetName, columnsArray) {
+  const Sheet = getSheet(sheetName);
+  const data = {};
+  JSON.parse(columnsArray).forEach((column) => {
+    data[column] = Sheet.getSheetValues(2, column, Sheet.getLastRow(), 1);
+  });
+  return data;
+}
+
 function doGet(e) {
   // accept object as parameter
   const params = e?.parameter;
@@ -165,8 +184,10 @@ function doGet(e) {
     case "getAll":
       return textOutput(getAllSheetData("Sheet1"));
       break;
-    case "getRange":
-      return textOutput(getSheetDataByRange("Sheet1", params.range));
+    case "getSpecificColumns":
+      return textOutput(
+        getSheetDataBySpecificColumns("Sheet1", params.columnsArray)
+      );
       break;
     default:
       return textOutput({ response: "200" });
@@ -214,7 +235,12 @@ function doPost(e) {
       return textOutput({ response: "200" });
       break;
     case "editCell":
-      editSheetCell("Sheet1", postContents.row, postContents.col, postContents.data);
+      editSheetCell(
+        "Sheet1",
+        postContents.row,
+        postContents.col,
+        postContents.data
+      );
       return textOutput({ response: "200" });
       break;
     case "deleteRow":
@@ -225,8 +251,55 @@ function doPost(e) {
       break;
   }
 }
+
+// ----------
+// onEdit
+// ----------
+// google apps script - onEdit trigger for specific sheets in a spreadsheet? - Stack Overflow
+// https://stackoverflow.com/questions/49465608/onedit-trigger-for-specific-sheets-in-a-spreadsheet
+
+function onEdit(e) {
+  if (!e) {
+    return;
+  }
+
+  const editedSheetName = e.range.getSheet().getName();
+  if (editedSheetName != 'SomeSheetName') {
+    // some execution here
+  }
+}
+
 ```
 
+</details>
+
+## 參考文章
+
+- [寫給純前端，讓 Google Sheets 當你的後端完成寫入功能](https://medium.com/unalai/%E5%AF%AB%E7%B5%A6%E7%B4%94%E5%89%8D%E7%AB%AF-%E8%AE%93-google-sheets-%E7%95%B6%E4%BD%A0%E7%9A%84%E5%BE%8C%E7%AB%AF%E5%AE%8C%E6%88%90%E5%AF%AB%E5%85%A5%E5%8A%9F%E8%83%BD-715799e5e013)
+- [Google 試算表 (前後端實作)](https://tutorials.webduino.io/zh-tw/docs/socket/useful/google-sheet-2.html)
+- [盤點各種線上協作資料(庫)方案 - g0v.hackpad.tw](https://g0v.hackpad.tw/5Ofw64qSz7P#:h=Google-Spreadsheet)
+
+## GAS
+
+- [SpreadsheetApp](https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet-app)
+- [Sheet](https://developers.google.com/apps-script/reference/spreadsheet/sheet)
+- 處理 GET
+  ```javascript
+  function doGet(e) {
+    const target = e.parameter.target;
+    getHandler(target);
+  }
+  ```
+- 處理 POST
+  ```javascript
+  function doPost(e) {
+    const parameter = JSON.parse(e.postData.contents);
+    const target = parameter.target;
+    postHandler(target);
+  }
+  ```
+- 操作觸發處理
+  - `onEdit(event)`
 - GAS 的回傳資料格式
   - 字串：`return ContentService.createTextOutput("回傳字串");`
   - HTML：`return HtmlService.createHtmlOutput(HTMLString);`
@@ -237,90 +310,95 @@ function doPost(e) {
       ContentService.MimeType.JSON
     );
     ```
-- 傳送參數至 GAS
+- 從 GAS 獲取資料
   ```javascript
-    const apiUrl = '';
-    const postData = { data: "some data to post" };
-    await fetch(apiUrl, {
-      method: 'POST',
-      body: JSON.stringify(postData),
-      headers: {
-        'Content-Type': 'text/plain;charset=utf-8'
-      }
-      redirect: 'follow',
+  const apiUrl = "";
+  const action = "getSpecificColumns";
+  const columnsArray = [1, 2, 3];
+  // 若有傳入資料，GAS 處也要進行 JSON.parse() 處理
+  const getParameter = `?action=${action}
+  &columnsArray=${JSON.stringify(columnsArray)}`;
+  await fetch(apiUrl + getParameter, {
+    method: "GET",
+  })
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      // 處理取得資料
+      console.log(data);
+    })
+    .catch((error) => {
+      console.log(error);
     });
   ```
-- 表單格式
-  - 要注意 Google Sheet 預設會自動處理各種資料
-  - 例如 `0123` 會被轉換成數值後變成 `123`
-  - 推薦事先點選表單左上角格全選後，將格式設為純文字
-
-## 參考文章
-
-- [寫給純前端，讓 Google Sheets 當你的後端完成寫入功能](https://medium.com/unalai/%E5%AF%AB%E7%B5%A6%E7%B4%94%E5%89%8D%E7%AB%AF-%E8%AE%93-google-sheets-%E7%95%B6%E4%BD%A0%E7%9A%84%E5%BE%8C%E7%AB%AF%E5%AE%8C%E6%88%90%E5%AF%AB%E5%85%A5%E5%8A%9F%E8%83%BD-715799e5e013)
-- [Google 試算表 (前後端實作)](https://tutorials.webduino.io/zh-tw/docs/socket/useful/google-sheet-2.html)
-- [盤點各種線上協作資料(庫)方案 - g0v.hackpad.tw](https://g0v.hackpad.tw/5Ofw64qSz7P#:h=Google-Spreadsheet)
-
-## GAS
-
-- GET
+- 傳送資料至 GAS
   ```javascript
-  function doGet(e) {
-    const target = e.parameter.target;
-    getHandler(target);
-  }
+  const apiUrl = "";
+  const postData = {
+    action: "appendRow",
+    data: {
+      1: "some data to post",
+    },
+  };
+  await fetch(apiUrl, {
+    method: "POST",
+    body: JSON.stringify(postData),
+    headers: {
+      "content-type": "text/plain;charset=utf-8",
+    },
+    redirect: "follow",
+  });
   ```
-- POST
-  ```javascript
-  function doPost(e) {
-    const parameter = JSON.parse(e.postData.contents);
-    const target = parameter.target;
-    postHandler(target);
-  }
-  ```
-- TRIGGER
-  - `onEdit()`
-- Read
-  - `SpreadsheetApp.getActiveSpreadsheet()`
-  - `Spreadsheet#getSheetByName(name)`
-  - `Sheet#getRange(row, column)`
-  - `Sheet#getRange(row, column, numRows)`
-  - `Sheet#getRange(row, column, numRows, numColumns)`
-  - `Sheet#getRange(cellRangeNotation)`
-    - ex: `getRange("A1:B2")`
-  - `Range#getValues()`
-    - ex. `const values = sheet.getRange("A1:C2").getValues();`
-    - `const values = sheet.getRange("A1:C2").getValues().flat();`
-- Write
-  - `Range#setValues(values)`
-  - ```javascript
-    const rowLength = array.length;
-    const colLength = array[0].length;
-    sheet.getRange(1, 1, rowLength, colLength).setValues(array);
-    ```
+- 讀取表單
+  - SpreadSheet
+    - `SpreadsheetApp.getActiveSpreadsheet()`
+    - `SpreadsheetApp.openById(SpreadSheetID)`
+  - Sheet
+    - `Spreadsheet#getSheetByName(sheetName)`
+    - `Spreadsheet#getSheets()[sheetIndex]`
+  - Range
+    - `Sheet#getRange(row, column)`
+      - 表單的行與列起始座標值是 `1`，不是 `0`，須注意
+    - `Sheet#getRange(row, column, numRows)`
+    - `Sheet#getRange(row, column, numRows, numColumns)`
+    - `Sheet#getRange(cellRangeNotation)`
+      - ex: `getRange("A1:B2")`
+    - `Range#getValues()`
+      - ex. `const values = sheet.getRange("A1:C2").getValues();`
+      - `const values = sheet.getRange("A1:C2").getValues().flat();`
+    - `Sheet#getSheetValues(startRow, startColumn, numRows, numColumns)`
+      - 表單的行與列起始座標值是 `1`，不是 `0`，須注意
+- 寫入表單
+  - Range
+    - `Range#setValues(values)`
+    - ```javascript
+      const rowLength = array.length;
+      const colLength = array[0].length;
+      sheet.getRange(1, 1, rowLength, colLength).setValues(array);
+      ```
 - [Utilities](https://developers.google.com/apps-script/reference/utilities/utilities)
+  - Timestamp
+    - `Utilities.formatDate(new Date(), "Asia/Taipei", "顯示格式");`
+    - 顯示格式
+      - `年：y`
+      - `月：M`
+      - `日：d`
+      - `時（12 小時制）：h`
+      - `時（24 小時制）：H`
+      - `分：m`
+      - `秒：s`
+      - `'yyyy/MM/dd/HH:mm'` → `2020/12/31/23:59`
+  - Hash
+    - `var md5bin = Utilities.computeDigest(Utilities.DigestAlgorithm.MD5, text);`
+    - `var md5 = Utilities.base64Encode(md5bin);`
 - Use library
-  - Resources
   - Libraries
-  - 於 `add library` 貼上 script id
+  - 貼上 script id
   - 追加
   - [Cheeriogs](https://github.com/tani/cheeriogs)
-- Timestamp
-  - `Utilities.formatDate(new Date(), "Asia/Taipei", "顯示格式");`
-  - 顯示格式
-    - `年：y`
-    - `月：M`
-    - `日：d`
-    - `時（12 小時制）：h`
-    - `時（24 小時制）：H`
-    - `分：m`
-    - `秒：s`
-    - `'yyyy/MM/dd/HH:mm'` → `2020/12/31/23:59`
 - Message Box
   - `if (Browser.msgBox("確認", "是否要執行？", Browser.Buttons.YES_NO) != "yes")`
-- Hash
-  - `var md5bin = Utilities.computeDigest(Utilities.DigestAlgorithm.MD5, text);`
-  - `var md5 = Utilities.base64Encode(md5bin);`
 
 ### 撰寫 Discord Webhook
 
@@ -403,18 +481,18 @@ var xlsxFile = UrlFetchApp.fetch(fetchUrl, fetchOpt)
 - [スクレイピングいろいろ](https://qiita.com/cyoi0129/items/1cafb446dbe176e9366e)
 - [【Google Apps Script】トリガーによる定期実行の時間のズレをなくす方法](https://qiita.com/tapatyo/items/465a982635ba3933b32d)
 
-## Google Form
+## [番外？] 客製化 Google Form
 
-1. 先使用 Google Form 製作好和需求相同形式的表單
-2. 點擊右上預覽表單
-3. 開啟開發者工具
-4. 尋找 `<form>` 標籤的 `action` 屬性中的傳送表單網址
-   - `action=[表單網址]`
-   - `https://docs.google.com/forms/u/0/d/e/xxxxxxx/formResponse`
-5. 尋找所有提問的 id
-   - `name=[提問 ID]`
-   - 通常為 `entry.xxxxxxx`，可使用此關鍵字快速搜尋
-6. 另外撰寫表格網頁，將傳送行為綁定至自訂的傳送按鍵上
+- 使用 Google Form 製作好和需求相同形式的表單
+- 點擊右上預覽表單
+- 開啟開發者工具
+- 尋找 `<form>` 標籤的 `action` 屬性中的傳送表單網址
+  - `action=[表單網址]`
+  - `https://docs.google.com/forms/u/0/d/e/xxxxxxx/formResponse`
+- 尋找所有提問的 id
+  - `name=[提問 ID]`
+  - 通常為 `entry.xxxxxxx`，可使用此關鍵字快速搜尋
+- 另外撰寫表格網頁，將傳送行為綁定至自訂的傳送按鍵上
 
 ### 參考文章
 

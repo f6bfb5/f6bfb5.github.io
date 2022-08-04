@@ -189,7 +189,7 @@ flowchart TB
 
 ## PlantUML
 
-- [ER図の作図について、 Draw.io, PlantUML, Mermaid を比較してみる。（VSCode拡張機能など）](https://qiita.com/ryamate/items/3779418172c4f5a83212)
+- [ER 図の作図について、 Draw.io, PlantUML, Mermaid を比較してみる。（VSCode 拡張機能など）](https://qiita.com/ryamate/items/3779418172c4f5a83212)
 
 ## 縦書き
 
@@ -399,7 +399,16 @@ flowchart TB
 
 <div style="margin: auto; width: fit-content; font-size: 50pt;">𓂀</div>
 
-♦永遠(とわ)に千切れてく
+> [CSS Tutorial: Create Diagonal Layouts Like It's 2020](https://9elements.com/blog/pure-css-diagonal-layouts/)
+
+<div style="margin: calc(100% * 0.09719) auto; width: fit-content; transform: skewY(-11deg); background: white;">♦永遠(とわ)に千切れてく</div>
+
+<!-- -135 -45 45 -->
+<div style="display: flex;">
+  <div style="display: grid; place-content: center; width: 18px; height: 24px; border:1px solid black; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; transform: rotate(-135deg); background: white;"><span style="transform: rotate(135deg);">T</span></div>
+  <div style="display: grid; place-content: center; margin-left: 4px; width: 18px; height: 24px; border:1px solid black; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; transform: rotate(-45deg); background: white;"><span style="transform: rotate(45deg);">H</span></div>
+  <div style="display: grid; place-content: center; margin-left: 4px; width: 18px; height: 24px; border:1px solid black; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; transform: rotate(45deg); background: white;"><span style="transform: rotate(-45deg);">K</span></div>
+</div>
 
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
