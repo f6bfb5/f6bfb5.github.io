@@ -339,7 +339,7 @@ th {
 tbody > tr {
   position: relative;
 }
-tbody > tr:nth-child(2n + 1) {
+thead > tr {
   /* 
     html - Colour fade to transparent on both sides of a div - Stack Overflow
     https://stackoverflow.com/questions/28982198/colour-fade-to-transparent-on-both-sides-of-a-div    
@@ -358,6 +358,9 @@ tbody > tr:after {
   top: 0;
   transform: translateX(-50%);
   border-top: 1px solid var(--subtext-color);
+}
+tbody > tr:nth-child(2n + 1) {
+  background-color: #d8e5b8;
 }
 
 td {
