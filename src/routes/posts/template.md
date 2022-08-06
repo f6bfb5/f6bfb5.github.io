@@ -24,7 +24,9 @@ _Emphasis_
 ~~Delete~~
 [Link](https://example.com "Link title")
 Reference-style [link][id]
+Reference-style 2 [link2][]
 [id]: https://example.com/ "Link title"
+[link2]: https://example.com/ "Link title"
 
 > Blockquote `inline code snippet`
 
@@ -62,14 +64,17 @@ Second Paragraph That's one small step for man, one giant leap for mankind.
   - [ ] Todo 2-2
 - [ ] Todo 3
 
-| Table Header | Second Header |
-| ------------ | ------------- |
-| Table Cell   | Cell 2        |
-| Cell 3       | Cell 4        |
+| Table Header | Second Header | Third Header |
+| :----------- | :-----------: | -----------: |
+| Table Cell   |    Cell 2     |       Cell 3 |
+| Left align   | Center Align  |  Right align |
 
-[HTML character entities](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML)
+## Useful source
 
-&copy; &reg; &para; &micro; &times; &divide; &deg; &plusmn; `&\nbsp;`
+- [HTML character entities](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML)
+- [gihyo.jp 編集部における Markdown 記法](https://gihyo.jp/article/2022/08/gihyojp-markdown)
+
+&copy; &reg; &para; &micro; &times; &divide; &deg; &plusmn; ＆nbsp;
 
 ---
 

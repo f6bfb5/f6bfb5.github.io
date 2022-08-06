@@ -6,30 +6,11 @@ tags: F2E
 ---
 
 <script>
-  import { onMount } from 'svelte';
-  onMount(() => {
-    // [davidshimjs/qrcodejs]
-    // https://github.com/davidshimjs/qrcodejs
-    new QRCode(document.getElementById("qrcode"), {
-      text: "https://f6bfb5.github.io/",
-      width: 64,
-      height: 64,
-      colorDark : "#000000",
-      colorLight : "#ffffff",
-      correctLevel : QRCode.CorrectLevel.H
-    });
-    // [lindell/JsBarcode]
-    // https://github.com/lindell/JsBarcode
-    JsBarcode("#barcode", "https://f6bfb5.github.io/", {
-      width: 1,
-      height: 48,
-      background: "transparent",
-      displayValue: false
-    });
-  });
-  // [tsayen/dom-to-image]
-  // https://github.com/tsayen/dom-to-image
+  import LibLoader from "$lib/LibLoader.svelte";
+
   function domToImage() {
+    // [tsayen/dom-to-image]
+    // https://github.com/tsayen/dom-to-image
     const domToImageNode = document.getElementById('sticker');
     domtoimage.toPng(domToImageNode)
       .then(function(dataUrl) {
@@ -44,21 +25,48 @@ tags: F2E
         console.error(error);
       })
   }
+  function barcodeLoaded() {
+    // [lindell/JsBarcode]
+    // https://github.com/lindell/JsBarcode
+    JsBarcode("#barcode", "https://f6bfb5.github.io/", {
+      width: 1,
+      height: 48,
+      background: "transparent",
+      displayValue: false
+    });
+  }
+  function qrcodeLoaded() {
+    // [davidshimjs/qrcodejs]
+    // https://github.com/davidshimjs/qrcodejs
+    new QRCode(document.getElementById("qrcode"), {
+      text: "https://f6bfb5.github.io/",
+      width: 64,
+      height: 64,
+      colorDark : "#000000",
+      colorLight : "#ffffff",
+      correctLevel : QRCode.CorrectLevel.H
+    });
+  }
 </script>
 
 <svelte:head>
-  <script src="https://cdn.jsdelivr.net/jsbarcode/3.3.20/JsBarcode.all.min.js" />
-  <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </svelte:head>
-<!--  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500&family=Exo&family=Merriweather:wght@900&display=swap" rel="stylesheet"> -->
 
+<LibLoader
+  url="https://cdn.jsdelivr.net/jsbarcode/3.3.20/JsBarcode.all.min.js"
+  on:loaded={barcodeLoaded}
+/>
 
-WIP
+<LibLoader
+  url="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"
+  on:loaded={qrcodeLoaded}
+/>
 
-Please reload page to import related script
+<LibLoader
+  url="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"
+/>
 
 <div class="sticker" id="sticker">
   <div class="sticker--header">

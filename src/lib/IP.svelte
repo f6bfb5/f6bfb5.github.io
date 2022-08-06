@@ -4,10 +4,11 @@
   import { onMount } from "svelte";
 
   import LibLoader from "$lib/LibLoader.svelte";
-  import { ip } from "$lib/store.js";
+  // import { ip } from "$lib/store.js";
   // let corsanywhere = "https://cors-anywhere-srmlyuexjbosgg0x.herokuapp.com/";
   // let apiUrl = "https://api.ipify.org?format=json";
 
+  let ip = "";
   let nav = "";
 
   onMount(async function () {
@@ -19,9 +20,8 @@
     nav = `${navigator.appCodeName} ${navigator.appVersion}`;
   });
   function onLoaded() {
-    if ($ip === "") {
-      getIPs().then((res) => ($ip = res));
-    }
+    getIPs()
+      .then((res) => (ip = res))
   }
 </script>
 
@@ -35,7 +35,7 @@
     <span>H3</span>
     <span>LL0</span>
   </div>
-  <span>{$ip}</span>
+  <span>{ip}</span>
 </div>
 <div class="ip--container">
   <div class="ip--label">

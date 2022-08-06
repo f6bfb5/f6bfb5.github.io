@@ -33,7 +33,7 @@ tags: F2E, Toolbox
     - `od6` 似乎是 API 的預設值？
 - 主要內容在 `feed.entry.content` 或 `feed.entry.gs$cell` 裡
 
-資料架構：
+資料結構：
 
 ```json
 {
@@ -224,7 +224,7 @@ function deleteSheetRow(sheetName, row) {
 }
 
 function doPost(e) {
-  // accept object as parameter
+  // accept object as post data
   const postContents = JSON.parse(e?.postData.contents);
   if (!postContents) {
     return textOutput({ response: "200" });
@@ -285,6 +285,7 @@ function onEdit(e) {
 
 - [SpreadsheetApp](https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet-app)
 - [Sheet](https://developers.google.com/apps-script/reference/spreadsheet/sheet)
+- [Web Apps](https://developers.google.com/apps-script/guides/web)
 - 處理 GET
   ```javascript
   function doGet(e) {
@@ -313,13 +314,17 @@ function onEdit(e) {
     );
     ```
 - 從 GAS 獲取資料
+  - 透過網址傳送參數
+  - 參數傳到 `e.parameter`
   ```javascript
   const apiUrl = "";
   const action = "getSpecificColumns";
   const columnsArray = [1, 2, 3];
-  // 若有傳入資料，GAS 處也要進行 JSON.parse() 處理
+  // 若參數內有另外傳入資料，例如傳入陣列，須做 JSON.stringify()
+  // GAS 處也要進行 JSON.parse() 處理
   const getParameter = `?action=${action}
   &columnsArray=${JSON.stringify(columnsArray)}`;
+
   await fetch(apiUrl + getParameter, {
     method: "GET",
   })
@@ -335,6 +340,8 @@ function onEdit(e) {
     });
   ```
 - 傳送資料至 GAS
+  - 透過請求傳送資料
+  - 資料傳到 `e.postData.contents`
   ```javascript
   const apiUrl = "";
   const postData = {
@@ -343,6 +350,7 @@ function onEdit(e) {
       1: "some data to post",
     },
   };
+
   await fetch(apiUrl, {
     method: "POST",
     body: JSON.stringify(postData),
