@@ -43,7 +43,6 @@
 
 <div class="layout" style={!isLoaded ? "display: none;" : ""}>
   <!-- <GoogleAdsense id={ga_client_id} /> -->
-
   <Favicon />
   <Header />
 

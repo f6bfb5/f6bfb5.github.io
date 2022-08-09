@@ -402,7 +402,7 @@ flowchart TB
 
 <BorderedText />
 
-<div style="margin: auto; width: fit-content; font-size: 50pt;">𓂀</div>
+<div style="margin: auto; width: fit-content; font-size: 50pt;" class="rainbow-gradient">𓂀</div>
 
 > [CSS Tutorial: Create Diagonal Layouts Like It's 2020](https://9elements.com/blog/pure-css-diagonal-layouts/)
 
@@ -415,11 +415,57 @@ flowchart TB
   <div style="display: grid; place-content: center; margin-left: 4px; width: 18px; height: 24px; border:1px solid black; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; transform: rotate(45deg); background: white;"><span style="transform: rotate(-45deg);">K</span></div>
 </div>
 
+<span style="writing-mode: vertical-rl;">使徒</span>、襲来
+
+せめて、人間<span style="writing-mode: vertical-rl; vertical-align: top; text-indent: 0;">らしく</span>
+
+- [Z̩̮̜͉̣͎͉̤͇͂̇͊̇̅̚ͅa̠͌̔l̨̢̞̘͉̟̰̱̭̜͍̙̣̬̂̿̌̐̾̾͂̍̽̓̓̇̄g̨̢̡̢̛͍̪̠̠̹̜̪̘̱͌̆̒̅̐ỏ̡̱̞̣̖̦̰̙͊́̋́̃̂̓̍̃](https://qiita.com/SekiT/items/614d5d178f717c6b2997)
+- ["Zalgo"テキストコンバータ](https://jp.piliapp.com/cool-text/zalgo-text/)
+- [ダイアクリティカルマークまとめ・特殊記号リスト](https://w.atwiki.jp/multilingual/pages/19.html)
+
+<div style="margin-top: 1em; position: relative;">
+  <div style="padding: 4px 1em; float: left; border-radius: 5px 0 5px 0; background: black; color: white;">
+    Frame Title
+  </div>
+  <div style="padding: 2em 1.5em 1em; border: 3px solid black; border-radius: 5px; background: #f6f6f6;">
+    Frame Content
+  </div>
+</div>
+
+<div style="margin-top: 1em; border: 1px solid #333; background: #999;">
+  <div style="width: 78%; height: 10px; background: #78d461;" />
+</div>
+
+<div style="margin-top: 1em; margin-bottom: 1em; border: 1px solid #333; background: #999;">
+  <div style="width: 23%; height: 10px; background: #ff5623;" />
+</div>
+
+<div style="display: flex; align-items: flex-start; gap: 4px;">
+  <div style="flex-grow: 1;">
+    <CircleBorder size="50px" text="</>" />
+  </div>
+  <div style="flex-grow: 1;">
+    <BalloonQuote2 quote="淡漠、什麼精神官能症、各種障礙、非精神病性的繭居族、新型憂鬱症……社會總踩著「是你（無法適應者）的錯，是你很異常」的立場，對於我寫的這些內容，也會覺得非常悲慘吧（實際上在社會裡確實是悲慘的），但心理上（如果沒有旁人的說教或生活上的困頓）是比「以前」更加舒適，也不會再對將來感到不安。當然這不是克服了不安，只是連不安都被虛無吞噬了。在壓倒性的背反邏輯面前，「將來」或「問題」已失去了一切重要性。只剩下「夠了，我不做了」。不會有「我要活在當下！做我想做的事！」這種積極性，在「看見」之後，能做的只有認命。" />
+  </div>
+</div>
+
+<div style="margin-top: 16px; display: flex; align-items: flex-start; gap: 4px;">
+  <div style="flex-grow: 1;">
+    <BalloonQuote2 right quote="「啊」、「咦？」、「啥？」地回過神來、有了這種壓倒性的實際感受後，不論是進行埋洞作業的「精氣」，或是以自我肯定感（為了要（為了要（為了埋平坑洞的作業）而埋平坑洞的作業）而…）激勵自己「精氣」，都枯竭了。想要努力，身與心也提不出力。但也只是不再會有做「該做的事」需要的「精氣」，對於享受喜歡的事不會造成任何問題，「要理解那個就要先學這個」地累積也不會有什麼問題。簡單來說，活下去這件事不會有任何問題。所以說實話，我認為只是至今非法佔據著優先順位最上面的「該做的事＝填坑作業」，回到了原本的地方（地獄）去而已。" />
+  </div>
+  <div style="flex-grow: 1;">
+    <CircleBorder size="50px" image="https://i.imgur.com/qXRNc2f.png" borderColor="maroon" />
+  </div>
+</div>
+
+
+
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
   import BalloonQuote from "$lib/BalloonQuote.svelte";
   import AutomaticColorText from "$lib/AutomaticColorText.svelte";
   import BorderedText from "$lib/BorderedText.svelte";
+  import BalloonQuote2 from "$lib/BalloonQuote2.svelte";
 </script>
 
 <style scoped>
@@ -448,5 +494,17 @@ flowchart TB
   /* clear custom css */
   .vertical-writing h2::after {
     border: none;
+  }
+
+  .rainbow-gradient {
+    background: linear-gradient(to right, #e60000, #f39800, #fff100, #009944, #0068b7, #1d2088, #920783, #e60000) 0 / 200%;
+    -webkit-background-clip: text;
+    animation: 2.5s background-moving linear infinite;
+  }
+
+  @keyframes background-moving {
+    100% {
+      background-position: 200%;
+    }
   }
 </style>
