@@ -1,10 +1,11 @@
 <script>
   export let text;
   export let image;
+  export let size = "80px";
   export let borderColor = "skyblue";
 </script>
 
-<div class="circle-border" style="border: 3px solid {borderColor};">
+<div class="circle-border" style="--size: {size}; border: 3px solid {borderColor};">
     {#if text}
     <span class="circle-border-content">{text}</span>
   {:else}
@@ -20,8 +21,8 @@
   .circle-border {
     position: relative;
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: var(--size);
+    height: var(--size);
     border-radius: 50%;
     background: white;
     /* border: 3px solid skyblue; */
@@ -30,7 +31,7 @@
   .circle-border-content {
     position: absolute;
     display: inline-block;
-    width: 80px;
+    width: var(--size);
     left: -3px;
     top: 50%;
     transform: translateY(-50%);
@@ -39,6 +40,6 @@
   }
   .image {
     left: 0;
-    height: 80px;
+    height: var(--size);
   }
 </style>
