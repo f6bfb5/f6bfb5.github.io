@@ -87,8 +87,6 @@
     // ----------------------------------------
     // Video
     // ----------------------------------------
-    // 「人們對電影的論述，實際上只是對於電影的紀錄罷了」
-    "https://www.youtube.com/watch?v=veVUyJFPqUc",
     // クラフトボス『Flash Back Memories』3分39秒 宮崎吐夢 サントリー
     "https://www.youtube.com/watch?v=ezF1ZJurYig",
     // 鮭1尾を食い尽くす【19品】
@@ -123,7 +121,7 @@
     "http://www.nicovideo.jp/watch/sm34303211",
     // 敗北々しくて
     "http://www.nicovideo.jp/watch/sm34295558",
-    // 【マリオメーカー２】勝利しないと爆発する妹のためにみんなでバトル #1【マリオ３スキン】 
+    // 【マリオメーカー２】勝利しないと爆発する妹のためにみんなでバトル #1【マリオ３スキン】
     "https://www.nicovideo.jp/watch/sm35323613",
     // 【マリオメーカー２】マリオ、きづけばきょうもまたリンクに
     "https://www.nicovideo.jp/watch/sm36084637",

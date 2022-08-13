@@ -16,7 +16,6 @@
       SvelteKit
     </a>
   </div>
-  <div class="clearfix" />
 </footer>
 
 <style scoped>
@@ -34,13 +33,24 @@
     line-height: 1em;
   }
 
-  .clearfix {
-    clear: both;
-  }
   .right {
     float: right;
   }
+  .right::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
   .heart {
     color: #e25555;
+  }
+  
+  @media screen and (max-width: 400px) {
+    footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .5em;
+    }
   }
 </style>

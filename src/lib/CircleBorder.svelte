@@ -1,14 +1,20 @@
 <script>
   export let text;
+  export let textColor = "black";
   export let image;
   export let size = "80px";
   export let borderColor = "skyblue";
+  export let backgroundColor = "white";
 </script>
 
-<div class="circle-border" style="--size: {size}; border: 3px solid {borderColor};">
-    {#if text}
+<div
+  class="circle-border"
+  style="--size: {size}; border: 3px solid {borderColor}; color: {textColor}; background-color: {backgroundColor};"
+>
+  {#if text != null}
     <span class="circle-border-content">{text}</span>
-  {:else}
+  {/if}
+  {#if image != null}
     <img
       class="circle-border-content image"
       src={image}
@@ -24,7 +30,6 @@
     width: var(--size);
     height: var(--size);
     border-radius: 50%;
-    background: white;
     /* border: 3px solid skyblue; */
     overflow: hidden;
   }
