@@ -60,7 +60,6 @@
   import TagsFilter from "$lib/TagsFilter.svelte";
   import ArticlesList from "$lib/ArticlesList.svelte";
   import RandomImage from "$lib/RandomImage.svelte";
-
 </script>
 
 <svelte:head>
@@ -89,8 +88,14 @@
   <h1 data-text="Articles">Articles</h1>
   <TagsFilter {allPostsTags} />
   <ArticlesList {allPostsYears} {posts} />
+
+  <div on:click={() => window.location.assign("./reminiscence")} style="margin: auto; width: fit-content;">
+    <RandomImage />
+  </div>
   
-  <RandomImage />
+  <a href="https://github.com/f6bfb5" rel="me" style="display: none;">
+    github.com/f6bfb5
+  </a>
 </div>
 
 <style scoped>

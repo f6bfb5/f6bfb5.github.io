@@ -18,18 +18,29 @@
 </svelte:head>
 
 <div class="layout">
+  <main>
     <slot />
+  </main>
 </div>
 
 <style>
   .layout {
-    margin: auto;
-    min-height: 100%;
     min-height: 100vh;
-    max-width: 960px;
     width: 100%;
-    background-color: var(--outer-bg-color);
+    background-color: #242222;
   }
-
+  main {
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    min-height: 100%;
+    width: 100%;
+    max-width: 960px;
+  }
+  @media screen and (max-width: 960px) {
+    main {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+  }
 </style>
-

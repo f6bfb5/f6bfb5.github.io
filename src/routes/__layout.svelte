@@ -63,6 +63,9 @@
     width: 100%;
     height: auto;
     min-height: 100vh;
+
+    color: var(--text-color);
+    background-color: var(--outer-bg-color);
   }
 
   .loader-container {
@@ -73,7 +76,7 @@
     width: 100%;
     min-height: 100vh;
 
-    background-color: black;
+    background-color: #242222;
     color: white;
   }
 
