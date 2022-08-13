@@ -7,13 +7,19 @@ tags: Toolbox
 
 ## 推薦軟體
 
-| 名稱                                                                         | 說明                                        |
-| ---------------------------------------------------------------------------- | ------------------------------------------- |
-| [Flow Launcher](https://www.flowlauncher.com/)                               | 快速執行程式與各種功能的 launcher           |
-| [Everything](https://www.voidtools.com/downloads/)                           | 超級快速的檔案搜索工具                      |
-| [Vimium](https://vimium.github.io/)                                          | 以類似 vim 編輯器的機制操作瀏覽器的插件     |
-| [Surfingkeys](https://github.com/brookhong/Surfingkeys)                      | 類似 Vimium，但有相當高自訂空間的另一套插件 |
-| [Ctrl2cap](https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap) | 將 Caps Lock 鍵的功能切換成 Ctrl 鍵         |
+| 名稱              | 說明                                        |
+| ----------------- | ------------------------------------------- |
+| [Flow Launcher][] | 快速執行程式與各種功能的 launcher           |
+| [Everything][]    | 超級快速的檔案搜索工具                      |
+| [Vimium][]        | 以類似 vim 編輯器的機制操作瀏覽器的插件     |
+| [Surfingkeys][]   | 類似 Vimium，但有相當高自訂空間的另一套插件 |
+| [Ctrl2cap][]      | 將 Caps Lock 鍵的功能切換成 Ctrl 鍵         |
+
+[flow launcher]: https://www.flowlauncher.com/
+[everything]: https://www.voidtools.com/downloads/
+[vimium]: https://vimium.github.io/
+[surfingkeys]: https://github.com/brookhong/Surfingkeys
+[ctrl2cap]: https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap
 
 ## Windows 系統
 
@@ -37,7 +43,61 @@ tags: Toolbox
 
 ## Flow Launcher
 
-WIP
+- Flow Launcher 是一套類 [Alfred][]，可開啟程式／執行指令的執行器
+- 預設以 `Alt` + `Space` 啟動
+- 可輸入 `Settings` 選擇「Tweak this app」啟動設定
+  - 調整預設檔案、網頁瀏覽器、外觀、自訂啟動熱鍵
+- 預設有執行系統指令、計算機等功能，詳細指令可從插件頁面確認
+  - 直接輸入算式就可求得結果，例如 `2^31-1`
+- 輸入指令途中按下 `Tab` 可依照推薦自動完成
+- 輸入指令後按下 `Shift` + `Enter` 或 `→` 可進入功能選單
+  - 例如搜尋資料夾後，開啟選單可選擇複製位置或刪除該資料夾
+  - 按下 `←` 即可離開功能選單
+- 輸入 `>` 可執行終端指令，亦可於設定中更改為取代 `Win` + `R`
+  - `Ctrl` + `Enter` 可直接以管理員權限執行終端指令
+- 除了有社群插件可供安裝，亦有樣板可依自己需求撰寫
+  - 安裝：`pm install [插件名稱]`
+  - 移除：`pm uninstall [插件名稱]`
+  - 更新：`pm update [插件名稱]`
+
+[alfred]: https://www.alfredapp.com/
+
+### 插件推薦
+
+- Everything
+  - 聞名的極速檔案搜尋工具
+  - `pm install Everything`
+  - 須安裝 Everything 本體
+- Favorites
+  - 自訂開啟檔案／資料夾的指令名稱
+  - `pm install Favorites`
+  - 於設定檔內以 `[指令] = [檔案／資料夾]` 的格式記述
+    - 例如 `VSCode = E:\Programs\VSCode-win32-x64\Code.exe`
+    - 輸入 `VSCode` 後就會快速跳出相關執行指令
+  - 設定檔預設位於 `[使用者資料夾] \AppData\Roaming\FlowLauncher\Settings\Favorites.conf`
+- Auto Translate
+  - 呼叫 Google 翻譯功能
+  - `pm install Direct Translate`
+  - `tr [來源語言] [目標語言] [文字內容]`
+    - 可省略 `[來源語言]`
+    - 繁中為 `zh-TW`
+    - 語言一覽可參照 [Languages Codes][]
+- Plugin Runner
+  - 短縮執行程式指令
+  - `pm install Plugin Runner`
+  - 可從設定頁面新增指令
+  - 設定較為複雜，但可設定帶入參數
+- 更多插件內容可以參考 [Plugin Directory][]
+  - 也可從設定裡的 Plugin Store 查看
+
+[Languages Codes]: https://developers.google.com/admin-sdk/directory/v1/languages
+[Plugin Directory]: https://www.flowlauncher.com/docs/#/plugins
+
+### 感想
+
+很可惜相較 Alfred，Flow Launcher 仍有些許不足之處，例如與 Windows 的終端相性不佳、檔案互動方面不夠全面與便利、沒有類似 Alfred 的 Workflows 自動化腳本功能，也無法快速跳到某個執行中的程式（這 Alfred 好像也沒辦法？），雖然這樣比較也不甚公平，Alfred 畢竟還是套商業軟體，發展歷史也比較長，自然會有更完整的生態系。
+
+另外有些遺珠之憾，像是 [Wox UUID generator plugin](https://github.com/antonio-fasolato/wox-uuid-generator) 或 [Boop](https://boop.okat.best/) 
 
 ## Vimium
 

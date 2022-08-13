@@ -458,7 +458,14 @@ flowchart TB
   </div>
 </div>
 
+<div style="position: relative; min-height: 480px; background: url('https://i.imgur.com/XHOlLwQ.png'); background-size: cover; background-repeat: no-repeat; overflow: hidden;">
+  <div style="position: absolute; width: 100%; min-height: 150%; left: -40%; top: -7%; background: white; transform: rotate(-20deg);">
+  </div>
+</div>
 
+<div class="hi"></div>
+
+<div class="explosion"></div>
 
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
@@ -466,6 +473,27 @@ flowchart TB
   import AutomaticColorText from "$lib/AutomaticColorText.svelte";
   import BorderedText from "$lib/BorderedText.svelte";
   import BalloonQuote2 from "$lib/BalloonQuote2.svelte";
+
+  let range = {
+    from: 1,
+    to: 5,
+    
+    // range[Symbol.iterator]()
+    [Symbol.iterator]() {
+      this.current = this.from;
+      return this;
+    },
+    next() {
+      if (this.current <= this.to) {
+        return { done: false, value: this.current++ };
+      } else {
+        return { done: true };
+      }
+    }
+  };
+  // for (let num of range) {
+  //   console.log(num);
+  // }
 </script>
 
 <style scoped>
@@ -498,6 +526,7 @@ flowchart TB
 
   .rainbow-gradient {
     background: linear-gradient(to right, #e60000, #f39800, #fff100, #009944, #0068b7, #1d2088, #920783, #e60000) 0 / 200%;
+    color: transparent;
     -webkit-background-clip: text;
     animation: 2.5s background-moving linear infinite;
   }
@@ -507,4 +536,41 @@ flowchart TB
       background-position: 200%;
     }
   }
+
+  .hi {
+    width: 50px;
+    height: 72px;
+    background-image: url("http://s.cdpn.io/79/sprite-steps.png");
+    
+    animation: play .8s steps(10) infinite;
+  }
+  @keyframes play {
+    from { background-position: 0px; }
+    to { background-position: -500px; }
+  }
+
+  .explosion {
+    width: 100px;
+    height: 100px;
+    background:url('http://hasgraphics.com/wp-content/uploads/2010/08/spritesheet1.png') no-repeat;
+
+    animation: exp-x 500ms infinite steps(9), exp-y 4.5s infinite steps(9);
+  }
+  @keyframes exp-x {
+    from {
+      background-position-x: 0;
+    }
+    to {
+      background-position-x: -900px;
+    }
+  }
+  @keyframes exp-y {
+    from {
+      background-position-y: 0;
+    }
+    to {
+      background-position-y: -900px;
+    }
+  }
+
 </style>
