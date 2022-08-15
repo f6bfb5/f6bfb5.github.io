@@ -41,6 +41,7 @@ tags: Toolbox
 - [3DSブラウザ用コンテンツ](http://www5b.biglobe.ne.jp/~clap/3ds/)
 - [CodeCaptcha.io](https://www.codecaptcha.io/)
 - [タロットカードで物語をつくる構文を見つける](https://www.nnn.ed.nico/contents/guides/792)
+- [10＋1 website](https://www.10plus1.jp/)
 
 ## 學習
 

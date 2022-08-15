@@ -240,7 +240,6 @@ outputfile.close()
 | 名稱                                                                                                                | 說明                                |
 | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
 | [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)                         | 使用類似 Vim 編輯器的方式瀏覽網站   |
-| [Feedbro](https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa)                       | RSS 訂閱插件                        |
 | [終結內容農場](https://chrome.google.com/webstore/detail/content-farm-terminator/lcghoajegeldpfkfaejegfobkapnemjl)  | 要是感到厭煩，放棄也是一種選擇啊。  |
 | [ClearURLs](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk/)                  | 移除網址的多餘內容                  |
 | [TabAttack](https://chrome.google.com/webstore/detail/tabattack/ginflokhdahakklidfjlogllkkhokidj)                   | 轉換瀏覽頁面網址成為 markdown 格式  |
@@ -251,18 +250,6 @@ outputfile.close()
 - [UI.Vision RPA](https://chrome.google.com/webstore/detail/uivision-rpa/gcbalfbdmfieckjlnblleoemohcganoc)
 - [無料で Chrome・Firefox の操作を自動化＆ファイルのアップロードやデスクトップの操作もできる「UI.Vision」](https://gigazine.net/news/20220417-ui-vision/)
 - [DeepL 翻訳（ベータ版）](https://chrome.google.com/webstore/detail/deepl-translate-beta-vers/cofdbpoegempjloogbagkncekinflcnj?hl=ja)
-
-#### Feedbro
-
-| 名稱                                                                | 說明             | 種類 |
-| ------------------------------------------------------------------- | ---------------- | ---- |
-| [jp-locale](https://github.com/ktkr3d/feedbro-locale)               | 日文化           | 設定 |
-| [ニコニコ動画](https://www.nicovideo.jp/rss)                        | NicoNico 動畫    | 來源 |
-| Youtube                                                             | 貼上頻道網址即可 | 來源 |
-| [ライブドアブログ](https://help.blogpark.jp/archives/52366452.html) | Livedoor Blog    | 來源 |
-| [報導者](https://public.twreporter.org/rss/twreporter-rss.xml)      | 報導者           | 來源 |
-
-- [Get podcasts RSS Feed Urls](https://getrssfeed.com/)
 
 #### Shopping
 

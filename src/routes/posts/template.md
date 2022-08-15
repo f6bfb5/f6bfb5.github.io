@@ -467,6 +467,10 @@ flowchart TB
 
 <div class="explosion"></div>
 
+<p style="transform: scale(.8, 1); transform-origin: top left; width: 125%; line-height: 2;">
+  淡漠、什麼精神官能症、各種障礙、非精神病性的繭居族、新型憂鬱症……社會總踩著「是你（無法適應者）的錯，是你很異常」的立場，對於我寫的這些內容，也會覺得非常悲慘吧（實際上在社會裡確實是悲慘的），但心理上（如果沒有旁人的說教或生活上的困頓）是比「以前」更加舒適，也不會再對將來感到不安。當然這不是克服了不安，只是連不安都被虛無吞噬了。在壓倒性的背反邏輯面前，「將來」或「問題」已失去了一切重要性。只剩下「夠了，我不做了」。不會有「我要活在當下！做我想做的事！」這種積極性，在「看見」之後，能做的只有認命。
+</p>
+
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
   import BalloonQuote from "$lib/BalloonQuote.svelte";
