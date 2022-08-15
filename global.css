@@ -179,6 +179,7 @@ ol li:before {
   width: fit-content;
   content: counter(item) ". ";
   font-weight: bold;
+  word-break: keep-all;
   color: var(--title-color);
 }
 

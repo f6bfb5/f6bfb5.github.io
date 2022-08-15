@@ -9,12 +9,12 @@
   >
   <url>
     <loc>https://f6bfb5.github.io</loc>
-    <lastmod>2022-08-13T00:09:56.285Z</lastmod>
+    <lastmod>2022-08-15T16:32:50.911Z</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://f6bfb5.github.io/about</loc>
-    <lastmod>2022-08-13T00:09:56.285Z</lastmod>
+    <lastmod>2022-08-15T16:32:50.911Z</lastmod>
     <priority>1.00</priority>
   </url>
   
@@ -187,6 +187,12 @@
     </url>
   
     <url>
+      <loc>https://f6bfb5.github.io/escape-from-algorithm-with-rss</loc>
+      <lastmod>2022-08-13T08:12:24.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+    <url>
       <loc>https://f6bfb5.github.io/how-do-you-like-wendesday</loc>
       <lastmod>2019-10-29T14:00:00.000Z</lastmod>
       <priority>0.80</priority>
@@ -213,6 +219,12 @@
     <url>
       <loc>https://f6bfb5.github.io/operating-with-keyboard</loc>
       <lastmod>2022-06-05T17:04:28.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+    <url>
+      <loc>https://f6bfb5.github.io/random-thoughts-about-rockman-x-dive</loc>
+      <lastmod>2022-08-14T09:24:04.000Z</lastmod>
       <priority>0.80</priority>
     </url>
   
