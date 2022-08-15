@@ -150,7 +150,7 @@
     transform: translate(-50%, -50%);
     overflow: hidden;
 
-    background-color: black;
+    background-color: #242222;
     background-size: cover;
     background-position: center;
 
