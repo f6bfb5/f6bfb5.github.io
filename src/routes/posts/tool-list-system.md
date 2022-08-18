@@ -26,6 +26,7 @@ table td:nth-child(3) {
 | 名稱                                                                                            | 說明                                                                                                        | 付費     |
 | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | -------- |
 | [Ninite](https://ninite.com/)                                                                   | 一次快速安裝各種軟體                                                                                        | FREE     |
+| [Rufus](https://rufus.ie/)                                                                      | 簡易建立可開機 USB 裝置，alt: [balenaEtcher][balenaetcher_link]                                             | FREE     |
 | [Flow Launcher](https://www.flowlauncher.com/)                                                  | 快速執行程式與各種功能的 launcher，alt: [wox][wox_link] 似乎已經不再維護                                    | FREE     |
 | [Everything](https://www.voidtools.com/downloads/)                                              | 超級快速的檔案搜索工具                                                                                      | FREE     |
 | [Geek Uninstaller](https://geekuninstaller.com/)                                                | 會將關聯檔案一同刪除的程式反安裝工具，alt: [BCU][bcu_link]                                                  | 具付費版 |
@@ -34,7 +35,6 @@ table td:nth-child(3) {
 | [Divvy](https://mizage.com/divvy/)                                                              | 切割視窗位置                                                                                                | 具付費版 |
 | [orchis](http://www.eonet.ne.jp/~gorota/)                                                       | 快速執行程式                                                                                                | FREE     |
 | [CLaunch](https://hp.vector.co.jp/authors/VA018351/en/claunch.html)                             | 快速開啟資料夾                                                                                              | FREE     |
-| [Rufus](https://rufus.ie/)                                                                      | 簡易建立可開機 USB 裝置，alt: [balenaEtcher][balenaetcher_link]                                             | FREE     |
 | [TreeSize](https://www.jam-software.com/treesize_free/)                                         | 分析硬碟檔案空間佔用分佈，alt: [WinDirStat][windirstat_link]                                                | FREE     |
 | [Auslogics Disk Defrag](https://www.auslogics.com/en/software/disk-defrag/)                     | 硬碟重組                                                                                                    | 具付費版 |
 | [4gb_patch](https://ntcore.com/?page_id=371)                                                    | 讓 32 位元的應用程式使用超過 4GB 的記憶體（可能沒有效果）                                                   | FREE     |
@@ -91,6 +91,15 @@ table td:nth-child(3) {
 - [2021 年初頭に SKK を Windows/Mac で Google 日本語入力からの候補取得といっしょに絵文字まで変換して使うための方法 - あじーん-0.0.2-SNAPSHOT](https://nishikawasasaki.hatenablog.com/entry/2021/01/07/004422)
   - `pip install google-ime-skk-py`
   - `google-ime-skk-py`
+
+## OS
+
+- [ReactOS](https://reactos.org/)
+- [ravynOS](https://ravynos.com/)
+- [Pop!_OS](https://pop.system76.com/)
+- [Q4OS](https://q4os.org/index.html)
+- [lubuntu](https://lubuntu.me/)
+- [Android-x86](https://www.android-x86.org/)
 
 ## 建構全平台通用的環境
 
