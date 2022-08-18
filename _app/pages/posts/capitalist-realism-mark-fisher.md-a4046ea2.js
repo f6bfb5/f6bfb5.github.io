@@ -1,0 +1,1 @@
+import"../../chunks/index-55ed0075.js";import"../../chunks/_post-2874fa60.js";import{C as p,m as e}from"../../chunks/capitalist-realism-mark-fisher-4d14641c.js";import"../../chunks/BlinkAnchor-b13f1267.js";export{p as default,e as metadata};
