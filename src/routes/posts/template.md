@@ -283,6 +283,7 @@ flowchart TB
 
 <span></span><span style="display: inline-block; transform: rotate(45deg); transform-origin: center center;"></span><span></span><span></span>
 
+<!-- https://bindup.jp/camp/bind/howto/31221 -->
 <div style="margin-top: 1em; padding: 4em; background-image: linear-gradient(110deg,transparent 20%,#e5ebf0 20%)" />
 <div style="margin-left: .5em; width: 48%; float: left;">
   <h2 style="margin-top: -4em; margin-left: 1em;">TITLE</h2>
@@ -471,6 +472,48 @@ flowchart TB
   淡漠、什麼精神官能症、各種障礙、非精神病性的繭居族、新型憂鬱症……社會總踩著「是你（無法適應者）的錯，是你很異常」的立場，對於我寫的這些內容，也會覺得非常悲慘吧（實際上在社會裡確實是悲慘的），但心理上（如果沒有旁人的說教或生活上的困頓）是比「以前」更加舒適，也不會再對將來感到不安。當然這不是克服了不安，只是連不安都被虛無吞噬了。在壓倒性的背反邏輯面前，「將來」或「問題」已失去了一切重要性。只剩下「夠了，我不做了」。不會有「我要活在當下！做我想做的事！」這種積極性，在「看見」之後，能做的只有認命。
 </p>
 
+<!-- https://fujikoblog0309.com/css-gold-gradation-text -->
+
+<span style="background-image: linear-gradient(0deg, #b8751e 0%, #ffce08 37%, #fefeb2 47%, #fafad6 50%, #fefeb2 53%, #e1ce08 63%, #b8751e 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 32px;">Golden</span>
+<span style="background: repeating-linear-gradient(0deg, #B67B03 0.1em, #DAAF08 0.2em, #FEE9A0 0.3em, #DAAF08 0.4em, #B67B03 0.5em);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 32px;">Golden</span>
+<span style="background-image: linear-gradient(135deg, #b8751e 0%, #ffce08 37%, #fefeb2 47%, #fafad6 50%, #fefeb2 53%, #e1ce08 63%, #b8751e 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 32px">Golden</span>
+
+<div class="sliding-background-text">
+  ごめん⏎⏎⏎さよなら
+</div>
+
+<div style="margin: auto; padding-left: 2px; width: fit-content; background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%); background-size: 1000px 2px; -webkit-background-clip: text; color: transparent; font-size: 2em;
+  text-shadow: 0 0 10px rgba(175, 175, 175, 0.5), 0 0 5px rgba(240, 240, 240, 0.5);">
+  {#each randomNum as num, i}
+    {#if i !== randomNum.length -1}
+      {num}<br />
+    {:else}
+      {num}
+    {/if}
+  {/each}
+</div>
+
+<div style="position: relative; text-align: center;">
+  {#each [1, 2, 3, 4] as index}
+  <button style="position: relative; padding: 0; outline: none; border: none; background-color: transparent; cursor: pointer;">
+    <span class="skew-button-text">
+      Title {index}
+    </span>
+  </button>
+  {/each}
+</div>
+
+[Steam API all games](https://stackoverflow.com/questions/46330864/steam-api-all-games)
+
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
   import BalloonQuote from "$lib/BalloonQuote.svelte";
@@ -498,6 +541,19 @@ flowchart TB
   // for (let num of range) {
   //   console.log(num);
   // }
+
+  let randomNum = [
+    Math.floor(Math.random()*89999) + 10000,
+    Math.floor(Math.random()*89999) + 10000,
+    Math.floor(Math.random()*89999) + 10000,
+    Math.floor(Math.random()*89999) + 10000,
+    Math.floor(Math.random()*89999) + 10000
+  ]
+  // setInterval(() => {
+  //   for(let i=0; i<randomNum.length; i++) {
+  //     randomNum[i] = Math.floor(Math.random()*89999) + 10000;
+  //   }
+  // }, 80)
 </script>
 
 <style scoped>
@@ -577,4 +633,61 @@ flowchart TB
     }
   }
 
+  .sliding-background-text {
+    position: relative;
+    width: fit-content;
+    color: transparent;
+    overflow: hidden;
+    animation: 0.6s sliding-text steps(1, end) forwards;
+  }
+  .sliding-background-text:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: white;
+    animation: 0.6s sliding-background ease forwards;
+  }
+  @keyframes sliding-text {
+    0% {
+      color: transparent;
+    }
+    50%, 100% {
+      color: white;
+    }
+  }
+  @keyframes sliding-background {
+    0% {
+      width: 0;
+      left: 0;
+    }
+    50% {
+      width: 100%;
+      left: 0;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
+  .skew-button-text {
+    position: relative;
+    display: block;
+    padding: .25em 1em;
+  }
+  .skew-button-text::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) skewX(-25deg);
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+  }
+  .skew-button-text:hover::before {
+    background-color: rgba(255, 255, 255, .2);
+  }
 </style>

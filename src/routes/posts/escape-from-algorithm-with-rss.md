@@ -33,7 +33,7 @@ RSS 是個 1999 年出現，可說有段歷史的資訊來源規範，大致上�
 
 ## RSS 來源
 
-這個名詞最近比較常與 Podcast 一同出現，正是因為 Podcast 主要採取這種方式提供內容，但其實還有非常多內容有提供 RSS 來源，像 YouTube 雖然沒有於頁面明確加入圖示或連結，只要直接將頻道網址，或是 `https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID` 新增到閱讀器來源，即可訂閱頻道內容。很遺憾的是，像 Facebook 這種把內容鎖在帳號背後的網站，則還沒有什麼好的訂閱手段。
+這個名詞最近比較常與 Podcast 一同出現，正是因為 Podcast 主要採取這種方式提供內容，但其實還有非常多內容有提供 RSS 來源，像 YouTube 雖然沒有於頁面明確加入圖示或連結，只要直接將頻道網址，或是 `https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID` 新增到閱讀器來源，即可訂閱頻道內容。遺憾的是，像 Facebook 這種把內容鎖在帳號背後的網站，則還沒有什麼好的訂閱手段。
 
 - [ニコニコ動画](https://www.nicovideo.jp/rss)
 - [ライブドアブログ](https://help.blogpark.jp/archives/52366452.html)

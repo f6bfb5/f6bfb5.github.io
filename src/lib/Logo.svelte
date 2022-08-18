@@ -55,6 +55,8 @@
     "https://www.youtube.com/watch?v=f92VWkYl8CI",
     // TVアニメ「ゆるキャン△」MV～1/6の夢旅人2002ver.～
     "https://www.youtube.com/watch?v=lxt-zHlHd1o",
+    // Sigur Rós - Hoppípolla
+    "https://www.youtube.com/watch?v=JAYb8ZyjzD0",
     // ----------------------------------------
     // Game
     // ----------------------------------------

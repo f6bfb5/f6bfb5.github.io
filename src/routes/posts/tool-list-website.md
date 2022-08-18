@@ -79,6 +79,7 @@ tags: Toolbox
 - [Philosophy Guides - 哲学ガイドブログ](https://www.philosophyguides.org/)
 - [日本図書コードの分類コード(C コード)](https://www.asahi-net.or.jp/~ax2s-kmtn/ref/ccode.html)
 - [東京大学語学愛好会 〜言語逆評定 ①〜](https://twitter.com/ut_glossophilia/status/1111830816772939777)
+- [失敗百選](http://www.sydrose.com/case100/index.html)
 
 ---
 
