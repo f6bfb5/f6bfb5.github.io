@@ -110,6 +110,12 @@ tags: F2E, Toolbox
 ```javascript
 // Sheet 網址裡 [sheet-id] 的部份
 // https://docs.google.com/spreadsheets/d/[sheet-id]/
+// 
+//            col1 col2
+// row1 ---->  |    |
+// row2 ---->  |    |
+//             v    v
+
 const SpreadSheetID = "";
 const SpreadSheet = SpreadsheetApp.openById(SpreadSheetID);
 
@@ -303,6 +309,9 @@ function onEdit(e) {
   ```
 - 操作觸發處理
   - `onEdit(event)`
+    - 想做進一步操作似乎會有權限問題…？
+  - `Apps Script` 頁面左側的 `Triggers`
+  - `Apps Script` 頁面左側的 `Executions` 可查看腳本執行是否正常
 - GAS 的回傳資料格式
   - 字串：`return ContentService.createTextOutput("回傳字串");`
   - HTML：`return HtmlService.createHtmlOutput(HTMLString);`

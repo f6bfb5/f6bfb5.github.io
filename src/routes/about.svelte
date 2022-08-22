@@ -35,6 +35,10 @@
     "https://c.tenor.com/R27oaZQSMi4AAAAC/haibane-renmei-ailes-grises.gif",
     "https://c.tenor.com/zLBsleCsdOQAAAAC/akane-shinj%C5%8D-shinjou-akane.gif",
     "https://c.tenor.com/d6b6YPHSgYoAAAAC/scopedog-votoms.gif",
+    "https://c.tenor.com/cT2SyKjw22IAAAAC/unlimited-blade.gif",
+    "https://c.tenor.com/WVimaSM0jRMAAAAC/fate-heavens-feel3-heavens-feel3.gif",
+    "https://c.tenor.com/xCide_38qFgAAAAC/cardcaptor-sakura-clear-card-sakura-kinomoto.gif",
+    "https://c.tenor.com/eMnHWu4TCTEAAAAC/di-gi-charat.gif",
     // === Game ===
     "https://c.tenor.com/SjuAbL0uMakAAAAC/yume-nikki-yume.gif",
     "https://c.tenor.com/6L6itJ6PXKoAAAAC/chrono-trigger-courtroom.gif",

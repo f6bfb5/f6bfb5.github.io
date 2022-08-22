@@ -13,6 +13,7 @@ tags: Toolbox
 - [新冠確診過程應對指南](https://nova-jumbo-a96.notion.site/0701-3c934b7a75a2447d8f8fadb5bde63c42)
 - [新型コロナ後遺症チートシート（対策一覧）](https://longcovid.jp/cheat-sheet.html)
 - [教科書には載らないニッポンのインターネットの歴史](https://web.archive.org/web/20030801113739/http://blogdex.tripod.co.jp/encyclopedia/)
+  - 僕たちのインターネット史
 - [佐倉葉ウェブ文化研究室](https://websitemap.sakura.ne.jp/index.html)
 - [e-typing ローマ字タイピング](https://www.e-typing.ne.jp/roma/check/)
 - [ネットワーク対戦タイピング Weather Typing](https://denasu.com/software/weathertyping.html)
@@ -80,6 +81,7 @@ tags: Toolbox
 - [日本図書コードの分類コード(C コード)](https://www.asahi-net.or.jp/~ax2s-kmtn/ref/ccode.html)
 - [東京大学語学愛好会 〜言語逆評定 ①〜](https://twitter.com/ut_glossophilia/status/1111830816772939777)
 - [失敗百選](http://www.sydrose.com/case100/index.html)
+- [/ca/CallFriend/jpn](https://media.talkbank.org/ca/CallFriend/jpn/)
 
 ---
 

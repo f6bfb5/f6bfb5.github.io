@@ -512,7 +512,15 @@ flowchart TB
   {/each}
 </div>
 
-[Steam API all games](https://stackoverflow.com/questions/46330864/steam-api-all-games)
+■[Steam API all games](https://stackoverflow.com/questions/46330864/steam-api-all-games)
+
+<LibLoader
+  url="https://www.youtube.com/player_api"
+  libraryDetectionObject="YouTubePlayerAPI"
+  on:loaded={onYouTubePlayerAPIReady}
+/>
+
+<div id="ytplayer"></div>
 
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
@@ -520,6 +528,7 @@ flowchart TB
   import AutomaticColorText from "$lib/AutomaticColorText.svelte";
   import BorderedText from "$lib/BorderedText.svelte";
   import BalloonQuote2 from "$lib/BalloonQuote2.svelte";
+  import LibLoader from "$lib/LibLoader.svelte";
 
   let range = {
     from: 1,
@@ -554,6 +563,18 @@ flowchart TB
   //     randomNum[i] = Math.floor(Math.random()*89999) + 10000;
   //   }
   // }, 80)
+
+  function onYouTubePlayerAPIReady() {
+    window.YT.ready(() => {
+      new YT.Player('ytplayer', {
+        videoId: 'BoZ0Zwab6Oc',
+        playerVars: {
+          autoplay: 1,
+        }
+      });
+    });
+  }
+
 </script>
 
 <style scoped>

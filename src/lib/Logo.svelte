@@ -48,6 +48,10 @@
     "https://www.youtube.com/watch?v=s3dVPAAEX14",
     // あなたは世界の終わりにずんだを食べるのだ / なみぐる feat.ずんだもん
     "https://www.nicovideo.jp/watch/sm40487046",
+    // エレクトロダンスロアなのだ？
+    "https://www.nicovideo.jp/watch/sm35222783",
+    // にじさんじ - Virtual to LIVE [Official Music Video]
+    "https://www.nicovideo.jp/watch/sm35598094",
     // ----
     // ぼくのフレンド
     "https://www.youtube.com/watch?v=83xwNaTUB54",

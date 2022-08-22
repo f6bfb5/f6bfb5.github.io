@@ -5,9 +5,18 @@
   
   const dispatch = createEventDispatcher();
   export let url;
+  export let libraryDetectionObject;
   let script;
   
   onMount(async () => {
+    if (
+      libraryDetectionObject &&
+      window &&
+      typeof window[libraryDetectionObject] !== "undefined"
+    ) {
+      return dispatch("loaded");
+    }
+    
     script.addEventListener('load', () => {
       dispatch('loaded');
     })

@@ -56,16 +56,19 @@ tags: F2E
 
 <LibLoader
   url="https://cdn.jsdelivr.net/jsbarcode/3.3.20/JsBarcode.all.min.js"
+  libraryDetectionObject="JsBarcode"
   on:loaded={barcodeLoaded}
 />
 
 <LibLoader
   url="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"
+  libraryDetectionObject="qrcode"
   on:loaded={qrcodeLoaded}
 />
 
 <LibLoader
   url="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"
+  libraryDetectionObject="domToImage"
 />
 
 <div class="sticker" id="sticker">

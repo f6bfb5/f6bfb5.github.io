@@ -43,6 +43,9 @@
     "https://i.imgur.com/cIApMDY.png",
     "https://i.imgur.com/erCA0z0.png",
     "https://i.imgur.com/BORBf45.png",
+    "https://i.imgur.com/3MZQxxR.png",
+    "https://i.imgur.com/8vy0ZIR.png",
+    "https://i.imgur.com/42Tpjp6.png",
   ];
   const imageUrl =
     imageUrlsArray[Math.floor(imageUrlsArray.length * Math.random())];

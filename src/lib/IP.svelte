@@ -28,6 +28,7 @@
 
 <LibLoader
   url="https://cdn.jsdelivr.net/gh/joeymalvinni/webrtc-ip/dist/bundle.dev.js"
+  libraryDetectionObject="IP"
   on:loaded={onLoaded}
 />
 
