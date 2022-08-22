@@ -39,7 +39,10 @@
     ["component", QRCode, "Nice Boat."],
     ["quote", "……"],
     ["quote", "也可以嵌入 YouTube？"],
-    ["quote", "<iframe width='0' height='0' src='//www.youtube.com/embed/dTCEG95B7JQ?autoplay=1&loop=1' frameborder='0' allowfullscreen></iframe>"],
+    [
+      "quote",
+      "<iframe width='0' height='0' src='//www.youtube.com/embed/dTCEG95B7JQ?autoplay=1&loop=1' frameborder='0' allowfullscreen></iframe>",
+    ],
     ["quote", "……"],
   ];
   let displayArray = new Array(quotesArray[0]);

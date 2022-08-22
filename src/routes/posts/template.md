@@ -514,21 +514,12 @@ flowchart TB
 
 ■[Steam API all games](https://stackoverflow.com/questions/46330864/steam-api-all-games)
 
-<LibLoader
-  url="https://www.youtube.com/player_api"
-  libraryDetectionObject="YouTubePlayerAPI"
-  on:loaded={onYouTubePlayerAPIReady}
-/>
-
-<div id="ytplayer"></div>
-
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
   import BalloonQuote from "$lib/BalloonQuote.svelte";
   import AutomaticColorText from "$lib/AutomaticColorText.svelte";
   import BorderedText from "$lib/BorderedText.svelte";
   import BalloonQuote2 from "$lib/BalloonQuote2.svelte";
-  import LibLoader from "$lib/LibLoader.svelte";
 
   let range = {
     from: 1,
@@ -564,16 +555,7 @@ flowchart TB
   //   }
   // }, 80)
 
-  function onYouTubePlayerAPIReady() {
-    window.YT.ready(() => {
-      new YT.Player('ytplayer', {
-        videoId: 'BoZ0Zwab6Oc',
-        playerVars: {
-          autoplay: 1,
-        }
-      });
-    });
-  }
+
 
 </script>
 
