@@ -1,10 +1,11 @@
 <script context="module">
   const allPosts = import.meta.globEager(`../routes/posts/*.md`);
-  let body = [];
+  const body = [];
 
   for (let path in allPosts) {
     const post = allPosts[path];
     const metadata = post.metadata;
+
     const namePage = path.split("/");
     const slugPage = namePage[namePage.length - 1].slice(0, -3);
     const p = {

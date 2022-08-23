@@ -84,13 +84,13 @@ Second Paragraph That's one small step for man, one giant leap for mankind.
 
 ---
 
-<img src="https://picsum.photos/128/128/" alt="Image alt" title="Image title" style="padding-top: 1.125em; padding-left: 1.125em; float: right;">
+<img src="https://picsum.photos/128/128/" alt="placeholder" title="placeholder" style="padding-top: 1.125em; padding-left: 1.125em; float: right;">
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 <div style="clear: both;" />
 
-<img src="https://picsum.photos/128/128/" alt="Image alt" title="Image title" style="padding-top: 1.125em; padding-right: 1.125em;  float: left;">
+<img src="https://picsum.photos/128/128/" alt="placeholder" title="placeholder" style="padding-top: 1.125em; padding-right: 1.125em;  float: left;">
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -287,12 +287,12 @@ flowchart TB
 <div style="margin-top: 1em; padding: 4em; background-image: linear-gradient(110deg,transparent 20%,#e5ebf0 20%)" />
 <div style="margin-left: .5em; width: 48%; float: left;">
   <h2 style="margin-top: -4em; margin-left: 1em;">TITLE</h2>
-  <img src="https://i.imgur.com/iepJccR.png" style="margin-top: -2em;" />
+  <img src="https://i.imgur.com/iepJccR.png" alt="placeholder" style="margin-top: -2em;" />
   <p>Lorem lorem lorem lorem lorem lorem</p>
 </div>
 <div style="margin-left: .5em; width: 48%; float: left;">
   <p style="margin-left: 5em; margin-top: 1em;">Lorem lorem lorem lorem lorem lorem</p>
-  <img src="https://i.imgur.com/u4DyT6c.png" />
+  <img src="https://i.imgur.com/u4DyT6c.png" alt="placeholder" />
   <h4 style="text-align: right;">SUBTITLE</h4>
 </div>
 <div style="clear: both;" />
@@ -554,6 +554,17 @@ flowchart TB
   //     randomNum[i] = Math.floor(Math.random()*89999) + 10000;
   //   }
   // }, 80)
+
+  function FizzBuzz() {
+    for(let i=0; i<100; i++) {
+      let output = '';
+      if(n % 3 === 0) output += 'Fizz';
+      if(n % 5 === 0) output += 'Buzz';
+  
+      if(output.length > 0) console.log(output);
+      else console.log(i);
+    }
+  }
 
 
 

@@ -1,54 +1,9 @@
 <script>
   import { onMount } from "svelte";
+  import { randomImages } from "$lib/store.js";
 
-  const imageUrlsArray = [
-    "https://i.imgur.com/tdh6Lx8.png",
-    "https://i.imgur.com/JuPO2pq.png",
-    "https://i.imgur.com/wfrGELX.png",
-    "https://i.imgur.com/mDbpu8Y.png",
-    "https://i.imgur.com/qXRNc2f.png",
-    "https://i.imgur.com/A3mWcEM.png",
-    "https://i.imgur.com/lYVTGos.png",
-    "https://i.imgur.com/R6mXTLQ.png",
-    "https://i.imgur.com/FrB5LXZ.png",
-    "https://i.imgur.com/BaLhn5v.png",
-    "https://i.imgur.com/VjGDpsw.png",
-    "https://i.imgur.com/u4DyT6c.png",
-    "https://i.imgur.com/RmYyZX6.png",
-    "https://i.imgur.com/e0ebkFy.png",
-    "https://i.imgur.com/gHbQvYY.png",
-    "https://i.imgur.com/zT1ex8v.png",
-    "https://i.imgur.com/E5TWzEs.png",
-    "https://i.imgur.com/iepJccR.png",
-    "https://i.imgur.com/9SOlqJV.png",
-    "https://i.imgur.com/rssA92w.png",
-    "https://i.imgur.com/XHOlLwQ.png",
-    "https://i.imgur.com/vCT9925.png",
-    "https://i.imgur.com/VKSRtGQ.png",
-    "https://i.imgur.com/61yWlp6.png",
-    "https://i.imgur.com/frsPyaZ.png",
-    "https://i.imgur.com/SgwJ0Yq.png",
-    "https://i.imgur.com/rAstT0L.png",
-    "https://i.imgur.com/WRO0rKZ.png",
-    "https://i.imgur.com/ejmGCmo.png",
-    "https://i.imgur.com/R0WyN9z.png",
-    "https://i.imgur.com/7vSdphr.png",
-    "https://i.imgur.com/KuewX4i.png",
-    "https://i.imgur.com/4toHY6r.png",
-    "https://i.imgur.com/4DYRfUT.png",
-    "https://i.imgur.com/nZK2mYW.png",
-    "https://i.imgur.com/PdyTBFC.png",
-    "https://i.imgur.com/sPDfxLs.png",
-    "https://i.imgur.com/s4UfYv6.png",
-    "https://i.imgur.com/cIApMDY.png",
-    "https://i.imgur.com/erCA0z0.png",
-    "https://i.imgur.com/BORBf45.png",
-    "https://i.imgur.com/3MZQxxR.png",
-    "https://i.imgur.com/8vy0ZIR.png",
-    "https://i.imgur.com/42Tpjp6.png",
-  ];
   const imageUrl =
-    imageUrlsArray[Math.floor(imageUrlsArray.length * Math.random())];
+    $randomImages[Math.floor($randomImages.length * Math.random())];
 
   let noiseWidth = "83.5%";
   let noiseHeight = "83.5%";

@@ -352,6 +352,7 @@ tags: ACG, Anime
 
 - [宮崎作品のアニメーション技術考](http://www.yk.rim.or.jp/~rst/rabo/miyazaki/gijyutsu_ron.html)
 - [漫画の原作者と作画者は「企画・脚本」と「撮影・監督」の役割分担…なのだろうか？](https://togetter.com/li/1081987)
+- [←よく見る制作工程　　現実→](https://twitter.com/caoryu_YS/status/1561301501896962048)
 
 <details>
   <summary>

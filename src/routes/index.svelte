@@ -1,6 +1,6 @@
 <script context="module">
   const allPosts = import.meta.globEager(`../routes/posts/*.md`);
-  let body = [];
+  const body = [];
 
   for (let path in allPosts) {
     const post = allPosts[path];
@@ -22,7 +22,7 @@
     body.push(p);
   }
 
-  export const load = async () => {
+  export const load = () => {
     return {
       props: {
         posts: body,

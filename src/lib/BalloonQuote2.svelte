@@ -18,7 +18,7 @@
   {/if}
 
   {#if image != null}
-    <img src={image} alt="image-in-balloon" />
+    <img src={image} alt="in-balloon" />
   {/if}
 
   {#if component != null}

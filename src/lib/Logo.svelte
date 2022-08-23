@@ -1,200 +1,43 @@
 <script>
-  const randomTargetUrlArr = [
-    // ----------------------------------------
-    // Anime
-    // ----------------------------------------
-    // 【CM】プラネテス Planetes Blu-ray Box PV【翻譯】
-    "https://www.youtube.com/watch?v=en3Gg3k1y3Q",
-    // Anime Central 日本動畫的作畫講座（2013）繁中字幕
-    "https://www.youtube.com/watch?v=xnTBQPoB6yQ",
-    // TIFF マスタークラス 「アニメ映画史、最重要変化点を語る」
-    "https://www.youtube.com/watch?v=3Y6zlM-n9Kg",
-    // 「最高のおもてなしだ」
-    "https://www.nicovideo.jp/watch/sm24304243",
-    // ヤッタモン勝ちなんや
-    "https://www.nicovideo.jp/watch/sm24550780",
-    // 『リズと青い鳥』メイキング
-    "https://www.youtube.com/watch?v=Pfo4kTK-sws&list=PLTNhweghpLi2U9Liu1wszAR7nlJAUFv-M",
-    // 'The End of Evangelion' and Stan Brakhage
-    "https://medium.com/@EstherRosenfield/the-end-of-evangelion-and-stan-brakhage-e57fb668181f",
-    // The Illusion of Peace in Mamoru Oshii's Patlabor 2
-    "https://youtu.be/ybLKmO5Kq5A",
-    // ----------------------------------------
-    // Music
-    // ----------------------------------------
-    // 【Official】Pokémon Special Music Video 「GOTCHA！」
-    "https://www.youtube.com/watch?v=BoZ0Zwab6Oc",
-    // 『リズと青い鳥』ミュージックPV
-    "https://www.youtube.com/watch?v=OGWO3u8zgTU",
-    // 坂本真綾 - おかえりなさい (Tomatomerde Remix)
-    "https://www.youtube.com/watch?v=wbMe6DmtqMw",
-    // ラグとレイン
-    "https://www.youtube.com/watch?v=AzFJUrKO8U0",
-    // 週末のDDRメドレーを　あの頃のようには踊れない
-    "https://www.nicovideo.jp/watch/sm9244874",
-    // アニソンmixメドレー
-    "https://soundcloud.com/f6bfb5/sets/k4psq4s1vpbd",
-    // 【ｺﾞﾑ】　ロックマン2　おっくせんまん！（Version ｺﾞﾑ）
-    "https://www.nicovideo.jp/watch/sm83",
-    // ファミコンの実機演奏操作を解説！【NES BAND】
-    "https://youtu.be/KmGvN3fmsbY",
-    // ファミコンの音声出力比較をしてみたら意外な機器の音質が良かった【9 通り】
-    "https://youtu.be/LXCrwoQzrwI",
-    // .
-    "https://www.nicovideo.jp/watch/sm36337465",
-    // 名の無い星が空に堕ちたら
-    "https://www.nicovideo.jp/watch/sm36920659",
-    // ヤツメ穴 / 緑仙 (全部僕の声)
-    "https://www.youtube.com/watch?v=s3dVPAAEX14",
-    // あなたは世界の終わりにずんだを食べるのだ / なみぐる feat.ずんだもん
-    "https://www.nicovideo.jp/watch/sm40487046",
-    // エレクトロダンスロアなのだ？
-    "https://www.nicovideo.jp/watch/sm35222783",
-    // にじさんじ - Virtual to LIVE [Official Music Video]
-    "https://www.nicovideo.jp/watch/sm35598094",
-    // ----
-    // ぼくのフレンド
-    "https://www.youtube.com/watch?v=83xwNaTUB54",
-    // the pillows / Funny Bunny
-    "https://www.youtube.com/watch?v=f92VWkYl8CI",
-    // TVアニメ「ゆるキャン△」MV～1/6の夢旅人2002ver.～
-    "https://www.youtube.com/watch?v=lxt-zHlHd1o",
-    // Sigur Rós - Hoppípolla
-    "https://www.youtube.com/watch?v=JAYb8ZyjzD0",
-    // ----------------------------------------
-    // Game
-    // ----------------------------------------
-    // 【CM】Linda Cube Again【翻譯】
-    "https://www.youtube.com/watch?v=Jc1QGIhnTaU",
-    // 【CM】Serial Experiments Lain for PS 【翻譯】
-    "https://www.youtube.com/watch?v=KZONR1BFZ3s",
-    // #lain20th
-    "https://www.youtube.com/watch?v=uOREjHyENtc",
-    // serial experiments lain プレイ動画 level1【コメ実況風】
-    "https://www.nicovideo.jp/watch/sm5667565",
-    // さよならを教えて-プレイ動画 00
-    "https://www.nicovideo.jp/watch/sm938664",
-    // 登山家たちのクトゥルフ神話TRPG
-    "https://www.nicovideo.jp/watch/sm30884037",
-    // クリスマスを一人で過ごした後に見る動画　ーGetting Over Itー
-    "https://www.nicovideo.jp/watch/sm32489042",
-    // 絶望を越えた超やりこみ聖剣LOM #1（Lv99の敵しかいない世界）
-    "https://www.nicovideo.jp/watch/sm33802520",
-    // 攻略本を越えた超やりこみゼノギアス【実況】Part1（23時間収録分）
-    "https://www.nicovideo.jp/watch/sm28923737",
-    // 【街】憧れのサウンドノベルを今やる【実況】part1
-    "https://www.nicovideo.jp/watch/sm10588950",
-    // 【ゆっくり解説】平成のゲーム史を振り返ってみた Part1
-    "https://www.nicovideo.jp/watch/sm35053910",
-    // いんゆめにっき
-    "https://www.nicovideo.jp/watch/sm37696367",
-    // アダルトゲームの歴史【1981年～1985年】
-    "https://www.nicovideo.jp/watch/sm37520821",
-    // ----------------------------------------
-    // Video
-    // ----------------------------------------
-    // クラフトボス『Flash Back Memories』3分39秒 宮崎吐夢 サントリー
-    "https://www.youtube.com/watch?v=ezF1ZJurYig",
-    // 鮭1尾を食い尽くす【19品】
-    "https://www.nicovideo.jp/watch/sm24627168",
-    // ニコニコ動画の流行した動画、話題を振り返ってみた【（仮）時代】
-    "https://www.nicovideo.jp/watch/sm32180468",
-    // あなたのインターネットはどこから？
-    "https://www.youtube.com/watch?v=P7W7Vtti78U",
-    // 古きネット文化よ、永遠に。
-    "https://www.nicovideo.jp/watch/sm29763392",
-    // 削除動画
-    "https://www.nicovideo.jp/watch/sm38213757",
-    // ＬＯＣＡＬ５８ＴＶ - Contingency
-    "https://www.youtube.com/watch?v=3c66w6fVqOI",
-    // 日本国尊厳維持局 尊厳扶助政府有事宣言時フィルム
-    "https://www.nicovideo.jp/watch/sm36221966",
-    // [決意表明] 会社辞めてninja250で日本一周 phase 0
-    "https://www.nicovideo.jp/watch/sm30344277",
-    // blank vhs covers were kinda beautiful
-    "https://www.youtube.com/watch?v=e9DfSCk-6Ko",
-    // 【手描きにじさんじ】灰に灯る火はブルー【黛灰1st_Storage】
-    "https://www.youtube.com/watch?v=oo5F2WVtLA8&t",
-    // 【#001】作画オタクVTuber、自己紹介します！
-    "https://www.youtube.com/watch?v=RqkAgWTZ98w",
-    // Nico
-    // ----
-    // ニコ厨と見るニコニコで流行ったアニメ
-    "https://www.nicovideo.jp/watch/sm35971994",
-    // MAD 　 ↑↑↓↓←→←→×○（2020 年 ver）
-    "https://www.nicovideo.jp/watch/sm36399404",
-    // ニコニコ動画宝島
-    "http://www.nicovideo.jp/watch/sm34303211",
-    // 敗北々しくて
-    "http://www.nicovideo.jp/watch/sm34295558",
-    // 【マリオメーカー２】勝利しないと爆発する妹のためにみんなでバトル #1【マリオ３スキン】
-    "https://www.nicovideo.jp/watch/sm35323613",
-    // 【マリオメーカー２】マリオ、きづけばきょうもまたリンクに
-    "https://www.nicovideo.jp/watch/sm36084637",
-    // 【マリオメーカー２】やあみんな　おれはリンク　マリオじゃないぜ
-    "https://nico.ms/sm36110873",
-    // 【マリオメーカー２】マリオ、しょうこりもなくリンクになる,
-    "https://www.nicovideo.jp/watch/sm36068301",
-    // ぼくらのニコニコはこれからだ！
-    "https://nico.ms/sm35744482",
-    // イチローのレーザービームで人類滅亡 2019 年 ver.
-    "https://nico.ms/sm34810455",
-    // 【歌ってみた】お正月の歌を平沢進っぽくアレンジ【Lotus】
-    "https://nico.ms/sm36166697",
-    // ニコニコ動画の世紀 2019
-    "https://nico.ms/sm36069424",
-    // 2012 年みたいな MAD に住んでるう p 主はどうすりゃいいですか？
-    "https://nico.ms/sm35957126",
-    // 全盛期みたいな MAD に住んでるニコ厨はどうすりゃいいですか？
-    "https://www.nicovideo.jp/watch/sm35866765",
-    // 【合作】らきめっど
-    "https://www.nicovideo.jp/watch/sm40730527",
-    // ----------------------------------------
-    // Article
-    // ----------------------------------------
-    // 伊丹万作 演技指導論草案
-    "https://www.aozora.gr.jp/cards/000231/files/1190_31196.html",
-    // 「二次創作を元にした二次創作」を繰り返し、九次創作に至るまでの流れを図解してみました！
-    "https://twitter.com/sin_ncd/status/1210874514403291136",
-    // ひろゆき「なんだろう、一人で悩むのやめてもらっていいですか」
-    "http://tasogarech.blog.jp/archives/7552248.html",
-    // ニコニコ動画各時代の流行まとめ
-    "https://dic.nicovideo.jp/a/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%8B%95%E7%94%BB%E5%90%84%E6%99%82%E4%BB%A3%E3%81%AE%E6%B5%81%E8%A1%8C%E3%81%BE%E3%81%A8%E3%82%81",
-    // 【ニコニコ動画】七色のニコニコ動画 10 周年祭コメントアートまとめ
-    "https://togetter.com/li/1362957",
-    // 津波と放射能汚染で崩壊していた福島県 双葉町 → 2年ぶりに来たら、とんでもないことになっていた
-    "https://rocketnews24.com/2022/08/01/1663113/",
-    // ----------------------------------------
-    // Manga
-    // ----------------------------------------
-    // 時間跳躍式完全無劣化転送装置 - 山素
-    "https://comic-days.com/episode/3269754496432828238",
-    // 鍵がない - 伊藤拓登
-    "https://comic-days.com/episode/3270296674337088734",
-  ];
+  import { logoLinks } from "$lib/store.js";
 
   function getRandomEleFromArr(arr) {
     return arr[Math.floor(arr.length * Math.random())];
   }
 
-  let targetUrl = getRandomEleFromArr(randomTargetUrlArr);
+  let targetUrl = getRandomEleFromArr($logoLinks);
 </script>
 
 <a
   href={targetUrl}
   target="_blank"
   rel="noreferrer noopener"
-  on:click={() => (targetUrl = getRandomEleFromArr(randomTargetUrlArr))}
+  on:click={() => (targetUrl = getRandomEleFromArr($logoLinks))}
 >
   <img
     src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA"
     alt="logo"
-    style="width: 36px; height: 42px;"
   />
 </a>
 
 <style scoped>
   a {
     margin-right: 20px;
+  }
+  img {
+    width: 36px;
+    height: 42px;
+    filter: drop-shadow(0 0 12px var(--subtitle-color));
+    animation: glow 2s infinite ease;
+  }
+
+  @keyframes glow {
+    0%,
+    100% {
+      filter: drop-shadow(0 0 12px var(--subtitle-color));
+    }
+    50% {
+      filter: drop-shadow(0 0 8px var(--bg-color));
+    }
   }
 </style>

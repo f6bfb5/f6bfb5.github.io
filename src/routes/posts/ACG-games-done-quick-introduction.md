@@ -13,9 +13,10 @@ tags: ACG, Game
 <div dir="ltr" lang="en">
 $2,122,529.20, that's a new SGDQ record! Thank you so so much to all of you for your support in helping us reach a new record for <a href="https://twitter.com/hashtag/SGDQ2018?src=hash&amp;ref_src=twsrc%5Etfw">#SGDQ2018</a></div>
 — Games Done Quick (@GamesDoneQuick) <a href="https://twitter.com/GamesDoneQuick/status/1013324830760996865?ref_src=twsrc%5Etfw">2018年7月1日</a></blockquote>
-<svelte:head>
+
+<!-- <svelte:head>
 <script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
-</svelte:head>
+</svelte:head> -->
 
 台灣當然也不落人後的，自 2016 年起也在彩學的頻道進行事前的節目內容介紹、精彩看點解說、活動同步轉播以及事後的各種補充資訊，並連續兩次集結眾人之力，替慈善出一份力。
 
@@ -172,11 +173,10 @@ TASBOT 引人入勝的不只是其將傳統 TAS 影片裡在快速通關裡加�
 
 ## 番外篇：SGDQ 2018 簡單回顧
 
-本次活動舉辦於 2018/6/25 至 2018/7/1，除了與 GDQ 合作的各國轉播外，在彩學台也有同步聊天室轉播，以及台北遊戲九館的現場轉播。本次並由彩學台的觀眾克里斯熱心製作了[網頁版的節目表](https://tetristhe.droppages.com/gdq/)，同樣也在節目開始前舉辦了內容介紹的前夜祭「[有客到特別節目] 阿九與你的 SGDQ 2018 前夜祭」。
+本次活動舉辦於 2018/6/25 至 2018/7/1，除了與 GDQ 合作的各國轉播外，在彩學台也有同步聊天室轉播，以及台北遊戲九館的現場轉播。本次並由彩學台的觀眾克里斯熱心製作了[網頁版的節目表](https://tetristhe.droppages.com/gdq/)，同樣也在節目開始前舉辦了內容介紹的前夜祭「\[有客到特別節目\] 阿九與你的 SGDQ 2018 前夜祭」。
 
-| [![img](https://i.imgur.com/n5RhIp0.png)](https://i.imgur.com/n5RhIp0.png) |
-| -------------------------------------------------------------------------- |
-| 活動開始前使用節目表標記起來的個人用重點觀看清單                           |
+![img](https://i.imgur.com/n5RhIp0.png)
+> 活動開始前使用節目表標記起來的個人用重點觀看清單
 
 由於英文聽力並不是很強，自多國語言轉播頻道開辦後，我大多時間待在日本轉播頻道（Japanese_Restream），日本轉播頻道採取三位主持人輪班的形式，並且公開招募各個遊戲節目的解說人，若是主持人對於該遊戲 RTA 有所瞭解也會加入講解。
 
@@ -184,9 +184,9 @@ TASBOT 引人入勝的不只是其將傳統 TAS 影片裡在快速通關裡加�
 
 本次活動的節目內容依然強大無比，以下是幾個我有印象，或是當下有特別作筆記的部份：
 
-▼《星之卡比：超究極豪華版》：這次使用的是 Meta Knight，在 BOSS 戰時能看到 Meta Knight 的大招威能大殺四方。
+> ▼《星之卡比：超究極豪華版》：這次使用的是 Meta Knight，在 BOSS 戰時能看到 Meta Knight 的大招威能大殺四方。
 
-▼《洛克人 X2》：這次的限制是 Buster-Only，在《洛克人 X1》至《洛克人 X3》裡有個遊戲特點是「艾克斯在衝刺狀態中的豆彈傷害 2 倍」，因此能看到跑者在頭目戰時的攻擊會盡量讓自己保持在衝刺狀態下進行攻擊。
+> ▼《洛克人 X2》：這次的限制是 Buster-Only，在《洛克人 X1》至《洛克人 X3》裡有個遊戲特點是「艾克斯在衝刺狀態中的豆彈傷害 2 倍」，因此能看到跑者在頭目戰時的攻擊會盡量讓自己保持在衝刺狀態下進行攻擊。
 
 <iframe src="https://www.youtube.com/embed/9OcYplW4hb0" title="[JPN] SGDQ2018 ロックマンX2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

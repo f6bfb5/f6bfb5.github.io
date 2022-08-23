@@ -38,11 +38,11 @@ tags: Toolbox
 - [Twelve Men](https://twelvemen.neocities.org/)
 - [Simplifier](https://simplifier.neocities.org/)
 - [The Law NEET](https://lawneet.neocities.org/)
-- [○で終わる言葉](https://cotobasearch.com/search/r2)
-- [3DSブラウザ用コンテンツ](http://www5b.biglobe.ne.jp/~clap/3ds/)
+- [○ で終わる言葉](https://cotobasearch.com/search/r2)
+- [3DS ブラウザ用コンテンツ](http://www5b.biglobe.ne.jp/~clap/3ds/)
 - [CodeCaptcha.io](https://www.codecaptcha.io/)
 - [タロットカードで物語をつくる構文を見つける](https://www.nnn.ed.nico/contents/guides/792)
-- [10＋1 website](https://www.10plus1.jp/)
+- [10 ＋ 1 website](https://www.10plus1.jp/)
 
 ## 學習
 
@@ -193,6 +193,7 @@ tags: Toolbox
 | [ね  — NT][]                                                                                                                 | Nathan Taylor 的實驗網站             |
 | [fladdict][]                                                                                                                 | 深津貴之的實驗網站                   |
 | [映像作家 100 人 MOTION GRAPHIC CREATORS][]                                                                                  |                                      |
+| [MOTIONBOX][]                                                                                                                |                                      |
 | [陽明雑記](https://toshi-y.at.webry.info/)                                                                                   |                                      |
 | [Copyright Q&A 著作権なるほど質問箱](https://copyright-qa.azurewebsites.net/)                                                |                                      |
 | [NDL イメージバンク](https://rnavi.ndl.go.jp/imagebank/)                                                                     |                                      |
@@ -210,6 +211,7 @@ tags: Toolbox
 [ね — nt]: https://nathan.tokyo/
 [fladdict]: http://fladdict.net/
 [映像作家 100 人 motion graphic creators]: https://eizo100.jp/
+[motionbox]: https://motion-box.net/
 
 ## 娛樂
 
