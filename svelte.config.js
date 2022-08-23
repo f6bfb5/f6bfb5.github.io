@@ -5,10 +5,7 @@ import mdsvexConfig from "./mdsvex.config.js";
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   // options passed to svelte.compile (https://svelte.dev/docs#compile-time-svelte-compile)
-  compilerOptions: {
-    // dev: true,
-    // hydratable: true,
-  },
+  compilerOptions: {},
 
   // an array of file extensions that should be treated as Svelte components
   extensions: [".svelte", ".md"],
@@ -24,8 +21,7 @@ const config = {
       assets: "",
     },
     prerender: {
-      // default: true,
-      // enabled: false,
+      default: true,
     },
     routes: (filepath) =>
       !/(?:(?:^_|\/_)|(?:^\.|\/\.)(?!well-known))/.test(filepath),
