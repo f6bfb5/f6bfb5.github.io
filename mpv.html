@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link
+      rel="preload"
+      href="./fonts/fusion-pixel.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="preload prefetch" href="./global.css" as="style" />
+    <link rel="stylesheet" href="./global.css" />
+    <!-- <link rel="manifest" href="./manifest.json" /> -->
+    <link rel="icon" type="image/png" href="./favicon.ico" />
+
+    <!-- This contains the contents of the <svelte:head> component, if
+	     the current page has one -->
+    <meta http-equiv="content-security-policy" content=""><title>免安裝、單一程式看遍所有影片！簡潔強大的播放器 mpv</title><script async src="https://www.googletagmanager.com/gtag/js?id=G-CRDP7WTXSQ" data-svelte="svelte-bhtlqr"></script><link rel="shortcut icon" href="/favicon.ico" data-svelte="svelte-1c8ynol"><link rel="bookmark" href="/favicon.ico" data-svelte="svelte-1c8ynol"><link rel="canonical" href="https://f6bfb5.github.io/mpv" data-svelte="svelte-17ikmly"><meta property="og:url" content="https://f6bfb5.github.io/mpv" data-svelte="svelte-17ikmly"><meta property="og:type" content="article" data-svelte="svelte-17ikmly">
+    <meta property="og:title" content="免安裝、單一程式看遍所有影片！簡潔強大的播放器 mpv" data-svelte="svelte-17ikmly">
+    <meta property="og:description" content="mpv 是一套免費開源跨平台的播放器，免安裝的特性對於不想在電腦裡安裝太多東西的使用者來說相當方便，下載後直接開啟就能播放影片。" data-svelte="svelte-17ikmly">
+      <meta name="Description" content="mpv 是一套免費開源跨平台的播放器，免安裝的特性對於不想在電腦裡安裝太多東西的使用者來說相當方便，下載後直接開啟就能播放影片。" data-svelte="svelte-17ikmly">
+
+    
+    <meta property="og:image" data-svelte="svelte-17ikmly">
+
+    <meta name="twitter:card" content="summary_large_image" data-svelte="svelte-17ikmly">
+    <meta name="twitter:title" value="免安裝、單一程式看遍所有影片！簡潔強大的播放器 mpv" data-svelte="svelte-17ikmly">
+    <meta name="twitter:description" content="mpv 是一套免費開源跨平台的播放器，免安裝的特性對於不想在電腦裡安裝太多東西的使用者來說相當方便，下載後直接開啟就能播放影片。" data-svelte="svelte-17ikmly">
+    <meta name="twitter:label1" value="Published on" data-svelte="svelte-17ikmly">
+    <meta name="twitter:data1" value="Jul 19, 2019" data-svelte="svelte-17ikmly">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-60098e1c.css">
+	<link rel="stylesheet" href="/_app/assets/_post-6cf996f4.css">
+	<link rel="stylesheet" href="/_app/assets/BlinkAnchor-39834c8c.css">
+	<link rel="stylesheet" href="/_app/assets/ACG-one-way-heroics-all-achievement-note-1c0f716a.css">
+	<link rel="stylesheet" href="/_app/assets/login-with-discord-4c509c13.css">
+	<link rel="stylesheet" href="/_app/assets/sticker-generator-a58d6bc5.css">
+	<link rel="stylesheet" href="/_app/assets/template-dc5ff06d.css">
+	<link rel="stylesheet" href="/_app/assets/BalloonQuote2-65b715a7.css">
+	<link rel="stylesheet" href="/_app/assets/tool-list-system-90e7347a.css">
+	<link rel="stylesheet" href="/_app/assets/what-nft-is-not-17bf58b6.css">
+	<link rel="modulepreload" href="/_app/start-d72d80ec.js">
+	<link rel="modulepreload" href="/_app/chunks/index-23d5ae1c.js">
+	<link rel="modulepreload" href="/_app/chunks/index-db251831.js">
+	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-ed14fb1c.js">
+	<link rel="modulepreload" href="/_app/chunks/store-e965a4d2.js">
+	<link rel="modulepreload" href="/_app/pages/_slug_.svelte-5a2f0205.js">
+	<link rel="modulepreload" href="/_app/chunks/2020-what-i-have-read-on-internet-2b69f846.js">
+	<link rel="modulepreload" href="/_app/chunks/_post-238a1a9a.js">
+	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-39bb7771.js">
+	<link rel="modulepreload" href="/_app/chunks/2021-what-i-have-read-on-internet-8102fc0d.js">
+	<link rel="modulepreload" href="/_app/chunks/2022-what-i-have-read-on-internet-08ddc190.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-Pause-And-Select-Apocalypse-ccd903de.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-char-counterattack-fans-interview-98624dc9.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-difference-of-director-and-producer-477c6764.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-does-anno-hideaki-really-dont-know-what-he-is-making-5bff5ca7.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-evening-chat-of-game-xenogears-288f2405.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-expression-of-light-and-heavy-b968ebb0.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-games-done-quick-introduction-eeac9cfa.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-linda-cube-introduction-1e95b179.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-linda-cube-on-ps-archive-77b659f2.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-making-of-linda3-56ff1650.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-note-cd54ef6d.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-one-way-heroics-all-achievement-note-0d1f098d.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-random-thoughts-about-rockman-x-dive-ee1953f0.js">
+	<link rel="modulepreload" href="/_app/chunks/AutomaticColorText-de3c9be3.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-rockman-1-tas-glitch-4e36ba0d.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-seino-tooru-2ba56a71.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-serial-experiments-lain-for-ps-3b9edaed.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-super-manga-book-list-d6ceaacb.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-the-influences-of-naoko-yamada-94c69981.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-why-you-should-not-use-interpolation-on-anime-fdccf880.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-yume-no-shima-de-aimashou-2fe08dc9.js">
+	<link rel="modulepreload" href="/_app/chunks/auto-generate-eyecatch-image-for-blog-2bced292.js">
+	<link rel="modulepreload" href="/_app/chunks/autohotkey-note-9a992827.js">
+	<link rel="modulepreload" href="/_app/chunks/blog-with-hexo-9810ed7a.js">
+	<link rel="modulepreload" href="/_app/chunks/blog-with-sapper-736773c2.js">
+	<link rel="modulepreload" href="/_app/chunks/blog-with-sveltekit-e9f566fc.js">
+	<link rel="modulepreload" href="/_app/chunks/capitalist-realism-mark-fisher-6eb457a7.js">
+	<link rel="modulepreload" href="/_app/chunks/dot-painting-note-130de43a.js">
+	<link rel="modulepreload" href="/_app/chunks/escape-from-algorithm-with-rss-dc99968d.js">
+	<link rel="modulepreload" href="/_app/chunks/how-do-you-like-wendesday-48fc8700.js">
+	<link rel="modulepreload" href="/_app/chunks/how-to-check-font-family-name-in-computer-37bcb93a.js">
+	<link rel="modulepreload" href="/_app/chunks/login-with-discord-be671948.js">
+	<link rel="modulepreload" href="/_app/chunks/mpv-235f1f67.js">
+	<link rel="modulepreload" href="/_app/chunks/operating-with-keyboard-61dfa7c4.js">
+	<link rel="modulepreload" href="/_app/chunks/search-engine-operators-70238715.js">
+	<link rel="modulepreload" href="/_app/chunks/sticker-generator-d9572357.js">
+	<link rel="modulepreload" href="/_app/chunks/LibLoader-b5d0cb9e.js">
+	<link rel="modulepreload" href="/_app/chunks/template-e42ad613.js">
+	<link rel="modulepreload" href="/_app/chunks/BalloonQuote2-a7ff699f.js">
+	<link rel="modulepreload" href="/_app/chunks/tool-list-creativity-78535146.js">
+	<link rel="modulepreload" href="/_app/chunks/tool-list-gaming-98bbea24.js">
+	<link rel="modulepreload" href="/_app/chunks/tool-list-system-57d4f0bf.js">
+	<link rel="modulepreload" href="/_app/chunks/tool-list-website-1d5fd543.js">
+	<link rel="modulepreload" href="/_app/chunks/use-foobar2k-to-listen-to-podcast-e759230f.js">
+	<link rel="modulepreload" href="/_app/chunks/use-google-spreadsheet-as-database-a8db09e1.js">
+	<link rel="modulepreload" href="/_app/chunks/what-nft-is-not-40c7ef58.js">
+	<link rel="modulepreload" href="/_app/chunks/why-is-life-so-boring-b661de2b.js">
+  </head>
+  <body>
+    <!-- The application will be rendered inside this element,
+	     because `app/client.js` references it -->
+    
+
+
+
+
+
+
+
+
+<div class="layout svelte-1avnl50" style=""><div class="loader-container svelte-1avnl50"><div class="loader svelte-v56dyc"><span class="loader-text loader-step1 svelte-v56dyc">/</span>
+  <span class="loader-text loader-step1 svelte-v56dyc">-</span>
+  <span class="loader-text loader-step1 svelte-v56dyc">\</span>
+  <span class="loader-text loader-step1 svelte-v56dyc">|</span>
+</div></div></div>
+
+<div class="layout svelte-1avnl50" style="display: none;">
+  
+  <header class="svelte-ka06mn"><div class="header-container svelte-ka06mn"><div class="row svelte-ka06mn"><nav class="svelte-t90z2a"><a class=" svelte-t90z2a" href="/">トリコじかけの明け暮れ
+  </a>
+  <a class=" svelte-t90z2a" href="/about">about
+  </a>
+  <a class=" svelte-t90z2a" href="/rss.xml" target="_blank">rss
+  </a>
+  <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
+  </a>
+</nav>
+      <a href="https://www.nicovideo.jp/watch/sm24304243" target="_blank" rel="noreferrer noopener" class="svelte-1m045v8"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" class="svelte-1m045v8">
+</a></div>
+    
+<div id="progress-bar" style="--scrollAmount: 0%;" class="svelte-1gbseey"></div></div>
+</header>
+
+  <main class="svelte-1avnl50">
+
+<header class="svelte-5uw8di"><h1 class="title svelte-5uw8di"><span style="animation-delay: 125ms; " class="svelte-5uw8di">免
+      </span><span style="animation-delay: 150ms; " class="svelte-5uw8di">安
+      </span><span style="animation-delay: 175ms; " class="svelte-5uw8di">裝
+      </span><span style="animation-delay: 200ms; " class="svelte-5uw8di">、
+      </span><span style="animation-delay: 225ms; " class="svelte-5uw8di">單
+      </span><span style="animation-delay: 250ms; " class="svelte-5uw8di">一
+      </span><span style="animation-delay: 275ms; " class="svelte-5uw8di">程
+      </span><span style="animation-delay: 300ms; " class="svelte-5uw8di">式
+      </span><span style="animation-delay: 325ms; " class="svelte-5uw8di">看
+      </span><span style="animation-delay: 350ms; " class="svelte-5uw8di">遍
+      </span><span style="animation-delay: 375ms; " class="svelte-5uw8di">所
+      </span><span style="animation-delay: 400ms; " class="svelte-5uw8di">有
+      </span><span style="animation-delay: 425ms; " class="svelte-5uw8di">影
+      </span><span style="animation-delay: 450ms; " class="svelte-5uw8di">片
+      </span><span style="animation-delay: 475ms; " class="svelte-5uw8di">！
+      </span><span style="animation-delay: 500ms; " class="svelte-5uw8di">簡
+      </span><span style="animation-delay: 525ms; " class="svelte-5uw8di">潔
+      </span><span style="animation-delay: 550ms; " class="svelte-5uw8di">強
+      </span><span style="animation-delay: 575ms; " class="svelte-5uw8di">大
+      </span><span style="animation-delay: 600ms; " class="svelte-5uw8di">的
+      </span><span style="animation-delay: 625ms; " class="svelte-5uw8di">播
+      </span><span style="animation-delay: 650ms; " class="svelte-5uw8di">放
+      </span><span style="animation-delay: 675ms; " class="svelte-5uw8di">器
+      </span><span style="animation-delay: 700ms; width: .25em;" class="svelte-5uw8di"> 
+      </span><span style="animation-delay: 725ms; " class="svelte-5uw8di">m
+      </span><span style="animation-delay: 750ms; " class="svelte-5uw8di">p
+      </span><span style="animation-delay: 775ms; " class="svelte-5uw8di">v
+      </span></h1>
+  <p class="meta svelte-5uw8di"><span class="date svelte-5uw8di">Jul 19, 2019</span>
+    <div class="tags svelte-5uw8di"><span class="tag svelte-5uw8di">Toolbox</span></div></p></header>
+<div class="post--container svelte-5uw8di"><article class="post--content svelte-5uw8di"><h2 id="js-id-介紹">介紹</h2>
+<p><a href="https://mpv.io/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://mpv.io/" alt="mpv"><span>mpv</span></a> 是一套免費開源跨平台的播放器，承繼 mplayer2 與 MPlayer 兩套軟體開發而來，免安裝的特性對於不想在電腦裡安裝太多東西的使用者來說相當方便，下載後直接開啟就能播放影片，然而沒有工具列與功能列表，機制全都需要透過鍵盤操作的特徵，也因此勸退了許多入坑的使用者。</p>
+<h2 id="js-id-常用操作span常用操作span"><a href="https://mpv.io/manual/master/#keyboard-control" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://mpv.io/manual/master/#keyboard-control" alt="常用操作"><span>常用操作</span></a></h2>
+<p>mpv 的快捷鍵可以開啟 <code>~/.config/mpv/input.conf</code> 進行修改，並且在 <code>~/.config/mpv/doc</code> 內有提供範例檔案，<code>mpv</code> 資料夾內預設不會有此設定檔案，需自行建立，或直接從 <code>doc</code> 資料夾內複製範例檔案到 <code>mpv</code> 資料夾進行修改。</p>
+<p>自訂輸入格式請參照 <a href="https://github.com/mpv-player/mpv/blob/master/DOCS/man/input.rst#inputconf-syntax" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/mpv-player/mpv/blob/master/DOCS/man/input.rst#inputconf-syntax" alt="官方文件"><span>官方文件</span></a>。</p>
+<p>檔案內以 <code>#</code> 符號開頭的內文都是註解。如果想修改「<code>#</code>」鍵的功能需改用 <code>SHAPE</code> 當成綁定目標。</p>
+<h3>播放</h3>
+<table><thead><tr><th>按鍵</th>
+<th>功能</th></tr></thead>
+<tbody><tr><td><code>←</code>／<code>→</code></td>
+<td>倒/快轉 5 秒</td></tr>
+<tr><td><code>↑</code>／<code>↓</code></td>
+<td>倒/快轉 1 分鐘</td></tr>
+<tr><td><code>&lt;</code>／<code>&gt;</code></td>
+<td>切換至播放清單裡的前/下一支影片</td></tr>
+<tr><td><code>p</code>／<code>空白鍵</code>／<code>右鍵</code></td>
+<td>暫停</td></tr>
+<tr><td><code>f</code></td>
+<td>進入全螢幕模式</td></tr>
+<tr><td><code>ESC</code></td>
+<td>離開全螢幕模式</td></tr>
+<tr><td><code>O</code></td>
+<td>顯示播放資訊</td></tr>
+<tr><td><code>Alt</code> + <code>0</code>／<code>1</code>／<code>2</code></td>
+<td>調整影片顯示大小</td></tr></tbody></table>
+<h4>調整畫面</h4>
+<table><thead><tr><th>按鍵</th>
+<th>功能</th></tr></thead>
+<tbody><tr><td><code>1</code>／<code>2</code></td>
+<td>調整對比</td></tr>
+<tr><td><code>3</code>／<code>4</code></td>
+<td>調整明亮</td></tr>
+<tr><td><code>5</code>／<code>6</code></td>
+<td>調整伽瑪值</td></tr>
+<tr><td><code>7</code>／<code>8</code></td>
+<td>調整飽和度</td></tr></tbody></table>
+<h3>字幕</h3>
+<table><thead><tr><th>按鍵</th>
+<th>功能</th></tr></thead>
+<tbody><tr><td><code>Ctrl</code> + <code>←</code>／<code>→</code></td>
+<td>切換字幕</td></tr>
+<tr><td><code>Ctrl</code> + <code>Shift</code> + <code>←</code>／<code>→</code></td>
+<td>調整字幕延遲</td></tr>
+<tr><td><code>z</code>／<code>Z</code> &amp; <code>x</code></td>
+<td>調慢/快字幕 0.1 秒</td></tr>
+<tr><td><code>r</code>／<code>R</code> &amp; <code>t</code></td>
+<td>調高/低字幕位置</td></tr></tbody></table>
+<h3>音量</h3>
+<table><thead><tr><th>按鍵</th>
+<th>功能</th></tr></thead>
+<tbody><tr><td><code>/</code> &amp; <code>9</code>／<code>*</code> &amp; <code>0</code></td>
+<td>降低/提高音量</td></tr>
+<tr><td><code>m</code></td>
+<td>靜音</td></tr>
+<tr><td><code>-</code>／<code>#</code></td>
+<td>切換音軌</td></tr>
+<tr><td><code>Ctrl</code> + <code>+</code>／<code>-</code></td>
+<td>調慢/快聲音延遲 0.1 秒</td></tr></tbody></table>
+<h2 id="js-id-播放器設定span播放器設定span"><a href="https://github.com/mpv-player/mpv/blob/master/DOCS/man/mpv.rst#configuration-files" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/mpv-player/mpv/blob/master/DOCS/man/mpv.rst#configuration-files" alt="播放器設定"><span>播放器設定</span></a></h2>
+<p>mpv 的設定可以透過修改 <code>~/.config/mpv/mpv.conf</code> 進行變更，同樣在 <code>~/.config/mpv/doc</code> 內有提供範例檔案，可以設定如是否使用 GPU 加速、影像縮放時使用的演算法，藉此調整畫面的銳利度、整體音量大小與變化程度的平衡、設定播放完畢後是否關閉播放器、讀取 youtube 影片時預設使用的解析度。</p>
+<h3><a href="https://github.com/mpv-player/mpv/blob/master/DOCS/man/vo.rst" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/mpv-player/mpv/blob/master/DOCS/man/vo.rst" alt="影像處理"><span>影像處理</span></a></h3>
+<ul><li><a href="https://github.com/mpv-player/mpv/wiki/User-Scripts#user-shaders" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/mpv-player/mpv/wiki/User-Scripts#user-shaders" alt="User Shaders·mpv-player/mpv Wiki"><span>User Shaders·mpv-player/mpv Wiki</span></a></li>
+<li><a href="https://github.com/bloc97/Anime4K" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/bloc97/Anime4K" alt="bloc97/Anime4K"><span>bloc97/Anime4K</span></a></li>
+<li><a href="https://github.com/bjin/mpv-prescalers/tree/master" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/bjin/mpv-prescalers/tree/master" alt="bjin/mpv-prescalers"><span>bjin/mpv-prescalers</span></a></li></ul>
+<p><code>mpv.conf</code></p>
+<pre class="language-conf"><!-- HTML_TAG_START --><code class="language-conf">vo=gpu
+profile=gpu-hq
+glsl-shaders=&quot;~~/shaders/LumaSharpenHook.glsl;~~/shaders/SSimSuperRes.glsl;&quot;
+glsl-shaders-append=&quot;~~/shaders/ravu-lite-r3.hook&quot;
+
+gpu-api=vulkan
+
+scale=ewa_lanczossharp
+cscale=ewa_robidouxsharp
+dscale=ewa_robidouxsharp
+
+video-sync=display-resample
+interpolation=yes
+tscale=oversample
+
+dither-depth=auto
+
+hr-seek = yes</code><!-- HTML_TAG_END --></pre>
+<h3>聲音處理</h3>
+<p><a href="http://peterforgacs.github.io/2018/05/20/Audio-normalization-with-ffmpeg/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://peterforgacs.github.io/2018/05/20/Audio-normalization-with-ffmpeg/" alt="Audio Loudness Normalization With FFmpeg"><span>Audio Loudness Normalization With FFmpeg</span></a></p>
+<pre class="language-conf"><!-- HTML_TAG_START --><code class="language-conf"># 音量標準化 [改善背景音過大，人聲過小時的狀況]
+# https://github.com/mpv-player/mpv/issues/3979
+# https://github.com/mpv-player/mpv/issues/6563
+# [解釋] https://superuser.com/questions/323119/how-can-i-normalize-audio-using-ffmpeg
+
+# 下面兩者擇一：
+# af=lavfi=[dynaudnorm=g=5:f=250:r=0.9:p=0.5]
+af = lavfi=[loudnorm=I=-16:TP=-3:LRA=4]
+
+# DYNAUDNORM: https://ffmpeg.org/ffmpeg-filters.html#dynaudnorm
+#
+# 動態音量標準化，這套過濾器會將聲音輸入添增至某一目標大小（例如 0dBFS）。
+# 並在以往&quot;單純&quot;的標準化演算法之上，此動態音量標準化會再__動態地__
+# 重新調整聲音輸入的增益係數。使得較為&quot;安靜&quot;的部份能獲得更多的增益，
+# 同時讓較為&quot;響亮&quot;的部份免於交調失真或削波失真。換句話說，動態音量標準化
+# 可以讓聲音安靜與響亮的部份&quot;均勻化&quot;，讓整體聲音有同樣的大小。然而要注
+# 意的是，動態音量標準化__並不會__套用&quot;動態範圍壓縮&quot;，聲音檔案的__每個部份__
+# 都會保留 100% 的動態範圍。
+
+# LOUDNORM: https://ffmpeg.org/ffmpeg-filters.html#loudnorm
+#
+# 使用 EBU R128 響度測量進行標準化，有動態標準化與線性標準化模式。
+# 支援 1-pass （可用於串流與檔案） 和 2-pass （僅限檔案） 模式。</code><!-- HTML_TAG_END --></pre>
+<h3>Youtube-dl 相關設定</h3>
+<pre class="language-conf"><!-- HTML_TAG_START --><code class="language-conf"># 設定目標檔案規格
+ytdl-format = bestvideo[ext=mp4][height&lt;=?1080][fps&lt;=?60]+bestaudio/best
+
+# 使用 yt-dlp
+# 由於目前 Youtube-dl 有部分網站支援性的問題（例如 NicoNico），目前有一系列的 Youtube-dl 延伸開發 project，[YT-DLP](https://github.com/yt-dlp/yt-dlp) 是其中一套更新相當頻繁，並且支援性相當優秀的相關工具。
+#
+# 想要使用 Youtube-dl 之外的程式介接網路影片，需要多加上：
+script-opts=ytdl_hook-ytdl_path=&quot;~~/yt-dlp&quot;
+script-opts-append=ytdl_hook-ytdl_path=&quot;~~/yt-dlp&quot;</code><!-- HTML_TAG_END --></pre>
+<h3>獨立使用 youtube-dl 觀看網路影片</h3>
+<p>例如 NicoNico 的影片目前無法直接使用 mpv 內的網址處理觀看，就需要於命令列使用此方式另外將影片資料傳入播放器內。</p>
+<p><code>youtube-dl.exe -o - {%url%} | mpv -</code></p>
+<h2 id="js-id-外掛套件span外掛套件span"><a href="https://github.com/mpv-player/mpv/wiki/User-Scripts" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/mpv-player/mpv/wiki/User-Scripts" alt="外掛套件"><span>外掛套件</span></a></h2>
+<p>mpv 可以使用 lua 語言撰寫第三方套件，套件檔案通常放置於 <code>~/.config/mpv/scripts/</code>。</p>
+<table><thead><tr><th>名稱</th>
+<th>功能</th></tr></thead>
+<tbody><tr><td><a href="https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua" alt="autoload"><span>autoload</span></a></td>
+<td>播放檔案後會自動讀取同資料夾內的其它檔案並加入播放清單內。</td></tr>
+<tr><td><a href="https://github.com/rossy/mpv-open-file-dialog" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/rossy/mpv-open-file-dialog" alt="open-file-dialog"><span>open-file-dialog</span></a></td>
+<td>可使用 <code>Ctrl+o</code> 從程式內直接開啟檔案視窗選擇影片播放</td></tr>
+<tr><td><a href="https://github.com/Eisa01/mpv-scripts#smartcopypaste-script" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/Eisa01/mpv-scripts#smartcopypaste-script" alt="SmartCopyPaste Script"><span>SmartCopyPaste Script</span></a></td>
+<td>可使用 <code>Ctrl+v</code> 將檔案路徑或網址貼至 mpv 播放。</td></tr>
+<tr><td><a href="https://github.com/4e6/mpv-reload" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/4e6/mpv-reload" alt="reload"><span>reload</span></a></td>
+<td>可使用 <code>Ctrl+r</code> 在播放線上影片緩衝過久時重新載入。</td></tr>
+<tr><td><a href="https://github.com/Akemi/mpv-oled-screensaver" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/Akemi/mpv-oled-screensaver" alt="mpv-oled-screensaver"><span>mpv-oled-screensaver</span></a></td>
+<td>保護 OLED 避免烙痕效應，在影片暫停 15 秒後會自動轉為黑畫面。</td></tr>
+<tr><td><a href="https://github.com/VideoPlayerCode/mpv-tools/blob/master/scripts/cycle-video-rotate.lua" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/VideoPlayerCode/mpv-tools/blob/master/scripts/cycle-video-rotate.lua" alt="cycle-video-rotate"><span>cycle-video-rotate</span></a></td>
+<td>可使用 <code>Alt+方向鍵</code> 旋轉影片</td></tr>
+<tr><td><a href="https://github.com/morrah/mpv-twitch-chat-irc" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/morrah/mpv-twitch-chat-irc" alt="mpv-twitch-chat-irc"><span>mpv-twitch-chat-irc</span></a></td>
+<td>觀看 Twitch 影片時顯示聊天室內容</td></tr></tbody></table>
+<ul><li><a href="https://github.com/rossy/mpv-repl" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/rossy/mpv-repl" alt="https://github.com/rossy/mpv-repl"><span>https://github.com/rossy/mpv-repl</span></a></li>
+<li><a href="https://github.com/Samillion/mpv-ytdlautoformat" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/Samillion/mpv-ytdlautoformat" alt="https://github.com/Samillion/mpv-ytdlautoformat"><span>https://github.com/Samillion/mpv-ytdlautoformat</span></a></li>
+<li><a href="https://github.com/the-honey/mpv-gif-generator" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/the-honey/mpv-gif-generator" alt="mpv-gif-generator"><span>mpv-gif-generator</span></a></li>
+<li><a href="https://github.com/hmm5/VariousDanmakuScripts" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/hmm5/VariousDanmakuScripts" alt="VariousDanmakuScripts"><span>VariousDanmakuScripts</span></a></li></ul>
+<h2 id="js-id-外部連結">外部連結</h2>
+<ul><li><a href="https://wiki.archlinux.org/index.php/Mpv" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://wiki.archlinux.org/index.php/Mpv" alt="Archlinux Wiki - mpv"><span>Archlinux Wiki - mpv</span></a></li>
+<li><a href="https://github.com/mpv-player/mpv/blob/master/DOCS/man/lua.rst" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/mpv-player/mpv/blob/master/DOCS/man/lua.rst" alt="mpv - LUA SCRIPTING"><span>mpv - LUA SCRIPTING</span></a></li>
+<li><a href="https://github.com/mpv-player/mpv/wiki/User-Scripts" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/mpv-player/mpv/wiki/User-Scripts" alt="mpv - User Scripts"><span>mpv - User Scripts</span></a></li>
+<li><a href="https://hooke007.github.io/mpv-lazy/mpv.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://hooke007.github.io/mpv-lazy/mpv.html" alt="mpv 播放器折腾记录"><span>mpv 播放器折腾记录</span></a></li></ul>
+<h2 id="js-id-追伸">追伸</h2>
+<p>把 NicoNico 動畫的留言轉換成可在播放器上觀看的字幕檔案。</p>
+<h3>下載留言</h3>
+<ol><li>下載並開啟 <a href="http://xenog.web.fc2.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://xenog.web.fc2.com/" alt="NicomentXenoglossia"><span>NicomentXenoglossia</span></a>。</li>
+<li>（推薦）點擊右上角左邊第一個選項監控剪貼簿。</li>
+<li><code>詳細設定</code> -&gt; <code>DL の挙動（コメント／情報）</code>-&gt; 取消勾選 <code>ダウンロードしたコメントファイルには BoonSutazioData を追加する</code></li>
+<li>在下方的 <code>ダウンロードするもの</code> 只勾選 <code>コメントファイル</code> 。</li>
+<li>於輸入欄貼上網址並按下 Enter 鍵將影片加入下載清單，點選 <code>ダウンロード</code> 開始下載。</li></ol>
+<h3>轉換留言</h3>
+<ol><li>安裝 <a href="https://www.python.org/download/releases/3.0/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.python.org/download/releases/3.0/" alt="Python 3"><span>Python 3</span></a></li>
+<li>下載 <a href="https://github.com/m13253/danmaku2ass" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/m13253/danmaku2ass" alt="danmaku2ass"><span>danmaku2ass</span></a></li>
+<li>依照文件範例使用命令列呼叫轉換指令
+範例：<code>danmaku2ass.py -s 1920x1080 -fn &quot;MS PGothic&quot; -fs 48 -a 0.8 -dm 5 -ds 5 input.xml -o output.ass</code></li>
+<li>（推薦）新增批次檔快速進行處理
+<code>danmaku2ass.py -s 1920x1080 -fn &quot;Noto Sans&quot; -fs 80 -a 0.95 -dm 5 -ds 5 %1 -o %~n1.ass</code></li>
+<li>完成。</li></ol>
+<ul><li><a href="https://github.com/huisedenanhai/LoadDanmaku" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/huisedenanhai/LoadDanmaku" alt="loaddanmaku"><span>loaddanmaku</span></a></li>
+<li><a href="https://www.dennogumi.org/2019/01/hack-of-the-day-extracting-comments-from-nicovideo/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.dennogumi.org/2019/01/hack-of-the-day-extracting-comments-from-nicovideo/" alt="Hack of the day: extracting comments from Nicovideo"><span>Hack of the day: extracting comments from Nicovideo</span></a></li></ul>
+<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-介紹').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">介紹</a></li><li><a href="#" onclick="document.querySelector('#js-id-常用操作span常用操作span').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li><li><a href="#" onclick="document.querySelector('#js-id-播放器設定span播放器設定span').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li><li><a href="#" onclick="document.querySelector('#js-id-外掛套件span外掛套件span').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li><li><a href="#" onclick="document.querySelector('#js-id-外部連結').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">外部連結</a></li><li><a href="#" onclick="document.querySelector('#js-id-追伸').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">追伸</a></li></ul></div>
+    <span class="blink svelte-1kip24n">_</span></article>
+  
+
+<div class="back-to-top svelte-1p7rwza hidden" style="right: 2em">Back to top
+</div>
+</div></main>
+
+  <footer scoped class="svelte-qi6xiu"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noreferrer noopener nofollow">CC BY-NC-SA 4.0
+  </a>
+  <div class="right svelte-qi6xiu">Made with <span class="heart svelte-qi6xiu">❤️</span> and
+    <a href="https://kit.svelte.dev/" target="_blank" ref="noreferrer noopener nofollow">SvelteKit
+    </a></div>
+</footer>
+</div>
+
+
+		<script type="module" data-hydrate="1dynt9f">
+		import { start } from "/_app/start-d72d80ec.js";
+		start({
+			target: document.querySelector('[data-hydrate="1dynt9f"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-ed14fb1c.js"),
+						import("/_app/pages/_slug_.svelte-5a2f0205.js")
+				],
+				params: {slug:"mpv"},
+				routeId: "[slug]"
+			}
+		});
+	</script>
+  </body>
+</html>

@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link
+      rel="preload"
+      href="./fonts/fusion-pixel.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="preload prefetch" href="./global.css" as="style" />
+    <link rel="stylesheet" href="./global.css" />
+    <!-- <link rel="manifest" href="./manifest.json" /> -->
+    <link rel="icon" type="image/png" href="./favicon.ico" />
+
+    <!-- This contains the contents of the <svelte:head> component, if
+	     the current page has one -->
+    <meta http-equiv="content-security-policy" content=""><title>盡可能使用鍵盤操作 Windows</title><script async src="https://www.googletagmanager.com/gtag/js?id=G-CRDP7WTXSQ" data-svelte="svelte-bhtlqr"></script><link rel="shortcut icon" href="/favicon.ico" data-svelte="svelte-1c8ynol"><link rel="bookmark" href="/favicon.ico" data-svelte="svelte-1c8ynol"><link rel="canonical" href="https://f6bfb5.github.io/operating-with-keyboard" data-svelte="svelte-17ikmly"><meta property="og:url" content="https://f6bfb5.github.io/operating-with-keyboard" data-svelte="svelte-17ikmly"><meta property="og:type" content="article" data-svelte="svelte-17ikmly">
+    <meta property="og:title" content="盡可能使用鍵盤操作 Windows" data-svelte="svelte-17ikmly">
+    <meta property="og:description" content="習慣之後最大的好處就是鍵盤與滑鼠之間移動花費的時間變短，減少了需求的操作時間，也開始能理解為何所謂的「小紅點鍵盤」會有熱狂人氣，以 Windows 來說，即使不是玩遊戲，還是會有需要用到滑鼠的操作，小紅點填補了這部份缺點，可惜就是價錢和供給量沒那麼漂亮了。" data-svelte="svelte-17ikmly">
+      <meta name="Description" content="習慣之後最大的好處就是鍵盤與滑鼠之間移動花費的時間變短，減少了需求的操作時間，也開始能理解為何所謂的「小紅點鍵盤」會有熱狂人氣，以 Windows 來說，即使不是玩遊戲，還是會有需要用到滑鼠的操作，小紅點填補了這部份缺點，可惜就是價錢和供給量沒那麼漂亮了。" data-svelte="svelte-17ikmly">
+
+    
+    <meta property="og:image" data-svelte="svelte-17ikmly">
+
+    <meta name="twitter:card" content="summary_large_image" data-svelte="svelte-17ikmly">
+    <meta name="twitter:title" value="盡可能使用鍵盤操作 Windows" data-svelte="svelte-17ikmly">
+    <meta name="twitter:description" content="習慣之後最大的好處就是鍵盤與滑鼠之間移動花費的時間變短，減少了需求的操作時間，也開始能理解為何所謂的「小紅點鍵盤」會有熱狂人氣，以 Windows 來說，即使不是玩遊戲，還是會有需要用到滑鼠的操作，小紅點填補了這部份缺點，可惜就是價錢和供給量沒那麼漂亮了。" data-svelte="svelte-17ikmly">
+    <meta name="twitter:label1" value="Published on" data-svelte="svelte-17ikmly">
+    <meta name="twitter:data1" value="Jun 5, 2022" data-svelte="svelte-17ikmly">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-60098e1c.css">
+	<link rel="stylesheet" href="/_app/assets/_post-6cf996f4.css">
+	<link rel="stylesheet" href="/_app/assets/BlinkAnchor-39834c8c.css">
+	<link rel="stylesheet" href="/_app/assets/ACG-one-way-heroics-all-achievement-note-1c0f716a.css">
+	<link rel="stylesheet" href="/_app/assets/login-with-discord-4c509c13.css">
+	<link rel="stylesheet" href="/_app/assets/sticker-generator-a58d6bc5.css">
+	<link rel="stylesheet" href="/_app/assets/template-dc5ff06d.css">
+	<link rel="stylesheet" href="/_app/assets/BalloonQuote2-65b715a7.css">
+	<link rel="stylesheet" href="/_app/assets/tool-list-system-90e7347a.css">
+	<link rel="stylesheet" href="/_app/assets/what-nft-is-not-17bf58b6.css">
+	<link rel="modulepreload" href="/_app/start-d72d80ec.js">
+	<link rel="modulepreload" href="/_app/chunks/index-23d5ae1c.js">
+	<link rel="modulepreload" href="/_app/chunks/index-db251831.js">
+	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-ed14fb1c.js">
+	<link rel="modulepreload" href="/_app/chunks/store-e965a4d2.js">
+	<link rel="modulepreload" href="/_app/pages/_slug_.svelte-5a2f0205.js">
+	<link rel="modulepreload" href="/_app/chunks/2020-what-i-have-read-on-internet-2b69f846.js">
+	<link rel="modulepreload" href="/_app/chunks/_post-238a1a9a.js">
+	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-39bb7771.js">
+	<link rel="modulepreload" href="/_app/chunks/2021-what-i-have-read-on-internet-8102fc0d.js">
+	<link rel="modulepreload" href="/_app/chunks/2022-what-i-have-read-on-internet-08ddc190.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-Pause-And-Select-Apocalypse-ccd903de.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-char-counterattack-fans-interview-98624dc9.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-difference-of-director-and-producer-477c6764.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-does-anno-hideaki-really-dont-know-what-he-is-making-5bff5ca7.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-evening-chat-of-game-xenogears-288f2405.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-expression-of-light-and-heavy-b968ebb0.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-games-done-quick-introduction-eeac9cfa.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-linda-cube-introduction-1e95b179.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-linda-cube-on-ps-archive-77b659f2.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-making-of-linda3-56ff1650.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-note-cd54ef6d.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-one-way-heroics-all-achievement-note-0d1f098d.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-random-thoughts-about-rockman-x-dive-ee1953f0.js">
+	<link rel="modulepreload" href="/_app/chunks/AutomaticColorText-de3c9be3.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-rockman-1-tas-glitch-4e36ba0d.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-seino-tooru-2ba56a71.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-serial-experiments-lain-for-ps-3b9edaed.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-super-manga-book-list-d6ceaacb.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-the-influences-of-naoko-yamada-94c69981.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-why-you-should-not-use-interpolation-on-anime-fdccf880.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-yume-no-shima-de-aimashou-2fe08dc9.js">
+	<link rel="modulepreload" href="/_app/chunks/auto-generate-eyecatch-image-for-blog-2bced292.js">
+	<link rel="modulepreload" href="/_app/chunks/autohotkey-note-9a992827.js">
+	<link rel="modulepreload" href="/_app/chunks/blog-with-hexo-9810ed7a.js">
+	<link rel="modulepreload" href="/_app/chunks/blog-with-sapper-736773c2.js">
+	<link rel="modulepreload" href="/_app/chunks/blog-with-sveltekit-e9f566fc.js">
+	<link rel="modulepreload" href="/_app/chunks/capitalist-realism-mark-fisher-6eb457a7.js">
+	<link rel="modulepreload" href="/_app/chunks/dot-painting-note-130de43a.js">
+	<link rel="modulepreload" href="/_app/chunks/escape-from-algorithm-with-rss-dc99968d.js">
+	<link rel="modulepreload" href="/_app/chunks/how-do-you-like-wendesday-48fc8700.js">
+	<link rel="modulepreload" href="/_app/chunks/how-to-check-font-family-name-in-computer-37bcb93a.js">
+	<link rel="modulepreload" href="/_app/chunks/login-with-discord-be671948.js">
+	<link rel="modulepreload" href="/_app/chunks/mpv-235f1f67.js">
+	<link rel="modulepreload" href="/_app/chunks/operating-with-keyboard-61dfa7c4.js">
+	<link rel="modulepreload" href="/_app/chunks/search-engine-operators-70238715.js">
+	<link rel="modulepreload" href="/_app/chunks/sticker-generator-d9572357.js">
+	<link rel="modulepreload" href="/_app/chunks/LibLoader-b5d0cb9e.js">
+	<link rel="modulepreload" href="/_app/chunks/template-e42ad613.js">
+	<link rel="modulepreload" href="/_app/chunks/BalloonQuote2-a7ff699f.js">
+	<link rel="modulepreload" href="/_app/chunks/tool-list-creativity-78535146.js">
+	<link rel="modulepreload" href="/_app/chunks/tool-list-gaming-98bbea24.js">
+	<link rel="modulepreload" href="/_app/chunks/tool-list-system-57d4f0bf.js">
+	<link rel="modulepreload" href="/_app/chunks/tool-list-website-1d5fd543.js">
+	<link rel="modulepreload" href="/_app/chunks/use-foobar2k-to-listen-to-podcast-e759230f.js">
+	<link rel="modulepreload" href="/_app/chunks/use-google-spreadsheet-as-database-a8db09e1.js">
+	<link rel="modulepreload" href="/_app/chunks/what-nft-is-not-40c7ef58.js">
+	<link rel="modulepreload" href="/_app/chunks/why-is-life-so-boring-b661de2b.js">
+  </head>
+  <body>
+    <!-- The application will be rendered inside this element,
+	     because `app/client.js` references it -->
+    
+
+
+
+
+
+
+
+
+<div class="layout svelte-1avnl50" style=""><div class="loader-container svelte-1avnl50"><div class="loader svelte-v56dyc"><span class="loader-text loader-step1 svelte-v56dyc">/</span>
+  <span class="loader-text loader-step1 svelte-v56dyc">-</span>
+  <span class="loader-text loader-step1 svelte-v56dyc">\</span>
+  <span class="loader-text loader-step1 svelte-v56dyc">|</span>
+</div></div></div>
+
+<div class="layout svelte-1avnl50" style="display: none;">
+  
+  <header class="svelte-ka06mn"><div class="header-container svelte-ka06mn"><div class="row svelte-ka06mn"><nav class="svelte-t90z2a"><a class=" svelte-t90z2a" href="/">トリコじかけの明け暮れ
+  </a>
+  <a class=" svelte-t90z2a" href="/about">about
+  </a>
+  <a class=" svelte-t90z2a" href="/rss.xml" target="_blank">rss
+  </a>
+  <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
+  </a>
+</nav>
+      <a href="https://www.nicovideo.jp/watch/sm38213757" target="_blank" rel="noreferrer noopener" class="svelte-1m045v8"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" class="svelte-1m045v8">
+</a></div>
+    
+<div id="progress-bar" style="--scrollAmount: 0%;" class="svelte-1gbseey"></div></div>
+</header>
+
+  <main class="svelte-1avnl50">
+
+<header class="svelte-5uw8di"><h1 class="title svelte-5uw8di"><span style="animation-delay: 125ms; " class="svelte-5uw8di">盡
+      </span><span style="animation-delay: 150ms; " class="svelte-5uw8di">可
+      </span><span style="animation-delay: 175ms; " class="svelte-5uw8di">能
+      </span><span style="animation-delay: 200ms; " class="svelte-5uw8di">使
+      </span><span style="animation-delay: 225ms; " class="svelte-5uw8di">用
+      </span><span style="animation-delay: 250ms; " class="svelte-5uw8di">鍵
+      </span><span style="animation-delay: 275ms; " class="svelte-5uw8di">盤
+      </span><span style="animation-delay: 300ms; " class="svelte-5uw8di">操
+      </span><span style="animation-delay: 325ms; " class="svelte-5uw8di">作
+      </span><span style="animation-delay: 350ms; width: .25em;" class="svelte-5uw8di"> 
+      </span><span style="animation-delay: 375ms; " class="svelte-5uw8di">W
+      </span><span style="animation-delay: 400ms; " class="svelte-5uw8di">i
+      </span><span style="animation-delay: 425ms; " class="svelte-5uw8di">n
+      </span><span style="animation-delay: 450ms; " class="svelte-5uw8di">d
+      </span><span style="animation-delay: 475ms; " class="svelte-5uw8di">o
+      </span><span style="animation-delay: 500ms; " class="svelte-5uw8di">w
+      </span><span style="animation-delay: 525ms; " class="svelte-5uw8di">s
+      </span></h1>
+  <p class="meta svelte-5uw8di"><span class="date svelte-5uw8di">Jun 5, 2022</span>
+    <div class="tags svelte-5uw8di"><span class="tag svelte-5uw8di">Toolbox</span></div></p></header>
+<div class="post--container svelte-5uw8di"><article class="post--content svelte-5uw8di"><h2 id="js-id-推薦軟體">推薦軟體</h2>
+<table><thead><tr><th>名稱</th>
+<th>說明</th></tr></thead>
+<tbody><tr><td><a href="https://www.flowlauncher.com/" rel="noopener" target="_blank">Flow Launcher</a></td>
+<td>快速執行程式與各種功能的 launcher</td></tr>
+<tr><td><a href="https://www.voidtools.com/downloads/" rel="noopener" target="_blank">Everything</a></td>
+<td>超級快速的檔案搜索工具</td></tr>
+<tr><td><a href="https://vimium.github.io/" rel="noopener" target="_blank">Vimium</a></td>
+<td>以類似 vim 編輯器的機制操作瀏覽器的插件</td></tr>
+<tr><td><a href="https://github.com/brookhong/Surfingkeys" rel="noopener" target="_blank">Surfingkeys</a></td>
+<td>類似 Vimium，但有相當高自訂空間的另一套插件</td></tr>
+<tr><td><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap" rel="noopener" target="_blank">Ctrl2cap</a></td>
+<td>將 Caps Lock 鍵的功能切換成 Ctrl 鍵</td></tr></tbody></table>
+<h2 id="js-id-windows-系統">Windows 系統</h2>
+<table><thead><tr><th>按鍵</th>
+<th>功能</th></tr></thead>
+<tbody><tr><td><code>win + e</code></td>
+<td>開啟檔案總管</td></tr>
+<tr><td><code>win + d</code></td>
+<td>顯示桌面</td></tr>
+<tr><td><code>win + x</code></td>
+<td>開啟各類系統程式</td></tr>
+<tr><td><code>win + space</code></td>
+<td>切換輸入法</td></tr>
+<tr><td><code>win + ↑</code></td>
+<td>視窗最大化</td></tr>
+<tr><td><code>win + ←／→</code></td>
+<td>視窗移至左／右半邊</td></tr>
+<tr><td><code>win + ←／→ + ↑</code></td>
+<td>視窗移至左／右上角四分之一處</td></tr>
+<tr><td><code>Tab</code></td>
+<td>下個錨點</td></tr>
+<tr><td><code>Shift + Tab</code></td>
+<td>上個錨點</td></tr>
+<tr><td><code>Alt + ↑</code></td>
+<td>往上一層</td></tr>
+<tr><td><code>Alt + ←／→</code></td>
+<td>往上／下一頁</td></tr>
+<tr><td><code>Alt + D</code></td>
+<td>跳到地址列</td></tr>
+<tr><td><code>Shift + F10</code></td>
+<td>開啟右鍵選單</td></tr></tbody></table>
+<ul><li><a href="https://docs.microsoft.com/zh-tw/windows/uwp/launch-resume/launch-settings-app" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://docs.microsoft.com/zh-tw/windows/uwp/launch-resume/launch-settings-app" alt="啟動 Windows 設定應用程式 - UWP applications"><span>啟動 Windows 設定應用程式 - UWP applications</span></a></li></ul>
+<h2 id="js-id-flow-launcher">Flow Launcher</h2>
+<ul><li>Flow Launcher 是一套類 <a href="https://www.alfredapp.com/" rel="noopener" target="_blank">Alfred</a>，可開啟程式／執行指令的執行器</li>
+<li>預設以 <code>Alt</code> + <code>Space</code> 啟動</li>
+<li>可輸入 <code>Settings</code> 選擇「Tweak this app」啟動設定<ul><li>調整預設檔案、網頁瀏覽器、外觀、自訂啟動熱鍵</li></ul></li>
+<li>預設有執行系統指令、計算機等功能，詳細指令可從插件頁面確認<ul><li>直接輸入算式就可求得結果，例如 <code>2^31-1</code></li></ul></li>
+<li>輸入指令途中按下 <code>Tab</code> 可依照推薦自動完成</li>
+<li>輸入指令後按下 <code>Shift</code> + <code>Enter</code> 或 <code>→</code> 可進入功能選單<ul><li>例如搜尋資料夾後，開啟選單可選擇複製位置或刪除該資料夾</li>
+<li>按下 <code>←</code> 即可離開功能選單</li></ul></li>
+<li>輸入 <code>&gt;</code> 可執行終端指令，亦可於設定中更改為取代 <code>Win</code> + <code>R</code><ul><li><code>Ctrl</code> + <code>Enter</code> 可直接以管理員權限執行終端指令</li></ul></li>
+<li>除了有社群插件可供安裝，亦有樣板可依自己需求撰寫<ul><li>安裝：<code>pm install [插件名稱]</code></li>
+<li>移除：<code>pm uninstall [插件名稱]</code></li>
+<li>更新：<code>pm update [插件名稱]</code></li></ul></li></ul>
+<h3>插件推薦</h3>
+<ul><li>Everything<ul><li>聞名的極速檔案搜尋工具</li>
+<li><code>pm install Everything</code></li>
+<li>須安裝 Everything 本體</li></ul></li>
+<li>Favorites<ul><li>自訂開啟檔案／資料夾的指令名稱</li>
+<li><code>pm install Favorites</code></li>
+<li>於設定檔內以 <code>[指令] = [檔案／資料夾]</code> 的格式記述<ul><li>例如 <code>VSCode = E:\Programs\VSCode-win32-x64\Code.exe</code></li>
+<li>輸入 <code>VSCode</code> 後就會快速跳出相關執行指令</li></ul></li>
+<li>設定檔預設位於 <code>[使用者資料夾] \AppData\Roaming\FlowLauncher\Settings\Favorites.conf</code></li></ul></li>
+<li>Auto Translate<ul><li>呼叫 Google 翻譯功能</li>
+<li><code>pm install Direct Translate</code></li>
+<li><code>tr [來源語言] [目標語言] [文字內容]</code><ul><li>可省略 <code>[來源語言]</code></li>
+<li>繁中為 <code>zh-TW</code></li>
+<li>語言一覽可參照 <a href="https://developers.google.com/admin-sdk/directory/v1/languages" rel="noopener" target="_blank">Languages Codes</a></li></ul></li></ul></li>
+<li>Plugin Runner<ul><li>短縮執行程式指令</li>
+<li><code>pm install Plugin Runner</code></li>
+<li>可從設定頁面新增指令</li>
+<li>設定較為複雜，但可設定帶入參數</li></ul></li>
+<li>更多插件內容可以參考 <a href="https://www.flowlauncher.com/docs/#/plugins" rel="noopener" target="_blank">Plugin Directory</a><ul><li>也可從設定裡的 Plugin Store 查看</li></ul></li></ul>
+<h3>感想</h3>
+<p>很可惜相較 Alfred，Flow Launcher 仍有些許不足之處，例如與 Windows 的終端相性不佳、檔案互動方面不夠全面與便利、沒有類似 Alfred 的 Workflows 自動化腳本功能，也無法快速跳到某個執行中的程式（這 Alfred 好像也沒辦法？），雖然這樣比較也不甚公平，Alfred 畢竟還是套商業軟體，發展歷史也比較長，自然會有更完整的生態系。</p>
+<p>另外有些遺珠之憾，像是 <a href="https://github.com/antonio-fasolato/wox-uuid-generator" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/antonio-fasolato/wox-uuid-generator" alt="Wox UUID generator plugin"><span>Wox UUID generator plugin</span></a> 或 <a href="https://boop.okat.best/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://boop.okat.best/" alt="Boop"><span>Boop</span></a></p>
+<h2 id="js-id-vimium">Vimium</h2>
+<ul><li>Vimium 是一套以類似 vim（vim-like）的機制操作瀏覽器的插件</li>
+<li>使用 <code>hjkl</code> 左下上右移動，可以用食指定位鍵 <code>j</code> 是「向後（下）移動」來記憶</li>
+<li>於前方加上數字可指定移動範圍，例如 <code>5j</code> 會往下移動 5 行</li></ul>
+<pre class="language-undefined"><!-- HTML_TAG_START --><code class="language-undefined">         ^
+         k
+   &lt; h       l&gt;
+         j
+         v</code><!-- HTML_TAG_END --></pre>
+<h3>基礎操作</h3>
+<ul><li>使用 vim-like 的陣痛期，最容易感到挫折的，就是不熟悉操作<ul><li>但即使只用下列第一或第二區塊功能，已能滿足大多瀏覽需求</li>
+<li>一蹴可及並不實際，可於有需求時再查詢如何進行操作，慢慢讓肌肉記憶</li></ul></li>
+<li>以下列表僅為個人體感常用操作，完整介紹請看 <code>?</code> 或官方網站</li>
+<li><code>&lt;C&gt;</code> 是 Ctrl 鍵的簡稱</li>
+<li>大寫鍵即 <code>Shift + 小寫鍵</code></li></ul>
+<table><thead><tr><th>按鍵</th>
+<th>功能</th>
+<th>備註</th></tr></thead>
+<tbody><tr><td><code>d</code></td>
+<td>向下捲動</td>
+<td>Vim 中為 <code>&lt;C-d&gt;</code></td></tr>
+<tr><td><code>u</code></td>
+<td>向上捲動</td>
+<td>Vim 中為 <code>&lt;C-u&gt;</code></td></tr>
+<tr><td><code>gg</code></td>
+<td>移到頁面頂端</td>
+<td></td></tr>
+<tr><td><code>G</code></td>
+<td>移到頁面底部</td>
+<td></td></tr>
+<tr><td> </td>
+<td></td>
+<td></td></tr>
+<tr><td><code>f</code></td>
+<td>於當前頁籤開啟頁面元素連結</td>
+<td>點擊按鍵也會用到</td></tr>
+<tr><td><code>F</code></td>
+<td>於全新頁籤開啟頁面元素連結</td>
+<td></td></tr>
+<tr><td><code>I</code></td>
+<td>於無痕模式開啟頁面元素連結</td>
+<td></td></tr>
+<tr><td><code>W</code></td>
+<td>將當前頁籤獨立成為全新視窗</td>
+<td></td></tr>
+<tr><td><code>yy</code></td>
+<td>複製當前頁籤連結</td>
+<td></td></tr>
+<tr><td><code>yf</code></td>
+<td>複製頁面元素連結</td>
+<td></td></tr>
+<tr><td><code>x</code></td>
+<td>關閉當前頁籤</td>
+<td></td></tr>
+<tr><td><code>X</code></td>
+<td>恢復關閉頁籤</td>
+<td></td></tr>
+<tr><td><code>J</code> 或 <code>gT</code></td>
+<td>跳至上個頁籤</td>
+<td></td></tr>
+<tr><td><code>K</code> 或 <code>gt</code></td>
+<td>跳至下個頁籤</td>
+<td></td></tr>
+<tr><td><code>g0</code></td>
+<td>跳至首個頁籤</td>
+<td></td></tr>
+<tr><td><code>g$</code></td>
+<td>跳至最後頁籤</td>
+<td></td></tr>
+<tr><td> </td>
+<td></td>
+<td></td></tr>
+<tr><td><code>gi</code></td>
+<td>跳至頁面輸入框</td>
+<td></td></tr>
+<tr><td><code>H</code></td>
+<td>回上一頁</td>
+<td></td></tr>
+<tr><td><code>L</code></td>
+<td>往下一頁</td>
+<td></td></tr>
+<tr><td><code>&lt;&lt;</code></td>
+<td>頁籤左移</td>
+<td></td></tr>
+<tr><td><code>&gt;&gt;</code></td>
+<td>頁籤右移</td>
+<td></td></tr>
+<tr><td><code>gf</code></td>
+<td>跳至頁面下個 frame</td>
+<td></td></tr>
+<tr><td><code>gF</code></td>
+<td>跳至頁面主要 frame</td>
+<td></td></tr>
+<tr><td> </td>
+<td></td>
+<td></td></tr>
+<tr><td><code>o</code></td>
+<td>搜尋紀錄、書籤，於當前頁籤開啟</td>
+<td></td></tr>
+<tr><td><code>O</code></td>
+<td>搜尋紀錄、書籤，於全新頁籤開啟</td>
+<td></td></tr>
+<tr><td><code>b</code></td>
+<td>搜尋書籤，於當前頁籤開啟</td>
+<td></td></tr>
+<tr><td><code>B</code></td>
+<td>搜尋書籤，於全新頁籤開啟</td>
+<td></td></tr>
+<tr><td><code>T</code></td>
+<td>顯示所有已開啟頁籤</td>
+<td></td></tr>
+<tr><td><code>ge</code></td>
+<td>編輯目前網址</td>
+<td></td></tr>
+<tr><td><code>gE</code></td>
+<td>編輯目前網址，於全新頁籤開啟</td>
+<td></td></tr>
+<tr><td> </td>
+<td></td>
+<td></td></tr>
+<tr><td><code>p</code></td>
+<td>於當前頁籤貼上複製內容</td>
+<td>搜尋關鍵字或前往網址</td></tr>
+<tr><td><code>P</code></td>
+<td>於全新頁籤貼上複製內容</td>
+<td>搜尋關鍵字或前往網址</td></tr>
+<tr><td> </td>
+<td></td>
+<td></td></tr>
+<tr><td><code>?</code></td>
+<td>查看操作一覽</td>
+<td></td></tr></tbody></table>
+<h3>切換模式</h3>
+<ul><li>因應需求切換，Vim 分有各種操作模式<ul><li>例如預設模式、選擇模式（Visual Mode）、輸入模式（Insert Mode）…等等</li></ul></li>
+<li>Vimium 也分有預設模式、選擇模式、輸入模式與搜尋模式</li>
+<li>原本在 Vim 中，輸入模式是從「移動錨點」切換到「編輯文字」<ul><li>由於 Vimium 預設沒有錨點、使用 <code>gi</code> 跳至文字輸入框</li>
+<li>輸入模式的使用情境為另有獨立操作功能需求的時候</li>
+<li>例如使用鍵盤操作的網頁遊戲，或是練習／測試打字速度的網站</li></ul></li></ul>
+<table><thead><tr><th>按鍵</th>
+<th>功能</th></tr></thead>
+<tbody><tr><td><code>v</code> 或 <code>V</code></td>
+<td>進入選擇模式</td></tr>
+<tr><td><code>/</code></td>
+<td>進入搜尋模式</td></tr>
+<tr><td><code>i</code></td>
+<td>進入輸入模式</td></tr>
+<tr><td><code>&lt;C+[&gt;</code> 或 <code>&lt;C+c&gt;</code></td>
+<td>回到預設模式</td></tr></tbody></table>
+<h3>選擇模式</h3>
+<ul><li>選擇模式就是操作滑鼠的反白功能（選擇範圍）</li>
+<li>同樣使用 <code>hjkl</code> 執行基礎移動</li>
+<li>可使用 <code>c</code> 於基準點（錨點）重設選擇範圍</li>
+<li>可使用 <code>Shift + F10</code> 對錨點觸發右鍵功能，例如儲存圖片</li></ul>
+<table><thead><tr><th>按鍵</th>
+<th>功能</th></tr></thead>
+<tbody><tr><td><code>w</code></td>
+<td>錨點移至下個單字字首</td></tr>
+<tr><td><code>e</code></td>
+<td>錨點移至下個單字字尾</td></tr>
+<tr><td><code>b</code></td>
+<td>錨點移至上個單字字首</td></tr>
+<tr><td><code>0</code></td>
+<td>錨點移至行首</td></tr>
+<tr><td><code>$</code></td>
+<td>錨點移至行尾</td></tr>
+<tr><td><code>y</code></td>
+<td>複製選擇範圍內容</td></tr>
+<tr><td><code>&lt;C+[&gt;</code> 或 <code>&lt;C+c&gt;</code></td>
+<td>回到預設模式</td></tr></tbody></table>
+<h3>搜尋模式</h3>
+<ul><li>跳至搜尋結果後，可再切換到選擇模式，用以快速定位錨點</li></ul>
+<table><thead><tr><th>按鍵</th>
+<th>功能</th></tr></thead>
+<tbody><tr><td>n</td>
+<td>尋找下個結果</td></tr>
+<tr><td>N</td>
+<td>尋找上個結果</td></tr></tbody></table>
+<h3>感想</h3>
+<p>Vimium 裝了應該有半年，上個月才在 VSCode 裡安裝 vim 插件，剛開始用的時候總需要打開說明文件或放<a href="https://blog.vgod.tw/2009/12/08/vim-cheat-sheet-for-programmers/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://blog.vgod.tw/2009/12/08/vim-cheat-sheet-for-programmers/" alt="指令簡表"><span>指令簡表</span></a>在旁邊看，也因為沒有什麼協助提示，常常不曉得誤觸什麼操作、該怎麼解除或復原，陣痛期真的只能多看資料跟多使用來累積經驗，以及祈禱找到的資料整理得夠簡潔又好懂，這邊推薦 <a href="https://minerva.mamansoft.net/%F0%9F%93%971%E6%99%82%E9%96%93%E3%81%A7Vim%E3%81%AB%E6%83%9A%E3%82%8C%E3%82%8B%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/%F0%9F%93%921%E6%99%82%E9%96%93%E3%81%A7Vim%E3%81%AB%E6%83%9A%E3%82%8C%E3%82%8B%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://minerva.mamansoft.net/%F0%9F%93%971%E6%99%82%E9%96%93%E3%81%A7Vim%E3%81%AB%E6%83%9A%E3%82%8C%E3%82%8B%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/%F0%9F%93%921%E6%99%82%E9%96%93%E3%81%A7Vim%E3%81%AB%E6%83%9A%E3%82%8C%E3%82%8B%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB" alt="1 小時就愛上 Vim 的教學"><span>1 小時就愛上 Vim 的教學</span></a>（日文資料）。</p>
+<p>習慣之後最大的好處就是鍵盤與滑鼠之間移動花費的時間變短，減少了需求的操作時間，也開始能理解為何所謂的「小紅點鍵盤」會有熱狂人氣，以 Windows 來說，即使不是玩遊戲，還是會有需要用到滑鼠的操作，小紅點填補了這部份缺點，可惜就是價錢和供給量沒那麼漂亮了。</p>
+<ul><li><a href="https://tex.com.tw/pages/%E5%9B%9E%E5%88%B0%E6%9C%AA%E4%BE%86" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://tex.com.tw/pages/%E5%9B%9E%E5%88%B0%E6%9C%AA%E4%BE%86" alt="回到未來"><span>回到未來</span></a></li></ul>
+<h2 id="js-id-surfingkeys">🏄Surfingkeys</h2>
+<table><thead><tr><th>按鍵</th>
+<th>功能</th></tr></thead>
+<tbody><tr><td><code>E</code></td>
+<td>跳至上個頁籤</td></tr>
+<tr><td><code>R</code></td>
+<td>跳至下個頁籤</td></tr>
+<tr><td><code>t</code></td>
+<td>開啟連結欄</td></tr>
+<tr><td><code>O</code></td>
+<td>開啟文字連結</td></tr>
+<tr><td><code>ya</code></td>
+<td>複製頁面連結網址</td></tr>
+<tr><td><code>;e</code></td>
+<td>開啟設定</td></tr></tbody></table>
+<p>Surfingkeys 提供了 vimium 所缺乏的大幅可自訂性，例如原本我是使用另一個插件將頁面連結轉換成 Markdown 格式，Surfingkeys 則可直接以自訂功能作到這件事；但一些預設操作較不那麼直覺，比較適合有一定相關熟悉度的人。</p>
+<ul><li><a href="https://github.com/brookhong/Surfingkeys/blob/master/README_CN.md" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/brookhong/Surfingkeys/blob/master/README_CN.md" alt="Surfingkeys/README_CN.md"><span>Surfingkeys/README_CN.md</span></a></li>
+<li><a href="https://github.com/brookhong/Surfingkeys/blob/master/docs/API.md" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/brookhong/Surfingkeys/blob/master/docs/API.md" alt="Surfingkeys/API.md"><span>Surfingkeys/API.md</span></a></li>
+<li><a href="https://fewlight.net/20200225/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://fewlight.net/20200225/" alt="Surfingkeys カスタマイズ"><span>Surfingkeys カスタマイズ</span></a></li>
+<li><a href="https://gist.github.com/sofcj1/1b775c99400bbada2d9f5e476bdfdb8c" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://gist.github.com/sofcj1/1b775c99400bbada2d9f5e476bdfdb8c" alt="surfingkeys"><span>surfingkeys</span></a></li></ul>
+<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript">api<span class="token punctuation">.</span>Hints<span class="token punctuation">.</span>characters <span class="token operator">=</span> <span class="token string">"asdfghjklvbnmrtyu"</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span>Hints<span class="token punctuation">.</span>characterUpper <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+settings<span class="token punctuation">.</span>smoothScroll <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+settings<span class="token punctuation">.</span>modeAfterYank <span class="token operator">=</span> <span class="token string">"Normal"</span><span class="token punctuation">;</span>
+settings<span class="token punctuation">.</span>focusFirstCandidate <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+settings<span class="token punctuation">.</span>defaultSearchEngine <span class="token operator">=</span> <span class="token string">"d"</span><span class="token punctuation">;</span>
+<span class="token comment">// settings.stealFocusOnLoad = false;</span>
+
+<span class="token comment">// --- mapping ---</span>
+api<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token string">"H"</span><span class="token punctuation">,</span> <span class="token string">"S"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// back in history</span>
+api<span class="token punctuation">.</span><span class="token function">unmap</span><span class="token punctuation">(</span><span class="token string">"S"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token string">"L"</span><span class="token punctuation">,</span> <span class="token string">"D"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// forward in history</span>
+api<span class="token punctuation">.</span><span class="token function">unmap</span><span class="token punctuation">(</span><span class="token string">"D"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token string">"J"</span><span class="token punctuation">,</span> <span class="token string">"E"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// previous tab</span>
+api<span class="token punctuation">.</span><span class="token function">unmap</span><span class="token punctuation">(</span><span class="token string">"E"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token string">"K"</span><span class="token punctuation">,</span> <span class="token string">"R"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// next tab</span>
+api<span class="token punctuation">.</span><span class="token function">unmap</span><span class="token punctuation">(</span><span class="token string">"R"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">unmap</span><span class="token punctuation">(</span><span class="token string">"&lt;Ctrl-c>"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+api<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token string">"&lt;Ctrl-h>"</span><span class="token punctuation">,</span> <span class="token string">"&lt;&lt;"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token string">"&lt;Ctrl-l>"</span><span class="token punctuation">,</span> <span class="token string">">>"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token string">"F"</span><span class="token punctuation">,</span> <span class="token string">"gf"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token string">"Q"</span><span class="token punctuation">,</span> <span class="token string">";di"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+api<span class="token punctuation">.</span><span class="token function">mapkey</span><span class="token punctuation">(</span><span class="token string">"o"</span><span class="token punctuation">,</span> <span class="token string">"Open a URL in current tab"</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
+  api<span class="token punctuation">.</span>Front<span class="token punctuation">.</span><span class="token function">openOmnibar</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span> <span class="token literal-property property">type</span><span class="token operator">:</span> <span class="token string">"URLs"</span><span class="token punctuation">,</span> <span class="token literal-property property">extra</span><span class="token operator">:</span> <span class="token string">"getAllSites"</span><span class="token punctuation">,</span> <span class="token literal-property property">tabbed</span><span class="token operator">:</span> <span class="token boolean">false</span> <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">mapkey</span><span class="token punctuation">(</span><span class="token string">"p"</span><span class="token punctuation">,</span> <span class="token string">"Open URL in clipboard"</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
+  <span class="token function">openClipboard</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">mapkey</span><span class="token punctuation">(</span><span class="token string">"P"</span><span class="token punctuation">,</span> <span class="token string">"Open clipboard URL in new tab"</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
+  <span class="token function">openClipboard</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> <span class="token function-variable function">openClipboard</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">newTab <span class="token operator">=</span> <span class="token boolean">false</span></span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
+  api<span class="token punctuation">.</span>Clipboard<span class="token punctuation">.</span><span class="token function">read</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
+    <span class="token keyword">var</span> markInfo <span class="token operator">=</span> <span class="token punctuation">&#123;</span>
+      <span class="token literal-property property">scrollLeft</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">scrollTop</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>newTab<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+      markInfo<span class="token punctuation">.</span>tab <span class="token operator">=</span> <span class="token punctuation">&#123;</span>
+        <span class="token literal-property property">tabbed</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">active</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      <span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">&#125;</span> <span class="token keyword">else</span> <span class="token punctuation">&#123;</span>
+      markInfo<span class="token punctuation">.</span>tab <span class="token operator">=</span> <span class="token punctuation">&#123;</span>
+        <span class="token literal-property property">tabbed</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">active</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+      <span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">&#125;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>response<span class="token punctuation">.</span>data<span class="token punctuation">.</span><span class="token function">match</span><span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">^http</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+      markInfo<span class="token punctuation">.</span>url <span class="token operator">=</span> response<span class="token punctuation">.</span>data<span class="token punctuation">;</span>
+    <span class="token punctuation">&#125;</span> <span class="token keyword">else</span> <span class="token punctuation">&#123;</span>
+      markInfo<span class="token punctuation">.</span>url <span class="token operator">=</span>
+        <span class="token comment">// 'https://www.google.com/search?q=' +</span>
+        <span class="token string">"https://duckduckgo.com/?q="</span> <span class="token operator">+</span> <span class="token function">encodeURIComponent</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">&#125;</span>
+    api<span class="token punctuation">.</span><span class="token constant">RUNTIME</span><span class="token punctuation">(</span><span class="token string">"openLink"</span><span class="token punctuation">,</span> markInfo<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">mapkey</span><span class="token punctuation">(</span><span class="token string">"yY"</span><span class="token punctuation">,</span> <span class="token string">"Copy current page's link as markdown format"</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">const</span> url <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">URL</span><span class="token punctuation">(</span>window<span class="token punctuation">.</span>location<span class="token punctuation">.</span>href<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">var</span> title <span class="token operator">=</span> window<span class="token punctuation">.</span>document<span class="token punctuation">.</span>title<span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">(&lt;|>)</span><span class="token regex-delimiter">/</span><span class="token regex-flags">g</span></span><span class="token punctuation">,</span> <span class="token string">"\$1"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  api<span class="token punctuation">.</span>Clipboard<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">&#96;</span><span class="token string">[</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>title<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">](</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>url<span class="token punctuation">.</span>href<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">)</span><span class="token template-punctuation string">&#96;</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// --- ESC hatch ---</span>
+api<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token string">"&lt;Ctrl-[>"</span><span class="token punctuation">,</span> <span class="token string">"&lt;Esc>"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token string">"&lt;Ctrl-c>"</span><span class="token punctuation">,</span> <span class="token string">"&lt;Esc>"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">imap</span><span class="token punctuation">(</span><span class="token string">"&lt;Ctrl-[>"</span><span class="token punctuation">,</span> <span class="token string">"&lt;Esc>"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">imap</span><span class="token punctuation">(</span><span class="token string">"&lt;Ctrl-c>"</span><span class="token punctuation">,</span> <span class="token string">"&lt;Esc>"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">cmap</span><span class="token punctuation">(</span><span class="token string">"&lt;Ctrl-[>"</span><span class="token punctuation">,</span> <span class="token string">"&lt;Esc>"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">cmap</span><span class="token punctuation">(</span><span class="token string">"&lt;Ctrl-c>"</span><span class="token punctuation">,</span> <span class="token string">"&lt;Esc>"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// --- insert mode ---</span>
+api<span class="token punctuation">.</span><span class="token function">iunmap</span><span class="token punctuation">(</span><span class="token string">":"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">iunmap</span><span class="token punctuation">(</span><span class="token string">"&lt;Ctrl-f>"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">iunmap</span><span class="token punctuation">(</span><span class="token string">"&lt;Ctrl-u>"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">iunmap</span><span class="token punctuation">(</span><span class="token string">"&lt;Ctrl-i>"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+api<span class="token punctuation">.</span><span class="token function">addSearchAlias</span><span class="token punctuation">(</span><span class="token string">"t"</span><span class="token punctuation">,</span> <span class="token string">"Twitter"</span><span class="token punctuation">,</span> <span class="token string">"https://twitter.com/search?q="</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+api<span class="token punctuation">.</span><span class="token function">addSearchAlias</span><span class="token punctuation">(</span>
+  <span class="token string">"y"</span><span class="token punctuation">,</span>
+  <span class="token string">"YouTube"</span><span class="token punctuation">,</span>
+  <span class="token string">"https://www.youtube.com/results?search_query="</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// --- theme ---</span>
+settings<span class="token punctuation">.</span>theme <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">&#96;</span><span class="token string">
+.sk_theme &#123;
+    font-family: Input Sans Condensed, Charcoal, sans-serif;
+    font-size: 10pt;
+    background: #24272e;
+    color: #abb2bf;
+&#125;
+.sk_theme tbody &#123;
+    color: #fff;
+&#125;
+.sk_theme input &#123;
+    color: #d0d0d0;
+&#125;
+.sk_theme .url &#123;
+    color: #61afef;
+&#125;
+.sk_theme .annotation &#123;
+    color: #56b6c2;
+&#125;
+.sk_theme .omnibar_highlight &#123;
+    color: #528bff;
+&#125;
+.sk_theme .omnibar_timestamp &#123;
+    color: #e5c07b;
+&#125;
+.sk_theme .omnibar_visitcount &#123;
+    color: #98c379;
+&#125;
+.sk_theme #sk_omnibarSearchResult ul li:nth-child(odd) &#123;
+    background: #303030;
+&#125;
+.sk_theme #sk_omnibarSearchResult ul li.focused &#123;
+    background: #3e4452;
+&#125;
+#sk_status, #sk_find &#123;
+    font-size: 20pt;
+&#125;</span><span class="token template-punctuation string">&#96;</span></span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
+<h3>Todo</h3>
+<ul><li>Open detected links from text in new window</li>
+<li>Open a link in new incognito window</li></ul>
+<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-推薦軟體').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">推薦軟體</a></li><li><a href="#" onclick="document.querySelector('#js-id-windows-系統').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">Windows 系統</a></li><li><a href="#" onclick="document.querySelector('#js-id-flow-launcher').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">Flow Launcher</a></li><li><a href="#" onclick="document.querySelector('#js-id-vimium').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">Vimium</a></li><li><a href="#" onclick="document.querySelector('#js-id-surfingkeys').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">🏄Surfingkeys</a></li></ul></div>
+    <span class="blink svelte-1kip24n">_</span></article>
+  
+
+<div class="back-to-top svelte-1p7rwza hidden" style="right: 2em">Back to top
+</div>
+</div></main>
+
+  <footer scoped class="svelte-qi6xiu"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noreferrer noopener nofollow">CC BY-NC-SA 4.0
+  </a>
+  <div class="right svelte-qi6xiu">Made with <span class="heart svelte-qi6xiu">❤️</span> and
+    <a href="https://kit.svelte.dev/" target="_blank" ref="noreferrer noopener nofollow">SvelteKit
+    </a></div>
+</footer>
+</div>
+
+
+		<script type="module" data-hydrate="1hgfz84">
+		import { start } from "/_app/start-d72d80ec.js";
+		start({
+			target: document.querySelector('[data-hydrate="1hgfz84"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-ed14fb1c.js"),
+						import("/_app/pages/_slug_.svelte-5a2f0205.js")
+				],
+				params: {slug:"operating-with-keyboard"},
+				routeId: "[slug]"
+			}
+		});
+	</script>
+  </body>
+</html>

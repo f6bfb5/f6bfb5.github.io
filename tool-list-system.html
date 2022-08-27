@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link
+      rel="preload"
+      href="./fonts/fusion-pixel.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="preload prefetch" href="./global.css" as="style" />
+    <link rel="stylesheet" href="./global.css" />
+    <!-- <link rel="manifest" href="./manifest.json" /> -->
+    <link rel="icon" type="image/png" href="./favicon.ico" />
+
+    <!-- This contains the contents of the <svelte:head> component, if
+	     the current page has one -->
+    <meta http-equiv="content-security-policy" content=""><title>Toolbox - 電腦系統篇</title><script async src="https://www.googletagmanager.com/gtag/js?id=G-CRDP7WTXSQ" data-svelte="svelte-bhtlqr"></script><link rel="shortcut icon" href="/favicon.ico" data-svelte="svelte-1c8ynol"><link rel="bookmark" href="/favicon.ico" data-svelte="svelte-1c8ynol"><link rel="canonical" href="https://f6bfb5.github.io/tool-list-system" data-svelte="svelte-17ikmly"><meta property="og:url" content="https://f6bfb5.github.io/tool-list-system" data-svelte="svelte-17ikmly"><meta property="og:type" content="article" data-svelte="svelte-17ikmly">
+    <meta property="og:title" content="Toolbox - 電腦系統篇" data-svelte="svelte-17ikmly">
+    <meta property="og:description" content="各種電腦工具軟體整理。" data-svelte="svelte-17ikmly">
+      <meta name="Description" content="各種電腦工具軟體整理。" data-svelte="svelte-17ikmly">
+
+    
+    <meta property="og:image" data-svelte="svelte-17ikmly">
+
+    <meta name="twitter:card" content="summary_large_image" data-svelte="svelte-17ikmly">
+    <meta name="twitter:title" value="Toolbox - 電腦系統篇" data-svelte="svelte-17ikmly">
+    <meta name="twitter:description" content="各種電腦工具軟體整理。" data-svelte="svelte-17ikmly">
+    <meta name="twitter:label1" value="Published on" data-svelte="svelte-17ikmly">
+    <meta name="twitter:data1" value="Oct 21, 2019" data-svelte="svelte-17ikmly">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-60098e1c.css">
+	<link rel="stylesheet" href="/_app/assets/_post-6cf996f4.css">
+	<link rel="stylesheet" href="/_app/assets/BlinkAnchor-39834c8c.css">
+	<link rel="stylesheet" href="/_app/assets/ACG-one-way-heroics-all-achievement-note-1c0f716a.css">
+	<link rel="stylesheet" href="/_app/assets/login-with-discord-4c509c13.css">
+	<link rel="stylesheet" href="/_app/assets/sticker-generator-a58d6bc5.css">
+	<link rel="stylesheet" href="/_app/assets/template-dc5ff06d.css">
+	<link rel="stylesheet" href="/_app/assets/BalloonQuote2-65b715a7.css">
+	<link rel="stylesheet" href="/_app/assets/tool-list-system-90e7347a.css">
+	<link rel="stylesheet" href="/_app/assets/what-nft-is-not-17bf58b6.css">
+	<link rel="modulepreload" href="/_app/start-d72d80ec.js">
+	<link rel="modulepreload" href="/_app/chunks/index-23d5ae1c.js">
+	<link rel="modulepreload" href="/_app/chunks/index-db251831.js">
+	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-ed14fb1c.js">
+	<link rel="modulepreload" href="/_app/chunks/store-e965a4d2.js">
+	<link rel="modulepreload" href="/_app/pages/_slug_.svelte-5a2f0205.js">
+	<link rel="modulepreload" href="/_app/chunks/2020-what-i-have-read-on-internet-2b69f846.js">
+	<link rel="modulepreload" href="/_app/chunks/_post-238a1a9a.js">
+	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-39bb7771.js">
+	<link rel="modulepreload" href="/_app/chunks/2021-what-i-have-read-on-internet-8102fc0d.js">
+	<link rel="modulepreload" href="/_app/chunks/2022-what-i-have-read-on-internet-08ddc190.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-Pause-And-Select-Apocalypse-ccd903de.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-char-counterattack-fans-interview-98624dc9.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-difference-of-director-and-producer-477c6764.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-does-anno-hideaki-really-dont-know-what-he-is-making-5bff5ca7.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-evening-chat-of-game-xenogears-288f2405.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-expression-of-light-and-heavy-b968ebb0.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-games-done-quick-introduction-eeac9cfa.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-linda-cube-introduction-1e95b179.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-linda-cube-on-ps-archive-77b659f2.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-making-of-linda3-56ff1650.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-note-cd54ef6d.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-one-way-heroics-all-achievement-note-0d1f098d.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-random-thoughts-about-rockman-x-dive-ee1953f0.js">
+	<link rel="modulepreload" href="/_app/chunks/AutomaticColorText-de3c9be3.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-rockman-1-tas-glitch-4e36ba0d.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-seino-tooru-2ba56a71.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-serial-experiments-lain-for-ps-3b9edaed.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-super-manga-book-list-d6ceaacb.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-the-influences-of-naoko-yamada-94c69981.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-why-you-should-not-use-interpolation-on-anime-fdccf880.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-yume-no-shima-de-aimashou-2fe08dc9.js">
+	<link rel="modulepreload" href="/_app/chunks/auto-generate-eyecatch-image-for-blog-2bced292.js">
+	<link rel="modulepreload" href="/_app/chunks/autohotkey-note-9a992827.js">
+	<link rel="modulepreload" href="/_app/chunks/blog-with-hexo-9810ed7a.js">
+	<link rel="modulepreload" href="/_app/chunks/blog-with-sapper-736773c2.js">
+	<link rel="modulepreload" href="/_app/chunks/blog-with-sveltekit-e9f566fc.js">
+	<link rel="modulepreload" href="/_app/chunks/capitalist-realism-mark-fisher-6eb457a7.js">
+	<link rel="modulepreload" href="/_app/chunks/dot-painting-note-130de43a.js">
+	<link rel="modulepreload" href="/_app/chunks/escape-from-algorithm-with-rss-dc99968d.js">
+	<link rel="modulepreload" href="/_app/chunks/how-do-you-like-wendesday-48fc8700.js">
+	<link rel="modulepreload" href="/_app/chunks/how-to-check-font-family-name-in-computer-37bcb93a.js">
+	<link rel="modulepreload" href="/_app/chunks/login-with-discord-be671948.js">
+	<link rel="modulepreload" href="/_app/chunks/mpv-235f1f67.js">
+	<link rel="modulepreload" href="/_app/chunks/operating-with-keyboard-61dfa7c4.js">
+	<link rel="modulepreload" href="/_app/chunks/search-engine-operators-70238715.js">
+	<link rel="modulepreload" href="/_app/chunks/sticker-generator-d9572357.js">
+	<link rel="modulepreload" href="/_app/chunks/LibLoader-b5d0cb9e.js">
+	<link rel="modulepreload" href="/_app/chunks/template-e42ad613.js">
+	<link rel="modulepreload" href="/_app/chunks/BalloonQuote2-a7ff699f.js">
+	<link rel="modulepreload" href="/_app/chunks/tool-list-creativity-78535146.js">
+	<link rel="modulepreload" href="/_app/chunks/tool-list-gaming-98bbea24.js">
+	<link rel="modulepreload" href="/_app/chunks/tool-list-system-57d4f0bf.js">
+	<link rel="modulepreload" href="/_app/chunks/tool-list-website-1d5fd543.js">
+	<link rel="modulepreload" href="/_app/chunks/use-foobar2k-to-listen-to-podcast-e759230f.js">
+	<link rel="modulepreload" href="/_app/chunks/use-google-spreadsheet-as-database-a8db09e1.js">
+	<link rel="modulepreload" href="/_app/chunks/what-nft-is-not-40c7ef58.js">
+	<link rel="modulepreload" href="/_app/chunks/why-is-life-so-boring-b661de2b.js">
+  </head>
+  <body>
+    <!-- The application will be rendered inside this element,
+	     because `app/client.js` references it -->
+    
+
+
+
+
+
+
+
+
+<div class="layout svelte-1avnl50" style=""><div class="loader-container svelte-1avnl50"><div class="loader svelte-v56dyc"><span class="loader-text loader-step1 svelte-v56dyc">/</span>
+  <span class="loader-text loader-step1 svelte-v56dyc">-</span>
+  <span class="loader-text loader-step1 svelte-v56dyc">\</span>
+  <span class="loader-text loader-step1 svelte-v56dyc">|</span>
+</div></div></div>
+
+<div class="layout svelte-1avnl50" style="display: none;">
+  
+  <header class="svelte-ka06mn"><div class="header-container svelte-ka06mn"><div class="row svelte-ka06mn"><nav class="svelte-t90z2a"><a class=" svelte-t90z2a" href="/">トリコじかけの明け暮れ
+  </a>
+  <a class=" svelte-t90z2a" href="/about">about
+  </a>
+  <a class=" svelte-t90z2a" href="/rss.xml" target="_blank">rss
+  </a>
+  <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
+  </a>
+</nav>
+      <a href="https://comic-days.com/episode/3269754496432828238" target="_blank" rel="noreferrer noopener" class="svelte-1m045v8"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" class="svelte-1m045v8">
+</a></div>
+    
+<div id="progress-bar" style="--scrollAmount: 0%;" class="svelte-1gbseey"></div></div>
+</header>
+
+  <main class="svelte-1avnl50">
+
+<header class="svelte-5uw8di"><h1 class="title svelte-5uw8di"><span style="animation-delay: 125ms; " class="svelte-5uw8di">T
+      </span><span style="animation-delay: 150ms; " class="svelte-5uw8di">o
+      </span><span style="animation-delay: 175ms; " class="svelte-5uw8di">o
+      </span><span style="animation-delay: 200ms; " class="svelte-5uw8di">l
+      </span><span style="animation-delay: 225ms; " class="svelte-5uw8di">b
+      </span><span style="animation-delay: 250ms; " class="svelte-5uw8di">o
+      </span><span style="animation-delay: 275ms; " class="svelte-5uw8di">x
+      </span><span style="animation-delay: 300ms; width: .25em;" class="svelte-5uw8di"> 
+      </span><span style="animation-delay: 325ms; " class="svelte-5uw8di">-
+      </span><span style="animation-delay: 350ms; width: .25em;" class="svelte-5uw8di"> 
+      </span><span style="animation-delay: 375ms; " class="svelte-5uw8di">電
+      </span><span style="animation-delay: 400ms; " class="svelte-5uw8di">腦
+      </span><span style="animation-delay: 425ms; " class="svelte-5uw8di">系
+      </span><span style="animation-delay: 450ms; " class="svelte-5uw8di">統
+      </span><span style="animation-delay: 475ms; " class="svelte-5uw8di">篇
+      </span></h1>
+  <p class="meta svelte-5uw8di"><span class="date svelte-5uw8di">Oct 21, 2019</span>
+    <div class="tags svelte-5uw8di"><span class="tag svelte-5uw8di">Toolbox</span></div></p></header>
+<div class="post--container svelte-5uw8di"><article class="post--content svelte-5uw8di"><p>各種電腦工具軟體整理。</p>
+<h2 id="js-id-系統">系統</h2>
+<table class="svelte-11nrc9w"><thead><tr><th>名稱</th>
+<th>說明</th>
+<th>付費</th></tr></thead>
+<tbody><tr><td class="svelte-11nrc9w"><a href="https://ninite.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://ninite.com/" alt="Ninite"><span>Ninite</span></a></td>
+<td class="svelte-11nrc9w">一次快速安裝各種軟體</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://rufus.ie/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://rufus.ie/" alt="Rufus"><span>Rufus</span></a></td>
+<td class="svelte-11nrc9w">簡易建立可開機 USB 裝置，alt: <a href="https://www.balena.io/etcher/" rel="noopener" target="_blank">balenaEtcher</a></td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.flowlauncher.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.flowlauncher.com/" alt="Flow Launcher"><span>Flow Launcher</span></a></td>
+<td class="svelte-11nrc9w">快速執行程式與各種功能的 launcher，alt: <a href="http://www.wox.one/" rel="noopener" target="_blank">wox</a> 似乎已經不再維護</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.voidtools.com/downloads/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.voidtools.com/downloads/" alt="Everything"><span>Everything</span></a></td>
+<td class="svelte-11nrc9w">超級快速的檔案搜索工具</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://geekuninstaller.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://geekuninstaller.com/" alt="Geek Uninstaller"><span>Geek Uninstaller</span></a></td>
+<td class="svelte-11nrc9w">會將關聯檔案一同刪除的程式反安裝工具，alt: <a href="https://www.bcuninstaller.com/" rel="noopener" target="_blank">BCU</a></td>
+<td class="svelte-11nrc9w">具付費版</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/EasyIME/PIME/releases" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/EasyIME/PIME/releases" alt="PIME"><span>PIME</span></a></td>
+<td class="svelte-11nrc9w">新酷音輸入法，包含可在 Windows 11 上使用的舊注音輸入法</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://dic.nicovideo.jp/a/skk" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://dic.nicovideo.jp/a/skk" alt="SKK"><span>SKK</span></a></td>
+<td class="svelte-11nrc9w">由東北大學的佐藤雅彦開發，原本用於 Emacs 上的日文輸入法。<a href="http://coexe.web.fc2.com/programs.html" rel="noopener" target="_blank">SKKFEP</a>、<a href="https://github.com/nathancorvussolis/corvusskk" rel="noopener" target="_blank">CorvusSKK</a></td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://mizage.com/divvy/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://mizage.com/divvy/" alt="Divvy"><span>Divvy</span></a></td>
+<td class="svelte-11nrc9w">切割視窗位置</td>
+<td class="svelte-11nrc9w">具付費版</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="http://www.eonet.ne.jp/~gorota/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://www.eonet.ne.jp/~gorota/" alt="orchis"><span>orchis</span></a></td>
+<td class="svelte-11nrc9w">快速執行程式</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://hp.vector.co.jp/authors/VA018351/en/claunch.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://hp.vector.co.jp/authors/VA018351/en/claunch.html" alt="CLaunch"><span>CLaunch</span></a></td>
+<td class="svelte-11nrc9w">快速開啟資料夾</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.jam-software.com/treesize_free/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.jam-software.com/treesize_free/" alt="TreeSize"><span>TreeSize</span></a></td>
+<td class="svelte-11nrc9w">分析硬碟檔案空間佔用分佈，alt: <a href="https://windirstat.net/" rel="noopener" target="_blank">WinDirStat</a></td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.auslogics.com/en/software/disk-defrag/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.auslogics.com/en/software/disk-defrag/" alt="Auslogics Disk Defrag"><span>Auslogics Disk Defrag</span></a></td>
+<td class="svelte-11nrc9w">硬碟重組</td>
+<td class="svelte-11nrc9w">具付費版</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://ntcore.com/?page_id=371" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://ntcore.com/?page_id=371" alt="4gb_patch"><span>4gb_patch</span></a></td>
+<td class="svelte-11nrc9w">讓 32 位元的應用程式使用超過 4GB 的記憶體（可能沒有效果）</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap" alt="Ctrl2cap"><span>Ctrl2cap</span></a></td>
+<td class="svelte-11nrc9w">將 Caps Lock 鍵切換成 Ctrl 鍵的功能</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns" alt="Autoruns"><span>Autoruns</span></a></td>
+<td class="svelte-11nrc9w">檢視各種系統相關的檔案與設定</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite" alt="SysinternalsSuite"><span>SysinternalsSuite</span></a></td>
+<td class="svelte-11nrc9w">微軟發佈的疑難排解工具套件</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer" alt="Process Explorer"><span>Process Explorer</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/debugview" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://docs.microsoft.com/en-us/sysinternals/downloads/debugview" alt="Debug Monitor Tool"><span>Debug Monitor Tool</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.nirsoft.net/utils/ntfs_links_view.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.nirsoft.net/utils/ntfs_links_view.html" alt="NTFSLinksView"><span>NTFSLinksView</span></a></td>
+<td class="svelte-11nrc9w">顯示所有的 symbolic link</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.nirsoft.net/utils/shexview.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.nirsoft.net/utils/shexview.html" alt="ShellExView"><span>ShellExView</span></a></td>
+<td class="svelte-11nrc9w">管理 shell</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.cpuid.com/softwares/hwmonitor.html#version-history" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.cpuid.com/softwares/hwmonitor.html#version-history" alt="HWMONITOR"><span>HWMONITOR</span></a></td>
+<td class="svelte-11nrc9w">監測系統狀況</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://itib.hatenablog.com/entry/2021/12/31/222946" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://itib.hatenablog.com/entry/2021/12/31/222946" alt="Hayabusa"><span>Hayabusa</span></a></td>
+<td class="svelte-11nrc9w">快速檢測 Windows 事件</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w">CrystalDiskInfo</td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w">CrystalDiskMark</td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/Kyome22/RunCat_for_windows" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/Kyome22/RunCat_for_windows" alt="RunCat"><span>RunCat</span></a></td>
+<td class="svelte-11nrc9w">KAWAII</td>
+<td class="svelte-11nrc9w">FREE</td></tr></tbody></table>
+<h3>SKK</h3>
+<p>不同於過往由輸入法解析文法，SKK 是交由使用者透過首字大寫與空白鍵，去主動提示需要轉換的語句，例如「今日も事件だダイナマイト刑事」，SKK 的輸入會變成：<code>Kyou moJiken daqdainamaitoDeka</code>，這樣的好處是能精確指定想要轉換的詞句（當然，仍不保證能有正確的詞彙，例如<a href="https://dic.nicovideo.jp/a/skk" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://dic.nicovideo.jp/a/skk" alt="ニコニコ百科上的介紹文"><span>ニコニコ百科上的介紹文</span></a>就能從留言看到過去版本也有錯字），不必每次輸入完畢後，不論要轉換與否都得再按下 Enter 鍵，能大幅提高輸入的速度。</p>
+<p>以及 SKK 採用快速鍵切換輸入模式：</p>
+<pre class="language-undefined"><!-- HTML_TAG_START --><code class="language-undefined">   ------ l ------&gt; [ASCII] &lt;----- l ------
+  |                  ^   |                 |
+  |                  l &lt;C-j&gt;               |
+  |       &lt;--&lt;C-q&gt;-- |   v   --q--&gt;        |
+  [半形片假名]      [平假名] &lt;--q-- [片假名]
+  |       --&lt;C-q&gt;--&gt; |   ^  &lt;--&lt;C-j&gt;--     |
+  |       --&lt;C-j&gt;--&gt; L &lt;C-j&gt;               |
+  |                  v   |                 |
+   ------ L -----&gt; [全形英文] &lt;---- L -----</code><!-- HTML_TAG_END --></pre>
+<p>相較於原本日文 IME 需要使用 <code>F7</code> 至 <code>F10</code> 等功能鍵，也省下了相當程度的輸入時移動。並且除了由有志人士提供的轉換詞彙庫（可以透過以下連結安裝），SKK 也可以隨時加入自訂詞彙供日後使用。</p>
+<ul><li>設定頁可以從對輸入欄的文字模式點擊右鍵開啟</li>
+<li><a href="http://openlab.ring.gr.jp/skk/dic-ja.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://openlab.ring.gr.jp/skk/dic-ja.html" alt="SKK Openlab - 辞書"><span>SKK Openlab - 辞書</span></a><ul><li><a href="http://openlab.ring.gr.jp/skk/wiki/wiki.cgi?page=SKK%BC%AD%BD%F1" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://openlab.ring.gr.jp/skk/wiki/wiki.cgi?page=SKK%BC%AD%BD%F1" alt="SKK 辞書 - SKK 辞書 Wiki"><span>SKK 辞書 - SKK 辞書 Wiki</span></a></li>
+<li><a href="https://skk-dev.github.io/dict/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://skk-dev.github.io/dict/" alt="SKK dictionary files gh-pages"><span>SKK dictionary files gh-pages</span></a></li></ul></li>
+<li>於「辞書 1」分頁點選「URL 追加」，加入想要的辭典種類網址後，點擊「取込」</li>
+<li>匯入完成後，切換至其他輸入法後再切回即會生效</li></ul>
+<p>但語言詞彙的變化日新月異，固定的字典檔終究有無法填補的需求，對此 SKK 也能透過串接 Google API，在遇到字典檔裡沒有的詞彙時發送轉換的請求。</p>
+<ul><li><a href="https://sasasin.hatenablog.com/entry/2020/06/06/192712" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://sasasin.hatenablog.com/entry/2020/06/06/192712" alt="2020 年版。SKK で Google 日本語入力の辞書を使う - sasasin’s blog"><span>2020 年版。SKK で Google 日本語入力の辞書を使う - sasasin’s blog</span></a></li>
+<li><a href="https://nishikawasasaki.hatenablog.com/entry/2021/01/07/004422" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://nishikawasasaki.hatenablog.com/entry/2021/01/07/004422" alt="2021 年初頭に SKK を Windows/Mac で Google 日本語入力からの候補取得といっしょに絵文字まで変換して使うための方法 - あじーん-0.0.2-SNAPSHOT"><span>2021 年初頭に SKK を Windows/Mac で Google 日本語入力からの候補取得といっしょに絵文字まで変換して使うための方法 - あじーん-0.0.2-SNAPSHOT</span></a><ul><li><code>pip install google-ime-skk-py</code></li>
+<li><code>google-ime-skk-py</code></li></ul></li></ul>
+<h2 id="js-id-os">OS</h2>
+<ul><li><a href="https://reactos.org/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://reactos.org/" alt="ReactOS"><span>ReactOS</span></a></li>
+<li><a href="https://ravynos.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://ravynos.com/" alt="ravynOS"><span>ravynOS</span></a></li>
+<li><a href="https://pop.system76.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://pop.system76.com/" alt="Pop!_OS"><span>Pop!_OS</span></a></li>
+<li><a href="https://q4os.org/index.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://q4os.org/index.html" alt="Q4OS"><span>Q4OS</span></a></li>
+<li><a href="https://lubuntu.me/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://lubuntu.me/" alt="lubuntu"><span>lubuntu</span></a></li>
+<li><a href="https://www.android-x86.org/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.android-x86.org/" alt="Android-x86"><span>Android-x86</span></a></li></ul>
+<h2 id="js-id-建構全平台通用的環境">建構全平台通用的環境</h2>
+<ul><li><a href="https://speakerdeck.com/hsbt/kai-fa-huan-jing-hefalsekodawari" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://speakerdeck.com/hsbt/kai-fa-huan-jing-hefalsekodawari" alt="開発環境へのこだわり"><span>開発環境へのこだわり</span></a></li>
+<li><a href="https://fishshell.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://fishshell.com/" alt="fish shell"><span>fish shell</span></a></li>
+<li><a href="https://gist.github.com/yunga/99d04694e2466e017c5502d7c828d4f4" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://gist.github.com/yunga/99d04694e2466e017c5502d7c828d4f4" alt="Chocolatey Cheat Sheet"><span>Chocolatey Cheat Sheet</span></a></li></ul>
+<table class="svelte-11nrc9w"><thead><tr><th>alternative</th>
+<th>description</th>
+<th>Linux command</th></tr></thead>
+<tbody><tr><td class="svelte-11nrc9w"><a href="https://github.com/junegunn/fzf" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/junegunn/fzf" alt="fzf"><span>fzf</span></a></td>
+<td class="svelte-11nrc9w">fuzzy finder, interactive filter</td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/peco/peco" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/peco/peco" alt="peco"><span>peco</span></a></td>
+<td class="svelte-11nrc9w">interactive filter</td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/ajeetdsouza/zoxide" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/ajeetdsouza/zoxide" alt="zoxide"><span>zoxide</span></a></td>
+<td class="svelte-11nrc9w">smarter cd command</td>
+<td class="svelte-11nrc9w">cd</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/sharkdp/fd" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/sharkdp/fd" alt="fd"><span>fd</span></a></td>
+<td class="svelte-11nrc9w">search for files in a directory hierarchy</td>
+<td class="svelte-11nrc9w">find</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/BurntSushi/ripgrep" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/BurntSushi/ripgrep" alt="ripgrep"><span>ripgrep</span></a>(rg)</td>
+<td class="svelte-11nrc9w">search plain-text data sets for lines that match a regular expression</td>
+<td class="svelte-11nrc9w">grep</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/chmln/sd" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/chmln/sd" alt="sd"><span>sd</span></a></td>
+<td class="svelte-11nrc9w">stream editor for filtering and transforming text</td>
+<td class="svelte-11nrc9w">sed</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/sharkdp/bat" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/sharkdp/bat" alt="bat"><span>bat</span></a></td>
+<td class="svelte-11nrc9w">concatenate files and print on the standard output</td>
+<td class="svelte-11nrc9w">cat</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/ogham/dog" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/ogham/dog" alt="dog"><span>dog</span></a></td>
+<td class="svelte-11nrc9w">domain information groper</td>
+<td class="svelte-11nrc9w">dig</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/dbrgn/tealdeer" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/dbrgn/tealdeer" alt="tealdeer"><span>tealdeer</span></a></td>
+<td class="svelte-11nrc9w">an interface to the system reference manuals</td>
+<td class="svelte-11nrc9w">man</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/x-motemen/ghq" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/x-motemen/ghq" alt="ghq"><span>ghq</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/amatsuda/gem-src" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/amatsuda/gem-src" alt="gem-src"><span>gem-src</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr></tbody></table>
+<h2 id="js-id-檔案">檔案</h2>
+<table class="svelte-11nrc9w"><thead><tr><th>名稱</th>
+<th>說明</th>
+<th>付費</th></tr></thead>
+<tbody><tr><td class="svelte-11nrc9w"><a href="https://github.com/microsoft/PowerToys" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/microsoft/PowerToys" alt="PowerToys"><span>PowerToys</span></a></td>
+<td class="svelte-11nrc9w">微軟推出的多功能系統輔助軟體</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://antp.be/software/renamer" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://antp.be/software/renamer" alt="AntRenamer"><span>AntRenamer</span></a></td>
+<td class="svelte-11nrc9w">快速規則式重新命名大量檔案</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="http://emptyloop.com/unlocker/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://emptyloop.com/unlocker/" alt="Unlocker"><span>Unlocker</span></a></td>
+<td class="svelte-11nrc9w">強制解除檔案使用鎖定狀態</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://fastcopy.jp/en/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://fastcopy.jp/en/" alt="FastCopy"><span>FastCopy</span></a></td>
+<td class="svelte-11nrc9w">快速複製／備份檔案</td>
+<td class="svelte-11nrc9w">FREE</td></tr></tbody></table>
+<ul><li><a href="https://github.com/jnzd/vimified-windows-explorer" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/jnzd/vimified-windows-explorer" alt="jnzd/vimified-windows-explorer"><span>jnzd/vimified-windows-explorer</span></a></li></ul>
+<h3>解壓縮</h3>
+<table class="svelte-11nrc9w"><thead><tr><th>名稱</th>
+<th>說明</th>
+<th>付費</th></tr></thead>
+<tbody><tr><td class="svelte-11nrc9w"><a href="https://www.developershome.com/7-zip/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.developershome.com/7-zip/" alt="7-Zip"><span>7-Zip</span></a></td>
+<td class="svelte-11nrc9w">萬用壓縮／解壓縮工具</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://tw.bandisoft.com/bandizip/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://tw.bandisoft.com/bandizip/" alt="Bandizip"><span>Bandizip</span></a></td>
+<td class="svelte-11nrc9w">可處理檔案名稱編碼問題的解壓縮工具</td>
+<td class="svelte-11nrc9w">FREE</td></tr></tbody></table>
+<h2 id="js-id-文件">文件</h2>
+<table class="svelte-11nrc9w"><thead><tr><th>名稱</th>
+<th>說明</th>
+<th>付費</th></tr></thead>
+<tbody><tr><td class="svelte-11nrc9w"><a href="https://notepad-plus-plus.org/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://notepad-plus-plus.org/" alt="Notepad++"><span>Notepad++</span></a></td>
+<td class="svelte-11nrc9w">開源的強大文字編輯器</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://tera-net.com/library/tpad.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://tera-net.com/library/tpad.html" alt="TeraPad"><span>TeraPad</span></a></td>
+<td class="svelte-11nrc9w">老牌的高效能文字編輯器</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://mh-nexus.de/en/hxd/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://mh-nexus.de/en/hxd/" alt="HxD"><span>HxD</span></a></td>
+<td class="svelte-11nrc9w">Freeware Hex Editor and Disk Editor</td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.vector.co.jp/soft/win95/util/se079072.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.vector.co.jp/soft/win95/util/se079072.html" alt="Stirling"><span>Stirling</span></a></td>
+<td class="svelte-11nrc9w">Binary Editor</td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://obsidian.md/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://obsidian.md/" alt="Obsidian"><span>Obsidian</span></a></td>
+<td class="svelte-11nrc9w">可以將 Markdown 筆記轉換成內部連結卡片盒的軟體</td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://tobloef.com/text2mindmap/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://tobloef.com/text2mindmap/" alt="Text2MindMap"><span>Text2MindMap</span></a></td>
+<td class="svelte-11nrc9w">文字版心智圖</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://pypi.org/project/pytesseract/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://pypi.org/project/pytesseract/" alt="pytesseract"><span>pytesseract</span></a></td>
+<td class="svelte-11nrc9w">辨識圖片文字的 python library</td>
+<td class="svelte-11nrc9w">FREE</td></tr></tbody></table>
+<details><summary>pytesseract example</summary>
+<pre class="language-python"><!-- HTML_TAG_START --><code class="language-python"><span class="token keyword">try</span><span class="token punctuation">:</span>
+  <span class="token keyword">from</span> PIL <span class="token keyword">import</span> Image
+<span class="token keyword">except</span> ImportError<span class="token punctuation">:</span>
+  <span class="token keyword">import</span> Image
+<span class="token keyword">import</span> pytesseract
+<span class="token keyword">import</span> os
+
+pytesseract<span class="token punctuation">.</span>pytesseract<span class="token punctuation">.</span>tesseract_cmd <span class="token operator">=</span> <span class="token string">r'C:\Program Files\Tesseract-OCR&#92;tesseract.exe'</span>
+image_path <span class="token operator">=</span> <span class="token string">r'path to image file'</span>
+
+f <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+t <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+input_dir <span class="token operator">=</span> <span class="token string">r'path to images file'</span>
+
+<span class="token comment"># print(pytesseract.image_to_string(Image.open(path), lang='jpn'))</span>
+<span class="token comment"># print(pytesseract.image_to_string(Image.open(path), lang='jpn_vert'))</span>
+
+<span class="token keyword">for</span> root<span class="token punctuation">,</span> dirs<span class="token punctuation">,</span> filenames <span class="token keyword">in</span> os<span class="token punctuation">.</span>walk<span class="token punctuation">(</span>input_dir<span class="token punctuation">)</span><span class="token punctuation">:</span>
+  <span class="token keyword">for</span> filename <span class="token keyword">in</span> filenames<span class="token punctuation">:</span>
+    <span class="token keyword">try</span><span class="token punctuation">:</span>
+      <span class="token keyword">print</span><span class="token punctuation">(</span>filename<span class="token punctuation">)</span>
+      f<span class="token punctuation">.</span>append<span class="token punctuation">(</span>filename<span class="token punctuation">)</span>
+      img <span class="token operator">=</span> Image<span class="token punctuation">.</span><span class="token builtin">open</span><span class="token punctuation">(</span>input_dir<span class="token operator">+</span> filename<span class="token punctuation">)</span>
+      text <span class="token operator">=</span> pytesseract<span class="token punctuation">.</span>image_to_string<span class="token punctuation">(</span>img<span class="token punctuation">,</span> lang<span class="token operator">=</span><span class="token string">'jpn'</span><span class="token punctuation">)</span>
+      t<span class="token punctuation">.</span>append<span class="token punctuation">(</span>text<span class="token punctuation">)</span>
+      <span class="token keyword">print</span><span class="token punctuation">(</span>text<span class="token punctuation">)</span>
+      <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'-='</span><span class="token operator">*</span><span class="token number">20</span><span class="token punctuation">)</span>
+    <span class="token keyword">except</span><span class="token punctuation">:</span>
+      <span class="token keyword">continue</span>
+
+outputfile <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span>input_dir <span class="token operator">+</span> <span class="token string">"result.txt"</span><span class="token punctuation">,</span> <span class="token string">"w"</span><span class="token punctuation">)</span>
+<span class="token keyword">for</span> element <span class="token keyword">in</span> t<span class="token punctuation">:</span>
+  outputfile<span class="token punctuation">.</span>write<span class="token punctuation">(</span>element <span class="token operator">+</span> <span class="token string">"&#92;n"</span><span class="token punctuation">)</span>
+outputfile<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span></code><!-- HTML_TAG_END --></pre></details>
+<h3>語系切換</h3>
+<table class="svelte-11nrc9w"><thead><tr><th>名稱</th>
+<th>說明</th>
+<th>付費</th></tr></thead>
+<tbody><tr><td class="svelte-11nrc9w"><a href="https://github.com/James1201/Fanhuaji-GUI-Release/releases" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/James1201/Fanhuaji-GUI-Release/releases" alt="繁化姬"><span>繁化姬</span></a></td>
+<td class="svelte-11nrc9w">搭配詞語本地化的繁簡轉換工具</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://pooi.moe/Locale-Emulator/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://pooi.moe/Locale-Emulator/" alt="Locale Emulator"><span>Locale Emulator</span></a></td>
+<td class="svelte-11nrc9w">切換程式執行環境語系</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://archive.codeplex.com/?p=ntlea" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://archive.codeplex.com/?p=ntlea" alt="NTLEA"><span>NTLEA</span></a></td>
+<td class="svelte-11nrc9w">切換程式執行環境語系</td>
+<td class="svelte-11nrc9w">FREE</td></tr></tbody></table>
+<h2 id="js-id-網路">網路</h2>
+<h3>網路連線</h3>
+<table class="svelte-11nrc9w"><thead><tr><th>名稱</th>
+<th>說明</th>
+<th>付費</th></tr></thead>
+<tbody><tr><td class="svelte-11nrc9w"><a href="https://openvpn.net/download-open-vpn/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://openvpn.net/download-open-vpn/" alt="OpenVPN"><span>OpenVPN</span></a></td>
+<td class="svelte-11nrc9w">VPN Client</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://winscp.net/eng/download.php" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://winscp.net/eng/download.php" alt="WinSCP"><span>WinSCP</span></a></td>
+<td class="svelte-11nrc9w">SFTP client</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.putty.org/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.putty.org/" alt="Putty"><span>Putty</span></a></td>
+<td class="svelte-11nrc9w">SSH and telnet client</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://mobaxterm.mobatek.net/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://mobaxterm.mobatek.net/" alt="MobaXterm"><span>MobaXterm</span></a></td>
+<td class="svelte-11nrc9w">tabbed SSH client</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview" alt="TCPView"><span>TCPView</span></a></td>
+<td class="svelte-11nrc9w">show detailed listings of all TCP and UDP endpoints</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://ngrok.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://ngrok.com/" alt="ngrok"><span>ngrok</span></a></td>
+<td class="svelte-11nrc9w">make a public ip</td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.xlightftpd.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.xlightftpd.com/" alt="xlight"><span>xlight</span></a></td>
+<td class="svelte-11nrc9w">Windows FTP and SFTP Server</td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.rejetto.com/hfs/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.rejetto.com/hfs/" alt="HFS"><span>HFS</span></a></td>
+<td class="svelte-11nrc9w">HTTP File Server</td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/schollz/croc" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/schollz/croc" alt="croc"><span>croc</span></a></td>
+<td class="svelte-11nrc9w">securely transfer files between 2 computers</td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://send-anywhere.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://send-anywhere.com/" alt="Send Anywhere"><span>Send Anywhere</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.nirsoft.net/utils/awatch.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.nirsoft.net/utils/awatch.html" alt="AdapterWatch"><span>AdapterWatch</span></a></td>
+<td class="svelte-11nrc9w">監測網路卡使用狀況</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.nirsoft.net/utils/cports.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.nirsoft.net/utils/cports.html" alt="CurrPorts"><span>CurrPorts</span></a></td>
+<td class="svelte-11nrc9w">監測應用程式使用的網路 port</td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://termshark.io/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://termshark.io/" alt="Termshark"><span>Termshark</span></a></td>
+<td class="svelte-11nrc9w">命令列版本的 WireShark</td>
+<td class="svelte-11nrc9w">FREE</td></tr></tbody></table>
+<h3>通訊軟體</h3>
+<table class="svelte-11nrc9w"><thead><tr><th>名稱</th>
+<th>說明</th>
+<th>付費</th></tr></thead>
+<tbody><tr><td class="svelte-11nrc9w"><a href="https://discordapp.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://discordapp.com/" alt="Discord"><span>Discord</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://telegram.org/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://telegram.org/" alt="Telegram"><span>Telegram</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://slack.com/intl/en-tw/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://slack.com/intl/en-tw/" alt="Slack"><span>Slack</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://maps.me/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://maps.me/" alt="MAPS.ME"><span>MAPS.ME</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.bridgefy.me/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.bridgefy.me/" alt="BRIDGEFY"><span>BRIDGEFY</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://zello.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://zello.com/" alt="ZELLO"><span>ZELLO</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/ssbc/patchwork/releases" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/ssbc/patchwork/releases" alt="PATCHWORK"><span>PATCHWORK</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr></tbody></table>
+<h3>網路瀏覽</h3>
+<table class="svelte-11nrc9w"><thead><tr><th>名稱</th>
+<th>說明</th>
+<th>付費</th></tr></thead>
+<tbody><tr><td class="svelte-11nrc9w"><a href="https://www.henrypp.org/product/chrlauncher" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.henrypp.org/product/chrlauncher" alt="chrlauncher"><span>chrlauncher</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w">ungoogled-chromium</td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/muslayev/icecat-win64" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/muslayev/icecat-win64" alt="icecat-win64"><span>icecat-win64</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.ptt.cc/bbs/EZsoft/M.1546241396.A.D95.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.ptt.cc/bbs/EZsoft/M.1546241396.A.D95.html" alt="PTTStar"><span>PTTStar</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="http://janexeno.client.jp/janexenobeta.htm" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://janexeno.client.jp/janexenobeta.htm" alt="JaneXeno"><span>JaneXeno</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w">FREE</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="http://air.fem.jp/commenomi/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://air.fem.jp/commenomi/" alt="commenomi"><span>commenomi</span></a></td>
+<td class="svelte-11nrc9w">可顯示流動式留言的透明視窗</td>
+<td class="svelte-11nrc9w">FREE</td></tr></tbody></table>
+<h3>chrome 插件</h3>
+<table class="svelte-11nrc9w"><thead><tr><th>名稱</th>
+<th>說明</th></tr></thead>
+<tbody><tr><td class="svelte-11nrc9w"><a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb" alt="Vimium"><span>Vimium</span></a></td>
+<td class="svelte-11nrc9w">使用類似 Vim 編輯器的方式瀏覽網站</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://chrome.google.com/webstore/detail/content-farm-terminator/lcghoajegeldpfkfaejegfobkapnemjl" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/content-farm-terminator/lcghoajegeldpfkfaejegfobkapnemjl" alt="終結內容農場"><span>終結內容農場</span></a></td>
+<td class="svelte-11nrc9w">要是感到厭煩，放棄也是一種選擇啊。</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk/" alt="ClearURLs"><span>ClearURLs</span></a></td>
+<td class="svelte-11nrc9w">移除網址的多餘內容</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://chrome.google.com/webstore/detail/tabattack/ginflokhdahakklidfjlogllkkhokidj" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/tabattack/ginflokhdahakklidfjlogllkkhokidj" alt="TabAttack"><span>TabAttack</span></a></td>
+<td class="svelte-11nrc9w">轉換瀏覽頁面網址成為 markdown 格式</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://chrome.google.com/webstore/detail/close-download-bar/bkfclmjddajodogcbpohgfpdkgdecgmg" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/close-download-bar/bkfclmjddajodogcbpohgfpdkgdecgmg" alt="Close download bar"><span>Close download bar</span></a></td>
+<td class="svelte-11nrc9w">設定 <code>Alt + W</code> 為「關閉下載欄」功能</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi" alt="HeadingsMap"><span>HeadingsMap</span></a></td>
+<td class="svelte-11nrc9w">快速顯示網站內容結構</td></tr></tbody></table>
+<ul><li><a href="https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag" alt="Violentmonkey"><span>Violentmonkey</span></a></li>
+<li><a href="https://chrome.google.com/webstore/detail/uivision-rpa/gcbalfbdmfieckjlnblleoemohcganoc" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/uivision-rpa/gcbalfbdmfieckjlnblleoemohcganoc" alt="UI.Vision RPA"><span>UI.Vision RPA</span></a></li>
+<li><a href="https://gigazine.net/news/20220417-ui-vision/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://gigazine.net/news/20220417-ui-vision/" alt="無料で Chrome・Firefox の操作を自動化＆ファイルのアップロードやデスクトップの操作もできる「UI.Vision」"><span>無料で Chrome・Firefox の操作を自動化＆ファイルのアップロードやデスクトップの操作もできる「UI.Vision」</span></a></li>
+<li><a href="https://chrome.google.com/webstore/detail/deepl-translate-beta-vers/cofdbpoegempjloogbagkncekinflcnj?hl=ja" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/deepl-translate-beta-vers/cofdbpoegempjloogbagkncekinflcnj?hl=ja" alt="DeepL 翻訳（ベータ版）"><span>DeepL 翻訳（ベータ版）</span></a></li></ul>
+<h4>Shopping</h4>
+<ul><li><a href="https://chrome.google.com/webstore/detail/augmented-steam/dnhpnfgdlenaccegplpojghhmaamnnfp" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/augmented-steam/dnhpnfgdlenaccegplpojghhmaamnnfp" alt="Augmented Steam"><span>Augmented Steam</span></a></li>
+<li><a href="https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo" alt="Keepa - Amazon Price Tracker"><span>Keepa - Amazon Price Tracker</span></a></li>
+<li><a href="https://chrome.google.com/webstore/detail/add-to-buyee/ocjpgibbldacmpedgjgmcdcikjeopnpb" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/add-to-buyee/ocjpgibbldacmpedgjgmcdcikjeopnpb" alt="Add to Buyee"><span>Add to Buyee</span></a></li></ul>
+<h4>YouTube Pack</h4>
+<ul><li><a href="https://github.com/fiahfy/youtube-live-chat-flow" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/fiahfy/youtube-live-chat-flow" alt="fiahfy/youtube-live-chat-flow"><span>fiahfy/youtube-live-chat-flow</span></a></li>
+<li><a href="https://chrome.google.com/webstore/detail/youtubeliveclock/chpodcedholiggcllnmmjlnghllddgmj" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/youtubeliveclock/chpodcedholiggcllnmmjlnghllddgmj" alt="YouTubeLiveClock"><span>YouTubeLiveClock</span></a></li>
+<li><a href="https://chrome.google.com/webstore/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid" alt="Unhook"><span>Unhook</span></a></li>
+<li><a href="https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke" alt="Volume Master"><span>Volume Master</span></a></li>
+<li><a href="https://chrome.google.com/webstore/detail/open-as-popup/ncppfjladdkdaemaghochfikpmghbcpc" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/open-as-popup/ncppfjladdkdaemaghochfikpmghbcpc" alt="Open-as-Popup"><span>Open-as-Popup</span></a></li></ul>
+<h4>Twitch Pack</h4>
+<ul><li><a href="https://chrome.google.com/webstore/detail/gumbo-twitch-companion/aalmjfpohaedoddkobnibokclgeefamn" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/gumbo-twitch-companion/aalmjfpohaedoddkobnibokclgeefamn" alt="Gumbo: Twitch Companion"><span>Gumbo: Twitch Companion</span></a></li>
+<li><a href="https://chrome.google.com/webstore/detail/frankerfacez/fadndhdgpmmaapbmfcknlfgcflmmmieb" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/frankerfacez/fadndhdgpmmaapbmfcknlfgcflmmmieb" alt="FrankerFaceZ"><span>FrankerFaceZ</span></a><ul><li>Enable Portrait Mode</li></ul></li>
+<li><a href="https://chrome.google.com/webstore/detail/ttv-lol/ofbbahodfeppoklmgjiokgfdgcndngjm" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://chrome.google.com/webstore/detail/ttv-lol/ofbbahodfeppoklmgjiokgfdgcndngjm" alt="TTV LOL"><span>TTV LOL</span></a></li></ul>
+<h4>NicoNico Pack</h4>
+<h3>資安</h3>
+<table class="svelte-11nrc9w"><thead><tr><th>名稱</th>
+<th>說明</th>
+<th>類型</th></tr></thead>
+<tbody><tr><td class="svelte-11nrc9w"><a href="https://github.com/sandboxie-plus/Sandboxie" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/sandboxie-plus/Sandboxie" alt="Sandboxie"><span>Sandboxie</span></a></td>
+<td class="svelte-11nrc9w">可於沙盒環境下執行程式</td>
+<td class="svelte-11nrc9w">程式</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.lesspass.com/#/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.lesspass.com/#/" alt="LessPass"><span>LessPass</span></a></td>
+<td class="svelte-11nrc9w">從 Master 密碼產生高強度雜湊密碼</td>
+<td class="svelte-11nrc9w">插件</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="http://anonymouse.org/anonwww.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://anonymouse.org/anonwww.html" alt="Anonymouse.org"><span>Anonymouse.org</span></a></td>
+<td class="svelte-11nrc9w">匿名掛載網頁</td>
+<td class="svelte-11nrc9w">網站</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.aguse.jp/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.aguse.jp/" alt="aguse.jp"><span>aguse.jp</span></a></td>
+<td class="svelte-11nrc9w">掃描網址安全性</td>
+<td class="svelte-11nrc9w">網站</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.virustotal.com/zh-tw/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.virustotal.com/zh-tw/" alt="VirusTotal"><span>VirusTotal</span></a></td>
+<td class="svelte-11nrc9w">掃描網址或檔案安全性</td>
+<td class="svelte-11nrc9w">網站</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://passwordsecurity.info/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://passwordsecurity.info/" alt="Password Security info"><span>Password Security info</span></a></td>
+<td class="svelte-11nrc9w">檢查密碼是否已遭外洩</td>
+<td class="svelte-11nrc9w">網站</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://haveibeenpwned.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://haveibeenpwned.com/" alt="Have I Been Pwned"><span>Have I Been Pwned</span></a></td>
+<td class="svelte-11nrc9w">檢查信箱是否已遭外洩</td>
+<td class="svelte-11nrc9w">網站</td></tr>
+<tr><td class="svelte-11nrc9w"><a href="http://gunkanmaki.jog.buttobi.net/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://gunkanmaki.jog.buttobi.net/" alt="Kiken URL List"><span>Kiken URL List</span></a></td>
+<td class="svelte-11nrc9w">危險網址內容解說</td>
+<td class="svelte-11nrc9w">網站</td></tr></tbody></table>
+<h3>留存資訊</h3>
+<ul><li><p><a href="https://quotebacks.net/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://quotebacks.net/" alt="Quotebacks - Quote the web"><span>Quotebacks - Quote the web</span></a></p>
+<ul><li>網頁服務，備份網路上的文字內容與來源，可手動將內容貼至網頁內的文字框，或使用所提供的 Bookmarklet 可於反白選取文字後快速產生備份內容。<blockquote class="quoteback" darkmode="" data-title="ネットでなにも発信しないのが最適解になってきた" data-author="@hatenaanond" cite="https://anond.hatelabo.jp/20211017124401"><p>結果、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%8D%E3%83%83%E3%83%88" target="_blank" rel="noopener">ネット</a>では当たり<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%81%95%E3%82%8F%E3%82%8A" target="_blank" rel="noopener">さわり</a>のないことだけ書いて、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%8D%E3%83%83%E3%83%88" target="_blank" rel="noopener">ネット</a>では誰とも<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E4%BA%A4%E6%B5%81" target="_blank" rel="noopener">交流</a>しないのが最適解になってきた。</p><p><a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%8D%E3%83%83%E3%83%88" target="_blank" rel="noopener">ネット</a>で発信すること<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E8%87%AA%E4%BD%93" target="_blank" rel="noopener">自体</a>が<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%AA%E3%82%B9%E3%82%AF" target="_blank" rel="noopener">リスク</a>だし、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88" target="_blank" rel="noopener">メリット</a>ないし、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E4%B8%8D%E5%BF%AB" target="_blank" rel="noopener">不快</a>な思いするだけっていう<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E4%B8%96%E7%95%8C" target="_blank" rel="noopener">世界</a>になりつつある。</p>
+<footer>@hatenaanond<cite><a href="https://anond.hatelabo.jp/20211017124401">https://anond.hatelabo.jp/20211017124401</a></cite></footer>
+</blockquote><script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script></li></ul></li>
+<li><p><a href="https://getmemex.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://getmemex.com/" alt="WorldBrain’s Memex"><span>WorldBrain’s Memex</span></a></p>
+<ul><li>Chrome 插件，除了可備份網頁成為書籤，也可畫線標註重點，或於其上加入文字註記與標籤，並可設計客製化的匯出格式，方便整合至其他筆記軟體內。</li></ul></li>
+<li><p><a href="https://web.hypothes.is/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://web.hypothes.is/" alt="Hypothesis"><span>Hypothesis</span></a></p>
+<ul><li>Chrome 插件，可共同協作註解或劃記並討論一篇網頁文章的內容。</li></ul></li></ul>
+<h2 id="js-id-遠端協作">遠端協作</h2>
+<ul><li>Webex</li>
+<li>Jitsi</li>
+<li>Splashtop</li></ul>
+<h2 id="js-id-影音播放">影音播放</h2>
+<table class="svelte-11nrc9w"><thead><tr><th>名稱</th>
+<th>說明</th>
+<th>付費</th></tr></thead>
+<tbody><tr><td class="svelte-11nrc9w"><a href="https://mpv.io/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://mpv.io/" alt="mpv"><span>mpv</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.foobar2000.org/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.foobar2000.org/" alt="Foobar2000"><span>Foobar2000</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://mangameeya.softonic.jp/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://mangameeya.softonic.jp/" alt="MangaMeeya"><span>MangaMeeya</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/sylikc/jpegview" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/sylikc/jpegview" alt="JPEGView"><span>JPEGView</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr></tbody></table>
+<h3>MangaMeeya</h3>
+<ul><li><a href="https://geolog.mydns.jp/www.geocities.co.jp/comicview7/meeya_avisynth/avisynth.html" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://geolog.mydns.jp/www.geocities.co.jp/comicview7/meeya_avisynth/avisynth.html" alt="Avisynth を活用しよう"><span>Avisynth を活用しよう</span></a></li>
+<li><a href="https://www.avisynth.info/?%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.avisynth.info/?%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96" alt="アーカイブ - AviSynth.info"><span>アーカイブ - AviSynth.info</span></a></li></ul>
+<pre class="language-undefined"><!-- HTML_TAG_START --><code class="language-undefined">縦横比固定リサイズ(1.5,0,0,false,false,false,false,false,false,true);
+YUY2へ変換(false)
+WarpSharp(-20,3,128,-0.6)
+KenKunNR(256,1,128)
+アンシャープマスク(130,2,0)
+RGB24へ変換(false)</code><!-- HTML_TAG_END --></pre>
+<h3>JPEGView</h3>
+<pre class="language-ini"><!-- HTML_TAG_START --><code class="language-ini"><span class="token key attr-name">ShowFullScreen</span><span class="token punctuation">=</span><span class="token value attr-value">false</span>
+<span class="token key attr-name">WrapAroundFolder</span><span class="token punctuation">=</span><span class="token value attr-value">false</span>
+<span class="token key attr-name">SkipFileOpenDialogOnStartup</span><span class="token punctuation">=</span><span class="token value attr-value">true</span>
+<span class="token key attr-name">AutoZoomMode</span><span class="token punctuation">=</span><span class="token value attr-value">Fit</span>
+<span class="token key attr-name">IniEditor</span><span class="token punctuation">=</span><span class="token value attr-value">system</span></code><!-- HTML_TAG_END --></pre>
+<h2 id="js-id-下載">下載</h2>
+<table class="svelte-11nrc9w"><thead><tr><th>名稱</th>
+<th>說明</th>
+<th>付費</th></tr></thead>
+<tbody><tr><td class="svelte-11nrc9w"><a href="http://jdownloader.org/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=http://jdownloader.org/" alt="JDownloader"><span>JDownloader</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://transmissionbt.com/download/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://transmissionbt.com/download/" alt="Tranmission QT"><span>Tranmission QT</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://mrs0m30n3.github.io/youtube-dl-gui/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://mrs0m30n3.github.io/youtube-dl-gui/" alt="Youtube-dl"><span>Youtube-dl</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://www.douga-getter.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.douga-getter.com/" alt="動画ゲッター"><span>動画ゲッター</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://github.com/Franiac/TwitchLeecher/releases" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/Franiac/TwitchLeecher/releases" alt="TwitchLeecher"><span>TwitchLeecher</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://jp.videoproc.com/record/kakorokurecorder-download-install.htm" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://jp.videoproc.com/record/kakorokurecorder-download-install.htm" alt="kakorokuRecorder"><span>kakorokuRecorder</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://ch.nicovideo.jp/nico-lab/blomaga/ar8759" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://ch.nicovideo.jp/nico-lab/blomaga/ar8759" alt="ニコ生の録画方法 まとめ"><span>ニコ生の録画方法 まとめ</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr>
+<tr><td class="svelte-11nrc9w"><a href="https://weils.net/blog/2017/01/10/flickr-downloader-%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BC%89%E5%99%A8/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://weils.net/blog/2017/01/10/flickr-downloader-%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BC%89%E5%99%A8/" alt="FlickrDownloader"><span>FlickrDownloader</span></a></td>
+<td class="svelte-11nrc9w"></td>
+<td class="svelte-11nrc9w"></td></tr></tbody></table>
+<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-系統').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">系統</a></li><li><a href="#" onclick="document.querySelector('#js-id-os').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">OS</a></li><li><a href="#" onclick="document.querySelector('#js-id-建構全平台通用的環境').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">建構全平台通用的環境</a></li><li><a href="#" onclick="document.querySelector('#js-id-檔案').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">檔案</a></li><li><a href="#" onclick="document.querySelector('#js-id-文件').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">文件</a></li><li><a href="#" onclick="document.querySelector('#js-id-網路').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">網路</a></li><li><a href="#" onclick="document.querySelector('#js-id-遠端協作').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">遠端協作</a></li><li><a href="#" onclick="document.querySelector('#js-id-影音播放').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">影音播放</a></li><li><a href="#" onclick="document.querySelector('#js-id-下載').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">下載</a></li></ul></div>
+    <span class="blink svelte-1kip24n">_</span></article>
+  
+
+<div class="back-to-top svelte-1p7rwza hidden" style="right: 2em">Back to top
+</div>
+</div></main>
+
+  <footer scoped class="svelte-qi6xiu"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noreferrer noopener nofollow">CC BY-NC-SA 4.0
+  </a>
+  <div class="right svelte-qi6xiu">Made with <span class="heart svelte-qi6xiu">❤️</span> and
+    <a href="https://kit.svelte.dev/" target="_blank" ref="noreferrer noopener nofollow">SvelteKit
+    </a></div>
+</footer>
+</div>
+
+
+		<script type="module" data-hydrate="1icwwoz">
+		import { start } from "/_app/start-d72d80ec.js";
+		start({
+			target: document.querySelector('[data-hydrate="1icwwoz"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-ed14fb1c.js"),
+						import("/_app/pages/_slug_.svelte-5a2f0205.js")
+				],
+				params: {slug:"tool-list-system"},
+				routeId: "[slug]"
+			}
+		});
+	</script>
+  </body>
+</html>
