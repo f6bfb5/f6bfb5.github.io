@@ -15,6 +15,7 @@ const config = {
       pages: "build",
       assets: "build",
       fallback: null,
+      precompress: true,
     }),
     paths: {
       base: "",
