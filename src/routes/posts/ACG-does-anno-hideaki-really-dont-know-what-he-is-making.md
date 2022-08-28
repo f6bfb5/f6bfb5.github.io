@@ -53,6 +53,8 @@ tags: ACG, Anime
 
 但當狀況已經變成脫離作品，開始有人把矛頭指回作者說「庵野自己也不懂」，或是氣憤指責「敷衍」、「偷懶」…etc. 這是既抓作者出來護航又抹殺作者話語權的詭異狀態，作者已死是這些人在說，作者不懂也是這些人在說，最後連作者意志或作者話語都變成這些人二次創作的一部份，那麼，這些人究竟是要討論作者，還是不討論？
 
+---
+
 ![pic 8](https://i.imgur.com/NZufCq8.jpg)
 
 > 什麼是巨大機器人動畫的魅力？
@@ -104,3 +106,10 @@ tags: ACG, Anime
 - [庵野秀明訪談集＋α](https://hackmd.io/bDxomgBqS9GOPGODekSkYg)
 - [The End of Evangelion 中的恐嚇信](http://orgsun.blogspot.com/2011/05/end-of-evangelion.html)
 - [PAS 動畫評論 次文化與末世論](./ACG-Pause-And-Select-Apocalypse)
+
+<style>
+  img[alt='pic 3'],
+  img[alt='pic 4'] {
+    width: 400px;
+  }
+</style>
