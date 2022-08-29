@@ -514,6 +514,10 @@ flowchart TB
 
 ■[Steam API all games](https://stackoverflow.com/questions/46330864/steam-api-all-games)
 
+<span class="sliver-glitter">███████████</span>
+
+<span class="gold-glitter">███████████</span>
+
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
   import BalloonQuote from "$lib/BalloonQuote.svelte";
@@ -703,5 +707,28 @@ flowchart TB
   }
   .skew-button-text:hover::before {
     background-color: rgba(255, 255, 255, .2);
+  }
+
+  .sliver-glitter {
+    background-image: repeating-linear-gradient(75deg, #555555 0, #999999 25px, #f3f3f3 40px, #999999 65px, #555555 100px);
+  }
+  .gold-glitter {
+    background-image: repeating-linear-gradient(75deg, #b67b03 0, #daaf08 15px, #fee9a0 30px, #daaf08 55px, #b67b03 90px, #b67b03 100px);
+  }
+  .sliver-glitter,
+  .gold-glitter {
+    background-size: 300vw 100px;
+    color: transparent;
+    animation: glitter 1.5s linear infinite;
+  }
+  @keyframes glitter {
+    0% {
+      background-position-x: 150vw;
+      background-position-y: 50px;
+    }
+    100% {
+      background-position-x: calc(150vw - 96.5926px);
+      background-position-y: calc(50px + 25.8819px);
+    }
   }
 </style>
