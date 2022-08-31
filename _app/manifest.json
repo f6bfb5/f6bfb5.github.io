@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-b0258c94.js",
+    "file": "start-db6882ba.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -18,7 +18,7 @@
       "src/routes/index.svelte",
       "_2020-what-i-have-read-on-internet-2b69f846.js",
       "_2021-what-i-have-read-on-internet-8102fc0d.js",
-      "_2022-what-i-have-read-on-internet-2d4ff0d5.js",
+      "_2022-what-i-have-read-on-internet-6a7bde77.js",
       "_ACG-Pause-And-Select-Apocalypse-ccd903de.js",
       "_ACG-char-counterattack-fans-interview-98624dc9.js",
       "_ACG-difference-of-director-and-producer-477c6764.js",
@@ -31,13 +31,13 @@
       "_ACG-making-of-linda3-56ff1650.js",
       "_ACG-note-cd54ef6d.js",
       "_ACG-one-way-heroics-all-achievement-note-1b9cf85d.js",
-      "_ACG-random-thoughts-about-rockman-x-dive-af50fd4a.js",
+      "_ACG-random-thoughts-about-rockman-x-dive-507a0e61.js",
       "_ACG-rockman-1-tas-glitch-4e36ba0d.js",
       "_ACG-seino-tooru-2ba56a71.js",
       "_ACG-serial-experiments-lain-for-ps-3b9edaed.js",
       "_ACG-super-manga-book-list-d6ceaacb.js",
       "_ACG-the-influences-of-naoko-yamada-94c69981.js",
-      "_ACG-why-you-should-not-use-interpolation-on-anime-5fefff91.js",
+      "_ACG-why-you-should-not-use-interpolation-on-anime-fdedd571.js",
       "_ACG-yume-no-shima-de-aimashou-2fe08dc9.js",
       "_auto-generate-eyecatch-image-for-blog-2bced292.js",
       "_autohotkey-note-9a992827.js",
@@ -70,13 +70,13 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-11de75df.js",
+    "file": "pages/__layout.svelte-1e6995d0.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-23d5ae1c.js",
-      "_store-cd4a7240.js",
+      "_store-f6425ea4.js",
       "_paths-396f020f.js",
       "_index-db251831.js"
     ],
@@ -122,14 +122,14 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-5f101522.js",
+    "file": "pages/_slug_.svelte-2245fcda.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-2b69f846.js",
       "_2021-what-i-have-read-on-internet-8102fc0d.js",
-      "_2022-what-i-have-read-on-internet-2d4ff0d5.js",
+      "_2022-what-i-have-read-on-internet-6a7bde77.js",
       "_ACG-Pause-And-Select-Apocalypse-ccd903de.js",
       "_ACG-char-counterattack-fans-interview-98624dc9.js",
       "_ACG-difference-of-director-and-producer-477c6764.js",
@@ -142,13 +142,13 @@
       "_ACG-making-of-linda3-56ff1650.js",
       "_ACG-note-cd54ef6d.js",
       "_ACG-one-way-heroics-all-achievement-note-1b9cf85d.js",
-      "_ACG-random-thoughts-about-rockman-x-dive-af50fd4a.js",
+      "_ACG-random-thoughts-about-rockman-x-dive-507a0e61.js",
       "_ACG-rockman-1-tas-glitch-4e36ba0d.js",
       "_ACG-seino-tooru-2ba56a71.js",
       "_ACG-serial-experiments-lain-for-ps-3b9edaed.js",
       "_ACG-super-manga-book-list-d6ceaacb.js",
       "_ACG-the-influences-of-naoko-yamada-94c69981.js",
-      "_ACG-why-you-should-not-use-interpolation-on-anime-5fefff91.js",
+      "_ACG-why-you-should-not-use-interpolation-on-anime-fdedd571.js",
       "_ACG-yume-no-shima-de-aimashou-2fe08dc9.js",
       "_auto-generate-eyecatch-image-for-blog-2bced292.js",
       "_autohotkey-note-9a992827.js",
@@ -184,13 +184,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-a7279239.js",
+    "file": "pages/about.svelte-75939cab.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-23d5ae1c.js",
-      "_store-cd4a7240.js",
+      "_store-f6425ea4.js",
       "_index-db251831.js"
     ],
     "css": [
@@ -198,14 +198,14 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-5a795c0e.js",
+    "file": "pages/index.svelte-b5762d8a.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_2020-what-i-have-read-on-internet-2b69f846.js",
       "_2021-what-i-have-read-on-internet-8102fc0d.js",
-      "_2022-what-i-have-read-on-internet-2d4ff0d5.js",
+      "_2022-what-i-have-read-on-internet-6a7bde77.js",
       "_ACG-Pause-And-Select-Apocalypse-ccd903de.js",
       "_ACG-char-counterattack-fans-interview-98624dc9.js",
       "_ACG-difference-of-director-and-producer-477c6764.js",
@@ -218,13 +218,13 @@
       "_ACG-making-of-linda3-56ff1650.js",
       "_ACG-note-cd54ef6d.js",
       "_ACG-one-way-heroics-all-achievement-note-1b9cf85d.js",
-      "_ACG-random-thoughts-about-rockman-x-dive-af50fd4a.js",
+      "_ACG-random-thoughts-about-rockman-x-dive-507a0e61.js",
       "_ACG-rockman-1-tas-glitch-4e36ba0d.js",
       "_ACG-seino-tooru-2ba56a71.js",
       "_ACG-serial-experiments-lain-for-ps-3b9edaed.js",
       "_ACG-super-manga-book-list-d6ceaacb.js",
       "_ACG-the-influences-of-naoko-yamada-94c69981.js",
-      "_ACG-why-you-should-not-use-interpolation-on-anime-5fefff91.js",
+      "_ACG-why-you-should-not-use-interpolation-on-anime-fdedd571.js",
       "_ACG-yume-no-shima-de-aimashou-2fe08dc9.js",
       "_auto-generate-eyecatch-image-for-blog-2bced292.js",
       "_autohotkey-note-9a992827.js",
@@ -252,7 +252,7 @@
       "_what-nft-is-not-26123592.js",
       "_why-is-life-so-boring-bcc6962f.js",
       "_index-23d5ae1c.js",
-      "_store-cd4a7240.js",
+      "_store-f6425ea4.js",
       "_LibLoader-b5d0cb9e.js",
       "_paths-396f020f.js",
       "__post-238a1a9a.js",
@@ -326,13 +326,13 @@
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-c8d51727.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-85c61046.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-23d5ae1c.js",
       "__post-238a1a9a.js",
-      "_2022-what-i-have-read-on-internet-2d4ff0d5.js",
+      "_2022-what-i-have-read-on-internet-6a7bde77.js",
       "_BlinkAnchor-39bb7771.js"
     ]
   },
@@ -469,14 +469,14 @@
     ]
   },
   "src/routes/posts/ACG-random-thoughts-about-rockman-x-dive.md": {
-    "file": "pages/posts/ACG-random-thoughts-about-rockman-x-dive.md-af8996d7.js",
+    "file": "pages/posts/ACG-random-thoughts-about-rockman-x-dive.md-48288e43.js",
     "src": "src/routes/posts/ACG-random-thoughts-about-rockman-x-dive.md",
     "isEntry": true,
     "imports": [
       "_index-23d5ae1c.js",
       "__post-238a1a9a.js",
       "_AutomaticColorText-de3c9be3.js",
-      "_ACG-random-thoughts-about-rockman-x-dive-af50fd4a.js",
+      "_ACG-random-thoughts-about-rockman-x-dive-507a0e61.js",
       "_BlinkAnchor-39bb7771.js"
     ]
   },
@@ -536,13 +536,13 @@
     ]
   },
   "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md": {
-    "file": "pages/posts/ACG-why-you-should-not-use-interpolation-on-anime.md-0f2486ca.js",
+    "file": "pages/posts/ACG-why-you-should-not-use-interpolation-on-anime.md-dd8b1caf.js",
     "src": "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md",
     "isEntry": true,
     "imports": [
       "_index-23d5ae1c.js",
       "__post-238a1a9a.js",
-      "_ACG-why-you-should-not-use-interpolation-on-anime-5fefff91.js",
+      "_ACG-why-you-should-not-use-interpolation-on-anime-fdedd571.js",
       "_BlinkAnchor-39bb7771.js"
     ]
   },
@@ -847,8 +847,8 @@
   "_paths-396f020f.js": {
     "file": "chunks/paths-396f020f.js"
   },
-  "_store-cd4a7240.js": {
-    "file": "chunks/store-cd4a7240.js",
+  "_store-f6425ea4.js": {
+    "file": "chunks/store-f6425ea4.js",
     "imports": [
       "_index-db251831.js"
     ]
@@ -878,8 +878,8 @@
       "__post-238a1a9a.js"
     ]
   },
-  "_2022-what-i-have-read-on-internet-2d4ff0d5.js": {
-    "file": "chunks/2022-what-i-have-read-on-internet-2d4ff0d5.js",
+  "_2022-what-i-have-read-on-internet-6a7bde77.js": {
+    "file": "chunks/2022-what-i-have-read-on-internet-6a7bde77.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-23d5ae1c.js",
@@ -988,8 +988,8 @@
       "assets/ACG-one-way-heroics-all-achievement-note-a5c5ad12.css"
     ]
   },
-  "_ACG-random-thoughts-about-rockman-x-dive-af50fd4a.js": {
-    "file": "chunks/ACG-random-thoughts-about-rockman-x-dive-af50fd4a.js",
+  "_ACG-random-thoughts-about-rockman-x-dive-507a0e61.js": {
+    "file": "chunks/ACG-random-thoughts-about-rockman-x-dive-507a0e61.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-23d5ae1c.js",
@@ -1037,8 +1037,8 @@
       "__post-238a1a9a.js"
     ]
   },
-  "_ACG-why-you-should-not-use-interpolation-on-anime-5fefff91.js": {
-    "file": "chunks/ACG-why-you-should-not-use-interpolation-on-anime-5fefff91.js",
+  "_ACG-why-you-should-not-use-interpolation-on-anime-fdedd571.js": {
+    "file": "chunks/ACG-why-you-should-not-use-interpolation-on-anime-fdedd571.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-23d5ae1c.js",
@@ -1212,7 +1212,7 @@
       "__post-238a1a9a.js"
     ],
     "css": [
-      "assets/tool-list-creativity-74747bfb.css"
+      "assets/tool-list-system-90e7347a.css"
     ]
   },
   "_tool-list-gaming-05858057.js": {
@@ -1223,7 +1223,7 @@
       "__post-238a1a9a.js"
     ],
     "css": [
-      "assets/tool-list-creativity-74747bfb.css"
+      "assets/tool-list-system-90e7347a.css"
     ]
   },
   "_tool-list-system-69b8f5a4.js": {
@@ -1234,7 +1234,7 @@
       "__post-238a1a9a.js"
     ],
     "css": [
-      "assets/tool-list-creativity-74747bfb.css"
+      "assets/tool-list-system-90e7347a.css"
     ]
   },
   "_tool-list-website-ec5a6060.js": {
