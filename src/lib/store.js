@@ -120,6 +120,9 @@ export const logoLinks = readable([
   "https://www.youtube.com/watch?v=oo5F2WVtLA8&t",
   // 【#001】作画オタクVTuber、自己紹介します！
   "https://www.youtube.com/watch?v=RqkAgWTZ98w",
+  // 時間は空間から作られる 熱帯雨林気候が時間の概念を破壊する
+  "https://www.youtube.com/watch?v=vvV5sz597JY",
+  //
   // Nico
   // ----
   // ニコ厨と見るニコニコで流行ったアニメ
@@ -240,7 +243,8 @@ export const marqueeTexts = readable([
   "「私には愛する人などいないし、自分自身もいつ死んでもかまわないと思っている」という応答に強い説得力があるのは、自分がいつ死んでもよいと思っている者に対して、いかなる倫理も無力であることを、それが教えてくれるからである。何よりまず自分の生を基本的に肯定していること、それがあらゆる倫理性の基盤であって、その逆ではない。それがニーチェの主張である。だから、子供の教育において第一になすべきことは、道徳を教えることではなく、人生が楽しいということを、つまり自己の生が根源において肯定されるべきものであることを、体に覚え込ませてやることなのである。生を肯定できない者にとっては、あらゆる倫理は空しい。この優先順位を逆転させることはできない。",
   "「なんとかなるよ、絶対だいじょうぶだよ」",
   "ネタからベタへ",
-  "土地の独占所有は社会を腐らせる。GAFAはユーザーが離れたら終わりだが、土地所有は永遠。",
+  "土地の独占所有は社会を腐らせる。GAFA はユーザーが離れたら終わりだが、土地所有は永遠。",
+  "自分たちと異なる存在を、叩くことは簡単だ。だが彼は、どこまでも分かり合おうとした。どんなに対立しても、分かり合えると信じ続けた。たとえ裏切られ、傷つき、倒れ、力尽きても。なぜなら彼はお互いの理解の先にこそ、希望があると知っていたから。彼の背中を目指し、わたしたちは歩んでいきたい。55 年前に、未来があった。",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",
@@ -390,6 +394,8 @@ export const aboutLinks = readable([
   "https://intersection.tw/%E6%88%91%E6%BC%B8%E6%BC%B8%E4%B8%8D%E4%BF%A1%E4%BB%BB-ux-%E7%9A%84%E5%8E%9F%E5%9B%A0-c9ea15dd2ca7",
   // How I experience web today
   "https://how-i-experience-web-today.com/",
+  // 003 别喂巨魔
+  "https://www.youtube.com/watch?v=E4Z3c4mvSgM",
   // ========================================
   // 正直的人
   "https://yclou.blogspot.com/2015/07/blog-post_20.html",

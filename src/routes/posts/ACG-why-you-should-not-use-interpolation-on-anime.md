@@ -29,7 +29,7 @@ tags: ACG, Anime
 - [節奏緩急相同時的拍數與作畫張數差異](https://www.facebook.com/ffyak/videos/10213699186933999/)
 - [井上俊之的作畫](https://www.facebook.com/ffyak/posts/10213742312972123)
 
-上面例子可以很好地看出，**人腦會擅自補足中間缺乏的資訊，從而感受到迅速、柔軟、強硬、沉重…等等各種不同表現感**，尤其像是金田伊功、今石洋介這種創作者特有的高動態高張力畫面，可說是最好的代表。補幀軟體會抹煞這種創作者意圖表現的節奏效果，而讓整部作品看起來如出一轍，平凡無趣，也會破壞原本的畫面作畫，這也是很多人會說動畫補幀後，會有種不自然的「油畫感」的由來，這是第二個原因，**創作者的企圖性**。
+上面例子可以很好地看出，**人腦會擅自補足中間缺乏的資訊，從而感受到迅速、柔軟、強硬、沉重…等等各種不同表現感**，尤其像是金田伊功、今石洋介這種創作者特有的高動態高張力畫面，可說是最好的代表。補幀軟體會抹煞這種創作者意圖表現的節奏效果，而讓整部作品看起來如出一轍，平凡無趣，也會破壞原本的畫面作畫，這也是很多人會說動畫補幀後，會有種不自然的「油膩感」的由來，這是第二個原因，**創作者的企圖性**。
 
 <iframe width="560" height="315" title="Animation basics: The art of timing and spacing - TED-Ed" src="https://www.youtube.com/embed/KRVhtMxQWRs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
