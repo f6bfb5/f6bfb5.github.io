@@ -321,6 +321,7 @@ ruby {
 rb,
 rt {
   display: inline;
+  align-self: center;
 }
 rt {
   user-select: none;
