@@ -27,7 +27,7 @@ tags: ACG, Game
  <div style="margin: .25em auto 1em; padding: 4px 2px; width: fit-content; transform: skewX(-10deg); font-size: 2em; color: white; background: black;">以下內容含有劇情透露</div>
 
 <button on:click={() => {
-isTasksDoneArr = '[true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,true,false,false,true,false,false,false,false,true,true,false,false,false,false,false,false]';
+isTasksDoneArr = '[true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,false,true,true,false,false,false,true,true,false,false,false,false,false,false]';
 newTasksDoneArrHandler();
 }}>My progress</button>
 
@@ -148,7 +148,7 @@ newTasksDoneArrHandler();
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
 | [X] 妖精イーリス   | 於「普通旅程」擊破魔王                                                                                                           |
 | [X] 妖精イーリス２ | 於「艱困旅程」擊破魔王                                                                                                           |
-| [ ] 妖精イーリス３     | 擊破闇之龍                                                                                                                       |
+| [X] 妖精イーリス３     | 擊破闇之龍                                                                                                                       |
 | [ ] 妖精イーリス４     | 於「對人類來說還太早了旅程」擊破魔王                                                                                             |
 | [X] 傭兵パンティ   | 解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                                                                       |
 | [X] ヴィクター王   | 解鎖第三次好感度事件，並擊破魔王                                                                                                 |
@@ -157,7 +157,7 @@ newTasksDoneArrHandler();
 | [ ] デュークガルツ     | 解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                                                                       |
 | [X] ネムリ         | 解鎖第三次好感度事件（第四次若選擇「恐いからいらない」則無法進入結局劇情），並擊破魔王 or 闇之龍                                 |
 | [ ] ネムリ＋           | 解鎖第三次好感度事件（第四次若選擇「恐いからいらない」則無法進入結局劇情），並於持有除闇之書的狀態下，在獸化前擊破魔王 or 闇之龍 |
-| [ ] 魔王               | 魔王成為夥伴並且生存的狀態下擊破闇之龍                                                                                           |
+| [X] 魔王               | 魔王成為夥伴並且生存的狀態下擊破闇之龍                                                                                           |
 | [X] 少女ミラ       | 保護後，若於 300km 過後遇見父親會觸發夥伴事件，之後解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                    |
 | [X] アルバート     | 解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                                                                       |
 | [X] 世界の果て     | 首次抵達 2000 km 會強制進入結局劇情                                                                                              |

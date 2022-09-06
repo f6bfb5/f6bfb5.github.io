@@ -101,6 +101,13 @@ table td:nth-child(3) {
 - [lubuntu](https://lubuntu.me/)
 - [Android-x86](https://www.android-x86.org/)
 
+### not recognized as internal or external command
+
+- `Win + R` -> `sysdm.cpl`
+- Advanced -> Environment Variables...
+- PATH -> Add Program Path
+  - `%SYSTEMROOT%\System32`
+
 ## 建構全平台通用的環境
 
 - [開発環境へのこだわり](https://speakerdeck.com/hsbt/kai-fa-huan-jing-hefalsekodawari)

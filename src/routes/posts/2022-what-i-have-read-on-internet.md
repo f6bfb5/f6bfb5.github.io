@@ -1523,6 +1523,7 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [黒染まる星／少年ジャンプ＋漫画賞 2022 年春期 - 乙畑閑](https://shonenjumpplus.com/episode/3270375685470814447)
 - [京都古本市で手に入れたというカナモジカイの漢字廃止計画表原著が興味深い](https://togetter.com/li/1937949)
 - [Midjourney、Stable Diffusion、mimic などの画像自動生成 AI と著作権](https://storialaw.jp/blog/8820)
+- [ハマ・オカモト × ゲーム実況者・shu3 対談　「好きなだけ」が武器になる 2 人の活動論](https://realsound.jp/tech/2022/08/post-1116466.html)
 - [30 代のオタク、再分配の必要に迫られる - ジゴワットレポート](https://www.jigowatt121.com/entry/2022/08/31/185624)
 
 ## 9 月
@@ -1538,13 +1539,47 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
   - [Re: [討論] 看有話好說談論中介法的感想](https://www.ptt.cc/bbs/HatePolitics/M.1661178986.A.766.html)
   - [網路戒嚴？數位中介法侵害言論自由了嗎？【時事評判】](https://www.youtube.com/watch?v=iX-qy-Wef8k)
 - [パキスタンの｢洪水｣ここまで深刻にした真犯人](https://toyokeizai.net/articles/-/614903)
-- [【漫画】古典教師と高校3年生の春になるまでの話→「最後の意味がわかってハッとした」](https://togetter.com/li/1938251)
-- [『ジョジョの奇妙な冒険 オールスターバトル』9年間もプレイし続けたプレイヤーへのインタビュー](https://news.denfaminicogamer.jp/interview/220831z)
-- [3Dプリンタで作ったコップ、水を入れて1週間水漏れが無く優秀だと思ったら…分解すると「食器は作らないほうがいい」という結論に](https://togetter.com/li/1938434)
+- [【漫画】古典教師と高校 3 年生の春になるまでの話 →「最後の意味がわかってハッとした」](https://togetter.com/li/1938251)
+- [『ジョジョの奇妙な冒険 オールスターバトル』9 年間もプレイし続けたプレイヤーへのインタビュー](https://news.denfaminicogamer.jp/interview/220831z)
+- [3D プリンタで作ったコップ、水を入れて 1 週間水漏れが無く優秀だと思ったら…分解すると「食器は作らないほうがいい」という結論に](https://togetter.com/li/1938434)
 - [弁護士だった山上容疑者のおじ、統一教会とどう対峙したのか　最後の仕事を語る](https://www.bengo4.com/c_1009/n_14939/)
-- [画像生成AI「Midjourney」の描いた絵が美術品評会で1位を取ってしまい人間のアーティストが激怒](https://gigazine.net/news/20220901-midjourney-win-fine-arts-competition/)
+- [画像生成 AI「Midjourney」の描いた絵が美術品評会で 1 位を取ってしまい人間のアーティストが激怒](https://gigazine.net/news/20220901-midjourney-win-fine-arts-competition/)
 - [語彙力半端ない友人に「どうしたらそんなに言葉が溢れてくるのか」と聞いたら、さらっと衝撃のエピソードが飛び出した](https://togetter.com/li/1938448)
 - [盗作被害の記録](https://note.com/poetry_aluminium/n/nee75411200c5)
-- [pixivごと転載する中華サイト「vpixiv」に対して絵師が"魔法の言葉"を発動させて撃退](https://togetter.com/li/1938552)
-- [帰省していた息子さんが下宿先に戻る→息子さんが好きすぎてお部屋で健気に待つ猫様の泣かせる1枚がこちら](https://togetter.com/li/1938439)
-- ["男性なら"いいの？ 男性脱衣所に防犯カメラ設置7割](https://www3.nhk.or.jp/news/html/20220901/k10013791231000.html)
+- [pixiv ごと転載する中華サイト「vpixiv」に対して絵師が"魔法の言葉"を発動させて撃退](https://togetter.com/li/1938552)
+- [帰省していた息子さんが下宿先に戻る → 息子さんが好きすぎてお部屋で健気に待つ猫様の泣かせる 1 枚がこちら](https://togetter.com/li/1938439)
+- ["男性なら"いいの？ 男性脱衣所に防犯カメラ設置 7 割](https://www3.nhk.or.jp/news/html/20220901/k10013791231000.html)
+- ["正解の音たち"](https://twitter.com/usasa21/status/1565536751942176768)
+- [ゲーム開発者から見た PlayStation のヤバさ](https://note.com/eiki_okuma/n/n1e6790377d4b)
+- [SNS などでの誹謗中傷の案件を受けてくれる弁護士さんが増えている。依頼したい人向けの方法から実体験までまとめ](https://togetter.com/li/1938440)
+- [消費者庁すら何も言えなかった、『１０連生徒ガチャのはずが家元排出率１０００％』のガチャが凄い](https://togetter.com/li/1937964)
+- [「差別体験授業」を受けた大学生に何が起こったか。漂う諦めと、強烈な不快感](https://www.huffingtonpost.jp/entry/story_jp_6308472de4b0dc23bbe73ce8)
+- [ワークライフバランスブレイカー - 空もずく/十森ひごろ](https://shonenjumpplus.com/episode/316112896806207381)
+- [「論文」にかかるカネの話](https://twitter.com/nagatarj/status/1565312244799643648)
+- [最近の北米での日本漫画の売上爆増が凄いという話と、一方でアメコミは「ポリコレ」で滅びつつあるという話は本当か？から考える、日本漫画が今後進むべき方向について。](https://note.com/keizokuramoto/n/ne75caeda154a)
+- [あのエネオスは元々どのブランドだったのか - 電車待ちに読むブログ](https://bassa2015.hatenablog.com/entry/2022/08/30/060041)
+- [20 年近く物書きをやってるが、ここ数年で「日本語がどこも間違ってないのに修正しようとする」校正が増えてきた](https://togetter.com/li/1939091)
+- [昭和の「戦え」から、「戦おう」「戦うんだ」へ。"ヒーローソングの達人"藤林聖子が語る仮面ライダー歌詞の変遷](https://shueisha.online/entertainment/49356)
+- [クソみたいなラーメン作ってる](https://anond.hatelabo.jp/20220902230321)
+- [どこから来て迷い込んだ…？新宿駅構内にタヌキが闊歩していると目撃証言があがる](https://togetter.com/li/1939228)
+- [貧困について書くと悪辣なＤＭが大量に届く この日本社会で](https://www.newsweekjapan.jp/nippon/season2/2022/09/405331.php)
+- [共感格差 - データをいろいろ見てみる](https://shioshio3.hatenablog.com/entry/2022/09/03/191426)
+  -「同感」是帶有政治性、社會性的資源
+    - 會依身份進行分配（女性、黑人、LGBT、勞工、白人小孩…etc.）
+    - 與物理的資產同樣有分配落差
+    - 主要透過大眾媒體進行分配
+  - 從統計分析能看出媒體的提及並不平等
+    - 以 2010-2015 年媒體推文為例，提及 LGBT 的有 9664 件
+    - 白人的困境則是 77 件（白人特權有 1124 件），藍領階級、勞工階層只有 60 件
+    - 2010 年後因為藥物、酒精、自殺而死亡的人裡，大學學歷以下的白人佔最多數
+    - 川普便因為這份共感真空而獲得支持，於 2016 當選總統，鴉片類藥物問題也開始受到關注
+    - [Michael Moore 麥可·摩爾 對川普現象的精闢解釋](https://www.youtube.com/watch?v=pJz3OjgEIEA)
+  - 所有人都無法獲救某種層面上是平等的，只有自己無法獲救則會變成憤怒的扳機
+- [「ディズニー映画の舞踏会でドレスを着た黒人がいて違和感しかなかった」18世紀は植民地の黒人との混血が進み、黒い肌の貴族も存在した](https://togetter.com/li/1939652)
+- [「好きで始めたはずだろ」絵を描く苦しみを表現したイラストに胸が苦しくなる。そして、その絵の真意を知ったときに鳥肌が立つ。](https://togetter.com/li/1939552)
+- [「日本が衰退するのが見えている中、どのような心構えで日々過ごしていますか？」→「私はそこまで悲観せず暮らしてます」 - 斗比主閲子の姑日記](https://topisyu.hatenablog.com/entry/2022/09/04/073000)
+- [横嶋じゃのめ先生のマンガ「母がなくなりました」の母の人生を背負った娘の生き様に涙](https://togetter.com/li/1939917)
+- [「校則データベース」を開発する現役高校生 理不尽な校則がない社会へ](https://www.nhk.or.jp/gendai/comment/0012/topic030.html)
+- [日本最大の地熱発電所で展示されてたパイプの断面が衝撃的「地熱発電、難しいんだな…」](https://togetter.com/li/1940069)
+- [知るかバカうどんについて、私が知っているすべてのこと - 村 村](https://msknmr.hatenablog.com/entry/2022/09/04/000000)
+- [初めての夜行バスで真夜中の京都に放り出された回](https://togetter.com/li/1940457)
