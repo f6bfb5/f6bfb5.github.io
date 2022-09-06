@@ -5,13 +5,20 @@
     <link>https://f6bfb5.github.io</link>
     <description>Close the world,.txEn eht nepO</description>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 02 Sep 2022 13:12:44 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Sep 2022 13:27:22 GMT</lastBuildDate>
     
       <item>
         <title>2022 年，我在網路上看了些什麼</title>
         <link>https://f6bfb5.github.io/2022-what-i-have-read-on-internet</link>
         <pubDate>2022-12-31T06:00:00.000Z</pubDate>
         <description>這是我 2022 年時，在網路上看過的文章。</description>
+      </item>
+    
+      <item>
+        <title>Eleventy 雜記</title>
+        <link>https://f6bfb5.github.io/11ty-note</link>
+        <pubDate>2022-09-03T21:55:00.000Z</pubDate>
+        
       </item>
     
       <item>

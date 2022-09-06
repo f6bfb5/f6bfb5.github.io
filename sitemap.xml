@@ -9,14 +9,20 @@
   >
   <url>
     <loc>https://f6bfb5.github.io</loc>
-    <lastmod>2022-09-02T13:12:44.263Z</lastmod>
+    <lastmod>2022-09-06T13:27:22.216Z</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://f6bfb5.github.io/about</loc>
-    <lastmod>2022-09-02T13:12:44.263Z</lastmod>
+    <lastmod>2022-09-06T13:27:22.216Z</lastmod>
     <priority>1.00</priority>
   </url>
+  
+    <url>
+      <loc>https://f6bfb5.github.io/11ty-note</loc>
+      <lastmod>2022-09-03T21:55:00.000Z</lastmod>
+      <priority>0.80</priority>
+    </url>
   
     <url>
       <loc>https://f6bfb5.github.io/2020-what-i-have-read-on-internet</loc>

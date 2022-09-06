@@ -1,0 +1,1 @@
+import"../../chunks/index-23d5ae1c.js";import"../../chunks/_post-238a1a9a.js";import"../../chunks/BalloonQuote2-516ebad2.js";import{T as e,m as d}from"../../chunks/template-70dd3b0f.js";import"../../chunks/AutomaticColorText-de3c9be3.js";import"../../chunks/BlinkAnchor-39bb7771.js";export{e as default,d as metadata};
