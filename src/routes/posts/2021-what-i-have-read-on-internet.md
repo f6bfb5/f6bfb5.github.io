@@ -635,3 +635,13 @@ summary: "這是我 2021 年時，在網路上看過的文章。"
 - [2021 年、変わった宇宙ニュースが過去イチ多かった年でした。写真でふりかえってみよう](https://www.gizmodo.jp/2021/12/2021-space-news-gallery.html)
 - [「令和最初のクソゲー」と騒がれた『ファイナルソード』を 1 年半やり込み続けた男がいた。RTA 走者ふぃすさんインタビュー、まさかの続編の存在も判明](https://news.denfaminicogamer.jp/interview/211230z)
 - [ニコニコ 2021 年エンドロール](https://www.nicovideo.jp/watch/sm39815706)
+
+<style scoped>
+li a {
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  white-space: nowrap;
+
+  display: list-item;
+}
+</style>

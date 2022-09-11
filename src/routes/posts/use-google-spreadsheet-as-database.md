@@ -396,6 +396,9 @@ function onEdit(e) {
       const colLength = array[0].length;
       sheet.getRange(1, 1, rowLength, colLength).setValues(array);
       ```
+- 建立觸發函式按鈕
+  - Insert -> Drawing -> Shape 選擇任意圖案後輸入文字 -> Save and close
+  - 右鍵點擊圖案 -> 點擊圖案右上角的三點圖示 -> Assign script -> 輸入要綁定的函式名稱（不需參數括弧）
 - [Utilities](https://developers.google.com/apps-script/reference/utilities/utilities)
   - Timestamp
     - `Utilities.formatDate(new Date(), "Asia/Taipei", "顯示格式");`

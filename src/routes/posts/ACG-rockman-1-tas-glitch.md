@@ -24,11 +24,11 @@ summary: "2014 年 5 月，遊戲圈出現了一支使用輔助程式，在「�
 
 ### DelayObjectFFGlitch 技巧
 
-在《洛克人 1》裡，當洛克人經過特定地圖的某些地點後，會出現不可視的「`0xFF`」物件（後稱 `FF 物件`）。例如 Ice Man 關卡的此處：
+在《洛克人 1》裡，當洛克人經過特定地圖的某些地點後，會出現不可視的「`0xFF` 物件」（後稱 `FF 物件`）。例如 Ice Man 關卡的此處：
 
 ![img01](https://i.imgur.com/FZkBQwv.gif)
 
-<p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△ 「0xFF」物件出現於畫面不可視之處</p>
+<p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△ 「0xFF 物件」出現於畫面不可視之處</p>
 
 這個物件會讓影像處理單位（PPU, Picture Processing Unit）進行 Pattern Table Remap。推測是用於重新建置畫面的物件。
 

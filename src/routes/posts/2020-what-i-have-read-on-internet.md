@@ -472,3 +472,13 @@ summary: "這是我 2020 年時，在網路上看過的文章。"
 - [如何评价 Lex 重新定义了「动画」「动漫」「新番」？](https://www.zhihu.com/question/283348723)
 - [想定されたイメージを超える撮影表現](https://www.maxon.net/ja/article/a-photographic-expression-that-goes-beyond-the-expected-image)
 - [今敏監督を悼む - 物語る亀](https://blog.monogatarukame.net/entry/konsatoshi)
+
+<style scoped>
+li a {
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  white-space: nowrap;
+
+  display: list-item;
+}
+</style>

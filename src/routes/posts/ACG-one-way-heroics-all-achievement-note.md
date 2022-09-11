@@ -27,7 +27,7 @@ tags: ACG, Game
  <div style="margin: .25em auto 1em; padding: 4px 2px; width: fit-content; transform: skewX(-10deg); font-size: 2em; color: white; background: black;">以下內容含有劇情透露</div>
 
 <button on:click={() => {
-isTasksDoneArr = '[true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,false,true,true,false,false,false,true,true,false,false,false,false,false,false]';
+isTasksDoneArr = '[true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,true,true,false,false,false,true,true,false,false,false,false,false,false]';
 newTasksDoneArrHandler();
 }}>My progress</button>
 
@@ -165,7 +165,7 @@ newTasksDoneArrHandler();
 | [X] 魂の解放       | 通關理騎士任務                                                                                                                   |
 | [X] 魂の解放＋     | 使用理騎士通關理騎士任務                                                                                                         |
 | [X] 忍者の秘技     | 通關忍者任務                                                                                                                     |
-| [ ] 忍者の秘技＋       | 使用忍者通關忍者任務                                                                                                             |
+| [X] 忍者の秘技＋       | 使用忍者通關忍者任務                                                                                                             |
 | [X] 白紙の旅行記   | 通關觀光客任務                                                                                                                   |
 | [ ] 次元の支配者       | 於次元迴廊的旅程擊破次元的支配者                                                                                                 |
 | [ ] 次元の果て         | 於次元迴廊首次抵達 3000km 會強制進入結局劇情                                                                                     |

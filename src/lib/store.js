@@ -210,6 +210,8 @@ export const logoLinks = readable([
   "https://togetter.com/li/1362957",
   // 津波と放射能汚染で崩壊していた福島県 双葉町 → 2年ぶりに来たら、とんでもないことになっていた
   "https://rocketnews24.com/2022/08/01/1663113/",
+  // Every Frame a Painting 告別心得感言（中文翻譯）
+  "https://brettlin-78528.medium.com/every-frame-a-painting-%E5%91%8A%E5%88%A5%E5%BF%83%E5%BE%97%E6%84%9F%E8%A8%80-%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AD%AF-c46ade3e93db",
   // ----------------------------------------
   // Manga
   // ----------------------------------------
@@ -269,7 +271,7 @@ export const marqueeTexts = readable([
   "火は一日で森を灰にするが、水と風は百年かけて森を育てる",
   "ここに来て一年になるが、ケイスはまだ電脳空間の夢を見、希望は夜ごとに薄れていく。”ナイト・シティ”でこれだけ覚醒剤をやり、あれだけ肩代わりし、危ない橋を渡ってきても、眠るときに見るのはマトリックス。無色の虚空に広がる、輝くロジックの格子ーー",
   "何、それは本当かね！？それは…気の毒に…",
-  "無機的な、からっぽな、ニュートラルな、中間色の、富裕な、抜け目がない、或る経済大国",
+  "その代はりに、無機的な、からっぽな、ニュートラルな、中間色の、富裕な、抜け目がない、或る経済大国が極東の一角に残るのであらう。",
   "人生に似てますね",
   "夏草や兵どもが夢の跡",
   "五月雨を集めて早し最上川",
@@ -291,6 +293,7 @@ export const marqueeTexts = readable([
   "Weaving the Web: The Past, Present and Future of the World Wide Web by its Inventor.",
   "I always wonder why birds choose to stay in the same place when they can fly anywhere on the earth, then I ask myself the same question.",
   "I need you.",
+  "Experience is the name everyone gives to their mistakes.",
   "Небо очень и очень темное , а Земля голубоватая .",
   "「這是冒險的終結嗎？世間的一切都沒有終結。我們來此尋找長生不老的秘密，是為了要成為神？我們是人，人類永遠都是凡人，雖然我們沒有獲得長生不老，但至少我們獲得了真實，我們開始於神話，現在我們要回到現實，不過……這個生活是真實的嗎？不，這只是電影，攝影機往後拉。」",
   '正如要有林林總總部份才能組成一個完整的人，而其中每一部份又要有千差萬別，才得以構成迥然不同之人，異於他人的面容，下意識裡的聲調，夢醒時所見的手掌，兒時的記憶，未來的命運，以及我的電子腦所觸及的信息海洋，所有的這一切，孕育了「我」，個人意識的升華，使我意識到自我的存在，同時也將我限定在"自我"之中。「孩童之時，所言俱為孩童，所感如是孩童，所思亦復孩童，唯成年之後，便將童心擯棄。」（哥林多前書 13 章-11）',
@@ -441,6 +444,8 @@ export const aboutLinks = readable([
   "https://yclou.blogspot.com/2015/07/blog-post_20.html",
   // 無敵の人になりかけた
   "https://anond.hatelabo.jp/20190529235940",
+  // 【飛行機乗り方】世の中わからんこと多すぎ問題【次郎の注文方法】
+  "https://www.nicovideo.jp/watch/sm41044801",
   // Uncomfortable Truths - Existential Comics
   "https://existentialcomics.com/comic/431",
   // ========================================

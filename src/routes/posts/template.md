@@ -518,6 +518,29 @@ flowchart TB
 
 <span class="gold-glitter">███████████</span>
 
+<!-- https://copypet.jp/2206/ -->
+
+<span style="padding: 4px 16px; font-size: 1.3em; background-color: transparent; background-image: repeating-linear-gradient(-45deg, white, white 2px, transparent 0, transparent 4px);">GARA HAIKEI</span>
+
+<!-- https://125naroom.com/web/3737 -->
+<div style="
+  background-color: #ffe9a7;
+  background-image:  linear-gradient(30deg, #ffc107 12%, transparent 12.5%, transparent 87%, #ffc107 87.5%, #ffc107), linear-gradient(150deg, #ffc107 12%, transparent 12.5%, transparent 87%, #ffc107 87.5%, #ffc107), linear-gradient(30deg, #ffc107 12%, transparent 12.5%, transparent 87%, #ffc107 87.5%, #ffc107), linear-gradient(150deg, #ffc107 12%, transparent 12.5%, transparent 87%, #ffc107 87.5%, #ffc107), linear-gradient(60deg, #ffc10777 25%, transparent 25.5%, transparent 75%, #ffc10777 75%, #ffc10777), linear-gradient(60deg, #ffc10777 25%, transparent 25.5%, transparent 75%, #ffc10777 75%, #ffc10777);
+  background-size: 40px 70px;
+  background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;">
+  <p style="text-align: center;">lorem</p>
+</div>
+
+<div style="columns: 100px 3;">
+
+lorem
+
+lorem
+
+lorem
+
+</div>
+
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
   import BalloonQuote from "$lib/BalloonQuote.svelte";
