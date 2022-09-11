@@ -22,16 +22,16 @@
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-60098e1c.css">
 	<link rel="stylesheet" href="/_app/assets/_post-6cf996f4.css">
 	<link rel="stylesheet" href="/_app/assets/BlinkAnchor-39834c8c.css">
-	<link rel="modulepreload" href="/_app/start-4c193dee.js">
+	<link rel="modulepreload" href="/_app/start-f50ee64a.js">
 	<link rel="modulepreload" href="/_app/chunks/index-23d5ae1c.js">
 	<link rel="modulepreload" href="/_app/chunks/index-db251831.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-93c16cbd.js">
-	<link rel="modulepreload" href="/_app/chunks/store-39c500cf.js">
-	<link rel="modulepreload" href="/_app/pages/posts/ACG-rockman-1-tas-glitch.md-7962eddf.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-e871e346.js">
+	<link rel="modulepreload" href="/_app/chunks/store-2524255f.js">
+	<link rel="modulepreload" href="/_app/pages/posts/ACG-rockman-1-tas-glitch.md-bd19ca1d.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-238a1a9a.js">
 	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-39bb7771.js">
-	<link rel="modulepreload" href="/_app/chunks/ACG-rockman-1-tas-glitch-9a3e8e23.js">
+	<link rel="modulepreload" href="/_app/chunks/ACG-rockman-1-tas-glitch-dd980cfb.js">
   </head>
   <body>
     <!-- The application will be rendered inside this element,
@@ -62,7 +62,7 @@
   <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
   </a>
 </nav>
-      <a href="https://youtu.be/LXCrwoQzrwI" target="_blank" rel="noreferrer noopener" class="svelte-1m045v8"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" class="svelte-1m045v8">
+      <a href="https://www.youtube.com/watch?v=3Y6zlM-n9Kg" target="_blank" rel="noreferrer noopener" class="svelte-1m045v8"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" class="svelte-1m045v8">
 </a></div>
     
 <div id="progress-bar" style="--scrollAmount: 0%;" class="svelte-1gbseey"></div></div>
@@ -108,9 +108,9 @@
 <p>「ACE」則是「<strong>執行任意代碼（Arbitrary Code Execution）</strong>」，這邊的「代碼」是程式碼的意思，指使用遊戲軟、硬體設計上的漏洞，去執行任何程式碼，講白了就是用遊戲操作去更動程式運作，常見手法有如本文的直接呼叫（跳至）遊戲結局，或像老玩家可能會有印象的寶可夢寵物／道具修改。</p>
 <h2 id="js-id-tas-使用機制">TAS 使用機制</h2>
 <h3>DelayObjectFFGlitch 技巧</h3>
-<p>在《洛克人 1》裡，當洛克人經過特定地圖的某些地點後，會出現不可視的「<code>0xFF</code>」物件（後稱 <code>FF 物件</code>）。例如 Ice Man 關卡的此處：</p>
+<p>在《洛克人 1》裡，當洛克人經過特定地圖的某些地點後，會出現不可視的「<code>0xFF</code> 物件」（後稱 <code>FF 物件</code>）。例如 Ice Man 關卡的此處：</p>
 <p><img src="https://i.imgur.com/FZkBQwv.gif" alt="img01"></p>
-<p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△ 「0xFF」物件出現於畫面不可視之處</p>
+<p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△ 「0xFF 物件」出現於畫面不可視之處</p>
 <p>這個物件會讓影像處理單位（PPU, Picture Processing Unit）進行 Pattern Table Remap。推測是用於重新建置畫面的物件。</p>
 <p>正常情況下，程式執行流程是：<code>1. 物件 FF 出現</code> → <code>2. 處理物件 FF（讀取 Bank 2 的資料）</code> → <code>3. 切換至 Bank 6</code> → <code>4. 讀取敵人資料編號</code>。</p>
 <p>若是在切換 Bank 之前，經由<strong>特定的操作</strong>超載待處理的指令量，會導致在切換至 Bank 6 之前，就直接在 Bank 2 讀取敵人編號的資料，造成畫面異常，或是出現錯誤的敵人。</p>
@@ -316,10 +316,10 @@ F8 是 SED（Stream Editor），<br>
 </div>
 
 
-		<script type="module" data-hydrate="z55az2">
-		import { start } from "/_app/start-4c193dee.js";
+		<script type="module" data-hydrate="pv0acg">
+		import { start } from "/_app/start-f50ee64a.js";
 		start({
-			target: document.querySelector('[data-hydrate="z55az2"]').parentNode,
+			target: document.querySelector('[data-hydrate="pv0acg"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -329,8 +329,8 @@ F8 是 SED（Stream Editor），<br>
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-93c16cbd.js"),
-						import("/_app/pages/posts/ACG-rockman-1-tas-glitch.md-7962eddf.js")
+					import("/_app/pages/__layout.svelte-e871e346.js"),
+						import("/_app/pages/posts/ACG-rockman-1-tas-glitch.md-bd19ca1d.js")
 				],
 				params: {},
 				routeId: "posts/ACG-rockman-1-tas-glitch"
