@@ -22,16 +22,16 @@
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-60098e1c.css">
 	<link rel="stylesheet" href="/_app/assets/_post-6cf996f4.css">
 	<link rel="stylesheet" href="/_app/assets/BlinkAnchor-39834c8c.css">
-	<link rel="modulepreload" href="/_app/start-f50ee64a.js">
+	<link rel="modulepreload" href="/_app/start-3f6af12f.js">
 	<link rel="modulepreload" href="/_app/chunks/index-23d5ae1c.js">
 	<link rel="modulepreload" href="/_app/chunks/index-db251831.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-e871e346.js">
-	<link rel="modulepreload" href="/_app/chunks/store-2524255f.js">
-	<link rel="modulepreload" href="/_app/pages/posts/mpv.md-297242c5.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-68516f95.js">
+	<link rel="modulepreload" href="/_app/chunks/store-a0dd0399.js">
+	<link rel="modulepreload" href="/_app/pages/posts/mpv.md-19778cee.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-238a1a9a.js">
 	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-39bb7771.js">
-	<link rel="modulepreload" href="/_app/chunks/mpv-a20dd0ec.js">
+	<link rel="modulepreload" href="/_app/chunks/mpv-9961b231.js">
   </head>
   <body>
     <!-- The application will be rendered inside this element,
@@ -62,7 +62,7 @@
   <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
   </a>
 </nav>
-      <a href="https://www.nicovideo.jp/watch/sm29763392" target="_blank" rel="noreferrer noopener" class="svelte-1m045v8"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" class="svelte-1m045v8">
+      <a href="https://comic-days.com/episode/3269754496432828238" target="_blank" rel="noreferrer noopener" class="svelte-1m045v8"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" class="svelte-1m045v8">
 </a></div>
     
 <div id="progress-bar" style="--scrollAmount: 0%;" class="svelte-1gbseey"></div></div>
@@ -197,7 +197,7 @@ af = lavfi=[loudnorm=I=-16:TP=-3:LRA=4]
 # 動態音量標準化，這套過濾器會將聲音輸入添增至某一目標大小（例如 0dBFS）。
 # 並在以往&quot;單純&quot;的標準化演算法之上，此動態音量標準化會再__動態地__
 # 重新調整聲音輸入的增益係數。使得較為&quot;安靜&quot;的部份能獲得更多的增益，
-# 同時讓較為&quot;響亮&quot;的部份免於交調失真或削波失真。換句話說，動態音量標準化
+# 同時讓較為&quot;響亮&quot;的部份免於互調失真或削波失真。換句話說，動態音量標準化
 # 可以讓聲音安靜與響亮的部份&quot;均勻化&quot;，讓整體聲音有同樣的大小。然而要注
 # 意的是，動態音量標準化__並不會__套用&quot;動態範圍壓縮&quot;，聲音檔案的__每個部份__
 # 都會保留 100% 的動態範圍。
@@ -217,7 +217,7 @@ ytdl-format = bestvideo[ext=mp4][height&lt;=?1080][fps&lt;=?60]+bestaudio/best
 script-opts=ytdl_hook-ytdl_path=&quot;~~/yt-dlp&quot;
 script-opts-append=ytdl_hook-ytdl_path=&quot;~~/yt-dlp&quot;</code><!-- HTML_TAG_END --></pre>
 <h3>獨立使用 youtube-dl 觀看網路影片</h3>
-<p>例如 NicoNico 的影片目前無法直接使用 mpv 內的網址處理觀看，就需要於命令列使用此方式另外將影片資料傳入播放器內。</p>
+<p>例如 NicoNico 的影片，目前無法直接從 mpv 內處理網址並觀看，就需要於命令列使用此方式，將影片資料 pipe 傳入播放器內。</p>
 <p><code>youtube-dl.exe -o - {%url%} | mpv -</code></p>
 <h2 id="js-id-外掛套件span外掛套件span"><a href="https://github.com/mpv-player/mpv/wiki/User-Scripts" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/mpv-player/mpv/wiki/User-Scripts" alt="外掛套件"><span>外掛套件</span></a></h2>
 <p>mpv 可以使用 lua 語言撰寫第三方套件，套件檔案通常放置於 <code>~/.config/mpv/scripts/</code>。</p>
@@ -281,10 +281,10 @@ script-opts-append=ytdl_hook-ytdl_path=&quot;~~/yt-dlp&quot;</code><!-- HTML_TAG
 </div>
 
 
-		<script type="module" data-hydrate="aszgqu">
-		import { start } from "/_app/start-f50ee64a.js";
+		<script type="module" data-hydrate="1q029jw">
+		import { start } from "/_app/start-3f6af12f.js";
 		start({
-			target: document.querySelector('[data-hydrate="aszgqu"]').parentNode,
+			target: document.querySelector('[data-hydrate="1q029jw"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -294,8 +294,8 @@ script-opts-append=ytdl_hook-ytdl_path=&quot;~~/yt-dlp&quot;</code><!-- HTML_TAG
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-e871e346.js"),
-						import("/_app/pages/posts/mpv.md-297242c5.js")
+					import("/_app/pages/__layout.svelte-68516f95.js"),
+						import("/_app/pages/posts/mpv.md-19778cee.js")
 				],
 				params: {},
 				routeId: "posts/mpv"
