@@ -61,7 +61,11 @@ export const logoLinks = readable([
   // 'The End of Evangelion' and Stan Brakhage
   "https://medium.com/@EstherRosenfield/the-end-of-evangelion-and-stan-brakhage-e57fb668181f",
   // The Illusion of Peace in Mamoru Oshii's Patlabor 2
-  "https://youtu.be/ybLKmO5Kq5A",
+  "https://www.youtube.com/watch?v=ybLKmO5Kq5A",
+  // The Influences of Naoko Yamada
+  "https://www.youtube.com/watch?v=K_c1gQw6S6Q",
+  // Satoshi Kon - Editing Space
+  "https://www.youtube.com/watch?v=oz49vQwSoTE",
   // ----------------------------------------
   // Music
   // ----------------------------------------
@@ -212,6 +216,8 @@ export const logoLinks = readable([
   "https://rocketnews24.com/2022/08/01/1663113/",
   // Every Frame a Painting 告別心得感言（中文翻譯）
   "https://brettlin-78528.medium.com/every-frame-a-painting-%E5%91%8A%E5%88%A5%E5%BF%83%E5%BE%97%E6%84%9F%E8%A8%80-%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AD%AF-c46ade3e93db",
+  // ネチケットガイドライン
+  "https://www.cgh.ed.jp/netiquette/rfc1855j.html",
   // ----------------------------------------
   // Manga
   // ----------------------------------------
@@ -352,7 +358,6 @@ export const randomImages = readable([
   "https://i.imgur.com/4toHY6r.png",
   "https://i.imgur.com/4DYRfUT.png",
   "https://i.imgur.com/nZK2mYW.png",
-  "https://i.imgur.com/PdyTBFC.png",
   "https://i.imgur.com/sPDfxLs.png",
   "https://i.imgur.com/s4UfYv6.png",
   "https://i.imgur.com/cIApMDY.png",
@@ -362,6 +367,8 @@ export const randomImages = readable([
   "https://i.imgur.com/8vy0ZIR.png",
   "https://i.imgur.com/42Tpjp6.png",
   "https://i.imgur.com/wgAOJuq.png",
+  "https://i.imgur.com/K6TnpsB.png",
+  "https://i.imgur.com/mAvTlnE.png",
 ]);
 
 export const aboutImages = readable([
@@ -477,5 +484,9 @@ export const aboutLinks = readable([
   "https://healthy-person-emulator.memo.wiki/d/%bc%ab%ca%ac%a4%ce%bb%d7%a4%c3%a4%c6%a4%a4%a4%eb%a4%b3%a4%c8%a4%f2%c1%ea%bc%ea%a4%cb%a4%b7%a4%c3%a4%ab%a4%ea%c5%c1%a4%a8%a4%eb%a4%e8%a4%a6%a4%cb%a4%b9%a4%eb",
   // 【対談】精神科医の名越康文先生と「心が弱ったときのあるある」について話す
   "https://www.youtube.com/watch?v=y7vX3Km396U",
+  // 僕はただ、イマジナリーフレンドを作りたかっただけ。
+  "https://kuwaki-ganbatta.hatenablog.com/entry/2022/05/08/070239",
+  // お絵かきAIを試してみて自分がAIと同じだと気がついた
+  "https://anond.hatelabo.jp/20220906213945",
   // ========================================
 ]);

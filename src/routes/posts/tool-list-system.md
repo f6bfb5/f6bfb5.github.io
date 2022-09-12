@@ -5,20 +5,6 @@ summary: "各種電腦工具軟體整理。"
 tags: Toolbox
 ---
 
-<style>
-table {
-  width: 100%;
-}
-table td:nth-child(1) {
-  width: 25%;
-  padding-left: 2em;
-}
-table td:nth-child(3) {
-  width: 20%;
-  text-align: center;
-}
-</style>
-
 各種電腦工具軟體整理。
 
 ## 系統
@@ -96,7 +82,7 @@ table td:nth-child(3) {
 
 - [ReactOS](https://reactos.org/)
 - [ravynOS](https://ravynos.com/)
-- [Pop!_OS](https://pop.system76.com/)
+- [Pop!\_OS](https://pop.system76.com/)
 - [Q4OS](https://q4os.org/index.html)
 - [lubuntu](https://lubuntu.me/)
 - [Android-x86](https://www.android-x86.org/)
@@ -113,20 +99,28 @@ table td:nth-child(3) {
 - [開発環境へのこだわり](https://speakerdeck.com/hsbt/kai-fa-huan-jing-hefalsekodawari)
 - [fish shell](https://fishshell.com/)
 - [Chocolatey Cheat Sheet](https://gist.github.com/yunga/99d04694e2466e017c5502d7c828d4f4)
+- [BusyBox](https://www.busybox.net/)
+- [Coreutils](https://www.gnu.org/software/coreutils/coreutils.html)
 
 | alternative                                          | description                                                           | Linux command |
 | ---------------------------------------------------- | --------------------------------------------------------------------- | ------------- |
 | [fzf](https://github.com/junegunn/fzf)               | fuzzy finder, interactive filter                                      |               |
 | [peco](https://github.com/peco/peco)                 | interactive filter                                                    |               |
 | [zoxide](https://github.com/ajeetdsouza/zoxide)      | smarter cd command                                                    | cd            |
-| [fd](https://github.com/sharkdp/fd)                  | search for files in a directory hierarchy                             | find          |
+| [fd](https://github.com/sharkdp/fd)                  | 搜尋檔案                                                              | find          |
 | [ripgrep](https://github.com/BurntSushi/ripgrep)(rg) | search plain-text data sets for lines that match a regular expression | grep          |
 | [sd](https://github.com/chmln/sd)                    | stream editor for filtering and transforming text                     | sed           |
-| [bat](https://github.com/sharkdp/bat)                | concatenate files and print on the standard output                    | cat           |
+| [bat](https://github.com/sharkdp/bat)                | 顯示檔案內容                                                          | cat           |
 | [dog](https://github.com/ogham/dog)                  | domain information groper                                             | dig           |
 | [tealdeer](https://github.com/dbrgn/tealdeer)        | an interface to the system reference manuals                          | man           |
 | [ghq](https://github.com/x-motemen/ghq)              |                                                                       |               |
 | [gem-src](https://github.com/amatsuda/gem-src)       |                                                                       |               |
+| [dust](https://github.com/bootandy/dust)             | 顯示當前路徑的資料夾結構與檔案空間使用率                              | du            |
+| [exa](https://github.com/ogham/exa)                  | 顯示當前路徑下的資料夾與檔案                                          | ls            |
+| [duf](https://github.com/muesli/duf)                 | 以圖表方式顯示硬碟使用率                                              | df            |
+| [procs](https://github.com/dalance/procs)            | 顯示執行中程序的資訊                                                  | ps            |
+| [bottom](https://github.com/ClementTsang/bottom)     | 顯示執行中程序的資訊，並且即時更新                                    | top           |
+| [httpie](https://github.com/httpie/httpie)           |                                                                       | curl          |
 
 ## 檔案
 
@@ -369,3 +363,21 @@ IniEditor=system
 | [kakorokuRecorder](https://jp.videoproc.com/record/kakorokurecorder-download-install.htm)                              |      |      |
 | [ニコ生の録画方法 まとめ](https://ch.nicovideo.jp/nico-lab/blomaga/ar8759)                                             |      |      |
 | [FlickrDownloader](https://weils.net/blog/2017/01/10/flickr-downloader-%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BC%89%E5%99%A8/) |      |      |
+
+<style>
+table {
+  width: 100%;
+}
+table td:nth-child(1) {
+  width: 25%;
+  padding-left: 2em;
+
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+table td:nth-child(3) {
+  width: 20%;
+  text-align: center;
+}
+</style>

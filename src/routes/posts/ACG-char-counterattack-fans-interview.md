@@ -752,10 +752,11 @@ SM 能夠成立，是因為能保證主權絕對不會動搖，也就是雙方�
 就是說，因為我討厭我們的世界裡的蘿莉控論裡，那種非常曖昧的表現，才設定了一個極端相對的角色。也就是「過度意識到自己是個小孩的女孩」……所以這種討厭的地方，「老爸們會覺得這當不成朋友」。所以現在來說，會有葵絲，可以說是想要有個槓上宮崎的角色吧。
 
 <DialogeLine speakerText="小川" speakerColor="#3602a2" speakerBackground="#c5fa5a">
-  小川：類似艾露比．普露的翻轉。
+  類似艾露比．普露的翻轉。
 </DialogeLine>
 
-<DialogeLine speakerText="富野" speakerColor="#ecf200" speakerBackground="#f50a0c">對我來說不是翻轉。兩個角色是一樣的。葵絲簡單來說是比較再成熟一點。
+<DialogeLine speakerText="富野" speakerColor="#ecf200" speakerBackground="#f50a0c">
+  對我來說不是翻轉。兩個角色是一樣的。葵絲簡單來說是比較再成熟一點。
 </DialogeLine>
 
 <DialogeLine speakerText="小川" speakerColor="#3602a2" speakerBackground="#c5fa5a">

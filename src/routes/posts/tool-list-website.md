@@ -11,7 +11,7 @@ tags: Toolbox
 - [📒Productivity を上げるために大切な 100 のこと](https://minerva.mamansoft.net/%F0%9F%93%97Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8/%F0%9F%93%92Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8)
   - [肩こりを本気でほぐす９分間ストレッチ【肩凝り解消ヨガ＆マッサージ】](https://www.youtube.com/watch?v=REEOGX1YUec)
   - [【自宅で筋トレ】世界で一番楽な筋トレ＆有酸素運動で全身 10 種目の 10 分間です。楽に脂肪燃焼、肩こり解消、腰痛解消、運動不足解消したい方におすすめです。](https://www.youtube.com/watch?app=desktop&v=hge3fr50o0o)
-  - [【アメリカで話題】ただ座るだけ！股関節がみるみる柔らかくなる「90/90ストレッチ」](https://yogajournal.jp/14505)
+  - [【アメリカで話題】ただ座るだけ！股関節がみるみる柔らかくなる「90/90 ストレッチ」](https://yogajournal.jp/14505)
 - [新冠確診過程應對指南](https://nova-jumbo-a96.notion.site/0701-3c934b7a75a2447d8f8fadb5bde63c42)
 - [新型コロナ後遺症チートシート（対策一覧）](https://longcovid.jp/cheat-sheet.html)
 - [教科書には載らないニッポンのインターネットの歴史](https://web.archive.org/web/20030801113739/http://blogdex.tripod.co.jp/encyclopedia/)
@@ -46,7 +46,7 @@ tags: Toolbox
 - [タロットカードで物語をつくる構文を見つける](https://www.nnn.ed.nico/contents/guides/792)
 - [10 ＋ 1 website](https://www.10plus1.jp/)
 - [Motherfucking Website](https://motherfuckingwebsite.com/)
-- [ちょうどいいWebデザインギャラリー](https://choooodoii.com/)
+- [ちょうどいい Web デザインギャラリー](https://choooodoii.com/)
 
 ## 學習
 
@@ -332,3 +332,17 @@ tags: Toolbox
 - [ゲームのセリフ集など](http://serihu-syu.jugem.jp/)
 
 ---
+
+<style>
+table {
+  width: 100%;
+}
+table td:nth-child(1) {
+  width: 25%;
+  max-width: 25%;
+
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+</style>
