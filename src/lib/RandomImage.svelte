@@ -48,7 +48,7 @@ https://webdesign.tutsplus.com/tutorials/better-web-images-with-svg-grainy-filte
 <style scoped>
   .random-image-container {
     position: relative;
-    margin: 16px auto 0;
+    margin: 1em auto 0;
     width: fit-content;
   }
   img {

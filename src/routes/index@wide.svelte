@@ -59,7 +59,6 @@
   import IP from "$lib/IP.svelte";
   import TagsFilter from "$lib/TagsFilter.svelte";
   import ArticlesList from "$lib/ArticlesList.svelte";
-  import RandomImage from "$lib/RandomImage.svelte";
 </script>
 
 <svelte:head>
@@ -89,19 +88,26 @@
   <TagsFilter {allPostsTags} />
   <ArticlesList {allPostsYears} {posts} />
 
-  <div on:click={() => window.location.assign("./reminiscence")} style="margin: auto; width: fit-content;">
-    <RandomImage />
+  <div
+    on:click={() => window.location.assign("./reminiscence")}
+    style="margin: auto; width: fit-content;"
+  >
   </div>
-  
+
   <a href="https://github.com/f6bfb5" rel="me" style="display: none;">
     github.com/f6bfb5
   </a>
 </div>
 
 <style scoped>
+  /* keep main content max-width in 720px (16px*45em) */
   .container {
+    margin: 0 auto;
+    /* max-width: 720px; */
+    width: 100%;
     height: 100%;
   }
+
   h1 {
     margin-left: 16px;
 

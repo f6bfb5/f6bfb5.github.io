@@ -10,7 +10,7 @@
       <Nav />
       <Logo />
     </div>
-    <ProgressBar />
+    <!-- <ProgressBar /> -->
   </div>
 </header>
 

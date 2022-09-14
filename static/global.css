@@ -404,9 +404,3 @@ iframe {
   /* margin-left: -20px; */
 }
 
-/* keep main content max-width in 720px (16px*45em) */
-.container {
-  margin: 0 auto;
-  max-width: 720px;
-  width: 100%;
-}

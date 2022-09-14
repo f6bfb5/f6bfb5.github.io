@@ -1648,6 +1648,12 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [ラノベのアニメ化が激増している件](https://kazenotori.hatenablog.com/entry/2022/09/12/134439)
 - [Steamでゲームを売る海外メーカー7社に「日本市場」について訊いた。日本ユーザーの増加を実感しているか？日本人のレビューは厳しいと感じるか？](https://automaton-media.com/articles/interviewsjp/20220912-218508/)
 - [「この食べ方に出会ったから、この食材を買うようになった」エピソードを教えてください](https://togetter.com/li/1943890)
+- [反社カルトが国政に食い込む構造 - やしお](https://yashio.hatenablog.com/entry/20220912/1662987600)
+- [弱虫ロロ - 三上敬](https://shonenjumpplus.com/episode/316112896831157307)
+- [｢魚が獲れない｣は世界で日本だけという衝撃事実](https://toyokeizai.net/articles/-/617222)
+- [文化庁が宗教法人と交わした｢裏約束｣の正体](https://toyokeizai.net/articles/-/617415)
+- [悪質極まりない転売ヤーを見かけた話「レジ前で出品して、転売出来た物だけ購入する」](https://togetter.com/li/1943951)
+- [『スプラトゥーン3』ヒーローモードのポエムにハマる人続出。洗練された恥ずかしさ、元ネタありそうな素敵ポエム](https://automaton-media.com/articles/newsjp/20220913-218558/)
 
 
 <style scoped>
