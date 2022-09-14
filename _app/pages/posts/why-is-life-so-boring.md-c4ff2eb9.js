@@ -1,1 +1,0 @@
-import"../../chunks/index-23d5ae1c.js";import"../../chunks/_post-238a1a9a.js";import{W as p,m as e}from"../../chunks/why-is-life-so-boring-86e5b0f4.js";import"../../chunks/BlinkAnchor-39bb7771.js";export{p as default,e as metadata};

@@ -22,7 +22,8 @@
   width: fit-content;
   font-size: 1rem !important;
   white-space: nowrap;
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
+  background-color: #e5edc8;
   border-left: 1px solid var(--subtitle-color);
   border-top: 1px solid var(--subtitle-color);
   border-bottom: 1px solid var(--subtitle-color);
