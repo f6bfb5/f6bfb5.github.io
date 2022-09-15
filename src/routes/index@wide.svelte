@@ -68,7 +68,7 @@
   <meta property="og:title" content="f6bfb5's blog" />
   <meta name="Description" content="雨天決行" />
   <meta property="og:description" content="雨天決行" />
-  <meta property="og:image" content="https://i.imgur.com/pA9yPzD.jpg" />
+  <meta property="og:image" content="https://i.imgur.com/frsPyaZ.png" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" value="f6bfb5's blog" />
@@ -87,12 +87,6 @@
   <h1 data-text="Articles">Articles</h1>
   <TagsFilter {allPostsTags} />
   <ArticlesList {allPostsYears} {posts} />
-
-  <div
-    on:click={() => window.location.assign("./reminiscence")}
-    style="margin: auto; width: fit-content;"
-  >
-  </div>
 
   <a href="https://github.com/f6bfb5" rel="me" style="display: none;">
     github.com/f6bfb5

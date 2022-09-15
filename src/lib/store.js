@@ -216,8 +216,12 @@ export const logoLinks = readable([
   "https://rocketnews24.com/2022/08/01/1663113/",
   // Every Frame a Painting 告別心得感言（中文翻譯）
   "https://brettlin-78528.medium.com/every-frame-a-painting-%E5%91%8A%E5%88%A5%E5%BF%83%E5%BE%97%E6%84%9F%E8%A8%80-%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AD%AF-c46ade3e93db",
+  // 如果真的要補回哥斯拉系列，應該如何開始？
+  "https://moyashi.medium.com/%E5%A6%82%E6%9E%9C%E7%9C%9F%E7%9A%84%E8%A6%81%E8%A3%9C%E5%9B%9E%E5%93%A5%E6%96%AF%E6%8B%89%E7%B3%BB%E5%88%97-%E6%87%89%E8%A9%B2%E5%A6%82%E4%BD%95%E9%96%8B%E5%A7%8B-d8787e891d32",
   // ネチケットガイドライン
   "https://www.cgh.ed.jp/netiquette/rfc1855j.html",
+  // Internet Explorer 6
+  "https://mrdoob.com/lab/javascript/effects/ie6/",
   // ----------------------------------------
   // Manga
   // ----------------------------------------
@@ -369,6 +373,7 @@ export const randomImages = readable([
   "https://i.imgur.com/wgAOJuq.png",
   "https://i.imgur.com/K6TnpsB.png",
   "https://i.imgur.com/mAvTlnE.png",
+  "https://i.imgur.com/d4T5Cns.png",
 ]);
 
 export const aboutImages = readable([

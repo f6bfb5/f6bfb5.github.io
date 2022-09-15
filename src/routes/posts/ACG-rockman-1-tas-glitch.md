@@ -7,18 +7,24 @@ summary: "2014 年 5 月，遊戲圈出現了一支使用輔助程式，在「�
 
 ## 介紹
 
-2014 年 5 月，遊戲圈出現了一支使用輔助程式，在**半分鐘內**通關《洛克人 1》的破天荒影片，而這種需要經過精密的機制解析，與流程操控的遊戲通關方式，僅隔一個月竟然出現人力操作達成同樣的成果，人類無極限！本文會對其所使用的機制與流程進行解說。
+2014 年 5 月，遊戲圈出現了一支使用輔助程式，在**半分鐘內**通關《洛克人 1》的破天荒影片，而這種需要經過精密的機制解析，與流程操控的遊戲通關方式，僅隔一個月後，竟然出現人力操作達成同樣的成果，人類無極限！
+
+本文會對解說其中所使用的機制與流程。
 
 <iframe title="【TAS】 ロックマン 1 in 00:32.11 【任意コード実行】" width="560" height="315" src="https://www.youtube.com/embed/u5qom2q7cUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△【TAS】 ロックマン 1 in 00:32.11 【任意コード実行】</p>
+<p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">
+  <a href="https://www.nicovideo.jp/watch/sm23543822" rel="noreferrer noopener" target="_blank">
+    △【TAS】 ロックマン 1 in 00:32.11 【任意コード実行】
+  </a>
+</p>
 
 ## TAS 與 ACE
 
-在介紹這次主題的遊戲漏洞前，先為不熟悉的的讀者解釋一下，所謂「TAS」以及「ACE」是什麼。
+在介紹這次主題的遊戲漏洞前，先為可能不熟悉的的讀者解釋一下，所謂「TAS」以及「ACE」是什麼。
 
-「TAS」指的是「**使用工具輔助做出的競速通關 / 炫技遊玩（Tool-Assisted Speedrun / Superplay）**」，具體來說，會使用像是遊戲模擬器上搭載的輔助功能，減慢遊戲整體執行速度、逐格操作、快速存檔 / 讀取、記憶體觀察…等等，藉此達成在理論上可能，但實際難度非常高的遊玩技巧。
+「TAS」指的是「**使用工具輔助做出的競速通關 / 炫技遊玩（Tool-Assisted Speedrun / Superplay）**」，具體來說，會使用像是遊戲模擬器上搭載的輔助功能，用以減慢遊戲整體執行速度、逐格操作、快速存檔 / 讀取、記憶體觀察…等等，藉此達成在理論上可能，但實際難度非常高的遊玩技巧。
 
-「ACE」則是「**執行任意代碼（Arbitrary Code Execution）**」，這邊的「代碼」是程式碼的意思，指使用遊戲軟、硬體設計上的漏洞，去執行任何程式碼，講白了就是用遊戲操作去更動程式運作，常見手法有如本文的直接呼叫（跳至）遊戲結局，或像老玩家可能會有印象的寶可夢寵物／道具修改。
+「ACE」則是「**執行任意代碼（Arbitrary Code Execution）**」，這邊的「代碼」指的是程式碼，也就是使用遊戲軟、硬體設計上的漏洞，去執行任何程式碼。講白了就是用遊戲操作去更動程式運作，常見手法有如本文的直接呼叫（跳至）遊戲結局，或像老玩家可能會有印象的[寶可夢寵物／道具修改](https://web.archive.org/web/20181001140126/http://www.geocities.jp/kattempla/pokebug/index.html)。
 
 ## TAS 使用機制
 

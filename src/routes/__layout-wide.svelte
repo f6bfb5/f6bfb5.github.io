@@ -111,6 +111,22 @@
         </div>
         <div class="aside-row">
           <a
+            href="https://www.henrypp.org/product/chrlauncher"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <img src="https://i.imgur.com/ovYrVHT.png" alt="dream diary" />
+          </a>
+          <a
+            href="https://discord.com/"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <img src="https://i.imgur.com/Z5F3I6K.gif" alt="dream diary" />
+          </a>
+        </div>
+        <div class="aside-row">
+          <a
             href="https://store.steampowered.com/app/650700/Yume_Nikki/"
             rel="noreferrer noopener"
             target="_blank"
@@ -133,12 +149,32 @@
           >
             <img src="https://i.imgur.com/OOKXDku.gif" alt="Play with Steam" />
           </a>
+          <img src="https://i.imgur.com/fl9sleS.png" alt="PATAPON" />
+        </div>
+        <div class="aside-row">
+          <a
+            href="https://bandcamp.com/"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <img src="https://i.imgur.com/2phTejB.png" alt="bandcamp" />
+          </a>
+          <img src="https://i.imgur.com/6Y6hPvZ.gif" alt="World Wide Web" />
+        </div>
+        <div class="aside-row">
           <a
             href="https://twitter.com/ariga_megamix"
             rel="noreferrer noopener"
             target="_blank"
           >
             <img src="https://i.imgur.com/C8wcPXl.gif" alt="Ariga MEGAMIX" />
+          </a>
+          <a
+            href="https://www.nicovideo.jp/watch/sm742045"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <img src="https://i.imgur.com/I76cWcs.png" alt="Windows ME" />
           </a>
         </div>
         <div class="aside-row">
@@ -156,16 +192,6 @@
           >
             <img src="https://i.imgur.com/fizTd92.gif" alt="ochame kinou" />
           </a>
-        </div>
-        <div class="aside-row">
-          <a
-            href="https://www.nicovideo.jp/watch/sm742045"
-            rel="noreferrer noopener"
-            target="_blank"
-          >
-            <img src="https://i.imgur.com/I76cWcs.png" alt="Windows ME" />
-          </a>
-          <img src="https://i.imgur.com/6Y6hPvZ.gif" alt="World Wide Web" />
         </div>
         <div class="aside-row">
           <a
@@ -196,7 +222,12 @@
         <div class="aside-row">
           <img src="https://i.imgur.com/iLeESpJ.gif" alt="lain" />
         </div>
-        <RandomImage />
+        <div
+          on:click={() => window.location.assign("./reminiscence")}
+          style="margin: auto; width: fit-content;"
+        >
+          <RandomImage />
+        </div>
         <div class="p-with-h">
           <div
             style="display: inline-block; 
@@ -215,7 +246,7 @@
             style="position: relative;
           padding: .25em;
           padding-left: .75em;
-          font-size: 18px;
+          font-size: .75em;
           border: 1px solid var(--subtitle-color);
           box-shadow: 2px 2px 0 var(--subtext-color), 4px 4px 0 var(--title-color);
           background: #e5edc8;

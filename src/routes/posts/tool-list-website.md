@@ -23,8 +23,13 @@ tags: Toolbox
   - [Internet Button Archive](https://buttoncollection.neocities.org/)
   - [capstasher 88x31 button collection](https://capstasher.neocities.org/88x31collection-page1.html)
   - [88by31](https://88by31.neocities.org/)
-  - [88x31](https://neonaut.neocities.org/cyber/88x31.html)
   - [88x31 Buttons](https://yesterweb.org/graphics/buttons.html)
+  - [Who knew 88 and 31 went so well together?](https://44nifty.com/buttons.html)
+  - [plasticdino](https://plasticdino.neocities.org/graphics.html)
+- [88x31](https://neonaut.neocities.org/cyber/88x31.html)
+
+---
+
 - [e-typing ローマ字タイピング](https://www.e-typing.ne.jp/roma/check/)
 - [ネットワーク対戦タイピング Weather Typing](https://denasu.com/software/weathertyping.html)
 - [Google reCAPTCHA test](https://patrickhlauke.github.io/recaptcha/)
@@ -36,7 +41,7 @@ tags: Toolbox
 ---
 
 - [僕を取り囲む私を観察した不定期日記で自分は誰？](https://web.archive.org/web/20030811182532/http://www4.vc-net.ne.jp/~obara/diary/)
-- [同人誌生活文化総合研究所](https://web.archive.org/web/20030802235114/http://www.st.rim.or.jp/~nmisaki/)
+- [同人誌生活文化総合研究所](http://www.st.rim.or.jp/~nmisaki/)
 - [地下ゲームセンター](https://web.archive.org/web/20030810131216/http://www.hehehe.net/game/)
 - [潜在的幻狂覚無差別覚醒菌感染者](https://web.archive.org/web/20030802101451/http://rb.731.jp/ugjiten.html)
 - [虚構日記](https://web.archive.org/web/20030807141431/http://www4.osk.3web.ne.jp/~kawami/)
@@ -248,6 +253,8 @@ tags: Toolbox
 | [Tech Noir][]                                                      | 電影段落 GIF                           |
 | [◇ テレビドラマデータベース ◇][]                                   | 電視戲劇資料庫                         |
 | [現代麻雀技術論][]                                                 | 日本麻將戰術介紹                       |
+
+- [同人用語の基礎知識](https://www.paradisearmy.com/doujin/index.html)
 
 [poolsuite fm]: https://poolsuite.net/
 [drive & listen]: https://driveandlisten.herokuapp.com/
