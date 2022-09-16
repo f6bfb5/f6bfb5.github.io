@@ -93,7 +93,13 @@
           >
             <img src="https://i.imgur.com/9nOliqP.gif" alt="vscode" />
           </a>
-          <img src="https://i.imgur.com/WnG0vbp.png" alt="CSS is Awesome" />
+          <a
+            href="https://cssreference.io/"
+            refl="noreferrer noopener"
+            target="_blank"
+          >
+            <img src="https://i.imgur.com/WnG0vbp.png" alt="CSS is Awesome" />
+          </a>
         </div>
         <div class="aside-row">
           <a

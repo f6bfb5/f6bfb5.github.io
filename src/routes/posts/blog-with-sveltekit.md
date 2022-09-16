@@ -16,6 +16,15 @@ tags: F2E
   - 基於諸多原因從 Sapper 翻新而來的 Svelte framework
   - 改為使用 Vite，進一步簡化樣板架構
 
+## Setup
+
+```bash
+npm create svelte@latest my-app
+cd my-app
+npm install
+npm run dev
+```
+
 ## Common directory structure
 
 ```

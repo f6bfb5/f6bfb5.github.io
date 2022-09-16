@@ -74,6 +74,7 @@ tags: F2E, Toolbox
 - 建立 GAS 檔案
   - 「Extensions」
   - 「指令碼編輯器（Script editor）」
+    - 現在改成了「Apps Script」
 - 撰寫 GAS
   - 預設以 `doGet()` 處理 GET 要求、`doPost()` 處理 POST 要求
   - 詳見下方範例
@@ -95,14 +96,15 @@ tags: F2E, Toolbox
     - 「允許（Allow）」
   - 「Web app」底下的「URL」即為讀取與寫入用的網址
     - 之後也可以從「Deploy」→「Manage deployments」裡查詢
+  - 開發時可善用「Test deployments」
 - 若有更改程式
   - 部署時「專案版本（Project version）」要選擇「新增（New）」
   - 既有數字是之前發佈的版本，不會反應最新的修改內容
-  - 改動後一定要選擇「新增」專案版本，才會有效反應
+  - **改動後一定要選擇「新增」專案版本，才會有效反應**
 - 表單資料格式
   - 要注意 Google Sheet 預設會自動轉換各種資料
   - 例如 `0123` 會被轉換成數值後，變成 `123`
-  - 推薦事先點選表單左上角格全選後，將格式設為純文字
+  - 推薦事先點選表單左上角格全選後，將格式設為「純文字（Plain text）」
 
 <details>
   <summary>範例程式</summary>
@@ -119,6 +121,7 @@ tags: F2E, Toolbox
 const SpreadSheetID = "";
 const SpreadSheet = SpreadsheetApp.openById(SpreadSheetID);
 
+// simpilify output function
 function textOutput(obj, mimeType = "JSON") {
   return ContentService.createTextOutput(JSON.stringify(obj)).setMimeType(
     ContentService.MimeType[mimeType]
@@ -135,11 +138,14 @@ function getSheet(sheetName) {
 
 function getAllSheetData(sheetName) {
   const Sheet = getSheet(sheetName);
+
+  // getSheetValues(startRow, startColumn, numRows, numColumns)
+  //
   // the first row is category,
   // so row starts from 2
   //
-  // and the first row is not needed,
-  // so length is full length -1
+  // and if the first row is not needed,
+  // the result length would be full length -1
   //
   return Sheet.getSheetValues(
     2,
@@ -151,9 +157,11 @@ function getAllSheetData(sheetName) {
 
 function getSheetDataByRange(sheetName, range) {
   const Sheet = getSheet(sheetName);
+
   // wouldn't return category row (the first row) by default
   const startRow = range.startRow ? range.startRow : 2;
   const startCol = range.startCol ? range.startCol : 1;
+
   let rowRange =
     range.endRow && range.startRow
       ? range.endRow - range.startRow + 1
@@ -169,14 +177,17 @@ function getSheetDataByRange(sheetName, range) {
   return data;
 }
 
-// ex. {
-//       2: [ ['row2_cell1'], ['row2_cell2'], ['row2_cell3'] ],
-//       5: [ ['row5_cell1'], ['row5_cell2'], ['row5_cell3'] ]
-//     }
+// columnsArray [2, 5]
+// would return
+//   {
+//     2: [ ['col2_cell1'], ['col2_cell2'], ['col2_cell3'] ],
+//     5: [ ['col5_cell1'], ['col5_cell2'], ['col5_cell3'] ]
+//   }
 function getSheetDataBySpecificColumns(sheetName, columnsArray) {
   const Sheet = getSheet(sheetName);
   const data = {};
-  JSON.parse(columnsArray).forEach((column) => {
+  columnsArray.forEach((column) => {
+    // skip the first row
     data[column] = Sheet.getSheetValues(2, column, Sheet.getLastRow(), 1);
   });
   return data;
@@ -189,14 +200,17 @@ function doGet(e) {
     return textOutput({ response: "200" });
   }
 
-  // you can custom what key to use for different execution
+  // you can customize what value to use for different execution
+  // and the object key name
+  // like params.exec or case "getAllData"
   switch (params.action) {
     case "getAll":
       return textOutput(getAllSheetData("Sheet1"));
       break;
     case "getSpecificColumns":
+      // accept array-like input and parse it
       return textOutput(
-        getSheetDataBySpecificColumns("Sheet1", params.columnsArray)
+        getSheetDataBySpecificColumns("Sheet1", JSON.parse(params.columnsArray))
       );
       break;
     default:
@@ -212,7 +226,7 @@ function doGet(e) {
 function appendSheetRow(sheetName, newRowData) {
   const Sheet = getSheet(sheetName);
   const newRow = Sheet.getLastRow() + 1;
-  // accept number key as row-col index
+  // accept numeric key as row-col index
   // for example,
   // data: { 1: "Cell 1 data", 2: "Cell 2 data", 3: "Cell 3 data" }
   // would save to the row by the key
@@ -221,7 +235,7 @@ function appendSheetRow(sheetName, newRowData) {
   }
 }
 
-function editSheetCell(sheetName, row, col, value) {
+function editSheetSpecificCell(sheetName, row, col, value) {
   getSheet(sheetName).getRange(row, col).setValue(value);
 }
 
@@ -236,15 +250,15 @@ function doPost(e) {
     return textOutput({ response: "200" });
   }
 
-  // you can custom what key to use for different execution
+  // you can customize the key and value for different execution
   switch (postContents.action) {
     case "appendRow":
-      // again, you can also custom what key to use for post data
+      // again, you can also customize the key and value for post data
       appendSheetRow("Sheet1", postContents.data);
       return textOutput({ response: "200" });
       break;
     case "editCell":
-      editSheetCell(
+      editSheetSpecificCell(
         "Sheet1",
         postContents.row,
         postContents.col,
@@ -307,10 +321,13 @@ function onEdit(e) {
     postHandler(target);
   }
   ```
+- 除了 `event.parameter` 之外，還有一個 `event.parameters`（多了 s）
+  - 兩者傳入的內容結構會不同，詳細可見 [Web Apps](https://developers.google.com/apps-script/guides/web)
 - 操作觸發處理
   - `onEdit(event)`
     - 想做進一步操作似乎會有權限問題…？
   - `Apps Script` 頁面左側的 `Triggers`
+    - 可以解決權限問題
   - `Apps Script` 頁面左側的 `Executions` 可查看腳本執行是否正常
 - GAS 的回傳資料格式
   - 字串：`return ContentService.createTextOutput("回傳字串");`
@@ -323,13 +340,15 @@ function onEdit(e) {
     );
     ```
 - 從 GAS 獲取資料
+  - GET 請求
   - 透過網址傳送參數
   - 參數傳到 `e.parameter`
   ```javascript
   const apiUrl = "";
   const action = "getSpecificColumns";
   const columnsArray = [1, 2, 3];
-  // 若參數內有另外傳入資料，例如傳入陣列，須做 JSON.stringify()
+  // 若網址參數內有另外傳入結構式資料
+  // 例如傳入陣列，須做 JSON.stringify()
   // GAS 處也要進行 JSON.parse() 處理
   const getParameter = `?action=${action}
   &columnsArray=${JSON.stringify(columnsArray)}`;
@@ -349,6 +368,7 @@ function onEdit(e) {
     });
   ```
 - 傳送資料至 GAS
+  - POST 請求
   - 透過請求傳送資料
   - 資料傳到 `e.postData.contents`
   ```javascript
@@ -415,9 +435,7 @@ function onEdit(e) {
     - `var md5bin = Utilities.computeDigest(Utilities.DigestAlgorithm.MD5, text);`
     - `var md5 = Utilities.base64Encode(md5bin);`
 - Use library
-  - Libraries
-  - 貼上 script id
-  - 追加
+  - Libraries > 貼上 script id > 追加
   - [Cheeriogs](https://github.com/tani/cheeriogs)
 - Message Box
   - `if (Browser.msgBox("確認", "是否要執行？", Browser.Buttons.YES_NO) != "yes")`
@@ -428,18 +446,18 @@ function onEdit(e) {
   - 點擊 Discord 頻道右邊的齒輪鍵
   - 點擊 `Integrations` -> `Create Webhook` -> `Copy Webhook URL`
 - 撰寫 GAS
-- [UrlFetchApp](https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app)
-- `UrlFetchApp.fetch(url[, params])`
-- params
-  - `contentType`
-  - `headers`
-  - `method`
-  - `payload`
-- response
-  - `getContentText()`
-  - `getHeaders()`
-  - `getResponseCode()`
-  - `getBlob()`
+  - [UrlFetchApp](https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app)
+    - `UrlFetchApp.fetch(url[, params])`
+  - params
+    - `contentType`
+    - `headers`
+    - `method`
+    - `payload`
+  - response
+    - `getContentText()`
+    - `getHeaders()`
+    - `getResponseCode()`
+    - `getBlob()`
 
 ```javaScript
 function sendToDiscord(message) {

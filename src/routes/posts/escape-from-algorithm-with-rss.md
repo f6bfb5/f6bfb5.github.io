@@ -1,5 +1,5 @@
 ---
-title: "與 RSS 一同稍微離開演算法推播"
+title: "與 RSS 一同遠離演算法推播"
 date: 2022-08-13T08:12:24.000Z
 summary: ""
 tags:

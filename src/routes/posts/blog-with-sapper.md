@@ -25,6 +25,7 @@ npm run dev
 
 - `npx` 是 npm 在 v5.2.0 之後內建的指令，提供暫時性執行某個 npm 套件的功能
 - `degit` 是一套能供使用者直接取用現存 project 樣板的套件
+  - 也可用 `npm i -g degit` 安裝後直接呼叫 `degit`
 
 ### What's inside it?
 
