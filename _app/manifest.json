@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-fd050bc1.js",
+    "file": "start-05aa2312.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -20,7 +20,7 @@
       "_11ty-note-b4575e63.js",
       "_2020-what-i-have-read-on-internet-c831f83a.js",
       "_2021-what-i-have-read-on-internet-8503a829.js",
-      "_2022-what-i-have-read-on-internet-3a827803.js",
+      "_2022-what-i-have-read-on-internet-3f92a0cc.js",
       "_ACG-Pause-And-Select-Apocalypse-1e5d3f36.js",
       "_ACG-char-counterattack-fans-interview-e9de1098.js",
       "_ACG-difference-of-director-and-producer-61890f11.js",
@@ -44,17 +44,17 @@
       "_auto-generate-eyecatch-image-for-blog-9f8f3187.js",
       "_autohotkey-note-f34247da.js",
       "_blog-with-hexo-46439f28.js",
-      "_blog-with-sapper-e93663e5.js",
-      "_blog-with-sveltekit-ae2875db.js",
-      "_capitalist-realism-mark-fisher-128cd021.js",
+      "_blog-with-sapper-b54afed6.js",
+      "_blog-with-sveltekit-4c2cbb59.js",
+      "_capitalist-realism-mark-fisher-04134755.js",
       "_dot-painting-note-6279618b.js",
-      "_escape-from-algorithm-with-rss-59ffdcee.js",
+      "_escape-from-algorithm-with-rss-29bcef35.js",
       "_how-do-you-like-wendesday-6da9c630.js",
       "_how-to-check-font-family-name-in-computer-5d61d810.js",
       "_login-with-discord-13bbea42.js",
       "_mpv-46cb7498.js",
       "_operating-with-keyboard-cbb8a6b1.js",
-      "_our-internet-history-ab796103.js",
+      "_our-internet-history-929cce41.js",
       "_search-engine-operators-20a45c3b.js",
       "_sticker-generator-2d94edff.js",
       "_template-720c9904.js",
@@ -63,7 +63,7 @@
       "_tool-list-system-cfa13900.js",
       "_tool-list-website-18c22143.js",
       "_use-foobar2k-to-listen-to-podcast-346b651c.js",
-      "_use-google-spreadsheet-as-database-5769ee38.js",
+      "_use-google-spreadsheet-as-database-2afde7a1.js",
       "_what-nft-is-not-b3a6ca60.js",
       "_why-is-life-so-boring-55814cf8.js",
       "src/routes/reminiscence.svelte",
@@ -112,7 +112,7 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-55f826cc.js",
+    "file": "pages/__layout-wide.svelte-dd0b16a4.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -128,7 +128,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-585fb5dc.js",
+    "file": "pages/_slug_.svelte-aee1c853.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -136,7 +136,7 @@
       "_11ty-note-b4575e63.js",
       "_2020-what-i-have-read-on-internet-c831f83a.js",
       "_2021-what-i-have-read-on-internet-8503a829.js",
-      "_2022-what-i-have-read-on-internet-3a827803.js",
+      "_2022-what-i-have-read-on-internet-3f92a0cc.js",
       "_ACG-Pause-And-Select-Apocalypse-1e5d3f36.js",
       "_ACG-char-counterattack-fans-interview-e9de1098.js",
       "_ACG-difference-of-director-and-producer-61890f11.js",
@@ -160,17 +160,17 @@
       "_auto-generate-eyecatch-image-for-blog-9f8f3187.js",
       "_autohotkey-note-f34247da.js",
       "_blog-with-hexo-46439f28.js",
-      "_blog-with-sapper-e93663e5.js",
-      "_blog-with-sveltekit-ae2875db.js",
-      "_capitalist-realism-mark-fisher-128cd021.js",
+      "_blog-with-sapper-b54afed6.js",
+      "_blog-with-sveltekit-4c2cbb59.js",
+      "_capitalist-realism-mark-fisher-04134755.js",
       "_dot-painting-note-6279618b.js",
-      "_escape-from-algorithm-with-rss-59ffdcee.js",
+      "_escape-from-algorithm-with-rss-29bcef35.js",
       "_how-do-you-like-wendesday-6da9c630.js",
       "_how-to-check-font-family-name-in-computer-5d61d810.js",
       "_login-with-discord-13bbea42.js",
       "_mpv-46cb7498.js",
       "_operating-with-keyboard-cbb8a6b1.js",
-      "_our-internet-history-ab796103.js",
+      "_our-internet-history-929cce41.js",
       "_search-engine-operators-20a45c3b.js",
       "_sticker-generator-2d94edff.js",
       "_template-720c9904.js",
@@ -179,7 +179,7 @@
       "_tool-list-system-cfa13900.js",
       "_tool-list-website-18c22143.js",
       "_use-foobar2k-to-listen-to-podcast-346b651c.js",
-      "_use-google-spreadsheet-as-database-5769ee38.js",
+      "_use-google-spreadsheet-as-database-2afde7a1.js",
       "_what-nft-is-not-b3a6ca60.js",
       "_why-is-life-so-boring-55814cf8.js",
       "_index-fbf036c5.js",
@@ -205,7 +205,7 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-99e5e646.js",
+    "file": "pages/index@wide.svelte-245d691a.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -213,7 +213,7 @@
       "_11ty-note-b4575e63.js",
       "_2020-what-i-have-read-on-internet-c831f83a.js",
       "_2021-what-i-have-read-on-internet-8503a829.js",
-      "_2022-what-i-have-read-on-internet-3a827803.js",
+      "_2022-what-i-have-read-on-internet-3f92a0cc.js",
       "_ACG-Pause-And-Select-Apocalypse-1e5d3f36.js",
       "_ACG-char-counterattack-fans-interview-e9de1098.js",
       "_ACG-difference-of-director-and-producer-61890f11.js",
@@ -237,17 +237,17 @@
       "_auto-generate-eyecatch-image-for-blog-9f8f3187.js",
       "_autohotkey-note-f34247da.js",
       "_blog-with-hexo-46439f28.js",
-      "_blog-with-sapper-e93663e5.js",
-      "_blog-with-sveltekit-ae2875db.js",
-      "_capitalist-realism-mark-fisher-128cd021.js",
+      "_blog-with-sapper-b54afed6.js",
+      "_blog-with-sveltekit-4c2cbb59.js",
+      "_capitalist-realism-mark-fisher-04134755.js",
       "_dot-painting-note-6279618b.js",
-      "_escape-from-algorithm-with-rss-59ffdcee.js",
+      "_escape-from-algorithm-with-rss-29bcef35.js",
       "_how-do-you-like-wendesday-6da9c630.js",
       "_how-to-check-font-family-name-in-computer-5d61d810.js",
       "_login-with-discord-13bbea42.js",
       "_mpv-46cb7498.js",
       "_operating-with-keyboard-cbb8a6b1.js",
-      "_our-internet-history-ab796103.js",
+      "_our-internet-history-929cce41.js",
       "_search-engine-operators-20a45c3b.js",
       "_sticker-generator-2d94edff.js",
       "_template-720c9904.js",
@@ -256,7 +256,7 @@
       "_tool-list-system-cfa13900.js",
       "_tool-list-website-18c22143.js",
       "_use-foobar2k-to-listen-to-podcast-346b651c.js",
-      "_use-google-spreadsheet-as-database-5769ee38.js",
+      "_use-google-spreadsheet-as-database-2afde7a1.js",
       "_what-nft-is-not-b3a6ca60.js",
       "_why-is-life-so-boring-55814cf8.js",
       "_index-fbf036c5.js",
@@ -345,13 +345,13 @@
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-7adb0869.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-62de42f9.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-fbf036c5.js",
       "__post-7f95c25c.js",
-      "_2022-what-i-have-read-on-internet-3a827803.js",
+      "_2022-what-i-have-read-on-internet-3f92a0cc.js",
       "_BlinkAnchor-990cc0ff.js"
     ]
   },
@@ -610,35 +610,35 @@
     ]
   },
   "src/routes/posts/blog-with-sapper.md": {
-    "file": "pages/posts/blog-with-sapper.md-9bd6e5bb.js",
+    "file": "pages/posts/blog-with-sapper.md-5ad4fd94.js",
     "src": "src/routes/posts/blog-with-sapper.md",
     "isEntry": true,
     "imports": [
       "_index-fbf036c5.js",
       "__post-7f95c25c.js",
-      "_blog-with-sapper-e93663e5.js",
+      "_blog-with-sapper-b54afed6.js",
       "_BlinkAnchor-990cc0ff.js"
     ]
   },
   "src/routes/posts/blog-with-sveltekit.md": {
-    "file": "pages/posts/blog-with-sveltekit.md-38ce2d82.js",
+    "file": "pages/posts/blog-with-sveltekit.md-6e9739a0.js",
     "src": "src/routes/posts/blog-with-sveltekit.md",
     "isEntry": true,
     "imports": [
       "_index-fbf036c5.js",
       "__post-7f95c25c.js",
-      "_blog-with-sveltekit-ae2875db.js",
+      "_blog-with-sveltekit-4c2cbb59.js",
       "_BlinkAnchor-990cc0ff.js"
     ]
   },
   "src/routes/posts/capitalist-realism-mark-fisher.md": {
-    "file": "pages/posts/capitalist-realism-mark-fisher.md-b6d1859e.js",
+    "file": "pages/posts/capitalist-realism-mark-fisher.md-06454e6c.js",
     "src": "src/routes/posts/capitalist-realism-mark-fisher.md",
     "isEntry": true,
     "imports": [
       "_index-fbf036c5.js",
       "__post-7f95c25c.js",
-      "_capitalist-realism-mark-fisher-128cd021.js",
+      "_capitalist-realism-mark-fisher-04134755.js",
       "_BlinkAnchor-990cc0ff.js"
     ]
   },
@@ -654,13 +654,13 @@
     ]
   },
   "src/routes/posts/escape-from-algorithm-with-rss.md": {
-    "file": "pages/posts/escape-from-algorithm-with-rss.md-c211611d.js",
+    "file": "pages/posts/escape-from-algorithm-with-rss.md-289949c0.js",
     "src": "src/routes/posts/escape-from-algorithm-with-rss.md",
     "isEntry": true,
     "imports": [
       "_index-fbf036c5.js",
       "__post-7f95c25c.js",
-      "_escape-from-algorithm-with-rss-59ffdcee.js",
+      "_escape-from-algorithm-with-rss-29bcef35.js",
       "_BlinkAnchor-990cc0ff.js"
     ]
   },
@@ -720,13 +720,13 @@
     ]
   },
   "src/routes/posts/our-internet-history.md": {
-    "file": "pages/posts/our-internet-history.md-95165325.js",
+    "file": "pages/posts/our-internet-history.md-336a9c1d.js",
     "src": "src/routes/posts/our-internet-history.md",
     "isEntry": true,
     "imports": [
       "_index-fbf036c5.js",
       "__post-7f95c25c.js",
-      "_our-internet-history-ab796103.js",
+      "_our-internet-history-929cce41.js",
       "_BlinkAnchor-990cc0ff.js"
     ]
   },
@@ -822,13 +822,13 @@
     ]
   },
   "src/routes/posts/use-google-spreadsheet-as-database.md": {
-    "file": "pages/posts/use-google-spreadsheet-as-database.md-b5c67692.js",
+    "file": "pages/posts/use-google-spreadsheet-as-database.md-8f177225.js",
     "src": "src/routes/posts/use-google-spreadsheet-as-database.md",
     "isEntry": true,
     "imports": [
       "_index-fbf036c5.js",
       "__post-7f95c25c.js",
-      "_use-google-spreadsheet-as-database-5769ee38.js",
+      "_use-google-spreadsheet-as-database-2afde7a1.js",
       "_BlinkAnchor-990cc0ff.js"
     ]
   },
@@ -922,8 +922,8 @@
       "assets/2022-what-i-have-read-on-internet-912e9292.css"
     ]
   },
-  "_2022-what-i-have-read-on-internet-3a827803.js": {
-    "file": "chunks/2022-what-i-have-read-on-internet-3a827803.js",
+  "_2022-what-i-have-read-on-internet-3f92a0cc.js": {
+    "file": "chunks/2022-what-i-have-read-on-internet-3f92a0cc.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-fbf036c5.js",
@@ -1124,24 +1124,24 @@
       "__post-7f95c25c.js"
     ]
   },
-  "_blog-with-sapper-e93663e5.js": {
-    "file": "chunks/blog-with-sapper-e93663e5.js",
+  "_blog-with-sapper-b54afed6.js": {
+    "file": "chunks/blog-with-sapper-b54afed6.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-fbf036c5.js",
       "__post-7f95c25c.js"
     ]
   },
-  "_blog-with-sveltekit-ae2875db.js": {
-    "file": "chunks/blog-with-sveltekit-ae2875db.js",
+  "_blog-with-sveltekit-4c2cbb59.js": {
+    "file": "chunks/blog-with-sveltekit-4c2cbb59.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-fbf036c5.js",
       "__post-7f95c25c.js"
     ]
   },
-  "_capitalist-realism-mark-fisher-128cd021.js": {
-    "file": "chunks/capitalist-realism-mark-fisher-128cd021.js",
+  "_capitalist-realism-mark-fisher-04134755.js": {
+    "file": "chunks/capitalist-realism-mark-fisher-04134755.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-fbf036c5.js",
@@ -1156,8 +1156,8 @@
       "__post-7f95c25c.js"
     ]
   },
-  "_escape-from-algorithm-with-rss-59ffdcee.js": {
-    "file": "chunks/escape-from-algorithm-with-rss-59ffdcee.js",
+  "_escape-from-algorithm-with-rss-29bcef35.js": {
+    "file": "chunks/escape-from-algorithm-with-rss-29bcef35.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-fbf036c5.js",
@@ -1207,8 +1207,8 @@
       "__post-7f95c25c.js"
     ]
   },
-  "_our-internet-history-ab796103.js": {
-    "file": "chunks/our-internet-history-ab796103.js",
+  "_our-internet-history-929cce41.js": {
+    "file": "chunks/our-internet-history-929cce41.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-fbf036c5.js",
@@ -1303,8 +1303,8 @@
       "__post-7f95c25c.js"
     ]
   },
-  "_use-google-spreadsheet-as-database-5769ee38.js": {
-    "file": "chunks/use-google-spreadsheet-as-database-5769ee38.js",
+  "_use-google-spreadsheet-as-database-2afde7a1.js": {
+    "file": "chunks/use-google-spreadsheet-as-database-2afde7a1.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-fbf036c5.js",

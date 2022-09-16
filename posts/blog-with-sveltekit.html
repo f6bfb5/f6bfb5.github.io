@@ -23,17 +23,17 @@
 	<link rel="stylesheet" href="/_app/assets/Favicon-b368fcc0.css">
 	<link rel="stylesheet" href="/_app/assets/_post-b23eb12b.css">
 	<link rel="stylesheet" href="/_app/assets/BlinkAnchor-39834c8c.css">
-	<link rel="modulepreload" href="/_app/start-fd050bc1.js">
+	<link rel="modulepreload" href="/_app/start-05aa2312.js">
 	<link rel="modulepreload" href="/_app/chunks/index-fbf036c5.js">
 	<link rel="modulepreload" href="/_app/chunks/index-1cea4c04.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-33ddf72d.js">
 	<link rel="modulepreload" href="/_app/chunks/Favicon-acbff943.js">
 	<link rel="modulepreload" href="/_app/chunks/store-77699777.js">
-	<link rel="modulepreload" href="/_app/pages/posts/blog-with-sveltekit.md-38ce2d82.js">
+	<link rel="modulepreload" href="/_app/pages/posts/blog-with-sveltekit.md-6e9739a0.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-7f95c25c.js">
 	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-990cc0ff.js">
-	<link rel="modulepreload" href="/_app/chunks/blog-with-sveltekit-ae2875db.js">
+	<link rel="modulepreload" href="/_app/chunks/blog-with-sveltekit-4c2cbb59.js">
   </head>
   <body>
     <!-- The application will be rendered inside this element,
@@ -64,7 +64,7 @@
   <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
   </a>
 </nav>
-      <a href="https://www.nicovideo.jp/watch/sm938664" target="_blank" rel="noreferrer noopener" class="svelte-1m045v8"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" class="svelte-1m045v8">
+      <a href="https://www.nicovideo.jp/watch/sm37520821" target="_blank" rel="noreferrer noopener" class="svelte-1m045v8"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" class="svelte-1m045v8">
 </a></div>
     </div>
 </header>
@@ -98,6 +98,11 @@
 <li>基於 Svelte 處理與補足了如 SSR、SPA、SSG 等應用製作的需求</li></ul></li>
 <li><a href="https://kit.svelte.dev/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://kit.svelte.dev/" alt="SvelteKit"><span>SvelteKit</span></a><ul><li>基於諸多原因從 Sapper 翻新而來的 Svelte framework</li>
 <li>改為使用 Vite，進一步簡化樣板架構</li></ul></li></ul>
+<h2 id="js-id-setup">Setup</h2>
+<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">npm</span> create svelte@latest my-app
+<span class="token builtin class-name">cd</span> my-app
+<span class="token function">npm</span> <span class="token function">install</span>
+<span class="token function">npm</span> run dev</code><!-- HTML_TAG_END --></pre>
 <h2 id="js-id-common-directory-structure">Common directory structure</h2>
 <pre class="language-undefined"><!-- HTML_TAG_START --><code class="language-undefined">src/
   |- routes/
@@ -473,7 +478,7 @@ Hello <span class="token italic"><span class="token punctuation">_</span><span c
   <span style="margin: 0 1em;">0</span>
   <button>+</button></div>
 <p>雖說如此還是有很多沒有完全理解或活用的部份，像是 <code>import.mega.globEager</code> 似乎在預覽時會有效能上的問題，也還有像預覽縮圖、文章大綱、閱讀所需時間等等想實裝的功能，或是統整樣式到 Tailwind CSS 或 Windi CSS，但就抱著至少能動的精神，簡單整理了目前用到的核心架構。</p>
-<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-whats-it-all-about').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">What’s it all about?</a></li><li><a href="#" onclick="document.querySelector('#js-id-common-directory-structure').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">Common directory structure</a></li><li><a href="#" onclick="document.querySelector('#js-id-features').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">Features</a></li><li><a href="#" onclick="document.querySelector('#js-id-ref').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">Ref</a></li><li><a href="#" onclick="document.querySelector('#js-id-example-repo').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">Example repo</a></li><li><a href="#" onclick="document.querySelector('#js-id-雜談').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">雜談</a></li></ul></div>
+<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-whats-it-all-about').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">What’s it all about?</a></li><li><a href="#" onclick="document.querySelector('#js-id-setup').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">Setup</a></li><li><a href="#" onclick="document.querySelector('#js-id-common-directory-structure').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">Common directory structure</a></li><li><a href="#" onclick="document.querySelector('#js-id-features').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">Features</a></li><li><a href="#" onclick="document.querySelector('#js-id-ref').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">Ref</a></li><li><a href="#" onclick="document.querySelector('#js-id-example-repo').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">Example repo</a></li><li><a href="#" onclick="document.querySelector('#js-id-雜談').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">雜談</a></li></ul></div>
     <span class="blink svelte-1kip24n">_</span></article>
   
 
@@ -490,10 +495,10 @@ Hello <span class="token italic"><span class="token punctuation">_</span><span c
 </div>
 
 
-		<script type="module" data-hydrate="lzqxg4">
-		import { start } from "/_app/start-fd050bc1.js";
+		<script type="module" data-hydrate="17jyptf">
+		import { start } from "/_app/start-05aa2312.js";
 		start({
-			target: document.querySelector('[data-hydrate="lzqxg4"]').parentNode,
+			target: document.querySelector('[data-hydrate="17jyptf"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -504,7 +509,7 @@ Hello <span class="token italic"><span class="token punctuation">_</span><span c
 				error: null,
 				nodes: [
 					import("/_app/pages/__layout.svelte-33ddf72d.js"),
-						import("/_app/pages/posts/blog-with-sveltekit.md-38ce2d82.js")
+						import("/_app/pages/posts/blog-with-sveltekit.md-6e9739a0.js")
 				],
 				params: {},
 				routeId: "posts/blog-with-sveltekit"
