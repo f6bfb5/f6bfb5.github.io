@@ -15,12 +15,12 @@ export async function get() {
   >
   <url>
     <loc>${siteUrl}</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
+    <lastmod>${new Date().toISOString().slice(0,-5) + "+08:00"}</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>${siteUrl}/about</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
+    <lastmod>${new Date().toISOString().slice(0,-5) + "+08:00"}</lastmod>
     <priority>1.00</priority>
   </url>
   ${Object.keys(allPosts)
@@ -30,7 +30,9 @@ export async function get() {
       <loc>${siteUrl}/${path
         .split("/")
         [path.split("/").length - 1].slice(0, -3)}</loc>
-      <lastmod>${new Date(allPosts[path].metadata.date).toISOString()}</lastmod>
+      <lastmod>${new Date(allPosts[path].metadata.date)
+        .toISOString()
+        .slice(0,-5) + "+08:00"}</lastmod>
       <priority>0.80</priority>
     </url>
   `
