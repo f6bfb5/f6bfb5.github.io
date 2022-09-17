@@ -22,6 +22,7 @@ tags: Toolbox
   - [A.N. Lucas's 88x31 button Collection](https://anlucas.neocities.org/88x31Buttons.html)
   - [Internet Button Archive](https://buttoncollection.neocities.org/)
   - [capstasher 88x31 button collection](https://capstasher.neocities.org/88x31collection-page1.html)
+  - [Bytemoth's Button Bonanza](https://bytemoth.nfshost.com/88s/)
   - [88by31](https://88by31.neocities.org/)
   - [88x31 Buttons](https://yesterweb.org/graphics/buttons.html)
   - [Who knew 88 and 31 went so well together?](https://44nifty.com/buttons.html)
@@ -60,6 +61,7 @@ tags: Toolbox
 - [10 ＋ 1 website](https://www.10plus1.jp/)
 - [Motherfucking Website](https://motherfuckingwebsite.com/)
 - [ちょうどいい Web デザインギャラリー](https://choooodoii.com/)
+- [おいでよ 広告の沼](https://www.citymilk.net/advertisingswamp/)
 
 ## 學習
 

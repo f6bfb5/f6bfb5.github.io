@@ -117,18 +117,44 @@
         </div>
         <div class="aside-row">
           <a
+            href="https://www.mozilla.org/en-US/firefox/"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <img src="https://i.imgur.com/BE9jeOu.gif" alt="firefox now" />
+          </a>
+          <a
             href="https://www.henrypp.org/product/chrlauncher"
             rel="noreferrer noopener"
             target="_blank"
           >
-            <img src="https://i.imgur.com/ovYrVHT.png" alt="dream diary" />
+            <img src="https://i.imgur.com/ovYrVHT.png" alt="chromium now" />
           </a>
+        </div>
+        <div class="aside-row">
+          <img src="https://i.imgur.com/iLeESpJ.gif" alt="lain" />
+          <a
+            href="https://www.torproject.org/"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <img src="https://i.imgur.com/t1twsds.gif" alt="Tor" />
+          </a>
+        </div>
+        <div class="aside-row">
           <a
             href="https://discord.com/"
             rel="noreferrer noopener"
             target="_blank"
           >
-            <img src="https://i.imgur.com/Z5F3I6K.gif" alt="dream diary" />
+            <img src="https://i.imgur.com/TDbUDP9.png" alt="just get discord" />
+          </a>
+          <a
+            href="https://store.steampowered.com/about/"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <img src="https://i.imgur.com/OOKXDku.gif" alt="Play with Steam" />
           </a>
         </div>
         <div class="aside-row">
@@ -147,17 +173,9 @@
             <img src="https://i.imgur.com/qHtVN6o.png" alt="windose 2.0" />
           </a>
         </div>
+
         <div class="aside-row">
-          <a
-            href="https://store.steampowered.com/about/"
-            rel="noreferrer noopener"
-            target="_blank"
-          >
-            <img src="https://i.imgur.com/OOKXDku.gif" alt="Play with Steam" />
-          </a>
           <img src="https://i.imgur.com/fl9sleS.png" alt="PATAPON" />
-        </div>
-        <div class="aside-row">
           <a
             href="https://bandcamp.com/"
             rel="noreferrer noopener"
@@ -165,7 +183,6 @@
           >
             <img src="https://i.imgur.com/2phTejB.png" alt="bandcamp" />
           </a>
-          <img src="https://i.imgur.com/6Y6hPvZ.gif" alt="World Wide Web" />
         </div>
         <div class="aside-row">
           <a
@@ -216,17 +233,8 @@
           </a>
         </div>
         <div class="aside-row">
+          <img src="https://i.imgur.com/6Y6hPvZ.gif" alt="World Wide Web" />
           <img src="https://i.imgur.com/mBfzsPg.gif" alt="f-facebook" />
-          <a
-            href="https://www.torproject.org/"
-            rel="noreferrer noopener"
-            target="_blank"
-          >
-            <img src="https://i.imgur.com/t1twsds.gif" alt="Tor" />
-          </a>
-        </div>
-        <div class="aside-row">
-          <img src="https://i.imgur.com/iLeESpJ.gif" alt="lain" />
         </div>
         <div
           on:click={() => window.location.assign("./reminiscence")}
