@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-cc34adcf.js",
+    "file": "start-4ede1a12.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -51,17 +51,17 @@
       "_escape-from-algorithm-with-rss-29bcef35.js",
       "_how-do-you-like-wendesday-6da9c630.js",
       "_how-to-check-font-family-name-in-computer-5d61d810.js",
-      "_login-with-discord-13bbea42.js",
+      "_login-with-discord-47942ebe.js",
       "_mpv-46cb7498.js",
       "_operating-with-keyboard-cbb8a6b1.js",
       "_our-internet-history-929cce41.js",
       "_search-engine-operators-20a45c3b.js",
       "_sticker-generator-2d94edff.js",
-      "_template-720c9904.js",
+      "_template-ee43974f.js",
       "_tool-list-creativity-aea621e2.js",
       "_tool-list-gaming-43c1b8bc.js",
       "_tool-list-system-cfa13900.js",
-      "_tool-list-website-b8bec9e5.js",
+      "_tool-list-website-808e4497.js",
       "_use-foobar2k-to-listen-to-podcast-346b651c.js",
       "_use-google-spreadsheet-as-database-2afde7a1.js",
       "_what-nft-is-not-b3a6ca60.js",
@@ -112,7 +112,7 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-0f01333e.js",
+    "file": "pages/__layout-wide.svelte-bd9873d2.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -128,7 +128,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-ff50ec07.js",
+    "file": "pages/_slug_.svelte-22d8928c.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -167,17 +167,17 @@
       "_escape-from-algorithm-with-rss-29bcef35.js",
       "_how-do-you-like-wendesday-6da9c630.js",
       "_how-to-check-font-family-name-in-computer-5d61d810.js",
-      "_login-with-discord-13bbea42.js",
+      "_login-with-discord-47942ebe.js",
       "_mpv-46cb7498.js",
       "_operating-with-keyboard-cbb8a6b1.js",
       "_our-internet-history-929cce41.js",
       "_search-engine-operators-20a45c3b.js",
       "_sticker-generator-2d94edff.js",
-      "_template-720c9904.js",
+      "_template-ee43974f.js",
       "_tool-list-creativity-aea621e2.js",
       "_tool-list-gaming-43c1b8bc.js",
       "_tool-list-system-cfa13900.js",
-      "_tool-list-website-b8bec9e5.js",
+      "_tool-list-website-808e4497.js",
       "_use-foobar2k-to-listen-to-podcast-346b651c.js",
       "_use-google-spreadsheet-as-database-2afde7a1.js",
       "_what-nft-is-not-b3a6ca60.js",
@@ -205,7 +205,7 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-11c68912.js",
+    "file": "pages/index@wide.svelte-5f3c54bf.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -244,17 +244,17 @@
       "_escape-from-algorithm-with-rss-29bcef35.js",
       "_how-do-you-like-wendesday-6da9c630.js",
       "_how-to-check-font-family-name-in-computer-5d61d810.js",
-      "_login-with-discord-13bbea42.js",
+      "_login-with-discord-47942ebe.js",
       "_mpv-46cb7498.js",
       "_operating-with-keyboard-cbb8a6b1.js",
       "_our-internet-history-929cce41.js",
       "_search-engine-operators-20a45c3b.js",
       "_sticker-generator-2d94edff.js",
-      "_template-720c9904.js",
+      "_template-ee43974f.js",
       "_tool-list-creativity-aea621e2.js",
       "_tool-list-gaming-43c1b8bc.js",
       "_tool-list-system-cfa13900.js",
-      "_tool-list-website-b8bec9e5.js",
+      "_tool-list-website-808e4497.js",
       "_use-foobar2k-to-listen-to-podcast-346b651c.js",
       "_use-google-spreadsheet-as-database-2afde7a1.js",
       "_what-nft-is-not-b3a6ca60.js",
@@ -687,13 +687,13 @@
     ]
   },
   "src/routes/posts/login-with-discord.md": {
-    "file": "pages/posts/login-with-discord.md-8c09e7a8.js",
+    "file": "pages/posts/login-with-discord.md-a49540ab.js",
     "src": "src/routes/posts/login-with-discord.md",
     "isEntry": true,
     "imports": [
       "_index-fbf036c5.js",
       "__post-7f95c25c.js",
-      "_login-with-discord-13bbea42.js",
+      "_login-with-discord-47942ebe.js",
       "_BlinkAnchor-990cc0ff.js"
     ]
   },
@@ -754,14 +754,14 @@
     ]
   },
   "src/routes/posts/template.md": {
-    "file": "pages/posts/template.md-5ebd4e97.js",
+    "file": "pages/posts/template.md-71ea7b91.js",
     "src": "src/routes/posts/template.md",
     "isEntry": true,
     "imports": [
       "_index-fbf036c5.js",
       "__post-7f95c25c.js",
       "_BalloonQuote2-626ae51d.js",
-      "_template-720c9904.js",
+      "_template-ee43974f.js",
       "_AutomaticColorText-5bdc8eae.js",
       "_BlinkAnchor-990cc0ff.js"
     ]
@@ -800,13 +800,13 @@
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-410c832f.js",
+    "file": "pages/posts/tool-list-website.md-f95b7ee0.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "imports": [
       "_index-fbf036c5.js",
       "__post-7f95c25c.js",
-      "_tool-list-website-b8bec9e5.js",
+      "_tool-list-website-808e4497.js",
       "_BlinkAnchor-990cc0ff.js"
     ]
   },
@@ -908,7 +908,7 @@
       "__post-7f95c25c.js"
     ],
     "css": [
-      "assets/2020-what-i-have-read-on-internet-a90af8df.css"
+      "assets/2022-what-i-have-read-on-internet-912e9292.css"
     ]
   },
   "_2021-what-i-have-read-on-internet-8503a829.js": {
@@ -919,7 +919,7 @@
       "__post-7f95c25c.js"
     ],
     "css": [
-      "assets/2020-what-i-have-read-on-internet-a90af8df.css"
+      "assets/2022-what-i-have-read-on-internet-912e9292.css"
     ]
   },
   "_2022-what-i-have-read-on-internet-3f92a0cc.js": {
@@ -930,7 +930,7 @@
       "__post-7f95c25c.js"
     ],
     "css": [
-      "assets/2020-what-i-have-read-on-internet-a90af8df.css"
+      "assets/2022-what-i-have-read-on-internet-912e9292.css"
     ]
   },
   "_ACG-Pause-And-Select-Apocalypse-1e5d3f36.js": {
@@ -1180,8 +1180,8 @@
       "__post-7f95c25c.js"
     ]
   },
-  "_login-with-discord-13bbea42.js": {
-    "file": "chunks/login-with-discord-13bbea42.js",
+  "_login-with-discord-47942ebe.js": {
+    "file": "chunks/login-with-discord-47942ebe.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-fbf036c5.js",
@@ -1238,8 +1238,8 @@
       "assets/sticker-generator-a58d6bc5.css"
     ]
   },
-  "_template-720c9904.js": {
-    "file": "chunks/template-720c9904.js",
+  "_template-ee43974f.js": {
+    "file": "chunks/template-ee43974f.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-fbf036c5.js",
@@ -1248,7 +1248,7 @@
       "_AutomaticColorText-5bdc8eae.js"
     ],
     "css": [
-      "assets/template-719be9d5.css"
+      "assets/template-eeaad363.css"
     ]
   },
   "_tool-list-creativity-aea621e2.js": {
@@ -1259,7 +1259,7 @@
       "__post-7f95c25c.js"
     ],
     "css": [
-      "assets/tool-list-creativity-74747bfb.css"
+      "assets/tool-list-gaming-cfa2b81a.css"
     ]
   },
   "_tool-list-gaming-43c1b8bc.js": {
@@ -1270,7 +1270,7 @@
       "__post-7f95c25c.js"
     ],
     "css": [
-      "assets/tool-list-creativity-74747bfb.css"
+      "assets/tool-list-gaming-cfa2b81a.css"
     ]
   },
   "_tool-list-system-cfa13900.js": {
@@ -1284,8 +1284,8 @@
       "assets/tool-list-system-3ddf96e1.css"
     ]
   },
-  "_tool-list-website-b8bec9e5.js": {
-    "file": "chunks/tool-list-website-b8bec9e5.js",
+  "_tool-list-website-808e4497.js": {
+    "file": "chunks/tool-list-website-808e4497.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-fbf036c5.js",
