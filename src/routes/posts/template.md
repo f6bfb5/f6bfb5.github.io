@@ -531,14 +531,21 @@ flowchart TB
   <p style="text-align: center;">lorem</p>
 </div>
 
+<!-- https://qiita.com/xrxoxcxox/items/073d30615a1d73c089fc -->
 <div style="columns: 100px 3;">
+  <div class="adjusted-image-border">
+    <img src="https://i.imgur.com/vCT9925.png" alt="thanks for playing" />
+  </div>
+  <div class="adjusted-image-border">
 
-lorem
+  ![sky in the building](https://i.imgur.com/lYVTGos.png)
 
-lorem
+  </div>
+  <div class="adjusted-image-border">
 
-lorem
+  ![rainbow ballon](https://i.imgur.com/JuPO2pq.png)
 
+  </div>
 </div>
 
 <script>
@@ -593,8 +600,7 @@ lorem
     }
   }
 
-
-
+  const incrementingNum = [...Array(5).keys()];
 </script>
 
 <style scoped>
@@ -753,5 +759,19 @@ lorem
       background-position-x: calc(150vw - 96.5926px);
       background-position-y: calc(50px + 25.8819px);
     }
+  }
+  
+  .adjusted-image-border {
+    position: relative;
+  }
+  .adjusted-image-border p {
+    padding: 0;
+  }
+  .adjusted-image-border::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    box-shadow: 0 0 0 2px rgb(220 220 220) inset;
+    mix-blend-mode: darken;
   }
 </style>

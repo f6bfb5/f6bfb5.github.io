@@ -112,10 +112,6 @@
           <img src="https://i.imgur.com/yGy1Kug.gif" alt="anti-code and run" />
         </div>
         <div class="aside-row">
-          <img src="https://i.imgur.com/krlMLQO.gif" alt="a-now" />
-          <img src="https://i.imgur.com/iu8VKcQ.gif" alt="Milk Tea Now" />
-        </div>
-        <div class="aside-row">
           <a
             href="https://www.mozilla.org/en-US/firefox/"
             rel="noreferrer noopener"
@@ -124,22 +120,26 @@
             <img src="https://i.imgur.com/BE9jeOu.gif" alt="firefox now" />
           </a>
           <a
-            href="https://www.henrypp.org/product/chrlauncher"
-            rel="noreferrer noopener"
-            target="_blank"
-          >
-            <img src="https://i.imgur.com/ovYrVHT.png" alt="chromium now" />
-          </a>
-        </div>
-        <div class="aside-row">
-          <img src="https://i.imgur.com/iLeESpJ.gif" alt="lain" />
-          <a
             href="https://www.torproject.org/"
             rel="noreferrer noopener"
             target="_blank"
           >
             <img src="https://i.imgur.com/t1twsds.gif" alt="Tor" />
           </a>
+        </div>
+        <div class="aside-row">
+          <a
+            href="https://www.henrypp.org/product/chrlauncher"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <img src="https://i.imgur.com/ovYrVHT.png" alt="chromium now" />
+          </a>
+          <img src="https://i.imgur.com/krlMLQO.gif" alt="a-now" />
+        </div>
+        <div class="aside-row">
+          <img src="https://i.imgur.com/iu8VKcQ.gif" alt="Milk Tea Now" />
+          <img src="https://i.imgur.com/DjCDr0e.gif" alt="Candy Bars Now" />
         </div>
         <div class="aside-row">
           <a
@@ -233,8 +233,11 @@
           </a>
         </div>
         <div class="aside-row">
-          <img src="https://i.imgur.com/6Y6hPvZ.gif" alt="World Wide Web" />
           <img src="https://i.imgur.com/mBfzsPg.gif" alt="f-facebook" />
+          <img src="https://i.imgur.com/6Y6hPvZ.gif" alt="World Wide Web" />
+        </div>
+        <div class="aside-row">
+          <img src="https://i.imgur.com/iLeESpJ.gif" alt="lain" />
         </div>
         <div
           on:click={() => window.location.assign("./reminiscence")}

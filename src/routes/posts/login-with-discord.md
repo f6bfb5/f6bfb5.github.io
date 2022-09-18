@@ -20,7 +20,7 @@ tags: F2E
 1. 點擊左側的「OAuth2」分頁
 2. 點擊右側的「Add Redirect」，輸入要用到驗證登入的網址<br/>
    例如本文最下方有附上實作範例<br/>
-   輸入的網址就是本文連結 `https://f6bfb5.github.io/login-with-discord/`
+   輸入網址就是本文連結 `https://f6bfb5.github.io/login-with-discord`
 3. 勾選下方「SCOPE」（索取的資訊欄位）
    裡的「identify」（Discord 的 ID）和「email」
 4. 就可於頁面下方取得認證用的連結<br/>

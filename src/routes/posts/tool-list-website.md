@@ -27,10 +27,15 @@ tags: Toolbox
   - [88x31 Buttons](https://yesterweb.org/graphics/buttons.html)
   - [Who knew 88 and 31 went so well together?](https://44nifty.com/buttons.html)
   - [plasticdino](https://plasticdino.neocities.org/graphics.html)
+  - [exp.pet](https://exo.pet/)
 - [88x31](https://neonaut.neocities.org/cyber/88x31.html)
 
 ---
 
+- [譲れぬ闘い --- ここで負けてしまったら、この戦争全体に負けてしまうんだ。](https://web.archive.org/web/20130402224316/http://www.changelog.net/log/1999/special/dave/)
+  - [Firefoxは危険なJavaScriptに対応しない](https://qiita.com/rana_kualu/items/8803f02c72a54f366f2a)
+  - [なぜMozillaはXULアドオンを廃止したのか？（翻訳）](https://qiita.com/piroor/items/e876eaa70d4c0bf06d9b)
+- [ブログ台頭直前のウェブ界隈が好きだった話 - Neo's World](https://neos21.net/blog/2016/02/16-01.html)
 - [e-typing ローマ字タイピング](https://www.e-typing.ne.jp/roma/check/)
 - [ネットワーク対戦タイピング Weather Typing](https://denasu.com/software/weathertyping.html)
 - [Google reCAPTCHA test](https://patrickhlauke.github.io/recaptcha/)
