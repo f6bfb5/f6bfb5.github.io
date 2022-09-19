@@ -327,6 +327,10 @@ rt {
   user-select: none;
 }
 
+del {
+  opacity: .5;
+}
+
 table {
   border-collapse: collapse;
   margin: 0 auto;
