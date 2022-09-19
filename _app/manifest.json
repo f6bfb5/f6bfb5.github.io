@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-fa5a4a89.js",
+    "file": "start-8232079e.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -20,7 +20,7 @@
       "_11ty-note-1a9a60ce.js",
       "_2020-what-i-have-read-on-internet-7b5045eb.js",
       "_2021-what-i-have-read-on-internet-cab753f5.js",
-      "_2022-what-i-have-read-on-internet-f12d8971.js",
+      "_2022-what-i-have-read-on-internet-66357a2e.js",
       "_ACG-Pause-And-Select-Apocalypse-c4d31d73.js",
       "_ACG-char-counterattack-fans-interview-2e112d90.js",
       "_ACG-difference-of-director-and-producer-5cafbb8e.js",
@@ -127,7 +127,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-474a047b.js",
+    "file": "pages/_slug_.svelte-c132a794.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -135,7 +135,7 @@
       "_11ty-note-1a9a60ce.js",
       "_2020-what-i-have-read-on-internet-7b5045eb.js",
       "_2021-what-i-have-read-on-internet-cab753f5.js",
-      "_2022-what-i-have-read-on-internet-f12d8971.js",
+      "_2022-what-i-have-read-on-internet-66357a2e.js",
       "_ACG-Pause-And-Select-Apocalypse-c4d31d73.js",
       "_ACG-char-counterattack-fans-interview-2e112d90.js",
       "_ACG-difference-of-director-and-producer-5cafbb8e.js",
@@ -204,7 +204,7 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-4245c534.js",
+    "file": "pages/index@wide.svelte-d225070b.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -212,7 +212,7 @@
       "_11ty-note-1a9a60ce.js",
       "_2020-what-i-have-read-on-internet-7b5045eb.js",
       "_2021-what-i-have-read-on-internet-cab753f5.js",
-      "_2022-what-i-have-read-on-internet-f12d8971.js",
+      "_2022-what-i-have-read-on-internet-66357a2e.js",
       "_ACG-Pause-And-Select-Apocalypse-c4d31d73.js",
       "_ACG-char-counterattack-fans-interview-2e112d90.js",
       "_ACG-difference-of-director-and-producer-5cafbb8e.js",
@@ -332,13 +332,13 @@
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-9c49e3e1.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-96373bfa.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "imports": [
       "_index-fbf036c5.js",
       "__post-7f95c25c.js",
-      "_2022-what-i-have-read-on-internet-f12d8971.js",
+      "_2022-what-i-have-read-on-internet-66357a2e.js",
       "_BlinkAnchor-990cc0ff.js"
     ]
   },
@@ -909,15 +909,15 @@
       "assets/2020-what-i-have-read-on-internet-a90af8df.css"
     ]
   },
-  "_2022-what-i-have-read-on-internet-f12d8971.js": {
-    "file": "chunks/2022-what-i-have-read-on-internet-f12d8971.js",
+  "_2022-what-i-have-read-on-internet-66357a2e.js": {
+    "file": "chunks/2022-what-i-have-read-on-internet-66357a2e.js",
     "isDynamicEntry": true,
     "imports": [
       "_index-fbf036c5.js",
       "__post-7f95c25c.js"
     ],
     "css": [
-      "assets/2022-what-i-have-read-on-internet-a90d58ed.css"
+      "assets/2022-what-i-have-read-on-internet-da335973.css"
     ]
   },
   "_ACG-Pause-And-Select-Apocalypse-c4d31d73.js": {
@@ -1246,7 +1246,7 @@
       "__post-7f95c25c.js"
     ],
     "css": [
-      "assets/tool-list-creativity-74747bfb.css"
+      "assets/tool-list-gaming-cfa2b81a.css"
     ]
   },
   "_tool-list-gaming-b1e2728b.js": {
@@ -1257,7 +1257,7 @@
       "__post-7f95c25c.js"
     ],
     "css": [
-      "assets/tool-list-creativity-74747bfb.css"
+      "assets/tool-list-gaming-cfa2b81a.css"
     ]
   },
   "_tool-list-system-5fb6c6b6.js": {
