@@ -1,6 +1,6 @@
 <div class="c">
   <div class="w">
-    <p style="font-size: 10vw">死を忘ることなかれ</p>
+    <p style="font-size: 10vw; opacity: 0;">死を忘ることなかれ</p>
   </div>
 </div>
 
@@ -11,6 +11,8 @@
 
     color: white;
     background-color: #460609;
+    background-image: url(https://i.imgur.com/9MnFlCB.gif);
+    background-size: cover;
 
     user-select: none;
     overflow: hidden;
