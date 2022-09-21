@@ -1,1 +1,0 @@
-import"../../chunks/index-5de2491f.js";import"../../chunks/_post-2f2d9454.js";import"../../chunks/AutomaticColorText-123d22a3.js";import{A as i,m as e}from"../../chunks/ACG-random-thoughts-about-rockman-x-dive-3f7217a3.js";import"../../chunks/BlinkAnchor-dd83515b.js";export{i as default,e as metadata};
