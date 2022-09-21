@@ -23,7 +23,7 @@
 
 <div
   id="js-random-image-container"
-  class="random-image-container"
+  class="random-image-container adjusted-image-border"
   style="--noise-width: {noiseWidth}; --noise-height: {noiseHeight};"
 >
   <img id="js-random-image" src={imageUrl} alt="random retro-style pic" />
@@ -77,5 +77,17 @@ https://webdesign.tutsplus.com/tutorials/better-web-images-with-svg-grainy-filte
   }
   svg {
     display: none;
+  }
+
+  .adjusted-image-border {
+    position: relative;
+  }
+  .adjusted-image-border::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    box-shadow: 0 0 0 2px rgb(220 220 220) inset;
+    mix-blend-mode: darken;
+    z-index: 1;
   }
 </style>

@@ -1,49 +1,64 @@
 <script context="module">
-  const allPosts = import.meta.globEager(`../routes/posts/*.md`);
-  const body = [];
+  // const allPosts = import.meta.globEager(`../routes/posts/*.md`);
+  // const body = [];
 
-  for (let path in allPosts) {
-    const post = allPosts[path];
-    const metadata = post.metadata;
+  // for (let path in allPosts) {
+  //   const post = allPosts[path];
+  //   const metadata = post.metadata;
 
-    if (typeof metadata.tags === "string")
-      metadata.tags = [...new Set(metadata.tags.split(", "))];
+  //   if (typeof metadata.tags === "string")
+  //     metadata.tags = [...new Set(metadata.tags.split(", "))];
 
-    const year = new Date(metadata.date).getFullYear();
-    const namePage = path.split("/");
-    const slugPage = namePage[namePage.length - 1].slice(0, -3);
+  //   const year = new Date(metadata.date).getFullYear();
+  //   const namePage = path.split("/");
+  //   const slugPage = namePage[namePage.length - 1].slice(0, -3);
 
-    const p = {
-      path,
-      metadata,
-      slugPage,
-      year,
-    };
-    body.push(p);
-  }
+  //   const p = {
+  //     path,
+  //     metadata,
+  //     slugPage,
+  //     year,
+  //   };
+  //   body.push(p);
+  // }
 
-  export const load = () => {
+  export const load = async () => {
+    const mdModules = import.meta.glob(`../routes/posts/*.md`);
+    const posts = await Promise.all(
+      Object.keys(mdModules).map(async (path) => {
+        const slug = path.split("/").at(-1).slice(0,-3);
+        const { metadata } = await mdModules[path]();
+        return { metadata, slug };
+      })
+    );
     return {
       props: {
-        posts: body,
+        posts,
       },
     };
+
+    // return {
+    //   props: {
+    //     posts: body,
+    //   },
+    // };
   };
 </script>
 
 <script>
   export let posts;
 
-  let allPostsYears = [...new Set(posts.map((p) => p.year))].sort(
-    (a, b) => b - a
-  );
+  let allPostsYears = [
+    ...new Set(posts.map((p) => new Date(p.metadata.date).getFullYear())),
+  ].sort((a, b) => b - a);
+
   let otherTag = false;
   let allPostsTags = [
     ...new Set(
       posts
         .map((p) => {
           if (!!p.metadata.tags) {
-            return p.metadata.tags;
+            return p.metadata.tags.split(', ');
           } else if (!otherTag) {
             otherTag = true;
           }

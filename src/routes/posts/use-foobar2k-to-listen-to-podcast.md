@@ -5,9 +5,9 @@ summary: "原本聲音小到會令人抓狂（大概是因為完全沒做調整�
 tags: Toolbox
 ---
 
-去年疫情爆發，Podcast 順勢在台灣爆紅，不免俗地也跟風聽了一陣子，這邊推薦兩份表單：[稍微分析了一下我的 Podcast 收聽紀錄 2018-2020](https://blog.yorkxin.org/posts/podcast-analysis.html)、[榨乾你的耳：親自用耳朵聽過的 Podcast Awesome List](https://medium.com/starrocket/maxine-podcast-awesome-list-5f864deb072b)，從上面發現了很多有趣的節目。
+去年疫情爆發，Podcast 順勢在台灣爆紅，不免俗地也跟風聽了一陣子，這邊推薦兩份表單：[稍微分析了一下我的 Podcast 收聽紀錄 2018-2020](https://blog.yorkxin.org/posts/podcast-analysis.html)、[榨乾你的耳：親自用耳朵聽過的 Podcast Awesome List](https://medium.com/starrocket/maxine-podcast-awesome-list-5f864deb072b)，從上面發現很多有趣節目。
 
-雖然因為收聽 Podcast 實在還是蠻花費時間的，之後已經沒什麼在聽了，不過還在收聽的時候，一直有幾個問題很困擾我：一些平台的預設播放順序是從新往舊播、每個人的節目音量大小會有落差且播放平台無法解決，老實說非常地惱人。
+雖然因為收聽 Podcast 實在還蠻花費時間的，之後已經沒什麼聽了，不過還在收聽的時候，一直有幾個問題很困擾我：一些平台的預設播放順序是從新往舊播、每個人的節目音量大小會有落差，且播放平台無法解決，老實說非常地惱人。
 
 ## Foobar2000
 
@@ -27,16 +27,21 @@ Podcatcher 可以讓 foobar2000 自動更新與下載所訂閱的 Podcast 節目
 
 ### Podcatcher
 
-- 「File」選單 →「Subscribe to Podcast Feed…」→ 輸入想聽的 Podcast RSS 網址後
-- 「View」選單 →「Podcatcher Feed Manager」→ 獨立挑選想聽的主持人
+- 「File」選單
+  - →「Subscribe to Podcast Feed…」
+  - → 輸入想聽的 Podcast RSS 網址後
+- 「View」選單
+  - →「Podcatcher Feed Manager」
+  - → 獨立挑選想聽的 Podcast 來源
 
 ### ReplayGain DSP
 
 - 「File」選單 →「Preferences」
-  <br/>→「Playback」→「DSP Manager」
-  <br/>→ 從右邊新增「ReplayGain (alternative)」
-  <br/>→ 雙擊或點「ReplayGain (alternative)」右邊的「…」開啟設定
-  <br/>→ 將「Target loudness」設為「-16 LUFS (Podcasts)」
+  - →「Playback」
+  - →「DSP Manager」
+  - → 從右邊新增「ReplayGain (alternative)」
+  - → 雙擊或點「ReplayGain (alternative)」右邊的「…」開啟設定
+  - → 將「Target loudness」設為「-16 LUFS (Podcasts)」
 
 另外我還加上了 Equalizer 等化器，搭配網路上的 [Preset](https://github.com/LeafG/dotfiles/tree/master/leaf/.foobar2000/Foobar2k%20EQ%20Presets/Equalizer%20Presets) 裡的「EQ Vocal」進一步強化人聲。
 
@@ -50,8 +55,8 @@ Podcatcher 可以讓 foobar2000 自動更新與下載所訂閱的 Podcast 節目
 
 ## 追記
 
-- 將設定頁面 `Perferences` -> `Tools` -> `Podcatcher`
-  - 裡的 `Time range over which to automatically download podcasts`
+- 到設定頁面 `Perferences` -> `Tools` -> `Podcatcher`
+  - 將 `Time range over which to automatically download podcasts`
   - 移至最左邊的 `No automatic downloading`
 - 從 `File` -> `Update All Podcast Feeds` 更新來源
 

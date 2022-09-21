@@ -129,34 +129,34 @@ tags: ACG, Comic
 - 謎の彼女 X
 - トランスルーセント
 
-### 推薦漫畫
+### 推薦漫畫給我
 
-- 2021-05-20 [おすすめ漫画教えて](https://anond.hatelabo.jp/20210520160147)
+2021-05-20 [おすすめ漫画教えて](https://anond.hatelabo.jp/20210520160147)
 
 ### 漫畫藏書 4000 本的我認為很厲害的平成漫畫 TOP30
 
-- 2022-05-10 [漫画蔵書推定 4000 冊の俺が凄いと思った平成漫画 TOP30 を選ぶ](https://anond.hatelabo.jp/20220510212831)
+2022-05-10 [漫画蔵書推定 4000 冊の俺が凄いと思った平成漫画 TOP30 を選ぶ](https://anond.hatelabo.jp/20220510212831)
 
 ### 包含昭和與令和作品 我的漫畫 30 選
 
-- 2022-05-11 [昭和や令和も含む好きな漫画 30 選](https://anond.hatelabo.jp/20220511071318)
+2022-05-11 [昭和や令和も含む好きな漫画 30 選](https://anond.hatelabo.jp/20220511071318)
 
 ### 身為雙親漫畫藏書大概有超過萬本的兒子挑選的昭和最強漫畫 TOP30
 
-- 2022-05-14 [両親の漫画蔵書が恐らく 1 万冊ぐらいの息子が昭和最強漫画 TOP30 選んだ](https://anond.hatelabo.jp/20220514191728)
+2022-05-14 [両親の漫画蔵書が恐らく 1 万冊ぐらいの息子が昭和最強漫画 TOP30 選んだ](https://anond.hatelabo.jp/20220514191728)
 
 ### 美食、料理漫畫愛好者的 TOP30
 
-- 2022-05-15 [グルメ・料理漫画好きが TOP30 選んだ](https://anond.hatelabo.jp/20220515032301)
+2022-05-15 [グルメ・料理漫画好きが TOP30 選んだ](https://anond.hatelabo.jp/20220515032301)
 
 ## 個人部落格
 
 - [作品別独り言](http://shira-yawa.sakura.ne.jp/sakuhinbetu.html)
-  - 由「白拍子 y」撰寫的漫畫讀後心得
+  - 「白拍子 y」撰寫的漫畫讀後心得
 - 2006-07-31 [ナツコミ－オススメの１００冊－](http://orangestar.littlestar.jp/100comic.html)
   - 其中一份參加「ナツの漫画１００冊」的書單
 - 2006-08-24 [マンガナツ 100 　結果発表 20 位～ 1 位](http://d.hatena.ne.jp/dangerous1192/20060824)
-  - 由「酔拳の王　だんげの方」舉辦的企畫「ナツの漫画１００冊」（漫畫百選）票選結果
+  - 「酔拳の王　だんげの方」舉辦的企畫「ナツの漫画１００冊」票選結果
 - 2008-08-12 [Blog のタイトル:2008 年版 ナツ 100(確定)](http://blog.livedoor.jp/sabamiso_es/archives/51359391.html)
 - 2010-08-23 [全１巻オススメ漫画１００選　良いコミック](https://yoicomic.blog.fc2.com/blog-entry-185.html)
   - 單冊漫畫的推薦書單
@@ -352,3 +352,13 @@ tags: ACG, Comic
 | 1947 年  | ミネ・オークボ       | Citizen 13660      |      |
 | 1994 年  | バル                 | 太陽高速           |      |
 | 2000 年  | フレデリック・ボワレ | ゆき子のホウレン草 |      |
+
+<style>
+li a {
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  white-space: nowrap;
+
+  display: list-item;
+}
+</style>

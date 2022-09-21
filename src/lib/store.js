@@ -298,6 +298,7 @@ export const marqueeTexts = readable([
   "土地の独占所有は社会を腐らせる。GAFA はユーザーが離れたら終わりだが、土地所有は永遠。",
   "自分たちと異なる存在を、叩くことは簡単だ。だが彼は、どこまでも分かり合おうとした。どんなに対立しても、分かり合えると信じ続けた。たとえ裏切られ、傷つき、倒れ、力尽きても。なぜなら彼はお互いの理解の先にこそ、希望があると知っていたから。彼の背中を目指し、わたしたちは歩んでいきたい。55 年前に、未来があった。",
   "そんな思い出も時間と共にやがて消える。雨の中の涙のように。死ぬ時が来た。",
+  "やはりエジプトか…いつ出発する？わたしも同行する",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",

@@ -8,13 +8,14 @@
   import { tagsSelected } from "$lib/store.js";
   $tagsSelected = $tagsSelected;
 
-  function arrayContainsAny(array1, array2) {
+  function arrayContainsAny(array1_string, array2) {
     if (array2.length == 0) return true;
-
+    
+    let array1 = array1_string == undefined ? undefined : array1_string.split(", ");
     if (!array1 || array1.length == 0) {
       return array2.includes("Other") ? true : false;
     }
-
+    
     let result = false;
     for (let i = 0; i < array2.length; i++) {
       if (array1.includes(array2[i])) result = true;
@@ -33,7 +34,7 @@
         {#each posts
           .filter((p) => arrayContainsAny(p.metadata.tags, $tagsSelected))
           .filter((p) => new Date(p.metadata.date).getFullYear() === year)
-          .sort((a, b) => new Date(b.metadata.date) - new Date(a.metadata.date)) as { slugPage, metadata: { title, date, tags } }}
+          .sort((a, b) => new Date(b.metadata.date) - new Date(a.metadata.date)) as { slug, metadata: { title, date, tags } }}
           <li>
             <div class="articles-list--link">
               <span>
@@ -45,11 +46,11 @@
                     day: "2-digit",
                   })}
               </span>
-              <a href={`${base}/${slugPage}`} sveltekit:prefetch>{title}</a>
+              <a href={`${base}/${slug}`} sveltekit:prefetch>{title}</a>
             </div>
             {#if tags}
               <div class="articles-list--tags">
-                {#each tags as tag}
+                {#each tags.split(', ') as tag}
                   <Tag {tag} />
                 {/each}
               </div>

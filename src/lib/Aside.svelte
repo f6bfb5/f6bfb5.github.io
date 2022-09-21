@@ -1,9 +1,6 @@
 <script>
   import RandomImage from "$lib/RandomImage.svelte";
   import { base } from "$app/paths";
-  import { marqueeTexts } from "$lib/store.js";
-
-  let randomString = [...$marqueeTexts].sort(() => Math.random() - 0.5).shift();
 </script>
 
 <aside>
@@ -128,8 +125,7 @@
 
     <div class="aside-row">
       <img src="https://i.imgur.com/fl9sleS.png" alt="PATAPON" />
-
-      <img src="https://i.imgur.com/6Y6hPvZ.gif" alt="World Wide Web" />
+      <img src="https://i.imgur.com/9blk2hu.gif" alt="World Wide Web" />
     </div>
     <div class="aside-row">
       <a
@@ -222,7 +218,7 @@
           
           transform: scale(.8, 1); transform-origin: top left;"
       >
-        <span>Random Text</span>
+        <span>ここで一言</span>
       </div>
       <div
         style="position: relative;
@@ -236,7 +232,19 @@
           
           transform: scale(.8, 1); transform-origin: top left; width: 125%; line-height: 2;"
       >
-        <span>{randomString}</span>
+        <span>
+          A year here and he still dreamed of cyberspace, hope fading nightly.
+          All the speed he took, all the turns he'd taken and the corners he cut
+          in Night City, and he'd still see the matrix in his dreams, bright
+          lattices of logic unfolding across that colourless void... The Sprawl
+          was a long, strange way home now over the Pacific, and he was no
+          Console Man, no cyberspace cowboy. Just another hustler, trying to
+          make it through. But the dreams came on in the Japanese night like
+          livewire voodoo, and he'd cry for it, cry in his sleep, and wake alone
+          in the dark, curled in his capsule in some coffin hotel, hands clawed
+          into the bedslab, temper foam bunched between his fingers, trying to
+          reach the console that wasn't there.
+        </span>
       </div>
     </div>
   </div>

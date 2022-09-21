@@ -1,59 +1,42 @@
 <script context="module">
-  const allPosts = import.meta.globEager(`../routes/posts/*.md`);
-  const body = [];
-
-  for (let path in allPosts) {
-    const post = allPosts[path];
-    const metadata = post.metadata;
-
-    const namePage = path.split("/");
-    const slugPage = namePage[namePage.length - 1].slice(0, -3);
-    const p = {
-      post,
-      path,
-      metadata,
-      slugPage,
-    };
-    body.push(p);
-  }
-
-  export const load = ({ params }) => {
-    const posts = body;
+  export const load = async ({ params }) => {
     const { slug } = params;
 
-    const filteredPosts = posts.filter((p) => {
-      return slug.toLowerCase() === p.slugPage.toLowerCase();
-    });
-    if (filteredPosts.length === 0) {
+    const postPromise = import(`../routes/posts/${slug}.md`);
+
+    const postResult = await postPromise;
+    const { default: page, metadata } = postResult;
+
+    if (!page) {
       return {
         status: 404,
-        error: new Error(`slug is not found`)
-      };
-    } else {
-      return {
-        props: {
-          page: filteredPosts[0].post.default,
-          metadata: filteredPosts[0].metadata,
-          slugPage: slug,
-        },
+        error: new Error(`slug is not found`),
       };
     }
+
+    return {
+      props: {
+        slug,
+        page,
+        metadata,
+      },
+    };
   };
 </script>
 
 <script>
+  export let slug;
   export let page;
   export let metadata;
-  export let slugPage;
 </script>
 
 <svelte:head>
   <!--  Include canonical links to your blog -->
-  <link rel="canonical" href="https://f6bfb5.github.io/{slugPage}" />
+  <link rel="canonical" href="https://f6bfb5.github.io/{slug}" />
 
   <!-- Validate your twitter card with https://cards-dev.twitter.com/validator  -->
   <!-- Update content properties with your URL   -->
-  <meta property="og:url" content="https://f6bfb5.github.io/{slugPage}" />
+  <meta property="og:url" content="https://f6bfb5.github.io/{slug}" />
   <meta property="og:type" content="article" />
 
   {#if metadata}

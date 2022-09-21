@@ -1757,7 +1757,14 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [漫画原作者・Rootport先生がAIに描かせた漫画「サイバーパンク桃太郎」が完結。「テストとは思えない出来」の声](https://togetter.com/li/1946844)
 - [漫画家を目指していた母親にインタビュー](https://dailyportalz.jp/kiji/mother-cartoon)
 - [米津玄師氏の担当の方から連絡がありました。](https://note.tsunku.net/n/nf506bf96b59c)
-
+- [みことはこ - 天願真太郎](https://shonenjumpplus.com/episode/316112896850967067)
+- [「推し活」「二次創作」「霊感商法」…これらに共通する人間の「心の働き」（飯田 一史）](https://gendai.media/articles/-/99832)
+- [任天堂もSIEもいない「東京ゲームショウ」から見る今のゲーム業界【西田宗千佳のイマトミライ】](https://www.watch.impress.co.jp/docs/series/nishida/1441032.html)
+- [レストランで猫型配膳ロボット同士がぶつかり合って互いに「どいてくださいにゃ」って言ってる](https://togetter.com/li/1947070)
+- [【追記】エリザベス女王の国葬の参列している黒眼帯の老紳士が気になって妄想膨らむ人々「やはり只者ではなかった」](https://togetter.com/li/1947274)
+- [京都独自の中華メニュー"からしそば"を食べ歩いてきました](https://dailyportalz.jp/kiji/karashisoba-in-kyoto)
+- [植民地支配の「罪」をエリザベス女王は結局、最後まで一度も詫びることはなかった](https://www.newsweekjapan.jp/stories/world/2022/09/post-99654.php)
+- [『めぞん一刻』や『美味しんぼ』を手がけた小学館の伝説的漫画編集者・白井勝也氏に、元週刊少年ジャンプ編集長の鳥嶋和彦氏が訊く！](https://news.denfaminicogamer.jp/interview/220920a)
 
 <style scoped>
 li a {
