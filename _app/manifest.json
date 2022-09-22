@@ -1,11 +1,11 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-ab1a8691.js",
+    "file": "start-47f62e65.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "_index-2c02d785.js",
+      "_index-8a808381.js",
+      "_index-c04c708e.js",
       "_paths-396f020f.js",
       "_preload-helper-e4860ae8.js"
     ],
@@ -70,15 +70,15 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-d78e6602.js",
+    "file": "pages/__layout.svelte-2a8fdb79.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "_Favicon-434ba5a1.js",
-      "_store-417d8512.js",
-      "_index-2c02d785.js",
+      "_index-8a808381.js",
+      "_Favicon-b637c103.js",
+      "_store-b947f954.js",
+      "_index-c04c708e.js",
       "_paths-396f020f.js"
     ],
     "css": [
@@ -86,54 +86,55 @@
     ]
   },
   "src/routes/__error.svelte": {
-    "file": "pages/__error.svelte-91b492d0.js",
+    "file": "pages/__error.svelte-c1ec1d88.js",
     "src": "src/routes/__error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/__error.svelte-f8776bb1.css"
     ]
   },
   "src/routes/__layout-full.svelte": {
-    "file": "pages/__layout-full.svelte-c5a7984b.js",
+    "file": "pages/__layout-full.svelte-5a7cee8a.js",
     "src": "src/routes/__layout-full.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js"
+      "_index-8a808381.js"
     ],
     "css": [
       "assets/pages/__layout-full.svelte-c879ef41.css"
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-80fcd6ed.js",
+    "file": "pages/__layout-wide.svelte-3136781f.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "_Favicon-434ba5a1.js",
-      "_store-417d8512.js",
+      "_index-8a808381.js",
+      "_Favicon-b637c103.js",
+      "_store-b947f954.js",
+      "_BorderedText-685ccf91.js",
       "_paths-396f020f.js",
-      "_index-2c02d785.js"
+      "_index-c04c708e.js"
     ],
     "css": [
       "assets/pages/__layout-wide.svelte-fd00e41a.css"
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-269d3678.js",
+    "file": "pages/_slug_.svelte-c296bfdc.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_preload-helper-e4860ae8.js",
-      "_index-d75fc5da.js"
+      "_index-8a808381.js"
     ],
     "dynamicImports": [
       "src/routes/posts/11ty-note.md",
@@ -187,30 +188,30 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-9ecbfa6c.js",
+    "file": "pages/about.svelte-5e8d6557.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "_store-417d8512.js",
-      "_index-2c02d785.js"
+      "_index-8a808381.js",
+      "_store-b947f954.js",
+      "_index-c04c708e.js"
     ],
     "css": [
       "assets/pages/about.svelte-c6c5379d.css"
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-2010123b.js",
+    "file": "pages/index@wide.svelte-538fcae7.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_preload-helper-e4860ae8.js",
-      "_index-d75fc5da.js",
-      "_store-417d8512.js",
+      "_index-8a808381.js",
+      "_store-b947f954.js",
       "_paths-396f020f.js",
-      "_index-2c02d785.js"
+      "_index-c04c708e.js"
     ],
     "dynamicImports": [
       "src/routes/posts/11ty-note.md",
@@ -267,615 +268,617 @@
     ]
   },
   "src/routes/mementomori@full.svelte": {
-    "file": "pages/mementomori@full.svelte-830ae2c8.js",
+    "file": "pages/mementomori@full.svelte-d6836c72.js",
     "src": "src/routes/mementomori@full.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js"
+      "_index-8a808381.js"
     ],
     "css": [
-      "assets/pages/mementomori@full.svelte-b48643d4.css"
+      "assets/pages/mementomori@full.svelte-e2511972.css"
     ]
   },
   "src/routes/posts/11ty-note.md": {
-    "file": "pages/posts/11ty-note.md-1daf17b7.js",
+    "file": "pages/posts/11ty-note.md-27813998.js",
     "src": "src/routes/posts/11ty-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/2020-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2020-what-i-have-read-on-internet.md-4038c268.js",
+    "file": "pages/posts/2020-what-i-have-read-on-internet.md-0eb00c8d.js",
     "src": "src/routes/posts/2020-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2021-what-i-have-read-on-internet.md-7b3244f3.js",
+    "file": "pages/posts/2021-what-i-have-read-on-internet.md-b1ab30d7.js",
     "src": "src/routes/posts/2021-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-4fe5b525.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-ee4dcb06.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/posts/2022-what-i-have-read-on-internet.md-930b8bfd.css"
     ]
   },
   "src/routes/posts/ACG-Pause-And-Select-Apocalypse.md": {
-    "file": "pages/posts/ACG-Pause-And-Select-Apocalypse.md-1bbfa039.js",
+    "file": "pages/posts/ACG-Pause-And-Select-Apocalypse.md-12d75256.js",
     "src": "src/routes/posts/ACG-Pause-And-Select-Apocalypse.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-char-counterattack-fans-interview.md": {
-    "file": "pages/posts/ACG-char-counterattack-fans-interview.md-8f5ed5fb.js",
+    "file": "pages/posts/ACG-char-counterattack-fans-interview.md-80cf0260.js",
     "src": "src/routes/posts/ACG-char-counterattack-fans-interview.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-difference-of-director-and-producer.md": {
-    "file": "pages/posts/ACG-difference-of-director-and-producer.md-4998bae3.js",
+    "file": "pages/posts/ACG-difference-of-director-and-producer.md-2c85af67.js",
     "src": "src/routes/posts/ACG-difference-of-director-and-producer.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-does-anno-hideaki-really-dont-know-what-he-is-making.md": {
-    "file": "pages/posts/ACG-does-anno-hideaki-really-dont-know-what-he-is-making.md-ec323dba.js",
+    "file": "pages/posts/ACG-does-anno-hideaki-really-dont-know-what-he-is-making.md-872e8c85.js",
     "src": "src/routes/posts/ACG-does-anno-hideaki-really-dont-know-what-he-is-making.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/posts/ACG-does-anno-hideaki-really-dont-know-what-he-is-making.md-c42162b7.css"
     ]
   },
   "src/routes/posts/ACG-evening-chat-of-game-xenogears.md": {
-    "file": "pages/posts/ACG-evening-chat-of-game-xenogears.md-ab495bbe.js",
+    "file": "pages/posts/ACG-evening-chat-of-game-xenogears.md-fe0258d8.js",
     "src": "src/routes/posts/ACG-evening-chat-of-game-xenogears.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-expression-of-light-and-heavy.md": {
-    "file": "pages/posts/ACG-expression-of-light-and-heavy.md-ada93ab2.js",
+    "file": "pages/posts/ACG-expression-of-light-and-heavy.md-9e07dd10.js",
     "src": "src/routes/posts/ACG-expression-of-light-and-heavy.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-games-done-quick-introduction.md": {
-    "file": "pages/posts/ACG-games-done-quick-introduction.md-31bfb6f3.js",
+    "file": "pages/posts/ACG-games-done-quick-introduction.md-88f7ade8.js",
     "src": "src/routes/posts/ACG-games-done-quick-introduction.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-linda-cube-introduction.md": {
-    "file": "pages/posts/ACG-linda-cube-introduction.md-2fdaf68e.js",
+    "file": "pages/posts/ACG-linda-cube-introduction.md-4bab2e94.js",
     "src": "src/routes/posts/ACG-linda-cube-introduction.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-linda-cube-on-ps-archive.md": {
-    "file": "pages/posts/ACG-linda-cube-on-ps-archive.md-8898293d.js",
+    "file": "pages/posts/ACG-linda-cube-on-ps-archive.md-aff1636e.js",
     "src": "src/routes/posts/ACG-linda-cube-on-ps-archive.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-making-of-linda3.md": {
-    "file": "pages/posts/ACG-making-of-linda3.md-022e5197.js",
+    "file": "pages/posts/ACG-making-of-linda3.md-03ddb00a.js",
     "src": "src/routes/posts/ACG-making-of-linda3.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-cb4846a8.js",
+    "file": "pages/posts/ACG-note.md-b11a0897.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-one-way-heroics-all-achievement-note.md": {
-    "file": "pages/posts/ACG-one-way-heroics-all-achievement-note.md-f9c16d4e.js",
+    "file": "pages/posts/ACG-one-way-heroics-all-achievement-note.md-faeca116.js",
     "src": "src/routes/posts/ACG-one-way-heroics-all-achievement-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/posts/ACG-one-way-heroics-all-achievement-note.md-47b70306.css"
     ]
   },
   "src/routes/posts/ACG-random-thoughts-about-rockman-x-dive.md": {
-    "file": "pages/posts/ACG-random-thoughts-about-rockman-x-dive.md-74e2d137.js",
+    "file": "pages/posts/ACG-random-thoughts-about-rockman-x-dive.md-01f7e7ca.js",
     "src": "src/routes/posts/ACG-random-thoughts-about-rockman-x-dive.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_AutomaticColorText-a4f94e87.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_AutomaticColorText-7c4578a7.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-rockman-1-tas-glitch.md": {
-    "file": "pages/posts/ACG-rockman-1-tas-glitch.md-a540214f.js",
+    "file": "pages/posts/ACG-rockman-1-tas-glitch.md-8458a64f.js",
     "src": "src/routes/posts/ACG-rockman-1-tas-glitch.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-seino-tooru.md": {
-    "file": "pages/posts/ACG-seino-tooru.md-4c584529.js",
+    "file": "pages/posts/ACG-seino-tooru.md-0218d7d1.js",
     "src": "src/routes/posts/ACG-seino-tooru.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-serial-experiments-lain-for-ps.md": {
-    "file": "pages/posts/ACG-serial-experiments-lain-for-ps.md-e8c304a0.js",
+    "file": "pages/posts/ACG-serial-experiments-lain-for-ps.md-9ecf77fd.js",
     "src": "src/routes/posts/ACG-serial-experiments-lain-for-ps.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-super-manga-book-list.md": {
-    "file": "pages/posts/ACG-super-manga-book-list.md-951eb43d.js",
+    "file": "pages/posts/ACG-super-manga-book-list.md-288cae7a.js",
     "src": "src/routes/posts/ACG-super-manga-book-list.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
-    "file": "pages/posts/ACG-the-influences-of-naoko-yamada.md-e6528c24.js",
+    "file": "pages/posts/ACG-the-influences-of-naoko-yamada.md-73d6195f.js",
     "src": "src/routes/posts/ACG-the-influences-of-naoko-yamada.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md": {
-    "file": "pages/posts/ACG-why-you-should-not-use-interpolation-on-anime.md-689c74c1.js",
+    "file": "pages/posts/ACG-why-you-should-not-use-interpolation-on-anime.md-2b2b711f.js",
     "src": "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/ACG-yume-no-shima-de-aimashou.md": {
-    "file": "pages/posts/ACG-yume-no-shima-de-aimashou.md-ee14cdbe.js",
+    "file": "pages/posts/ACG-yume-no-shima-de-aimashou.md-b1b859e3.js",
     "src": "src/routes/posts/ACG-yume-no-shima-de-aimashou.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/auto-generate-eyecatch-image-for-blog.md": {
-    "file": "pages/posts/auto-generate-eyecatch-image-for-blog.md-2d9e1673.js",
+    "file": "pages/posts/auto-generate-eyecatch-image-for-blog.md-c8ba6282.js",
     "src": "src/routes/posts/auto-generate-eyecatch-image-for-blog.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/autohotkey-note.md": {
-    "file": "pages/posts/autohotkey-note.md-5c1093dd.js",
+    "file": "pages/posts/autohotkey-note.md-b92cccd7.js",
     "src": "src/routes/posts/autohotkey-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/blog-with-sapper.md": {
-    "file": "pages/posts/blog-with-sapper.md-d03bba8f.js",
+    "file": "pages/posts/blog-with-sapper.md-8d105909.js",
     "src": "src/routes/posts/blog-with-sapper.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/blog-with-sveltekit.md": {
-    "file": "pages/posts/blog-with-sveltekit.md-e4759db6.js",
+    "file": "pages/posts/blog-with-sveltekit.md-2e56dbec.js",
     "src": "src/routes/posts/blog-with-sveltekit.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/capitalist-realism-mark-fisher.md": {
-    "file": "pages/posts/capitalist-realism-mark-fisher.md-e03c3c64.js",
+    "file": "pages/posts/capitalist-realism-mark-fisher.md-b7f4d54b.js",
     "src": "src/routes/posts/capitalist-realism-mark-fisher.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/dot-painting-note.md": {
-    "file": "pages/posts/dot-painting-note.md-cc77b695.js",
+    "file": "pages/posts/dot-painting-note.md-2d65235e.js",
     "src": "src/routes/posts/dot-painting-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/escape-from-algorithm-with-rss.md": {
-    "file": "pages/posts/escape-from-algorithm-with-rss.md-e1f7ea4c.js",
+    "file": "pages/posts/escape-from-algorithm-with-rss.md-7207330a.js",
     "src": "src/routes/posts/escape-from-algorithm-with-rss.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/how-do-you-like-wendesday.md": {
-    "file": "pages/posts/how-do-you-like-wendesday.md-9dad3a3f.js",
+    "file": "pages/posts/how-do-you-like-wendesday.md-c51e2504.js",
     "src": "src/routes/posts/how-do-you-like-wendesday.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/how-to-check-font-family-name-in-computer.md": {
-    "file": "pages/posts/how-to-check-font-family-name-in-computer.md-a955e6c0.js",
+    "file": "pages/posts/how-to-check-font-family-name-in-computer.md-cdd79306.js",
     "src": "src/routes/posts/how-to-check-font-family-name-in-computer.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/login-with-discord.md": {
-    "file": "pages/posts/login-with-discord.md-ed8836df.js",
+    "file": "pages/posts/login-with-discord.md-36004f81.js",
     "src": "src/routes/posts/login-with-discord.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/posts/login-with-discord.md-f6cfa176.css"
     ]
   },
   "src/routes/posts/mpv.md": {
-    "file": "pages/posts/mpv.md-2eb5a48d.js",
+    "file": "pages/posts/mpv.md-a4a0d721.js",
     "src": "src/routes/posts/mpv.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/operating-with-keyboard.md": {
-    "file": "pages/posts/operating-with-keyboard.md-3085d0cd.js",
+    "file": "pages/posts/operating-with-keyboard.md-f049a997.js",
     "src": "src/routes/posts/operating-with-keyboard.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/our-internet-history.md": {
-    "file": "pages/posts/our-internet-history.md-8142ca8f.js",
+    "file": "pages/posts/our-internet-history.md-b1adbda0.js",
     "src": "src/routes/posts/our-internet-history.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/posts/our-internet-history.md-10880303.css"
     ]
   },
   "src/routes/posts/search-engine-operators.md": {
-    "file": "pages/posts/search-engine-operators.md-dc488800.js",
+    "file": "pages/posts/search-engine-operators.md-e42693d0.js",
     "src": "src/routes/posts/search-engine-operators.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/sticker-generator.md": {
-    "file": "pages/posts/sticker-generator.md-d8cd6cb4.js",
+    "file": "pages/posts/sticker-generator.md-b9ded5c8.js",
     "src": "src/routes/posts/sticker-generator.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_LibLoader-15f08c89.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_LibLoader-0ba44d0b.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/posts/sticker-generator.md-f5705780.css"
     ]
   },
   "src/routes/posts/template.md": {
-    "file": "pages/posts/template.md-91fd1b74.js",
+    "file": "pages/posts/template.md-cb5ce071.js",
     "src": "src/routes/posts/template.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BalloonQuote2-92913b4c.js",
-      "_AutomaticColorText-a4f94e87.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BalloonQuote2-aba9ca52.js",
+      "_AutomaticColorText-7c4578a7.js",
+      "_BorderedText-685ccf91.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/posts/template.md-f7f372d3.css"
     ]
   },
   "src/routes/posts/tool-list-creativity.md": {
-    "file": "pages/posts/tool-list-creativity.md-f09fc80e.js",
+    "file": "pages/posts/tool-list-creativity.md-5a57b0e1.js",
     "src": "src/routes/posts/tool-list-creativity.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/posts/tool-list-creativity.md-e055f652.css"
     ]
   },
   "src/routes/posts/tool-list-gaming.md": {
-    "file": "pages/posts/tool-list-gaming.md-4e0f74d7.js",
+    "file": "pages/posts/tool-list-gaming.md-83c0055e.js",
     "src": "src/routes/posts/tool-list-gaming.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/posts/tool-list-creativity.md-e055f652.css"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
-    "file": "pages/posts/tool-list-system.md-4e264f5c.js",
+    "file": "pages/posts/tool-list-system.md-1a983f88.js",
     "src": "src/routes/posts/tool-list-system.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/posts/tool-list-system.md-8c423814.css"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-4943c4c8.js",
+    "file": "pages/posts/tool-list-website.md-c34ecffb.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/posts/tool-list-website.md-0dbe30fe.css"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
-    "file": "pages/posts/use-foobar2k-to-listen-to-podcast.md-263ee0c1.js",
+    "file": "pages/posts/use-foobar2k-to-listen-to-podcast.md-eee1231f.js",
     "src": "src/routes/posts/use-foobar2k-to-listen-to-podcast.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/use-google-spreadsheet-as-database.md": {
-    "file": "pages/posts/use-google-spreadsheet-as-database.md-d4deb99d.js",
+    "file": "pages/posts/use-google-spreadsheet-as-database.md-917d9173.js",
     "src": "src/routes/posts/use-google-spreadsheet-as-database.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/posts/what-nft-is-not.md": {
-    "file": "pages/posts/what-nft-is-not.md-e7242640.js",
+    "file": "pages/posts/what-nft-is-not.md-e47d8c6f.js",
     "src": "src/routes/posts/what-nft-is-not.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/pages/posts/what-nft-is-not.md-2873584d.css"
     ]
   },
   "src/routes/posts/why-is-life-so-boring.md": {
-    "file": "pages/posts/why-is-life-so-boring.md-35bbc04b.js",
+    "file": "pages/posts/why-is-life-so-boring.md-d1f51f3f.js",
     "src": "src/routes/posts/why-is-life-so-boring.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "__post-f79df2cc.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js",
+      "__post-5d4228b4.js",
+      "_BlinkAnchor-43658b4a.js"
     ]
   },
   "src/routes/reminiscence.svelte": {
-    "file": "pages/reminiscence.svelte-921db866.js",
+    "file": "pages/reminiscence.svelte-38bb3236.js",
     "src": "src/routes/reminiscence.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d75fc5da.js",
-      "_BalloonQuote2-92913b4c.js",
-      "_LibLoader-15f08c89.js"
+      "_index-8a808381.js",
+      "_BalloonQuote2-aba9ca52.js",
+      "_BorderedText-685ccf91.js",
+      "_LibLoader-0ba44d0b.js"
     ],
     "css": [
       "assets/pages/reminiscence.svelte-71646565.css"
     ]
   },
-  "_index-d75fc5da.js": {
-    "file": "chunks/index-d75fc5da.js"
+  "_index-8a808381.js": {
+    "file": "chunks/index-8a808381.js"
   },
-  "_index-2c02d785.js": {
-    "file": "chunks/index-2c02d785.js",
+  "_index-c04c708e.js": {
+    "file": "chunks/index-c04c708e.js",
     "imports": [
-      "_index-d75fc5da.js"
+      "_index-8a808381.js"
     ]
   },
   "_paths-396f020f.js": {
@@ -884,58 +887,65 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-434ba5a1.js": {
-    "file": "chunks/Favicon-434ba5a1.js",
+  "_Favicon-b637c103.js": {
+    "file": "chunks/Favicon-b637c103.js",
     "imports": [
-      "_index-d75fc5da.js",
-      "_store-417d8512.js",
+      "_index-8a808381.js",
+      "_store-b947f954.js",
       "_paths-396f020f.js"
     ],
     "css": [
-      "assets/Favicon-b368fcc0.css"
+      "assets/Favicon-4a80a899.css"
     ]
   },
-  "_store-417d8512.js": {
-    "file": "chunks/store-417d8512.js",
+  "_store-b947f954.js": {
+    "file": "chunks/store-b947f954.js",
     "imports": [
-      "_index-2c02d785.js"
+      "_index-c04c708e.js"
     ]
   },
-  "_BlinkAnchor-5fa51cf3.js": {
-    "file": "chunks/BlinkAnchor-5fa51cf3.js",
+  "_BlinkAnchor-43658b4a.js": {
+    "file": "chunks/BlinkAnchor-43658b4a.js",
     "imports": [
-      "_index-d75fc5da.js"
+      "_index-8a808381.js"
     ],
     "css": [
       "assets/BlinkAnchor-39834c8c.css"
     ]
   },
-  "__post-f79df2cc.js": {
-    "file": "chunks/_post-f79df2cc.js",
+  "_BorderedText-685ccf91.js": {
+    "file": "chunks/BorderedText-685ccf91.js",
     "imports": [
-      "_index-d75fc5da.js",
-      "_BlinkAnchor-5fa51cf3.js"
+      "_index-8a808381.js"
+    ]
+  },
+  "__post-5d4228b4.js": {
+    "file": "chunks/_post-5d4228b4.js",
+    "imports": [
+      "_index-8a808381.js",
+      "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
       "assets/_post-b23eb12b.css"
     ]
   },
-  "_AutomaticColorText-a4f94e87.js": {
-    "file": "chunks/AutomaticColorText-a4f94e87.js",
+  "_AutomaticColorText-7c4578a7.js": {
+    "file": "chunks/AutomaticColorText-7c4578a7.js",
     "imports": [
-      "_index-d75fc5da.js"
+      "_index-8a808381.js"
     ]
   },
-  "_LibLoader-15f08c89.js": {
-    "file": "chunks/LibLoader-15f08c89.js",
+  "_LibLoader-0ba44d0b.js": {
+    "file": "chunks/LibLoader-0ba44d0b.js",
     "imports": [
-      "_index-d75fc5da.js"
+      "_index-8a808381.js"
     ]
   },
-  "_BalloonQuote2-92913b4c.js": {
-    "file": "chunks/BalloonQuote2-92913b4c.js",
+  "_BalloonQuote2-aba9ca52.js": {
+    "file": "chunks/BalloonQuote2-aba9ca52.js",
     "imports": [
-      "_index-d75fc5da.js"
+      "_index-8a808381.js",
+      "_BorderedText-685ccf91.js"
     ],
     "css": [
       "assets/BalloonQuote2-65b715a7.css"
