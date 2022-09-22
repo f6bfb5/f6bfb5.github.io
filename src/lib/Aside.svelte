@@ -1,5 +1,6 @@
 <script>
   import RandomImage from "$lib/RandomImage.svelte";
+  import BorderedText from "$lib/BorderedText.svelte";
   import { base } from "$app/paths";
 </script>
 
@@ -24,11 +25,11 @@
       rel="noreferrer noopener"
       target="_blank"
     >
-      <img src="https://i.imgur.com/lR5H4mK.gif" alt="no-motivation" />
+      <img src="https://i.imgur.com/lR5H4mK.gif" alt="Nico Nico Douga" />
     </a>
     <div class="aside-row">
       <a href={`${base}/rss.xml`} rel="noreferrer noopener" target="_blank">
-        <img src="https://i.imgur.com/IWb6pKA.gif" alt="rss-feed" />
+        <img src="https://i.imgur.com/IWb6pKA.gif" alt="RSS-Feed" />
       </a>
       <a
         href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
@@ -44,7 +45,7 @@
         rel="noreferrer noopener"
         target="_blank"
       >
-        <img src="https://i.imgur.com/9nOliqP.gif" alt="vscode" />
+        <img src="https://i.imgur.com/9nOliqP.gif" alt="VSCode" />
       </a>
       <a
         href="https://cssreference.io/"
@@ -62,7 +63,7 @@
       >
         <img src="https://i.imgur.com/EOscOlQ.gif" alt="JavaScript Now" />
       </a>
-      <img src="https://i.imgur.com/yGy1Kug.gif" alt="anti-code and run" />
+      <img src="https://i.imgur.com/yGy1Kug.gif" alt="Anti-code and run" />
     </div>
     <div class="aside-row">
       <a
@@ -70,7 +71,7 @@
         rel="noreferrer noopener"
         target="_blank"
       >
-        <img src="https://i.imgur.com/BE9jeOu.gif" alt="firefox now" />
+        <img src="https://i.imgur.com/BE9jeOu.gif" alt="Firefox Now" />
       </a>
       <a
         href="https://www.torproject.org/"
@@ -86,7 +87,7 @@
         rel="noreferrer noopener"
         target="_blank"
       >
-        <img src="https://i.imgur.com/ovYrVHT.png" alt="chromium now" />
+        <img src="https://i.imgur.com/ovYrVHT.png" alt="Chromium Now" />
       </a>
       <img src="https://i.imgur.com/krlMLQO.gif" alt="a-now" />
     </div>
@@ -96,7 +97,7 @@
     </div>
     <div class="aside-row">
       <a href="https://discord.com/" rel="noreferrer noopener" target="_blank">
-        <img src="https://i.imgur.com/TDbUDP9.png" alt="just get discord" />
+        <img src="https://i.imgur.com/TDbUDP9.png" alt="Just get discord" />
       </a>
       <a
         href="https://store.steampowered.com/about/"
@@ -112,17 +113,28 @@
         rel="noreferrer noopener"
         target="_blank"
       >
-        <img src="https://i.imgur.com/mllX3po.gif" alt="dream diary" />
+        <img src="https://i.imgur.com/mllX3po.gif" alt="Dream Diary" />
       </a>
       <a
         href="https://store.steampowered.com/app/1451940/NEEDY_GIRL_OVERDOSE/"
         rel="noreferrer noopener"
         target="_blank"
       >
-        <img src="https://i.imgur.com/qHtVN6o.png" alt="windose 2.0" />
+        <img src="https://i.imgur.com/qHtVN6o.png" alt="Windose 2.0" />
       </a>
     </div>
-
+    <div class="aside-row">
+      <a href="http://n64.com/" rel="noreferrer noopener" target="_blank">
+        <img src="https://i.imgur.com/wA4QzQk.gif" alt="N64.com" />
+      </a>
+      <a
+        href="https://lsdrevamped.net/index.html"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        <img src="https://i.imgur.com/KVKEils.gif" alt="PlayStation" />
+      </a>
+    </div>
     <div class="aside-row">
       <img src="https://i.imgur.com/fl9sleS.png" alt="PATAPON" />
       <img src="https://i.imgur.com/9blk2hu.gif" alt="World Wide Web" />
@@ -191,7 +203,13 @@
       >
         <img src="https://i.imgur.com/U49kFeD.gif" alt="YouTube" />
       </a>
-      <img src="https://i.imgur.com/mBfzsPg.gif" alt="f-facebook" />
+      <a
+        href="https://stallman.org/facebook.html"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        <img src="https://i.imgur.com/mBfzsPg.gif" alt="f-facebook" />
+      </a>
     </div>
     <div class="aside-row">
       <img src="https://i.imgur.com/iLeESpJ.gif" alt="lain" />
@@ -230,21 +248,11 @@
           background: #e5edc8;
           z-index: 1;
           
-          transform: scale(.8, 1); transform-origin: top left; width: 125%; line-height: 2;"
+          transform: scale(.8, 1); transform-origin: top left; width: 125%; line-height: 2; 
+          letter-spacing: 2px;"
       >
-        <span>
-          A year here and he still dreamed of cyberspace, hope fading nightly.
-          All the speed he took, all the turns he'd taken and the corners he cut
-          in Night City, and he'd still see the matrix in his dreams, bright
-          lattices of logic unfolding across that colourless void... The Sprawl
-          was a long, strange way home now over the Pacific, and he was no
-          Console Man, no cyberspace cowboy. Just another hustler, trying to
-          make it through. But the dreams came on in the Japanese night like
-          livewire voodoo, and he'd cry for it, cry in his sleep, and wake alone
-          in the dark, curled in his capsule in some coffin hotel, hands clawed
-          into the bedslab, temper foam bunched between his fingers, trying to
-          reach the console that wasn't there.
-        </span>
+        <!-- <span>THANK YOU FOR PLAYING</span> -->
+        <BorderedText text="THANK YOU FOR PLAYING" />
       </div>
     </div>
   </div>

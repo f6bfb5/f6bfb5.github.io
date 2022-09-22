@@ -23,10 +23,14 @@
 <style scoped>
   a {
     margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   img {
-    width: 36px;
-    height: 42px;
+    min-width: 2em;
+    min-height: 2em;
+    width: 2em;
+    height: 2em;
     filter: drop-shadow(0 0 12px var(--subtitle-color));
     animation: glow 2s infinite ease;
   }

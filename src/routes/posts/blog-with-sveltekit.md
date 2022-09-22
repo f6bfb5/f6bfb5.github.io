@@ -463,6 +463,8 @@ export default {
 - [svelteland/svelte-kit-blog-demo](https://github.com/svelteland/svelte-kit-blog-demo)
 - [marydotdev/simple-sveltekit-starter-v2](https://github.com/marydotdev/simple-sveltekit-starter-v2)
 - [janosh/awesome-svelte-kit](https://github.com/janosh/awesome-svelte-kit)
+- [mvasigh/sveltekit-mdsvex-blog](https://github.com/mvasigh/sveltekit-mdsvex-blog)
+- [rodneylab/sveltekit-blog-mdx](https://github.com/rodneylab/sveltekit-blog-mdx)
 
 ## 雜談
 

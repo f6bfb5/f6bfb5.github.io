@@ -18,13 +18,16 @@
     font-size: 3.3em;
     text-align: center;
     color: #fff;
+    opacity: 0;
   }
   .title:after {
     content: '';
     display: block;
     height: 3px;
     width: 700px;
-    margin-top: 2px;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
     background: radial-gradient(ellipse at center, #fff 0%, #fff 63%, rgba(255, 255, 255, 0) 90%);
   }
 

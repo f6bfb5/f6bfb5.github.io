@@ -29,13 +29,15 @@ tags: Toolbox
   - [plasticdino](https://plasticdino.neocities.org/graphics.html)
   - [exp.pet](https://exo.pet/)
   - [(27) HOT PPL IN YOUR AREA !!!!11](https://zanarkand.neocities.org/home.html)
+  - [shishka ✿ buttons](https://shishka.neocities.org/shishka/buttons.html)
+  - [light in the loafers.](https://lightintheloafers.neocities.org/buttons.html)
 - [88x31](https://neonaut.neocities.org/cyber/88x31.html)
 
 ---
 
 - [譲れぬ闘い --- ここで負けてしまったら、この戦争全体に負けてしまうんだ。](https://web.archive.org/web/20130402224316/http://www.changelog.net/log/1999/special/dave/)
-  - [Firefoxは危険なJavaScriptに対応しない](https://qiita.com/rana_kualu/items/8803f02c72a54f366f2a)
-  - [なぜMozillaはXULアドオンを廃止したのか？（翻訳）](https://qiita.com/piroor/items/e876eaa70d4c0bf06d9b)
+  - [Firefox は危険な JavaScript に対応しない](https://qiita.com/rana_kualu/items/8803f02c72a54f366f2a)
+  - [なぜ Mozilla は XUL アドオンを廃止したのか？（翻訳）](https://qiita.com/piroor/items/e876eaa70d4c0bf06d9b)
 - [ブログ台頭直前のウェブ界隈が好きだった話 - Neo's World](https://neos21.net/blog/2016/02/16-01.html)
 - [e-typing ローマ字タイピング](https://www.e-typing.ne.jp/roma/check/)
 - [ネットワーク対戦タイピング Weather Typing](https://denasu.com/software/weathertyping.html)
@@ -68,6 +70,10 @@ tags: Toolbox
 - [Motherfucking Website](https://motherfuckingwebsite.com/)
 - [ちょうどいい Web デザインギャラリー](https://choooodoii.com/)
 - [おいでよ 広告の沼](https://www.citymilk.net/advertisingswamp/)
+- [放送の事故](https://tvjiko.web.fc2.com/)
+- [Cryptiana: Articles on Historical Cryptography](http://cryptiana.web.fc2.com/code/crypto.htm)
+- [Black Calendar](https://tocana.jp/blackcalendar/)
+- [インターネット上で強化された人物・キャラクター一覧](https://wikiwiki.jp/boudai/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E4%B8%8A%E3%81%A7%E5%BC%B7%E5%8C%96%E3%81%95%E3%82%8C%E3%81%9F%E4%BA%BA%E7%89%A9%E3%83%BB%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E4%B8%80%E8%A6%A7)
 
 ## 學習
 
@@ -353,6 +359,7 @@ tags: Toolbox
 - [悪魔城ドラキュラ黙示録　～ Forever KCEK ～](https://revelation12.info/)
 - [新横浜ありな](https://tamaki.bake-neko.net/topb30b.htm)
 - [ゲームのセリフ集など](http://serihu-syu.jugem.jp/)
+- [SteamSpy](https://steamspy.com/)
 
 ---
 

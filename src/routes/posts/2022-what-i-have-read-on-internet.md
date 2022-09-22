@@ -70,8 +70,8 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [Vivaldi が絶対に暗号通貨に手を出さない理由](https://vivaldi.com/ja/blog/why-vivaldi-will-never-create-thinkcoin/)
 - [初心者の男性でも楽しめる！少女漫画名作・傑作 50 選＋ 1。](https://somethingorange.biz/archives/8717)
 - [Masahiro Sakurai finally joins the battle! ／ 桜井 政博 ついに参戦!!](https://www.youtube.com/watch?v=qiPskldhmpg)
-- [A Special Talk with Masahiro Sakurai & Katsuhiro Harada! \[Ep.2\] ／ 桜井 政博 × 原田 勝弘 スペシャル対談！ -Ep.2-](https://www.youtube.com/watch?v=R4iBFYbBGgg)
-- [Masahiro Sakurai & Katsuhiro Harada: A Special Talk! \[Ep.3\] ／ 桜井さんが原田の ○○ 姿に爆笑＆ゲームを作り続ける理由を語る！](https://www.youtube.com/watch?v=XVdkqReMF5o)
+- [A Special Talk with Masahiro Sakurai & Katsuhiro Harada! [Ep.2] ／ 桜井 政博 × 原田 勝弘 スペシャル対談！ -Ep.2-](https://www.youtube.com/watch?v=R4iBFYbBGgg)
+- [Masahiro Sakurai & Katsuhiro Harada: A Special Talk! [Ep.3] ／ 桜井さんが原田の ○○ 姿に爆笑＆ゲームを作り続ける理由を語る！](https://www.youtube.com/watch?v=XVdkqReMF5o)
 - [Sakurai ＆ Harada's final special talk is a 10-minute short.／桜井 × 原田 Final 10 分ちょっとの"おまけ"トーク！](https://www.youtube.com/watch?v=1_c5HHLruJ8)
 - [男子も楽しい少女漫画ってこういうのでしょ](https://miruna.hatenadiary.jp/entry/2022/01/14/150048)
 - [リアルロボットアニメとそのプラモデルの黄金時代はたった 4 年しか続かなかった、という話。](https://wivern.exblog.jp/30939934/)
@@ -229,7 +229,7 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [「彼女は悲しい」は「she makes me sad」か？ - 翻訳論その他](https://nakaii.hatenablog.com/entry/2022/02/22/210429)
 - [CHOCOROAD](https://uemill.github.io/chocoroad2022/)
 - [アメリカのロースクールで「プーチンがウクライナに戦車を送れるなら国際法を勉強することになんの意味があるのか？」と学生が教授に質問していた](https://togetter.com/li/1850726)
-- [森川ジョージ「\[ここが変だよ漫画界\]というスペースを聞きました。」](https://twitter.com/WANPOWANWAN/status/1497354607819096070)
+- [森川ジョージ「[ここが変だよ漫画界]というスペースを聞きました。」](https://twitter.com/WANPOWANWAN/status/1497354607819096070)
 - [Steam にゲームを公開して心が折れた話【フリゲ作者からインディ開発者へ】 - 莞爾の草原。](https://kanjinokusargss3.hatenablog.com/entry/2022/02/21/204725)
 - [にじさんじの VTuber を見続けて 3 ヶ月が過ぎた｜柞刈湯葉 Yuba Isukari](https://note.com/yubais/n/ncee5a855bd53)
 - [台北街歩き RPG『Dusk Diver 2』から日本人と台湾人が考える、台北の現在。この世界情勢下で"観光地の台北"はどう変化しているのか？](https://automaton-media.com/articles/reportjp/20220224-192966/)
@@ -455,6 +455,11 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [アイヌの祭祀「キタキツネのイオマンテ」が現代人に突きつける答えなき問い | 映画『チロンヌプカムイ イオマンテ』北村皆雄監督に聞く](https://courrier.jp/news/archives/286354/)
 - [「町工場にはミニマルなグルーヴがある」――"工場の音"を電子音楽に生まれ変わらせるレーベル・INDUSTRIAL JP の活動に迫る - Soundmain](https://blogs.soundmain.net/13435/)
 - [追われたり追われなかったりする人生と、巨大テック企業 - Lambda カクテル](https://blog.3qe.us/entry/2022/04/29/064833)
+  - 這種「被什麼東西追趕著」的感覺，或許是「對於世界像是不斷加速著的怪異感」吧。位居世界先端的企業不斷地加緊腳步，絕對不會踩下煞車，持續向前疾走著，但沒有人知道要往何處去。
+  - 與其說是在一點一滴建築自己的未來，更像是超級精英在用著超級技術對這個世界進行破壞性的改變，而我們只有無法反抗的無力感。
+  - 同時看向自己身邊半徑 85 公分手能觸及的範圍，那種什麼事情都沒發生的落差感令人訝異。我是哪側的居民？人類真的有變得更豐饒了嗎？
+  - 或許是因為自己出身自鄉下才有這種感覺。要說 IT 的光輝恩惠有否滿遍照進家鄉，我想是否定的。我的家鄉仍是以農業為重，拖車的介面是機械式，而不是用 React 所驅動。世界似乎正在兩極化，或可能我只是沉浸在鄉愁裡。
+  - 幸好身為軟體工程師或許還能說是站在稍微能創造未來的立場。只是偶爾也會想著我有發明了什麼嗎？而感到無趣。我有在本質上產出些什麼嗎？也就是說，我是不是只是在磨練如何把人綁在廣告上的技術？………。
 - [映画監督がパワハラを犯した過去を告白「人格を否定するような罵倒をしていました」](https://nikkan-spa.jp/1827271)
 - [任天堂がラブホテルを経営していたのは本当か？　～拡散されつづける都市伝説～](https://famicoms.net/blog-entry-3954.html)
 - [自分自身をニュースサイトにしない - やしお](https://yashio.hatenablog.com/entry/20220430/1651323600)
@@ -676,7 +681,7 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [日本でガラパゴス進化した音楽｢シティポップ｣が､全米 1 位の楽曲に引用されて大ブームになった背景 竹内まりやの非公式動画は 2000 万回以上も再生されている](https://president.jp/articles/-/57441)
 - [亡くなった伯父から預かった SD カードに、戦中〜戦後に祖父が撮影した大量の写真が入ってた → 有識者から撮影場所の考察が集まる](https://togetter.com/li/1885677)
 - [#AV 新法に反対します の主張が「18 歳、19 歳が AV 出演を強要されるのを防ぐ」という話だったはずが、いつの間にか「AV での性交を禁止しよう」になっていた](https://togetter.com/li/1885373)
-- [\[PDF\] 5 月 11 日に逝去された著名人の報道に関して 『自殺報道ガイドライン』に反する報道・放送が散見されることを踏まえ、 再度、自殺報道に関する注意喚起をさせていただきます。](https://www.mhlw.go.jp/content/000937620.pdf)
+- [[PDF] 5 月 11 日に逝去された著名人の報道に関して 『自殺報道ガイドライン』に反する報道・放送が散見されることを踏まえ、 再度、自殺報道に関する注意喚起をさせていただきます。](https://www.mhlw.go.jp/content/000937620.pdf)
 - [『ドラクエ』『FF』を支える"音の技術"。スクエニサウンドシステムに搭載されている音声圧縮コーデック HCA は、開発をどのように助けているのか？](https://automaton-media.com/devlog/interview/20220420-199577/)
 - [たまったもんじゃない - 奥灘幾多](https://shonenjumpplus.com/episode/3270296674339895737)
 - [形に殺意を乗せていない兵器はつまらない](https://anond.hatelabo.jp/20220512143526)
@@ -1765,6 +1770,23 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [京都独自の中華メニュー"からしそば"を食べ歩いてきました](https://dailyportalz.jp/kiji/karashisoba-in-kyoto)
 - [植民地支配の「罪」をエリザベス女王は結局、最後まで一度も詫びることはなかった](https://www.newsweekjapan.jp/stories/world/2022/09/post-99654.php)
 - [『めぞん一刻』や『美味しんぼ』を手がけた小学館の伝説的漫画編集者・白井勝也氏に、元週刊少年ジャンプ編集長の鳥嶋和彦氏が訊く！](https://news.denfaminicogamer.jp/interview/220920a)
+  - 倫理が壊れたところにテーマがある
+- [【超検証】レベル１（ひとり）でFF7の最強ボスを倒せるのか？](https://www.youtube.com/watch?v=aPhPKv9mV30)
+- [ノア・スミス「意識高い系の起源に関する考察・前編」](https://econ101.jp/%E3%83%8E%E3%82%A2%E3%83%BB%E3%82%B9%E3%83%9F%E3%82%B9%E3%80%8C%E6%84%8F%E8%AD%98%E9%AB%98%E3%81%84%E7%B3%BB%E3%81%AE%E8%B5%B7%E6%BA%90%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%80%83%E5%AF%9F%E3%83%BB/)
+- [ノア・スミス「意識高い系の起源に関する考察・後編」](https://econ101.jp/thoughts-on-the-origins-of-wokeness/)
+  - 「覺醒」運動有一部份可說是對於美國根深柢固的敬意不平等的反亂
+    - 試圖重新調整美國社會裡敬意的分配
+    - 但敬意的量不是零和的，此文筆者認為自己在思考時犯了錯誤
+    - 並也擔心現在的「覺醒」運動者們是否也陷入了同樣的誤解
+  - 雖然「覺醒」運動者常引用如法蘭克福學派或馬克思主義等左派的學說
+    - 實際查訪會發現核心影響力指標來自民權運動，甚至是廢止奴隸運動
+    - 研究者靈感來源也主要來自黑人系美國人，而非歐洲左派學術思想
+      - 法蘭克福學派內容更像是因為學術制度而不得不引用之
+    - 且更重要的是「覺醒」運動的主流思想是來自街頭，而非批評理論
+      - 如同「覺醒」運動起源的廢奴，有關的是基督教的類聖戰願望
+      - 因而也有無法接受任何細微批判，甚至會引起戰鬥反應的徵兆
+      - 當然不該將「宗教」當成蔑稱，這在進行革新時也相當重要
+      - 重點還是如何不使這股衝動反過來造成社會更加分裂
 
 <style scoped>
 li a {

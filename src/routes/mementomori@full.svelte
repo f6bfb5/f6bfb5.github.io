@@ -1,6 +1,11 @@
+<script>
+  import DarkSoulsZoneTitle from "$lib/DarkSoulsZoneTitle.svelte";
+</script>
+
 <div class="c">
   <div class="w">
-    <p style="font-size: 10vw; opacity: 0;">死を忘ることなかれ</p>
+    <p style="font-size: 10vw; width: 0; opacity: 0;">死を忘ることなかれ</p>
+    <DarkSoulsZoneTitle title="Close the world,.txEn eht nepO" />
   </div>
 </div>
 

@@ -26,6 +26,7 @@ export const randomNav = readable([
   "人身御供",
   "疑似同期",
   "毀誉褒貶",
+  "不易流行",
   "テニヲハ",
   // 林纈
   // 翳光
@@ -459,6 +460,8 @@ export const aboutLinks = readable([
   "https://yclou.blogspot.com/2015/07/blog-post_20.html",
   // 無敵の人になりかけた
   "https://anond.hatelabo.jp/20190529235940",
+  // 「言葉にできない痛み」とは何か
+  "http://www.parc-jp.org/alter/2007/alter_2007_08-09_tetsugaku.html",
   // 【飛行機乗り方】世の中わからんこと多すぎ問題【次郎の注文方法】
   "https://www.nicovideo.jp/watch/sm41044801",
   // Uncomfortable Truths - Existential Comics

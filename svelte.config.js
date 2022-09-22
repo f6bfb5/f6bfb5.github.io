@@ -21,7 +21,12 @@ const config = {
       base: "",
       assets: "",
     },
+    browser: {
+      hydrate: true,
+      router: false,
+    },
     prerender: {
+      crawl: true,
       default: true,
     },
     routes: (filepath) =>
@@ -31,7 +36,15 @@ const config = {
       pollInterval: 0,
     },
     trailingSlash: "never",
-    vite: () => ({}),
+    vite: {
+      build: {
+        rollOptions: {
+          output: {
+            manualChunks: undefined,
+          },
+        },
+      },
+    },
   },
 
   // SvelteKit uses vite-plugin-svelte. Its options can be provided directly here.
