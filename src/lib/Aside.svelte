@@ -137,7 +137,13 @@
     </div>
     <div class="aside-row">
       <img src="https://i.imgur.com/fl9sleS.png" alt="PATAPON" />
-      <img src="https://i.imgur.com/9blk2hu.gif" alt="World Wide Web" />
+      <a
+        href="http://info.cern.ch/hypertext/WWW/TheProject.html"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        <img src="https://i.imgur.com/9blk2hu.gif" alt="World Wide Web" />
+      </a>
     </div>
     <div class="aside-row">
       <a

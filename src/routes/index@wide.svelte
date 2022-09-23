@@ -44,7 +44,6 @@
   let allPostsTags = getAllPostsTags(posts);
 
   import Marquee from "$lib/Marquee.svelte";
-  // import IP from "$lib/IP.svelte";
   import TagsFilter from "$lib/TagsFilter.svelte";
   import ArticlesList from "$lib/ArticlesList.svelte";
 </script>
@@ -69,7 +68,6 @@
 </svelte:head>
 
 <div class="container">
-  <!-- <IP /> -->
   <Marquee />
 
   <h1 data-text="Articles">Articles</h1>
