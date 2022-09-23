@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-47f62e65.js",
+    "file": "start-ca38344a.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -70,14 +70,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-2a8fdb79.js",
+    "file": "pages/__layout.svelte-2d2f707d.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8a808381.js",
-      "_Favicon-b637c103.js",
-      "_store-b947f954.js",
+      "_Favicon-c81715e1.js",
+      "_store-5aa965fd.js",
       "_index-c04c708e.js",
       "_paths-396f020f.js"
     ],
@@ -111,14 +111,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-3136781f.js",
+    "file": "pages/__layout-wide.svelte-0b2a4e85.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8a808381.js",
-      "_Favicon-b637c103.js",
-      "_store-b947f954.js",
+      "_Favicon-c81715e1.js",
+      "_store-5aa965fd.js",
       "_BorderedText-685ccf91.js",
       "_paths-396f020f.js",
       "_index-c04c708e.js"
@@ -128,7 +128,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-c296bfdc.js",
+    "file": "pages/_slug_.svelte-2902a34e.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -188,13 +188,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-5e8d6557.js",
+    "file": "pages/about.svelte-4e80c6a2.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8a808381.js",
-      "_store-b947f954.js",
+      "_store-5aa965fd.js",
       "_index-c04c708e.js"
     ],
     "css": [
@@ -202,66 +202,15 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-538fcae7.js",
+    "file": "pages/index@wide.svelte-a8b6bdab.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_preload-helper-e4860ae8.js",
       "_index-8a808381.js",
-      "_store-b947f954.js",
+      "_store-5aa965fd.js",
       "_paths-396f020f.js",
       "_index-c04c708e.js"
-    ],
-    "dynamicImports": [
-      "src/routes/posts/11ty-note.md",
-      "src/routes/posts/2020-what-i-have-read-on-internet.md",
-      "src/routes/posts/2021-what-i-have-read-on-internet.md",
-      "src/routes/posts/2022-what-i-have-read-on-internet.md",
-      "src/routes/posts/ACG-Pause-And-Select-Apocalypse.md",
-      "src/routes/posts/ACG-char-counterattack-fans-interview.md",
-      "src/routes/posts/ACG-difference-of-director-and-producer.md",
-      "src/routes/posts/ACG-does-anno-hideaki-really-dont-know-what-he-is-making.md",
-      "src/routes/posts/ACG-evening-chat-of-game-xenogears.md",
-      "src/routes/posts/ACG-expression-of-light-and-heavy.md",
-      "src/routes/posts/ACG-games-done-quick-introduction.md",
-      "src/routes/posts/ACG-linda-cube-introduction.md",
-      "src/routes/posts/ACG-linda-cube-on-ps-archive.md",
-      "src/routes/posts/ACG-making-of-linda3.md",
-      "src/routes/posts/ACG-note.md",
-      "src/routes/posts/ACG-one-way-heroics-all-achievement-note.md",
-      "src/routes/posts/ACG-random-thoughts-about-rockman-x-dive.md",
-      "src/routes/posts/ACG-rockman-1-tas-glitch.md",
-      "src/routes/posts/ACG-seino-tooru.md",
-      "src/routes/posts/ACG-serial-experiments-lain-for-ps.md",
-      "src/routes/posts/ACG-super-manga-book-list.md",
-      "src/routes/posts/ACG-the-influences-of-naoko-yamada.md",
-      "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md",
-      "src/routes/posts/ACG-yume-no-shima-de-aimashou.md",
-      "src/routes/posts/auto-generate-eyecatch-image-for-blog.md",
-      "src/routes/posts/autohotkey-note.md",
-      "src/routes/posts/blog-with-sapper.md",
-      "src/routes/posts/blog-with-sveltekit.md",
-      "src/routes/posts/capitalist-realism-mark-fisher.md",
-      "src/routes/posts/dot-painting-note.md",
-      "src/routes/posts/escape-from-algorithm-with-rss.md",
-      "src/routes/posts/how-do-you-like-wendesday.md",
-      "src/routes/posts/how-to-check-font-family-name-in-computer.md",
-      "src/routes/posts/login-with-discord.md",
-      "src/routes/posts/mpv.md",
-      "src/routes/posts/operating-with-keyboard.md",
-      "src/routes/posts/our-internet-history.md",
-      "src/routes/posts/search-engine-operators.md",
-      "src/routes/posts/sticker-generator.md",
-      "src/routes/posts/template.md",
-      "src/routes/posts/tool-list-creativity.md",
-      "src/routes/posts/tool-list-gaming.md",
-      "src/routes/posts/tool-list-system.md",
-      "src/routes/posts/tool-list-website.md",
-      "src/routes/posts/use-foobar2k-to-listen-to-podcast.md",
-      "src/routes/posts/use-google-spreadsheet-as-database.md",
-      "src/routes/posts/what-nft-is-not.md",
-      "src/routes/posts/why-is-life-so-boring.md"
     ],
     "css": [
       "assets/pages/index@wide.svelte-6f8546a4.css"
@@ -319,7 +268,7 @@
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-ee4dcb06.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-1534bff7.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -765,7 +714,7 @@
       "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-e055f652.css"
+      "assets/pages/posts/tool-list-gaming.md-658215f1.css"
     ]
   },
   "src/routes/posts/tool-list-gaming.md": {
@@ -779,7 +728,7 @@
       "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-e055f652.css"
+      "assets/pages/posts/tool-list-gaming.md-658215f1.css"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
@@ -887,19 +836,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-b637c103.js": {
-    "file": "chunks/Favicon-b637c103.js",
+  "_Favicon-c81715e1.js": {
+    "file": "chunks/Favicon-c81715e1.js",
     "imports": [
       "_index-8a808381.js",
-      "_store-b947f954.js",
+      "_store-5aa965fd.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-4a80a899.css"
     ]
   },
-  "_store-b947f954.js": {
-    "file": "chunks/store-b947f954.js",
+  "_store-5aa965fd.js": {
+    "file": "chunks/store-5aa965fd.js",
     "imports": [
       "_index-c04c708e.js"
     ]
