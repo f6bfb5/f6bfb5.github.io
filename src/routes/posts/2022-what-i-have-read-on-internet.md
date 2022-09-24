@@ -1732,7 +1732,7 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
     > -> 轉賣氾濫導致遊戲市場萎縮，沒主機就沒人買遊戲，造成惡性循環
     >
     > > 還有疫情與供應鍊問題，以及偏重歐美市場口味的內容在日本也不吃香，
-    > > 另也有一說是日本市場被手遊吃掉，呃…好喔😅
+    > > 另也有一說是日本市場被手遊吃掉，呃…好喔 😅
     >
     > > 不過疫情問題也不是 PS5 獨有，喊了兩年是有點…
     >
@@ -1757,21 +1757,21 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
     >
     > 嗯你說什麼那個 3A 級遊戲呢
 - [ウクライナ軍がロシア軍の最新鋭戦車「T-90M」を鹵獲してしまい唖然とする軍オタの皆様「信じられない…」「なぜほぼ無傷のまま…」](https://togetter.com/li/1946742)
-- [新しい画像系AI、Relightが凄かったので使ってみた](https://togetter.com/li/1945968)
+- [新しい画像系 AI、Relight が凄かったので使ってみた](https://togetter.com/li/1945968)
 - [話題の『フェーン現象』山頂ではこんなことになっている「すごい！見事な光景」「この山のせいで…」](https://togetter.com/li/1946757)
-- [漫画原作者・Rootport先生がAIに描かせた漫画「サイバーパンク桃太郎」が完結。「テストとは思えない出来」の声](https://togetter.com/li/1946844)
+- [漫画原作者・Rootport 先生が AI に描かせた漫画「サイバーパンク桃太郎」が完結。「テストとは思えない出来」の声](https://togetter.com/li/1946844)
 - [漫画家を目指していた母親にインタビュー](https://dailyportalz.jp/kiji/mother-cartoon)
 - [米津玄師氏の担当の方から連絡がありました。](https://note.tsunku.net/n/nf506bf96b59c)
 - [みことはこ - 天願真太郎](https://shonenjumpplus.com/episode/316112896850967067)
 - [「推し活」「二次創作」「霊感商法」…これらに共通する人間の「心の働き」（飯田 一史）](https://gendai.media/articles/-/99832)
-- [任天堂もSIEもいない「東京ゲームショウ」から見る今のゲーム業界【西田宗千佳のイマトミライ】](https://www.watch.impress.co.jp/docs/series/nishida/1441032.html)
+- [任天堂も SIE もいない「東京ゲームショウ」から見る今のゲーム業界【西田宗千佳のイマトミライ】](https://www.watch.impress.co.jp/docs/series/nishida/1441032.html)
 - [レストランで猫型配膳ロボット同士がぶつかり合って互いに「どいてくださいにゃ」って言ってる](https://togetter.com/li/1947070)
 - [【追記】エリザベス女王の国葬の参列している黒眼帯の老紳士が気になって妄想膨らむ人々「やはり只者ではなかった」](https://togetter.com/li/1947274)
 - [京都独自の中華メニュー"からしそば"を食べ歩いてきました](https://dailyportalz.jp/kiji/karashisoba-in-kyoto)
 - [植民地支配の「罪」をエリザベス女王は結局、最後まで一度も詫びることはなかった](https://www.newsweekjapan.jp/stories/world/2022/09/post-99654.php)
 - [『めぞん一刻』や『美味しんぼ』を手がけた小学館の伝説的漫画編集者・白井勝也氏に、元週刊少年ジャンプ編集長の鳥嶋和彦氏が訊く！](https://news.denfaminicogamer.jp/interview/220920a)
   - 倫理が壊れたところにテーマがある
-- [【超検証】レベル１（ひとり）でFF7の最強ボスを倒せるのか？](https://www.youtube.com/watch?v=aPhPKv9mV30)
+- [【超検証】レベル１（ひとり）で FF7 の最強ボスを倒せるのか？](https://www.youtube.com/watch?v=aPhPKv9mV30)
 - [ノア・スミス「意識高い系の起源に関する考察・前編」](https://econ101.jp/%E3%83%8E%E3%82%A2%E3%83%BB%E3%82%B9%E3%83%9F%E3%82%B9%E3%80%8C%E6%84%8F%E8%AD%98%E9%AB%98%E3%81%84%E7%B3%BB%E3%81%AE%E8%B5%B7%E6%BA%90%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%80%83%E5%AF%9F%E3%83%BB/)
 - [ノア・スミス「意識高い系の起源に関する考察・後編」](https://econ101.jp/thoughts-on-the-origins-of-wokeness/)
   - 「覺醒」運動有一部份可說是對於美國根深柢固的敬意不平等的反亂
@@ -1788,24 +1788,37 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
       - 當然不該將「宗教」當成蔑稱，這在進行革新時也相當重要
       - 重點還是如何不使這股衝動反過來造成社會更加分裂
 - [東日本大震災時に「自衛隊が赤飯を炊き出しに出して批判」されて「問題」になったという話は実態のない伝言ゲームでは - 電脳塵芥](https://nou-yunyun.hatenablog.com/entry/2022/09/20/120000)
-- [【疑問】結局のところ "台風の日" にデリバリーピザは「注文していいのか？」「しちゃいけないのか？」大手3社に聞いてみた](https://rocketnews24.com/2022/09/20/1688688/)
+- [【疑問】結局のところ "台風の日" にデリバリーピザは「注文していいのか？」「しちゃいけないのか？」大手 3 社に聞いてみた](https://rocketnews24.com/2022/09/20/1688688/)
 - [打ち切られ漫画家、同人イベントへ行く。 - 澄ヒビト](https://shonenjumpplus.com/episode/316112896863409785)
-- [スプラトゥーンの特許 - naoya2kの日記](https://naoya2k.hatenablog.com/entry/2022/09/21/003148)
+- [スプラトゥーンの特許 - naoya2k の日記](https://naoya2k.hatenablog.com/entry/2022/09/21/003148)
 - [タクティクスオウガと俺の半生](https://anond.hatelabo.jp/20220921013902)
 - [ロシア人『何で日本人がそんなコト知ってるんだ？』...ロシアにいっぱい熊いるのに、ロシア語に「熊」を表す単語は存在しないらしいし、存在しないって事すらしらない](https://togetter.com/li/1947547)
   - [新元号「令和」の典拠『万葉集』～なぜ万葉集には蝶の歌がないのか～蝶を通してみる古代の人々の思想とは](https://concours.toshokan.or.jp/wp-content/uploads/contest-summary/230025.html)
 - [【速報】総理官邸近くで「国葬反対」男性が自分に火を付け意識不明に](https://news.tv-asahi.co.jp/news_society/articles/000269145.html)
 - [麻婆豆腐に砂糖を入れたのは誰だ](https://togetter.com/li/1947687)
-- [ミス東北大2022No.2の人が「おじさん構文」リプに切り返し→おじさん構文の真実が一部あきらかに](https://togetter.com/li/1947716)
+- [ミス東北大 2022No.2 の人が「おじさん構文」リプに切り返し → おじさん構文の真実が一部あきらかに](https://togetter.com/li/1947716)
 - [人気ゲーム開発者たちが「開発初期のゲーム映像」を続々投稿しお祭り状態に。"グラフィックは最初に完成される"論への静かな抗議](https://automaton-media.com/articles/newsjp/20220921-220037/)
 - [旅行中に国境警備員に「フエラムネ」を見咎められたけどなんか爆笑された「何でこんなの持ってるんだよｗ」](https://togetter.com/li/1947834)
 - [｢中高年でお腹が出る｣のは不摂生が原因ではない](https://toyokeizai.net/articles/-/619998)
 - [『はじめの一歩』森川ジョージ先生が語る「漫画の描き方」の話が漫画に限った話ではない](https://togetter.com/li/1947926)
 - [「日本語の原郷」についての論文、取り下げ勧告を受ける](https://anond.hatelabo.jp/20220922014226)
-- [お店選びで後悔したい、痛い目を見たい 清野とおる×パリッコが語るディープな町の飲食店の楽しみ方](https://www.hotpepper.jp/mesitsu/entry/shounenB/2022-00732)
-- [1日の大半を経験したことないことで埋める](https://dailyportalz.jp/kiji/fill-it-with-things-never-experienced)
-- [夏目漱石がI love youを「月がきれいですね」と訳した説はガセ？出典をめぐる検証が興味深い](https://togetter.com/li/1948142)
+- [お店選びで後悔したい、痛い目を見たい 清野とおる × パリッコが語るディープな町の飲食店の楽しみ方](https://www.hotpepper.jp/mesitsu/entry/shounenB/2022-00732)
+- [1 日の大半を経験したことないことで埋める](https://dailyportalz.jp/kiji/fill-it-with-things-never-experienced)
+- [夏目漱石が I love you を「月がきれいですね」と訳した説はガセ？出典をめぐる検証が興味深い](https://togetter.com/li/1948142)
 - [批判する人もいるけど下北沢の再開発は「かなり上手くいった部類」だ、という話「反対運動に意味があった一例」](https://togetter.com/li/1948163)
+- [沈むアニメ聖地を見過ごせない](https://www3.nhk.or.jp/news/html/20220922/k10013829011000.html)
+- [バスの乗り方大全 - 最終防衛ライン 3](https://lastline.hatenablog.com/entry/2022/09/22/170500)
+- [ベルギー人の友人がやってたソースの作り方が簡単な上に毎日これでいいと思うくらい美味しい](https://togetter.com/li/1948267)
+- [【スト 6】ストシリーズの香港、KOF の中国【KOF15】](https://izumino.hatenablog.com/entry/sf6_hk)
+- [コントロール - 川角/やまいも](https://shonenjumpplus.com/episode/316112896867409949)
+- [全ガンダム一言作品評](https://anond.hatelabo.jp/20220923044306)
+- [高速回線が売りなのに速度や品質が不安定な NURO 光が集団訴訟されそうになっている一部始終](https://togetter.com/li/1948408)
+- [【訃報】「Japanese Soba Noodles 蔦」の大西祐貴死去　43歳　数日前から店を休む](https://iromame-beans.jp/user/yu2otktk/b5b0fad11f8933ad4a9d)
+- [「猫に噛まれて敗血症性ショックになった話」からわかる感染症の怖さ…動物と触れ合う人に読んでほしい](https://togetter.com/li/1894954)
+- [ぬこー様ちゃんの漫画「何度も血祭りにあげられるイラスト窃盗犯」がもはやスカッと修羅の道](https://togetter.com/li/1948729)
+- [「『ネーム』『お話作り』に悩む全ての人へ 」ベテラン漫画福地翼先生の漫画ライフハックが為になる](https://togetter.com/li/1948792)
+- [初デートの感想を将棋に例えてくる彼女](https://togetter.com/li/1948698)
+
 
 <style scoped>
 li a {

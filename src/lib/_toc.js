@@ -32,10 +32,10 @@ function transformer(ast) {
     let tocElement = "";
     for (let h2 of tocArray) {
       // tocElement += `<li><a href="#${h2.id}">${h2.title}</a></li>`;
-      // tocElement += `<li><a href="#" onclick="window.scrollTo({ 
-      //     top: document.querySelector('#${h2.id}').offsetTop, 
+      // tocElement += `<li><a href="#" onclick="window.scrollTo({
+      //     top: document.querySelector('#${h2.id}').offsetTop,
       //     behavior: 'smooth'
-      //   }); 
+      //   });
       //   event.preventDefault();">${h2.title}</a></li>`;
       tocElement += `<li><a href="{'#'}" onclick="document.querySelector('#${h2.id}').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">${h2.title}</a></li>`;
     }

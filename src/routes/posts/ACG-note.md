@@ -218,7 +218,7 @@ tags: ACG, Anime
 
 - [動畫理論書 Starter Pack.](https://medium.com/@Altia/%E5%8B%95%E7%95%AB%E7%90%86%E8%AB%96%E6%9B%B8-starter-pack-58539c9167f)
 - [Thread by @Matt_Alt: In writing "Pure Invention," I stuck as much as possible to Japanese-language sources…](https://threadreaderapp.com/thread/1282492091235360768.html)
-- [日本のアニメーション史を知るための10の文献 - Database for Animation Studies](http://database.jsas.net/mapping/recommendations/nishimura/)
+- [日本のアニメーション史を知るための 10 の文献 - Database for Animation Studies](http://database.jsas.net/mapping/recommendations/nishimura/)
 
 ## Anime Central 日本動畫的作畫講座（2013）
 
@@ -352,7 +352,7 @@ tags: ACG, Anime
 
 - [宮崎作品のアニメーション技術考](http://www.yk.rim.or.jp/~rst/rabo/miyazaki/gijyutsu_ron.html)
 - [漫画の原作者と作画者は「企画・脚本」と「撮影・監督」の役割分担…なのだろうか？](https://togetter.com/li/1081987)
-- [←よく見る制作工程　　現実→](https://twitter.com/caoryu_YS/status/1561301501896962048)
+- [← よく見る制作工程　　現実 →](https://twitter.com/caoryu_YS/status/1561301501896962048)
 
 <details>
   <summary>
@@ -925,3 +925,81 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 ```
 
 </details>
+
+## 櫻井政博的製作遊戲時
+
+- 220824 [關於這個頻道](https://www.youtube.com/watch?v=i4v8X-lfX5o) 7:10
+- 220824 [櫻井政博監督作品](https://www.youtube.com/watch?v=07NTGrGkOBc) 2:35
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+
+<div style="width: 20em; min-width: 30%;">
+
+### A. 工作心態
+
+- 220831 [做遊戲不是玩遊戲](https://www.youtube.com/watch?v=5DS_aGjo9zY) 4:06
+- 220912 [簡報旨在速度](https://www.youtube.com/watch?v=jVnBk3p7T-Q) 1:08
+
+</div>
+<div style="width: 20em; min-width: 30%;">
+
+### B. 遊戲性
+
+- 220829 [風險與報酬](https://www.youtube.com/watch?v=cTSMohV3TgQ) 10:00
+- 220904 [累積之後迅地釋放](https://www.youtube.com/watch?v=ItuZ_AZG49M) 2:41
+- 220921 [RPG 的遊戲性](https://www.youtube.com/watch?v=42x9G5pe8lg) 2:37
+
+</div>
+<div style="width: 20em; min-width: 30%;">
+
+### C. 企劃、遊戲設計
+
+- 220826 [幀數就像數格子](https://www.youtube.com/watch?v=SxAFLXSeMjI) 4:00
+
+</div>
+<div style="width: 20em; min-width: 30%;">
+
+### D. 機制
+
+- 220824 [重要時刻要停下來！](https://www.youtube.com/watch?v=APOD1fmwPaM) 4:19
+
+</div>
+<div style="width: 20em; min-width: 30%;">
+
+### F. 圖像
+
+- 220907 [不畫素材，畫光](https://www.youtube.com/watch?v=WqwtzP-TCnw) 3:33
+
+</div>
+<div style="width: 20em; min-width: 30%;">
+
+### G. 動作
+
+- 220918 [如何指定動作](https://www.youtube.com/watch?v=GB00mkau1Kw) 4:38
+
+</div>
+<div style="width: 20em; min-width: 30%;">
+
+### H. 效果
+
+- 220923 [別顯得不明瞭](https://www.youtube.com/watch?v=7vGEEUjCJdY) 2:32
+
+</div>
+<div style="width: 20em; min-width: 30%;">
+
+### M. 閒聊
+
+- 220902 [想要消滅延遲](https://www.youtube.com/watch?v=upVxCXWDlZk) 5:17
+- 220915 [遊戲領域的獎](https://www.youtube.com/watch?v=YbYdyyWgr6Y) 3:26
+
+</div>
+<div style="width: 20em; min-width: 30%;">
+
+### N. 企劃概念
+
+- 220825 [星之卡比](https://www.youtube.com/watch?v=dPajPmu_t9Y) 5:17
+- 220909 [星之卡比 夢之泉物語](https://www.youtube.com/watch?v=h2EpwYFfrfY) 5:55
+
+</div>
+
+</div>

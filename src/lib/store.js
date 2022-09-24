@@ -301,6 +301,8 @@ export const marqueeTexts = readable([
   "そんな思い出も時間と共にやがて消える。雨の中の涙のように。死ぬ時が来た。",
   "やはりエジプトか…いつ出発する？わたしも同行する",
   "面白きこともなき世をおもしろく",
+  "生きてるだけでえらい",
+  "「ソ連では希望こそ思想の中心である。階級が無く、淑女や紳士がおらず、誰もが友人であるような国にいるということ、それは稀に見るすがすがしい経験だった。明日、私はこの希望の土地を去り、我々の絶望の国へ帰る」（バーナード・ショー）",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",
@@ -477,6 +479,20 @@ export const aboutLinks = readable([
   "https://blog.kalan.dev/2021-10-17-linear-and-exponential-value/",
   // バッドノウハウと「奥が深い症候群」
   "http://0xcc.net/misc/bad-knowhow.html",
+  // 生産的になろう（Aaron Swartz のブログから）
+  "https://emptypage.jp/translations/aaron/productivity.html",
+  // 相信你可以改變
+  "https://takedaiori.medium.com/%E4%BA%9A%E4%BC%A6-%E6%96%AF%E6%B2%83%E5%85%B9-%E7%9B%B8%E4%BF%A1%E4%BD%A0%E5%8F%AF%E4%BB%A5%E6%94%B9%E5%8F%98-742cc62f2102",
+  // 客觀看待自己
+  "https://takedaiori.medium.com/%E4%BA%9A%E4%BC%A6-%E6%96%AF%E6%B2%83%E5%85%B9-%E5%AE%A2%E8%A7%82%E7%9C%8B%E5%BE%85%E8%87%AA%E5%B7%B1-d76a9e989e2b",
+  // 享受痛苦
+  "https://takedaiori.medium.com/%E4%BA%9A%E7%BA%B6-%E6%96%AF%E6%B2%83%E5%85%B9-%E7%9B%B4%E9%9D%A2%E7%97%9B%E8%8B%A6-731314989f96",
+  // 正視現實
+  "https://takedaiori.medium.com/%E4%BA%9A%E4%BC%A6-%E6%96%AF%E6%B2%83%E5%85%B9-%E6%AD%A3%E8%A7%86%E7%8E%B0%E5%AE%9E-8d8cccea3115",
+  // 珍視錯誤
+  "https://takedaiori.medium.com/%E4%BA%9A%E4%BC%A6-%E6%96%AF%E6%B2%83%E5%85%B9-%E7%8F%8D%E8%A7%86%E9%94%99%E8%AF%AF-80fd07147644",
+  // 修理機器，不要修理人
+  "https://takedaiori.medium.com/%E4%BA%9A%E7%BA%B6-%E6%96%AF%E6%B2%83%E5%85%B9-%E4%BF%AE%E7%90%86%E6%9C%BA%E5%99%A8-%E4%B8%8D%E8%A6%81%E4%BF%AE%E7%90%86%E4%BA%BA-f1e034f35cc",
   // ========================================
   // 語用（pragmatic）
   "https://aaphi.blogspot.com/2010/03/pragmatic.html",

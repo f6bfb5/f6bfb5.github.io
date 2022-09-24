@@ -5,66 +5,52 @@ summary: "各種工具軟體整理。"
 tags: Toolbox
 ---
 
-<style>
-table {
-  width: 100%;
-}
-table td:nth-child(1) {
-  width: 25%;
-  padding-left: 2em;
-}
-table td:nth-child(3) {
-  width: 20%;
-  text-align: center;
-}
-</style>
-
 ## 圖片處理
 
-| 名稱                                                                          | 說明                        | 付費 |
-| ----------------------------------------------------------------------------- | --------------------------- | ---- |
-| [GIMP](https://www.gimp.org/downloads/)                                       | 免費開源的圖片處理軟體      | FREE |
-| [Affinity Photo](https://affinity.serif.com/en-gb/photo/)                     | PhotoShop 的類似軟體        | ＄   |
-| [PhotoSift](https://www.rlvision.com/photosift/about.php)                     | 使用鍵盤快速分類圖片        | FREE |
-| [Ralpha Image Resizer](https://www.vector.co.jp/soft/winnt/art/se487522.html) | 批次化處理圖片              | FREE |
-| [ウゴツール](https://mclover.hateblo.jp/UgoTool)                              | 製作動態塗鴉效果圖片        | FREE |
-| [Gifski](https://gif.ski/)                                                    | 號稱最高品質的 GIF 壓縮程式 | FREE |
-| [apngasm](http://apngasm.sourceforge.net/)                                    | 以一系列圖片製作 APNG 動圖  | FREE |
-| [Pngyu](https://nukesaq88.github.io/Pngyu/)                                   | 壓縮 PNG 檔案               | FREE |
+| 名稱                                                                          | 說明                        |
+| ----------------------------------------------------------------------------- | --------------------------- |
+| [GIMP](https://www.gimp.org/downloads/)                                       | 免費開源的圖片處理軟體      |
+| [Affinity Photo](https://affinity.serif.com/en-gb/photo/)                     | PhotoShop 的類似軟體        |
+| [PhotoSift](https://www.rlvision.com/photosift/about.php)                     | 使用鍵盤快速分類圖片        |
+| [Ralpha Image Resizer](https://www.vector.co.jp/soft/winnt/art/se487522.html) | 批次化處理圖片              |
+| [ウゴツール](https://mclover.hateblo.jp/UgoTool)                              | 製作動態塗鴉效果圖片        |
+| [Gifski](https://gif.ski/)                                                    | 號稱最高品質的 GIF 壓縮程式 |
+| [apngasm](http://apngasm.sourceforge.net/)                                    | 以一系列圖片製作 APNG 動圖  |
+| [Pngyu](https://nukesaq88.github.io/Pngyu/)                                   | 壓縮 PNG 檔案               |
 
 ## 影片
 
 ### 剪輯
 
-| 名稱                                                                        | 說明                                   | 付費     |
-| --------------------------------------------------------------------------- | -------------------------------------- | -------- |
-| [AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)                       | 日本愛用的免費影片編輯軟體             | FREE     |
-| [NicoVisualEffects](http://nive.jp/)                                        | 以 AE 的替代品為目標開發的免費 MG 軟體 | FREE     |
-| [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) | 以顏色校正功能聞名的影片剪輯軟體       | 具付費版 |
-| [Shotcut](https://shotcut.org/)                                             | 開源免費跨平台的影片剪輯軟體           | FREE     |
-| [Avidemux](http://avidemux.sourceforge.net/)                                | 簡易功能的開源影片編輯軟體             | FREE     |
-| [LosslessCut](https://github.com/mifi/lossless-cut/releases)                | 無失真的影片剪輯軟體                   | FREE     |
+| 名稱                                                                        | 說明                                   |
+| --------------------------------------------------------------------------- | -------------------------------------- |
+| [AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)                       | 日本愛用的免費影片編輯軟體             |
+| [NicoVisualEffects](http://nive.jp/)                                        | 以 AE 的替代品為目標開發的免費 MG 軟體 |
+| [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) | 以顏色校正功能聞名的影片剪輯軟體       |
+| [Shotcut](https://shotcut.org/)                                             | 開源免費跨平台的影片剪輯軟體           |
+| [Avidemux](http://avidemux.sourceforge.net/)                                | 簡易功能的開源影片編輯軟體             |
+| [LosslessCut](https://github.com/mifi/lossless-cut/releases)                | 無失真的影片剪輯軟體                   |
 
 ### 特效
 
-| 名稱                                                  | 說明                                  | 付費     |
-| ----------------------------------------------------- | ------------------------------------- | -------- |
-| [Delir](https://delir.studio/)                        | 開源的影片特效後製軟體                | FREE     |
-| [NATRON](https://natrongithub.github.io/)             | 注重於 Motion Graphics 的影片特效軟體 | FREE     |
-| [HitFilm](https://fxhome.com/product/hitfilm-express) |                                       | FREE     |
-| [Cavalry](https://cavalry.scenegroup.co/)             | 類似 AfterEffects 的 影片特效軟體     | 具付費版 |
-| [AnimeEffects](http://animeeffects.org/ja/)           | 可以處理圖片自由變型的後製軟體        | FREE     |
+| 名稱                                                  | 說明                                  |
+| ----------------------------------------------------- | ------------------------------------- |
+| [Delir](https://delir.studio/)                        | 開源的影片特效後製軟體                |
+| [NATRON](https://natrongithub.github.io/)             | 注重於 Motion Graphics 的影片特效軟體 |
+| [HitFilm](https://fxhome.com/product/hitfilm-express) |                                       |
+| [Cavalry](https://cavalry.scenegroup.co/)             | 類似 AfterEffects 的 影片特效軟體     |
+| [AnimeEffects](http://animeeffects.org/ja/)           | 可以處理圖片自由變型的後製軟體        |
 
 ### 輔助
 
-| 名稱                                                                  | 說明                | 付費 |
-| --------------------------------------------------------------------- | ------------------- | ---- |
-| [GANTAI](https://fairway.ne.jp/gantai/)                               | 快速加上馬賽克      | FREE |
-| [Mkvtoolnix](https://mkvtoolnix.download/)                            | 處理 Mastroska 檔案 | FREE |
-| [Aegisub](https://github.com/Aegisub/Aegisub)                         | 影片字幕編輯軟體    | FREE |
-| [SubtitleEdit](https://www.nikse.dk/subtitleedit)                     | 影片字幕編輯軟體    | FREE |
-| [pyTranscriber](https://github.com/raryelcostasouza/pyTranscriber)    | 自動產生字幕軟體    | FREE |
-| [mtn](https://gitlab.com/movie_thumbnailer/mtn/-/wikis/home#download) | 製作影片縮時一覽圖  | FREE |
+| 名稱                                                                  | 說明                |
+| --------------------------------------------------------------------- | ------------------- |
+| [GANTAI](https://fairway.ne.jp/gantai/)                               | 快速加上馬賽克      |
+| [Mkvtoolnix](https://mkvtoolnix.download/)                            | 處理 Mastroska 檔案 |
+| [Aegisub](https://github.com/Aegisub/Aegisub)                         | 影片字幕編輯軟體    |
+| [SubtitleEdit](https://www.nikse.dk/subtitleedit)                     | 影片字幕編輯軟體    |
+| [pyTranscriber](https://github.com/raryelcostasouza/pyTranscriber)    | 自動產生字幕軟體    |
+| [mtn](https://gitlab.com/movie_thumbnailer/mtn/-/wikis/home#download) | 製作影片縮時一覽圖  |
 
 `mtn.exe -c 4 -h 0 -s 60 -z -P -f <path-to-font-file>`
 
@@ -84,30 +70,30 @@ table td:nth-child(3) {
 
 ### 手繪動畫
 
-| 名稱                                                                     | 說明                         | 付費     |
-| ------------------------------------------------------------------------ | ---------------------------- | -------- |
-| [OpenToonz](https://opentoonz.github.io/index.html)                      | 吉卜力愛用的開源動畫製作軟體 | FREE     |
-| [OPTPiX SpriteStudio](https://www.webtech.co.jp/spritestudio/index.html) | 製作 Live2D 動畫專用的工具   | 具付費版 |
+| 名稱                                                                     | 說明                         |
+| ------------------------------------------------------------------------ | ---------------------------- |
+| [OpenToonz](https://opentoonz.github.io/index.html)                      | 吉卜力愛用的開源動畫製作軟體 |
+| [OPTPiX SpriteStudio](https://www.webtech.co.jp/spritestudio/index.html) | 製作 Live2D 動畫專用的工具   |
 
 ## 3DCG
 
-| 名稱                                       | 說明 | 付費     |
-| ------------------------------------------ | ---- | -------- |
-| Autodesk Softimage                         |      |          |
-| [Blender](https://www.blender.org/)        |      | FREE     |
-| [Metasequoia](http://www.metaseq.net/)     |      | 具免費版 |
-| [SketchUp](https://www.sketchup.com/zh-TW) |      |          |
+| 名稱                                       | 說明 |
+| ------------------------------------------ | ---- |
+| Autodesk Softimage                         |      |
+| [Blender](https://www.blender.org/)        |      |
+| [Metasequoia](http://www.metaseq.net/)     |      |
+| [SketchUp](https://www.sketchup.com/zh-TW) |      |
 
 ## 音樂
 
-| 名稱                                                                   | 說明                     | 付費 |
-| ---------------------------------------------------------------------- | ------------------------ | ---- |
-| [Audacity](https://www.audacityteam.org/)                              |                          |      |
-| [GoldWave](https://www.goldwave.com/)                                  |                          |      |
-| [VocalShifter](http://ackiesound.ifdef.jp/download.html#vs)            |                          |      |
-| [MP3Tag](https://www.mp3tag.de/en/)                                    |                          |      |
-| [Youlean Loudness Meter 2](https://youlean.co/youlean-loudness-meter/) | 監控麥克風輸入的音量響度 |      |
-| [Orban Loudness Meter 2](https://www.orban.com/meter)                  | 監控電腦上播放的音量響度 |      |
+| 名稱                                                                   | 說明                     |
+| ---------------------------------------------------------------------- | ------------------------ |
+| [Audacity](https://www.audacityteam.org/)                              |                          |
+| [GoldWave](https://www.goldwave.com/)                                  |                          |
+| [VocalShifter](http://ackiesound.ifdef.jp/download.html#vs)            |                          |
+| [MP3Tag](https://www.mp3tag.de/en/)                                    |                          |
+| [Youlean Loudness Meter 2](https://youlean.co/youlean-loudness-meter/) | 監控麥克風輸入的音量響度 |
+| [Orban Loudness Meter 2](https://www.orban.com/meter)                  | 監控電腦上播放的音量響度 |
 
 ## 素材
 
@@ -277,18 +263,28 @@ table td:nth-child(3) {
 
 ### 不可商用 or 需聯絡
 
-| 名稱                                                                                                                                | 範例                                            |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| [中森工芸 筆文字](https://booth.pm/ja/items/1166197)                                                                                |                                                 |
-| [えるまー](https://www.vector.co.jp/download/file/data/writing/fh453621.html)                                                       |                                                 |
-| [みきゆ FONT](http://sozaiya405.chu.jp/405/font.htm)                                                                                |                                                 |
-| [S2G メモ](http://s2g.jp/font/index.htm)                                                                                            |                                                 |
-| [しょかきうたげ](https://shokaki.hatenablog.jp/entry/2019/08/06/172131)                                                             |                                                 |
-| [ainezunouzu フォント](https://web.archive.org/web/20190104214816/http://www.geocities.jp/o030b/ainezunouzu/font/font20121018.html) |                                                 |
-| [三丁目フォント](https://web.archive.org/web/20190330044820/http://www.geocities.jp/bokurano_yume/)                                 |                                                 |
-| [ラムダシステム日本語書体](https://www.lambda.co.jp/contents/font_japanese.html)                                                    |                                                 |
-| [SH G30](http://smart-pda.net/isourou/other/e830w/Chapter-0402.html)                                                                | ![SH G30](https://i.imgur.com/702ECjN.png)      |
-| Sword Kanji Font(不明)                                                                                                              | ![Sword Kanji](https://i.imgur.com/Q31QGRM.png) |
+| 名稱                         | 範例                                            |
+| ---------------------------- | ----------------------------------------------- |
+| [中森工芸 筆文字][]          |                                                 |
+| [えるまー][]                 |                                                 |
+| [みきゆ FONT][]              |                                                 |
+| [S2G メモ][]                 |                                                 |
+| [しょかきうたげ][]           |                                                 |
+| [ainezunouzu フォント][]     |                                                 |
+| [三丁目フォント][]           |                                                 |
+| [ラムダシステム日本語書体][] |                                                 |
+| [SH G30][]                   | ![SH G30](https://i.imgur.com/702ECjN.png)      |
+| Sword Kanji Font(不明)       | ![Sword Kanji](https://i.imgur.com/Q31QGRM.png) |
+
+[中森工芸 筆文字]: https://booth.pm/ja/items/1166197
+[えるまー]: https://www.vector.co.jp/download/file/data/writing/fh453621.html
+[みきゆ font]: http://sozaiya405.chu.jp/405/font.htm
+[s2g メモ]: http://s2g.jp/font/index.htm
+[しょかきうたげ]: https://shokaki.hatenablog.jp/entry/2019/08/06/172131
+[ainezunouzu フォント]: https://web.archive.org/web/20190104214816/http://www.geocities.jp/o030b/ainezunouzu/font/font20121018.html
+[三丁目フォント]: https://web.archive.org/web/20190330044820/http://www.geocities.jp/bokurano_yume/
+[ラムダシステム日本語書体]: https://www.lambda.co.jp/contents/font_japanese.html
+[sh g30]: http://smart-pda.net/isourou/other/e830w/Chapter-0402.html
 
 ### 參考資料
 
@@ -302,3 +298,36 @@ Osaka 為移植自 Mac 的同名字型，於 Mac OS 8.5 至 9.2.2 為系統標�
 SH G-30 為移植自 Sharp 特別針對攜帶電子閱讀器開發的 LC 字型，始於當初為了改善液晶螢幕與 CRT 顯示方式不同導致的閱讀疲勞，重新調整了文字的中心、部首平衡與骨幹幅度，改善了文字顯示的鋸齒感、過細感與不均衡感。任天堂的攜帶遊戲主機 DS 也採用了此字型。（[ＬＣ（液晶）フォント](https://corporate.jp.sharp/rd/journala-69/pdf/69-18.pdf)、[液晶表示用オリジナルフォント＜ＬＣフォント＞](https://jp.sharp/products/lcd/glossary/lcfont.html)）
 
 Myrica 為以 Inconsolata、源真ゴシック以及 Mgen+ 所組合而成的字型，針對許多容易混淆的文字（ex. 1、l、I、| 和「一」與破折號，O 與 0，具半濁點的平假名等等）進一步改善了可讀性。
+
+<style>
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+tr {
+  display: flex;
+  max-width: 100%;
+}
+tr th {
+  word-break: keep-all;
+}
+tr td:nth-child(1) {
+  max-width: 50%;
+  flex-basis: 50%;
+  flex-wrap: nowrap;
+
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 576px) {
+  tr {
+    flex-direction: column;
+  }
+  tr td:nth-child(1) {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+</style>
