@@ -332,13 +332,14 @@ del {
 }
 
 table {
-  border-collapse: collapse;
   margin: 0 auto;
+  /* table-layout: fixed; */
+  border-collapse: collapse;
 }
 
 th {
   padding: 0.4em 0.8em;
-  word-break: keep-all;
+  /* word-break: keep-all; */
   text-align: left;
 }
 

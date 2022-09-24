@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-fd67cd73.js",
+    "file": "start-e8348f52.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -59,7 +59,6 @@
       "src/routes/posts/sticker-generator.md",
       "src/routes/posts/template.md",
       "src/routes/posts/tool-list-creativity.md",
-      "src/routes/posts/tool-list-gaming.md",
       "src/routes/posts/tool-list-system.md",
       "src/routes/posts/tool-list-website.md",
       "src/routes/posts/use-foobar2k-to-listen-to-podcast.md",
@@ -70,14 +69,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-2d2f707d.js",
+    "file": "pages/__layout.svelte-e2889f05.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8a808381.js",
-      "_Favicon-c81715e1.js",
-      "_store-5aa965fd.js",
+      "_Favicon-ef0812c6.js",
+      "_store-cdb1cd29.js",
       "_index-c04c708e.js",
       "_paths-396f020f.js"
     ],
@@ -111,14 +110,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-d4dc1fa2.js",
+    "file": "pages/__layout-wide.svelte-6b502c24.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8a808381.js",
-      "_Favicon-c81715e1.js",
-      "_store-5aa965fd.js",
+      "_Favicon-ef0812c6.js",
+      "_store-cdb1cd29.js",
       "_BorderedText-685ccf91.js",
       "_paths-396f020f.js",
       "_index-c04c708e.js"
@@ -128,7 +127,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-2902a34e.js",
+    "file": "pages/_slug_.svelte-b8e49e16.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -178,7 +177,6 @@
       "src/routes/posts/sticker-generator.md",
       "src/routes/posts/template.md",
       "src/routes/posts/tool-list-creativity.md",
-      "src/routes/posts/tool-list-gaming.md",
       "src/routes/posts/tool-list-system.md",
       "src/routes/posts/tool-list-website.md",
       "src/routes/posts/use-foobar2k-to-listen-to-podcast.md",
@@ -188,13 +186,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-4e80c6a2.js",
+    "file": "pages/about.svelte-db035aca.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8a808381.js",
-      "_store-5aa965fd.js",
+      "_store-cdb1cd29.js",
       "_index-c04c708e.js"
     ],
     "css": [
@@ -202,13 +200,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-a8b6bdab.js",
+    "file": "pages/index@wide.svelte-1641a31c.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8a808381.js",
-      "_store-5aa965fd.js",
+      "_store-cdb1cd29.js",
       "_paths-396f020f.js",
       "_index-c04c708e.js"
     ],
@@ -229,7 +227,7 @@
     ]
   },
   "src/routes/posts/11ty-note.md": {
-    "file": "pages/posts/11ty-note.md-27813998.js",
+    "file": "pages/posts/11ty-note.md-0b9594f4.js",
     "src": "src/routes/posts/11ty-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -268,7 +266,7 @@
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-1534bff7.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-3f9ea059.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -395,7 +393,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-b11a0897.js",
+    "file": "pages/posts/ACG-note.md-cfa21ae4.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -465,7 +463,7 @@
     ]
   },
   "src/routes/posts/ACG-super-manga-book-list.md": {
-    "file": "pages/posts/ACG-super-manga-book-list.md-288cae7a.js",
+    "file": "pages/posts/ACG-super-manga-book-list.md-b690d616.js",
     "src": "src/routes/posts/ACG-super-manga-book-list.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -704,7 +702,7 @@
     ]
   },
   "src/routes/posts/tool-list-creativity.md": {
-    "file": "pages/posts/tool-list-creativity.md-5a57b0e1.js",
+    "file": "pages/posts/tool-list-creativity.md-d6c3b6ac.js",
     "src": "src/routes/posts/tool-list-creativity.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -714,25 +712,11 @@
       "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-e055f652.css"
-    ]
-  },
-  "src/routes/posts/tool-list-gaming.md": {
-    "file": "pages/posts/tool-list-gaming.md-83c0055e.js",
-    "src": "src/routes/posts/tool-list-gaming.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8a808381.js",
-      "__post-5d4228b4.js",
-      "_BlinkAnchor-43658b4a.js"
-    ],
-    "css": [
-      "assets/pages/posts/tool-list-creativity.md-e055f652.css"
+      "assets/pages/posts/tool-list-creativity.md-cb4955d4.css"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
-    "file": "pages/posts/tool-list-system.md-1a983f88.js",
+    "file": "pages/posts/tool-list-system.md-17da2a42.js",
     "src": "src/routes/posts/tool-list-system.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -742,11 +726,11 @@
       "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-8c423814.css"
+      "assets/pages/posts/tool-list-creativity.md-cb4955d4.css"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-c34ecffb.js",
+    "file": "pages/posts/tool-list-website.md-fa6ca686.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -756,7 +740,7 @@
       "_BlinkAnchor-43658b4a.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-website.md-0dbe30fe.css"
+      "assets/pages/posts/tool-list-creativity.md-cb4955d4.css"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
@@ -836,19 +820,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-c81715e1.js": {
-    "file": "chunks/Favicon-c81715e1.js",
+  "_Favicon-ef0812c6.js": {
+    "file": "chunks/Favicon-ef0812c6.js",
     "imports": [
       "_index-8a808381.js",
-      "_store-5aa965fd.js",
+      "_store-cdb1cd29.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-4a80a899.css"
     ]
   },
-  "_store-5aa965fd.js": {
-    "file": "chunks/store-5aa965fd.js",
+  "_store-cdb1cd29.js": {
+    "file": "chunks/store-cdb1cd29.js",
     "imports": [
       "_index-c04c708e.js"
     ]
