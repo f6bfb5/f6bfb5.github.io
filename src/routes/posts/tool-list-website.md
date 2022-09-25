@@ -273,6 +273,7 @@ tags: Toolbox
 | [現代麻雀技術論][]                                                 | 日本麻將戰術介紹                       |
 
 - [同人用語の基礎知識](https://www.paradisearmy.com/doujin/index.html)
+- [ALL JAPAN : The Greatest/Notablest JPN Albums 2400+](https://rateyourmusic.com/list/kommunicato/all-japan-the-greatest_notablest-jpn-albums-2400/1/)
 
 [poolsuite fm]: https://poolsuite.net/
 [drive & listen]: https://driveandlisten.herokuapp.com/

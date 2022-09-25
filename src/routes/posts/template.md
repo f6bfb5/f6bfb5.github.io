@@ -548,6 +548,15 @@ flowchart TB
   </div>
 </div>
 
+```cmd
+netsh winsock reset
+netsh int ip reset
+netsh winhttp reset proxy
+ipconfig /release
+ipconfig /renew
+ipconfig /flushdns
+```
+
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
   import BalloonQuote from "$lib/BalloonQuote.svelte";

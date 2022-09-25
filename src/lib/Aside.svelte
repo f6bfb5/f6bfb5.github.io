@@ -27,6 +27,13 @@
     >
       <img src="https://i.imgur.com/lR5H4mK.gif" alt="Nico Nico Douga" />
     </a>
+    <a
+      href="https://www.htb.co.jp/suidou/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <img src="https://i.imgur.com/P72xkgQ.png" alt="水曜どうでしょう" />
+    </a>
     <div class="aside-row">
       <a href={`${base}/rss.xml`} rel="noreferrer noopener" target="_blank">
         <img src="https://i.imgur.com/IWb6pKA.gif" alt="RSS-Feed" />
