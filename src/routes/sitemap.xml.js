@@ -4,7 +4,7 @@ export async function get() {
   const allPosts = import.meta.globEager(`../routes/posts/*.md`);
 
   const body = `
-  <?xml version="1.0" encoding="UTF-8" ?>
+  <?xml version="1.0" encoding="UTF-8"?>
   <urlset
     xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="https://www.w3.org/1999/xhtml"
@@ -15,24 +15,30 @@ export async function get() {
   >
   <url>
     <loc>${siteUrl}</loc>
-    <lastmod>${new Date().toISOString().slice(0,-5) + "+08:00"}</lastmod>
+    <lastmod>${new Date().toISOString().slice(0, -5) + "+08:00"}</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>${siteUrl}/about</loc>
-    <lastmod>${new Date().toISOString().slice(0,-5) + "+08:00"}</lastmod>
+    <lastmod>${new Date().toISOString().slice(0, -5) + "+08:00"}</lastmod>
     <priority>1.00</priority>
   </url>
   ${Object.keys(allPosts)
+    .sort(
+      (a, b) =>
+        new Date(allPosts[b].metadata.date) -
+        new Date(allPosts[a].metadata.date)
+    )
     .map(
       (path) => `
     <url>
       <loc>${siteUrl}/${path
         .split("/")
         [path.split("/").length - 1].slice(0, -3)}</loc>
-      <lastmod>${new Date(allPosts[path].metadata.date)
-        .toISOString()
-        .slice(0,-5) + "+08:00"}</lastmod>
+      <lastmod>${
+        new Date(allPosts[path].metadata.date).toISOString().slice(0, -5) +
+        "+08:00"
+      }</lastmod>
       <priority>0.80</priority>
     </url>
   `
