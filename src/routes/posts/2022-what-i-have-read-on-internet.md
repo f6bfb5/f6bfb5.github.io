@@ -1813,12 +1813,17 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [コントロール - 川角/やまいも](https://shonenjumpplus.com/episode/316112896867409949)
 - [全ガンダム一言作品評](https://anond.hatelabo.jp/20220923044306)
 - [高速回線が売りなのに速度や品質が不安定な NURO 光が集団訴訟されそうになっている一部始終](https://togetter.com/li/1948408)
-- [【訃報】「Japanese Soba Noodles 蔦」の大西祐貴死去　43歳　数日前から店を休む](https://iromame-beans.jp/user/yu2otktk/b5b0fad11f8933ad4a9d)
+- [【訃報】「Japanese Soba Noodles 蔦」の大西祐貴死去　 43 歳　数日前から店を休む](https://iromame-beans.jp/user/yu2otktk/b5b0fad11f8933ad4a9d)
 - [「猫に噛まれて敗血症性ショックになった話」からわかる感染症の怖さ…動物と触れ合う人に読んでほしい](https://togetter.com/li/1894954)
 - [ぬこー様ちゃんの漫画「何度も血祭りにあげられるイラスト窃盗犯」がもはやスカッと修羅の道](https://togetter.com/li/1948729)
 - [「『ネーム』『お話作り』に悩む全ての人へ 」ベテラン漫画福地翼先生の漫画ライフハックが為になる](https://togetter.com/li/1948792)
 - [初デートの感想を将棋に例えてくる彼女](https://togetter.com/li/1948698)
-
+- [スマホをなくしたときにやること　 2022](https://hei-bon.hatenablog.com/entry/2022/09/13/073000)
+- [現代哲学の研究に哲学史は必要なのか](https://uemurag.hatenablog.jp/entry/2022/09/24/075600)
+- [道民が方言と思っていない方言として「○○ 十字街」というのがあるがこの概念自体が内地の街にはないようだ「初めて知った」「北海道ならでは」](https://togetter.com/li/1949086)
+- [NHK スペシャル"中流危機"を越えて](https://roumuya.hatenablog.com/entry/2022/09/24/151539)
+- [｢住む場所がないので助けて下さいって奴は絶対に家に入れるな！｣80 歳代の鬼の形相での主張に思い当たるところあり](https://togetter.com/li/1949159)
+- [Aphex Twin のアイディアを具現化したサンプル加工ソフト、「samplebrain」が無償公開…… サンプルを別のサンプルの音響特性に一致させて再生](https://icon.jp/archives/24224)
 
 <style scoped>
 li a {

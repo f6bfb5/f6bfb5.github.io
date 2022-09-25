@@ -197,6 +197,8 @@ tags: Toolbox
 - [力尽きレシピ〜簡単ズボラ飯のレシピ集〜](https://saruwakakun.com/life/recipe)
 - [パンの図鑑](https://bread.jp.net/japanese_syllabary.php)
 - [死刑確定者 全リスト](https://www.crimeinfo.jp/data/dplist/dplist_all/)
+- [米国でソフトウェアエンジニアになる方法](https://note.com/fushiroyama/n/n5402a03e6888)
+- [日本移居指南](https://guoyu.mirror.xyz/bPaDKAcrhJGUbaXu9BWDcdD-F46gBFATTvf_qwZ9Bso)
 
 ## 音樂
 

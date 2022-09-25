@@ -67,6 +67,22 @@
     </div>
     <div class="aside-row">
       <a
+        href="http://info.cern.ch/hypertext/WWW/TheProject.html"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        <img src="https://i.imgur.com/9blk2hu.gif" alt="World Wide Web" />
+      </a>
+      <a
+        href="https://pop.system76.com/"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        <img src="https://i.imgur.com/f06BP6u.gif" alt="Linux Now" />
+      </a>
+    </div>
+    <div class="aside-row">
+      <a
         href="https://www.mozilla.org/en-US/firefox/"
         rel="noreferrer noopener"
         target="_blank"
@@ -138,21 +154,14 @@
     <div class="aside-row">
       <img src="https://i.imgur.com/fl9sleS.png" alt="PATAPON" />
       <a
-        href="http://info.cern.ch/hypertext/WWW/TheProject.html"
-        rel="noreferrer noopener"
-        target="_blank"
-      >
-        <img src="https://i.imgur.com/9blk2hu.gif" alt="World Wide Web" />
-      </a>
-    </div>
-    <div class="aside-row">
-      <a
         href="https://twitter.com/ariga_megamix"
         rel="noreferrer noopener"
         target="_blank"
       >
         <img src="https://i.imgur.com/C8wcPXl.gif" alt="Ariga MEGAMIX" />
       </a>
+    </div>
+    <div class="aside-row">
       <a
         href="https://www.nicovideo.jp/watch/sm742045"
         rel="noreferrer noopener"
@@ -160,8 +169,6 @@
       >
         <img src="https://i.imgur.com/I76cWcs.png" alt="Windows ME" />
       </a>
-    </div>
-    <div class="aside-row">
       <a
         href="https://www.nicovideo.jp/watch/sm1864146"
         rel="noreferrer noopener"
@@ -169,6 +176,8 @@
       >
         <img src="https://i.imgur.com/4XPls4h.gif" alt="caramelldansen" />
       </a>
+    </div>
+    <div class="aside-row">
       <a
         href="https://www.nicovideo.jp/watch/sm10722893"
         rel="noreferrer noopener"
@@ -176,8 +185,6 @@
       >
         <img src="https://i.imgur.com/fizTd92.gif" alt="ochame kinou" />
       </a>
-    </div>
-    <div class="aside-row">
       <a
         href="https://www.nicovideo.jp/watch/sm11509720"
         rel="noreferrer noopener"
@@ -185,12 +192,17 @@
       >
         <img src="https://i.imgur.com/odrujzt.gif" alt="Nyan Cat" />
       </a>
+    </div>
+    <div class="aside-row">
       <a
         href="https://soundcloud.com/f6bfb5/sets/k4psq4s1vpbd"
         rel="noreferrer noopener"
         target="_blank"
       >
         <img src="https://i.imgur.com/G2YrwKe.png" alt="Soundcloud" />
+      </a>
+      <a href="https://www.last.fm/" rel="noreferrer noopener" target="_blank">
+        <img src="https://i.imgur.com/OvlFZaI.png" alt="last.fm" />
       </a>
     </div>
     <div class="aside-row">

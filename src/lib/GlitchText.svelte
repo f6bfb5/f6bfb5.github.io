@@ -13,6 +13,8 @@
     color: transparent;
     text-shadow: 0 0 0.125rem #0f0;
     animation: jitter 5s infinite;
+
+    font-weight: bold;
   }
   .vhs::before,
   .vhs::after {
@@ -23,7 +25,7 @@
     mix-blend-mode: screen;
     animation: glitch 5s infinite alternate;
 
-    font-weight: bold;
+    /* font-weight: bold; */
     color: red;
     -webkit-text-stroke: 2px red;
   }
