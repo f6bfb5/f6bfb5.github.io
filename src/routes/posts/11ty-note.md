@@ -76,6 +76,8 @@ tags: F2E
 
 - [Collections](https://www.11ty.dev/docs/collections/)
 
+### Component
+
 ## Deploy
 
 - 11ty build 後的網頁即可直接上線

@@ -22,9 +22,10 @@
 
 <style scoped>
   a {
-    margin-right: 20px;
     margin-top: auto;
+    margin-right: 20px;
     margin-bottom: auto;
+    margin-left: 20px;
   }
   img {
     min-width: 2em;

@@ -37,7 +37,7 @@
           .sort((a, b) => new Date(b.metadata.date) - new Date(a.metadata.date)) as { slug, metadata: { title, date, tags } }}
           <li>
             <div class="articles-list--link">
-              <span>
+              <time>
                 {new Date(date).toLocaleDateString("en-US", {
                   month: "2-digit",
                 }) +
@@ -45,7 +45,7 @@
                   new Date(date).toLocaleDateString("en-US", {
                     day: "2-digit",
                   })}
-              </span>
+              </time>
               <a href={`${base}/${slug}`} sveltekit:prefetch>{title}</a>
             </div>
             {#if tags}
@@ -156,7 +156,7 @@
     letter-spacing: 0.52px;
     font-size: 1.125em;
   }
-  ul li span {
+  ul li time {
     margin-left: 0.25rem;
     font-size: 0.75rem;
     color: var(--text-color);

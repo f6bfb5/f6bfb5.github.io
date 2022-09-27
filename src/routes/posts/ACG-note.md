@@ -955,6 +955,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 ### C. 企劃、遊戲設計
 
 - 220826 [幀數就像數格子](https://www.youtube.com/watch?v=SxAFLXSeMjI) 4:00
+- 220925 [先讓人玩遊戲](https://www.youtube.com/watch?v=1toox93mCzs) 2:44
 
 </div>
 <div style="width: 20em; min-width: 30%;">
