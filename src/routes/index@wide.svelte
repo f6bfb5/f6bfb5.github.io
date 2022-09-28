@@ -89,8 +89,6 @@
     /* max-width: 720px; */
     width: 100%;
     height: 100%;
-
-    overflow: hidden;
   }
 
   h1 {
@@ -115,7 +113,7 @@
 
     position: absolute;
     /* left: 0; */
-    left: 16px;
+    left: 1rem;
     /* top: 0; */
     bottom: 0;
     /* transform: translate(3%, -33%); */

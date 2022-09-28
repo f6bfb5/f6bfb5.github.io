@@ -64,6 +64,8 @@
 
     color: var(--text-color);
     background-color: var(--outer-bg-color);
+
+    overflow: clip;
   }
 
   .loader-container {
