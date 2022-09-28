@@ -261,6 +261,7 @@ hr::after {
   content: "";
   letter-spacing: 4em;
   padding-left: 4em;
+  opacity: .5;
 }
 @media screen and (max-width: 720px) {
   hr::after {

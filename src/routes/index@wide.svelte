@@ -113,16 +113,16 @@
 
     position: absolute;
     /* left: 0; */
-    left: 1rem;
     /* top: 0; */
-    bottom: 0;
     /* transform: translate(3%, -33%); */
+    left: 1rem;
+    bottom: 0;
     transform: translate(3%, 25%);
+
     z-index: -1;
 
     width: 97%;
     display: inline-block;
-    /* overflow: hidden; */
     white-space: nowrap;
     user-select: none;
   }
