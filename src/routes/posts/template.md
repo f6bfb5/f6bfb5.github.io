@@ -538,12 +538,12 @@ flowchart TB
   </div>
   <div class="adjusted-image-border">
 
-  ![sky in the building](https://i.imgur.com/lYVTGos.png)
+![sky in the building](https://i.imgur.com/lYVTGos.png)
 
   </div>
   <div class="adjusted-image-border">
 
-  ![rainbow ballon](https://i.imgur.com/JuPO2pq.png)
+![rainbow ballon](https://i.imgur.com/JuPO2pq.png)
 
   </div>
 </div>
@@ -556,6 +556,25 @@ ipconfig /release
 ipconfig /renew
 ipconfig /flushdns
 ```
+
+<div style="padding: 1em; max-widt 100%; background-color: #ffffee;">
+<div style="margin: 4px auto; max-width: 576px;
+  color: rgb(128,0,0); background-color: #f0e0d6;">
+  <div>
+    <span style="color: #cc1105; font-weight: bold;">無題</span>
+    <span>Name</span>
+    <span style="color: #117743; font-weight: bold;">名無し</span>
+    <time>{new Date().toISOString().slice(2).replaceAll('-', '/').replace('T', `(${['日', '一','二','三','四','五','六'][new Date().getDay()]})`).slice(0,-5)}</time>
+    <span style="text-decoration: underline;">No.{+new Date()}</span>
+  </div>
+  <div style="padding: 16px 40px; line-height: 1.2;">
+    <div style="color: #789922;">
+      > 淡漠、什麼精神官能症、各種障礙、非精神病性的繭居族、新型憂鬱症……社會總踩著「是你（無法適應者）的錯，是你很異常」的立場，對於我寫的這些內容，也會覺得非常悲慘吧（實際上在社會裡確實是悲慘的），但心理上（如果沒有旁人的說教或生活上的困頓）是比「以前」更加舒適，也不會再對將來感到不安。當然這不是克服了不安，只是連不安都被虛無吞噬了。在壓倒性的背反邏輯面前，「將來」或「問題」已失去了一切重要性。只剩下「夠了，我不做了」。不會有「我要活在當下！做我想做的事！」這種積極性，在「看見」之後，能做的只有認命。
+    </div>
+    「啊」、「咦？」、「啥？」地回過神來、有了這種壓倒性的實際感受後，不論是進行埋洞作業的「精氣」，或是以自我肯定感（為了要（為了要（為了埋平坑洞的作業）而埋平坑洞的作業）而…）激勵自己「精氣」，都枯竭了。想要努力，身與心也提不出力。但也只是不再會有做「該做的事」需要的「精氣」，對於享受喜歡的事不會造成任何問題，「要理解那個就要先學這個」地累積也不會有什麼問題。簡單來說，活下去這件事不會有任何問題。所以說實話，我認為只是至今非法佔據著優先順位最上面的「該做的事＝填坑作業」，回到了原本的地方（地獄）去而已。
+  </div>
+</div>
+</div>
 
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";

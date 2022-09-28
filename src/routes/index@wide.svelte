@@ -70,8 +70,11 @@
 <div class="container">
   <Marquee />
 
-  <h1 data-text="Articles">Articles</h1>
-  <TagsFilter {allPostsTags} />
+  <div class="navbar">
+    <h1 data-text="Articles">Articles</h1>
+    <div class="h1-bordered">Articles</div>
+    <TagsFilter {allPostsTags} />
+  </div>
   <ArticlesList {allPostsYears} {posts} />
 
   <a href="https://github.com/f6bfb5" rel="me" style="display: none;">
@@ -86,6 +89,8 @@
     /* max-width: 720px; */
     width: 100%;
     height: 100%;
+
+    overflow: hidden;
   }
 
   h1 {
@@ -94,23 +99,33 @@
     position: relative;
     z-index: 0;
   }
-  h1::after {
-    content: attr(data-text);
-    font-size: 4em;
+  .navbar {
+    position: relative;
+    z-index: 0;
+  }
+  .h1-bordered {
+  /* h1::after { */
+    /* content: attr(data-text); */
+    /* font-size: 4em; */
+    font-size: 8em;
     color: var(--bg-color);
     text-shadow: -1px 1px 0 var(--subtitle-color),
       1px 1px 0 var(--subtitle-color), 1px -1px 0 var(--subtitle-color),
       -1px -1px 0 var(--subtitle-color);
 
     position: absolute;
-    left: 0;
-    top: 0;
-    transform: translate(3%, -33%);
+    /* left: 0; */
+    left: 16px;
+    /* top: 0; */
+    bottom: 0;
+    /* transform: translate(3%, -33%); */
+    transform: translate(3%, 25%);
     z-index: -1;
 
     width: 97%;
     display: inline-block;
-    overflow: hidden;
+    /* overflow: hidden; */
     white-space: nowrap;
+    user-select: none;
   }
 </style>

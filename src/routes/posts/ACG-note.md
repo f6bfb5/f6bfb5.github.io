@@ -985,6 +985,10 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 
 - 220923 [別顯得不明瞭](https://www.youtube.com/watch?v=7vGEEUjCJdY) 2:32
 
+### J. UI
+
+- 220928 [易懂性與設計性](https://www.youtube.com/watch?v=0Va3ue6Qk-0) 3:20
+
 </div>
 <div style="width: 20em; min-width: 30%;">
 

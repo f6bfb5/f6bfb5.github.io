@@ -233,6 +233,8 @@ export const logoLinks = readable([
   "https://comic-days.com/episode/3269754496432828238",
   // 鍵がない - 伊藤拓登
   "https://comic-days.com/episode/3270296674337088734",
+  // 全力Bird - しのと
+  "https://shonenjumpplus.com/episode/316112896884974402",
 ]);
 
 export const marqueeTexts = readable([

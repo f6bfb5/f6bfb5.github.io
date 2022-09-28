@@ -1843,6 +1843,13 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [胸の大きさ気にするアニメキャラの存在がきつい](https://anond.hatelabo.jp/20220926223353)
 - [コンパニオンプランツ - 矢野としたか](https://shonenjumpplus.com/episode/316112896879860102)
 - [「なぜTwitter小説では『人生は生まれや環境がすべて』という結論のネガティブなお話がウケるの？」→辛辣な考察](https://togetter.com/li/1864524)
+- [安倍晋三は政治家一家に生まれた平凡な人 空虚な器にジャンクな右派思想を注ぎ込まれた](https://www.nikkan-gendai.com/articles/view/news/311527)
+- [日本の「多様性」観に物申すモーリー・ロバートソンさんの連ツイがパンクで単純に読み物としても最高](https://togetter.com/li/1950428)
+- [アトラスがサ終した『真・女神転生』MMOを復活させたファンを提訴…「取り返しのつかない損害を与えている」と主張](https://www.gamespark.jp/article/2022/09/27/122858.html)
+- [酒税法に触れないアルコール発酵、それが自家製酵母パン](https://dailyportalz.jp/kiji/jikasei-koubo-pan)
+- [全力Bird - しのと](https://shonenjumpplus.com/episode/316112896884974402)
+- [【選挙ウォッチャー】 安倍晋三の国葬が最後までカオスすぎた件。](https://note.com/chidaism/n/n148c43a75952)
+- [『サイバーパンク2077』絶好調を受け、開発者が生配信で感極まる。リリース時の"どん底状態"を振り返り](https://automaton-media.com/articles/newsjp/20220927-220682/)
 
 
 <style scoped>
