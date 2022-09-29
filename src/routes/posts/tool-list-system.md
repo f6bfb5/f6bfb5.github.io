@@ -13,6 +13,7 @@ tags: Toolbox
 | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | [Ninite](https://ninite.com/)                                                                   | 一次快速安裝各種軟體                                             |
 | [Rufus](https://rufus.ie/)                                                                      | 簡易建立可開機 USB 裝置，alt: [balenaEtcher][]                   |
+| [Ventoy](https://github.com/ventoy/Ventoy)                                                      | 直接使用映像檔啓動 OS                                            |
 | [Flow Launcher](https://www.flowlauncher.com/)                                                  | 快速執行程式與各種功能的 launcher，alt: [wox][] 似乎已經不再維護 |
 | [Everything](https://www.voidtools.com/downloads/)                                              | 超級快速的檔案搜索工具                                           |
 | [Geek Uninstaller](https://geekuninstaller.com/)                                                | 會將關聯檔案一同刪除的程式反安裝工具，alt: [BCU][]               |
@@ -423,7 +424,7 @@ tr th {
   word-break: keep-all;
 }
 tr td:nth-child(1) {
-  max-width: 50%;
+  min-width: 50%;
   flex-basis: 50%;
   flex-wrap: nowrap;
 
@@ -437,7 +438,6 @@ tr td:nth-child(1) {
     flex-direction: column;
   }
   tr td:nth-child(1) {
-    max-width: 100%;
     flex-basis: 100%;
   }
 }

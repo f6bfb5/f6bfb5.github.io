@@ -251,12 +251,12 @@
     <!-- ---------- -->
     <div class="p-with-h">
       <div
-        style="display: inline-block; 
+        style="max-width: 60%; 
           margin-top: 1em;
           margin-left: 1px;
           padding: 5px 10px 2px; 
           box-shadow: 2px 2px 0 var(--subtext-color), 4px 4px 0 var(--title-color);
-          background-color: var(--subtitle-color); 
+          background: linear-gradient(-117deg, transparent 18px, var(--subtitle-color) 0); 
           color: #fff;
           
           transform: scale(.8, 1); transform-origin: top left;"

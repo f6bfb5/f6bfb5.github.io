@@ -65,6 +65,7 @@
     color: var(--text-color);
     background-color: var(--outer-bg-color);
 
+    overflow: hidden;
     overflow: clip;
   }
 

@@ -15,31 +15,9 @@ tags: Toolbox
   - [【ASMR 小声】わずか 2 分で眠れる⁉️ 米軍式睡眠法音声ガイドやってみた（ロールプレイ、ナレーション、音フェチ）【⚠️ イヤホン推奨】](https://www.youtube.com/watch?v=DdpYTZRjj8k)
 - [新冠確診過程應對指南](https://nova-jumbo-a96.notion.site/0701-3c934b7a75a2447d8f8fadb5bde63c42)
 - [新型コロナ後遺症チートシート（対策一覧）](https://longcovid.jp/cheat-sheet.html)
-- [教科書には載らないニッポンのインターネットの歴史](https://web.archive.org/web/20030801113739/http://blogdex.tripod.co.jp/encyclopedia/)
-  - 僕たちのインターネット史
-- [佐倉葉ウェブ文化研究室](https://websitemap.sakura.ne.jp/index.html)
-- [Cameron's World](https://www.cameronsworld.net/)
-- [The 88x31 GIF Collection](https://cyber.dabamos.de/88x31/)
-  - [A.N. Lucas's 88x31 button Collection](https://anlucas.neocities.org/88x31Buttons.html)
-  - [Internet Button Archive](https://buttoncollection.neocities.org/)
-  - [capstasher 88x31 button collection](https://capstasher.neocities.org/88x31collection-page1.html)
-  - [Bytemoth's Button Bonanza](https://bytemoth.nfshost.com/88s/)
-  - [88by31](https://88by31.neocities.org/)
-  - [88x31 Buttons](https://yesterweb.org/graphics/buttons.html)
-  - [Who knew 88 and 31 went so well together?](https://44nifty.com/buttons.html)
-  - [plasticdino](https://plasticdino.neocities.org/graphics.html)
-  - [exp.pet](https://exo.pet/)
-  - [(27) HOT PPL IN YOUR AREA !!!!11](https://zanarkand.neocities.org/home.html)
-  - [shishka ✿ buttons](https://shishka.neocities.org/shishka/buttons.html)
-  - [light in the loafers.](https://lightintheloafers.neocities.org/buttons.html)
-- [88x31](https://neonaut.neocities.org/cyber/88x31.html)
 
 ---
 
-- [譲れぬ闘い --- ここで負けてしまったら、この戦争全体に負けてしまうんだ。](https://web.archive.org/web/20130402224316/http://www.changelog.net/log/1999/special/dave/)
-  - [Firefox は危険な JavaScript に対応しない](https://qiita.com/rana_kualu/items/8803f02c72a54f366f2a)
-  - [なぜ Mozilla は XUL アドオンを廃止したのか？（翻訳）](https://qiita.com/piroor/items/e876eaa70d4c0bf06d9b)
-- [ブログ台頭直前のウェブ界隈が好きだった話 - Neo's World](https://neos21.net/blog/2016/02/16-01.html)
 - [e-typing ローマ字タイピング](https://www.e-typing.ne.jp/roma/check/)
 - [ネットワーク対戦タイピング Weather Typing](https://denasu.com/software/weathertyping.html)
 - [Google reCAPTCHA test](https://patrickhlauke.github.io/recaptcha/)
@@ -71,10 +49,44 @@ tags: Toolbox
 - [Motherfucking Website](https://motherfuckingwebsite.com/)
 - [ちょうどいい Web デザインギャラリー](https://choooodoii.com/)
 - [おいでよ 広告の沼](https://www.citymilk.net/advertisingswamp/)
-- [放送の事故](https://tvjiko.web.fc2.com/)
 - [Cryptiana: Articles on Historical Cryptography](http://cryptiana.web.fc2.com/code/crypto.htm)
 - [Black Calendar](https://tocana.jp/blackcalendar/)
 - [インターネット上で強化された人物・キャラクター一覧](https://wikiwiki.jp/boudai/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E4%B8%8A%E3%81%A7%E5%BC%B7%E5%8C%96%E3%81%95%E3%82%8C%E3%81%9F%E4%BA%BA%E7%89%A9%E3%83%BB%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E4%B8%80%E8%A6%A7)
+
+## 網路
+
+| 名稱                                                 | 內容                             |
+| ---------------------------------------------------- | -------------------------------- |
+| [教科書には載らないニッポンのインターネットの歴史][] | 「教科書不會寫的日本網際網路史」 |
+| [Cameron's World](https://www.cameronsworld.net/)    | 給舊時代網路的情書               |
+
+[]: https://web.archive.org/web/20030801113739/http://blogdex.tripod.co.jp/encyclopedia/
+
+- [佐倉葉ウェブ文化研究室](https://websitemap.sakura.ne.jp/index.html)
+- [日本最初のホームページ](https://www.ibarakiken.gr.jp/www/main.html)
+- [Your code displays Japanese wrong](https://heistak.github.io/your-code-displays-japanese-wrong/)
+  - 刃直海角骨入
+- [譲れぬ闘い --- ここで負けてしまったら、この戦争全体に負けてしまうんだ。](https://web.archive.org/web/20130402224316/http://www.changelog.net/log/1999/special/dave/)
+  - [Firefox は危険な JavaScript に対応しない](https://qiita.com/rana_kualu/items/8803f02c72a54f366f2a)
+  - [なぜ Mozilla は XUL アドオンを廃止したのか？（翻訳）](https://qiita.com/piroor/items/e876eaa70d4c0bf06d9b)
+- [ブログ台頭直前のウェブ界隈が好きだった話 - Neo's World](https://neos21.net/blog/2016/02/16-01.html)
+
+### 88x31 button
+
+- [The 88x31 GIF Collection](https://cyber.dabamos.de/88x31/)
+  - [A.N. Lucas's 88x31 button Collection](https://anlucas.neocities.org/88x31Buttons.html)
+  - [Internet Button Archive](https://buttoncollection.neocities.org/)
+  - [capstasher 88x31 button collection](https://capstasher.neocities.org/88x31collection-page1.html)
+  - [Bytemoth's Button Bonanza](https://bytemoth.nfshost.com/88s/)
+  - [88by31](https://88by31.neocities.org/)
+  - [88x31 Buttons](https://yesterweb.org/graphics/buttons.html)
+  - [Who knew 88 and 31 went so well together?](https://44nifty.com/buttons.html)
+  - [plasticdino](https://plasticdino.neocities.org/graphics.html)
+  - [exp.pet](https://exo.pet/)
+  - [(27) HOT PPL IN YOUR AREA !!!!11](https://zanarkand.neocities.org/home.html)
+  - [shishka ✿ buttons](https://shishka.neocities.org/shishka/buttons.html)
+  - [light in the loafers.](https://lightintheloafers.neocities.org/buttons.html)
+- [88x31](https://neonaut.neocities.org/cyber/88x31.html)
 
 ## 學習
 
@@ -132,34 +144,34 @@ tags: Toolbox
 
 ## 社會
 
-| 名稱                                                                                       | 內容                           |
-| ------------------------------------------------------------------------------------------ | ------------------------------ |
-| [青春 18 きっぷ　ギャラリー](http://www.satou3.com/railways/18kippu2.html)                 | 青春 18 車票的宣傳海報整理     |
-| [無限回廊 endless loop](http://www.maroon.dti.ne.jp/knight999/)                            | 日本重大社會事件詳細介紹       |
-| [全自動さじなげ委員会](https://do-inaka.info/)                                             | 秋田的廢墟、廢村、B 級景點介紹 |
-| [放送の事故](https://tvjiko.web.fc2.com/)                                                  | 放送事故紀錄                   |
-| [実録、廃屋に残された少女の日記](http://honoguraiosanpo.blog.jp/archives/1057998384.html)  | 廢墟探訪紀錄                   |
-| [空港探索・3：SS ブログ](https://airport1111.blog.ss-blog.jp/)                             | 各種機場介紹                   |
-| [朝倉泉　事件の内容](https://grandson.tripod.com/i_jiken.html)                             | 1979 年朝倉泉事件紀錄          |
-| [東京 DEEP 案内 - 東京アンダーグラウンドタウンガイド](https://tokyodeep.info/)             | 東京冷門景點介紹               |
-| [2005 年 4 月 25 日 福知山線 5418M、一両目の「真実」](http://www.kysd.net/fuku42501a.html) | 2005 年福知山線事故紀錄        |
-| [いつの間にか容量が減っている商品 wiki](https://shrinkflation.info/)                       | 容量不知不覺間減少的商品 wiki  |
-| [しりとり](https://siritori.net/)                                                          | 文字接龍遊戲                   |
-| [SMPTE - 深夜テレビ試験放送のアレ](https://satorunet.github.io/SMPTE/)                     | 電視測試訊號畫面               |
-| [ゼロ年代インターネットスラングとかまとめ Wiki](https://wikiwiki.jp/moudameder/)           | 00 年代的網路黑話整理 wiki     |
-| [Dr 林のこころと脳の相談室](http://kokoro.squares.net/)                                    | 林醫師的疑難雜症網站           |
-| [亡くなった人の Twitter アカウント 最後のツイート](https://togetter.com/li/1553934)        | 逝世者生前最後一則推文         |
-| [日本文学ガイド](https://koten.sk46.com/index.html)                                        | 日本古典文學介紹               |
-| [鳥居の分類](https://miniuzi0502.sakura.ne.jp/torii/Tbunrui.html)                          | 鳥居分類介紹                   |
-| [デジタルカメラの歴史](http://www.monox.jp/history/digitalcamera-history-01.html)          | 數位相機歷史                   |
+| 名稱                                                                                       | 內容                                   |
+| ------------------------------------------------------------------------------------------ | -------------------------------------- |
+| [青春 18 きっぷ　ギャラリー](http://www.satou3.com/railways/18kippu2.html)                 | 青春 18 車票的宣傳海報整理             |
+| [無限回廊 endless loop](http://www.maroon.dti.ne.jp/knight999/)                            | 日本重大社會事件詳細介紹               |
+| [全自動さじなげ委員会](https://do-inaka.info/)                                             | 秋田的廢墟、廢村、B 級景點介紹         |
+| [放送の事故](https://tvjiko.web.fc2.com/)                                                  | 放送事故紀錄                           |
+| [実録、廃屋に残された少女の日記](http://honoguraiosanpo.blog.jp/archives/1057998384.html)  | 廢墟探訪紀錄                           |
+| [空港探索・3：SS ブログ](https://airport1111.blog.ss-blog.jp/)                             | 各種機場介紹                           |
+| [朝倉泉　事件の内容](https://grandson.tripod.com/i_jiken.html)                             | 1979 年朝倉泉事件紀錄                  |
+| [東京 DEEP 案内 - 東京アンダーグラウンドタウンガイド](https://tokyodeep.info/)             | 東京冷門景點介紹                       |
+| [2005 年 4 月 25 日 福知山線 5418M、一両目の「真実」](http://www.kysd.net/fuku42501a.html) | 2005 年福知山線事故紀錄                |
+| [いつの間にか容量が減っている商品 wiki](https://shrinkflation.info/)                       | 容量不知不覺間減少的商品 wiki          |
+| [しりとり](https://siritori.net/)                                                          | 文字接龍遊戲                           |
+| [SMPTE - 深夜テレビ試験放送のアレ](https://satorunet.github.io/SMPTE/)                     | 電視測試訊號畫面                       |
+| [ゼロ年代インターネットスラングとかまとめ Wiki](https://wikiwiki.jp/moudameder/)           | 00 年代的網路黑話整理 wiki             |
+| [Dr 林のこころと脳の相談室](http://kokoro.squares.net/)                                    | 林醫師的疑難雜症網站                   |
+| [亡くなった人の Twitter アカウント 最後のツイート](https://togetter.com/li/1553934)        | 逝世者生前最後一則推文                 |
+| [日本文学ガイド](https://koten.sk46.com/index.html)                                        | 日本古典文學介紹                       |
+| [鳥居の分類](https://miniuzi0502.sakura.ne.jp/torii/Tbunrui.html)                          | 鳥居分類介紹                           |
+| [デジタルカメラの歴史](http://www.monox.jp/history/digitalcamera-history-01.html)          | 數位相機歷史                           |
+| [The Rabbit Hole](http://www.hp-alice.com/index.html)                                      | 路易斯・卡羅與愛麗絲夢遊仙境的相關資訊 |
+| [お葬式プラザ／死の総合研究所](http://osoushiki-plaza.com/institut/index.html)             | 關於死的研究與資訊                     |
+| [群衆の英知もしくは狂気](https://ncase.me/crowds/ja.html)                                  | 群眾的智慧與／或瘋狂                   |
 
-- [The Rabbit Hole: The site of Lewis Carroll and 'Alice' books](http://www.hp-alice.com/index.html)
-- [お葬式プラザ／死の総合研究所](http://osoushiki-plaza.com/institut/index.html)
 - [ブログの趣旨: 狂気をくぐり抜ける](http://tiem.cocolog-nifty.com/blog/shishi.html)
 - [パーソナリティのプリズム](http://dongavatyo.web.fc2.com/038.htm)
 - [三脚檣士官室](http://www.ironclad.saloon.jp/wardroom/wardroom.htm)
 - [WarBirds](http://www.warbirds.jp/index1.html)
-- [群衆の英知もしくは狂気](https://ncase.me/crowds/ja.html)
 - [論理憲法](https://bitlaw-jp.github.io/logicon-system/)
 - [首都圏住みたくない街 - 「首都圏住みたくない街」WEB バージョン](https://t.tokyodeep.info/)
 - [作り損ねた国々](https://geolog.mydns.jp/www.geocities.jp/keropero2003/syometsu/sokone.html)
@@ -198,8 +210,9 @@ tags: Toolbox
 - [パンの図鑑](https://bread.jp.net/japanese_syllabary.php)
 - [死刑確定者 全リスト](https://www.crimeinfo.jp/data/dplist/dplist_all/)
 - [米国でソフトウェアエンジニアになる方法](https://note.com/fushiroyama/n/n5402a03e6888)
-- [日本移居指南](https://guoyu.mirror.xyz/bPaDKAcrhJGUbaXu9BWDcdD-F46gBFATTvf_qwZ9Bso)
 - [イカセカイ](https://ikasekai.com/readings)
+- [taiwanese-work-in/japa](https://github.com/taiwanese-work-in/japan/wiki)
+- [日本移居指南](https://guoyu.mirror.xyz/bPaDKAcrhJGUbaXu9BWDcdD-F46gBFATTvf_qwZ9Bso)
 
 ## 音樂
 
@@ -381,7 +394,7 @@ tr th {
   word-break: keep-all;
 }
 tr td:nth-child(1) {
-  max-width: 50%;
+  min-width: 50%;
   flex-basis: 50%;
   flex-wrap: nowrap;
 
@@ -395,7 +408,6 @@ tr td:nth-child(1) {
     flex-direction: column;
   }
   tr td:nth-child(1) {
-    max-width: 100%;
     flex-basis: 100%;
   }
 }
