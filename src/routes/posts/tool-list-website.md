@@ -63,6 +63,7 @@ tags: Toolbox
 []: https://web.archive.org/web/20030801113739/http://blogdex.tripod.co.jp/encyclopedia/
 
 - [佐倉葉ウェブ文化研究室](https://websitemap.sakura.ne.jp/index.html)
+- [home of the first website](http://info.cern.ch/)
 - [日本最初のホームページ](https://www.ibarakiken.gr.jp/www/main.html)
 - [Your code displays Japanese wrong](https://heistak.github.io/your-code-displays-japanese-wrong/)
   - 刃直海角骨入
@@ -70,6 +71,8 @@ tags: Toolbox
   - [Firefox は危険な JavaScript に対応しない](https://qiita.com/rana_kualu/items/8803f02c72a54f366f2a)
   - [なぜ Mozilla は XUL アドオンを廃止したのか？（翻訳）](https://qiita.com/piroor/items/e876eaa70d4c0bf06d9b)
 - [ブログ台頭直前のウェブ界隈が好きだった話 - Neo's World](https://neos21.net/blog/2016/02/16-01.html)
+- [Google Graveyard](https://killedbygoogle.com/)
+- [This page is a truly naked, brutalist html quine.](https://secretgeek.github.io/html_wysiwyg/html.html)
 
 ### 88x31 button
 

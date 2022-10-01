@@ -49,23 +49,18 @@ tags: F2E
 ### CSS
 
 - 將 `css` 資料夾裡的檔案複製到 `output/css`
-
   - `.eleventy.js`
-
     ```javascript
     module.exports = function (eleventyConfig) {
       // ...
-
       // copy files in `css/` to `output/css`
       eleventyConfig.addPassthroughCopy("css");
-
       return {
         // ...
         passthroughFileCopy: true,
       };
     };
     ```
-
 - 於樣板檔案裡引入 CSS 檔案
   - `base.njk`
     ```html
@@ -77,6 +72,14 @@ tags: F2E
 - [Collections](https://www.11ty.dev/docs/collections/)
 
 ### Component
+
+- 新增 `src/components/[component-name].njk`
+  - 檔案名稱需為 kebab-case 格式
+- 於 `src/_includes/components/[component-name]/` 新增：
+  - `script.js`
+  - `style.css`
+- 於想使用的樣板檔案裡加入標籤：
+  - `component: component-name`
 
 ## Deploy
 

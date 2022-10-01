@@ -249,19 +249,30 @@
     </div>
 
     <!-- ---------- -->
-    <div class="p-with-h">
+    <div
+      class="p-with-h"
+      style="
+        margin-top: 1em;
+        margin-left: 1px;
+        "
+    >
       <div
-        style="max-width: 60%; 
-          margin-top: 1em;
-          margin-left: 1px;
+        style="display: inline-block;
+          transform: skew(27deg);
+          transform-origin: left top;
+          background: var(--subtitle-color);
+          box-shadow: 2px 2px 0 var(--subtext-color), 4px 4px 0 var(--title-color);"
+      >
+        <div
+          style="display: inline-block;
           padding: 5px 10px 2px; 
-          box-shadow: 2px 2px 0 var(--subtext-color), 4px 4px 0 var(--title-color);
-          background: linear-gradient(-117deg, transparent 18px, var(--subtitle-color) 0); 
+          background: var(--subtitle-color);
           color: #fff;
           
-          transform: scale(.8, 1); transform-origin: top left;"
-      >
-        <span>ここで一言</span>
+          transform: skew(-27deg) scale(.8, 1); transform-origin: top left;"
+        >
+          <span>ここで一言</span>
+        </div>
       </div>
       <div
         style="position: relative;

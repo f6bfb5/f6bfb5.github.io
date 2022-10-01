@@ -214,18 +214,17 @@ export const logoLinks = readable([
   "https://dic.nicovideo.jp/a/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%8B%95%E7%94%BB%E5%90%84%E6%99%82%E4%BB%A3%E3%81%AE%E6%B5%81%E8%A1%8C%E3%81%BE%E3%81%A8%E3%82%81",
   // 【ニコニコ動画】七色のニコニコ動画 10 周年祭コメントアートまとめ
   "https://togetter.com/li/1362957",
-  // 津波と放射能汚染で崩壊していた福島県 双葉町 → 2年ぶりに来たら、とんでもないことになっていた
-  "https://rocketnews24.com/2022/08/01/1663113/",
   // Every Frame a Painting 告別心得感言（中文翻譯）
   "https://brettlin-78528.medium.com/every-frame-a-painting-%E5%91%8A%E5%88%A5%E5%BF%83%E5%BE%97%E6%84%9F%E8%A8%80-%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AD%AF-c46ade3e93db",
-  // 如果真的要補回哥斯拉系列，應該如何開始？
-  "https://moyashi.medium.com/%E5%A6%82%E6%9E%9C%E7%9C%9F%E7%9A%84%E8%A6%81%E8%A3%9C%E5%9B%9E%E5%93%A5%E6%96%AF%E6%8B%89%E7%B3%BB%E5%88%97-%E6%87%89%E8%A9%B2%E5%A6%82%E4%BD%95%E9%96%8B%E5%A7%8B-d8787e891d32",
-  // ネチケットガイドライン
-  "https://www.cgh.ed.jp/netiquette/rfc1855j.html",
-  // Internet Explorer 6
-  "https://mrdoob.com/lab/javascript/effects/ie6/",
   // 谁也成为不了中国的 YouTube
   "https://mp.weixin.qq.com/s?__biz=Mzg5NDY4Nzk1MQ==&mid=2247486790&idx=1&sn=e4a884a158e608fa341f6471baf673a5",
+  // 畸形的台灣網路環境 (IP Peering) https://dada.tw/2009/03/24/197/
+  // 如果真的要補回哥斯拉系列，應該如何開始？
+  "https://moyashi.medium.com/%E5%A6%82%E6%9E%9C%E7%9C%9F%E7%9A%84%E8%A6%81%E8%A3%9C%E5%9B%9E%E5%93%A5%E6%96%AF%E6%8B%89%E7%B3%BB%E5%88%97-%E6%87%89%E8%A9%B2%E5%A6%82%E4%BD%95%E9%96%8B%E5%A7%8B-d8787e891d32",
+  // 大卫·格雷伯演讲 "文化不是你的朋友"
+  "https://www.douban.com/note/723810639/?_i=45210293AlgCgZ%2C45210663AlgCgZ",
+  // 津波と放射能汚染で崩壊していた福島県 双葉町 → 2年ぶりに来たら、とんでもないことになっていた
+  "https://rocketnews24.com/2022/08/01/1663113/",
   // こちら側のどこからでも切れます
   "https://anond.hatelabo.jp/20220925180359",
   // ----------------------------------------
@@ -317,6 +316,8 @@ export const marqueeTexts = readable([
   "「絵」を描くという作業は『無限』である。どこで終わっていいのか、一枚をずーっと描いてられる。そして『物語』。仮に「恋人」が穴の底に落ちている設定があって、そこに「嫌いな友人」を身代わりに突き落とすと、その『恋人』は命が助かるという状況があったとしたなら、もし、あなたならどうしますか？　嫌いなヤツを突き落とす？　それは「正しい行動」じゃない気がする。考えると『無限』に答えが出なくなってしまう。ちなみに「絵」は、自分の「心」が終わりとした時が完成。自分勝手だと思う。",
   // https://twitter.com/simonmoulin/status/1574765192596299778
   "「始まってもないのに騒ぐな」「決まったことに文句言うな」「やってる最中に水差すな」「終わったことを蒸し返すな」「やったことの評価は歴史家に委ねたい」「証拠出せよ」「いつまでやってんだよ」「仮定の質問には答えられない」「個別の件には答えられない」「訴状が届いていないのでコメントできない」「係争中につきコメントできない」「判決が出たのでコメントを控える」",
+  "あなたを詐欺罪と器物損壊罪で訴えます！理由はもちろんお分かりですね？あなたが皆をこんなウラ技で騙し、セーブデータを破壊したからです！覚悟の準備をしておいて下さい。ちかいうちに訴えます。裁判も起こします。裁判所にも問答無用できてもらいます。慰謝料の準備もしておいて下さい！貴方は犯罪者です！刑務所にぶち込まれる楽しみにしておいて下さい！いいですね！",
+  "メロスは激怒した。必ず、かの邪智暴虐の王を除かなければならぬと決意した。メロスは政治がわからぬ。メロスは、村の牧人である。笛を吹き、羊と遊んで暮して来た。けれども邪悪に対しては、人一倍に敏感であった。",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",
@@ -465,14 +466,20 @@ export const aboutLinks = readable([
   // ========================================
   // home of the first website
   "http://info.cern.ch/",
-  // Right versus pragmatic
-  "https://marco.org/2012/02/25/right-vs-pragmatic",
+  // ネチケットガイドライン
+  "https://www.cgh.ed.jp/netiquette/rfc1855j.html",
+  // Internet Explorer 6
+  "https://mrdoob.com/lab/javascript/effects/ie6/",
   // 我漸漸不信任 UX 的原因
   "https://intersection.tw/%E6%88%91%E6%BC%B8%E6%BC%B8%E4%B8%8D%E4%BF%A1%E4%BB%BB-ux-%E7%9A%84%E5%8E%9F%E5%9B%A0-c9ea15dd2ca7",
   // How I experience web today
   "https://how-i-experience-web-today.com/",
+  // Right versus pragmatic
+  "https://marco.org/2012/02/25/right-vs-pragmatic",
   // 003 别喂巨魔
   "https://www.youtube.com/watch?v=E4Z3c4mvSgM",
+  // 網際網路是人類歷史的一段彎路嗎？
+  "https://mp.weixin.qq.com/s?__biz=Mzg5NDY4Nzk1MQ==&mid=2247486785&idx=1&sn=92461b367d4d2ffd9a78c1444032dcaf",
   // ========================================
   // 正直的人
   "https://yclou.blogspot.com/2015/07/blog-post_20.html",
