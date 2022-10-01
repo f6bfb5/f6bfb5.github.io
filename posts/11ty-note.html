@@ -23,15 +23,15 @@
 	<link rel="stylesheet" href="/_app/assets/Favicon-812adafd.css">
 	<link rel="stylesheet" href="/_app/assets/_post-b23eb12b.css">
 	<link rel="stylesheet" href="/_app/assets/BlinkAnchor-39834c8c.css">
-	<link rel="modulepreload" href="/_app/start-e157e5ad.js">
+	<link rel="modulepreload" href="/_app/start-14f6bdd7.js">
 	<link rel="modulepreload" href="/_app/chunks/index-8418cccc.js">
 	<link rel="modulepreload" href="/_app/chunks/index-17c965c3.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
 	<link rel="modulepreload" href="/_app/chunks/preload-helper-e4860ae8.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-9b93bc3e.js">
-	<link rel="modulepreload" href="/_app/chunks/Favicon-8a2aa1bf.js">
-	<link rel="modulepreload" href="/_app/chunks/store-605ae622.js">
-	<link rel="modulepreload" href="/_app/pages/posts/11ty-note.md-40d91a3b.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-1da1202d.js">
+	<link rel="modulepreload" href="/_app/chunks/Favicon-c3da5da3.js">
+	<link rel="modulepreload" href="/_app/chunks/store-d7965194.js">
+	<link rel="modulepreload" href="/_app/pages/posts/11ty-note.md-56a73f2a.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-24fe7d33.js">
 	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-aec4dee8.js">
   </head>
@@ -64,7 +64,7 @@
   <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
   </a>
 </nav>
-      <a href="https://www.nicovideo.jp/watch/sm35971994" target="_blank" rel="noreferrer noopener" class="svelte-145ut21"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" class="svelte-145ut21">
+      <a href="https://www.aozora.gr.jp/cards/000231/files/1190_31196.html" target="_blank" rel="noreferrer noopener" class="svelte-145ut21"><img src="data:image/gif;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAABbl4Awr28AAAAAAC4pp4ACgUAAFomhAB4aGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiQiQiIkREREREJCIiQRERERESIiJBEhEREREiIkFCQRFRESIiQRIRERFRIiJBEREREREiIkE2ZmZmESQiQWYAAAZhJCJBZgAABmEkIkFmAAAGYSQiQWYAAAZhRCJBZgAABmFEIkE2ZmZmMUQiQRERERERRCJERERERERCLABwAAgAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAwAA" alt="logo" class="svelte-145ut21">
 </a></div>
     </div>
 </header>
@@ -109,24 +109,23 @@
 <li>調整好設定後即會自動轉換</li></ul></li>
 <li>Nunjucks 檔案的副檔名為 <code>.njk</code></li></ul>
 <h3>CSS</h3>
-<ul><li><p>將 <code>css</code> 資料夾裡的檔案複製到 <code>output/css</code></p>
-<ul><li><p><code>.eleventy.js</code></p>
-<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript">module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">eleventyConfig</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+<ul><li>將 <code>css</code> 資料夾裡的檔案複製到 <code>output/css</code><ul><li><code>.eleventy.js</code><pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript">module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">eleventyConfig</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
   <span class="token comment">// ...</span>
-
   <span class="token comment">// copy files in &#96;css/&#96; to &#96;output/css&#96;</span>
   eleventyConfig<span class="token punctuation">.</span><span class="token function">addPassthroughCopy</span><span class="token punctuation">(</span><span class="token string">"css"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
   <span class="token keyword">return</span> <span class="token punctuation">&#123;</span>
     <span class="token comment">// ...</span>
     <span class="token literal-property property">passthroughFileCopy</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
   <span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
 <span class="token punctuation">&#125;</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre></li></ul></li>
-<li><p>於樣板檔案裡引入 CSS 檔案</p>
-<ul><li><code>base.njk</code><pre class="language-html"><!-- HTML_TAG_START --><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/css/global.css<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span></code><!-- HTML_TAG_END --></pre></li></ul></li></ul>
+<li>於樣板檔案裡引入 CSS 檔案<ul><li><code>base.njk</code><pre class="language-html"><!-- HTML_TAG_START --><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/css/global.css<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span></code><!-- HTML_TAG_END --></pre></li></ul></li></ul>
 <h3>Collections</h3>
 <ul><li><a href="https://www.11ty.dev/docs/collections/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.11ty.dev/docs/collections/" alt="Collections"><span>Collections</span></a></li></ul>
 <h3>Component</h3>
+<ul><li>新增 <code>src/components/[component-name].njk</code><ul><li>檔案名稱需為 kebab-case 格式</li></ul></li>
+<li>於 <code>src/_includes/components/[component-name]/</code> 新增：<ul><li><code>script.js</code></li>
+<li><code>style.css</code></li></ul></li>
+<li>於想使用的樣板檔案裡加入標籤：<ul><li><code>component: component-name</code></li></ul></li></ul>
 <h2 id="js-id-deploy">Deploy</h2>
 <ul><li>11ty build 後的網頁即可直接上線</li>
 <li>若是使用如 GitHub 的子 repo，則需替連結加上 prefix<ul><li><code>package.json</code><ul><li><code>&quot;build&quot;: &quot;env NODE_ENV=production npx @11ty/eleventy --pathprefix &#39;[repo_name]&#39;&quot;,</code></li></ul></li>
@@ -180,10 +179,10 @@
 </div>
 
 
-		<script type="module" data-hydrate="19vpfa8">
-		import { start } from "/_app/start-e157e5ad.js";
+		<script type="module" data-hydrate="132m6mw">
+		import { start } from "/_app/start-14f6bdd7.js";
 		start({
-			target: document.querySelector('[data-hydrate="19vpfa8"]').parentNode,
+			target: document.querySelector('[data-hydrate="132m6mw"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: false,
@@ -193,8 +192,8 @@
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-9b93bc3e.js"),
-						import("/_app/pages/posts/11ty-note.md-40d91a3b.js")
+					import("/_app/pages/__layout.svelte-1da1202d.js"),
+						import("/_app/pages/posts/11ty-note.md-56a73f2a.js")
 				],
 				params: {},
 				routeId: "posts/11ty-note"

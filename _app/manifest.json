@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-e157e5ad.js",
+    "file": "start-14f6bdd7.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -70,14 +70,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-9b93bc3e.js",
+    "file": "pages/__layout.svelte-1da1202d.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-8a2aa1bf.js",
-      "_store-605ae622.js",
+      "_Favicon-c3da5da3.js",
+      "_store-d7965194.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -111,14 +111,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-5264b2ac.js",
+    "file": "pages/__layout-wide.svelte-699ffd78.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-8a2aa1bf.js",
-      "_store-605ae622.js",
+      "_Favicon-c3da5da3.js",
+      "_store-d7965194.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -128,7 +128,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-564ada94.js",
+    "file": "pages/_slug_.svelte-6fd71dbe.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -187,13 +187,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-328da60f.js",
+    "file": "pages/about.svelte-e1f3f254.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-605ae622.js",
+      "_store-d7965194.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -201,13 +201,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-c626e31e.js",
+    "file": "pages/index@wide.svelte-02875348.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-605ae622.js",
+      "_store-d7965194.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -242,7 +242,7 @@
     ]
   },
   "src/routes/posts/11ty-note.md": {
-    "file": "pages/posts/11ty-note.md-40d91a3b.js",
+    "file": "pages/posts/11ty-note.md-56a73f2a.js",
     "src": "src/routes/posts/11ty-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -281,7 +281,7 @@
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-0034f243.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-a6bbeb69.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -745,7 +745,7 @@
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-05571f86.js",
+    "file": "pages/posts/tool-list-website.md-0dbef7c6.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -836,19 +836,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-8a2aa1bf.js": {
-    "file": "chunks/Favicon-8a2aa1bf.js",
+  "_Favicon-c3da5da3.js": {
+    "file": "chunks/Favicon-c3da5da3.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-605ae622.js",
+      "_store-d7965194.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-812adafd.css"
     ]
   },
-  "_store-605ae622.js": {
-    "file": "chunks/store-605ae622.js",
+  "_store-d7965194.js": {
+    "file": "chunks/store-d7965194.js",
     "imports": [
       "_index-17c965c3.js"
     ]
