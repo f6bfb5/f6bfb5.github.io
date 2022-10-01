@@ -58,6 +58,7 @@
           </li>
         {/each}
       </ul>
+      <div class="articles-list--bordered-title">{year}</div>
     </div>
   {/if}
 {/each}
@@ -88,6 +89,8 @@
     background-color: #e5edc8;
 
     z-index: 10;
+    overflow: clip;
+    overflow: hidden;
   }
 
   .articles-list--container h2 {
@@ -143,6 +146,20 @@
 
   .articles-list--tags {
     flex-shrink: 0;
+  }
+
+  .articles-list--bordered-title {
+    font-size: 8em;
+    color: #e5edc8;
+    text-shadow: -1px 1px 0 var(--subtitle-color),
+      1px 1px 0 var(--subtitle-color), 1px -1px 0 var(--subtitle-color),
+      -1px -1px 0 var(--subtitle-color);
+    position: absolute;
+    right: .25em;
+    bottom: -.1em;
+    font-style: italic;
+    z-index: -1;
+    opacity: .5;
   }
 
   @media (max-width: 720px) {
