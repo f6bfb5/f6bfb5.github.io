@@ -5,7 +5,7 @@
     <link>https://f6bfb5.github.io</link>
     <description>Close the world,.txEn eht nepO</description>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 01 Oct 2022 14:12:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Oct 2022 08:00:12 GMT</lastBuildDate>
     
       <item>
         <title>2022 年，我在網路上看了些什麼</title>
@@ -109,13 +109,6 @@
         <title>Blog with SvelteKit</title>
         <link>https://f6bfb5.github.io/blog-with-sveltekit</link>
         <pubDate>2022-01-01T01:00:00.000Z</pubDate>
-        
-      </item>
-    
-      <item>
-        <title>Blog with Sapper</title>
-        <link>https://f6bfb5.github.io/blog-with-sapper</link>
-        <pubDate>2022-01-01T00:00:00.000Z</pubDate>
         
       </item>
     
@@ -253,27 +246,6 @@
       </item>
     
       <item>
-        <title>Toolbox - 內容創作篇</title>
-        <link>https://f6bfb5.github.io/tool-list-creativity</link>
-        <pubDate>2019-10-21T18:10:11.000Z</pubDate>
-        <description>各種工具軟體整理。</description>
-      </item>
-    
-      <item>
-        <title>Toolbox - 電腦系統篇</title>
-        <link>https://f6bfb5.github.io/tool-list-system</link>
-        <pubDate>2019-10-21T18:10:11.000Z</pubDate>
-        <description>各種電腦工具軟體整理。</description>
-      </item>
-    
-      <item>
-        <title>Toolbox - 趣味網站篇</title>
-        <link>https://f6bfb5.github.io/tool-list-website</link>
-        <pubDate>2019-10-21T18:10:11.000Z</pubDate>
-        <description>已經連工具箱都稱不上了，有趣的網站。</description>
-      </item>
-    
-      <item>
         <title>免安裝、單一程式看遍所有影片！簡潔強大的播放器 mpv</title>
         <link>https://f6bfb5.github.io/mpv</link>
         <pubDate>2019-07-19T15:18:13.000Z</pubDate>
@@ -327,6 +299,34 @@
         <link>https://f6bfb5.github.io/ACG-games-done-quick-introduction</link>
         <pubDate>2018-10-28T19:58:53.000Z</pubDate>
         <description>Games Done Quick 是個在美國半年度舉辦一次的電玩競速慈善馬拉松活動，起先活動主要成員由 Speed Demos Archive 與 Speedruns Live 的社群成員所組成，在 2015 年後則改由 Games Done Quick 公司處理。自 2010 年起舉辦至今，此活動已為許多慈善團體募得資金，目前最常見的兩大組織為預防癌症基金會與無國界醫生。</description>
+      </item>
+    
+      <item>
+        <title>Blog with Sapper</title>
+        <link>https://f6bfb5.github.io/blog-with-sapper</link>
+        <pubDate>1969-07-21T03:00:00.000Z</pubDate>
+        
+      </item>
+    
+      <item>
+        <title>Toolbox - 趣味網站篇</title>
+        <link>https://f6bfb5.github.io/tool-list-website</link>
+        <pubDate>1969-07-21T02:59:00.000Z</pubDate>
+        <description>已經連工具箱都稱不上了，有趣的網站。</description>
+      </item>
+    
+      <item>
+        <title>Toolbox - 電腦系統篇</title>
+        <link>https://f6bfb5.github.io/tool-list-system</link>
+        <pubDate>1969-07-21T02:58:00.000Z</pubDate>
+        <description>各種電腦工具軟體整理。</description>
+      </item>
+    
+      <item>
+        <title>Toolbox - 內容創作篇</title>
+        <link>https://f6bfb5.github.io/tool-list-creativity</link>
+        <pubDate>1969-07-21T02:57:00.000Z</pubDate>
+        <description>各種工具軟體整理。</description>
       </item>
     
       <item>

@@ -9,12 +9,12 @@
   >
   <url>
     <loc>https://f6bfb5.github.io</loc>
-    <lastmod>2022-10-01T14:12:26+08:00</lastmod>
+    <lastmod>2022-10-02T08:00:12+08:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://f6bfb5.github.io/about</loc>
-    <lastmod>2022-10-01T14:12:26+08:00</lastmod>
+    <lastmod>2022-10-02T08:00:12+08:00</lastmod>
     <priority>1.00</priority>
   </url>
   
@@ -105,12 +105,6 @@
     <url>
       <loc>https://f6bfb5.github.io/blog-with-sveltekit</loc>
       <lastmod>2022-01-01T01:00:00+08:00</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-    <url>
-      <loc>https://f6bfb5.github.io/blog-with-sapper</loc>
-      <lastmod>2022-01-01T00:00:00+08:00</lastmod>
       <priority>0.80</priority>
     </url>
   
@@ -229,24 +223,6 @@
     </url>
   
     <url>
-      <loc>https://f6bfb5.github.io/tool-list-creativity</loc>
-      <lastmod>2019-10-21T18:10:11+08:00</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-    <url>
-      <loc>https://f6bfb5.github.io/tool-list-system</loc>
-      <lastmod>2019-10-21T18:10:11+08:00</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-    <url>
-      <loc>https://f6bfb5.github.io/tool-list-website</loc>
-      <lastmod>2019-10-21T18:10:11+08:00</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-    <url>
       <loc>https://f6bfb5.github.io/mpv</loc>
       <lastmod>2019-07-19T15:18:13+08:00</lastmod>
       <priority>0.80</priority>
@@ -291,6 +267,30 @@
     <url>
       <loc>https://f6bfb5.github.io/ACG-games-done-quick-introduction</loc>
       <lastmod>2018-10-28T19:58:53+08:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+    <url>
+      <loc>https://f6bfb5.github.io/blog-with-sapper</loc>
+      <lastmod>1969-07-21T03:00:00+08:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+    <url>
+      <loc>https://f6bfb5.github.io/tool-list-website</loc>
+      <lastmod>1969-07-21T02:59:00+08:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+    <url>
+      <loc>https://f6bfb5.github.io/tool-list-system</loc>
+      <lastmod>1969-07-21T02:58:00+08:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+    <url>
+      <loc>https://f6bfb5.github.io/tool-list-creativity</loc>
+      <lastmod>1969-07-21T02:57:00+08:00</lastmod>
       <priority>0.80</priority>
     </url>
   
