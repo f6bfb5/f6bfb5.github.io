@@ -139,6 +139,8 @@ export const logoLinks = readable([
   "https://www.nicovideo.jp/watch/sm37696367",
   // アダルトゲームの歴史【1981年～1985年】
   "https://www.nicovideo.jp/watch/sm37520821",
+  // I miss the internet
+  "https://steamcommunity.com/sharedfiles/filedetails/?id=160601394",
   // ----------------------------------------
   // Video
   // ----------------------------------------

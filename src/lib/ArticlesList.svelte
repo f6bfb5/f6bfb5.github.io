@@ -10,12 +10,13 @@
 
   function arrayContainsAny(array1_string, array2) {
     if (array2.length == 0) return true;
-    
-    let array1 = array1_string == undefined ? undefined : array1_string.split(", ");
+
+    let array1 =
+      array1_string == undefined ? undefined : array1_string.split(", ");
     if (!array1 || array1.length == 0) {
       return array2.includes("Other") ? true : false;
     }
-    
+
     let result = false;
     for (let i = 0; i < array2.length; i++) {
       if (array1.includes(array2[i])) result = true;
@@ -50,7 +51,7 @@
             </div>
             {#if tags}
               <div class="articles-list--tags">
-                {#each tags.split(', ') as tag}
+                {#each tags.split(", ") as tag}
                   <Tag {tag} />
                 {/each}
               </div>
@@ -75,7 +76,6 @@
     </ul>
   </div>
 {/if} -->
-
 <style>
   .articles-list--container {
     margin-left: 1em;
@@ -101,7 +101,7 @@
     margin: 0;
     padding-left: 1em;
     padding-right: 1em;
-    padding-bottom: .375em;
+    padding-bottom: 0.375em;
     list-style-position: inside;
   }
 
@@ -116,7 +116,7 @@
     line-height: 1;
   }
   .articles-list li + li {
-    margin-top: .35em;
+    margin-top: 0.35em;
   }
   .articles-list li::marker {
     content: "◼";
@@ -129,7 +129,7 @@
     display: inline-block;
   }
   .articles-list--link {
-    margin-left: .5em;
+    margin-left: 0.5em;
     display: flex;
     align-items: center;
   }
@@ -141,7 +141,7 @@
     white-space: nowrap;
   }
   .articles-list--link a {
-    padding-left: .5em;
+    padding-left: 0.5em;
   }
 
   .articles-list--tags {
@@ -155,11 +155,20 @@
       1px 1px 0 var(--subtitle-color), 1px -1px 0 var(--subtitle-color),
       -1px -1px 0 var(--subtitle-color);
     position: absolute;
-    right: .25em;
-    bottom: -.1em;
-    font-style: italic;
+    /* right: 0.25em; */
+    right: 0.125em;
+    /* bottom: -0.1em; */
+    bottom: -0.35em;
     z-index: -1;
-    opacity: .5;
+    opacity: 0.5;
+    user-select: none;
+    
+    font-family: -apple-system, BlinkMacSystemFont,
+      ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo,
+      ＭＳ\Ｐゴシック, MS PGothic, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,
+      Cantarell, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
   }
 
   @media (max-width: 720px) {
