@@ -939,6 +939,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 
 - 220831 [做遊戲不是玩遊戲](https://www.youtube.com/watch?v=5DS_aGjo9zY) 4:06
 - 220912 [簡報旨在速度](https://www.youtube.com/watch?v=jVnBk3p7T-Q) 1:08
+- 221005 [能和客戶說明嗎？](https://www.youtube.com/watch?v=otyLLbYDF1g) 2:23
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -963,6 +964,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 ### D. 機制
 
 - 220824 [重要時刻要停下來！](https://www.youtube.com/watch?v=APOD1fmwPaM) 4:19
+- 220930 [讓按鍵有重量感](https://www.youtube.com/watch?v=ldz5yKW9Gaw) 2:23
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1004,6 +1006,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 
 - 220825 [星之卡比](https://www.youtube.com/watch?v=dPajPmu_t9Y) 5:17
 - 220909 [星之卡比 夢之泉物語](https://www.youtube.com/watch?v=h2EpwYFfrfY) 5:55
+- 221003 [星之卡比 Super Deluxe](https://www.youtube.com/watch?v=MsexzQq-kaU) 7:39
 
 </div>
 

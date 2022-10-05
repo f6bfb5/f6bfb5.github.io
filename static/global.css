@@ -138,7 +138,7 @@ ul {
 }
 
 ol {
-  list-style: none;
+  /* list-style: none; */
   counter-reset: item;
 }
 
@@ -171,9 +171,9 @@ li p {
 
 ol li {
   position: relative;
-  counter-increment: item;
+  /* counter-increment: item; */
 }
-ol li:before {
+/* ol li:before {
   position: absolute;
   right: 100%;
   width: fit-content;
@@ -181,8 +181,9 @@ ol li:before {
   font-weight: bold;
   word-break: keep-all;
   color: var(--title-color);
-}
+} */
 
+ol li ul,
 ul li ul {
   color: var(--subtext-color);
   list-style-type: square;
@@ -261,7 +262,7 @@ hr::after {
   content: "";
   letter-spacing: 4em;
   padding-left: 4em;
-  opacity: .5;
+  opacity: 0.5;
 }
 @media screen and (max-width: 720px) {
   hr::after {
@@ -329,7 +330,7 @@ rt {
 }
 
 del {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 table {
@@ -409,4 +410,3 @@ iframe {
 
   /* margin-left: -20px; */
 }
-

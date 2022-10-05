@@ -13,6 +13,7 @@ tags: Toolbox
   - [【自宅で筋トレ】世界で一番楽な筋トレ＆有酸素運動で全身 10 種目の 10 分間です。楽に脂肪燃焼、肩こり解消、腰痛解消、運動不足解消したい方におすすめです。](https://www.youtube.com/watch?app=desktop&v=hge3fr50o0o)
   - [【アメリカで話題】ただ座るだけ！股関節がみるみる柔らかくなる「90/90 ストレッチ」](https://yogajournal.jp/14505)
   - [【ASMR 小声】わずか 2 分で眠れる⁉️ 米軍式睡眠法音声ガイドやってみた（ロールプレイ、ナレーション、音フェチ）【⚠️ イヤホン推奨】](https://www.youtube.com/watch?v=DdpYTZRjj8k)
+  - [座りっぱなしの人の為の簡単エクササイズ。ヒラメ筋を動かすだけで全身の代謝がアップするという最新研究](https://karapaia.com/archives/52316344.html)
 - [新冠確診過程應對指南](https://nova-jumbo-a96.notion.site/0701-3c934b7a75a2447d8f8fadb5bde63c42)
 - [新型コロナ後遺症チートシート（対策一覧）](https://longcovid.jp/cheat-sheet.html)
 

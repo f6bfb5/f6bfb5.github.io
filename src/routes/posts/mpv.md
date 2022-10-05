@@ -13,9 +13,9 @@ tags: Toolbox
 
 mpv 的快捷鍵可以開啟 `~/.config/mpv/input.conf` 進行修改，並且在 `~/.config/mpv/doc` 內有提供範例檔案，`mpv` 資料夾內預設不會有此設定檔案，需自行建立，或直接從 `doc` 資料夾內複製範例檔案到 `mpv` 資料夾進行修改。
 
-自訂輸入格式請參照 [官方文件](https://github.com/mpv-player/mpv/blob/master/DOCS/man/input.rst#inputconf-syntax)。
+自訂輸入格式可參照 [官方文件](https://github.com/mpv-player/mpv/blob/master/DOCS/man/input.rst#inputconf-syntax)。
 
-檔案內以 `#` 符號開頭的內文都是註解。如果想修改「`#`」鍵的功能需改用 `SHAPE` 當成綁定目標。
+檔案內以 `#` 符號開頭的內文都是註解。如果想修改「`#`」鍵的功能，需改用 `SHAPE` 當成綁定目標。
 
 ### 播放
 
@@ -144,15 +144,15 @@ script-opts-append=ytdl_hook-ytdl_path="~~/yt-dlp"
 
 mpv 可以使用 lua 語言撰寫第三方套件，套件檔案通常放置於 `~/.config/mpv/scripts/`。
 
-| 名稱                                                                                                          | 功能                                                         |
-| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| [autoload](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua)                              | 播放檔案後會自動讀取同資料夾內的其它檔案並加入播放清單內。   |
-| [open-file-dialog](https://github.com/rossy/mpv-open-file-dialog)                                             | 可使用 `Ctrl+o` 從程式內直接開啟檔案視窗選擇影片播放         |
-| [SmartCopyPaste Script](https://github.com/Eisa01/mpv-scripts#smartcopypaste-script)                          | 可使用 `Ctrl+v` 將檔案路徑或網址貼至 mpv 播放。              |
-| [reload](https://github.com/4e6/mpv-reload)                                                                   | 可使用 `Ctrl+r` 在播放線上影片緩衝過久時重新載入。           |
-| [mpv-oled-screensaver](https://github.com/Akemi/mpv-oled-screensaver)                                         | 保護 OLED 避免烙痕效應，在影片暫停 15 秒後會自動轉為黑畫面。 |
-| [cycle-video-rotate](https://github.com/VideoPlayerCode/mpv-tools/blob/master/scripts/cycle-video-rotate.lua) | 可使用 `Alt+方向鍵` 旋轉影片                                 |
-| [mpv-twitch-chat-irc](https://github.com/morrah/mpv-twitch-chat-irc)                                          | 觀看 Twitch 影片時顯示聊天室內容                             |
+| 名稱                                                                                                          | 功能                                                       |
+| ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| [autoload](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua)                              | 播放檔案後會自動讀取同資料夾內的其它檔案並加入播放清單內   |
+| [open-file-dialog](https://github.com/rossy/mpv-open-file-dialog)                                             | 可使用 `Ctrl+o` 從程式內直接開啟檔案視窗選擇影片播放       |
+| [SmartCopyPaste Script](https://github.com/Eisa01/mpv-scripts#smartcopypaste-script)                          | 可使用 `Ctrl+v` 將檔案路徑或網址貼至 mpv 播放              |
+| [reload](https://github.com/4e6/mpv-reload)                                                                   | 可使用 `Ctrl+r` 在播放線上影片緩衝過久時重新載入           |
+| [mpv-oled-screensaver](https://github.com/Akemi/mpv-oled-screensaver)                                         | 保護 OLED 避免烙痕效應，在影片暫停 15 秒後會自動轉為黑畫面 |
+| [cycle-video-rotate](https://github.com/VideoPlayerCode/mpv-tools/blob/master/scripts/cycle-video-rotate.lua) | 可使用 `Alt+方向鍵` 旋轉影片                               |
+| [mpv-twitch-chat-irc](https://github.com/morrah/mpv-twitch-chat-irc)                                          | 觀看 Twitch 影片時顯示聊天室內容                           |
 
 - https://github.com/rossy/mpv-repl
 - https://github.com/Samillion/mpv-ytdlautoformat
@@ -172,21 +172,21 @@ mpv 可以使用 lua 語言撰寫第三方套件，套件檔案通常放置於 `
 
 ### 下載留言
 
-1. 下載並開啟 [NicomentXenoglossia](http://xenog.web.fc2.com/)。
-2. （推薦）點擊右上角左邊第一個選項監控剪貼簿。
+1. 下載並開啟 [NicomentXenoglossia](http://xenog.web.fc2.com/)
+2. （推薦）點擊右上角左邊第一個選項監控剪貼簿
 3. `詳細設定` -> `DL の挙動（コメント／情報）`-> 取消勾選 `ダウンロードしたコメントファイルには BoonSutazioData を追加する`
-4. 在下方的 `ダウンロードするもの` 只勾選 `コメントファイル` 。
-5. 於輸入欄貼上網址並按下 Enter 鍵將影片加入下載清單，點選 `ダウンロード` 開始下載。
+4. 在下方的 `ダウンロードするもの` 只勾選 `コメントファイル`
+5. 於輸入欄貼上網址，按下 Enter 鍵將影片加入下載清單，點選 `ダウンロード` 開始下載
 
 ### 轉換留言
 
 1. 安裝 [Python 3](https://www.python.org/download/releases/3.0/)
 2. 下載 [danmaku2ass](https://github.com/m13253/danmaku2ass)
-3. 依照文件範例使用命令列呼叫轉換指令
-   範例：`danmaku2ass.py -s 1920x1080 -fn "MS PGothic" -fs 48 -a 0.8 -dm 5 -ds 5 input.xml -o output.ass`
+3. 依照文件範例，使用命令列呼叫轉換指令
+   - `danmaku2ass.py -s 1920x1080 -fn "MS PGothic" -fs 48 -a 0.8 -dm 5 -ds 5 input.xml -o output.ass`
 4. （推薦）新增批次檔快速進行處理
-   `danmaku2ass.py -s 1920x1080 -fn "Noto Sans" -fs 80 -a 0.95 -dm 5 -ds 5 %1 -o %~n1.ass`
-5. 完成。
+   - `danmaku2ass.py -s 1920x1080 -fn "Noto Sans" -fs 80 -a 0.95 -dm 5 -ds 5 %1 -o %~n1.ass`
+5. 完成
 
 - [loaddanmaku](https://github.com/huisedenanhai/LoadDanmaku)
 - [Hack of the day: extracting comments from Nicovideo](https://www.dennogumi.org/2019/01/hack-of-the-day-extracting-comments-from-nicovideo/)
