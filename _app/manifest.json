@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-3b22fbbe.js",
+    "file": "start-34abe6dd.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -28,7 +28,6 @@
       "src/routes/posts/ACG-difference-of-director-and-producer.md",
       "src/routes/posts/ACG-does-anno-hideaki-really-dont-know-what-he-is-making.md",
       "src/routes/posts/ACG-evening-chat-of-game-xenogears.md",
-      "src/routes/posts/ACG-expression-of-light-and-heavy.md",
       "src/routes/posts/ACG-games-done-quick-introduction.md",
       "src/routes/posts/ACG-linda-cube-introduction.md",
       "src/routes/posts/ACG-linda-cube-on-ps-archive.md",
@@ -70,13 +69,13 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-4aa6312e.js",
+    "file": "pages/__layout.svelte-6bb71a88.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-364d0f29.js",
+      "_Favicon-2fac3b8c.js",
       "_store-3b29953f.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
@@ -111,13 +110,13 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-272d13ba.js",
+    "file": "pages/__layout-wide.svelte-62db47e9.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-364d0f29.js",
+      "_Favicon-2fac3b8c.js",
       "_store-3b29953f.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
@@ -128,7 +127,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-bf51d4ef.js",
+    "file": "pages/_slug_.svelte-691a9fb8.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -146,7 +145,6 @@
       "src/routes/posts/ACG-difference-of-director-and-producer.md",
       "src/routes/posts/ACG-does-anno-hideaki-really-dont-know-what-he-is-making.md",
       "src/routes/posts/ACG-evening-chat-of-game-xenogears.md",
-      "src/routes/posts/ACG-expression-of-light-and-heavy.md",
       "src/routes/posts/ACG-games-done-quick-introduction.md",
       "src/routes/posts/ACG-linda-cube-introduction.md",
       "src/routes/posts/ACG-linda-cube-on-ps-archive.md",
@@ -263,7 +261,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -277,11 +275,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-3bc594af.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-e819db34.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -352,17 +350,6 @@
       "_BlinkAnchor-aec4dee8.js"
     ]
   },
-  "src/routes/posts/ACG-expression-of-light-and-heavy.md": {
-    "file": "pages/posts/ACG-expression-of-light-and-heavy.md-54da60f4.js",
-    "src": "src/routes/posts/ACG-expression-of-light-and-heavy.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-24fe7d33.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ]
-  },
   "src/routes/posts/ACG-games-done-quick-introduction.md": {
     "file": "pages/posts/ACG-games-done-quick-introduction.md-0c2aa7fa.js",
     "src": "src/routes/posts/ACG-games-done-quick-introduction.md",
@@ -408,7 +395,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-98adb67c.js",
+    "file": "pages/posts/ACG-note.md-33d88b77.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -488,7 +475,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -700,7 +687,7 @@
     ]
   },
   "src/routes/posts/template.md": {
-    "file": "pages/posts/template.md-242d9696.js",
+    "file": "pages/posts/template.md-3a8cdd19.js",
     "src": "src/routes/posts/template.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -727,7 +714,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list-website.md-51e1a8fa.css"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
@@ -741,11 +728,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list-website.md-51e1a8fa.css"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-456d06d5.js",
+    "file": "pages/posts/tool-list-website.md-684ad179.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -755,7 +742,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list-website.md-51e1a8fa.css"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
@@ -836,15 +823,15 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-364d0f29.js": {
-    "file": "chunks/Favicon-364d0f29.js",
+  "_Favicon-2fac3b8c.js": {
+    "file": "chunks/Favicon-2fac3b8c.js",
     "imports": [
       "_index-8418cccc.js",
       "_store-3b29953f.js",
       "_paths-396f020f.js"
     ],
     "css": [
-      "assets/Favicon-812adafd.css"
+      "assets/Favicon-3192f126.css"
     ]
   },
   "_store-3b29953f.js": {
