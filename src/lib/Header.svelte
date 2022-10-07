@@ -25,6 +25,7 @@
     z-index: 10000;
 
     background-color: var(--bg-color);
+    /* backdrop-filter: blur(20px); */
   }
 
   .header-container {

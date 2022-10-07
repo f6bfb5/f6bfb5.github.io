@@ -576,6 +576,17 @@ ipconfig /flushdns
 </div>
 </div>
 
+<dialog open>
+  <p>Greetings, one and all!</p>
+  <form method="dialog">
+    <button>OK</button>
+  </form>
+</dialog>
+
+<div style="padding: 10px 0; background: #000;">
+  <span style="padding-left: 10px; border-left: 35px solid #d6000f; color: white;">TITLE HERE</span>
+</div>
+
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
   import BalloonQuote from "$lib/BalloonQuote.svelte";

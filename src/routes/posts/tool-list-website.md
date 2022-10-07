@@ -61,7 +61,7 @@ tags: Toolbox
 | [教科書には載らないニッポンのインターネットの歴史][] | 「教科書不會寫的日本網際網路史」 |
 | [Cameron's World](https://www.cameronsworld.net/)    | 給舊時代網路的情書               |
 
-[]: https://web.archive.org/web/20030801113739/http://blogdex.tripod.co.jp/encyclopedia/
+[教科書には載らないニッポンのインターネットの歴史]: https://web.archive.org/web/20030801113739/http://blogdex.tripod.co.jp/encyclopedia/
 
 - [佐倉葉ウェブ文化研究室](https://websitemap.sakura.ne.jp/index.html)
 - [home of the first website](http://info.cern.ch/)

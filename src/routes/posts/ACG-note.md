@@ -926,6 +926,21 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 
 </details>
 
+### [12 principles](https://the12principles.tumblr.com/)
+
+- Squash & stretch
+- Anticipation
+- Staging
+- Straight ahead & pose to pose
+- Slow in & slow out
+- Arcs
+- Follow through & overlapping
+- Secondary action
+- Appeal
+- Timing
+- Exaggeration
+- Solid drawings
+
 ## 櫻井政博的製作遊戲時
 
 - 220824 [關於這個頻道](https://www.youtube.com/watch?v=i4v8X-lfX5o) 7:10
@@ -987,9 +1002,19 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 
 - 220923 [別顯得不明瞭](https://www.youtube.com/watch?v=7vGEEUjCJdY) 2:32
 
+</div>
+<div style="width: 20em; min-width: 30%;">
+
 ### J. UI
 
 - 220928 [易懂性與設計性](https://www.youtube.com/watch?v=0Va3ue6Qk-0) 3:20
+
+</div>
+<div style="width: 20em; min-width: 30%;">
+
+### K. 程式、技術
+
+- 221007 [合理地替檔案取名](https://www.youtube.com/watch?v=V40sMUAE5ek) 4:51
 
 </div>
 <div style="width: 20em; min-width: 30%;">

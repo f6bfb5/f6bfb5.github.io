@@ -1920,7 +1920,17 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [発想とデザインの勝利か…バーやクラブで飲んでも浮かない「缶に入った普通の水」がアメリカで売れている話](https://togetter.com/li/1954161)
 - ["正直"に徹したら「何かすごそう」なハサミができた　コクヨの「HASA」：分かりにくいけれど面白いモノたち](https://www.itmedia.co.jp/news/articles/2210/05/news102.html)
 - [世界初「人を乗せる巨大4足歩行ロボ」、開発者が誕生の裏側を語る](https://events.nikkeibp.co.jp/xtech/2022/atcl/column/00001/00039/)
-
+- [軽井沢、京都、鎌倉…"景観規制チェーン店"はみんなちがっておもしろい](https://dailyportalz.jp/kiji/keikan_kisei_chain_ten)
+- [収納の基本講座](https://www.daiken.jp/consumer/storage/columns/2.html)
+- [強盗（包丁＋ハサミ＋ロープ持ち）に入られた。組み伏せ通報し怪我をするも無事だけど調書で明日の出社時間がわからん。。(´・ω・`)](https://togetter.com/li/1954541)
+- [世界がこんな2chみたいになるとは思わなかった](https://anond.hatelabo.jp/20221006071821)
+- [プレステの父・久夛良木健氏が「Web3は虚構に過ぎない」と断言する納得理由](https://www.sbbit.jp/article/cont1/95898)
+- [デビュー前の高橋留美子も別名義で執筆！『ファンロード』『OUT』『ぱふ』80年代のサブカル文化を盛り上げた「漫画情報雑誌」の歴史](https://futaman.futabanet.jp/articles/-/122625)
+- [お絵描きAIがどのように絵を描いてるのか解説してる人たち](https://togetter.com/li/1954578)
+- [グラップラー刃牙外伝 【アントニオ猪木追悼企画】 | 板垣恵介](https://mangacross.jp/comics/bakigaiden)
+- [RTAは邪道な遊び方？](https://togetter.com/li/1954305)
+- [オードリー春日さん、がんばった「専門家の指導のもと安全対策をとって撮影」はどこまで本気出している？（斎藤秀俊）](https://news.yahoo.co.jp/byline/saitohidetoshi/20221006-00317859)
+- [久住昌之×吉田類の昼酔い放談――何が楽しいのかわからないけど、何だかみんな楽しそうなお店がずっと好き](https://r.gnavi.co.jp/g-interview/entry/qusumi/5339)
 
 <style scoped>
 li a {
