@@ -576,16 +576,39 @@ ipconfig /flushdns
 </div>
 </div>
 
-<dialog open>
+<!-- <dialog open>
   <p>Greetings, one and all!</p>
   <form method="dialog">
     <button>OK</button>
   </form>
-</dialog>
+</dialog> -->
 
 <div style="padding: 10px 0; background: #000;">
   <span style="padding-left: 10px; border-left: 35px solid #d6000f; color: white;">TITLE HERE</span>
 </div>
+
+<div style="display: flex;">
+  <span style="padding: 0 .25em; background-color: #fe2728; color: white;">R</span>
+  <span style="padding: 0 .25em; background-color: #6db714; color: white;">G</span>
+  <span style="padding: 0 .25em; background-color: #19a3c8; color: white;">B</span>
+</div>
+
+<fieldset>
+    <legend>Select a maintenance drone:</legend>
+    <div>
+      <input type="radio" id="huey" name="drone" value="huey"
+             checked>
+      <label for="huey">Huey</label>
+    </div>
+    <div>
+      <input type="radio" id="dewey" name="drone" value="dewey">
+      <label for="dewey">Dewey</label>
+    </div>
+    <div>
+      <input type="radio" id="louie" name="drone" value="louie">
+      <label for="louie">Louie</label>
+    </div>
+</fieldset>
 
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";

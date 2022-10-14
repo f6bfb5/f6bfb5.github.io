@@ -217,6 +217,7 @@ tags: Toolbox
 - [イカセカイ](https://ikasekai.com/readings)
 - [taiwanese-work-in/japa](https://github.com/taiwanese-work-in/japan/wiki)
 - [日本移居指南](https://guoyu.mirror.xyz/bPaDKAcrhJGUbaXu9BWDcdD-F46gBFATTvf_qwZ9Bso)
+- [Secrets of Scientology](https://www.cs.cmu.edu/~dst/Secrets/index.html)
 
 ## 音樂
 
@@ -229,6 +230,8 @@ tags: Toolbox
 | [イヤホン・ヘッドホンを知るための音響学講座](https://final-inc.com/pages/make-acoustics)         | 簡易的圖文音響學介紹     |
 | [Vaporwave A to Z：蒸気波仮想世界地図](https://obakeweb.hatenablog.com/entry/vaporwave_worldmap) | Vaporwave 的發展歷史介紹 |
 | [jfxr](https://jfxr.frozenfractal.com/#)                                                         | 效果音產生器             |
+
+- [Web Cassette](https://webcassette.klevgrand.se/)
 
 ## 設計
 

@@ -42,6 +42,7 @@ export const randomNav = readable([
   // 三十六劇
   // ラプラスの悪魔
   // シミュレーション仮説
+  // 帰還不能点
 ]);
 
 export const logoLinks = readable([
@@ -170,6 +171,8 @@ export const logoLinks = readable([
   "https://www.youtube.com/watch?v=RqkAgWTZ98w",
   // 時間は空間から作られる 熱帯雨林気候が時間の概念を破壊する
   "https://www.youtube.com/watch?v=vvV5sz597JY",
+  // 「危險心靈Dangerous Mind」
+  "https://www.youtube.com/watch?v=yVfk6b4GQb4&list=PLLhKX7btG59fxp8_2xkBHC34Y4pm8fkJa&index=1",
   //
   // Nico
   // ----
@@ -329,6 +332,7 @@ export const marqueeTexts = readable([
   "I always wonder why birds choose to stay in the same place when they can fly anywhere on the earth, then I ask myself the same question.",
   "I need you.",
   "Experience is the name everyone gives to their mistakes.",
+  "Colorless green ideas sleep furiously.",
   "Небо очень и очень темное , а Земля голубоватая .",
   "「這是冒險的終結嗎？世間的一切都沒有終結。我們來此尋找長生不老的秘密，是為了要成為神？我們是人，人類永遠都是凡人，雖然我們沒有獲得長生不老，但至少我們獲得了真實，我們開始於神話，現在我們要回到現實，不過……這個生活是真實的嗎？不，這只是電影，攝影機往後拉。」",
   '正如要有林林總總部份才能組成一個完整的人，而其中每一部份又要有千差萬別，才得以構成迥然不同之人，異於他人的面容，下意識裡的聲調，夢醒時所見的手掌，兒時的記憶，未來的命運，以及我的電子腦所觸及的信息海洋，所有的這一切，孕育了「我」，個人意識的升華，使我意識到自我的存在，同時也將我限定在"自我"之中。「孩童之時，所言俱為孩童，所感如是孩童，所思亦復孩童，唯成年之後，便將童心擯棄。」（哥林多前書 13 章-11）',
@@ -400,6 +404,7 @@ export const randomImages = readable([
   "https://i.imgur.com/mAvTlnE.png",
   "https://i.imgur.com/d4T5Cns.png",
   "https://i.imgur.com/Uid1k2O.png",
+  "https://i.imgur.com/Ag6GpPi.png",
 ]);
 
 export const aboutImages = readable([
@@ -482,6 +487,8 @@ export const aboutLinks = readable([
   "https://marco.org/2012/02/25/right-vs-pragmatic",
   // 003 别喂巨魔
   "https://www.youtube.com/watch?v=E4Z3c4mvSgM",
+  // 網際網路之子 Aaron Swarts 想要看到的世界
+  "https://jhuo.ca/post/talk_with_jade_aaron/",
   // 網際網路是人類歷史的一段彎路嗎？
   "https://mp.weixin.qq.com/s?__biz=Mzg5NDY4Nzk1MQ==&mid=2247486785&idx=1&sn=92461b367d4d2ffd9a78c1444032dcaf",
   // ========================================

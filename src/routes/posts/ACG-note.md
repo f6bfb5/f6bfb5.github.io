@@ -972,6 +972,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 
 - 220826 [幀數就像數格子](https://www.youtube.com/watch?v=SxAFLXSeMjI) 4:00
 - 220925 [先讓人玩遊戲](https://www.youtube.com/watch?v=1toox93mCzs) 2:44
+- 221010 [吊在眼前的獎勵](https://www.youtube.com/watch?v=rA_FN6BTGms) 2:17
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1005,6 +1006,13 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 </div>
 <div style="width: 20em; min-width: 30%;">
 
+### I. 聲音
+
+- 221014 [適合遊戲的節奏感](https://www.youtube.com/watch?v=fyJfldsCAyE) 2:35
+
+</div>
+<div style="width: 20em; min-width: 30%;">
+
 ### J. UI
 
 - 220928 [易懂性與設計性](https://www.youtube.com/watch?v=0Va3ue6Qk-0) 3:20
@@ -1023,11 +1031,12 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 
 - 220902 [想要消滅延遲](https://www.youtube.com/watch?v=upVxCXWDlZk) 5:17
 - 220915 [遊戲領域的獎](https://www.youtube.com/watch?v=YbYdyyWgr6Y) 3:26
+- 221012 [邊打電動邊運動](https://www.youtube.com/watch?v=GvTHozPNZac) 2:56
 
 </div>
 <div style="width: 20em; min-width: 30%;">
 
-### N. 企劃概念
+### N. 企劃概要
 
 - 220825 [星之卡比](https://www.youtube.com/watch?v=dPajPmu_t9Y) 5:17
 - 220909 [星之卡比 夢之泉物語](https://www.youtube.com/watch?v=h2EpwYFfrfY) 5:55
