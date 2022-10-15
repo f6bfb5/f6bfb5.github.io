@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-ee99bdea.js",
+    "file": "start-ce2bcc65.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -53,9 +53,9 @@
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
       "src/routes/posts/login-with-discord.md",
       "src/routes/posts/mpv.md",
+      "src/routes/posts/my-recommended-youtube-channels-list.md",
       "src/routes/posts/operating-with-keyboard.md",
       "src/routes/posts/our-internet-history.md",
-      "src/routes/posts/recommended-youtube-channel.md",
       "src/routes/posts/search-engine-operators.md",
       "src/routes/posts/sticker-generator.md",
       "src/routes/posts/template.md",
@@ -128,7 +128,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-ffc6aea3.js",
+    "file": "pages/_slug_.svelte-e8dde73f.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -171,9 +171,9 @@
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
       "src/routes/posts/login-with-discord.md",
       "src/routes/posts/mpv.md",
+      "src/routes/posts/my-recommended-youtube-channels-list.md",
       "src/routes/posts/operating-with-keyboard.md",
       "src/routes/posts/our-internet-history.md",
-      "src/routes/posts/recommended-youtube-channel.md",
       "src/routes/posts/search-engine-operators.md",
       "src/routes/posts/sticker-generator.md",
       "src/routes/posts/template.md",
@@ -397,7 +397,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-4371054a.js",
+    "file": "pages/posts/ACG-note.md-dc2ffd15.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -637,6 +637,17 @@
       "_BlinkAnchor-aec4dee8.js"
     ]
   },
+  "src/routes/posts/my-recommended-youtube-channels-list.md": {
+    "file": "pages/posts/my-recommended-youtube-channels-list.md-0aac1acc.js",
+    "src": "src/routes/posts/my-recommended-youtube-channels-list.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8418cccc.js",
+      "__post-24fe7d33.js",
+      "_BlinkAnchor-aec4dee8.js"
+    ]
+  },
   "src/routes/posts/operating-with-keyboard.md": {
     "file": "pages/posts/operating-with-keyboard.md-fef55b48.js",
     "src": "src/routes/posts/operating-with-keyboard.md",
@@ -660,17 +671,6 @@
     ],
     "css": [
       "assets/pages/posts/our-internet-history.md-10880303.css"
-    ]
-  },
-  "src/routes/posts/recommended-youtube-channel.md": {
-    "file": "pages/posts/recommended-youtube-channel.md-279c7e41.js",
-    "src": "src/routes/posts/recommended-youtube-channel.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-24fe7d33.js",
-      "_BlinkAnchor-aec4dee8.js"
     ]
   },
   "src/routes/posts/search-engine-operators.md": {
@@ -745,7 +745,7 @@
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-357d612f.js",
+    "file": "pages/posts/tool-list-website.md-c1fd967a.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "isDynamicEntry": true,
