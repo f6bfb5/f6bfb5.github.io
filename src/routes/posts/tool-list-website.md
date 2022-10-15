@@ -53,6 +53,7 @@ tags: Toolbox
 - [Cryptiana: Articles on Historical Cryptography](http://cryptiana.web.fc2.com/code/crypto.htm)
 - [Black Calendar](https://tocana.jp/blackcalendar/)
 - [インターネット上で強化された人物・キャラクター一覧](https://wikiwiki.jp/boudai/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E4%B8%8A%E3%81%A7%E5%BC%B7%E5%8C%96%E3%81%95%E3%82%8C%E3%81%9F%E4%BA%BA%E7%89%A9%E3%83%BB%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E4%B8%80%E8%A6%A7)
+- [Design and Research](https://practical-scheme.net/trans/desres-j.html)
 
 ## 網路
 

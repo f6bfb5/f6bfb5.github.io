@@ -213,6 +213,7 @@ tags: ACG, Anime
 - 2020 \[西位輝実\] [アニメーターの仕事がわかる本](https://www.amazon.co.jp/gp/product/4768312799/ref=ox_sc_act_title_2?smid=AN1VRQENFRJN5&psc=1)
 - 2020 \[木村智哉\] [東映動画史論 経営と創造の底流](https://www.amazon.co.jp/dp/4535559635/?coliid=I7YP0BB9WT7PT&colid=2UVGXM7KR6OLP&psc=1&ref_=lv_ov_lig_dp_it)
 - 2020 [アニメの社会学](http://www.nakanishiya.co.jp/book/b535911.html)
+- 2022 [アニメができるまで](https://www.amazon.co.jp/dp/4864109311/)
 
 ### 介紹文章
 
@@ -353,6 +354,7 @@ tags: ACG, Anime
 - [宮崎作品のアニメーション技術考](http://www.yk.rim.or.jp/~rst/rabo/miyazaki/gijyutsu_ron.html)
 - [漫画の原作者と作画者は「企画・脚本」と「撮影・監督」の役割分担…なのだろうか？](https://togetter.com/li/1081987)
 - [← よく見る制作工程　　現実 →](https://twitter.com/caoryu_YS/status/1561301501896962048)
+- [アニメ業界世界最強リンク集](https://nikukoppun.ikaduchi.com/)
 
 <details>
   <summary>
