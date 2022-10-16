@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-ce2bcc65.js",
+    "file": "start-79245086.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -128,7 +128,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-e8dde73f.js",
+    "file": "pages/_slug_.svelte-1c068dae.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -242,7 +242,7 @@
     ]
   },
   "src/routes/posts/11ty-note.md": {
-    "file": "pages/posts/11ty-note.md-56a73f2a.js",
+    "file": "pages/posts/11ty-note.md-010676a5.js",
     "src": "src/routes/posts/11ty-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -253,7 +253,7 @@
     ]
   },
   "src/routes/posts/2020-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2020-what-i-have-read-on-internet.md-64da9cd9.js",
+    "file": "pages/posts/2020-what-i-have-read-on-internet.md-351104c9.js",
     "src": "src/routes/posts/2020-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -263,11 +263,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
+      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2021-what-i-have-read-on-internet.md-9df0cc3c.js",
+    "file": "pages/posts/2021-what-i-have-read-on-internet.md-bd01d35d.js",
     "src": "src/routes/posts/2021-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -277,11 +277,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
+      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-0b7d27f7.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-19c0d31c.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -353,7 +353,7 @@
     ]
   },
   "src/routes/posts/ACG-games-done-quick-introduction.md": {
-    "file": "pages/posts/ACG-games-done-quick-introduction.md-0c2aa7fa.js",
+    "file": "pages/posts/ACG-games-done-quick-introduction.md-0ccd9f32.js",
     "src": "src/routes/posts/ACG-games-done-quick-introduction.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -364,7 +364,7 @@
     ]
   },
   "src/routes/posts/ACG-linda-cube-introduction.md": {
-    "file": "pages/posts/ACG-linda-cube-introduction.md-e2d83fbf.js",
+    "file": "pages/posts/ACG-linda-cube-introduction.md-365067f8.js",
     "src": "src/routes/posts/ACG-linda-cube-introduction.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -375,7 +375,7 @@
     ]
   },
   "src/routes/posts/ACG-linda-cube-on-ps-archive.md": {
-    "file": "pages/posts/ACG-linda-cube-on-ps-archive.md-ce46945c.js",
+    "file": "pages/posts/ACG-linda-cube-on-ps-archive.md-b158f9d8.js",
     "src": "src/routes/posts/ACG-linda-cube-on-ps-archive.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -397,7 +397,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-dc2ffd15.js",
+    "file": "pages/posts/ACG-note.md-82e51c55.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -405,6 +405,9 @@
       "_index-8418cccc.js",
       "__post-24fe7d33.js",
       "_BlinkAnchor-aec4dee8.js"
+    ],
+    "css": [
+      "assets/pages/posts/ACG-note.md-6114a3e4.css"
     ]
   },
   "src/routes/posts/ACG-one-way-heroics-all-achievement-note.md": {
@@ -422,7 +425,7 @@
     ]
   },
   "src/routes/posts/ACG-random-thoughts-about-rockman-x-dive.md": {
-    "file": "pages/posts/ACG-random-thoughts-about-rockman-x-dive.md-1af6f5eb.js",
+    "file": "pages/posts/ACG-random-thoughts-about-rockman-x-dive.md-b3382438.js",
     "src": "src/routes/posts/ACG-random-thoughts-about-rockman-x-dive.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -434,7 +437,7 @@
     ]
   },
   "src/routes/posts/ACG-rockman-1-tas-glitch.md": {
-    "file": "pages/posts/ACG-rockman-1-tas-glitch.md-4e108a57.js",
+    "file": "pages/posts/ACG-rockman-1-tas-glitch.md-1c46b350.js",
     "src": "src/routes/posts/ACG-rockman-1-tas-glitch.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -477,7 +480,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
+      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -525,7 +528,7 @@
     ]
   },
   "src/routes/posts/autohotkey-note.md": {
-    "file": "pages/posts/autohotkey-note.md-ef305b53.js",
+    "file": "pages/posts/autohotkey-note.md-a6de4834.js",
     "src": "src/routes/posts/autohotkey-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -580,7 +583,7 @@
     ]
   },
   "src/routes/posts/escape-from-algorithm-with-rss.md": {
-    "file": "pages/posts/escape-from-algorithm-with-rss.md-21b508eb.js",
+    "file": "pages/posts/escape-from-algorithm-with-rss.md-38d8875e.js",
     "src": "src/routes/posts/escape-from-algorithm-with-rss.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -591,7 +594,7 @@
     ]
   },
   "src/routes/posts/how-do-you-like-wendesday.md": {
-    "file": "pages/posts/how-do-you-like-wendesday.md-ee9a3bca.js",
+    "file": "pages/posts/how-do-you-like-wendesday.md-8c8d5806.js",
     "src": "src/routes/posts/how-do-you-like-wendesday.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -602,7 +605,7 @@
     ]
   },
   "src/routes/posts/how-to-check-font-family-name-in-computer.md": {
-    "file": "pages/posts/how-to-check-font-family-name-in-computer.md-d08339c5.js",
+    "file": "pages/posts/how-to-check-font-family-name-in-computer.md-3e419b67.js",
     "src": "src/routes/posts/how-to-check-font-family-name-in-computer.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -613,7 +616,7 @@
     ]
   },
   "src/routes/posts/login-with-discord.md": {
-    "file": "pages/posts/login-with-discord.md-052b1866.js",
+    "file": "pages/posts/login-with-discord.md-34f5937f.js",
     "src": "src/routes/posts/login-with-discord.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -627,7 +630,7 @@
     ]
   },
   "src/routes/posts/mpv.md": {
-    "file": "pages/posts/mpv.md-e1146eda.js",
+    "file": "pages/posts/mpv.md-436a0a26.js",
     "src": "src/routes/posts/mpv.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -649,7 +652,7 @@
     ]
   },
   "src/routes/posts/operating-with-keyboard.md": {
-    "file": "pages/posts/operating-with-keyboard.md-fef55b48.js",
+    "file": "pages/posts/operating-with-keyboard.md-92f0d021.js",
     "src": "src/routes/posts/operating-with-keyboard.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -700,7 +703,7 @@
     ]
   },
   "src/routes/posts/template.md": {
-    "file": "pages/posts/template.md-3facfa1d.js",
+    "file": "pages/posts/template.md-98ea018d.js",
     "src": "src/routes/posts/template.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -727,7 +730,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list-system.md-29020d9f.css"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
@@ -741,7 +744,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list-system.md-29020d9f.css"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
@@ -755,11 +758,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list-system.md-29020d9f.css"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
-    "file": "pages/posts/use-foobar2k-to-listen-to-podcast.md-29cdb5e7.js",
+    "file": "pages/posts/use-foobar2k-to-listen-to-podcast.md-3dfa3203.js",
     "src": "src/routes/posts/use-foobar2k-to-listen-to-podcast.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -770,7 +773,7 @@
     ]
   },
   "src/routes/posts/use-google-spreadsheet-as-database.md": {
-    "file": "pages/posts/use-google-spreadsheet-as-database.md-40426d27.js",
+    "file": "pages/posts/use-google-spreadsheet-as-database.md-02c690f1.js",
     "src": "src/routes/posts/use-google-spreadsheet-as-database.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -781,7 +784,7 @@
     ]
   },
   "src/routes/posts/what-nft-is-not.md": {
-    "file": "pages/posts/what-nft-is-not.md-dbc3eeb0.js",
+    "file": "pages/posts/what-nft-is-not.md-48304335.js",
     "src": "src/routes/posts/what-nft-is-not.md",
     "isEntry": true,
     "isDynamicEntry": true,
