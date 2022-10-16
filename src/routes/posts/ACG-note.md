@@ -1,5 +1,5 @@
 ---
-title: "ACG 雜記"
+title: "ACG雜記"
 date: 2021-01-10T04:29:12.000Z
 summary: "動畫家們在做真正的思考，思考「我如何透過動作來表達」、思考「我如何畫一系列的畫來讓觀眾與我筆下的角色感同身受」、思考「我如何讓觀眾理解我的角色所遭遇的經歷」。這就是敘事的本質，動畫家正位於其前線和中心。"
 tags: ACG, Anime
@@ -1001,7 +1001,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 </div>
 <div style="width: 20em; min-width: 30%;">
 
-### H. 效果
+### H. 特效
 
 - 220923 [別顯得不明瞭](https://www.youtube.com/watch?v=7vGEEUjCJdY) 2:32
 
@@ -1047,3 +1047,43 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 </div>
 
 </div>
+
+<style>
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+tr {
+  display: flex;
+  max-width: 100%;
+}
+tr th {
+  word-break: keep-all;
+}
+tr th:nth-child(1),
+tr td:nth-child(1) {
+  min-width: 30%;
+  flex-basis: 30%;
+  flex-wrap: nowrap;
+
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+tr th:nth-child(2),
+tr td:nth-child(2) {
+  min-width: 4rem;
+  flex-basis: 4rem;
+  white-space: nowrap;
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  tr {
+    flex-direction: column;
+  }
+  tr td:nth-child(1) {
+    flex-basis: 100%;
+  }
+}
+</style>

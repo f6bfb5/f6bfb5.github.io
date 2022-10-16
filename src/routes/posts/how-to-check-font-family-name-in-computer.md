@@ -1,5 +1,5 @@
 ---
-title: "如何查詢可套用至 font-family 上的字體名稱"
+title: "如何查詢可套用至font-family上的字體名稱"
 date: 2021-11-14T17:09:25.000Z
 tags: F2E
 ---

@@ -248,8 +248,8 @@ flowchart TB
 
 </div>
 
-<div style="padding: 1em; position: relative; border: 3px solid blue; border-radius: 8px;">
-  <h2 style="margin: 0; padding: 0.25em 0.5em; position: absolute; top: -1em; left: 1em; background: var(--bg-color);">「精氣」之枯竭</h2>
+<div style="margin-top: 1em; padding: 1em; position: relative; border: 3px solid blue; border-radius: 8px;">
+  <h2 style="margin: 0; padding: 0.25em 0.5em; position: absolute; top: -1em; left: 1em; background: #e5edc8;">「精氣」之枯竭</h2>
 
 淡漠、什麼精神官能症、各種障礙、非精神病性的繭居族、新型憂鬱症……社會總踩著「是你（無法適應者）的錯，是你很異常」的立場，對於我寫的這些內容，也會覺得非常悲慘吧（實際上在社會裡確實是悲慘的），但心理上（如果沒有旁人的說教或生活上的困頓）是比「以前」更加舒適，也不會再對將來感到不安。當然這不是克服了不安，只是連不安都被虛無吞噬了。在壓倒性的背反邏輯面前，「將來」或「問題」已失去了一切重要性。只剩下「夠了，我不做了」。不會有「我要活在當下！做我想做的事！」這種積極性，在「看見」之後，能做的只有認命。
 
@@ -301,7 +301,10 @@ flowchart TB
 <div style="font-size: 4em; height: .5em; overflow: hidden; color: var(--subtext-color);">TEXT</div>
 <div style="font-size: 4em; height: .5em; overflow: hidden; color: var(--title-color);">TEXT</div>
 <div style="font-size: 4em;">TEXT</div>
-<div style="font-size: 4em; color: var(--bg-color); text-shadow: -1px 1px 0 var(--subtitle-color), 1px 1px 0 var(--subtitle-color), 1px -1px 0 var(--subtitle-color), -1px -1px 0 var(--subtitle-color);">TEXT</div>
+<div style="font-size: 4em; color: #e5edc8;
+  text-shadow: -1px 1px 0 var(--subtitle-color), 1px 1px 0 var(--subtitle-color), 1px -1px 0 var(--subtitle-color), -1px -1px 0 var(--subtitle-color);">
+  TEXT
+</div>
 
 <span style="padding-left: 2px; color: yellow; background-color: red; border-bottom: 1px solid red;">TEXT</span><span style="background-color: red; clip-path: polygon(0 0, 100% 100%, 0 100%); border-bottom: 1px solid red;">&nbsp;</span><span style="display: inline-block; margin-left: -2px; width: 8em; border-bottom: 1px solid red;">TEXT</span>
 
@@ -381,11 +384,33 @@ flowchart TB
     <span style="color: #000000;">B #000000</span>
     <span style="color: #808080;">G #808080</span>
   </div>
+</div>
+
+<div style="margin-top: 16px; margin-bottom: 16px;">
+  <div>
+    <span style="padding: 0 .25em; color: #00ff95; background: #004466;">#00ff95</span>
+    <span style="padding: 0 .25em; color: #004466; background: #00ff95;">#004466</span>
+  </div>
   <div style="margin-top: 8px;">
-    <span style="color: #00ff95; background: #004466;">#00ff95</span>
-    <span style="color: #004466; background: #00ff95;">#004466</span>
+    <span style="padding: 0 .25em; color: #82fccc; background: #0c030a;">#82fccc</span>
+    <span style="padding: 0 .25em; color: #bee943; background: #1d022d;">#bee943</span>
+    <span style="padding: 0 .25em; color: #fad320; background: #131920;">#fad320</span>
+    <span style="padding: 0 .25em; color: #cfc452; background: #0e0a0a;">#cfc452</span>
+  </div>
+  <div style="margin-top: 8px;">
+    <span style="padding: 0 .25em; color: #7ff7e6; background: #0d0409;">#7ff7e6</span>
+    <span style="padding: 0 .25em; color: #68e573; background: #371359;">#68e573</span>
+    <span style="padding: 0 .25em; color: #1c68ef; background: #fdfd26;">#1c68ef</span>
+  </div>
+  <div style="margin-top: 8px;">
+    <span style="padding: 0 .25em; background-color: #fe2728; color: white;">#fe2728</span>
+    <span style="padding: 0 .25em; background-color: #6db714; color: white;">#6db714</span>
+    <span style="padding: 0 .25em; background-color: #19a3c8; color: white;">#19a3c8</span>
+    <span style="padding: 0 .25em; color: #eee; background-color: #2a2928;">#2a2928</span>
   </div>
 </div>
+<AutomaticColorText backgroundColor="#00ff95" text="text" />
+<BorderedText />
 
 ```
 ⣠⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⣿⣿⣷⣄⣀⣤⠰
@@ -398,10 +423,6 @@ flowchart TB
 ⣀⣀⣤⣶⣿⣿⣿⣿⣿⣿⣿⠿⠁
 ⠀⠉⠛⠿⠿⠿⠿⠟⠋⠁
 ```
-
-<AutomaticColorText backgroundColor="#00ff95" text="text" />
-
-<BorderedText />
 
 <div style="margin: auto; width: fit-content; font-size: 50pt;" class="rainbow-gradient">𓂀</div>
 
@@ -585,12 +606,6 @@ ipconfig /flushdns
 
 <div style="padding: 10px 0; background: #000;">
   <span style="padding-left: 10px; border-left: 35px solid #d6000f; color: white;">TITLE HERE</span>
-</div>
-
-<div style="display: flex;">
-  <span style="padding: 0 .25em; background-color: #fe2728; color: white;">R</span>
-  <span style="padding: 0 .25em; background-color: #6db714; color: white;">G</span>
-  <span style="padding: 0 .25em; background-color: #19a3c8; color: white;">B</span>
 </div>
 
 <fieldset>

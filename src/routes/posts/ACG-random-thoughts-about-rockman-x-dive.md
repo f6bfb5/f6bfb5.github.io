@@ -1,5 +1,5 @@
 ---
-title: "Rockman X DiVE 雜感"
+title: "Rockman X DiVE雜感"
 date: 2022-08-14T09:24:04.000Z
 summary: "我認為《X DiVE》還是不錯玩的，也有獨特的爽快感，對系列粉絲而言也能看到許多角色的新美術圖或新模型，雖然遊戲性部份的改進實在不抱太大希望，但這遊戲也還有十分脫胎換骨的潛力，還是期待能玩到各種模式都更有樂趣的《X DiVE》。"
 tags: ACG, Game

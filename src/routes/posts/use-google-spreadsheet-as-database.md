@@ -1,5 +1,5 @@
 ---
-title: "使用 Google Sheet 作為資料庫"
+title: "使用Google Sheet作為資料庫"
 date: 2022-07-23T15:41:12.000Z
 summary: ""
 tags: F2E, Toolbox

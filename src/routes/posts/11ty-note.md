@@ -1,5 +1,5 @@
 ---
-title: "Eleventy 雜記"
+title: "Eleventy雜記"
 date: 2022-09-03T21:55:00.000Z
 summary: ""
 tags: F2E

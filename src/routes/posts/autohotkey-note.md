@@ -1,5 +1,5 @@
 ---
-title: "AutoHotKey 筆記"
+title: "AutoHotKey筆記"
 date: 2022-06-11T23:36:19.000Z
 summary: ""
 tags: Toolbox
