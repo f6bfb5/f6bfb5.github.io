@@ -43,6 +43,8 @@ export const randomNav = readable([
   // ラプラスの悪魔
   // シミュレーション仮説
   // 帰還不能点
+  // ジャメヴ
+  // 倒語
 ]);
 
 export const logoLinks = readable([
@@ -134,6 +136,10 @@ export const logoLinks = readable([
   "https://www.nicovideo.jp/watch/sm28923737",
   // 【街】憧れのサウンドノベルを今やる【実況】part1
   "https://www.nicovideo.jp/watch/sm10588950",
+  // ◆グノーシア　実況プレイ◆part1
+  "https://www.nicovideo.jp/watch/sm38184937",
+  // ◆VA-11 Hall-A　実況プレイ◆part1
+  "https://www.nicovideo.jp/watch/sm41182424",
   // 【ゆっくり解説】平成のゲーム史を振り返ってみた Part1
   "https://www.nicovideo.jp/watch/sm35053910",
   // いんゆめにっき
@@ -325,6 +331,7 @@ export const marqueeTexts = readable([
   "メロスは激怒した。必ず、かの邪智暴虐の王を除かなければならぬと決意した。メロスは政治がわからぬ。メロスは、村の牧人である。笛を吹き、羊と遊んで暮して来た。けれども邪悪に対しては、人一倍に敏感であった。",
   "オヤジ オヤジとゴロツキ共に慕われて…家族まがいの茶番劇で海にのさばり……何十年もの間 海に君臨するも 「王」にはなれず…何も得ず……!!終いにゃあ口車に乗った息子という名のバカに刺され…!!それらを守る為に死ぬ!!!実に空虚な人生じゃあありゃあせんか？",
   "私、いつまでもレイバーが好きなだけの女の子でいたくない。レイバーが好きな自分に甘えていたくないの。──お願い、車出して",
+  "一日を変え、一生を変えるカクテルを！",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",

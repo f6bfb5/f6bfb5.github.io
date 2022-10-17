@@ -1077,6 +1077,10 @@ tr td:nth-child(2) {
   white-space: nowrap;
   text-align: center;
 }
+td {
+  padding: 0;
+  margin: .4em .8em;
+}
 
 @media screen and (max-width: 576px) {
   tr {
@@ -1084,6 +1088,18 @@ tr td:nth-child(2) {
   }
   tr td:nth-child(1) {
     flex-basis: 100%;
+  }
+  tr th:nth-child(2),
+  tr td:nth-child(2) {
+    flex-basis: 0;
+    text-align: left;
+  }
+  tr td:nth-child(2) {
+    padding: 0 .25em;
+    min-width: 0;
+    max-width: fit-content;
+    color: white;
+    background-color: #6db714;
   }
 }
 </style>
