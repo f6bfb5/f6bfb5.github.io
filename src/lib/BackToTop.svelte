@@ -40,6 +40,7 @@
     transition: opacity 0.5s, visibility 0.5s;
     color: white;
     background-color: black;
+    cursor: pointer;
     user-select: none;
   }
 

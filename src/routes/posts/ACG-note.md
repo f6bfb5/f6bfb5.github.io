@@ -119,7 +119,8 @@ tags: ACG, Anime
 - 2005 \[赤木真澄\] [「ポン」から始まった-アーケード TV ゲームの成り立ち](https://www.amazon.co.jp/%E3%81%9D%E3%82%8C%E3%81%AF%E3%80%8C%E3%83%9D%E3%83%B3%E3%80%8D%E3%81%8B%E3%82%89%E5%A7%8B%E3%81%BE%E3%81%A3%E3%81%9F-%E3%82%A2%E3%83%BC%E3%82%B1%E3%83%BC%E3%83%89TV%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E6%88%90%E3%82%8A%E7%AB%8B%E3%81%A1-%E8%B5%A4%E6%9C%A8%E7%9C%9F%E6%BE%84/dp/4990251202)
 - 2006 \[陳仲偉\] [台灣漫畫文化史：從文化史的角度看台灣漫畫的興衰](https://www.books.com.tw/products/0010494545)
 - 2007 \[東浩紀\] [遊戲性寫實主義的誕生：動物化的後現代 2](https://www.books.com.tw/products/0010687643)
-- 2007 \[星山博之\] [星山博之のアニメシナリオ教室](https://www.amazon.co.jp/%E6%98%9F%E5%B1%B1%E5%8D%9A%E4%B9%8B%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E6%95%99%E5%AE%A4-%E6%98%9F%E5%B1%B1-%E5%8D%9A%E4%B9%8B/dp/4844134353)
+- 2007 \[星山博之\] [星山博之のアニメシナリオ教室](https://www.amazon.co.jp/%E6%98%9F%E5%B1%B1%E5%8D%9A%E4%B9%8B%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E6%95%99%E5%AE%A4-%E6%98%9F%E5%B1%B1-%E5%8D%9A%E4%B9%8B/dp/4844134353)<br>
+  └ [《7天学会写动漫脚本》读书笔记](https://processon.com/outline/view/link/5ee109c51e085326371f17cd)
 - 2008 \[宇野常寛\] [零零年代的想像力](https://www.amazon.co.jp/%E3%82%BC%E3%83%AD%E5%B9%B4%E4%BB%A3%E3%81%AE%E6%83%B3%E5%83%8F%E5%8A%9B-%E5%AE%87%E9%87%8E-%E5%B8%B8%E5%AF%9B/dp/4152089415)<br>
   ├ [宇野常寬《00 年代的想像力》導讀](http://www.gamebase.com.tw/forum/50040/topic/91234095/1#91234095)<br>
   └ [宇野常寬《零零年代的想像力》翻譯計劃](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22105NCHU5625016%22.&searchmode=basic)
@@ -966,6 +967,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220829 [風險與報酬](https://www.youtube.com/watch?v=cTSMohV3TgQ) 10:00
 - 220904 [累積之後迅地釋放](https://www.youtube.com/watch?v=ItuZ_AZG49M) 2:41
 - 220921 [RPG 的遊戲性](https://www.youtube.com/watch?v=42x9G5pe8lg) 2:37
+- 221017 [遊戲性之外的趣味](https://www.youtube.com/watch?v=OALp2UAe6V4) 6:48
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1043,6 +1045,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220825 [星之卡比](https://www.youtube.com/watch?v=dPajPmu_t9Y) 5:17
 - 220909 [星之卡比 夢之泉物語](https://www.youtube.com/watch?v=h2EpwYFfrfY) 5:55
 - 221003 [星之卡比 Super Deluxe](https://www.youtube.com/watch?v=MsexzQq-kaU) 7:39
+- 221020 [任天堂明星大亂鬥](https://www.youtube.com/watch?v=uHJpaYpPTHg) 8:31
 
 </div>
 
@@ -1077,9 +1080,9 @@ tr td:nth-child(2) {
   white-space: nowrap;
   text-align: center;
 }
-td {
+th, td {
   padding: 0;
-  margin: .4em .8em;
+  margin: .4rem .8rem;
 }
 
 @media screen and (max-width: 576px) {

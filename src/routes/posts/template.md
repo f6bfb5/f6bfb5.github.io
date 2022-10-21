@@ -625,6 +625,18 @@ ipconfig /flushdns
     </div>
 </fieldset>
 
+<dl>
+  <dt>List heading 1</dt>
+  <dd>List item 1</dd>
+  <dt>List heading 2</dt>
+  <dd>List item 2</dd>
+</dl>
+
+<figure>
+  <img src="https://i.imgur.com/zT1ex8v.png" alt>
+  <figcaption>AKIHABARA STATION</figcaption>
+</figure>
+
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
   import BalloonQuote from "$lib/BalloonQuote.svelte";

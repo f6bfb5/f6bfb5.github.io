@@ -75,6 +75,7 @@ tags: Toolbox
 - [ブログ台頭直前のウェブ界隈が好きだった話 - Neo's World](https://neos21.net/blog/2016/02/16-01.html)
 - [Google Graveyard](https://killedbygoogle.com/)
 - [This page is a truly naked, brutalist html quine.](https://secretgeek.github.io/html_wysiwyg/html.html)
+- [DiscMaster](http://discmaster.textfiles.com/)
 
 ### 88x31 button
 
@@ -233,6 +234,7 @@ tags: Toolbox
 | [jfxr](https://jfxr.frozenfractal.com/#)                                                         | 效果音產生器             |
 
 - [Web Cassette](https://webcassette.klevgrand.se/)
+- [ALL JAPAN : The Greatest/Notablest JPN Albums 2400+](https://rateyourmusic.com/list/kommunicato/all-japan-the-greatest_notablest-jpn-albums-2400/1/)
 
 ## 設計
 
@@ -246,7 +248,7 @@ tags: Toolbox
 | [錯思コレクション 100][]                                                                                                     | 100 種認知偏誤整理                   |
 | [西洋ファンタジー用語ナナメ読み辞典「Tiny Tales」][]                                                                         | 西洋奇幻作品的用語辭典               |
 | [物語要素事典][]                                                                                                             | 由神山重彦整理的故事常見元素與出典   |
-| [ね  — NT][]                                                                                                                 | Nathan Taylor 的實驗網站             |
+| [ねー NT][]                                                                                                                  | Nathan Taylor 的實驗網站             |
 | [fladdict][]                                                                                                                 | 深津貴之的實驗網站                   |
 | [映像作家 100 人 MOTION GRAPHIC CREATORS][]                                                                                  |                                      |
 | [MOTIONBOX][]                                                                                                                |                                      |
@@ -264,7 +266,7 @@ tags: Toolbox
 [錯思コレクション 100]: https://www.jumonji-u.ac.jp/sscs/ikeda/cognitive_bias/about.html
 [西洋ファンタジー用語ナナメ読み辞典「tiny tales」]: http://tinyangel.jog.client.jp/index.html
 [物語要素事典]: https://www.lib.agu.ac.jp/yousojiten/
-[ね — nt]: https://nathan.tokyo/
+[ねー nt]: https://nathan.tokyo/
 [fladdict]: http://fladdict.net/
 [映像作家 100 人 motion graphic creators]: https://eizo100.jp/
 [motionbox]: https://motion-box.net/
@@ -294,7 +296,6 @@ tags: Toolbox
 | [現代麻雀技術論][]                                                 | 日本麻將戰術介紹                       |
 
 - [同人用語の基礎知識](https://www.paradisearmy.com/doujin/index.html)
-- [ALL JAPAN : The Greatest/Notablest JPN Albums 2400+](https://rateyourmusic.com/list/kommunicato/all-japan-the-greatest_notablest-jpn-albums-2400/1/)
 
 [poolsuite fm]: https://poolsuite.net/
 [drive & listen]: https://driveandlisten.herokuapp.com/

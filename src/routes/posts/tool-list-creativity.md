@@ -184,6 +184,7 @@ tags: Toolbox
 | [GLT-ごぬんね](https://booth.pm/ja/items/687528)                      |                                                         |
 | [機械彫刻用標準書体フォント](http://font.kim/)                        |                                                         |
 | [Mgen+](http://jikasei.me/font/mgenplus/)                             |                                                         |
+| [IBM Plex](https://github.com/IBM/plex/releases)                      |                                                         |
 
 ### 圓體
 

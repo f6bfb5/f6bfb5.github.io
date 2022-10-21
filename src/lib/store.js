@@ -332,6 +332,7 @@ export const marqueeTexts = readable([
   "オヤジ オヤジとゴロツキ共に慕われて…家族まがいの茶番劇で海にのさばり……何十年もの間 海に君臨するも 「王」にはなれず…何も得ず……!!終いにゃあ口車に乗った息子という名のバカに刺され…!!それらを守る為に死ぬ!!!実に空虚な人生じゃあありゃあせんか？",
   "私、いつまでもレイバーが好きなだけの女の子でいたくない。レイバーが好きな自分に甘えていたくないの。──お願い、車出して",
   "一日を変え、一生を変えるカクテルを！",
+  "怖かろう、悔しかろう。例え鎧をまとおうと、心の弱さは守れないのだ…！",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",
@@ -443,7 +444,8 @@ export const aboutImages = readable([
   "https://c.tenor.com/GqWOrKpj8UAAAAAC/gundam-amuro.gif",
   "https://c.tenor.com/urtf9xuBAaMAAAAC/tengen-toppa.gif",
   // "https://c.tenor.com/0v63YjpRCuQAAAAC/madoka-magica.gif",
-  "https://c.tenor.com/Ads_EGsOaioAAAAC/promare-anime.gif",
+  // "https://c.tenor.com/Ads_EGsOaioAAAAC/promare-anime.gif",
+  "../assets/promare-anime.gif",
   "https://c.tenor.com/iF2QagbiCSIAAAAC/eureka-eureka-seven.gif",
   "https://c.tenor.com/R27oaZQSMi4AAAAC/haibane-renmei-ailes-grises.gif",
   "https://c.tenor.com/zLBsleCsdOQAAAAC/akane-shinj%C5%8D-shinjou-akane.gif",
@@ -452,6 +454,7 @@ export const aboutImages = readable([
   "https://c.tenor.com/WVimaSM0jRMAAAAC/fate-heavens-feel3-heavens-feel3.gif",
   "https://c.tenor.com/xCide_38qFgAAAAC/cardcaptor-sakura-clear-card-sakura-kinomoto.gif",
   "https://c.tenor.com/eMnHWu4TCTEAAAAC/di-gi-charat.gif",
+  "https://media.tenor.com/qvCwTpl0zTcAAAAC/ghost-in-the-shell-kokaku-kidotai.gif",
   // === Game ===
   "https://c.tenor.com/SjuAbL0uMakAAAAC/yume-nikki-yume.gif",
   "https://c.tenor.com/6L6itJ6PXKoAAAAC/chrono-trigger-courtroom.gif",
@@ -466,7 +469,6 @@ export const aboutImages = readable([
   "https://c.tenor.com/cd2lzZRW9WUAAAAC/omega-zero-megaman.gif",
   "https://i.imgur.com/gL1P7Q1.gif",
   "https://i.imgur.com/IrvMtvX.gif",
-  "https://c.tenor.com/h_7HSJGN8moAAAAC/bakamitai-dame.gif",
   // === Pixel art ===
   "https://c.tenor.com/-GZI0TXyO-AAAAAC/subway-yuri.gif",
   "https://c.tenor.com/BrNtIejIcXUAAAAC/pixel-art.gif",
