@@ -999,6 +999,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 ### G. 動作
 
 - 220918 [如何指定動作](https://www.youtube.com/watch?v=GB00mkau1Kw) 4:38
+- 221024 [過頭一點恰恰好](https://www.youtube.com/watch?v=IUK8_lZrb-I) 2:57
 
 </div>
 <div style="width: 20em; min-width: 30%;">

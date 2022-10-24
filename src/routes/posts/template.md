@@ -597,10 +597,10 @@ ipconfig /flushdns
 </div>
 </div>
 
-<!-- <dialog open>
+<!-- <dialog style="position: fixed; top: 50%;" open>
   <p>Greetings, one and all!</p>
   <form method="dialog">
-    <button>OK</button>
+    <button>CLOSE</button>
   </form>
 </dialog> -->
 
