@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-f2b9c3e9.js",
+    "file": "start-093a07ee.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -71,14 +71,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-029d03ec.js",
+    "file": "pages/__layout.svelte-df7a2e4c.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-3c3f3e3b.js",
-      "_store-a693e2a1.js",
+      "_Favicon-f550e3b7.js",
+      "_store-39c9587e.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -112,14 +112,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-df63daab.js",
+    "file": "pages/__layout-wide.svelte-4d4267b6.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-3c3f3e3b.js",
-      "_store-a693e2a1.js",
+      "_Favicon-f550e3b7.js",
+      "_store-39c9587e.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -129,7 +129,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-4e12914e.js",
+    "file": "pages/_slug_.svelte-7aa8a555.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -188,13 +188,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-b1076fa6.js",
+    "file": "pages/about.svelte-a82daa7c.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-a693e2a1.js",
+      "_store-39c9587e.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -214,13 +214,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-4f0903c2.js",
+    "file": "pages/index@wide.svelte-d40e1328.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-a693e2a1.js",
+      "_store-39c9587e.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -276,7 +276,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -290,11 +290,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-a03dd6fd.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-c0374ebe.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -410,7 +410,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-6ead0b5d.js",
+    "file": "pages/posts/ACG-note.md-e58f5ca6.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -493,7 +493,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -761,7 +761,7 @@
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-ec7d734e.js",
+    "file": "pages/posts/tool-list-website.md-0e051aaa.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -852,19 +852,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-3c3f3e3b.js": {
-    "file": "chunks/Favicon-3c3f3e3b.js",
+  "_Favicon-f550e3b7.js": {
+    "file": "chunks/Favicon-f550e3b7.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-a693e2a1.js",
+      "_store-39c9587e.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-a693e2a1.js": {
-    "file": "chunks/store-a693e2a1.js",
+  "_store-39c9587e.js": {
+    "file": "chunks/store-39c9587e.js",
     "imports": [
       "_index-17c965c3.js"
     ]
