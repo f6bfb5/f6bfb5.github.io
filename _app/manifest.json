@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-093a07ee.js",
+    "file": "start-f5924dbe.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -71,14 +71,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-df7a2e4c.js",
+    "file": "pages/__layout.svelte-d8ebfaf6.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-f550e3b7.js",
-      "_store-39c9587e.js",
+      "_Favicon-667182ad.js",
+      "_store-36b71bf0.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -112,14 +112,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-4d4267b6.js",
+    "file": "pages/__layout-wide.svelte-24c38bdc.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-f550e3b7.js",
-      "_store-39c9587e.js",
+      "_Favicon-667182ad.js",
+      "_store-36b71bf0.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -129,7 +129,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-7aa8a555.js",
+    "file": "pages/_slug_.svelte-c9733f1c.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -188,13 +188,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-a82daa7c.js",
+    "file": "pages/about.svelte-d6373d75.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-39c9587e.js",
+      "_store-36b71bf0.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -214,13 +214,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-d40e1328.js",
+    "file": "pages/index@wide.svelte-837f7ae1.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-39c9587e.js",
+      "_store-36b71bf0.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -294,7 +294,7 @@
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-c0374ebe.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-c3cbec97.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -410,7 +410,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-e58f5ca6.js",
+    "file": "pages/posts/ACG-note.md-df76d6c8.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -438,7 +438,7 @@
     ]
   },
   "src/routes/posts/ACG-random-thoughts-about-rockman-x-dive.md": {
-    "file": "pages/posts/ACG-random-thoughts-about-rockman-x-dive.md-09dd8cc6.js",
+    "file": "pages/posts/ACG-random-thoughts-about-rockman-x-dive.md-405282b6.js",
     "src": "src/routes/posts/ACG-random-thoughts-about-rockman-x-dive.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -654,7 +654,7 @@
     ]
   },
   "src/routes/posts/my-recommended-youtube-channels-list.md": {
-    "file": "pages/posts/my-recommended-youtube-channels-list.md-df2f05df.js",
+    "file": "pages/posts/my-recommended-youtube-channels-list.md-b0f6e61b.js",
     "src": "src/routes/posts/my-recommended-youtube-channels-list.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -665,7 +665,7 @@
     ]
   },
   "src/routes/posts/operating-with-keyboard.md": {
-    "file": "pages/posts/operating-with-keyboard.md-2cdbef3c.js",
+    "file": "pages/posts/operating-with-keyboard.md-7dbeb12f.js",
     "src": "src/routes/posts/operating-with-keyboard.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -743,7 +743,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
@@ -757,11 +757,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-0e051aaa.js",
+    "file": "pages/posts/tool-list-website.md-b02f7107.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -771,7 +771,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
@@ -852,19 +852,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-f550e3b7.js": {
-    "file": "chunks/Favicon-f550e3b7.js",
+  "_Favicon-667182ad.js": {
+    "file": "chunks/Favicon-667182ad.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-39c9587e.js",
+      "_store-36b71bf0.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-39c9587e.js": {
-    "file": "chunks/store-39c9587e.js",
+  "_store-36b71bf0.js": {
+    "file": "chunks/store-36b71bf0.js",
     "imports": [
       "_index-17c965c3.js"
     ]
