@@ -362,6 +362,16 @@ tags:
       videoId: "vvV5sz597JY",
       addedDate: "221011",
     },
+    {
+      name: "4ST",
+      url: "https://www.youtube.com/c/4STUDIO",
+      category: categoryOptions['game'],
+      language: languageOptions['jpn'],
+      description:
+        "以紅白機為主的遊戲與製作人員的都市傳說考察和檢證。",
+      videoId: "xoe9yWfjTzU",
+      addedDate: "221026",
+    },
   ];
 
   $: filteredChannelsData = channelsData

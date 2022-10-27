@@ -120,7 +120,7 @@ tags: ACG, Anime
 - 2006 \[陳仲偉\] [台灣漫畫文化史：從文化史的角度看台灣漫畫的興衰](https://www.books.com.tw/products/0010494545)
 - 2007 \[東浩紀\] [遊戲性寫實主義的誕生：動物化的後現代 2](https://www.books.com.tw/products/0010687643)
 - 2007 \[星山博之\] [星山博之のアニメシナリオ教室](https://www.amazon.co.jp/%E6%98%9F%E5%B1%B1%E5%8D%9A%E4%B9%8B%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E6%95%99%E5%AE%A4-%E6%98%9F%E5%B1%B1-%E5%8D%9A%E4%B9%8B/dp/4844134353)<br>
-  └ [《7天学会写动漫脚本》读书笔记](https://processon.com/outline/view/link/5ee109c51e085326371f17cd)
+  └ [《7 天学会写动漫脚本》读书笔记](https://processon.com/outline/view/link/5ee109c51e085326371f17cd)
 - 2008 \[宇野常寛\] [零零年代的想像力](https://www.amazon.co.jp/%E3%82%BC%E3%83%AD%E5%B9%B4%E4%BB%A3%E3%81%AE%E6%83%B3%E5%83%8F%E5%8A%9B-%E5%AE%87%E9%87%8E-%E5%B8%B8%E5%AF%9B/dp/4152089415)<br>
   ├ [宇野常寬《00 年代的想像力》導讀](http://www.gamebase.com.tw/forum/50040/topic/91234095/1#91234095)<br>
   └ [宇野常寬《零零年代的想像力》翻譯計劃](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22105NCHU5625016%22.&searchmode=basic)
@@ -168,7 +168,7 @@ tags: ACG, Anime
 ### 2010
 
 - 2010 \[濱野智史\] [當神話開始思考：網路社會的文化論](https://www.books.com.tw/products/0010502625)
-- 2010 \[アニメ 6 人の会\] [アニメーションの本―動く絵を描く基礎知識と作画の実際](https://www.amazon.co.jp/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E6%9C%AC%E2%80%95%E5%8B%95%E3%81%8F%E7%B5%B5%E3%82%92%E6%8F%8F%E3%81%8F%E5%9F%BA%E7%A4%8E%E7%9F%A5%E8%AD%98%E3%81%A8%E4%BD%9C%E7%94%BB%E3%81%AE%E5%AE%9F%E9%9A%9B-%E3%82%A2%E3%83%8B%E3%83%A16%E4%BA%BA%E3%81%AE%E4%BC%9A/dp/4772604618)
+- 2010 \[アニメ６人の会\] [アニメーションの本―動く絵を描く基礎知識と作画の実際](https://www.amazon.co.jp/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E6%9C%AC%E2%80%95%E5%8B%95%E3%81%8F%E7%B5%B5%E3%82%92%E6%8F%8F%E3%81%8F%E5%9F%BA%E7%A4%8E%E7%9F%A5%E8%AD%98%E3%81%A8%E4%BD%9C%E7%94%BB%E3%81%AE%E5%AE%9F%E9%9A%9B-%E3%82%A2%E3%83%8B%E3%83%A16%E4%BA%BA%E3%81%AE%E4%BC%9A/dp/4772604618)
 - 2010 \[京都アニメーション\] [京都アニメーション版 作画の手引き](https://www.amazon.co.jp/%E4%BA%AC%E9%83%BD%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E7%89%88-%E4%BD%9C%E7%94%BB%E3%81%AE%E6%89%8B%E5%BC%95%E3%81%8D/dp/B00H89GNC0/)
 - 2010 \[京都アニメーション\] [京都アニメーション版　仕上げ・撮影の手引き](https://www.amazon.co.jp/%E4%BA%AC%E9%83%BD%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E7%89%88-%E4%BB%95%E4%B8%8A%E3%81%92%E3%83%BB%E6%92%AE%E5%BD%B1%E3%81%AE%E6%89%8B%E5%BC%95%E3%81%8D-%E4%BA%AC%E9%83%BD%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/dp/B00JXLSY8C)
 - 2011 \[趙永佳\] [日本．趣味．想像 ─ 八十後御宅筆記](https://www.cp1897.com.hk/product_info.php?BookId=9789881522054)
@@ -315,6 +315,21 @@ tags: ACG, Anime
 - [アニメの作り方その８「原畫・動畫」の３](https://ameblo.jp/joe-sensei/entry-12500264950.html)
 - [アニメの作り方その９「最終回」](https://ameblo.jp/joe-sensei/entry-12500264952.html)
 
+### 動畫前線
+
+- [■ アニメの現場第 1 話「作画監督の現場-前編-」](https://youtu.be/sHorkqqlfJM)
+- [■ アニメの現場第 2 話「作画監督の現場-後編-」](https://youtu.be/iwZRCEzFodU)
+- [■ アニメの現場第 3 話「3DCG の現場-前編-」](https://youtu.be/fIAaVJyPsx4)
+- [■ アニメの現場第 4 話「3DCG の現場-後編-」](https://youtu.be/CkUWZ8e4218)
+- [■ アニメの現場第 5 話「撮影監督の現場-前編-」](https://youtu.be/qVzwW5TY7A4)
+- [■ アニメの現場第 6 話「撮影監督の現場-後編-」](https://youtu.be/FWpjRuOwhtg)
+- [■ アニメの現場第 7 話「撮影の現場 -前編-」](https://youtu.be/sj_H-Tyb_ko)
+- [■ アニメの現場第 8 話「撮影の現場-後編-」](https://youtu.be/7keY9g2l5_g)
+- [■ アニメの現場第 9 話「演出家の現場-前編-」](https://youtu.be/vzSXOENjcN8)
+- [■ アニメの現場第 10 話「演出家の現場-後編-」](https://youtu.be/TDTy8QVYBEk)
+- [■ アニメの現場第 11 話「監督の現場-前編-」](https://youtu.be/YguSFw1iugE)
+- [■ アニメの現場第 12 話「監督の現場 -後編 -」](https://youtu.be/WSr4Ey-CAlg)
+
 ## 解說專欄
 
 - [おぎにゃんと學ぼう](http://www.madhouse.co.jp/special/oginyan/index.html)
@@ -354,6 +369,19 @@ tags: ACG, Anime
 
 - [宮崎作品のアニメーション技術考](http://www.yk.rim.or.jp/~rst/rabo/miyazaki/gijyutsu_ron.html)
 - [漫画の原作者と作画者は「企画・脚本」と「撮影・監督」の役割分担…なのだろうか？](https://togetter.com/li/1081987)
+- [會讓人覺得「這作畫超讚！」的要素](https://twitter.com/studio_gosso/status/1205000351432101888?s=20)
+  - 分鏡集 - 點子／構圖／整體架構
+  - 分鏡 - 構圖／動作／畫風／點子／段落架構
+  - 構圖 - 演技／空間感／平面配置／視覺誘導
+  - 動作 - 空間感／演技／物理運算能力／緩急時間點／姿勢／特效形式
+  - 畫風 - 姿勢／特效形式／畫技
+  - 畫技 - 角色相似度／立體感、平面感／表情、感情
+  - 點子 - 新奇度／引用的巧妙度／統整力
+  - 段落架構 - 連結起來的感受
+  - 作監 - 畫技／畫風統一
+- [今まで誰も気づかないし今後も気づかれないから解析動画作った！](https://twitter.com/bLACKsHEP1969/status/1125030157805207552)
+- [雷斯那 SPT 關於作畫的注意事項很有趣。上面寫有 「請不要接著前面的畫面畫下去」...](https://twitter.com/mizpi/status/1125278952962965504)
+- [「不管是多無理的事情，都有能讓它增加真實性的動態。在巨大的謊言裡畫出真實，這是只有動畫才做得到的事。」](https://twitter.com/kobakin1967/status/1172749501800402944)
 - [← よく見る制作工程　　現実 →](https://twitter.com/caoryu_YS/status/1561301501896962048)
 - [アニメ業界世界最強リンク集](https://nikukoppun.ikaduchi.com/)
 
@@ -958,6 +986,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220831 [做遊戲不是玩遊戲](https://www.youtube.com/watch?v=5DS_aGjo9zY) 4:06
 - 220912 [簡報旨在速度](https://www.youtube.com/watch?v=jVnBk3p7T-Q) 1:08
 - 221005 [能和客戶說明嗎？](https://www.youtube.com/watch?v=otyLLbYDF1g) 2:23
+- 221026 [關於更改規格](https://www.youtube.com/watch?v=e9zu3-L6Elc) 4:15
 
 </div>
 <div style="width: 20em; min-width: 30%;">

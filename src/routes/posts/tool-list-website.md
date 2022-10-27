@@ -388,6 +388,7 @@ tags: Toolbox
 - [新横浜ありな](https://tamaki.bake-neko.net/topb30b.htm)
 - [ゲームのセリフ集など](http://serihu-syu.jugem.jp/)
 - [SteamSpy](https://steamspy.com/)
+- [ROCKMAN2IPS](https://rockman2ips.tripod.com/)
 
 ---
 
