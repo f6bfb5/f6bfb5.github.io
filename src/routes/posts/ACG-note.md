@@ -1021,6 +1021,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 ### F. 圖像
 
 - 220907 [不畫素材，畫光](https://www.youtube.com/watch?v=WqwtzP-TCnw) 3:33
+- 221028 [強調具有判定之物](https://www.youtube.com/watch?v=Lw8VPeQQGEY) 2:29
 
 </div>
 <div style="width: 20em; min-width: 30%;">
