@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-f5924dbe.js",
+    "file": "start-c51eb234.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -71,14 +71,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-d8ebfaf6.js",
+    "file": "pages/__layout.svelte-ac426b8e.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-667182ad.js",
-      "_store-36b71bf0.js",
+      "_Favicon-5540eeaa.js",
+      "_store-2cea1234.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -112,14 +112,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-24c38bdc.js",
+    "file": "pages/__layout-wide.svelte-4fd41cd3.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-667182ad.js",
-      "_store-36b71bf0.js",
+      "_Favicon-5540eeaa.js",
+      "_store-2cea1234.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -129,7 +129,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-c9733f1c.js",
+    "file": "pages/_slug_.svelte-3f7d6a0b.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -188,13 +188,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-d6373d75.js",
+    "file": "pages/about.svelte-0209fa58.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-36b71bf0.js",
+      "_store-2cea1234.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -214,13 +214,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-837f7ae1.js",
+    "file": "pages/index@wide.svelte-9b24f410.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-36b71bf0.js",
+      "_store-2cea1234.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -276,7 +276,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
+      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -290,11 +290,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
+      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-c3cbec97.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-63932919.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -410,7 +410,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-df76d6c8.js",
+    "file": "pages/posts/ACG-note.md-4e9ba247.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -493,7 +493,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
+      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -852,19 +852,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-667182ad.js": {
-    "file": "chunks/Favicon-667182ad.js",
+  "_Favicon-5540eeaa.js": {
+    "file": "chunks/Favicon-5540eeaa.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-36b71bf0.js",
+      "_store-2cea1234.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-36b71bf0.js": {
-    "file": "chunks/store-36b71bf0.js",
+  "_store-2cea1234.js": {
+    "file": "chunks/store-2cea1234.js",
     "imports": [
       "_index-17c965c3.js"
     ]
