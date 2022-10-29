@@ -103,8 +103,13 @@ tags: F2E, Toolbox
   - **改動後一定要選擇「新增」專案版本，才會有效反應**
 - 表單資料格式
   - 要注意 Google Sheet 預設會自動轉換各種資料
-  - 例如 `0123` 會被轉換成數值後，變成 `123`
+    - 例如 `0123` 會被轉換成數值後，變成 `123`
   - 推薦事先點選表單左上角格全選後，將格式設為「純文字（Plain text）」
+  - Google Sheet 的最大可儲存量為 1000 萬格資料
+    - 最大行數為 18278 行
+    - 一次可新增 40000 列
+    - 字串上限長度為 50000 字元
+    - 詳細限制可參考 [Google Drive Help](https://support.google.com/drive/answer/37603)
 
 <details>
   <summary>範例程式</summary>

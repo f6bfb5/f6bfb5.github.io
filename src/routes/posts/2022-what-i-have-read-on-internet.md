@@ -2156,6 +2156,13 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [ナナイ・ミゲルからシャア・アズナブルへの質問と確認と安堵と絶望 ＜映画『機動戦士ガンダム 逆襲のシャア』でのすれちがい宇宙＞](https://highlandview.blog.fc2.com/blog-entry-267.html)
 - [横浜の真ん中にある神社が新海誠の世界観](https://dailyportalz.jp/kiji/shrine-in-Yokohama-is-world-of-Makoto-Shinkai)
 - [下戸で漫画音痴が調布のジャクソンホールに行って10年のモヤモヤを一掃した話 - ココロ社](https://kokorosha.hatenablog.com/entry/2022/10/27/194852)
+- [樋口円香の事、何も知りたくなかった──](https://gerittin-ed.fanbox.cc/posts/4659672)
+- [そこに虹がなくても - 東山千](https://shonenjumpplus.com/episode/316190246907573867)
+- [井伊商店さんの麦味噌が味噌と名乗れない問題についてちょっと解説 - 醤油手帖](https://shouyutechou.hatenablog.com/entry/2022/10/28/013929)
+- [【現場猫】その仕事、本当に今日中ですか？！「定時間際業務撲滅運動啓発ポスター」](https://togetter.com/li/1964797)
+- [東京藝術大学の練習室の壁に書かれていた"心の叫び"が切ない「全員そう思ってる定期」「最高峰の藝大生でも思うことは同じなんだなぁ」](https://togetter.com/li/1964841)
+- [スシローをどの順番で食べれば一番おいしいのか考える](https://dailyportalz.jp/kiji/sushiro-taberu-jyun)
+- [覚醒剤盛られ事案についての平凡弁護士による一考察](https://anond.hatelabo.jp/20221028172134)
 
 
 <style scoped>
