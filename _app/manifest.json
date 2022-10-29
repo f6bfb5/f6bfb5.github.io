@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-c51eb234.js",
+    "file": "start-36006c11.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -58,6 +58,7 @@
       "src/routes/posts/operating-with-keyboard.md",
       "src/routes/posts/our-internet-history.md",
       "src/routes/posts/search-engine-operators.md",
+      "src/routes/posts/should-consumer-care-about-producer.md",
       "src/routes/posts/sticker-generator.md",
       "src/routes/posts/template.md",
       "src/routes/posts/tool-list-creativity.md",
@@ -71,14 +72,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-ac426b8e.js",
+    "file": "pages/__layout.svelte-b137fe4a.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-5540eeaa.js",
-      "_store-2cea1234.js",
+      "_Favicon-b16f3a07.js",
+      "_store-09d075e0.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -112,14 +113,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-4fd41cd3.js",
+    "file": "pages/__layout-wide.svelte-ea03f70d.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-5540eeaa.js",
-      "_store-2cea1234.js",
+      "_Favicon-b16f3a07.js",
+      "_store-09d075e0.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -129,7 +130,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-3f7d6a0b.js",
+    "file": "pages/_slug_.svelte-1b97ddff.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -176,6 +177,7 @@
       "src/routes/posts/operating-with-keyboard.md",
       "src/routes/posts/our-internet-history.md",
       "src/routes/posts/search-engine-operators.md",
+      "src/routes/posts/should-consumer-care-about-producer.md",
       "src/routes/posts/sticker-generator.md",
       "src/routes/posts/template.md",
       "src/routes/posts/tool-list-creativity.md",
@@ -188,13 +190,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-0209fa58.js",
+    "file": "pages/about.svelte-3dc60060.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-2cea1234.js",
+      "_store-09d075e0.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -214,13 +216,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-9b24f410.js",
+    "file": "pages/index@wide.svelte-038d5900.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-2cea1234.js",
+      "_store-09d075e0.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -276,7 +278,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -290,11 +292,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-63932919.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-5641ab83.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -493,7 +495,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -700,6 +702,22 @@
       "_BlinkAnchor-aec4dee8.js"
     ]
   },
+  "src/routes/posts/should-consumer-care-about-producer.md": {
+    "file": "pages/posts/should-consumer-care-about-producer.md-9f9e0982.js",
+    "src": "src/routes/posts/should-consumer-care-about-producer.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8418cccc.js",
+      "__post-d4178251.js",
+      "_BalloonQuote2-cd0e9e02.js",
+      "_BlinkAnchor-aec4dee8.js",
+      "_BorderedText-189d980f.js"
+    ],
+    "css": [
+      "assets/pages/posts/should-consumer-care-about-producer.md-d5b7c026.css"
+    ]
+  },
   "src/routes/posts/sticker-generator.md": {
     "file": "pages/posts/sticker-generator.md-ca98a6f2.js",
     "src": "src/routes/posts/sticker-generator.md",
@@ -743,7 +761,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list-system.md-29020d9f.css"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
@@ -757,7 +775,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list-system.md-29020d9f.css"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
@@ -771,7 +789,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list-system.md-29020d9f.css"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
@@ -786,7 +804,7 @@
     ]
   },
   "src/routes/posts/use-google-spreadsheet-as-database.md": {
-    "file": "pages/posts/use-google-spreadsheet-as-database.md-921c345a.js",
+    "file": "pages/posts/use-google-spreadsheet-as-database.md-ba46ea36.js",
     "src": "src/routes/posts/use-google-spreadsheet-as-database.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -852,19 +870,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-5540eeaa.js": {
-    "file": "chunks/Favicon-5540eeaa.js",
+  "_Favicon-b16f3a07.js": {
+    "file": "chunks/Favicon-b16f3a07.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-2cea1234.js",
+      "_store-09d075e0.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-2cea1234.js": {
-    "file": "chunks/store-2cea1234.js",
+  "_store-09d075e0.js": {
+    "file": "chunks/store-09d075e0.js",
     "imports": [
       "_index-17c965c3.js"
     ]

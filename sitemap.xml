@@ -9,18 +9,24 @@
   >
   <url>
     <loc>https://f6bfb5.github.io</loc>
-    <lastmod>2022-10-28T16:34:51+08:00</lastmod>
+    <lastmod>2022-10-29T16:53:32+08:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://f6bfb5.github.io/about</loc>
-    <lastmod>2022-10-28T16:34:51+08:00</lastmod>
+    <lastmod>2022-10-29T16:53:32+08:00</lastmod>
     <priority>1.00</priority>
   </url>
   
     <url>
       <loc>https://f6bfb5.github.io/2022-what-i-have-read-on-internet</loc>
       <lastmod>2022-12-31T06:00:00+08:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+  
+    <url>
+      <loc>https://f6bfb5.github.io/should-consumer-care-about-producer</loc>
+      <lastmod>2022-10-29T10:49:24+08:00</lastmod>
       <priority>0.80</priority>
     </url>
   
