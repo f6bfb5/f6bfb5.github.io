@@ -1067,6 +1067,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220902 [想要消滅延遲](https://www.youtube.com/watch?v=upVxCXWDlZk) 5:17
 - 220915 [遊戲領域的獎](https://www.youtube.com/watch?v=YbYdyyWgr6Y) 3:26
 - 221012 [邊打電動邊運動](https://www.youtube.com/watch?v=GvTHozPNZac) 2:56
+- 221031 [遊戲本體的價值](https://www.youtube.com/watch?v=9QBYT9Rdmuw) 2:47
 
 </div>
 <div style="width: 20em; min-width: 30%;">

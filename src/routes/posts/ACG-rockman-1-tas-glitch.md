@@ -9,7 +9,7 @@ summary: "2014 年 5 月，遊戲圈出現了一支使用輔助程式，在「�
 
 2014 年 5 月，遊戲圈出現了一支使用輔助程式，在**半分鐘內**通關《洛克人 1》的破天荒影片，而這種需要經過精密的機制解析，與流程操控的遊戲通關方式，僅隔一個月後，竟然出現人力操作達成同樣的成果，人類無極限！
 
-本文會對解說其中所使用的機制與流程。
+本文會解說其中使用的機制與流程。
 
 <iframe title="【TAS】 ロックマン 1 in 00:32.11 【任意コード実行】" width="560" height="315" src="https://www.youtube.com/embed/u5qom2q7cUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">

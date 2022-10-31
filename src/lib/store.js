@@ -344,6 +344,7 @@ export const marqueeTexts = readable([
   "チェンソーマンはね、服なんて着ないし、言葉を喋らないし、やる事全部がめちゃくちゃでなきゃいけないの",
   "穏やかじゃないですね",
   "確かに写ってたんだ、俺の娘…まるで天使みたいに笑って…",
+  "「ラスト…ラストなんで爆発させた？」「……最高だったでしょ？」",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",

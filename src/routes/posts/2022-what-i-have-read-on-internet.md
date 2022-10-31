@@ -2163,6 +2163,7 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [東京藝術大学の練習室の壁に書かれていた"心の叫び"が切ない「全員そう思ってる定期」「最高峰の藝大生でも思うことは同じなんだなぁ」](https://togetter.com/li/1964841)
 - [スシローをどの順番で食べれば一番おいしいのか考える](https://dailyportalz.jp/kiji/sushiro-taberu-jyun)
 - [覚醒剤盛られ事案についての平凡弁護士による一考察](https://anond.hatelabo.jp/20221028172134)
+- [【Destroy All Humans!】大塚芳忠さんの放置ボイスが面白すぎてゲームを再開できない戌神ころね+おまけ](https://www.nicovideo.jp/watch/sm41300709)
 
 
 <style scoped>
