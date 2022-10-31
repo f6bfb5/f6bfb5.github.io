@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-36006c11.js",
+    "file": "start-314e83cf.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -28,6 +28,7 @@
       "src/routes/posts/ACG-char-counterattack-fans-interview.md",
       "src/routes/posts/ACG-difference-of-director-and-producer.md",
       "src/routes/posts/ACG-does-anno-hideaki-really-dont-know-what-he-is-making.md",
+      "src/routes/posts/ACG-evening-chat-of-game-rockman1.md",
       "src/routes/posts/ACG-evening-chat-of-game-xenogears.md",
       "src/routes/posts/ACG-games-done-quick-introduction.md",
       "src/routes/posts/ACG-linda-cube-introduction.md",
@@ -72,14 +73,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-b137fe4a.js",
+    "file": "pages/__layout.svelte-404bb178.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-b16f3a07.js",
-      "_store-09d075e0.js",
+      "_Favicon-5ef6f6a4.js",
+      "_store-538cf9a0.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -113,14 +114,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-ea03f70d.js",
+    "file": "pages/__layout-wide.svelte-aa3dd4c7.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-b16f3a07.js",
-      "_store-09d075e0.js",
+      "_Favicon-5ef6f6a4.js",
+      "_store-538cf9a0.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -130,7 +131,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-1b97ddff.js",
+    "file": "pages/_slug_.svelte-b7e080e6.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -147,6 +148,7 @@
       "src/routes/posts/ACG-char-counterattack-fans-interview.md",
       "src/routes/posts/ACG-difference-of-director-and-producer.md",
       "src/routes/posts/ACG-does-anno-hideaki-really-dont-know-what-he-is-making.md",
+      "src/routes/posts/ACG-evening-chat-of-game-rockman1.md",
       "src/routes/posts/ACG-evening-chat-of-game-xenogears.md",
       "src/routes/posts/ACG-games-done-quick-introduction.md",
       "src/routes/posts/ACG-linda-cube-introduction.md",
@@ -190,13 +192,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-3dc60060.js",
+    "file": "pages/about.svelte-383486e3.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-09d075e0.js",
+      "_store-538cf9a0.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -216,13 +218,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-038d5900.js",
+    "file": "pages/index@wide.svelte-6c787816.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-09d075e0.js",
+      "_store-538cf9a0.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -278,7 +280,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
+      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -292,11 +294,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
+      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-5641ab83.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-9bf34673.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -356,6 +358,17 @@
       "assets/pages/posts/ACG-does-anno-hideaki-really-dont-know-what-he-is-making.md-c42162b7.css"
     ]
   },
+  "src/routes/posts/ACG-evening-chat-of-game-rockman1.md": {
+    "file": "pages/posts/ACG-evening-chat-of-game-rockman1.md-ce518f1d.js",
+    "src": "src/routes/posts/ACG-evening-chat-of-game-rockman1.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8418cccc.js",
+      "__post-d4178251.js",
+      "_BlinkAnchor-aec4dee8.js"
+    ]
+  },
   "src/routes/posts/ACG-evening-chat-of-game-xenogears.md": {
     "file": "pages/posts/ACG-evening-chat-of-game-xenogears.md-fb0541c0.js",
     "src": "src/routes/posts/ACG-evening-chat-of-game-xenogears.md",
@@ -412,7 +425,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-4e9ba247.js",
+    "file": "pages/posts/ACG-note.md-8baad3e4.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -452,7 +465,7 @@
     ]
   },
   "src/routes/posts/ACG-rockman-1-tas-glitch.md": {
-    "file": "pages/posts/ACG-rockman-1-tas-glitch.md-f732de41.js",
+    "file": "pages/posts/ACG-rockman-1-tas-glitch.md-81b37a28.js",
     "src": "src/routes/posts/ACG-rockman-1-tas-glitch.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -495,7 +508,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
+      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -761,7 +774,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
@@ -775,7 +788,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
@@ -789,7 +802,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
@@ -870,19 +883,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-b16f3a07.js": {
-    "file": "chunks/Favicon-b16f3a07.js",
+  "_Favicon-5ef6f6a4.js": {
+    "file": "chunks/Favicon-5ef6f6a4.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-09d075e0.js",
+      "_store-538cf9a0.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-09d075e0.js": {
-    "file": "chunks/store-09d075e0.js",
+  "_store-538cf9a0.js": {
+    "file": "chunks/store-538cf9a0.js",
     "imports": [
       "_index-17c965c3.js"
     ]
