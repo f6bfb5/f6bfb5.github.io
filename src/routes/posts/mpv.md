@@ -158,6 +158,9 @@ mpv 可以使用 lua 語言撰寫第三方套件，套件檔案通常放置於 `
 - https://github.com/Samillion/mpv-ytdlautoformat
 - [mpv-gif-generator](https://github.com/the-honey/mpv-gif-generator)
 - [VariousDanmakuScripts](https://github.com/hmm5/VariousDanmakuScripts)
+- [mpv-lazy 第三方着色器](https://hooke007.github.io/mpv-lazy/[01]_%E7%AC%AC%E4%B8%89%E6%96%B9%E7%9D%80%E8%89%B2%E5%99%A8%E4%BB%8B%E7%BB%8D.html)
+- [Play-With-MPV](https://github.com/LuckyPuppy514/Play-With-MPV)
+- [MPV-Play-BiliBili-Comments](https://github.com/itKelis/MPV-Play-BiliBili-Comments)
 
 ## 外部連結
 

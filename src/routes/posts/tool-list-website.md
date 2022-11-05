@@ -297,6 +297,7 @@ tags: Toolbox
 | [現代麻雀技術論][]                                                 | 日本麻將戰術介紹                       |
 
 - [同人用語の基礎知識](https://www.paradisearmy.com/doujin/index.html)
+- [コンプリート・シャーロック・ホームズ](https://221b.jp/)
 
 [poolsuite fm]: https://poolsuite.net/
 [drive & listen]: https://driveandlisten.herokuapp.com/

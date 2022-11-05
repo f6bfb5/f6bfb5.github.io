@@ -249,6 +249,8 @@ export const logoLinks = readable([
   "https://comic-days.com/episode/3270296674337088734",
   // 全力Bird - しのと
   "https://shonenjumpplus.com/episode/316112896884974402",
+  // 77:PRINCESS - 水田マル
+  "https://comic-days.com/episode/316112896867009003",
 ]);
 
 export const marqueeTexts = readable([
@@ -345,6 +347,9 @@ export const marqueeTexts = readable([
   "穏やかじゃないですね",
   "確かに写ってたんだ、俺の娘…まるで天使みたいに笑って…",
   "「ラスト…ラストなんで爆発させた？」「……最高だったでしょ？」",
+  "それとも　お前　何十年も修行して達人にでもなるのを待ってから戦場に出るつもりか？気の長げェ話だな",
+  "現実と虚構が入り乱れる情報社会、人は自分の存在にすら自信を失っていく。その不安をかきけすようにつながろうとしている人々、それがたいして意味がなくても…見えるはずもない新しい扉を見つめ、この世界を閉じてしまう",
+  "人生という限られた時間を無駄無く生きよう、などと考えてはいけません。「無駄」という時間など、そもそも存在しないのですから。たっぷりと無駄な時間を過ごしてこそ、人生はその真の姿を開示してくれるものなのです。駄作愚作珍作怪作にこそ映画本来の醍醐味があります。",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",

@@ -380,7 +380,7 @@ tags: ACG, Anime
   - 段落架構 - 連結起來的感受
   - 作監 - 畫技／畫風統一
 - [今まで誰も気づかないし今後も気づかれないから解析動画作った！](https://twitter.com/bLACKsHEP1969/status/1125030157805207552)
-- [雷斯那 SPT 關於作畫的注意事項很有趣。上面寫有 「請不要接著前面的畫面畫下去」...](https://twitter.com/mizpi/status/1125278952962965504)
+- [雷斯那 SPT 關於作畫的注意事項很有趣。上面寫有「請不要接著前面的畫面畫下去」...](https://twitter.com/mizpi/status/1125278952962965504)
 - [「不管是多無理的事情，都有能讓它增加真實性的動態。在巨大的謊言裡畫出真實，這是只有動畫才做得到的事。」](https://twitter.com/kobakin1967/status/1172749501800402944)
 - [← よく見る制作工程　　現実 →](https://twitter.com/caoryu_YS/status/1561301501896962048)
 - [アニメ業界世界最強リンク集](https://nikukoppun.ikaduchi.com/)
@@ -1044,6 +1044,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 ### I. 聲音
 
 - 221014 [適合遊戲的節奏感](https://www.youtube.com/watch?v=fyJfldsCAyE) 2:35
+- 221102 [依重要度平衡效果音](https://www.youtube.com/watch?v=Zf8o_0J3p-o) 4:47
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1051,6 +1052,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 ### J. UI
 
 - 220928 [易懂性與設計性](https://www.youtube.com/watch?v=0Va3ue6Qk-0) 3:20
+- 221104 [文字的大小](https://www.youtube.com/watch?v=5JRzM5vaRI0) 3:00
 
 </div>
 <div style="width: 20em; min-width: 30%;">

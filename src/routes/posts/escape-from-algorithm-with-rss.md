@@ -40,3 +40,7 @@ RSS 是個 1999 年出現，可說有段歷史的資訊來源規範，大致上�
 - [報導者](https://public.twreporter.org/rss/twreporter-rss.xml)
 - [[はてブ]関連ページ・RSS 一覧](https://anond.hatelabo.jp/20220521220951)
 - [Get podcasts RSS Feed Urls](https://getrssfeed.com/)
+
+## 延伸閱讀
+
+- [Use RSS for privacy and efficiency](https://rsapkf.org/weblog/q2z)

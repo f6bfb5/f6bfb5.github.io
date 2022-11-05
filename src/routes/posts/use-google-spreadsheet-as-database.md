@@ -447,10 +447,10 @@ function onEdit(e) {
 
 ### 撰寫 Discord Webhook
 
-- 建立 Webhook
+- 建立 Discord 獲取 Webhook 用的網址
   - 點擊 Discord 頻道右邊的齒輪鍵
   - 點擊 `Integrations` -> `Create Webhook` -> `Copy Webhook URL`
-- 撰寫 GAS
+- 撰寫 GAS 的通知函式
   - [UrlFetchApp](https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app)
     - `UrlFetchApp.fetch(url[, params])`
   - params
@@ -467,12 +467,14 @@ function onEdit(e) {
 ```javaScript
 function sendToDiscord(message) {
   const url      = ''; // 上方建立的 Webhook 網址
+
   const token    = ''; // Webhook 網址後半的 token 部份
                        // * 未確認是否已不需要
   const channel  = '#general';
   const text     = message;
   const username = 'bot';
   const parse    = 'full';
+
   const method   = 'POST';
 
   const payload = {
@@ -490,6 +492,28 @@ function sendToDiscord(message) {
   };
 
   response = UrlFetchApp.fetch(url, params);
+}
+```
+
+### Unit Test
+
+```javascript
+function assert(cond) {
+  if (cond !== true) throw 'NG'
+}
+
+function assertEquals(actual, expected) {
+  if (actual !== expected) throw `NG: ${actual} !== ${expected}`
+}
+
+function assertThrows(func) {
+  try {
+    func();
+  } catch (e) {
+    Logger.log(e);
+    return ;
+  }
+  throw 'NG: No expection.';
 }
 ```
 
@@ -525,6 +549,15 @@ var xlsxFile = UrlFetchApp.fetch(fetchUrl, fetchOpt)
 - [法改正情報を早く確実にキャッチするために GAS で自動化するツールを作って運用してみた。](https://qiita.com/yamaguchi_yo/items/09bfc5c32faffa3beb62)
 - [スクレイピングいろいろ](https://qiita.com/cyoi0129/items/1cafb446dbe176e9366e)
 - [【Google Apps Script】トリガーによる定期実行の時間のズレをなくす方法](https://qiita.com/tapatyo/items/465a982635ba3933b32d)
+
+## Google Charts
+
+- QR Code
+  - [QR 圖碼](https://developers.google.com/chart/infographics/docs/qr_codes)
+  - 可以透過網址請求即時取得 QR Code 的圖片
+  - `https://chart.googleapis.com/chart?chs=450x450&cht=qr&chl=`[內容文字]
+    - ![google charts qr code example](https://chart.googleapis.com/chart?chs=450x450&cht=qr&chl=example)
+  - 但此 API 已不再維護，隨時都可能無法再使用
 
 ## [番外？] 客製化 Google Form
 

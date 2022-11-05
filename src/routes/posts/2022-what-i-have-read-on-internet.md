@@ -2155,8 +2155,8 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [横浜のイカれたマンションを紹介するぜ！→ その特殊な立地による異常住宅が大集合「探検してみたい」（※非横浜あり）](https://togetter.com/li/1964395)
 - [ナナイ・ミゲルからシャア・アズナブルへの質問と確認と安堵と絶望 ＜映画『機動戦士ガンダム 逆襲のシャア』でのすれちがい宇宙＞](https://highlandview.blog.fc2.com/blog-entry-267.html)
 - [横浜の真ん中にある神社が新海誠の世界観](https://dailyportalz.jp/kiji/shrine-in-Yokohama-is-world-of-Makoto-Shinkai)
-- [下戸で漫画音痴が調布のジャクソンホールに行って10年のモヤモヤを一掃した話 - ココロ社](https://kokorosha.hatenablog.com/entry/2022/10/27/194852)
-- [樋口円香の事、何も知りたくなかった──](https://gerittin-ed.fanbox.cc/posts/4659672)
+- [下戸で漫画音痴が調布のジャクソンホールに行って 10 年のモヤモヤを一掃した話 - ココロ社](https://kokorosha.hatenablog.com/entry/2022/10/27/194852)
+- [樋口円香の事、何も知りたくなかった ──](https://gerittin-ed.fanbox.cc/posts/4659672)
 - [そこに虹がなくても - 東山千](https://shonenjumpplus.com/episode/316190246907573867)
 - [井伊商店さんの麦味噌が味噌と名乗れない問題についてちょっと解説 - 醤油手帖](https://shouyutechou.hatenablog.com/entry/2022/10/28/013929)
 - [【現場猫】その仕事、本当に今日中ですか？！「定時間際業務撲滅運動啓発ポスター」](https://togetter.com/li/1964797)
@@ -2164,7 +2164,110 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [スシローをどの順番で食べれば一番おいしいのか考える](https://dailyportalz.jp/kiji/sushiro-taberu-jyun)
 - [覚醒剤盛られ事案についての平凡弁護士による一考察](https://anond.hatelabo.jp/20221028172134)
 - [【Destroy All Humans!】大塚芳忠さんの放置ボイスが面白すぎてゲームを再開できない戌神ころね+おまけ](https://www.nicovideo.jp/watch/sm41300709)
-
+- [「ことばはどうやってうまれたの？」という小１の息子の質問にこたえられるような本を探しています。](https://crd.ndl.go.jp/reference/modules/d3ndlcrdentry/index.php?page=ref_view&id=1000322793)
+- [[特別読切] 人間メイドロボめるる - あきやまえんま](https://tonarinoyj.jp/episode/316190246910482420)
+- [新橋駅から徒歩 12 秒の建物に住めるらしい](https://note.com/sabatice/n/n9123d5d8299d)
+- [瀧は本当に主人公だったのか？「非常に稀な経歴の監督」新海誠が起こした『君の名は。』という事件](https://bunshun.jp/articles/-/58293)
+- [美しい姉弟 - 堤翔](https://kuragebunch.com/episode/316190246913075672)
+- [「白米とカレーみたい...」蕎麦屋の店先で仕事するネコたちが可愛すぎる](https://togetter.com/li/1964969)
+- [メンタルの不調に効く方法教えて](https://anond.hatelabo.jp/20221028200247)
+- [思春期の子供に読ませたい三大マンガ](https://anond.hatelabo.jp/20221028215021)
+- [300 円テトリスに好きな画像を出すまでの道のり - inajob's blog](https://inajob.hatenablog.jp/entry/tetris-hack)
+- [駅弁「JR 貨物コンテナ弁当」がすっげーワクワクするしウマイ！](https://getnews.jp/archives/3353456)
+- [スーファミソフト「ジーコ サッカー」の未開封新品(無改造/未瞳)が店頭入荷、1 本 9,800 円](https://akiba-pc.watch.impress.co.jp/docs/wakiba/find/1451637.html)
+- [「歩と金だとカーストに差がありすぎる」対局帰りの将棋の駒たちを描いた漫画が切なくも面白い](https://togetter.com/li/1965310)
+- [とある駅にある "やる気のない改札" が想像を超えるやる気のなさでびっくり「これ改札なのか…？」](https://togetter.com/li/1965321)
+- [『海外に行った時に歴史事象について語ると、100%驚かれる』…それだけ、大学受験レベルの世界史にはちゃんと書いてある。](https://togetter.com/li/1965233)
+- [戦前の映画検閲でカットされた"切除フィルム"が YouTube で公開され話題に　「日本映画史資料として最高に貴重」「国立機関だからこそ出来る偉業」](https://nlab.itmedia.co.jp/nl/articles/2210/29/news062.html)
+- [肋骨凹介先生の漫画「エビのエビデンス」がコミカルだがしっかり SF ホラーで楽しい](https://togetter.com/li/1965401)
+- [ファミレス『ココス』の期間限定ケーキ、見本とは別人の実物が面白くて"うちの子も見て祭" 始まる「個体差激しいｗ」](https://togetter.com/li/1965379)
+- [さいとうなおき先生「自分は天才級だと信じ込んできた勘違い野郎の僕は何とか生き残ってますが、一流になるまで発表を控えた仲間達はいつのまにか消えてきました」](https://togetter.com/li/1965471)
+- [10 歳息子が Scratch でゲームを作ってたらプログラムを上書きして消してしまい「プログラミングなんてやらない！もう嫌だ！」と大泣きした → その結果がとてもいい話](https://togetter.com/li/1965515)
+- [キライキライネーム - 大森えす](https://shonenjumpplus.com/episode/316190246913848704)
+- [フランス大使館にタヌキ大使が突然来館され、居合わせた職員と秋の味覚やハロウィンからみる人間の変身技術の近年の向上などについて意見交換されました](https://togetter.com/li/1965540)
+- [アントニオ猪木が「行けばわかるか…」と歩いた先で待っていたのは…「プロレススーパースター列伝」漫画家が捧げた"最後の作品"](https://bunshun.jp/articles/-/58243)
+- [『魔法少女まどか ☆ マギカ』放送前の『一言も嘘は言ってないのに多くの視聴者を騙した』あの記事を書いた人が判明し盛り上がる当時の視聴者](https://togetter.com/li/1965843)
+- [約 50 年前と今の東京の同じ場所の風景を見比べると煙たさが全く違う件「ずいぶん綺麗になりましたね」](https://togetter.com/li/1965829)
+- [「Q 鎌倉幕府や室町幕府がなぜ江戸幕府みたいに安定しなかったの？」「A.江戸幕府がおかしいんだよ」→ なにが優れていたのかという知識が集まるまとめ](https://togetter.com/li/1965872)
+- [ネオ・フォークロア - 八丸真幸](https://shonenjumpplus.com/episode/316190246913848885)
+- [作者冥利に尽きる - ゆーすけべー日記](https://yusukebe.com/posts/2022/creator/)
+  - [yak shaving で人生の問題の 80%が説明できる問題 - bk ブログ](http://0xcc.net/blog/archives/000196.html)
+- [Wi-Fi ルーターの中身はどうなっている？ どう動く？ Linksys「E7350」を分解してみた【イニシャル B】](https://internet.watch.impress.co.jp/docs/column/shimizu/1449886.html)
+- [Ado さんがプリキュアを歌ったことが批判された件は非実在型炎上だったのか（鳥海不二夫）](https://news.yahoo.co.jp/byline/toriumifujio/20221031-00321826)
+- [ある海外個人開発者が Unity で「現代日本の街 VR」を制作中。ありふれた街を作りこむこだわり、看板の日本語もバッチリ](https://automaton-media.com/articles/newsjp/20221031-224786/)
+- [ねこがいる](https://dailyportalz.jp/kiji/neko-ga-iru)
+- [『北斗の拳』を履修しようと読み始めたところあまりにもハードすぎてもうネタにできないと感じてしまった](https://togetter.com/li/1966267)
+- [NASCAR でなんと"壁激突走法"を敢行したレーサーが登場。かつて子供の頃にゲームで学んだ裏技で 5 位に滑り込む](https://www.famitsu.com/news/202210/31281053.html)
+- [ドラッグに暴力…作者が明かす異色漫画『地元最高！』誕生秘話](https://friday.kodansha.co.jp/article/269489)
+- [フルで聞きたい CM ソング](https://anond.hatelabo.jp/20221031002619)
+- [鎌倉観光は朝が最高 ！人混み・混雑を全て避けるモデルコース](https://travel.spot-app.jp/kamakura_morning/)
+- [本を読んだことがない 32 歳が初めて「走れメロス」を読む日](https://omocoro.jp/bros/kiji/366606/)
+- [マイクラで再現した都市風景「またまた w 写真でしょ w」→「ちゃんとマイクラだわ…」](https://togetter.com/li/1966275)
+- [アリの顔をクローズアップ、驚愕の写真が入賞](https://www.cnn.co.jp/style/arts/35195390.html)
+- [いろは坂でホンダのヴェゼルがやたらと立ち往生していたけど、『i-DCD ハイブリッドシステム』の弱点が原因ではないか](https://togetter.com/li/1966432)
+- [コミケで将棋倒しは「起きています」。 C58（2000 年夏）3 日目西館将棋倒し事件。](https://twitter.com/bottikurihu/status/1586996852477476864)
+- [小林眞理子先生の漫画「タイのひとびと『田舎町の鉄仮面少女』」のタイの綾波レイが超可愛い](https://togetter.com/li/1966619)
+- [どん兵衛アニメどんぎつねシリーズに早見ボイスのけも耳ハイカラ少女登場で性癖を歪ませにきてる…！](https://togetter.com/li/1966670)
+- [決して他人に食べさせられない自分だけの料理、真の孤独のグルメを食べさせ合う会開催](https://dailyportalz.jp/kiji/lets-eat-gourmet-of-loneliness)
+- [記憶を消して読みたい漫画 - タカノンノ](https://kuragebunch.com/episode/316190246913084896)
+- [「スピーカーの中に入ったボーロを取り出す方法」SNS で難題を募集 → わずか 1 時間で解決　「天才かよ」「Twitter すごい」と話題に](https://nlab.itmedia.co.jp/nl/articles/2210/31/news184.html)
+- [77:PRINCESS - 水田マル](https://comic-days.com/episode/316112896867009003)
+- [Moderation Is Different From Censorship](https://astralcodexten.substack.com/p/moderation-is-different-from-censorship)
+  - 感想：討論管制和審查之間的差異蠻有趣的，雖然對於結論有些失望，就像文中也有舉製造炸彈、兒童色情或遭到反利用等等例子，或有些回覆提到的報復色情、煽動恐怖主義或騷擾個人的內容，只用軟性管制並沒有效，最後還是會回到標準該如何訂定、由誰來執行與判斷的問題
+- [伝わる文章](https://smarthr.design/basics/text/)
+- [20 年もたったらソースは 5 ちゃんしか残らんのだなあ](https://anond.hatelabo.jp/20221102115759)
+  - 20 年前剛接觸到網路時，真的有種一切都會一直留著的感覺，但並不會，甚至連 2 年前的網路內容都可能轉眼就消失無蹤，即使有留下來，也可能因為缺乏文脈導致不同的解釋
+  - 雖然各國的類似網站近幾年都陸續傳出不太好的消息或新聞，但就這則討論而言，2ch 確實體現了純文字在搜索便利性或小容量帶來的耐久性
+    - [always bet on text](https://graydon2.dreamwidth.org/193447.html)
+- [イーロン・マスクが Twitter 買ってからやったことまとめ](https://www.gizmodo.jp/2022/11/what-elon-did-after-he-bought-twitter.html)
+- [山で 10 日にわたり遭難 "きっかけは道標" 奈良 八経ヶ岳で 登山の心構えは](https://www3.nhk.or.jp/news/special/jiken_kisha/anshin/anshin14/)
+- [おちてよ、ケンさん - 鳥トマト](https://shonenjumpplus.com/episode/316190246926677072)
+- [地下司令部の文書でたどる、ロシア軍敗走までの日々](https://graphics.reuters.com/UKRAINE-CRISIS/ROULETTE/zdvxdykbevx/)
+- [アニメーターになるって決めたときにネット漁ってたらこのコピペ見かけた。 書かれてる通りに練習して、お陰でだいぶ力ついたと思う。 ](https://twitter.com/goodsleepy2/status/1587802443920076802)
+  - B 鉛筆、A4 20 枚描けでウォーミングアップ
+  - 電脳コイル ビジュアルコレクション
+  - アニメーターズ・サバイバルキット
+  - アニメーションの本
+- [国立新美術館に「間違った向きの作品」があると聞いたので確かめてきた](https://omocoro.jp/kiji/367790/)
+- [人工肛門は自分の意志で制御できないので、何の前触れもなくフルパワーのオナラが出ちゃったりする「そんな大変さがあるのか」](https://togetter.com/li/1967628)
+- [オービスに気づかず 3 回映ってしまった結果免許取り消し。法定速度を守り安全に運転してください。](https://togetter.com/li/1967517)
+- [家族 4 人で食費 3 万円！極端な節約術にご用心（成田崇信）](https://news.yahoo.co.jp/byline/naritatakanobu/20221103-00322438)
+- [いつもコミュニケーションエラーで周囲とイザコザを起こしている系のヤツ](https://anond.hatelabo.jp/20221103200912)
+- [東京駅から乗換 1 回でどこまで行ける？検証した地図が圧巻　「日本の鉄道網、スゴイ！」と話題](https://maidonanews.jp/article/14757100)
+- [創作で中国史ものを書く人は、時代によって黄河の位置がビビるほど違うから気を付けて](https://togetter.com/li/1967848)
+- [『残酷な天使のテーゼ』作詞の及川眠子氏「音楽はタダじゃねえ」「JASRAC に信託してますが(略)著作権も及川にあります」](https://togetter.com/li/1967860)
+- [なんのっこれしき！ - 鳩胸つるん](https://shonenjumpplus.com/episode/316190246929835797)
+- [新規事業をやる時に見返している「ソニーの開発 18 ヵ条」](https://twitter.com/yusuke_56/status/1588315091732152320)
+  - 要做客人需要的東西，而不是客人想要的東西
+  - 用自己的視角，而不是客人的視角做東西
+  - 用必要性、必然性決定規模與成本目標，而不是可能性
+  - 或許市場已經成熟了，但商品沒有成熟
+  - 做不到的理由就是做得到的證據。只要解決做不到的理由就行
+  - 比起廉價提供好東西，不如快速提供新東西
+  - 解決商品弱點就會催生全新市場，改良商品優點就能拓寬現在市場
+  - 耗費多少智慧，就有多少價值
+  - 沒有能勝過企劃上的智慧的 cost down
+  - 後起步的失敗是無法挽回的
+  - 東西賣不出去，不是太貴就是太糟
+  - 新種子（商品）要灑在能長的田
+  - 開始在乎其他公司的動向，就是失敗的開始
+  - 可能與困難都是可能的一部分
+  - 不能有勇無謀，但該突破自我。跨過那一條線，才會有新觀念
+  - 新技術的宿命就是被下個技術取代。而技術行家的極上榮耀就是自己達成這事。自己不做，其他公司就會做。商品成本也是如此
+  - 市場不是調查出來，而是創造出來的。世上首個商品推出時，根本無從調查，調查到的東西也不可信
+  - 若是不幸遇到沒骨氣的上司，就別把新點子告訴上司，先自己默默做出成品（原型）
+- [ファクトチェック：ファイザー社長が「私は健康だから(ワクチンを)絶対に打たない」と発言したという動画は不正確](https://factcheckcenter.jp/n/n55657f1b1d5e)
+- [れてんっていう youtuber のトークライブに行ったらゲロほどつまらんかっ](https://anond.hatelabo.jp/20221010200558)
+- [米津玄師「KICK BACK」をきっかけに振り返る、「努力 未来 A BEAUTIFUL STAR」 のフレーズが生まれた理由。](https://note.tsunku.net/n/nff15e1bc0c9b)
+- [オタ活かかわる法律をまとめた『オタク六法』発売　「作品をパクられた」「無断転載された」「勝手にコレクションを捨てられた」など解決法を解説](https://nlab.itmedia.co.jp/nl/articles/2211/04/news051.html)
+- [新井すみこ先生の漫画「気になってる人が男じゃなかった」の第一章が完。単行本化を期待する声](https://togetter.com/li/1968253)
+- [住民票を貰いに役所に行ったら「住民票の写しの原本」という謎ワードの餌食になった話 → こうやって理解しよう](https://togetter.com/li/1968226)
+- [なんか自分のカメラに「対戦機能」があるんだけど...→ 実際に対戦した様子がしっかり"バトル"「狂気のペンタックス好き」](https://togetter.com/li/1968254)
+- [ニンテンドー3DS向けゲームだけで87本。アークシステムワークスはなぜこれほどDLゲームを出していたのか？そもそも売れていたのか？当時のスタッフに訊く](https://automaton-media.com/articles/interviewsjp/20221105-225483/)
+- [アムウェイより苦情の多いD2C企業一覧 化粧品・健康食品 通販企業の苦情グラフ](https://note.com/kazuo_dobashi/n/n9ae5c64e1dc4)
+- [貧乏ラブコメ三国時代の終わりとラブコメ漫画の終わらせ方あれこれ](https://anond.hatelabo.jp/20221105115632)
+- [生魚の異臭が…東京屈指の"高級住宅街"で地上げトラブル「バブル期並みの悪質さ」](https://bizspa.jp/post-699224/)
+- [人気で即完売した『猫feel』が届いた方による猫かどうかの感想→猫さん（本物）が奪っていた「柔らかですべすべ」](https://togetter.com/li/1968685)
 
 <style scoped>
 li a {

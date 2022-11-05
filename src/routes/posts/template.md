@@ -73,6 +73,7 @@ Second Paragraph That's one small step for man, one giant leap for mankind.
 
 - [HTML character entities](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML)
 - [gihyo.jp 編集部における Markdown 記法](https://gihyo.jp/article/2022/08/gihyojp-markdown)
+- [マークアップのわかり方](https://yuheiy.com/2022-11-03-how-to-understand-the-markup)
 
 &copy; &reg; &para; &micro; &times; &divide; &deg; &plusmn; ＆nbsp;
 
@@ -100,7 +101,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <summary>Details element summary</summary>
 
-details element description
+<div>
+  details element description
+</div>
 
 </details>
 
@@ -406,7 +409,32 @@ flowchart TB
     <span style="padding: 0 .25em; background-color: #fe2728; color: white;">#fe2728</span>
     <span style="padding: 0 .25em; background-color: #6db714; color: white;">#6db714</span>
     <span style="padding: 0 .25em; background-color: #19a3c8; color: white;">#19a3c8</span>
-    <span style="padding: 0 .25em; color: #eee; background-color: #2a2928;">#2a2928</span>
+    <span style="padding: 0 .25em; background-color: #2a2928; color: #eee;">#2a2928</span>
+  </div>
+  <!-- https://ethanschoonover.com/solarized/ -->
+  <div style="margin-top: 8px;">
+    <span style="padding: 0 .25em; background-color: #002b36; color: white;">#002b36</span>
+    <span style="padding: 0 .25em; background-color: #073642; color: white;">#073642</span>
+    <span style="padding: 0 .25em; background-color: #586e75; color: white;">#586e75</span>
+    <span style="padding: 0 .25em; background-color: #657b83; color: white;">#657b83</span>
+  </div>
+  <div style="margin-top: 8px;">
+    <span style="padding: 0 .25em; background-color: #839496; color: white;">#839496</span>
+    <span style="padding: 0 .25em; background-color: #93a1a1; color: white;">#93a1a1</span>
+    <span style="padding: 0 .25em; background-color: #eee8d5; color: black;">#eee8d5</span>
+    <span style="padding: 0 .25em; background-color: #fdf6e3; color: black;">#fdf6e3</span>
+  </div>
+  <div style="margin-top: 8px;">
+    <span style="padding: 0 .25em; background-color: #b58900; color: white;">#b58900</span>
+    <span style="padding: 0 .25em; background-color: #cb4b16; color: white;">#cb4b16</span>
+    <span style="padding: 0 .25em; background-color: #dc322f; color: white;">#dc322f</span>
+    <span style="padding: 0 .25em; background-color: #d33682; color: #eee;">#d33682</span>
+  </div>
+  <div style="margin-top: 8px;">
+    <span style="padding: 0 .25em; background-color: #6c71c4; color: white;">#6c71c4</span>
+    <span style="padding: 0 .25em; background-color: #268bd2; color: white;">#268bd2</span>
+    <span style="padding: 0 .25em; background-color: #2aa198; color: white;">#2aa198</span>
+    <span style="padding: 0 .25em; background-color: #859900; color: #eee;">#859900</span>
   </div>
 </div>
 <AutomaticColorText backgroundColor="#00ff95" text="text" />
@@ -637,6 +665,26 @@ ipconfig /flushdns
   <figcaption>AKIHABARA STATION</figcaption>
 </figure>
 
+<div style="display: flex;">
+{#each [1,2,3] as i}
+<div style="position: relative; margin: 0 .5rem; padding-top: 1.5rem;
+  border-radius: 0.5rem; background-color: #004466;">
+  <h4 style="position: sticky; float: right;  top: 0;
+    margin-top: -1.5rem; margin-right: 0; margin-bottom: 0;
+    padding: 0.25rem 0.75rem;
+    border-top-right-radius: 0.5rem; border-bottom-left-radius: 0.5rem;
+    background-color: #00ff95; border: none;">
+    Lorem
+  </h4>
+  <div style="padding: 1rem; color: white;">
+    <p style="font-size: 1rem;">
+      淡漠、什麼精神官能症、各種障礙、非精神病性的繭居族、新型憂鬱症……社會總踩著「是你（無法適應者）的錯，是你很異常」的立場，對於我寫的這些內容，也會覺得非常悲慘吧（實際上在社會裡確實是悲慘的），但心理上（如果沒有旁人的說教或生活上的困頓）是比「以前」更加舒適，也不會再對將來感到不安。當然這不是克服了不安，只是連不安都被虛無吞噬了。在壓倒性的背反邏輯面前，「將來」或「問題」已失去了一切重要性。只剩下「夠了，我不做了」。不會有「我要活在當下！做我想做的事！」這種積極性，在「看見」之後，能做的只有認命。
+    </p>
+  </div>
+</div>
+{/each}
+<div>
+
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
   import BalloonQuote from "$lib/BalloonQuote.svelte";
@@ -732,6 +780,7 @@ ipconfig /flushdns
       background-position: 200%;
     }
   }
+  /* ---------- */
 
   .hi {
     width: 50px;
@@ -768,6 +817,8 @@ ipconfig /flushdns
       background-position-y: -900px;
     }
   }
+
+  /* ---------- */
 
   .sliding-background-text {
     position: relative;
@@ -807,6 +858,8 @@ ipconfig /flushdns
       left: 100%;
     }
   }
+  
+  /* ---------- */
 
   .skew-button-text {
     position: relative;
@@ -826,6 +879,8 @@ ipconfig /flushdns
   .skew-button-text:hover::before {
     background-color: rgba(255, 255, 255, .2);
   }
+  
+  /* ---------- */
 
   .sliver-glitter {
     background-image: repeating-linear-gradient(75deg, #555555 0, #999999 25px, #f3f3f3 40px, #999999 65px, #555555 100px);
@@ -849,6 +904,8 @@ ipconfig /flushdns
       background-position-y: calc(50px + 25.8819px);
     }
   }
+
+  /* ---------- */
   
   .adjusted-image-border {
     position: relative;
@@ -863,4 +920,24 @@ ipconfig /flushdns
     box-shadow: 0 0 0 2px rgb(220 220 220) inset;
     mix-blend-mode: darken;
   }
+
+  /* ---------- */
+
+  details {
+    padding: 0;
+  }
+  details summary {
+    cursor: pointer;
+    background: var(--bg-color);
+    border-radius: 6px;
+  }
+  details summary > * {
+    display: inline;
+  }
+  details summary,
+  details > div {
+    padding: 1rem;
+  }
+
+  /* ---------- */
 </style>
