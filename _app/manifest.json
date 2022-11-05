@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-314e83cf.js",
+    "file": "start-c2883874.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -54,6 +54,7 @@
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
       "src/routes/posts/login-with-discord.md",
+      "src/routes/posts/moving-to-pop-os.md",
       "src/routes/posts/mpv.md",
       "src/routes/posts/my-recommended-youtube-channels-list.md",
       "src/routes/posts/operating-with-keyboard.md",
@@ -73,14 +74,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-404bb178.js",
+    "file": "pages/__layout.svelte-a375c414.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-5ef6f6a4.js",
-      "_store-538cf9a0.js",
+      "_Favicon-ac7a7beb.js",
+      "_store-afdf9b75.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -114,14 +115,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-aa3dd4c7.js",
+    "file": "pages/__layout-wide.svelte-1e407a3c.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-5ef6f6a4.js",
-      "_store-538cf9a0.js",
+      "_Favicon-ac7a7beb.js",
+      "_store-afdf9b75.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -131,7 +132,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-b7e080e6.js",
+    "file": "pages/_slug_.svelte-15f91009.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -174,6 +175,7 @@
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
       "src/routes/posts/login-with-discord.md",
+      "src/routes/posts/moving-to-pop-os.md",
       "src/routes/posts/mpv.md",
       "src/routes/posts/my-recommended-youtube-channels-list.md",
       "src/routes/posts/operating-with-keyboard.md",
@@ -192,13 +194,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-383486e3.js",
+    "file": "pages/about.svelte-d17b02b7.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-538cf9a0.js",
+      "_store-afdf9b75.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -218,13 +220,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-6c787816.js",
+    "file": "pages/index@wide.svelte-6279ca47.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-538cf9a0.js",
+      "_store-afdf9b75.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -280,7 +282,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -294,11 +296,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-9bf34673.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-7bc16f61.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -425,7 +427,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-8baad3e4.js",
+    "file": "pages/posts/ACG-note.md-ea36ab72.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -508,7 +510,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -611,7 +613,7 @@
     ]
   },
   "src/routes/posts/escape-from-algorithm-with-rss.md": {
-    "file": "pages/posts/escape-from-algorithm-with-rss.md-8d702188.js",
+    "file": "pages/posts/escape-from-algorithm-with-rss.md-59ab6a8b.js",
     "src": "src/routes/posts/escape-from-algorithm-with-rss.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -657,8 +659,19 @@
       "assets/pages/posts/login-with-discord.md-f6cfa176.css"
     ]
   },
+  "src/routes/posts/moving-to-pop-os.md": {
+    "file": "pages/posts/moving-to-pop-os.md-0a1cb383.js",
+    "src": "src/routes/posts/moving-to-pop-os.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8418cccc.js",
+      "__post-d4178251.js",
+      "_BlinkAnchor-aec4dee8.js"
+    ]
+  },
   "src/routes/posts/mpv.md": {
-    "file": "pages/posts/mpv.md-f26d781e.js",
+    "file": "pages/posts/mpv.md-eb796f55.js",
     "src": "src/routes/posts/mpv.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -747,7 +760,7 @@
     ]
   },
   "src/routes/posts/template.md": {
-    "file": "pages/posts/template.md-565808af.js",
+    "file": "pages/posts/template.md-df5e7f93.js",
     "src": "src/routes/posts/template.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -760,7 +773,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/template.md-f7f372d3.css"
+      "assets/pages/posts/template.md-60bc8477.css"
     ]
   },
   "src/routes/posts/tool-list-creativity.md": {
@@ -792,7 +805,7 @@
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-b02f7107.js",
+    "file": "pages/posts/tool-list-website.md-4d1fb748.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -817,7 +830,7 @@
     ]
   },
   "src/routes/posts/use-google-spreadsheet-as-database.md": {
-    "file": "pages/posts/use-google-spreadsheet-as-database.md-ba46ea36.js",
+    "file": "pages/posts/use-google-spreadsheet-as-database.md-1e26bba0.js",
     "src": "src/routes/posts/use-google-spreadsheet-as-database.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -883,19 +896,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-5ef6f6a4.js": {
-    "file": "chunks/Favicon-5ef6f6a4.js",
+  "_Favicon-ac7a7beb.js": {
+    "file": "chunks/Favicon-ac7a7beb.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-538cf9a0.js",
+      "_store-afdf9b75.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-538cf9a0.js": {
-    "file": "chunks/store-538cf9a0.js",
+  "_store-afdf9b75.js": {
+    "file": "chunks/store-afdf9b75.js",
     "imports": [
       "_index-17c965c3.js"
     ]

@@ -32,15 +32,15 @@
     <meta name="twitter:data1" value="Jul 23, 2022" data-svelte="svelte-1xtzxhc">
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-193c0755.css">
 	<link rel="stylesheet" href="/_app/assets/Favicon-3192f126.css">
-	<link rel="modulepreload" href="/_app/start-314e83cf.js">
+	<link rel="modulepreload" href="/_app/start-c2883874.js">
 	<link rel="modulepreload" href="/_app/chunks/index-8418cccc.js">
 	<link rel="modulepreload" href="/_app/chunks/index-17c965c3.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
 	<link rel="modulepreload" href="/_app/chunks/preload-helper-e4860ae8.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-404bb178.js">
-	<link rel="modulepreload" href="/_app/chunks/Favicon-5ef6f6a4.js">
-	<link rel="modulepreload" href="/_app/chunks/store-538cf9a0.js">
-	<link rel="modulepreload" href="/_app/pages/_slug_.svelte-b7e080e6.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-a375c414.js">
+	<link rel="modulepreload" href="/_app/chunks/Favicon-ac7a7beb.js">
+	<link rel="modulepreload" href="/_app/chunks/store-afdf9b75.js">
+	<link rel="modulepreload" href="/_app/pages/_slug_.svelte-15f91009.js">
   </head>
   <body>
     <!-- The application will be rendered inside this element,
@@ -71,7 +71,7 @@
   <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
   </a>
 </nav>
-      <a href="http://www.nicovideo.jp/watch/sm34303211" target="_blank" rel="noreferrer noopener" class="svelte-145ut21"><img src="https://i.imgur.com/D0PAWCi.gif" alt="logo" class="svelte-145ut21">
+      <a href="https://www.nicovideo.jp/watch/sm35971994" target="_blank" rel="noreferrer noopener" class="svelte-145ut21"><img src="https://i.imgur.com/D0PAWCi.gif" alt="logo" class="svelte-145ut21">
 </a></div>
     </div>
 </header>
@@ -474,9 +474,9 @@ sheet<span class="token punctuation">.</span><span class="token function">getRan
 <li><p>Message Box</p>
 <ul><li><code>if (Browser.msgBox(&quot;確認&quot;, &quot;是否要執行？&quot;, Browser.Buttons.YES_NO) != &quot;yes&quot;)</code></li></ul></li></ul>
 <h3>撰寫 Discord Webhook</h3>
-<ul><li>建立 Webhook<ul><li>點擊 Discord 頻道右邊的齒輪鍵</li>
+<ul><li>建立 Discord 獲取 Webhook 用的網址<ul><li>點擊 Discord 頻道右邊的齒輪鍵</li>
 <li>點擊 <code>Integrations</code> -&gt; <code>Create Webhook</code> -&gt; <code>Copy Webhook URL</code></li></ul></li>
-<li>撰寫 GAS<ul><li><a href="https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app" alt="UrlFetchApp"><span>UrlFetchApp</span></a><ul><li><code>UrlFetchApp.fetch(url[, params])</code></li></ul></li>
+<li>撰寫 GAS 的通知函式<ul><li><a href="https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app" alt="UrlFetchApp"><span>UrlFetchApp</span></a><ul><li><code>UrlFetchApp.fetch(url[, params])</code></li></ul></li>
 <li>params<ul><li><code>contentType</code></li>
 <li><code>headers</code></li>
 <li><code>method</code></li>
@@ -487,12 +487,14 @@ sheet<span class="token punctuation">.</span><span class="token function">getRan
 <li><code>getBlob()</code></li></ul></li></ul></li></ul>
 <pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">sendToDiscord</span><span class="token punctuation">(</span><span class="token parameter">message</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
   <span class="token keyword">const</span> url      <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span> <span class="token comment">// 上方建立的 Webhook 網址</span>
+
   <span class="token keyword">const</span> token    <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span> <span class="token comment">// Webhook 網址後半的 token 部份</span>
                        <span class="token comment">// * 未確認是否已不需要</span>
   <span class="token keyword">const</span> channel  <span class="token operator">=</span> <span class="token string">'#general'</span><span class="token punctuation">;</span>
   <span class="token keyword">const</span> text     <span class="token operator">=</span> message<span class="token punctuation">;</span>
   <span class="token keyword">const</span> username <span class="token operator">=</span> <span class="token string">'bot'</span><span class="token punctuation">;</span>
   <span class="token keyword">const</span> parse    <span class="token operator">=</span> <span class="token string">'full'</span><span class="token punctuation">;</span>
+
   <span class="token keyword">const</span> method   <span class="token operator">=</span> <span class="token string">'POST'</span><span class="token punctuation">;</span>
 
   <span class="token keyword">const</span> payload <span class="token operator">=</span> <span class="token punctuation">&#123;</span>
@@ -510,6 +512,24 @@ sheet<span class="token punctuation">.</span><span class="token function">getRan
   <span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
 
   response <span class="token operator">=</span> UrlFetchApp<span class="token punctuation">.</span><span class="token function">fetch</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span> params<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<h3>Unit Test</h3>
+<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">assert</span><span class="token punctuation">(</span><span class="token parameter">cond</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>cond <span class="token operator">!==</span> <span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token keyword">throw</span> <span class="token string">'NG'</span>
+<span class="token punctuation">&#125;</span>
+
+<span class="token keyword">function</span> <span class="token function">assertEquals</span><span class="token punctuation">(</span><span class="token parameter">actual<span class="token punctuation">,</span> expected</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>actual <span class="token operator">!==</span> expected<span class="token punctuation">)</span> <span class="token keyword">throw</span> <span class="token template-string"><span class="token template-punctuation string">&#96;</span><span class="token string">NG: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>actual<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string"> !== </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>expected<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token template-punctuation string">&#96;</span></span>
+<span class="token punctuation">&#125;</span>
+
+<span class="token keyword">function</span> <span class="token function">assertThrows</span><span class="token punctuation">(</span><span class="token parameter">func</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">try</span> <span class="token punctuation">&#123;</span>
+    <span class="token function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">&#125;</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span>e<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    Logger<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token punctuation">;</span>
+  <span class="token punctuation">&#125;</span>
+  <span class="token keyword">throw</span> <span class="token string">'NG: No expection.'</span><span class="token punctuation">;</span>
 <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
 <h3>Save as excel file</h3>
 <pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token keyword">var</span> sheetID <span class="token operator">=</span> <span class="token string">""</span><span class="token punctuation">;</span>
@@ -538,6 +558,11 @@ sheet<span class="token punctuation">.</span><span class="token function">getRan
 <li><a href="https://qiita.com/yamaguchi_yo/items/09bfc5c32faffa3beb62" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://qiita.com/yamaguchi_yo/items/09bfc5c32faffa3beb62" alt="法改正情報を早く確実にキャッチするために GAS で自動化するツールを作って運用してみた。"><span>法改正情報を早く確実にキャッチするために GAS で自動化するツールを作って運用してみた。</span></a></li>
 <li><a href="https://qiita.com/cyoi0129/items/1cafb446dbe176e9366e" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://qiita.com/cyoi0129/items/1cafb446dbe176e9366e" alt="スクレイピングいろいろ"><span>スクレイピングいろいろ</span></a></li>
 <li><a href="https://qiita.com/tapatyo/items/465a982635ba3933b32d" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://qiita.com/tapatyo/items/465a982635ba3933b32d" alt="【Google Apps Script】トリガーによる定期実行の時間のズレをなくす方法"><span>【Google Apps Script】トリガーによる定期実行の時間のズレをなくす方法</span></a></li></ul>
+<h2 id="js-id-google-charts">Google Charts</h2>
+<ul><li>QR Code<ul><li><a href="https://developers.google.com/chart/infographics/docs/qr_codes" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://developers.google.com/chart/infographics/docs/qr_codes" alt="QR 圖碼"><span>QR 圖碼</span></a></li>
+<li>可以透過網址請求即時取得 QR Code 的圖片</li>
+<li><code>https://chart.googleapis.com/chart?chs=450x450&amp;cht=qr&amp;chl=</code>[內容文字]<ul><li><img src="https://chart.googleapis.com/chart?chs=450x450&cht=qr&chl=example" alt="google charts qr code example"></li></ul></li>
+<li>但此 API 已不再維護，隨時都可能無法再使用</li></ul></li></ul>
 <h2 id="js-id-番外-客製化-google-form">[番外？] 客製化 Google Form</h2>
 <ul><li>使用 Google Form 製作好和需求相同形式的表單</li>
 <li>點擊右上預覽表單</li>
@@ -551,7 +576,7 @@ sheet<span class="token punctuation">.</span><span class="token function">getRan
 <ul><li><a href="https://qiita.com/inoue2002/items/78dac54dba93ea4a087a" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://qiita.com/inoue2002/items/78dac54dba93ea4a087a" alt="独自フォームと Google フォームを連携してかっこよくスマートにアンケート回収する"><span>独自フォームと Google フォームを連携してかっこよくスマートにアンケート回収する</span></a></li>
 <li><a href="https://qiita.com/Robot-Inventor/items/56e2b7b69760d045fad3" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://qiita.com/Robot-Inventor/items/56e2b7b69760d045fad3" alt="【2020 年最新版】カスタマイズしたフォームから JavaScript で Google フォームに回答を送信"><span>【2020 年最新版】カスタマイズしたフォームから JavaScript で Google フォームに回答を送信</span></a></li>
 <li><a href="https://valmore.work/auto-response-from-google-form/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://valmore.work/auto-response-from-google-form/" alt="【GAS】自動返信機能付き Google フォームの作り方"><span>【GAS】自動返信機能付き Google フォームの作り方</span></a></li></ul>
-<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-介紹').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">介紹</a></li><li><a href="#" onclick="document.querySelector('#js-id-實作').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">實作</a></li><li><a href="#" onclick="document.querySelector('#js-id-參考文章').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">參考文章</a></li><li><a href="#" onclick="document.querySelector('#js-id-gas').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">GAS</a></li><li><a href="#" onclick="document.querySelector('#js-id-番外-客製化-google-form').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li></ul></div>
+<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-介紹').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">介紹</a></li><li><a href="#" onclick="document.querySelector('#js-id-實作').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">實作</a></li><li><a href="#" onclick="document.querySelector('#js-id-參考文章').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">參考文章</a></li><li><a href="#" onclick="document.querySelector('#js-id-gas').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">GAS</a></li><li><a href="#" onclick="document.querySelector('#js-id-google-charts').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">Google Charts</a></li><li><a href="#" onclick="document.querySelector('#js-id-番外-客製化-google-form').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li></ul></div>
     <span class="blink svelte-1kip24n">_</span></article>
   
 
@@ -568,10 +593,10 @@ sheet<span class="token punctuation">.</span><span class="token function">getRan
 </div>
 
 
-		<script type="module" data-hydrate="91suvq">
-		import { start } from "/_app/start-314e83cf.js";
+		<script type="module" data-hydrate="15k6cu3">
+		import { start } from "/_app/start-c2883874.js";
 		start({
-			target: document.querySelector('[data-hydrate="91suvq"]').parentNode,
+			target: document.querySelector('[data-hydrate="15k6cu3"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: false,
@@ -581,8 +606,8 @@ sheet<span class="token punctuation">.</span><span class="token function">getRan
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-404bb178.js"),
-						import("/_app/pages/_slug_.svelte-b7e080e6.js")
+					import("/_app/pages/__layout.svelte-a375c414.js"),
+						import("/_app/pages/_slug_.svelte-15f91009.js")
 				],
 				params: {slug:"use-google-spreadsheet-as-database"},
 				routeId: "[slug]"
