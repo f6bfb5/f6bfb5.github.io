@@ -7,6 +7,10 @@ tags:
 
 雖然標題這樣寫，但我還沒搬，這是一篇搬離前的準備整理。
 
+## Pop!_OS 是什麼？
+
+Pop!_OS 是一套由美國電腦硬體製造商 System76 基於 Linux 發行版系統 Ubuntu 再行修改的作業系統，採用修改自 GNOME 的桌面環境，預先安裝好 LibreOffice、FireFox 等應用程式，並有提供如欄式視窗配置、全鍵盤操作、快速啟動器等便捷功能，也提供對 AMD、NVIDIA 等 GPU 的支援，常被說十分適合首次入門 Linux 世界的使用者。
+
 ## 安裝
 
 - 準備一個 USB 隨身碟
@@ -100,3 +104,8 @@ chsh -s /usr/bin/fish
 
 - [NsCDE](https://github.com/NsCDE/NsCDE)
 - 使用 Release 裡的 `.deb` 檔安裝
+
+## 補充資料
+
+- [Linux：この画面が出てやったこと](https://note.com/histone/n/ncc1d07cbe54b)
+- [Pop!_OS Keyboard Shortcuts](https://support.system76.com/articles/pop-keyboard-shortcuts/)
