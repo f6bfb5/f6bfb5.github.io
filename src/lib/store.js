@@ -352,6 +352,7 @@ export const marqueeTexts = readable([
   "人生という限られた時間を無駄無く生きよう、などと考えてはいけません。「無駄」という時間など、そもそも存在しないのですから。たっぷりと無駄な時間を過ごしてこそ、人生はその真の姿を開示してくれるものなのです。駄作愚作珍作怪作にこそ映画本来の醍醐味があります。",
   "できらぁ！",
   "西暦2029年。「企業のネットが星を被い、　電子や光が駆け巡っても　国家や民族が消えてなくなる程　情報化されていない近未来―――」",
+  "みんな偉い夢持ってていいなア‼じゃあ夢バトルしようぜ！夢バトル‼",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",

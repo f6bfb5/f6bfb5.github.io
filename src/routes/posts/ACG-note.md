@@ -1006,6 +1006,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220826 [幀數就像數格子](https://www.youtube.com/watch?v=SxAFLXSeMjI) 4:00
 - 220925 [先讓人玩遊戲](https://www.youtube.com/watch?v=1toox93mCzs) 2:44
 - 221010 [吊在眼前的獎勵](https://www.youtube.com/watch?v=rA_FN6BTGms) 2:17
+- 221107 [如何靠做遊戲過活](https://www.youtube.com/watch?v=rsh4p55hGNE) 3:54
 
 </div>
 <div style="width: 20em; min-width: 30%;">
