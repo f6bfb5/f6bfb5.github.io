@@ -353,6 +353,7 @@ export const marqueeTexts = readable([
   "できらぁ！",
   "西暦2029年。「企業のネットが星を被い、　電子や光が駆け巡っても　国家や民族が消えてなくなる程　情報化されていない近未来―――」",
   "みんな偉い夢持ってていいなア‼じゃあ夢バトルしようぜ！夢バトル‼",
+  "でも、僕のような人間が教訓めいたことを言ってもしょうがない。僕が多くの映画を作ってこられたのは、ずっと運が良かったからです。そういう人間が「こんな苦労をした」と言っても意味がない。努力したにもかかわらず、運が悪くて這い上がれない人の気持ちを代弁できないからです。スポーツで栄誉を得た選手が、「夢は必ずかなう」と叫ぶのも滑稽です。あなたはかなったかもしれないが、かなわなかった多くの人をどう考えるのか。",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",

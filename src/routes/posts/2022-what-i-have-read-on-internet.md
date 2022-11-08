@@ -2308,6 +2308,14 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [Some thoughts on Social Networking and Usenet](https://jfm.carcosa.net/blog/computing/usenet/)
 - [The most unethical thing I was asked to build while working at Twitter in 2015](https://twitter.com/stevekrenzel/status/1589700721121058817)
   - [OSS Simple Sabotage Manual](http://svn.cacert.org/CAcert/CAcert_Inc/Board/oss/oss_sabotage.html)
+- [よく知られた話ですが京都の三大観光名所は「松屋」「すき家」「なか卯」です。なぜかお値段もお手頃です。](https://togetter.com/li/1969630)
+- [京セラのメタバースを使ったプレゼンが分かりやすくて活用事例の大正解すぎる「こんな距離で見ていいんですか！？」](https://togetter.com/li/1969944)
+- [オードリー若林さんが『俺達のBLを描いていた女の人たちはどこに行ったんだよ。性的消費し終えるなよ』って言ってて笑った](https://togetter.com/li/1970044)
+- [朝日新聞社の上についている塔はなにか](https://dailyportalz.jp/kiji/tower-at-Asahi-shimbun)
+- [Just Don't](https://www.tbray.org/ongoing/When/202x/2022/11/07/Just-Dont)
+  - > Do not, to quote the OED, "represent as a small thing" the difficulty of something you're asking someone else to do, when you're not inside their head and don't understand what they see and feel. The word "just" is a signal that you're not taking their problem seriously.
+- [442年ぶりの天体ショー 皆既月食と天王星食 終わる](https://www3.nhk.or.jp/news/html/20221108/k10013884641000.html)
+- [みんな浸透圧を雑に語りすぎ](https://anond.hatelabo.jp/20221108191703)
 
 <style scoped>
 li a {

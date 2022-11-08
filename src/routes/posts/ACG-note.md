@@ -382,6 +382,11 @@ tags: ACG, Anime
 - [今まで誰も気づかないし今後も気づかれないから解析動画作った！](https://twitter.com/bLACKsHEP1969/status/1125030157805207552)
 - [雷斯那 SPT 關於作畫的注意事項很有趣。上面寫有「請不要接著前面的畫面畫下去」...](https://twitter.com/mizpi/status/1125278952962965504)
 - [「不管是多無理的事情，都有能讓它增加真實性的動態。在巨大的謊言裡畫出真實，這是只有動畫才做得到的事。」](https://twitter.com/kobakin1967/status/1172749501800402944)
+- [可能是一些制作介绍](https://bgm.tv/blog/273015)
+- [攝影ーー動畫的化妝師](https://www.iqiyi.com/dongman/nofishing1411.html)
+- [日本动画中的摄影是一个什么样的岗位？](https://www.zhihu.com/question/24787555)
+- [玄学 黑科技 神秘主义？作画爱好者与辨认原画师的二三事](https://zhuanlan.zhihu.com/p/51947129)
+- [zecy/anime-onair-data](https://github.com/zecy/anime-onair-data)
 - [← よく見る制作工程　　現実 →](https://twitter.com/caoryu_YS/status/1561301501896962048)
 - [アニメ業界世界最強リンク集](https://nikukoppun.ikaduchi.com/)
 
