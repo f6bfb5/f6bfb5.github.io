@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-b57d4530.js",
+    "file": "start-f16ffad0.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -74,14 +74,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-2e169f42.js",
+    "file": "pages/__layout.svelte-5e199ac1.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-06258e7a.js",
-      "_store-18328539.js",
+      "_Favicon-1ee4252e.js",
+      "_store-cd0111bb.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -115,14 +115,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-a98c6788.js",
+    "file": "pages/__layout-wide.svelte-1700056a.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-06258e7a.js",
-      "_store-18328539.js",
+      "_Favicon-1ee4252e.js",
+      "_store-cd0111bb.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -132,7 +132,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-2f767d43.js",
+    "file": "pages/_slug_.svelte-4b025a36.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -194,13 +194,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-886130db.js",
+    "file": "pages/about.svelte-5eab44b8.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-18328539.js",
+      "_store-cd0111bb.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -220,13 +220,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-462a92bf.js",
+    "file": "pages/index@wide.svelte-c09584c2.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-18328539.js",
+      "_store-cd0111bb.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -282,7 +282,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
+      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -296,11 +296,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
+      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-7bc16f61.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-5df7e412.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -427,7 +427,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-ea36ab72.js",
+    "file": "pages/posts/ACG-note.md-ca9d64d9.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -510,7 +510,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
+      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -660,7 +660,7 @@
     ]
   },
   "src/routes/posts/moving-to-pop-os.md": {
-    "file": "pages/posts/moving-to-pop-os.md-7d6e5865.js",
+    "file": "pages/posts/moving-to-pop-os.md-dad56839.js",
     "src": "src/routes/posts/moving-to-pop-os.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -896,19 +896,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-06258e7a.js": {
-    "file": "chunks/Favicon-06258e7a.js",
+  "_Favicon-1ee4252e.js": {
+    "file": "chunks/Favicon-1ee4252e.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-18328539.js",
+      "_store-cd0111bb.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-18328539.js": {
-    "file": "chunks/store-18328539.js",
+  "_store-cd0111bb.js": {
+    "file": "chunks/store-cd0111bb.js",
     "imports": [
       "_index-17c965c3.js"
     ]
