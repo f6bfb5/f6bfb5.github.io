@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-f16ffad0.js",
+    "file": "start-d6e58237.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -74,14 +74,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-5e199ac1.js",
+    "file": "pages/__layout.svelte-90a98150.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-1ee4252e.js",
-      "_store-cd0111bb.js",
+      "_Favicon-64a7cc67.js",
+      "_store-8c0f55d3.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -115,14 +115,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-1700056a.js",
+    "file": "pages/__layout-wide.svelte-8e371b71.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-1ee4252e.js",
-      "_store-cd0111bb.js",
+      "_Favicon-64a7cc67.js",
+      "_store-8c0f55d3.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -132,7 +132,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-4b025a36.js",
+    "file": "pages/_slug_.svelte-a0035790.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -194,13 +194,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-5eab44b8.js",
+    "file": "pages/about.svelte-dc9950aa.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-cd0111bb.js",
+      "_store-8c0f55d3.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -220,13 +220,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-c09584c2.js",
+    "file": "pages/index@wide.svelte-42c7e2b4.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-cd0111bb.js",
+      "_store-8c0f55d3.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -282,7 +282,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -296,11 +296,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-5df7e412.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-6cd89604.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -427,7 +427,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-ca9d64d9.js",
+    "file": "pages/posts/ACG-note.md-3f6c250c.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -510,7 +510,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -660,7 +660,7 @@
     ]
   },
   "src/routes/posts/moving-to-pop-os.md": {
-    "file": "pages/posts/moving-to-pop-os.md-dad56839.js",
+    "file": "pages/posts/moving-to-pop-os.md-27993521.js",
     "src": "src/routes/posts/moving-to-pop-os.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -729,7 +729,7 @@
     ]
   },
   "src/routes/posts/should-consumer-care-about-producer.md": {
-    "file": "pages/posts/should-consumer-care-about-producer.md-9f9e0982.js",
+    "file": "pages/posts/should-consumer-care-about-producer.md-76041d27.js",
     "src": "src/routes/posts/should-consumer-care-about-producer.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -896,19 +896,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-1ee4252e.js": {
-    "file": "chunks/Favicon-1ee4252e.js",
+  "_Favicon-64a7cc67.js": {
+    "file": "chunks/Favicon-64a7cc67.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-cd0111bb.js",
+      "_store-8c0f55d3.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-cd0111bb.js": {
-    "file": "chunks/store-cd0111bb.js",
+  "_store-8c0f55d3.js": {
+    "file": "chunks/store-8c0f55d3.js",
     "imports": [
       "_index-17c965c3.js"
     ]
