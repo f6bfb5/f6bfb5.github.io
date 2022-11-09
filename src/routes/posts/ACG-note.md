@@ -384,6 +384,7 @@ tags: ACG, Anime
 - [「不管是多無理的事情，都有能讓它增加真實性的動態。在巨大的謊言裡畫出真實，這是只有動畫才做得到的事。」](https://twitter.com/kobakin1967/status/1172749501800402944)
 - [可能是一些制作介绍](https://bgm.tv/blog/273015)
 - [攝影ーー動畫的化妝師](https://www.iqiyi.com/dongman/nofishing1411.html)
+- [『Fate/kaleid liner プリズマ☆イリヤ』シリーズが実践する、新世代のアニメ撮影ワークフロー](https://cgworld.jp/feature/201512-prisma-illya-cgw208t2-2.html)
 - [日本动画中的摄影是一个什么样的岗位？](https://www.zhihu.com/question/24787555)
 - [玄学 黑科技 神秘主义？作画爱好者与辨认原画师的二三事](https://zhuanlan.zhihu.com/p/51947129)
 - [zecy/anime-onair-data](https://github.com/zecy/anime-onair-data)
@@ -1042,7 +1043,8 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 
 ### H. 特效
 
-- 220923 [別顯得不明瞭](https://www.youtube.com/watch?v=7vGEEUjCJdY) 2:32
+- 220923 [避免看來不明瞭](https://www.youtube.com/watch?v=7vGEEUjCJdY) 2:32
+- 221109 [突顯角色的位置](https://www.youtube.com/watch?v=xkeM-NgfxMU) 2:11
 
 </div>
 <div style="width: 20em; min-width: 30%;">

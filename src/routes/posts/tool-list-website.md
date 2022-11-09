@@ -54,6 +54,7 @@ tags: Toolbox
 - [Black Calendar](https://tocana.jp/blackcalendar/)
 - [インターネット上で強化された人物・キャラクター一覧](https://wikiwiki.jp/boudai/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E4%B8%8A%E3%81%A7%E5%BC%B7%E5%8C%96%E3%81%95%E3%82%8C%E3%81%9F%E4%BA%BA%E7%89%A9%E3%83%BB%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E4%B8%80%E8%A6%A7)
 - [Design and Research](https://practical-scheme.net/trans/desres-j.html)
+- [[scanning.guide]](https://scanning.guide/start)
 
 ## 網路
 
@@ -132,21 +133,6 @@ tags: Toolbox
 - [東京大学語学愛好会 〜言語逆評定 ①〜](https://twitter.com/ut_glossophilia/status/1111830816772939777)
 - [失敗百選](http://www.sydrose.com/case100/index.html)
 - [/ca/CallFriend/jpn](https://media.talkbank.org/ca/CallFriend/jpn/)
-
----
-
-- 金融庁 - 基礎から学べる金融ガイド
-- 総務省 - Excel データ表記のルール資料
-- KEARNEY - Kearney 流仕事術
-- 経済産業省 - 経産省委託調査報告書
-- The Elements of Style
-- Utokyo English Academia
-- 経済産業省 - スタートアップの成長に向けたファイナンス
-- SFC - 「データ・ドリブン社会の創発と戦略」講座
-- 数理・データサイエンス教育強化拠点コンソーシアム
-- 京都大学 - プログラミング演習 Python
-- IPA - 超上流から攻める IT 化の事例集
-- Cookpad - クックパッド技術基礎研修
 
 ## 社會
 
