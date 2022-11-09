@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-7c48f59d.js",
+    "file": "start-7b22b9bb.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -74,14 +74,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-90a98150.js",
+    "file": "pages/__layout.svelte-c7990ce4.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-64a7cc67.js",
-      "_store-8c0f55d3.js",
+      "_Favicon-af861ef6.js",
+      "_store-6183d8c6.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -115,14 +115,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-8e371b71.js",
+    "file": "pages/__layout-wide.svelte-e3e10c83.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-64a7cc67.js",
-      "_store-8c0f55d3.js",
+      "_Favicon-af861ef6.js",
+      "_store-6183d8c6.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -132,7 +132,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-ddcfd065.js",
+    "file": "pages/_slug_.svelte-a7e9fe9e.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -194,13 +194,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-dc9950aa.js",
+    "file": "pages/about.svelte-3c06effa.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-8c0f55d3.js",
+      "_store-6183d8c6.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -220,13 +220,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-42c7e2b4.js",
+    "file": "pages/index@wide.svelte-ad934b1f.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-8c0f55d3.js",
+      "_store-6183d8c6.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -500,7 +500,7 @@
     ]
   },
   "src/routes/posts/ACG-super-manga-book-list.md": {
-    "file": "pages/posts/ACG-super-manga-book-list.md-9e324f24.js",
+    "file": "pages/posts/ACG-super-manga-book-list.md-d1bded72.js",
     "src": "src/routes/posts/ACG-super-manga-book-list.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -660,7 +660,7 @@
     ]
   },
   "src/routes/posts/moving-to-pop-os.md": {
-    "file": "pages/posts/moving-to-pop-os.md-27993521.js",
+    "file": "pages/posts/moving-to-pop-os.md-a721696d.js",
     "src": "src/routes/posts/moving-to-pop-os.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -896,19 +896,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-64a7cc67.js": {
-    "file": "chunks/Favicon-64a7cc67.js",
+  "_Favicon-af861ef6.js": {
+    "file": "chunks/Favicon-af861ef6.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-8c0f55d3.js",
+      "_store-6183d8c6.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-8c0f55d3.js": {
-    "file": "chunks/store-8c0f55d3.js",
+  "_store-6183d8c6.js": {
+    "file": "chunks/store-6183d8c6.js",
     "imports": [
       "_index-17c965c3.js"
     ]
