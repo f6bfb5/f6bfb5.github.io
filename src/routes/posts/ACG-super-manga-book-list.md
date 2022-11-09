@@ -149,6 +149,10 @@ tags: ACG, Comic
 
 2022-05-15 [グルメ・料理漫画好きが TOP30 選んだ](https://anond.hatelabo.jp/20220515032301)
 
+### 推薦漫畫給我
+
+2022-11-08 [マンガのオススメを教えて欲しい](https://anond.hatelabo.jp/20221108184147)
+
 ## 個人部落格
 
 - [作品別独り言](http://shira-yawa.sakura.ne.jp/sakuhinbetu.html)

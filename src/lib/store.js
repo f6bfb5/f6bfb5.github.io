@@ -27,6 +27,7 @@ export const randomNav = readable([
   "疑似同期",
   "毀誉褒貶",
   "不易流行",
+  "十人十色",
   "テニヲハ",
   // 林纈
   // 翳光
