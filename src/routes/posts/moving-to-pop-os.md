@@ -25,6 +25,8 @@ Pop!\_OS 是一套由美國電腦硬體製造商 System76 基於 Linux 發行版
 
 當然，如同上面提到有些應用程式會失去相容性，過去也有從 Windows 轉移到 Linux 的使用者埋怨 Office 文件無法相容或排版跑掉的問題，Adobe 相關軟體無法在 Linux 上使用等等，若有想搬家的意願，不管是試用模式或在網路上找資料，都建議在做足功課的情況下進行轉移，避免遇到問題時落入得再灌雙 OS 或要去借電腦的窘境。
 
+以及像遊戲效能的部份，Linux 是透過 Wine 引入 Windows 的函式庫作為中介層去執行 Windows 的原生程式，因此雖然在系統面上的資源負擔比較小，用這種方式執行的遊戲效能可能還是劣於 Windows，可以到 [Wine Application Database](https://appdb.winehq.org/) 或 [ProtonDB](https://www.protondb.com/) 上看看想玩的遊戲執行品質如何，或是參考[如這份 2018 年製作的](https://openbenchmarking.org/result/1806206-PTS-RADEONWI59)網路上的跨平台性能測試比較。
+
 ## 安裝
 
 - 準備一個 USB 隨身碟
@@ -42,6 +44,8 @@ Pop!\_OS 也有提供試用模式，不想立即安裝也能試用體驗。
 
 - 本文撰寫時 Pop!\_OS 最新版本為 22.04
 - [Pop!\_OS: Things to do after installation](https://mutschler.dev/linux/pop-os-post-install/#misc-tweaks-and-settings)
+- 開啟終端
+  - `Ctrl+Alt+T`
 - [諸君，不管用哪套 Linux 發行版本，機器一裝好，就先跑：](https://twitter.com/hiroshiyui/status/1405422305841324032)
   - `cd /etc/fonts/conf.d/ && \ sudo sh -c 'rm 11-lcdfilter-default.conf && ln -s ../conf.avail/11-lcdfilter-light.conf .' && \ sudo ln -s ../conf.avail/10-sub-pixel-rgb.conf .`
 
@@ -59,8 +63,7 @@ Pop!\_OS 也有提供試用模式，不想立即安裝也能試用體驗。
 ### 更新系統
 
 ```bash
-sudo apt update
-sudo apt upgrade
+sudo apt update && sudo apt upgrade
 sudo apt dist-upgrade
 sudo apt autoremove
 sudo apt autoclean
@@ -117,8 +120,10 @@ chsh -s /usr/bin/fish
 - 完成設定
   - `winecfg`
 - 使用 Wine 執行程式
-  1. 直接雙擊 `.exe` 程式
+  1. 搭配 Lutris 執行
   2. `wine PROGRAM [ARGUMENTS...]`
+- 新增日語字體支援
+  - `winetricks fakejapanese_ipamona`
 - 移除 Wine
   - `sudo apt autoremove winehq-stable -y`
 

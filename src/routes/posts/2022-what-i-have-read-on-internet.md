@@ -2316,6 +2316,10 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
   - > Do not, to quote the OED, "represent as a small thing" the difficulty of something you're asking someone else to do, when you're not inside their head and don't understand what they see and feel. The word "just" is a signal that you're not taking their problem seriously.
 - [442年ぶりの天体ショー 皆既月食と天王星食 終わる](https://www3.nhk.or.jp/news/html/20221108/k10013884641000.html)
 - [みんな浸透圧を雑に語りすぎ](https://anond.hatelabo.jp/20221108191703)
+- [最近Twitterやpixivにナイル川くらいの勢いで広告が流れているエジプトBL、設定だけでなく話も面白くてかなり評価が高いらしい](https://togetter.com/li/1970114)
+- [撮った写真でバトルする一眼レフカメラの謎機能が「さすがPENTAX」「凝ってて笑う」と話題　開発の経緯を聞いた](https://nlab.itmedia.co.jp/nl/articles/2211/08/news124.html)
+- [アニメに登場する架空の祭りを現実に開催し、今年で10回目　石川・湯涌温泉「湯涌ぼんぼり祭り」が継続できた理由とは](https://nlab.itmedia.co.jp/nl/articles/2211/07/news061.html)
+- [ラーメンの味に濃いめ・普通・薄めに加えて「ケイン」という味がある→何味かと思ったら言葉遊びだった](https://togetter.com/li/1970398)
 
 <style scoped>
 li a {
