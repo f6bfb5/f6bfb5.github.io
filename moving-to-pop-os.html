@@ -33,7 +33,7 @@
     <meta name="twitter:data1" value="Nov 4, 2022" data-svelte="svelte-1xtzxhc">
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-193c0755.css">
 	<link rel="stylesheet" href="/_app/assets/Favicon-3192f126.css">
-	<link rel="modulepreload" href="/_app/start-7b22b9bb.js">
+	<link rel="modulepreload" href="/_app/start-6a8ab1f3.js">
 	<link rel="modulepreload" href="/_app/chunks/index-8418cccc.js">
 	<link rel="modulepreload" href="/_app/chunks/index-17c965c3.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
@@ -41,7 +41,7 @@
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-c7990ce4.js">
 	<link rel="modulepreload" href="/_app/chunks/Favicon-af861ef6.js">
 	<link rel="modulepreload" href="/_app/chunks/store-6183d8c6.js">
-	<link rel="modulepreload" href="/_app/pages/_slug_.svelte-a7e9fe9e.js">
+	<link rel="modulepreload" href="/_app/pages/_slug_.svelte-24cd8fe8.js">
   </head>
   <body>
     <!-- The application will be rendered inside this element,
@@ -72,7 +72,7 @@
   <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
   </a>
 </nav>
-      <a href="https://www.nicovideo.jp/watch/sm36399404" target="_blank" rel="noreferrer noopener" class="svelte-145ut21"><img src="https://i.imgur.com/D0PAWCi.gif" alt="logo" class="svelte-145ut21">
+      <a href="https://togetter.com/li/1362957" target="_blank" rel="noreferrer noopener" class="svelte-145ut21"><img src="https://i.imgur.com/D0PAWCi.gif" alt="logo" class="svelte-145ut21">
 </a></div>
     </div>
 </header>
@@ -102,6 +102,7 @@
 <ul><li><a href="https://101.ustclug.org/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://101.ustclug.org/" alt="Linux 101"><span>Linux 101</span></a></li></ul>
 <h3>Why not Pop!_OS？</h3>
 <p>當然，如同上面提到有些應用程式會失去相容性，過去也有從 Windows 轉移到 Linux 的使用者埋怨 Office 文件無法相容或排版跑掉的問題，Adobe 相關軟體無法在 Linux 上使用等等，若有想搬家的意願，不管是試用模式或在網路上找資料，都建議在做足功課的情況下進行轉移，避免遇到問題時落入得再灌雙 OS 或要去借電腦的窘境。</p>
+<p>以及像遊戲效能的部份，Linux 是透過 Wine 引入 Windows 的函式庫作為中介層去執行 Windows 的原生程式，因此雖然在系統面上的資源負擔比較小，用這種方式執行的遊戲效能可能還是劣於 Windows，可以到 <a href="https://appdb.winehq.org/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://appdb.winehq.org/" alt="Wine Application Database"><span>Wine Application Database</span></a> 或 <a href="https://www.protondb.com/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://www.protondb.com/" alt="ProtonDB"><span>ProtonDB</span></a> 上看看想玩的遊戲執行品質如何，或是參考<a href="https://openbenchmarking.org/result/1806206-PTS-RADEONWI59" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://openbenchmarking.org/result/1806206-PTS-RADEONWI59" alt="如這份 2018 年製作的"><span>如這份 2018 年製作的</span></a>網路上的跨平台性能測試比較。</p>
 <h2 id="js-id-安裝">安裝</h2>
 <ul><li>準備一個 USB 隨身碟</li>
 <li><a href="https://github.com/ventoy/Ventoy" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/ventoy/Ventoy" alt="Ventoy"><span>Ventoy</span></a></li>
@@ -114,6 +115,7 @@
 <h2 id="js-id-安裝後要做的事">安裝後要做的事</h2>
 <ul><li>本文撰寫時 Pop!_OS 最新版本為 22.04</li>
 <li><a href="https://mutschler.dev/linux/pop-os-post-install/#misc-tweaks-and-settings" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://mutschler.dev/linux/pop-os-post-install/#misc-tweaks-and-settings" alt="Pop!"><span>Pop!</span></a></li>
+<li>開啟終端<ul><li><code>Ctrl+Alt+T</code></li></ul></li>
 <li><a href="https://twitter.com/hiroshiyui/status/1405422305841324032" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://twitter.com/hiroshiyui/status/1405422305841324032" alt="諸君，不管用哪套 Linux 發行版本，機器一裝好，就先跑："><span>諸君，不管用哪套 Linux 發行版本，機器一裝好，就先跑：</span></a><ul><li><code>cd /etc/fonts/conf.d/ &amp;&amp; \ sudo sh -c &#39;rm 11-lcdfilter-default.conf &amp;&amp; ln -s ../conf.avail/11-lcdfilter-light.conf .&#39; &amp;&amp; \ sudo ln -s ../conf.avail/10-sub-pixel-rgb.conf .</code></li></ul></li></ul>
 <h3>設定主機名稱</h3>
 <ul><li><code>hostnamectl set-hostname [hostname]</code></li></ul>
@@ -121,8 +123,7 @@
 <ul><li>搜尋時區列表<ul><li><code>timedatectl list-timezones | grep -i Taiwan</code></li></ul></li>
 <li>設定時區<ul><li><code>timedatectl set-timezone [timezone]</code></li></ul></li></ul>
 <h3>更新系統</h3>
-<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt</span> update
-<span class="token function">sudo</span> <span class="token function">apt</span> upgrade
+<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt</span> update <span class="token operator">&amp;&amp;</span> <span class="token function">sudo</span> <span class="token function">apt</span> upgrade
 <span class="token function">sudo</span> <span class="token function">apt</span> dist-upgrade
 <span class="token function">sudo</span> <span class="token function">apt</span> autoremove
 <span class="token function">sudo</span> <span class="token function">apt</span> autoclean
@@ -155,8 +156,9 @@ chsh -s /usr/bin/fish</code><!-- HTML_TAG_END --></pre>
 <li><code>sudo apt update</code></li></ul></li>
 <li>安裝 Wine<ul><li><code>sudo apt install winehq-stable --install-recommends -y</code></li></ul></li>
 <li>完成設定<ul><li><code>winecfg</code></li></ul></li>
-<li>使用 Wine 執行程式<ol><li>直接雙擊 <code>.exe</code> 程式</li>
+<li>使用 Wine 執行程式<ol><li>搭配 Lutris 執行</li>
 <li><code>wine PROGRAM [ARGUMENTS...]</code></li></ol></li>
+<li>新增日語字體支援<ul><li><code>winetricks fakejapanese_ipamona</code></li></ul></li>
 <li>移除 Wine<ul><li><code>sudo apt autoremove winehq-stable -y</code></li></ul></li></ul>
 <h3>NsCDE</h3>
 <ul><li><a href="https://github.com/NsCDE/NsCDE" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/NsCDE/NsCDE" alt="NsCDE"><span>NsCDE</span></a></li>
@@ -181,10 +183,10 @@ chsh -s /usr/bin/fish</code><!-- HTML_TAG_END --></pre>
 </div>
 
 
-		<script type="module" data-hydrate="i43ykf">
-		import { start } from "/_app/start-7b22b9bb.js";
+		<script type="module" data-hydrate="cbhakh">
+		import { start } from "/_app/start-6a8ab1f3.js";
 		start({
-			target: document.querySelector('[data-hydrate="i43ykf"]').parentNode,
+			target: document.querySelector('[data-hydrate="cbhakh"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: false,
@@ -195,7 +197,7 @@ chsh -s /usr/bin/fish</code><!-- HTML_TAG_END --></pre>
 				error: null,
 				nodes: [
 					import("/_app/pages/__layout.svelte-c7990ce4.js"),
-						import("/_app/pages/_slug_.svelte-a7e9fe9e.js")
+						import("/_app/pages/_slug_.svelte-24cd8fe8.js")
 				],
 				params: {slug:"moving-to-pop-os"},
 				routeId: "[slug]"

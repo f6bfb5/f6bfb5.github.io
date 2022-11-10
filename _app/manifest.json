@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-7b22b9bb.js",
+    "file": "start-6a8ab1f3.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -132,7 +132,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-a7e9fe9e.js",
+    "file": "pages/_slug_.svelte-24cd8fe8.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -300,7 +300,7 @@
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-6cd89604.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-30547076.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -660,7 +660,7 @@
     ]
   },
   "src/routes/posts/moving-to-pop-os.md": {
-    "file": "pages/posts/moving-to-pop-os.md-a721696d.js",
+    "file": "pages/posts/moving-to-pop-os.md-ac382f87.js",
     "src": "src/routes/posts/moving-to-pop-os.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -760,7 +760,7 @@
     ]
   },
   "src/routes/posts/template.md": {
-    "file": "pages/posts/template.md-df5e7f93.js",
+    "file": "pages/posts/template.md-fb2c20a0.js",
     "src": "src/routes/posts/template.md",
     "isEntry": true,
     "isDynamicEntry": true,
