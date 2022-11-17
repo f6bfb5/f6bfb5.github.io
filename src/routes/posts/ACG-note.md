@@ -993,6 +993,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220912 [簡報旨在速度](https://www.youtube.com/watch?v=jVnBk3p7T-Q) 1:08
 - 221005 [能和客戶說明嗎？](https://www.youtube.com/watch?v=otyLLbYDF1g) 2:23
 - 221026 [關於更改規格](https://www.youtube.com/watch?v=e9zu3-L6Elc) 4:15
+- 221116 [企劃書的寫法](https://www.youtube.com/watch?v=E_lTgIBgRCc) 2:43
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1021,6 +1022,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 
 - 220824 [重要時刻要停下來！](https://www.youtube.com/watch?v=APOD1fmwPaM) 4:19
 - 220930 [讓按鍵有重量感](https://www.youtube.com/watch?v=ldz5yKW9Gaw) 2:23
+- 221114 [跳躍的構造](https://www.youtube.com/watch?v=zxOBCjqP8-Y) 4:52
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1037,6 +1039,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 
 - 220918 [如何指定動作](https://www.youtube.com/watch?v=GB00mkau1Kw) 4:38
 - 221024 [過頭一點恰恰好](https://www.youtube.com/watch?v=IUK8_lZrb-I) 2:57
+- 221111 [攻擊動作的詳細資料](https://www.youtube.com/watch?v=ZC8znF3t718) 3:34
 
 </div>
 <div style="width: 20em; min-width: 30%;">

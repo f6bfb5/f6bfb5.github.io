@@ -45,7 +45,7 @@ Pop!\_OS 也有提供試用模式，不想立即安裝也能試用體驗。
 - 本文撰寫時 Pop!\_OS 最新版本為 22.04
 - [Pop!\_OS: Things to do after installation](https://mutschler.dev/linux/pop-os-post-install/#misc-tweaks-and-settings)
 - 開啟終端
-  - `Ctrl+Alt+T`
+  - `Super+T`
 - [諸君，不管用哪套 Linux 發行版本，機器一裝好，就先跑：](https://twitter.com/hiroshiyui/status/1405422305841324032)
   - `cd /etc/fonts/conf.d/ && \ sudo sh -c 'rm 11-lcdfilter-default.conf && ln -s ../conf.avail/11-lcdfilter-light.conf .' && \ sudo ln -s ../conf.avail/10-sub-pixel-rgb.conf .`
 
@@ -55,6 +55,7 @@ Pop!\_OS 也有提供試用模式，不想立即安裝也能試用體驗。
 
 ### 更改時區
 
+- 安裝後會有圖像介面可操作
 - 搜尋時區列表
   - `timedatectl list-timezones | grep -i Taiwan`
 - 設定時區
@@ -84,8 +85,13 @@ chsh -s /usr/bin/fish
 
 ## 安裝軟體
 
+Pop!_OS 有提供 Pop!_Shop 可快速下載各類應用程式，亦可開啟終端使用指令安裝
+
+### neofetch
+
 ### htop
 
+- 監控系統資源使用狀況
 - `sudo apt install htop`
 
 ### tmux
@@ -96,13 +102,26 @@ chsh -s /usr/bin/fish
 
 - `sudo apt install -y code`
 
+### mpv
+
+- [mpv—Linux Apps on Flathub](https://flathub.org/apps/details/io.mpv.Mpv)
+  - 使用 Flatpak 安裝的 mpv 相關設定檔會放置於 `~/.var/app/io.mpv.Mpv/config/mpv` 裡
+  - Unix 系統底下的 mpv shaders **引號路徑內**的 `;` 須改為 `:`
+
 ### Multimedia codecs
 
 - `sudo apt install -y libavcodec-extra libdvd-pkg; sudo dpkg-reconfigure libdvd-pkg`
 
-### OBS
+### 輸入法
 
-- `sudo apt install -y obs-studio`
+- Fcitx5
+  - `sudo apt install fcitx5-mozc fcitx5-chewing`
+  - `im-config -n fcitx5`
+  - `Super` -> `Language Support`
+  - Reboot
+  - `Super+A` -> `Fcitx Configuration`
+    - `skk`
+    - `Chewing`
 
 ### Wine
 
@@ -122,15 +141,61 @@ chsh -s /usr/bin/fish
 - 使用 Wine 執行程式
   1. 搭配 Lutris 執行
   2. `wine PROGRAM [ARGUMENTS...]`
+- `sudo winetricks --self-update`
+- 建構 32bit 環境
+  - `WINEARCH=win32 WINEPREFIX=$HOME/.wine32 winecfg`
+  - `WINEARCH=win32 WINEPREFIX=$HOME/.wine32 [program]`
 - 新增日語字體支援
-  - `winetricks fakejapanese_ipamona`
+  - `winetricks allfonts`
+  - `winecfg`
+    - Desktop Integration -> Message Box Text -> Meiryo
+- 新增 .NET 支援
+  - `sudo apt install mono-complete`
 - 移除 Wine
   - `sudo apt autoremove winehq-stable -y`
+
+### Steam
+
+- 啟用 Proton
+  - Settings -> Steam Play -> Enable Steam Play for all other titles
+- 將遊戲安裝於副硬碟
+  - `flatpak override --user --filesystem=/欲安裝的硬碟路徑 com.valvesoftware.Steam`
+  - [Install Steam Linux Games on Different Hard Drive?](https://steamcommunity.com/app/221410/discussions/0/864969481983128260/)
+  - 確認 flatpak 已設定的 override
+    - `flatpak override --show app.id`
+  - 重設 override
+    - `flatpak override --reset app.id`
+  - 副硬碟格式必須為 ext4？
+- [steamtinkerlaunch](https://github.com/sonic2kk/steamtinkerlaunch)
+  - MangoHud
+    - `flatpak install MangoHud`
+    - `MANGOHUD=1 [program]`
+    - `mangohud [program]`
+    - `mangohud --dlsym [program]`
+
+### OBS
+
+- `sudo apt install -y obs-studio`
 
 ### NsCDE
 
 - [NsCDE](https://github.com/NsCDE/NsCDE)
 - 使用 Release 裡的 `.deb` 檔安裝
+
+### Keychron Function 鍵問題
+
+- [kurgol/keychron](https://github.com/Kurgol/keychron/blob/master/k2.md)
+- [Keychron Linux Function Keys](https://mikeshade.com/posts/keychron-linux-function-keys/)
+  - 長按 `Fn+X+L` 4 秒，將 fucntion 鍵列設為 Function 模式
+  - `echo 0 | sudo tee /sys/module/hid_apple/parameters/fnmode`
+- 於重開機後保持變更
+  - `echo "options hid_apple fnmode=0" | sudo tee -a /etc/modprobe.d/hid_apple.conf`
+  - `sudo update-initramfs -u`
+
+### 應用程式捷徑
+
+- `/usr/share/applications/`
+- `~/.local/share/applications/`
 
 ## 補充資料
 

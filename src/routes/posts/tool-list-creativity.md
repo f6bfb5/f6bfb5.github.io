@@ -52,7 +52,8 @@ tags: Toolbox
 | [pyTranscriber](https://github.com/raryelcostasouza/pyTranscriber)    | 自動產生字幕軟體    |
 | [mtn](https://gitlab.com/movie_thumbnailer/mtn/-/wikis/home#download) | 製作影片縮時一覽圖  |
 
-`mtn.exe -c 4 -h 0 -s 60 -z -P -f <path-to-font-file>`
+- [Revan654/movie-thumbnailer-mtn](https://github.com/Revan654/movie-thumbnailer-mtn)
+- `mtn.exe -c 4 -w 1024 -h 0 -r 0 -s 60 -z -P -f [path-to-font-file] [video-file]`
 
 ### 錄影
 
