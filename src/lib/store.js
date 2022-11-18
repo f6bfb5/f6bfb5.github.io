@@ -364,6 +364,9 @@ export const marqueeTexts = readable([
   "Experience is the name everyone gives to their mistakes.",
   "Colorless green ideas sleep furiously.",
   "Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.",
+  // https://zh.wikipedia.org/wiki/Hexspeak
+  "0xDEADBEEF",
+  "0xFEE1DEAD",
   "Небо очень и очень темное , а Земля голубоватая .",
   "「這是冒險的終結嗎？世間的一切都沒有終結。我們來此尋找長生不老的秘密，是為了要成為神？我們是人，人類永遠都是凡人，雖然我們沒有獲得長生不老，但至少我們獲得了真實，我們開始於神話，現在我們要回到現實，不過……這個生活是真實的嗎？不，這只是電影，攝影機往後拉。」",
   '正如要有林林總總部份才能組成一個完整的人，而其中每一部份又要有千差萬別，才得以構成迥然不同之人，異於他人的面容，下意識裡的聲調，夢醒時所見的手掌，兒時的記憶，未來的命運，以及我的電子腦所觸及的信息海洋，所有的這一切，孕育了「我」，個人意識的升華，使我意識到自我的存在，同時也將我限定在"自我"之中。「孩童之時，所言俱為孩童，所感如是孩童，所思亦復孩童，唯成年之後，便將童心擯棄。」（哥林多前書 13 章-11）',

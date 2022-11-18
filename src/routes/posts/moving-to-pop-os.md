@@ -5,7 +5,7 @@ summary: "Pop!_OS 是一套由美國電腦硬體製造商 System76 基於 Linux 
 tags:
 ---
 
-雖然標題這樣寫，但我還沒搬，這是一篇搬離前的準備整理。
+搬過去啦！✌
 
 ## Pop!\_OS 是什麼？
 
@@ -16,6 +16,8 @@ Pop!\_OS 是一套由美國電腦硬體製造商 System76 基於 Linux 發行版
 ~~可以去找《UNIX 編程藝術》來看…~~雖然會喪失一些應用程式的相容性，但就實務範例來說，Linux 擁有比 Windows 更好的穩定性、安全性與自訂彈性，而且完全免費！對 Windows 頗有微詞而不想升到 Windows 11 的人而言，目前或許是個跳到 Linux 發行版系統的好時機。
 
 如同 Steam Deck 也是採用 Linux 發行版系統作為基底，Linux 已經能夠滿足大多娛樂用途的需求，不論是影音播放、遊戲、實況、3D 建模、影片剪輯…等等，甚至[《艾爾登法環》在 Linux 上的表現還比在 Windows 上好](https://www.ptt.cc/bbs/C_Chat/M.1647167786.A.094.html)！[Blender 在 Linux 上的效能表現也比在 Windows 上平均快了 50%](https://www.youtube.com/watch?v=cpE2B2QSsa0)！
+
+- [在 Arch Linux 上跑 osu!](https://hackmd.io/@nesquate/osu-on-archlinux)
 
 但高自訂彈性也意味著使用者需要對系統有一定程度的知識，這也是過去 Linux 難以走入大眾市場的原因，雖然 Pop!\_OS 已經改善不少使用門檻上的體驗，難免還是會有類似問題，這部份 System76 也提供了[許多疑難雜症解決資源](https://support.system76.com/articles/package-manager-ubuntu/)，網路上也有許多對 Linux 有深入理解的社群，不會在找解方時像 Windows 總是被困在千篇一律的官方標準回覆裡。
 
@@ -33,12 +35,14 @@ Pop!\_OS 是一套由美國電腦硬體製造商 System76 基於 Linux 發行版
 - [Ventoy](https://github.com/ventoy/Ventoy)
 - [Pop!\_OS](https://pop.system76.com/)
 
-1. 解壓縮 Ventoy，執行 `Ventoy2Disk`
-2. Device 選擇 USB 隨身碟，進行 Install
-3. 下載 Pop!\_OS 映像檔，NVIDIA 顯示卡使用者可選附驅動版
-4. 重開機，改以 USB 碟開機，選擇 Pop!\_OS 映像檔
+### 步驟
 
-Pop!\_OS 也有提供試用模式，不想立即安裝也能試用體驗。
+- 1) 解壓縮 Ventoy，執行 `Ventoy2Disk`
+- 2) Device 選擇 USB 隨身碟，進行 Install
+- 3) 下載 Pop!\_OS 映像檔，NVIDIA 顯示卡使用者可選附驅動版
+- 4) 重開機，改以 USB 碟開機，選擇 Pop!\_OS 映像檔
+
+Pop!\_OS 也有提供試用模式，不想立即安裝也能先試用體驗。
 
 ## 安裝後要做的事
 
@@ -49,13 +53,10 @@ Pop!\_OS 也有提供試用模式，不想立即安裝也能試用體驗。
 - [諸君，不管用哪套 Linux 發行版本，機器一裝好，就先跑：](https://twitter.com/hiroshiyui/status/1405422305841324032)
   - `cd /etc/fonts/conf.d/ && \ sudo sh -c 'rm 11-lcdfilter-default.conf && ln -s ../conf.avail/11-lcdfilter-light.conf .' && \ sudo ln -s ../conf.avail/10-sub-pixel-rgb.conf .`
 
-### 設定主機名稱
+### 設定主機名稱與時區
 
+- 安裝後亦有圖像介面可操作
 - `hostnamectl set-hostname [hostname]`
-
-### 更改時區
-
-- 安裝後會有圖像介面可操作
 - 搜尋時區列表
   - `timedatectl list-timezones | grep -i Taiwan`
 - 設定時區
@@ -85,14 +86,21 @@ chsh -s /usr/bin/fish
 
 ## 安裝軟體
 
-Pop!_OS 有提供 Pop!_Shop 可快速下載各類應用程式，亦可開啟終端使用指令安裝
+- Pop!_OS 有提供 Pop!_Shop 可快速下載各類應用程式
+- 亦可開啟終端（`Super+T`）使用指令安裝
 
 ### neofetch
+
+- 酷炫地秀出你的系統環境
+- ![neofetch](https://i.imgur.com/WTuWWyL.png)
+- `sudo apt-get install neofetch`
 
 ### htop
 
 - 監控系統資源使用狀況
 - `sudo apt install htop`
+- 監控 GPU 使用狀況
+  - `watch -d -n 0.5 nvidia-smi`
 
 ### tmux
 
@@ -101,11 +109,35 @@ Pop!_OS 有提供 Pop!_Shop 可快速下載各類應用程式，亦可開啟終�
 ### VSCode
 
 - `sudo apt install -y code`
+- 新增 GitHub SSH key
+  - `cd ~/.ssh`
+  - `ssh-keygen -t ed25519 -C "your_email@example.com"`
+  - `ssh-add ~/.ssh/id_ed25519`
+  - （非必須？）`touch ./config`：
+    ```
+      Host github.com
+        HostName github.com
+        User git
+        IdentityFile ~/.ssh/id_ed25519
+
+      Host github.com-another-account
+        HostName github.com
+        User git
+        IdentityFile ~/.ssh/id_ed25519-another-account
+    ```
+  - `ssh-add ~/.ssh/id_ed25519`
+    - 若多帳號則另一個 SSH key 也須加入
+    - 查看：`ssh-add -l`
+    - 刪除：`ssh-add -D`
+  - GitHub -> Settings -> Access -> SSH and GPG keys
+  - `ssh -T git@github.com`
+    - 產生 `known_hosts`
+  - `git remote set-url origin git@github.com:USERNAME/REPOSITORY.git`
 
 ### mpv
 
 - [mpv—Linux Apps on Flathub](https://flathub.org/apps/details/io.mpv.Mpv)
-  - 使用 Flatpak 安裝的 mpv 相關設定檔會放置於 `~/.var/app/io.mpv.Mpv/config/mpv` 裡
+  - Flatpak 安裝的 mpv 設定檔會放置於 `~/.var/app/io.mpv.Mpv/config/mpv` 
   - Unix 系統底下的 mpv shaders **引號路徑內**的 `;` 須改為 `:`
 
 ### Multimedia codecs
@@ -136,11 +168,11 @@ Pop!_OS 有提供 Pop!_Shop 可快速下載各類應用程式，亦可開啟終�
   - `sudo apt update`
 - 安裝 Wine
   - `sudo apt install winehq-stable --install-recommends -y`
-- 完成設定
+- 開啟設定
   - `winecfg`
 - 使用 Wine 執行程式
-  1. 搭配 Lutris 執行
-  2. `wine PROGRAM [ARGUMENTS...]`
+  - 1- 搭配 Lutris 執行
+  - 2- `wine PROGRAM [ARGUMENTS...]`
 - `sudo winetricks --self-update`
 - 建構 32bit 環境
   - `WINEARCH=win32 WINEPREFIX=$HOME/.wine32 winecfg`
@@ -158,20 +190,22 @@ Pop!_OS 有提供 Pop!_Shop 可快速下載各類應用程式，亦可開啟終�
 
 - 啟用 Proton
   - Settings -> Steam Play -> Enable Steam Play for all other titles
-- 將遊戲安裝於副硬碟
-  - `flatpak override --user --filesystem=/欲安裝的硬碟路徑 com.valvesoftware.Steam`
-  - [Install Steam Linux Games on Different Hard Drive?](https://steamcommunity.com/app/221410/discussions/0/864969481983128260/)
+- 安裝遊戲於副硬碟
+  - 給予 flatpak 軟體存取權限
+    - `flatpak override --user --filesystem=/欲安裝的硬碟路徑 com.valvesoftware.Steam`
+    - [Install Steam Linux Games on Different Hard Drive?](https://steamcommunity.com/app/221410/discussions/0/864969481983128260/)
   - 確認 flatpak 已設定的 override
     - `flatpak override --show app.id`
   - 重設 override
     - `flatpak override --reset app.id`
   - 副硬碟格式必須為 ext4？
 - [steamtinkerlaunch](https://github.com/sonic2kk/steamtinkerlaunch)
-  - MangoHud
+  - [MangoHud](https://github.com/flightlessmango/MangoHud)
     - `flatpak install MangoHud`
     - `MANGOHUD=1 [program]`
     - `mangohud [program]`
     - `mangohud --dlsym [program]`
+  - [gamemode](https://github.com/FeralInteractive/gamemode)
 
 ### OBS
 
@@ -181,6 +215,7 @@ Pop!_OS 有提供 Pop!_Shop 可快速下載各類應用程式，亦可開啟終�
 
 - [NsCDE](https://github.com/NsCDE/NsCDE)
 - 使用 Release 裡的 `.deb` 檔安裝
+- 我沒裝
 
 ### Keychron Function 鍵問題
 
@@ -194,8 +229,17 @@ Pop!_OS 有提供 Pop!_Shop 可快速下載各類應用程式，亦可開啟終�
 
 ### 應用程式捷徑
 
+- Show Applications（`Super+A`）裡的那些東西
 - `/usr/share/applications/`
 - `~/.local/share/applications/`
+
+### 其他軟體
+
+- [DeaDBeeF](https://deadbeef.sourceforge.io/)
+- [Easy Effects](https://github.com/wwmm/easyeffects)
+- [Lorien](https://github.com/mbrlabs/Lorien)
+- [Boop-GTK](https://github.com/zoeyfyi/Boop-GTK)
+- [Input Display](https://moonspod.itch.io/input-display)
 
 ## 補充資料
 
