@@ -1092,6 +1092,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220909 [星之卡比 夢之泉物語](https://www.youtube.com/watch?v=h2EpwYFfrfY) 5:55
 - 221003 [星之卡比 Super Deluxe](https://www.youtube.com/watch?v=MsexzQq-kaU) 7:39
 - 221020 [任天堂明星大亂鬥](https://www.youtube.com/watch?v=uHJpaYpPTHg) 8:31
+- 221122 [任天堂明星大亂鬥DX](https://www.youtube.com/watch?v=5NrJhrCvRvE) 4:18
 
 </div>
 

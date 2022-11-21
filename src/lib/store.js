@@ -29,6 +29,7 @@ export const randomNav = readable([
   "不易流行",
   "十人十色",
   "テニヲハ",
+  "閑話休題",
   // 林纈
   // 翳光
   // Mary Sue
@@ -46,6 +47,7 @@ export const randomNav = readable([
   // 帰還不能点
   // ジャメヴ
   // 倒語
+  // https://ja.wikipedia.org/wiki/命数法
 ]);
 
 export const logoLinks = readable([

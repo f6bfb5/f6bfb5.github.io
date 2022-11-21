@@ -5,7 +5,7 @@ summary: "Pop!_OS 是一套由美國電腦硬體製造商 System76 基於 Linux 
 tags:
 ---
 
-搬過去啦！✌
+<p style="margin-top: 1em; text-align: center;">搬過去啦！✌</p>
 
 ## Pop!\_OS 是什麼？
 
