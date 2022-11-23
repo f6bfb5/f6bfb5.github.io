@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-bbd0bcd2.js",
+    "file": "start-d9e6b46c.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -74,14 +74,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-29e254a4.js",
+    "file": "pages/__layout.svelte-d0f1d062.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-8fdc940d.js",
-      "_store-42aebdd9.js",
+      "_Favicon-d827db4c.js",
+      "_store-a0331280.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -115,14 +115,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-8ff45973.js",
+    "file": "pages/__layout-wide.svelte-cc803f77.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-8fdc940d.js",
-      "_store-42aebdd9.js",
+      "_Favicon-d827db4c.js",
+      "_store-a0331280.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -132,7 +132,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-a5c170d2.js",
+    "file": "pages/_slug_.svelte-15b85519.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -194,13 +194,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-73ed4fea.js",
+    "file": "pages/about.svelte-5b8c082e.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-42aebdd9.js",
+      "_store-a0331280.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -220,13 +220,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-9b357502.js",
+    "file": "pages/index@wide.svelte-16c49033.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-42aebdd9.js",
+      "_store-a0331280.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -282,7 +282,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
+      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -296,11 +296,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
+      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-ba24f385.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-4c9a1421.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -510,7 +510,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
+      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -660,7 +660,7 @@
     ]
   },
   "src/routes/posts/moving-to-pop-os.md": {
-    "file": "pages/posts/moving-to-pop-os.md-356df1b3.js",
+    "file": "pages/posts/moving-to-pop-os.md-da4b02eb.js",
     "src": "src/routes/posts/moving-to-pop-os.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -777,7 +777,7 @@
     ]
   },
   "src/routes/posts/tool-list-creativity.md": {
-    "file": "pages/posts/tool-list-creativity.md-6e6ea785.js",
+    "file": "pages/posts/tool-list-creativity.md-7d932c1d.js",
     "src": "src/routes/posts/tool-list-creativity.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -787,7 +787,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list-system.md-29020d9f.css"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
@@ -801,7 +801,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list-system.md-29020d9f.css"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
@@ -815,7 +815,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list-system.md-29020d9f.css"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
@@ -896,19 +896,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-8fdc940d.js": {
-    "file": "chunks/Favicon-8fdc940d.js",
+  "_Favicon-d827db4c.js": {
+    "file": "chunks/Favicon-d827db4c.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-42aebdd9.js",
+      "_store-a0331280.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-42aebdd9.js": {
-    "file": "chunks/store-42aebdd9.js",
+  "_store-a0331280.js": {
+    "file": "chunks/store-a0331280.js",
     "imports": [
       "_index-17c965c3.js"
     ]
