@@ -18,7 +18,31 @@ tags: Toolbox
 | [apngasm](http://apngasm.sourceforge.net/)                                    | 以一系列圖片製作 APNG 動圖  |
 | [Pngyu](https://nukesaq88.github.io/Pngyu/)                                   | 壓縮 PNG 檔案               |
 
+### 學習資料
+
+- [初心者が挫折しないための簡単クロッキー LV.1](https://www.youtube.com/watch?v=v-Ej9EIlfoc)
+- [【練習内容公開】イラストを 100 日練習しました](https://note.com/enzen3852/n/na1fecd0ac10b)
+- [【心得】減少掉毛的線條訓練、結構練習](https://forum.gamer.com.tw/C.php?bsn=60143&snA=29218)
+- [アニメーターが同じ動作を 50 通り演じ分けるシリーズ『50 Ways to ~』](https://animsquare.com/2019/06/50waystodo/)
+- [初心者の「なぜか上手く描けない」を解決！髪の描き方 テクニック編](https://ichi-up.net/2017/106)
+- [#描き方 無題](https://www.pixiv.net/artworks/77853148)
+- [イラストの描き方を動画で学ぶ！](https://sensei.pixiv.net/)
+- [【抖抖村】测测你的绘画姿态和握笔方式是正确吗?](https://www.youtube.com/watch?v=n9D3tozfMSQ)
+
 ## 影片
+
+### 學習資料
+
+- [motiontable](http://foxcodex.html.xdomain.jp/)
+- [知識経験ゼロから映像を作るためにした 7 つのこと](https://note.com/lon_comb/n/n853d7a121e8d)
+- [Aviutl Tips - 001 「動画をストップモーションっぽくしよう」](https://qiita.com/Aodaruma/items/11338a2b727649dc192b)
+- [為什麼我的合成看起來不真實](http://evanwen.weebly.com/28858201604063625105303402151225104304753621520358199813049523526.html)
+- [60『静止した時間の中で』メイキング](http://oomugi.hatenablog.com/entry/2020/06/27/222707)
+- [ＣＧ制作演習資料](http://web.wakayama-u.ac.jp/~tokoi/cgpe2020.html)
+- [Hyperlapse：讓你的縮時活起來](https://www.jacksonlin.net/20180118-how-to-shoot-hyperlapse/)
+- [你應該使用動態模糊(Motion Blur)嗎?](https://medium.com/us-motion-translator/%E4%BD%A0%E6%87%89%E8%A9%B2%E4%BD%BF%E7%94%A8%E5%8B%95%E6%85%8B%E6%A8%A1%E7%B3%8A-motion-blur-%E5%97%8E-e0b956a1e7b5)
+- [自我進修 MG 的方法](https://medium.com/small-stuff/mg-note-01-af57a073b79c)
+- [麦 Baku](https://baku89.com/articles)
 
 ### 剪輯
 
@@ -31,6 +55,11 @@ tags: Toolbox
 | [Avidemux](http://avidemux.sourceforge.net/)                                | 簡易功能的開源影片編輯軟體             |
 | [LosslessCut](https://github.com/mifi/lossless-cut/releases)                | 無失真的影片剪輯軟體                   |
 
+#### AviUtl
+
+- [AviUtl&テクニック - FLAPPER](https://seguimiii.com/category/aviutl-tech)
+- [ePi](https://scrapbox.io/ePi5131/)
+
 ### 特效
 
 | 名稱                                                  | 說明                                  |
@@ -40,6 +69,13 @@ tags: Toolbox
 | [HitFilm](https://fxhome.com/product/hitfilm-express) |                                       |
 | [Cavalry](https://cavalry.scenegroup.co/)             | 類似 AfterEffects 的 影片特效軟體     |
 | [AnimeEffects](http://animeeffects.org/ja/)           | 可以處理圖片自由變型的後製軟體        |
+
+- [Olive](https://www.olivevideoeditor.org/download.php)
+- [NiVE](http://nive.jp/NiVE2/index.php?NiVE%A4%CB%A4%C4%A4%A4%A4%C6)
+
+#### After Effects
+
+- [KEYboard](https://www.notion.so/KEYboard-0da1a93393b44b96bea79482b98b7786)
 
 ### 輔助
 
@@ -76,6 +112,35 @@ tags: Toolbox
 | [OpenToonz](https://opentoonz.github.io/index.html)                      | 吉卜力愛用的開源動畫製作軟體 |
 | [OPTPiX SpriteStudio](https://www.webtech.co.jp/spritestudio/index.html) | 製作 Live2D 動畫專用的工具   |
 
+- [TVPaint](https://www.tvpaint.com/)
+- [CACANi](https://cacani.sg/?v=3d9975706be3)
+- [Tools OLM Digital R&D](https://olm.co.jp/rd/technology/tools/?lang=en)
+
+## 遊戲製作
+
+- [everestpipkin/tools-list](https://github.com/everestpipkin/tools-list)
+  - [GB Studio](https://www.gbstudio.dev/)
+  - [NoCode で GB ソフトができるソフトウェア『GBStudio』の仕組みを調べてみた](https://qiita.com/Akatsuki_py/items/a5981582d0cf93a577f3)
+- [ジャンル別ゲームの作り方とアルゴリズムまとめ](https://nslab.hatenablog.com/entry/20090627/1246028707)
+  - アクションゲームアルゴリズムマニアックス
+  - パズルゲームアルゴリズムマニアックス
+  - シューティングゲームアルゴリズムマニアックス
+- [2D 当たり判定超入門](http://www.zengeren.com/content/data/05/05_2DCollision.pdf)
+- [衝突判定 2D 編](https://qiita.com/Nekonecode/items/2d26902d5656fd3f1aa5)
+- [ゲームプランナーに役立ちそうな資料まとめ Web 編](https://my-syumi-game.hatenablog.com/entry/2021/08/12/011604)
+- [BYTEPATH #0 - Introduction](https://github.com/adnzzzzZ/blog/issues/30)
+- [心が折れずにゲーム開発を続ける方法](https://docs.google.com/presentation/d/1WYo14faJY9LVSAazTT3_FCoCYv48JODZlZO7rppuZPQ/edit#slide=id.g89fd1a9fd7_2_316)
+- [一般的な RPG の経験値を計算してみる](https://qiita.com/yuji_yasuhara/items/83a67a784d4d6152a2de)
+- [ドット絵のキャラクターを自然に 3D 空間に馴染ませるテクニック](https://qiita.com/flankids/items/3a69bbdc4b52d0a516ef)
+- [マリオカートの ER 図について考える](https://qiita.com/assu_mz/items/9d80320e6f778d83c61f)
+- [Houdini でアニメっぽいシルエット・ディテールを作成する](https://flypot.jp/2019/10/18/houdini-anime-style/)
+- [ShaderGraph](http://r-ngtm.hatenablog.com/archive/category/ShaderGraph)
+
+### Unity
+
+- [Bolt](https://assetstore.unity.com/packages/tools/visual-scripting/bolt-163802)
+- [[Unity]スパイダーバース感!?モーション FPS 制御によるアニメチックな映像表現](https://qiita.com/flankids/items/c36ccdc02031fa304365)
+
 ## 3DCG
 
 | 名稱                                       | 說明 |
@@ -84,6 +149,8 @@ tags: Toolbox
 | [Blender](https://www.blender.org/)        |      |
 | [Metasequoia](http://www.metaseq.net/)     |      |
 | [SketchUp](https://www.sketchup.com/zh-TW) |      |
+
+- [picoCAD](https://johanpeitz.itch.io/picocad)
 
 ## 音樂
 

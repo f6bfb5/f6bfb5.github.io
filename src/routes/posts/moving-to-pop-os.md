@@ -176,11 +176,13 @@ chsh -s /usr/bin/fish
 - `sudo winetricks --self-update`
 - 建構 32bit 環境
   - `WINEARCH=win32 WINEPREFIX=$HOME/.wine32 winecfg`
-  - `WINEARCH=win32 WINEPREFIX=$HOME/.wine32 [program]`
+  - `WINEARCH=win32 WINEPREFIX=$HOME/.wine32 wine [program]`
 - 新增日語字體支援
   - `winetricks allfonts`
   - `winecfg`
     - Desktop Integration -> Message Box Text -> Meiryo
+- 使用日語環境啟動
+  - `LANG="ja_JP.UTF8" wine [program]`
 - 新增 .NET 支援
   - `sudo apt install mono-complete`
 - 移除 Wine
@@ -215,7 +217,7 @@ chsh -s /usr/bin/fish
 
 - [NsCDE](https://github.com/NsCDE/NsCDE)
 - 使用 Release 裡的 `.deb` 檔安裝
-- 我沒裝
+- 我沒裝，但挺炫的
 
 ### Keychron Function 鍵問題
 
