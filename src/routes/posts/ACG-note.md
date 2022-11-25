@@ -1004,6 +1004,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220904 [累積之後迅地釋放](https://www.youtube.com/watch?v=ItuZ_AZG49M) 2:41
 - 220921 [RPG 的遊戲性](https://www.youtube.com/watch?v=42x9G5pe8lg) 2:37
 - 221017 [遊戲性之外的趣味](https://www.youtube.com/watch?v=OALp2UAe6V4) 6:48
+- 221123 [惡魔鍋](https://www.youtube.com/watch?v=fECe1QuH3yY) 4:51
 
 </div>
 <div style="width: 20em; min-width: 30%;">
