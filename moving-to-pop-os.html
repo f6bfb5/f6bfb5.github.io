@@ -33,15 +33,15 @@
     <meta name="twitter:data1" value="Nov 4, 2022" data-svelte="svelte-1xtzxhc">
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-193c0755.css">
 	<link rel="stylesheet" href="/_app/assets/Favicon-3192f126.css">
-	<link rel="modulepreload" href="/_app/start-d423e932.js">
+	<link rel="modulepreload" href="/_app/start-f643b97b.js">
 	<link rel="modulepreload" href="/_app/chunks/index-8418cccc.js">
 	<link rel="modulepreload" href="/_app/chunks/index-17c965c3.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
 	<link rel="modulepreload" href="/_app/chunks/preload-helper-e4860ae8.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-d0f1d062.js">
-	<link rel="modulepreload" href="/_app/chunks/Favicon-d827db4c.js">
-	<link rel="modulepreload" href="/_app/chunks/store-a0331280.js">
-	<link rel="modulepreload" href="/_app/pages/_slug_.svelte-4d9842ab.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-f04cf367.js">
+	<link rel="modulepreload" href="/_app/chunks/Favicon-55bd5f89.js">
+	<link rel="modulepreload" href="/_app/chunks/store-f518e811.js">
+	<link rel="modulepreload" href="/_app/pages/_slug_.svelte-68d7e5bf.js">
   </head>
   <body>
     <!-- The application will be rendered inside this element,
@@ -72,7 +72,7 @@
   <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
   </a>
 </nav>
-      <a href="https://youtu.be/LXCrwoQzrwI" target="_blank" rel="noreferrer noopener" class="svelte-145ut21"><img src="https://i.imgur.com/D0PAWCi.gif" alt="logo" class="svelte-145ut21">
+      <a href="https://www.nicovideo.jp/watch/sm24304243" target="_blank" rel="noreferrer noopener" class="svelte-145ut21"><img src="https://i.imgur.com/D0PAWCi.gif" alt="logo" class="svelte-145ut21">
 </a></div>
     </div>
 </header>
@@ -203,7 +203,8 @@ chsh -s /usr/bin/fish</code><!-- HTML_TAG_END --></pre>
 <li><code>WINEARCH=win32 WINEPREFIX=$HOME/.wine32 wine [program]</code></li></ul></li>
 <li>新增日語字體支援<ul><li><code>winetricks allfonts</code></li>
 <li><code>winecfg</code><ul><li>Desktop Integration -&gt; Message Box Text -&gt; Meiryo</li></ul></li></ul></li>
-<li>使用日語環境啟動<ul><li><code>LANG=&quot;ja_JP.UTF8&quot; wine [program]</code></li></ul></li>
+<li>使用日語環境啟動<ul><li><code>LANG=ja_JP.UTF8 wine [program]</code></li></ul></li>
+<li>使用繁中環境啟動<ul><li><code>LANG=zh_TW.UTF8 wine [program]</code></li></ul></li>
 <li>新增 .NET 支援<ul><li><code>sudo apt install mono-complete</code></li></ul></li>
 <li>移除 Wine<ul><li><code>sudo apt autoremove winehq-stable -y</code></li></ul></li></ul>
 <h3>Steam</h3>
@@ -213,7 +214,7 @@ chsh -s /usr/bin/fish</code><!-- HTML_TAG_END --></pre>
 <li>確認 flatpak 已設定的 override<ul><li><code>flatpak override --show app.id</code></li></ul></li>
 <li>重設 override<ul><li><code>flatpak override --reset app.id</code></li></ul></li>
 <li>副硬碟格式必須為 ext4？</li></ul></li>
-<li><a href="https://github.com/sonic2kk/steamtinkerlaunch" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/sonic2kk/steamtinkerlaunch" alt="steamtinkerlaunch"><span>steamtinkerlaunch</span></a><ul><li><a href="https://github.com/flightlessmango/MangoHud" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/flightlessmango/MangoHud" alt="MangoHud"><span>MangoHud</span></a><ul><li><code>flatpak install MangoHud</code></li>
+<li><a href="https://github.com/sonic2kk/steamtinkerlaunch" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/sonic2kk/steamtinkerlaunch" alt="steamtinkerlaunch"><span>steamtinkerlaunch</span></a><ul><li><code>flatpak install com.valvesoftware.Steam.Utility.steamtinkerlaunch</code> <a href="https://github.com/flightlessmango/MangoHud" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/flightlessmango/MangoHud" alt="MangoHud"><span>MangoHud</span></a><ul><li><code>flatpak install MangoHud</code></li>
 <li><code>MANGOHUD=1 [program]</code></li>
 <li><code>mangohud [program]</code></li>
 <li><code>mangohud --dlsym [program]</code></li></ul></li>
@@ -222,7 +223,6 @@ chsh -s /usr/bin/fish</code><!-- HTML_TAG_END --></pre>
 <ul><li><code>sudo apt install -y obs-studio</code></li></ul>
 <h3>NsCDE</h3>
 <ul><li><a href="https://github.com/NsCDE/NsCDE" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/NsCDE/NsCDE" alt="NsCDE"><span>NsCDE</span></a></li>
-<li>使用 Release 裡的 <code>.deb</code> 檔安裝</li>
 <li>我沒裝，但挺炫的</li></ul>
 <h3>Keychron Function 鍵問題</h3>
 <ul><li><a href="https://github.com/Kurgol/keychron/blob/master/k2.md" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/Kurgol/keychron/blob/master/k2.md" alt="kurgol/keychron"><span>kurgol/keychron</span></a></li>
@@ -260,10 +260,10 @@ chsh -s /usr/bin/fish</code><!-- HTML_TAG_END --></pre>
 </div>
 
 
-		<script type="module" data-hydrate="1a5puek">
-		import { start } from "/_app/start-d423e932.js";
+		<script type="module" data-hydrate="1hw74sc">
+		import { start } from "/_app/start-f643b97b.js";
 		start({
-			target: document.querySelector('[data-hydrate="1a5puek"]').parentNode,
+			target: document.querySelector('[data-hydrate="1hw74sc"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: false,
@@ -273,8 +273,8 @@ chsh -s /usr/bin/fish</code><!-- HTML_TAG_END --></pre>
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-d0f1d062.js"),
-						import("/_app/pages/_slug_.svelte-4d9842ab.js")
+					import("/_app/pages/__layout.svelte-f04cf367.js"),
+						import("/_app/pages/_slug_.svelte-68d7e5bf.js")
 				],
 				params: {slug:"moving-to-pop-os"},
 				routeId: "[slug]"
