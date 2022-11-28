@@ -1015,6 +1015,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220925 [先讓人玩遊戲](https://www.youtube.com/watch?v=1toox93mCzs) 2:44
 - 221010 [吊在眼前的獎勵](https://www.youtube.com/watch?v=rA_FN6BTGms) 2:17
 - 221107 [如何靠做遊戲過活](https://www.youtube.com/watch?v=rsh4p55hGNE) 3:54
+- 221125 [世界之窗十分狹小](https://www.youtube.com/watch?v=jHuwZIHdKSs) 3:10
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1024,6 +1025,13 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220824 [重要時刻要停下來！](https://www.youtube.com/watch?v=APOD1fmwPaM) 4:19
 - 220930 [讓按鍵有重量感](https://www.youtube.com/watch?v=ldz5yKW9Gaw) 2:23
 - 221114 [跳躍的構造](https://www.youtube.com/watch?v=zxOBCjqP8-Y) 4:52
+
+</div>
+<div style="width: 20em; min-width: 30%;">
+
+### E. 團隊營運
+
+- 221128 [團隊內的資訊分享](https://www.youtube.com/watch?v=WIoczFVOxHI) 3:20
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1072,6 +1080,11 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 ### K. 程式、技術
 
 - 221007 [合理地替檔案取名](https://www.youtube.com/watch?v=V40sMUAE5ek) 4:51
+
+</div>
+<div style="width: 20em; min-width: 30%;">
+
+### L. ???
 
 </div>
 <div style="width: 20em; min-width: 30%;">

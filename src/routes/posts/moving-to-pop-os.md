@@ -182,7 +182,9 @@ chsh -s /usr/bin/fish
   - `winecfg`
     - Desktop Integration -> Message Box Text -> Meiryo
 - 使用日語環境啟動
-  - `LANG="ja_JP.UTF8" wine [program]`
+  - `LANG=ja_JP.UTF8 wine [program]`
+- 使用繁中環境啟動
+  - `LANG=zh_TW.UTF8 wine [program]`
 - 新增 .NET 支援
   - `sudo apt install mono-complete`
 - 移除 Wine
@@ -202,7 +204,7 @@ chsh -s /usr/bin/fish
     - `flatpak override --reset app.id`
   - 副硬碟格式必須為 ext4？
 - [steamtinkerlaunch](https://github.com/sonic2kk/steamtinkerlaunch)
-  - [MangoHud](https://github.com/flightlessmango/MangoHud)
+  - `flatpak install com.valvesoftware.Steam.Utility.steamtinkerlaunch` [MangoHud](https://github.com/flightlessmango/MangoHud)
     - `flatpak install MangoHud`
     - `MANGOHUD=1 [program]`
     - `mangohud [program]`
@@ -216,7 +218,6 @@ chsh -s /usr/bin/fish
 ### NsCDE
 
 - [NsCDE](https://github.com/NsCDE/NsCDE)
-- 使用 Release 裡的 `.deb` 檔安裝
 - 我沒裝，但挺炫的
 
 ### Keychron Function 鍵問題
