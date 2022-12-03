@@ -246,6 +246,10 @@ export const logoLinks = readable([
   "https://graydon2.dreamwidth.org/193447.html",
   // [538] 安全性
   "https://xkcd.tw/538",
+  // 「あっそれ禁止されてるんだ」っていう規則やルールの一覧
+  "https://dic.nicovideo.jp/a/%E3%80%8C%E3%81%82%E3%81%A3%E3%81%9D%E3%82%8C%E7%A6%81%E6%AD%A2%E3%81%95%E3%82%8C%E3%81%A6%E3%82%8B%E3%82%93%E3%81%A0%E3%80%8D%E3%81%A3%E3%81%A6%E3%81%84%E3%81%86%E8%A6%8F%E5%89%87%E3%82%84%E3%83%AB%E3%83%BC%E3%83%AB%E3%81%AE%E4%B8%80%E8%A6%A7",
+  // むかつく絵文字で打線組んだwwwww
+  "http://tasogarech.blog.jp/archives/16728697.html",
   // ----------------------------------------
   // Manga
   // ----------------------------------------
@@ -360,6 +364,9 @@ export const marqueeTexts = readable([
   "西暦2029年。「企業のネットが星を被い、　電子や光が駆け巡っても　国家や民族が消えてなくなる程　情報化されていない近未来―――」",
   "みんな偉い夢持ってていいなア‼じゃあ夢バトルしようぜ！夢バトル‼",
   "でも、僕のような人間が教訓めいたことを言ってもしょうがない。僕が多くの映画を作ってこられたのは、ずっと運が良かったからです。そういう人間が「こんな苦労をした」と言っても意味がない。努力したにもかかわらず、運が悪くて這い上がれない人の気持ちを代弁できないからです。スポーツで栄誉を得た選手が、「夢は必ずかなう」と叫ぶのも滑稽です。あなたはかなったかもしれないが、かなわなかった多くの人をどう考えるのか。",
+  "人々の心を動かすのは、勝者ではないのです",
+  "堪えねばならんのだよ。勘違いするな、「堪える」と「許す」は違う、世の理不尽な出来事を許してはいかん、人として憤らねばならん、だが堪えねばならぬ、憎しみの連鎖は誰かが断たねばならぬ。",
+  "よく芸は盗むものだと云うがあれは嘘だ。盗む方にもキャリアが必要なんだ。最初は俺が教えた通り覚えればいい。盗めるようになりゃ一人前だ。時間がかかるんだ。教える方に論理がないからそういういいかげんなことを云うんだ。",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",
@@ -453,6 +460,9 @@ export const randomImages = readable([
   "https://i.imgur.com/d4T5Cns.png",
   "https://i.imgur.com/Uid1k2O.png",
   "https://i.imgur.com/Ag6GpPi.png",
+  "https://i.imgur.com/BDL3Wei.png",
+  "https://i.imgur.com/WvLBx4Y.png",
+  "https://i.imgur.com/k0P78kb.png",
 ]);
 
 export const aboutImages = readable([

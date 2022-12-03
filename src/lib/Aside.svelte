@@ -6,34 +6,38 @@
 
 <aside>
   <div class="aside-wrapper">
-    <a
-      href="https://sites.google.com/site/happybusy/"
-      rel="noreferrer noopener"
-      target="_blank"
-    >
-      <img src="https://i.imgur.com/kNtfPAo.png" alt="no-time" />
-    </a>
-    <a
-      href="http://n-yaruki.sh49.net/"
-      rel="noreferrer noopener"
-      target="_blank"
-    >
-      <img src="https://i.imgur.com/6gWrqDW.jpg" alt="no-motivation" />
-    </a>
-    <a
-      href="https://www.nicovideo.jp/ranking/genre/all?video_ranking_menu"
-      rel="noreferrer noopener"
-      target="_blank"
-    >
-      <img src="https://i.imgur.com/lR5H4mK.gif" alt="Nico Nico Douga" />
-    </a>
-    <a
-      href="https://www.htb.co.jp/suidou/"
-      rel="noreferrer noopener"
-      target="_blank"
-    >
-      <img src="https://i.imgur.com/P72xkgQ.png" alt="水曜どうでしょう" />
-    </a>
+    <div>
+      <a
+        href="https://sites.google.com/site/happybusy/"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        <img src="https://i.imgur.com/kNtfPAo.png" alt="no-time" />
+      </a>
+      <a
+        href="http://n-yaruki.sh49.net/"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        <img src="https://i.imgur.com/6gWrqDW.jpg" alt="no-motivation" />
+      </a>
+      <a
+        href="https://www.nicovideo.jp/ranking/genre/all?video_ranking_menu"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        <img src="https://i.imgur.com/lR5H4mK.gif" alt="Nico Nico Douga" />
+      </a>
+      <a
+        href="https://www.htb.co.jp/suidou/"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        <img src="https://i.imgur.com/P72xkgQ.png" alt="水曜どうでしょう" />
+      </a>
+    </div>
+
+    <!-- ---------- -->
     <div class="aside-row">
       <a href={`${base}/rss.xml`} rel="noreferrer noopener" target="_blank">
         <img src="https://i.imgur.com/IWb6pKA.gif" alt="RSS-Feed" />
@@ -117,6 +121,22 @@
     <div class="aside-row">
       <img src="https://i.imgur.com/iu8VKcQ.gif" alt="Milk Tea Now" />
       <img src="https://i.imgur.com/DjCDr0e.gif" alt="Candy Bars Now" />
+    </div>
+    <div class="aside-row">
+      <a
+        href="https://libresprite.github.io/"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        <img src="https://i.imgur.com/yGEzDfG.gif" alt="LibreSprite" />
+      </a>
+      <a
+        href="https://orama-interactive.itch.io/pixelorama"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        <img src="https://i.imgur.com/dgNZ0nM.gif" alt="Pixelorama" />
+      </a>
     </div>
     <div class="aside-row">
       <a href="https://discord.com/" rel="noreferrer noopener" target="_blank">

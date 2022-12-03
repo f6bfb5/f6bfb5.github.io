@@ -1040,6 +1040,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 
 - 220907 [不畫素材，畫光](https://www.youtube.com/watch?v=WqwtzP-TCnw) 3:33
 - 221028 [強調具有判定之物](https://www.youtube.com/watch?v=Lw8VPeQQGEY) 2:29
+- 221130 [辨別大事與小事](https://www.youtube.com/watch?v=u3phczQfi90) 2:45
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1096,6 +1097,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221012 [邊打電動邊運動](https://www.youtube.com/watch?v=GvTHozPNZac) 2:56
 - 221031 [遊戲本體的價值](https://www.youtube.com/watch?v=9QBYT9Rdmuw) 2:47
 - 221118 [愛貓小胖](https://www.youtube.com/watch?v=STRgDZU-iR4) 2:28
+- 221202 [以前是以前現在是現在](https://www.youtube.com/watch?v=9U3QkIZyjWo) 3:28
 
 </div>
 <div style="width: 20em; min-width: 30%;">
