@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-9aa69b5e.js",
+    "file": "start-4b5b039c.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -74,14 +74,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-ebdf5ca6.js",
+    "file": "pages/__layout.svelte-a8e13bc0.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-fb5d35a9.js",
-      "_store-6cb6caac.js",
+      "_Favicon-80139b4c.js",
+      "_store-f36dcac0.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -115,14 +115,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-c28b593e.js",
+    "file": "pages/__layout-wide.svelte-ce6381df.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-fb5d35a9.js",
-      "_store-6cb6caac.js",
+      "_Favicon-80139b4c.js",
+      "_store-f36dcac0.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -132,7 +132,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-d6bed314.js",
+    "file": "pages/_slug_.svelte-ba611548.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -194,13 +194,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-dd7d1489.js",
+    "file": "pages/about.svelte-45c4c68d.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-6cb6caac.js",
+      "_store-f36dcac0.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -220,13 +220,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-45ab18f4.js",
+    "file": "pages/index@wide.svelte-e5e24512.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-6cb6caac.js",
+      "_store-f36dcac0.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -282,7 +282,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -296,11 +296,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-1a0a619d.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-c8921b90.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -510,7 +510,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -896,19 +896,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-fb5d35a9.js": {
-    "file": "chunks/Favicon-fb5d35a9.js",
+  "_Favicon-80139b4c.js": {
+    "file": "chunks/Favicon-80139b4c.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-6cb6caac.js",
+      "_store-f36dcac0.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-6cb6caac.js": {
-    "file": "chunks/store-6cb6caac.js",
+  "_store-f36dcac0.js": {
+    "file": "chunks/store-f36dcac0.js",
     "imports": [
       "_index-17c965c3.js"
     ]
