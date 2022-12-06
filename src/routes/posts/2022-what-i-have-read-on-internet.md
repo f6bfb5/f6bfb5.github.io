@@ -2547,6 +2547,21 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [浮雲 - SAVAN](https://shonenjumpplus.com/episode/316190247005629299)
 - [【特集】UHS-I？スピードクラス？複雑怪奇なSDカードのロゴと規格をまとめてみる](https://pc.watch.impress.co.jp/docs/topic/feature/1459819.html)
 - [三笘薫"奇跡の1ミリ"、あの"証拠写真"を撮影した外国人カメラマンに直撃取材「なぜ撮れた？」「地上50mからニッポンのゴールを待っていた」](https://number.bunshun.jp/articles/-/855640)
+- [柿フライ、柿のアヒージョ、柿グラタン](https://dailyportalz.jp/kiji/fried-persimmon)
+- [日本アニメって軍隊を描けなくなってない？](https://anond.hatelabo.jp/20221204222245)
+- [「モノクロの古い写真をカラー化したもの」にはこの点で気をつけなければならない、という話「未来に持っていけるのはモノクロ」](https://togetter.com/li/1982418)
+- [「盆踊りが無形文化遺産」に思う、神事や芸術を「黙って真剣に鑑賞」しなければならないことの歪さについて](https://togetter.com/li/1982412)
+- [脳が衰えない高齢者「スーパーエイジャー」研究進む　米大学](https://www.cnn.co.jp/fringe/35196921.html)
+- [【実録】社内チャットで出会った「将軍」と名乗る男とLINEで仲良くなった結果…男はAppleギフトカードのために1曲大熱唱！ 涙のアンコールまで大公開！](https://rocketnews24.com/2022/12/05/1724603/)
+- [庵野秀明が責任編集を務めた伝説の同人誌「機動戦士ガンダム 逆襲のシャア 友の会」が復刻！ C101で先行発売!!](http://animestyle.jp/news/2022/12/05/23280/)
+- [『スプラトゥーン3』内で"中国政府への抗議文"が続々投稿される。このメッセージは何で、どんな背景があるのか？](https://automaton-media.com/articles/newsjp/20221205-229459/)
+- [コロナ陽性になるまでと、なってからと、終わってから](https://togetter.com/li/1982513)
+- [渡辺徹さん、素人時代から榊原郁恵さんの大ファンで結婚後隣にアイドルだった人が寝てるのに普通にびっくりすると言っていたそう「推しと結婚の元祖だった」](https://togetter.com/li/1982553)
+- [人生向いてなかった](https://anond.hatelabo.jp/20221206011431)
+- [ネトウヨ大学生が政治学者になって『陰謀論』という本を書くまで](https://wpb.shueisha.co.jp/news/politics/2022/12/06/117908/)
+- [【工作】コタツから出れないので『強制的に人を追い出すコタツ』を作ってみた](https://omocoro.jp/kiji/371388/)
+- [How Web Platforms Collapse: The Facebook Case Study](https://tedgioia.substack.com/p/how-web-platforms-collapse-the-facebook)
+- [A new AI game: Give me ideas for crimes to do](https://simonwillison.net/2022/Dec/4/give-me-ideas-for-crimes-to-do/)
 
 <style scoped>
 li a {

@@ -77,6 +77,7 @@ tags: Toolbox
 - [Google Graveyard](https://killedbygoogle.com/)
 - [This page is a truly naked, brutalist html quine.](https://secretgeek.github.io/html_wysiwyg/html.html)
 - [DiscMaster](http://discmaster.textfiles.com/)
+- [Unicode characters you can not see](https://invisible-characters.com/)
 
 ### 88x31 button
 
