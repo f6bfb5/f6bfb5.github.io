@@ -78,6 +78,7 @@ tags: Toolbox
 - [This page is a truly naked, brutalist html quine.](https://secretgeek.github.io/html_wysiwyg/html.html)
 - [DiscMaster](http://discmaster.textfiles.com/)
 - [Unicode characters you can not see](https://invisible-characters.com/)
+- [sketch of three.js](https://ykob.github.io/sketch-threejs/)
 
 ### 88x31 button
 
@@ -205,6 +206,7 @@ tags: Toolbox
 - [死刑確定者 全リスト](https://www.crimeinfo.jp/data/dplist/dplist_all/)
 - [米国でソフトウェアエンジニアになる方法](https://note.com/fushiroyama/n/n5402a03e6888)
 - [イカセカイ](https://ikasekai.com/readings)
+- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run)
 - [taiwanese-work-in/japa](https://github.com/taiwanese-work-in/japan/wiki)
 - [日本移居指南](https://guoyu.mirror.xyz/bPaDKAcrhJGUbaXu9BWDcdD-F46gBFATTvf_qwZ9Bso)
 - [Secrets of Scientology](https://www.cs.cmu.edu/~dst/Secrets/index.html)

@@ -1081,6 +1081,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 ### K. 程式、技術
 
 - 221007 [合理地替檔案取名](https://www.youtube.com/watch?v=V40sMUAE5ek) 4:51
+- 221206 [容易調整的架構](https://www.youtube.com/watch?v=flVa8nHN_y0) 3:59
 
 </div>
 <div style="width: 20em; min-width: 30%;">

@@ -132,7 +132,9 @@ chsh -s /usr/bin/fish
   - GitHub -> Settings -> Access -> SSH and GPG keys
   - `ssh -T git@github.com`
     - 產生 `known_hosts`
+    - 另一個帳號：`ssh -T git@github.com-another-account`
   - `git remote set-url origin git@github.com:USERNAME/REPOSITORY.git`
+    - 另一個帳號：`git@github.com-another-account:USERNAME/REPOSITORY.git`
 
 ### mpv
 
