@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-0acb5197.js",
+    "file": "start-c75566e7.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -51,6 +51,7 @@
       "src/routes/posts/capitalist-realism-mark-fisher.md",
       "src/routes/posts/dot-painting-note.md",
       "src/routes/posts/escape-from-algorithm-with-rss.md",
+      "src/routes/posts/food-recipe.md",
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
       "src/routes/posts/login-with-discord.md",
@@ -74,14 +75,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-a8e13bc0.js",
+    "file": "pages/__layout.svelte-1aaec8c4.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-80139b4c.js",
-      "_store-f36dcac0.js",
+      "_Favicon-190ec9c0.js",
+      "_store-243d0308.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -115,14 +116,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-ce6381df.js",
+    "file": "pages/__layout-wide.svelte-4a6feda9.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-80139b4c.js",
-      "_store-f36dcac0.js",
+      "_Favicon-190ec9c0.js",
+      "_store-243d0308.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -132,7 +133,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-c510143d.js",
+    "file": "pages/_slug_.svelte-b5860002.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -172,6 +173,7 @@
       "src/routes/posts/capitalist-realism-mark-fisher.md",
       "src/routes/posts/dot-painting-note.md",
       "src/routes/posts/escape-from-algorithm-with-rss.md",
+      "src/routes/posts/food-recipe.md",
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
       "src/routes/posts/login-with-discord.md",
@@ -194,13 +196,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-45c4c68d.js",
+    "file": "pages/about.svelte-75942bb9.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-f36dcac0.js",
+      "_store-243d0308.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -220,18 +222,18 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-e5e24512.js",
+    "file": "pages/index@wide.svelte-4b4a4179.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-f36dcac0.js",
+      "_store-243d0308.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
     "css": [
-      "assets/pages/index@wide.svelte-9875a40b.css"
+      "assets/pages/index@wide.svelte-f76e11bf.css"
     ]
   },
   "src/routes/mementomori@full.svelte": {
@@ -282,7 +284,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -296,11 +298,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-e003e1a8.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-b24ef5ee.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -427,7 +429,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-557955dc.js",
+    "file": "pages/posts/ACG-note.md-36044d49.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -510,7 +512,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -615,6 +617,17 @@
   "src/routes/posts/escape-from-algorithm-with-rss.md": {
     "file": "pages/posts/escape-from-algorithm-with-rss.md-59ab6a8b.js",
     "src": "src/routes/posts/escape-from-algorithm-with-rss.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8418cccc.js",
+      "__post-d4178251.js",
+      "_BlinkAnchor-aec4dee8.js"
+    ]
+  },
+  "src/routes/posts/food-recipe.md": {
+    "file": "pages/posts/food-recipe.md-92ba4982.js",
+    "src": "src/routes/posts/food-recipe.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -760,7 +773,7 @@
     ]
   },
   "src/routes/posts/template.md": {
-    "file": "pages/posts/template.md-fb2c20a0.js",
+    "file": "pages/posts/template.md-9b8c1dc4.js",
     "src": "src/routes/posts/template.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -773,7 +786,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/template.md-60bc8477.css"
+      "assets/pages/posts/template.md-ab79e7b9.css"
     ]
   },
   "src/routes/posts/tool-list-creativity.md": {
@@ -787,7 +800,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-website.md-51e1a8fa.css"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
@@ -801,11 +814,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-website.md-51e1a8fa.css"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-c3777920.js",
+    "file": "pages/posts/tool-list-website.md-3b9f679e.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -815,7 +828,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-website.md-51e1a8fa.css"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
@@ -896,19 +909,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-80139b4c.js": {
-    "file": "chunks/Favicon-80139b4c.js",
+  "_Favicon-190ec9c0.js": {
+    "file": "chunks/Favicon-190ec9c0.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-f36dcac0.js",
+      "_store-243d0308.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-f36dcac0.js": {
-    "file": "chunks/store-f36dcac0.js",
+  "_store-243d0308.js": {
+    "file": "chunks/store-243d0308.js",
     "imports": [
       "_index-17c965c3.js"
     ]
