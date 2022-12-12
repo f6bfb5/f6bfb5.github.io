@@ -1005,6 +1005,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220921 [RPG 的遊戲性](https://www.youtube.com/watch?v=42x9G5pe8lg) 2:37
 - 221017 [遊戲性之外的趣味](https://www.youtube.com/watch?v=OALp2UAe6V4) 6:48
 - 221123 [惡魔鍋](https://www.youtube.com/watch?v=fECe1QuH3yY) 4:51
+- 221212 [容許取巧](https://www.youtube.com/watch?v=ODmMrl_STi0) 2:49
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1025,6 +1026,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220824 [重要時刻要停下來！](https://www.youtube.com/watch?v=APOD1fmwPaM) 4:19
 - 220930 [讓按鍵有重量感](https://www.youtube.com/watch?v=ldz5yKW9Gaw) 2:23
 - 221114 [跳躍的構造](https://www.youtube.com/watch?v=zxOBCjqP8-Y) 4:52
+- 221209 [8種擊中後停頓機制](https://www.youtube.com/watch?v=CiQzmwz_Olg) 5:32
 
 </div>
 <div style="width: 20em; min-width: 30%;">

@@ -738,6 +738,12 @@ a &= b \\
   &= c
 \end{align}
 ```
+<div>
+  <img src="https://picsum.photos/24/24/" alt="placeholder" title="placeholder" style="margin: 0; padding: 0; display: inline;" />
+  <span class="baloon">
+    何なんだよ日本。一億総活躍社会じゃねーのかよ。昨日見事に保育園落ちたわ。どうすんだよ私活躍出来ねーじゃねーか。
+  </span>
+</div>
 
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
@@ -991,6 +997,30 @@ a &= b \\
   details summary,
   details > div {
     padding: 1rem;
+  }
+
+  /* ---------- */
+
+  .baloon {
+    display: inline-block;
+    padding: 0 0.4em 0 0.4em;
+    max-width: calc(100% - 100px);
+    color: #fff;
+    background-color: #929c9a;
+    border-radius: 0.4em;
+    line-height: 1.5;
+    vertical-align: middle;
+  }
+  .baloon:before {
+    content: "";
+    position: absolute;
+    margin-left: -0.2em;
+    padding: 0;
+    width: 0;
+    border-width: 0 0 0.6em 0.6em;
+    border-style: solid;
+    border-color: #929c9a transparent;
+    transform: translateX(-100%) translateY(calc(1em - 80%));
   }
 
   /* ---------- */

@@ -22,7 +22,9 @@
       contentNode.classList.add("slideOut");
     } else {
       if (displayingSentences.length <= 0) {
-        displayingSentences = [...$marqueeTexts].sort(() => Math.random() - 0.5);
+        displayingSentences = [...$marqueeTexts].sort(
+          () => Math.random() - 0.5
+        );
       }
       displayingString = displayingSentences.shift();
       contentNode.classList.remove("slideOut");
@@ -55,7 +57,10 @@
     --marquee-outer-border-color: #242222;
   }
 
-  /* [Simulate marquee tag in CSS and Javascript - Jonathan Petitcolas](https://www.jonathan-petitcolas.com/2013/05/06/simulate-marquee-tag-in-css-and-javascript.html) */
+  /* 
+  Simulate marquee tag in CSS and Javascript - Jonathan Petitcolas
+  https://www.jonathan-petitcolas.com/2013/05/06/simulate-marquee-tag-in-css-and-javascript.html
+  */
   @keyframes slideIn {
     0% {
       text-indent: 724px;
@@ -133,9 +138,11 @@
     animation: slideIn 2s forwards;
     animation-timing-function: ease;
     animation-delay: 0.5s;
+    will-change: text-indent;
   }
   .slideOut {
     animation: slideOut var(--slide-out-duration) forwards;
     animation-timing-function: linear;
+    will-change: text-indent;
   }
 </style>

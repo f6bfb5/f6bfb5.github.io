@@ -2607,6 +2607,35 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
     - 高影格拍攝能夠增添如激烈槍擊戰的場景臨場感，卻也會讓一般的戲劇橋段顯得像在偷窺某處的隔壁房間地不自在
     - 卡麥隆考量到此，在《阿凡達：水之道》則是採用 24fps 的畫面，於動態場景或水下場景才會轉為 48fps
     - 這與日本動畫一般作畫會是 1 秒 8 張，並搭配動態增添到 12 張或 24 張的思考方式有些類似
+- [Writing Is Magic - Marc's Blog](https://brooker.co.za/blog/2022/11/08/writing.html)
+- [女がガンダムを好きでもいいらしい](https://anond.hatelabo.jp/20221207231050)
+- [学生と話していると、SNSとYouTubeで1日が終わるのに他に何をやればいいのかわからないというケースが本当に多い](https://togetter.com/li/1983759)
+- [雑貨屋でオモチャとして売られていた物体が日本に存在してはいけないヤバいものだった](https://togetter.com/li/1983955)
+- [ロシア人が突然「かわいいヌ」と言い出してびっくりした→どうも"かわいい"が広まって格変化まで完備したらしい](https://togetter.com/li/1985151)
+- [ラブストーリーショウ - コガモ](https://shonenjumpplus.com/episode/316190247015292056)
+- [披露宴の席次を Gromov-Wasserstein 最適輸送で決めた話](https://zenn.dev/akira_t/articles/seat-opt-via-gw)
+- [正しいことは、正しく言わないと、正しく伝わらない - 下林明正のブログ](https://shimobayashi.hatenablog.com/entry/2022/12/09/120000)
+- [シリーズ最新作『ARMORED CORE VI』発表。ついに『アーマード・コア』新作が出る](https://automaton-media.com/articles/newsjp/20221209-230074/)
+- [ながやまこはるちゃんがオススメする漫画『女の園の星』とは…卒アルにクワガタムシと写るこの男は一体何者なのか…→「なにこれすき」](https://togetter.com/li/1985449)
+- [那須の殺生石にイノシシ８頭死骸　九尾の狐伝説の地、有毒ガスか](https://www.shimotsuke.co.jp/articles/-/671352)
+- [隣のお爺が毎日通ってる焼き鳥屋に来ない→大将が『死んでる』と思い警察に連絡、取り調べを受けたお爺の言葉に「誰も悪くない」](https://togetter.com/li/1991374)
+- [22/12/9 君はAI創作の最前線にして最底辺「AI拓也」を知っているか - LWのサイゼリヤ](https://saize-lw.hatenablog.com/entry/2022/12/09/182340)
+- [書体は作者の罪を背負うか](https://gdr.jagda.or.jp/articles/60/)
+- [「ビートマニア」が25周年！ アーケードゲームの歴史を変えた稀代の傑作](https://game.watch.impress.co.jp/docs/kikaku/1461490.html)
+- [「コク」「チル」「シズル感」「眠い」～いまひとつ意味が分からないまま使ってる言葉](https://dailyportalz.jp/kiji/imahitotsu-imi-wakaranai)
+- [【漫画描写で学ぶ産婦人科】『TOUGH』より双子（一絨毛膜一羊膜双胎）について解説する - 産婦人科医が漫画を読む](https://yacky-sanfu.com/tough-1/)
+- [全ての社会人が解読可能な暗号文『ご角煮を尾根ギアできますでしょうか』に共感する声集まる「もはや定番」](https://togetter.com/li/1993479)
+- [ぼっち・ざ・ろっく！ 公式素材配布ツイートまとめ](https://togetter.com/li/1994412)
+- [言葉は水滴みたいに - 黒川明](https://shonenjumpplus.com/episode/316190247015292221)
+- [高畑勲監督 "幻のジブリ映画"](https://www.nhk.or.jp/nagoya-blog/1000/477242.html)
+  - > 我製作了《螢火蟲之墓》這部片。製作時時常被說這是「反戰電影」。我一直主張這不是反戰電影。他們是在戰爭末期走投無路遭遇慘況。這種悲慘的體驗應該要繼續傳述下去。這當然是該傳承下去的東西，但我的意見是，我認為即使談論再多這類的東西，也無法替防止將來的戰爭派上用場。
+- [【漫画】おっぱいを吸ってる時、何考えてる？哲学的な初エッチの話…「男(おのこ)というもの」](https://togetter.com/li/1996951)
+- [バラエティの取材を受けたが番組を面白おかしくするための演出プランがさすがに酷すぎた「フィギュア蹴飛ばしながら歩く」](https://togetter.com/li/1997555)
+- [Taking a Walk across the Internet](https://www.moma.org/magazine/articles/677)
+- [プロゲーマーのウメハラさん『格ゲーが流行った当時のゲーセンは井の中の蛙でみんなが"オレが世界一"だと思っていた、今はそんな錯覚をする場もない』](https://togetter.com/li/2000206)
+- [雪見露天風呂を楽しめる温泉宿12軒と、公共交通機関でのアクセスまとめ](https://www.yamaonsen.com/entry/yukimiroten)
+- [任意の天ぷらを作ろう](https://note.com/yubais/n/n3b4f059d26bc)
+- [ネパール人のカレー屋に来たらワンオペで、休日で客も多く明らかにオペ崩壊しているが店内の誰も慌ててないしイラついてないこの穏やかな空気感](https://togetter.com/li/1994959)
 
 <style scoped>
 li a {
