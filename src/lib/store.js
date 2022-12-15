@@ -466,6 +466,12 @@ export const randomImages = readable([
   "https://i.imgur.com/BDL3Wei.png",
   "https://i.imgur.com/WvLBx4Y.png",
   "https://i.imgur.com/k0P78kb.png",
+  "https://i.imgur.com/7UMH1QM.png",
+  "https://i.imgur.com/ylpWaxv.png",
+  "https://i.imgur.com/iA8Trjg.png",
+  "https://i.imgur.com/iJeALsG.png",
+  "https://i.imgur.com/B2ADc40.png",
+  "https://i.imgur.com/ugmTTxZ.png",
 ]);
 
 export const aboutImages = readable([
@@ -508,6 +514,7 @@ export const aboutImages = readable([
   "https://c.tenor.com/xCide_38qFgAAAAC/cardcaptor-sakura-clear-card-sakura-kinomoto.gif",
   "https://c.tenor.com/eMnHWu4TCTEAAAAC/di-gi-charat.gif",
   "https://media.tenor.com/qvCwTpl0zTcAAAAC/ghost-in-the-shell-kokaku-kidotai.gif",
+  "https://media.tenor.com/CfHY2iL03IYAAAAC/kuramon-hello.gif",
   // === Game ===
   "https://c.tenor.com/SjuAbL0uMakAAAAC/yume-nikki-yume.gif",
   "https://c.tenor.com/6L6itJ6PXKoAAAAC/chrono-trigger-courtroom.gif",

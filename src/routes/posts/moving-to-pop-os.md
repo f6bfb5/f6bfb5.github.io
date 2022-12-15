@@ -84,6 +84,32 @@ sudo apt install -y fish util-linux-user
 chsh -s /usr/bin/fish
 ```
 
+### 於命令列有效率地移動
+
+- [Moving efficiently in the CLI](https://clementc.github.io/blog/2018/01/25/moving_cli/)
+- 移動
+  - `<C-A>`
+    - 移到開頭
+  - `<A-B>`
+    - 移到單字頭/上個單字頭
+  - `<C-B>`
+    - 移到前個字元
+  - `<C-F>`
+    - 移到後個字元
+  - `<A-F>`
+    - 移到單字尾/下個單字尾
+  - `<C-E>`
+    - 移到結尾
+- 刪除
+  - `<C-W>`
+    - 直到單字頭
+  - `<A-D>`
+    - 直到單字尾
+  - `<C-U>`
+    - 直到開頭
+  - `<C-K>`
+    - 直到結尾
+
 ## 安裝軟體
 
 - Pop!_OS 有提供 Pop!_Shop 可快速下載各類應用程式
@@ -221,6 +247,14 @@ chsh -s /usr/bin/fish
 
 - [NsCDE](https://github.com/NsCDE/NsCDE)
 - 我沒裝，但挺炫的
+
+### 將 Caps lock 設為 Control 鍵
+
+- [ubuntu - How do you swap the caps lock to control in xfce?](https://serverfault.com/questions/10437/how-do-you-swap-the-caps-lock-to-control-in-xfce)
+- 編輯預設設定檔 `/etc/default/keyboard`：
+  - `XKBOPTIONS="ctrl:nocaps"`
+- 編輯後需要重新啟動才會生效，故可使用此指令於目前環境：
+  - `setxkbmap -option ctrl:nocaps`
 
 ### Keychron Function 鍵問題
 
