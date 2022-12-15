@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-c75566e7.js",
+    "file": "start-02db06e2.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -55,6 +55,7 @@
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
       "src/routes/posts/login-with-discord.md",
+      "src/routes/posts/miyazaki-tsutomu.md",
       "src/routes/posts/moving-to-pop-os.md",
       "src/routes/posts/mpv.md",
       "src/routes/posts/my-recommended-youtube-channels-list.md",
@@ -75,14 +76,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-1aaec8c4.js",
+    "file": "pages/__layout.svelte-509bc5d4.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-190ec9c0.js",
-      "_store-243d0308.js",
+      "_Favicon-79a2a22a.js",
+      "_store-acc54cef.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -116,14 +117,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-4a6feda9.js",
+    "file": "pages/__layout-wide.svelte-e57ced8f.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-190ec9c0.js",
-      "_store-243d0308.js",
+      "_Favicon-79a2a22a.js",
+      "_store-acc54cef.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -133,7 +134,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-b5860002.js",
+    "file": "pages/_slug_.svelte-60750a58.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -177,6 +178,7 @@
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
       "src/routes/posts/login-with-discord.md",
+      "src/routes/posts/miyazaki-tsutomu.md",
       "src/routes/posts/moving-to-pop-os.md",
       "src/routes/posts/mpv.md",
       "src/routes/posts/my-recommended-youtube-channels-list.md",
@@ -196,13 +198,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-75942bb9.js",
+    "file": "pages/about.svelte-aa7da185.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-243d0308.js",
+      "_store-acc54cef.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -222,13 +224,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-4b4a4179.js",
+    "file": "pages/index@wide.svelte-05f504e4.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-243d0308.js",
+      "_store-acc54cef.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -284,7 +286,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
+      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -298,11 +300,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
+      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-b24ef5ee.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-f78932bf.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -429,7 +431,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-36044d49.js",
+    "file": "pages/posts/ACG-note.md-06e71104.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -512,7 +514,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
+      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -672,8 +674,19 @@
       "assets/pages/posts/login-with-discord.md-f6cfa176.css"
     ]
   },
+  "src/routes/posts/miyazaki-tsutomu.md": {
+    "file": "pages/posts/miyazaki-tsutomu.md-6be685b8.js",
+    "src": "src/routes/posts/miyazaki-tsutomu.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8418cccc.js",
+      "__post-d4178251.js",
+      "_BlinkAnchor-aec4dee8.js"
+    ]
+  },
   "src/routes/posts/moving-to-pop-os.md": {
-    "file": "pages/posts/moving-to-pop-os.md-b51db486.js",
+    "file": "pages/posts/moving-to-pop-os.md-0fd9bd6c.js",
     "src": "src/routes/posts/moving-to-pop-os.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -800,7 +813,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-website.md-51e1a8fa.css"
+      "assets/pages/posts/tool-list-system.md-29020d9f.css"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
@@ -814,7 +827,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-website.md-51e1a8fa.css"
+      "assets/pages/posts/tool-list-system.md-29020d9f.css"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
@@ -828,7 +841,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-website.md-51e1a8fa.css"
+      "assets/pages/posts/tool-list-system.md-29020d9f.css"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
@@ -909,19 +922,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-190ec9c0.js": {
-    "file": "chunks/Favicon-190ec9c0.js",
+  "_Favicon-79a2a22a.js": {
+    "file": "chunks/Favicon-79a2a22a.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-243d0308.js",
+      "_store-acc54cef.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-243d0308.js": {
-    "file": "chunks/store-243d0308.js",
+  "_store-acc54cef.js": {
+    "file": "chunks/store-acc54cef.js",
     "imports": [
       "_index-17c965c3.js"
     ]
