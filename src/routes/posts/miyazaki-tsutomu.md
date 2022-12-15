@@ -48,7 +48,7 @@ tags:
 
 ---
 
-但當時也的確出現了許多藉此攻擊相關興趣的報導，甚至為此而更動現場擺設，讀賣週刊曾在部落格刊載過這樣一篇文章：
+但當時也的確出現了許多藉此攻擊相關興趣的報導，甚至為此而更動現場擺設，讀賣週刊的編輯部曾在部落格刊載過這樣一篇文章：
 
 > （略）<br>
 > 我想還有很多人記得被錄影帶淹沒的宮崎勤的房間畫面。<br>
@@ -64,16 +64,18 @@ tags:
 > 大多都是《GORO》、《經院哲學》。<br>
 > 對一個 20 多歲的男性而言，算是非常普通。<br>
 > 裡面有一本叫「年輕太太的新鮮內褲」的漫畫。<br>
-> 就有個民間電視台的攝影員工把它拿了出來，並放在書堆的最上面進行攝影。<br>
+> 就有個民間電視台的攝影員工把它拿了出來，放在書堆的最上面進行攝影。<br>
 > 才使得那堆雜誌山，以至那些錄影帶都看起來像是那種東西，而營造出這種印象。<br>
 > 當然就他犯下的罪過來說，會有這種誤解也是沒辦法，但畢竟這和事實還是有所出入。
 
 - [格闘する読売ウイークリー編集部：いったいどうなっているのか](http://yomiuriweekly1.hontsuna.net/article/1575835.html)（連結已失效）
   - [紀錄 1](https://banraidou3rd.hatenablog.com/entry/20051121/1132527264)
   - [紀錄 2](https://anond.hatelabo.jp/20110829015921)
-  
-![朝日新聞報導](https://pbs.twimg.com/media/DDGDZXHVYAE82Mt.jpg)
 
+<div style="display: flex; margin: 1em;">
+  <img style="max-width: 50%;" src="https://pbs.twimg.com/media/DDGDZXHVYAE82Mt.jpg" alt="朝日新聞報導">
+  <img style="max-width: 50%;" src="https://pbs.twimg.com/media/DLiYRs8UEAAt77V.jpg" alt="雜誌記事">
+</div>
 <span style="display: block; text-align: center;
     margin-top: -1em; margin-bottom: 1em;">
 ▲試圖將事件與動漫興趣連結的報導，於事件後接連出現
