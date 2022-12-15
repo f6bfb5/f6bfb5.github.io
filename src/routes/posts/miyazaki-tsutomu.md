@@ -68,6 +68,10 @@ tags:
 > 才使得那堆雜誌山，以至那些錄影帶都看起來像是那種東西，而營造出這種印象。<br>
 > 當然就他犯下的罪過來說，會有這種誤解也是沒辦法，但畢竟這和事實還是有所出入。
 
+- [格闘する読売ウイークリー編集部：いったいどうなっているのか](http://yomiuriweekly1.hontsuna.net/article/1575835.html)（連結已失效）
+  - [紀錄 1](https://banraidou3rd.hatenablog.com/entry/20051121/1132527264)
+  - [紀錄 2](https://anond.hatelabo.jp/20110829015921)
+  
 ![朝日新聞報導](https://pbs.twimg.com/media/DDGDZXHVYAE82Mt.jpg)
 
 <span style="display: block; text-align: center;
@@ -75,9 +79,6 @@ tags:
 ▲試圖將事件與動漫興趣連結的報導，於事件後接連出現
 </span>
 
-- [格闘する読売ウイークリー編集部：いったいどうなっているのか](http://yomiuriweekly1.hontsuna.net/article/1575835.html)（連結已失效）
-  - [紀錄 1](https://banraidou3rd.hatenablog.com/entry/20051121/1132527264)
-  - [紀錄 2](https://anond.hatelabo.jp/20110829015921)
 - [1989 年 8 月のあの報道について](https://togetter.com/li/750995)
 - [宮崎勤事件に派生した、小さな未解決の謎～「宮崎宅取材陣・雑誌入れ替え演出事件」を追う](https://togetter.com/li/1158797)
 - [女性誌の報道](http://std2g.web.fc2.com/joseishi/joseishi.html)
