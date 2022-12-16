@@ -189,6 +189,7 @@ tags: ACG, Comic
 - [【２０２１年度版】すごかった漫画（全３５作品）](https://msknmr.hatenablog.com/entry/2022/01/04/035238)
 - [(昔の、一昔前の)少女漫画のオススメ](http://girlsreport.net/archives/45412536.html)
 - [2021 年のマンガ新作ベスト 10+5+7+5](https://proxia.hateblo.jp/entry/2022/01/16/181742)
+- [漫画家が「10巻以内に完結するオススメの漫画」を募集したところ様々な人から作品が集まる](https://togetter.com/li/2001434)
 
 ## 「1001 本你死前應該要看過的漫畫」
 

@@ -33,6 +33,7 @@ tags: Toolbox
 
 ### 學習資料
 
+- [Blender 3.0 Beginner Tutorial - Part 1](https://www.youtube.com/watch?v=nIoXOplUvAw)
 - [motiontable](http://foxcodex.html.xdomain.jp/)
 - [知識経験ゼロから映像を作るためにした 7 つのこと](https://note.com/lon_comb/n/n853d7a121e8d)
 - [Aviutl Tips - 001 「動画をストップモーションっぽくしよう」](https://qiita.com/Aodaruma/items/11338a2b727649dc192b)
