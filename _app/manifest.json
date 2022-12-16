@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-4fdc5069.js",
+    "file": "start-a9811b1c.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -44,6 +44,7 @@
       "src/routes/posts/ACG-the-influences-of-naoko-yamada.md",
       "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md",
       "src/routes/posts/ACG-yume-no-shima-de-aimashou.md",
+      "src/routes/posts/ACG-zero-escape-series-note.md",
       "src/routes/posts/auto-generate-eyecatch-image-for-blog.md",
       "src/routes/posts/autohotkey-note.md",
       "src/routes/posts/blog-with-sapper.md",
@@ -134,7 +135,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-c17a39d0.js",
+    "file": "pages/_slug_.svelte-663059e6.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -167,6 +168,7 @@
       "src/routes/posts/ACG-the-influences-of-naoko-yamada.md",
       "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md",
       "src/routes/posts/ACG-yume-no-shima-de-aimashou.md",
+      "src/routes/posts/ACG-zero-escape-series-note.md",
       "src/routes/posts/auto-generate-eyecatch-image-for-blog.md",
       "src/routes/posts/autohotkey-note.md",
       "src/routes/posts/blog-with-sapper.md",
@@ -286,7 +288,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
+      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -300,11 +302,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
+      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-f78932bf.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-e4365512.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -504,7 +506,7 @@
     ]
   },
   "src/routes/posts/ACG-super-manga-book-list.md": {
-    "file": "pages/posts/ACG-super-manga-book-list.md-d1bded72.js",
+    "file": "pages/posts/ACG-super-manga-book-list.md-2c7e53ec.js",
     "src": "src/routes/posts/ACG-super-manga-book-list.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -514,7 +516,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
+      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -542,6 +544,17 @@
   "src/routes/posts/ACG-yume-no-shima-de-aimashou.md": {
     "file": "pages/posts/ACG-yume-no-shima-de-aimashou.md-9471222a.js",
     "src": "src/routes/posts/ACG-yume-no-shima-de-aimashou.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8418cccc.js",
+      "__post-d4178251.js",
+      "_BlinkAnchor-aec4dee8.js"
+    ]
+  },
+  "src/routes/posts/ACG-zero-escape-series-note.md": {
+    "file": "pages/posts/ACG-zero-escape-series-note.md-0c26f6e4.js",
+    "src": "src/routes/posts/ACG-zero-escape-series-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -675,7 +688,7 @@
     ]
   },
   "src/routes/posts/miyazaki-tsutomu.md": {
-    "file": "pages/posts/miyazaki-tsutomu.md-d05ec476.js",
+    "file": "pages/posts/miyazaki-tsutomu.md-033fda2c.js",
     "src": "src/routes/posts/miyazaki-tsutomu.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -803,7 +816,7 @@
     ]
   },
   "src/routes/posts/tool-list-creativity.md": {
-    "file": "pages/posts/tool-list-creativity.md-7d932c1d.js",
+    "file": "pages/posts/tool-list-creativity.md-5a084539.js",
     "src": "src/routes/posts/tool-list-creativity.md",
     "isEntry": true,
     "isDynamicEntry": true,
