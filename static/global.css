@@ -6,7 +6,8 @@
 *,
 *:before,
 *:after {
-  /* for debug use outline: 1px solid black; */
+  /* for debug use */
+  /* outline: 1px solid black; */
   box-sizing: border-box;
 }
 
@@ -137,11 +138,6 @@ ul {
   padding-top: 0.25em;
 }
 
-ol {
-  /* list-style: none; */
-  counter-reset: item;
-}
-
 li {
   padding-bottom: 0.25em;
 }
@@ -171,9 +167,18 @@ li p {
 
 ol li {
   position: relative;
-  /* counter-increment: item; */
 }
-/* ol li:before {
+
+/* remove default counter and add custom counter
+   to prevent uncorrect index like ol after ul */
+ol {
+  list-style: none;
+  counter-reset: item;
+}
+ol li {
+  counter-increment: item;
+}
+ol li:before {
   position: absolute;
   right: 100%;
   width: fit-content;
@@ -181,7 +186,7 @@ ol li {
   font-weight: bold;
   word-break: keep-all;
   color: var(--title-color);
-} */
+}
 
 ol li ul,
 ul li ul {

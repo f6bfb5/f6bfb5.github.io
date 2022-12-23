@@ -37,6 +37,7 @@ export const randomNav = readable([
   // Ambivalence
   // Unparalleled
   // palimpsest
+  // turquoise
   // シズル感
   // ゆめうつつ
   // 兵どもが夢の跡
@@ -370,6 +371,15 @@ export const marqueeTexts = readable([
   "私は今、”まやかし”のものに泣かされてるんだって。物語も登場人物も全部つくりもの。でも、つくりものだろうが何だろうが、どうでもよかった。じゃあ、”現実”も同じように考えたらいいんじゃない？って、その時思ったの。私が誰かの想像の産物に過ぎないとしても、それでもあなたのことを大切に思ってる。",
   "理想だと！？戯れ言だ！",
   "ーー忘れるな。イメージするのもは常に最強の自分だ。外敵など要らぬ。おまえにとって戦う相手とは、自分のイメージに他ならない",
+  "そこで今日は皆さんに、ちょっと殺し合いをして貰います",
+  "静かな日々の階段を",
+  "夢見る頃をすぎても",
+  "川よりも長くゆるやかに",
+  "我はメシア、明日この世界を粛清する。",
+  "ねだるな、勝ち取れ、さすれば与えられん",
+  "あなたのインターネットはどこから？",
+  "ハロー！そして…グッドバイ！",
+  "果報は寝て待て",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",
@@ -472,6 +482,8 @@ export const randomImages = readable([
   "https://i.imgur.com/iJeALsG.png",
   "https://i.imgur.com/B2ADc40.png",
   "https://i.imgur.com/ugmTTxZ.png",
+  "https://i.imgur.com/t0xDTlk.png",
+  "https://i.imgur.com/kxy7nM2.png",
 ]);
 
 export const aboutImages = readable([
@@ -601,6 +613,8 @@ export const aboutLinks = readable([
   "https://takedaiori.medium.com/%E4%BA%9A%E4%BC%A6-%E6%96%AF%E6%B2%83%E5%85%B9-%E7%8F%8D%E8%A7%86%E9%94%99%E8%AF%AF-80fd07147644",
   // 修理機器，不要修理人
   "https://takedaiori.medium.com/%E4%BA%9A%E7%BA%B6-%E6%96%AF%E6%B2%83%E5%85%B9-%E4%BF%AE%E7%90%86%E6%9C%BA%E5%99%A8-%E4%B8%8D%E8%A6%81%E4%BF%AE%E7%90%86%E4%BA%BA-f1e034f35cc",
+  // 仕事力と技術力と不安に関する雑文
+  "https://yuheinakasaka.github.io/gialog-diary/articles/28",
   // ========================================
   // 語用（pragmatic）
   "https://aaphi.blogspot.com/2010/03/pragmatic.html",

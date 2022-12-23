@@ -26,7 +26,7 @@
         rel="noreferrer noopener"
         target="_blank"
       >
-        <img src="https://i.imgur.com/lR5H4mK.gif" alt="Nico Nico Douga" />
+        <img src="https://i.imgur.com/lR5H4mK.gif" alt="ニコニコ動画" />
       </a>
       <a
         href="https://www.htb.co.jp/suidou/"
@@ -34,6 +34,13 @@
         target="_blank"
       >
         <img src="https://i.imgur.com/P72xkgQ.png" alt="水曜どうでしょう" />
+      </a>
+      <a
+        href="https://www.nintendo.co.jp/n01/n64/software/nus_p_nalj/smash/index.html"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        <img src="https://i.imgur.com/5WbUJuJ.gif" alt="スマブラ拳!!" />
       </a>
     </div>
 

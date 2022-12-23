@@ -330,6 +330,44 @@ tags: ACG, Anime
 - [■ アニメの現場第 11 話「監督の現場-前編-」](https://youtu.be/YguSFw1iugE)
 - [■ アニメの現場第 12 話「監督の現場 -後編 -」](https://youtu.be/WSr4Ey-CAlg)
 
+### GAINAX 動畫講義
+
+#### 分鏡圖
+
+- 第 1 回 「右邊・左邊、180°假想線(水平假想線)」
+- 第 2 回 「鏡頭不是一個一個分開看，而是要連貫看下來」
+- 第 3 回 「資訊量的控制 前篇」
+- 第 4 回 「資訊量的控制 後篇」
+- 第 5 回 「分鏡圖集」
+- 第 6 回 「演出處理」
+- 第 7 回 「分鏡圖能傳達的東西」
+
+#### 構圖
+
+- 第 8 回「關於構圖」
+- 第 9 回 「進行構圖作業前要思考的事」
+- 第 10 回 「構圖的正確答案是？」
+- 第 11 回 「構圖必要的描繪」
+- 第 12 回 「累積自己的觀察」
+- 第 13 回 「動畫中消失點和透視的必要性」
+- 第 14 回 「深入描繪的重要性」
+- 第 15 回 「構圖的平衡」
+
+#### 動畫
+
+- 第 16 回 「如何成為動畫師」
+- 第 17 回 「動畫師活得下去嗎」
+- 第 18 回 「成為動畫師前最好先作的事/什麼樣的人適合這條路」
+- 第 19 回 「考試時會看的重點」
+- 第 20 回 「提問環節」
+- 第 21 回 「動畫的線」
+- 第 22 回 「動畫的構造」
+- 第 23 回 「研修階段/動畫師時代」
+- 第 24 回 「從原畫到動畫」
+- 第 25 回 「原畫會怎麼影響動畫」
+- 第 26 回 「Anime 的表現與前線的變化」
+- 第 27 回 「Q&A;/最後」
+
 ## 解說專欄
 
 - [おぎにゃんと學ぼう](http://www.madhouse.co.jp/special/oginyan/index.html)
@@ -1017,6 +1055,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221010 [吊在眼前的獎勵](https://www.youtube.com/watch?v=rA_FN6BTGms) 2:17
 - 221107 [如何靠做遊戲過活](https://www.youtube.com/watch?v=rsh4p55hGNE) 3:54
 - 221125 [世界之窗十分狹小](https://www.youtube.com/watch?v=jHuwZIHdKSs) 3:10
+- 221220 [一鍵能做的事](https://www.youtube.com/watch?v=rq4MIBvQIeE) 2:23
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1034,6 +1073,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 ### E. 團隊營運
 
 - 221128 [團隊內的資訊分享](https://www.youtube.com/watch?v=WIoczFVOxHI) 3:20
+- 221216 [遊戲製作相關職業](https://www.youtube.com/watch?v=uLOYKbpW5PM) 7:04
 
 </div>
 <div style="width: 20em; min-width: 30%;">
