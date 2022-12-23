@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-a9811b1c.js",
+    "file": "start-021d5c55.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -20,6 +20,7 @@
       "src/routes/index@wide.svelte",
       "src/routes/mementomori@full.svelte",
       "src/routes/palimpsest@full.svelte",
+      "src/routes/pointofnoreturn@full.svelte",
       "src/routes/posts/11ty-note.md",
       "src/routes/posts/2020-what-i-have-read-on-internet.md",
       "src/routes/posts/2021-what-i-have-read-on-internet.md",
@@ -77,14 +78,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-509bc5d4.js",
+    "file": "pages/__layout.svelte-42f62b1b.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-79a2a22a.js",
-      "_store-acc54cef.js",
+      "_Favicon-63197747.js",
+      "_store-499ea14f.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -118,14 +119,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-e57ced8f.js",
+    "file": "pages/__layout-wide.svelte-319d6d9b.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-79a2a22a.js",
-      "_store-acc54cef.js",
+      "_Favicon-63197747.js",
+      "_store-499ea14f.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -135,7 +136,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-663059e6.js",
+    "file": "pages/_slug_.svelte-2a1aa7b2.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -200,13 +201,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-aa7da185.js",
+    "file": "pages/about.svelte-ef898538.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-acc54cef.js",
+      "_store-499ea14f.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -226,13 +227,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-05f504e4.js",
+    "file": "pages/index@wide.svelte-7c83934b.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-acc54cef.js",
+      "_store-499ea14f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -264,6 +265,18 @@
     ],
     "css": [
       "assets/pages/palimpsest@full.svelte-666f8791.css"
+    ]
+  },
+  "src/routes/pointofnoreturn@full.svelte": {
+    "file": "pages/pointofnoreturn@full.svelte-c2ad992b.js",
+    "src": "src/routes/pointofnoreturn@full.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8418cccc.js"
+    ],
+    "css": [
+      "assets/pages/pointofnoreturn@full.svelte-cb865f58.css"
     ]
   },
   "src/routes/posts/11ty-note.md": {
@@ -306,7 +319,7 @@
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-e4365512.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-47ab4122.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -433,7 +446,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-06e71104.js",
+    "file": "pages/posts/ACG-note.md-7f42af20.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -553,7 +566,7 @@
     ]
   },
   "src/routes/posts/ACG-zero-escape-series-note.md": {
-    "file": "pages/posts/ACG-zero-escape-series-note.md-0c26f6e4.js",
+    "file": "pages/posts/ACG-zero-escape-series-note.md-2665d47f.js",
     "src": "src/routes/posts/ACG-zero-escape-series-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -699,7 +712,7 @@
     ]
   },
   "src/routes/posts/moving-to-pop-os.md": {
-    "file": "pages/posts/moving-to-pop-os.md-0fd9bd6c.js",
+    "file": "pages/posts/moving-to-pop-os.md-4c36efb1.js",
     "src": "src/routes/posts/moving-to-pop-os.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -826,7 +839,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list-system.md-29020d9f.css"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
@@ -840,11 +853,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list-system.md-29020d9f.css"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-3b9f679e.js",
+    "file": "pages/posts/tool-list-website.md-f9083e25.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -854,7 +867,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list-system.md-29020d9f.css"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
@@ -935,19 +948,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-79a2a22a.js": {
-    "file": "chunks/Favicon-79a2a22a.js",
+  "_Favicon-63197747.js": {
+    "file": "chunks/Favicon-63197747.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-acc54cef.js",
+      "_store-499ea14f.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-acc54cef.js": {
-    "file": "chunks/store-acc54cef.js",
+  "_store-499ea14f.js": {
+    "file": "chunks/store-499ea14f.js",
     "imports": [
       "_index-17c965c3.js"
     ]
