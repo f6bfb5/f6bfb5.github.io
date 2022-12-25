@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-021d5c55.js",
+    "file": "start-d7560926.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -63,6 +63,7 @@
       "src/routes/posts/my-recommended-youtube-channels-list.md",
       "src/routes/posts/operating-with-keyboard.md",
       "src/routes/posts/our-internet-history.md",
+      "src/routes/posts/scrapbox-looks-good.md",
       "src/routes/posts/search-engine-operators.md",
       "src/routes/posts/should-consumer-care-about-producer.md",
       "src/routes/posts/sticker-generator.md",
@@ -78,14 +79,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-42f62b1b.js",
+    "file": "pages/__layout.svelte-0e6e33ea.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-63197747.js",
-      "_store-499ea14f.js",
+      "_Favicon-1f4b8085.js",
+      "_store-3c01997f.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -119,14 +120,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-319d6d9b.js",
+    "file": "pages/__layout-wide.svelte-56dd763d.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-63197747.js",
-      "_store-499ea14f.js",
+      "_Favicon-1f4b8085.js",
+      "_store-3c01997f.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -136,7 +137,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-2a1aa7b2.js",
+    "file": "pages/_slug_.svelte-334855ac.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -187,6 +188,7 @@
       "src/routes/posts/my-recommended-youtube-channels-list.md",
       "src/routes/posts/operating-with-keyboard.md",
       "src/routes/posts/our-internet-history.md",
+      "src/routes/posts/scrapbox-looks-good.md",
       "src/routes/posts/search-engine-operators.md",
       "src/routes/posts/should-consumer-care-about-producer.md",
       "src/routes/posts/sticker-generator.md",
@@ -201,13 +203,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-ef898538.js",
+    "file": "pages/about.svelte-9296c206.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-499ea14f.js",
+      "_store-3c01997f.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -227,13 +229,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-7c83934b.js",
+    "file": "pages/index@wide.svelte-1b699aa8.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-499ea14f.js",
+      "_store-3c01997f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -301,7 +303,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -315,11 +317,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-47ab4122.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-1d409944.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -529,7 +531,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -769,6 +771,17 @@
       "assets/pages/posts/our-internet-history.md-10880303.css"
     ]
   },
+  "src/routes/posts/scrapbox-looks-good.md": {
+    "file": "pages/posts/scrapbox-looks-good.md-a5994393.js",
+    "src": "src/routes/posts/scrapbox-looks-good.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8418cccc.js",
+      "__post-d4178251.js",
+      "_BlinkAnchor-aec4dee8.js"
+    ]
+  },
   "src/routes/posts/search-engine-operators.md": {
     "file": "pages/posts/search-engine-operators.md-304ca481.js",
     "src": "src/routes/posts/search-engine-operators.md",
@@ -839,7 +852,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
@@ -853,7 +866,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
@@ -867,7 +880,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
@@ -948,19 +961,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-63197747.js": {
-    "file": "chunks/Favicon-63197747.js",
+  "_Favicon-1f4b8085.js": {
+    "file": "chunks/Favicon-1f4b8085.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-499ea14f.js",
+      "_store-3c01997f.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-499ea14f.js": {
-    "file": "chunks/store-499ea14f.js",
+  "_store-3c01997f.js": {
+    "file": "chunks/store-3c01997f.js",
     "imports": [
       "_index-17c965c3.js"
     ]
