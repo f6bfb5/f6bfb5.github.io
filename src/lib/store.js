@@ -103,6 +103,8 @@ export const logoLinks = readable([
   "https://www.nicovideo.jp/watch/sm36920659",
   // ヤツメ穴 / 緑仙 (全部僕の声)
   "https://www.youtube.com/watch?v=s3dVPAAEX14",
+  // 笹木は嫌われている。/命に嫌われている【歌ってみた】
+  "https://www.youtube.com/watch?v=HZleluBJrjA",
   // あなたは世界の終わりにずんだを食べるのだ / なみぐる feat.ずんだもん
   "https://www.nicovideo.jp/watch/sm40487046",
   // エレクトロダンスロアなのだ？
@@ -380,6 +382,14 @@ export const marqueeTexts = readable([
   "あなたのインターネットはどこから？",
   "ハロー！そして…グッドバイ！",
   "果報は寝て待て",
+  "どうした？撃たないのか？相手は学生だぞ？それとも気づいたか？撃っていいのは撃たれる覚悟のある奴だけだ",
+  "アウトプットは量多い方がいい。フィルタは各自がやればいい。この原則わかんない奴はインターネット合わないと思う",
+  "続きはまたの機会に申し上げたいと思います。本日はこれにて！",
+  "みんなにとって大事なことには何度も何度も出会うことになる。自分にとって大事なことには出会うことさえないかもしれない。",
+  "きょうはなんにもないすばらしい一日だった",
+  "コミュニケーションとは対話が終わったときに自分が変わる覚悟を持っている、そういう覚悟のもとで行われるもののことである",
+  "日々私達が過ごしている日常というのは、実は奇跡の連続なのかもしれん",
+  "(　ﾟ∀ﾟ)o彡°もう一泊！(　ﾟ∀ﾟ)o彡°もう一泊！",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",
