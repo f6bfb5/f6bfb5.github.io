@@ -635,7 +635,8 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [ぜったい天使くるみちゃんが復活 「まず肉声を聞かせるから」あれから 4 年](https://panora.tokyo/archives/48516)
 - [名古屋以外全部壊滅 - 藤山佑](https://shonenjumpplus.com/episode/3270296674331482330)
 - [デジタルノート界隈でブームな「Zetterkasten」と Link Your Thinking という発展系のフレームワーク](https://knowledgestuck.substack.com/p/zetterkastenlink-your-thinking?s=r)
-  - 一張卡片記載一份想法 -焦點不會模糊
+  - 一張卡片記載一份想法
+    - 焦點不會模糊
   - 一張卡片包含完整內容
     - 即只需要該卡片內容就能理解該想法
     - 可以自由更改連結
@@ -2691,7 +2692,7 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [ハフポストに見る Twitter キュレーションの効果](https://note.com/shioshio38/n/n775930353e21)
 - [誰とでも打ち解けられる魔法の言葉をお前らに教えてやる](https://anond.hatelabo.jp/20221219234711)
 - [嫌韓をやっていた時代があったおかげで反ワクやウクライナアンチになってない](https://anond.hatelabo.jp/20221219231247)
-- [『ザ・パターン・シーカー──自閉症がいかに人類の発明を促したか』 if-and-then思考とハイパー・システマイザー](https://honz.jp/articles/-/52667)
+- [『ザ・パターン・シーカー ── 自閉症がいかに人類の発明を促したか』 if-and-then 思考とハイパー・システマイザー](https://honz.jp/articles/-/52667)
 - [【なるべく意識を低く保て】 書けないと悩む人のための、原稿の書き方 ： 〜雑誌原稿を実例に〜](https://note.com/owlman/n/nf19ce5f2d292)
   - 初稿：寫只有自己看得懂的文章
     - 只管動手開始寫
@@ -2707,7 +2708,7 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
     - 讓第一次閱讀原稿的讀者也不會覺得怪異
     - 將文章完成到若自己身為編輯也無處可改
 - [ぼっち・ざ・ろっく のイラストを描く方々へ！！！！！！！！！！！](https://anond.hatelabo.jp/20221220182332)
-- [2022マイベストインディーゲームアワード](https://anond.hatelabo.jp/20221220220411)
+- [2022 マイベストインディーゲームアワード](https://anond.hatelabo.jp/20221220220411)
 - [全農広報部「クリスマスにパリパリチキンステーキはどうですか。鶏もも肉をこのように焼くだけできっと想像以上に騒がしいパリパリがあなたを待ってます」](https://togetter.com/li/2015262)
 - [土井善晴先生の『一汁一菜でよいという提案』を読んで、生き方まで変わった話](https://togetter.com/li/2015144)
 - [仕事力と技術力と不安に関する雑文](https://yuheinakasaka.github.io/gialog-diary/articles/28)
@@ -2715,30 +2716,30 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [protocols, not platforms](https://allenbrunson.com/posts/protocols-not-platforms/)
 - [くせえオタクへお願いだ。追記もした。](https://anond.hatelabo.jp/20221219222559)
 - [あなたの知らないライフゲームの宇宙 《前編》](https://note.com/falworks/n/n4971b87a3bf7)
-- [コロナ禍で国境を3回越える夜行バスーモンテネグロ、アルバニア、コソボ、北マケドニア](https://note.com/shunoutei/n/nf44f8b0788d5)
+- [コロナ禍で国境を 3 回越える夜行バスーモンテネグロ、アルバニア、コソボ、北マケドニア](https://note.com/shunoutei/n/nf44f8b0788d5)
 - [宮台真司の『TENET テネット』評（前編）:『メメント』と同じく「存在論的転回」の系譜上にある](https://realsound.jp/movie/2020/11/post-654252.html)
 - [宮台真司の『TENET テネット』評（後編）:ノーランは不可解で根拠のない倫理に納得して描いている](https://realsound.jp/movie/2020/11/65381.html)
-  - 過了這麼久終於補完天能，雖然已經難免被捏到一些心得文跟鉗形攻勢之類的名詞，但還是不影響觀影體驗，反而在觀看時有不少橋段跟當下預期發展不太一樣，一邊覺得諾蘭又在炫技，一邊又覺得這炫技已經跳脫概念層面，到了非常具象的程度了，麥高芬名詞和解釋也運用得很巧妙，鈽241和演算法並不與現實同一存在有所關聯，只是用作一種看來炫砲的特殊道具／技術，熵則與劇中逆行機制有關，（雖然也因為諾蘭要求實景拍攝，許多地方勢必無法呈現真實的逆行世界，不可避免地會存在一些bug，下述），接著是像「發生的事就是發生了」之類的短台詞精要地逐步帶出逆行概念的細節，而不是直接攤開理論，而這也是諾蘭的招牌絕活
-    - > 如泛科學有一文探討逆行世界的燃燒／爆炸現象是否合理，還有中間開始是由傳送門改變物理性質，那一開始的槍枝或子彈實驗的現象又是？日本亦有看到討論逆行世界為何能靠氧氣瓶呼吸、有哪些東西物理性質不會受到影響，主角跟薩托的正逆行對話，逆行薩托究竟怎麼抓走正行的凱特⋯etc.，大絕就是交給未來技術搞定
+  - 過了這麼久終於補完天能，雖然已經難免被捏到一些心得文跟鉗形攻勢之類的名詞，但還是不影響觀影體驗，反而在觀看時有不少橋段跟當下預期發展不太一樣，一邊覺得諾蘭又在炫技，一邊又覺得這炫技已經跳脫概念層面，到了非常具象的程度了，麥高芬名詞和解釋也運用得很巧妙，鈽 241 和演算法並不與現實同一存在有所關聯，只是用作一種看來炫砲的特殊道具／技術，熵則與劇中逆行機制有關，（雖然也因為諾蘭要求實景拍攝，許多地方勢必無法呈現真實的逆行世界，不可避免地會存在一些 bug，下述），接著是像「發生的事就是發生了」之類的短台詞精要地逐步帶出逆行概念的細節，而不是直接攤開理論，而這也是諾蘭的招牌絕活
+    - > 如泛科學有一文探討逆行世界的燃燒／爆炸現象是否合理，還有中間開始是由傳送門改變物理性質，那一開始的槍枝或子彈實驗的現象又是？日本亦有看到討論逆行世界為何能靠氧氣瓶呼吸、有哪些東西物理性質不會受到影響，主角跟薩托的正逆行對話，逆行薩托究竟怎麼抓走正行的凱特 ⋯etc.，大絕就是交給未來技術搞定
       - [《天能》裡那些有點難的物理學：一個「逆熵」的世界為何不合理？](https://pansci.asia/archives/190653)
       - [TENET テネットのストーリー＆時間軸マップを作成しました！](https://twitter.com/cgbeginner/status/1307501473358462976)
     - 而當然如同諾蘭說這是一部重新詮釋的諜報片，而不是個物理學術片，完美符合理論／呈獻現象自然不是本片的目的，才會有那句代表性的「不必理解，只須感受」，但也無法否認這配菜是有些豐盛到搶眼了，也才會有這麼多的「解謎文」
   - 另外覺得有趣的是，雖然逆行看似是在改變過去，整片卻更有莫比烏斯環的自我循環構造的命定感，例如主角成立天能起因於他經歷了這一切，是先有了果才有因，而他在目送尼爾那一刻後，應該也是首次在事前就先得到資訊，但他（或者說在片中／觀眾觀測到的世界線）別無選擇，勢必只能組織整個行動，尼爾最後的選擇也是如此 ，看似存在新可能性的選擇，其實早在觀測到的那一刻就已決定，又例如「當你看到逆行時間的自己能走出來，那進這門就沒問題」也是一樣
   - 唯一覺得有點出入的，大概就是薩托的越南行死亡，這看了一些討論後，才發覺到中間似乎漏看了一些細節，像凱特有提到薩托當時突然消失，或是最後作戰前似乎還有段說明，所以這是追尋逆行薩托最後到達的點，在此又和過去的凱特交錯，不過也有點忘記凱特有沒有跟正行薩托提過這段旅行，但也覺得這是個很精彩的橋段，對逆行薩托而言，這是段他已經射殺（傷）未來的凱特後，又決定回去重溫美好的時光，也才沒想到會結束在未來凱特的槍下，雖然老梗但鋪陳得非常扎實
   - 不過祖父悖論的橋段也有提到「即使未來／過去真的被改變了，人們也無法察覺到」，這可能也是天能組織成立的雞生蛋蛋生雞問題的解答，就解決了發展上倒果為因的問題ーー是先有了其他動機促成主角成立天能，並於首次行動中刻意控制資訊，藉此改變因果律，成為真正的神，才造就了最後全片遞歸式的發展，這也補足了主角刻畫太過薄弱的問題，但就實在有點太戲外戲了，也沒有像全面啟動的陀螺有個更明確的命題象徵物能提點，是有點小可惜，但還是不失整片的光采
-- [ずっと夜で - megamouthの葬列](https://www.megamouth.info/entry/2019/09/03/020353)
-- [【漫画】元戦闘工作員の男が日本で平和に暮らそうとする話→「日常に帰って行く漫画なのかと思ってたら最後のナレーションで鳥肌がたった」](https://togetter.com/li/2015025)
+- [ずっと夜で - megamouth の葬列](https://www.megamouth.info/entry/2019/09/03/020353)
+- [【漫画】元戦闘工作員の男が日本で平和に暮らそうとする話 →「日常に帰って行く漫画なのかと思ってたら最後のナレーションで鳥肌がたった」](https://togetter.com/li/2015025)
 - [キムタクは現代の空海だ〜全国各地に伝わる「キムタクが住んでる」噂はどうやって生まれたのか？〜](https://dailyportalz.jp/kiji/kimutaku-kukai)
 - [チェンソーマンのアニメの違和感がうまく言語化できない](https://anond.hatelabo.jp/20221221104803)
   - [チェンソーマン、原作読んでやっと魅力が分かった。](https://twitter.com/mouse15278/status/1602439218533654528)
 - [【アップデート】現役小学生にインタビューして、令和の小学校あるあるを完成させよう](https://omocoro.jp/kiji/372468/)
-- [2ヶ月ちょいで3kmを1分速く走れるようになる方法](https://techblog.kayac.com/3km-faster-by-1minute)
+- [2 ヶ月ちょいで 3km を 1 分速く走れるようになる方法](https://techblog.kayac.com/3km-faster-by-1minute)
 - [スマホを触っているとき、美容師さんや友達が普通に画面を覗いてきて驚いたという漫画に様々な意見が寄せられる](https://togetter.com/li/2016254)
-- [2022年で一番良かった事を聞かせて欲しい](https://anond.hatelabo.jp/20221221220754)
+- [2022 年で一番良かった事を聞かせて欲しい](https://anond.hatelabo.jp/20221221220754)
 - [なぜ大雪が降ると電車が動けなくなるのか。新潟からの報告です。](https://news.yahoo.co.jp/byline/torizukaakira/20221221-00329395)
 - [松本兄弟 - 渡部大羊](https://shonenjumpplus.com/episode/316190247042482381)
-- [ぼくははやくなっていく/2022年11月期シルバールーキー賞 - 夏島扉](https://shonenjumpplus.com/episode/316190247042482453)
-- [2022年カタールW杯決勝、アルゼンチン対フランスのレビュー　「サッカー史上最高の試合の一つ」 - pal-9999のサッカーレポート](https://pal-9999.hatenablog.com/entry/2022/12/22/024447)
+- [ぼくははやくなっていく/2022 年 11 月期シルバールーキー賞 - 夏島扉](https://shonenjumpplus.com/episode/316190247042482453)
+- [2022 年カタール W 杯決勝、アルゼンチン対フランスのレビュー　「サッカー史上最高の試合の一つ」 - pal-9999 のサッカーレポート](https://pal-9999.hatenablog.com/entry/2022/12/22/024447)
 - [Google re:Work - マネージャー](https://rework.withgoogle.com/jp/subjects/managers)
 - [米を１合炊飯器に入れるじゃん？](https://anond.hatelabo.jp/20221222132931)
 - [クッキークリッカーで学ぶアルゴリズム入門 : あすなろの雑記](http://blog.livedoor.jp/thujopsis/archives/31009333.html)
@@ -2749,8 +2750,12 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [今月号のぼっちちゃんがやっていたアレって何？年収は？恋人は？徹底調査！](https://akihamazi.tumblr.com/post/185889761669/)
 - [栃木県に突如出現｢中国式の農場｣その驚きの全貌](https://toyokeizai.net/articles/-/638769)
 - [タイムトラベルはパラドックスなしに行えると数学的に証明](https://nazology.net/archives/119465)
-- [小島秀夫監督ロングインタビュー 新オフィスを構え第2フェーズに突入したコジマプロダクションが問う"繋がり"の意味とは](https://jp.ign.com/hideo-kojima/64747/interview/)
-- [さみしがり魔女は崖の上/2022年11月期ブロンズルーキー賞 - ロコヰ](https://shonenjumpplus.com/episode/316190247044634651)
+- [小島秀夫監督ロングインタビュー 新オフィスを構え第 2 フェーズに突入したコジマプロダクションが問う"繋がり"の意味とは](https://jp.ign.com/hideo-kojima/64747/interview/)
+  - > 這棟大廈基本上只有上市企業能夠入住，一開始我也沒通過審核。幸虧其中一位持有者是我的遊戲粉絲，才能成功入住。能從銀行借到錢，也是因為大型銀行的高層玩過我的遊戲。
+    - 強すぎる
+  - > 人類是移動的動物，在前往的過程遇到沒預想過的人，看見出乎意料的風景，或是跌了一跤，無法預測的經驗、偶然的經驗堆疊累積，才讓人類進化
+  - > 娛樂無法介入政治，娛樂也無法成為武器。但是，娛樂能夠改變世界，我想藉由提供娛樂帶給大家元氣
+- [さみしがり魔女は崖の上/2022 年 11 月期ブロンズルーキー賞 - ロコヰ](https://shonenjumpplus.com/episode/316190247044634651)
 - [魔境斬刻録　隣り合わせの灰と青春 - ベニー松山 / 稲田晃司](https://comicborder.com/episode/316190247000693368)
   - [『隣り合わせの灰と青春』から『ブレイド&バスタード』へ　ベニー松山 × 蝸牛くも、ウィザードリィ対談](https://realsound.jp/book/2022/12/post-1215643.html)
 - [ミンサガ初めて遊んだけどこのゲームヤバすぎる](https://note.com/yomooog/n/n265c92043058)
@@ -2758,10 +2763,121 @@ summary: "這是我 2022 年時，在網路上看過的文章。"
 - [『マンガ一本道』](https://twitter.com/msugaya/status/1606193393352462336)
 - [【新説・桃太郎】](https://twitter.com/onoderasan001/status/1606227892731510784)
 - [超富裕層が生まれる理由と税金の必要性が一発で理解できるウェブページ](https://gigazine.net/news/20221223-super-rich/)
-- [魔界のラーメン屋さん/2022年11月期ブロンズルーキー賞 - くりうさ](https://shonenjumpplus.com/episode/316190247045874050)
+- [魔界のラーメン屋さん/2022 年 11 月期ブロンズルーキー賞 - くりうさ](https://shonenjumpplus.com/episode/316190247045874050)
 - [BBC Subtitle Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/subtitles/)
 - [News Is What Somebody Does Not Want You To Print. All the Rest Is Advertising - Quote Investigator](https://quoteinvestigator.com/2013/01/20/news-suppress/)
 - ["Nobody cares about your blog!"](https://mssprovenance.blogspot.com/2022/12/nobody-cares-about-your-blog.html)
+- [『さよならを教えて』を生んだ鬼才・長岡建蔵が語る、 人気クリエイターに美少女ゲーム出身者が多い理由](https://realsound.jp/book/2022/12/post-1219292.html)
+- [【復旧】12 月 23 日、24 日に発生しました障害に関するご報告 - skeb_jp](https://medium.com/skeb-jp/report-36b5608aa867)
+- [「サブカル界隈は昭和がまだ強いですよね」と言っていた学生さんたちに事実を伝えたらバグった奇声を上げてしまった](https://togetter.com/li/2019451)
+- [これに金をかけておけば間違いないってやつ教えて](https://anond.hatelabo.jp/20221223225252)
+- [100 を超える主要な音楽メディアの「2022 年の年間ベスト・アルバム」を集計　 TOP50 リスト発表 - amass](https://amass.jp/163386/)
+- [告白。 - のらまめ](https://shonenjumpplus.com/episode/316190247045874065)
+- [ペタルの身体/2022 年 11 月期ブロンズルーキー賞 - 夢み太](https://shonenjumpplus.com/episode/316190247045874160)
+- [崩し字を訳してくれる「miwo」というスマホアプリで鐔に書かれた文字を読み取ったら解読できてしまった「技術の進歩がすごい」](https://togetter.com/li/2020122)
+- [ぼっち・ざ・ろっく！：最終回 ED はアジカン「転がる岩、君に朝が降る」カバー　後藤正文「大切に扱ってくれてうれしいです」](https://mantan-web.jp/article/20221225dog00m200000000c.html)
+- [日本全国の有名なアニメスタジオの分布図……「ゾンビランド サガが、佐賀で作られたものではないことを今知りました」](https://togetter.com/li/2020139)
+- [L'Arc-en-Ciel と GLAY の歌詞に見る「和歌山と北海道の『冬』のイメージの違い」](https://togetter.com/li/2020559)
+- [フラット、心理的安全性、失敗に寛容といった企業文化に対しての誤解](https://note.com/rk611/n/n5aad9073a5d5)
+  - > 生產性的失敗會帶來符合成本價值的資訊。只有當能連結到學習的情況，失敗才該祝福。「祝賀失敗」的口號是弄錯重點，我們應該祝賀的不是失敗，而是學習。
+  - > 實驗指的不是像把顏料灑在畫板上的三流抽象畫家的工作。一旦缺乏規律，所有事都會被當成實驗並正當化。
+  - > 心理層面的安全性指的是，個人能夠不必害怕報復，能夠正直且直率地談論問題的組織風氣。
+  - > 但心理層面的安全性是雙向的。如果我批評你的點子是安全的，你批評我的點子也必須是安全的。因為直率的意見才是能讓點子進化並且成長的手段。
+- [クレヨンしんちゃんで 30 年前にタイムスリップする話をやってたが、ひろしの生まれた時代がアップデートされててかなりショック](https://togetter.com/li/2020853)
+- [人に語れるものがない](https://anond.hatelabo.jp/20221225163618)
+- [普段はヤクザ漫画を描いてる渡辺先生、漫画家の集まりで「萌え絵描いて」「次の萌え絵まだ？」と言われて困惑する →「明日はどっちだ」](https://togetter.com/li/2021035)
+- [Losing it](https://jasmcole.com/2022/02/10/losing-it/)
+- [MEMEX - Creepy Website Similarity](https://memex.marginalia.nu/log/69-creepy-website-similarity.gmi)
+- [宮台真司とは何者か？](https://note.com/a_i_jp7/n/nbd337e761465)
+- [三菱 MRJ はなぜ失敗したのか](https://note.com/booskanoriri/n/nfb8e1e5a80a5)
+- [今年に読んでよかった「ニンゲンの不合理と付き合う」ための本まとめ (今年じゃないのもちょっとあり)](https://fujii-yuji.net/2022/12/25/213018)
+- [北海道に移住してきた和人の末裔ですが](https://anond.hatelabo.jp/20221225220304)
+- [出産予定日の死産がつらかったので書く（男性視点）](https://anond.hatelabo.jp/20221225220743)
+- [指先にエメラルド - ひいらぎ](https://shonenjumpplus.com/episode/316190247047937783)
+- [人口 1075 人の村でも黒字を実現　セコマ会長が「過疎地への出店は福祉ではない」と語る理由](https://www.itmedia.co.jp/business/articles/2212/20/news010.html)
+- [うつ病の自分が『DEATH STRANDING』を遊んで、"実感"を取り戻した話ーーコロナ禍を経て改めて感じられた小島監督が伝えたかったことを考えてみる](https://news.denfaminicogamer.jp/kikakuthetower/221226z)
+  - 伴隨實感的高度表現，即使是虛構也能感到真實。
+- [19 世紀の芸術家がみんな幻覚とか見て破滅してたお酒「アブサン」は歯磨き粉味](https://togetter.com/li/2021781)
+- [カタログギフトの URL が『localhost:3000』になってて血の気が引いた「繋がったらもっと怖い」](https://togetter.com/li/2021962)
+- [「ぴえろ」創業者・布川郁司さん死去　「うる星やつら」など手がける](https://www.asahi.com/articles/ASQDV5KL8QDVUCVL02R.html)
+- [一泊二日、仙台を食べる - 今夜はいやほい](https://kikuchidesu.hatenablog.com/entry/2022/12/26/202918)
+- [ミスしたときに「また痛みを知って強くなってしまったな」と言って気分を切り替えてる話。](https://fujii-yuji.net/2022/12/26/235500)
+- [ジャズでよく聞く音楽用語の「スウィング」とは何なのかが視覚的にわかる「Groove Pizza」](https://gigazine.net/news/20221227-groove-pizza-understanding-swing/)
+- [ひろゆきの｢4chan｣､日本人が知らない危険性](https://toyokeizai.net/articles/-/641791)
+- [3D プリンター建築に新展開！複層階化や大規模化に大林組が挑戦中。巨大ゼネコンが描く将来像は宇宙空間にまで!?](https://suumo.jp/journal/2022/12/27/192497/)
+- [一番人気はアボカド・パクチー！ドイツおにぎりの変わった具たち](https://dailyportalz.jp/kiji/deutsche-reisballchen-haben-seltsame-zutaten)
+- [元 Microsoft 社員の「雇ってはいけない人」の基準の切れ味が鋭すぎて泣ける「頭はいいが物事を成し遂げない」](https://togetter.com/li/2022761)
+- [「桜井政博のゲーム作るには」は非常に低い確率が何層も重ならないと実現できないチャンネルだった](https://news.denfaminicogamer.jp/interview/221228a)
+  - 玩家也能「提高對遊戲的分辨能力」、「提高解析度，加深對遊戲的理解」
+  - 「能得知遊戲的製作方式與意圖」相當重要
+  - 日本的好評率是 99.6%，海外則還更高一點
+  - 遊戲是「持續給予壓力的玩耍」
+  - 「談論自己獲得的經驗」非常重要
+  - 必須「擅長簡報發表」
+  - 「確定自己理解所介紹的東西的價值，並納入內容」
+  - 「不管過了幾年，都還能讓遊戲製作者參考的『積蓄』」
+  - 曾經有過指出 1 幀裡的動作問題或色差時，在一旁看著的製作人員完全沒能理解的狀況
+- [Get Uncomfortable](https://newsletter.smarter.blog/p/get-uncomfortable)
+- [Visually symmetric words](https://www.johndcook.com/blog/2022/12/27/visually-symmetric-words/)
+- [Anki SRS Algorithm](https://www.juliensobczak.com/inspect/2022/05/30/anki-srs.html)
+- [漫画原作アニメは漫画の内容が読めずコマをなんとなく繋いでしまうとマズい話。アニメ版チェンソーマンについて](https://togetter.com/li/2022225)
+- [もし「リーダブルコード」を弁護士が読んだら？](https://tech.mntsq.co.jp/entry/2022/12/27/144435)
+- [ブレードランナーのマニアの皆さんへ](https://twitter.com/takahashi__/status/1607603061094252545)
+  - [【お手持ちの烏口】映画『ブレードランナー』に出てくる謎の日本語ネオン看板などの元ネタ、ついに見つかる【基礎の充実の上に】](https://togetter.com/li/2023787)
+- [住宅ローンを変動にするか固定にするか悩んだら考えておきたいこと - ゆとりずむ](https://www.yutorism.jp/entry/2022/12/27/160303)
+- [【2022】平成元年発売のテトリス世界大会が　さらに大変なことになっている](https://note.com/radio613/n/n6bdf3649b744)
+- [羽田航空神社と「もうひとつの航空神社」](https://dailyportalz.jp/kiji/Haneda-aviation-shrine)
+- [【漫画】中学デビューをクラスのイケメンに台無しにされた話 →「予想の斜め上過ぎて好き」「不憫すぎて笑った」](https://togetter.com/li/2023106)
+- [内面と年齢とが合わなくなったタイミングで自動的にヤバい人に堕ちかねないのよ。](https://anond.hatelabo.jp/20221227164837)
+- [コード理論勉強したけど結局分からんかったわ](https://anond.hatelabo.jp/20221227200039)
+- [国語の問題の選択肢がボカロの歌詞にしか見えない → 実際に曲にした天才が続々と集まる](https://togetter.com/li/2021328)
+- [「暗殺者のパスタ」って知ってる…？](https://twitter.com/c_chan1110/status/1607709373786394624)
+- [『言語オタクが友だちに 700 日間語り続けて引きずり込んだ言語沼』正誤表](http://www.asa21.com/smp/news/n50730.html)
+- [突如水槽が増設されたらメダカはどうする？水槽を宇宙に見立てた SF 的実験から見るメダカの認知と社会性](https://togetter.com/li/2023672)
+- [一人前一万円のお粥「毋米粥」を食べた](https://dailyportalz.jp/kiji/1man_yen-okayu)
+- [ファイナルファンタジーのドット絵を手掛けた渋谷員子がキャリアを振り返る](https://employment.en-japan.com/myresume/entry/2022/12/28/103000)
+- [佐久間宣行（テレビプロデューサー）× 林士平（『少年ジャンプ＋』編集者） 【仕事術からエンタメの未来まで】炎の 20,000 字対談！](https://www.webuomo.jp/culture/265850/?shm-vp=3)
+- [2022 年「はてなブックマーク年間ランキング」トップ 100](https://hatenanews.com/articles/2022/12/28/150000)
+- [矢野満月先生の漫画「死んだ愛猫を剥製にするかどうかで揉める二人の話」で死生観と向き合う](https://togetter.com/li/2024008)
+- [戦前の「不良へのお誘い」が今の価値観だとなかなか興味深い「純喫茶ってそういう意味だったのか」](https://togetter.com/li/2024053)
+- [【テコンダー朴』原作者・白正男による正しい歴史認識と人権思想講座 第 1 回：『水星の魔女』は「ポリコレガンダム」なのか](https://bucchinews.com/society/7039.html)
+- [マストドンを 5 年間管理してきて](https://note.com/glorificatio/n/nfdd3e9a276b7)
+- [AI に「普段澄ましている清楚な優等生美少女の感情丸出しガチギレ顔」を描いてもらった](https://togetter.com/li/2024248)
+- [何度も聴いてる珠玉の一曲ってある？](https://anond.hatelabo.jp/20221228232608)
+- [青春ロスと大誤算 - 久蔵バク](https://shonenjumpplus.com/episode/316190247054743651)
+- [ゲーム業界の 165 人が 2022 年を振り返り，新年への抱負を語る。年末恒例のコメント集企画](https://www.4gamer.net/games/999/G999905/20221219042/)
+- [細野不二彦氏と美樹本晴彦氏が高校の同級生だった時の話(1/7)](https://twitter.com/bigc_original/status/1608052641866854400)
+- [渋谷区長にモスキート音がつらい旨お手紙を書いたら返事が来た](https://gecko655.hatenablog.com/entry/shibuya-mosquito-sound)
+- [江戸時代に雪柄が流行したのは、幕府の偉い殿様が雪の結晶の形を正確に研究したから「殿様芸を超えた芸術」](https://togetter.com/li/2025097)
+- [How to identify a scientific fact](https://blog.oup.com/2022/11/how-to-identify-a-scientific-fact/)
+  - > It is only uncertain in the tedious, academic sense that one can doubt almost anything if one tries hard enough.
+- [Giving Up On Privacy](https://www.jefftk.com/p/giving-up-on-privacy)
+- [Is hate speech legal?](https://www.thefire.org/research-learn/hate-speech-legal)
+  - > They recognized the risks to which all human institutions are subject.
+    > But they knew that order cannot be secured merely through fear of punishment for its infraction;
+    > that it is hazardous to discourage thought, hope and imagination;
+    > that fear breeds repression;
+    > that repression breeds hate;
+    > that hate menaces stable government;
+    > that the path of safety lies in the opportunity to discuss freely supposed grievances and proposed remedies;
+    > and that the fitting remedy for evil counsels is good ones.
+  - > One citizen's hateful screed is another's religious text;
+    > one citizen's slur is another's term of endearment;
+    > or, as the Court put it, "one man's vulgarity is another's lyric."
+    > As a result, crafting a generally applicable definition of "hate speech" is all but impossible without silencing someone's "legitimate" speech.
+- [【音楽】『ぼっち・ざ・ろっく』にハマった人に聴いて欲しいバンドの話](https://note.com/uramusume/n/nb032b5aa6227)
+- [どのように論文を読むか](https://msyksphinz.hatenablog.com/entry/2022/12/29/040000)
+- [デフォルメ 3D モデルの制作テクニック](https://www.pixivision.net/ja/a/8418)
+- [コア RPG ファンを惹きつけて止まない迷宮の呼び声…「DRPG」の魅力とは？【年末年始特集】](https://www.gamespark.jp/article/2022/12/29/125828.html)
+- [【悲報】2022 年のヒット映画、昭和のコンテンツばっか。もう終わりだよこの国……](https://anond.hatelabo.jp/20221229211429)
+- [実はグラビアモデルの語源になった「グラビア印刷」で最近は刷られてないのであの人達はもうグラビアモデルじゃない](https://togetter.com/li/2025559)
+- [『ぼっち・ざ・ろっく！』はまじあき先生、コミケ参加で急遽「ぼっち島」設置 → 待機列が"特異点"状態に #C101](https://togetter.com/li/2026483)
+- [自力救済の一年だった](https://anond.hatelabo.jp/20221230115702)
+- [2022 年インターネットのおもしろかった記事](https://dailyportalz.jp/kiji/best_internet_article_2022)
+- [短いプレイで、濃密体験。AUTOMATON ライター陣が選ぶ 2022 年のベスト短編ゲーム](https://automaton-media.com/articles/columnjp/20221230-232347/)
+- [賃貸に住んでいるなら知っておきたい退去費用の基本的な考え方が勉強になる「引っ越す前に知りたかった」](https://togetter.com/li/2026717)
+- [「妻と愛人が惚れ込み合い、夫をおいて出家する古典文学」の情報を募ったところ…？「こんな最高な百合あるの？」](https://togetter.com/li/2026715)
+- [2022 年に読んで面白かった漫画 53 選 - #AQM](https://aqm.hatenablog.jp/entry/2022/12/31/000100)
 
 <style scoped>
 li a {

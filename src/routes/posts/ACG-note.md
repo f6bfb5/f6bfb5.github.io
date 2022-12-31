@@ -334,7 +334,7 @@ tags: ACG, Anime
 
 #### 分鏡圖
 
-- 第 1 回 「右邊・左邊、180°假想線(水平假想線)」
+- 第 1 回 「右邊・左邊、180° 假想線(水平假想線)」
 - 第 2 回 「鏡頭不是一個一個分開看，而是要連貫看下來」
 - 第 3 回 「資訊量的控制 前篇」
 - 第 4 回 「資訊量的控制 後篇」
@@ -422,7 +422,7 @@ tags: ACG, Anime
 - [「不管是多無理的事情，都有能讓它增加真實性的動態。在巨大的謊言裡畫出真實，這是只有動畫才做得到的事。」](https://twitter.com/kobakin1967/status/1172749501800402944)
 - [可能是一些制作介绍](https://bgm.tv/blog/273015)
 - [攝影ーー動畫的化妝師](https://www.iqiyi.com/dongman/nofishing1411.html)
-- [『Fate/kaleid liner プリズマ☆イリヤ』シリーズが実践する、新世代のアニメ撮影ワークフロー](https://cgworld.jp/feature/201512-prisma-illya-cgw208t2-2.html)
+- [『Fate/kaleid liner プリズマ ☆ イリヤ』シリーズが実践する、新世代のアニメ撮影ワークフロー](https://cgworld.jp/feature/201512-prisma-illya-cgw208t2-2.html)
 - [日本动画中的摄影是一个什么样的岗位？](https://www.zhihu.com/question/24787555)
 - [玄学 黑科技 神秘主义？作画爱好者与辨认原画师的二三事](https://zhuanlan.zhihu.com/p/51947129)
 - [zecy/anime-onair-data](https://github.com/zecy/anime-onair-data)
@@ -1032,6 +1032,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221005 [能和客戶說明嗎？](https://www.youtube.com/watch?v=otyLLbYDF1g) 2:23
 - 221026 [關於更改規格](https://www.youtube.com/watch?v=e9zu3-L6Elc) 4:15
 - 221116 [企劃書的寫法](https://www.youtube.com/watch?v=E_lTgIBgRCc) 2:43
+- 221223 [企劃要用大火迅速調理](https://www.youtube.com/watch?v=uSR1k8sT07k) 2:36
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1065,7 +1066,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220824 [重要時刻要停下來！](https://www.youtube.com/watch?v=APOD1fmwPaM) 4:19
 - 220930 [讓按鍵有重量感](https://www.youtube.com/watch?v=ldz5yKW9Gaw) 2:23
 - 221114 [跳躍的構造](https://www.youtube.com/watch?v=zxOBCjqP8-Y) 4:52
-- 221209 [8種擊中後停頓機制](https://www.youtube.com/watch?v=CiQzmwz_Olg) 5:32
+- 221209 [8 種擊中後停頓機制](https://www.youtube.com/watch?v=CiQzmwz_Olg) 5:32
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1109,6 +1110,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 
 - 221014 [適合遊戲的節奏感](https://www.youtube.com/watch?v=fyJfldsCAyE) 2:35
 - 221102 [依重要度平衡效果音](https://www.youtube.com/watch?v=Zf8o_0J3p-o) 4:47
+- 221228 [在各種環境聆聽比較](https://www.youtube.com/watch?v=839jf29PN-A) 2:43
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1142,6 +1144,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221031 [遊戲本體的價值](https://www.youtube.com/watch?v=9QBYT9Rdmuw) 2:47
 - 221118 [愛貓小胖](https://www.youtube.com/watch?v=STRgDZU-iR4) 2:28
 - 221202 [以前是以前現在是現在](https://www.youtube.com/watch?v=9U3QkIZyjWo) 3:28
+- 221225 [Sora 有限公司](https://www.youtube.com/watch?v=S2nmLVRcWKA) 3:22
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1152,7 +1155,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220909 [星之卡比 夢之泉物語](https://www.youtube.com/watch?v=h2EpwYFfrfY) 5:55
 - 221003 [星之卡比 Super Deluxe](https://www.youtube.com/watch?v=MsexzQq-kaU) 7:39
 - 221020 [任天堂明星大亂鬥](https://www.youtube.com/watch?v=uHJpaYpPTHg) 8:31
-- 221122 [任天堂明星大亂鬥DX](https://www.youtube.com/watch?v=5NrJhrCvRvE) 4:18
+- 221122 [任天堂明星大亂鬥 DX](https://www.youtube.com/watch?v=5NrJhrCvRvE) 4:18
 
 </div>
 

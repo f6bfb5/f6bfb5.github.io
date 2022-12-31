@@ -228,6 +228,7 @@ tags: Toolbox
 
 - [Web Cassette](https://webcassette.klevgrand.se/)
 - [ALL JAPAN : The Greatest/Notablest JPN Albums 2400+](https://rateyourmusic.com/list/kommunicato/all-japan-the-greatest_notablest-jpn-albums-2400/1/)
+- [Learning Synths](https://learningsynths.ableton.com/ja/get-started)
 
 ## 設計
 
@@ -263,6 +264,8 @@ tags: Toolbox
 [fladdict]: http://fladdict.net/
 [映像作家 100 人 motion graphic creators]: https://eizo100.jp/
 [motionbox]: https://motion-box.net/
+
+- [38億年前の蟹工船](https://kani38.vercel.app/contents/kani)
 
 ## 娛樂
 

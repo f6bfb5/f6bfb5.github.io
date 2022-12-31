@@ -222,8 +222,6 @@ export const logoLinks = readable([
   // ----------------------------------------
   // Article
   // ----------------------------------------
-  // 伊丹万作 演技指導論草案
-  "https://www.aozora.gr.jp/cards/000231/files/1190_31196.html",
   // 「二次創作を元にした二次創作」を繰り返し、九次創作に至るまでの流れを図解してみました！
   "https://twitter.com/sin_ncd/status/1210874514403291136",
   // ひろゆき「なんだろう、一人で悩むのやめてもらっていいですか」
@@ -264,6 +262,10 @@ export const logoLinks = readable([
   "https://shonenjumpplus.com/episode/316112896884974402",
   // 77:PRINCESS - 水田マル
   "https://comic-days.com/episode/316112896867009003",
+  // 告白。 - のらまめ
+  "https://shonenjumpplus.com/episode/316190247045874065",
+  // 青春ロスと大誤算 - 久蔵バク
+  "https://shonenjumpplus.com/episode/316190247054743651",
 ]);
 
 export const marqueeTexts = readable([
@@ -390,6 +392,9 @@ export const marqueeTexts = readable([
   "コミュニケーションとは対話が終わったときに自分が変わる覚悟を持っている、そういう覚悟のもとで行われるもののことである",
   "日々私達が過ごしている日常というのは、実は奇跡の連続なのかもしれん",
   "(　ﾟ∀ﾟ)o彡°もう一泊！(　ﾟ∀ﾟ)o彡°もう一泊！",
+  "インターネットへようこそ。すべての行為はコピーだ。",
+  "仄暗い水の底から",
+  "なんだかんだと聞かれたら、答えてあげるが世の情け 世界の破壊を防ぐため、世界の平和を守るため、愛と正義の悪を貫く ラブリーチャーミーな仇役、ムサシ、コジロウ、銀河をかけるロケット団の二人には ホワイトホール白い明日が待ってるぜ！にゃーんてにゃ。",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",
