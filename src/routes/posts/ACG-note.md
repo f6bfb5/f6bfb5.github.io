@@ -388,6 +388,7 @@ tags: ACG, Anime
 - [アニメにおけるワイヤー・ケーブルの作画表現のいろいろと、その両面性](http://royal2627.ldblog.jp/archives/48152829.html)
   - 動畫中的「繩索」作畫表現
 - [アニメランナー | アニメーション制作会社 P.A.WORKS 公式 HP](https://www.pa-works.jp/category/for-animator/anime-runner/)
+- [side-Animation](http://listeningside.net/a_side00.html)
 
 ## 單篇文章
 
@@ -1057,6 +1058,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221107 [如何靠做遊戲過活](https://www.youtube.com/watch?v=rsh4p55hGNE) 3:54
 - 221125 [世界之窗十分狹小](https://www.youtube.com/watch?v=jHuwZIHdKSs) 3:10
 - 221220 [一鍵能做的事](https://www.youtube.com/watch?v=rq4MIBvQIeE) 2:23
+- 230104 [分解、考察、再構築](https://www.youtube.com/watch?v=pxhQ1dtikJ0) 3:29
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1102,6 +1104,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 
 - 220923 [避免看來不明瞭](https://www.youtube.com/watch?v=7vGEEUjCJdY) 2:32
 - 221109 [突顯角色的位置](https://www.youtube.com/watch?v=xkeM-NgfxMU) 2:11
+- 230102 [閃光、爆發、餘煙](https://www.youtube.com/watch?v=IoSFAezVeE8) 3:25
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1119,6 +1122,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 
 - 220928 [易懂性與設計性](https://www.youtube.com/watch?v=0Va3ue6Qk-0) 3:20
 - 221104 [文字的大小](https://www.youtube.com/watch?v=5JRzM5vaRI0) 3:00
+- 221230 [現今的親切設計](https://www.youtube.com/watch?v=7iLDVKItxjk) 11:20
 
 </div>
 <div style="width: 20em; min-width: 30%;">
