@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-c0cc68c1.js",
+    "file": "start-fb3ae3ee.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -25,6 +25,7 @@
       "src/routes/posts/2020-what-i-have-read-on-internet.md",
       "src/routes/posts/2021-what-i-have-read-on-internet.md",
       "src/routes/posts/2022-what-i-have-read-on-internet.md",
+      "src/routes/posts/2023-what-i-have-read-on-internet.md",
       "src/routes/posts/ACG-Pause-And-Select-Apocalypse.md",
       "src/routes/posts/ACG-char-counterattack-fans-interview.md",
       "src/routes/posts/ACG-difference-of-director-and-producer.md",
@@ -79,14 +80,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-04879644.js",
+    "file": "pages/__layout.svelte-b6ef955a.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-73ffb140.js",
-      "_store-a54b860b.js",
+      "_Favicon-1f032b0d.js",
+      "_store-43a4faf1.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -120,14 +121,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-cc3fd690.js",
+    "file": "pages/__layout-wide.svelte-99354560.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-73ffb140.js",
-      "_store-a54b860b.js",
+      "_Favicon-1f032b0d.js",
+      "_store-43a4faf1.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -137,7 +138,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-c790db9c.js",
+    "file": "pages/_slug_.svelte-8ea40d47.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -150,6 +151,7 @@
       "src/routes/posts/2020-what-i-have-read-on-internet.md",
       "src/routes/posts/2021-what-i-have-read-on-internet.md",
       "src/routes/posts/2022-what-i-have-read-on-internet.md",
+      "src/routes/posts/2023-what-i-have-read-on-internet.md",
       "src/routes/posts/ACG-Pause-And-Select-Apocalypse.md",
       "src/routes/posts/ACG-char-counterattack-fans-interview.md",
       "src/routes/posts/ACG-difference-of-director-and-producer.md",
@@ -203,13 +205,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-7247ac5a.js",
+    "file": "pages/about.svelte-a2a0f049.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-a54b860b.js",
+      "_store-43a4faf1.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -229,13 +231,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-9403a678.js",
+    "file": "pages/index@wide.svelte-f4e50b54.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-a54b860b.js",
+      "_store-43a4faf1.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -303,7 +305,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -317,11 +319,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2022-what-i-have-read-on-internet.md-c61edfe8.js",
+    "file": "pages/posts/2022-what-i-have-read-on-internet.md-3eea7481.js",
     "src": "src/routes/posts/2022-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -332,6 +334,17 @@
     ],
     "css": [
       "assets/pages/posts/2022-what-i-have-read-on-internet.md-930b8bfd.css"
+    ]
+  },
+  "src/routes/posts/2023-what-i-have-read-on-internet.md": {
+    "file": "pages/posts/2023-what-i-have-read-on-internet.md-99455b15.js",
+    "src": "src/routes/posts/2023-what-i-have-read-on-internet.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8418cccc.js",
+      "__post-d4178251.js",
+      "_BlinkAnchor-aec4dee8.js"
     ]
   },
   "src/routes/posts/ACG-Pause-And-Select-Apocalypse.md": {
@@ -448,7 +461,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-a0fecd81.js",
+    "file": "pages/posts/ACG-note.md-c9d108b5.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -531,7 +544,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/ACG-super-manga-book-list.md-d149df19.css"
     ]
   },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
@@ -656,7 +669,7 @@
     ]
   },
   "src/routes/posts/food-recipe.md": {
-    "file": "pages/posts/food-recipe.md-6d14b50e.js",
+    "file": "pages/posts/food-recipe.md-7dbe6162.js",
     "src": "src/routes/posts/food-recipe.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -961,19 +974,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-73ffb140.js": {
-    "file": "chunks/Favicon-73ffb140.js",
+  "_Favicon-1f032b0d.js": {
+    "file": "chunks/Favicon-1f032b0d.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-a54b860b.js",
+      "_store-43a4faf1.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-a54b860b.js": {
-    "file": "chunks/store-a54b860b.js",
+  "_store-43a4faf1.js": {
+    "file": "chunks/store-43a4faf1.js",
     "imports": [
       "_index-17c965c3.js"
     ]
