@@ -3,7 +3,10 @@
 
   // function onLoaded() {}
 
+  // How do you use the Resize Observer API in Svelte?
+  // https://blog.sethcorker.com/question/how-do-you-use-the-resize-observer-api-in-svelte/
   import { onMount } from "svelte";
+  import BlinkAnchor from "$lib/BlinkAnchor.svelte";
 
   let containerEl;
   let containerHeight;
@@ -27,25 +30,29 @@
       bind:this={containerEl}
       style="--dynamic-font-size: {dynamicFontSize}px"
     >
-      <p>死を忘ることなかれ</p>
-      <p>死を忘ることなかれ</p>
-      <p>死を忘ることなかれ</p>
-      <p>死を忘ることなかれ</p>
-      <p>死を忘ることなかれ</p>
-      <p>死を忘ることなかれ</p>
-      <p>死を忘ることなかれ</p>
-      <p>死を忘ることなかれ</p>
-      <p>死を忘ることなかれ</p>
-      <p>死を忘ることなかれ</p>
-      <p>死を忘ることなかれ</p>
-      <p>死を忘ることなかれ</p>
-      <p>死を忘ることなかれ</p>
+      <p>意味がないのは嫌だ。</p>
+      <p>することがないのは嫌だ。</p>
+      <p>僕には何お意味もない。</p>
+      <p>僕にはなんにもすることがない。</p>
+      <p>死にたいほど憂鬱だ。</p>
+      <p>でも、死ぬ理由さえ見つからない。</p>
+      <p>嫌だ。</p>
+      <p>意味がないのは嫌だ。</p>
+      <p>するべきことがないのは嫌だ。</p>
+      <p>死ぬべき理由がないのは嫌だ。</p>
+      <p>僕には意味が……。</p>
+      <p>僕には……。</p>
+      <p>僕は……。<BlinkAnchor /></p>
       <p>{containerHeight}</p>
     </div>
   </div>
 </div>
 
 <style scoped>
+  /*
+    Leafscape » PixelMplus
+    https://leafscape.be/fonts/118.html
+  */
   @font-face {
     font-family: PixelMplus10 Regular;
     src: url("https://cdn.leafscape.be/PixelMplus/PixelMplus10-Regular_web.woff2")
@@ -72,6 +79,7 @@
     background-size: cover;
 
     user-select: none;
+    cursor: pointer;
     overflow: hidden;
 
     object-fit: contain;
@@ -96,7 +104,6 @@
   .w p {
     padding: 0;
 
-    font-family: "PixelMplus10 Regular";
     font-size: var(--dynamic-font-size);
     text-indent: 0em;
     line-height: 1.25;
