@@ -5,6 +5,7 @@ summary: ""
 tags: 
 ---
 
+- [白ごはん.com：おもてなしから基本まで いちばん丁寧な和食レシピサイト](https://www.sirogohan.com/)
 - [食材保存方法リスト　一覧・早見表 （モバイル向け表示）](https://katahara-blooms.wixsite.com/unfading/foodstorage-for-mobile)
 
 ## 鹽醃液
@@ -155,3 +156,7 @@ tags:
 ## 味噌湯
 
 - [最悪の体調から｢味噌汁｣で復帰出来た人の話。｢限界ライフハック味噌汁」｢タンパク質豊富でノンカフェインであったかい｣](https://togetter.com/li/1834870)
+
+## 印度奶茶
+
+- [寒い冬に立ち向かうほんのり甘くてスパイシーなホットチャイの作り方](https://gigazine.net/news/20230103-chai-spice/)

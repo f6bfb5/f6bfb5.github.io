@@ -397,6 +397,8 @@ export const marqueeTexts = readable([
   "インターネットへようこそ。すべての行為はコピーだ。",
   "仄暗い水の底から",
   "なんだかんだと聞かれたら、答えてあげるが世の情け 世界の破壊を防ぐため、世界の平和を守るため、愛と正義の悪を貫く ラブリーチャーミーな仇役、ムサシ、コジロウ、銀河をかけるロケット団の二人には ホワイトホール白い明日が待ってるぜ！にゃーんてにゃ。",
+  "百億の昼と千億の夜",
+  "…お前、タイムリープしてね？",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",
@@ -608,6 +610,7 @@ export const aboutLinks = readable([
   "https://ymurasawa.web.fc2.com/takashima06.pdf",
   "https://medium.com/@recharge_Inc/%E8%87%AA%E5%88%86%E3%81%8C%E6%AD%BB%E3%82%93%E3%81%A0%E3%82%89google%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%AF%E3%81%A9%E3%81%86%E3%81%99%E3%82%8B%E3%81%8B%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%97%E3%81%9F%E8%A9%B1-3b893a26d5c3",
   "https://web.archive.org/web/20190502141124/https://anond.hatelabo.jp/20181125055531",
+  "https://nin-gen.hatenablog.com/entry/2017/03/08/144635",
   // ========================================
   // 編程自學指南番外：如果媒體業像科技業一樣……
   "https://matters.news/@Andy/728-%E7%B7%A8%E7%A8%8B%E8%87%AA%E5%AD%B8%E6%8C%87%E5%8D%97%E7%95%AA%E5%A4%96-%E5%A6%82%E6%9E%9C%E5%AA%92%E9%AB%94%E6%A5%AD%E5%83%8F%E7%A7%91%E6%8A%80%E6%A5%AD%E4%B8%80%E6%A8%A3-zdpuAt6B8omvRQrg9WzkwKWWCC29DorS3ePdmAqiQwmimRW5Z",

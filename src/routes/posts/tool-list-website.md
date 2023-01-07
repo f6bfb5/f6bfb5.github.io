@@ -75,6 +75,7 @@ tags: Toolbox
   - [なぜ Mozilla は XUL アドオンを廃止したのか？（翻訳）](https://qiita.com/piroor/items/e876eaa70d4c0bf06d9b)
 - [ブログ台頭直前のウェブ界隈が好きだった話 - Neo's World](https://neos21.net/blog/2016/02/16-01.html)
 - [Google Graveyard](https://killedbygoogle.com/)
+- [Microsoft Graveyard](https://killedbymicrosoft.info/)
 - [This page is a truly naked, brutalist html quine.](https://secretgeek.github.io/html_wysiwyg/html.html)
 - [DiscMaster](http://discmaster.textfiles.com/)
 - [Unicode characters you can not see](https://invisible-characters.com/)
