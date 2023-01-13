@@ -82,11 +82,14 @@ tags: Toolbox
 ## OS
 
 - [ReactOS](https://reactos.org/)
+  - open-source Windows environment
 - [ravynOS](https://ravynos.com/)
+  - open-source macOS environment
 - [Pop!\_OS](https://pop.system76.com/)
 - [Q4OS](https://q4os.org/index.html)
 - [lubuntu](https://lubuntu.me/)
 - [Android-x86](https://www.android-x86.org/)
+- [Virtual x86](https://copy.sh/v86/)
 
 ### not recognized as internal or external command
 
@@ -311,21 +314,6 @@ outputfile.close()
 | [Have I Been Pwned](https://haveibeenpwned.com/)         | 檢查信箱是否已遭外洩             |
 | [Kiken URL List](http://gunkanmaki.jog.buttobi.net/)     | 危險網址內容解說                 |
 
-### 留存資訊
-
-- [Quotebacks - Quote the web](https://quotebacks.net/)
-
-  - 網頁服務，備份網路上的文字內容與來源，可手動將內容貼至網頁內的文字框，或使用所提供的 Bookmarklet 可於反白選取文字後快速產生備份內容。
-  <blockquote class="quoteback" darkmode="" data-title="ネットでなにも発信しないのが最適解になってきた" data-author="@hatenaanond" cite="https://anond.hatelabo.jp/20211017124401">
-  <p>結果、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%8D%E3%83%83%E3%83%88" target="_blank" rel="noopener">ネット</a>では当たり<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%81%95%E3%82%8F%E3%82%8A" target="_blank" rel="noopener">さわり</a>のないことだけ書いて、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%8D%E3%83%83%E3%83%88" target="_blank" rel="noopener">ネット</a>では誰とも<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E4%BA%A4%E6%B5%81" target="_blank" rel="noopener">交流</a>しないのが最適解になってきた。</p><p><a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%8D%E3%83%83%E3%83%88" target="_blank" rel="noopener">ネット</a>で発信すること<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E8%87%AA%E4%BD%93" target="_blank" rel="noopener">自体</a>が<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%AA%E3%82%B9%E3%82%AF" target="_blank" rel="noopener">リスク</a>だし、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88" target="_blank" rel="noopener">メリット</a>ないし、<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E4%B8%8D%E5%BF%AB" target="_blank" rel="noopener">不快</a>な思いするだけっていう<a class="keyword" href="https://anond.hatelabo.jp/keyword/%E4%B8%96%E7%95%8C" target="_blank" rel="noopener">世界</a>になりつつある。</p>
-  <footer>@hatenaanond<cite> <a href="https://anond.hatelabo.jp/20211017124401">https://anond.hatelabo.jp/20211017124401</a></cite></footer>
-  </blockquote><script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
-
-- [WorldBrain's Memex](https://getmemex.com/)
-  - Chrome 插件，除了可備份網頁成為書籤，也可畫線標註重點，或於其上加入文字註記與標籤，並可設計客製化的匯出格式，方便整合至其他筆記軟體內。
-- [Hypothesis](https://web.hypothes.is/)
-  - Chrome 插件，可共同協作註解或劃記並討論一篇網頁文章的內容。
-
 ## 遠端協作
 
 - Webex
@@ -402,14 +390,6 @@ IniEditor=system
 | [dxwnd](https://www.majorgeeks.com/files/details/dxwnd.html)                                     | 遊戲視窗化工具                                           |
 | [D3DWindower](https://ux.getuploader.com/Honihoni_Republic/download/21)                          | 遊戲視窗化工具                                           |
 | [3D-Analyzer](http://www.3dfxzone.it/dir/tools/3d_analyze/index.php)                             | 透過模擬改善顯示卡效能與視覺效果，亦可用於調整遊戲解析度 |
-
-### 資料解密
-
-| 名稱                              | 說明             |
-| --------------------------------- | ---------------- |
-| [Ghidra](https://ghidra-sre.org/) | 逆向工程         |
-| tilemolester                      | 遊戲素材編輯工具 |
-| tim2view                          | tim 檔編輯工具   |
 
 <style>
 table {
