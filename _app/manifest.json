@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-a58c627e.js",
+    "file": "start-03bc0960.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -74,20 +74,19 @@
       "src/routes/posts/tool-list-website.md",
       "src/routes/posts/use-foobar2k-to-listen-to-podcast.md",
       "src/routes/posts/use-google-spreadsheet-as-database.md",
-      "src/routes/posts/what-nft-is-not.md",
       "src/routes/posts/why-is-life-so-boring.md",
       "src/routes/reminiscence.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-5390c837.js",
+    "file": "pages/__layout.svelte-be2180a5.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-850b7bdd.js",
-      "_store-07b49f82.js",
+      "_Favicon-11e82754.js",
+      "_store-9a37e688.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -121,14 +120,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-9d3139b1.js",
+    "file": "pages/__layout-wide.svelte-8a261bdd.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-850b7bdd.js",
-      "_store-07b49f82.js",
+      "_Favicon-11e82754.js",
+      "_store-9a37e688.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -138,7 +137,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-28b7088f.js",
+    "file": "pages/_slug_.svelte-735998b3.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -200,18 +199,17 @@
       "src/routes/posts/tool-list-website.md",
       "src/routes/posts/use-foobar2k-to-listen-to-podcast.md",
       "src/routes/posts/use-google-spreadsheet-as-database.md",
-      "src/routes/posts/what-nft-is-not.md",
       "src/routes/posts/why-is-life-so-boring.md"
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-493e311f.js",
+    "file": "pages/about.svelte-feca4746.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-07b49f82.js",
+      "_store-9a37e688.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -231,13 +229,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-b7067491.js",
+    "file": "pages/index@wide.svelte-d69036d3.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-07b49f82.js",
+      "_store-9a37e688.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -338,7 +336,7 @@
     ]
   },
   "src/routes/posts/2023-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2023-what-i-have-read-on-internet.md-a1254ab9.js",
+    "file": "pages/posts/2023-what-i-have-read-on-internet.md-49ff8ce2.js",
     "src": "src/routes/posts/2023-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -462,7 +460,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-c9d108b5.js",
+    "file": "pages/posts/ACG-note.md-5bbdb60c.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -866,11 +864,11 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
-    "file": "pages/posts/tool-list-system.md-8bb4bf4b.js",
+    "file": "pages/posts/tool-list-system.md-a39b7d2d.js",
     "src": "src/routes/posts/tool-list-system.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -880,7 +878,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
@@ -894,7 +892,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
@@ -917,20 +915,6 @@
       "_index-8418cccc.js",
       "__post-d4178251.js",
       "_BlinkAnchor-aec4dee8.js"
-    ]
-  },
-  "src/routes/posts/what-nft-is-not.md": {
-    "file": "pages/posts/what-nft-is-not.md-847e3d89.js",
-    "src": "src/routes/posts/what-nft-is-not.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ],
-    "css": [
-      "assets/pages/posts/what-nft-is-not.md-2873584d.css"
     ]
   },
   "src/routes/posts/why-is-life-so-boring.md": {
@@ -975,19 +959,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-850b7bdd.js": {
-    "file": "chunks/Favicon-850b7bdd.js",
+  "_Favicon-11e82754.js": {
+    "file": "chunks/Favicon-11e82754.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-07b49f82.js",
+      "_store-9a37e688.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-07b49f82.js": {
-    "file": "chunks/store-07b49f82.js",
+  "_store-9a37e688.js": {
+    "file": "chunks/store-9a37e688.js",
     "imports": [
       "_index-17c965c3.js"
     ]
