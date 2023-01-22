@@ -7,21 +7,35 @@ tags: ACG, Anime
 
 ## 資料網站
 
-| 網站                                                                            | 類型 | 說明                                                                         |
-| ------------------------------------------------------------------------------- | ---- | ---------------------------------------------------------------------------- |
-| [作品データベース](https://sakuhindb.com/)                                      | 綜合 | 自動畫、遊戲、漫畫到文學、日劇、特攝皆有討論與評價的作品資料庫               |
-| [おすすめアニメ](http://www001.upp.so-net.ne.jp/tsuribe/anime/animej.html)      | 動畫 | 涵概過去 1930 年代到現在 2020 年代的電影、電視、OVA 動畫的作品介紹與個人評價 |
-| [うずらインフォ](https://uzurainfo.han-be.com/index.html)                       | 動畫 | 知名的當季電視動畫作品一覽表，已於 2020 年宣佈停止繼續更新                   |
-| [アニメレーダー](https://ckworks.jp/animeradar/)                                | 動畫 | 自動整理推特上對當季動畫的反應推文                                           |
-| [Annict](https://annict.jp/)                                                    | 動畫 | 整理自己觀看動畫紀錄的工具網站                                               |
-| [MyOngoingsCalendar](https://myongoingscalendar.eu/)                            | 動畫 | 類似 Annict 的另一個工具網站                                                 |
-| [アニメスタッフデータベース](https://seesaawiki.jp/w/radioi_34/)                | 動畫 | 整理作品製作人員表的網站                                                     |
-| [マンガペディア（MANGA PEDIA）](https://mangapedia.com/)                        | 漫畫 | 漫畫版的維基百科                                                             |
-| [社長が訊く リンク集](https://www.nintendo.co.jp/corporate/links/)              | 遊戲 | 任天堂前社長岩田聰訪問各個作品團隊的脈絡與背景的專欄企劃                     |
-| [JACC® Search - Japan Content Catalog](https://japancontentcatalog.jp/)         | 統計 | 查詢作品的相關權利持有者                                                     |
-| [各種調査報告](http://www.jva-net.or.jp/report/)                                | 統計 | 加盟 JAV 的各家片商銷售數量統計                                              |
-| [調査報告書](https://www2.accsjp.or.jp/research/)                               | 統計 | 檔案分享軟體使用狀況 crwaling 調查統計                                       |
-| [日本におけるアニメ視聴の概況](https://www.f-ism.net/ebi/mreport/r00000000047/) | 統計 |                                                                              |
+| 網站                                     | 類型 | 說明                                                                         |
+| ---------------------------------------- | ---- | ---------------------------------------------------------------------------- |
+| [作品データベース][]                     | 綜合 | 自動畫、遊戲、漫畫到文學、日劇、特攝皆有討論與評價的作品資料庫               |
+| [おすすめアニメ][]                       | 動畫 | 涵概過去 1930 年代到現在 2020 年代的電影、電視、OVA 動畫的作品介紹與個人評價 |
+| [うずらインフォ][]                       | 動畫 | 知名的當季電視動畫作品一覽表，已於 2020 年宣佈停止繼續更新                   |
+| [アニメレーダー][]                       | 動畫 | 自動整理推特上對當季動畫的反應推文                                           |
+| [Annict][]                               | 動畫 | 整理自己觀看動畫紀錄的工具網站                                               |
+| [MyOngoingsCalendar][]                   | 動畫 | 類似 Annict 的另一個工具網站                                                 |
+| [アニメスタッフデータベース][]           | 動畫 | 整理作品製作人員表的網站                                                     |
+| [マンガペディア（MANGA PEDIA）][]        | 漫畫 | 漫畫版的維基百科                                                             |
+| [社長が訊く リンク集][]                  | 遊戲 | 任天堂前社長岩田聰訪問各個作品團隊的脈絡與背景的專欄企劃                     |
+| [JACC® Search - Japan Content Catalog][] | 統計 | 查詢作品的相關權利持有者                                                     |
+| [各種調査報告][]                         | 統計 | 加盟 JAV 的各家片商銷售數量統計                                              |
+| [調査報告書][]                           | 統計 | 檔案分享軟體使用狀況 crwaling 調查統計                                       |
+| [日本におけるアニメ視聴の概況][]         | 統計 |                                                                              |
+
+[作品データベース]: https://sakuhindb.com/
+[おすすめアニメ]: http://www001.upp.so-net.ne.jp/tsuribe/anime/animej.html
+[うずらインフォ]: https://uzurainfo.han-be.com/index.html
+[アニメレーダー]: https://ckworks.jp/animeradar/
+[annict]: https://annict.jp/
+[myongoingscalendar]: https://myongoingscalendar.eu/
+[アニメスタッフデータベース]: https://seesaawiki.jp/w/radioi_34/
+[マンガペディア（manga pedia）]: https://mangapedia.com/
+[社長が訊く リンク集]: https://www.nintendo.co.jp/corporate/links/
+[jacc® search - japan content catalog]: https://japancontentcatalog.jp/
+[各種調査報告]: http://www.jva-net.or.jp/report/
+[調査報告書]: https://www2.accsjp.or.jp/research/
+[日本におけるアニメ視聴の概況]: https://www.f-ism.net/ebi/mreport/r00000000047/
 
 ### [20 歳が観るべきアニメ 38 タイトルを選んでみた（藤津亮太）](https://qjweb.jp/journal/70033/?mode=all)
 
@@ -1032,6 +1046,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220930 [讓按鍵有重量感](https://www.youtube.com/watch?v=ldz5yKW9Gaw) 2:23
 - 221114 [跳躍的構造](https://www.youtube.com/watch?v=zxOBCjqP8-Y) 4:52
 - 221209 [8 種擊中後停頓機制](https://www.youtube.com/watch?v=CiQzmwz_Olg) 5:32
+- 230113 [不綁死注視點](https://www.youtube.com/watch?v=Rd7-uJ10lfo) 2:50
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1050,6 +1065,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220907 [不畫素材，畫光](https://www.youtube.com/watch?v=WqwtzP-TCnw) 3:33
 - 221028 [強調具有判定之物](https://www.youtube.com/watch?v=Lw8VPeQQGEY) 2:29
 - 221130 [辨別大事與小事](https://www.youtube.com/watch?v=u3phczQfi90) 2:45
+- 230118 [正確貼近尺寸感](https://www.youtube.com/watch?v=4BACs62-CxU) 3:52
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1060,6 +1076,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221024 [過頭一點恰恰好](https://www.youtube.com/watch?v=IUK8_lZrb-I) 2:57
 - 221111 [攻擊動作的詳細資料](https://www.youtube.com/watch?v=ZC8znF3t718) 3:34
 - 221214 [架勢要轉瞬又極端](https://www.youtube.com/watch?v=NT4J4aPW6nE) 2:27
+- 230116 [攻擊姿勢](https://www.youtube.com/watch?v=CPHDs10giQI) 3:00
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1125,7 +1142,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221003 [星之卡比 Super Deluxe](https://www.youtube.com/watch?v=MsexzQq-kaU) 7:39
 - 221020 [任天堂明星大亂鬥](https://www.youtube.com/watch?v=uHJpaYpPTHg) 8:31
 - 221122 [任天堂明星大亂鬥 DX](https://www.youtube.com/watch?v=5NrJhrCvRvE) 4:18
-- 230109 [滾滾卡比 2](https://www.youtube.com/watch?v=1h3aFnmv2m0) 6:33 
+- 230109 [滾滾卡比 2](https://www.youtube.com/watch?v=1h3aFnmv2m0) 6:33
 
 </div>
 
