@@ -1011,6 +1011,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221026 [關於更改規格](https://www.youtube.com/watch?v=e9zu3-L6Elc) 4:15
 - 221116 [企劃書的寫法](https://www.youtube.com/watch?v=E_lTgIBgRCc) 2:43
 - 221223 [企劃要用大火迅速調理](https://www.youtube.com/watch?v=uSR1k8sT07k) 2:36
+- 220127 [辛苦會忘記，作品會留下](https://www.youtube.com/watch?v=3G0xYxc0WD0) 3:28
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1023,6 +1024,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221017 [遊戲性之外的趣味](https://www.youtube.com/watch?v=OALp2UAe6V4) 6:48
 - 221123 [惡魔鍋](https://www.youtube.com/watch?v=fECe1QuH3yY) 4:51
 - 221212 [容許取巧](https://www.youtube.com/watch?v=ODmMrl_STi0) 2:49
+- 230123 [落下才會產生浮游感](https://www.youtube.com/watch?v=Ytkw1TqFgtQ) 2:33
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1036,6 +1038,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221125 [世界之窗十分狹小](https://www.youtube.com/watch?v=jHuwZIHdKSs) 3:10
 - 221220 [一鍵能做的事](https://www.youtube.com/watch?v=rq4MIBvQIeE) 2:23
 - 230104 [分解、考察、再構築](https://www.youtube.com/watch?v=pxhQ1dtikJ0) 3:29
+- 230120 [好的差事、糟的差事](https://www.youtube.com/watch?v=7oxEVzF_hT4) 3:33
 
 </div>
 <div style="width: 20em; min-width: 30%;">

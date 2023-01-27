@@ -545,6 +545,7 @@ export const aboutImages = readable([
   "https://c.tenor.com/eMnHWu4TCTEAAAAC/di-gi-charat.gif",
   "https://media.tenor.com/qvCwTpl0zTcAAAAC/ghost-in-the-shell-kokaku-kidotai.gif",
   "https://media.tenor.com/CfHY2iL03IYAAAAC/kuramon-hello.gif",
+  "https://media.tenor.com/gIfRsCX-VIkAAAAC/jojo-ova-jotaro.gif",
   // === Game ===
   "https://c.tenor.com/SjuAbL0uMakAAAAC/yume-nikki-yume.gif",
   "https://c.tenor.com/6L6itJ6PXKoAAAAC/chrono-trigger-courtroom.gif",
