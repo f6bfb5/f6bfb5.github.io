@@ -38,6 +38,7 @@ export const randomNav = readable([
   // Unparalleled
   // palimpsest
   // turquoise
+  // paralysis
   // シズル感
   // ゆめうつつ
   // 兵どもが夢の跡
@@ -398,6 +399,7 @@ export const marqueeTexts = readable([
   "なんだかんだと聞かれたら、答えてあげるが世の情け 世界の破壊を防ぐため、世界の平和を守るため、愛と正義の悪を貫く ラブリーチャーミーな仇役、ムサシ、コジロウ、銀河をかけるロケット団の二人には ホワイトホール白い明日が待ってるぜ！にゃーんてにゃ。",
   "百億の昼と千億の夜",
   "…お前、タイムリープしてね？",
+  "おまえら、聞け。静かにせい。静かにせい。話を聞け。男一匹が命をかけて諸君に訴えているんだぞ。",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",
@@ -569,6 +571,7 @@ export const aboutImages = readable([
   "https://64.media.tumblr.com/414c6d09204aba6b054341b45b68758d/tumblr_n381ofewGD1qghl49o1_r1_500.gifv",
   // "https://64.media.tumblr.com/4c10be689ac1391fc24526008320e33b/tumblr_moro5oFd9n1qghl49o1_r1_500.gifv",
   // "https://c.tenor.com/6-OKnddIaaIAAAAC/oddloop-frederic.gif",
+  "https://media.tenor.com/TSZ8a8nJzEsAAAAC/kamen-rider-kamen-rider-black.gif",
 ]);
 
 export const aboutLinks = readable([

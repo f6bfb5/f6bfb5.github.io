@@ -1011,7 +1011,8 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221026 [關於更改規格](https://www.youtube.com/watch?v=e9zu3-L6Elc) 4:15
 - 221116 [企劃書的寫法](https://www.youtube.com/watch?v=E_lTgIBgRCc) 2:43
 - 221223 [企劃要用大火迅速調理](https://www.youtube.com/watch?v=uSR1k8sT07k) 2:36
-- 220127 [辛苦會忘記，作品會留下](https://www.youtube.com/watch?v=3G0xYxc0WD0) 3:28
+- 220127 [辛苦會忘記作品會留下](https://www.youtube.com/watch?v=3G0xYxc0WD0) 3:28
+- 230203 [總監是種「個性」](https://www.youtube.com/watch?v=8vRmimXtrnE) 2:29
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1098,6 +1099,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221014 [適合遊戲的節奏感](https://www.youtube.com/watch?v=fyJfldsCAyE) 2:35
 - 221102 [依重要度平衡效果音](https://www.youtube.com/watch?v=Zf8o_0J3p-o) 4:47
 - 221228 [在各種環境聆聽比較](https://www.youtube.com/watch?v=839jf29PN-A) 2:43
+- 230201 [作為環境音的遊戲音樂](https://www.youtube.com/watch?v=79d7wKwVzEI) 3:04
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1115,6 +1117,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 
 - 221007 [合理地替檔案取名](https://www.youtube.com/watch?v=V40sMUAE5ek) 4:51
 - 221206 [容易調整的架構](https://www.youtube.com/watch?v=flVa8nHN_y0) 3:59
+- 230130 [用【】統括參數](https://www.youtube.com/watch?v=pdSLu4XkibA) 5:03
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1134,6 +1137,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221202 [以前是以前現在是現在](https://www.youtube.com/watch?v=9U3QkIZyjWo) 3:28
 - 221225 [Sora 有限公司](https://www.youtube.com/watch?v=S2nmLVRcWKA) 3:22
 - 230106 [數位派？實體派？](https://www.youtube.com/watch?v=AmuxiZxxlkM) 2:40
+- 230125 [Sora 的居家補助](https://www.youtube.com/watch?v=BL05AAkCN4s) 4:20
 
 </div>
 <div style="width: 20em; min-width: 30%;">

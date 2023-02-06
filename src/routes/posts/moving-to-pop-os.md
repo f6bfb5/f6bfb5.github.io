@@ -266,6 +266,12 @@ chsh -s /usr/bin/fish
   - `echo "options hid_apple fnmode=0" | sudo tee -a /etc/modprobe.d/hid_apple.conf`
   - `sudo update-initramfs -u`
 
+### 設定執行程式主畫面
+
+NVIDIA X Server Settings
+
+Make this the primary display for the X screen
+
 ### 應用程式捷徑
 
 - Show Applications（`Super+A`）裡的那些東西
