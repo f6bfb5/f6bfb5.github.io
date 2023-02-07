@@ -1026,6 +1026,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221123 [惡魔鍋](https://www.youtube.com/watch?v=fECe1QuH3yY) 4:51
 - 221212 [容許取巧](https://www.youtube.com/watch?v=ODmMrl_STi0) 2:49
 - 230123 [落下才會產生浮游感](https://www.youtube.com/watch?v=Ytkw1TqFgtQ) 2:33
+- 230206 [敵人真是必要的嗎](https://www.youtube.com/watch?v=xAskfl77a-A) 3:18
 
 </div>
 <div style="width: 20em; min-width: 30%;">

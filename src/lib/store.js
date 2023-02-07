@@ -663,5 +663,7 @@ export const aboutLinks = readable([
   "https://kuwaki-ganbatta.hatenablog.com/entry/2022/05/08/070239",
   // お絵かきAIを試してみて自分がAIと同じだと気がついた
   "https://anond.hatelabo.jp/20220906213945",
+  // 友達が一人もいない女と結婚して、お互いに誰も呼べなかった披露宴でバカ笑いしたい
+  "https://note.com/kuwaki_ganbatta/n/n1d04c2f22563",
   // ========================================
 ]);

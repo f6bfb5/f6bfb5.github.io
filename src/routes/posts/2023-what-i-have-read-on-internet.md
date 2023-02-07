@@ -313,3 +313,14 @@ summary: "這是我 2023 年時，在網路上看過的文章。"
 - [アルバム無理解人間の帰還](https://anond.hatelabo.jp/20230203192604)
 - [難関中学の入試問題の原作者になったけど設問が解けない理由を考えて、編集者にたどり着いた](https://note.kishidanami.com/n/n6cc7d7d8a1de)
   - > 國文的題目真正問的不是作者的意圖。是編輯者的視角。
+- [１次元ゲームの世界 - ABAの日誌](https://aba.hatenablog.com/entry/2023/02/04/190803)
+  - > 太　鼓　の　達　人
+- [【コロナで喉が爆散した私が、試したものをまとめ】……食べ物と飲み物は「爆散した喉にいかに沁みないか」というただ一つの観点でまとめました。](https://togetter.com/li/2069531)
+- [「勝ち組を継がせる」という悲しき渇望 - KYの雑記ログ](https://crossacross.org/ky/memorandum-2023-02-04-conundrum-of-urban-rich)
+- [再開発地区で発見された「南池袋遺跡」の見学会に行ってきた。 - 池袋タイムズ](https://ikebukuro-times.com/archives/south-ikebukuro-remains202302.html)
+- [日本最長の県境と日本最短の県境はどちらも愛媛県にある](https://dailyportalz.jp/kiji/saicho-saitan-kenzakai-ehime)
+- [ギャグマンガ日和のこの話、「説明が異常に下手な人」の解像度が高すぎて作者が怖くなる](https://togetter.com/li/2070448)
+- [陰謀論への免疫力を高める - やしお](https://yashio.hatenablog.com/entry/20230205/1675598400)
+- [現代科学の粋を結集して造られた、もはやその名だけで恐怖を巻き起こす異形の魔剣が凄い](https://togetter.com/li/2069918)
+- [「こういうのが欲しかった」三省堂辞書のLINEスタンプの説明がウザい&面白いので欲しくなる](https://togetter.com/li/2071139)
+- [電池不要のTOTOエコリモコンを分解してみた - まず分解。](https://mazu-bunkai.com/bunkai-wp/engineering/12768/)
