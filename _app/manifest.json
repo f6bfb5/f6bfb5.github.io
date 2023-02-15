@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-5d0de49f.js",
+    "file": "start-5da76a7d.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -64,7 +64,6 @@
       "src/routes/posts/my-recommended-youtube-channels-list.md",
       "src/routes/posts/operating-with-keyboard.md",
       "src/routes/posts/our-internet-history.md",
-      "src/routes/posts/scrapbox-looks-good.md",
       "src/routes/posts/search-engine-operators.md",
       "src/routes/posts/should-consumer-care-about-producer.md",
       "src/routes/posts/sticker-generator.md",
@@ -79,14 +78,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-d353805f.js",
+    "file": "pages/__layout.svelte-b26ab722.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-ba6c6035.js",
-      "_store-e84b67f2.js",
+      "_Favicon-ce255ead.js",
+      "_store-a89e596e.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -120,14 +119,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-993f47c2.js",
+    "file": "pages/__layout-wide.svelte-84a7dc18.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-ba6c6035.js",
-      "_store-e84b67f2.js",
+      "_Favicon-ce255ead.js",
+      "_store-a89e596e.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -137,7 +136,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-bc2b6de4.js",
+    "file": "pages/_slug_.svelte-c83596c1.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -189,7 +188,6 @@
       "src/routes/posts/my-recommended-youtube-channels-list.md",
       "src/routes/posts/operating-with-keyboard.md",
       "src/routes/posts/our-internet-history.md",
-      "src/routes/posts/scrapbox-looks-good.md",
       "src/routes/posts/search-engine-operators.md",
       "src/routes/posts/should-consumer-care-about-producer.md",
       "src/routes/posts/sticker-generator.md",
@@ -203,13 +201,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-e2cb9a25.js",
+    "file": "pages/about.svelte-072cc548.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-e84b67f2.js",
+      "_store-a89e596e.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -229,13 +227,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-932b4a2d.js",
+    "file": "pages/index@wide.svelte-6a0b625a.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-e84b67f2.js",
+      "_store-a89e596e.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -336,7 +334,7 @@
     ]
   },
   "src/routes/posts/2023-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2023-what-i-have-read-on-internet.md-1d79730d.js",
+    "file": "pages/posts/2023-what-i-have-read-on-internet.md-728814a7.js",
     "src": "src/routes/posts/2023-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -460,7 +458,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-c5aee235.js",
+    "file": "pages/posts/ACG-note.md-73c01591.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -783,17 +781,6 @@
       "assets/pages/posts/our-internet-history.md-10880303.css"
     ]
   },
-  "src/routes/posts/scrapbox-looks-good.md": {
-    "file": "pages/posts/scrapbox-looks-good.md-a5994393.js",
-    "src": "src/routes/posts/scrapbox-looks-good.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ]
-  },
   "src/routes/posts/search-engine-operators.md": {
     "file": "pages/posts/search-engine-operators.md-304ca481.js",
     "src": "src/routes/posts/search-engine-operators.md",
@@ -882,7 +869,7 @@
     ]
   },
   "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-15e80634.js",
+    "file": "pages/posts/tool-list-website.md-202a3cec.js",
     "src": "src/routes/posts/tool-list-website.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -959,19 +946,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-ba6c6035.js": {
-    "file": "chunks/Favicon-ba6c6035.js",
+  "_Favicon-ce255ead.js": {
+    "file": "chunks/Favicon-ce255ead.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-e84b67f2.js",
+      "_store-a89e596e.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-e84b67f2.js": {
-    "file": "chunks/store-e84b67f2.js",
+  "_store-a89e596e.js": {
+    "file": "chunks/store-a89e596e.js",
     "imports": [
       "_index-17c965c3.js"
     ]
