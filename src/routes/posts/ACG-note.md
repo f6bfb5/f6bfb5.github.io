@@ -1052,6 +1052,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221114 [跳躍的構造](https://www.youtube.com/watch?v=zxOBCjqP8-Y) 4:52
 - 221209 [8 種擊中後停頓機制](https://www.youtube.com/watch?v=CiQzmwz_Olg) 5:32
 - 230113 [不綁死注視點](https://www.youtube.com/watch?v=Rd7-uJ10lfo) 2:50
+- 230211 [緩慢是罪惡](https://www.youtube.com/watch?v=yu7BDkENnNM) 3:07
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1139,6 +1140,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221225 [Sora 有限公司](https://www.youtube.com/watch?v=S2nmLVRcWKA) 3:22
 - 230106 [數位派？實體派？](https://www.youtube.com/watch?v=AmuxiZxxlkM) 2:40
 - 230125 [Sora 的居家補助](https://www.youtube.com/watch?v=BL05AAkCN4s) 4:20
+- 230209 [和過去的競爭](https://www.youtube.com/watch?v=40a9YQcFm3c) 2:58
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1151,6 +1153,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221020 [任天堂明星大亂鬥](https://www.youtube.com/watch?v=uHJpaYpPTHg) 8:31
 - 221122 [任天堂明星大亂鬥 DX](https://www.youtube.com/watch?v=5NrJhrCvRvE) 4:18
 - 230109 [滾滾卡比 2](https://www.youtube.com/watch?v=1h3aFnmv2m0) 6:33
+- 230214 [行星保衛戰](https://www.youtube.com/watch?v=oYd9YpvocHk) 8:33
 
 </div>
 

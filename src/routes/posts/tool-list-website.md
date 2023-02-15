@@ -29,20 +29,14 @@ tags: Toolbox
 - [地下ゲームセンター](https://web.archive.org/web/20030810131216/http://www.hehehe.net/game/)
 - [潜在的幻狂覚無差別覚醒菌感染者](https://web.archive.org/web/20030802101451/http://rb.731.jp/ugjiten.html)
 - [虚構日記](https://web.archive.org/web/20030807141431/http://www4.osk.3web.ne.jp/~kawami/)
+
 - [Everything Rumia Knows](https://namelessrumia.heliohost.org/w/doku.php)
-- [Saltorn Blog](https://saltorn.neocities.org/)
-- [lilibyte](https://lilibyte.net/)
-- [dimden's hotel](https://dimden.dev/)
-- [Hotel Paintings](https://hotelpaintings.neocities.org/index.html)
-- [Twelve Men](https://twelvemen.neocities.org/)
-- [Simplifier](https://simplifier.neocities.org/)
-- [The Law NEET](https://lawneet.neocities.org/)
+
 - [○ で終わる言葉](https://cotobasearch.com/search/r2)
 - [3DS ブラウザ用コンテンツ](http://www5b.biglobe.ne.jp/~clap/3ds/)
 - [CodeCaptcha.io](https://www.codecaptcha.io/)
 - [タロットカードで物語をつくる構文を見つける](https://www.nnn.ed.nico/contents/guides/792)
 - [10 ＋ 1 website](https://www.10plus1.jp/)
-- [Motherfucking Website](https://motherfuckingwebsite.com/)
 - [ちょうどいい Web デザインギャラリー](https://choooodoii.com/)
 - [おいでよ 広告の沼](https://www.citymilk.net/advertisingswamp/)
 - [Cryptiana: Articles on Historical Cryptography](http://cryptiana.web.fc2.com/code/crypto.htm)
@@ -56,25 +50,37 @@ tags: Toolbox
 | 名稱                                                 | 內容                             |
 | ---------------------------------------------------- | -------------------------------- |
 | [教科書には載らないニッポンのインターネットの歴史][] | 「教科書不會寫的日本網際網路史」 |
-| [Cameron's World](https://www.cameronsworld.net/)    | 給舊時代網路的情書               |
+| [Cameron's World][]                                  | 給舊時代網路的情書               |
 
 [教科書には載らないニッポンのインターネットの歴史]: https://web.archive.org/web/20030801113739/http://blogdex.tripod.co.jp/encyclopedia/
+[cameron's world]: https://www.cameronsworld.net/
 
 - [佐倉葉ウェブ文化研究室](https://websitemap.sakura.ne.jp/index.html)
 - [home of the first website](http://info.cern.ch/)
 - [日本最初のホームページ](https://www.ibarakiken.gr.jp/www/main.html)
 - [Your code displays Japanese wrong](https://heistak.github.io/your-code-displays-japanese-wrong/)
   - 刃直海角骨入
+- [Unicode characters you can not see](https://invisible-characters.com/)
 - [譲れぬ闘い --- ここで負けてしまったら、この戦争全体に負けてしまうんだ。](https://web.archive.org/web/20130402224316/http://www.changelog.net/log/1999/special/dave/)
   - [Firefox は危険な JavaScript に対応しない](https://qiita.com/rana_kualu/items/8803f02c72a54f366f2a)
   - [なぜ Mozilla は XUL アドオンを廃止したのか？（翻訳）](https://qiita.com/piroor/items/e876eaa70d4c0bf06d9b)
 - [ブログ台頭直前のウェブ界隈が好きだった話 - Neo's World](https://neos21.net/blog/2016/02/16-01.html)
 - [Google Graveyard](https://killedbygoogle.com/)
 - [Microsoft Graveyard](https://killedbymicrosoft.info/)
+- [Motherfucking Website](https://motherfuckingwebsite.com/)
 - [This page is a truly naked, brutalist html quine.](https://secretgeek.github.io/html_wysiwyg/html.html)
 - [DiscMaster](http://discmaster.textfiles.com/)
-- [Unicode characters you can not see](https://invisible-characters.com/)
 - [sketch of three.js](https://ykob.github.io/sketch-threejs/)
+
+### Neocities
+
+- [Saltorn Blog](https://saltorn.neocities.org/)
+- [lilibyte](https://lilibyte.net/)
+- [dimden's hotel](https://dimden.dev/)
+- [Hotel Paintings](https://hotelpaintings.neocities.org/index.html)
+- [Twelve Men](https://twelvemen.neocities.org/)
+- [Simplifier](https://simplifier.neocities.org/)
+- [The Law NEET](https://lawneet.neocities.org/)
 
 ### 88x31 button
 
@@ -261,7 +267,7 @@ tags: Toolbox
 [映像作家 100 人 motion graphic creators]: https://eizo100.jp/
 [motionbox]: https://motion-box.net/
 
-- [38億年前の蟹工船](https://kani38.vercel.app/contents/kani)
+- [38 億年前の蟹工船](https://kani38.vercel.app/contents/kani)
 
 ## 娛樂
 
@@ -299,13 +305,13 @@ tags: Toolbox
 [日本アニメーション映画クラシックス]: https://animation.filmarchives.jp/works
 [週刊少年ジャンプの掲載順]: https://jumpranking.blog.fc2.com/
 [ジャンプ巻末コメント倉庫]: https://jcomment-lib.hatenablog.com/
-[ジョジョの奇妙なアオリ ～煽りにブルルン！！～]: http://atmarkjojo.org/aori/
+[ジョジョの奇妙なアオリ　～煽りにブルルン！！～]: http://atmarkjojo.org/aori/
 [オープニングナレーション辞典]: http://www.cans.zaq.ne.jp/wormhole/op_index.html
 [次回予告]: http://jikainoyokoku.blog23.fc2.com/
 [宮崎論目次]: http://www.yk.rim.or.jp/~rst/rabo/miyazaki/m_mokuji.html
 [萌え表現の不自由展 2019]: https://anond.hatelabo.jp/20191021020100
 [type-moon 不完全年表]: http://www.st.rim.or.jp/~nmisaki/topics/typemoon.html
-[映画学メモ 「映画学入門」 目次（これまで扱った分）]: http://filmstudies.blog21.fc2.com/blog-entry-76.html
+[映画学メモ 「映画学入門」　目次（これまで扱った分）]: http://filmstudies.blog21.fc2.com/blog-entry-76.html
 [tech noir]: https://technoir.nl/
 [◇ テレビドラマデータベース ◇]: http://www.tvdrama-db.com/
 [現代麻雀技術論]: http://yabejp.web.fc2.com/mahjong/tactics.html
@@ -353,7 +359,7 @@ tags: Toolbox
 [裏 chunsoft]: https://oyasen20.tripod.com/
 [秋川藤志のページ]: http://000.la.coocan.jp/
 [ff4 in depth]: http://www.asahi-net.or.jp/~xi5s-msd/
-[アトランチスの謎 不完全攻略マニュアル]: http://www.cute.hm/hogehoge/html/enter.html
+[アトランチスの謎　不完全攻略マニュアル]: http://www.cute.hm/hogehoge/html/enter.html
 [はたぼーの部屋]: https://hboh2511.web.fc2.com/
 [真女神転生公式ﾊﾟｰﾌｪｸﾄｶﾞｲﾄﾞ(ｴﾝﾀｰﾌﾞﾚｲﾝ出版)の訂正]: http://yhvhiro.web.fc2.com/yhvh_pgaidoteisei.html
 [「復活の呪文」資料室]: https://web.archive.org/web/20160329120539/http://www.imasy.or.jp/~yotti/dq-passwd.html
@@ -381,7 +387,7 @@ tags: Toolbox
 - [ゲームのセリフ集など](http://serihu-syu.jugem.jp/)
 - [SteamSpy](https://steamspy.com/)
 - [ROCKMAN2IPS](https://rockman2ips.tripod.com/)
-- [シムシティ(初代SFC版) 雑多な攻略Tips](http://fantin.web.fc2.com/sim/)
+- [シムシティ(初代 SFC 版) 雑多な攻略 Tips](http://fantin.web.fc2.com/sim/)
 - [シムシティーフォース](http://kamurai.la.coocan.jp/simcity/index.htm)
 
 ---

@@ -504,6 +504,7 @@ export const randomImages = readable([
   "https://i.imgur.com/ugmTTxZ.png",
   "https://i.imgur.com/t0xDTlk.png",
   "https://i.imgur.com/kxy7nM2.png",
+  "https://i.imgur.com/tRXQ4iJ.png",
 ]);
 
 export const aboutImages = readable([
