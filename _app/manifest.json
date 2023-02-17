@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-5da76a7d.js",
+    "file": "start-90e61cc6.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -53,8 +53,6 @@
       "src/routes/posts/blog-with-sveltekit.md",
       "src/routes/posts/capitalist-realism-mark-fisher.md",
       "src/routes/posts/dot-painting-note.md",
-      "src/routes/posts/escape-from-algorithm-with-rss.md",
-      "src/routes/posts/food-recipe.md",
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
       "src/routes/posts/login-with-discord.md",
@@ -136,7 +134,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-c83596c1.js",
+    "file": "pages/_slug_.svelte-473f34b0.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -177,8 +175,6 @@
       "src/routes/posts/blog-with-sveltekit.md",
       "src/routes/posts/capitalist-realism-mark-fisher.md",
       "src/routes/posts/dot-painting-note.md",
-      "src/routes/posts/escape-from-algorithm-with-rss.md",
-      "src/routes/posts/food-recipe.md",
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
       "src/routes/posts/login-with-discord.md",
@@ -334,7 +330,7 @@
     ]
   },
   "src/routes/posts/2023-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2023-what-i-have-read-on-internet.md-728814a7.js",
+    "file": "pages/posts/2023-what-i-have-read-on-internet.md-7fdb1c3b.js",
     "src": "src/routes/posts/2023-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -654,28 +650,6 @@
       "_BlinkAnchor-aec4dee8.js"
     ]
   },
-  "src/routes/posts/escape-from-algorithm-with-rss.md": {
-    "file": "pages/posts/escape-from-algorithm-with-rss.md-59ab6a8b.js",
-    "src": "src/routes/posts/escape-from-algorithm-with-rss.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ]
-  },
-  "src/routes/posts/food-recipe.md": {
-    "file": "pages/posts/food-recipe.md-9d42ec06.js",
-    "src": "src/routes/posts/food-recipe.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ]
-  },
   "src/routes/posts/how-do-you-like-wendesday.md": {
     "file": "pages/posts/how-do-you-like-wendesday.md-b8665265.js",
     "src": "src/routes/posts/how-do-you-like-wendesday.md",
@@ -851,7 +825,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
     ]
   },
   "src/routes/posts/tool-list-system.md": {
@@ -865,7 +839,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
     ]
   },
   "src/routes/posts/tool-list-website.md": {
@@ -879,7 +853,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-system.md-29020d9f.css"
+      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
