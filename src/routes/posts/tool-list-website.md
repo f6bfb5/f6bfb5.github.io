@@ -208,13 +208,18 @@ tags: Toolbox
 - [死刑確定者 全リスト](https://www.crimeinfo.jp/data/dplist/dplist_all/)
 - [米国でソフトウェアエンジニアになる方法](https://note.com/fushiroyama/n/n5402a03e6888)
 - [イカセカイ](https://ikasekai.com/readings)
-- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run)
-- [taiwanese-work-in/japa](https://github.com/taiwanese-work-in/japan/wiki)
-- [日本移居指南](https://guoyu.mirror.xyz/bPaDKAcrhJGUbaXu9BWDcdD-F46gBFATTvf_qwZ9Bso)
 - [Secrets of Scientology](https://www.cs.cmu.edu/~dst/Secrets/index.html)
 - [「東洋の魔窟」九龍城砦探検記](https://web.archive.org/web/20120509023922/http://www4.ocn.ne.jp:80/~keropero/kyuryu00.html)
 - [This to That (Glue Advice)](https://www.thistothat.com/index.shtml)
 - [世界史講義録](http://timeway.vivian.jp/)
+
+- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run)
+- [taiwanese-work-in/japa](https://github.com/taiwanese-work-in/japan/wiki)
+- [日本移居指南](https://guoyu.mirror.xyz/bPaDKAcrhJGUbaXu9BWDcdD-F46gBFATTvf_qwZ9Bso)
+- [東京の一人暮らし、生活費はいくらかかるのか？](https://resources.realestate.co.jp/ja/living/cost-living-single-person-tokyo-jp/)
+- [日本語の例文](https://j-nihongo.com/)
+- [英語通訳訓練法入門](http://www.someya-net.com/01-Tsuyaku/Unit-00/titlepage.html)
+- [通訳訓練教材データベース](http://www.someya-net.com/02-DataBase/00-Home/DB000-TableOfContents.html)
 
 ## 音樂
 

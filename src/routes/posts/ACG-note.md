@@ -1013,6 +1013,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221223 [企劃要用大火迅速調理](https://www.youtube.com/watch?v=uSR1k8sT07k) 2:36
 - 220127 [辛苦會忘記作品會留下](https://www.youtube.com/watch?v=3G0xYxc0WD0) 3:28
 - 230203 [總監是種「個性」](https://www.youtube.com/watch?v=8vRmimXtrnE) 2:29
+- 230310 [動手就對了‼️](https://www.youtube.com/watch?v=JV3KOJ_Z4Vs) 2:01
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1027,6 +1028,8 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221212 [容許取巧](https://www.youtube.com/watch?v=ODmMrl_STi0) 2:49
 - 230123 [落下才會產生浮游感](https://www.youtube.com/watch?v=Ytkw1TqFgtQ) 2:33
 - 230206 [敵人真是必要的嗎](https://www.youtube.com/watch?v=xAskfl77a-A) 3:18
+- 230217 [獎勵要素擺在先頭](https://www.youtube.com/watch?v=dnhI_Hm-iYE) 2:42
+- 230308 [對戰就會複雜嗎？](https://www.youtube.com/watch?v=xeJYeZhynTU) 4:02
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1041,6 +1044,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221220 [一鍵能做的事](https://www.youtube.com/watch?v=rq4MIBvQIeE) 2:23
 - 230104 [分解、考察、再構築](https://www.youtube.com/watch?v=pxhQ1dtikJ0) 3:29
 - 230120 [好的差事、糟的差事](https://www.youtube.com/watch?v=7oxEVzF_hT4) 3:33
+- 220220 [學會如何計算幀數](https://www.youtube.com/watch?v=567g7PFkJfs) 3:49
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1083,6 +1087,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 221111 [攻擊動作的詳細資料](https://www.youtube.com/watch?v=ZC8znF3t718) 3:34
 - 221214 [架勢要轉瞬又極端](https://www.youtube.com/watch?v=NT4J4aPW6nE) 2:27
 - 230116 [攻擊姿勢](https://www.youtube.com/watch?v=CPHDs10giQI) 3:00
+- 230222 [後續動作會決定印象](https://www.youtube.com/watch?v=rqdDz8e9u8g) 4:18
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1092,6 +1097,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220923 [避免看來不明瞭](https://www.youtube.com/watch?v=7vGEEUjCJdY) 2:32
 - 221109 [突顯角色的位置](https://www.youtube.com/watch?v=xkeM-NgfxMU) 2:11
 - 230102 [閃光、爆發、餘煙](https://www.youtube.com/watch?v=IoSFAezVeE8) 3:25
+- 230228 [用慢速觀察特效吧](https://www.youtube.com/watch?v=784soS08Q6M) 11:33
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1111,6 +1117,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 220928 [易懂性與設計性](https://www.youtube.com/watch?v=0Va3ue6Qk-0) 3:20
 - 221104 [文字的大小](https://www.youtube.com/watch?v=5JRzM5vaRI0) 3:00
 - 221230 [現今的親切設計](https://www.youtube.com/watch?v=7iLDVKItxjk) 11:20
+- 230224 [讀取畫面](https://www.youtube.com/watch?v=PbK_j-Ot4qc) 2:26
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1124,7 +1131,9 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 </div>
 <div style="width: 20em; min-width: 30%;">
 
-### L. ???
+### L. 公關
+
+- 230303 [公關是乘法](https://www.youtube.com/watch?v=AKpG9twRJRs) 3:27
 
 </div>
 <div style="width: 20em; min-width: 30%;">
@@ -1141,6 +1150,7 @@ Spirit of Wonder: 少年科学倶楽部 Spirit of WWpnder - Scientific Boys CluD
 - 230106 [數位派？實體派？](https://www.youtube.com/watch?v=AmuxiZxxlkM) 2:40
 - 230125 [Sora 的居家補助](https://www.youtube.com/watch?v=BL05AAkCN4s) 4:20
 - 230209 [和過去的競爭](https://www.youtube.com/watch?v=40a9YQcFm3c) 2:58
+- 230306 [遊戲與眼睛疲勞](https://www.youtube.com/watch?v=_w4J3xZbs9o) 2:46
 
 </div>
 <div style="width: 20em; min-width: 30%;">
