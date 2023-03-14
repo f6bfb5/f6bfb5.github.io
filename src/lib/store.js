@@ -111,7 +111,7 @@ export const logoLinks = readable([
   "https://www.nicovideo.jp/watch/sm35222783",
   // にじさんじ - Virtual to LIVE [Official Music Video]
   "https://www.nicovideo.jp/watch/sm35598094",
-  //  【 #インターネット女クリスマス 】3Dで歌ってはしゃぐインターネットの女たち【月ノ美兎/名取さな】 
+  // 【 #インターネット女クリスマス 】3Dで歌ってはしゃぐインターネットの女たち【月ノ美兎/名取さな】 
   "https://www.youtube.com/watch?v=qVv6vCqciTM",
   // ----
   // ぼくのフレンド
@@ -123,10 +123,6 @@ export const logoLinks = readable([
   // ----------------------------------------
   // Game
   // ----------------------------------------
-  // 【CM】Linda Cube Again【翻譯】
-  "https://www.youtube.com/watch?v=Jc1QGIhnTaU",
-  // 【CM】Serial Experiments Lain for PS 【翻譯】
-  "https://www.youtube.com/watch?v=KZONR1BFZ3s",
   // #lain20th
   "https://www.youtube.com/watch?v=uOREjHyENtc",
   // serial experiments lain プレイ動画 level1【コメ実況風】

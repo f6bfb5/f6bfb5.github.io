@@ -1,11 +1,12 @@
 ---
-title: "Toolbox - 趣味網站篇"
+title: "網際網路的海洋"
 date: 1969-07-21T02:59:00.000Z
-summary: "已經連工具箱都稱不上了，有趣的網站。"
+summary: ""
 tags: Toolbox
 ---
 
-已經連工具箱都稱不上了，有趣、適合打發時間的網站。
+![海と記憶](https://live.staticflickr.com/3936/15429660870_defe4c65ca_b.jpg)
+> "[海と記憶](https://www.flickr.com/photos/79786806@N07/15429660870)" by [けんたま/KENTAMA](https://www.flickr.com/photos/79786806@N07) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=openverse).
 
 - [暇つぶしに最適なリンク集](http://fcrandom.freeoda.com/hima.html)
 - [📒Productivity を上げるために大切な 100 のこと](https://minerva.mamansoft.net/%F0%9F%93%97Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8/%F0%9F%93%92Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8)
@@ -30,7 +31,11 @@ tags: Toolbox
 - [潜在的幻狂覚無差別覚醒菌感染者](https://web.archive.org/web/20030802101451/http://rb.731.jp/ugjiten.html)
 - [虚構日記](https://web.archive.org/web/20030807141431/http://www4.osk.3web.ne.jp/~kawami/)
 
+---
+
 - [Everything Rumia Knows](https://namelessrumia.heliohost.org/w/doku.php)
+
+---
 
 - [○ で終わる言葉](https://cotobasearch.com/search/r2)
 - [3DS ブラウザ用コンテンツ](http://www5b.biglobe.ne.jp/~clap/3ds/)
@@ -213,6 +218,8 @@ tags: Toolbox
 - [This to That (Glue Advice)](https://www.thistothat.com/index.shtml)
 - [世界史講義録](http://timeway.vivian.jp/)
 
+---
+
 - [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run)
 - [taiwanese-work-in/japa](https://github.com/taiwanese-work-in/japan/wiki)
 - [日本移居指南](https://guoyu.mirror.xyz/bPaDKAcrhJGUbaXu9BWDcdD-F46gBFATTvf_qwZ9Bso)
@@ -394,8 +401,6 @@ tags: Toolbox
 - [ROCKMAN2IPS](https://rockman2ips.tripod.com/)
 - [シムシティ(初代 SFC 版) 雑多な攻略 Tips](http://fantin.web.fc2.com/sim/)
 - [シムシティーフォース](http://kamurai.la.coocan.jp/simcity/index.htm)
-
----
 
 <style>
 table {
