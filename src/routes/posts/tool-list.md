@@ -165,7 +165,6 @@ tags: Toolbox
 | [TeraPad](https://tera-net.com/library/tpad.html)                  | 老牌的高效能文字編輯器                         |
 | [HxD](https://mh-nexus.de/en/hxd/)                                 | Freeware Hex Editor and Disk Editor            |
 | [Stirling](https://www.vector.co.jp/soft/win95/util/se079072.html) | Binary Editor                                  |
-| [Obsidian](https://obsidian.md/)                                   | 可以將 Markdown 筆記轉換成內部連結卡片盒的軟體 |
 | [Text2MindMap](https://tobloef.com/text2mindmap/)                  | 文字版心智圖                                   |
 | [pytesseract](https://pypi.org/project/pytesseract/)               | 辨識圖片文字的 python library                  |
 
@@ -266,7 +265,6 @@ outputfile.close()
 
 | 名稱                                                                                                                | 說明                                |
 | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)                         | 使用類似 Vim 編輯器的方式瀏覽網站   |
 | [終結內容農場](https://chrome.google.com/webstore/detail/content-farm-terminator/lcghoajegeldpfkfaejegfobkapnemjl)  | 要是感到厭煩，放棄也是一種選擇啊。  |
 | [ClearURLs](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk/)                  | 移除網址的多餘內容                  |
 | [TabAttack](https://chrome.google.com/webstore/detail/tabattack/ginflokhdahakklidfjlogllkkhokidj)                   | 轉換瀏覽頁面網址成為 markdown 格式  |
@@ -276,30 +274,12 @@ outputfile.close()
 - [Violentmonkey](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
 - [UI.Vision RPA](https://chrome.google.com/webstore/detail/uivision-rpa/gcbalfbdmfieckjlnblleoemohcganoc)
 - [無料で Chrome・Firefox の操作を自動化＆ファイルのアップロードやデスクトップの操作もできる「UI.Vision」](https://gigazine.net/news/20220417-ui-vision/)
-- [DeepL 翻訳（ベータ版）](https://chrome.google.com/webstore/detail/deepl-translate-beta-vers/cofdbpoegempjloogbagkncekinflcnj?hl=ja)
 
 #### Shopping
 
 - [Augmented Steam](https://chrome.google.com/webstore/detail/augmented-steam/dnhpnfgdlenaccegplpojghhmaamnnfp)
 - [Keepa - Amazon Price Tracker](https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo)
 - [Add to Buyee](https://chrome.google.com/webstore/detail/add-to-buyee/ocjpgibbldacmpedgjgmcdcikjeopnpb)
-
-#### YouTube Pack
-
-- [fiahfy/youtube-live-chat-flow](https://github.com/fiahfy/youtube-live-chat-flow)
-- [YouTubeLiveClock](https://chrome.google.com/webstore/detail/youtubeliveclock/chpodcedholiggcllnmmjlnghllddgmj)
-- [Unhook](https://chrome.google.com/webstore/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid)
-- [Volume Master](https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke)
-- [Open-as-Popup](https://chrome.google.com/webstore/detail/open-as-popup/ncppfjladdkdaemaghochfikpmghbcpc)
-
-#### Twitch Pack
-
-- [Gumbo: Twitch Companion](https://chrome.google.com/webstore/detail/gumbo-twitch-companion/aalmjfpohaedoddkobnibokclgeefamn)
-- [FrankerFaceZ](https://chrome.google.com/webstore/detail/frankerfacez/fadndhdgpmmaapbmfcknlfgcflmmmieb)
-  - Enable Portrait Mode
-- [TTV LOL](https://chrome.google.com/webstore/detail/ttv-lol/ofbbahodfeppoklmgjiokgfdgcndngjm)
-
-#### NicoNico Pack
 
 ### 資安
 
@@ -475,17 +455,6 @@ IniEditor=system
 - [CamTwist](https://camtwiststudio.com/)
 - [AmaRecTV](http://www.amarectv.com/)
 - [實作在家裡自架 IRL 戶外直播伺服器](https://hitorigs.live/irl-server-setting-up/)
-
-### 手繪動畫
-
-| 名稱                                                                     | 說明                         |
-| ------------------------------------------------------------------------ | ---------------------------- |
-| [OpenToonz](https://opentoonz.github.io/index.html)                      | 吉卜力愛用的開源動畫製作軟體 |
-| [OPTPiX SpriteStudio](https://www.webtech.co.jp/spritestudio/index.html) | 製作 Live2D 動畫專用的工具   |
-
-- [TVPaint](https://www.tvpaint.com/)
-- [CACANi](https://cacani.sg/?v=3d9975706be3)
-- [Tools OLM Digital R&D](https://olm.co.jp/rd/technology/tools/?lang=en)
 
 ## 遊戲製作
 
