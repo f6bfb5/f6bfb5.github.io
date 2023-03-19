@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-90e61cc6.js",
+    "file": "start-a502344a.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -52,23 +52,18 @@
       "src/routes/posts/blog-with-sapper.md",
       "src/routes/posts/blog-with-sveltekit.md",
       "src/routes/posts/capitalist-realism-mark-fisher.md",
-      "src/routes/posts/dot-painting-note.md",
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
       "src/routes/posts/login-with-discord.md",
       "src/routes/posts/miyazaki-tsutomu.md",
-      "src/routes/posts/moving-to-pop-os.md",
       "src/routes/posts/mpv.md",
-      "src/routes/posts/my-recommended-youtube-channels-list.md",
       "src/routes/posts/operating-with-keyboard.md",
       "src/routes/posts/our-internet-history.md",
+      "src/routes/posts/sea-of-internet.md",
       "src/routes/posts/search-engine-operators.md",
-      "src/routes/posts/should-consumer-care-about-producer.md",
       "src/routes/posts/sticker-generator.md",
       "src/routes/posts/template.md",
-      "src/routes/posts/tool-list-creativity.md",
-      "src/routes/posts/tool-list-system.md",
-      "src/routes/posts/tool-list-website.md",
+      "src/routes/posts/tool-list.md",
       "src/routes/posts/use-foobar2k-to-listen-to-podcast.md",
       "src/routes/posts/use-google-spreadsheet-as-database.md",
       "src/routes/posts/why-is-life-so-boring.md",
@@ -76,14 +71,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-b26ab722.js",
+    "file": "pages/__layout.svelte-b16210fe.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-ce255ead.js",
-      "_store-a89e596e.js",
+      "_Favicon-08b15620.js",
+      "_store-6ce157dc.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -117,14 +112,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-84a7dc18.js",
+    "file": "pages/__layout-wide.svelte-70437db7.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-ce255ead.js",
-      "_store-a89e596e.js",
+      "_Favicon-08b15620.js",
+      "_store-6ce157dc.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -134,7 +129,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-473f34b0.js",
+    "file": "pages/_slug_.svelte-ad269d59.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -174,36 +169,31 @@
       "src/routes/posts/blog-with-sapper.md",
       "src/routes/posts/blog-with-sveltekit.md",
       "src/routes/posts/capitalist-realism-mark-fisher.md",
-      "src/routes/posts/dot-painting-note.md",
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
       "src/routes/posts/login-with-discord.md",
       "src/routes/posts/miyazaki-tsutomu.md",
-      "src/routes/posts/moving-to-pop-os.md",
       "src/routes/posts/mpv.md",
-      "src/routes/posts/my-recommended-youtube-channels-list.md",
       "src/routes/posts/operating-with-keyboard.md",
       "src/routes/posts/our-internet-history.md",
+      "src/routes/posts/sea-of-internet.md",
       "src/routes/posts/search-engine-operators.md",
-      "src/routes/posts/should-consumer-care-about-producer.md",
       "src/routes/posts/sticker-generator.md",
       "src/routes/posts/template.md",
-      "src/routes/posts/tool-list-creativity.md",
-      "src/routes/posts/tool-list-system.md",
-      "src/routes/posts/tool-list-website.md",
+      "src/routes/posts/tool-list.md",
       "src/routes/posts/use-foobar2k-to-listen-to-podcast.md",
       "src/routes/posts/use-google-spreadsheet-as-database.md",
       "src/routes/posts/why-is-life-so-boring.md"
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-072cc548.js",
+    "file": "pages/about.svelte-0b4bfb00.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-a89e596e.js",
+      "_store-6ce157dc.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -223,13 +213,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-6a0b625a.js",
+    "file": "pages/index@wide.svelte-efafe9ca.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-a89e596e.js",
+      "_store-6ce157dc.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -330,7 +320,7 @@
     ]
   },
   "src/routes/posts/2023-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2023-what-i-have-read-on-internet.md-7fdb1c3b.js",
+    "file": "pages/posts/2023-what-i-have-read-on-internet.md-e29b2e0b.js",
     "src": "src/routes/posts/2023-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -454,7 +444,7 @@
     ]
   },
   "src/routes/posts/ACG-note.md": {
-    "file": "pages/posts/ACG-note.md-73c01591.js",
+    "file": "pages/posts/ACG-note.md-a680386d.js",
     "src": "src/routes/posts/ACG-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -552,7 +542,7 @@
     ]
   },
   "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md": {
-    "file": "pages/posts/ACG-why-you-should-not-use-interpolation-on-anime.md-391850db.js",
+    "file": "pages/posts/ACG-why-you-should-not-use-interpolation-on-anime.md-1a4c84e0.js",
     "src": "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -639,17 +629,6 @@
       "_BlinkAnchor-aec4dee8.js"
     ]
   },
-  "src/routes/posts/dot-painting-note.md": {
-    "file": "pages/posts/dot-painting-note.md-60372e83.js",
-    "src": "src/routes/posts/dot-painting-note.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ]
-  },
   "src/routes/posts/how-do-you-like-wendesday.md": {
     "file": "pages/posts/how-do-you-like-wendesday.md-b8665265.js",
     "src": "src/routes/posts/how-do-you-like-wendesday.md",
@@ -697,31 +676,9 @@
       "_BlinkAnchor-aec4dee8.js"
     ]
   },
-  "src/routes/posts/moving-to-pop-os.md": {
-    "file": "pages/posts/moving-to-pop-os.md-6b0ff935.js",
-    "src": "src/routes/posts/moving-to-pop-os.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ]
-  },
   "src/routes/posts/mpv.md": {
     "file": "pages/posts/mpv.md-eb796f55.js",
     "src": "src/routes/posts/mpv.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ]
-  },
-  "src/routes/posts/my-recommended-youtube-channels-list.md": {
-    "file": "pages/posts/my-recommended-youtube-channels-list.md-b0f6e61b.js",
-    "src": "src/routes/posts/my-recommended-youtube-channels-list.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -755,6 +712,20 @@
       "assets/pages/posts/our-internet-history.md-10880303.css"
     ]
   },
+  "src/routes/posts/sea-of-internet.md": {
+    "file": "pages/posts/sea-of-internet.md-888dfae6.js",
+    "src": "src/routes/posts/sea-of-internet.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8418cccc.js",
+      "__post-d4178251.js",
+      "_BlinkAnchor-aec4dee8.js"
+    ],
+    "css": [
+      "assets/pages/posts/tool-list.md-f769af6a.css"
+    ]
+  },
   "src/routes/posts/search-engine-operators.md": {
     "file": "pages/posts/search-engine-operators.md-304ca481.js",
     "src": "src/routes/posts/search-engine-operators.md",
@@ -764,22 +735,6 @@
       "_index-8418cccc.js",
       "__post-d4178251.js",
       "_BlinkAnchor-aec4dee8.js"
-    ]
-  },
-  "src/routes/posts/should-consumer-care-about-producer.md": {
-    "file": "pages/posts/should-consumer-care-about-producer.md-b787804f.js",
-    "src": "src/routes/posts/should-consumer-care-about-producer.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BalloonQuote2-cd0e9e02.js",
-      "_BlinkAnchor-aec4dee8.js",
-      "_BorderedText-189d980f.js"
-    ],
-    "css": [
-      "assets/pages/posts/should-consumer-care-about-producer.md-d5b7c026.css"
     ]
   },
   "src/routes/posts/sticker-generator.md": {
@@ -814,9 +769,9 @@
       "assets/pages/posts/template.md-ab79e7b9.css"
     ]
   },
-  "src/routes/posts/tool-list-creativity.md": {
-    "file": "pages/posts/tool-list-creativity.md-5a084539.js",
-    "src": "src/routes/posts/tool-list-creativity.md",
+  "src/routes/posts/tool-list.md": {
+    "file": "pages/posts/tool-list.md-a854e2f7.js",
+    "src": "src/routes/posts/tool-list.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -825,35 +780,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
-    ]
-  },
-  "src/routes/posts/tool-list-system.md": {
-    "file": "pages/posts/tool-list-system.md-a39b7d2d.js",
-    "src": "src/routes/posts/tool-list-system.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ],
-    "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
-    ]
-  },
-  "src/routes/posts/tool-list-website.md": {
-    "file": "pages/posts/tool-list-website.md-202a3cec.js",
-    "src": "src/routes/posts/tool-list-website.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ],
-    "css": [
-      "assets/pages/posts/tool-list-creativity.md-fad99257.css"
+      "assets/pages/posts/tool-list.md-f769af6a.css"
     ]
   },
   "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
@@ -920,19 +847,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-ce255ead.js": {
-    "file": "chunks/Favicon-ce255ead.js",
+  "_Favicon-08b15620.js": {
+    "file": "chunks/Favicon-08b15620.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-a89e596e.js",
+      "_store-6ce157dc.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-a89e596e.js": {
-    "file": "chunks/store-a89e596e.js",
+  "_store-6ce157dc.js": {
+    "file": "chunks/store-6ce157dc.js",
     "imports": [
       "_index-17c965c3.js"
     ]

@@ -9,12 +9,12 @@
   >
   <url>
     <loc>https://f6bfb5.github.io</loc>
-    <lastmod>2023-02-17T12:42:06+08:00</lastmod>
+    <lastmod>2023-03-19T10:33:04+08:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://f6bfb5.github.io/about</loc>
-    <lastmod>2023-02-17T12:42:06+08:00</lastmod>
+    <lastmod>2023-03-19T10:33:04+08:00</lastmod>
     <priority>1.00</priority>
   </url>
   
@@ -39,24 +39,6 @@
     <url>
       <loc>https://f6bfb5.github.io/miyazaki-tsutomu</loc>
       <lastmod>2022-12-15T19:48:47+08:00</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-    <url>
-      <loc>https://f6bfb5.github.io/moving-to-pop-os</loc>
-      <lastmod>2022-11-04T20:43:59+08:00</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-    <url>
-      <loc>https://f6bfb5.github.io/should-consumer-care-about-producer</loc>
-      <lastmod>2022-10-29T10:49:24+08:00</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-    <url>
-      <loc>https://f6bfb5.github.io/my-recommended-youtube-channels-list</loc>
-      <lastmod>2022-10-11T23:29:45+08:00</lastmod>
       <priority>0.80</priority>
     </url>
   
@@ -93,12 +75,6 @@
     <url>
       <loc>https://f6bfb5.github.io/autohotkey-note</loc>
       <lastmod>2022-06-11T23:36:19+08:00</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-    <url>
-      <loc>https://f6bfb5.github.io/dot-painting-note</loc>
-      <lastmod>2022-06-08T20:55:02+08:00</lastmod>
       <priority>0.80</priority>
     </url>
   
@@ -301,20 +277,14 @@
     </url>
   
     <url>
-      <loc>https://f6bfb5.github.io/tool-list-website</loc>
+      <loc>https://f6bfb5.github.io/sea-of-internet</loc>
       <lastmod>1969-07-21T02:59:00+08:00</lastmod>
       <priority>0.80</priority>
     </url>
   
     <url>
-      <loc>https://f6bfb5.github.io/tool-list-system</loc>
+      <loc>https://f6bfb5.github.io/tool-list</loc>
       <lastmod>1969-07-21T02:58:00+08:00</lastmod>
-      <priority>0.80</priority>
-    </url>
-  
-    <url>
-      <loc>https://f6bfb5.github.io/tool-list-creativity</loc>
-      <lastmod>1969-07-21T02:57:00+08:00</lastmod>
       <priority>0.80</priority>
     </url>
   

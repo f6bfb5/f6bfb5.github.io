@@ -5,7 +5,7 @@
     <link>https://f6bfb5.github.io</link>
     <description>Close the world,.txEn eht nepO</description>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 17 Feb 2023 12:42:06 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Mar 2023 10:33:04 GMT</lastBuildDate>
     
       <item>
         <title>2023年，我在網路上看了些什麼</title>
@@ -33,27 +33,6 @@
         <link>https://f6bfb5.github.io/miyazaki-tsutomu</link>
         <pubDate>2022-12-15T19:48:47.000Z</pubDate>
         
-      </item>
-    
-      <item>
-        <title>搬家到Pop!_OS</title>
-        <link>https://f6bfb5.github.io/moving-to-pop-os</link>
-        <pubDate>2022-11-04T20:43:59.000Z</pubDate>
-        <description>Pop!_OS 是一套由美國電腦硬體製造商 System76 基於 Linux 發行版系統 Ubuntu 再行修改的作業系統，採用修改自 GNOME 的桌面環境，預先安裝好 LibreOffice、FireFox 等應用程式，並有提供如欄式視窗配置、全鍵盤操作、快速啟動器等便捷功能，也提供對 AMD、NVIDIA 等 GPU 的支援，被認為是近期十分適合首次入門 Linux 世界的選擇。</description>
-      </item>
-    
-      <item>
-        <title>消費者是否該關注／理解生產者？</title>
-        <link>https://f6bfb5.github.io/should-consumer-care-about-producer</link>
-        <pubDate>2022-10-29T10:49:24.000Z</pubDate>
-        <description>換句話說，我如果就算他媽的能和善一點的話也不會死掉。</description>
-      </item>
-    
-      <item>
-        <title>我的YouTube清單</title>
-        <link>https://f6bfb5.github.io/my-recommended-youtube-channels-list</link>
-        <pubDate>2022-10-11T23:29:45.000Z</pubDate>
-        <description>literally 清單</description>
       </item>
     
       <item>
@@ -95,13 +74,6 @@
         <title>AutoHotKey筆記</title>
         <link>https://f6bfb5.github.io/autohotkey-note</link>
         <pubDate>2022-06-11T23:36:19.000Z</pubDate>
-        
-      </item>
-    
-      <item>
-        <title>ドット絵関連</title>
-        <link>https://f6bfb5.github.io/dot-painting-note</link>
-        <pubDate>2022-06-08T20:55:02.000Z</pubDate>
         
       </item>
     
@@ -337,24 +309,17 @@
       </item>
     
       <item>
-        <title>Toolbox - 趣味網站篇</title>
-        <link>https://f6bfb5.github.io/tool-list-website</link>
+        <title>網際網路的海洋</title>
+        <link>https://f6bfb5.github.io/sea-of-internet</link>
         <pubDate>1969-07-21T02:59:00.000Z</pubDate>
-        <description>已經連工具箱都稱不上了，有趣的網站。</description>
+        
       </item>
     
       <item>
-        <title>Toolbox - 電腦系統篇</title>
-        <link>https://f6bfb5.github.io/tool-list-system</link>
+        <title>Toolbox</title>
+        <link>https://f6bfb5.github.io/tool-list</link>
         <pubDate>1969-07-21T02:58:00.000Z</pubDate>
         <description>各種電腦工具軟體整理。</description>
-      </item>
-    
-      <item>
-        <title>Toolbox - 內容創作篇</title>
-        <link>https://f6bfb5.github.io/tool-list-creativity</link>
-        <pubDate>1969-07-21T02:57:00.000Z</pubDate>
-        <description>各種工具軟體整理。</description>
       </item>
     
       <item>
