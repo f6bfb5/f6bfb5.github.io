@@ -31,6 +31,8 @@ export const randomNav = readable([
   "テニヲハ",
   "閑話休題",
   "空谷足音",
+  "八紘一宇",
+  "不定愁訴",
   // 林纈
   // 翳光
   // Mary Sue
@@ -111,7 +113,7 @@ export const logoLinks = readable([
   "https://www.nicovideo.jp/watch/sm35222783",
   // にじさんじ - Virtual to LIVE [Official Music Video]
   "https://www.nicovideo.jp/watch/sm35598094",
-  // 【 #インターネット女クリスマス 】3Dで歌ってはしゃぐインターネットの女たち【月ノ美兎/名取さな】 
+  // 【 #インターネット女クリスマス 】3Dで歌ってはしゃぐインターネットの女たち【月ノ美兎/名取さな】
   "https://www.youtube.com/watch?v=qVv6vCqciTM",
   // ----
   // ぼくのフレンド

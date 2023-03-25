@@ -18,7 +18,6 @@ tags: Toolbox
 | [Everything](https://www.voidtools.com/downloads/)                                              | 超級快速的檔案搜索工具                                           |
 | [Geek Uninstaller](https://geekuninstaller.com/)                                                | 會將關聯檔案一同刪除的程式反安裝工具，alt: [BCU][]               |
 | [PIME](https://github.com/EasyIME/PIME/releases)                                                | 新酷音輸入法，包含可在 Windows 11 上使用的舊注音輸入法           |
-| [SKK](https://dic.nicovideo.jp/a/skk)、[SKKFEP][]、[CorvusSKK][]                                | 由東北大學的佐藤雅彦開發，原本用於 Emacs 上的日文輸入法。        |
 | [Divvy](https://mizage.com/divvy/)                                                              | 切割視窗位置                                                     |
 | [orchis](http://www.eonet.ne.jp/~gorota/)                                                       | 快速執行程式                                                     |
 | [CLaunch](https://hp.vector.co.jp/authors/VA018351/en/claunch.html)                             | 快速開啟資料夾                                                   |
@@ -41,90 +40,7 @@ tags: Toolbox
 [balenaetcher]: https://www.balena.io/etcher/
 [wox]: http://www.wox.one/
 [bcu]: https://www.bcuninstaller.com/
-[skkfep]: http://coexe.web.fc2.com/programs.html
-[corvusskk]: https://github.com/nathancorvussolis/corvusskk
 [windirstat]: https://windirstat.net/
-
-### SKK
-
-不同於過往由輸入法解析文法，SKK 是交由使用者透過首字大寫與空白鍵，去主動提示需要轉換的語句，例如「今日も事件だダイナマイト刑事」，SKK 的輸入會變成：`Kyou moJiken daqdainamaitoDeka`，這樣的好處是能精確指定想要轉換的詞句（當然，仍不保證能有正確的詞彙，例如[ニコニコ百科上的介紹文](https://dic.nicovideo.jp/a/skk)就能從留言看到過去版本也有錯字），不必每次輸入完畢後，不論要轉換與否都得再按下 Enter 鍵，能大幅提高輸入的速度。
-
-以及 SKK 採用快速鍵切換輸入模式：
-
-```
-   ------ l ------> [ASCII] <----- l ------
-  |                  ^   |                 |
-  |                  l <C-j>               |
-  |       <--<C-q>-- |   v   --q-->        |
-  [半形片假名]      [平假名] <--q-- [片假名]
-  |       --<C-q>--> |   ^  <--<C-j>--     |
-  |       --<C-j>--> L <C-j>               |
-  |                  v   |                 |
-   ------ L -----> [全形英文] <---- L -----
-```
-
-相較於原本日文 IME 需要使用 `F7` 至 `F10` 等功能鍵，也省下了相當程度的輸入時移動。並且除了由有志人士提供的轉換詞彙庫（可以透過以下連結安裝），SKK 也可以隨時加入自訂詞彙供日後使用。
-
-- 設定頁可以從對輸入欄的文字模式點擊右鍵開啟
-- [SKK Openlab - 辞書](http://openlab.ring.gr.jp/skk/dic-ja.html)
-  - [SKK 辞書 - SKK 辞書 Wiki](http://openlab.ring.gr.jp/skk/wiki/wiki.cgi?page=SKK%BC%AD%BD%F1)
-  - [SKK dictionary files gh-pages](https://skk-dev.github.io/dict/)
-- 於「辞書 1」分頁點選「URL 追加」，加入想要的辭典種類網址後，點擊「取込」
-- 匯入完成後，切換至其他輸入法後再切回即會生效
-
-但語言詞彙的變化日新月異，固定的字典檔終究有無法填補的需求，對此 SKK 也能透過串接 Google API，在遇到字典檔裡沒有的詞彙時發送轉換的請求。
-
-- [2020 年版。SKK で Google 日本語入力の辞書を使う - sasasin's blog](https://sasasin.hatenablog.com/entry/2020/06/06/192712)
-- [2021 年初頭に SKK を Windows/Mac で Google 日本語入力からの候補取得といっしょに絵文字まで変換して使うための方法 - あじーん-0.0.2-SNAPSHOT](https://nishikawasasaki.hatenablog.com/entry/2021/01/07/004422)
-  - `pip install google-ime-skk-py`
-  - `google-ime-skk-py`
-
-## OS
-
-- [ReactOS](https://reactos.org/)
-  - open-source Windows environment
-- [ravynOS](https://ravynos.com/)
-  - open-source macOS environment
-- [Pop!\_OS](https://pop.system76.com/)
-- [Q4OS](https://q4os.org/index.html)
-- [lubuntu](https://lubuntu.me/)
-- [Android-x86](https://www.android-x86.org/)
-- [Virtual x86](https://copy.sh/v86/)
-
-### not recognized as internal or external command
-
-- `Win + R` -> `sysdm.cpl`
-- Advanced -> Environment Variables...
-- PATH -> Add Program Path
-  - `%SYSTEMROOT%\System32`
-
-## 建構全平台通用的環境
-
-- [開発環境へのこだわり](https://speakerdeck.com/hsbt/kai-fa-huan-jing-hefalsekodawari)
-- [fish shell](https://fishshell.com/)
-- [Chocolatey Cheat Sheet](https://gist.github.com/yunga/99d04694e2466e017c5502d7c828d4f4)
-- [BusyBox](https://www.busybox.net/)
-- [Coreutils](https://www.gnu.org/software/coreutils/coreutils.html)
-
-| alternative                                                | description                                                           |
-| ---------------------------------------------------------- | --------------------------------------------------------------------- |
-| [fzf](https://github.com/junegunn/fzf)                     | fuzzy finder, interactive filter                                      |
-| [peco](https://github.com/peco/peco)                       | interactive filter                                                    |
-| [zoxide](https://github.com/ajeetdsouza/zoxide)(cd)        | smarter cd command                                                    |
-| [fd](https://github.com/sharkdp/fd)(find)                  | 搜尋檔案                                                              |
-| [ripgrep](https://github.com/BurntSushi/ripgrep)(rg, grep) | search plain-text data sets for lines that match a regular expression |
-| [sd](https://github.com/chmln/sd)(sed)                     | stream editor for filtering and transforming text                     |
-| [bat](https://github.com/sharkdp/bat)(cat)                 | 顯示檔案內容                                                          |
-| [dog](https://github.com/ogham/dog)(dig)                   | domain information groper                                             |
-| [tealdeer](https://github.com/dbrgn/tealdeer)(man)         | an interface to the system reference manuals                          |
-| [ghq](https://github.com/x-motemen/ghq)                    |                                                                       |
-| [gem-src](https://github.com/amatsuda/gem-src)             |                                                                       |
-| [dust](https://github.com/bootandy/dust)(du)               | 顯示當前路徑的資料夾結構與檔案空間使用率                              |
-| [exa](https://github.com/ogham/exa)(ls)                    | 顯示當前路徑下的資料夾與檔案                                          |
-| [duf](https://github.com/muesli/duf)(df)                   | 以圖表方式顯示硬碟使用率                                              |
-| [procs](https://github.com/dalance/procs)(ps)              | 顯示執行中程序的資訊                                                  |
-| [bottom](https://github.com/ClementTsang/bottom)(top)      | 顯示執行中程序的資訊，並且即時更新                                    |
-| [httpie](https://github.com/httpie/httpie)(curl)           |                                                                       |
 
 ## 檔案
 
@@ -156,57 +72,6 @@ tags: Toolbox
 | [kakorokuRecorder](https://jp.videoproc.com/record/kakorokurecorder-download-install.htm)                              |      |
 | [ニコ生の録画方法 まとめ](https://ch.nicovideo.jp/nico-lab/blomaga/ar8759)                                             |      |
 | [FlickrDownloader](https://weils.net/blog/2017/01/10/flickr-downloader-%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BC%89%E5%99%A8/) |      |
-
-## 文件
-
-| 名稱                                                               | 說明                                           |
-| ------------------------------------------------------------------ | ---------------------------------------------- |
-| [Notepad++](https://notepad-plus-plus.org/)                        | 開源的強大文字編輯器                           |
-| [TeraPad](https://tera-net.com/library/tpad.html)                  | 老牌的高效能文字編輯器                         |
-| [HxD](https://mh-nexus.de/en/hxd/)                                 | Freeware Hex Editor and Disk Editor            |
-| [Stirling](https://www.vector.co.jp/soft/win95/util/se079072.html) | Binary Editor                                  |
-| [Text2MindMap](https://tobloef.com/text2mindmap/)                  | 文字版心智圖                                   |
-| [pytesseract](https://pypi.org/project/pytesseract/)               | 辨識圖片文字的 python library                  |
-
-<details>
-  <summary>pytesseract example</summary>
-
-```python
-try:
-  from PIL import Image
-except ImportError:
-  import Image
-import pytesseract
-import os
-
-pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
-image_path = r'path to image file'
-
-f = []
-t = []
-input_dir = r'path to images file'
-
-# print(pytesseract.image_to_string(Image.open(path), lang='jpn'))
-# print(pytesseract.image_to_string(Image.open(path), lang='jpn_vert'))
-
-for root, dirs, filenames in os.walk(input_dir):
-  for filename in filenames:
-    try:
-      print(filename)
-      f.append(filename)
-      img = Image.open(input_dir+ filename)
-      text = pytesseract.image_to_string(img, lang='jpn')
-      t.append(text)
-      print(text)
-      print('-='*20)
-    except:
-      continue
-
-outputfile = open(input_dir + "result.txt", "w")
-for element in t:
-  outputfile.write(element + "\n")
-outputfile.close()
-```
 
 </details>
 
@@ -250,17 +115,6 @@ outputfile.close()
 | [ZELLO](https://zello.com/)                             |      |
 | [PATCHWORK](https://github.com/ssbc/patchwork/releases) |      |
 
-### 網路瀏覽
-
-| 名稱                                                             | 說明                       |
-| ---------------------------------------------------------------- | -------------------------- |
-| [chrlauncher](https://www.henrypp.org/product/chrlauncher)       |                            |
-| ungoogled-chromium                                               |                            |
-| [icecat-win64](https://github.com/muslayev/icecat-win64)         |                            |
-| [PTTStar](https://www.ptt.cc/bbs/EZsoft/M.1546241396.A.D95.html) |                            |
-| [JaneXeno](http://janexeno.client.jp/janexenobeta.htm)           |                            |
-| [commenomi](http://air.fem.jp/commenomi/)                        | 可顯示流動式留言的透明視窗 |
-
 ### chrome 插件
 
 | 名稱                                                                                                                | 說明                                |
@@ -280,19 +134,6 @@ outputfile.close()
 - [Augmented Steam](https://chrome.google.com/webstore/detail/augmented-steam/dnhpnfgdlenaccegplpojghhmaamnnfp)
 - [Keepa - Amazon Price Tracker](https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo)
 - [Add to Buyee](https://chrome.google.com/webstore/detail/add-to-buyee/ocjpgibbldacmpedgjgmcdcikjeopnpb)
-
-### 資安
-
-| 名稱                                                     | 說明                             |
-| -------------------------------------------------------- | -------------------------------- |
-| [Sandboxie](https://github.com/sandboxie-plus/Sandboxie) | 可於沙盒環境下執行程式           |
-| [LessPass](https://www.lesspass.com/#/)                  | 從 Master 密碼產生高強度雜湊密碼 |
-| [Anonymouse.org](http://anonymouse.org/anonwww.html)     | 匿名掛載網頁                     |
-| [aguse.jp](https://www.aguse.jp/)                        | 掃描網址安全性                   |
-| [VirusTotal](https://www.virustotal.com/zh-tw/)          | 掃描網址或檔案安全性             |
-| [Password Security info](https://passwordsecurity.info/) | 檢查密碼是否已遭外洩             |
-| [Have I Been Pwned](https://haveibeenpwned.com/)         | 檢查信箱是否已遭外洩             |
-| [Kiken URL List](http://gunkanmaki.jog.buttobi.net/)     | 危險網址內容解說                 |
 
 ## 遠端協作
 
@@ -333,22 +174,6 @@ AutoZoomMode=Fit
 IniEditor=system
 ```
 
-## 螢幕資料參考
-
-| 名稱                                                                                                     | 說明           |
-| -------------------------------------------------------------------------------------------------------- | -------------- |
-| [PassMark Software - Video Card (GPU) Benchmark Charts](https://www.videocardbenchmark.net/gpu_list.php) | 顯示卡測分網站 |
-| [DisplaySpecifications](https://www.displayspecifications.com/en)                                        | 螢幕測資       |
-| [Input Lag Database](https://displaylag.com/display-database/)                                           | 顯示延遲測資   |
-| [RTINGS.com](https://www.rtings.com/)                                                                    | 電視測資       |
-
-### 螢幕測試工具
-
-| 名稱                                                                 | 說明                                         |
-| -------------------------------------------------------------------- | -------------------------------------------- |
-| [LCD monitor test images](http://www.lagom.nl/lcd-test/)             | 測試對比、銳利度、輝度、灰階等效果的工具網站 |
-| [LCD Delay Checker](http://bygzam.seesaa.net/article/110314791.html) | 螢幕延遲測試                                 |
-
 ## 遊戲輔助工具
 
 | 名稱                                                                                | 說明                       |
@@ -386,48 +211,6 @@ IniEditor=system
 
 ## 影片
 
-### 剪輯
-
-| 名稱                                                                        | 說明                                   |
-| --------------------------------------------------------------------------- | -------------------------------------- |
-| [AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)                       | 日本愛用的免費影片編輯軟體             |
-| [NicoVisualEffects](http://nive.jp/)                                        | 以 AE 的替代品為目標開發的免費 MG 軟體 |
-| [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) | 以顏色校正功能聞名的影片剪輯軟體       |
-| [Shotcut](https://shotcut.org/)                                             | 開源免費跨平台的影片剪輯軟體           |
-| [Avidemux](http://avidemux.sourceforge.net/)                                | 簡易功能的開源影片編輯軟體             |
-| [LosslessCut](https://github.com/mifi/lossless-cut/releases)                | 無失真的影片剪輯軟體                   |
-
-### 學習資料
-
-- [motiontable](http://foxcodex.html.xdomain.jp/)
-- [知識経験ゼロから映像を作るためにした 7 つのこと](https://note.com/lon_comb/n/n853d7a121e8d)
-- [Aviutl Tips - 001 「動画をストップモーションっぽくしよう」](https://qiita.com/Aodaruma/items/11338a2b727649dc192b)
-- [為什麼我的合成看起來不真實](http://evanwen.weebly.com/28858201604063625105303402151225104304753621520358199813049523526.html)
-- [60『静止した時間の中で』メイキング](http://oomugi.hatenablog.com/entry/2020/06/27/222707)
-- [ＣＧ制作演習資料](http://web.wakayama-u.ac.jp/~tokoi/cgpe2020.html)
-- [Hyperlapse：讓你的縮時活起來](https://www.jacksonlin.net/20180118-how-to-shoot-hyperlapse/)
-- [你應該使用動態模糊(Motion Blur)嗎?](https://medium.com/us-motion-translator/%E4%BD%A0%E6%87%89%E8%A9%B2%E4%BD%BF%E7%94%A8%E5%8B%95%E6%85%8B%E6%A8%A1%E7%B3%8A-motion-blur-%E5%97%8E-e0b956a1e7b5)
-- [自我進修 MG 的方法](https://medium.com/small-stuff/mg-note-01-af57a073b79c)
-- [麦 Baku](https://baku89.com/articles)
-- [AviUtl&テクニック - FLAPPER](https://seguimiii.com/category/aviutl-tech)
-
-### 特效
-
-| 名稱                                                  | 說明                                  |
-| ----------------------------------------------------- | ------------------------------------- |
-| [Delir](https://delir.studio/)                        | 開源的影片特效後製軟體                |
-| [NATRON](https://natrongithub.github.io/)             | 注重於 Motion Graphics 的影片特效軟體 |
-| [HitFilm](https://fxhome.com/product/hitfilm-express) |                                       |
-| [Cavalry](https://cavalry.scenegroup.co/)             | 類似 AfterEffects 的 影片特效軟體     |
-| [AnimeEffects](http://animeeffects.org/ja/)           | 可以處理圖片自由變型的後製軟體        |
-
-- [Olive](https://www.olivevideoeditor.org/download.php)
-- [NiVE](http://nive.jp/NiVE2/index.php?NiVE%A4%CB%A4%C4%A4%A4%A4%C6)
-
-#### After Effects
-
-- [KEYboard](https://www.notion.so/KEYboard-0da1a93393b44b96bea79482b98b7786)
-
 ### 輔助
 
 | 名稱                                                                  | 說明                |
@@ -441,45 +224,6 @@ IniEditor=system
 
 - [Revan654/movie-thumbnailer-mtn](https://github.com/Revan654/movie-thumbnailer-mtn)
 - `mtn.exe -c 4 -w 1024 -h 0 -r 0 -s 60 -z -P -f [path-to-font-file] [video-file]`
-
-### 錄影
-
-- [LICEcap](https://www.cockos.com/licecap/)
-- [ScreenToGif](https://www.screentogif.com/)
-
-### 直播
-
-- [OBS Studio](https://obsproject.com/ja)
-- [Wirecast](http://www.telestream.net/wirecast/)
-- [CameraFi Live](https://play.google.com/store/apps/details?id=com.vaultmicro.camerafi.live&hl=zh_TW)
-- [CamTwist](https://camtwiststudio.com/)
-- [AmaRecTV](http://www.amarectv.com/)
-- [實作在家裡自架 IRL 戶外直播伺服器](https://hitorigs.live/irl-server-setting-up/)
-
-## 遊戲製作
-
-- [everestpipkin/tools-list](https://github.com/everestpipkin/tools-list)
-  - [GB Studio](https://www.gbstudio.dev/)
-  - [NoCode で GB ソフトができるソフトウェア『GBStudio』の仕組みを調べてみた](https://qiita.com/Akatsuki_py/items/a5981582d0cf93a577f3)
-- [ジャンル別ゲームの作り方とアルゴリズムまとめ](https://nslab.hatenablog.com/entry/20090627/1246028707)
-  - アクションゲームアルゴリズムマニアックス
-  - パズルゲームアルゴリズムマニアックス
-  - シューティングゲームアルゴリズムマニアックス
-- [2D 当たり判定超入門](http://www.zengeren.com/content/data/05/05_2DCollision.pdf)
-- [衝突判定 2D 編](https://qiita.com/Nekonecode/items/2d26902d5656fd3f1aa5)
-- [ゲームプランナーに役立ちそうな資料まとめ Web 編](https://my-syumi-game.hatenablog.com/entry/2021/08/12/011604)
-- [BYTEPATH #0 - Introduction](https://github.com/adnzzzzZ/blog/issues/30)
-- [心が折れずにゲーム開発を続ける方法](https://docs.google.com/presentation/d/1WYo14faJY9LVSAazTT3_FCoCYv48JODZlZO7rppuZPQ/edit#slide=id.g89fd1a9fd7_2_316)
-- [一般的な RPG の経験値を計算してみる](https://qiita.com/yuji_yasuhara/items/83a67a784d4d6152a2de)
-- [ドット絵のキャラクターを自然に 3D 空間に馴染ませるテクニック](https://qiita.com/flankids/items/3a69bbdc4b52d0a516ef)
-- [マリオカートの ER 図について考える](https://qiita.com/assu_mz/items/9d80320e6f778d83c61f)
-- [Houdini でアニメっぽいシルエット・ディテールを作成する](https://flypot.jp/2019/10/18/houdini-anime-style/)
-- [ShaderGraph](http://r-ngtm.hatenablog.com/archive/category/ShaderGraph)
-
-### Unity
-
-- [Bolt](https://assetstore.unity.com/packages/tools/visual-scripting/bolt-163802)
-- [[Unity]スパイダーバース感!?モーション FPS 制御によるアニメチックな映像表現](https://qiita.com/flankids/items/c36ccdc02031fa304365)
 
 ## 音樂
 
