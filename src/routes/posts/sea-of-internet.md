@@ -10,13 +10,9 @@ tags: Toolbox
 
 - [暇つぶしに最適なリンク集](http://fcrandom.freeoda.com/hima.html)
 - [📒Productivity を上げるために大切な 100 のこと](https://minerva.mamansoft.net/%F0%9F%93%97Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8/%F0%9F%93%92Productivity%E3%82%92%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA100%E3%81%AE%E3%81%93%E3%81%A8)
-- [新冠確診過程應對指南](https://nova-jumbo-a96.notion.site/0701-3c934b7a75a2447d8f8fadb5bde63c42)
-- [新型コロナ後遺症チートシート（対策一覧）](https://longcovid.jp/cheat-sheet.html)
 
 ---
 
-- [e-typing ローマ字タイピング](https://www.e-typing.ne.jp/roma/check/)
-- [ネットワーク対戦タイピング Weather Typing](https://denasu.com/software/weathertyping.html)
 - [Google reCAPTCHA test](https://patrickhlauke.github.io/recaptcha/)
 - [未解決事件・失踪/行方不明事件・印象に残った事件](https://seesaawiki.jp/w/mikaiketsujiken/d/%CC%A4%B2%F2%B7%E8%BB%F6%B7%EF%A1%A6%BC%BA%ED%A9/%B9%D4%CA%FD%C9%D4%CC%C0%BB%F6%B7%EF%A1%A6%B0%F5%BE%DD%A4%CB%BB%C4%A4%C3%A4%BF%BB%F6%B7%EFTOP)
 - [帰らざる２ちゃんねる](http://mewmirror.coresv.com/)
@@ -87,23 +83,6 @@ tags: Toolbox
 - [Simplifier](https://simplifier.neocities.org/)
 - [The Law NEET](https://lawneet.neocities.org/)
 
-### 88x31 button
-
-- [The 88x31 GIF Collection](https://cyber.dabamos.de/88x31/)
-  - [A.N. Lucas's 88x31 button Collection](https://anlucas.neocities.org/88x31Buttons.html)
-  - [Internet Button Archive](https://buttoncollection.neocities.org/)
-  - [capstasher 88x31 button collection](https://capstasher.neocities.org/88x31collection-page1.html)
-  - [Bytemoth's Button Bonanza](https://bytemoth.nfshost.com/88s/)
-  - [88by31](https://88by31.neocities.org/)
-  - [88x31 Buttons](https://yesterweb.org/graphics/buttons.html)
-  - [Who knew 88 and 31 went so well together?](https://44nifty.com/buttons.html)
-  - [plasticdino](https://plasticdino.neocities.org/graphics.html)
-  - [exp.pet](https://exo.pet/)
-  - [(27) HOT PPL IN YOUR AREA !!!!11](https://zanarkand.neocities.org/home.html)
-  - [shishka ✿ buttons](https://shishka.neocities.org/shishka/buttons.html)
-  - [light in the loafers.](https://lightintheloafers.neocities.org/buttons.html)
-- [88x31](https://neonaut.neocities.org/cyber/88x31.html)
-
 ## 學習
 
 | 名稱                                                                                                                          | 內容                                     |
@@ -139,10 +118,8 @@ tags: Toolbox
 - [上手な換気の方法](https://www.daikin.co.jp/air/life/ventilation)
 - [Philosophy Guides - 哲学ガイドブログ](https://www.philosophyguides.org/)
 - [日本図書コードの分類コード(C コード)](https://www.asahi-net.or.jp/~ax2s-kmtn/ref/ccode.html)
-- [東京大学語学愛好会 〜言語逆評定 ①〜](https://twitter.com/ut_glossophilia/status/1111830816772939777)
 - [失敗百選](http://www.sydrose.com/case100/index.html)
 - [天文学辞典](https://astro-dic.jp/)
-- [/ca/CallFriend/jpn](https://media.talkbank.org/ca/CallFriend/jpn/)
 
 ## 社會
 
@@ -227,6 +204,8 @@ tags: Toolbox
 - [日本語の例文](https://j-nihongo.com/)
 - [英語通訳訓練法入門](http://www.someya-net.com/01-Tsuyaku/Unit-00/titlepage.html)
 - [通訳訓練教材データベース](http://www.someya-net.com/02-DataBase/00-Home/DB000-TableOfContents.html)
+- [/ca/CallFriend/jpn](https://media.talkbank.org/ca/CallFriend/jpn/)
+- [東京大学語学愛好会 〜言語逆評定 ①〜](https://twitter.com/ut_glossophilia/status/1111830816772939777)
 
 ## 音樂
 
