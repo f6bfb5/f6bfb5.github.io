@@ -73,8 +73,6 @@ tags: Toolbox
 | [ニコ生の録画方法 まとめ](https://ch.nicovideo.jp/nico-lab/blomaga/ar8759)                                             |      |
 | [FlickrDownloader](https://weils.net/blog/2017/01/10/flickr-downloader-%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BC%89%E5%99%A8/) |      |
 
-</details>
-
 ### 語系切換
 
 | 名稱                                                                 | 說明                         |
