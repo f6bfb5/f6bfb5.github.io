@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-a502344a.js",
+    "file": "start-27128b02.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -38,15 +38,12 @@
       "src/routes/posts/ACG-making-of-linda3.md",
       "src/routes/posts/ACG-note.md",
       "src/routes/posts/ACG-one-way-heroics-all-achievement-note.md",
-      "src/routes/posts/ACG-random-thoughts-about-rockman-x-dive.md",
       "src/routes/posts/ACG-rockman-1-tas-glitch.md",
       "src/routes/posts/ACG-seino-tooru.md",
       "src/routes/posts/ACG-serial-experiments-lain-for-ps.md",
-      "src/routes/posts/ACG-super-manga-book-list.md",
       "src/routes/posts/ACG-the-influences-of-naoko-yamada.md",
       "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md",
       "src/routes/posts/ACG-yume-no-shima-de-aimashou.md",
-      "src/routes/posts/ACG-zero-escape-series-note.md",
       "src/routes/posts/auto-generate-eyecatch-image-for-blog.md",
       "src/routes/posts/autohotkey-note.md",
       "src/routes/posts/blog-with-sapper.md",
@@ -71,14 +68,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-b16210fe.js",
+    "file": "pages/__layout.svelte-95e80c0e.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-08b15620.js",
-      "_store-6ce157dc.js",
+      "_Favicon-0f8e3455.js",
+      "_store-ad3b6131.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -112,14 +109,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-70437db7.js",
+    "file": "pages/__layout-wide.svelte-5aed7cf5.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-08b15620.js",
-      "_store-6ce157dc.js",
+      "_Favicon-0f8e3455.js",
+      "_store-ad3b6131.js",
       "_BorderedText-189d980f.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
@@ -129,7 +126,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-ad269d59.js",
+    "file": "pages/_slug_.svelte-48b534df.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -155,15 +152,12 @@
       "src/routes/posts/ACG-making-of-linda3.md",
       "src/routes/posts/ACG-note.md",
       "src/routes/posts/ACG-one-way-heroics-all-achievement-note.md",
-      "src/routes/posts/ACG-random-thoughts-about-rockman-x-dive.md",
       "src/routes/posts/ACG-rockman-1-tas-glitch.md",
       "src/routes/posts/ACG-seino-tooru.md",
       "src/routes/posts/ACG-serial-experiments-lain-for-ps.md",
-      "src/routes/posts/ACG-super-manga-book-list.md",
       "src/routes/posts/ACG-the-influences-of-naoko-yamada.md",
       "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md",
       "src/routes/posts/ACG-yume-no-shima-de-aimashou.md",
-      "src/routes/posts/ACG-zero-escape-series-note.md",
       "src/routes/posts/auto-generate-eyecatch-image-for-blog.md",
       "src/routes/posts/autohotkey-note.md",
       "src/routes/posts/blog-with-sapper.md",
@@ -187,13 +181,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-0b4bfb00.js",
+    "file": "pages/about.svelte-b9e87cb0.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-6ce157dc.js",
+      "_store-ad3b6131.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -213,13 +207,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-efafe9ca.js",
+    "file": "pages/index@wide.svelte-bd501e0d.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-6ce157dc.js",
+      "_store-ad3b6131.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -320,7 +314,7 @@
     ]
   },
   "src/routes/posts/2023-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2023-what-i-have-read-on-internet.md-e29b2e0b.js",
+    "file": "pages/posts/2023-what-i-have-read-on-internet.md-d7b6c914.js",
     "src": "src/routes/posts/2023-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -471,18 +465,6 @@
       "assets/pages/posts/ACG-one-way-heroics-all-achievement-note.md-47b70306.css"
     ]
   },
-  "src/routes/posts/ACG-random-thoughts-about-rockman-x-dive.md": {
-    "file": "pages/posts/ACG-random-thoughts-about-rockman-x-dive.md-405282b6.js",
-    "src": "src/routes/posts/ACG-random-thoughts-about-rockman-x-dive.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_AutomaticColorText-5561f2f8.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ]
-  },
   "src/routes/posts/ACG-rockman-1-tas-glitch.md": {
     "file": "pages/posts/ACG-rockman-1-tas-glitch.md-81b37a28.js",
     "src": "src/routes/posts/ACG-rockman-1-tas-glitch.md",
@@ -516,20 +498,6 @@
       "_BlinkAnchor-aec4dee8.js"
     ]
   },
-  "src/routes/posts/ACG-super-manga-book-list.md": {
-    "file": "pages/posts/ACG-super-manga-book-list.md-2c7e53ec.js",
-    "src": "src/routes/posts/ACG-super-manga-book-list.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ],
-    "css": [
-      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
-    ]
-  },
   "src/routes/posts/ACG-the-influences-of-naoko-yamada.md": {
     "file": "pages/posts/ACG-the-influences-of-naoko-yamada.md-aacb2658.js",
     "src": "src/routes/posts/ACG-the-influences-of-naoko-yamada.md",
@@ -555,17 +523,6 @@
   "src/routes/posts/ACG-yume-no-shima-de-aimashou.md": {
     "file": "pages/posts/ACG-yume-no-shima-de-aimashou.md-9471222a.js",
     "src": "src/routes/posts/ACG-yume-no-shima-de-aimashou.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ]
-  },
-  "src/routes/posts/ACG-zero-escape-series-note.md": {
-    "file": "pages/posts/ACG-zero-escape-series-note.md-2665d47f.js",
-    "src": "src/routes/posts/ACG-zero-escape-series-note.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -713,7 +670,7 @@
     ]
   },
   "src/routes/posts/sea-of-internet.md": {
-    "file": "pages/posts/sea-of-internet.md-888dfae6.js",
+    "file": "pages/posts/sea-of-internet.md-f03895b4.js",
     "src": "src/routes/posts/sea-of-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -753,7 +710,7 @@
     ]
   },
   "src/routes/posts/template.md": {
-    "file": "pages/posts/template.md-9b8c1dc4.js",
+    "file": "pages/posts/template.md-26a26a6f.js",
     "src": "src/routes/posts/template.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -761,7 +718,6 @@
       "_index-8418cccc.js",
       "__post-d4178251.js",
       "_BalloonQuote2-cd0e9e02.js",
-      "_AutomaticColorText-5561f2f8.js",
       "_BorderedText-189d980f.js",
       "_BlinkAnchor-aec4dee8.js"
     ],
@@ -770,7 +726,7 @@
     ]
   },
   "src/routes/posts/tool-list.md": {
-    "file": "pages/posts/tool-list.md-a854e2f7.js",
+    "file": "pages/posts/tool-list.md-de4b9953.js",
     "src": "src/routes/posts/tool-list.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -847,19 +803,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-08b15620.js": {
-    "file": "chunks/Favicon-08b15620.js",
+  "_Favicon-0f8e3455.js": {
+    "file": "chunks/Favicon-0f8e3455.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-6ce157dc.js",
+      "_store-ad3b6131.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-6ce157dc.js": {
-    "file": "chunks/store-6ce157dc.js",
+  "_store-ad3b6131.js": {
+    "file": "chunks/store-ad3b6131.js",
     "imports": [
       "_index-17c965c3.js"
     ]
@@ -900,12 +856,6 @@
     ],
     "css": [
       "assets/_post-4f2ae730.css"
-    ]
-  },
-  "_AutomaticColorText-5561f2f8.js": {
-    "file": "chunks/AutomaticColorText-5561f2f8.js",
-    "imports": [
-      "_index-8418cccc.js"
     ]
   },
   "_BalloonQuote2-cd0e9e02.js": {
