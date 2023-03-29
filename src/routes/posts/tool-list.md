@@ -66,7 +66,6 @@ tags: Toolbox
 | ---------------------------------------------------------------------------------------------------------------------- | ---- |
 | [JDownloader](http://jdownloader.org/)                                                                                 |      |
 | [Tranmission QT](https://transmissionbt.com/download/)                                                                 |      |
-| [Youtube-dl](https://mrs0m30n3.github.io/youtube-dl-gui/)                                                              |      |
 | [動画ゲッター](https://www.douga-getter.com/)                                                                          |      |
 | [TwitchLeecher](https://github.com/Franiac/TwitchLeecher/releases)                                                     |      |
 | [kakorokuRecorder](https://jp.videoproc.com/record/kakorokurecorder-download-install.htm)                              |      |
