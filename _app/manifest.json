@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-27128b02.js",
+    "file": "start-923444f8.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -16,7 +16,6 @@
       "src/routes/__layout-wide.svelte",
       "src/routes/[slug].svelte",
       "src/routes/about.svelte",
-      "src/routes/hispeed.svelte",
       "src/routes/index@wide.svelte",
       "src/routes/mementomori@full.svelte",
       "src/routes/palimpsest@full.svelte",
@@ -45,7 +44,6 @@
       "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md",
       "src/routes/posts/ACG-yume-no-shima-de-aimashou.md",
       "src/routes/posts/auto-generate-eyecatch-image-for-blog.md",
-      "src/routes/posts/autohotkey-note.md",
       "src/routes/posts/blog-with-sapper.md",
       "src/routes/posts/blog-with-sveltekit.md",
       "src/routes/posts/capitalist-realism-mark-fisher.md",
@@ -54,14 +52,11 @@
       "src/routes/posts/login-with-discord.md",
       "src/routes/posts/miyazaki-tsutomu.md",
       "src/routes/posts/mpv.md",
-      "src/routes/posts/operating-with-keyboard.md",
       "src/routes/posts/our-internet-history.md",
       "src/routes/posts/sea-of-internet.md",
-      "src/routes/posts/search-engine-operators.md",
       "src/routes/posts/sticker-generator.md",
       "src/routes/posts/template.md",
       "src/routes/posts/tool-list.md",
-      "src/routes/posts/use-foobar2k-to-listen-to-podcast.md",
       "src/routes/posts/use-google-spreadsheet-as-database.md",
       "src/routes/posts/why-is-life-so-boring.md",
       "src/routes/reminiscence.svelte"
@@ -126,7 +121,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-48b534df.js",
+    "file": "pages/_slug_.svelte-243ee753.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -159,7 +154,6 @@
       "src/routes/posts/ACG-why-you-should-not-use-interpolation-on-anime.md",
       "src/routes/posts/ACG-yume-no-shima-de-aimashou.md",
       "src/routes/posts/auto-generate-eyecatch-image-for-blog.md",
-      "src/routes/posts/autohotkey-note.md",
       "src/routes/posts/blog-with-sapper.md",
       "src/routes/posts/blog-with-sveltekit.md",
       "src/routes/posts/capitalist-realism-mark-fisher.md",
@@ -168,14 +162,11 @@
       "src/routes/posts/login-with-discord.md",
       "src/routes/posts/miyazaki-tsutomu.md",
       "src/routes/posts/mpv.md",
-      "src/routes/posts/operating-with-keyboard.md",
       "src/routes/posts/our-internet-history.md",
       "src/routes/posts/sea-of-internet.md",
-      "src/routes/posts/search-engine-operators.md",
       "src/routes/posts/sticker-generator.md",
       "src/routes/posts/template.md",
       "src/routes/posts/tool-list.md",
-      "src/routes/posts/use-foobar2k-to-listen-to-podcast.md",
       "src/routes/posts/use-google-spreadsheet-as-database.md",
       "src/routes/posts/why-is-life-so-boring.md"
     ]
@@ -192,18 +183,6 @@
     ],
     "css": [
       "assets/pages/about.svelte-09c77ecd.css"
-    ]
-  },
-  "src/routes/hispeed.svelte": {
-    "file": "pages/hispeed.svelte-e8e8425f.js",
-    "src": "src/routes/hispeed.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js"
-    ],
-    "css": [
-      "assets/pages/hispeed.svelte-db14fc8c.css"
     ]
   },
   "src/routes/index@wide.svelte": {
@@ -314,7 +293,7 @@
     ]
   },
   "src/routes/posts/2023-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2023-what-i-have-read-on-internet.md-d7b6c914.js",
+    "file": "pages/posts/2023-what-i-have-read-on-internet.md-b69b86cb.js",
     "src": "src/routes/posts/2023-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -542,17 +521,6 @@
       "_BlinkAnchor-aec4dee8.js"
     ]
   },
-  "src/routes/posts/autohotkey-note.md": {
-    "file": "pages/posts/autohotkey-note.md-34730977.js",
-    "src": "src/routes/posts/autohotkey-note.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ]
-  },
   "src/routes/posts/blog-with-sapper.md": {
     "file": "pages/posts/blog-with-sapper.md-89497cf0.js",
     "src": "src/routes/posts/blog-with-sapper.md",
@@ -644,17 +612,6 @@
       "_BlinkAnchor-aec4dee8.js"
     ]
   },
-  "src/routes/posts/operating-with-keyboard.md": {
-    "file": "pages/posts/operating-with-keyboard.md-7dbeb12f.js",
-    "src": "src/routes/posts/operating-with-keyboard.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ]
-  },
   "src/routes/posts/our-internet-history.md": {
     "file": "pages/posts/our-internet-history.md-dfb3dca4.js",
     "src": "src/routes/posts/our-internet-history.md",
@@ -680,18 +637,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list.md-f769af6a.css"
-    ]
-  },
-  "src/routes/posts/search-engine-operators.md": {
-    "file": "pages/posts/search-engine-operators.md-304ca481.js",
-    "src": "src/routes/posts/search-engine-operators.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
+      "assets/pages/posts/sea-of-internet.md-e59cb9e5.css"
     ]
   },
   "src/routes/posts/sticker-generator.md": {
@@ -726,7 +672,7 @@
     ]
   },
   "src/routes/posts/tool-list.md": {
-    "file": "pages/posts/tool-list.md-de4b9953.js",
+    "file": "pages/posts/tool-list.md-0cebb51c.js",
     "src": "src/routes/posts/tool-list.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -736,18 +682,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list.md-f769af6a.css"
-    ]
-  },
-  "src/routes/posts/use-foobar2k-to-listen-to-podcast.md": {
-    "file": "pages/posts/use-foobar2k-to-listen-to-podcast.md-558ec5c8.js",
-    "src": "src/routes/posts/use-foobar2k-to-listen-to-podcast.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
+      "assets/pages/posts/sea-of-internet.md-e59cb9e5.css"
     ]
   },
   "src/routes/posts/use-google-spreadsheet-as-database.md": {
