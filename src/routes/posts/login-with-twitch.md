@@ -6,12 +6,59 @@ tags: F2E
 
 ## 1. 於 Twitch developers console 登錄應用
 
-[Twitch Developers](https://dev.twitch.tv/console/apps)
+- [Twitch Developers](https://dev.twitch.tv/console/apps)
+- Client ID 之後會用到
 
-## 2.
+## 2. 進行認證取得 access token
 
-- [Authentication | Twitch Developers](https://dev.twitch.tv/docs/authentication/#user-access-tokens)
-- [Twitch Access Token Scopes | Twitch Developers](https://dev.twitch.tv/docs/authentication/scopes/#twitch-api-scopes)
+- Twitch 分有兩種 access token
+  - User access tokens
+    - 用於需要使用者授權才能存取的資源
+    - 例如取得聊天室使用者清單、使用者的信箱
+  - App access tokens
+    - 用於不需要使用者授權就能取得的資源
+    - 例如取得使用者的影片一覽
+- 有五種授權認證方式可使用
+  - 詳細可參照 [Authentication | Twitch Developers](https://dev.twitch.tv/docs/authentication/#user-access-tokens)
+- 使用驗證網址取得 access token
+  - `https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=`[CLIENT ID]`&redirect_uri=`[REDIRECT URL]`&scope=`[SCOPE]
+  - Client ID：於第一步取得
+  - Redirect URL：重導向網址
+    - 本文範例以本文作為連結
+  - Scope：要取得的授權內容
+    - [Twitch Access Token Scopes | Twitch Developers](https://dev.twitch.tv/docs/authentication/scopes/#twitch-api-scopes)
+
+## 3. 使用 access token 取得使用者資料
+
+- 重導向後會取得 access token
+- 使用 access token 即可取得使用者資料
+  - [Get Users | Twitch Developers](https://dev.twitch.tv/docs/api/reference/#get-users)
+  - ```javascript
+    const userApiUrl = "https://api.twitch.tv/helix/users";
+    const resultData = fetch(userApiUrl, {
+      method: "GET",
+      headers: {
+        // 從網址取得重導向回傳的 access token
+        Authorization: "Bearer " + urlParams.get("#access_token"),
+        "Client-Id": clientID,
+      },
+    })
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (r) {
+        if (r != undefined) {
+          document.getElementById("js-twitch-card").style.display = "block";
+          // 資料會位於回傳的 data 屬性裡
+          document.getElementById(
+            "js-twitch-card--image"
+          ).src = `${r.data[0].profile_image_url}`;
+          document.getElementById(
+            "js-twitch-card--username"
+          ).innerText = `${r.data[0].login}(${r.data[0].display_name})`;
+        }
+      });
+    ```
 - [Reference | Twitch Developers](https://dev.twitch.tv/docs/api/reference/)
 
 ## 範例
