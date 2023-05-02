@@ -81,7 +81,7 @@ em {
   text-emphasis: "・" var(--text-color);
 }
 
-code {
+pre code {
   font-family: consolas, menlo, inconsolata, -apple-system, BlinkMacSystemFont,
     ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo,
     ＭＳ\Ｐゴシック, MS PGothic, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,
