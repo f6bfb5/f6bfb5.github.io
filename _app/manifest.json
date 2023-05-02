@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-fb589e06.js",
+    "file": "start-9c2b07d2.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -121,7 +121,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-b59042cf.js",
+    "file": "pages/_slug_.svelte-8b53a239.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -293,7 +293,7 @@
     ]
   },
   "src/routes/posts/2023-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2023-what-i-have-read-on-internet.md-ba0f0c68.js",
+    "file": "pages/posts/2023-what-i-have-read-on-internet.md-7b16b183.js",
     "src": "src/routes/posts/2023-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
