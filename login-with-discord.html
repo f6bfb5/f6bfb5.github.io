@@ -32,7 +32,7 @@
     <meta name="twitter:data1" value="Jan 14, 2021" data-svelte="svelte-1xtzxhc">
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-193c0755.css">
 	<link rel="stylesheet" href="/_app/assets/Favicon-3192f126.css">
-	<link rel="modulepreload" href="/_app/start-9c2b07d2.js">
+	<link rel="modulepreload" href="/_app/start-1b6bd52b.js">
 	<link rel="modulepreload" href="/_app/chunks/index-8418cccc.js">
 	<link rel="modulepreload" href="/_app/chunks/index-17c965c3.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
@@ -40,7 +40,7 @@
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-95e80c0e.js">
 	<link rel="modulepreload" href="/_app/chunks/Favicon-0f8e3455.js">
 	<link rel="modulepreload" href="/_app/chunks/store-ad3b6131.js">
-	<link rel="modulepreload" href="/_app/pages/_slug_.svelte-8b53a239.js">
+	<link rel="modulepreload" href="/_app/pages/_slug_.svelte-3fe877fb.js">
   </head>
   <body>
     <!-- The application will be rendered inside this element,
@@ -71,7 +71,7 @@
   <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
   </a>
 </nav>
-      <a href="https://anond.hatelabo.jp/20220925180359" target="_blank" rel="noreferrer noopener" class="svelte-145ut21"><img src="https://i.imgur.com/D0PAWCi.gif" alt="logo" class="svelte-145ut21">
+      <a href="https://youtu.be/LXCrwoQzrwI" target="_blank" rel="noreferrer noopener" class="svelte-145ut21"><img src="https://i.imgur.com/D0PAWCi.gif" alt="logo" class="svelte-145ut21">
 </a></div>
     </div>
 </header>
@@ -97,15 +97,16 @@
   <p class="meta svelte-1y1bvug"><span class="date svelte-1y1bvug">Jan 14, 2021</span>
     <div class="tags svelte-1y1bvug"><span class="tag svelte-1y1bvug">F2E</span></div></p></header>
 <div class="post--container svelte-1y1bvug"><article class="post--content svelte-1y1bvug"><ul><li><a href="https://qiita.com/masayoshi4649/items/46fdb744cb8255f5eb98" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://qiita.com/masayoshi4649/items/46fdb744cb8255f5eb98" alt="「Discord の ID でログイン」を実装する(Oauth2) - Qiita"><span>「Discord の ID でログイン」を実装する(Oauth2) - Qiita</span></a></li></ul>
-<h2 id="js-id-1-於-discord-developer-portal-登錄-application">1. 於 Discord Developer Portal 登錄 Application</h2>
+<h2 id="js-id-1-於-discord-developer-portal-登錄應用">1. 於 Discord Developer Portal 登錄應用</h2>
 <h3>a. 取得 「Client ID」和「Client Secert」</h3>
 <ol><li>登入 <a href="https://discord.com/developers/applications" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://discord.com/developers/applications" alt="Discord Developer Portal"><span>Discord Developer Portal</span></a></li>
 <li>點擊右上角的「New Application」</li>
-<li>取名，本文範例取為 <code>OAuth Vertify</code>，之後點擊「Create」<ul><li>此名稱會顯示於授權頁面上</li></ul></li>
+<li>取名，本文範例取為 <code>OAuth Verify</code>，之後點擊「Create」<ul><li>此名稱會顯示於授權頁面上</li></ul></li>
 <li>資訊頁右方的 <code>Client ID</code> 和 <code>Client Secert</code> 後面也會用到</li></ol>
 <h3>b. 建立 OAuth 用的網址</h3>
 <ol><li>點擊左側的「OAuth2」分頁</li>
-<li>點擊右側的「Add Redirect」，輸入用到驗證登入的網址<ul><li>例如本文最下方有附上實作範例，輸入網址就是本文連結：</li>
+<li>點擊右側的「Add Redirect」，輸入驗證完後重導向的網址<ul><li>也就是要用於驗證登入的網址</li>
+<li>例如本文最下方的實作範例，網址就是本文連結：</li>
 <li><code>https://f6bfb5.github.io/login-with-discord</code></li></ul></li>
 <li>勾選下方「SCOPE」（索取的資訊欄位）裡的<ul><li>「identify」（Discord 的 ID）</li>
 <li>「email」</li></ul></li>
@@ -174,7 +175,7 @@
 <span id="js-discord-status"></span>
 <div class="discord-card" id="js-discord-card" style="display: none"><img alt="profile" class="discord-card--image svelte-9ys6tj" id="js-discord-card--image">
   <div class="discord-card--username" id="js-discord-card--username"></div></div>
-<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-1-於-discord-developer-portal-登錄-application').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">1. 於 Discord Developer Portal 登錄 Application</a></li><li><a href="#" onclick="document.querySelector('#js-id-2-從認證連結取得code').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">2. 從認證連結取得「code」</a></li><li><a href="#" onclick="document.querySelector('#js-id-3-使用code取得token').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">3. 使用「code」取得「token」</a></li><li><a href="#" onclick="document.querySelector('#js-id-4-使用token取得使用者資料').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">4. 使用「token」取得使用者資料</a></li><li><a href="#" onclick="document.querySelector('#js-id-5-使用-refresh-token-重新取得-access-token').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">5. 使用 refresh token 重新取得 access token</a></li><li><a href="#" onclick="document.querySelector('#js-id-範例').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">範例</a></li></ul></div>
+<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-1-於-discord-developer-portal-登錄應用').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">1. 於 Discord Developer Portal 登錄應用</a></li><li><a href="#" onclick="document.querySelector('#js-id-2-從認證連結取得code').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">2. 從認證連結取得「code」</a></li><li><a href="#" onclick="document.querySelector('#js-id-3-使用code取得token').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">3. 使用「code」取得「token」</a></li><li><a href="#" onclick="document.querySelector('#js-id-4-使用token取得使用者資料').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">4. 使用「token」取得使用者資料</a></li><li><a href="#" onclick="document.querySelector('#js-id-5-使用-refresh-token-重新取得-access-token').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">5. 使用 refresh token 重新取得 access token</a></li><li><a href="#" onclick="document.querySelector('#js-id-範例').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">範例</a></li></ul></div>
     <span class="blink svelte-1kip24n">_</span></article>
   
 
@@ -191,10 +192,10 @@
 </div>
 
 
-		<script type="module" data-hydrate="114yvk0">
-		import { start } from "/_app/start-9c2b07d2.js";
+		<script type="module" data-hydrate="1ka8bxm">
+		import { start } from "/_app/start-1b6bd52b.js";
 		start({
-			target: document.querySelector('[data-hydrate="114yvk0"]').parentNode,
+			target: document.querySelector('[data-hydrate="1ka8bxm"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: false,
@@ -205,7 +206,7 @@
 				error: null,
 				nodes: [
 					import("/_app/pages/__layout.svelte-95e80c0e.js"),
-						import("/_app/pages/_slug_.svelte-8b53a239.js")
+						import("/_app/pages/_slug_.svelte-3fe877fb.js")
 				],
 				params: {slug:"login-with-discord"},
 				routeId: "[slug]"

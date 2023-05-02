@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-9c2b07d2.js",
+    "file": "start-1b6bd52b.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -50,6 +50,7 @@
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
       "src/routes/posts/login-with-discord.md",
+      "src/routes/posts/login-with-twitch.md",
       "src/routes/posts/miyazaki-tsutomu.md",
       "src/routes/posts/mpv.md",
       "src/routes/posts/our-internet-history.md",
@@ -121,7 +122,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-8b53a239.js",
+    "file": "pages/_slug_.svelte-3fe877fb.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -160,6 +161,7 @@
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
       "src/routes/posts/login-with-discord.md",
+      "src/routes/posts/login-with-twitch.md",
       "src/routes/posts/miyazaki-tsutomu.md",
       "src/routes/posts/mpv.md",
       "src/routes/posts/our-internet-history.md",
@@ -577,7 +579,7 @@
     ]
   },
   "src/routes/posts/login-with-discord.md": {
-    "file": "pages/posts/login-with-discord.md-0e2e77da.js",
+    "file": "pages/posts/login-with-discord.md-239285f1.js",
     "src": "src/routes/posts/login-with-discord.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -588,6 +590,20 @@
     ],
     "css": [
       "assets/pages/posts/login-with-discord.md-f6cfa176.css"
+    ]
+  },
+  "src/routes/posts/login-with-twitch.md": {
+    "file": "pages/posts/login-with-twitch.md-0acaff2e.js",
+    "src": "src/routes/posts/login-with-twitch.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8418cccc.js",
+      "__post-d4178251.js",
+      "_BlinkAnchor-aec4dee8.js"
+    ],
+    "css": [
+      "assets/pages/posts/login-with-twitch.md-46933fee.css"
     ]
   },
   "src/routes/posts/miyazaki-tsutomu.md": {
