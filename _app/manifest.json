@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-1b6bd52b.js",
+    "file": "start-505f57a6.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -122,7 +122,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-3fe877fb.js",
+    "file": "pages/_slug_.svelte-cc0bafde.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -593,7 +593,7 @@
     ]
   },
   "src/routes/posts/login-with-twitch.md": {
-    "file": "pages/posts/login-with-twitch.md-0acaff2e.js",
+    "file": "pages/posts/login-with-twitch.md-35d7fbfd.js",
     "src": "src/routes/posts/login-with-twitch.md",
     "isEntry": true,
     "isDynamicEntry": true,
