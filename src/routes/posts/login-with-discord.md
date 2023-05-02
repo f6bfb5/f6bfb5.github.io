@@ -6,21 +6,22 @@ tags: F2E
 
 - [「Discord の ID でログイン」を実装する(Oauth2) - Qiita](https://qiita.com/masayoshi4649/items/46fdb744cb8255f5eb98)
 
-## 1. 於 Discord Developer Portal 登錄 Application
+## 1. 於 Discord Developer Portal 登錄應用
 
 ### a. 取得 「Client ID」和「Client Secert」
 
 1. 登入 [Discord Developer Portal](https://discord.com/developers/applications)
 2. 點擊右上角的「New Application」
-3. 取名，本文範例取為 `OAuth Vertify`，之後點擊「Create」
+3. 取名，本文範例取為 `OAuth Verify`，之後點擊「Create」
    - 此名稱會顯示於授權頁面上
 4. 資訊頁右方的 `Client ID` 和 `Client Secert` 後面也會用到
 
 ### b. 建立 OAuth 用的網址
 
 1. 點擊左側的「OAuth2」分頁
-2. 點擊右側的「Add Redirect」，輸入用到驗證登入的網址
-   - 例如本文最下方有附上實作範例，輸入網址就是本文連結：
+2. 點擊右側的「Add Redirect」，輸入驗證完後重導向的網址
+   - 也就是要用於驗證登入的網址
+   - 例如本文最下方的實作範例，網址就是本文連結：
    - `https://f6bfb5.github.io/login-with-discord`
 3. 勾選下方「SCOPE」（索取的資訊欄位）裡的
    - 「identify」（Discord 的 ID）
@@ -145,7 +146,11 @@ const redirectUri = "https://f6bfb5.github.io/login-with-discord";
 const scope = "identify email"
 
 function handleClick() {
-   document.location.href = `https://discord.com/api/oauth2/authorize?client_id=${clientID}&redirect_uri=${encodeURIComponent(redirectUri)}&response_type=code&scope=${encodeURIComponent(scope)}`;
+   document.location.href = `https://discord.com/api/oauth2/authorize
+?client_id=${clientID}
+&redirect_uri=${encodeURIComponent(redirectUri)}
+&response_type=code
+&scope=${encodeURIComponent(scope)}`;
 }
 
    onMount(() => {
