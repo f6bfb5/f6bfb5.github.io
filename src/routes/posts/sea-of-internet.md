@@ -13,7 +13,6 @@ tags: Toolbox
 
 ---
 
-- [Google reCAPTCHA test](https://patrickhlauke.github.io/recaptcha/)
 - [未解決事件・失踪/行方不明事件・印象に残った事件](https://seesaawiki.jp/w/mikaiketsujiken/d/%CC%A4%B2%F2%B7%E8%BB%F6%B7%EF%A1%A6%BC%BA%ED%A9/%B9%D4%CA%FD%C9%D4%CC%C0%BB%F6%B7%EF%A1%A6%B0%F5%BE%DD%A4%CB%BB%C4%A4%C3%A4%BF%BB%F6%B7%EFTOP)
 - [帰らざる２ちゃんねる](http://mewmirror.coresv.com/)
 - [MOTHER2 『はえみつ』なしゲップー学論文](https://note.com/shel4869/n/n1e9779e3c38f)
@@ -30,9 +29,6 @@ tags: Toolbox
 ---
 
 - [Everything Rumia Knows](https://namelessrumia.heliohost.org/w/doku.php)
-
----
-
 - [○ で終わる言葉](https://cotobasearch.com/search/r2)
 - [3DS ブラウザ用コンテンツ](http://www5b.biglobe.ne.jp/~clap/3ds/)
 - [CodeCaptcha.io](https://www.codecaptcha.io/)

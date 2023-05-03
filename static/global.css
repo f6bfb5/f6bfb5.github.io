@@ -133,6 +133,9 @@ ul {
   -webkit-padding-end: 5%;
   margin: 0;
 }
+ul ul, ol ol, ul ol, ol ul {
+  padding-left: 1rem;
+}
 
 ul {
   padding-top: 0.25em;
@@ -175,10 +178,10 @@ ol {
   list-style: none;
   counter-reset: item;
 }
-ol li {
+ol > li {
   counter-increment: item;
 }
-ol li:before {
+ol > li:before {
   position: absolute;
   right: 100%;
   width: fit-content;
