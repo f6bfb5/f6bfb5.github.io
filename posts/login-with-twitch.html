@@ -24,7 +24,7 @@
 	<link rel="stylesheet" href="/_app/assets/pages/posts/login-with-twitch.md-46933fee.css">
 	<link rel="stylesheet" href="/_app/assets/_post-4f2ae730.css">
 	<link rel="stylesheet" href="/_app/assets/BlinkAnchor-39834c8c.css">
-	<link rel="modulepreload" href="/_app/start-505f57a6.js">
+	<link rel="modulepreload" href="/_app/start-da3c7813.js">
 	<link rel="modulepreload" href="/_app/chunks/index-8418cccc.js">
 	<link rel="modulepreload" href="/_app/chunks/index-17c965c3.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
@@ -32,7 +32,7 @@
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-95e80c0e.js">
 	<link rel="modulepreload" href="/_app/chunks/Favicon-0f8e3455.js">
 	<link rel="modulepreload" href="/_app/chunks/store-ad3b6131.js">
-	<link rel="modulepreload" href="/_app/pages/posts/login-with-twitch.md-35d7fbfd.js">
+	<link rel="modulepreload" href="/_app/pages/posts/login-with-twitch.md-9607817f.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-d4178251.js">
 	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-aec4dee8.js">
   </head>
@@ -65,7 +65,7 @@
   <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
   </a>
 </nav>
-      <a href="https://www.nicovideo.jp/watch/sm24304243" target="_blank" rel="noreferrer noopener" class="svelte-145ut21"><img src="https://i.imgur.com/D0PAWCi.gif" alt="logo" class="svelte-145ut21">
+      <a href="https://www.youtube.com/watch?v=AzFJUrKO8U0" target="_blank" rel="noreferrer noopener" class="svelte-145ut21"><img src="https://i.imgur.com/D0PAWCi.gif" alt="logo" class="svelte-145ut21">
 </a></div>
     </div>
 </header>
@@ -88,22 +88,37 @@
   <p class="meta svelte-1y1bvug"><span class="date svelte-1y1bvug">May 2, 2023</span>
     <div class="tags svelte-1y1bvug"><span class="tag svelte-1y1bvug">F2E</span></div></p></header>
 <div class="post--container svelte-1y1bvug"><article class="post--content svelte-1y1bvug"><h2 id="js-id-1-於-twitch-developers-console-登錄應用">1. 於 Twitch developers console 登錄應用</h2>
-<ul><li><a href="https://dev.twitch.tv/console/apps" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://dev.twitch.tv/console/apps" alt="Twitch Developers"><span>Twitch Developers</span></a></li>
-<li>Client ID 之後會用到</li></ul>
+<ol><li>登入 <a href="https://dev.twitch.tv/console/apps" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://dev.twitch.tv/console/apps" alt="Twitch Developers"><span>Twitch Developers</span></a></li>
+<li>「Register Your Application」</li>
+<li>取名，本文範例取為「OAuth Verify」<ul><li>此名稱會顯示於授權頁面上</li>
+<li>以及輸入驗證完後重導向的網址<ul><li>也就是要用於驗證登入的網址</li>
+<li>本文實作範例的網址就是此頁面連結：<ul><li><code>https://f6bfb5.github.io/login-with-twitch</code></li></ul></li></ul></li>
+<li>「Create」</li></ul></li>
+<li>「Manage」取得 <code>Client ID</code>，之後會用到</li></ol>
 <h2 id="js-id-2-進行認證取得-access-token">2. 進行認證取得 access token</h2>
-<ul><li>Twitch 分有兩種 access token<ul><li>User access tokens<ul><li>用於需要使用者授權才能存取的資源</li>
+<ul><li>Twitch API 分有兩種 access token<ul><li>User access tokens<ul><li>用於需要使用者授權才能存取的資源</li>
 <li>例如取得聊天室使用者清單、使用者的信箱</li></ul></li>
 <li>App access tokens<ul><li>用於不需要使用者授權就能取得的資源</li>
-<li>例如取得使用者的影片一覽</li></ul></li></ul></li>
-<li>有五種授權認證方式可使用<ul><li>詳細可參照 <a href="https://dev.twitch.tv/docs/authentication/#user-access-tokens" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://dev.twitch.tv/docs/authentication/#user-access-tokens" alt="Authentication | Twitch Developers"><span>Authentication | Twitch Developers</span></a></li></ul></li>
-<li>使用驗證網址取得 access token<ul><li><code>https://id.twitch.tv/oauth2/authorize?response_type=token&amp;client_id=</code>[CLIENT ID]<code>&amp;redirect_uri=</code>[REDIRECT URL]<code>&amp;scope=</code>[SCOPE]</li>
-<li>Client ID：於第一步取得</li>
-<li>Redirect URL：重導向網址<ul><li>本文範例以本文作為連結</li></ul></li>
-<li>Scope：要取得的授權內容<ul><li><a href="https://dev.twitch.tv/docs/authentication/scopes/#twitch-api-scopes" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://dev.twitch.tv/docs/authentication/scopes/#twitch-api-scopes" alt="Twitch Access Token Scopes | Twitch Developers"><span>Twitch Access Token Scopes | Twitch Developers</span></a></li></ul></li></ul></li></ul>
+<li>例如取得使用者的影片一覽</li></ul></li>
+<li>其中 User access tokens 有兩種授權認證方式可取得<ul><li>Implicit grant flow<ul><li>用於不需要伺服器的應用</li></ul></li>
+<li>Authorization code grant flow<ul><li>用於需要伺服器的應用</li>
+<li>可以儲存 client secret，以及傳送伺服器請求</li></ul></li>
+<li>並各提供兩種認證機制<ul><li>OAuth</li>
+<li>OpenID Connect<ul><li>基於 OAuth 2.0 的簡易認證層</li>
+<li>會另有一個以 JSON Web Token 編碼身份令牌的 ID token</li></ul></li></ul></li></ul></li>
+<li>App access tokens 則是透過 OAuth Client Credentials Flow 取得<ul><li>詳細可參照 <a href="https://dev.twitch.tv/docs/authentication/#user-access-tokens" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://dev.twitch.tv/docs/authentication/#user-access-tokens" alt="Authentication"><span>Authentication</span></a></li></ul></li></ul></li>
+<li>以 OAuth Implicit Code Flow 為範例</li></ul>
+<ol><li>建立 OAuth 用的網址<ul><li><code>https://id.twitch.tv/oauth2/authorize?response_type=token&amp;client_id=</code>[CLIENT ID]<code>&amp;redirect_uri=</code>[REDIRECT URL]<code>&amp;scope=</code>[SCOPE]</li>
+<li>Client ID<ul><li>於第一步取得</li></ul></li>
+<li>Redirect URL<ul><li>重導向網址</li>
+<li>本文範例以此頁面作為連結</li></ul></li>
+<li>Scope<ul><li>要取得的授權內容</li>
+<li><a href="https://dev.twitch.tv/docs/authentication/scopes/#twitch-api-scopes" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://dev.twitch.tv/docs/authentication/scopes/#twitch-api-scopes" alt="Twitch Access Token Scopes"><span>Twitch Access Token Scopes</span></a></li></ul></li></ul></li>
+<li>驗證之後取得 access token<ul><li>Implicit grant flow 會將 access token 回傳到網址上<ul><li>JavaScript 可使用 <code>document.location.hash</code> 取得</li></ul></li></ul></li></ol>
 <h2 id="js-id-3-使用-access-token-取得使用者資料">3. 使用 access token 取得使用者資料</h2>
-<ul><li>重導向後會取得 access token</li>
-<li>使用 access token 即可取得使用者資料<ul><li><a href="https://dev.twitch.tv/docs/api/reference/#get-users" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://dev.twitch.tv/docs/api/reference/#get-users" alt="Get Users | Twitch Developers"><span>Get Users | Twitch Developers</span></a></li>
+<ul><li>使用 access token 即可取得使用者資料<ul><li><a href="https://dev.twitch.tv/docs/api/reference/#get-users" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://dev.twitch.tv/docs/api/reference/#get-users" alt="Get Users"><span>Get Users</span></a></li>
 <li><pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token keyword">const</span> userApiUrl <span class="token operator">=</span> <span class="token string">"https://api.twitch.tv/helix/users"</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> urlParams <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">URLSearchParams</span><span class="token punctuation">(</span>window<span class="token punctuation">.</span>location<span class="token punctuation">.</span>hash<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword">const</span> resultData <span class="token operator">=</span> <span class="token function">fetch</span><span class="token punctuation">(</span>userApiUrl<span class="token punctuation">,</span> <span class="token punctuation">&#123;</span>
   <span class="token literal-property property">method</span><span class="token operator">:</span> <span class="token string">"GET"</span><span class="token punctuation">,</span>
   <span class="token literal-property property">headers</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
@@ -127,7 +142,7 @@
       <span class="token punctuation">)</span><span class="token punctuation">.</span>innerText <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">&#96;</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>r<span class="token punctuation">.</span>data<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>login<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">(</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>r<span class="token punctuation">.</span>data<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>display_name<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">)</span><span class="token template-punctuation string">&#96;</span></span><span class="token punctuation">;</span>
     <span class="token punctuation">&#125;</span>
   <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre></li></ul></li>
-<li><a href="https://dev.twitch.tv/docs/api/reference/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://dev.twitch.tv/docs/api/reference/" alt="Reference | Twitch Developers"><span>Reference | Twitch Developers</span></a></li></ul>
+<li>API 一覽：<a href="https://dev.twitch.tv/docs/api/reference/" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://dev.twitch.tv/docs/api/reference/" alt="Reference"><span>Reference</span></a></li></ul>
 <h2 id="js-id-範例">範例</h2>
 <button id="js-twitch-button">Login with Twitch</button>
 <span id="js-twitch-status"></span>
@@ -150,10 +165,10 @@
 </div>
 
 
-		<script type="module" data-hydrate="bmjlui">
-		import { start } from "/_app/start-505f57a6.js";
+		<script type="module" data-hydrate="6bmej">
+		import { start } from "/_app/start-da3c7813.js";
 		start({
-			target: document.querySelector('[data-hydrate="bmjlui"]').parentNode,
+			target: document.querySelector('[data-hydrate="6bmej"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: false,
@@ -164,7 +179,7 @@
 				error: null,
 				nodes: [
 					import("/_app/pages/__layout.svelte-95e80c0e.js"),
-						import("/_app/pages/posts/login-with-twitch.md-35d7fbfd.js")
+						import("/_app/pages/posts/login-with-twitch.md-9607817f.js")
 				],
 				params: {},
 				routeId: "posts/login-with-twitch"
