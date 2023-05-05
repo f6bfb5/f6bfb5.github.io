@@ -114,15 +114,10 @@ const scope = "";
 // const scope = "user:read:email";
 
 function handleClick() {
-//   document.location.href = `https://id.twitch.tv/oauth2/authorize
-// ?client_id=${clientID}
-// &redirect_uri=${encodeURIComponent(redirectUri)}
-// &response_type=token
-// &scope=${encodeURIComponent(scope)}`;
   document.location.href = `https://id.twitch.tv/oauth2/authorize
 ?client_id=${clientID}
 &redirect_uri=${encodeURIComponent(redirectUri)}
-&response_type=code
+&response_type=token
 &scope=${encodeURIComponent(scope)}`;
 }
 
