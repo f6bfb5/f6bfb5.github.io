@@ -24,7 +24,7 @@
 	<link rel="stylesheet" href="/_app/assets/pages/posts/login-with-discord.md-f6cfa176.css">
 	<link rel="stylesheet" href="/_app/assets/_post-4f2ae730.css">
 	<link rel="stylesheet" href="/_app/assets/BlinkAnchor-39834c8c.css">
-	<link rel="modulepreload" href="/_app/start-da3c7813.js">
+	<link rel="modulepreload" href="/_app/start-78d9c771.js">
 	<link rel="modulepreload" href="/_app/chunks/index-8418cccc.js">
 	<link rel="modulepreload" href="/_app/chunks/index-17c965c3.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
@@ -32,7 +32,7 @@
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-95e80c0e.js">
 	<link rel="modulepreload" href="/_app/chunks/Favicon-0f8e3455.js">
 	<link rel="modulepreload" href="/_app/chunks/store-ad3b6131.js">
-	<link rel="modulepreload" href="/_app/pages/posts/login-with-discord.md-40adb2a9.js">
+	<link rel="modulepreload" href="/_app/pages/posts/login-with-discord.md-b077358c.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-d4178251.js">
 	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-aec4dee8.js">
   </head>
@@ -104,9 +104,9 @@
 <li>「email」</li></ul></li>
 <li>就可於頁面下方取得認證用的連結<ul><li>例：<code>https://discord.com/api/oauth2/authorize?client_id=</code>[CLIENT ID]<code>&amp;redirect_uri=</code>[REDIRECT URL]<code>&amp;response_type=code&amp;scope=</code>[SCOPE]</li></ul></li></ol>
 <h2 id="js-id-2-從認證連結取得code">2. 從認證連結取得「code」</h2>
-<p>使用此認證連結登入，重新導向到結果頁面後，網址上會多出一個回傳的 <code>code</code> 參數</p>
-<h2 id="js-id-3-使用code取得token">3. 使用「code」取得「token」</h2>
-<p>使用這個 <code>code</code> 送出請求，取得 <code>access_token</code>，才能得到存取資料的權限</p>
+<ul><li>使用認證連結登入<ul><li>重導向到結果頁面後，網址上會多出一個回傳的 <code>code</code> 參數</li></ul></li></ul>
+<h2 id="js-id-3-使用code取得access-token">3. 使用「code」取得「access token」</h2>
+<ul><li>使用這個 <code>code</code> 送出請求<ul><li>取得 <code>access_token</code>，才能擁有存取資料的權限</li></ul></li></ul>
 <h3>a. 傳送 POST 請求到 Discord API</h3>
 <pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">curl</span> -X POST
      -H <span class="token string">"Content-Type:application/x-www-form-urlencoded"</span>
@@ -126,7 +126,7 @@
 <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
 <ul><li><code>code</code> 為一次性使用，同一個 <code>code</code> 無法進行第二次存取</li>
 <li><code>access token</code> 的有效期限為 604800 秒＝一個禮拜<ul><li>若有更新需求，須使用回傳內容中的 <code>refresh token</code> 重新送出請求</li></ul></li></ul>
-<h2 id="js-id-4-使用token取得使用者資料">4. 使用「token」取得使用者資料</h2>
+<h2 id="js-id-4-使用access-token取得使用者資料">4. 使用「access token」取得使用者資料</h2>
 <h3>a. 傳送 GET 請求到 Discord API</h3>
 <pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">curl</span> -H <span class="token string">"Authorization: Bearer [ACCESS TOKEN]"</span>
      https://discordapp.com/api/users/@me</code><!-- HTML_TAG_END --></pre>
@@ -143,7 +143,7 @@
    <span class="token property">"locale"</span><span class="token operator">:</span> <span class="token punctuation">[</span>使用語言<span class="token punctuation">]</span><span class="token punctuation">,</span>
    <span class="token property">"mfa_enabled"</span><span class="token operator">:</span> <span class="token boolean">false</span>
 <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
-<ul><li>頭像網址可以使用「<code>https://cdn.discordapp.com/avatars/</code>[Discord ID]<code>/</code>[大頭貼 ID]」取得</li></ul>
+<ul><li>搭配頭像網址取得圖片<ul><li><code>https://cdn.discordapp.com/avatars/</code>[Discord ID]<code>/</code>[大頭貼 ID]</li></ul></li></ul>
 <h2 id="js-id-5-使用-refresh-token-重新取得-access-token">5. 使用 refresh token 重新取得 access token</h2>
 <h3>a. 傳送 POST 請求到 Discord API</h3>
 <pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">curl</span> -X POST
@@ -167,7 +167,7 @@
 <span id="js-discord-status"></span>
 <div class="discord-card" id="js-discord-card" style="display: none"><img alt="profile" class="discord-card--image svelte-9ys6tj" id="js-discord-card--image">
   <div class="discord-card--username" id="js-discord-card--username"></div></div>
-<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-1-於-discord-developer-portal-登錄應用').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">1. 於 Discord Developer Portal 登錄應用</a></li><li><a href="#" onclick="document.querySelector('#js-id-2-從認證連結取得code').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">2. 從認證連結取得「code」</a></li><li><a href="#" onclick="document.querySelector('#js-id-3-使用code取得token').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">3. 使用「code」取得「token」</a></li><li><a href="#" onclick="document.querySelector('#js-id-4-使用token取得使用者資料').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">4. 使用「token」取得使用者資料</a></li><li><a href="#" onclick="document.querySelector('#js-id-5-使用-refresh-token-重新取得-access-token').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">5. 使用 refresh token 重新取得 access token</a></li><li><a href="#" onclick="document.querySelector('#js-id-範例').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">範例</a></li></ul></div>
+<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-1-於-discord-developer-portal-登錄應用').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">1. 於 Discord Developer Portal 登錄應用</a></li><li><a href="#" onclick="document.querySelector('#js-id-2-從認證連結取得code').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">2. 從認證連結取得「code」</a></li><li><a href="#" onclick="document.querySelector('#js-id-3-使用code取得access-token').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">3. 使用「code」取得「access token」</a></li><li><a href="#" onclick="document.querySelector('#js-id-4-使用access-token取得使用者資料').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">4. 使用「access token」取得使用者資料</a></li><li><a href="#" onclick="document.querySelector('#js-id-5-使用-refresh-token-重新取得-access-token').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">5. 使用 refresh token 重新取得 access token</a></li><li><a href="#" onclick="document.querySelector('#js-id-範例').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">範例</a></li></ul></div>
     <span class="blink svelte-1kip24n">_</span></article>
   
 
@@ -184,10 +184,10 @@
 </div>
 
 
-		<script type="module" data-hydrate="jug434">
-		import { start } from "/_app/start-da3c7813.js";
+		<script type="module" data-hydrate="1mehkdi">
+		import { start } from "/_app/start-78d9c771.js";
 		start({
-			target: document.querySelector('[data-hydrate="jug434"]').parentNode,
+			target: document.querySelector('[data-hydrate="1mehkdi"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: false,
@@ -198,7 +198,7 @@
 				error: null,
 				nodes: [
 					import("/_app/pages/__layout.svelte-95e80c0e.js"),
-						import("/_app/pages/posts/login-with-discord.md-40adb2a9.js")
+						import("/_app/pages/posts/login-with-discord.md-b077358c.js")
 				],
 				params: {},
 				routeId: "posts/login-with-discord"
