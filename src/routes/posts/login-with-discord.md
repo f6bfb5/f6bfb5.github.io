@@ -32,11 +32,13 @@ tags: F2E
 
 ## 2. 從認證連結取得「code」
 
-使用此認證連結登入，重新導向到結果頁面後，網址上會多出一個回傳的 `code` 參數
+- 使用認證連結登入
+  - 重導向到結果頁面後，網址上會多出一個回傳的 `code` 參數
 
-## 3. 使用「code」取得「token」
+## 3. 使用「code」取得「access token」
 
-使用這個 `code` 送出請求，取得 `access_token`，才能得到存取資料的權限
+- 使用這個 `code` 送出請求
+  - 取得 `access_token`，才能擁有存取資料的權限
 
 ### a. 傳送 POST 請求到 Discord API
 
@@ -67,7 +69,7 @@ curl -X POST
 - `access token` 的有效期限為 604800 秒＝一個禮拜
   - 若有更新需求，須使用回傳內容中的 `refresh token` 重新送出請求
 
-## 4. 使用「token」取得使用者資料
+## 4. 使用「access token」取得使用者資料
 
 ### a. 傳送 GET 請求到 Discord API
 
@@ -93,7 +95,8 @@ curl -H "Authorization: Bearer [ACCESS TOKEN]"
 }
 ```
 
-- 頭像網址可以使用「`https://cdn.discordapp.com/avatars/`[Discord ID]`/`[大頭貼 ID]」取得
+- 搭配頭像網址取得圖片
+  - `https://cdn.discordapp.com/avatars/`[Discord ID]`/`[大頭貼 ID]
 
 ## 5. 使用 refresh token 重新取得 access token
 

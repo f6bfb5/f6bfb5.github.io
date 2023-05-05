@@ -58,6 +58,7 @@ tags: ACG, Anime
 ## 參考文章
 
 - [【閒聊】影像補幀技術概論](https://forum.gamer.com.tw/Co.php?bsn=60030&sn=1978036)
+  - 但這篇把插值和補幀混為一談了
 - [【作畫】所謂律表的節奏拍數](https://forum.gamer.com.tw/Co.php?bsn=60143&sn=132698)
 - [一拍三](https://baike.baidu.com/item/%E4%B8%80%E6%8B%8D%E4%B8%89)
 - [映画は 24 コマで観よう! トム様に応え、テレビで映画を観るための設定を 4 社に聞く](https://av.watch.impress.co.jp/docs/topic/1164146.html)
