@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-314b449a.js",
+    "file": "start-abc2f6eb.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -121,7 +121,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-ee3d7a10.js",
+    "file": "pages/_slug_.svelte-6c49d0ea.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -262,7 +262,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -276,7 +276,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
@@ -294,7 +294,7 @@
     ]
   },
   "src/routes/posts/2023-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2023-what-i-have-read-on-internet.md-1229bacd.js",
+    "file": "pages/posts/2023-what-i-have-read-on-internet.md-bbd501c8.js",
     "src": "src/routes/posts/2023-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -642,7 +642,7 @@
     ]
   },
   "src/routes/posts/sea-of-internet.md": {
-    "file": "pages/posts/sea-of-internet.md-c0b7bffa.js",
+    "file": "pages/posts/sea-of-internet.md-dbadc4e8.js",
     "src": "src/routes/posts/sea-of-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
