@@ -67,17 +67,6 @@ tags: Toolbox
 - [Motherfucking Website](https://motherfuckingwebsite.com/)
 - [This page is a truly naked, brutalist html quine.](https://secretgeek.github.io/html_wysiwyg/html.html)
 - [DiscMaster](http://discmaster.textfiles.com/)
-- [sketch of three.js](https://ykob.github.io/sketch-threejs/)
-
-### Neocities
-
-- [Saltorn Blog](https://saltorn.neocities.org/)
-- [lilibyte](https://lilibyte.net/)
-- [dimden's hotel](https://dimden.dev/)
-- [Hotel Paintings](https://hotelpaintings.neocities.org/index.html)
-- [Twelve Men](https://twelvemen.neocities.org/)
-- [Simplifier](https://simplifier.neocities.org/)
-- [The Law NEET](https://lawneet.neocities.org/)
 
 ## 學習
 
