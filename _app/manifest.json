@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-25d09479.js",
+    "file": "start-1d4faf3e.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -20,7 +20,6 @@
       "src/routes/mementomori@full.svelte",
       "src/routes/palimpsest@full.svelte",
       "src/routes/pointofnoreturn@full.svelte",
-      "src/routes/posts/11ty-note.md",
       "src/routes/posts/2020-what-i-have-read-on-internet.md",
       "src/routes/posts/2021-what-i-have-read-on-internet.md",
       "src/routes/posts/2022-what-i-have-read-on-internet.md",
@@ -49,6 +48,7 @@
       "src/routes/posts/capitalist-realism-mark-fisher.md",
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
+      "src/routes/posts/just-use-wiki.md",
       "src/routes/posts/login-with-discord.md",
       "src/routes/posts/login-with-twitch.md",
       "src/routes/posts/miyazaki-tsutomu.md",
@@ -121,7 +121,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-655814cf.js",
+    "file": "pages/_slug_.svelte-47a2d062.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -130,7 +130,6 @@
       "_index-8418cccc.js"
     ],
     "dynamicImports": [
-      "src/routes/posts/11ty-note.md",
       "src/routes/posts/2020-what-i-have-read-on-internet.md",
       "src/routes/posts/2021-what-i-have-read-on-internet.md",
       "src/routes/posts/2022-what-i-have-read-on-internet.md",
@@ -159,6 +158,7 @@
       "src/routes/posts/capitalist-realism-mark-fisher.md",
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
+      "src/routes/posts/just-use-wiki.md",
       "src/routes/posts/login-with-discord.md",
       "src/routes/posts/login-with-twitch.md",
       "src/routes/posts/miyazaki-tsutomu.md",
@@ -240,17 +240,6 @@
       "assets/pages/pointofnoreturn@full.svelte-8398ed11.css"
     ]
   },
-  "src/routes/posts/11ty-note.md": {
-    "file": "pages/posts/11ty-note.md-c055830c.js",
-    "src": "src/routes/posts/11ty-note.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-8418cccc.js",
-      "__post-d4178251.js",
-      "_BlinkAnchor-aec4dee8.js"
-    ]
-  },
   "src/routes/posts/2020-what-i-have-read-on-internet.md": {
     "file": "pages/posts/2020-what-i-have-read-on-internet.md-34b27d18.js",
     "src": "src/routes/posts/2020-what-i-have-read-on-internet.md",
@@ -262,7 +251,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -276,7 +265,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
@@ -294,7 +283,7 @@
     ]
   },
   "src/routes/posts/2023-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2023-what-i-have-read-on-internet.md-95f60e81.js",
+    "file": "pages/posts/2023-what-i-have-read-on-internet.md-dee9b4c1.js",
     "src": "src/routes/posts/2023-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -569,6 +558,17 @@
   "src/routes/posts/how-to-check-font-family-name-in-computer.md": {
     "file": "pages/posts/how-to-check-font-family-name-in-computer.md-83691644.js",
     "src": "src/routes/posts/how-to-check-font-family-name-in-computer.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8418cccc.js",
+      "__post-d4178251.js",
+      "_BlinkAnchor-aec4dee8.js"
+    ]
+  },
+  "src/routes/posts/just-use-wiki.md": {
+    "file": "pages/posts/just-use-wiki.md-789fad16.js",
+    "src": "src/routes/posts/just-use-wiki.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
