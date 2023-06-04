@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-c1d230c7.js",
+    "file": "start-846d4d8f.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -121,7 +121,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-18c00937.js",
+    "file": "pages/_slug_.svelte-24cbf29c.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -567,7 +567,7 @@
     ]
   },
   "src/routes/posts/just-use-wiki.md": {
-    "file": "pages/posts/just-use-wiki.md-789fad16.js",
+    "file": "pages/posts/just-use-wiki.md-387ff6e0.js",
     "src": "src/routes/posts/just-use-wiki.md",
     "isEntry": true,
     "isDynamicEntry": true,
