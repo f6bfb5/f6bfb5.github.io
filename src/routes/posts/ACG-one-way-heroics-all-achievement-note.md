@@ -1,7 +1,7 @@
 ---
 title: "《片道勇者》全成就之路"
 date: 2022-08-19T20:00:27.000Z
-summary: ""
+summary: "雖然還是沒拿完全成就。"
 tags: ACG, Game
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "逆襲的夏亞影友會"
 date: 2021-02-11T17:31:55.000Z
-summary: ""
+summary: "《逆襲的夏亞影友會》將以商業出版的形式復刻，售價為不含稅 3000 日圓，會率先於 2022 年 12 月 30、31 日舉辦的 Comiket 101 的「ANIMESTYLE」攤位上販售，並自 2023 年 1 月起在 Amazon 與「ANIMESTYLE ONLINE SHOP」上販賣。"
 tags: ACG, Anime
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "全球最大的頂尖RTA玩家慈善盛會Games Done Quick介紹"
+title: "全球最大RTA盛會Games Done Quick介紹"
 date: 2018-10-28T19:58:53.000Z
 summary: "Games Done Quick 是個在美國半年度舉辦一次的電玩競速慈善馬拉松活動，起先活動主要成員由 Speed Demos Archive 與 Speedruns Live 的社群成員所組成，在 2015 年後則改由 Games Done Quick 公司處理。自 2010 年起舉辦至今，此活動已為許多慈善團體募得資金，目前最常見的兩大組織為預防癌症基金會與無國界醫生。"
 tags: ACG, Game
