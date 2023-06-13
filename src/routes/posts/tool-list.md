@@ -11,14 +11,8 @@ tags: Toolbox
 
 | 名稱                                                                                            | 說明                                                             |
 | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| [Ninite](https://ninite.com/)                                                                   | 一次快速安裝各種軟體                                             |
-| [Rufus](https://rufus.ie/)                                                                      | 簡易建立可開機 USB 裝置，alt: [balenaEtcher][]                   |
-| [Ventoy](https://github.com/ventoy/Ventoy)                                                      | 直接使用映像檔啓動 OS                                            |
 | [Flow Launcher](https://www.flowlauncher.com/)                                                  | 快速執行程式與各種功能的 launcher，alt: [wox][] 似乎已經不再維護 |
-| [Everything](https://www.voidtools.com/downloads/)                                              | 超級快速的檔案搜索工具                                           |
-| [Geek Uninstaller](https://geekuninstaller.com/)                                                | 會將關聯檔案一同刪除的程式反安裝工具，alt: [BCU][]               |
 | [PIME](https://github.com/EasyIME/PIME/releases)                                                | 新酷音輸入法，包含可在 Windows 11 上使用的舊注音輸入法           |
-| [Divvy](https://mizage.com/divvy/)                                                              | 切割視窗位置                                                     |
 | [orchis](http://www.eonet.ne.jp/~gorota/)                                                       | 快速執行程式                                                     |
 | [CLaunch](https://hp.vector.co.jp/authors/VA018351/en/claunch.html)                             | 快速開啟資料夾                                                   |
 | [TreeSize](https://www.jam-software.com/treesize_free/)                                         | 分析硬碟檔案空間佔用分佈，alt: [WinDirStat][]                    |
@@ -33,13 +27,9 @@ tags: Toolbox
 | [ShellExView](https://www.nirsoft.net/utils/shexview.html)                                      | 管理 shell                                                       |
 | [HWMONITOR](https://www.cpuid.com/softwares/hwmonitor.html#version-history)                     | 監測系統狀況                                                     |
 | [Hayabusa](https://itib.hatenablog.com/entry/2021/12/31/222946)                                 | 快速檢測 Windows 事件                                            |
-| CrystalDiskInfo                                                                                 |                                                                  |
-| CrystalDiskMark                                                                                 |                                                                  |
 | [RunCat](https://github.com/Kyome22/RunCat_for_windows)                                         | KAWAII                                                           |
 
-[balenaetcher]: https://www.balena.io/etcher/
 [wox]: http://www.wox.one/
-[bcu]: https://www.bcuninstaller.com/
 [windirstat]: https://windirstat.net/
 
 ## 檔案
@@ -52,13 +42,6 @@ tags: Toolbox
 | [FastCopy](https://fastcopy.jp/en/)                 | 快速複製／備份檔案           |
 
 - [jnzd/vimified-windows-explorer](https://github.com/jnzd/vimified-windows-explorer)
-
-### 解壓縮
-
-| 名稱                                           | 說明                               |
-| ---------------------------------------------- | ---------------------------------- |
-| [7-Zip](https://www.developershome.com/7-zip/) | 萬用壓縮／解壓縮工具               |
-| [Bandizip](https://tw.bandisoft.com/bandizip/) | 可處理檔案名稱編碼問題的解壓縮工具 |
 
 ## 下載
 
@@ -99,18 +82,6 @@ tags: Toolbox
 | [AdapterWatch](https://www.nirsoft.net/utils/awatch.html)                  | 監測網路卡使用狀況                                  |
 | [CurrPorts](https://www.nirsoft.net/utils/cports.html)                     | 監測應用程式使用的網路 port                         |
 | [Termshark](https://termshark.io/)                                         | 命令列版本的 WireShark                              |
-
-### 通訊軟體
-
-| 名稱                                                    | 說明 |
-| ------------------------------------------------------- | ---- |
-| [Discord](https://discordapp.com/)                      |      |
-| [Telegram](https://telegram.org/)                       |      |
-| [Slack](https://slack.com/intl/en-tw/)                  |      |
-| [MAPS.ME](https://maps.me/)                             |      |
-| [BRIDGEFY](https://www.bridgefy.me/)                    |      |
-| [ZELLO](https://zello.com/)                             |      |
-| [PATCHWORK](https://github.com/ssbc/patchwork/releases) |      |
 
 ### chrome 插件
 
