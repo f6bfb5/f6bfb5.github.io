@@ -33,6 +33,7 @@ export const randomNav = readable([
   "空谷足音",
   "八紘一宇",
   "不定愁訴",
+  "万古不易",
   // 林纈
   // 翳光
   // Mary Sue
