@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-be00c05b.js",
+    "file": "start-7ff021d2.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -64,14 +64,14 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-95e80c0e.js",
+    "file": "pages/__layout.svelte-223efaa8.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-0f8e3455.js",
-      "_store-ad3b6131.js",
+      "_Favicon-ed6da138.js",
+      "_store-7d27c326.js",
       "_index-17c965c3.js",
       "_paths-396f020f.js"
     ],
@@ -105,14 +105,14 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-aa318376.js",
+    "file": "pages/__layout-wide.svelte-4491c181.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_Favicon-0f8e3455.js",
-      "_store-ad3b6131.js",
+      "_Favicon-ed6da138.js",
+      "_store-7d27c326.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -121,7 +121,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-f913240f.js",
+    "file": "pages/_slug_.svelte-97323de4.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -173,13 +173,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-b9e87cb0.js",
+    "file": "pages/about.svelte-b424b460.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-ad3b6131.js",
+      "_store-7d27c326.js",
       "_index-17c965c3.js"
     ],
     "css": [
@@ -187,13 +187,13 @@
     ]
   },
   "src/routes/index@wide.svelte": {
-    "file": "pages/index@wide.svelte-bd501e0d.js",
+    "file": "pages/index@wide.svelte-25395c04.js",
     "src": "src/routes/index@wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-8418cccc.js",
-      "_store-ad3b6131.js",
+      "_store-7d27c326.js",
       "_paths-396f020f.js",
       "_index-17c965c3.js"
     ],
@@ -283,7 +283,7 @@
     ]
   },
   "src/routes/posts/2023-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2023-what-i-have-read-on-internet.md-b07f632d.js",
+    "file": "pages/posts/2023-what-i-have-read-on-internet.md-6df70ba7.js",
     "src": "src/routes/posts/2023-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -751,19 +751,19 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_Favicon-0f8e3455.js": {
-    "file": "chunks/Favicon-0f8e3455.js",
+  "_Favicon-ed6da138.js": {
+    "file": "chunks/Favicon-ed6da138.js",
     "imports": [
       "_index-8418cccc.js",
-      "_store-ad3b6131.js",
+      "_store-7d27c326.js",
       "_paths-396f020f.js"
     ],
     "css": [
       "assets/Favicon-3192f126.css"
     ]
   },
-  "_store-ad3b6131.js": {
-    "file": "chunks/store-ad3b6131.js",
+  "_store-7d27c326.js": {
+    "file": "chunks/store-7d27c326.js",
     "imports": [
       "_index-17c965c3.js"
     ]
