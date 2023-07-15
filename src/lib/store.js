@@ -52,7 +52,6 @@ export const randomNav = readable([
   // 帰還不能点
   // ジャメヴ
   // 倒語
-  // https://ja.wikipedia.org/wiki/命数法
 ]);
 
 export const logoLinks = readable([
