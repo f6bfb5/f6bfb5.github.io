@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-01525e9f.js",
+    "file": "start-14674ed0.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -48,6 +48,7 @@
       "src/routes/posts/capitalist-realism-mark-fisher.md",
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
+      "src/routes/posts/how-to-choose-note-taking-tool.md",
       "src/routes/posts/just-use-wiki.md",
       "src/routes/posts/login-with-discord.md",
       "src/routes/posts/login-with-twitch.md",
@@ -105,7 +106,7 @@
     ]
   },
   "src/routes/__layout-wide.svelte": {
-    "file": "pages/__layout-wide.svelte-e60a084c.js",
+    "file": "pages/__layout-wide.svelte-5ffb83f3.js",
     "src": "src/routes/__layout-wide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -121,7 +122,7 @@
     ]
   },
   "src/routes/[slug].svelte": {
-    "file": "pages/_slug_.svelte-90263d32.js",
+    "file": "pages/_slug_.svelte-618c3d6d.js",
     "src": "src/routes/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -158,6 +159,7 @@
       "src/routes/posts/capitalist-realism-mark-fisher.md",
       "src/routes/posts/how-do-you-like-wendesday.md",
       "src/routes/posts/how-to-check-font-family-name-in-computer.md",
+      "src/routes/posts/how-to-choose-note-taking-tool.md",
       "src/routes/posts/just-use-wiki.md",
       "src/routes/posts/login-with-discord.md",
       "src/routes/posts/login-with-twitch.md",
@@ -251,7 +253,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2021-what-i-have-read-on-internet.md": {
@@ -265,7 +267,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/2021-what-i-have-read-on-internet.md-1d98b5fb.css"
+      "assets/pages/posts/2020-what-i-have-read-on-internet.md-05715762.css"
     ]
   },
   "src/routes/posts/2022-what-i-have-read-on-internet.md": {
@@ -283,7 +285,7 @@
     ]
   },
   "src/routes/posts/2023-what-i-have-read-on-internet.md": {
-    "file": "pages/posts/2023-what-i-have-read-on-internet.md-e79fe001.js",
+    "file": "pages/posts/2023-what-i-have-read-on-internet.md-1b6dbbb3.js",
     "src": "src/routes/posts/2023-what-i-have-read-on-internet.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -566,8 +568,22 @@
       "_BlinkAnchor-aec4dee8.js"
     ]
   },
+  "src/routes/posts/how-to-choose-note-taking-tool.md": {
+    "file": "pages/posts/how-to-choose-note-taking-tool.md-f0a8fc28.js",
+    "src": "src/routes/posts/how-to-choose-note-taking-tool.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8418cccc.js",
+      "__post-d4178251.js",
+      "_BlinkAnchor-aec4dee8.js"
+    ],
+    "css": [
+      "assets/pages/posts/how-to-choose-note-taking-tool.md-cf5bd921.css"
+    ]
+  },
   "src/routes/posts/just-use-wiki.md": {
-    "file": "pages/posts/just-use-wiki.md-387ff6e0.js",
+    "file": "pages/posts/just-use-wiki.md-f578b27a.js",
     "src": "src/routes/posts/just-use-wiki.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -606,7 +622,7 @@
     ]
   },
   "src/routes/posts/miyazaki-tsutomu.md": {
-    "file": "pages/posts/miyazaki-tsutomu.md-eb965930.js",
+    "file": "pages/posts/miyazaki-tsutomu.md-3bb8d770.js",
     "src": "src/routes/posts/miyazaki-tsutomu.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -628,7 +644,7 @@
     ]
   },
   "src/routes/posts/our-internet-history.md": {
-    "file": "pages/posts/our-internet-history.md-dd54ecea.js",
+    "file": "pages/posts/our-internet-history.md-ce67720c.js",
     "src": "src/routes/posts/our-internet-history.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -652,7 +668,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list.md-f769af6a.css"
+      "assets/pages/posts/sea-of-internet.md-e59cb9e5.css"
     ]
   },
   "src/routes/posts/sticker-generator.md": {
@@ -686,7 +702,7 @@
     ]
   },
   "src/routes/posts/tool-list.md": {
-    "file": "pages/posts/tool-list.md-fbfde178.js",
+    "file": "pages/posts/tool-list.md-50738d72.js",
     "src": "src/routes/posts/tool-list.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -696,7 +712,7 @@
       "_BlinkAnchor-aec4dee8.js"
     ],
     "css": [
-      "assets/pages/posts/tool-list.md-f769af6a.css"
+      "assets/pages/posts/sea-of-internet.md-e59cb9e5.css"
     ]
   },
   "src/routes/posts/use-google-spreadsheet-as-database.md": {
