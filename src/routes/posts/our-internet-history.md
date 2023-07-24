@@ -21,9 +21,10 @@ tags:
 
 [課本不會教的日本網際網路史]: https://web.archive.org/web/20030801113739/http://blogdex.tripod.co.jp/encyclopedia/
 
-![https://unsplash.com/photos/HOrhCnQsxnQ by Robynne Hu](https://i.imgur.com/j85klQg.png "https://unsplash.com/photos/HOrhCnQsxnQ by Robynne Hu")
+<!-- ![https://unsplash.com/photos/HOrhCnQsxnQ by Robynne Hu](https://i.imgur.com/j85klQg.png "https://unsplash.com/photos/HOrhCnQsxnQ by Robynne Hu") -->
+<img src="https://i.imgur.com/j85klQg.png" alt="https://unsplash.com/photos/HOrhCnQsxnQ by Robynne Hu" title="https://unsplash.com/photos/HOrhCnQsxnQ by Robynne Hu" style="float: right; width: 40%;" />
 
-我應該是 2003 年左右的時候開始在網路上徘徊，對於 90 年代以前的部份感覺還是比較像在上歷史課或看紀錄片，但讀到 00 年代的部份時，即使講的是日本的網路環境，就開始覺得有許多共通或令人覺得熟悉的地方，不難判斷這是因為 00 年代中期的電車男與 NicoNico 動畫讓台灣的網路文化與日本匯流，但我想許多情況也是各地同時發生的，這可以留到稍後再談。
+我應該是 2003 年左右的時候開始在網路上徘徊，對於 90 年代以前的部份感覺還是比較像在上歷史課或看紀錄片，但讀到 00 年代的部份時，即使講的是日本的網路環境，就開始覺得有許多共通或令人覺得熟悉的地方，不難判斷這是因為 00 年代中期的電車男與 NicoNico 動畫讓台灣的網路文化與日本匯流，但我想許多情況也是各地同時發生的，這部份在後面也有提到。
 
 ## 娛樂與科幻的 80 年代
 
@@ -50,7 +51,8 @@ tags:
 
 這邊也有先提到一個 00 年代後才變得顯著的概念，叫做「模擬同步」，意思是網路其實是讓人們能在不同的時間與空間下去存取某份資訊，而人們卻會認為自己與他人共享了相同的時間與空間的體驗。除了 90 年代有創作者嘗試使用網路直播表演、00 年代的 NicoNico 動畫的流動式留言，10 年代直到現在的直播文化都可說是這種概念的體現與演變。
 
-![https://unsplash.com/photos/40XgDxBfYXM by Jordan Harrison](https://i.imgur.com/19u2vAO.png "https://unsplash.com/photos/40XgDxBfYXM by Jordan Harrison")
+<!-- ![https://unsplash.com/photos/40XgDxBfYXM by Jordan Harrison](https://i.imgur.com/19u2vAO.png "https://unsplash.com/photos/40XgDxBfYXM by Jordan Harrison") -->
+<img src="https://i.imgur.com/19u2vAO.png" alt="https://unsplash.com/photos/40XgDxBfYXM by Jordan Harrison" title="https://unsplash.com/photos/40XgDxBfYXM by Jordan Harrison" style="float: left; margin-right: 1em; width: 40%;" />
 
 這時 ACG 御宅族也在網路上漸漸表層化，由於 1995 年《新世紀福音戰士》（下稱《EVA》）的播出引起的大量討論，以及 GAINAX 允許粉絲在自己網站上使用版權素材的開放態度，這時也出現了大量的《EVA》考察網站，其他也有像岡田斗司夫於 1996 年？設立的御宅話題網站「[おたくウィークリー][]」，這也讓其他使用者有種「最近宅宅們好像到網路上來了」、「有不同世代的人來了」的感覺。
 
@@ -76,7 +78,8 @@ tags:
 
 這種態度也埋下了日後所謂「後真實」或網路右翼的隱憂，像是 2ch 的 VIP 版完全用「www」消化一切的冷笑主義也是如此，麻煩的點在於，即使起初大家都知道那是胡鬧，久了卻會開始有當真的人出現，最後變成惡性循環，而這種「我就是相信我想相信的東西」也與網路的廣告體系有絕佳的適性，開始出現整理這些胡鬧內容的「懶人包網站」，營運者只為了賺取點閱而製作內容，追求秀出更多廣告，而不是提昇內容的品質，Google 為了自家的廣告服務，也不會在搜尋結果排除這些網站，結果「網路應該如何離脫廣告體系」至今仍然是個問題。
 
-![ネットは広大だわ‥‥‥](https://i.imgur.com/PGQ8DNR.png "ネットは広大だわ‥‥‥")
+<!-- ![ネットは広大だわ‥‥‥](https://i.imgur.com/PGQ8DNR.png "ネットは広大だわ‥‥‥") -->
+<img src="https://i.imgur.com/PGQ8DNR.png" alt="ネットは広大だわ‥‥‥" title="ネットは広大だわ‥‥‥" style="float: right; width: 40%;" />
 
 00 年代還有另一個新浪潮，並成為日後社群網路服務（SNS）基礎的，就是部落格，雖然美國有因為 911 事件而興起政治主題的部落格，日本起初也有撰寫長文或嚴選新聞的等等的部落格，之後仍因為比起傳統網頁更新起來要快與方便得多，有著能自手機更新的「生鮮即時」感，最後還是歸於像真鍋薰或中川翔子所經營的個人日常短文心得為重的內容，像是中川翔子的部落格曾經達成單日 450 萬來訪人次、於開設 4 年後達到總計 15 億人次來訪的極驚人紀錄。除了頗有 Twitter 前身之姿的感覺外，這種十分突顯個人的內容也削弱的網路了「這一側／那一側」的界線感，像是 Facebook 或 mixi 等等使用真實姓名、封閉式的架構也是如此，網路變成像是日常空間的延伸，並且從 2ch 由話題分割了群體，到了 SNS 時代由現實的連接去分割群體。
 
@@ -92,7 +95,8 @@ tags:
 
 如同同時期於世界發生的阿拉伯之春與佔領華爾街運動，網路也在其他地域起到了類似的作用，但這也帶出了令一個新隱憂，00 年代的島宇宙狀態最後造成的是，人們會單純認為「那麼人多的那方就是對的吧？」，「能動員更多人的那方就能得勝」，網路已經不是「能連接起許多擁有不同意見的人的媒介」，而是用來排除多樣化的想法、將群眾分化成敵我，並用點閱數來賺錢壯大力量的時代。
 
-![https://unsplash.com/photos/IayKLkmz6g0 by Maxim Hopman](https://i.imgur.com/k7ROHYf.png "https://unsplash.com/photos/IayKLkmz6g0 by Maxim Hopman")
+<!-- ![https://unsplash.com/photos/IayKLkmz6g0 by Maxim Hopman](https://i.imgur.com/k7ROHYf.png "https://unsplash.com/photos/IayKLkmz6g0 by Maxim Hopman") -->
+<img src="https://i.imgur.com/k7ROHYf.png" alt="https://unsplash.com/photos/IayKLkmz6g0 by Maxim Hopman" title="https://unsplash.com/photos/IayKLkmz6g0 by Maxim Hopman" style="float: left; margin-right: 1em; width: 40%" />
 
 由於資訊流通得太過輕便，人們開始尋求具有指標性的內容，能夠恣意地挑選內容方向的懶人包網站正好填補了這種需求，充滿厭韓、厭中的內容也因此得到擴散，也導致了網路右翼的增長。「正紅的玩意會跑到 Timeline 上來，往後的網站會是病毒式的媒體」，網路環境一方是 Google 式的軟性環境管理權力，一方面是病毒式媒體的侵襲，這裡也提到 Google 的搜尋權力在 00 年代後期帶有倫理面的問題，但在進入 10 年代後因為資訊過度爆發，甚至是無法搜尋的資訊（例如 SNS、LINE 上的內容或 Instagram 上的圖片）出現，也讓搜尋引擎失去過往的雄風。
 

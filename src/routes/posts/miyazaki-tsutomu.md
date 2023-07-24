@@ -77,8 +77,8 @@ tags:
   <img style="max-width: 50%;" src="https://pbs.twimg.com/media/DLiYRs8UEAAt77V.jpg" alt="雜誌記事">
 </div>
 <span style="display: block; text-align: center;
-    margin-top: -1em; margin-bottom: 1em;">
-▲試圖將事件與動漫興趣連結的報導，於事件後接連出現
+    margin-top: -0.5em; margin-bottom: 1em;">
+▲試圖與動漫興趣加上連結的報導，於事件後接連出現
 </span>
 
 - [1989 年 8 月のあの報道について](https://togetter.com/li/750995)

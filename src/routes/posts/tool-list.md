@@ -204,43 +204,6 @@ IniEditor=system
 | [Youlean Loudness Meter 2](https://youlean.co/youlean-loudness-meter/) | 監控麥克風輸入的音量響度 |
 | [Orban Loudness Meter 2](https://www.orban.com/meter)                  | 監控電腦上播放的音量響度 |
 
-## 字體
-
-### 綜藝／POP 風字體
-
-| 名稱                                                                         |
-| ---------------------------------------------------------------------------- |
-| [しねきゃぷしょん](https://www.vector.co.jp/soft/data/writing/se314690.html) |
-| [瀬戸フォント](https://nonty.net/font/freefont/setofont/)                    |
-| [あくあフォント](https://www.vector.co.jp/soft/data/writing/se244261.html)   |
-| [みかちゃん](http://mikachan.osdn.jp/dl.html)                                |
-| [ふい字](https://studio-kikoro.appspot.com/blog/20151208_font.html)          |
-| [アームド・レモン](https://www.vector.co.jp/soft/data/writing/se334877.html) |
-| [ホリディ MDJP05](http://mksd.jp/holiday05.html)                             |
-| [殴り書きクレヨン](http://font.sumomo.ne.jp/font_2.html)                     |
-| [仕事メモ書き](http://font.sumomo.ne.jp/shigoto.html)                        |
-| [KF ひま字](https://www.kfstudio.net/font/kfhimaji/)                         |
-| [Y.Oz Vox](http://yozvox.web.fc2.com/82788144826E829A81408275828F8298.html)  |
-| [清松手寫體](https://github.com/jasonhandwriting/JasonHandwriting)           |
-| [ヘタレ字](http://bakafonts.kyakirun.com/japanese/page2.htm)                 |
-
-### 不可商用 or 需聯絡
-
-| 名稱                         |
-| ---------------------------- |
-| [しょかきうたげ][]           |
-| [ainezunouzu フォント][]     |
-| [三丁目フォント][]           |
-| [ラムダシステム日本語書体][] |
-| [SH G30][]                   |
-
-[しょかきうたげ]: https://shokaki.hatenablog.jp/entry/2019/08/06/172131
-[ainezunouzu フォント]: https://web.archive.org/web/20190104214816/http://www.geocities.jp/o030b/ainezunouzu/font/font20121018.html
-[三丁目フォント]: https://web.archive.org/web/20190330044820/http://www.geocities.jp/bokurano_yume/
-[ラムダシステム日本語書体]: https://www.lambda.co.jp/contents/font_japanese.html
-[sh g30]: http://smart-pda.net/isourou/other/e830w/Chapter-0402.html
-http://smart-pda.net/tips/%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E3%82%92%E5%A4%89%E3%81%88%E3%82%88%E3%81%86/
-
 <style>
 table {
   width: 100%;

@@ -92,7 +92,7 @@
           <img src="https://i.imgur.com/9blk2hu.gif" alt="World Wide Web" />
         </a>
         <a
-          href="https://pop.system76.com/"
+          href="https://archlinux.org/"
           rel="noreferrer noopener"
           target="_blank"
         >
@@ -293,12 +293,12 @@
     </div>
 
     <!-- ---------- -->
-    <section style="border: 1px solid var(--subtitle-color); box-shadow: 2px 2px 0 var(--subtext-color), 4px 4px 0 var(--title-color); border-radius: 0px; margin-top: 1.5em; padding: 0 10px 10px; background-color: #e5edc8;">
+    <!-- <section style="border: 1px solid var(--subtitle-color); box-shadow: 2px 2px 0 var(--subtext-color), 4px 4px 0 var(--title-color); border-radius: 0px; margin-top: 1.5em; padding: 0 10px 10px; background-color: #e5edc8;">
       <span style="display: inline-block; position: relative; inset-block-start: -0.5em; padding: 0 0.25em; color: var(--subtext-color); background: linear-gradient(to bottom, var(--bg-color) 50%, #e5edc8 50%); font-size: 2em; font-weight: 900;">Card</span>
       <div>
         <p style="margin-block-start: 0em; font-size: 1em; word-break: break-all;">card content</p>
       </div>
-    </section>
+    </section> -->
   </div>
 </aside>
 

@@ -39,7 +39,8 @@
   --subtext-color: #306230;
   --link-color: #0f380f;
   --link-hover-color: #8bac0f;
-  --strong-color: #9bbc0f;
+  /* --strong-color: #9bbc0f; */
+  --strong-color: #cadc9f;
 }
 
 html,
@@ -238,6 +239,7 @@ p a:hover {
 }
 
 strong {
+  color: #2e2e2e;
   background: linear-gradient(
     to bottom,
     transparent 0%,
@@ -245,6 +247,7 @@ strong {
     var(--strong-color) 50%,
     var(--strong-color) 100%
   );
+  /* font-weight: regular; */
 }
 
 img {
@@ -308,6 +311,7 @@ blockquote {
   padding: 0 1rem;
   border-left: 4px solid var(--text-color);
   background: #eee;
+  box-shadow: 2px 2px #ccc;
 }
 
 blockquote p {
@@ -417,4 +421,8 @@ iframe {
   aspect-ratio: 16 / 9;
 
   /* margin-left: -20px; */
+}
+
+.post--content img {
+  box-shadow: 4px 4px 4px #ccc;
 }
