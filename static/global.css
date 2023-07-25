@@ -89,7 +89,7 @@ h2::after {
   margin-left: 12px;
   margin-bottom: 6px;
   width: 80%;
-  border-bottom: 1px solid var(--title-color);
+  /* border-bottom: 1px solid var(--title-color); */
 
   position: absolute;
   content: "";
@@ -98,6 +98,18 @@ h2::after {
 }
 
 h3 {
+  padding: 10px 0;
+  background: #000;
+  color: #fff;
+}
+h3::before {
+  content: '';
+  display: inline;
+  margin-right: 10px;
+  border-left: 35px solid var(--subtitle-color);
+}
+
+h4 {
   position: relative;
   padding: 2px 5px 2px 8px;
   margin: 10px 5px 10px 3px;
@@ -106,7 +118,7 @@ h3 {
   /* border-bottom: 1px solid var(--subtitle-color); */
 }
 
-h3::before {
+h4::before {
   position: absolute;
   display: block;
   content: "";
@@ -125,6 +137,9 @@ h3 + p {
 
 h2 a {
   color: var(--subtitle-color);
+}
+h3 a {
+  color: white;
 }
 
 ol,
@@ -252,6 +267,7 @@ strong {
 
 img {
   max-width: 100%;
+  min-width: 0%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -349,6 +365,7 @@ table {
   margin: 0 auto;
   /* table-layout: fixed; */
   border-collapse: collapse;
+  border: 1px solid gray;
 }
 
 th {
@@ -360,16 +377,16 @@ th {
 tbody > tr {
   position: relative;
 }
-thead > tr {
-  /* 
-    html - Colour fade to transparent on both sides of a div - Stack Overflow
-    https://stackoverflow.com/questions/28982198/colour-fade-to-transparent-on-both-sides-of-a-div    
-   */
+/* 
+  html - Colour fade to transparent on both sides of a div - Stack Overflow
+  https://stackoverflow.com/questions/28982198/colour-fade-to-transparent-on-both-sides-of-a-div    
+  box-shadow: offset-x | offset-y | blur-radius | spread-radius | color
+*/
+/* thead > tr {
   background: var(--subtitle-color);
-  /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: inset 125px 0px 125px -50px var(--outer-bg-color),
     inset -125px 0px 125px -50px var(--outer-bg-color);
-}
+} */
 tbody > tr:after {
   content: "";
   position: absolute;
@@ -378,6 +395,9 @@ tbody > tr:after {
   left: 50%;
   top: 0;
   transform: translateX(-50%);
+  border-top: 1px dashed var(--subtext-color);
+}
+tbody > tr:first-child:after {
   border-top: 1px solid var(--subtext-color);
 }
 tbody > tr:nth-child(2n + 1) {

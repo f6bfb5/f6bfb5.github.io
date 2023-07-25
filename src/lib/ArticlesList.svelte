@@ -157,8 +157,8 @@
     position: absolute;
     /* right: 0.25em; */
     right: 0.125em;
-    /* bottom: -0.1em; */
-    bottom: -0.35em;
+    bottom: -0.25em;
+    /* bottom: -0.35em; */
     z-index: -1;
     opacity: 0.5;
     user-select: none;

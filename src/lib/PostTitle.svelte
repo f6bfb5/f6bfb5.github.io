@@ -1,0 +1,196 @@
+<script>
+  export let title;
+</script>
+
+<h1 class="title">
+  {#each title as title, index}
+    <span
+      style="
+        animation-delay: {125 + 25 * index}ms;
+        {title == ' ' ? 'width: .25em;' : ''}
+      "
+    >
+      {title}
+    </span>
+  {/each}
+</h1>
+
+<style>
+  h1 {
+    margin: 0.13em 0;
+    font-size: 3em;
+    line-height: 1.1;
+    color: var(--title-color);
+  }
+
+  /* need to add 15px for scrollbar width */
+  @media all and (max-width: 735px) {
+    h1 {
+      max-width: 80%;
+      margin: auto;
+      font-size: 2.5em;
+    }
+  }
+
+  .title {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  .title span:nth-child(9n-8) {
+    animation: Title_red 0.5s linear both;
+  }
+  .title span:nth-child(9n-7) {
+    animation: Title_orange 0.5s linear both;
+  }
+  .title span:nth-child(9n-6) {
+    animation: Title_yellow 0.5s linear both;
+  }
+  .title span:nth-child(9n-5) {
+    animation: Title_lime 0.5s linear both;
+  }
+  .title span:nth-child(9n-4) {
+    animation: Title_green 0.5s linear both;
+  }
+  .title span:nth-child(9n-3) {
+    animation: Title_cyan 0.5s linear both;
+  }
+  .title span:nth-child(9n-2) {
+    animation: Title_blue 0.5s linear both;
+  }
+  .title span:nth-child(9n-1) {
+    animation: Title_purple 0.5s linear both;
+  }
+  .title span:nth-child(9n) {
+    animation: Title_pink 0.5s linear both;
+  }
+
+  @keyframes Title_red {
+    0% {
+      color: var(--bg-color);
+      fill: transparent;
+    }
+    50% {
+      color: #e50020;
+      fill: #e50020;
+    }
+    100% {
+      color: var(--title-color);
+      fill: var(--title-color);
+    }
+  }
+  @keyframes Title_orange {
+    0% {
+      color: var(--bg-color);
+      fill: transparent;
+    }
+    50% {
+      color: #ec6c00;
+      fill: #ec6c00;
+    }
+    100% {
+      color: var(--title-color);
+      fill: var(--title-color);
+    }
+  }
+  @keyframes Title_yellow {
+    0% {
+      color: var(--bg-color);
+      fill: transparent;
+    }
+    50% {
+      color: #fbc600;
+      fill: #fbc600;
+    }
+    100% {
+      color: var(--title-color);
+      fill: var(--title-color);
+    }
+  }
+  @keyframes Title_lime {
+    0% {
+      color: var(--bg-color);
+      fill: transparent;
+    }
+    50% {
+      color: #6fba2c;
+      fill: #6fba2c;
+    }
+    100% {
+      color: var(--title-color);
+      fill: var(--title-color);
+    }
+  }
+  @keyframes Title_green {
+    0% {
+      color: var(--bg-color);
+      fill: transparent;
+    }
+    50% {
+      color: #008b38;
+      fill: #008b38;
+    }
+    100% {
+      color: var(--title-color);
+      fill: var(--title-color);
+    }
+  }
+  @keyframes Title_cyan {
+    0% {
+      color: var(--bg-color);
+      fill: transparent;
+    }
+    50% {
+      color: #009fe8;
+      fill: #009fe8;
+    }
+    100% {
+      color: var(--title-color);
+      fill: var(--title-color);
+    }
+  }
+  @keyframes Title_blue {
+    0% {
+      color: var(--bg-color);
+      fill: transparent;
+    }
+    50% {
+      color: #004da0;
+      fill: #004da0;
+    }
+    100% {
+      color: var(--title-color);
+      fill: var(--title-color);
+    }
+  }
+  @keyframes Title_purple {
+    0% {
+      color: var(--bg-color);
+      fill: transparent;
+    }
+    50% {
+      color: #910782;
+      fill: #910782;
+    }
+    100% {
+      color: var(--title-color);
+      fill: var(--title-color);
+    }
+  }
+  @keyframes Title_pink {
+    0% {
+      color: var(--bg-color);
+      fill: transparent;
+    }
+    50% {
+      color: #e40065;
+      fill: #e40065;
+    }
+    100% {
+      color: var(--title-color);
+      fill: var(--title-color);
+    }
+  }
+</style>

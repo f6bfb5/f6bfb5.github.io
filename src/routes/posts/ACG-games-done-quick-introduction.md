@@ -22,7 +22,7 @@ $2,122,529.20, that's a new SGDQ record! Thank you so so much to all of you for 
 
 <iframe title="#AGDQ2016" height="400" allow="encrypted-media" allowtransparency="true" frameborder="0" scrolling="no" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftetristhegrandmaster3%2Fposts%2F1647910708792715%3A0&amp;width=500" style="border: none; overflow: hidden;" ></iframe>
 
-不過上面說了這麼多，讓我們先回頭來講講，GDQ 是什麼？什麼是 RTA？他們在幹什麼？
+不過在這之前，先讓我們來講講，GDQ 是什麼？RTA 又是什麼？他們在幹嘛？
 
 ## 什麼是 RTA？
 

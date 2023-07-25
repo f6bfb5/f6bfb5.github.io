@@ -378,6 +378,7 @@ tr {
 tr th {
   word-break: keep-all;
 }
+tr th:nth-child(1),
 tr td:nth-child(1) {
   min-width: 50%;
   flex-basis: 50%;
@@ -392,6 +393,7 @@ tr td:nth-child(1) {
   tr {
     flex-direction: column;
   }
+  tr th:nth-child(1),
   tr td:nth-child(1) {
     flex-basis: 100%;
   }

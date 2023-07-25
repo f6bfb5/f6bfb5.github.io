@@ -64,13 +64,10 @@ summary: "2014 年 5 月，遊戲圈出現了一支使用輔助程式，在「�
 | 0651 | AD 22 1F | LDA `$1F22`=#`$0A`<br>（讀取 0x0A 裡的 `$1F22`<br>並儲存至 A 暫存器） | 擊倒普通的敵人掉落道具的 ObjectFireDelay=AD,22<br>delay FF 出現的物件 1 的 ObjectFireDelay=1F                                                                               |
 | 0654 | 6C 18 00 | JMP (`$0018`)=`$C460`<br>（`$C460`: jump 至通關處理的途中）           | 擊倒普通的敵人掉落道具的 ObjectFireDelay=6C,18<br>delay FF 出現的物件 55 的 ObjectFireDelay=00<br>`$0018` 的數値由操作控制器 1 的「左下」+ 控制器 2 的「左右 Select」=60,C4 |
 
-```
-C45E: A9 00 lda #$00
-C460: 85 31 sta $31(CurrentStage)　 ← 遊戲程式會 jump 至這裡並進行中斷處理
-C462: 4C 0C C1 jmp $C10C
-```
-
-進入遊戲 ending。
+- `C45E: A9 00 lda #$00`
+- `C460: 85 31 sta $31(CurrentStage)`
+  - ↑ 遊戲程式會 jump 至這裡，並進行中斷處理、進入遊戲 ending
+- `C462: 4C 0C C1 jmp $C10C`
 
 利用這個漏洞，就能在事先準備好讀取的資料後，達成想要的操作結果。
 
@@ -91,11 +88,11 @@ C462: 4C 0C C1 jmp $C10C
 
 ---
 
-![img03](https://i.imgur.com/LEoXwhg.gif)
-
-![img04](https://i.imgur.com/b0naPNm.gif)
-
-![img05](https://i.imgur.com/xO6xO8i.gif)
+<div style="display: flex; gap: 8px;">
+<img src="https://i.imgur.com/LEoXwhg.gif" alt="img03">
+<img src="https://i.imgur.com/b0naPNm.gif" alt="img04">
+<img src="https://i.imgur.com/xO6xO8i.gif" alt="img05">
+</div>
 
 <p style="padding-top: 0; font-size: 1em; text-align:center; color: #36393b;">△ 本次 RTA 的關鍵地點</p>
 

@@ -85,13 +85,13 @@ Second Paragraph That's one small step for man, one giant leap for mankind.
 
 ---
 
-<img src="https://picsum.photos/128/128/" alt="placeholder" title="placeholder" style="padding-top: 1.125em; padding-left: 1.125em; float: right;">
+<img src="https://picsum.photos/128/128/" alt="placeholder" title="placeholder" style="margin-top: 1.125em; margin-left: 1.125em; float: right;">
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 <div style="clear: both;" />
 
-<img src="https://picsum.photos/128/128/" alt="placeholder" title="placeholder" style="padding-top: 1.125em; padding-right: 1.125em;  float: left;">
+<img src="https://picsum.photos/128/128/" alt="placeholder" title="placeholder" style="margin-top: 1.125em; margin-right: 1.125em;  float: left;">
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -269,14 +269,14 @@ flowchart TB
 <span>Paragraph</span>
 </div>
 
-<div style="padding: .125em; width: 24em; display: flex; align-items: center; color: #efefef; background-color: #2f2f2f;">
+<div style="padding: .125em; display: flex; align-items: center; color: #efefef; background-color: #2f2f2f;">
   <div style="margin-left: .25em; margin-right: .5em; display: inline-block; border: 1px solid #efefef;">
     <span style="display: inline-block; padding: 0 .125em; color: #2f2f2f; background-color: #efefef;">BP</span>
     <span style="display: inline-block; padding-right: .125em;">05</span>
   </div>
   <span>勇の心は開くのか（８話）</span>
 </div>
-<div style="padding: .125em; margin-top: .5em; width: 24em; display: flex; align-items: center; color: #efefef; background-color: #2f2f2f;">
+<div style="padding: .125em; margin-top: .5em; display: flex; align-items: center; color: #efefef; background-color: #2f2f2f; text-wrap: nowrap; overflow: hidden;">
   <div style="margin-left: .25em; margin-right: .5em; display: inline-block; border: 1px solid #efefef;">
     <span style="display: inline-block; padding: 0 .125em; color: #2f2f2f; background-color: #efefef;">BP</span>
     <span style="display: inline-block; padding-right: .125em;">06</span>
@@ -740,9 +740,19 @@ a &= b \\
 ```
 <div>
   <img src="https://picsum.photos/24/24/" alt="placeholder" title="placeholder" style="margin: 0; padding: 0; display: inline;" />
-  <span class="baloon">
+  <span class="ballon">
     何なんだよ日本。一億総活躍社会じゃねーのかよ。昨日見事に保育園落ちたわ。どうすんだよ私活躍出来ねーじゃねーか。
   </span>
+</div>
+
+<div style="margin-top: 1em;">
+  <div style="display: flex; align-items: center;">
+    <img src="https://picsum.photos/24/24/" alt="placeholder" title="placeholder" style="margin: 0; padding: 0; display: inline;" />
+    <span style="margin-left: 1em;">以下、名無し が送りします:</span>
+  </div>
+  <p class="ballon2">
+    何なんだよ日本。一億総活躍社会じゃねーのかよ。昨日見事に保育園落ちたわ。どうすんだよ私活躍出来ねーじゃねーか。
+  </p>
 </div>
 
 <script>
@@ -1001,8 +1011,10 @@ a &= b \\
 
   /* ---------- */
 
-  .baloon {
+  .ballon {
     display: inline-block;
+  }
+  .ballon, .ballon2 {
     padding: 0 0.4em 0 0.4em;
     max-width: calc(100% - 100px);
     color: #fff;
@@ -1011,7 +1023,7 @@ a &= b \\
     line-height: 1.5;
     vertical-align: middle;
   }
-  .baloon:before {
+  .ballon:before {
     content: "";
     position: absolute;
     margin-left: -0.2em;
@@ -1021,6 +1033,18 @@ a &= b \\
     border-style: solid;
     border-color: #929c9a transparent;
     transform: translateX(-100%) translateY(calc(1em - 80%));
+  }
+  .ballon2 {
+    margin-top: .6em;
+  }
+  .ballon2:before {
+    content: "";
+    position: absolute;
+    margin-top: -.45em;
+    left: 2em;
+    border-width: 0 0.6em 0.6em 0;
+    border-style: solid;
+    border-color: transparent transparent #929c9a transparent;
   }
 
   /* ---------- */

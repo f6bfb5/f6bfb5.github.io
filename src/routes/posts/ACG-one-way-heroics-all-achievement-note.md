@@ -22,9 +22,7 @@ tags: ACG, Game
 
 ## 成就一覽（WIP）
 
-還是提醒一下：
-
- <div style="margin: .25em auto 1em; padding: 4px 2px; width: fit-content; transform: skewX(-10deg); font-size: 2em; color: white; background: black;">以下內容含有劇情透露</div>
+ <div style="margin: .5em auto 1em; padding: 4px 2px; width: fit-content; transform: skewX(-10deg); font-size: 2em; color: white; background: black;">以下內容含有劇情透露</div>
 
 <button on:click={() => {
 isTasksDoneArr = '[true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,true,true,false,false,false,true,true,false,false,false,false,false,false]';
