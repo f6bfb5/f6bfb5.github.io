@@ -24,7 +24,7 @@
 	<link rel="stylesheet" href="/_app/assets/pages/posts/login-with-discord.md-f6cfa176.css">
 	<link rel="stylesheet" href="/_app/assets/_post-2da60fc5.css">
 	<link rel="stylesheet" href="/_app/assets/BlinkAnchor-39834c8c.css">
-	<link rel="modulepreload" href="/_app/start-64e0cd02.js">
+	<link rel="modulepreload" href="/_app/start-e0007ab0.js">
 	<link rel="modulepreload" href="/_app/chunks/index-8418cccc.js">
 	<link rel="modulepreload" href="/_app/chunks/index-17c965c3.js">
 	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
@@ -32,7 +32,7 @@
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-eef20794.js">
 	<link rel="modulepreload" href="/_app/chunks/Favicon-2f8df075.js">
 	<link rel="modulepreload" href="/_app/chunks/store-c3b1f519.js">
-	<link rel="modulepreload" href="/_app/pages/posts/login-with-discord.md-5b073751.js">
+	<link rel="modulepreload" href="/_app/pages/posts/login-with-discord.md-a7d99303.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-d4b6a172.js">
 	<link rel="modulepreload" href="/_app/chunks/BlinkAnchor-aec4dee8.js">
   </head>
@@ -65,7 +65,7 @@
   <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
   </a>
 </nav>
-      <a href="https://www.nicovideo.jp/watch/sm29763392" target="_blank" rel="noreferrer noopener" class="svelte-145ut21"><img src="https://i.imgur.com/D0PAWCi.gif" alt="logo" class="svelte-145ut21">
+      <a href="https://www.nicovideo.jp/watch/sm36337465" target="_blank" rel="noreferrer noopener" class="svelte-145ut21"><img src="https://i.imgur.com/D0PAWCi.gif" alt="logo" class="svelte-145ut21">
 </a></div>
     </div>
 </header>
@@ -90,7 +90,7 @@
   <p class="meta svelte-3zdptp"><span class="date svelte-3zdptp">Jan 14, 2021</span>
     <div class="tags svelte-3zdptp"><span class="tag svelte-3zdptp">F2E</span></div></p></header>
 <div class="post--container svelte-3zdptp"><article class="post--content svelte-3zdptp"><ul><li><a href="https://qiita.com/masayoshi4649/items/46fdb744cb8255f5eb98" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://qiita.com/masayoshi4649/items/46fdb744cb8255f5eb98" alt="「Discord の ID でログイン」を実装する(Oauth2) - Qiita"><span>「Discord の ID でログイン」を実装する(Oauth2) - Qiita</span></a></li></ul>
-<h2 id="js-id-1-於-discord-developer-portal-登錄應用">1. 於 Discord Developer Portal 登錄應用</h2>
+<h2 id="js-id-1-於-discord-developer-portal-登錄應用"><strong>1. 於 Discord Developer Portal 登錄應用</strong></h2>
 <h3>a. 取得 「Client ID」和「Client Secert」</h3>
 <ol><li>登入 <a href="https://discord.com/developers/applications" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://discord.com/developers/applications" alt="Discord Developer Portal"><span>Discord Developer Portal</span></a></li>
 <li>「New Application」</li>
@@ -104,9 +104,9 @@
 <li>勾選下方「SCOPE」（索取的資訊欄位）裡的<ul><li>「identify」（Discord 的 ID）</li>
 <li>「email」</li></ul></li>
 <li>就可於頁面下方取得認證用的連結<ul><li>例：<code>https://discord.com/api/oauth2/authorize?client_id=</code>[CLIENT ID]<code>&amp;redirect_uri=</code>[REDIRECT URL]<code>&amp;response_type=code&amp;scope=</code>[SCOPE]</li></ul></li></ol>
-<h2 id="js-id-2-從認證連結取得code">2. 從認證連結取得「code」</h2>
+<h2 id="js-id-2-從認證連結取得code"><strong>2. 從認證連結取得「code」</strong></h2>
 <ul><li>使用認證連結登入<ul><li>重導向到結果頁面後，網址上會多出一個回傳的 <code>code</code> 參數</li></ul></li></ul>
-<h2 id="js-id-3-使用code取得access-token">3. 使用「code」取得「access token」</h2>
+<h2 id="js-id-3-使用code取得access-token"><strong>3. 使用「code」取得「access token」</strong></h2>
 <ul><li>使用這個 <code>code</code> 送出請求<ul><li>取得 <code>access_token</code>，才能擁有存取資料的權限</li></ul></li></ul>
 <h3>a. 傳送 POST 請求到 Discord API</h3>
 <pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">curl</span> -X POST
@@ -127,7 +127,7 @@
 <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
 <ul><li><code>code</code> 為一次性使用，同一個 <code>code</code> 無法進行第二次存取</li>
 <li><code>access token</code> 的有效期限為 604800 秒＝一個禮拜<ul><li>若有更新需求，須使用回傳內容中的 <code>refresh token</code> 重新送出請求</li></ul></li></ul>
-<h2 id="js-id-4-使用access-token取得使用者資料">4. 使用「access token」取得使用者資料</h2>
+<h2 id="js-id-4-使用access-token取得使用者資料"><strong>4. 使用「access token」取得使用者資料</strong></h2>
 <h3>a. 傳送 GET 請求到 Discord API</h3>
 <pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">curl</span> -H <span class="token string">"Authorization: Bearer [ACCESS TOKEN]"</span>
      https://discordapp.com/api/users/@me</code><!-- HTML_TAG_END --></pre>
@@ -145,7 +145,7 @@
    <span class="token property">"mfa_enabled"</span><span class="token operator">:</span> <span class="token boolean">false</span>
 <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
 <ul><li>搭配頭像網址取得圖片<ul><li><code>https://cdn.discordapp.com/avatars/</code>[Discord ID]<code>/</code>[大頭貼 ID]</li></ul></li></ul>
-<h2 id="js-id-5-使用-refresh-token-重新取得-access-token">5. 使用 refresh token 重新取得 access token</h2>
+<h2 id="js-id-5-使用-refresh-token-重新取得-access-token"><strong>5. 使用 refresh token 重新取得 access token</strong></h2>
 <h3>a. 傳送 POST 請求到 Discord API</h3>
 <pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">curl</span> -X POST
      -H <span class="token string">"Content-Type:application/x-www-form-urlencoded"</span>
@@ -162,13 +162,13 @@
    <span class="token property">"scope"</span><span class="token operator">:</span> <span class="token punctuation">[</span>SCOPE<span class="token punctuation">]</span><span class="token punctuation">,</span>
    <span class="token property">"token_type"</span><span class="token operator">:</span> <span class="token string">"Bearer"</span>
 <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
-<h2 id="js-id-範例">範例</h2>
+<h2 id="js-id-範例"><strong>範例</strong></h2>
 <p>以下示範透過此方式，取得你的 Discord ID 與大頭貼圖片。</p>
 <button id="js-discord-button">Login with Discord</button>
 <span id="js-discord-status"></span>
 <div class="discord-card" id="js-discord-card" style="display: none"><img alt="profile" class="discord-card--image svelte-9ys6tj" id="js-discord-card--image">
   <div class="discord-card--username" id="js-discord-card--username"></div></div>
-<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-1-於-discord-developer-portal-登錄應用').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">1. 於 Discord Developer Portal 登錄應用</a></li><li><a href="#" onclick="document.querySelector('#js-id-2-從認證連結取得code').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">2. 從認證連結取得「code」</a></li><li><a href="#" onclick="document.querySelector('#js-id-3-使用code取得access-token').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">3. 使用「code」取得「access token」</a></li><li><a href="#" onclick="document.querySelector('#js-id-4-使用access-token取得使用者資料').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">4. 使用「access token」取得使用者資料</a></li><li><a href="#" onclick="document.querySelector('#js-id-5-使用-refresh-token-重新取得-access-token').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">5. 使用 refresh token 重新取得 access token</a></li><li><a href="#" onclick="document.querySelector('#js-id-範例').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">範例</a></li></ul></div>
+<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-1-於-discord-developer-portal-登錄應用').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li><li><a href="#" onclick="document.querySelector('#js-id-2-從認證連結取得code').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li><li><a href="#" onclick="document.querySelector('#js-id-3-使用code取得access-token').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li><li><a href="#" onclick="document.querySelector('#js-id-4-使用access-token取得使用者資料').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li><li><a href="#" onclick="document.querySelector('#js-id-5-使用-refresh-token-重新取得-access-token').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li><li><a href="#" onclick="document.querySelector('#js-id-範例').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li></ul></div>
     <span class="blink svelte-1kip24n">_</span></article>
   
 
@@ -185,10 +185,10 @@
 </div>
 
 
-		<script type="module" data-hydrate="1aiksyu">
-		import { start } from "/_app/start-64e0cd02.js";
+		<script type="module" data-hydrate="bf69gg">
+		import { start } from "/_app/start-e0007ab0.js";
 		start({
-			target: document.querySelector('[data-hydrate="1aiksyu"]').parentNode,
+			target: document.querySelector('[data-hydrate="bf69gg"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: false,
@@ -199,7 +199,7 @@
 				error: null,
 				nodes: [
 					import("/_app/pages/__layout.svelte-eef20794.js"),
-						import("/_app/pages/posts/login-with-discord.md-5b073751.js")
+						import("/_app/pages/posts/login-with-discord.md-a7d99303.js")
 				],
 				params: {},
 				routeId: "posts/login-with-discord"
