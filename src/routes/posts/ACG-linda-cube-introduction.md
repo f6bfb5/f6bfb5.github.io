@@ -12,6 +12,8 @@ tags: ACG, Game, Translate
 
 <iframe title="linda cube cm" src="https://www.youtube.com/embed/Jc1QGIhnTaU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## 介紹
+
 AMD（After Mothers Death，指「地球死亡之後」）1991 年，在和地球非常相似的星球「新肯亞」。生活在其上的人類們，知曉 8 年後將有無法迴避的巨大隕石襲向新肯亞。逃離新肯亞的「人類脫出計畫」著實地進行中，人們突然收到一份來自「方舟」宇宙船、自稱神明的訊息。
 
 「我想拯救這個星球的動物。因此，請帶上各種動物的一對雌雄。以及一對男女人類，搭乘這艘方舟」

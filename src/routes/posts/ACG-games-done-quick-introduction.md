@@ -24,7 +24,7 @@ $2,122,529.20, that's a new SGDQ record! Thank you so so much to all of you for 
 
 不過在這之前，先讓我們來講講，GDQ 是什麼？RTA 又是什麼？他們在幹嘛？
 
-## 什麼是 RTA？
+## __什麼是 RTA？__
 
 RTA（Real Time Attack）是玩家社群裡一種遊戲的遊玩方式，如同字面上的意思，**玩家們計算自遊戲開始到結束需要花上多少時間，並以此進行競技**，在不同的遊戲社群裡對於細部的規則、開始計算與結束計算的時間點會有所不同，而通常是以玩家可操作的時間長度，或是由遊戲內部所計算的時間長度為主。
 
@@ -51,7 +51,7 @@ RTA（Real Time Attack）是玩家社群裡一種遊戲的遊玩方式，如同�
 
 > △ 使用了存檔破壞的技巧，進入殿堂的時間紀錄是破天荒的 00:00。
 
-## 什麼是 GDQ？
+## __什麼是 GDQ？__
 
 Games Done Quick 是個**在美國半年度舉辦一次的電玩競速慈善馬拉松活動**，起先活動主要成員由 Speed Demos Archive 與 Speedruns Live 的社群成員所組成，在 2015 年後則改由 Games Done Quick 公司處理。自 2010 年起舉辦至今，此活動已為許多慈善團體募得資金，目前最常見的兩大組織為預防癌症基金會與無國界醫生。
 
@@ -70,7 +70,7 @@ Games Done Quick 是個**在美國半年度舉辦一次的電玩競速慈善馬�
 
 而參加者與工作人員全都是自費與自發性的參加這個活動，官方雖然沒有將完整的詳細金流資訊公開，除了維持活動經營外，本活動會將所有所得捐贈給慈善單位，並也和各家週邊廠商如 [Yetee](https://theyetee.com/)、[FanGamer](https://www.fangamer.com/pages/game-collections) 合作。
 
-## 機器人也能跑 RTA？TAS 又是什麼
+## __機器人也能跑 RTA？何謂 TAS__
 
 Games Done Quick 裡有個極受觀眾歡迎的節目區塊，「TAS BOT」，由一個任天堂機器人 （R.O.B.）拿著遊戲手把，進行各種摧毀玩家三觀的遊戲方式。
 
@@ -113,7 +113,7 @@ TASBOT 引人入勝的不只是其將傳統 TAS 影片裡在快速通關裡加�
 > △ Games Done Quick 頻道裡最多人觀看的影片
 > 就是由 TASBOT 所呈現的腦力鍛鍊 TAS。
 
-## 最後…
+## __最後…__
 
 開頭我們有提到，台灣也有社群在進行著 GDQ 的討論與分享，每年 GDQ 期間在 Twitch 的 [Tetristhegrandmaster3(彩學)](https://www.twitch.tv/tetristhegrandmaster3) 頻道上都會進行全時段的轉播，並且在開始前會有對當次活動的節目介紹與看點分析的「**前夜祭**」，和活動結束後對於活動精華和細部資料補充的「**後日談**」，對於各屆活動有興趣，想瞭解更多的朋友也千萬不要錯過！
 
@@ -125,7 +125,7 @@ TASBOT 引人入勝的不只是其將傳統 TAS 影片裡在快速通關裡加�
 
 歡迎一同踏入這個充滿魅力的世界！
 
-## 補充資料
+## __補充資料__
 
 1. [快速通關 Speedrun 常見專有名詞解釋](https://hackmd.io/@f6bfb5/SkEKYx-nI)
 2. [How a robot got Super Mario 64 and Portal "running" on an SNES](https://arstechnica.com/gaming/2017/01/how-a-robot-got-super-mario-64-and-portal-running-on-an-snes/)
@@ -133,7 +133,7 @@ TASBOT 引人入勝的不只是其將傳統 TAS 影片裡在快速通關裡加�
 3. [TGM Setup @ SGDQ 2017](https://pastebin.com/bvqsJk6j)
    <br/> 解說為何 2017 的 SGDQ 在 TGM 的設置上會花了那麼多時間的原因。
 
-## 外部連結
+## __外部連結__
 
 ### Games Done Quick
 
@@ -154,7 +154,7 @@ TASBOT 引人入勝的不只是其將傳統 TAS 影片裡在快速通關裡加�
 - [中文版 GDQ 節目表](https://runtogether-tw.github.io/gdq/)
 - [阿九五四三 系列影片](https://www.youtube.com/watch?v=ltywF15xfxI&list=PL1Q3h6nesWCOsPM4XPy8TZzfAp4lCI8hW&index=1)
 
-## 參考文章
+## __參考文章__
 
 1. [日本初のオフライン RTA イベント「RTA in Japan」主催者インタビュー　遊び方を突き詰めていくプレイヤー達の「圧倒的熱量」 (1/2)](http://nlab.itmedia.co.jp/nl/articles/1703/13/news110.html)
 2. [『オプーナ』を走り続けた男、「アンキモ」を目指す『美味しんぼ』ファイター。ゲーム最速攻略イベント「RTA in Japan」が熱い](http://news.denfaminicogamer.jp/interview/180206)
@@ -171,7 +171,7 @@ TASBOT 引人入勝的不只是其將傳統 TAS 影片裡在快速通關裡加�
 13. [一篇关于最速游戏通关的简易历史](http://www.vice.cn/read/a-brief-history-of-speedrun-game)
 14. [QuakeDoneQuick](http://quake.speeddemosarchive.com/quake/qdq/)
 
-## 番外篇：SGDQ 2018 簡單回顧
+## __番外篇：SGDQ 2018 簡單回顧__
 
 本次活動舉辦於 2018/6/25 至 2018/7/1，除了與 GDQ 合作的各國轉播外，在彩學台也有同步聊天室轉播，以及台北遊戲九館的現場轉播。本次並由彩學台的觀眾克里斯熱心製作了[網頁版的節目表](https://tetristhe.droppages.com/gdq/)，同樣也在節目開始前舉辦了內容介紹的前夜祭「\[有客到特別節目\] 阿九與你的 SGDQ 2018 前夜祭」。
 

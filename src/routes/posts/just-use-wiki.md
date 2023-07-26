@@ -5,6 +5,8 @@ summary: "一種心理疾病，其特徵是對於任何團體所面臨的問題�
 tags:
 ---
 
+## __維基病__
+
 - [Wikiphilia - The New Illness - Hacknot](https://web.archive.org/web/20050308113325/http://www.hacknot.info/hacknot/action/showEntry?eid=71)
   - > Wikiphilia: A mental illness characterized by the irrational conviction that any problem faced by a group can be rendered solvable through installation and use of a Wiki. This delusional ailment has been occurring in increasing numbers ever since it was first identified in 1995. Wikiphilia usually manifests in two distinct phases - the rapturous anticipation of the Wiki's potential in the short post-installation phase; slowly giving way to denial of the Wiki's failure to fulfill that potential in the second phase.
   - > 維基病：一種心理疾病，其特徵是對於任何團體所面臨的問題，具有一種非理性的堅信，認為通過安裝和使用維基（Wiki），可以解決這些問題。這種妄想性疾病自從 1995 年首次被確定以來，數量不斷增加。維基病通常有兩個明顯的階段 - 在安裝後的短期期待狂熱階段，逐漸轉移於第二階段，即對於維基無法實現其潛力的否認階段。

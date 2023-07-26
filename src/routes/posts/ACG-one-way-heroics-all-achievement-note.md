@@ -7,7 +7,7 @@ tags: ACG, Game
 
 <iframe src="https://store.steampowered.com/widget/266210/" title="one way heroics steam shop" frameborder="0" width="646" height="190" style="height: 190px;"></iframe>
 
-## 前言
+## __前言__
 
 《片道勇者》，真的是款好遊戲啊，從 2012 發表至今已經過了 10 年，依然讓人沈迷其中不能自拔，彷彿進到精神時光屋，一玩就是好幾小時過去，定價也十分親民，歷史低價時更只需要 24 塊，比破盤大特賣還破盤。目前我的遊玩時數是 62.7 小時，成就解鎖進度 44/59，其實是差不多可以取得全成就的時數了，只是中間莫名在「冒險者」+「艱困旅程」卡了好一段時間，最後是降到普通難度跟著無次元倉庫成就一起解掉。
 
@@ -20,7 +20,7 @@ tags: ACG, Game
 - [隠し要素 - 片道勇者 非公式攻略 wiki](https://katamichihero.wiki.fc2.com/wiki/%E9%9A%A0%E3%81%97%E8%A6%81%E7%B4%A0)
 - [片道勇者プラス人早マニア攻略解説 wiki](https://katamichimania.wiki.fc2.com/)
 
-## 成就一覽（WIP）
+## __成就一覽（WIP）__s
 
  <div style="margin: .5em auto 1em; padding: 4px 2px; width: fit-content; transform: skewX(-10deg); font-size: 2em; color: white; background: black;">以下內容含有劇情透露</div>
 

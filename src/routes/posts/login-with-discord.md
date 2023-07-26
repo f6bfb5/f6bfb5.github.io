@@ -6,7 +6,7 @@ tags: F2E
 
 - [「Discord の ID でログイン」を実装する(Oauth2) - Qiita](https://qiita.com/masayoshi4649/items/46fdb744cb8255f5eb98)
 
-## 1. 於 Discord Developer Portal 登錄應用
+## __1. 於 Discord Developer Portal 登錄應用__
 
 ### a. 取得 「Client ID」和「Client Secert」
 
@@ -30,12 +30,12 @@ tags: F2E
 4. 就可於頁面下方取得認證用的連結
    - 例：`https://discord.com/api/oauth2/authorize?client_id=`[CLIENT ID]`&redirect_uri=`[REDIRECT URL]`&response_type=code&scope=`[SCOPE]
 
-## 2. 從認證連結取得「code」
+## __2. 從認證連結取得「code」__
 
 - 使用認證連結登入
   - 重導向到結果頁面後，網址上會多出一個回傳的 `code` 參數
 
-## 3. 使用「code」取得「access token」
+## __3. 使用「code」取得「access token」__
 
 - 使用這個 `code` 送出請求
   - 取得 `access_token`，才能擁有存取資料的權限
@@ -69,7 +69,7 @@ curl -X POST
 - `access token` 的有效期限為 604800 秒＝一個禮拜
   - 若有更新需求，須使用回傳內容中的 `refresh token` 重新送出請求
 
-## 4. 使用「access token」取得使用者資料
+## __4. 使用「access token」取得使用者資料__
 
 ### a. 傳送 GET 請求到 Discord API
 
@@ -98,7 +98,7 @@ curl -H "Authorization: Bearer [ACCESS TOKEN]"
 - 搭配頭像網址取得圖片
   - `https://cdn.discordapp.com/avatars/`[Discord ID]`/`[大頭貼 ID]
 
-## 5. 使用 refresh token 重新取得 access token
+## __5. 使用 refresh token 重新取得 access token__
 
 ### a. 傳送 POST 請求到 Discord API
 
@@ -124,7 +124,7 @@ curl -X POST
 }
 ```
 
-## 範例
+## __範例__
 
 以下示範透過此方式，取得你的 Discord ID 與大頭貼圖片。
 

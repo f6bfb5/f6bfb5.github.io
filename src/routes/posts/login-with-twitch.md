@@ -4,7 +4,7 @@ date: 2023-05-02T20:11:13.000Z
 tags: F2E
 ---
 
-## 1. 於 Twitch developers console 登錄應用
+## __1. 於 Twitch developers console 登錄應用__
 
 1. 登入 [Twitch Developers](https://dev.twitch.tv/console/apps)
 2. 「Register Your Application」
@@ -17,7 +17,7 @@ tags: F2E
    - 「Create」
 4. 「Manage」取得 `Client ID`，之後會用到
 
-## 2. 進行認證取得 access token
+## __2. 進行認證取得 access token__
 
 - Twitch API 分有兩種 access token
   - User access tokens
@@ -55,7 +55,7 @@ tags: F2E
    - Implicit grant flow 會將 access token 回傳到網址上
      - JavaScript 可使用 `document.location.hash` 取得
 
-## 3. 使用 access token 取得使用者資料
+## __3. 使用 access token 取得使用者資料__
 
 - 使用 access token 即可取得使用者資料
   - [Get Users](https://dev.twitch.tv/docs/api/reference/#get-users)
@@ -88,7 +88,7 @@ tags: F2E
     ```
 - API 一覽：[Reference](https://dev.twitch.tv/docs/api/reference/)
 
-## 範例
+## __範例__
 
 <button id="js-twitch-button">Login with Twitch</button>
 <span id="js-twitch-status" />
