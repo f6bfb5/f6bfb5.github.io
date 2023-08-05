@@ -2,7 +2,7 @@
 title: "網際網路的海洋"
 date: 1969-07-21T02:59:00.000Z
 summary: ""
-tags: Toolbox
+tags:
 ---
 
 ![海と記憶](https://live.staticflickr.com/3936/15429660870_defe4c65ca_b.jpg)

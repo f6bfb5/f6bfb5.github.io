@@ -439,6 +439,30 @@ flowchart TB
 </div>
 <AutomaticColorText backgroundColor="#00ff95" text="text" />
 <BorderedText />
+<div style="margin-top: 16px; margin-bottom: 16px;">
+  <div>
+    <span style="padding: 0 .25em; background: #f0f0f0;">#f0f0f0</span>
+    <span style="padding: 0 .25em; background: #d4d4d4;">#d4d4d4</span>
+    <span style="padding: 0 .25em; background: #b8b8b8;">#b8b8b8</span>
+    <span style="padding: 0 .25em; background: #9c9c9c;">#9c9c9c</span>
+    <span style="padding: 0 .25em; background: #7f7f7f;">#7f7f7f</span>
+    <span style="padding: 0 .25em; color: white; background: #636363;">#636363</span>
+    <span style="padding: 0 .25em; color: white; background: #474747;">#474747</span>
+    <span style="padding: 0 .25em; color: white; background: #2b2b2b;">#2b2b2b</span>
+    <span style="padding: 0 .25em; color: white; background: #0f0f0f;">#0f0f0f</span>
+  </div>
+  <div style="margin-top: 8px;">
+    <span style="padding: 0 .25em; background: #f2f3f4;">#f2f3f4</span>
+    <span style="padding: 0 .25em; background: #dadedf;">#dadedf</span>
+    <span style="padding: 0 .25em; background: #c1c7c9;">#c1c7c9</span>
+    <span style="padding: 0 .25em; background: #a7afb2;">#a7afb2</span>
+    <span style="padding: 0 .25em; background: #8c979a;">#8c979a</span>
+    <span style="padding: 0 .25em; color: white; background: #6f7c80;">#6f7c80</span>
+    <span style="padding: 0 .25em; color: white; background: #555f61;">#555f61</span>
+    <span style="padding: 0 .25em; color: white; background: #373d3f;">#373d3f</span>
+    <span style="padding: 0 .25em; color: white; background: #131516;">#131516</span>
+  </div>
+</div>
 
 ```
 ⣠⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⣿⣿⣷⣄⣀⣤⠰
@@ -451,6 +475,18 @@ flowchart TB
 ⣀⣀⣤⣶⣿⣿⣿⣿⣿⣿⣿⠿⠁
 ⠀⠉⠛⠿⠿⠿⠿⠟⠋⠁
 ```
+
+<div style="font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; color:#1D9BF0; line-height: 1;">
+⣠⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⣿⣿⣷⣄⣀⣤⠰<br />
+⣿⣿⣤⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⣿⣥⠖<br />
+⡘⣿⣿⣿⣷⣤⣀⣀⣿⣿⣿⣿⣿⣿⣿⣿<br />
+⢳⣮⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿<br />
+⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠸<br />
+⠀⠀⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟<br />
+⠀⠀⠀⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿⠟<br />
+⣀⣀⣤⣶⣿⣿⣿⣿⣿⣿⣿⠿⠁<br />
+⠀⠉⠛⠿⠿⠿⠿⠟⠋⠁
+</div>
 
 <div style="margin: auto; width: fit-content; font-size: 50pt;" class="rainbow-gradient">𓂀</div>
 
@@ -738,22 +774,51 @@ a &= b \\
   &= c
 \end{align}
 ```
-<div>
-  <img src="https://picsum.photos/24/24/" alt="placeholder" title="placeholder" style="margin: 0; padding: 0; display: inline;" />
-  <span class="ballon">
-    何なんだよ日本。一億総活躍社会じゃねーのかよ。昨日見事に保育園落ちたわ。どうすんだよ私活躍出来ねーじゃねーか。
-  </span>
+
+<div style="display: flex;">
+  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 4px;">
+    <img src="https://picsum.photos/40/40/" alt="placeholder" title="placeholder" style="margin: 0; padding: 0; display: inline;" />
+    <span style="text-wrap: nowrap;">名無し</span>
+  </div>
+  <div style="margin-left: 8px;">
+    <span class="ballon">
+      何なんだよ日本。一億総活躍社会じゃねーのかよ。昨日見事に保育園落ちたわ。どうすんだよ私活躍出来ねーじゃねーか。
+    </span>
+    <time style="display: block; margin-top: 4px; max-width: calc(100% - 100px); font-size: 80%; text-align: right; color: gray;">{new Date().toISOString().slice(2).replaceAll('-', '/').replace('T', `(${['日', '一','二','三','四','五','六'][new Date().getDay()]})`).slice(0,-5)}</time>
+  </div>
 </div>
 
 <div style="margin-top: 1em;">
   <div style="display: flex; align-items: center;">
-    <img src="https://picsum.photos/24/24/" alt="placeholder" title="placeholder" style="margin: 0; padding: 0; display: inline;" />
-    <span style="margin-left: 1em;">以下、名無し が送りします:</span>
+    <img src="https://picsum.photos/40/40/" alt="placeholder" title="placeholder" style="margin: 0; padding: 0; display: inline;" />
+    <div style="margin-left: 1em;">
+      <span>以下、名無し が送りします:</span>
+      <time style="display: block; margin-top: 4px; font-size: 80%; color: gray;">{new Date().toISOString().slice(2).replaceAll('-', '/').replace('T', `(${['日', '一','二','三','四','五','六'][new Date().getDay()]})`).slice(0,-5)}</time>
+    </div>
   </div>
   <p class="ballon2">
     何なんだよ日本。一億総活躍社会じゃねーのかよ。昨日見事に保育園落ちたわ。どうすんだよ私活躍出来ねーじゃねーか。
   </p>
 </div>
+
+<div style="margin-top: 24px; height: 12px;">
+  <span style="background: #2E64FE; padding: 6px 10px; border-radius: 5px; color: #ffffff; font-weight: bold; margin-left: 10px;">Title</span>
+</div>
+<div style="padding: 20px 15px 10px; border-radius: 5px; border: 2px solid #2E64FE; line-height: 1.2; background: white;">
+  <span>content</span>
+</div>
+
+- [Arrow (symbol) - Wikipedia](https://en.wikipedia.org/wiki/Arrow_(symbol))
+
+<div style="margin-top: 24px; line-height: 1;">
+  <span class="animation-clip-background">🢂</span>
+</div>
+
+<!-- <img src="https://i.imgur.com/K6TnpsB.png" style="clip-path: url(#arrow);" /> -->
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 24">
+  <path d="M8 4 8 2 10 0 12 0 23 11 23 12 12 24 10 24 8 22 8 20 13 15 2 15 0 13 0 11 2 9 13 9" fill="#FFFFFF" />
+</svg>
 
 <script>
   import CircleBorder from "$lib/CircleBorder.svelte";
@@ -762,10 +827,10 @@ a &= b \\
   import BorderedText from "$lib/BorderedText.svelte";
   import BalloonQuote2 from "$lib/BalloonQuote2.svelte";
 
-  let range = {
-    from: 1,
-    to: 5,
-    
+let range = {
+from: 1,
+to: 5,
+
     // range[Symbol.iterator]()
     [Symbol.iterator]() {
       this.current = this.from;
@@ -778,36 +843,38 @@ a &= b \\
         return { done: true };
       }
     }
-  };
-  // for (let num of range) {
-  //   console.log(num);
-  // }
 
-  let randomNum = [
-    Math.floor(Math.random()*89999) + 10000,
-    Math.floor(Math.random()*89999) + 10000,
-    Math.floor(Math.random()*89999) + 10000,
-    Math.floor(Math.random()*89999) + 10000,
-    Math.floor(Math.random()*89999) + 10000
-  ]
-  // setInterval(() => {
-  //   for(let i=0; i<randomNum.length; i++) {
-  //     randomNum[i] = Math.floor(Math.random()*89999) + 10000;
-  //   }
-  // }, 80)
+};
+// for (let num of range) {
+// console.log(num);
+// }
 
-  function FizzBuzz() {
-    for(let i=0; i<100; i++) {
-      let output = '';
-      if(n % 3 === 0) output += 'Fizz';
-      if(n % 5 === 0) output += 'Buzz';
-  
+let randomNum = [
+Math.floor(Math.random()*89999) + 10000,
+Math.floor(Math.random()*89999) + 10000,
+Math.floor(Math.random()*89999) + 10000,
+Math.floor(Math.random()*89999) + 10000,
+Math.floor(Math.random()*89999) + 10000
+]
+// setInterval(() => {
+// for(let i=0; i<randomNum.length; i++) {
+// randomNum[i] = Math.floor(Math.random()\*89999) + 10000;
+// }
+// }, 80)
+
+function FizzBuzz() {
+for(let i=0; i<100; i++) {
+let output = '';
+if(n % 3 === 0) output += 'Fizz';
+if(n % 5 === 0) output += 'Buzz';
+
       if(output.length > 0) console.log(output);
       else console.log(i);
     }
-  }
 
-  const incrementingNum = [...Array(5).keys()];
+}
+
+const incrementingNum = [...Array(5).keys()];
 </script>
 
 <style scoped>
@@ -1048,4 +1115,57 @@ a &= b \\
   }
 
   /* ---------- */
+
+.animation-clip-background {
+  font-size: 288px;
+  font-weight: bold;
+  
+  background: url('https://i.imgur.com/frsPyaZ.png');
+  animation: background-timer 1s steps(1, end) infinite;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  user-select: none;
+
+  position: relative;
+  z-index: 1;
+}
+.animation-clip-background::after {
+  content: '🡺';
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* text-shadow: -1px 1px 0 var(--subtitle-color), 1px 1px 0 var(--subtitle-color), 1px -1px 0 var(--subtitle-color), -1px -1px 0 var(--subtitle-color); */
+  /* -webkit-text-stroke: 4px var(--subtitle-color); */
+  color: transparent;
+  z-index: -1;
+}
+
+@keyframes background-timer {
+  0%, 100% {
+    background-image: url('https://i.imgur.com/K6TnpsB.png');
+  }
+  17% {
+    background-image: url('https://i.imgur.com/wgAOJuq.png');
+  }
+  30% {
+    background-image: url('https://i.imgur.com/erCA0z0.png');
+  }
+  42% {
+    background-image: url('https://i.imgur.com/ugmTTxZ.png');
+  }
+  63% {
+    background-image: url('https://i.imgur.com/iA8Trjg.png');
+  }
+  71% {
+    background-image: url('https://i.imgur.com/mAvTlnE.png');
+  }
+  90% {
+    background-image: url('https://i.imgur.com/SgwJ0Yq.png');
+  }
+}
 </style>
