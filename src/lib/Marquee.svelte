@@ -14,6 +14,7 @@
     contentNodeWidth = contentNode.offsetWidth + "px";
   }
   function getAnimationDuration(text) {
+    if (text.length == 0) return 0;
     return text.length / 8 > 6 ? text.length / 8 + "s" : "6s";
   }
   function playNext() {
@@ -63,7 +64,8 @@
   */
   @keyframes slideIn {
     0% {
-      text-indent: 724px;
+      /* text-indent: 724px; */
+      text-indent: max(724px, 100%);
     }
     38% {
       text-indent: 8px;
@@ -132,7 +134,7 @@
     width: fit-content;
     /* max-width: 100%; */
     white-space: nowrap;
-    text-indent: 724px;
+    text-indent: max(724px, 100%);
   }
   .slideIn {
     animation: slideIn 2s forwards;

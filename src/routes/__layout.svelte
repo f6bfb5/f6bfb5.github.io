@@ -29,6 +29,7 @@
   <script
     async
     src="https://www.googletagmanager.com/gtag/js?id=G-CRDP7WTXSQ"></script>
+  <link rel="stylesheet" href="./scrollbar-thumb.css" />
 </svelte:head>
 
 <svelte:window on:load={pageLoaded()} />

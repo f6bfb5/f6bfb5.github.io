@@ -1,4 +1,5 @@
 @import "fonts/fonts.css";
+/* @import "scrollbar-thumb.css"; */
 @import "highlight.css";
 @import "toc.css";
 
@@ -11,6 +12,25 @@
 }
 
 :root {
+  /* --bg-color: #150439;
+  --outer-bg-color: #150439;
+  --title-color: #f8ffeb;
+  --subtitle-color: #f2ffda;
+  --text-color: #ecffc9;
+  --subtext-color: #ffff89;
+  --link-color: #3fff00;
+  --link-hover-color: #faff00;
+  --strong-color: #9f1212; */
+
+  /* 
+  #cadc9f
+  #0f380f
+  #306230
+  #8bac0f
+  #9bbc0f
+  #000000
+  */
+
   --bg-color: #cadc9f;
   --outer-bg-color: #cadc9f;
   --title-color: #0f380f;
@@ -30,6 +50,8 @@ body {
 
 body {
   margin: 0;
+  /* color: var(--text-color);
+  background-color: var(--outer-bg-color); */
   transition: background-color 0.2s ease-in-out;
 }
 
@@ -39,6 +61,8 @@ h3,
 h4,
 h5,
 h6 {
+  /* margin: 0; */
+  /* padding: 0.5em 0 0.25em 0; */
   margin: 0.5em 0 0.25em 0;
   padding: 0;
 }
@@ -95,6 +119,7 @@ h4 {
   margin: 10px 5px 10px 3px;
   color: var(--text-color);
   border-left: 8px solid var(--subtitle-color);
+  /* border-bottom: 1px solid var(--subtitle-color); */
 }
 
 h4::before {
@@ -148,6 +173,15 @@ li::marker {
   color: var(--title-color);
   font-weight: bold;
 }
+
+/* li + li {
+  margin-top: 0.25em;
+} */
+
+/* li p {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+} */
 
 li p {
   padding: 0;
@@ -232,6 +266,7 @@ strong {
     var(--strong-color) 50%,
     var(--strong-color) 100%
   );
+  /* font-weight: regular; */
 }
 
 img {
@@ -250,6 +285,10 @@ hr {
 }
 
 hr::after {
+  /* Hollow arrow */
+  /* content: ""; */
+  /* Solid arrow */
+  /* content: ""; */
   /* Solid arrow with border */
   content: "";
   letter-spacing: 4em;
@@ -274,6 +313,7 @@ code {
   border-radius: 2px;
   color: #eee;
   background-color: #4e9a06;
+  /* background-color: #3465a4; */
 }
 
 pre {
@@ -327,12 +367,14 @@ del {
 
 table {
   margin: 0 auto;
+  /* table-layout: fixed; */
   border-collapse: collapse;
   border: 1px solid gray;
 }
 
 th {
   padding: 0.4em 0.8em;
+  /* word-break: keep-all; */
   text-align: left;
 }
 
@@ -344,6 +386,11 @@ tbody > tr {
   https://stackoverflow.com/questions/28982198/colour-fade-to-transparent-on-both-sides-of-a-div    
   box-shadow: offset-x | offset-y | blur-radius | spread-radius | color
 */
+/* thead > tr {
+  background: var(--subtitle-color);
+  box-shadow: inset 125px 0px 125px -50px var(--outer-bg-color),
+    inset -125px 0px 125px -50px var(--outer-bg-color);
+} */
 tbody > tr:after {
   content: "";
   position: absolute;
@@ -396,6 +443,8 @@ iframe {
   width: calc(100vw - 40px);
   height: calc((100vw - 40px) / 1.7778);
   aspect-ratio: 16 / 9;
+
+  /* margin-left: -20px; */
 }
 
 .post--content img {

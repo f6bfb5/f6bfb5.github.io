@@ -146,11 +146,7 @@ IniEditor=system
 
 | 名稱                                                                                | 說明                       |
 | ----------------------------------------------------------------------------------- | -------------------------- |
-| [PS3_Sixaxis_Driver](http://blog.livedoor.jp/ebiflynageruyo/archives/38271889.html) | PS3 手把驅動程式           |
-| [JoyToKey](https://joytokey.net/en/)                                                | 使用手把模擬鍵盤行為       |
-| [HTML5 Gamepad Tester](http://html5gamepad.com/)                                    | 手把功能測試網站           |
 | [Memory Hack Software](http://memoryhacking.com/)                                   |                            |
-| [WinIPS](http://fuji.drillspirits.net/winips/)                                      | 掛載 IPS 至 SFC 遊戲       |
 | [Open-PS2-Loader](https://github.com/ifcaro/Open-PS2-Loader)                        | 讓 PS2 可透過 USB 讀取遊戲 |
 | [GS Mode Selector](https://www21.atwiki.jp/improper_code/sp/pages/85.html)          | 更改 PS2 畫面輸出          |
 | [HD_Project](https://www21.atwiki.jp/improper_code/sp/pages/69.html)                | 更改 PS2 畫面輸出          |
@@ -168,30 +164,13 @@ IniEditor=system
 
 | 名稱                                                                          | 說明                        |
 | ----------------------------------------------------------------------------- | --------------------------- |
-| [GIMP](https://www.gimp.org/downloads/)                                       | 免費開源的圖片處理軟體      |
-| [Affinity Photo](https://affinity.serif.com/en-gb/photo/)                     | PhotoShop 的類似軟體        |
 | [PhotoSift](https://www.rlvision.com/photosift/about.php)                     | 使用鍵盤快速分類圖片        |
 | [Ralpha Image Resizer](https://www.vector.co.jp/soft/winnt/art/se487522.html) | 批次化處理圖片              |
 | [ウゴツール](https://mclover.hateblo.jp/UgoTool)                              | 製作動態塗鴉效果圖片        |
-| [Gifski](https://gif.ski/)                                                    | 號稱最高品質的 GIF 壓縮程式 |
 | [apngasm](http://apngasm.sourceforge.net/)                                    | 以一系列圖片製作 APNG 動圖  |
 | [Pngyu](https://nukesaq88.github.io/Pngyu/)                                   | 壓縮 PNG 檔案               |
 
 ## 影片
-
-### 輔助
-
-| 名稱                                                                  | 說明                |
-| --------------------------------------------------------------------- | ------------------- |
-| [GANTAI](https://fairway.ne.jp/gantai/)                               | 快速加上馬賽克      |
-| [Mkvtoolnix](https://mkvtoolnix.download/)                            | 處理 Mastroska 檔案 |
-| [Aegisub](https://github.com/Aegisub/Aegisub)                         | 影片字幕編輯軟體    |
-| [SubtitleEdit](https://www.nikse.dk/subtitleedit)                     | 影片字幕編輯軟體    |
-| [pyTranscriber](https://github.com/raryelcostasouza/pyTranscriber)    | 自動產生字幕軟體    |
-| [mtn](https://gitlab.com/movie_thumbnailer/mtn/-/wikis/home#download) | 製作影片縮時一覽圖  |
-
-- [Revan654/movie-thumbnailer-mtn](https://github.com/Revan654/movie-thumbnailer-mtn)
-- `mtn.exe -c 4 -w 1024 -h 0 -r 0 -s 60 -z -P -f [path-to-font-file] [video-file]`
 
 ## 音樂
 

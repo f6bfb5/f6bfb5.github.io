@@ -311,35 +311,6 @@ flowchart TB
 
 <span style="padding-left: 2px; color: yellow; background-color: red; border-bottom: 1px solid red;">TEXT</span><span style="background-color: red; clip-path: polygon(0 0, 100% 100%, 0 100%); border-bottom: 1px solid red;">&nbsp;</span><span style="display: inline-block; margin-left: -2px; width: 8em; border-bottom: 1px solid red;">TEXT</span>
 
-🟥🟧🟨🟩🟦🟫🟪⬛⬜
-
-```
-🟥🟥
-⬛🟥🟥
-
-🟧
-🟧
-🟧🟧
-
-🟨🟨
-🟨🟨
-
-⬛🟩🟩
-🟩🟩
-
-🟦
-🟦
-🟦
-🟦
-
-⬛🟫
-⬛🟫
-🟫🟫
-
-⬛🟪
-🟪🟪🟪
-```
-
 <div style="display: flex; align-items: center; gap: 8px;">
   <div style="flex-grow: 1;">
     <CircleBorder text="</>" />
@@ -436,6 +407,10 @@ flowchart TB
     <span style="padding: 0 .25em; background-color: #2aa198; color: white;">#2aa198</span>
     <span style="padding: 0 .25em; background-color: #859900; color: #eee;">#859900</span>
   </div>
+  <div style="margin-top: 8px;">
+    <span style="padding: 0 .25em; background-color: #FFF9C4; color: black;">#FFF9C4</span>
+    <span style="padding: 0 .25em; background-color: #ffcdd2; color: black;">#ffcdd2</span>
+  </div>
 </div>
 <AutomaticColorText backgroundColor="#00ff95" text="text" />
 <BorderedText />
@@ -475,18 +450,6 @@ flowchart TB
 ⣀⣀⣤⣶⣿⣿⣿⣿⣿⣿⣿⠿⠁
 ⠀⠉⠛⠿⠿⠿⠿⠟⠋⠁
 ```
-
-<div style="font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; color:#1D9BF0; line-height: 1;">
-⣠⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⣿⣿⣷⣄⣀⣤⠰<br />
-⣿⣿⣤⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⣿⣥⠖<br />
-⡘⣿⣿⣿⣷⣤⣀⣀⣿⣿⣿⣿⣿⣿⣿⣿<br />
-⢳⣮⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿<br />
-⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠸<br />
-⠀⠀⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟<br />
-⠀⠀⠀⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿⠟<br />
-⣀⣀⣤⣶⣿⣿⣿⣿⣿⣿⣿⠿⠁<br />
-⠀⠉⠛⠿⠿⠿⠿⠟⠋⠁
-</div>
 
 <div style="margin: auto; width: fit-content; font-size: 50pt;" class="rainbow-gradient">𓂀</div>
 
@@ -721,64 +684,10 @@ ipconfig /flushdns
   {/each}
 </div>
 
-```org
-#+TITLE: Org modeでレポートを書く
-#+AUTHOR: Fourmsushi
-#+OPTIONS: toc:nil
-
-* Task List
-
-** TODO Write Article for Day 16 - Org w/out emacs
-  DEADLINE: <2019-01-25 12:00>
-
-*** DONE Write sample org snippet for article
-    - Include at least one TODO and one DONE item
-    - Show notes
-    - Show SCHEDULED and DEADLINE
-
-*** TODO Take Screenshots
-
-** Dentist Appointment
-  SCHEDULED: <2019-01-31 13:30-14:30>
-
-# これはコメントなので表示されません。
-
-**太字**
-
-/italic/
-
-_下線_
-
-+きのこの山とたけのこの里、どっちでもよくね+
-
-~inline code~
-
-=monospaced=
-
-- 箇条書き
-- あ
-  1. a
-  2. b
-- あ
-
-横線
-
----
-
-: I have a pen.
-
-$\frac{1}{2} = 0.5$
-
-\begin{align}
-a &= b \\
-  &= c
-\end{align}
-```
-
-<div style="display: flex;">
+<div style="display: flex; margin-top: 8px;">
   <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 4px;">
     <img src="https://picsum.photos/40/40/" alt="placeholder" title="placeholder" style="margin: 0; padding: 0; display: inline;" />
-    <span style="text-wrap: nowrap;">名無し</span>
+    <span style="transform: scale(0.8, 1); text-wrap: nowrap;">名無し</span>
   </div>
   <div style="margin-left: 8px;">
     <span class="ballon">
