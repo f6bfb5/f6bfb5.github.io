@@ -16,7 +16,6 @@ tags:
 - [未解決事件・失踪/行方不明事件・印象に残った事件](https://seesaawiki.jp/w/mikaiketsujiken/d/%CC%A4%B2%F2%B7%E8%BB%F6%B7%EF%A1%A6%BC%BA%ED%A9/%B9%D4%CA%FD%C9%D4%CC%C0%BB%F6%B7%EF%A1%A6%B0%F5%BE%DD%A4%CB%BB%C4%A4%C3%A4%BF%BB%F6%B7%EFTOP)
 - [帰らざる２ちゃんねる](http://mewmirror.coresv.com/)
 - [MOTHER2 『はえみつ』なしゲップー学論文](https://note.com/shel4869/n/n1e9779e3c38f)
-- [夏バテからくる自律神経の乱れについて](https://www.yukari-clinic.jp/weblog/%e5%a4%8f%e3%83%90%e3%83%86%e3%81%8b%e3%82%89%e3%81%8f%e3%82%8b%e8%87%aa%e5%be%8b%e7%a5%9e%e7%b5%8c%e3%81%ae%e4%b9%b1%e3%82%8c%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/)
 
 ---
 
@@ -47,10 +46,8 @@ tags:
 | 名稱                                                 | 內容                             |
 | ---------------------------------------------------- | -------------------------------- |
 | [教科書には載らないニッポンのインターネットの歴史][] | 「教科書不會寫的日本網際網路史」 |
-| [Cameron's World][]                                  | 給舊時代網路的情書               |
 
 [教科書には載らないニッポンのインターネットの歴史]: https://web.archive.org/web/20030801113739/http://blogdex.tripod.co.jp/encyclopedia/
-[cameron's world]: https://www.cameronsworld.net/
 
 - [佐倉葉ウェブ文化研究室](https://websitemap.sakura.ne.jp/index.html)
 - [home of the first website](http://info.cern.ch/)
