@@ -5,8 +5,6 @@ summary: "各種電腦工具軟體整理。"
 tags: Toolbox
 ---
 
-各種電腦工具軟體整理。
-
 ## 系統
 
 | 名稱                                                                                            | 說明                                                             |
@@ -69,16 +67,12 @@ tags: Toolbox
 
 | 名稱                                                                       | 說明                                                |
 | -------------------------------------------------------------------------- | --------------------------------------------------- |
-| [OpenVPN](https://openvpn.net/download-open-vpn/)                          | VPN Client                                          |
+| [OpenVPN](https://openvpn.net/download-open-vpn/)                          | VPN client                                          |
 | [WinSCP](https://winscp.net/eng/download.php)                              | SFTP client                                         |
 | [Putty](https://www.putty.org/)                                            | SSH and telnet client                               |
 | [MobaXterm](https://mobaxterm.mobatek.net/)                                | tabbed SSH client                                   |
 | [TCPView](https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview) | show detailed listings of all TCP and UDP endpoints |
 | [ngrok](https://ngrok.com/)                                                | make a public ip                                    |
-| [xlight](https://www.xlightftpd.com/)                                      | Windows FTP and SFTP Server                         |
-| [HFS](https://www.rejetto.com/hfs/)                                        | HTTP File Server                                    |
-| [croc](https://github.com/schollz/croc)                                    | securely transfer files between 2 computers         |
-| [Send Anywhere](https://send-anywhere.com/)                                |                                                     |
 | [AdapterWatch](https://www.nirsoft.net/utils/awatch.html)                  | 監測網路卡使用狀況                                  |
 | [CurrPorts](https://www.nirsoft.net/utils/cports.html)                     | 監測應用程式使用的網路 port                         |
 | [Termshark](https://termshark.io/)                                         | 命令列版本的 WireShark                              |
@@ -89,7 +83,6 @@ tags: Toolbox
 | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
 | [終結內容農場](https://chrome.google.com/webstore/detail/content-farm-terminator/lcghoajegeldpfkfaejegfobkapnemjl)  | 要是感到厭煩，放棄也是一種選擇啊。  |
 | [ClearURLs](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk/)                  | 移除網址的多餘內容                  |
-| [TabAttack](https://chrome.google.com/webstore/detail/tabattack/ginflokhdahakklidfjlogllkkhokidj)                   | 轉換瀏覽頁面網址成為 markdown 格式  |
 | [Close download bar](https://chrome.google.com/webstore/detail/close-download-bar/bkfclmjddajodogcbpohgfpdkgdecgmg) | 設定 `Alt + W` 為「關閉下載欄」功能 |
 | [HeadingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi)               | 快速顯示網站內容結構                |
 
@@ -99,22 +92,18 @@ tags: Toolbox
 
 #### Shopping
 
-- [Augmented Steam](https://chrome.google.com/webstore/detail/augmented-steam/dnhpnfgdlenaccegplpojghhmaamnnfp)
 - [Keepa - Amazon Price Tracker](https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo)
 - [Add to Buyee](https://chrome.google.com/webstore/detail/add-to-buyee/ocjpgibbldacmpedgjgmcdcikjeopnpb)
 
 ## 遠端協作
 
 - Webex
-- Jitsi
 - Splashtop
 
 ## 影音播放
 
 | 名稱                                           | 說明 |
 | ---------------------------------------------- | ---- |
-| [mpv](https://mpv.io/)                         |      |
-| [Foobar2000](https://www.foobar2000.org/)      |      |
 | [MangaMeeya](https://mangameeya.softonic.jp/)  |      |
 | [JPEGView](https://github.com/sylikc/jpegview) |      |
 
@@ -170,13 +159,10 @@ IniEditor=system
 | [apngasm](http://apngasm.sourceforge.net/)                                    | 以一系列圖片製作 APNG 動圖  |
 | [Pngyu](https://nukesaq88.github.io/Pngyu/)                                   | 壓縮 PNG 檔案               |
 
-## 影片
-
 ## 音樂
 
 | 名稱                                                                   | 說明                     |
 | ---------------------------------------------------------------------- | ------------------------ |
-| [Audacity](https://www.audacityteam.org/)                              |                          |
 | [GoldWave](https://www.goldwave.com/)                                  |                          |
 | [VocalShifter](http://ackiesound.ifdef.jp/download.html#vs)            |                          |
 | [MP3Tag](https://www.mp3tag.de/en/)                                    |                          |

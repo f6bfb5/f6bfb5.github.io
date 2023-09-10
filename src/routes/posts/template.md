@@ -603,10 +603,6 @@ flowchart TB
   <path d="M8 4 8 2 10 0 12 0 23 11 23 12 12 24 10 24 8 22 8 20 13 15 2 15 0 13 0 11 2 9 13 9" fill="#FFFFFF" />
 </svg>
 
-## Table
-
-- [スーパーロボット大戦 64 index](https://cyfis.nomaki.jp/base/scenario_n64/index_n64.html)
-
 <div style="width: 360px; height: 24px; border: 1px solid black;">
 <div style="width: 120px; max-width: 100%; height: 4px; margin: auto; margin-top: -4px; transition: width .2s ease-in-out; background: radial-gradient(ellipse farthest-corner at 50% 100%,#1da1f2 0,#1da1f2 25%,hsla(0,0%,100%,0) 75%);" />
 </div>
