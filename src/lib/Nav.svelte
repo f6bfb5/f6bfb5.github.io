@@ -47,7 +47,7 @@
   }
   a:first-child {
     text-overflow: ellipsis;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   a:last-child {
     margin-right: 20px;
@@ -61,8 +61,8 @@
     content: "";
     position: absolute;
     transition: transform 0.3s ease;
-    left: 0;
     bottom: 0;
+    left: 0;
     width: 100%;
     height: 2px;
     background: #aaa;
@@ -76,5 +76,21 @@
 
   .selected::before {
     background: #fd6378;
+  }
+
+  .selected::after {
+    content: '';
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 4px;
+    bottom: 0px;
+    left: 0;
+    background: radial-gradient(ellipse farthest-corner at 50% 100%,#fd6378 0,#fd6378 25%,hsla(0,0%,100%,0) 75%);
+    transform: scaleX(0);
+    transition: transform .2s ease-in-out;
+  }
+  .selected:hover::after {
+    transform: scaleX(1);
   }
 </style>

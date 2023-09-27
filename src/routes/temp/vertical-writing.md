@@ -1,3 +1,10 @@
+---
+title: "template.md"
+date: 1969-07-21T02:56:00.000Z
+summary: "template and snippet elements of markdown"
+tags: F2E
+---
+
 ## 縦書き
 
 - [html と css で縦書き](https://memorocchi.net/hpcss-tategaki/)

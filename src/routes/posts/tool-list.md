@@ -9,7 +9,6 @@ tags: Toolbox
 
 | 名稱                                                                                            | 說明                                                             |
 | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| [Flow Launcher](https://www.flowlauncher.com/)                                                  | 快速執行程式與各種功能的 launcher，alt: [wox][] 似乎已經不再維護 |
 | [PIME](https://github.com/EasyIME/PIME/releases)                                                | 新酷音輸入法，包含可在 Windows 11 上使用的舊注音輸入法           |
 | [orchis](http://www.eonet.ne.jp/~gorota/)                                                       | 快速執行程式                                                     |
 | [CLaunch](https://hp.vector.co.jp/authors/VA018351/en/claunch.html)                             | 快速開啟資料夾                                                   |
@@ -25,21 +24,14 @@ tags: Toolbox
 | [ShellExView](https://www.nirsoft.net/utils/shexview.html)                                      | 管理 shell                                                       |
 | [HWMONITOR](https://www.cpuid.com/softwares/hwmonitor.html#version-history)                     | 監測系統狀況                                                     |
 | [Hayabusa](https://itib.hatenablog.com/entry/2021/12/31/222946)                                 | 快速檢測 Windows 事件                                            |
-| [RunCat](https://github.com/Kyome22/RunCat_for_windows)                                         | KAWAII                                                           |
-
-[wox]: http://www.wox.one/
-[windirstat]: https://windirstat.net/
-
-## 檔案
-
-| 名稱                                                | 說明                         |
-| --------------------------------------------------- | ---------------------------- |
 | [PowerToys](https://github.com/microsoft/PowerToys) | 微軟推出的多功能系統輔助軟體 |
 | [AntRenamer](https://antp.be/software/renamer)      | 快速規則式重新命名大量檔案   |
 | [Unlocker](http://emptyloop.com/unlocker/)          | 強制解除檔案使用鎖定狀態     |
 | [FastCopy](https://fastcopy.jp/en/)                 | 快速複製／備份檔案           |
 
 - [jnzd/vimified-windows-explorer](https://github.com/jnzd/vimified-windows-explorer)
+
+[windirstat]: https://windirstat.net/
 
 ## 下載
 
@@ -67,15 +59,12 @@ tags: Toolbox
 
 | 名稱                                                                       | 說明                                                |
 | -------------------------------------------------------------------------- | --------------------------------------------------- |
-| [OpenVPN](https://openvpn.net/download-open-vpn/)                          | VPN client                                          |
 | [WinSCP](https://winscp.net/eng/download.php)                              | SFTP client                                         |
 | [Putty](https://www.putty.org/)                                            | SSH and telnet client                               |
 | [MobaXterm](https://mobaxterm.mobatek.net/)                                | tabbed SSH client                                   |
 | [TCPView](https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview) | show detailed listings of all TCP and UDP endpoints |
-| [ngrok](https://ngrok.com/)                                                | make a public ip                                    |
 | [AdapterWatch](https://www.nirsoft.net/utils/awatch.html)                  | 監測網路卡使用狀況                                  |
 | [CurrPorts](https://www.nirsoft.net/utils/cports.html)                     | 監測應用程式使用的網路 port                         |
-| [Termshark](https://termshark.io/)                                         | 命令列版本的 WireShark                              |
 
 ### chrome 插件
 
@@ -86,7 +75,6 @@ tags: Toolbox
 | [Close download bar](https://chrome.google.com/webstore/detail/close-download-bar/bkfclmjddajodogcbpohgfpdkgdecgmg) | 設定 `Alt + W` 為「關閉下載欄」功能 |
 | [HeadingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi)               | 快速顯示網站內容結構                |
 
-- [Violentmonkey](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
 - [UI.Vision RPA](https://chrome.google.com/webstore/detail/uivision-rpa/gcbalfbdmfieckjlnblleoemohcganoc)
 - [無料で Chrome・Firefox の操作を自動化＆ファイルのアップロードやデスクトップの操作もできる「UI.Vision」](https://gigazine.net/news/20220417-ui-vision/)
 
@@ -94,42 +82,6 @@ tags: Toolbox
 
 - [Keepa - Amazon Price Tracker](https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo)
 - [Add to Buyee](https://chrome.google.com/webstore/detail/add-to-buyee/ocjpgibbldacmpedgjgmcdcikjeopnpb)
-
-## 遠端協作
-
-- Webex
-- Splashtop
-
-## 影音播放
-
-| 名稱                                           | 說明 |
-| ---------------------------------------------- | ---- |
-| [MangaMeeya](https://mangameeya.softonic.jp/)  |      |
-| [JPEGView](https://github.com/sylikc/jpegview) |      |
-
-### MangaMeeya
-
-- [Avisynth を活用しよう](https://geolog.mydns.jp/www.geocities.co.jp/comicview7/meeya_avisynth/avisynth.html)
-- [アーカイブ - AviSynth.info](https://www.avisynth.info/?%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96)
-
-```
-縦横比固定リサイズ(1.5,0,0,false,false,false,false,false,false,true);
-YUY2へ変換(false)
-WarpSharp(-20,3,128,-0.6)
-KenKunNR(256,1,128)
-アンシャープマスク(130,2,0)
-RGB24へ変換(false)
-```
-
-### JPEGView
-
-```ini
-ShowFullScreen=false
-WrapAroundFolder=false
-SkipFileOpenDialogOnStartup=true
-AutoZoomMode=Fit
-IniEditor=system
-```
 
 ## 遊戲輔助工具
 

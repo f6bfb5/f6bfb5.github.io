@@ -93,6 +93,12 @@
 
   h1 {
     margin-left: 16px;
+    color: transparent;
+    background: linear-gradient(to bottom, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px green;
+    filter: drop-shadow(2px 2px var(--subtext-color));
 
     position: relative;
     z-index: 0;

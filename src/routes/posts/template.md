@@ -97,18 +97,6 @@ Second Paragraph That's one small step for man, one giant leap for mankind.
 
 ---
 
-<img src="https://picsum.photos/128/128/" alt="placeholder" title="placeholder" style="margin-top: 1.125em; margin-left: 1.125em; float: right;">
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-<div style="clear: both;" />
-
-<img src="https://picsum.photos/128/128/" alt="placeholder" title="placeholder" style="margin-top: 1.125em; margin-right: 1.125em;  float: left;">
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-<div style="clear: both;" />
-
 <details>
 
 <summary>Details element summary</summary>
@@ -118,98 +106,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 </details>
-
-## Mermaid Cheatsheet
-
-### Flowchart
-
-- https://mermaid-js.github.io/mermaid/
-- `flowchart [directions]`
-  - or `graph [directions]`？
-  - `TB`: top to bottom
-  - `TD`: top-down / same as top to bottom
-  - `BT`: bottom to top
-  - `RL`: right to left
-  - `LR`: left to right
-- `node`
-- `node[node with text]`
-- `node1 --> node2`
-- `node1 -- link with text -- node2`
-  - or `node1-->|text|node2`
-- `node1 --> node2 & node3 --> node4`
-- Node shapes:
-  - round edges: `node(text)`
-  - stadium-shaped: `node([text])`
-  - subroutine: `node[[text]]`
-  - cylindrical shape: `node[(text)]`
-  - circle: `node((text))`
-  - asymmetric shape: `node>text]`
-  - rhombus: `node{text}`
-  - hexagon: `node{{text}}`
-  - parallelogram: `node[/text/]`
-  - parallelogram alt: `node[\text\]`
-  - trapezoid: `node[/text\]`
-  - trapezoid alt: `node[\text/]`
-  - double circle: `node(((text)))`
-- Link shapes:
-  - normal: `---`
-  - normal with arrow: `-->`
-  - thick: `===`
-  - thick with arrow: `==>`
-  - dotted: `-.-`
-  - dotted with arrow: `-.->`
-- subgraph
-  - `subgraph [name]`
-  - `direction [directions]`
-  - `end`
-
-```mermaid
-flowchart TB
-    naming[要命名什麼?] -- 變數 --> date[表示日期?]
-    naming -- 函式 --> on[事件函式?]
-
-    date -- Yes --> dateOp(動詞+at/on)
-    date -- No --> boolean[參數為布林值?]
-    boolean -- No --> booleanOp(形容詞+名詞)
-    boolean -- Yes --> show[表示隱藏或顯示?]
-    show -- Yes --> showOp(show+名詞)
-    show -- No --> enable[表示啟用或關閉?]
-    enable -- Yes --> enableOp(名詞+enabled)
-    enable -- No --> exist[表示是否存在?]
-    exist -- Yes --> existOp(名詞+exists)
-    exist -- No --> has[表示是否含有?]
-    has -- Yes --> hasOp(has/contains+名詞)
-    has -- No --> varOp(is+形容詞)
-
-    on -- Yes --> onOp(on+名詞+形容詞)
-    on -- No --> to[轉換內容?]
-    to -- Yes --> toOp(to+名詞)
-    to -- No --> status[更改狀態?]
-    status -- Yes --> statusOp(動詞+目的詞+形容詞)
-    status -- No --> funOp(動詞+目的詞)
-
-    dateOp -- 例 --- dateOpEx([updatedAt])
-    booleanOp -- 例 --- BooleanOpEx([payingPlayer])
-    showOp -- 例 --- showOpEx([showConfirmationModal])
-    enableOp -- 例 --- enableOpEx([autoScrollEnabled])
-    existOp -- 例 --- existOpEx([soldOutItemExists])
-    hasOp -- 例 --- hasOpEx([containsCheckedOutPlayers])
-    varOp -- 例 --- varOpEx([isOrderable])
-
-    onOp -- 例 --- onOpEx([onRowClicked])
-    toOp -- 例 --- toOpEx([toMinutes])
-    statusOp -- 例 --- statusOpEx([setReceiptPrinted])
-    funOp -- 例 --- funOpEx([toggleArchivedItems])
-```
-
-## Other Flowchart library
-
-- [asciiflow](https://dot-to-ascii.ggerganov.com/)
-- [markmap](https://markmap.js.org/repl)
-
-## PlantUML
-
-- [ER 図の作図について、 Draw.io, PlantUML, Mermaid を比較してみる。（VSCode 拡張機能など）](https://qiita.com/ryamate/items/3779418172c4f5a83212)
 
 ## Experiments
 
@@ -228,6 +124,8 @@ flowchart TB
   <span>ブレンのもとで語り合う勇と比瑪（８話）</span>
 </div>
 
+---
+
 <!-- https://bindup.jp/camp/bind/howto/31221 -->
 <div style="margin-top: 1em; padding: 4em; background-image: linear-gradient(110deg,transparent 20%,#e5ebf0 20%)" />
 <div style="margin-left: .5em; width: 48%; float: left;">
@@ -242,6 +140,8 @@ flowchart TB
 </div>
 <div style="clear: both;" />
 
+---
+
 <div style="font-size: 4em; height: .5em; overflow: hidden; color: var(--subtitle-color);">TEXT</div>
 <div style="font-size: 4em; height: .5em; overflow: hidden; color: var(--subtext-color);">TEXT</div>
 <div style="font-size: 4em; height: .5em; overflow: hidden; color: var(--title-color);">TEXT</div>
@@ -251,53 +151,11 @@ flowchart TB
   TEXT
 </div>
 
+---
+
 <span style="padding-left: 2px; color: yellow; background-color: red; border-bottom: 1px solid red;">TEXT</span><span style="background-color: red; clip-path: polygon(0 0, 100% 100%, 0 100%); border-bottom: 1px solid red;">&nbsp;</span><span style="display: inline-block; margin-left: -2px; width: 8em; border-bottom: 1px solid red;">TEXT</span>
 
 ---
-
-### Balloon Quote
-
-<div style="display: flex; align-items: center; gap: 8px;">
-  <div style="flex-grow: 1;">
-    <CircleBorder text="</>" />
-  </div>
-  <div style="flex-grow: 1;">
-    <BalloonQuote quote="淡漠、什麼精神官能症、各種障礙、非精神病性的繭居族、新型憂鬱症……社會總踩著「是你（無法適應者）的錯，是你很異常」的立場，對於我寫的這些內容，也會覺得非常悲慘吧（實際上在社會裡確實是悲慘的），但心理上（如果沒有旁人的說教或生活上的困頓）是比「以前」更加舒適，也不會再對將來感到不安。當然這不是克服了不安，只是連不安都被虛無吞噬了。在壓倒性的背反邏輯面前，「將來」或「問題」已失去了一切重要性。只剩下「夠了，我不做了」。不會有「我要活在當下！做我想做的事！」這種積極性，在「看見」之後，能做的只有認命。" />
-  </div>
-</div>
-
-<div style="margin-top: 16px; display: flex; align-items: center; gap: 8px;">
-  <div style="flex-grow: 1;">
-    <BalloonQuote right quote="「啊」、「咦？」、「啥？」地回過神來、有了這種壓倒性的實際感受後，不論是進行埋洞作業的「精氣」，或是以自我肯定感（為了要（為了要（為了埋平坑洞的作業）而埋平坑洞的作業）而…）激勵自己「精氣」，都枯竭了。想要努力，身與心也提不出力。但也只是不再會有做「該做的事」需要的「精氣」，對於享受喜歡的事不會造成任何問題，「要理解那個就要先學這個」地累積也不會有什麼問題。簡單來說，活下去這件事不會有任何問題。所以說實話，我認為只是至今非法佔據著優先順位最上面的「該做的事＝填坑作業」，回到了原本的地方（地獄）去而已。" />
-  </div>
-  <div style="flex-grow: 1;">
-    <CircleBorder image="https://i.imgur.com/qXRNc2f.png" borderColor="maroon" />
-  </div>
-</div>
-
-<div style="display: flex; align-items: flex-start; gap: 4px;">
-  <div style="flex-grow: 1;">
-    <CircleBorder size="50px" text="</>" />
-  </div>
-  <div style="flex-grow: 1;">
-    <BalloonQuote2 quote="淡漠、什麼精神官能症、各種障礙、非精神病性的繭居族、新型憂鬱症……社會總踩著「是你（無法適應者）的錯，是你很異常」的立場，對於我寫的這些內容，也會覺得非常悲慘吧（實際上在社會裡確實是悲慘的），但心理上（如果沒有旁人的說教或生活上的困頓）是比「以前」更加舒適，也不會再對將來感到不安。當然這不是克服了不安，只是連不安都被虛無吞噬了。在壓倒性的背反邏輯面前，「將來」或「問題」已失去了一切重要性。只剩下「夠了，我不做了」。不會有「我要活在當下！做我想做的事！」這種積極性，在「看見」之後，能做的只有認命。" />
-  </div>
-</div>
-
-<div style="margin-top: 16px; display: flex; align-items: flex-start; gap: 4px;">
-  <div style="flex-grow: 1;">
-    <BalloonQuote2 right quote="「啊」、「咦？」、「啥？」地回過神來、有了這種壓倒性的實際感受後，不論是進行埋洞作業的「精氣」，或是以自我肯定感（為了要（為了要（為了埋平坑洞的作業）而埋平坑洞的作業）而…）激勵自己「精氣」，都枯竭了。想要努力，身與心也提不出力。但也只是不再會有做「該做的事」需要的「精氣」，對於享受喜歡的事不會造成任何問題，「要理解那個就要先學這個」地累積也不會有什麼問題。簡單來說，活下去這件事不會有任何問題。所以說實話，我認為只是至今非法佔據著優先順位最上面的「該做的事＝填坑作業」，回到了原本的地方（地獄）去而已。" />
-  </div>
-  <div style="flex-grow: 1;">
-    <CircleBorder size="50px" image="https://i.imgur.com/qXRNc2f.png" borderColor="maroon" />
-  </div>
-</div>
-
----
-
-<div style="margin: 16px auto 0; padding: 2em; width: fit-content; border-radius: 90% 5% 90% 5% / 10% 90% 10% 90%; background: white;">
-  text
-</div>
 
 <div style="margin-top: 16px;">
   <span style="color: #ff4b00;">#ff4b00</span>
@@ -378,8 +236,7 @@ flowchart TB
     <span style="padding: 0 .25em; background-color: #ffcdd2; color: black;">#ffcdd2</span>
   </div>
 </div>
-<AutomaticColorText backgroundColor="#00ff95" text="text" />
-<BorderedText />
+
 <div style="margin-top: 16px; margin-bottom: 16px;">
   <div>
     <span style="padding: 0 .25em; background: #f0f0f0;">#f0f0f0</span>
@@ -406,10 +263,6 @@ flowchart TB
 </div>
 
 <div style="margin: auto; width: fit-content; font-size: 50pt;" class="rainbow-gradient">𓂀</div>
-
-> [CSS Tutorial: Create Diagonal Layouts Like It's 2020](https://9elements.com/blog/pure-css-diagonal-layouts/)
-
-<div style="margin: calc(100% * 0.09719) auto; width: fit-content; transform: skewY(-11deg); background: white;">♦永遠(とわ)に千切れてく</div>
 
 <!-- -135 -45 45 -->
 <div style="display: flex;">
@@ -563,6 +416,8 @@ flowchart TB
   <dd>List item 2</dd>
 </dl>
 
+---
+
 <div style="display: flex; margin-top: 8px;">
   <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 4px;">
     <img src="https://picsum.photos/40/40/" alt="placeholder" title="placeholder" style="margin: 0; padding: 0; display: inline;" />
@@ -589,31 +444,7 @@ flowchart TB
   </p>
 </div>
 
-## Arrow
-
-- [Arrow (symbol) - Wikipedia](<https://en.wikipedia.org/wiki/Arrow_(symbol)>)
-
-<div style="margin-top: 24px; line-height: 1;">
-  <span class="animation-clip-background">🢂</span>
-</div>
-
-<!-- <img src="https://i.imgur.com/K6TnpsB.png" style="clip-path: url(#arrow);" /> -->
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 24">
-  <path d="M8 4 8 2 10 0 12 0 23 11 23 12 12 24 10 24 8 22 8 20 13 15 2 15 0 13 0 11 2 9 13 9" fill="#FFFFFF" />
-</svg>
-
-<div style="width: 360px; height: 24px; border: 1px solid black;">
-<div style="width: 120px; max-width: 100%; height: 4px; margin: auto; margin-top: -4px; transition: width .2s ease-in-out; background: radial-gradient(ellipse farthest-corner at 50% 100%,#1da1f2 0,#1da1f2 25%,hsla(0,0%,100%,0) 75%);" />
-</div>
-
 <script>
-  import CircleBorder from "$lib/CircleBorder.svelte";
-  import BalloonQuote from "$lib/BalloonQuote.svelte";
-  import AutomaticColorText from "$lib/AutomaticColorText.svelte";
-  import BorderedText from "$lib/BorderedText.svelte";
-  import BalloonQuote2 from "$lib/BalloonQuote2.svelte";
-
 let range = {
 from: 1,
 to: 5,
@@ -648,18 +479,6 @@ Math.floor(Math.random()*89999) + 10000
 // randomNum[i] = Math.floor(Math.random()\*89999) + 10000;
 // }
 // }, 80)
-
-function FizzBuzz() {
-for(let i=0; i<100; i++) {
-let output = '';
-if(n % 3 === 0) output += 'Fizz';
-if(n % 5 === 0) output += 'Buzz';
-
-      if(output.length > 0) console.log(output);
-      else console.log(i);
-    }
-
-}
 
 const incrementingNum = [...Array(5).keys()];
 </script>
@@ -834,58 +653,4 @@ const incrementingNum = [...Array(5).keys()];
     border-color: transparent transparent #929c9a transparent;
   }
 
-  /* ---------- */
-
-.animation-clip-background {
-  font-size: 288px;
-  font-weight: bold;
-  
-  background: url('https://i.imgur.com/frsPyaZ.png');
-  animation: background-timer 1s steps(1, end) infinite;
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
-  user-select: none;
-
-  position: relative;
-  z-index: 1;
-}
-.animation-clip-background::after {
-  content: '🡺';
-  position: absolute;
-  left: 0;
-  top: 0;
-  /* text-shadow: -1px 1px 0 var(--subtitle-color), 1px 1px 0 var(--subtitle-color), 1px -1px 0 var(--subtitle-color), -1px -1px 0 var(--subtitle-color); */
-  /* -webkit-text-stroke: 4px var(--subtitle-color); */
-  color: transparent;
-  z-index: -1;
-}
-
-@keyframes background-timer {
-  0%, 100% {
-    background-image: url('https://i.imgur.com/K6TnpsB.png');
-  }
-  17% {
-    background-image: url('https://i.imgur.com/wgAOJuq.png');
-  }
-  30% {
-    background-image: url('https://i.imgur.com/erCA0z0.png');
-  }
-  42% {
-    background-image: url('https://i.imgur.com/ugmTTxZ.png');
-  }
-  63% {
-    background-image: url('https://i.imgur.com/iA8Trjg.png');
-  }
-  71% {
-    background-image: url('https://i.imgur.com/mAvTlnE.png');
-  }
-  90% {
-    background-image: url('https://i.imgur.com/SgwJ0Yq.png');
-  }
-}
 </style>
