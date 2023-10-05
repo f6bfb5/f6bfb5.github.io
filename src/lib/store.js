@@ -549,6 +549,9 @@ export const aboutImages = readable([
   "https://media.tenor.com/qvCwTpl0zTcAAAAC/ghost-in-the-shell-kokaku-kidotai.gif",
   "https://media.tenor.com/CfHY2iL03IYAAAAC/kuramon-hello.gif",
   "https://media.tenor.com/gIfRsCX-VIkAAAAC/jojo-ova-jotaro.gif",
+  "https://media.tenor.com/sYV6dALwp58AAAAC/dirty-pair-anime.gif",
+  "https://media.tenor.com/Jb-mvEm5eJAAAAAC/shobbytiem.gif",
+  "https://media.tenor.com/2wHSogq669cAAAAC/jotaro.gif",
   // === Game ===
   "https://c.tenor.com/SjuAbL0uMakAAAAC/yume-nikki-yume.gif",
   "https://c.tenor.com/6L6itJ6PXKoAAAAC/chrono-trigger-courtroom.gif",
@@ -573,6 +576,7 @@ export const aboutImages = readable([
   // "https://64.media.tumblr.com/4c10be689ac1391fc24526008320e33b/tumblr_moro5oFd9n1qghl49o1_r1_500.gifv",
   // "https://c.tenor.com/6-OKnddIaaIAAAAC/oddloop-frederic.gif",
   "https://media.tenor.com/TSZ8a8nJzEsAAAAC/kamen-rider-kamen-rider-black.gif",
+
 ]);
 
 export const aboutLinks = readable([

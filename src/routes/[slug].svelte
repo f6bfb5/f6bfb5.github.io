@@ -47,7 +47,7 @@
       <meta name="Description" content={metadata.summary} />
     {/if}
 
-    <!--  Link to your preferred image  -->
+    <!--  Link to preferred image  -->
     {#if metadata.image != ""}
       <meta property="og:image" content={metadata.image} />
     {/if}

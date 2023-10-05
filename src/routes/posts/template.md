@@ -318,16 +318,6 @@ Second Paragraph That's one small step for man, one giant leap for mankind.
   {/each}
 </div>
 
-<div style="position: relative; text-align: center;">
-  {#each [1, 2, 3, 4] as index}
-  <button style="position: relative; padding: 0; outline: none; border: none; background-color: transparent; cursor: pointer;">
-    <span class="skew-button-text">
-      Title {index}
-    </span>
-  </button>
-  {/each}
-</div>
-
 <span class="sliver-glitter">███████████</span>
 
 <span class="gold-glitter">███████████</span>
@@ -444,6 +434,10 @@ Second Paragraph That's one small step for man, one giant leap for mankind.
   </p>
 </div>
 
+<div class="rainbow-ani">
+RAINBOW
+</div>
+
 <script>
 let range = {
 from: 1,
@@ -535,27 +529,6 @@ const incrementingNum = [...Array(5).keys()];
     }
   }
 
-  /* ---------- */
-
-  .skew-button-text {
-    position: relative;
-    display: block;
-    padding: .25em 1em;
-  }
-  .skew-button-text::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) skewX(-25deg);
-    width: 100%;
-    height: 100%;
-    border: 1px solid black;
-  }
-  .skew-button-text:hover::before {
-    background-color: rgba(255, 255, 255, .2);
-  }
-  
   /* ---------- */
 
   .sliver-glitter {
@@ -651,6 +624,37 @@ const incrementingNum = [...Array(5).keys()];
     border-width: 0 0.6em 0.6em 0;
     border-style: solid;
     border-color: transparent transparent #929c9a transparent;
+  }
+
+  /* ---- */
+
+  .rainbow-ani {
+    margin-top: 1em;
+    padding: 2px;
+    padding-left: 4px;
+    width: fit-content;
+    color: white;
+    animation: rainbow-ani-bg .1s linear infinite;
+  }
+  @keyframes rainbow-ani-bg {
+    0% {
+      background: #f00;
+    }
+    20% {
+      background: #0f0;
+    }
+    40% {
+      background: #00f;
+    }
+    60% {
+      background: #f0f;
+    }
+    80% {
+      background: #ff0;
+    }
+    100% {
+      background: #0ff;
+    }
   }
 
 </style>
