@@ -400,6 +400,7 @@ export const marqueeTexts = readable([
   "おまえら、聞け。静かにせい。静かにせい。話を聞け。男一匹が命をかけて諸君に訴えているんだぞ。",
   "生命は海で生まれ…先史時代の巨大な獣へと進化し…ついには二足歩行する人類に行きついた。今、人類の大いなる旅路が始まる。文明のゆりかごから始まるこの度は、やがて星々へと至るだろう。",
   "厭世と多幸は表裏一体だ",
+  "ゆく河の流れは絶えずして、しかももとの水にあらず。",
   "Lain is omnipresent, existing everywhere.",
   "Make me sad, Make me mad, Make me feel alright.",
   "I thought what I'd do was, I'd pretend I was one of those deaf-mutes. or should I?",
