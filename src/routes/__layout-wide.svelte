@@ -84,6 +84,7 @@
 
   .container {
     margin: auto;
+    margin-top: 0;
     padding-top: 1em;
     padding-bottom: 1em;
     width: 100%;

@@ -1,7 +1,6 @@
 <script>
-  import Logo from "./Logo.svelte";
-  import Nav from "./Nav.svelte";
-  import ProgressBar from "./ProgressBar.svelte";
+  import Logo from "$lib/Logo.svelte";
+  import Nav from "$lib/Nav.svelte";
 </script>
 
 <header>
@@ -10,7 +9,6 @@
       <Nav />
       <Logo />
     </div>
-    <!-- <ProgressBar /> -->
   </div>
 </header>
 

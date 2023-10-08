@@ -1,5 +1,5 @@
 <script>
-  import DarkSoulsZoneTitle from "$lib/DarkSoulsZoneTitle.svelte";
+  import DarkSoulsZoneTitle from "$lib/components/DarkSoulsZoneTitle.svelte";
 </script>
 
 <div class="c">

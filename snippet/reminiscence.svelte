@@ -2,8 +2,8 @@
   import { beforeUpdate, afterUpdate } from "svelte";
 
   import CircleBorder from "$lib/CircleBorder.svelte";
-  import BorderedText from "$lib/BorderedText.svelte";
-  import BalloonQuote2 from "$lib/BalloonQuote2.svelte";
+  import BorderedText from "$lib/components/BorderedText.svelte";
+  import BalloonQuote2 from "$lib/components/BalloonQuote2.svelte";
   import QRCode from "$lib/QRCode.svelte";
 
   let wideContainerNode;

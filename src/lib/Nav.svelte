@@ -8,12 +8,6 @@
     トリコじかけの明け暮れ
   </a>
   <a
-    class={$page.url.pathname === "/about" ? "selected" : ""}
-    href={`${base}/about`}
-  >
-    about
-  </a>
-  <a
     class={$page.url.pathname === "/rss" ? "selected" : ""}
     href={`${base}/rss.xml`}
     target="_blank"
@@ -47,7 +41,6 @@
   }
   a:first-child {
     text-overflow: ellipsis;
-    /* overflow-x: hidden; */
   }
   a:last-child {
     margin-right: 20px;

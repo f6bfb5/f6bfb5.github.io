@@ -6,7 +6,7 @@
   // How do you use the Resize Observer API in Svelte?
   // https://blog.sethcorker.com/question/how-do-you-use-the-resize-observer-api-in-svelte/
   import { onMount } from "svelte";
-  import BlinkAnchor from "$lib/BlinkAnchor.svelte";
+  import BlinkAnchor from "$lib/components/BlinkAnchor.svelte";
 
   let containerEl;
   let containerHeight;

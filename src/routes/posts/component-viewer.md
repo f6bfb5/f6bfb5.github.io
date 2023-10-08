@@ -6,11 +6,20 @@ tags: F2E
 ---
 
 <script>
-  import CircleBorder from "$lib/CircleBorder.svelte";
-  import BalloonQuote from "$lib/BalloonQuote.svelte";
-  import BalloonQuote2 from "$lib/BalloonQuote2.svelte";
-  import AutomaticColorText from "$lib/AutomaticColorText.svelte";
-  import BorderedText from "$lib/BorderedText.svelte";
+  import BalloonQuote from "$lib/components/BalloonQuote.svelte";
+  import BalloonQuote2 from "$lib/components/BalloonQuote2.svelte";
+  import BalloonQuote3 from "$lib/components/BalloonQuote3.svelte";
+  import BalloonQuote4 from "$lib/components/BalloonQuote4.svelte";
+  import BorderedText from "$lib/components/BorderedText.svelte";
+  import CircleBorder from "$lib/components/CircleBorder.svelte";
+  import InfoBox from "$lib/components/InfoBox.svelte";
+  import InfoBox2 from "$lib/components/InfoBox2.svelte";
+  import InfoBox3 from "$lib/components/InfoBox3.svelte";
+  import InfoBox4 from "$lib/components/InfoBox4.svelte";
+  import InfoBox5 from "$lib/components/InfoBox5.svelte";
+  import TextAutomaticColor from "$lib/components/TextAutomaticColor.svelte";
+  import TextSquiggly from "$lib/components/TextSquiggly.svelte";
+  import TextVHS from "$lib/components/TextVHS.svelte";
 </script>
 
 ### CircleBorder + BalloonQuote
@@ -53,10 +62,46 @@ tags: F2E
   </div>
 </div>
 
-### AutomaticColorText
+### BalloonQuote3
 
-<AutomaticColorText backgroundColor="#00ff95" text="text" />
+<BalloonQuote3 />
+
+### BalloonQuote4
+
+<BalloonQuote4 />
 
 ### BorderedText
 
 <BorderedText />
+
+### InfoBox
+
+<InfoBox />
+
+### InfoBox2
+
+<InfoBox2 />
+
+### InfoBox3
+
+<InfoBox3 />
+
+### InfoBox4
+
+<InfoBox4 />
+
+### InfoBox5
+
+<InfoBox5 />
+
+### TextAutomaticColor
+
+<TextAutomaticColor backgroundColor="#00ff95" text="text" />
+
+### TextSquiggly
+
+<TextSquiggly />
+
+### TextVHS
+
+<TextVHS />

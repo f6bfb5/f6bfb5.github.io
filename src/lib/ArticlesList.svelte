@@ -64,18 +64,6 @@
   {/if}
 {/each}
 
-<!-- {#if $tagsSelected.length === 0}
-  <div class="articles-list--container">
-    <h2>？？？</h2>
-    <ul class="articles-list">
-      <li>
-        <div class="articles-list--link">
-          <a href="./test">？？？</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-{/if} -->
 <style>
   .articles-list--container {
     margin-left: 1em;

@@ -1,5 +1,5 @@
 <script>
-  import RandomImage from "$lib/RandomImage.svelte";
+  import RandomImage from "$lib/components/RandomImage.svelte";
   import { base } from "$app/paths";
 </script>
 

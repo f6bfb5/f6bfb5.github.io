@@ -67,6 +67,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
+    user-select: none;
   }
   /* tag list & tag button */
   .tag {

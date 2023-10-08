@@ -1,6 +1,6 @@
 <script>
   import { aboutImages, aboutLinks } from "$lib/store.js";
-  import GlitchText from "$lib/GlitchText.svelte";
+  import VHSText from "$lib/components/VHSText.svelte";
 
   function getRandomEleFromArr(arr) {
     return arr[Math.floor(arr.length * Math.random())];
@@ -26,7 +26,7 @@
     rel="noreferrer noopener"
     on:click={() => (targetUrl = getRandomEleFromArr($aboutLinks))}
   >
-    <GlitchText {text} />
+    <VHSText {text} />
   </a>
 </div>
 

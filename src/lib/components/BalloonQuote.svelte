@@ -12,6 +12,7 @@
     --balloon-quote-border-color: #555;
     --balloon-quote-background-color: white;
   }
+
   .balloon-quote {
     position: relative;
     display: inline-block;
@@ -43,6 +44,7 @@
     border-right: 14px solid var(--balloon-quote-border-color);
     z-index: 1;
   }
+
   .balloon-quote.right {
     margin-left: 0;
     margin-right: 14px;
@@ -59,6 +61,7 @@
     right: -16px;
     border-left: 14px solid var(--balloon-quote-border-color);
   }
+
   .balloon-quote p {
     margin: 0;
     padding: 0;

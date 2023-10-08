@@ -9,8 +9,8 @@
   if (Array.isArray(tags)) _tags = tags;
 
   import PostTitle from "$lib/PostTitle.svelte";
-  import BackToTop from "$lib/BackToTop.svelte";
-  import BlinkAnchor from "$lib/BlinkAnchor.svelte";
+  import BackToTop from "$lib/components/BackToTop.svelte";
+  import BlinkAnchor from "$lib/components/BlinkAnchor.svelte";
 </script>
 
 <header>

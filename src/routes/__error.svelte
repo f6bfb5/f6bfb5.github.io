@@ -13,7 +13,7 @@
   export let status;
   export let error;
 
-  import BlinkAnchor from "$lib/BlinkAnchor.svelte";
+  import BlinkAnchor from "$lib/components/BlinkAnchor.svelte";
 </script>
 
 <svelte:head>

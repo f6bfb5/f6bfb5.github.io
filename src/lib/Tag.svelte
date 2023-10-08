@@ -12,5 +12,6 @@
     color: var(--subtext-color);
     font-size: 0.8em;
     background-color: #e5edc8;
+    user-select: none;
   }
 </style>

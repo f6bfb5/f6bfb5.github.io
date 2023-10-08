@@ -262,8 +262,6 @@ Second Paragraph That's one small step for man, one giant leap for mankind.
   </div>
 </div>
 
-<div style="margin: auto; width: fit-content; font-size: 50pt;" class="rainbow-gradient">𓂀</div>
-
 <!-- -135 -45 45 -->
 <div style="display: flex;">
   <div style="display: grid; place-content: center; width: 18px; height: 24px; border:1px solid black; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; transform: rotate(-135deg); background: white;"><span style="transform: rotate(135deg);">T</span></div>
@@ -292,31 +290,7 @@ Second Paragraph That's one small step for man, one giant leap for mankind.
   淡漠、什麼精神官能症、各種障礙、非精神病性的繭居族、新型憂鬱症……社會總踩著「是你（無法適應者）的錯，是你很異常」的立場，對於我寫的這些內容，也會覺得非常悲慘吧（實際上在社會裡確實是悲慘的），但心理上（如果沒有旁人的說教或生活上的困頓）是比「以前」更加舒適，也不會再對將來感到不安。當然這不是克服了不安，只是連不安都被虛無吞噬了。在壓倒性的背反邏輯面前，「將來」或「問題」已失去了一切重要性。只剩下「夠了，我不做了」。不會有「我要活在當下！做我想做的事！」這種積極性，在「看見」之後，能做的只有認命。
 </p>
 
-<!-- https://fujikoblog0309.com/css-gold-gradation-text -->
 
-<span style="background-image: linear-gradient(0deg, #b8751e 0%, #ffce08 37%, #fefeb2 47%, #fafad6 50%, #fefeb2 53%, #e1ce08 63%, #b8751e 100%);
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 32px;">Golden</span>
-<span style="background: repeating-linear-gradient(0deg, #B67B03 0.1em, #DAAF08 0.2em, #FEE9A0 0.3em, #DAAF08 0.4em, #B67B03 0.5em);
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 32px;">Golden</span>
-<span style="background-image: linear-gradient(135deg, #b8751e 0%, #ffce08 37%, #fefeb2 47%, #fafad6 50%, #fefeb2 53%, #e1ce08 63%, #b8751e 100%);
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 32px">Golden</span>
-
-<div style="margin: auto; padding-left: 2px; width: fit-content; background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%); background-size: 1000px 2px; -webkit-background-clip: text; color: transparent; font-size: 2em;
-  text-shadow: 0 0 10px rgba(175, 175, 175, 0.5), 0 0 5px rgba(240, 240, 240, 0.5);">
-  {#each randomNum as num, i}
-    {#if i !== randomNum.length -1}
-      {num}<br />
-    {:else}
-      {num}
-    {/if}
-  {/each}
-</div>
 
 <span class="sliver-glitter">███████████</span>
 
@@ -399,100 +373,7 @@ Second Paragraph That's one small step for man, one giant leap for mankind.
     </div>
 </fieldset>
 
-<dl>
-  <dt>List heading 1</dt>
-  <dd>List item 1</dd>
-  <dt>List heading 2</dt>
-  <dd>List item 2</dd>
-</dl>
-
----
-
-<div style="display: flex; margin-top: 8px;">
-  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 4px;">
-    <img src="https://picsum.photos/40/40/" alt="placeholder" title="placeholder" style="margin: 0; padding: 0; display: inline;" />
-    <span style="transform: scale(0.8, 1); text-wrap: nowrap;">名無し</span>
-  </div>
-  <div style="margin-left: 8px;">
-    <span class="ballon">
-      何なんだよ日本。一億総活躍社会じゃねーのかよ。昨日見事に保育園落ちたわ。どうすんだよ私活躍出来ねーじゃねーか。
-    </span>
-    <time style="display: block; margin-top: 4px; max-width: calc(100% - 100px); font-size: 80%; text-align: right; color: gray;">{new Date().toISOString().slice(2).replaceAll('-', '/').replace('T', `(${['日', '一','二','三','四','五','六'][new Date().getDay()]})`).slice(0,-5)}</time>
-  </div>
-</div>
-
-<div style="margin-top: 1em;">
-  <div style="display: flex; align-items: center;">
-    <img src="https://picsum.photos/40/40/" alt="placeholder" title="placeholder" style="margin: 0; padding: 0; display: inline;" />
-    <div style="margin-left: 1em;">
-      <span>以下、名無し が送りします:</span>
-      <time style="display: block; margin-top: 4px; font-size: 80%; color: gray;">{new Date().toISOString().slice(2).replaceAll('-', '/').replace('T', `(${['日', '一','二','三','四','五','六'][new Date().getDay()]})`).slice(0,-5)}</time>
-    </div>
-  </div>
-  <p class="ballon2">
-    何なんだよ日本。一億総活躍社会じゃねーのかよ。昨日見事に保育園落ちたわ。どうすんだよ私活躍出来ねーじゃねーか。
-  </p>
-</div>
-
-<div class="rainbow-ani">
-RAINBOW
-</div>
-
-<script>
-let range = {
-from: 1,
-to: 5,
-
-    // range[Symbol.iterator]()
-    [Symbol.iterator]() {
-      this.current = this.from;
-      return this;
-    },
-    next() {
-      if (this.current <= this.to) {
-        return { done: false, value: this.current++ };
-      } else {
-        return { done: true };
-      }
-    }
-
-};
-// for (let num of range) {
-// console.log(num);
-// }
-
-let randomNum = [
-Math.floor(Math.random()*89999) + 10000,
-Math.floor(Math.random()*89999) + 10000,
-Math.floor(Math.random()*89999) + 10000,
-Math.floor(Math.random()*89999) + 10000,
-Math.floor(Math.random()*89999) + 10000
-]
-// setInterval(() => {
-// for(let i=0; i<randomNum.length; i++) {
-// randomNum[i] = Math.floor(Math.random()\*89999) + 10000;
-// }
-// }, 80)
-
-const incrementingNum = [...Array(5).keys()];
-</script>
-
 <style scoped>
-  .rainbow-gradient {
-    background: linear-gradient(to right, #e60000, #f39800, #fff100, #009944, #0068b7, #1d2088, #920783, #e60000) 0 / 200%;
-    color: transparent;
-    -webkit-background-clip: text;
-    animation: 2.5s background-moving linear infinite;
-  }
-
-  @keyframes background-moving {
-    100% {
-      background-position: 200%;
-    }
-  }
-
-  /* ---------- */
-
   .hi {
     width: 50px;
     height: 72px;
@@ -586,75 +467,6 @@ const incrementingNum = [...Array(5).keys()];
   details summary,
   details > div {
     padding: 1rem;
-  }
-
-  /* ---------- */
-
-  .ballon {
-    display: inline-block;
-  }
-  .ballon, .ballon2 {
-    padding: 0 0.4em 0 0.4em;
-    max-width: calc(100% - 100px);
-    color: #fff;
-    background-color: #929c9a;
-    border-radius: 0.4em;
-    line-height: 1.5;
-    vertical-align: middle;
-  }
-  .ballon:before {
-    content: "";
-    position: absolute;
-    margin-left: -0.2em;
-    padding: 0;
-    width: 0;
-    border-width: 0 0 0.6em 0.6em;
-    border-style: solid;
-    border-color: #929c9a transparent;
-    transform: translateX(-100%) translateY(calc(1em - 80%));
-  }
-  .ballon2 {
-    margin-top: .6em;
-  }
-  .ballon2:before {
-    content: "";
-    position: absolute;
-    margin-top: -.45em;
-    left: 2em;
-    border-width: 0 0.6em 0.6em 0;
-    border-style: solid;
-    border-color: transparent transparent #929c9a transparent;
-  }
-
-  /* ---- */
-
-  .rainbow-ani {
-    margin-top: 1em;
-    padding: 2px;
-    padding-left: 4px;
-    width: fit-content;
-    color: white;
-    animation: rainbow-ani-bg .1s linear infinite;
-  }
-  @keyframes rainbow-ani-bg {
-    0% {
-      background: #f00;
-    }
-    20% {
-      background: #0f0;
-    }
-    40% {
-      background: #00f;
-    }
-    60% {
-      background: #f0f;
-    }
-    80% {
-      background: #ff0;
-    }
-    100% {
-      background: #0ff;
-    }
   }
 
 </style>

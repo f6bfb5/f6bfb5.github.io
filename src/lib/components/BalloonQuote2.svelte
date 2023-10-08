@@ -1,10 +1,12 @@
 <script>
-  import BorderedText from "$lib/BorderedText.svelte";
+  import BorderedText from "$lib/components/BorderedText.svelte";
 
   export let quote;
   export let image;
+
   export let component;
   export let component_prop;
+
   export let right;
   export let arrow = false;
 </script>
@@ -35,9 +37,6 @@
   {/if}
 </div>
 
-<!-- <div class="timestamp">
-  2022/08/01 17:63:81
-</div> -->
 <style>
   :root {
     --balloon-quote-border-color: #555;
