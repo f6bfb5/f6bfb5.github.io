@@ -1,0 +1,53 @@
+<footer>
+  <a
+    href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    target="_blank"
+    rel="noreferrer noopener nofollow"
+  >
+    CC BY-NC-SA 4.0
+  </a>
+  <div class="right">
+    Made with <span class="heart">❤️</span> and
+    <a
+      href="https://astro.new/"
+      target="_blank"
+      rel="noreferrer noopener nofollow"
+    >
+      Astro
+    </a>
+  </div>
+</footer>
+
+<style scoped>
+  footer {
+    margin: auto;
+    padding: 1em 2em;
+    width: 100%;
+    max-width: var(--container-width);
+    color: var(--text-color);
+
+    line-height: 1em;
+  }
+
+  .right {
+    float: right;
+  }
+  .right::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .heart {
+    color: #e25555;
+  }
+  
+  @media screen and (max-width: 400px) {
+    footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .5em;
+    }
+  }
+</style>
+

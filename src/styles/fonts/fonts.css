@@ -1,0 +1,115 @@
+/* 読みやすい＝理解しやすい　Webの組版を整理してより良い文章を届けよう
+https://qiita.com/xrxoxcxox/items/206b223844e3c42dc86f */
+
+@font-face {
+  font-family: "缝合怪像素字体";
+  src: url("fusion-pixel-12px-proportional-zh_hant.woff2") format("woff2");
+}
+
+body {
+  font-family: "缝合怪像素字体", -apple-system, BlinkMacSystemFont,
+    ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo,
+    ＭＳ\Ｐゴシック, MS PGothic, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,
+    Cantarell, "Helvetica Neue", Helvetica, sans-serif;
+  /* font-size: 16px; */
+  hyphens: auto;
+  line-break: strict;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  text-rendering: geometricPrecision;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-size: 1.3em;
+}
+
+h6 {
+  font-size: 1.2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-feature-settings: "palt";
+}
+
+p {
+  font-size: 1.125em;
+  line-height: calc(0.25rem * 7);
+  letter-spacing: 0.0325em;
+}
+
+/* p:not(:first-of-type) { */
+p {
+  text-indent: 2em;
+}
+
+blockquote p:not(:first-of-type) {
+  text-indent: 0;
+}
+
+blockquote p {
+  font-size: 1em;
+  line-height: calc(0.25rem * 6);
+}
+
+blockquote footer {
+  font-size: 1.1rem;
+  text-align: right;
+}
+
+em {
+  font-style: normal;
+  text-emphasis: "・" var(--text-color);
+}
+
+pre code {
+  font-family: consolas, menlo, inconsolata, -apple-system, BlinkMacSystemFont,
+    ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo,
+    ＭＳ\Ｐゴシック, MS PGothic, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,
+    Cantarell, "Helvetica Neue", Helvetica, sans-serif;
+  /* font-size: calc(1em - 2px); */
+  color: #555;
+}
+
+figure {
+  font-size: 100%;
+  font: inherit;
+}
+
+table tbody {
+  font-size: 0.875em;
+}
+
+li,
+td {
+  line-height: 1.3;
+}
+
+li p {
+  line-height: 1.25;
+}
+
+rb,
+rt {
+  line-height: 1.2;
+}

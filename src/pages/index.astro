@@ -1,0 +1,83 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { ViewTransitions } from "astro:transitions";
+const pageTitle = "Hello World!";
+import ArticlesList from "../components/ArticlesList.astro";
+---
+
+<style scoped>
+  .toolbar {
+    position: relative;
+    z-index: 0;
+  }
+  h1 {
+    margin-left: 16px;
+    color: transparent;
+    background: linear-gradient(
+      to bottom,
+      rgba(191, 210, 85, 1) 0%,
+      rgba(142, 185, 42, 1) 50%,
+      rgba(114, 170, 0, 1) 51%,
+      rgba(158, 203, 45, 1) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px green;
+    filter: drop-shadow(2px 2px var(--subtext-color));
+
+    position: relative;
+    z-index: 0;
+  }
+  .h1-bordered {
+    font-size: 8em;
+    color: var(--bg-color);
+    text-shadow:
+      -1px 1px 0 var(--subtitle-color),
+      1px 1px 0 var(--subtitle-color),
+      1px -1px 0 var(--subtitle-color),
+      -1px -1px 0 var(--subtitle-color);
+
+    position: absolute;
+    left: 1rem;
+    bottom: 0;
+    transform: translate(3%, 25%);
+
+    z-index: -1;
+
+    width: 97%;
+    display: inline-block;
+    white-space: nowrap;
+    user-select: none;
+  }
+</style>
+
+<head>
+  <title>f6bfb5's Blog</title>
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="f6bfb5's blog" />
+  <meta name="Description" content="雨天決行" />
+  <meta property="og:description" content="雨天決行" />
+  <meta property="og:image" content="https://i.imgur.com/frsPyaZ.png" />
+
+  <meta
+    name="google-site-verification"
+    content="C2koaxPTcaB21Oif-Z4U_lyVAKw4H7hb-pM5OiGcSWQ"
+  />
+  <ViewTransitions />
+</head>
+
+<BaseLayout pageTitle={pageTitle}>
+  <!-- <Marquee /> -->
+
+  <div class="toolbar">
+    <h1 data-text="Articles">Articles</h1>
+    <div class="h1-bordered">Articles</div>
+    <!-- <TagsFilter {allPostsTags} /> -->
+  </div>
+  <ArticlesList />
+
+  <a href="https://github.com/f6bfb5" rel="me" style="display: none;">
+    github.com/f6bfb5
+  </a>
+</BaseLayout>

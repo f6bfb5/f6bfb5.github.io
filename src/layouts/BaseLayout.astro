@@ -1,0 +1,41 @@
+---
+import "../styles/reset.css";
+import "../styles/global.css";
+import "../styles/fonts/fonts.css";
+
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import GA4 from "../components/GA4.astro";
+
+const { pageTitle } = Astro.props;
+---
+
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{pageTitle}</title>
+    <style>
+      body {
+        min-height: 100%;
+      }
+      .container {
+        margin: 0 auto;
+        padding: 1em;
+        width: 100%;
+        max-width: var(--container-width);
+      }
+    </style>
+  </head>
+  <body>
+    <Navigation />
+    <main class="container">
+      <slot />
+    </main>
+    <Footer />
+    <script></script>
+  </body>
+  <GA4 />
+</html>

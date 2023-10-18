@@ -1,0 +1,16 @@
+---
+import { getAllBlogsStatic } from "../scripts/blog";
+import MarkdownPostLayout from "../layouts/MarkdownPostLayout.astro";
+
+export async function getStaticPaths() {
+    const content = await getAllBlogsStatic();
+    return content;
+}
+
+const { blog } = Astro.props;
+const { Content } = await blog.render();
+---
+
+<MarkdownPostLayout title={blog.data.title}>
+    <Content />
+</MarkdownPostLayout>
