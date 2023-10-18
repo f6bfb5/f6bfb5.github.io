@@ -1,218 +1,242 @@
-<!DOCTYPE html>
-<html lang="zh-Hant-TW">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-
-    <link
-      rel="preload"
-      href="./fonts/fusion-pixel.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-    <link rel="preload prefetch" href="./global.css" as="style" />
-    <link rel="stylesheet" href="./global.css" />
-    <!-- <link rel="manifest" href="./manifest.json" /> -->
-    <link rel="icon" type="image/png" href="./favicon.ico" />
-
-    <!-- This contains the contents of the <svelte:head> component, if
-	     the current page has one -->
-    <meta http-equiv="content-security-policy" content=""><title>實作「使用Discord登入」</title><script async src="https://www.googletagmanager.com/gtag/js?id=G-CRDP7WTXSQ" data-svelte="svelte-bhtlqr"></script><link rel="shortcut icon" href="/favicon.ico" data-svelte="svelte-1c8ynol"><link rel="bookmark" href="/favicon.ico" data-svelte="svelte-1c8ynol"><link rel="canonical" href="https://f6bfb5.github.io/login-with-discord" data-svelte="svelte-1xtzxhc"><meta property="og:url" content="https://f6bfb5.github.io/login-with-discord" data-svelte="svelte-1xtzxhc"><meta property="og:type" content="article" data-svelte="svelte-1xtzxhc">
-    <meta property="og:title" content="實作「使用Discord登入」" data-svelte="svelte-1xtzxhc">
-    
-
-    
-    <meta property="og:image" data-svelte="svelte-1xtzxhc">
-
-    <meta name="twitter:card" content="summary_large_image" data-svelte="svelte-1xtzxhc">
-    <meta name="twitter:title" value="實作「使用Discord登入」" data-svelte="svelte-1xtzxhc">
-    
-    <meta name="twitter:label1" value="Published on" data-svelte="svelte-1xtzxhc">
-    <meta name="twitter:data1" value="Jan 14, 2021" data-svelte="svelte-1xtzxhc">
-	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-193c0755.css">
-	<link rel="stylesheet" href="/_app/assets/Favicon-3192f126.css">
-	<link rel="modulepreload" href="/_app/start-b5670003.js">
-	<link rel="modulepreload" href="/_app/chunks/index-8418cccc.js">
-	<link rel="modulepreload" href="/_app/chunks/index-17c965c3.js">
-	<link rel="modulepreload" href="/_app/chunks/paths-396f020f.js">
-	<link rel="modulepreload" href="/_app/chunks/preload-helper-e4860ae8.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-eef20794.js">
-	<link rel="modulepreload" href="/_app/chunks/Favicon-2f8df075.js">
-	<link rel="modulepreload" href="/_app/chunks/store-c3b1f519.js">
-	<link rel="modulepreload" href="/_app/pages/_slug_.svelte-a75975ed.js">
-  </head>
-  <body>
-    <!-- The application will be rendered inside this element,
-	     because `app/client.js` references it -->
-    
-
-
-
-
-
-
-
-
-<div class="layout svelte-1avnl50" style=""><div class="loader-container svelte-1avnl50"><div class="loader svelte-v56dyc"><span class="loader-text loader-step1 svelte-v56dyc">/</span>
-  <span class="loader-text loader-step1 svelte-v56dyc">-</span>
-  <span class="loader-text loader-step1 svelte-v56dyc">\</span>
-  <span class="loader-text loader-step1 svelte-v56dyc">|</span>
-</div></div></div>
-
-<div class="layout svelte-1avnl50" style="display: none;">
-  
-  <header class="svelte-3mmsgf"><div class="header-container svelte-3mmsgf"><div class="row svelte-3mmsgf"><nav class="svelte-t90z2a"><a class=" svelte-t90z2a" href="/">トリコじかけの明け暮れ
-  </a>
-  <a class=" svelte-t90z2a" href="/about">about
-  </a>
-  <a class=" svelte-t90z2a" href="/rss.xml" target="_blank">rss
-  </a>
-  <a style="display: none;" href="/sitemap.xml" target="_blank" class="svelte-t90z2a">sitemap
-  </a>
-</nav>
-      <a href="https://www.youtube.com/watch?v=AzFJUrKO8U0" target="_blank" rel="noreferrer noopener" class="svelte-145ut21"><img src="https://i.imgur.com/D0PAWCi.gif" alt="logo" class="svelte-145ut21">
-</a></div>
-    </div>
-</header>
-
-  <main class="svelte-1avnl50">
-
-<header class="svelte-3zdptp"><h1 class="title svelte-ztxc7f"><span style="animation-delay: 125ms; " class="svelte-ztxc7f">實
-    </span><span style="animation-delay: 150ms; " class="svelte-ztxc7f">作
-    </span><span style="animation-delay: 175ms; " class="svelte-ztxc7f">「
-    </span><span style="animation-delay: 200ms; " class="svelte-ztxc7f">使
-    </span><span style="animation-delay: 225ms; " class="svelte-ztxc7f">用
-    </span><span style="animation-delay: 250ms; " class="svelte-ztxc7f">D
-    </span><span style="animation-delay: 275ms; " class="svelte-ztxc7f">i
-    </span><span style="animation-delay: 300ms; " class="svelte-ztxc7f">s
-    </span><span style="animation-delay: 325ms; " class="svelte-ztxc7f">c
-    </span><span style="animation-delay: 350ms; " class="svelte-ztxc7f">o
-    </span><span style="animation-delay: 375ms; " class="svelte-ztxc7f">r
-    </span><span style="animation-delay: 400ms; " class="svelte-ztxc7f">d
-    </span><span style="animation-delay: 425ms; " class="svelte-ztxc7f">登
-    </span><span style="animation-delay: 450ms; " class="svelte-ztxc7f">入
-    </span><span style="animation-delay: 475ms; " class="svelte-ztxc7f">」
-    </span>
-</h1>
-  <p class="meta svelte-3zdptp"><span class="date svelte-3zdptp">Jan 14, 2021</span>
-    <div class="tags svelte-3zdptp"><span class="tag svelte-3zdptp">F2E</span></div></p></header>
-<div class="post--container svelte-3zdptp"><article class="post--content svelte-3zdptp"><ul><li><a href="https://qiita.com/masayoshi4649/items/46fdb744cb8255f5eb98" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://qiita.com/masayoshi4649/items/46fdb744cb8255f5eb98" alt="「Discord の ID でログイン」を実装する(Oauth2) - Qiita"><span>「Discord の ID でログイン」を実装する(Oauth2) - Qiita</span></a></li></ul>
-<h2 id="js-id-1-於-discord-developer-portal-登錄應用"><strong>1. 於 Discord Developer Portal 登錄應用</strong></h2>
-<h3>a. 取得 「Client ID」和「Client Secert」</h3>
-<ol><li>登入 <a href="https://discord.com/developers/applications" rel="noopener" target="_blank"><img src="https://s2.googleusercontent.com/s2/favicons?domain=https://discord.com/developers/applications" alt="Discord Developer Portal"><span>Discord Developer Portal</span></a></li>
+<!DOCTYPE html><html lang="zh-Hant-TW" data-astro-cid-37fxchfa><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="generator" content="Astro v3.3.0"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>實作「使用Discord登入」</title><link rel="stylesheet" href="/_astro/_slug_.e0831828.css" />
+<style>h1[data-astro-cid-gkspkard]{margin:.13em 0 .39em;font-size:3em;line-height:1.1;color:var(--title-color)}@media all and (max-width: 735px){h1[data-astro-cid-gkspkard]{max-width:80%;margin:auto;font-size:2.5em}}.title[data-astro-cid-gkspkard]{display:flex;flex-wrap:wrap;overflow:hidden;justify-content:center}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-8){animation:Title_red .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-7){animation:Title_orange .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-6){animation:Title_yellow .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-5){animation:Title_lime .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-4){animation:Title_green .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-3){animation:Title_cyan .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-2){animation:Title_blue .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-1){animation:Title_purple .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n){animation:Title_pink .5s linear both}@keyframes Title_red{0%{color:var(--bg-color);fill:transparent}50%{color:#e50020;fill:#e50020}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_orange{0%{color:var(--bg-color);fill:transparent}50%{color:#ec6c00;fill:#ec6c00}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_yellow{0%{color:var(--bg-color);fill:transparent}50%{color:#fbc600;fill:#fbc600}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_lime{0%{color:var(--bg-color);fill:transparent}50%{color:#6fba2c;fill:#6fba2c}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_green{0%{color:var(--bg-color);fill:transparent}50%{color:#008b38;fill:#008b38}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_cyan{0%{color:var(--bg-color);fill:transparent}50%{color:#009fe8;fill:#009fe8}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_blue{0%{color:var(--bg-color);fill:transparent}50%{color:#004da0;fill:#004da0}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_purple{0%{color:var(--bg-color);fill:transparent}50%{color:#910782;fill:#910782}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_pink{0%{color:var(--bg-color);fill:transparent}50%{color:#e40065;fill:#e40065}to{color:var(--title-color);fill:var(--title-color)}}article[data-astro-cid-5grsw2hi]{padding:10px;border:1px solid var(--subtitle-color);box-shadow:2px 2px 0 var(--subtext-color),4px 4px 0 var(--title-color);background-color:#e5edc8}
+</style><script type="module">
+</script></head><body data-astro-cid-37fxchfa><header data-astro-cid-pux6a34n><nav data-astro-cid-pux6a34n><a href="/" data-astro-cid-pux6a34n> トリコじかけの明け暮れ</a><a href="/rss.xml" target="_blank" data-astro-cid-pux6a34n> rss</a><a style="display: none;" href="/sitemap.xml" target="_blank" data-astro-cid-pux6a34n> sitemap</a></nav></header><main class="container" data-astro-cid-37fxchfa><article data-astro-cid-5grsw2hi><h1 class="title" data-astro-cid-gkspkard><span style="animation-delay:125ms;width:" data-astro-cid-gkspkard>實</span><span style="animation-delay:150ms;width:" data-astro-cid-gkspkard>作</span><span style="animation-delay:175ms;width:" data-astro-cid-gkspkard>「</span><span style="animation-delay:200ms;width:" data-astro-cid-gkspkard>使</span><span style="animation-delay:225ms;width:" data-astro-cid-gkspkard>用</span><span style="animation-delay:250ms;width:" data-astro-cid-gkspkard>D</span><span style="animation-delay:275ms;width:" data-astro-cid-gkspkard>i</span><span style="animation-delay:300ms;width:" data-astro-cid-gkspkard>s</span><span style="animation-delay:325ms;width:" data-astro-cid-gkspkard>c</span><span style="animation-delay:350ms;width:" data-astro-cid-gkspkard>o</span><span style="animation-delay:375ms;width:" data-astro-cid-gkspkard>r</span><span style="animation-delay:400ms;width:" data-astro-cid-gkspkard>d</span><span style="animation-delay:425ms;width:" data-astro-cid-gkspkard>登</span><span style="animation-delay:450ms;width:" data-astro-cid-gkspkard>入</span><span style="animation-delay:475ms;width:" data-astro-cid-gkspkard>」</span></h1><ul>
+<li><a href="https://qiita.com/masayoshi4649/items/46fdb744cb8255f5eb98">「Discord の ID でログイン」を実装する(Oauth2) - Qiita</a></li>
+</ul>
+<h2 id="1-於-discord-developer-portal-登錄應用"><strong>1. 於 Discord Developer Portal 登錄應用</strong></h2>
+<h3 id="a-取得-client-id和client-secert">a. 取得 「Client ID」和「Client Secert」</h3>
+<ol>
+<li>登入 <a href="https://discord.com/developers/applications">Discord Developer Portal</a></li>
 <li>「New Application」</li>
-<li>取名，本文範例取為 <code>OAuth Verify</code><ul><li>此名稱會顯示於授權頁面上</li>
-<li>「Create」</li></ul></li>
-<li>資訊頁右方的 <code>Client ID</code> 和 <code>Client Secert</code> 之後會用到</li></ol>
-<h3>b. 建立 OAuth 用的網址</h3>
-<ol><li>點擊左側的「OAuth2」分頁</li>
-<li>點擊右側的「Add Redirect」，輸入驗證完後重導向的網址<ul><li>也就是要用於驗證登入的網址</li>
-<li>本文實作範例的網址就是此頁面連結：<ul><li><code>https://f6bfb5.github.io/login-with-discord</code></li></ul></li></ul></li>
-<li>勾選下方「SCOPE」（索取的資訊欄位）裡的<ul><li>「identify」（Discord 的 ID）</li>
-<li>「email」</li></ul></li>
-<li>就可於頁面下方取得認證用的連結<ul><li>例：<code>https://discord.com/api/oauth2/authorize?client_id=</code>[CLIENT ID]<code>&amp;redirect_uri=</code>[REDIRECT URL]<code>&amp;response_type=code&amp;scope=</code>[SCOPE]</li></ul></li></ol>
-<h2 id="js-id-2-從認證連結取得code"><strong>2. 從認證連結取得「code」</strong></h2>
-<ul><li>使用認證連結登入<ul><li>重導向到結果頁面後，網址上會多出一個回傳的 <code>code</code> 參數</li></ul></li></ul>
-<h2 id="js-id-3-使用code取得access-token"><strong>3. 使用「code」取得「access token」</strong></h2>
-<ul><li>使用這個 <code>code</code> 送出請求<ul><li>取得 <code>access_token</code>，才能擁有存取資料的權限</li></ul></li></ul>
-<h3>a. 傳送 POST 請求到 Discord API</h3>
-<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">curl</span> -X POST
-     -H <span class="token string">"Content-Type:application/x-www-form-urlencoded"</span>
-     -d <span class="token string">"client_id=[CLIENT ID]
-     &amp;client_secret=[CLIENT SECRET]
-     &amp;grant_type=authorization_code
-     &amp;code=[CODE]
-     &amp;redirect_uri=[REDIRECT URL]（要與認證 URL 相同）"</span>
-     https://discordapp.com/api/oauth2/token</code><!-- HTML_TAG_END --></pre>
-<h3>b. 若成功就可取得 <code>access token</code></h3>
-<pre class="language-json"><!-- HTML_TAG_START --><code class="language-json"><span class="token punctuation">&#123;</span>
-  <span class="token property">"access_token"</span><span class="token operator">:</span> <span class="token punctuation">[</span>ACCESS TOKEN<span class="token punctuation">]</span><span class="token punctuation">,</span>
-  <span class="token property">"expires_in"</span><span class="token operator">:</span> <span class="token number">604800</span><span class="token punctuation">,</span>
-  <span class="token property">"refresh_token"</span><span class="token operator">:</span> <span class="token punctuation">[</span>REFRESH TOKEN<span class="token punctuation">]</span><span class="token punctuation">,</span>
-  <span class="token property">"scope"</span><span class="token operator">:</span> <span class="token punctuation">[</span>SCOPE<span class="token punctuation">]</span><span class="token punctuation">,</span>
-  <span class="token property">"token_type"</span><span class="token operator">:</span> <span class="token string">"Bearer"</span>
-<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
-<ul><li><code>code</code> 為一次性使用，同一個 <code>code</code> 無法進行第二次存取</li>
-<li><code>access token</code> 的有效期限為 604800 秒＝一個禮拜<ul><li>若有更新需求，須使用回傳內容中的 <code>refresh token</code> 重新送出請求</li></ul></li></ul>
-<h2 id="js-id-4-使用access-token取得使用者資料"><strong>4. 使用「access token」取得使用者資料</strong></h2>
-<h3>a. 傳送 GET 請求到 Discord API</h3>
-<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">curl</span> -H <span class="token string">"Authorization: Bearer [ACCESS TOKEN]"</span>
-     https://discordapp.com/api/users/@me</code><!-- HTML_TAG_END --></pre>
-<h3>b. 若成功就可取得相關資料</h3>
-<pre class="language-json"><!-- HTML_TAG_START --><code class="language-json"><span class="token punctuation">&#123;</span>
-   <span class="token property">"id"</span><span class="token operator">:</span> <span class="token punctuation">[</span>Discord ID<span class="token punctuation">]</span><span class="token punctuation">,</span>
-   <span class="token property">"username"</span><span class="token operator">:</span> <span class="token punctuation">[</span>使用者名稱<span class="token punctuation">]</span><span class="token punctuation">,</span>
-   <span class="token property">"avatar"</span><span class="token operator">:</span> <span class="token punctuation">[</span>大頭貼 ID<span class="token punctuation">]</span><span class="token punctuation">,</span>
-   <span class="token property">"discriminator"</span><span class="token operator">:</span> <span class="token punctuation">[</span>使用者編號<span class="token punctuation">]</span>（在名稱#後面的數字）<span class="token punctuation">,</span>
-   <span class="token property">"public_flags"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-   <span class="token property">"flags"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-   <span class="token property">"email"</span><span class="token operator">:</span> <span class="token punctuation">[</span>信箱<span class="token punctuation">]</span><span class="token punctuation">,</span>
-   <span class="token property">"verified"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-   <span class="token property">"locale"</span><span class="token operator">:</span> <span class="token punctuation">[</span>使用語言<span class="token punctuation">]</span><span class="token punctuation">,</span>
-   <span class="token property">"mfa_enabled"</span><span class="token operator">:</span> <span class="token boolean">false</span>
-<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
-<ul><li>搭配頭像網址取得圖片<ul><li><code>https://cdn.discordapp.com/avatars/</code>[Discord ID]<code>/</code>[大頭貼 ID]</li></ul></li></ul>
-<h2 id="js-id-5-使用-refresh-token-重新取得-access-token"><strong>5. 使用 refresh token 重新取得 access token</strong></h2>
-<h3>a. 傳送 POST 請求到 Discord API</h3>
-<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">curl</span> -X POST
-     -H <span class="token string">"Content-Type:application/x-www-form-urlencoded"</span>
-     -d <span class="token string">"client_id=[CLIENT ID]
-     &amp;client_secret=[CLIENT SECRET]
-     &amp;grant_type=refresh_token
-     &amp;refresh_token=[REFRESH TOKEN]"</span>
-     https://discordapp.com/api/oauth2/token</code><!-- HTML_TAG_END --></pre>
-<h3>b. 若成功就可取得 access token</h3>
-<pre class="language-json"><!-- HTML_TAG_START --><code class="language-json"><span class="token punctuation">&#123;</span>
-   <span class="token property">"access_token"</span><span class="token operator">:</span> <span class="token punctuation">[</span>ACCESS TOKEN<span class="token punctuation">]</span><span class="token punctuation">,</span>
-   <span class="token property">"expires_in"</span><span class="token operator">:</span> <span class="token number">604800</span><span class="token punctuation">,</span>
-   <span class="token property">"refresh_token"</span><span class="token operator">:</span> <span class="token punctuation">[</span>REFRESH TOKEN<span class="token punctuation">]</span><span class="token punctuation">,</span>
-   <span class="token property">"scope"</span><span class="token operator">:</span> <span class="token punctuation">[</span>SCOPE<span class="token punctuation">]</span><span class="token punctuation">,</span>
-   <span class="token property">"token_type"</span><span class="token operator">:</span> <span class="token string">"Bearer"</span>
-<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
-<h2 id="js-id-範例"><strong>範例</strong></h2>
+<li>取名，本文範例取為 <code>OAuth Verify</code>
+<ul>
+<li>此名稱會顯示於授權頁面上</li>
+<li>「Create」</li>
+</ul>
+</li>
+<li>資訊頁右方的 <code>Client ID</code> 和 <code>Client Secert</code> 之後會用到</li>
+</ol>
+<h3 id="b-建立-oauth-用的網址">b. 建立 OAuth 用的網址</h3>
+<ol>
+<li>點擊左側的「OAuth2」分頁</li>
+<li>點擊右側的「Add Redirect」，輸入驗證完後重導向的網址
+<ul>
+<li>也就是要用於驗證登入的網址</li>
+<li>本文實作範例的網址就是此頁面連結：
+<ul>
+<li><code>https://f6bfb5.github.io/login-with-discord</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>勾選下方「SCOPE」（索取的資訊欄位）裡的
+<ul>
+<li>「identify」（Discord 的 ID）</li>
+<li>「email」</li>
+</ul>
+</li>
+<li>就可於頁面下方取得認證用的連結
+<ul>
+<li>例：<code>https://discord.com/api/oauth2/authorize?client_id=</code>[CLIENT ID]<code>&#x26;redirect_uri=</code>[REDIRECT URL]<code>&#x26;response_type=code&#x26;scope=</code>[SCOPE]</li>
+</ul>
+</li>
+</ol>
+<h2 id="2-從認證連結取得code"><strong>2. 從認證連結取得「code」</strong></h2>
+<ul>
+<li>使用認證連結登入
+<ul>
+<li>重導向到結果頁面後，網址上會多出一個回傳的 <code>code</code> 參數</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-使用code取得access-token"><strong>3. 使用「code」取得「access token」</strong></h2>
+<ul>
+<li>使用這個 <code>code</code> 送出請求
+<ul>
+<li>取得 <code>access_token</code>，才能擁有存取資料的權限</li>
+</ul>
+</li>
+</ul>
+<h3 id="a-傳送-post-請求到-discord-api">a. 傳送 POST 請求到 Discord API</h3>
+<pre class="astro-code dracula" style="background-color:#282A36;color:#F8F8F2; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color:#50FA7B">curl</span><span style="color:#BD93F9"> -X</span><span style="color:#F1FA8C"> POST</span></span>
+<span class="line"><span style="color:#50FA7B">     -H</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">Content-Type:application/x-www-form-urlencoded</span><span style="color:#E9F284">"</span></span>
+<span class="line"><span style="color:#50FA7B">     -d</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">client_id=[CLIENT ID]</span></span>
+<span class="line"><span style="color:#F1FA8C">     &#x26;client_secret=[CLIENT SECRET]</span></span>
+<span class="line"><span style="color:#F1FA8C">     &#x26;grant_type=authorization_code</span></span>
+<span class="line"><span style="color:#F1FA8C">     &#x26;code=[CODE]</span></span>
+<span class="line"><span style="color:#F1FA8C">     &#x26;redirect_uri=[REDIRECT URL]（要與認證 URL 相同）</span><span style="color:#E9F284">"</span></span>
+<span class="line"><span style="color:#50FA7B">     https://discordapp.com/api/oauth2/token</span></span></code></pre>
+<h3 id="b-若成功就可取得-access-token">b. 若成功就可取得 <code>access token</code></h3>
+<pre class="astro-code dracula" style="background-color:#282A36;color:#F8F8F2; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color:#F8F8F2">{</span></span>
+<span class="line"><span style="color:#8BE9FE">  "</span><span style="color:#8BE9FD">access_token</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">ACCESS</span><span style="color:#FF5555;font-style:italic;text-decoration:underline"> TOKEN</span><span style="color:#F8F8F2">],</span></span>
+<span class="line"><span style="color:#8BE9FE">  "</span><span style="color:#8BE9FD">expires_in</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#BD93F9"> 604800</span><span style="color:#F8F8F2">,</span></span>
+<span class="line"><span style="color:#8BE9FE">  "</span><span style="color:#8BE9FD">refresh_token</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">REFRESH</span><span style="color:#FF5555;font-style:italic;text-decoration:underline"> TOKEN</span><span style="color:#F8F8F2">],</span></span>
+<span class="line"><span style="color:#8BE9FE">  "</span><span style="color:#8BE9FD">scope</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">SCOPE</span><span style="color:#F8F8F2">],</span></span>
+<span class="line"><span style="color:#8BE9FE">  "</span><span style="color:#8BE9FD">token_type</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">Bearer</span><span style="color:#E9F284">"</span></span>
+<span class="line"><span style="color:#F8F8F2">}</span></span></code></pre>
+<ul>
+<li><code>code</code> 為一次性使用，同一個 <code>code</code> 無法進行第二次存取</li>
+<li><code>access token</code> 的有效期限為 604800 秒＝一個禮拜
+<ul>
+<li>若有更新需求，須使用回傳內容中的 <code>refresh token</code> 重新送出請求</li>
+</ul>
+</li>
+</ul>
+<h2 id="4-使用access-token取得使用者資料"><strong>4. 使用「access token」取得使用者資料</strong></h2>
+<h3 id="a-傳送-get-請求到-discord-api">a. 傳送 GET 請求到 Discord API</h3>
+<pre class="astro-code dracula" style="background-color:#282A36;color:#F8F8F2; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color:#50FA7B">curl</span><span style="color:#BD93F9"> -H</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">Authorization: Bearer [ACCESS TOKEN]</span><span style="color:#E9F284">"</span></span>
+<span class="line"><span style="color:#50FA7B">     https://discordapp.com/api/users/@me</span></span></code></pre>
+<h3 id="b-若成功就可取得相關資料">b. 若成功就可取得相關資料</h3>
+<pre class="astro-code dracula" style="background-color:#282A36;color:#F8F8F2; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color:#F8F8F2">{</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">id</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">Discord</span><span style="color:#FF5555;font-style:italic;text-decoration:underline"> ID</span><span style="color:#F8F8F2">],</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">username</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">使用者名稱</span><span style="color:#F8F8F2">],</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">avatar</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">大頭貼</span><span style="color:#FF5555;font-style:italic;text-decoration:underline"> ID</span><span style="color:#F8F8F2">],</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">discriminator</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">使用者編號</span><span style="color:#F8F8F2">]</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">（在名稱#後面的數字）</span><span style="color:#F8F8F2">,</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">public_flags</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#BD93F9"> 0</span><span style="color:#F8F8F2">,</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">flags</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#BD93F9"> 0</span><span style="color:#F8F8F2">,</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">email</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">信箱</span><span style="color:#F8F8F2">],</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">verified</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#BD93F9"> true</span><span style="color:#F8F8F2">,</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">locale</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">使用語言</span><span style="color:#F8F8F2">],</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">mfa_enabled</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#BD93F9"> false</span></span>
+<span class="line"><span style="color:#F8F8F2">}</span></span></code></pre>
+<ul>
+<li>搭配頭像網址取得圖片
+<ul>
+<li><code>https://cdn.discordapp.com/avatars/</code>[Discord ID]<code>/</code>[大頭貼 ID]</li>
+</ul>
+</li>
+</ul>
+<h2 id="5-使用-refresh-token-重新取得-access-token"><strong>5. 使用 refresh token 重新取得 access token</strong></h2>
+<h3 id="a-傳送-post-請求到-discord-api-1">a. 傳送 POST 請求到 Discord API</h3>
+<pre class="astro-code dracula" style="background-color:#282A36;color:#F8F8F2; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color:#50FA7B">curl</span><span style="color:#BD93F9"> -X</span><span style="color:#F1FA8C"> POST</span></span>
+<span class="line"><span style="color:#50FA7B">     -H</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">Content-Type:application/x-www-form-urlencoded</span><span style="color:#E9F284">"</span></span>
+<span class="line"><span style="color:#50FA7B">     -d</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">client_id=[CLIENT ID]</span></span>
+<span class="line"><span style="color:#F1FA8C">     &#x26;client_secret=[CLIENT SECRET]</span></span>
+<span class="line"><span style="color:#F1FA8C">     &#x26;grant_type=refresh_token</span></span>
+<span class="line"><span style="color:#F1FA8C">     &#x26;refresh_token=[REFRESH TOKEN]</span><span style="color:#E9F284">"</span></span>
+<span class="line"><span style="color:#50FA7B">     https://discordapp.com/api/oauth2/token</span></span></code></pre>
+<h3 id="b-若成功就可取得-access-token-1">b. 若成功就可取得 access token</h3>
+<pre class="astro-code dracula" style="background-color:#282A36;color:#F8F8F2; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color:#F8F8F2">{</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">access_token</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">ACCESS</span><span style="color:#FF5555;font-style:italic;text-decoration:underline"> TOKEN</span><span style="color:#F8F8F2">],</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">expires_in</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#BD93F9"> 604800</span><span style="color:#F8F8F2">,</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">refresh_token</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">REFRESH</span><span style="color:#FF5555;font-style:italic;text-decoration:underline"> TOKEN</span><span style="color:#F8F8F2">],</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">scope</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">SCOPE</span><span style="color:#F8F8F2">],</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">token_type</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">Bearer</span><span style="color:#E9F284">"</span></span>
+<span class="line"><span style="color:#F8F8F2">}</span></span></code></pre>
+<h2 id="範例"><strong>範例</strong></h2>
 <p>以下示範透過此方式，取得你的 Discord ID 與大頭貼圖片。</p>
-<button id="js-discord-button">Login with Discord</button>
-<span id="js-discord-status"></span>
-<div class="discord-card" id="js-discord-card" style="display: none"><img alt="profile" class="discord-card--image svelte-9ys6tj" id="js-discord-card--image">
-  <div class="discord-card--username" id="js-discord-card--username"></div></div>
-<div class="toc-container"><ul class="toc"><li><a href="#" onclick="document.querySelector('#js-id-1-於-discord-developer-portal-登錄應用').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li><li><a href="#" onclick="document.querySelector('#js-id-2-從認證連結取得code').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li><li><a href="#" onclick="document.querySelector('#js-id-3-使用code取得access-token').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li><li><a href="#" onclick="document.querySelector('#js-id-4-使用access-token取得使用者資料').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li><li><a href="#" onclick="document.querySelector('#js-id-5-使用-refresh-token-重新取得-access-token').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li><li><a href="#" onclick="document.querySelector('#js-id-範例').scrollIntoView(); window.scrollBy(0, -128); event.preventDefault();">undefined</a></li></ul></div>
-    <span class="blink svelte-1kip24n">_</span></article>
-  
-
-<div class="back-to-top svelte-178usko hidden" style="right: 2em">Back to top
+<p><button id="js-discord-button">Login with Discord</button>
+<span id="js-discord-status"></span></p>
+<div class="discord-card" id="js-discord-card" style="display: none">
+  <img alt="profile" class="discord-card--image" id="js-discord-card--image">
+  <div class="discord-card--username" id="js-discord-card--username"></div>
 </div>
-</div></main>
+<style>
+.discord-card--image {
+  margin-left: 0 !important;
+}
+</style>
+<script>
+import { onMount } from 'svelte';
 
-  <footer scoped class="svelte-qi6xiu"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noreferrer noopener nofollow">CC BY-NC-SA 4.0
-  </a>
-  <div class="right svelte-qi6xiu">Made with <span class="heart svelte-qi6xiu">❤️</span> and
-    <a href="https://kit.svelte.dev/" target="_blank" ref="noreferrer noopener nofollow">SvelteKit
-    </a></div>
-</footer>
-</div>
+const clientID = "798950274114781204";
+const redirectUri = "https://f6bfb5.github.io/login-with-discord";
+const scope = "identify email"
 
+function handleClick() {
+   document.location.href = `https://discord.com/api/oauth2/authorize
+?client_id=${clientID}
+&redirect_uri=${encodeURIComponent(redirectUri)}
+&response_type=code
+&scope=${encodeURIComponent(scope)}`;
+}
 
-		<script type="module" data-hydrate="vh7371">
-		import { start } from "/_app/start-b5670003.js";
-		start({
-			target: document.querySelector('[data-hydrate="vh7371"]').parentNode,
-			paths: {"base":"","assets":""},
-			session: {},
-			route: false,
-			spa: false,
-			trailing_slash: "never",
-			hydrate: {
-				status: 200,
-				error: null,
-				nodes: [
-					import("/_app/pages/__layout.svelte-eef20794.js"),
-						import("/_app/pages/_slug_.svelte-a75975ed.js")
-				],
-				params: {slug:"login-with-discord"},
-				routeId: "[slug]"
-			}
-		});
-	</script>
-  </body>
-</html>
+   onMount(() => {
+// window.addEventListener('load', function() {
+   document.getElementById("js-discord-button").addEventListener("click", handleClick);
+   // 1. get code from url params
+   const urlParams = new URLSearchParams(window.location.search);
+   if(urlParams.has("code")) { 
+     // 2. post code to get token
+     const clientSecret = "3c-TeN5NxElL4la8E6h5BlT4zDHigser";
+     const apiUrl = 'https://discordapp.com/api/oauth2/token'
+     const data = {
+        'client_id': clientID,
+        'client_secret': clientSecret,
+        'grant_type': 'authorization_code',
+        'code': urlParams.get("code"),
+        'redirect_uri': redirectUri,
+        'scope': scope
+     }
+     // put payload together
+     const formBody = 
+     Object.keys(data)
+     .map(key => encodeURIComponent(key) 
+       + '=' 
+       + encodeURIComponent(data[key]))
+     .join('&');
+     // send post
+     const resultData = fetch(apiUrl, {
+        method: "POST",
+        headers: {
+           "content-type": "application/x-www-form-urlencoded"
+        },
+        body: formBody,
+     })
+     .then(function(response) {
+        if( !response.ok ) {
+           throw new Error(response.statusText)
+        }
+        document.getElementById("js-discord-status").innerText = "token got";
+        return response.json()
+     })
+     // 3. get user data
+     .then(function(data) {
+        let accessToken = data.access_token;
+        const userApiUrl = 'https://discordapp.com/api/users/@me';
+        return fetch(userApiUrl, {
+           method: "GET",
+           headers: {
+              "authorization": "Bearer " + accessToken,
+           }
+        })
+     })
+     .then(function(response) {
+        if( !response.ok ) {
+           throw new Error(response.statusText)
+        }
+        document.getElementById("js-discord-status").innerText = "user data got";
+        return response.json();
+     })
+     .catch(function(error) {
+        document.getElementById("js-discord-status").innerText = error;
+     })
+     // 4. display user data
+     resultData.then(function(r) {
+        if(r != undefined){
+          document.getElementById("js-discord-card").style.display="block";
+          document.getElementById("js-discord-card--image").src=`https://cdn.discordapp.com/avatars/${r.id}/${r.avatar}`;
+          document.getElementById("js-discord-card--username").innerText=`${r.username}#${r.discriminator}`
+        }
+     })
+   } else {
+      document.getElementById("js-discord-status").innerText = "Not logged in";
+   }
+// })
+})
+</script></article></main><footer data-astro-cid-sz7xmlte><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noreferrer noopener nofollow" data-astro-cid-sz7xmlte>
+CC BY-NC-SA 4.0
+</a><div class="right" data-astro-cid-sz7xmlte>
+Made with <span class="heart" data-astro-cid-sz7xmlte>❤️</span> and
+<a href="https://astro.new/" target="_blank" rel="noreferrer noopener nofollow" data-astro-cid-sz7xmlte>
+Astro
+</a></div></footer></body><script async src="https://www.googletagmanager.com/gtag/js?id=G-CRDP7WTXSQ"></script><script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
+
+gtag("config", "G-CRDP7WTXSQ");
+</script></html>
