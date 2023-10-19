@@ -362,6 +362,8 @@ details summary:focus {
 
 /* set iframe aspect ratio to 16:9 */
 iframe {
+  display: block;
+  margin: auto;
   max-width: calc(720px - 40px);
   /* 16:9, 16/9 = 1.7778 */
   max-height: calc((720px - 40px) / 1.7778);

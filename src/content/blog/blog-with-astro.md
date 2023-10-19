@@ -170,6 +170,8 @@ OGP preview
 
 - [How to use `astro-og-canvas` with Astro | Aidan Kinzett](https://aidankinzett.com/blog/astro-open-graph-image/)
 - [astro-og-canvas/packages/astro-og-canvas](https://github.com/delucis/astro-og-canvas/tree/latest/packages/astro-og-canvas)
+- [Astro.js 小ネタ集 その②](https://asopi.tech/blog/20230615_1#satori-%E3%81%A7-html%E3%81%8B%E3%82%89%E7%94%BB%E5%83%8F%E7%94%9F%E6%88%90)
+- `npm i satori satori-html @resvg/resvg-js`
 
 SEO
 ---
@@ -183,6 +185,12 @@ Alpine.js
 ---
 
 - [@astrojs/alpinejs 🚀 Astro 文檔](https://docs.astro.build/zh-tw/guides/integrations-guide/alpinejs/)
+- `npx astro add alpinejs`
+
+<div x-data="{ count: 0 }">
+    <button x-on:click="count++">Increment</button>
+    <span x-text="count"></span>
+</div>
 
 And more...
 ---

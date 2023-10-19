@@ -1,7 +1,7 @@
 ---
 title: "時間感"
 date: 2023-10-08T09:56:00.000Z
-summary: ""
+summary: "把人生分割成五等分來想的「最近」或「以前」"
 tags: ["F2E"]
 ---
 
@@ -9,6 +9,8 @@ tags: ["F2E"]
 	let nowYear = new Date().getFullYear();
 	const range = (start, stop, step) => Array.from({ length: (stop - start) / step + 1}, (_, i) => start + (i * step));
 	const yearArr = range(nowYear, 1976, -1);
+	const ageArr = [10, 15, 20, 25, 30, 35, 40, 45];
+	const bgColorArr = ["b-purple", "b-cyan", "b-green", "b-orange", "b-red", "b-gray"];
 	
 	// https://anond.hatelabo.jp/20230817095200
 	const yearAnime = {
@@ -89,19 +91,6 @@ tags: ["F2E"]
 		1977: '星際大戰上映',
 		1976: '文化大革命結束、烏龍派出所開始連載',
 	};
-	const getBgColor = (age, yearDiff) => {
-		if (yearDiff >= age) return 'b-gray';
-		else {
-			if (yearDiff / age < 0.2) return 'b-purple';
-			if (yearDiff / age < 0.4) return 'b-cyan';
-			if (yearDiff / age < 0.6) return 'b-green';
-			if (yearDiff / age < 0.8) return 'b-orange';
-			return 'b-red';
-		}
-	}
-
-	$: displayingData = yearEvent;
-
 </script>
 
 <h1 class="t-center">
@@ -117,12 +106,8 @@ tags: ["F2E"]
   <span class="red">■</span>＝從前、
 	<span class="gray">■</span>＝古時
 </p>
-<p class="t-center">
-  <span style="border: 1px solid black; padding: 4px; margin-right: .25em;">類別</span>
-	<button on:click={() => {displayingData = yearEvent}}>事件</button>、<button on:click={() => {displayingData = yearAnime}}>動畫</button>
-</p>
 
-<table>
+<table x-data>
   <thead>
     <tr>
       <th></th>
@@ -139,21 +124,16 @@ tags: ["F2E"]
     </tr>
   </thead>
   <tbody>
-		{#each yearArr as year}
+	<template x-for="year in yearArr">
     <tr>
-      <td>{year}</td>
-      <td class={getBgColor(10, nowYear - year)}></td>
-      <td class={getBgColor(15, nowYear - year)}></td>
-      <td class={getBgColor(20, nowYear - year)}></td>
-      <td class={getBgColor(25, nowYear - year)}></td>
-      <td class={getBgColor(30, nowYear - year)}></td>
-      <td class={getBgColor(35, nowYear - year)}></td>
-      <td class={getBgColor(40, nowYear - year)}></td>
-      <td class={getBgColor(45, nowYear - year)}></td>
-      <td>{@html displayingData[year] ? displayingData[year] : ''}</td>
-      <td>{year}</td>
+      <td x-text="year"></td>
+	  <template x-for="age in ageArr">
+	    <td x-bind:class="bgColorArr[Math.floor(Math.min((nowYear - year)*5 / age, 5))]"></td>
+	  </template>
+	  <td x-html="yearEvent[year] ? yearEvent[year] : ''"></td>
+      <td x-text="year"></td>
     </tr>
-		{/each}
+	</template>
   </tbody>
 </table>
 

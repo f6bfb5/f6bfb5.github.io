@@ -464,7 +464,7 @@ function onEdit(e) {
     - `getResponseCode()`
     - `getBlob()`
 
-```javaScript
+```javascript
 function sendToDiscord(message) {
   const url      = ''; // 上方建立的 Webhook 網址
 
