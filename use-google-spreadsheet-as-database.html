@@ -1,12 +1,13 @@
-<!DOCTYPE html><html lang="zh-Hant-TW" data-astro-cid-37fxchfa><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="generator" content="Astro v3.3.0"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>使用Google Sheet作為資料庫</title><link rel="stylesheet" href="/_astro/_slug_.d57a4528.css" />
-<style>h1[data-astro-cid-gkspkard]{margin:.13em 0 .39em;font-size:3em;line-height:1.1;color:var(--title-color)}@media all and (max-width: 735px){h1[data-astro-cid-gkspkard]{max-width:80%;margin:auto;font-size:2.5em}}.title[data-astro-cid-gkspkard]{display:flex;flex-wrap:wrap;overflow:hidden;justify-content:center}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-8){animation:Title_red .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-7){animation:Title_orange .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-6){animation:Title_yellow .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-5){animation:Title_lime .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-4){animation:Title_green .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-3){animation:Title_cyan .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-2){animation:Title_blue .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-1){animation:Title_purple .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n){animation:Title_pink .5s linear both}@keyframes Title_red{0%{color:var(--bg-color);fill:transparent}50%{color:#e50020;fill:#e50020}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_orange{0%{color:var(--bg-color);fill:transparent}50%{color:#ec6c00;fill:#ec6c00}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_yellow{0%{color:var(--bg-color);fill:transparent}50%{color:#fbc600;fill:#fbc600}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_lime{0%{color:var(--bg-color);fill:transparent}50%{color:#6fba2c;fill:#6fba2c}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_green{0%{color:var(--bg-color);fill:transparent}50%{color:#008b38;fill:#008b38}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_cyan{0%{color:var(--bg-color);fill:transparent}50%{color:#009fe8;fill:#009fe8}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_blue{0%{color:var(--bg-color);fill:transparent}50%{color:#004da0;fill:#004da0}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_purple{0%{color:var(--bg-color);fill:transparent}50%{color:#910782;fill:#910782}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_pink{0%{color:var(--bg-color);fill:transparent}50%{color:#e40065;fill:#e40065}to{color:var(--title-color);fill:var(--title-color)}}article[data-astro-cid-5grsw2hi]{padding:10px;border:1px solid var(--subtitle-color);box-shadow:2px 2px 0 var(--subtext-color),4px 4px 0 var(--title-color);background-color:#e5edc8}
+<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="generator" content="Astro v3.3.0"><link rel="icon" type="image/svg+xml" href="https://f6bfb5.github.io/favicon.svg"><!-- OGP --><meta property="og:url" content="https://f6bfb5.github.io/use-google-spreadsheet-as-database.html"><meta property="og:type" content="article"><meta property="og:title" content="使用Google Sheet作為資料庫"><meta property="og:description" content=""><meta property="og:image" content="https://f6bfb5.github.io/images/use-google-spreadsheet-as-database.png"><link rel="stylesheet" href="/_astro/_slug_.39a5cbfb.css" />
+<style>h1[data-astro-cid-gkspkard]{margin:.13em 0 .39em;font-size:3em;line-height:1.1;color:var(--title-color)}@media all and (max-width: 735px){h1[data-astro-cid-gkspkard]{max-width:80%;margin:auto;font-size:2.5em}}.title[data-astro-cid-gkspkard]{display:flex;flex-wrap:wrap;overflow:hidden;justify-content:center}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-8){animation:Title_red .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-7){animation:Title_orange .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-6){animation:Title_yellow .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-5){animation:Title_lime .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-4){animation:Title_green .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-3){animation:Title_cyan .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-2){animation:Title_blue .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-1){animation:Title_purple .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n){animation:Title_pink .5s linear both}@keyframes Title_red{0%{color:var(--bg-color);fill:transparent}50%{color:#e50020;fill:#e50020}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_orange{0%{color:var(--bg-color);fill:transparent}50%{color:#ec6c00;fill:#ec6c00}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_yellow{0%{color:var(--bg-color);fill:transparent}50%{color:#fbc600;fill:#fbc600}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_lime{0%{color:var(--bg-color);fill:transparent}50%{color:#6fba2c;fill:#6fba2c}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_green{0%{color:var(--bg-color);fill:transparent}50%{color:#008b38;fill:#008b38}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_cyan{0%{color:var(--bg-color);fill:transparent}50%{color:#009fe8;fill:#009fe8}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_blue{0%{color:var(--bg-color);fill:transparent}50%{color:#004da0;fill:#004da0}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_purple{0%{color:var(--bg-color);fill:transparent}50%{color:#910782;fill:#910782}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_pink{0%{color:var(--bg-color);fill:transparent}50%{color:#e40065;fill:#e40065}to{color:var(--title-color);fill:var(--title-color)}}article[data-astro-cid-5grsw2hi]{display:grid;padding:10px;border:1px solid var(--subtitle-color);box-shadow:2px 2px 0 var(--subtext-color),4px 4px 0 var(--title-color);background-color:#e5edc8}
 </style><script type="module">
 </script>
-<script type="module" src="/_astro/page.75c7f027.js"></script></head><body data-astro-cid-37fxchfa><header data-astro-cid-pux6a34n><nav data-astro-cid-pux6a34n><a href="/" data-astro-cid-pux6a34n> トリコじかけの明け暮れ</a><a href="/rss.xml" target="_blank" data-astro-cid-pux6a34n> rss</a><a style="display: none;" href="/sitemap.xml" target="_blank" data-astro-cid-pux6a34n> sitemap</a></nav></header><main class="container" data-astro-cid-37fxchfa><article data-astro-cid-5grsw2hi><h1 class="title" data-astro-cid-gkspkard><span style="animation-delay:125ms;width:" data-astro-cid-gkspkard>使</span><span style="animation-delay:150ms;width:" data-astro-cid-gkspkard>用</span><span style="animation-delay:175ms;width:" data-astro-cid-gkspkard>G</span><span style="animation-delay:200ms;width:" data-astro-cid-gkspkard>o</span><span style="animation-delay:225ms;width:" data-astro-cid-gkspkard>o</span><span style="animation-delay:250ms;width:" data-astro-cid-gkspkard>g</span><span style="animation-delay:275ms;width:" data-astro-cid-gkspkard>l</span><span style="animation-delay:300ms;width:" data-astro-cid-gkspkard>e</span><span style="animation-delay:325ms;width:.25em;" data-astro-cid-gkspkard> </span><span style="animation-delay:350ms;width:" data-astro-cid-gkspkard>S</span><span style="animation-delay:375ms;width:" data-astro-cid-gkspkard>h</span><span style="animation-delay:400ms;width:" data-astro-cid-gkspkard>e</span><span style="animation-delay:425ms;width:" data-astro-cid-gkspkard>e</span><span style="animation-delay:450ms;width:" data-astro-cid-gkspkard>t</span><span style="animation-delay:475ms;width:" data-astro-cid-gkspkard>作</span><span style="animation-delay:500ms;width:" data-astro-cid-gkspkard>為</span><span style="animation-delay:525ms;width:" data-astro-cid-gkspkard>資</span><span style="animation-delay:550ms;width:" data-astro-cid-gkspkard>料</span><span style="animation-delay:575ms;width:" data-astro-cid-gkspkard>庫</span></h1><h2 id="介紹">介紹</h2>
+<script type="module" src="/_astro/page.75c7f027.js"></script></head><html lang="zh-Hant-TW" data-astro-cid-37fxchfa><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="generator" content="Astro v3.3.0"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>使用Google Sheet作為資料庫</title></head><body data-astro-cid-37fxchfa><header data-astro-cid-pux6a34n><nav data-astro-cid-pux6a34n><a href="/" data-astro-cid-pux6a34n> トリコじかけの明け暮れ</a><a href="/rss.xml" target="_blank" data-astro-cid-pux6a34n> rss</a><a style="display: none;" href="/sitemap.xml" target="_blank" data-astro-cid-pux6a34n> sitemap</a></nav></header><main class="container" data-astro-cid-37fxchfa><article data-astro-cid-5grsw2hi><h1 class="title" data-astro-cid-gkspkard><span style="animation-delay:125ms;width:" data-astro-cid-gkspkard>使</span><span style="animation-delay:150ms;width:" data-astro-cid-gkspkard>用</span><span style="animation-delay:175ms;width:" data-astro-cid-gkspkard>G</span><span style="animation-delay:200ms;width:" data-astro-cid-gkspkard>o</span><span style="animation-delay:225ms;width:" data-astro-cid-gkspkard>o</span><span style="animation-delay:250ms;width:" data-astro-cid-gkspkard>g</span><span style="animation-delay:275ms;width:" data-astro-cid-gkspkard>l</span><span style="animation-delay:300ms;width:" data-astro-cid-gkspkard>e</span><span style="animation-delay:325ms;width:.25em;" data-astro-cid-gkspkard> </span><span style="animation-delay:350ms;width:" data-astro-cid-gkspkard>S</span><span style="animation-delay:375ms;width:" data-astro-cid-gkspkard>h</span><span style="animation-delay:400ms;width:" data-astro-cid-gkspkard>e</span><span style="animation-delay:425ms;width:" data-astro-cid-gkspkard>e</span><span style="animation-delay:450ms;width:" data-astro-cid-gkspkard>t</span><span style="animation-delay:475ms;width:" data-astro-cid-gkspkard>作</span><span style="animation-delay:500ms;width:" data-astro-cid-gkspkard>為</span><span style="animation-delay:525ms;width:" data-astro-cid-gkspkard>資</span><span style="animation-delay:550ms;width:" data-astro-cid-gkspkard>料</span><span style="animation-delay:575ms;width:" data-astro-cid-gkspkard>庫</span></h1><h2 id="介紹"><strong>介紹</strong></h2>
 <ul>
-<li>Google 的 Sheet API 可以直接將 Sheet 內容轉換成 JSON 格式輸出</li>
-<li>亦可從外部傳進資料，修改 Sheet 裡的內容</li>
-<li>並有提供 CORS 支援，可免於處理跨域的困擾</li>
+<li>使用 Google 的 Sheet API 實現簡易資料庫處理</li>
+<li>可將 Sheet 內容轉為 JSON 格式輸出</li>
+<li>可從外部傳進資料，修改 Sheet 裡的內容</li>
+<li>提供 CORS 支援，免於處理跨域的困擾</li>
 </ul>
 <h2 id="實作">實作</h2>
 <h3 id="1-純讀取-spreadsheets-data-api">1. [純讀取] Spreadsheets Data API</h3>
@@ -19,7 +20,7 @@
 <li>點擊「發佈（Publish）」</li>
 </ul>
 </li>
-<li>複製原始表單網址裡 <code>[sheet-id]</code> 的部份
+<li>複製原始表單網址裡的 <code>[sheet-id]</code> 部份
 <ul>
 <li><code>https://docs.google.com/spreadsheets/d/[sheet-id]/</code></li>
 <li>注意：不是發佈頁面的連結網址，是<strong>表單的網址</strong></li>
@@ -27,74 +28,76 @@
 </li>
 <li>從 API 取得資料
 <ul>
-<li>將 <code>[sheet-id]</code> 貼至 Spreadsheets Data API 網址裡的對應處</li>
-<li><code>https://spreadsheets.google.com/feeds/cells/[sheet-id]/[sheet-index]/public/values?alt=json</code></li>
-<li><code>https://spreadsheets.google.com/feeds/list/[sheet-id]/[sheet-index]/public/values?alt=json</code>
+<li>將 <code>[sheet-id]</code> 貼至 Spreadsheets Data API 網址裡的對應處
 <ul>
+<li><code>https://spreadsheets.google.com/feeds/cells/[sheet-id]/[sheet-index]/public/values?alt=json</code></li>
+<li><code>https://spreadsheets.google.com/feeds/list/[sheet-id]/[sheet-index]/public/values?alt=json</code></li>
 <li>預設格式為 xml，在後面加上 <code>?alt=json</code> 改為取得 JSON 格式</li>
 </ul>
 </li>
-<li><code>[sheet-index]</code> 可以指定要取得表單裡的哪個分頁</li>
-<li>ex: <code>https://spreadsheets.google.com/feeds/cells/[sheet-id]/1/public/values?alt=json</code>
+<li><code>[sheet-index]</code> 可以指定要取得表單裡的哪個分頁
 <ul>
+<li>ex: <code>https://spreadsheets.google.com/feeds/cells/[sheet-id]/1/public/values?alt=json</code></li>
 <li><code>od6</code> 似乎是 API 的預設值？</li>
 </ul>
 </li>
 </ul>
 </li>
 <li>主要內容在 <code>feed.entry.content</code> 或 <code>feed.entry.gs$cell</code> 裡</li>
-</ul>
-<p>資料結構：</p>
+<li>資料結構：
 <pre class="astro-code dracula" style="background-color:#282A36;color:#F8F8F2; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color:#F8F8F2">{</span></span>
 <span class="line"><span style="color:#8BE9FE">  "</span><span style="color:#8BE9FD">version</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">1.0</span><span style="color:#E9F284">"</span><span style="color:#F8F8F2">,</span></span>
 <span class="line"><span style="color:#8BE9FE">  "</span><span style="color:#8BE9FD">encoding</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">UTF-8</span><span style="color:#E9F284">"</span><span style="color:#F8F8F2">,</span></span>
 <span class="line"><span style="color:#8BE9FE">  "</span><span style="color:#8BE9FD">feed</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> {</span></span>
 <span class="line"><span style="color:#8BE9FE">    "</span><span style="color:#8BE9FD">xmlns</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">http://www.w3.org/2005/Atom</span><span style="color:#E9F284">"</span><span style="color:#F8F8F2">,</span></span>
-<span class="line"><span style="color:#FF5555;font-style:italic;text-decoration:underline">    ...</span></span>
-<span class="line"><span style="color:#8BE9FE">    "</span><span style="color:#8BE9FD">title</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> {</span></span>
-<span class="line"><span style="color:#8BE9FE">      "</span><span style="color:#8BE9FD">type</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">text</span><span style="color:#E9F284">"</span><span style="color:#F8F8F2">,</span></span>
-<span class="line"><span style="color:#8BE9FE">      "</span><span style="color:#8BE9FD">$t</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">Sheet1</span><span style="color:#E9F284">"</span></span>
-<span class="line"><span style="color:#F8F8F2">    },</span></span>
-<span class="line"><span style="color:#8BE9FE">    "</span><span style="color:#8BE9FD">link</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">...</span><span style="color:#F8F8F2">],</span></span>
-<span class="line"><span style="color:#FF5555;font-style:italic;text-decoration:underline">    ...</span></span>
-<span class="line"><span style="color:#8BE9FE">    "</span><span style="color:#8BE9FD">entry</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span></span>
-<span class="line"><span style="color:#F8F8F2">      {</span></span>
-<span class="line"><span style="color:#8BE9FE">        "</span><span style="color:#8BE9FD">id</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> {</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">...</span><span style="color:#F8F8F2">},</span></span>
-<span class="line"><span style="color:#FF5555;font-style:italic;text-decoration:underline">        ...</span></span>
-<span class="line"><span style="color:#F8F8F2">      },</span></span>
-<span class="line"><span style="color:#E9F284">      "</span><span style="color:#F1FA8C">content</span><span style="color:#E9F284">"</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">:</span><span style="color:#F8F8F2"> {</span></span>
-<span class="line"><span style="color:#8BE9FE">        "</span><span style="color:#8BE9FD">type</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">text</span><span style="color:#E9F284">"</span><span style="color:#F8F8F2">,</span></span>
-<span class="line"><span style="color:#8BE9FE">        "</span><span style="color:#8BE9FD">$t</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">content</span><span style="color:#E9F284">"</span></span>
-<span class="line"><span style="color:#F8F8F2">      },</span></span>
-<span class="line"><span style="color:#E9F284">      "</span><span style="color:#F1FA8C">link</span><span style="color:#E9F284">"</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">...</span><span style="color:#F8F8F2">],</span></span>
-<span class="line"><span style="color:#E9F284">      "</span><span style="color:#F1FA8C">gs$cell</span><span style="color:#E9F284">"</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">:</span><span style="color:#F8F8F2"> {</span></span>
-<span class="line"><span style="color:#8BE9FE">        "</span><span style="color:#8BE9FD">row</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">1</span><span style="color:#E9F284">"</span><span style="color:#F8F8F2">,</span></span>
-<span class="line"><span style="color:#8BE9FE">        "</span><span style="color:#8BE9FD">col</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">1</span><span style="color:#E9F284">"</span><span style="color:#F8F8F2">,</span></span>
-<span class="line"><span style="color:#8BE9FE">        "</span><span style="color:#8BE9FD">$t</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">content</span><span style="color:#E9F284">"</span></span>
-<span class="line"><span style="color:#F8F8F2">      },</span></span>
-<span class="line"><span style="color:#FF5555;font-style:italic;text-decoration:underline">      ...</span></span>
-<span class="line"><span style="color:#F8F8F2">    ]</span></span>
-<span class="line"><span style="color:#F8F8F2">  }</span></span>
+<span class="line"><span style="color:#6272A4">   // ...</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">title</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> {</span></span>
+<span class="line"><span style="color:#8BE9FE">     "</span><span style="color:#8BE9FD">type</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">text</span><span style="color:#E9F284">"</span><span style="color:#F8F8F2">,</span></span>
+<span class="line"><span style="color:#8BE9FE">     "</span><span style="color:#8BE9FD">$t</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">Sheet1</span><span style="color:#E9F284">"</span></span>
+<span class="line"><span style="color:#F8F8F2">   },</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">link</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">...</span><span style="color:#F8F8F2">],</span></span>
+<span class="line"><span style="color:#6272A4">   // ...</span></span>
+<span class="line"><span style="color:#8BE9FE">   "</span><span style="color:#8BE9FD">entry</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> [</span></span>
+<span class="line"><span style="color:#F8F8F2">     {</span></span>
+<span class="line"><span style="color:#8BE9FE">       "</span><span style="color:#8BE9FD">id</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#F8F8F2"> {</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">...</span><span style="color:#F8F8F2">},</span></span>
+<span class="line"><span style="color:#6272A4">       // ...</span></span>
+<span class="line"><span style="color:#F8F8F2">     },</span></span>
+<span class="line"><span style="color:#E9F284">     "</span><span style="color:#F1FA8C">content</span><span style="color:#E9F284">"</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">:</span><span style="color:#F8F8F2"> {</span></span>
+<span class="line"><span style="color:#8BE9FE">       "</span><span style="color:#8BE9FD">type</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">text</span><span style="color:#E9F284">"</span><span style="color:#F8F8F2">,</span></span>
+<span class="line"><span style="color:#8BE9FE">       "</span><span style="color:#8BE9FD">$t</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">content</span><span style="color:#E9F284">"</span></span>
+<span class="line"><span style="color:#F8F8F2">     },</span></span>
+<span class="line"><span style="color:#E9F284">     "</span><span style="color:#F1FA8C">link</span><span style="color:#E9F284">"</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">:</span><span style="color:#F8F8F2"> [</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">...</span><span style="color:#F8F8F2">],</span></span>
+<span class="line"><span style="color:#E9F284">     "</span><span style="color:#F1FA8C">gs$cell</span><span style="color:#E9F284">"</span><span style="color:#FF5555;font-style:italic;text-decoration:underline">:</span><span style="color:#F8F8F2"> {</span></span>
+<span class="line"><span style="color:#8BE9FE">       "</span><span style="color:#8BE9FD">row</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">1</span><span style="color:#E9F284">"</span><span style="color:#F8F8F2">,</span></span>
+<span class="line"><span style="color:#8BE9FE">       "</span><span style="color:#8BE9FD">col</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">1</span><span style="color:#E9F284">"</span><span style="color:#F8F8F2">,</span></span>
+<span class="line"><span style="color:#8BE9FE">       "</span><span style="color:#8BE9FD">$t</span><span style="color:#8BE9FE">"</span><span style="color:#FF79C6">:</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">content</span><span style="color:#E9F284">"</span></span>
+<span class="line"><span style="color:#F8F8F2">     },</span></span>
+<span class="line"><span style="color:#6272A4">     // ...</span></span>
+<span class="line"><span style="color:#F8F8F2">   ]</span></span>
+<span class="line"><span style="color:#F8F8F2"> }</span></span>
 <span class="line"><span style="color:#F8F8F2">}</span></span></code></pre>
+</li>
+</ul>
 <h3 id="2-可讀寫-google-apps-script">2. [可讀寫] Google Apps Script</h3>
 <ul>
-<li>建立 GAS 檔案
+<li><strong>建立 GAS 檔案</strong>
 <ul>
 <li>「Extensions」</li>
 <li>「指令碼編輯器（Script editor）」
 <ul>
-<li>現在改成了「Apps Script」</li>
+<li>現改為「Apps Script」</li>
 </ul>
 </li>
 </ul>
 </li>
-<li>撰寫 GAS
+<li><strong>撰寫 GAS</strong>
 <ul>
-<li>預設以 <code>doGet()</code> 處理 GET 要求、<code>doPost()</code> 處理 POST 要求</li>
+<li>預設以 <code>doGet()</code> 處理 GET 要求</li>
+<li>以 <code>doPost()</code> 處理 POST 要求</li>
 <li>詳見下方範例</li>
 </ul>
 </li>
-<li>發佈 API
+<li><strong>發佈 API</strong>
 <ul>
 <li>「Deploy」</li>
 <li>「Select type」
@@ -134,21 +137,21 @@
 <li>開發時可善用「Test deployments」</li>
 </ul>
 </li>
-<li>若有更改程式
+<li><strong>若有更改程式</strong>
 <ul>
 <li>部署時「專案版本（Project version）」要選擇「新增（New）」</li>
 <li>既有數字是之前發佈的版本，不會反應最新的修改內容</li>
-<li><strong>改動後一定要選擇「新增」專案版本，才會有效反應</strong></li>
+<li><strong>改動後要選擇「新增」專案版本，才會有效反應</strong></li>
 </ul>
 </li>
-<li>表單資料格式
+<li><strong>表單資料格式</strong>
 <ul>
 <li>要注意 Google Sheet 預設會自動轉換各種資料
 <ul>
 <li>例如 <code>0123</code> 會被轉換成數值後，變成 <code>123</code></li>
 </ul>
 </li>
-<li>推薦事先點選表單左上角格全選後，將格式設為「純文字（Plain text）」</li>
+<li>推薦事先點選表單左上角格全選，將格式設為「純文字（Plain text）」</li>
 <li>Google Sheet 的最大可儲存量為 1000 萬格資料
 <ul>
 <li>最大行數為 18278 行</li>
@@ -344,13 +347,13 @@
 <span class="line"><span style="color:#F8F8F2">  }</span></span>
 <span class="line"><span style="color:#F8F8F2">}</span></span></code></pre>
 </details>
-<h2 id="參考文章">參考文章</h2>
+<h2 id="參考文章"><strong>參考文章</strong></h2>
 <ul>
 <li><a href="https://medium.com/unalai/%E5%AF%AB%E7%B5%A6%E7%B4%94%E5%89%8D%E7%AB%AF-%E8%AE%93-google-sheets-%E7%95%B6%E4%BD%A0%E7%9A%84%E5%BE%8C%E7%AB%AF%E5%AE%8C%E6%88%90%E5%AF%AB%E5%85%A5%E5%8A%9F%E8%83%BD-715799e5e013">寫給純前端，讓 Google Sheets 當你的後端完成寫入功能</a></li>
 <li><a href="https://tutorials.webduino.io/zh-tw/docs/socket/useful/google-sheet-2.html">Google 試算表 (前後端實作)</a></li>
 <li><a href="https://g0v.hackpad.tw/5Ofw64qSz7P#:h=Google-Spreadsheet">盤點各種線上協作資料(庫)方案 - g0v.hackpad.tw</a></li>
 </ul>
-<h2 id="gas">GAS</h2>
+<h2 id="gas"><strong>GAS</strong></h2>
 <ul>
 <li><a href="https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet-app">SpreadsheetApp</a></li>
 <li><a href="https://developers.google.com/apps-script/reference/spreadsheet/sheet">Sheet</a></li>
@@ -663,22 +666,18 @@
 <li><a href="https://qiita.com/cyoi0129/items/1cafb446dbe176e9366e">スクレイピングいろいろ</a></li>
 <li><a href="https://qiita.com/tapatyo/items/465a982635ba3933b32d">【Google Apps Script】トリガーによる定期実行の時間のズレをなくす方法</a></li>
 </ul>
-<h2 id="google-charts">Google Charts</h2>
+<h2 id="google-charts"><strong>Google Charts</strong></h2>
 <ul>
 <li>QR Code
 <ul>
 <li><a href="https://developers.google.com/chart/infographics/docs/qr_codes">QR 圖碼</a></li>
 <li>可以透過網址請求即時取得 QR Code 的圖片</li>
-<li><code>https://chart.googleapis.com/chart?chs=450x450&#x26;cht=qr&#x26;chl=</code>[內容文字]
-<ul>
-<li><img src="https://chart.googleapis.com/chart?chs=450x450&#x26;cht=qr&#x26;chl=example" alt="google charts qr code example"></li>
-</ul>
-</li>
+<li><code>https://chart.googleapis.com/chart?chs=450x450&#x26;cht=qr&#x26;chl=</code>[內容文字]</li>
 <li>但此 API 已不再維護，隨時都可能無法再使用</li>
 </ul>
 </li>
 </ul>
-<h2 id="番外-客製化-google-form">[番外？] 客製化 Google Form</h2>
+<h2 id="番外-客製化-google-form"><strong>[番外？] 客製化 Google Form</strong></h2>
 <ul>
 <li>使用 Google Form 製作好和需求相同形式的表單</li>
 <li>點擊右上預覽表單</li>
