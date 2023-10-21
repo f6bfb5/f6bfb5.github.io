@@ -31,9 +31,6 @@ tags: [""]
 - [○ で終わる言葉](https://cotobasearch.com/search/r2)
 - [3DS ブラウザ用コンテンツ](http://www5b.biglobe.ne.jp/~clap/3ds/)
 - [タロットカードで物語をつくる構文を見つける](https://www.nnn.ed.nico/contents/guides/792)
-- [10 ＋ 1 website](https://www.10plus1.jp/)
-- [ちょうどいい Web デザインギャラリー](https://choooodoii.com/)
-- [おいでよ 広告の沼](https://www.citymilk.net/advertisingswamp/)
 - [[scanning.guide]](https://scanning.guide/start)
 
 ## 網路
@@ -57,7 +54,6 @@ tags: [""]
 | [物理のかぎしっぽ](http://hooktail.sub.jp/index.html)                                                                         | 物理、數學與電腦科學的學習筆記           |
 | [素数 2357](https://2357.aimary.com/)                                                                                         | 質數介紹                                 |
 | [劣化資料のデジタル化](https://library.iss.u-tokyo.ac.jp/collection/d00/index.html)                                           | 東京大學的社會學古老資料數位化           |
-| [失敗知識データベース](http://www.shippai.org/fkd/index.php)                                                                  | 失敗知識資料庫                           |
 
 - [通信用語の基礎知識](https://www.wdic.org/)
 - [かんたん暗記](https://www.8toch.net/hachiben/anki.cgi)
@@ -70,7 +66,6 @@ tags: [""]
 - [パチンコの歌 「777」](https://777songs.blog.fc2.com/)
 - [上手な換気の方法](https://www.daikin.co.jp/air/life/ventilation)
 - [日本図書コードの分類コード(C コード)](https://www.asahi-net.or.jp/~ax2s-kmtn/ref/ccode.html)
-- [失敗百選](http://www.sydrose.com/case100/index.html)
 
 ## 社會
 
@@ -78,29 +73,21 @@ tags: [""]
 | ------------------------------------------------------------------------------------------ | -------------------------------------- |
 | [青春 18 きっぷ　ギャラリー](http://www.satou3.com/railways/18kippu2.html)                 | 青春 18 車票的宣傳海報整理             |
 | [無限回廊 endless loop](http://www.maroon.dti.ne.jp/knight999/)                            | 日本重大社會事件詳細介紹               |
-| [全自動さじなげ委員会](https://do-inaka.info/)                                             | 秋田的廢墟、廢村、B 級景點介紹         |
-| [放送の事故](https://tvjiko.web.fc2.com/)                                                  | 放送事故紀錄                           |
-| [実録、廃屋に残された少女の日記](http://honoguraiosanpo.blog.jp/archives/1057998384.html)  | 廢墟探訪紀錄                           |
 | [空港探索・3：SS ブログ](https://airport1111.blog.ss-blog.jp/)                             | 各種機場介紹                           |
 | [朝倉泉　事件の内容](https://grandson.tripod.com/i_jiken.html)                             | 1979 年朝倉泉事件紀錄                  |
 | [東京 DEEP 案内 - 東京アンダーグラウンドタウンガイド](https://tokyodeep.info/)             | 東京冷門景點介紹                       |
 | [2005 年 4 月 25 日 福知山線 5418M、一両目の「真実」](http://www.kysd.net/fuku42501a.html) | 2005 年福知山線事故紀錄                |
 | [いつの間にか容量が減っている商品 wiki](https://shrinkflation.info/)                       | 容量不知不覺間減少的商品 wiki          |
-| [しりとり](https://siritori.net/)                                                          | 文字接龍遊戲                           |
 | [SMPTE - 深夜テレビ試験放送のアレ](https://satorunet.github.io/SMPTE/)                     | 電視測試訊號畫面                       |
 | [ゼロ年代インターネットスラングとかまとめ Wiki](https://wikiwiki.jp/moudameder/)           | 00 年代的網路黑話整理 wiki             |
 | [Dr 林のこころと脳の相談室](http://kokoro.squares.net/)                                    | 林醫師的疑難雜症網站                   |
 | [亡くなった人の Twitter アカウント 最後のツイート](https://togetter.com/li/1553934)        | 逝世者生前最後一則推文                 |
-| [日本文学ガイド](https://koten.sk46.com/index.html)                                        | 日本古典文學介紹                       |
-| [鳥居の分類](https://miniuzi0502.sakura.ne.jp/torii/Tbunrui.html)                          | 鳥居分類介紹                           |
 | [デジタルカメラの歴史](http://www.monox.jp/history/digitalcamera-history-01.html)          | 數位相機歷史                           |
 | [The Rabbit Hole](http://www.hp-alice.com/index.html)                                      | 路易斯・卡羅與愛麗絲夢遊仙境的相關資訊 |
 | [お葬式プラザ／死の総合研究所](http://osoushiki-plaza.com/institut/index.html)             | 關於死的研究與資訊                     |
 
 - [ブログの趣旨: 狂気をくぐり抜ける](http://tiem.cocolog-nifty.com/blog/shishi.html)
 - [パーソナリティのプリズム](http://dongavatyo.web.fc2.com/038.htm)
-- [三脚檣士官室](http://www.ironclad.saloon.jp/wardroom/wardroom.htm)
-- [WarBirds](http://www.warbirds.jp/index1.html)
 - [首都圏住みたくない街 - 「首都圏住みたくない街」WEB バージョン](https://t.tokyodeep.info/)
 - [作り損ねた国々](https://geolog.mydns.jp/www.geocities.jp/keropero2003/syometsu/sokone.html)
 - [みんながアクセスすると劣化する記事](https://web-media.blue-puddle.com/degradation/)
@@ -109,12 +96,10 @@ tags: [""]
 - [猿にもわかるミニ FM 放送局の作り方、猿にもわかるミニ FM の電波？](http://mini-fm.nrr.nobody.jp/)
 - [雨の言葉](http://www.ameagari.jp/ame/ame_kotoba.html)
 - [風の名称辞典](http://accent.main.jp/kaze/na.htm)
-- [ShadyURL](http://www.shadyurl.com/)
 - [家族を新興宗教から守ろう](http://anticult.minibird.jp/shuumei/index2.html)
 - [初期ラジカセの研究室](http://plaza.harmonix.ne.jp/~ita/index.html)
 - [case1112/事件まとめ](https://case1112.jp/)
 - [書籍予約・取寄せ用紙生成ツール](https://monokakitools.net/bookinfo/)
-- [ウェブサイト駅弁資料館](https://kfm.sakura.ne.jp/ekiben/)
 - [不審者セリフ集](https://fushinsha-joho.co.jp/serif.cgi)
 - [バイクの音を楽しむ「名車図鑑」](https://jaf.or.jp/individual/life-stage-appendix/bike/picture-book)
 - [マンガ災害事例](http://makoto-y.cocolog-nifty.com/blog/)
@@ -124,64 +109,49 @@ tags: [""]
 - [The Deep Sea](https://neal.fun/deep-sea/)
 - [奇食の館](http://ww2.tiki.ne.jp/~morim/menu.htm)
 - [暴力団ミニ講座](https://www.web-sanin.co.jp/gov/boutsui/mini00.htm)
-- [戦史の探求](http://warhistory-quest.blog.jp/)
 - [Mini Tokyo 3D](https://minitokyo3d.com/)
 - [シャンプー別 歴代ＣＭ出演者変遷](http://shampoomania.web.fc2.com/rekidai.html)
 - [インスタントコーヒー徹底比較](http://coffee.uraro.com/)
-- [薬物乱用、依存症、200 人の証言](http://www2.wind.ne.jp/Akagi-kohgen-HP/DR200.htm)
 - [物を捨てられないオタクが主に紙製のグッズを収納するために必要なものをまとめた記事](https://dic.nicovideo.jp/a/%E7%89%A9%E3%82%92%E6%8D%A8%E3%81%A6%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84%E3%82%AA%E3%82%BF%E3%82%AF%E3%81%8C%E4%B8%BB%E3%81%AB%E7%B4%99%E8%A3%BD%E3%81%AE%E3%82%B0%E3%83%83%E3%82%BA%E3%82%92%E5%8F%8E%E7%B4%8D%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%AA%E3%82%82%E3%81%AE%E3%82%92%E3%81%BE%E3%81%A8%E3%82%81%E3%81%9F%E8%A8%98%E4%BA%8B)
 - [実在苗字の根拠](https://web.archive.org/web/20200609223515/https://myoujikonkyo.web.fc2.com/)
 - [死刑確定者 全リスト](https://www.crimeinfo.jp/data/dplist/dplist_all/)
-- [イカセカイ](https://ikasekai.com/readings)
 - [Secrets of Scientology](https://www.cs.cmu.edu/~dst/Secrets/index.html)
-- [「東洋の魔窟」九龍城砦探検記](https://web.archive.org/web/20120509023922/http://www4.ocn.ne.jp:80/~keropero/kyuryu00.html)
 - [This to That (Glue Advice)](https://www.thistothat.com/index.shtml)
+
+## 戰爭
+
+- [三脚檣士官室](http://www.ironclad.saloon.jp/wardroom/wardroom.htm)
+- [WarBirds](http://www.warbirds.jp/index1.html)
+- [戦史の探求](http://warhistory-quest.blog.jp/)
 
 ## 音樂
 
 | 名稱                                     | 內容            |
 | ---------------------------------------- | --------------- |
 | [AC-chan](https://aidn.jp/jingle/)       | AI 自動產生樂曲 |
-| [jfxr](https://jfxr.frozenfractal.com/#) | 效果音產生器    |
-
-- [Web Cassette](https://webcassette.klevgrand.se/)
 
 ## 設計
 
 | 名稱                                                                                                                         | 內容                                 |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| [no hello][]                                                                                                                 | 用「哈囉」開啟對話不是個好主意       |
-| [Don't ask to ask, just ask][]                                                                                               | 別要求回答，直接發問                 |
 | [伝わるデザイン][]                                                                                                           | 如何製作易閱讀、好觀看、無障礙的設計 |
 | [THE MAKING（1）～（50）][]                                                                                                  | 50 種產品的製作流程                  |
-| [錯視と錯聴を体験][]                                                                                                         | 各種錯覺體驗                         |
 | [錯思コレクション 100][]                                                                                                     | 100 種認知偏誤整理                   |
 | [西洋ファンタジー用語ナナメ読み辞典「Tiny Tales」][]                                                                         | 西洋奇幻作品的用語辭典               |
 | [物語要素事典][]                                                                                                             | 由神山重彦整理的故事常見元素與出典   |
-| [ねー NT][]                                                                                                                  | Nathan Taylor 的實驗網站             |
-| [fladdict][]                                                                                                                 | 深津貴之的實驗網站                   |
 | [映像作家 100 人 MOTION GRAPHIC CREATORS][]                                                                                  |                                      |
 | [MOTIONBOX][]                                                                                                                |                                      |
 | [陽明雑記](https://toshi-y.at.webry.info/)                                                                                   |                                      |
-| [Copyright Q&A 著作権なるほど質問箱](https://copyright-qa.azurewebsites.net/)                                                |                                      |
 | [NDL イメージバンク](https://rnavi.ndl.go.jp/imagebank/)                                                                     |                                      |
 | [Artvee](https://artvee.com/)                                                                                                |                                      |
-| [The Japanese Gallery of Psychiatric Art](https://web.archive.org/web/20210707110029/http://psychodoc.eek.jp/abare/gallery/) | 精神用藥廣告圖集                     |
 
-[no hello]: https://nohello.net/en/
-[don't ask to ask, just ask]: https://dontasktoask.com/
 [伝わるデザイン]: https://tsutawarudesign.com/
 [the making（1）～（50）]: https://scienceportal.jst.go.jp/feature/b980601_01/
-[錯視と錯聴を体験]: https://illusion-forum.ilab.ntt.co.jp/list.html
 [錯思コレクション 100]: https://www.jumonji-u.ac.jp/sscs/ikeda/cognitive_bias/about.html
 [西洋ファンタジー用語ナナメ読み辞典「tiny tales」]: http://tinyangel.jog.client.jp/index.html
 [物語要素事典]: https://www.lib.agu.ac.jp/yousojiten/
-[ねー nt]: https://nathan.tokyo/
-[fladdict]: http://fladdict.net/
 [映像作家 100 人 motion graphic creators]: https://eizo100.jp/
 [motionbox]: https://motion-box.net/
-
-- [38 億年前の蟹工船](https://kani38.vercel.app/contents/kani)
 
 ## 娛樂
 

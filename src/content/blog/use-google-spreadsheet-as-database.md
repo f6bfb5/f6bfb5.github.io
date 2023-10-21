@@ -5,11 +5,12 @@ summary: ""
 tags: ["F2E", "Toolbox"]
 ---
 
-## 介紹
+## __介紹__
 
-- Google 的 Sheet API 可以直接將 Sheet 內容轉換成 JSON 格式輸出
-- 亦可從外部傳進資料，修改 Sheet 裡的內容
-- 並有提供 CORS 支援，可免於處理跨域的困擾
+- 使用 Google 的 Sheet API 實現簡易資料庫處理
+- 可將 Sheet 內容轉為 JSON 格式輸出
+- 可從外部傳進資料，修改 Sheet 裡的內容
+- 提供 CORS 支援，免於處理跨域的困擾
 
 ## 實作
 
@@ -20,65 +21,64 @@ tags: ["F2E", "Toolbox"]
   - 「發佈到網路（Publish to the web）」
   - 選擇要發佈的 Sheet／發佈整份文件
   - 點擊「發佈（Publish）」
-- 複製原始表單網址裡 `[sheet-id]` 的部份
+- 複製原始表單網址裡的 `[sheet-id]` 部份
   - `https://docs.google.com/spreadsheets/d/[sheet-id]/`
   - 注意：不是發佈頁面的連結網址，是**表單的網址**
 - 從 API 取得資料
   - 將 `[sheet-id]` 貼至 Spreadsheets Data API 網址裡的對應處
-  - `https://spreadsheets.google.com/feeds/cells/[sheet-id]/[sheet-index]/public/values?alt=json`
-  - `https://spreadsheets.google.com/feeds/list/[sheet-id]/[sheet-index]/public/values?alt=json`
+    - `https://spreadsheets.google.com/feeds/cells/[sheet-id]/[sheet-index]/public/values?alt=json`
+    - `https://spreadsheets.google.com/feeds/list/[sheet-id]/[sheet-index]/public/values?alt=json`
     - 預設格式為 xml，在後面加上 `?alt=json` 改為取得 JSON 格式
   - `[sheet-index]` 可以指定要取得表單裡的哪個分頁
-  - ex: `https://spreadsheets.google.com/feeds/cells/[sheet-id]/1/public/values?alt=json`
+    - ex: `https://spreadsheets.google.com/feeds/cells/[sheet-id]/1/public/values?alt=json`
     - `od6` 似乎是 API 的預設值？
 - 主要內容在 `feed.entry.content` 或 `feed.entry.gs$cell` 裡
-
-資料結構：
-
-```json
-{
-  "version": "1.0",
-  "encoding": "UTF-8",
-  "feed": {
-    "xmlns": "http://www.w3.org/2005/Atom",
-    ...
-    "title": {
-      "type": "text",
-      "$t": "Sheet1"
-    },
-    "link": [...],
-    ...
-    "entry": [
-      {
-        "id": {...},
-        ...
-      },
-      "content": {
-        "type": "text",
-        "$t": "content"
-      },
-      "link": [...],
-      "gs$cell": {
-        "row": "1",
-        "col": "1",
-        "$t": "content"
-      },
-      ...
-    ]
+- 資料結構：
+  ```json
+  {
+    "version": "1.0",
+    "encoding": "UTF-8",
+    "feed": {
+      "xmlns": "http://www.w3.org/2005/Atom",
+     // ...
+     "title": {
+       "type": "text",
+       "$t": "Sheet1"
+     },
+     "link": [...],
+     // ...
+     "entry": [
+       {
+         "id": {...},
+         // ...
+       },
+       "content": {
+         "type": "text",
+         "$t": "content"
+       },
+       "link": [...],
+       "gs$cell": {
+         "row": "1",
+         "col": "1",
+         "$t": "content"
+       },
+       // ...
+     ]
+   }
   }
-}
-```
+  ```
 
 ### 2. [可讀寫] Google Apps Script
 
-- 建立 GAS 檔案
+- **建立 GAS 檔案**
   - 「Extensions」
   - 「指令碼編輯器（Script editor）」
-    - 現在改成了「Apps Script」
-- 撰寫 GAS
-  - 預設以 `doGet()` 處理 GET 要求、`doPost()` 處理 POST 要求
+    - 現改為「Apps Script」
+- **撰寫 GAS**
+  - 預設以 `doGet()` 處理 GET 要求
+  - 以 `doPost()` 處理 POST 要求
   - 詳見下方範例
-- 發佈 API
+- **發佈 API**
   - 「Deploy」
   - 「Select type」
     - 「網路應用程式（web app）」
@@ -97,14 +97,14 @@ tags: ["F2E", "Toolbox"]
   - 「Web app」底下的「URL」即為讀取與寫入用的網址
     - 之後也可以從「Deploy」→「Manage deployments」裡查詢
   - 開發時可善用「Test deployments」
-- 若有更改程式
+- **若有更改程式**
   - 部署時「專案版本（Project version）」要選擇「新增（New）」
   - 既有數字是之前發佈的版本，不會反應最新的修改內容
-  - **改動後一定要選擇「新增」專案版本，才會有效反應**
-- 表單資料格式
+  - **改動後要選擇「新增」專案版本，才會有效反應**
+- **表單資料格式**
   - 要注意 Google Sheet 預設會自動轉換各種資料
     - 例如 `0123` 會被轉換成數值後，變成 `123`
-  - 推薦事先點選表單左上角格全選後，將格式設為「純文字（Plain text）」
+  - 推薦事先點選表單左上角格全選，將格式設為「純文字（Plain text）」
   - Google Sheet 的最大可儲存量為 1000 萬格資料
     - 最大行數為 18278 行
     - 一次可新增 40000 列
@@ -300,13 +300,13 @@ function onEdit(e) {
 
 </details>
 
-## 參考文章
+## __參考文章__
 
 - [寫給純前端，讓 Google Sheets 當你的後端完成寫入功能](https://medium.com/unalai/%E5%AF%AB%E7%B5%A6%E7%B4%94%E5%89%8D%E7%AB%AF-%E8%AE%93-google-sheets-%E7%95%B6%E4%BD%A0%E7%9A%84%E5%BE%8C%E7%AB%AF%E5%AE%8C%E6%88%90%E5%AF%AB%E5%85%A5%E5%8A%9F%E8%83%BD-715799e5e013)
 - [Google 試算表 (前後端實作)](https://tutorials.webduino.io/zh-tw/docs/socket/useful/google-sheet-2.html)
 - [盤點各種線上協作資料(庫)方案 - g0v.hackpad.tw](https://g0v.hackpad.tw/5Ofw64qSz7P#:h=Google-Spreadsheet)
 
-## GAS
+## __GAS__
 
 - [SpreadsheetApp](https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet-app)
 - [Sheet](https://developers.google.com/apps-script/reference/spreadsheet/sheet)
@@ -550,16 +550,15 @@ var xlsxFile = UrlFetchApp.fetch(fetchUrl, fetchOpt)
 - [スクレイピングいろいろ](https://qiita.com/cyoi0129/items/1cafb446dbe176e9366e)
 - [【Google Apps Script】トリガーによる定期実行の時間のズレをなくす方法](https://qiita.com/tapatyo/items/465a982635ba3933b32d)
 
-## Google Charts
+## __Google Charts__
 
 - QR Code
   - [QR 圖碼](https://developers.google.com/chart/infographics/docs/qr_codes)
   - 可以透過網址請求即時取得 QR Code 的圖片
   - `https://chart.googleapis.com/chart?chs=450x450&cht=qr&chl=`[內容文字]
-    - ![google charts qr code example](https://chart.googleapis.com/chart?chs=450x450&cht=qr&chl=example)
   - 但此 API 已不再維護，隨時都可能無法再使用
 
-## [番外？] 客製化 Google Form
+## __[番外？] 客製化 Google Form__
 
 - 使用 Google Form 製作好和需求相同形式的表單
 - 點擊右上預覽表單

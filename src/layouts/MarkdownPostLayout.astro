@@ -1,8 +1,23 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 import ArticleRainbowTitle from "../components/ArticleRainbowTitle.astro";
-const { title } = Astro.props;
+const { slug, title, summary } = Astro.props;
 ---
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="generator" content={Astro.generator} />
+  
+  <link rel="icon" type="image/svg+xml" href=`${Astro.url.origin}/favicon.svg` />
+  
+  <!-- OGP -->
+  <meta property="og:url" content=`${Astro.url}` />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={summary} />
+  <meta property="og:image" content=`${Astro.url.origin}/images/${slug}.png` />
+</head>
 
 <BaseLayout pageTitle={title}>
   <article>
@@ -13,9 +28,13 @@ const { title } = Astro.props;
 
 <style>
   article {
+    display: grid;
+
     padding: 10px;
     border: 1px solid var(--subtitle-color);
-    box-shadow: 2px 2px 0 var(--subtext-color), 4px 4px 0 var(--title-color);
+    box-shadow:
+      2px 2px 0 var(--subtext-color),
+      4px 4px 0 var(--title-color);
     background-color: #e5edc8;
   }
 </style>

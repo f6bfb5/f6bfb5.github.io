@@ -24,27 +24,11 @@ tags: ["F2E"]
 
 ---
 
-<!-- https://bindup.jp/camp/bind/howto/31221 -->
-<div style="margin-top: 1em; padding-top: 4em; background-image: linear-gradient(110deg,transparent 20%,#e5ebf0 20%)" />
-<div style="margin-left: .5em; width: 48%; float: left;">
-  <h2 style="margin-top: -4em; margin-left: 1em;">TITLE</h2>
-  <img src="https://i.imgur.com/iepJccR.png" alt="placeholder" style="margin-top: -2em;" />
-  <p>Lorem lorem lorem lorem lorem lorem</p>
-</div>
-<div style="margin-left: .5em; width: 48%; float: left;">
-  <p style="margin-left: 5em; margin-top: 1em;">Lorem lorem lorem lorem lorem lorem</p>
-  <img src="https://i.imgur.com/u4DyT6c.png" alt="placeholder" />
-  <h4 style="text-align: right;">SUBTITLE</h4>
-</div>
-<div style="clear: both;" />
-
----
-
-<div style="font-size: 4em; height: .5em; overflow: hidden; color: var(--subtitle-color);">TEXT</div>
-<div style="font-size: 4em; height: .5em; overflow: hidden; color: var(--subtext-color);">TEXT</div>
-<div style="font-size: 4em; height: .5em; overflow: hidden; color: var(--title-color);">TEXT</div>
-<div style="font-size: 4em;">TEXT</div>
-<div style="font-size: 4em; color: #e5edc8;
+<div style="font-size: 4em; height: .5em; line-height: 1em; overflow: hidden; color: var(--subtitle-color);">TEXT</div>
+<div style="font-size: 4em; height: .5em; line-height: 1em; overflow: hidden; color: var(--subtext-color);">TEXT</div>
+<div style="font-size: 4em; height: .5em; line-height: 1em; overflow: hidden; color: var(--title-color);">TEXT</div>
+<div style="font-size: 4em; line-height: 1em;">TEXT</div>
+<div style="font-size: 4em; line-height: 1em; color: #e5edc8;
   text-shadow: -1px 1px 0 var(--subtitle-color), 1px 1px 0 var(--subtitle-color), 1px -1px 0 var(--subtitle-color), -1px -1px 0 var(--subtitle-color);">
   TEXT
 </div>
@@ -164,11 +148,11 @@ tags: ["F2E"]
 </div>
 
 <div style="margin-top: 1em; border: 1px solid #333; background: #999;">
-  <div style="width: 78%; height: 10px; background: #78d461;" />
+  <div style="width: 78%; height: 10px; background: #78d461;"></div>
 </div>
 
 <div style="margin-top: 1em; margin-bottom: 1em; border: 1px solid #333; background: #999;">
-  <div style="width: 23%; height: 10px; background: #ff5623;" />
+  <div style="width: 23%; height: 10px; background: #ff5623;"></div>
 </div>
 
 <div style="position: relative; min-height: 480px; background: url('https://i.imgur.com/XHOlLwQ.png'); background-size: cover; background-repeat: no-repeat; overflow: hidden;">
@@ -184,41 +168,19 @@ tags: ["F2E"]
   淡漠、什麼精神官能症、各種障礙、非精神病性的繭居族、新型憂鬱症……社會總踩著「是你（無法適應者）的錯，是你很異常」的立場，對於我寫的這些內容，也會覺得非常悲慘吧（實際上在社會裡確實是悲慘的），但心理上（如果沒有旁人的說教或生活上的困頓）是比「以前」更加舒適，也不會再對將來感到不安。當然這不是克服了不安，只是連不安都被虛無吞噬了。在壓倒性的背反邏輯面前，「將來」或「問題」已失去了一切重要性。只剩下「夠了，我不做了」。不會有「我要活在當下！做我想做的事！」這種積極性，在「看見」之後，能做的只有認命。
 </p>
 
+<div style="padding: .125em; display: flex; align-items: center; color: #efefef; background-color: #2f2f2f;">
+  <div style="margin-left: .25em; margin-right: .5em; display: inline-block; border: 1px solid #efefef;">
+    <span style="display: inline-block; padding: 0 .125em; color: #2f2f2f; background-color: #efefef;">BP</span>
+    <span style="display: inline-block; padding-right: .125em;">05</span>
+  </div>
+  <span style="transform: scale(.8, 1); transform-origin: top left; width: 125%; line-height: 2;">勇の心は開くのか（８話）</span>
+</div>
+
 <span class="sliver-glitter">███████████</span>
 
 <span class="gold-glitter">███████████</span>
 
-<!-- https://copypet.jp/2206/ -->
-
-<span style="padding: 4px 16px; font-size: 1.3em; background-color: transparent; background-image: repeating-linear-gradient(-45deg, white, white 2px, transparent 0, transparent 4px);">GARA HAIKEI</span>
-
-<!-- https://125naroom.com/web/3737 -->
-<div style="
-  background-color: #ffe9a7;
-  background-image:  linear-gradient(30deg, #ffc107 12%, transparent 12.5%, transparent 87%, #ffc107 87.5%, #ffc107), linear-gradient(150deg, #ffc107 12%, transparent 12.5%, transparent 87%, #ffc107 87.5%, #ffc107), linear-gradient(30deg, #ffc107 12%, transparent 12.5%, transparent 87%, #ffc107 87.5%, #ffc107), linear-gradient(150deg, #ffc107 12%, transparent 12.5%, transparent 87%, #ffc107 87.5%, #ffc107), linear-gradient(60deg, #ffc10777 25%, transparent 25.5%, transparent 75%, #ffc10777 75%, #ffc10777), linear-gradient(60deg, #ffc10777 25%, transparent 25.5%, transparent 75%, #ffc10777 75%, #ffc10777);
-  background-size: 40px 70px;
-  background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;">
-  <p style="text-align: center;">lorem</p>
-</div>
-
-<!-- https://qiita.com/xrxoxcxox/items/073d30615a1d73c089fc -->
-<div style="columns: 100px 3;">
-  <div class="adjusted-image-border">
-    <img src="https://i.imgur.com/vCT9925.png" alt="thanks for playing" />
-  </div>
-  <div class="adjusted-image-border">
-
-![sky in the building](https://i.imgur.com/lYVTGos.png)
-
-  </div>
-  <div class="adjusted-image-border">
-
-![rainbow ballon](https://i.imgur.com/JuPO2pq.png)
-
-  </div>
-</div>
-
-<div style="padding: 1em; max-widt 100%; background-color: #ffffee;">
+<div style="padding: 1em; max-width: 100%; background-color: #ffffee;">
 <div style="margin: 4px auto; max-width: 576px;
   color: rgb(128,0,0); background-color: #f0e0d6;">
   <div>
@@ -237,33 +199,9 @@ tags: ["F2E"]
 </div>
 </div>
 
-<!-- <dialog style="position: fixed; top: 50%;" open>
-  <p>Greetings, one and all!</p>
-  <form method="dialog">
-    <button>CLOSE</button>
-  </form>
-</dialog> -->
-
-<div style="padding: 10px 0; background: #000;">
+<!-- <div style="padding: 10px 0; background: #000;">
   <span style="padding-left: 10px; border-left: 35px solid #d6000f; color: white;">TITLE HERE</span>
-</div>
-
-<fieldset>
-    <legend>Select a maintenance drone:</legend>
-    <div>
-      <input type="radio" id="huey" name="drone" value="huey"
-             checked>
-      <label for="huey">Huey</label>
-    </div>
-    <div>
-      <input type="radio" id="dewey" name="drone" value="dewey">
-      <label for="dewey">Dewey</label>
-    </div>
-    <div>
-      <input type="radio" id="louie" name="drone" value="louie">
-      <label for="louie">Louie</label>
-    </div>
-</fieldset>
+</div> -->
 
 <style scoped>
   .hi {
@@ -325,22 +263,6 @@ tags: ["F2E"]
       background-position-x: calc(150vw - 96.5926px);
       background-position-y: calc(50px + 25.8819px);
     }
-  }
-
-  /* ---------- */
-  
-  .adjusted-image-border {
-    position: relative;
-  }
-  .adjusted-image-border p {
-    padding: 0;
-  }
-  .adjusted-image-border::before {
-    position: absolute;
-    content: "";
-    inset: 0;
-    box-shadow: 0 0 0 2px rgb(220 220 220) inset;
-    mix-blend-mode: darken;
   }
 
 </style>

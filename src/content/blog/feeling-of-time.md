@@ -45,8 +45,7 @@ tags: ["F2E"]
 		1979: '機動戰士鋼彈',
 	};
 	const yearEvent = {
-		// *TODO: consider changing to year: { style: '', content: '' }, ?
-		2023: 'Twitter 更名',
+		2023: 'Twitter 更名、阿克薩洪水行動',
 		2022: '俄羅斯入侵烏克蘭、寶可夢 朱／紫發售、孤獨搖滾！播出',
 		2021: '長賜輪事件',
 		2020: '<b>PlayStation 5 發售</b>',
@@ -63,30 +62,30 @@ tags: ["F2E"]
 		2009: 'Minecraft 發售、英雄聯盟推出、K-ON！輕音部播出',
 		2008: '海角七號上映、女神異聞錄 4 發售、全球金融海嘯',
 		2007: 'iPhone 發售、次貸危機、初音未來發售',
-		2006: '<b>PlayStation 3, Wii 發售</b>、NicoNico 動畫創立、Twitter 創立、寶可夢 鑽石／珍珠發售、涼宮春日的憂鬱播出',
+		2006: '<b><img src="/images/Ps3_03_60gb.gif" alt="PlayStation 3" style="display: inline-block; margin-right: 2px; height: 1.3em; vertical-align: bottom;" />PlayStation 3, <img src="/images/Wii.gif" alt="Wii" style="display: inline-block; margin-right: 2px; height: 1.3em; vertical-align: bottom;" />Wii 發售</b>、NicoNico 動畫創立、Twitter 創立、寶可夢 鑽石／珍珠發售、涼宮春日的憂鬱播出',
 		2005: '電車男播出、YouTube 創立',
-		2004: '<b>PlayStation Portable, 任天堂 DS 發售</b>、背水的逆轉劇、Facebook 創立、台北 101 完工',
+		2004: '<b><img src="/images/Psp_b01.gif" alt="PlayStation Portable" style="display: inline-block; margin-right: 2px; height: 1.3em; vertical-align: bottom;" />PlayStation Portable, <img src="/images/NintendoDS_01.gif" alt="Nintendo DS" style="display: inline-block; margin-right: 2px; height: 1.3em; vertical-align: bottom;" />任天堂 DS 發售</b>、背水的逆轉劇、Facebook 創立、台北 101 完工',
 		2003: 'SARS 爆發、伊拉克戰爭、Skype 發布',
 		2002: '寶可夢 紅寶石／藍寶石發售',
-		2001: '911 恐攻、神隱少女上映、<b>Gameboy Advance 發售</b>、哈利波特上映、流星花園播出',
-		2000: '<b>PlayStation 2 發售</b>、大逃殺上映、台灣首次政黨輪替、麻辣鮮師播出',
+		2001: '911 恐攻、神隱少女上映、<b><img src="/images/Gba02.gif" alt="Gameboy Advance" style="display: inline-block; margin-right: 2px; height: 1.3em; vertical-align: bottom;" />Gameboy Advance 發售</b>、哈利波特上映、流星花園播出',
+		2000: '<b><img src="/images/Ps2_03.gif" alt="PlayStation 2" style="display: inline-block; margin-right: 2px; height: 1.3em; vertical-align: bottom;" />PlayStation 2 發售</b>、大逃殺上映、台灣首次政黨輪替、麻辣鮮師播出',
 		1999: '駭客任務上映、寶可夢 金／銀發售、數碼寶貝大冒險播出、921 地震、無名小站創立、中華電信推出 ADSL、MSN Messenger 發布',
 		1998: '獵人開始連載、Google 創立、Yahoo!奇摩即時通發布',
 		1997: '鐵達尼號上映、FF7 發售、ONE PIECE 開始連載',
 		1996: '寶可夢 紅／綠發售、台灣首次總統直選、巴哈姆特電玩資訊站創立、台海飛彈危機、ICQ 發布、台灣首家網路咖啡廳開張',
 		1995: '阪神大地震、地下鐵沙林事件、新世紀福音戰士播出、PTT 創立',
-		1994: '<b>PlayStation 1 發售</b>',
+		1994: '<b><img src="/images/Ps01.gif" alt="PlayStation 1" style="display: inline-block; margin-right: 2px; height: 1.3em; vertical-align: bottom;" />PlayStation 1 發售</b>',
 		1993: '侏儸紀公園上映',
 		1992: '日本泡沫經濟破裂',
 		1991: '蘇聯解體，冷戰結束',
-		1990: '野百合學運、<b>Super Famicom 發售</b>、迷宮傳奇播出、波斯灣戰爭',
-		1989: '<b style="color: #fe9619;">平成元年</b>／<b>Gameboy 發售</b>、首個全球資訊網頁問世、無殼蝸牛運動、鄭南榕自焚、天安門事件、柏林圍牆倒塌',
+		1990: '野百合學運、<b><img src="/images/Sfc_3.gif" alt="Super Famicom" style="display: inline-block; margin-right: 2px; height: 1.3em; vertical-align: bottom;" />Super Famicom 發售</b>、迷宮傳奇播出、波斯灣戰爭',
+		1989: '<b style="color: #fe9619;">平成元年</b>／<b><img src="/images/Gameboy05.gif" alt="Gameboy" style="display: inline-block; margin-right: 2px; height: 1.3em; vertical-align: bottom;" />Gameboy 發售</b>、首個全球資訊網頁問世、無殼蝸牛運動、鄭南榕自焚、天安門事件、柏林圍牆倒塌',
 		1988: 'AKIRA 上映',
 		1987: '台灣解嚴',
 		1986: '天空之城上映、車諾比事件、哈雷彗星接近',
 		1985: '回到未來上映、Windows 發售',
 		1984: '七龍珠開始連載',
-		1983: '<b>Famicom 發售</b>',
+		1983: '<b><img src="/images/Fc_03.gif" alt="Famicom" style="display: inline-block; margin-right: 2px; height: 1.3em; vertical-align: bottom;" />Famicom 發售</b>',
 		1979: '機動戰士鋼彈播出、美麗島事件',
 		1977: '星際大戰上映',
 		1976: '文化大革命結束、烏龍派出所開始連載',
@@ -107,7 +106,7 @@ tags: ["F2E"]
 	<span class="gray">■</span>＝古時
 </p>
 
-<table x-data>
+<table x-data style="margin: 0 calc(50% - 45vw); background-color: #e5edc8; justify-self: center;">
   <thead>
     <tr>
       <th></th>

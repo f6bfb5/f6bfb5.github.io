@@ -17,6 +17,12 @@
     "@types/alpinejs": "^3.13.3",
     "alpinejs": "^3.13.2",
     "astro": "^3.2.3",
-    "astro-robots-txt": "^1.0.0"
+    "astro-robots-txt": "^1.0.0",
+    "satori": "^0.10.9",
+    "satori-html": "^0.3.2"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.0",
+    "unocss": "^0.56.5"
   }
 }

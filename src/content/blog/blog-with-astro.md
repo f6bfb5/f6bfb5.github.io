@@ -14,10 +14,12 @@ TODO
 - [x] Global style.css & related files
 - [ ] favicon
 - [ ] ~~MDX + svelte~~
-- [v] OGP preview image
+  - [x] Alpine.js
+  - [x] UnoCSS
+- [x] OGP preview image
 - [x] RSS
 - [v] Sitemap
-- [v] robots.txt
+- [x] robots.txt
 
 Markdown + 彈性路由
 ---
@@ -168,10 +170,33 @@ robots.txt
 OGP preview
 ---
 
+### astro-og-canvas
+
 - [How to use `astro-og-canvas` with Astro | Aidan Kinzett](https://aidankinzett.com/blog/astro-open-graph-image/)
 - [astro-og-canvas/packages/astro-og-canvas](https://github.com/delucis/astro-og-canvas/tree/latest/packages/astro-og-canvas)
+
+### satori
+
 - [Astro.js 小ネタ集 その②](https://asopi.tech/blog/20230615_1#satori-%E3%81%A7-html%E3%81%8B%E3%82%89%E7%94%BB%E5%83%8F%E7%94%9F%E6%88%90)
+  - [satoriを使ったAstroのOGP画像生成メモ | Marginalia](https://blog.lacolaco.net/2023/06/astro-satori-og-image-generation/)
+  - [BudouXとSatoriを使ってタイトルが分かち書きされたOGP画像を出力する。 - return $lock;](https://retrorocket.biz/archives/use-budoux-with-satori)
 - `npm i satori satori-html @resvg/resvg-js`
+- [Error: `No loader is configured for ".node" files: node_modules/@resvg/resvg-js-linux-x64-musl/resvgjs.linux-x64-musl.node`](https://github.com/yisibl/resvg-js/issues/175)
+  - `astro.config.mjs`
+  ```javascript
+  vite: {
+    ssr: {
+      external: ['@resvg/resvg-js']
+    },
+    optimizeDeps: {
+      exclude: ["@resvg/resvg-js"]
+    }
+  }
+  ```
+- Satori 使用與 React Native 同樣的 layout 引擎，**沒有實作完整的 CSS**
+  - [vercel/satori: Enlightened library to convert HTML and CSS to SVG](https://github.com/vercel/satori/tree/main#css)
+- 支援 TailwindCSS
+- https://og-playground.vercel.app/
 
 SEO
 ---
@@ -187,9 +212,50 @@ Alpine.js
 - [@astrojs/alpinejs 🚀 Astro 文檔](https://docs.astro.build/zh-tw/guides/integrations-guide/alpinejs/)
 - `npx astro add alpinejs`
 
-<div x-data="{ count: 0 }">
+<div x-data="{ count: 0 }" style="margin: auto;">
     <button x-on:click="count++">Increment</button>
     <span x-text="count"></span>
+</div>
+
+UnoCSS
+---
+
+- [UnoCSS Astro Integration](https://unocss.dev/integrations/astro)
+- `npm i -D unocss`
+- `astro.config.mjs`
+  ```javascript
+  import { defineConfig } from 'astro/config'
+  import UnoCSS from 'unocss/astro'
+
+  export default defineConfig({
+    integrations: [
+      UnoCSS(),
+    ],
+  })
+  ```
+- 建立 `uno.config.ts`
+  ```javascript
+  import {
+    defineConfig,
+    presetUno,
+    presetAttributify,
+  } from 'unocss'
+
+  export default defineConfig({
+    presets: [
+      presetUno(),
+      presetAttributify(),
+    ],
+  })
+  ```
+  - 加入 Presets：Uno 與 Attributify
+- Attributify 預設屬性值：
+  - `['bg', 'flex', 'grid', 'border', 'text', 'font', 'class', 'className', 'p', 'm', 'animate']`
+
+<div class="grid place-items-center content-center">
+ <div class="py-2 px-4 bg-purple-500 text-white font-semibold rounded-lg shadow-md">
+  UnoCSS classes also work in Markdown!
+ </div>
 </div>
 
 And more...
