@@ -8,8 +8,8 @@ const { slug, title, summary } = Astro.props;
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <meta name="generator" content={Astro.generator} />
-  
-  <link rel="icon" type="image/svg+xml" href=`${Astro.url.origin}/favicon.svg` />
+  <link rel="icon" href="/favicon.ico" />
+  <title>{title}</title>
   
   <!-- OGP -->
   <meta property="og:url" content=`${Astro.url}` />

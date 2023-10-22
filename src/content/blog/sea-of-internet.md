@@ -14,11 +14,6 @@ tags: [""]
 
 ---
 
-- [未解決事件・失踪/行方不明事件・印象に残った事件](https://seesaawiki.jp/w/mikaiketsujiken/d/%CC%A4%B2%F2%B7%E8%BB%F6%B7%EF%A1%A6%BC%BA%ED%A9/%B9%D4%CA%FD%C9%D4%CC%C0%BB%F6%B7%EF%A1%A6%B0%F5%BE%DD%A4%CB%BB%C4%A4%C3%A4%BF%BB%F6%B7%EFTOP)
-- [帰らざる２ちゃんねる](http://mewmirror.coresv.com/)
-
----
-
 - [僕を取り囲む私を観察した不定期日記で自分は誰？](https://web.archive.org/web/20030811182532/http://www4.vc-net.ne.jp/~obara/diary/)
 - [同人誌生活文化総合研究所](http://www.st.rim.or.jp/~nmisaki/)
 - [地下ゲームセンター](https://web.archive.org/web/20030810131216/http://www.hehehe.net/game/)
@@ -58,13 +53,11 @@ tags: [""]
 - [通信用語の基礎知識](https://www.wdic.org/)
 - [かんたん暗記](https://www.8toch.net/hachiben/anki.cgi)
 - [計算形而上学入門 - A602](https://tsg.ne.jp/nolze/texts/CM.html)
-- [Simulation, Consciousness, Existence -- Hans Moravec, 1998](https://frc.ri.cmu.edu/~hpm/project.archive/general.articles/1998/SimConEx.98.html)
 - [松岡正剛の千夜千冊](https://1000ya.isis.ne.jp/souran/index.php?vol=102)
 - [ブリコラージュ@川内川前叢茅辺](http://st.cat-v.ne.jp/kawamae_cho/index.html)
 - [魔法道具ＣＧ](http://www.elfindog.sakura.ne.jp/cgtools.htm)
 - [世界一高いウェブサイト](https://worlds-highest-website.com/ja/)
 - [パチンコの歌 「777」](https://777songs.blog.fc2.com/)
-- [上手な換気の方法](https://www.daikin.co.jp/air/life/ventilation)
 - [日本図書コードの分類コード(C コード)](https://www.asahi-net.or.jp/~ax2s-kmtn/ref/ccode.html)
 
 ## 社會
@@ -80,7 +73,6 @@ tags: [""]
 | [いつの間にか容量が減っている商品 wiki](https://shrinkflation.info/)                       | 容量不知不覺間減少的商品 wiki          |
 | [SMPTE - 深夜テレビ試験放送のアレ](https://satorunet.github.io/SMPTE/)                     | 電視測試訊號畫面                       |
 | [ゼロ年代インターネットスラングとかまとめ Wiki](https://wikiwiki.jp/moudameder/)           | 00 年代的網路黑話整理 wiki             |
-| [Dr 林のこころと脳の相談室](http://kokoro.squares.net/)                                    | 林醫師的疑難雜症網站                   |
 | [亡くなった人の Twitter アカウント 最後のツイート](https://togetter.com/li/1553934)        | 逝世者生前最後一則推文                 |
 | [デジタルカメラの歴史](http://www.monox.jp/history/digitalcamera-history-01.html)          | 數位相機歷史                           |
 | [The Rabbit Hole](http://www.hp-alice.com/index.html)                                      | 路易斯・卡羅與愛麗絲夢遊仙境的相關資訊 |
@@ -91,7 +83,7 @@ tags: [""]
 - [首都圏住みたくない街 - 「首都圏住みたくない街」WEB バージョン](https://t.tokyodeep.info/)
 - [作り損ねた国々](https://geolog.mydns.jp/www.geocities.jp/keropero2003/syometsu/sokone.html)
 - [みんながアクセスすると劣化する記事](https://web-media.blue-puddle.com/degradation/)
-- [自転車ツーリング再生計画](http://miyaginocyclingclub.org/kadooka/biketouring/index.html)
+- [自転車ツーリング再生計画](https://web.archive.org/web/20190516082705/http://miyaginocyclingclub.org/kadooka/biketouring/index.html)
 - [夢十夜 Remix](http://pha22.net/yume10/)
 - [猿にもわかるミニ FM 放送局の作り方、猿にもわかるミニ FM の電波？](http://mini-fm.nrr.nobody.jp/)
 - [雨の言葉](http://www.ameagari.jp/ame/ame_kotoba.html)

@@ -11,7 +11,7 @@ import UnoCSS from 'unocss/astro';
 export default defineConfig({
   site: 'https://f6bfb5.github.io/',
   integrations: [
-  // mdx(),
+  mdx(),
   // sitemap(),
   // robotsTxt(),
   alpinejs(),
