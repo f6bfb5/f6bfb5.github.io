@@ -6,17 +6,14 @@ import "../styles/fonts/fonts.css";
 import Navigation from "../components/Navigation.astro";
 import Footer from "../components/Footer.astro";
 import GA4 from "../components/GA4.astro";
-
-const { pageTitle } = Astro.props;
 ---
 
 <html lang="zh-Hant-TW">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" href="/favicon.ico" />
-    <title>{pageTitle}</title>
     <style>
       body {
         min-height: 100%;

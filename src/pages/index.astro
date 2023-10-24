@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { ViewTransitions } from "astro:transitions";
-const pageTitle = "Hello World!";
 import ArticlesList from "../components/ArticlesList.astro";
+import Marquee from "../components/Marquee.astro";
 ---
 
 <style scoped>
@@ -58,7 +58,7 @@ import ArticlesList from "../components/ArticlesList.astro";
   <meta property="og:title" content="f6bfb5's blog" />
   <meta name="Description" content="雨天決行" />
   <meta property="og:description" content="雨天決行" />
-  <meta property="og:image" content="https://i.imgur.com/frsPyaZ.png" />
+  <meta property="og:image" content="https://i.imgur.com/tRXQ4iJ.png" />
 
   <meta
     name="google-site-verification"
@@ -67,7 +67,7 @@ import ArticlesList from "../components/ArticlesList.astro";
   <ViewTransitions />
 </head>
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout>
   <!-- <Marquee /> -->
 
   <div class="toolbar">

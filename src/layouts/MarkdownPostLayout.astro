@@ -6,7 +6,7 @@ const { slug, title, summary } = Astro.props;
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="generator" content={Astro.generator} />
   <link rel="icon" href="/favicon.ico" />
   <title>{title}</title>
@@ -28,8 +28,6 @@ const { slug, title, summary } = Astro.props;
 
 <style>
   article {
-    display: grid;
-
     padding: 10px;
     border: 1px solid var(--subtitle-color);
     box-shadow:

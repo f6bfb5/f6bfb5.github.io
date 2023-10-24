@@ -1,0 +1,21 @@
+---
+import json from "./marquee.json";
+let displayingSentences = [...json.marquee].sort(() => Math.random() - 0.5);
+let displayingString = displayingSentences.shift();
+---
+
+<script>
+  function getTextLength(text: string) {
+    let chars = text.split("");
+    const reg = /^[A-Za-z0-9]*$/;
+    let length = 0;
+    for (let i = 0, ilen = chars.length; i < ilen; i++) {
+      length += reg.test(chars[i]) ? 0.5 : 1;
+    }
+    return length;
+  }
+</script>
+
+<p class="relative z-1">
+  {displayingString}
+</p>

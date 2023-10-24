@@ -106,6 +106,7 @@ tags: ["F2E"]
 	<span class="gray">■</span>＝古時
 </p>
 
+<div class="grid">
 <table x-data style="margin: 0 calc(50% - 45vw); background-color: #e5edc8; justify-self: center;">
   <thead>
     <tr>
@@ -135,6 +136,7 @@ tags: ["F2E"]
 	</template>
   </tbody>
 </table>
+</div>
 
 <style>
 h1 small {
@@ -143,6 +145,7 @@ h1 small {
 
 table, th, td {
   border: 1px solid #333;
+  padding: 0;
 }
 th, td:first-child, td:last-child {
   padding: 2px 4px;
