@@ -1,21 +1,138 @@
 ---
 import json from "./marquee.json";
-let displayingSentences = [...json.marquee].sort(() => Math.random() - 0.5);
-let displayingString = displayingSentences.shift();
 ---
 
-<script>
-  function getTextLength(text: string) {
-    let chars = text.split("");
-    const reg = /^[A-Za-z0-9]*$/;
-    let length = 0;
-    for (let i = 0, ilen = chars.length; i < ilen; i++) {
-      length += reg.test(chars[i]) ? 0.5 : 1;
+<div
+  class="relative z-1 overflow-hidden flex flex-items-center marquee-container"
+>
+  <p class="absolute m-0 p-0 marquee-text" id="marquee-text"></p>
+</div>
+
+<script define:vars={{ json }}>
+let displayingSentences = [...json.marquee].sort(() => Math.random() - 0.5);
+let displayingString = displayingSentences.shift();
+let el = document.querySelector("#marquee-text");
+el.innerText = displayingString;
+
+// https://www.jonathan-petitcolas.com/2013/05/06/simulate-marquee-tag-in-css-and-javascript.html
+const animations = [
+  {
+    keyframes: [
+      {
+        transform: "translateX(max(736px, 100%))",
+        // textIndent: "736px",
+      },
+      {
+        transform: "translateX(8px)",
+        // textIndent: "0px",
+        offset: 0.38,
+      },
+      {
+        transform: "translateX(8px)",
+        // textIndent: "0px",
+      },
+    ],
+    options: {
+      duration: 2000,
+      delay: 250,
+      iterations: 1,
+      easing: "ease",
+      fill: "forwards",
+    },
+  },
+  {
+    keyframes: [
+      {
+        transform: "translateX(8px)",
+      },
+      {
+        transform: "translateX(-100%)",
+      },
+    ],
+    options: {
+      duration: (getTextLength(displayingString) / 8) * 1000,
+      iterations: 1,
+      fill: "forwards",
+    },
+  },
+];
+
+setTimeout(() => play(), 500);
+
+function play() {
+  el.animate(animations[0].keyframes, animations[0].options).finished.then(
+    () => {
+      el.animate(animations[1].keyframes, {
+        duration: (getTextLength(displayingString) / 8) * 1000,
+        iterations: 1,
+        easing: "linear",
+        fill: "forwards",
+      }).finished.then(() => {
+        updateText();
+        play();
+      });
     }
-    return length;
+  );
+}
+
+function updateText() {
+  if (displayingSentences.length <= 0) {
+    displayingSentences = [...json.marquee].sort(() => Math.random() - 0.5);
   }
+  displayingString = displayingSentences.shift();
+  el.innerText = displayingString;
+}
+
+function getTextLength(text) {
+  let chars = text.split("");
+  const reg = /^[A-Za-z0-9]*$/;
+  let length = 0;
+  for (let i = 0, ilen = chars.length; i < ilen; i++) {
+    length += reg.test(chars[i]) ? 0.5 : 1;
+  }
+  return length;
+}
 </script>
 
-<p class="relative z-1">
-  {displayingString}
-</p>
+<style>
+  .marquee-container {
+    height: 1.5em;
+  }
+  .marquee-text {
+    white-space: nowrap;
+    transform: translateX(max(736px, 100%))
+    /* transform: translateX(8px); */
+    /* text-indent: 736px; */
+    will-change: transform;
+
+    text-indent: 0;
+    color: #fff;
+    --marquee-outer-border-color: #242222;
+    text-shadow:
+      -2px -2px var(--marquee-outer-border-color),
+      -2px -1px var(--marquee-outer-border-color),
+      -2px 0px var(--marquee-outer-border-color),
+      -2px 1px var(--marquee-outer-border-color),
+      -2px 2px var(--marquee-outer-border-color),
+      -1px -2px var(--marquee-outer-border-color),
+      -1px -1px var(--marquee-outer-border-color),
+      -1px 0px var(--marquee-outer-border-color),
+      -1px 1px var(--marquee-outer-border-color),
+      -1px 2px var(--marquee-outer-border-color),
+      0px -2px var(--marquee-outer-border-color),
+      0px -1px var(--marquee-outer-border-color),
+      0px 0px var(--marquee-outer-border-color),
+      0px 1px var(--marquee-outer-border-color),
+      0px 2px var(--marquee-outer-border-color),
+      1px -2px var(--marquee-outer-border-color),
+      1px -1px var(--marquee-outer-border-color),
+      1px 0px var(--marquee-outer-border-color),
+      1px 1px var(--marquee-outer-border-color),
+      1px 2px var(--marquee-outer-border-color),
+      2px -2px var(--marquee-outer-border-color),
+      2px -1px var(--marquee-outer-border-color),
+      2px 0px var(--marquee-outer-border-color),
+      2px 1px var(--marquee-outer-border-color),
+      2px 2px var(--marquee-outer-border-color);
+  }
+</style>
