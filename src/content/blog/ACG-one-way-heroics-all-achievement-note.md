@@ -5,170 +5,6 @@ summary: "雖然還是沒拿完全成就。"
 tags: ["ACG", "Game"]
 ---
 
-<iframe src="https://store.steampowered.com/widget/266210/" title="one way heroics steam shop" frameborder="0" width="646" height="190" style="height: 190px;"></iframe>
-
-## __前言__
-
-《片道勇者》，真的是款好遊戲啊，從 2012 發表至今已經過了 10 年，依然讓人沈迷其中不能自拔，彷彿進到精神時光屋，一玩就是好幾小時過去，定價也十分親民，歷史低價時更只需要 24 塊，比破盤大特賣還破盤。目前我的遊玩時數是 62.7 小時，成就解鎖進度 44/59，其實是差不多可以取得全成就的時數了，只是中間莫名在「冒險者」+「艱困旅程」卡了好一段時間，最後是降到普通難度跟著無次元倉庫成就一起解掉。
-
-這篇「全成就之路」會著重在我還沒取得的成就部份，請多見諒，不過目前進度也算在一個不錯的點，剛好是一般遊玩能拿到的成就都差不多拿到，剩下就會需要做點功課的分界點，也才會有這篇文。內容主要參考以下資料：
-
-- [片道勇者（英名：One Way Heroics）実績コンプ ①](https://sds-page.hateblo.jp/entry/2015/11/15/114417)
-- [片道勇者（英名：One Way Heroics）実績コンプ ②](https://sds-page.hateblo.jp/entry/2015/11/15/192713)
-- [片道勇者（英名：One Way Heroics）実績コンプ ③](https://sds-page.hateblo.jp/entry/2015/11/21/202155)
-- [隠し要素 - 片道勇者プラス攻略 wiki](https://web.archive.org/web/20171202123441/http://katamichiplus.wiki.fc2.com/wiki/%E9%9A%A0%E3%81%97%E8%A6%81%E7%B4%A0)
-- [隠し要素 - 片道勇者 非公式攻略 wiki](https://katamichihero.wiki.fc2.com/wiki/%E9%9A%A0%E3%81%97%E8%A6%81%E7%B4%A0)
-- [片道勇者プラス人早マニア攻略解説 wiki](https://katamichimania.wiki.fc2.com/)
-
-## __成就一覽（WIP）__
-
- <div style="margin: .5em auto 1em; padding: 4px 2px; width: fit-content; transform: skewX(-10deg); font-size: 2em; color: white; background: black;">以下內容含有劇情透露</div>
-
-<button on:click={() => {
-isTasksDoneArr = '[true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,true,true,false,false,false,true,true,false,false,false,false,false,false]';
-newTasksDoneArrHandler();
-}}>My progress</button>
-
-<div class="achievement-container">
-  <div class="filter-container">
-    <input type="text" bind:value={isTasksDoneArr} on:change={newTasksDoneArrHandler} />
-    <div style="display: flex;">
-      <input type="checkbox" id="sortedByFinished" bind:checked={sortedByFinished} />
-      <label for="sortedByFinished">Move finished to bottom</label>
-    </div>
-  </div>
-    {#each achievementData as achievement, i}
-      <div class="achievement-item" style="{ achievement.isDone && sortedByFinished ? 'order: 2; opacity: .5;' : '' }">
-        <input type="checkbox" bind:checked={achievement.isDone} on:change={() => taskDoneHandler(i)} />
-        <img class="achievement-item--image" src={achievement.image} alt={achievement.title}>
-        <div class="text-container">
-          <span class="text-title">{achievement.title}</span>
-          <span>{achievement.description}</span>
-        </div>
-      </div>
-    {/each}
-</div>
-
-### 真の敵
-
-- > 打倒「闇」通關
-
-須以**「普通旅程」以上的難度**開始遊戲。以聖武器使用近距攻擊以外的手段對闇攻擊，會出現「強烈的光芒將闇霧一掃而空！」訊息，就可與闇進行戰鬥。闇仍會繼續移動，被吞沒還是會 Game Over，經過 10 回合後闇會再次被霧包覆，必須再次使用聖武器攻擊。
-
-闇會使用 3 段範圍的吐息攻擊，並召喚「闇之尖兵」，使用吐息之前會出現「闇龍大吸了一口氣！」訊息。最好準備好聖弓與火炎無效／減少理力傷害的防具，推薦在 1000km 前後取得聖裝備後開始戰鬥。
-
-### 残された謎
-
-- > 解鎖夥伴「ヴィクター王」的劇情
-
-ヴィクター王會在**「艱困旅程」以上的難度**隨機於「大きな街」出現，邀請加入需要魅力 2，每前進 50 公尺提昇 5 點好感，第一次好感度事件選擇「英雄になりたいから」提昇 5 點好感，第三次好感度事件後能力會大幅上升，此事件是從現有能力加算，可以留到後面再觸發。
-
-解鎖劇情需要先解鎖第三次好感度事件，並擊破魔王 or 闇之龍。詳細可見「全ての物語」部份。
-
-### 傭兵の故郷へ
-
-- > 解鎖夥伴「傭兵パンティ」的劇情
-
-僱用パンティ需要魅力 1 與 500 金幣，每過一天會再索取 500 金幣，每開啟一次寶箱（包含破壞）提昇 2 點好感，第一次好感度事件選擇「まさかー」提昇 6 點好感度。
-
-解鎖劇情需要先解鎖第三次好感度事件，並擊破魔王 or 闇之龍。
-
-### 片道マニア
-
-- > 通關狂熱者模式
-
-「狂熱者模式」會於**「通關四種職階以上」**後解鎖，可從難度選擇時的最下方選項開啟，開啟後魔王血量增加、敵人行動變快、無法使用次元倉庫與女神像，後方也會出現敵人。
-
-此成就以普通難度以上通關即可解鎖。
-
-### 人類には早すぎる、本当に人類には早すぎる
-
-- > 通關「對人類來說還太早了」難度
-- > 不使用次元倉庫通關「對人類來說還太早了」難度
-
-「對人類來說還太早了」難度會於**「通關四種職階以上」**後解鎖？
-
-### 不思議な旅
-
-- > 解鎖夥伴「魔王」的劇情
-
-向魔王投擲「友好藥水」後，可和魔王進行對話，此時以聖武器使用近距攻擊以外的手段對闇攻擊，**吹散闇霧並且對闇造成至少一次傷害之後，和魔王對話**就會多出成為夥伴的選項（需要魅力 3）。魔王沒有好感度，有其他夥伴存在的情況下會以魔王 END 為優先，在魔王成為夥伴的狀態下，打倒闇後即進入魔王 END。
-
-### 魂だけの騎士
-
-- > 解鎖夥伴「デュークガルツ」的劇情
-
-黒騎士デュークガルツ會在**「艱困旅程」以上的難度**隨機於地圖上出現，邀請加入需要「友好藥水」與魅力 3。
-
-解鎖劇情需要先解鎖第三次好感度事件，並擊破魔王 or 闇之龍。
-
-### 楽しい旅行、完全なる知識
-
-- > 使用「觀光客」職階通關
-- > 完成旅行記錄後通關
-
-可以接下理騎士任務後不履行，藉此避免與魔王的戰鬥。
-
-訣竅在於如何被敵人包圍，有 4 方敵人就會有 16 倍的頁數加算。可以搭配混亂捲軸，在撰寫旅行紀錄之後使用飛行藥逃離。
-
-### 次元の支配者、次元の果てへ
-
-- > 打倒「次元的支配者」通關
-- > 抵達次元迴廊的盡頭通關
-
-擊破闇，並通關 5 種以上主題世界後，就能在增築城堡裡配置「次元的賢者」，於**「艱困旅程」以上的難度**與其對話，即可開始最終決戰任務。
-
-須於途中收集「次元的金貨」，於隨時間出現的次元賢者第一次須交付 3 枚、第二次交付 4 枚，再經過約 200km 至 300km 後，就會進入「次元迴廊」地帶。若是覺得準備不足，可以先行拒絕，但 2000km 之後賢者就不會再出現。
-
-進入次元迴廊地帶後就無法再與闇和魔王戰鬥，右上角的時鐘會變成「次元的支配者」出現的計時器。
-
-### 払われた闇
-
-- > 解鎖夥伴「ネムリ」的隱藏劇情
-
-解鎖第三次好感度事件（第四次若選擇「恐いからいらない」則無法進入結局劇情），並於持有「除闇之書」的狀態下，在獸化前擊破魔王 or 闇之龍後進入 ED。
-
-「除闇之書」只會在**「艱困旅程」或「對人類來說還太早了」以上的難度**出現。
-
-### 冒険の完遂
-
-- > 達成度達到 100%
-
-達成主選單畫面左下角的所有指示條件，會自動隨著全成就解鎖？
-
-### 全ての物語
-
-- > 解鎖所有劇情
-
-共有 24 種結局劇情？
-
-| 名稱               | 條件                                                                                                                             |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| [X] 妖精イーリス   | 於「普通旅程」擊破魔王                                                                                                           |
-| [X] 妖精イーリス２ | 於「艱困旅程」擊破魔王                                                                                                           |
-| [X] 妖精イーリス３ | 擊破闇之龍                                                                                                                       |
-| [ ] 妖精イーリス４ | 於「對人類來說還太早了旅程」擊破魔王                                                                                             |
-| [X] 傭兵パンティ   | 解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                                                                       |
-| [X] ヴィクター王   | 解鎖第三次好感度事件，並擊破魔王                                                                                                 |
-| [ ] ヴィクター王＋ | 解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                                                                       |
-| [X] フリーダ王女   | 解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                                                                       |
-| [ ] デュークガルツ | 解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                                                                       |
-| [X] ネムリ         | 解鎖第三次好感度事件（第四次若選擇「恐いからいらない」則無法進入結局劇情），並擊破魔王 or 闇之龍                                 |
-| [ ] ネムリ＋       | 解鎖第三次好感度事件（第四次若選擇「恐いからいらない」則無法進入結局劇情），並於持有除闇之書的狀態下，在獸化前擊破魔王 or 闇之龍 |
-| [X] 魔王           | 魔王成為夥伴並且生存的狀態下擊破闇之龍                                                                                           |
-| [X] 少女ミラ       | 保護後，若於 300km 過後遇見父親會觸發夥伴事件，之後解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                    |
-| [X] アルバート     | 解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                                                                       |
-| [X] 世界の果て     | 首次抵達 2000 km 會強制進入結局劇情                                                                                              |
-| [ ] 世界の果て＋   | 於輕鬆旅程首次抵達 2000km 會強制進入結局劇情                                                                                     |
-| [X] 魂の解放       | 通關理騎士任務                                                                                                                   |
-| [X] 魂の解放＋     | 使用理騎士通關理騎士任務                                                                                                         |
-| [X] 忍者の秘技     | 通關忍者任務                                                                                                                     |
-| [X] 忍者の秘技＋   | 使用忍者通關忍者任務                                                                                                             |
-| [X] 白紙の旅行記   | 通關觀光客任務                                                                                                                   |
-| [ ] 次元の支配者   | 於次元迴廊的旅程擊破次元的支配者                                                                                                 |
-| [ ] 次元の果て     | 於次元迴廊首次抵達 3000km 會強制進入結局劇情                                                                                     |
-| [ ] 旅行記完成     | 使用觀光客撰寫 1000 頁旅行紀錄                                                                                                   |
-
 <style scoped>
   tr td:first-child {
     word-break: keep-all;
@@ -215,6 +51,58 @@ newTasksDoneArrHandler();
     font-size: 1.5em;
   }
 </style>
+
+<iframe src="https://store.steampowered.com/widget/266210/" title="one way heroics steam shop" frameborder="0" width="646" height="190" style="height: 190px;"></iframe>
+
+- 內容主要參考以下資料：
+  - [片道勇者（英名：One Way Heroics）実績コンプ ①](https://sds-page.hateblo.jp/entry/2015/11/15/114417)
+    - [片道勇者（英名：One Way Heroics）実績コンプ ②](https://sds-page.hateblo.jp/entry/2015/11/15/192713)
+    - [片道勇者（英名：One Way Heroics）実績コンプ ③](https://sds-page.hateblo.jp/entry/2015/11/21/202155)
+  - [隠し要素 - 片道勇者プラス攻略 wiki](https://web.archive.org/web/20171202123441/http://katamichiplus.wiki.fc2.com/wiki/%E9%9A%A0%E3%81%97%E8%A6%81%E7%B4%A0)
+    - [隠し要素 - 片道勇者 非公式攻略 wiki](https://katamichihero.wiki.fc2.com/wiki/%E9%9A%A0%E3%81%97%E8%A6%81%E7%B4%A0)
+  - [片道勇者プラス人早マニア攻略解説 wiki](https://katamichimania.wiki.fc2.com/)
+
+## __成就一覽（WIP）__
+
+<div style="margin: .5em auto 1em; padding: 4px 2px; width: fit-content; transform: skewX(-10deg); font-size: 2em; color: white; background: black;">以下內容含有劇情透露</div>
+
+<div x-data>
+<button x-on:click="() => {
+  isTasksDoneArr = '[true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,true,true,false,false,false,true,true,false,false,false,false,false,false]';
+  newTasksDoneArrHandler();
+}">My progress</button>
+
+<div class="achievement-container">
+  <div class="filter-container">
+    <input type="text"
+      x-bind:value="isTasksDoneArr"
+      x-on:change="newTasksDoneArrHandler" />
+    <div style="display: flex;">
+      <input type="checkbox" id="sortedByFinished"
+        x-bind:checked="sortedByFinished" />
+      <label for="sortedByFinished">Move finished to bottom</label>
+    </div>
+  </div>
+    <template
+      x-for="(achievement, i) in achievementData"
+    >
+      <div class="achievement-item"
+        x-bind:style="achievement.isDone && sortedByFinished && { 'order: 2; opacity: .5;' }"
+        >
+        <input type="checkbox"
+          x-bind:checked="achievement.isDone"
+          x-on:change="() => taskDoneHandler(i)" />
+        <img class="achievement-item--image"
+          x-bind:src="achievement.image"
+          x-bind:alt="achievement.title">
+        <div class="text-container">
+          <span class="text-title" x-text="achievement.title"></span>
+          <span x-text="achievement.description"></span>
+        </div>
+      </div>
+    </template>
+</div>
+</div>
 
 <script>
   const achievementData = [
@@ -601,6 +489,136 @@ newTasksDoneArrHandler();
     tempIsTasksDoneArr[index] = achievementData[index].isDone;
     isTasksDoneArr = JSON.stringify(tempIsTasksDoneArr);
   }
-
-  $: isTasksDoneArr = isTasksDoneArr;
 </script>
+
+### 真の敵
+
+- > 打倒「闇」通關
+- 須以 **「普通旅程」以上的難度** 開始遊戲
+- 以聖武器使用近距攻擊以外的手段對闇攻擊
+  - 會出現「強烈的光芒將闇霧一掃而空！」訊息，就可與闇進行戰鬥
+  - 闇仍會繼續移動，被吞沒還是會 Game Over
+  - 經過 10 回合後闇會再次被霧包覆，須再次使用聖武器攻擊
+- 闇會使用 3 段範圍的吐息攻擊，並召喚「闇之尖兵」
+  - 使用吐息之前會出現「闇龍大吸了一口氣！」訊息
+- 最好準備好聖弓與火炎無效／減少理力傷害的防具
+  - 推薦在 1000km 前後取得聖裝備後開始戰鬥
+
+### 残された謎
+
+- > 解鎖夥伴「ヴィクター王」的劇情
+- ヴィクター王會在 **「艱困旅程」以上的難度** 隨機於「大きな街」出現
+  - 邀請加入需要魅力 2
+  - 每前進 50 公尺提昇 5 點好感
+- 第一次好感度事件選擇「英雄になりたいから」提昇 5 點好感
+- 第三次好感度事件後能力會大幅上升
+  - 此事件是從現有能力加算，可以留到後面再觸發
+- 解鎖劇情需要先解鎖第三次好感度事件，並擊破魔王 or 闇之龍
+  - 詳細可見「全ての物語」部份
+
+### 傭兵の故郷へ
+
+- > 解鎖夥伴「傭兵パンティ」的劇情
+- 僱用パンティ需要魅力 1 與 500 金幣
+  - 每過一天會再索取 500 金幣
+  - 每開啟一次寶箱（包含破壞）提昇 2 點好感
+  - 第一次好感度事件選擇「まさかー」提昇 6 點好感度
+- 解鎖劇情需要先解鎖第三次好感度事件，並擊破魔王 or 闇之龍
+
+### 片道マニア
+
+- > 通關狂熱者模式
+- 「狂熱者模式」會於 **「通關四種職階以上」** 後解鎖
+- 可從難度選擇時的最下方選項開啟
+  - 開啟後魔王血量增加、敵人行動變快、無法使用次元倉庫與女神像，後方也會出現敵人
+- 此成就以普通難度以上通關即可解鎖
+
+### 人類には早すぎる、本当に人類には早すぎる
+
+- > 通關「對人類來說還太早了」難度
+- > 不使用次元倉庫通關「對人類來說還太早了」難度
+- 「對人類來說還太早了」難度會於 **「通關四種職階以上」** 後解鎖？
+
+### 不思議な旅
+
+- > 解鎖夥伴「魔王」的劇情
+- 向魔王投擲「友好藥水」後，可和魔王進行對話
+  - 此時以聖武器使用近距攻擊以外的手段對闇攻擊，**吹散闇霧並且對闇造成至少一次傷害之後，和魔王對話**就會多出成為夥伴的選項（需要魅力 3）
+- 魔王沒有好感度，有其他夥伴存在的情況下會以魔王 END 為優先
+  - 在魔王成為夥伴的狀態下，打倒闇後即進入魔王 END
+
+### 魂だけの騎士
+
+- > 解鎖夥伴「デュークガルツ」的劇情
+- 黒騎士デュークガルツ會在 **「艱困旅程」以上的難度** 隨機於地圖上出現
+  - 邀請加入需要「友好藥水」與魅力 3
+- 解鎖劇情需要先解鎖第三次好感度事件，並擊破魔王 or 闇之龍
+
+### 楽しい旅行、完全なる知識
+
+- > 使用「觀光客」職階通關
+- > 完成旅行記錄後通關
+- 可以接下理騎士任務後不履行，藉此避免與魔王的戰鬥
+- 訣竅在於如何被敵人包圍
+  - 有 4 方敵人就會有 16 倍的頁數加算
+  - 可以搭配混亂捲軸，在撰寫旅行紀錄之後使用飛行藥逃離
+
+### 次元の支配者、次元の果てへ
+
+- > 打倒「次元的支配者」通關
+- > 抵達次元迴廊的盡頭通關
+- 擊破闇，並通關 5 種以上主題世界後，就能在增築城堡裡配置「次元的賢者」
+  - 於 **「艱困旅程」以上的難度** 與其對話，即可開始最終決戰任務
+- 須於途中收集「次元的金貨」
+  - 於隨時間出現的次元賢者
+    - 第一次須交付 3 枚
+    - 第二次交付 4 枚
+  - 再經過約 200km 至 300km 後，就會進入「次元迴廊」地帶
+  - 若是覺得準備不足，可以先行拒絕，但 2000km 之後賢者就不會再出現
+- 進入次元迴廊地帶後就無法再與闇和魔王戰鬥
+  - 右上角的時鐘會變成「次元的支配者」出現的計時器
+
+### 払われた闇
+
+- > 解鎖夥伴「ネムリ」的隱藏劇情
+- 解鎖第三次好感度事件，持有「除闇之書」，在獸化前擊破魔王 or 闇之龍後進入 ED
+  - 第四次若選擇「恐いからいらない」則無法進入結局劇情
+  - 「除闇之書」只會在 **「艱困旅程」或「對人類來說還太早了」以上的難度** 出現
+
+### 冒険の完遂
+
+- > 達成度達到 100%
+- 達成主選單畫面左下角的所有指示條件
+  - 會自動隨著全成就解鎖？
+
+### 全ての物語
+
+- > 解鎖所有劇情
+- 共有 24 種結局劇情？
+
+| 名稱               | 條件                                                                                                                             |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| [X] 妖精イーリス   | 於「普通旅程」擊破魔王                                                                                                           |
+| [X] 妖精イーリス２ | 於「艱困旅程」擊破魔王                                                                                                           |
+| [X] 妖精イーリス３ | 擊破闇之龍                                                                                                                       |
+| [ ] 妖精イーリス４ | 於「對人類來說還太早了旅程」擊破魔王                                                                                             |
+| [X] 傭兵パンティ   | 解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                                                                       |
+| [X] ヴィクター王   | 解鎖第三次好感度事件，並擊破魔王                                                                                                 |
+| [ ] ヴィクター王＋ | 解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                                                                       |
+| [X] フリーダ王女   | 解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                                                                       |
+| [ ] デュークガルツ | 解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                                                                       |
+| [X] ネムリ         | 解鎖第三次好感度事件（第四次若選擇「恐いからいらない」則無法進入結局劇情），並擊破魔王 or 闇之龍                                 |
+| [ ] ネムリ＋       | 解鎖第三次好感度事件（第四次若選擇「恐いからいらない」則無法進入結局劇情），並於持有除闇之書的狀態下，在獸化前擊破魔王 or 闇之龍 |
+| [X] 魔王           | 魔王成為夥伴並且生存的狀態下擊破闇之龍                                                                                           |
+| [X] 少女ミラ       | 保護後，若於 300km 過後遇見父親會觸發夥伴事件，之後解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                    |
+| [X] アルバート     | 解鎖第三次好感度事件，並擊破魔王 or 闇之龍                                                                                       |
+| [X] 世界の果て     | 首次抵達 2000 km 會強制進入結局劇情                                                                                              |
+| [ ] 世界の果て＋   | 於輕鬆旅程首次抵達 2000km 會強制進入結局劇情                                                                                     |
+| [X] 魂の解放       | 通關理騎士任務                                                                                                                   |
+| [X] 魂の解放＋     | 使用理騎士通關理騎士任務                                                                                                         |
+| [X] 忍者の秘技     | 通關忍者任務                                                                                                                     |
+| [X] 忍者の秘技＋   | 使用忍者通關忍者任務                                                                                                             |
+| [X] 白紙の旅行記   | 通關觀光客任務                                                                                                                   |
+| [ ] 次元の支配者   | 於次元迴廊的旅程擊破次元的支配者                                                                                                 |
+| [ ] 次元の果て     | 於次元迴廊首次抵達 3000km 會強制進入結局劇情                                                                                     |
+| [ ] 旅行記完成     | 使用觀光客撰寫 1000 頁旅行紀錄                                                                                                   |

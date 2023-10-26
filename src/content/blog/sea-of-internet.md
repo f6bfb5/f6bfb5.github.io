@@ -45,7 +45,7 @@ tags: [""]
 | [ワンランク上の勉強法](https://web.archive.org/web/20130629035806/http://www.geocities.jp/nagare_basi/study/stdy_mokuji.html) | 如何「讀十次」學習內容                   |
 | [大学受験板 特製 天プレ丼](http://ifs.nog.cc/daigakujuken.at.infoseek.co.jp/index.html)                                       | 考大學的各種策略                         |
 | [数学 IB（牛腸）](https://lecture.ecc.u-tokyo.ac.jp/~nkiyono/gochoIB.html)                                                    | 微積分練習題目                           |
-| [コグニカル](https://cognicull.com/ja)                                                                                       | 數學、物理、電腦科學、化學知識條目式介紹 |
+| [コグニカル](https://cognicull.com/ja)                                                                                        | 數學、物理、電腦科學、化學知識條目式介紹 |
 | [物理のかぎしっぽ](http://hooktail.sub.jp/index.html)                                                                         | 物理、數學與電腦科學的學習筆記           |
 | [素数 2357](https://2357.aimary.com/)                                                                                         | 質數介紹                                 |
 | [劣化資料のデジタル化](https://library.iss.u-tokyo.ac.jp/collection/d00/index.html)                                           | 東京大學的社會學古老資料數位化           |
@@ -118,133 +118,75 @@ tags: [""]
 
 ## 音樂
 
-| 名稱                                     | 內容            |
-| ---------------------------------------- | --------------- |
-| [AC-chan](https://aidn.jp/jingle/)       | AI 自動產生樂曲 |
+| 名稱                               | 內容            |
+| ---------------------------------- | --------------- |
+| [AC-chan](https://aidn.jp/jingle/) | AI 自動產生樂曲 |
 
 ## 設計
 
-| 名稱                                                                                                                         | 內容                                 |
-| ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| [伝わるデザイン][]                                                                                                           | 如何製作易閱讀、好觀看、無障礙的設計 |
-| [THE MAKING（1）～（50）][]                                                                                                  | 50 種產品的製作流程                  |
-| [錯思コレクション 100][]                                                                                                     | 100 種認知偏誤整理                   |
-| [西洋ファンタジー用語ナナメ読み辞典「Tiny Tales」][]                                                                         | 西洋奇幻作品的用語辭典               |
-| [物語要素事典][]                                                                                                             | 由神山重彦整理的故事常見元素與出典   |
-| [映像作家 100 人 MOTION GRAPHIC CREATORS][]                                                                                  |                                      |
-| [MOTIONBOX][]                                                                                                                |                                      |
-| [陽明雑記](https://toshi-y.at.webry.info/)                                                                                   |                                      |
-| [NDL イメージバンク](https://rnavi.ndl.go.jp/imagebank/)                                                                     |                                      |
-| [Artvee](https://artvee.com/)                                                                                                |                                      |
-
-[伝わるデザイン]: https://tsutawarudesign.com/
-[the making（1）～（50）]: https://scienceportal.jst.go.jp/feature/b980601_01/
-[錯思コレクション 100]: https://www.jumonji-u.ac.jp/sscs/ikeda/cognitive_bias/about.html
-[西洋ファンタジー用語ナナメ読み辞典「tiny tales」]: http://tinyangel.jog.client.jp/index.html
-[物語要素事典]: https://www.lib.agu.ac.jp/yousojiten/
-[映像作家 100 人 motion graphic creators]: https://eizo100.jp/
-[motionbox]: https://motion-box.net/
+| 名稱                                                                                          | 內容                                 |
+| --------------------------------------------------------------------------------------------- | ------------------------------------ |
+| [伝わるデザイン](https://tsutawarudesign.com/)                                                | 如何製作易閱讀、好觀看、無障礙的設計 |
+| [THE MAKING（1）～（50）](https://scienceportal.jst.go.jp/feature/b980601_01/)                | 50 種產品的製作流程                  |
+| [錯思コレクション 100](https://www.jumonji-u.ac.jp/sscs/ikeda/cognitive_bias/about.html)      | 100 種認知偏誤整理                   |
+| [西洋ファンタジー用語ナナメ読み辞典「Tiny Tales」](http://tinyangel.jog.client.jp/index.html) | 西洋奇幻作品的用語辭典               |
+| [物語要素事典](https://www.lib.agu.ac.jp/yousojiten/)                                         | 由神山重彦整理的故事常見元素與出典   |
+| [映像作家 100 人 MOTION GRAPHIC CREATORS](https://eizo100.jp/)                                |                                      |
+| [MOTIONBOX](https://motion-box.net/)                                                          |                                      |
+| [陽明雑記](https://toshi-y.at.webry.info/)                                                    |                                      |
+| [NDL イメージバンク](https://rnavi.ndl.go.jp/imagebank/)                                      |                                      |
+| [Artvee](https://artvee.com/)                                                                 |                                      |
 
 ## 娛樂
 
-| 名稱                                                               | 內容                                   |
-| ------------------------------------------------------------------ | -------------------------------------- |
-| [Poolsuite FM][]                                                   | 90 年代風格的網路電台                  |
-| [Drive & Listen][]                                                 | 搭配駕駛風景的網路電台                 |
-| [夢の中に出てきた奇妙な単語達][]                                   | 「在夢裡出現的奇妙單字」               |
-| [好きなラジオネーム 300 選 - kansou][]                             | 300 個依喜好挑選的電台聽眾名稱         |
-| [キャラ名とかハンドルネームとか考えるのに参考になりそうなサイト][] | 取各式名稱時可參考的網站               |
-| [あに瓶][]                                                         | 檢證動畫原始製作尺寸的部落格           |
-| [日本アニメーション映画クラシックス][]                             | 日本古典動畫館藏                       |
-| [週刊少年ジャンプの掲載順][]                                       | 週刊少年 JUMP 的連載紀錄整理           |
-| [ジャンプ巻末コメント倉庫][]                                       | 週刊少年 JUMP 的卷尾感言整理           |
-| [ジョジョの奇妙なアオリ　～煽りにブルルン！！～][]                 | JOJO 的奇妙冒險第六部的雜誌裝飾語整理  |
-| [オープニングナレーション辞典][]                                   | 動畫與特攝作品的開場旁白、結尾預告整理 |
-| [次回予告][]                                                       | 動畫次回預告整理                       |
-| [宮崎論目次][]                                                     | 叶精二的宮崎駿作品評論、訪談           |
-| [萌え表現の不自由展 2019][]                                        | 至 2019 曾發生過的「萌表現」相關事件   |
-| [TYPE-MOON 不完全年表][]                                           |                                        |
-| [映画学メモ 「映画学入門」　目次（これまで扱った分）][]            | 電影學入門筆記                         |
-| [Tech Noir][]                                                      | 電影段落 GIF                           |
-| [◇ テレビドラマデータベース ◇][]                                   | 電視戲劇資料庫                         |
+| 名稱                                                                                                        | 內容                                   |
+| ----------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| [Poolsuite FM](https://poolsuite.net/)                                                                      | 90 年代風格的網路電台                  |
+| [Drive & Listen](https://driveandlisten.herokuapp.com/)                                                     | 搭配駕駛風景的網路電台                 |
+| [夢の中に出てきた奇妙な単語達](http://hon-kon.o.oo7.jp/unknown.html)                                        | 「在夢裡出現的奇妙單字」               |
+| [好きなラジオネーム 300 選 - kansou](https://www.kansou-blog.jp/entry/2021/11/11/200409)                    | 300 個依喜好挑選的電台聽眾名稱         |
+| [キャラ名とかハンドルネームとか考えるのに参考になりそうなサイト](https://name-site.net/)                    | 取各式名稱時可參考的網站               |
+| [あに瓶](https://anibin.blogspot.com/)                                                                      | 檢證動畫原始製作尺寸的部落格           |
+| [日本アニメーション映画クラシックス](https://animation.filmarchives.jp/works)                               | 日本古典動畫館藏                       |
+| [週刊少年ジャンプの掲載順](https://jumpranking.blog.fc2.com/)                                               | 週刊少年 JUMP 的連載紀錄整理           |
+| [ジャンプ巻末コメント倉庫](https://jcomment-lib.hatenablog.com/)                                            | 週刊少年 JUMP 的卷尾感言整理           |
+| [ジョジョの奇妙なアオリ　～煽りにブルルン！！～](http://atmarkjojo.org/aori/)                               | JOJO 的奇妙冒險第六部的雜誌裝飾語整理  |
+| [オープニングナレーション辞典](http://www.cans.zaq.ne.jp/wormhole/op_index.html)                            | 動畫與特攝作品的開場旁白、結尾預告整理 |
+| [次回予告](http://jikainoyokoku.blog23.fc2.com/)                                                            | 動畫次回預告整理                       |
+| [宮崎論目次](http://www.yk.rim.or.jp/~rst/rabo/miyazaki/m_mokuji.html)                                      | 叶精二的宮崎駿作品評論、訪談           |
+| [萌え表現の不自由展 2019](https://anond.hatelabo.jp/20191021020100)                                         | 至 2019 曾發生過的「萌表現」相關事件   |
+| [TYPE-MOON 不完全年表](http://www.st.rim.or.jp/~nmisaki/topics/typemoon.html)                               |                                        |
+| [映画学メモ 「映画学入門」　目次（これまで扱った分）](http://filmstudies.blog21.fc2.com/blog-entry-76.html) | 電影學入門筆記                         |
+| [Tech Noir](https://technoir.nl/)                                                                           | 電影段落 GIF                           |
+| [◇ テレビドラマデータベース ◇](http://www.tvdrama-db.com/)                                                  | 電視戲劇資料庫                         |
 
 - [同人用語の基礎知識](https://www.paradisearmy.com/doujin/index.html)
 - [コンプリート・シャーロック・ホームズ](https://221b.jp/)
 
-[poolsuite fm]: https://poolsuite.net/
-[drive & listen]: https://driveandlisten.herokuapp.com/
-[夢の中に出てきた奇妙な単語達]: http://hon-kon.o.oo7.jp/unknown.html
-[好きなラジオネーム 300 選 - kansou]: https://www.kansou-blog.jp/entry/2021/11/11/200409
-[キャラ名とかハンドルネームとか考えるのに参考になりそうなサイト]: https://name-site.net/
-[あに瓶]: https://anibin.blogspot.com/
-[日本アニメーション映画クラシックス]: https://animation.filmarchives.jp/works
-[週刊少年ジャンプの掲載順]: https://jumpranking.blog.fc2.com/
-[ジャンプ巻末コメント倉庫]: https://jcomment-lib.hatenablog.com/
-[ジョジョの奇妙なアオリ ～煽りにブルルン！！～]: http://atmarkjojo.org/aori/
-[オープニングナレーション辞典]: http://www.cans.zaq.ne.jp/wormhole/op_index.html
-[次回予告]: http://jikainoyokoku.blog23.fc2.com/
-[宮崎論目次]: http://www.yk.rim.or.jp/~rst/rabo/miyazaki/m_mokuji.html
-[萌え表現の不自由展 2019]: https://anond.hatelabo.jp/20191021020100
-[type-moon 不完全年表]: http://www.st.rim.or.jp/~nmisaki/topics/typemoon.html
-[映画学メモ 「映画学入門」 目次（これまで扱った分）]: http://filmstudies.blog21.fc2.com/blog-entry-76.html
-[tech noir]: https://technoir.nl/
-[◇ テレビドラマデータベース ◇]: http://www.tvdrama-db.com/
-
 ## 電玩
 
-| 名稱                                                   | 內容                                 |
-| ------------------------------------------------------ | ------------------------------------ |
-| [思い出のファミコン][]                                 | 紅白機遊戲介紹                       |
-| [ビデオゲームについて][]                               | 老遊戲介紹、調查資料                 |
-| [遊戲思維][]                                           | 海外的遊戲設計製作與市場文章翻譯     |
-| [The Cutting Room Floor][]                             | 發掘遊戲未使用內容、內部機制的網站   |
-| [真珠星研究室][]                                       | FFT 遊戲攻略                         |
-| [LIME WEB IN FOREST][]                                 | 風來的希林遊戲攻略                   |
-| [裏 CHUNSOFT][]                                        | 風來的希林遊戲改造、解析資料         |
-| [秋川藤志のページ][]                                   | 特魯內克大冒險超過 4500 次的歷程紀錄 |
-| [FF4 in depth][]                                       | FF4 攻略與解析                       |
-| [アトランチスの謎　不完全攻略マニュアル][]             | 亞特蘭蒂斯之謎遊戲攻略               |
-| [はたぼーの部屋][]                                     | FF 系列遊戲攻略與解析                |
-| [真女神転生公式ﾊﾟｰﾌｪｸﾄｶﾞｲﾄﾞ(ｴﾝﾀｰﾌﾞﾚｲﾝ出版)の訂正][]    | 真女神轉生官方攻略本的錯誤指正       |
-| [「復活の呪文」資料室][]                               | DQ1、2 的復活咒文解析                |
-| [ZsnsK's F\*\*kin' Site][]                             | Live A Live 解析                     |
-| [POKeMON Analysis][]                                   | 初代寶可夢解析                       |
-| [Pokémon Bug Litches][]                                | 初代寶可夢錯誤運用解析               |
-| [ぽんしゃぶ弐号〜サムライスピリッツ零シリーズ攻略〜][] | 侍魂系列攻略                         |
-| [格闘ゲームリスト][]                                   | 各個平台的格鬥遊戲列表               |
-| [ワイが昔やってたフリーゲームを紹介するスレ][]         | 免費遊戲介紹                         |
-| [ソトトイシ][]                                         | MOTHER 系列全台詞                    |
-| [Treasure Box : 斑鳩][]                                | 斑鳩劇情介紹                         |
-| [Land Island][]                                        | RPG 遊戲最強養成特化攻略             |
-| [Lapse Pointer][]                                      | RPG 遊戲最強養成特化攻略             |
-| [差替文庫][]                                           | 參與過 FF14 製作設計者的創作論       |
-| [Xenogears Data Depository - ゼノギアス攻略データ -][] |                                      |
-
-[思い出のファミコン]: http://famicom.memorial/index.html
-[ビデオゲームについて]: http://s-endo.skr.jp/
-[遊戲思維]: http://pettittechen.blogspot.com/
-[the cutting room floor]: https://tcrf.net/The_Cutting_Room_Floor
-[真珠星研究室]: http://pearlstar.sakura.ne.jp/study/index.html
-[lime web in forest]: http://www2u.biglobe.ne.jp/~yoppi/shiren/
-[裏 chunsoft]: https://oyasen20.tripod.com/
-[秋川藤志のページ]: http://000.la.coocan.jp/
-[ff4 in depth]: http://www.asahi-net.or.jp/~xi5s-msd/
-[アトランチスの謎 不完全攻略マニュアル]: http://www.cute.hm/hogehoge/html/enter.html
-[はたぼーの部屋]: https://hboh2511.web.fc2.com/
-[真女神転生公式ﾊﾟｰﾌｪｸﾄｶﾞｲﾄﾞ(ｴﾝﾀｰﾌﾞﾚｲﾝ出版)の訂正]: http://yhvhiro.web.fc2.com/yhvh_pgaidoteisei.html
-[「復活の呪文」資料室]: https://web.archive.org/web/20160329120539/http://www.imasy.or.jp/~yotti/dq-passwd.html
-[zsnsk's f\*\*kin' site]: http://zsnsk.sakura.ne.jp/
-[pokemon analysis]: http://psense.lib.net/Analysis/RGB/index.html
-[pokémon bug litches]: https://web.archive.org/web/20181001140126/http://www.geocities.jp/kattempla/pokebug/index.html
-[ぽんしゃぶ弐号〜サムライスピリッツ零シリーズ攻略〜]: http://www5b.biglobe.ne.jp/~hitokiri/
-[格闘ゲームリスト]: http://kakuge.info/d/index.htm
-[ワイが昔やってたフリーゲームを紹介するスレ]: http://blog.livedoor.jp/nwknews/archives/5612110.html
-[ソトトイシ]: https://soto.aikotoba.jp/index.html
-[treasure box : 斑鳩]: http://rssp.web.fc2.com/ikaruga.html
-[land island]: https://land-island.com/
-[lapse pointer]: https://ninja114514.hide-yoshi.net/
-[差替文庫]: https://sashikae.hatenablog.com/
-[xenogears data depository - ゼノギアス攻略データ -]: https://xenodd.xxxxxxxx.jp/index.html
+| 名稱                                                                                                                   | 內容                                 |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| [思い出のファミコン](http://famicom.memorial/index.html)                                                               | 紅白機遊戲介紹                       |
+| [ビデオゲームについて](http://s-endo.skr.jp/)                                                                          | 老遊戲介紹、調查資料                 |
+| [遊戲思維](http://pettittechen.blogspot.com/)                                                                          | 海外的遊戲設計製作與市場文章翻譯     |
+| [The Cutting Room Floor](https://tcrf.net/The_Cutting_Room_Floor)                                                      | 發掘遊戲未使用內容、內部機制的網站   |
+| [真珠星研究室](http://pearlstar.sakura.ne.jp/study/index.html)                                                         | FFT 遊戲攻略                         |
+| [LIME WEB IN FOREST](http://www2u.biglobe.ne.jp/~yoppi/shiren/)                                                        | 風來的希林遊戲攻略                   |
+| [裏 CHUNSOFT](https://oyasen20.tripod.com/)                                                                            | 風來的希林遊戲改造、解析資料         |
+| [FF4 in depth](http://www.asahi-net.or.jp/~xi5s-msd/)                                                                  | FF4 攻略與解析                       |
+| [アトランチスの謎　不完全攻略マニュアル](http://www.cute.hm/hogehoge/html/enter.html)                                  | 亞特蘭蒂斯之謎遊戲攻略               |
+| [はたぼーの部屋](https://hboh2511.web.fc2.com/)                                                                        | FF 系列遊戲攻略與解析                |
+| [真女神転生公式ﾊﾟｰﾌｪｸﾄｶﾞｲﾄﾞ(ｴﾝﾀｰﾌﾞﾚｲﾝ出版)の訂正](http://yhvhiro.web.fc2.com/yhvh_pgaidoteisei.html)                   | 真女神轉生官方攻略本的錯誤指正       |
+| [「復活の呪文」資料室](https://web.archive.org/web/20160329120539/http://www.imasy.or.jp/~yotti/dq-passwd.html)        | DQ1、2 的復活咒文解析                |
+| [POKeMON Analysis](http://psense.lib.net/Analysis/RGB/index.html)                                                      | 初代寶可夢解析                       |
+| [Pokémon Bug Litches](https://web.archive.org/web/20181001140126/http://www.geocities.jp/kattempla/pokebug/index.html) | 初代寶可夢錯誤運用解析               |
+| [ぽんしゃぶ弐号〜サムライスピリッツ零シリーズ攻略〜](http://www5b.biglobe.ne.jp/~hitokiri/)                            | 侍魂系列攻略                         |
+| [格闘ゲームリスト](http://kakuge.info/d/index.htm)                                                                     | 各個平台的格鬥遊戲列表               |
+| [ワイが昔やってたフリーゲームを紹介するスレ](http://blog.livedoor.jp/nwknews/archives/5612110.html)                    | 免費遊戲介紹                         |
+| [Land Island](https://land-island.com/)                                                                                | RPG 遊戲最強養成特化攻略             |
+| [Lapse Pointer](https://ninja114514.hide-yoshi.net/)                                                                   | RPG 遊戲最強養成特化攻略             |
+| [差替文庫](https://sashikae.hatenablog.com/)                                                                           | 參與過 FF14 製作設計者的創作論       |
 
 - [GCGX（ゲーム攻略・解析＆ホームページ作成情報）](https://gcgx.games/)
 - [指輪世界](https://ityou.info/index.html)

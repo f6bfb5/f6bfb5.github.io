@@ -258,6 +258,19 @@ UnoCSS
  </div>
 </div>
 
+Pass variable from frontmatter to script
+---
+
+- [javascript - how to pass variable from frontmatter to script in Astro JS? - Stack Overflow](https://stackoverflow.com/questions/76714410/how-to-pass-variable-from-frontmatter-to-script-in-astro-js)
+- [Scripts and Event Handling 🚀 Astro 文檔](https://docs.astro.build/zh-tw/guides/client-side-scripts/#web-components-with-custom-elements)
+
+swup
+---
+
+- [swup/astro: Astro integration for swup 🚀](https://github.com/swup/astro)
+  - [Integrations — swup https://swup.js.org/other/integrations/]
+- `npm i @swup/astro`
+
 And more...
 ---
 

@@ -2,6 +2,49 @@
 import json from "./marquee.json";
 ---
 
+<style>
+  .marquee-container {
+    height: 1.5em;
+  }
+  .marquee-text {
+    white-space: nowrap;
+    transform: translateX(clamp(736px, 736px, 100%))
+    /* transform: translateX(8px); */
+    /* text-indent: 736px; */
+    will-change: transform;
+
+    text-indent: 0;
+    color: #fff;
+    --marquee-outer-border-color: #242222;
+    text-shadow:
+      -2px -2px var(--marquee-outer-border-color),
+      -2px -1px var(--marquee-outer-border-color),
+      -2px 0px var(--marquee-outer-border-color),
+      -2px 1px var(--marquee-outer-border-color),
+      -2px 2px var(--marquee-outer-border-color),
+      -1px -2px var(--marquee-outer-border-color),
+      -1px -1px var(--marquee-outer-border-color),
+      -1px 0px var(--marquee-outer-border-color),
+      -1px 1px var(--marquee-outer-border-color),
+      -1px 2px var(--marquee-outer-border-color),
+      0px -2px var(--marquee-outer-border-color),
+      0px -1px var(--marquee-outer-border-color),
+      0px 0px var(--marquee-outer-border-color),
+      0px 1px var(--marquee-outer-border-color),
+      0px 2px var(--marquee-outer-border-color),
+      1px -2px var(--marquee-outer-border-color),
+      1px -1px var(--marquee-outer-border-color),
+      1px 0px var(--marquee-outer-border-color),
+      1px 1px var(--marquee-outer-border-color),
+      1px 2px var(--marquee-outer-border-color),
+      2px -2px var(--marquee-outer-border-color),
+      2px -1px var(--marquee-outer-border-color),
+      2px 0px var(--marquee-outer-border-color),
+      2px 1px var(--marquee-outer-border-color),
+      2px 2px var(--marquee-outer-border-color);
+  }
+</style>
+
 <div
   class="relative z-1 overflow-hidden flex flex-items-center marquee-container"
 >
@@ -19,7 +62,7 @@ const animations = [
   {
     keyframes: [
       {
-        transform: "translateX(max(736px, 100%))",
+        transform: "translateX(clamp(736px, 736px, 100%))",
         // textIndent: "736px",
       },
       {
@@ -93,46 +136,3 @@ function getTextLength(text) {
   return length;
 }
 </script>
-
-<style>
-  .marquee-container {
-    height: 1.5em;
-  }
-  .marquee-text {
-    white-space: nowrap;
-    transform: translateX(max(736px, 100%))
-    /* transform: translateX(8px); */
-    /* text-indent: 736px; */
-    will-change: transform;
-
-    text-indent: 0;
-    color: #fff;
-    --marquee-outer-border-color: #242222;
-    text-shadow:
-      -2px -2px var(--marquee-outer-border-color),
-      -2px -1px var(--marquee-outer-border-color),
-      -2px 0px var(--marquee-outer-border-color),
-      -2px 1px var(--marquee-outer-border-color),
-      -2px 2px var(--marquee-outer-border-color),
-      -1px -2px var(--marquee-outer-border-color),
-      -1px -1px var(--marquee-outer-border-color),
-      -1px 0px var(--marquee-outer-border-color),
-      -1px 1px var(--marquee-outer-border-color),
-      -1px 2px var(--marquee-outer-border-color),
-      0px -2px var(--marquee-outer-border-color),
-      0px -1px var(--marquee-outer-border-color),
-      0px 0px var(--marquee-outer-border-color),
-      0px 1px var(--marquee-outer-border-color),
-      0px 2px var(--marquee-outer-border-color),
-      1px -2px var(--marquee-outer-border-color),
-      1px -1px var(--marquee-outer-border-color),
-      1px 0px var(--marquee-outer-border-color),
-      1px 1px var(--marquee-outer-border-color),
-      1px 2px var(--marquee-outer-border-color),
-      2px -2px var(--marquee-outer-border-color),
-      2px -1px var(--marquee-outer-border-color),
-      2px 0px var(--marquee-outer-border-color),
-      2px 1px var(--marquee-outer-border-color),
-      2px 2px var(--marquee-outer-border-color);
-  }
-</style>
