@@ -6,7 +6,7 @@ import { defineConfig } from 'astro/config';
 import alpinejs from "@astrojs/alpinejs";
 import UnoCSS from 'unocss/astro';
 // import mdx from "@astrojs/mdx";
-import swup from '@swup/astro';
+// import swup from '@swup/astro';
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,7 +17,7 @@ export default defineConfig({
   // robotsTxt(),
   alpinejs(),
   UnoCSS(),
-  swup(),
+  // swup(),
   ],
   markdown: {
     shikiConfig: {
