@@ -1,0 +1,97 @@
+---
+import TextRainbowFlash from "../components/TextRainbowFlash.astro";
+import TextRainbowFlashBackground from "../components/TextRainbowFlashBackground.astro";
+import TextRainbowGradient from "../components/TextRainbowGradient.astro";
+import TextSquiggly from "../components/TextSquiggly.astro";
+import TextVHS from "../components/TextVHS.astro";
+import BalloonQuoteRight from "../components/BalloonQuoteRight.astro";
+import BalloonQuoteBottom from "../components/BalloonQuoteBottom.astro";
+import CommentRight from "../components/CommentRight.astro";
+import CommentBottom from "../components/CommentBottom.astro";
+import InfoboxWithHeader from "../components/InfoboxWithHeader.astro";
+---
+
+<title>追体験で人は幸福になれない</title>
+
+<h2>TextRainbowFlash</h2>
+<TextRainbowFlash text="TextRainbowFlash" />
+<h2>TextRainbowFlashBackground</h2>
+<TextRainbowFlashBackground text="TextRainbowFlashBackground" />
+<h2>TextRainbowGradient</h2>
+<TextRainbowGradient text="TextRainbowGradient" />
+<h2>TextSquiggly</h2>
+<TextSquiggly text="TextSquiggly" />
+<h2>TextVHS</h2>
+<TextVHS text="TextVHS" />
+<h2>BalloonQuoteRight</h2>
+<BalloonQuoteRight text="BalloonQuoteRight" />
+<CommentRight />
+<h2>BalloonQuoteBottom</h2>
+<BalloonQuoteBottom text="BalloonQuoteBottom" />
+<CommentBottom />
+<h2>InfoboxWithHeader</h2>
+<InfoboxWithHeader title="title" text="text" />
+
+<div class="flex gap-lg justify-center">
+    <!-- https://fujikoblog0309.com/css-gold-gradation-text -->
+    <p style="background-image: linear-gradient(0deg, #b8751e 0%, #ffce08 37%, #fefeb2 47%, #fafad6 50%, #fefeb2 53%, #e1ce08 63%, #b8751e 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 32px;">Golden</p>
+    <p style="background: repeating-linear-gradient(0deg, #B67B03 0.1em, #DAAF08 0.2em, #FEE9A0 0.3em, #DAAF08 0.4em, #B67B03 0.5em);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 32px;">Golden</p>
+    <p style="background-image: linear-gradient(135deg, #b8751e 0%, #ffce08 37%, #fefeb2 47%, #fafad6 50%, #fefeb2 53%, #e1ce08 63%, #b8751e 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 32px">Golden</p>
+</div>
+
+<div class="flex gap-lg justify-center">
+    <div class="skew-card">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eum perferendis molestias nihil aperiam itaque aspernatur voluptates sint consequuntur, corporis iusto minus similique mollitia velit illo quasi, esse dicta corrupti.
+    </div>
+    <div class="skew-card card2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eum perferendis molestias nihil aperiam itaque aspernatur voluptates sint consequuntur, corporis iusto minus similique mollitia velit illo quasi, esse dicta corrupti.
+    </div>
+    <div class="skew-card card3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eum perferendis molestias nihil aperiam itaque aspernatur voluptates sint consequuntur, corporis iusto minus similique mollitia velit illo quasi, esse dicta corrupti.
+    </div>
+</div>
+
+<style>
+    .skew-card {
+        --skew: 8deg;
+        padding: 4.5rem 2rem;
+        position: relative;
+        color: white;
+        max-width: 12rem;
+    }
+    .skew-card::before, .skew-card::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        transform: skewY(var(--skew));
+    }
+    .card2::before, .card2::after {
+        transform: skewY(0);
+        top: calc(50% * tan(var(--skew)));
+    }
+    .card3::before, .card3::after {
+        transform: skewY(calc(var(--skew) * -1));
+    }
+    .skwe-card::before {
+        border-radius: 0.25rem;
+        height: calc(100% + 1px);
+        top: -1px;
+    }
+    .skew-card::after {
+        border-radius: 0.25rem;
+        background-color: black;
+    }
+</style>

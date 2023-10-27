@@ -1,0 +1,32 @@
+---
+import BalloonQuoteRight from "./BalloonQuoteRight.astro";
+---
+
+<div style="display: flex; margin-top: 8px;">
+  <div
+    style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 4px;"
+  >
+    <img
+      src="https://picsum.photos/40/40/"
+      alt="placeholder"
+      title="placeholder"
+      style="margin: 0; padding: 0; display: inline;"
+    />
+    <span style="transform: scale(0.8, 1); text-wrap: nowrap;">名無し</span>
+  </div>
+  <div style="margin-left: 8px;">
+    <BalloonQuoteRight text="何なんだよ日本。一億総活躍社会じゃねーのかよ。昨日見事に保育園落ちたわ。どうすんだよ私活躍出来ねーじゃねーか。" />
+    <time
+      style="display: block; margin-top: 4px; max-width: calc(100% - 100px); font-size: 80%; text-align: right; color: gray;"
+      >{new Date()
+        .toISOString()
+        .slice(2)
+        .replaceAll("-", "/")
+        .replace(
+          "T",
+          `(${["日", "一", "二", "三", "四", "五", "六"][new Date().getDay()]})`
+        )
+        .slice(0, -5)}</time
+    >
+  </div>
+</div>

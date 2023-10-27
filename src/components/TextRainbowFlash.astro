@@ -2,35 +2,22 @@
 const { text } = Astro.props;
 ---
 
-<div class="rainbow-ani">{text}</div>
+<div class="rainbow-text">{text}</div>
 
 <style>
-  .rainbow-ani {
-    margin-top: 1em;
-    padding: 2px;
-    padding-left: 4px;
-    width: fit-content;
-    color: white;
-    animation: rainbow-ani-bg 0.1s linear infinite;
-  }
-  @keyframes rainbow-ani-bg {
-    0% {
-      background: #f00;
-    }
-    20% {
-      background: #0f0;
-    }
-    40% {
-      background: #00f;
-    }
-    60% {
-      background: #f0f;
-    }
-    80% {
-      background: #ff0;
-    }
-    100% {
-      background: #0ff;
-    }
-  }
+.rainbow-text {
+    animation: rainbow-text .17s infinite;
+}
+
+@keyframes rainbow-text {
+  0% { color: #faf7fa; }
+  12.5% { color: #09000b; }
+  25% { color: #f4060e; }
+  37.5% { color: #0ee80d; }
+  50% { color: #f6f950; }
+  62.5% { color: #2111dc; }
+  75% { color: #f100f1; }
+  87.5% { color: #0bf2f2; }
+  100% { color: #faf7fa; }
+}
 </style>

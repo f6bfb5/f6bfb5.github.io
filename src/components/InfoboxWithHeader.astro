@@ -1,0 +1,21 @@
+---
+const { title, text } = Astro.props;
+---
+
+<!-- Outside -->
+<div style="display: inline-block; padding: 5px 10px 2px; border-radius: 4px 4px 0 0; background-color: #ea4747; color: #fff;">
+    <span>{title}</span>
+</div>
+<div style="padding: 20px; margin: 0 auto 20px; font-size: 18px; border: 2px solid #ea4747; border-radius: 0 4px 4px 4px; background: rgba(255, 254, 242, 0.5);">
+    <span>{text}</span>
+</div>
+
+<!-- Inside -->
+<div style="margin-top: 1em; position: relative;">
+    <div style="padding: 4px 1em; float: left; border-radius: 5px 0 5px 0; background: black; color: white;">
+        {title}
+    </div>
+    <div style="padding: 2em 1.5em 1em; border: 3px solid black; border-radius: 5px; background: #f6f6f6;">
+        {text}
+    </div>
+</div>

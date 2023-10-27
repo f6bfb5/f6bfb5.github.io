@@ -1,0 +1,30 @@
+---
+const { text } = Astro.props;
+---
+
+<p class="ballon-bottom">{text}</p>
+
+<style>
+  .ballon-bottom {
+    padding: 0 0.4em 0 0.4em;
+    max-width: calc(100% - 100px);
+    color: #fff;
+    background-color: #929c9a;
+    border-radius: 0.4em;
+    line-height: 1.5;
+    vertical-align: middle;
+  }
+  .ballon-bottom {
+    margin-top: 0.6em;
+  }
+  .ballon-bottom:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    margin-top: -0.45em;
+    left: 2em;
+    border-width: 0 0.6em 0.6em 0;
+    border-style: solid;
+    border-color: transparent transparent #929c9a transparent;
+  }
+</style>
