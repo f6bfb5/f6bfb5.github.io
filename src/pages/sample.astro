@@ -9,6 +9,7 @@ import BalloonQuoteBottom from "../components/BalloonQuoteBottom.astro";
 import CommentRight from "../components/CommentRight.astro";
 import CommentBottom from "../components/CommentBottom.astro";
 import InfoboxWithHeader from "../components/InfoboxWithHeader.astro";
+import NestedList from "../components/NestedList.astro";
 ---
 
 <title>追体験で人は幸福になれない</title>
@@ -32,6 +33,12 @@ import InfoboxWithHeader from "../components/InfoboxWithHeader.astro";
 <h2>InfoboxWithHeader</h2>
 <InfoboxWithHeader title="title" text="text" />
 
+<div>
+    <span style="position: absolute; transform: rotate(0deg) translateX(calc(1em / sin(15deg))); transform-origin: bottom left;">To be able to manipulate each letter like that</span>
+    <span style="position: absolute; transform: rotate(-15deg) translateX(calc(1em / sin(15deg))); transform-origin: bottom left;">you have to wrap them in another element</span>
+    <span style="position: absolute; transform: rotate(-30deg) translateX(calc(1em / sin(15deg))); transform-origin: bottom left;">Lettering.js can do that for you easily</span>
+</div>
+
 <div class="flex gap-lg justify-center">
     <!-- https://fujikoblog0309.com/css-gold-gradation-text -->
     <p style="background-image: linear-gradient(0deg, #b8751e 0%, #ffce08 37%, #fefeb2 47%, #fafad6 50%, #fefeb2 53%, #e1ce08 63%, #b8751e 100%);
@@ -47,6 +54,10 @@ import InfoboxWithHeader from "../components/InfoboxWithHeader.astro";
     color: transparent;
     font-size: 32px">Golden</p>
 </div>
+
+<NestedList />
+
+
 
 <div class="flex gap-lg justify-center">
     <div class="skew-card">

@@ -1,0 +1,94 @@
+<div id="menubar">
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <ul>
+        <li>1</li>
+        <li>2
+            <ul>
+                <li>2-1</li>
+                <li>2-2
+                    <ul>
+                        <li>2-2-1</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>3
+            <ul>
+                <li>3-1</li>
+                <li>3-2</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<style>
+#menubar h3 {
+  border-width: 0px;
+  margin:.5em 0px .25em 0px;
+  padding: 0;
+}
+#menubar h3:before {
+  content: "■"
+}
+#menubar h4 {
+  border-width: 0px;
+  margin:.5em 0px 0px 0px;
+  padding: 0;
+}
+#menubar h4:before {
+  content: "■"
+}
+#menubar {
+  line-height: 1;
+}
+#menubar ul, #menubar li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#menubar ul > li:not(:last-child):before {
+  content: "┣"
+}
+#menubar ul > li:last-child:before {
+  content: "┗"
+}
+
+#menubar ul > li:not(:last-child) > ul > li:not(:last-child):before {
+  content: "┃┣"
+}
+#menubar ul > li:not(:last-child) > ul > li:last-child:before {
+  content: "┃┗"
+}
+#menubar ul > li:last-child > ul > li:not(:last-child):before {
+  content: "　┣"
+}
+#menubar ul > li:last-child > ul > li:last-child:before {
+  content: "　┗"
+}
+
+#menubar ul > li:not(:last-child) > ul > li:not(:last-child) > ul > li:not(:last-child):before {
+  content: "┃┃┣"
+}
+#menubar ul > li:not(:last-child) > ul > li:not(:last-child) > ul > li:last-child:before {
+  content: "┃┃┗"
+}
+#menubar ul > li:not(:last-child) > ul > li:last-child > ul > li:not(:last-child):before {
+  content: "┃　┣"
+}
+#menubar ul > li:not(:last-child) > ul > li:last-child > ul > li:last-child:before {
+  content: "┃　┗"
+}
+#menubar ul > li:last-child > ul > li:not(:last-child) > ul > li:not(:last-child):before {
+  content: "　┃┣"
+}
+#menubar ul > li:last-child > ul > li:not(:last-child) > ul > li:last-child:before {
+  content: "　┃┗"
+}
+#menubar ul > li:last-child > ul > li:last-child > ul > li:not(:last-child):before {
+  content: "　　┣"
+}
+#menubar ul > li:last-child > ul > li:last-child > ul > li:last-child:before {
+  content: "　　┗"
+}
+</style>
