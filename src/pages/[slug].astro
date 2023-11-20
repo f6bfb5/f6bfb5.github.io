@@ -11,6 +11,6 @@ const { blog } = Astro.props;
 const { Content } = await blog.render();
 ---
 
-<MarkdownPostLayout slug={blog.slug} title={blog.data.title} summary={blog.data.summary}>
+<MarkdownPostLayout slug={blog.slug} date={blog.data.date} title={blog.data.title} summary={blog.data.summary}>
     <Content />
 </MarkdownPostLayout>

@@ -1,7 +1,10 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 import ArticleRainbowTitle from "../components/ArticleRainbowTitle.astro";
-const { slug, title, summary } = Astro.props;
+const { slug, date, title, summary } = Astro.props;
+const d = new Date(date);
+const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+const formattedDate = `${d.getFullYear()}.${("0"+(d.getMonth()+1)).slice(-2)}.${("0"+d.getDate()).slice(-2)} ${weekday[d.getDay()]}`
 ---
 
 <head>
@@ -21,12 +24,17 @@ const { slug, title, summary } = Astro.props;
 
 <BaseLayout pageTitle={title}>
   <article>
+    <span class="date">{formattedDate}</span>
     <ArticleRainbowTitle {title} />
     <slot />
   </article>
 </BaseLayout>
 
 <style>
+  .date {
+    margin-right: 1em;
+    color: var(--title-color);
+  }
   article {
     padding: 10px;
     border: 1px solid var(--subtitle-color);

@@ -19,27 +19,30 @@ const { title } = Astro.props;
 
 <style>
   h1 {
-    margin: 0.13em 0 0.39em;
-    font-size: 3em;
-    line-height: 1.1;
+    /* margin: 0.13em 0 0.39em; */
+    margin: 0;
+    /* font-size: 3em; */
+    font-size: 1em;
+    /* line-height: 1.1; */
     color: var(--title-color);
+    display: inline-block;
   }
 
   /* need to add 15px for scrollbar width */
-  @media all and (max-width: 735px) {
+  /* @media all and (max-width: 735px) {
     h1 {
       max-width: 80%;
       margin: auto;
       font-size: 2.5em;
     }
-  }
+  } */
 
-  .title {
+  /* .title {
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
     justify-content: center;
-  }
+  } */
 
   .title span:nth-child(9n-8) {
     animation: Title_red 0.5s linear both;
