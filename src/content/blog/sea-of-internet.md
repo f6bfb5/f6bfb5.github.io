@@ -1,7 +1,7 @@
 ---
 title: "網際網路的海洋"
 date: 1969-07-21T02:59:00.000Z
-summary: ""
+summary: "ネットは広大だわ"
 tags: [""]
 ---
 
@@ -64,7 +64,6 @@ tags: [""]
 
 | 名稱                                                                                       | 內容                                   |
 | ------------------------------------------------------------------------------------------ | -------------------------------------- |
-| [青春 18 きっぷ　ギャラリー](http://www.satou3.com/railways/18kippu2.html)                 | 青春 18 車票的宣傳海報整理             |
 | [無限回廊 endless loop](http://www.maroon.dti.ne.jp/knight999/)                            | 日本重大社會事件詳細介紹               |
 | [空港探索・3：SS ブログ](https://airport1111.blog.ss-blog.jp/)                             | 各種機場介紹                           |
 | [朝倉泉　事件の内容](https://grandson.tripod.com/i_jiken.html)                             | 1979 年朝倉泉事件紀錄                  |
@@ -74,7 +73,6 @@ tags: [""]
 | [SMPTE - 深夜テレビ試験放送のアレ](https://satorunet.github.io/SMPTE/)                     | 電視測試訊號畫面                       |
 | [ゼロ年代インターネットスラングとかまとめ Wiki](https://wikiwiki.jp/moudameder/)           | 00 年代的網路黑話整理 wiki             |
 | [亡くなった人の Twitter アカウント 最後のツイート](https://togetter.com/li/1553934)        | 逝世者生前最後一則推文                 |
-| [デジタルカメラの歴史](http://www.monox.jp/history/digitalcamera-history-01.html)          | 數位相機歷史                           |
 | [The Rabbit Hole](http://www.hp-alice.com/index.html)                                      | 路易斯・卡羅與愛麗絲夢遊仙境的相關資訊 |
 | [お葬式プラザ／死の総合研究所](http://osoushiki-plaza.com/institut/index.html)             | 關於死的研究與資訊                     |
 
@@ -155,7 +153,6 @@ tags: [""]
 | [次回予告](http://jikainoyokoku.blog23.fc2.com/)                                                            | 動畫次回預告整理                       |
 | [宮崎論目次](http://www.yk.rim.or.jp/~rst/rabo/miyazaki/m_mokuji.html)                                      | 叶精二的宮崎駿作品評論、訪談           |
 | [萌え表現の不自由展 2019](https://anond.hatelabo.jp/20191021020100)                                         | 至 2019 曾發生過的「萌表現」相關事件   |
-| [TYPE-MOON 不完全年表](http://www.st.rim.or.jp/~nmisaki/topics/typemoon.html)                               |                                        |
 | [映画学メモ 「映画学入門」　目次（これまで扱った分）](http://filmstudies.blog21.fc2.com/blog-entry-76.html) | 電影學入門筆記                         |
 | [Tech Noir](https://technoir.nl/)                                                                           | 電影段落 GIF                           |
 | [◇ テレビドラマデータベース ◇](http://www.tvdrama-db.com/)                                                  | 電視戲劇資料庫                         |
