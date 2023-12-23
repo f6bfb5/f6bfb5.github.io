@@ -27,13 +27,14 @@ tags: [""]
 - [3DS ブラウザ用コンテンツ](http://www5b.biglobe.ne.jp/~clap/3ds/)
 - [タロットカードで物語をつくる構文を見つける](https://www.nnn.ed.nico/contents/guides/792)
 - [[scanning.guide]](https://scanning.guide/start)
+- [会話力・対人関係力訓練法](http://nishi1978.web.fc2.com)
+- [創作のやる気・動機・スランプについてのＱ&Ａ](https://www.raitonoveru.jp/howto/05.html)
 
 ## 網路
 
 - [譲れぬ闘い --- ここで負けてしまったら、この戦争全体に負けてしまうんだ。](https://web.archive.org/web/20130402224316/http://www.changelog.net/log/1999/special/dave/)
   - [Firefox は危険な JavaScript に対応しない](https://qiita.com/rana_kualu/items/8803f02c72a54f366f2a)
   - [なぜ Mozilla は XUL アドオンを廃止したのか？（翻訳）](https://qiita.com/piroor/items/e876eaa70d4c0bf06d9b)
-- [ブログ台頭直前のウェブ界隈が好きだった話 - Neo's World](https://neos21.net/blog/2016/02/16-01.html)
 - [Motherfucking Website](https://motherfuckingwebsite.com/)
 - [This page is a truly naked, brutalist html quine.](https://secretgeek.github.io/html_wysiwyg/html.html)
 - [DiscMaster](http://discmaster.textfiles.com/)
