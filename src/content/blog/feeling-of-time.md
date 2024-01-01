@@ -1,6 +1,6 @@
 ---
 title: "時間感"
-date: 2023-10-08T09:56:00.000Z
+date: 2023-10-08T09:56:00.000+08:00
 summary: "把人生分割成五等分來想的「最近」或「以前」"
 tags: ["F2E"]
 ---
@@ -11,7 +11,7 @@ tags: ["F2E"]
 	const yearArr = range(nowYear, 1976, -1);
 	const ageArr = [10, 15, 20, 25, 30, 35, 40, 45];
 	const bgColorArr = ["b-purple", "b-cyan", "b-green", "b-orange", "b-red", "b-gray"];
-	
+
 	// https://anond.hatelabo.jp/20230817095200
 	const yearAnime = {
 		2019: '<b style="color: #fe9619;">令和元年</b>',

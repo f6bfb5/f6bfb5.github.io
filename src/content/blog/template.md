@@ -1,6 +1,6 @@
 ---
 title: "template.md"
-date: 1969-07-21T02:56:00.000Z
+date: 1969-07-21T02:56:00.000+08:00
 summary: "template of markdown"
 tags: ["F2E"]
 ---

@@ -1,6 +1,6 @@
 ---
 title: PS版 Serial Experiments Lain Map
-date: 2023-12-17T02:59:00.000Z
+date: 2023-12-17T02:59:00.000+08:00
 summary: "PS版 Serial Experiments Lain的資料一覽"
 tags: ["ACG", "Game"]
 ---

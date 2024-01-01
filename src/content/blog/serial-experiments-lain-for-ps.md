@@ -1,6 +1,6 @@
 ---
 title: "Serial Experiments Lain for PS"
-date: 2022-03-22T23:35:38.000Z
+date: 2022-03-22T23:35:38.000+08:00
 summary: "《Serial Experiments Lain》是於 1998 年發表，同時跨足動畫、遊戲與雜誌連載的跨媒體系列作品。然而各作品僅有主角與主題相同，其餘則為不同內容的平行作品。遊戲版雖然最早進行企劃，但直至整個跨媒體展開的最後才發表。"
 tags: ["ACG", "Anime", "Game"]
 ---

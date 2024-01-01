@@ -1,6 +1,6 @@
 ---
 title: "PAS 動畫評論 次文化與末世論"
-date: 2019-01-29T07:02:26.000Z
+date: 2019-01-29T07:02:26.000+08:00
 summary: "默示錄信仰（apocalypse） 的原意是來自於 「掀開紗帽（vail）」的希臘語 「apokalypsis」，意思是「揭示新的事實」，或是「拆穿秘密」。"
 tags: ["ACG", "Anime", "Comic", "Translate"]
 ---

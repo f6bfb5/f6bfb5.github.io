@@ -1,6 +1,6 @@
 ---
 title: "Blog with Astro"
-date: 2023-01-01T01:00:00.000Z
+date: 2023-01-01T01:00:00.000+08:00
 summary: ""
 tags: ["F2E"]
 ---
