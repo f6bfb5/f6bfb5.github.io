@@ -258,6 +258,11 @@ UnoCSS
  </div>
 </div>
 
+Pagefind
+---
+
+- [静的サイト向けの全文検索エンジンと UI ライブラリの Pagefind](https://azukiazusa.dev/blog/static-site-search-engine-and-ui-library-pagefind/)
+
 Pass variable from frontmatter to script
 ---
 
