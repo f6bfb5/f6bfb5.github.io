@@ -86,6 +86,7 @@ tags: [""]
 - [女性誌の報道](http://std2g.web.fc2.com/joseishi/joseishi.html)
 - [「オタク」(おたく)は、差別目的語であった](https://togetter.com/li/1432754)
   - 『おたく』の研究[（１）](http://www.burikko.net/people/otaku01.html)、[（２）](http://www.burikko.net/people/otaku02.html)
+- [今年で宮崎勤事件35年。「禁断の絵作りヤラセ」に手を染めたカメラマンは健在なりや…？【再論】 - INVISIBLE D.　ーQUIET & COLORFUL PLACE-](https://m-dojo.hatenadiary.com/entry/2024/03/06/031110)
 
 ---
 

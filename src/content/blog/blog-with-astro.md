@@ -198,6 +198,10 @@ OGP preview
 - 支援 TailwindCSS
 - https://og-playground.vercel.app/
 
+### Puppeteer
+
+- [huli-life-blog/apps/og-image-generator/app.js at main · aszx87410/huli-life-blog](https://github.com/aszx87410/huli-life-blog/blob/main/apps/og-image-generator/app.js)
+
 SEO
 ---
 
