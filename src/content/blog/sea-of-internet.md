@@ -25,9 +25,9 @@ tags: [""]
 - [Everything Rumia Knows](https://namelessrumia.heliohost.org/w/doku.php)
 - [○ で終わる言葉](https://cotobasearch.com/search/r2)
 - [3DS ブラウザ用コンテンツ](http://www5b.biglobe.ne.jp/~clap/3ds/)
-- [タロットカードで物語をつくる構文を見つける](https://www.nnn.ed.nico/contents/guides/792)
 - [[scanning.guide]](https://scanning.guide/start)
 - [会話力・対人関係力訓練法](http://nishi1978.web.fc2.com)
+- [タロットカードで物語をつくる構文を見つける](https://www.nnn.ed.nico/contents/guides/792)
 - [創作のやる気・動機・スランプについてのＱ&Ａ](https://www.raitonoveru.jp/howto/05.html)
 
 ## 網路
@@ -35,8 +35,10 @@ tags: [""]
 - [譲れぬ闘い --- ここで負けてしまったら、この戦争全体に負けてしまうんだ。](https://web.archive.org/web/20130402224316/http://www.changelog.net/log/1999/special/dave/)
   - [Firefox は危険な JavaScript に対応しない](https://qiita.com/rana_kualu/items/8803f02c72a54f366f2a)
   - [なぜ Mozilla は XUL アドオンを廃止したのか？（翻訳）](https://qiita.com/piroor/items/e876eaa70d4c0bf06d9b)
+
 - [Motherfucking Website](https://motherfuckingwebsite.com/)
 - [This page is a truly naked, brutalist html quine.](https://secretgeek.github.io/html_wysiwyg/html.html)
+
 - [DiscMaster](http://discmaster.textfiles.com/)
 
 ## 學習
@@ -54,12 +56,10 @@ tags: [""]
 - [通信用語の基礎知識](https://www.wdic.org/)
 - [かんたん暗記](https://www.8toch.net/hachiben/anki.cgi)
 - [計算形而上学入門 - A602](https://tsg.ne.jp/nolze/texts/CM.html)
-- [松岡正剛の千夜千冊](https://1000ya.isis.ne.jp/souran/index.php?vol=102)
 - [ブリコラージュ@川内川前叢茅辺](http://st.cat-v.ne.jp/kawamae_cho/index.html)
 - [魔法道具ＣＧ](http://www.elfindog.sakura.ne.jp/cgtools.htm)
 - [世界一高いウェブサイト](https://worlds-highest-website.com/ja/)
 - [パチンコの歌 「777」](https://777songs.blog.fc2.com/)
-- [日本図書コードの分類コード(C コード)](https://www.asahi-net.or.jp/~ax2s-kmtn/ref/ccode.html)
 
 ## 社會
 
@@ -97,14 +97,12 @@ tags: [""]
 - [幻覚・夢・狂気系の動画](https://edielec.tumblr.com/)
 - [未出・迷宮入り CM 捜索@wiki](https://w.atwiki.jp/commercial/)
 - [The Deep Sea](https://neal.fun/deep-sea/)
-- [奇食の館](http://ww2.tiki.ne.jp/~morim/menu.htm)
 - [暴力団ミニ講座](https://www.web-sanin.co.jp/gov/boutsui/mini00.htm)
 - [Mini Tokyo 3D](https://minitokyo3d.com/)
 - [シャンプー別 歴代ＣＭ出演者変遷](http://shampoomania.web.fc2.com/rekidai.html)
 - [インスタントコーヒー徹底比較](http://coffee.uraro.com/)
 - [物を捨てられないオタクが主に紙製のグッズを収納するために必要なものをまとめた記事](https://dic.nicovideo.jp/a/%E7%89%A9%E3%82%92%E6%8D%A8%E3%81%A6%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84%E3%82%AA%E3%82%BF%E3%82%AF%E3%81%8C%E4%B8%BB%E3%81%AB%E7%B4%99%E8%A3%BD%E3%81%AE%E3%82%B0%E3%83%83%E3%82%BA%E3%82%92%E5%8F%8E%E7%B4%8D%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%AA%E3%82%82%E3%81%AE%E3%82%92%E3%81%BE%E3%81%A8%E3%82%81%E3%81%9F%E8%A8%98%E4%BA%8B)
 - [実在苗字の根拠](https://web.archive.org/web/20200609223515/https://myoujikonkyo.web.fc2.com/)
-- [死刑確定者 全リスト](https://www.crimeinfo.jp/data/dplist/dplist_all/)
 - [Secrets of Scientology](https://www.cs.cmu.edu/~dst/Secrets/index.html)
 - [This to That (Glue Advice)](https://www.thistothat.com/index.shtml)
 
@@ -179,7 +177,6 @@ tags: [""]
 | [POKeMON Analysis](http://psense.lib.net/Analysis/RGB/index.html)                                                      | 初代寶可夢解析                       |
 | [Pokémon Bug Litches](https://web.archive.org/web/20181001140126/http://www.geocities.jp/kattempla/pokebug/index.html) | 初代寶可夢錯誤運用解析               |
 | [ぽんしゃぶ弐号〜サムライスピリッツ零シリーズ攻略〜](http://www5b.biglobe.ne.jp/~hitokiri/)                            | 侍魂系列攻略                         |
-| [格闘ゲームリスト](http://kakuge.info/d/index.htm)                                                                     | 各個平台的格鬥遊戲列表               |
 | [ワイが昔やってたフリーゲームを紹介するスレ](http://blog.livedoor.jp/nwknews/archives/5612110.html)                    | 免費遊戲介紹                         |
 | [Land Island](https://land-island.com/)                                                                                | RPG 遊戲最強養成特化攻略             |
 | [Lapse Pointer](https://ninja114514.hide-yoshi.net/)                                                                   | RPG 遊戲最強養成特化攻略             |

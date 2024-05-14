@@ -11,6 +11,18 @@ tags: ["F2E"]
 	const yearArr = range(nowYear, 1976, -1);
 	const ageArr = [10, 15, 20, 25, 30, 35, 40, 45];
 	const bgColorArr = ["b-purple", "b-cyan", "b-green", "b-orange", "b-red", "b-gray"];
+	let highlightedRow = 0, highlightedCol = 0;
+
+    function highlightRowAndCol(event) {
+	  const allCells = event.target.closest('table').querySelectorAll(`tr td`);
+	  allCells.forEach(cell => cell.classList.remove('highlighted'));
+	  const rowCells = event.target.parentElement.querySelectorAll('td');
+      const colCells = event.target.closest('table').querySelectorAll(`tr td:nth-child(${event.target.cellIndex + 2})`);
+      rowCells.forEach(cell => cell.classList.add('highlighted'));
+	  if (highlightedCol !== 9) {
+		colCells.forEach(cell => cell.classList.add('highlighted'));
+	  }
+	}
 
 	// https://anond.hatelabo.jp/20230817095200
 	const yearAnime = {
@@ -124,13 +136,21 @@ tags: ["F2E"]
     </tr>
   </thead>
   <tbody>
-	<template x-for="year in yearArr">
-    <tr>
+	<template x-for="(year, row) in yearArr">
+    <tr x-on:highlight="highlightedRow = $event.target.parentElement.rowIndex; highlightedCol = $event.target.cellIndex; highlightRowAndCol($event)">
       <td x-text="year"></td>
-	  <template x-for="age in ageArr">
-	    <td x-bind:class="bgColorArr[Math.floor(Math.min((nowYear - year)*5 / age, 5))]"></td>
+	  <template x-for="(age, col) in ageArr">
+	    <td
+		  class="t-center"
+		  x-text="age - row > 0 ? age - row : ''"
+		  x-bind:class="bgColorArr[Math.floor(Math.min((nowYear - year)*5 / age, 5))]"
+		  x-on:mouseover="$dispatch('highlight', { row: highlightedRow, col: $event.target.cellIndex })"
+		></td>
 	  </template>
-	  <td x-html="yearEvent[year] ? yearEvent[year] : ''"></td>
+	  <td
+	    x-html="yearEvent[year] ? yearEvent[year] : ''"
+	    x-on:mouseover="$dispatch('highlight', { row: highlightedRow, col: $event.target.cellIndex })"
+	  ></td>
       <td x-text="year"></td>
     </tr>
 	</template>
@@ -190,5 +210,8 @@ th, td:first-child, td:last-child {
 }
 .b-gray {
   background-color: #434343;
+}
+.highlighted {
+  filter: brightness(75%) saturate(80%);
 }
 </style>
