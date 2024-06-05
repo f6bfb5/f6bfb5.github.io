@@ -9,7 +9,7 @@ tags: ["F2E"]
 	let nowYear = new Date().getFullYear();
 	const range = (start, stop, step) => Array.from({ length: (stop - start) / step + 1}, (_, i) => start + (i * step));
 	const yearArr = range(nowYear, 1976, -1);
-	const ageArr = [10, 15, 20, 25, 30, 35, 40, 45];
+	const ageArr = [10, 15, 20, 25, 30, 35, 40, 45, 50];
 	const bgColorArr = ["b-purple", "b-cyan", "b-green", "b-orange", "b-red", "b-gray"];
 	let option = 'event';
 	let highlightedRow = 0, highlightedCol = 0;
@@ -58,7 +58,7 @@ tags: ["F2E"]
 		1979: '機動戰士鋼彈',
 	};
 	const yearEvent = {
-		2024: '能登半島地震、大選年、花蓮地震',
+		2024: '能登半島地震、大選年、花蓮地震、國會改革法案爭議',
 		2023: 'Twitter更名、阿克薩洪水行動',
 		2022: '俄羅斯入侵烏克蘭、寶可夢 朱／紫發售、孤獨搖滾！播出',
 		2021: '川普支持者闖入國會、長賜輪擱淺、日本東奧、太魯閣號出軌、小玉換臉',
@@ -126,14 +126,9 @@ tags: ["F2E"]
   <thead>
     <tr>
       <th></th>
-      <th>10 歲</th>
-      <th>15 歲</th>
-      <th>20 歲</th>
-      <th>25 歲</th>
-      <th>30 歲</th>
-      <th>35 歲</th>
-      <th>40 歲</th>
-      <th>45 歲</th>
+	  <template x-for="age in ageArr">
+      <th x-text="age + '歲'"></th>
+	  </template>
       <th>主要事件</th>
       <th></th>
     </tr>
