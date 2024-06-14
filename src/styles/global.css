@@ -49,6 +49,7 @@ h2 strong {
   color: var(--subtitle-color);
   background: none;
 }
+
 h2 strong::after {
   margin-left: 12px;
   margin-bottom: 6px;
@@ -66,6 +67,7 @@ h3 {
   background: #000;
   color: #fff;
 }
+
 h3::before {
   content: '';
   display: inline;
@@ -92,9 +94,9 @@ h4::before {
   border-left: 2px solid var(--subtext-color);
 }
 
-h1 + p,
-h2 + p,
-h3 + p {
+h1+p,
+h2+p,
+h3+p {
   padding-top: 0.25em;
 }
 
@@ -105,7 +107,11 @@ ul {
   /* -webkit-padding-end: 5%; */
   margin: 0;
 }
-ul ul, ol ol, ul ol, ol ul {
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
   padding-left: 1rem;
 }
 
@@ -141,10 +147,12 @@ ol {
   list-style: none;
   counter-reset: item;
 }
-ol > li {
+
+ol>li {
   counter-increment: item;
 }
-ol > li:before {
+
+ol>li:before {
   position: absolute;
   right: 100%;
   width: fit-content;
@@ -162,9 +170,13 @@ ul li ul {
 
 a {
   color: var(--link-color);
-  /* text-decoration: none; */
   transition: color 0.2s ease-in-out;
 }
+
+a:not([target=_blank]) {
+  text-decoration: none;
+}
+
 a:hover {
   color: var(--link-hover-color);
 }
@@ -175,7 +187,8 @@ a img {
   vertical-align: text-bottom;
   height: 1em;
 }
-a img + span {
+
+a img+span {
   margin-left: 0.25em;
 }
 
@@ -184,7 +197,7 @@ p {
   padding-bottom: 1em;
 }
 
-:not(p):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(hr) + p {
+:not(p):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(hr)+p {
   padding-top: 1em;
 }
 
@@ -202,13 +215,11 @@ p a:hover {
 
 strong {
   color: #2e2e2e;
-  background: linear-gradient(
-    to bottom,
-    transparent 0%,
-    transparent 50%,
-    var(--strong-color) 50%,
-    var(--strong-color) 100%
-  );
+  background: linear-gradient(to bottom,
+      transparent 0%,
+      transparent 50%,
+      var(--strong-color) 50%,
+      var(--strong-color) 100%);
 }
 
 img {
@@ -233,6 +244,7 @@ hr::after {
   padding-left: 4em;
   opacity: 0.5;
 }
+
 @media screen and (max-width: 720px) {
   hr::after {
     letter-spacing: 2em;
@@ -252,6 +264,7 @@ code {
   color: #eee;
   background-color: #4e9a06;
 }
+
 pre code {
   padding: 0;
   background-color: initial;
@@ -290,11 +303,13 @@ ruby {
   display: inline-flex;
   flex-direction: column-reverse;
 }
+
 rb,
 rt {
   display: inline;
   align-self: center;
 }
+
 rt {
   user-select: none;
 }
@@ -314,15 +329,16 @@ th {
   text-align: left;
 }
 
-tbody > tr {
+tbody>tr {
   position: relative;
 }
+
 /* 
   html - Colour fade to transparent on both sides of a div - Stack Overflow
   https://stackoverflow.com/questions/28982198/colour-fade-to-transparent-on-both-sides-of-a-div    
   box-shadow: offset-x | offset-y | blur-radius | spread-radius | color
 */
-tbody > tr:after {
+tbody>tr:after {
   content: "";
   position: absolute;
   width: 97.5%;
@@ -332,10 +348,12 @@ tbody > tr:after {
   transform: translateX(-50%);
   border-top: 1px dashed var(--subtext-color);
 }
-tbody > tr:first-child:after {
+
+tbody>tr:first-child:after {
   border-top: 1px solid var(--subtext-color);
 }
-tbody > tr:nth-child(2n + 1) {
+
+tbody>tr:nth-child(2n + 1) {
   background-color: #d8e5b8;
 }
 
@@ -349,13 +367,16 @@ details {
   border: 4px solid var(--subtext-color);
   border-radius: 12px;
 }
+
 details:last-child {
   margin-bottom: 0;
 }
+
 details summary {
   cursor: pointer;
   font-weight: bold;
 }
+
 details summary:focus {
   outline: none;
 }
