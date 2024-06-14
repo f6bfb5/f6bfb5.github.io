@@ -1,11 +1,11 @@
 <!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="generator" content="Astro v3.3.0"><link rel="icon" href="/favicon.ico"><title>實作「使用Twitch登入」</title><!-- OGP --><meta property="og:url" content="https://f6bfb5.github.io/login-with-twitch.html"><meta property="og:type" content="article"><meta property="og:title" content="實作「使用Twitch登入」"><meta property="og:description" content=""><meta property="og:image" content="https://f6bfb5.github.io/images/login-with-twitch.png"><link rel="stylesheet" href="/_astro/_slug_.d61fd585.css" />
-<link rel="stylesheet" href="/_astro/_slug_.d57a4528.css" />
+<link rel="stylesheet" href="/_astro/_slug_.8495babb.css" />
 <style>h1[data-astro-cid-gkspkard]{margin:0;font-size:1em;color:var(--title-color);display:inline-block}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-8){animation:Title_red .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-7){animation:Title_orange .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-6){animation:Title_yellow .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-5){animation:Title_lime .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-4){animation:Title_green .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-3){animation:Title_cyan .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-2){animation:Title_blue .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n-1){animation:Title_purple .5s linear both}.title[data-astro-cid-gkspkard] span[data-astro-cid-gkspkard]:nth-child(9n){animation:Title_pink .5s linear both}@keyframes Title_red{0%{color:var(--bg-color);fill:transparent}50%{color:#e50020;fill:#e50020}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_orange{0%{color:var(--bg-color);fill:transparent}50%{color:#ec6c00;fill:#ec6c00}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_yellow{0%{color:var(--bg-color);fill:transparent}50%{color:#fbc600;fill:#fbc600}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_lime{0%{color:var(--bg-color);fill:transparent}50%{color:#6fba2c;fill:#6fba2c}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_green{0%{color:var(--bg-color);fill:transparent}50%{color:#008b38;fill:#008b38}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_cyan{0%{color:var(--bg-color);fill:transparent}50%{color:#009fe8;fill:#009fe8}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_blue{0%{color:var(--bg-color);fill:transparent}50%{color:#004da0;fill:#004da0}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_purple{0%{color:var(--bg-color);fill:transparent}50%{color:#910782;fill:#910782}to{color:var(--title-color);fill:var(--title-color)}}@keyframes Title_pink{0%{color:var(--bg-color);fill:transparent}50%{color:#e40065;fill:#e40065}to{color:var(--title-color);fill:var(--title-color)}}.date[data-astro-cid-5grsw2hi]{margin-right:1em;color:var(--title-color)}article[data-astro-cid-5grsw2hi]{padding:10px;border:1px solid var(--subtitle-color);box-shadow:2px 2px 0 var(--subtext-color),4px 4px 0 var(--title-color);background-color:#e5edc8}
 </style><script type="module">
 </script>
 <script type="module" src="/_astro/page.75c7f027.js"></script></head><html lang="zh-Hant-TW" data-astro-cid-37fxchfa><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="generator" content="Astro v3.3.0"><link rel="icon" href="/favicon.ico"></head><body data-astro-cid-37fxchfa><header data-astro-cid-pux6a34n><nav data-astro-cid-pux6a34n><a href="/" data-astro-cid-pux6a34n> トリコじかけの明け暮れ</a><a href="/rss.xml" target="_blank" data-astro-cid-pux6a34n> rss</a><a style="display: none;" href="/sitemap.xml" target="_blank" data-astro-cid-pux6a34n> sitemap</a></nav></header><main class="container" data-astro-cid-37fxchfa><article data-astro-cid-5grsw2hi><span class="date" data-astro-cid-5grsw2hi>2023.05.02 Tuesday</span><h1 class="title" data-astro-cid-gkspkard><span style="animation-delay:125ms;width:" data-astro-cid-gkspkard>實</span><span style="animation-delay:150ms;width:" data-astro-cid-gkspkard>作</span><span style="animation-delay:175ms;width:" data-astro-cid-gkspkard>「</span><span style="animation-delay:200ms;width:" data-astro-cid-gkspkard>使</span><span style="animation-delay:225ms;width:" data-astro-cid-gkspkard>用</span><span style="animation-delay:250ms;width:" data-astro-cid-gkspkard>T</span><span style="animation-delay:275ms;width:" data-astro-cid-gkspkard>w</span><span style="animation-delay:300ms;width:" data-astro-cid-gkspkard>i</span><span style="animation-delay:325ms;width:" data-astro-cid-gkspkard>t</span><span style="animation-delay:350ms;width:" data-astro-cid-gkspkard>c</span><span style="animation-delay:375ms;width:" data-astro-cid-gkspkard>h</span><span style="animation-delay:400ms;width:" data-astro-cid-gkspkard>登</span><span style="animation-delay:425ms;width:" data-astro-cid-gkspkard>入</span><span style="animation-delay:450ms;width:" data-astro-cid-gkspkard>」</span></h1><h2 id="1-於-twitch-developers-console-登錄應用"><strong>1. 於 Twitch developers console 登錄應用</strong></h2>
 <ol>
-<li>登入 <a href="https://dev.twitch.tv/console/apps">Twitch Developers</a></li>
+<li>登入 <a href="https://dev.twitch.tv/console/apps" target="_blank">Twitch Developers</a></li>
 <li>「Register Your Application」</li>
 <li>取名，本文範例取為「OAuth Verify」
 <ul>
@@ -69,7 +69,7 @@
 </li>
 <li>App access tokens 則是透過 OAuth Client Credentials Flow 取得
 <ul>
-<li>詳細可參照 <a href="https://dev.twitch.tv/docs/authentication/#user-access-tokens">Authentication</a></li>
+<li>詳細可參照 <a href="https://dev.twitch.tv/docs/authentication/#user-access-tokens" target="_blank">Authentication</a></li>
 </ul>
 </li>
 </ul>
@@ -94,7 +94,7 @@
 <li>Scope
 <ul>
 <li>要取得的授權內容</li>
-<li><a href="https://dev.twitch.tv/docs/authentication/scopes/#twitch-api-scopes">Twitch Access Token Scopes</a></li>
+<li><a href="https://dev.twitch.tv/docs/authentication/scopes/#twitch-api-scopes" target="_blank">Twitch Access Token Scopes</a></li>
 </ul>
 </li>
 </ul>
@@ -113,7 +113,7 @@
 <ul>
 <li>使用 access token 即可取得使用者資料
 <ul>
-<li><a href="https://dev.twitch.tv/docs/api/reference/#get-users">Get Users</a></li>
+<li><a href="https://dev.twitch.tv/docs/api/reference/#get-users" target="_blank">Get Users</a></li>
 <li>
 <pre class="astro-code dracula" style="background-color:#282A36;color:#F8F8F2; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color:#FF79C6">const</span><span style="color:#F8F8F2"> userApiUrl </span><span style="color:#FF79C6">=</span><span style="color:#E9F284"> "</span><span style="color:#F1FA8C">https://api.twitch.tv/helix/users</span><span style="color:#E9F284">"</span><span style="color:#F8F8F2">;</span></span>
 <span class="line"><span style="color:#FF79C6">const</span><span style="color:#F8F8F2"> urlParams </span><span style="color:#FF79C6">=</span><span style="color:#FF79C6;font-weight:bold"> new</span><span style="color:#50FA7B"> URLSearchParams</span><span style="color:#F8F8F2">(window.location.hash);</span></span>
@@ -143,7 +143,7 @@
 </li>
 </ul>
 </li>
-<li>API 一覽：<a href="https://dev.twitch.tv/docs/api/reference/">Reference</a></li>
+<li>API 一覽：<a href="https://dev.twitch.tv/docs/api/reference/" target="_blank">Reference</a></li>
 </ul>
 <h2 id="範例"><strong>範例</strong></h2>
 <p><button id="js-twitch-button">Login with Twitch</button>
