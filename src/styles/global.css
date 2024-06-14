@@ -162,7 +162,7 @@ ul li ul {
 
 a {
   color: var(--link-color);
-  text-decoration: none;
+  /* text-decoration: none; */
   transition: color 0.2s ease-in-out;
 }
 a:hover {

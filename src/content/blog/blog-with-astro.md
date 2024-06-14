@@ -12,7 +12,7 @@ TODO
 
 - [x] Dynamic routing
 - [x] Global style.css & related files
-- [ ] favicon
+- [x] favicon
 - [ ] ~~MDX + svelte~~
   - [x] Alpine.js
   - [x] UnoCSS

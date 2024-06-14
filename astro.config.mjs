@@ -5,6 +5,7 @@ import { defineConfig } from 'astro/config';
 
 import alpinejs from "@astrojs/alpinejs";
 import UnoCSS from 'unocss/astro';
+import { externalLink } from './src/externalLink';
 // import mdx from "@astrojs/mdx";
 // import swup from '@swup/astro';
 
@@ -20,6 +21,7 @@ export default defineConfig({
     // swup(),
   ],
   markdown: {
+    rehypePlugins: [[externalLink, { domain: "f6bfb5.github.io" }]],
     shikiConfig: {
       theme: 'dracula'
     }
