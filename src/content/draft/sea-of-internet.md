@@ -19,6 +19,8 @@ tags: [""]
 - [僕を取り囲む私を観察した不定期日記で自分は誰？](https://web.archive.org/web/20030811182532/http://www4.vc-net.ne.jp/~obara/diary/)
 - [潜在的幻狂覚無差別覚醒菌感染者](https://web.archive.org/web/20030802101451/http://rb.731.jp/ugjiten.html)
 - [虚構日記](https://web.archive.org/web/20030807141431/http://www4.osk.3web.ne.jp/~kawami/)
+- [ブログの趣旨: 狂気をくぐり抜ける](http://tiem.cocolog-nifty.com/blog/shishi.html)
+- [パーソナリティのプリズム](http://dongavatyo.web.fc2.com/038.htm)
 
 ---
 
@@ -29,12 +31,6 @@ tags: [""]
 - [会話力・対人関係力訓練法](http://nishi1978.web.fc2.com)
 - [タロットカードで物語をつくる構文を見つける](https://www.nnn.ed.nico/contents/guides/792)
 - [創作のやる気・動機・スランプについてのＱ&Ａ](https://www.raitonoveru.jp/howto/05.html)
-
-## 網路
-
-- [譲れぬ闘い --- ここで負けてしまったら、この戦争全体に負けてしまうんだ。](https://web.archive.org/web/20130402224316/http://www.changelog.net/log/1999/special/dave/)
-  - [Firefox は危険な JavaScript に対応しない](https://qiita.com/rana_kualu/items/8803f02c72a54f366f2a)
-  - [なぜ Mozilla は XUL アドオンを廃止したのか？（翻訳）](https://qiita.com/piroor/items/e876eaa70d4c0bf06d9b)
 
 ## 學習
 
@@ -63,8 +59,6 @@ tags: [""]
   - 2005 年福知山線事故紀錄
 - [いつの間にか容量が減っている商品 wiki](https://shrinkflation.info/)
   - 容量不知不覺間減少的商品 wiki
-- [SMPTE - 深夜テレビ試験放送のアレ](https://satorunet.github.io/SMPTE/)
-  - 電視測試訊號畫面
 - [ゼロ年代インターネットスラングとかまとめ Wiki](https://wikiwiki.jp/moudameder/)
   - 00 年代的網路黑話整理 wiki
 - [亡くなった人の Twitter アカウント 最後のツイート](https://togetter.com/li/1553934)
@@ -74,8 +68,6 @@ tags: [""]
 - [お葬式プラザ／死の総合研究所](http://osoushiki-plaza.com/institut/index.html)
   - 關於死的研究與資訊
 
-- [ブログの趣旨: 狂気をくぐり抜ける](http://tiem.cocolog-nifty.com/blog/shishi.html)
-- [パーソナリティのプリズム](http://dongavatyo.web.fc2.com/038.htm)
 - [首都圏住みたくない街 - 「首都圏住みたくない街」WEB バージョン](https://t.tokyodeep.info/)
 - [作り損ねた国々](https://geolog.mydns.jp/www.geocities.jp/keropero2003/syometsu/sokone.html)
 - [みんながアクセスすると劣化する記事](https://web-media.blue-puddle.com/degradation/)
@@ -117,12 +109,7 @@ tags: [""]
 
 ## 設計
 
-| 名稱                                                                                          | 內容                                 |
-| --------------------------------------------------------------------------------------------- | ------------------------------------ |
-| [伝わるデザイン](https://tsutawarudesign.com/)                                                | 如何製作易閱讀、好觀看、無障礙的設計 |
-| [錯思コレクション 100](https://www.jumonji-u.ac.jp/sscs/ikeda/cognitive_bias/about.html)      | 100 種認知偏誤整理                   |
-| [西洋ファンタジー用語ナナメ読み辞典「Tiny Tales」](http://tinyangel.jog.client.jp/index.html) | 西洋奇幻作品的用語辭典               |
-
+- [伝わるデザイン｜研究発表のユニバーサルデザイン https://tsutawarudesign.com/]
 - [映像作家 100 人 MOTION GRAPHIC CREATORS](https://eizo100.jp/)
 - [MOTIONBOX](https://motion-box.net/)
 - [陽明雑記](https://toshi-y.at.webry.info/)
@@ -141,9 +128,6 @@ tags: [""]
   - 「夢中出現的奇妙單字」
 - [好きなラジオネーム 300 選 - kansou](https://www.kansou-blog.jp/entry/2021/11/11/200409)
   - 300 個依喜好挑選的電台聽眾名稱
-- [キャラ名とかハンドルネームとか考えるのに参考になりそうなサイト](https://name-site.net/)
-  - 取各式名稱時可參考的網站
-- [実在苗字の根拠](https://web.archive.org/web/20200609223515/https://myoujikonkyo.web.fc2.com/)
 - [あに瓶](https://anibin.blogspot.com/)
   - 檢證動畫原始製作尺寸的部落格
 - [日本アニメーション映画クラシックス](https://animation.filmarchives.jp/works)
@@ -160,8 +144,6 @@ tags: [""]
   - 動畫次回預告整理
 - [宮崎論目次](http://www.yk.rim.or.jp/~rst/rabo/miyazaki/m_mokuji.html)
   - 叶精二的宮崎駿作品評論、訪談
-- [萌え表現の不自由展 2019](https://anond.hatelabo.jp/20191021020100)
-  - 至 2019 曾發生過的「萌表現」相關事件
 - [映画学メモ 「映画学入門」　目次（これまで扱った分）](http://filmstudies.blog21.fc2.com/blog-entry-76.html)
   - 電影學入門筆記
 - [Tech Noir](https://technoir.nl/)
