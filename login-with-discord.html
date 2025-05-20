@@ -159,7 +159,7 @@ function handleClick() {
    document.getElementById("js-discord-button").addEventListener("click", handleClick);
    // 1. get code from url params
    const urlParams = new URLSearchParams(window.location.search);
-   if(urlParams.has("code")) { 
+   if(urlParams.has("code")) {
      // 2. post code to get token
      const clientSecret = "3c-TeN5NxElL4la8E6h5BlT4zDHigser";
      const apiUrl = 'https://discordapp.com/api/oauth2/token'
@@ -172,10 +172,10 @@ function handleClick() {
         'scope': scope
      }
      // put payload together
-     const formBody = 
+     const formBody =
      Object.keys(data)
-     .map(key => encodeURIComponent(key) 
-       + '=' 
+     .map(key => encodeURIComponent(key)
+       + '='
        + encodeURIComponent(data[key]))
      .join('&');
      // send post
