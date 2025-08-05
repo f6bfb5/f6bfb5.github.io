@@ -42,13 +42,13 @@ Markdown + 彈性路由
           },
       }));
   }
-  
+
   const {
       Content,
       frontmatter: { title },
   } = Astro.props;
   ---
-  
+
   <h1>{title}</h1>
   <Content />
   ```
@@ -62,13 +62,13 @@ Markdown + 彈性路由
 - 定義集合：`content/config.ts`
   ```javascript
   import { z, defineCollection } from 'astro:content';
-  
+
   const blogCollection = defineCollection({
       schema: z.object({
           title: z.string(),
           date: z.date(),
           summary: z.string(),
-          tags: z.array(z.string()),        
+          tags: z.array(z.string()),
       })
   });
   // 輸出名稱需與文件資料夾相同
@@ -79,7 +79,7 @@ Markdown + 彈性路由
 - `script/blog.ts`
   ```javascript
     import { getCollection } from 'astro:content';
-  
+
     export async function getAllBlogs() {
         const blogs = await getCollection('blog');
         return blogs
@@ -220,6 +220,17 @@ Alpine.js
     <button x-on:click="count++">Increment</button>
     <span x-text="count"></span>
 </div>
+
+SolidJS
+---
+
+- [@astrojs/solid-js | Docs](https://docs.astro.build/en/guides/integrations-guide/solid-js/)
+- `npx astro add solid`
+
+UI frameworks
+---
+
+- [Front-end frameworks | Docs](https://docs.astro.build/en/guides/framework-components/#using-framework-components)
 
 UnoCSS
 ---

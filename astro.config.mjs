@@ -4,6 +4,7 @@ import { defineConfig } from 'astro/config';
 // import robotsTxt from "astro-robots-txt";
 
 import alpinejs from "@astrojs/alpinejs";
+import solidJs from '@astrojs/solid-js';
 import UnoCSS from 'unocss/astro';
 import { externalLink } from './src/externalLink';
 // import mdx from "@astrojs/mdx";
@@ -16,6 +17,7 @@ export default defineConfig({
     // sitemap(),
     // robotsTxt(),
     alpinejs(),
+    solidJs(),
     UnoCSS(),
     // mdx(),
     // swup(),
